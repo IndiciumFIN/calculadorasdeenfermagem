@@ -1,14 +1,19 @@
-# Design System — Tokens Canônicos
+# Design System Canônico
 
-Todos os materiais (site, posts, PDFs, capas) devem usar exclusivamente os tokens definidos em `packages/design-system/tokens.json`.
+**Tokens oficiais** (não negociáveis):
 
-## Regras
+- Primária: `#1A3E74`
+- Primária média: `#1E4D8C`
+- Primária escura: `#163269`
 
-- Não criar paletas alternativas.
-- Gradientes institucionais usam apenas as cores primary documentadas.
-- Elementos decorativos (brilhos, partículas, redes) são opcionais e não fazem parte do padrão base.
-- Preferir clareza e espaço visual sobre efeitos tecnológicos.
+## Regras invioláveis
 
-## Uso
+1. Nenhum agente, IA ou designer pode criar paleta alternativa.
+2. Gradiente institucional só é usado quando a composição explicitamente o exigir.
+3. Fundo branco é perfeitamente institucional.
+4. Efeitos tecnológicos (partículas, brilhos, redes) não são obrigatórios e não fazem parte do padrão base.
+5. Todo material visual deve referenciar estes tokens.
 
-O Builder e os templates HTML/CSS devem referenciar esses tokens. Alterações no arquivo de tokens devem ser versionadas e regenerar assets quando necessário.
+## Uso no Builder
+
+Camadas decorativas são opcionais. O usuário pode montar composição limpa sem elas. Nenhuma camada pode sobrescrever as cores oficiais.
