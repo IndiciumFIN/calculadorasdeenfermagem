@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
+import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Calculadoras de Enfermagem',
-  description: 'Plataforma clínica de calculadoras, escalas e recursos baseados em evidências.',
+  description: 'Plataforma clínica de calculadoras e recursos baseados em evidências.',
 }
 
 export default function RootLayout({

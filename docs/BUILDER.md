@@ -1,21 +1,24 @@
 # Builder de Camadas Canônicas
 
-## Princípio
+## Status
 
-O Builder compõe peças a partir de uma biblioteca de camadas homologadas. Não depende de IA para recriar layouts. Tokens do design system são fixos.
+- Schema de composição definido (`packages/builder/composition.schema.json`).
+- Exemplo de composição (`packages/builder/example_composition.json`).
+- Preview React básico (`src/components/builder/CompositionPreview.tsx`).
+- Tokens oficiais aplicados via CSS variables.
 
-## Regras
+## Regras de consistência
 
-1. Toda composição referencia `designSystem: "ce_canonical"`.
-2. Camadas são opcionais. O usuário pode omitir qualquer uma que não seja obrigatória.
-3. Fundo branco é institucional. Gradiente só quando explicitamente escolhido.
-4. Nenhum agente pode alterar cores ou criar variantes fora dos tokens.
-5. Composição é definida em JSON (ver `packages/builder/composition.schema.json`).
+1. Toda composição deve declarar `"designSystem": "ce_canonical"`.
+2. Cores só podem vir dos tokens em `packages/design-system/tokens.json`.
+3. Camadas marcadas como `optional: true` podem ser omitidas pelo usuário.
+4. Fundo branco é institucional. Gradiente só se explicitamente escolhido.
+5. Nenhum agente ou IA pode criar paleta ou efeito fora do design system.
 
-## Formato
+## Como testar
 
-Ver exemplo em `packages/builder/example_composition.json`.
-
-## Uso futuro
-
-O front-end (ou ferramenta de renderização) lê o JSON e monta a peça usando os tokens. Não há chamada de IA na composição.
+```bash
+npm install
+npm run dev
+# Acessar /builder
+```
