@@ -8,6 +8,8 @@ from bs4 import BeautifulSoup
 from packages.cli.utils import aplicar_mascara, calcular_hash
 from packages.cli.auditor import auditar_omissao
 from packages.schemas.invariantes import AtomoBlindado
+from packages.cli.adapters.dou import fetch_dou_page
+from packages.cli.adapters.secundaria import fetch_secundaria
 
 app = typer.Typer(help="CLI canônica e blindada - Calculadoras de Enfermagem")
 
@@ -15,39 +17,45 @@ app = typer.Typer(help="CLI canônica e blindada - Calculadoras de Enfermagem")
 def ingest(
     source: str = typer.Option(..., "--source", "-s"),
     output: Path = typer.Option("data/raw.json", "--output", "-o"),
+    fonte: str = typer.Option("auto", "--fonte", help="auto | dou | secundaria"),
 ):
-    """Ingesta + máscara + hash."""
-    typer.echo(f"Ingerindo: {source}")
+    """Ingesta + máscara + hash. Suporta adapter DOU."""
+    typer.echo(f"Ingerindo: {source} (fonte={fonte})")
     
-    if source.startswith("http"):
-        resp = requests.get(source, timeout=30, headers={"User-Agent": "Mozilla/5.0 CE-CLI/1.1"})
-        resp.raise_for_status()
-        text = BeautifulSoup(resp.text, "html.parser").get_text(separator="\n", strip=True)
+    if fonte == "dou" or (fonte == "auto" and "in.gov.br" in source):
+        payload = fetch_dou_page(source)
+    elif fonte == "secundaria":
+        payload = fetch_secundaria(source)
     else:
-        path = Path(source)
-        if not path.exists():
-            typer.secho("Arquivo não encontrado", fg=typer.colors.RED)
-            raise typer.Exit(1)
-        text = path.read_text(encoding="utf-8")
-
-    texto_limpo = aplicar_mascara(text)
-    payload = {
-        "origem": source,
-        "texto_bruto_original": text[:30000],
-        "texto_sanitizado": texto_limpo[:30000],
-        "hash": calcular_hash(texto_limpo),
-        "data_ingestao": str(date.today())
-    }
+        # Fallback genérico
+        if source.startswith("http"):
+            resp = requests.get(source, timeout=30, headers={"User-Agent": "Mozilla/5.0 CE-CLI/1.1"})
+            resp.raise_for_status()
+            text = BeautifulSoup(resp.text, "html.parser").get_text(separator="\n", strip=True)
+        else:
+            path = Path(source)
+            if not path.exists():
+                typer.secho("Arquivo não encontrado", fg=typer.colors.RED)
+                raise typer.Exit(1)
+            text = path.read_text(encoding="utf-8")
+        texto_limpo = aplicar_mascara(text)
+        payload = {
+            "origem": source,
+            "fonte_tipo": "GENERICA",
+            "texto_sanitizado": texto_limpo[:30000],
+            "hash": calcular_hash(texto_limpo),
+            "data_ingestao": str(date.today())
+        }
     
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(payload, ensure_ascii=False, indent=2))
-    typer.secho(f"✓ Ingestão + máscara salva em {output}", fg=typer.colors.GREEN)
+    typer.secho(f"✓ Ingestão salva em {output} (tipo: {payload.get('fonte_tipo')})", fg=typer.colors.GREEN)
 
 @app.command()
 def process(
     input_file: Path = typer.Option(..., "--input", "-i"),
     output: Path = typer.Option("data/atomos.json", "--output", "-o"),
-    block_on_omission: bool = typer.Option(False, "--block-on-omission", help="Exit 2 se houver omissão crítica"),
+    block_on_omission: bool = typer.Option(False, "--block-on-omission"),
 ):
     """Gera átomos + auditoria de omissão."""
     data = json.loads(input_file.read_text())
@@ -66,31 +74,27 @@ def process(
                 "link_fonte": data.get("origem", "https://example.com"),
                 "status": "Vigente",
                 "data_verificacao": str(date.today()),
-                "versao_contrato": "1.1.0"
+                "versao_contrato": "1.1.0",
+                "fonte_tipo": data.get("fonte_tipo", "GENERICA")
             }
             audit = auditar_omissao(texto, atomo["texto_regra"])
             atomo["_auditoria"] = audit
             if audit["omissao_critica"]:
                 has_critical = True
-                typer.secho(f"⚠ Omissão detectada no átomo {atomo['id_atomo']}: {audit['numeros_omitidos']}", fg=typer.colors.YELLOW)
+                typer.secho(f"⚠ Omissão no {atomo['id_atomo']}", fg=typer.colors.YELLOW)
             atomos.append(atomo)
 
     output.write_text(json.dumps(atomos, ensure_ascii=False, indent=2))
-    typer.secho(f"✓ {len(atomos)} átomos gerados (com auditoria)", fg=typer.colors.GREEN)
-    
+    typer.secho(f"✓ {len(atomos)} átomos gerados", fg=typer.colors.GREEN)
     if block_on_omission and has_critical:
-        typer.secho("BLOCK: omissão crítica detectada. Use --block-on-omission=false para apenas avisar.", fg=typer.colors.RED)
         raise typer.Exit(2)
 
 @app.command()
-def validate(
-    input_file: Path = typer.Option(..., "--input", "-i"),
-):
-    """Valida com invariantes blindados."""
+def validate(input_file: Path = typer.Option(..., "--input", "-i")):
+    """Valida com invariantes."""
     data = json.loads(input_file.read_text())
     if isinstance(data, dict):
         data = [data]
-    
     validos = 0
     for item in data:
         item_limpo = {k: v for k, v in item.items() if not k.startswith('_')}
@@ -98,13 +102,10 @@ def validate(
             AtomoBlindado(**item_limpo)
             validos += 1
         except Exception as e:
-            typer.secho(f"✗ Rejeitado: {e}", fg=typer.colors.RED)
-    
-    if validos == len(data):
-        typer.secho(f"✓ Todos os {validos} átomos passaram nas invariantes", fg=typer.colors.GREEN)
-    else:
-        typer.secho(f"{validos}/{len(data)} válidos", fg=typer.colors.YELLOW)
+            typer.secho(f"✗ {e}", fg=typer.colors.RED)
+    if validos != len(data):
         raise typer.Exit(2)
+    typer.secho(f"✓ {validos} válidos", fg=typer.colors.GREEN)
 
 if __name__ == "__main__":
     app()
