@@ -1,37 +1,49 @@
 # Calculadoras de Enfermagem
 
-Plataforma clínica de calculadoras, escalas, simulados e recursos baseados em evidências.
+Plataforma clínica de calculadoras, escalas, simulados e recursos baseados em evidências — **canônica e governada por normas**.
 
-**Objetivo deste repositório**: acabar com o vibecoding. Estrutura limpa, tipada, documentada e governada para que qualquer alteração (humana ou de agente) seja compreensível, revisável e segura.
+## Objetivo
+
+Acabar com o caos de versões e vibecoding. Tudo nasce de fontes oficiais, vira átomo validado e alimenta o front de forma rastreável.
 
 ## Stack
 
-- **Frontend**: Next.js (App Router) + React + TypeScript (strict)
-- **UI**: Tailwind CSS + design system próprio (tokens)
-- **Backend / Dados**: Supabase (Postgres + Auth + Storage + RLS)
-- **CLI**: Typer (Python) para ingestão, validação e geração de docs
-- **Qualidade**: GitHub Actions (lint, type-check, schema validation)
-- **Deploy**: Vercel
+- Next.js + TypeScript + Tailwind
+- Supabase (Postgres + Auth + Storage + RLS)
+- CLI Python (Typer) para ingestão e validação
+- GitHub Actions
+- Design system com tokens fixos
 
-## Princípios
-
-1. Fonte única de verdade (schemas no código geram docs).
-2. Contratos de dados versionados.
-3. Normativos atômicos alimentam calculadoras via JSON paramétrico.
-4. Builder de camadas determinístico (sem recriar peças com IA).
-5. Validção em múltiplas camadas antes de publicar.
-
-## Começar
+## Como usar a CLI agora
 
 ```bash
-# Instalar dependências (depois de configurar package.json completo)
-npm install
+cd packages/cli
+pip install -r requirements.txt
 
-# Configurar Supabase
-cp .env.example .env.local
-# Preencher NEXT_PUBLIC_SUPABASE_URL e NEXT_PUBLIC_SUPABASE_ANON_KEY
+# Ingerir uma página ou arquivo
+python main.py ingest --source https://www.cofen.gov.br --output ../../data/raw.json
 
-npm run dev
+# Gerar átomos
+python main.py process --input ../../data/raw.json --output ../../data/atomos.json
+
+# Validar
+python main.py validate --input ../../data/atomos.json
 ```
 
-Ver `docs/ARCHITECTURE.md` para a visão completa.
+## Documentação essencial
+
+- [Arquitetura](docs/ARCHITECTURE.md)
+- [Pipeline](docs/PIPELINE.md)
+- [Governança](docs/GOVERNANCE.md)
+- [Design System](docs/DESIGN_SYSTEM.md)
+- [Builder](docs/BUILDER.md)
+- [Inventário](docs/INVENTORY.md)
+
+## Próximos passos
+
+1. Criar projeto Supabase e rodar a migration.
+2. Preencher `.env.local`.
+3. `npm install && npm run dev`.
+4. Começar a migrar calculadoras existentes para o modelo paramétrico.
+
+**Tudo que entra passa por validação. Nada é publicado sem contrato.**
