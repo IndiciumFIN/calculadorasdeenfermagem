@@ -1,49 +1,45 @@
 # Calculadoras de Enfermagem
 
-Plataforma clínica de calculadoras, escalas, simulados e recursos baseados em evidências — **canônica e governada por normas**.
+Fonte canônica de governança, contratos, schemas e pipeline para o projeto.
 
-## Objetivo
+## Princípio central
 
-Acabar com o caos de versões e vibecoding. Tudo nasce de fontes oficiais, vira átomo validado e alimenta o front de forma rastreável.
+**Git é a fonte da verdade.** Drive, conversas e agentes são subordinados. Nada entra no Supabase ou no site sem passar por validação e Registry.
 
-## Stack
+## Status atual do corpus (11/10/2026)
 
-- Next.js + TypeScript + Tailwind
-- Supabase (Postgres + Auth + Storage + RLS)
-- CLI Python (Typer) para ingestão e validação
-- GitHub Actions
-- Design system com tokens fixos
+- Base estrutural grande (~547k átomos em lotes anteriores)
+- Reconciliações parciais confirmadas (Anvisa 40k, CID, vacinas etc.)
+- Homologação clínica/normativa **ainda não concluída**
+- Drive desorganizado → precisa de inventário controlado
 
-## Como usar a CLI agora
+## Como começar a limpar
 
 ```bash
-cd packages/cli
-pip install -r requirements.txt
+# 1. Clonar o repo
+git clone https://github.com/IndiciumFIN/calculadorasdeenfermagem.git
+cd calculadorasdeenfermagem
 
-# Ingerir uma página ou arquivo
-python main.py ingest --source https://www.cofen.gov.br --output ../../data/raw.json
+# 2. Instalar CLI
+cd packages/cli && pip install -r requirements.txt && cd ../..
 
-# Gerar átomos
-python main.py process --input ../../data/raw.json --output ../../data/atomos.json
+# 3. Registrar um item no Registry local
+python packages/cli/registry.py add --id NORM-2026-001 --tipo normativo --origem https://www.cofen.gov.br --status bruto
 
-# Validar
-python main.py validate --input ../../data/atomos.json
+# 4. Ingerir e processar
+python packages/cli/main.py ingest --source URL --output data/raw.json
+python packages/cli/main.py process --input data/raw.json --output data/atomos.json
+python packages/cli/main.py validate --input data/atomos.json
 ```
 
-## Documentação essencial
+## Documentos importantes
 
-- [Arquitetura](docs/ARCHITECTURE.md)
-- [Pipeline](docs/PIPELINE.md)
-- [Governança](docs/GOVERNANCE.md)
-- [Design System](docs/DESIGN_SYSTEM.md)
-- [Builder](docs/BUILDER.md)
-- [Inventário](docs/INVENTORY.md)
+- [Contratos dos Agentes](docs/AGENTS.md)
+- [Registry Canônico](docs/REGISTRY.md)
+- [Controles Chave](docs/KEY_CONTROLS.md)
+- [Pipeline Blindado](docs/PIPELINE.md)
+- [Fontes Autorizadas](docs/SOURCES.md)
 
-## Próximos passos
+## Próximo passo prático
 
-1. Criar projeto Supabase e rodar a migration.
-2. Preencher `.env.local`.
-3. `npm install && npm run dev`.
-4. Começar a migrar calculadoras existentes para o modelo paramétrico.
-
-**Tudo que entra passa por validação. Nada é publicado sem contrato.**
+Criar projeto Supabase limpo, rodar as duas migrations e começar a popular o Registry com os itens mais críticos (Resolução 736/2024, escalas principais, calculadoras existentes).
