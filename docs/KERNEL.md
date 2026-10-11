@@ -1,18 +1,20 @@
-# Kernel (CLI) — Ponto Único de Execução
+# Kernel (CLI) — Executor de Políticas
 
-O Kernel é a CLI em `packages/cli/`.
+O Kernel **não pensa**. Ele só opera com base em políticas e contratos já definidos.
 
 ## O que ele faz
 
-- Recebe uma tarefa (comando + contrato).
-- Executa as etapas definidas (ingest, process, validate, registry).
-- Bloqueia se qualquer gate falhar.
+- Recebe um comando e um contrato.
+- Aplica as políticas codificadas (máscara, auditoria, invariantes, registry check).
+- Executa as etapas na ordem definida.
+- Retorna exit 0 ou exit 2 conforme as políticas.
 
 ## O que ele não faz
 
 - Não decide o que fazer.
-- Não altera identidade visual.
-- Não publica sem contrato e validação.
-- Não age por conta própria.
+- Não interpreta intenção.
+- Não cria política nova.
+- Não altera regras em tempo de execução.
+- Não publica sem que a política permita.
 
-Agentes e IAs podem propor ou preparar dados, mas só o Kernel escreve na fonte da verdade, e somente quando a tarefa estiver definida e os gates passarem.
+Políticas e contratos vivem em código e em arquivos versionados (`packages/schemas/`, `contracts/`, `docs/`). O Kernel apenas as executa.

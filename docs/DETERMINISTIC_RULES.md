@@ -1,32 +1,23 @@
 # Regras Determinísticas
 
-## Princípio fundamental
+## Princípio
 
-IA e agentes **não alteram** código, conteúdo, design system ou Registry por iniciativa própria.
+O Kernel não pensa. Ele só opera com base em políticas.
 
-Qualquer alteração só ocorre se:
+Qualquer ação só ocorre se:
 
-1. Existir uma **tarefa explícita** (contrato em `contracts/` ou comando CLI).
-2. O **Kernel** (CLI) executar a tarefa.
-3. Os **gates** (validate, invariantes, registry check) passarem.
+1. Existir uma **tarefa explícita** (contrato ou comando).
+2. A **política** permitir a operação.
+3. O Kernel executar exatamente o que a política define.
+4. Os gates retornarem exit 0.
 
-Se qualquer gate falhar, a execução para com exit 2. Nada é escrito na fonte da verdade.
+Se a política não autorizar ou se um gate falhar, a execução para. Nada é escrito.
 
-## O que AI_RULES.md do site significa aqui
+## Onde as políticas vivem
 
-O `AI_RULES.md` do repositório do site é referência histórica. Neste repositório, a regra é mais restritiva:
+- Schemas e invariantes: `packages/schemas/`
+- Contratos de tarefa: `contracts/`
+- Regras de fonte e design system: `docs/` e `packages/design-system/`
+- Código do Kernel: `packages/cli/`
 
-- Não há alteração sem tarefa.
-- Não há alteração sem Kernel.
-- Não há alteração sem validação.
-
-Agentes não "leem regras e decidem". Eles recebem um contrato e o Kernel executa ou bloqueia.
-
-## Exit codes
-
-| Código | Significado |
-|--------|-------------|
-| 0 | Todos os critérios obrigatórios atendidos |
-| 2 | Bloqueio (validação, registry, omissão, invariante) |
-
-Nenhum artefato chega ao Registry ou ao Supabase sem exit 0.
+Nenhuma política é criada ou alterada em tempo de execução. Tudo é versionado no Git.
