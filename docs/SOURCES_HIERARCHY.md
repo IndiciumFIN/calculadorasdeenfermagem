@@ -1,26 +1,25 @@
-# Hierarquia de Fontes — DOU como Primária
+# Hierarquia de Fontes Oficiais por Esfera
 
-## Fonte primária (fonte da verdade oficial)
+**Regra**: sempre consultar o diário oficial da esfera correspondente. Não existe uma única fonte primária para as três esferas.
 
-| Esfera | Fonte | URL base | Observação |
-|--------|-------|----------|-----------|
-| Federal | DOU / Imprensa Nacional | https://in.gov.br | Fonte oficial. Pode faltar anexo. |
-| Estadual | Diários oficiais estaduais | Variável | Quando publicado no DOU, prevalece o DOU. |
-| Municipal | Diários oficiais municipais | Variável | Idem. |
+## Fontes primárias por esfera
+
+| Esfera | Diário oficial | Observação |
+|--------|-----------------|-----------|
+| Federal | Diário Oficial da União (DOU) — in.gov.br | Fonte oficial federal. |
+| Estadual | Diário Oficial do Estado correspondente | Cada estado tem o seu. |
+| Municipal | Diário Oficial do Município correspondente | Cada município tem o seu (quando existe). |
 
 ## Fontes secundárias (apoio)
 
-| Fonte | Uso permitido | Proibição |
-|-------|---------------|-----------|
-| Planalto (planalto.gov.br) | Texto consolidado, anexos | Não substitui DOU |
-| Site do órgão emissor (COFEN, Anvisa etc.) | Texto oficial do órgão, anexos | Não substitui DOU |
-| Qualquer blog, Jusbrasil, resumo | Proibido | Nunca ingerir |
+- Portal do órgão emissor (ex.: site do COFEN, Anvisa, governo estadual).
+- Planalto (para consolidação federal).
+- Usadas apenas para cruzamento e recuperação de anexos.
 
-## Regra de divergência
+## Regras invioláveis
 
-Se o texto do DOU e o texto da fonte secundária divergirem:
-1. Registrar ambos com hash.
-2. Marcar status `divergencia` no Registry.
-3. Exigir revisão humana antes de qualquer uso em calculadora ou conteúdo.
-
-Nenhum agente ou IA decide qual prevalece.
+1. Identificar a esfera da norma antes de ingerir.
+2. Consultar o diário oficial daquela esfera.
+3. Se houver divergência entre o diário oficial e a fonte secundária do órgão, registrar ambas e marcar `divergencia`.
+4. Nenhum agente ou IA decide qual texto prevalece.
+5. Anexos podem estar ausentes no diário oficial — verificar na fonte do órgão.
