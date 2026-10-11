@@ -1,32 +1,21 @@
 # Builder de Camadas Canônicas
 
-## Conceito
+## Princípio
 
-O Builder permite composição livre de peças a partir de uma biblioteca de camadas homologadas.
-
-- Camadas são intercambiáveis.
-- Tokens do design system são fixos.
-- Usuário escolhe quais camadas usar, quais omitir e quais variantes.
-- Resultado é determinístico (sem recriação por IA).
-
-## Formato de composição (exemplo)
-
-```json
-{
-  "id": "CE-POST-001",
-  "version": "1.0.0",
-  "canvas": { "width": 1080, "height": 1350 },
-  "designSystem": "ce_institutional",
-  "layers": [
-    { "id": "background", "type": "shape", "variant": "gradient_official" },
-    { "id": "headline", "type": "text", "editable": true },
-    { "id": "logo", "type": "image", "locked": true }
-  ]
-}
-```
+O Builder compõe peças a partir de uma biblioteca de camadas homologadas. Não depende de IA para recriar layouts. Tokens do design system são fixos.
 
 ## Regras
 
-- Nunca promover peça não homologada a modelo canônico.
-- Separar aprovação técnica de aprovação estética/institucional.
-- Preferir fundos limpos quando o gradiente não for necessário.
+1. Toda composição referencia `designSystem: "ce_canonical"`.
+2. Camadas são opcionais. O usuário pode omitir qualquer uma que não seja obrigatória.
+3. Fundo branco é institucional. Gradiente só quando explicitamente escolhido.
+4. Nenhum agente pode alterar cores ou criar variantes fora dos tokens.
+5. Composição é definida em JSON (ver `packages/builder/composition.schema.json`).
+
+## Formato
+
+Ver exemplo em `packages/builder/example_composition.json`.
+
+## Uso futuro
+
+O front-end (ou ferramenta de renderização) lê o JSON e monta a peça usando os tokens. Não há chamada de IA na composição.
