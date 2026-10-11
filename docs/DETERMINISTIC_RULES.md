@@ -1,32 +1,32 @@
-# Regras Determinísticas do Projeto
+# Regras Determinísticas
 
-## Princípio
+## Princípio fundamental
 
-Exit code 0 só significa que **todos os critérios obrigatórios** da etapa foram atendidos.
-Qualquer artefato sem registro, qualquer omissão crítica ou qualquer invariante violada gera exit 2.
+IA e agentes **não alteram** código, conteúdo, design system ou Registry por iniciativa própria.
 
-## Combinações de comando obrigatórias
+Qualquer alteração só ocorre se:
 
-| Objetivo | Comando | Exit esperado se falhar |
-|----------|---------|-------------------------|
-| Ingerir | `python -m packages.cli.main ingest ...` | 1 ou 2 |
-| Processar | `python -m packages.cli.main process ...` | 2 se omissão crítica for tratada como bloqueio |
-| Validar | `python -m packages.cli.main validate ...` | 2 |
-| Pipeline completo | `python packages/cli/pipeline.py run --source ...` | 2 se qualquer gate falhar |
-| Verificar registry | Parte do pipeline | 2 se átomo sem registro |
+1. Existir uma **tarefa explícita** (contrato em `contracts/` ou comando CLI).
+2. O **Kernel** (CLI) executar a tarefa.
+3. Os **gates** (validate, invariantes, registry check) passarem.
 
-## Controles que identificam problemas
+Se qualquer gate falhar, a execução para com exit 2. Nada é escrito na fonte da verdade.
 
-1. **Máscara** — remove dados sensíveis antes de processar.
-2. **Auditoria de omissão** — marca números/prazos que sumiram.
-3. **Invariantes Pydantic** — rejeita formato, termos opinativos, fonte inválida.
-4. **Registry check** — bloqueia se existir átomo sem registro correspondente.
-5. **GitHub Actions** — roda compile + help + checagem de registry em todo push.
+## O que AI_RULES.md do site significa aqui
 
-## O que ainda não é 0% de erro
+O `AI_RULES.md` do repositório do site é referência histórica. Neste repositório, a regra é mais restritiva:
 
-- Extração semântica profunda (ainda é heurística simples).
-- Homologação clínica/normativa (exige humano).
-- Integração real com Drive (ainda não ligada).
+- Não há alteração sem tarefa.
+- Não há alteração sem Kernel.
+- Não há alteração sem validação.
 
-O que está garantido agora é que **nada avança silenciosamente** se faltar registro, se a validação falhar ou se o formato estiver errado.
+Agentes não "leem regras e decidem". Eles recebem um contrato e o Kernel executa ou bloqueia.
+
+## Exit codes
+
+| Código | Significado |
+|--------|-------------|
+| 0 | Todos os critérios obrigatórios atendidos |
+| 2 | Bloqueio (validação, registry, omissão, invariante) |
+
+Nenhum artefato chega ao Registry ou ao Supabase sem exit 0.

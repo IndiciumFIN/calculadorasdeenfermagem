@@ -1,22 +1,18 @@
-# Kernel (CLI) — Ponto Único de Entrada
+# Kernel (CLI) — Ponto Único de Execução
 
-O Kernel é a CLI em `packages/cli/`. Ele é o único caminho autorizado para que qualquer conteúdo (normativo, escala, conteúdo, conversa exportada) chegue ao Registry e, depois, ao Supabase.
+O Kernel é a CLI em `packages/cli/`.
 
-## Responsabilidades
+## O que ele faz
 
-1. Receber fonte (URL ou arquivo).
-2. Aplicar máscara/template de extração.
-3. Chamar o parser adequado (HTML, texto, futuro OCR/PDF).
-4. Gerar átomos com auditoria.
-5. Validar contra invariantes.
-6. Exigir registro no Registry antes de qualquer persistência.
+- Recebe uma tarefa (comando + contrato).
+- Executa as etapas definidas (ingest, process, validate, registry).
+- Bloqueia se qualquer gate falhar.
 
-## O que o Kernel não faz
+## O que ele não faz
 
-- Não publica diretamente.
-- Não decide status semântico final (Vigente/Revogado) sem evidência.
-- Não ignora falha de validação.
+- Não decide o que fazer.
+- Não altera identidade visual.
+- Não publica sem contrato e validação.
+- Não age por conta própria.
 
-## Extensão futura
-
-Novos adapters (OCR, PDF layout, APIs oficiais) devem ser chamados **por dentro** do Kernel, nunca como scripts soltos que escrevem direto no Supabase.
+Agentes e IAs podem propor ou preparar dados, mas só o Kernel escreve na fonte da verdade, e somente quando a tarefa estiver definida e os gates passarem.
