@@ -47,6 +47,7 @@ def ingest(
 def process(
     input_file: Path = typer.Option(..., "--input", "-i"),
     output: Path = typer.Option("data/atomos.json", "--output", "-o"),
+    block_on_omission: bool = typer.Option(False, "--block-on-omission", help="Exit 2 se houver omissão crítica"),
 ):
     """Gera átomos + auditoria de omissão."""
     data = json.loads(input_file.read_text())
@@ -54,6 +55,7 @@ def process(
     
     atomos = []
     linhas = [l.strip() for l in texto.split("\n") if len(l.strip()) > 40]
+    has_critical = False
     for i, linha in enumerate(linhas[:15]):
         if any(k in linha.lower() for k in ["art.", "artigo", "§", "inciso", "parágrafo"]):
             atomo = {
@@ -66,15 +68,19 @@ def process(
                 "data_verificacao": str(date.today()),
                 "versao_contrato": "1.1.0"
             }
-            # Auditoria de omissão
             audit = auditar_omissao(texto, atomo["texto_regra"])
             atomo["_auditoria"] = audit
             if audit["omissao_critica"]:
+                has_critical = True
                 typer.secho(f"⚠ Omissão detectada no átomo {atomo['id_atomo']}: {audit['numeros_omitidos']}", fg=typer.colors.YELLOW)
             atomos.append(atomo)
 
     output.write_text(json.dumps(atomos, ensure_ascii=False, indent=2))
     typer.secho(f"✓ {len(atomos)} átomos gerados (com auditoria)", fg=typer.colors.GREEN)
+    
+    if block_on_omission and has_critical:
+        typer.secho("BLOCK: omissão crítica detectada. Use --block-on-omission=false para apenas avisar.", fg=typer.colors.RED)
+        raise typer.Exit(2)
 
 @app.command()
 def validate(
@@ -87,7 +93,6 @@ def validate(
     
     validos = 0
     for item in data:
-        # Remove campo interno de auditoria antes de validar
         item_limpo = {k: v for k, v in item.items() if not k.startswith('_')}
         try:
             AtomoBlindado(**item_limpo)
