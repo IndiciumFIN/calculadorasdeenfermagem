@@ -1,0 +1,22 @@
+{
+  "versao": "1.0.0",
+  "regra": "Nenhum prompt é usado fora deste manifesto. Hash divergente bloqueia a execução (PEP).",
+  "temperatura_obrigatoria": 0,
+  "prompts": {
+    "extractor_v1": {
+      "arquivo": "prompts/extractor_v1.txt",
+      "sha256": "108cab9b04a24a75db8008674401d7b03df039329820ca52368a21acfadffbc1",
+      "uso": "extracao_atomos"
+    },
+    "auditor_v1": {
+      "arquivo": "prompts/auditor_v1.txt",
+      "sha256": "510b28f35365ddd61012f3077d3af58daf9d10a8b20b13d7965e67987768c5c8",
+      "uso": "auditoria_camada_2"
+    },
+    "template_extracao": {
+      "arquivo": "prompts/template_extracao.md",
+      "sha256": "b8450e2b69633a25cef9cbc0490252921142721787e74c9fb2ef25afef5d6a03",
+      "uso": "documentacao"
+    }
+  }
+}

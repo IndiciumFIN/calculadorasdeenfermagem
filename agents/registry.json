@@ -1,0 +1,31 @@
+{
+  "versao": "1.0.0",
+  "regra": "Agente fora deste registro, ou com recertificação vencida, não executa (PEP deny-by-default). Decisão histórica: agente corrigido exige recertificação antes de recuperar autoridade de execução.",
+  "agentes": {
+    "AGT-EXTRATOR-001": {
+      "funcao": "Extração literal de fontes oficiais",
+      "prompts_permitidos": ["extractor_v1"],
+      "modelos_permitidos": ["mock:echo-v1"],
+      "acoes_permitidas": ["extracao_atomos"],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "vigente",
+        "valido_ate": "2027-04-14",
+        "evidencia": "Bootstrap do harness nesta mudança; recertificar após primeiro ciclo real de reperformance."
+      }
+    },
+    "AGT-AUDITOR-001": {
+      "funcao": "Auditoria camada 2 (confrontação com a fonte)",
+      "prompts_permitidos": ["auditor_v1"],
+      "modelos_permitidos": ["mock:echo-v1"],
+      "acoes_permitidas": ["auditoria_camada_2"],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "vigente",
+        "valido_ate": "2027-04-14",
+        "evidencia": "Bootstrap do harness nesta mudança; recertificar após primeiro ciclo real de reperformance."
+      }
+    }
+  },
+  "nota_modelos": "Nenhum modelo real está autorizado ainda: a allowlist contém apenas mock:echo-v1 (promotable=false) até que um model_id real seja aprovado por decisão humana registrada e as chaves sejam configuradas como secrets. Adicionar um modelo real requer PR revisado (CODEOWNERS)."
+}
