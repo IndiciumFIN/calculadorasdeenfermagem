@@ -1,11 +1,11 @@
 {
-  "versao": "1.0.0",
+  "versao": "1.1.0",
   "regra": "Agente fora deste registro, ou com recertificação vencida, não executa (PEP deny-by-default). Decisão histórica: agente corrigido exige recertificação antes de recuperar autoridade de execução.",
   "agentes": {
     "AGT-EXTRATOR-001": {
       "funcao": "Extração literal de fontes oficiais",
       "prompts_permitidos": ["extractor_v1"],
-      "modelos_permitidos": ["mock:echo-v1"],
+      "modelos_permitidos": ["mock:echo-v1", "deepseek:deepseek-chat"],
       "acoes_permitidas": ["extracao_atomos"],
       "saida_estagio": "raw",
       "recertificacao": {
@@ -17,7 +17,7 @@
     "AGT-AUDITOR-001": {
       "funcao": "Auditoria camada 2 (confrontação com a fonte)",
       "prompts_permitidos": ["auditor_v1"],
-      "modelos_permitidos": ["mock:echo-v1"],
+      "modelos_permitidos": ["mock:echo-v1", "deepseek:deepseek-chat"],
       "acoes_permitidas": ["auditoria_camada_2"],
       "saida_estagio": "raw",
       "recertificacao": {
@@ -27,5 +27,5 @@
       }
     }
   },
-  "nota_modelos": "Nenhum modelo real está autorizado ainda: a allowlist contém apenas mock:echo-v1 (promotable=false) até que um model_id real seja aprovado por decisão humana registrada e as chaves sejam configuradas como secrets. Adicionar um modelo real requer PR revisado (CODEOWNERS)."
+  "nota_modelos": "Modelo real autorizado: deepseek:deepseek-chat, roteado EXCLUSIVAMENTE pelo gateway governado no Supabase (Edge Function cko-deepseek-gateway, ver config/providers.json). Decisão humana registrada: instrução do mantenedor em 14/10/2026 ('usar o DeepSeek API do Supabase'). A chave DEEPSEEK_API_KEY vive apenas como secret das Edge Functions no Supabase; o runner usa o token do projeto via CE_SUPABASE_ANON_KEY. mock:echo-v1 permanece (promotable=false) para teste do harness. Adicionar outro modelo requer PR revisado (CODEOWNERS)."
 }

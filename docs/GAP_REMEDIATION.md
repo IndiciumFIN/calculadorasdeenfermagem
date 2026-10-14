@@ -38,7 +38,8 @@ revisão; todos os reproduzíveis viraram testes de regressão permanentes em
 | GOV-001 | Ativar branch protection na `main`: exigir o check **Gate Agregador / aggregate**, exigir review de code owner e proibir push direto/force-push | Admin do repositório |
 | GAP-04 | Configurar secrets `SUPABASE_URL` e `SUPABASE_ANON_KEY` e acoplar `sync-check.yml` ao pipeline de deploy do site (hoje é `workflow_dispatch`, fail-closed sem secrets) | Admin + TEC |
 | Migration | Revisar e aplicar `supabase/migrations/20261014000000_governance_fixes.sql` no projeto Supabase (remove default `Vigente` e restringe RLS). O arquivo está versionado, mas **não aplicado** | Admin do Supabase |
-| Modelos reais | Autorizar um `model_id` real em `agents/registry.json` via PR revisado e configurar a API key como secret; até lá só existe `mock:echo-v1` (não promovível) | Governança de IA |
+| Modelos reais | ~~Autorizar um `model_id` real~~ **Feito**: `deepseek:deepseek-chat` autorizado via gateway Supabase (ver seção abaixo). Falta apenas definir o secret `DEEPSEEK_API_KEY` nas Edge Functions do Supabase | Governança de IA |
+| DeepSeek secret | Definir `DEEPSEEK_API_KEY` nas Edge Functions do Supabase (Dashboard → Edge Functions → Secrets, ou `supabase secrets set DEEPSEEK_API_KEY=...`). Sem ele, o gateway responde `503 deepseek_secret_missing` e o runner falha fechado (exit 2) — comportamento verificado contra o gateway real | Admin do Supabase |
 
 ## Decisões de política registradas nesta mudança
 
@@ -50,3 +51,28 @@ revisão; todos os reproduzíveis viraram testes de regressão permanentes em
    `promotable=false` e existe exclusivamente para testar o harness.
 3. `docs/` permanece descritivo nesta fase; a conversão de regras em
    policy-as-code (plano v0.1.x) segue pendente de aprovação do plano.
+
+## Provider real: DeepSeek via Supabase (14/10/2026)
+
+Decisão humana registrada: instrução do mantenedor nesta data para usar a
+API do DeepSeek através do Supabase. Implementação:
+
+- **Rota única**: `deepseek:deepseek-chat` roteia exclusivamente pela Edge
+  Function `cko-deepseek-gateway` do projeto Supabase (endpoint pinado em
+  `config/providers.json`). O runner nunca fala direto com `api.deepseek.com`
+  e nunca vê a chave do provider.
+- **Segredos**: a chave `DEEPSEEK_API_KEY` vive SOMENTE como secret das Edge
+  Functions no Supabase. O runner local/CI usa apenas o token do projeto via
+  variável de ambiente `CE_SUPABASE_ANON_KEY` (o gateway exige JWT,
+  `verify_jwt=true`). Nenhum segredo no repositório (gate de secrets PASS).
+- **Determinismo**: o runner envia `temperature: 0` explícito; o PEP continua
+  exigindo Work Order, prompt com hash conferido e modelo pinado na allowlist
+  do agente (`agents/registry.json` v1.1.0).
+- **Fail-closed verificado contra o gateway real**: com o secret ausente no
+  Supabase, o gateway responde `503 deepseek_secret_missing` e o runner
+  termina com exit 2 (evidência no PR). TLS obrigatório; gateway `http://`
+  só em `127.0.0.1` com `CE_ALLOW_TEST_GATEWAY=1` (teste do harness).
+- **Testes**: `tests/test_deepseek_provider.py` (5 casos) cobre credencial
+  ausente, secret ausente no Supabase, TLS obrigatório, modelo não pinado e
+  caminho feliz com manifesto (`provider_meta`, `promotable=true`,
+  `estagio=raw`).

@@ -12,12 +12,18 @@ qualquer perímetro de controle. Regras:
   evidência: hashes de prompt, input e output, model_id e provider.
 - Fail-closed: qualquer verificação ausente ou divergente termina com exit 2.
 
-Providers: model_id usa prefixo 'anthropic:', 'openai:' ou 'mock:'. O provider
-mock só roda com CE_ALLOW_MOCK=1, grava provider='mock' e promotable=false —
-existe para testar o harness, nunca para produzir conteúdo promovível.
+Providers: model_id usa prefixo 'deepseek:', 'anthropic:', 'openai:' ou 'mock:'.
+- 'deepseek:*' roteia pelo gateway governado no Supabase (Edge Function
+  cko-deepseek-gateway, config/providers.json). A chave do DeepSeek vive só
+  como secret no Supabase; o runner usa apenas o token do projeto via env.
+- O provider mock só roda com CE_ALLOW_MOCK=1, grava provider='mock' e
+  promotable=false — existe para testar o harness, nunca para produzir
+  conteúdo promovível.
 """
 import json
 import os
+import urllib.error
+import urllib.request
 from datetime import date, datetime, timezone
 from pathlib import Path
 
@@ -34,6 +40,7 @@ def _callback():
 
 AGENTS_REGISTRY = Path("agents/registry.json")
 PROMPTS_MANIFEST = Path("prompts/manifest.json")
+PROVIDERS_CONFIG = Path("config/providers.json")
 OUTPUT_ROOT = Path("data/raw_llm")
 
 CAMPOS_WO = [
@@ -114,8 +121,90 @@ def _pep_check(wo: dict) -> dict:
     }
 
 
-def _chamar_provider(model_id: str, prompt: str, entrada: str) -> tuple[str, str, bool]:
-    """Retorna (saida, provider, promotable)."""
+def _chamar_deepseek_via_supabase(model_id: str, prompt: str, entrada: str) -> tuple[str, str, bool, dict]:
+    """Chama o DeepSeek através do gateway governado no Supabase (fail-closed).
+
+    O gateway (Edge Function cko-deepseek-gateway) guarda a chave real do
+    DeepSeek como secret no Supabase e repassa a chamada para
+    api.deepseek.com. O runner nunca vê a chave do provider.
+    """
+    config = _load_json(PROVIDERS_CONFIG, "Config de providers")
+    prov = config.get("providers", {}).get("deepseek_via_supabase")
+    if prov is None:
+        _fail("provider 'deepseek_via_supabase' ausente de config/providers.json")
+
+    modelo = model_id.split(":", 1)[1]
+    if modelo not in prov.get("modelos_suportados", []):
+        _fail(f"modelo '{modelo}' fora de modelos_suportados em config/providers.json")
+
+    url = prov.get("gateway_url", "")
+    if url.startswith("http://"):
+        if not (url.startswith("http://127.0.0.1") and os.environ.get("CE_ALLOW_TEST_GATEWAY") == "1"):
+            _fail("gateway sem TLS só é permitido em 127.0.0.1 com CE_ALLOW_TEST_GATEWAY=1 (teste do harness)")
+    elif not url.startswith("https://"):
+        _fail(f"gateway_url inválida em config/providers.json: '{url}'")
+
+    env_auth = prov.get("env_auth", "CE_SUPABASE_ANON_KEY")
+    token = os.environ.get(env_auth, "").strip()
+    if not token:
+        _fail(
+            f"credencial ausente: defina {env_auth} com o token do projeto Supabase "
+            "(a chave do DeepSeek fica APENAS no secret DEEPSEEK_API_KEY das Edge Functions)"
+        )
+
+    payload = {
+        "model": modelo,
+        "temperature": 0,
+        "messages": [
+            {"role": "system", "content": prompt},
+            {"role": "user", "content": entrada},
+        ],
+    }
+    req = urllib.request.Request(
+        url,
+        data=json.dumps(payload, ensure_ascii=False).encode("utf-8"),
+        headers={
+            "content-type": "application/json",
+            "authorization": f"Bearer {token}",
+        },
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=prov.get("timeout_s", 120)) as resp:
+            bruto = resp.read().decode("utf-8")
+    except urllib.error.HTTPError as exc:
+        detalhe = exc.read().decode("utf-8", errors="replace")[:500]
+        _fail(f"gateway DeepSeek respondeu HTTP {exc.code} (fail-closed): {detalhe}")
+    except (urllib.error.URLError, TimeoutError, OSError) as exc:
+        _fail(f"falha de rede ao chamar o gateway DeepSeek (fail-closed): {exc}")
+
+    try:
+        corpo = json.loads(bruto)
+    except json.JSONDecodeError:
+        _fail("resposta do gateway DeepSeek não é JSON válido (fail-closed)")
+    if corpo.get("ok") is not True:
+        _fail(f"gateway DeepSeek sinalizou erro (fail-closed): {json.dumps(corpo, ensure_ascii=False)[:500]}")
+    if corpo.get("model") != modelo:
+        _fail(f"gateway respondeu com modelo '{corpo.get('model')}' diferente do pinado '{modelo}' (fail-closed)")
+
+    result = corpo.get("result") or {}
+    choices = result.get("choices") or []
+    mensagem = (choices[0].get("message") or {}) if choices else {}
+    conteudo = mensagem.get("content")
+    if not conteudo or not str(conteudo).strip():
+        _fail("resposta do gateway DeepSeek sem conteúdo (fail-closed)")
+
+    meta = {
+        "gateway_url": url,
+        "modelo_retornado": corpo.get("model"),
+        "deepseek_request_id": result.get("id"),
+        "usage": result.get("usage"),
+    }
+    return str(conteudo), "deepseek_via_supabase", True, meta
+
+
+def _chamar_provider(model_id: str, prompt: str, entrada: str) -> tuple[str, str, bool, dict]:
+    """Retorna (saida, provider, promotable, provider_meta)."""
     if model_id.startswith("mock:"):
         if os.environ.get("CE_ALLOW_MOCK") != "1":
             _fail("provider mock exige CE_ALLOW_MOCK=1 (uso restrito a teste do harness)")
@@ -125,7 +214,10 @@ def _chamar_provider(model_id: str, prompt: str, entrada: str) -> tuple[str, str
             "echo_prompt_sha256": calcular_hash(prompt),
             "echo_input_sha256": calcular_hash(entrada),
         }, ensure_ascii=False)
-        return saida, "mock", False
+        return saida, "mock", False, {}
+
+    if model_id.startswith("deepseek:"):
+        return _chamar_deepseek_via_supabase(model_id, prompt, entrada)
 
     if model_id.startswith("anthropic:"):
         _fail(
@@ -152,7 +244,7 @@ def run(work_order: Path = typer.Option(..., "--work-order", "-w")):
     prompt = refs["prompt_path"].read_text(encoding="utf-8")
     entrada = refs["input_path"].read_text(encoding="utf-8")
 
-    saida, provider, promotable = _chamar_provider(wo["model_id"], prompt, entrada)
+    saida, provider, promotable, provider_meta = _chamar_provider(wo["model_id"], prompt, entrada)
 
     out_dir = OUTPUT_ROOT / wo["id"]
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -173,6 +265,7 @@ def run(work_order: Path = typer.Option(..., "--work-order", "-w")):
         "authorized_by": wo["authorized_by"],
         "estagio": "raw",
         "promotable": promotable,
+        "provider_meta": provider_meta,
         "executado_em": datetime.now(timezone.utc).isoformat(),
     }
     (out_dir / "manifest.json").write_text(

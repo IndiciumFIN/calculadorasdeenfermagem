@@ -1,0 +1,13 @@
+{
+  "id": "WO-DEEPSEEK-EXEMPLO-001",
+  "agent_id": "AGT-EXTRATOR-001",
+  "task_type": "extracao_atomos",
+  "prompt_id": "extractor_v1",
+  "prompt_sha256": "108cab9b04a24a75db8008674401d7b03df039329820ca52368a21acfadffbc1",
+  "model_id": "deepseek:deepseek-chat",
+  "temperature": 0,
+  "input_file": "contracts/fixtures/raw_amostra.json",
+  "input_sha256": "50164d0ffef92735925ed18197cb3832d2c600dd879a13aa31eab92e9d2f2752",
+  "authorized_by": "exemplo — substituir pela identidade humana autorizadora",
+  "nota": "Work Order de exemplo do provider real deepseek:deepseek-chat via gateway Supabase (cko-deepseek-gateway). Exige CE_SUPABASE_ANON_KEY no ambiente e o secret DEEPSEEK_API_KEY configurado nas Edge Functions do Supabase; sem qualquer um dos dois, o runner falha fechado (exit 2)."
+}
