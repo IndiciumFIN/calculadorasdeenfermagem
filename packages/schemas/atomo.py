@@ -1,26 +1,13 @@
-from pydantic import BaseModel, Field, HttpUrl
-from typing import Optional, Literal
-from datetime import date
+"""
+Contrato de átomo normativo.
 
-class AtomoNormativo(BaseModel):
-    id_atomo: str = Field(..., pattern=r"^NORM-\d{4}-\d+")
-    texto_regra: str = Field(..., max_length=500)
-    dispositivo_legal: str
-    norma_origem: str
-    link_fonte: HttpUrl
-    status: Literal["Vigente", "Alterado", "Revogado", "Sob discussão"]
-    data_verificacao: date
-    versao_contrato: str = "1.0.0"
+Este módulo existia com um contrato divergente do de invariantes.py
+(max_length, versão e validações diferentes — achado GOV-008). Agora há um
+único contrato canônico: AtomoBlindado. O nome AtomoNormativo é mantido
+apenas como alias de compatibilidade e não deve ser usado em código novo.
+"""
+from packages.schemas.invariantes import VERSAO_CONTRATO, AtomoBlindado
 
-    class Config:
-        json_schema_extra = {
-            "example": {
-                "id_atomo": "NORM-2026-001",
-                "texto_regra": "Exemplo de regra atômica.",
-                "dispositivo_legal": "Art. 1º",
-                "norma_origem": "Resolução COFEN 736/2024",
-                "link_fonte": "https://www.cofen.gov.br",
-                "status": "Vigente",
-                "data_verificacao": "2026-10-11"
-            }
-        }
+AtomoNormativo = AtomoBlindado
+
+__all__ = ["AtomoBlindado", "AtomoNormativo", "VERSAO_CONTRATO"]
