@@ -1,25 +1,39 @@
 # Pipeline Blindado
 
 ```bash
-# 1. Ingestão com máscara
-python packages/cli/main.py ingest --source URL_OU_ARQUIVO --output data/raw.json
+# 1. Ingestão com allowlist de fontes, máscara auditável e hash duplo
+python packages/cli/main.py ingest --source URL_OFICIAL_OU_ARQUIVO --output data/raw.json
 
-# 2. Processamento + auditoria de omissão
+# 2. Processamento (todas as linhas; omissão crítica bloqueia por padrão)
 python packages/cli/main.py process --input data/raw.json --output data/atomos.json
 
-# 3. Validação com invariantes (exit 2 se falhar)
+# 3. Validação fail-closed (exit 2 para corpus vazio, omissão ou invariante)
 python packages/cli/main.py validate --input data/atomos.json
 ```
 
 ## Controles ativos
 
-- Máscara de CPF, telefone e marcas d'água.
-- Auditoria de números/prazos omitidos.
-- Invariantes: termos opinativos proibidos, fonte obrigatória se vigente, tamanho mínimo.
-- Exit code 2 em falha de validação (ideal para CI).
+- Allowlist de domínios oficiais: fora dela, `REFERENCE_ONLY` bloqueia a extração.
+- Proveniência: original bruto preservado em `data/sources/` com `sha256_original`,
+  `sha256_transformado` e diff da máscara (CPF, telefone, marcas d'água).
+- Auditoria de omissão por átomo (contra a linha de origem) e por corpus
+  (números do documento ausentes dos átomos). Bloqueia por padrão.
+- Invariantes do contrato v1.2.0: `extra='forbid'`, termos opinativos proibidos,
+  placeholder de fonte proibido, `Vigente` exige evidência e domínio oficial.
+- Status inicial sempre `Não verificado` — vigência nunca é atribuída na extração.
+- Exit code 2 em qualquer falha (fail-closed; corpus vazio não é sucesso).
 
-## Próximo nível de blindagem
+## Execução de LLM
 
-- Camada 2 de auditoria com segundo modelo (prompt de confrontação).
-- Publicação no Supabase só se validação passar.
-- Geração automática do dicionário a partir do schema.
+Toda chamada de modelo passa pela porta única `packages/cli/llm_runner.py`,
+com Work Order pré-autorizada, prompt com hash conferido em
+`prompts/manifest.json`, `model_id` pinado na allowlist do agente
+(`agents/registry.json`), temperatura 0 e recertificação vigente. A saída
+aterrissa em `data/raw_llm/` como candidata (estágio raw), nunca direto no corpus.
+
+## Gates de CI
+
+O workflow `gate.yml` executa `gates/aggregate.sh` — único check que deve ser
+obrigatório no branch protection. Nenhum gate é opcional; falha, ausência ou
+não execução reprovam. Ver `docs/GAP_REMEDIATION.md` para a rastreabilidade
+completa e as ações manuais pendentes.
