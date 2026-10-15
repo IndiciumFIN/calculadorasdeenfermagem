@@ -9,8 +9,10 @@
     "mesmo_sha256": "1TGlZOi_vzZqFFTwkbZ04Abs5UX4x367b"
   },
   "planilha_sha256": "ae83c4fd127376d6151c4deddd44f26d253c3dec82a45547210be5c8c6e7b419",
-  "regra": "Somente os 105 controles. A norma fica em metadados: framework, código e checkpoints. O enunciado normativo que acompanhava o desenho dos 75 modelos COSO foi omitido. Os dois zips permanecem no Drive.",
+  "regra": "105 controles e 108 agentes. A norma fica em metadados. A regra do agente foi derivada para operar sobre código e controle; o enunciado oficial não fica armazenado. Nenhum agente GRC está vigente. Os dois zips permanecem no Drive.",
   "controles": 105,
   "modelos_coso": 75,
-  "controles_cko": 30
+  "controles_cko": 30,
+  "agentes": 108,
+  "recertificacao": "candidato"
 }

@@ -12,8 +12,13 @@ def _json(nome):
     return json.loads((GRC / nome).read_text(encoding="utf-8"))
 
 
-def test_recorte_tem_so_os_tres_arquivos():
-    assert sorted(p.name for p in GRC.iterdir()) == ["controles.json", "normas.json", "origem.json"]
+def test_recorte_tem_os_arquivos_publicos():
+    assert sorted(p.name for p in GRC.iterdir()) == [
+        "agentes.json",
+        "controles.json",
+        "normas.json",
+        "origem.json",
+    ]
 
 
 def test_controles_conservam_o_modelo_e_omitem_o_enunciado_da_norma():
@@ -61,6 +66,40 @@ def test_norma_publica_so_tem_metadados():
     assert "practice" not in texto
 
 
+def test_agentes_entram_como_candidato_sem_enunciado():
+    agentes = _json("agentes.json")
+    assert len(agentes) == 108
+    principios = [a for a in agentes if a["kind"] == "principio"]
+    assert len(principios) == 37
+    texto = json.dumps(agentes, ensure_ascii=False)
+    assert "· Princípio" not in texto
+    assert "· Componente" not in texto
+    for item in agentes:
+        assert item["status"] == "CANDIDATE_NOT_HOMOLOGATED"
+        assert item["enunciado_oficial_armazenado"] is False
+        assert item["may_change_status"] is False
+        assert item["may_approve_work_order"] is False
+        assert item["may_execute_correction"] is False
+        assert "WRITE_CANONICAL_STATE" in item["forbidden_effects"]
+    for item in principios:
+        assert item["controles"]
+        assert item["norma"]["nivel"] == "METADADOS"
+        assert re.fullmatch(r"(ICIF|ERM)-\d{2}", item["norma"]["codigo"])
+        assert item["norma"]["codigo"] in item["regra"]
+    registro = json.loads((REPO / "agents" / "registry.json").read_text(encoding="utf-8"))
+    vigentes = [
+        aid
+        for aid, item in registro["agentes"].items()
+        if item["recertificacao"]["status"] == "vigente"
+    ]
+    assert vigentes == ["AGT-EXTRATOR-001", "AGT-AUDITOR-001"]
+    for item in agentes:
+        reg = registro["agentes"][item["agent_id"]]
+        assert reg["recertificacao"]["status"] == "candidato"
+        assert reg["acoes_permitidas"] == ["diagnostico"]
+        assert reg["funcao"] == item["regra"]
+
+
 def test_origem_aponta_para_o_zip_e_deixa_o_drive_no_lugar():
     origem = _json("origem.json")
     assert origem["estado"] == "CANDIDATE_NOT_HOMOLOGATED"
@@ -68,3 +107,5 @@ def test_origem_aponta_para_o_zip_e_deixa_o_drive_no_lugar():
     assert origem["fonte"]["sha256"] == "f6bb4f7ae382e260233846571427abf69d0ccda8ac278b4ba64fc83dd2babb65"
     assert origem["fonte"]["bytes"] == 289541
     assert origem["fonte"]["id_origem"] == "1wBohCXFLZbRIk9mhMBCMWFQq50Q1NWLv"
+    assert origem["agentes"] == 108
+    assert origem["recertificacao"] == "candidato"
