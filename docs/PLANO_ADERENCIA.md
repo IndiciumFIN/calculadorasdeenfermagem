@@ -24,17 +24,19 @@ Cada lote passou por `obter`, `atomizar`, `validar` e `retirar`. Classe `REFEREN
 
 A decisão de volume para arquivo a partir de 50.000.000 bytes é fracionar em partes de 40.000.000 bytes. O arquivo inteiro não entra no Git. A concatenação das partes precisa repetir o SHA-256 lido no `obter`. Cinco JSON passaram por isso e a releitura devolveu ausência: preços CMED, NDC, USDA SR Legacy, produtos para saúde da Anvisa e CATMAT das classes 6510, 6515, 6530 e 6532. Os sete arquivos de `suprimentos` abaixo do limite também foram copiados inteiros e a origem está ausente.
 
-`protocolos_enfermagem` não começou: é ato, sem extrator, e o PDF clínico não entra no Git público.
+A raiz da extração bruta fechou em 18 pastas e um zip de controle. Todas foram consideradas. `protocolos_enfermagem` é ato, sem extrator, e o PDF clínico não entra no Git público. As pastas `raw` e as cascas dos temas permanecem. O zip `CKO_CURSOR_00_CONTROLE` é controle de análise de PDF clínico e permanece no Drive.
 
-Pastas ainda sem lote completo: `revisao`, `atomizado`, `protocolos_enfermagem`, `raw`, `dispositivos`. A raiz de `revisao` e os oito arquivos na raiz de `atomizado` têm listagem fechada e ainda não têm lote. A listagem de `dispositivos` ainda tem página seguinte; o JSON grande dessa pasta já foi fracionado.
+`dispositivos` fechou a listagem de arquivos. Os três abaixo de 50 MB foram copiados; o JSON grande já estava fracionado. A subpasta `raw` permanece. Os oito arquivos da raiz de `atomizado` e seis documentos de `revisao` foram copiados, com zero átomos. Sete tabelas clínicas transcritas de `revisao` permanecem no Drive.
 
-A barra da listagem fechada está em `data/legado/progresso_drive.json`: 126 de 147 arquivos, 86%.
+O manifesto de `atomizado/mesh` repete o SHA-256 dos quatro arquivos MeSH já implantados. O `descritor_mesh.jsonl` é árvore derivada, não a mesma cópia, e não foi descartado.
+
+A barra do que pode entrar, com listagem fechada, está em `data/legado/progresso_drive.json`: 144 de 144. Isso não é 100% do Drive.
 
 ## Onda 2 — duplicidade por hash
 
 Nome e tamanho iguais não são identidade. Conteúdo idêntico em caminhos diferentes é uma cópia, registrada uma vez. O mesmo nome com hashes diferentes não tem lado escolhido e não sai do Drive.
 
-`atomizado` só entra em comparação arquivo a arquivo com as cópias já versionadas. A árvore COFEN tem 249 pares de mesmo nome e tamanho entre `FEDERAL/COFEN` e `NORMATIVOS/FEDERAL/COFEN`; os dois hashes precisam existir antes de qualquer descarte. Os 336 conflitos do legado continuam sem fusão.
+`atomizado/mesh` já teve a comparação: os hashes de origem conferem com a cópia implantada e o jsonl derivado permanece. As outras pastas filhas de `atomizado` ainda precisam dessa comparação, arquivo a arquivo. A árvore COFEN tem 249 pares de mesmo nome e tamanho entre `FEDERAL/COFEN` e `NORMATIVOS/FEDERAL/COFEN`; os dois hashes precisam existir antes de qualquer descarte. Os 336 conflitos do legado continuam sem fusão.
 
 ## Onda 3 — lote de referência
 

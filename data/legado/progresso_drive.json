@@ -1,47 +1,49 @@
 {
-  "verificado_em": "2026-10-15T06:46:30Z",
-  "barra": "Extração bruta, listagem fechada",
-  "feitos": 126,
-  "total": 147,
-  "percentual": 85.7,
-  "desenho": "[█████████████████░░░]",
-  "conta": {
-    "implantados_na_listagem_fechada": 126,
-    "revisao_raiz_sem_lote": 13,
-    "atomizado_raiz_sem_lote": 8,
-    "json_grande_de_dispositivos_fora_da_barra": 1
+  "verificado_em": "2026-10-15T07:15:03Z",
+  "barra_autorizada": {
+    "nome": "Extração bruta, listagem fechada, entrada autorizada",
+    "feitos": 144,
+    "total": 144,
+    "percentual": 100.0,
+    "desenho": "[████████████████████]",
+    "nota": "Cem por cento deste recorte. Não é cem por cento do Drive."
   },
-  "revisao_raiz": [
-    "REVISAO_TABELAS_TRANSCRITAS.xlsx",
-    "VERIFICAR_V2_2026-10-10_execucao2.txt",
-    "README_REVISAO.md",
-    "RECONFERENCIA_CORRECOES_2026-10-10.json",
-    "resumo.json",
-    "SHA256SUMS.txt",
-    "revisar.py",
-    "revisao_PA_DBHA2020.csv",
-    "revisao_NEWS2_risco.csv",
-    "revisao_qSOFA.csv",
-    "revisao_definicoes_sepsis3.csv",
-    "revisao_SOFA.csv",
-    "revisao_NEWS2_pontos.csv"
+  "pastas_da_raiz": [
+    {"titulo": "cid10", "considerada": true, "arquivos": "implantados", "permanece": "casca da pasta"},
+    {"titulo": "ferimentos", "considerada": true, "arquivos": "implantados", "permanece": "casca da pasta"},
+    {"titulo": "medlineplus", "considerada": true, "arquivos": "implantados", "permanece": "casca da pasta"},
+    {"titulo": "sepse", "considerada": true, "arquivos": "implantados", "permanece": "casca da pasta"},
+    {"titulo": "epidemiologico", "considerada": true, "arquivos": "implantados", "permanece": "casca e raw"},
+    {"titulo": "icd11", "considerada": true, "arquivos": "implantados", "permanece": "casca e raw"},
+    {"titulo": "medicamentos", "considerada": true, "arquivos": "implantados, inclusive frações", "permanece": "casca e raw"},
+    {"titulo": "mesh", "considerada": true, "arquivos": "implantados", "permanece": "casca e raw"},
+    {"titulo": "nutricao", "considerada": true, "arquivos": "implantados, inclusive fração", "permanece": "casca e raw"},
+    {"titulo": "sinais_vitais", "considerada": true, "arquivos": "implantados", "permanece": "casca e raw"},
+    {"titulo": "suprimentos", "considerada": true, "arquivos": "implantados, inclusive fração", "permanece": "casca e raw"},
+    {"titulo": "vacinas", "considerada": true, "arquivos": "implantados", "permanece": "casca e raw"},
+    {"titulo": "vacinal_brasil", "considerada": true, "arquivos": "implantados", "permanece": "casca e raw"},
+    {"titulo": "dispositivos", "considerada": true, "arquivos": "quatro implantados, um deles fracionado", "permanece": "casca e raw"},
+    {"titulo": "revisao", "considerada": true, "arquivos": "seis documentos e o script", "permanece": "sete tabelas clínicas transcritas"},
+    {"titulo": "atomizado", "considerada": true, "arquivos": "oito da raiz", "permanece": "filhos derivados; mesh confere com a cópia já implantada"},
+    {"titulo": "protocolos_enfermagem", "considerada": true, "arquivos": "não copiados", "permanece": "ato sem extrator e PDF clínico"},
+    {"titulo": "raw", "considerada": true, "arquivos": "não copiados", "permanece": "fora da autorização"}
   ],
-  "atomizado_raiz": [
-    "NOTA_CORRECAO_2026-10-10.md",
-    "atomizar_v1.2.0.py",
-    "README_ATOMIZADO_v1.1.0.md",
-    "verificar_v1.1.0.py",
-    "atomizar_v1.1.0.py",
-    "README_ATOMIZADO.md",
-    "verificar.py",
-    "atomizar.py"
+  "arquivo_na_raiz": {
+    "titulo": "CKO_CURSOR_00_CONTROLE_v1_0_0.zip",
+    "considerado": true,
+    "disposicao": "permanece no Drive; controle de análise de PDF clínico"
+  },
+  "outras_raizes": [
+    "Calculadoras_de_Enfermagem: duas árvores COFEN, 249 pares de nome e tamanho sem os dois hashes",
+    "ESTEIRA_COFEN_BACKUP: só o dono; ZIPs de staging não copiados",
+    "Calculadoras-de-Enfermagem: listagem passou de 105 itens e ainda tinha página seguinte"
   ],
-  "fora_da_barra": [
-    "pastas raw",
-    "protocolos_enfermagem",
-    "filhos de atomizado",
-    "cofen736 e fontes, com página seguinte",
-    "dispositivos, com página seguinte; o JSON de 68436293 bytes já foi fracionado",
-    "as outras três raízes do Drive"
+  "alternativas_para_o_drive_inteiro": [
+    "Manter este recorte em 144 de 144 e não chamar isso de Drive concluído.",
+    "Comparar cada filho de atomizado com a cópia implantada. Hash igual sai; hash diferente não tem lado escolhido.",
+    "Fracionar o que passar de 50 MB. A concatenação precisa repetir o SHA-256.",
+    "Deixar tabelas clínicas transcritas, protocolos e o zip de controle até haver licença ou extrator.",
+    "Fechar a listagem das outras três raízes antes de atribuir percentual a elas.",
+    "Casca de pasta e raw não entram no numerador. Esvaziar a lixeira continua humano."
   ]
 }
