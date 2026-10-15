@@ -1,6 +1,6 @@
 {
-  "versao": "1.0.0",
-  "regra": "Cada id nomeia uma verificação que o código executa. Uma definição qualificada só lista validadores deste registro, e o conjunto tem de ser exatamente o implementado para o procedimento.",
+  "versao": "1.1.0",
+  "regra": "Cada id nomeia uma verificação que o código executa. Uma definição qualificada só lista validadores deste registro, e o conjunto tem de ser exatamente o implementado para o procedimento. VAL-GRC implementado é chamável pelo kernel e não altera os procedimentos já qualificados. Validador só identificado fica fora desta lista.",
   "validadores": {
     "VAL-WO-ESTRUTURA": "packages.cli.pep.WorkOrderTarefa",
     "VAL-DEFINICAO": "packages.cli.pep.resolver_definicao",
@@ -17,6 +17,24 @@
     "VAL-FIND-DEDUP": "packages.cli.finds.registrar",
     "VAL-FIND-HISTORICO": "packages.cli.finds.registrar",
     "VAL-FIND-EVIDENCIA": "packages.cli.finds.encerrar",
-    "VAL-FIND-AGENTE": "packages.cli.finds.exigir_agente"
+    "VAL-FIND-AGENTE": "packages.cli.finds.exigir_agente",
+    "VAL-GRC-001": "packages.cli.grc_politica.val_registro_validadores",
+    "VAL-GRC-002": "packages.cli.grc_politica.val_agentes",
+    "VAL-GRC-003": "packages.cli.grc_politica.val_definicao_tarefa",
+    "VAL-GRC-004": "packages.cli.grc_politica.val_pedido_wo",
+    "VAL-GRC-005": "packages.cli.grc_politica.val_controle",
+    "VAL-GRC-006": "packages.cli.grc_politica.val_evidencia",
+    "VAL-GRC-007": "packages.cli.grc_politica.val_find",
+    "VAL-GRC-008": "packages.cli.grc_politica.val_ciclo",
+    "VAL-GRC-009": "packages.cli.grc_politica.val_crosswalk",
+    "VAL-GRC-010": "packages.cli.grc_politica.val_politica",
+    "VAL-GRC-011": "packages.cli.grc_politica.val_hash_arquivo",
+    "VAL-GRC-012": "packages.cli.grc_politica.val_reteste",
+    "VAL-GRC-013": "packages.cli.grc_politica.val_relato_legado",
+    "VAL-GRC-018": "packages.cli.grc_politica.val_sem_escrita_remota",
+    "VAL-GRC-019": "packages.cli.grc_politica.val_sem_promocao",
+    "VAL-GRC-020": "packages.cli.grc_politica.val_estados",
+    "VAL-GRC-021": "packages.cli.grc_politica.val_candidato_nao_executa",
+    "VAL-GRC-022": "packages.cli.grc_politica.val_enunciado_ausente"
   }
 }
