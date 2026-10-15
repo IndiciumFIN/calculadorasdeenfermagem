@@ -1,8 +1,8 @@
 {
   "versao": "1.0.0",
   "invariante": "FONTE_RETIRADA",
-  "verificado_em": "2026-10-15T03:21:39Z",
-  "regra": "Releitura da API do Drive em 15/10/2026: os file ids implantados não são mais encontrados. A lixeira do Drive é a exclusão disponível; não há exclusão permanente pela API. Os lotes cid10-readme-fetch, sepse, ferimentos, sinais_vitais, epidemiologico, vacinas, vacinal_brasil, medlineplus e nutricao da extração bruta entraram nessa releitura.",
+  "verificado_em": "2026-10-15T06:24:07Z",
+  "regra": "Releitura da API do Drive em 15/10/2026: os file ids implantados não são mais encontrados. A lixeira do Drive é a exclusão disponível; não há exclusão permanente pela API. Os lotes cid10-readme-fetch, sepse, ferimentos, sinais_vitais, epidemiologico, vacinas, vacinal_brasil, medlineplus, nutricao, mesh, icd11 e medicamentos da extração bruta entraram nessa releitura. Em medicamentos ficaram no Drive os arquivos acima de 50 MB e a pasta raw.",
   "itens": [
     {
       "origem": "drive",
@@ -874,6 +874,118 @@
       "disposicao": "IMPLANTADO",
       "sha256": "293e47a30e3c7a21fff29bda8beeb3d066d6f017103e133f068a421c106864dc",
       "copia": "data/legado/extracao_bruta/nutricao/taco_composicao.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1iMy28m66UZDPagasCDXnXmu1fr1cHU6L",
+      "disposicao": "IMPLANTADO",
+      "sha256": "94c6e58a1cbee4d951f129d70f0a9764bf6011cb0c754ca42cfb8537035adab6",
+      "copia": "data/legado/extracao_bruta/mesh/mesh_descritores.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1pjdy6m38sVuHeWyx-2kvns_lB5V7c8MI",
+      "disposicao": "IMPLANTADO",
+      "sha256": "81289a95f5a6abc713e531233b5ac534bfd5dde114984bc9c7a6771ed29b3f24",
+      "copia": "data/legado/extracao_bruta/mesh/mesh_doencas_categoria_C.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1VaGYdrH4Otmvk4VVkLkwLDGnF3KrEo5s",
+      "disposicao": "IMPLANTADO",
+      "sha256": "93c876e1303005ac1829a7b0cd7078edb24c5181d6b47b7a9a3395789820a25a",
+      "copia": "data/legado/extracao_bruta/mesh/mesh_descritores.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "114EU2ekgI_PeoSvqNp24CCNxptP9O5qu",
+      "disposicao": "IMPLANTADO",
+      "sha256": "3c0983fcb5858b583e65b2f08e41dca461d7d4e19a91225f561486b07897ed8d",
+      "copia": "data/legado/extracao_bruta/mesh/mesh_doencas_categoria_C.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1UW0D9tYELJoEBzL0qwzV9DqveIly6nqS",
+      "disposicao": "IMPLANTADO",
+      "sha256": "61fb231473a02a0d4a2d8dfb3f33fff0cd2d39a434ceaf20b79233aa87da46b9",
+      "copia": "data/legado/extracao_bruta/icd11/cid11_mms_completa.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "17CeVSphd5BfMj5Jp3uc-pgCyxiJ0jhfR",
+      "disposicao": "IMPLANTADO",
+      "sha256": "e31b88903b28ddc71bb00d44da7f55d164c92aad8f1e2dae460cfa03a9454541",
+      "copia": "data/legado/extracao_bruta/icd11/cid11_mms_categorias_com_codigo.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1gB9hDNM4jZPn9wFm58sYsQbT1ioLReUI",
+      "disposicao": "IMPLANTADO",
+      "sha256": "b49034ddefefe0266261bf8f905eb35c9eb6a829d7906eba867dd05e2a5ba19b",
+      "copia": "data/legado/extracao_bruta/icd11/cid11_mms_categorias_com_codigo.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1ctTZPLzGovMDXHiWFEE1ldnwtReoN6xr",
+      "disposicao": "IMPLANTADO",
+      "sha256": "e02664e399936275b88bc2c409f7db657d607d36adbbaf0d4581ffc3eebcf8a9",
+      "copia": "data/legado/extracao_bruta/icd11/cid11_mms_completa.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1TXR8PKTzlSx9arROxaQfxHrVUB0Dhf5M",
+      "disposicao": "IMPLANTADO",
+      "sha256": "c397d619fb15c7709b413fe2adaf82f1489f44f06613da89e60feead04fd8937",
+      "copia": "data/legado/extracao_bruta/medicamentos/anvisa_cmed_precos_medicamentos.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1oaZGdYfyi4y_t3lvB-6ZGT2abcmUf-p1",
+      "disposicao": "IMPLANTADO",
+      "sha256": "476b9cfec70945d7ba8a163571fd6cf48033b7a9e8f990fbc53577931745fb3b",
+      "copia": "data/legado/extracao_bruta/medicamentos/anvisa_medicamentos_registrados.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "16aJHou1uEY_yMxSBVAzKt8onkbPTgbWJ",
+      "disposicao": "IMPLANTADO",
+      "sha256": "3e8b5c33184f8dd4a0139158e9cb3e947eb6455a261f6d2862029061352fd7fd",
+      "copia": "data/legado/extracao_bruta/medicamentos/fda_ndc_produtos.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1ko9doZkUtPsl8ZQ1aqqlxlPBx23XVnZW",
+      "disposicao": "IMPLANTADO",
+      "sha256": "1f468406d134e2bf5cde33403c14ba165aad2c56b0ab10cf74c844d055a13941",
+      "copia": "data/legado/extracao_bruta/medicamentos/fda_desabastecimento.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1EXiObJW-6ANm9MQXNLY6_oSUy47_wLBP",
+      "disposicao": "IMPLANTADO",
+      "sha256": "4fa160eed1c0ad74f8e3e3b94961e9577c27dd31483c7414d61c653afd5d554a",
+      "copia": "data/legado/extracao_bruta/medicamentos/anvisa_medicamentos_registrados.json.zip",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "16pK1HPQuz5h7cWmC4A6hZ0bJKlTY0ETH",
+      "disposicao": "IMPLANTADO",
+      "sha256": "448d6168a3884242eed9898cedb3bb501e92f5291c5a7b640cb43af036bc075c",
+      "copia": "data/legado/extracao_bruta/medicamentos/fda_desabastecimento.json",
       "estado_origem": "AUSENTE"
     }
   ],

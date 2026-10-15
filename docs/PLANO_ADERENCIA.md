@@ -16,11 +16,15 @@ O Git versiona código, contratos e governança. O corpus canônico não está h
 
 Portas de escrita do CLI antigo fechadas. `FIND-0001` e `FIND-0002` abertos. 104.668 candidatos em `Não verificado`. 7.679 linhas em quarentena. 336 identificadores com textos diferentes, sem escolha de lado. 109 itens do Drive relidos como ausentes na lixeira recuperável. Quatro raízes do Drive com exclusão bloqueada.
 
-## Onda 1 — listagem, sem cópia e sem lixeira
+## Onda 1 — executada até o gate de tamanho
 
-Fechar a listagem das pastas ainda abertas. Uma página de arquivos sem `nextPageToken` está completa. Uma página só com token, ou `{}`, não prova pasta vazia.
+`mesh`, `icd11` e `medicamentos` tiveram a listagem fechada. A página seguinte de `mesh` e de `icd11` voltou vazia; cada título exato fechou sem `nextPageToken`. Em `medicamentos`, a segunda página trouxe arquivos e não trouxe página seguinte.
 
-Pastas ainda sem lote: `revisao`, `atomizado`, `protocolos_enfermagem`, `suprimentos`, `raw`, `medicamentos`, `dispositivos`, `mesh`, `icd11`. Em `mesh` e `icd11` a listagem não fechou. Em `protocolos_enfermagem` o material é ato: sem extrator de dispositivo, a atomização falha fechada e nada vai para a lixeira.
+Cada lote passou por `obter`, `atomizar`, `validar` e `retirar`. Classe `REFERENCIA`, zero átomos. ICD-11 foi copiado sem alteração. Os 14 arquivos foram para a lixeira e a releitura devolveu ausência. As pastas `raw` permanecem.
+
+O gate vermelho que interrompe a cópia seguinte está em `medicamentos`: `anvisa_cmed_precos_medicamentos.json` (57.759.041 bytes) e `fda_ndc_produtos.json` (93.709.852 bytes) ficam no Drive. `protocolos_enfermagem` não começou: é ato, sem extrator, e o PDF clínico não entra no Git público.
+
+Pastas ainda sem lote: `revisao`, `atomizado`, `protocolos_enfermagem`, `suprimentos`, `raw`, `dispositivos`.
 
 Arquivos que permanecem no Drive nesta onda: `usda_sr_legacy_nutrientes.json` (87.096.800 bytes), o JSON Anvisa de dispositivos (68.436.293 bytes) e o JSON CATMAT (51.223.636 bytes). Acima de cerca de 50 MB não entra no Git.
 
