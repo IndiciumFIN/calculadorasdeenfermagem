@@ -86,3 +86,25 @@ API do DeepSeek através do Supabase. Implementação:
   ausente, secret ausente no Supabase, TLS obrigatório, modelo não pinado e
   caminho feliz com manifesto (`provider_meta`, `promotable=true`,
   `estagio=raw`).
+
+## Retirada do acervo legado (15/10/2026)
+
+As 7 planilhas `NORMATIVE_ATOMS_COFEN` (V1 e lotes 1 a 6) saíram do Drive
+para `data/legado/`. O Supabase (schema public) não tem tabela de normativos
+— só provas e questões — então não havia o que retirar de lá, e nada foi
+apagado. As planilhas originais continuam no Drive.
+
+- Comando: `python -m packages.cli.migrate_legado run`
+- 104.668 candidatos `AtomoBlindado`, todos `Não verificado`. Nenhum nasce
+  `Vigente`: o `link_fonte` é a planilha de origem, não o diário oficial.
+- 7.679 linhas em quarentena, texto integral, sem truncar: texto curto
+  (5.718), texto acima de 800 caracteres (1.044), conflito de duplicata
+  (752, nenhum lado escolhido), termo `recomenda-se` rejeitado pelo contrato
+  mesmo quando é o verbo da norma (165) e duplicata idêntica deduplicada (44).
+- Piloto de auditoria camada 2: Art. 1º da Resolução COFEN 800/2025
+  confrontado com o PDF do DOU via `WO-AUDITORIA-RES800-001`.
+- Índices `DOCUMENT_REGISTER` e `RELACOES_NORMATIVAS`, e o conjunto de PDFs
+  oficiais, continuam no Drive. São o próximo lote, não átomos já extraídos.
+- `.gitleaks.toml` ignora só o padrão `sha256_texto=` (hash de evidência das
+  planilhas). Sem isso o gate acusava 2.311 falsos positivos. Nenhuma outra
+  regra foi relaxada.
