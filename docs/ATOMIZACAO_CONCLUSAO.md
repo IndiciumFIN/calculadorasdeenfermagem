@@ -7,28 +7,26 @@
 
 | Critério | Status | Evidência |
 |----------|--------|-----------|
-| Porta única (CLI exige WO) | PASS | exit 2 sem `--work-order` |
-| IDs imutáveis (hash) | PASS | `NORM-` + 12 hex |
-| Validador de ID rígido | PASS | `_validar_id_atomo` |
-| Máscara com lookaround | PASS | processo longo não corrompido |
-| Hash de proveniência | PASS | checagem no `process` |
-| Status inicial protegido | PASS | nasce `Não verificado` |
-| Schema fail-closed | PASS | `AtomoBlindado` + invariantes |
-| Gates agregadores | PASS | `gates/aggregate.sh` + workflow |
-| Mapeamento Drive | PASS | `docs/DRIVE_MAPPING.md` |
-| Fases 1–11 documentadas | PASS | `docs/FASES_STATUS.md` |
+| Porta do CLI antigo | Código na branch | `ingest`, `process`, `pipeline run`, `registry add` e `registry set-status` saem com código 2 antes de gravar. FIND-0001 permanece aberto. |
+| IDs da heurística | Harness | `NORM-` + 12 hex em `atomizar_heuristica`. O comando não chama essa função. |
+| Validador da heurística | Harness | `_validar_id_atomo`. O schema `AtomoBlindado` continua `NORM-` + ano + sequência. |
+| Máscara com lookaround | Código | sequência longa de dígitos não entra na máscara de telefone |
+| Hash de proveniência | Harness | proveniência incompleta sai com código 2 dentro de `atomizar_heuristica` |
+| Status inicial | Harness | a heurística grava `Não verificado` |
+| Schema fail-closed | Código | `AtomoBlindado` + invariantes, via `validate` |
+| Gates agregadores | Código local | `gates/aggregate.sh` + workflow. Branch protection da `main` continua ação humana. |
+| Mapeamento Drive | Documento | `docs/DRIVE_MAPPING.md` |
+| Fases 1–11 | Documento | `docs/FASES_STATUS.md` não homologa produção |
 
 ## Pendências de ação humana
 
 - **Fase 12**: branch protection na `main` (GOV-001)
 - **Fase 13**: aplicação da migration Supabase
 
-## Fluxo canônico de atomização
+## Fluxo que grava
 
-1. `ingest --work-order <wo>` → payload com hash duplo
-2. `process --work-order <wo>` → átomos com ID hash + auditoria
-3. `validate` → fail-closed
-4. Registro somente via WO específica de transição de status
+A escrita qualificada entra por `python -m packages.cli.kernel`, com procedimento já qualificado. T01, T02, T04 e T07 continuam não qualificadas. Uma Work Order válida de outro procedimento não autoriza o CLI antigo.
 
-**Atomização técnica pronta para operação sob WO.**  
-Promoção canônica/clínica continua exigindo verificação humana + evidência oficial.
+`validate` continua leitura fail-closed.
+
+A heurística, o identificador em hash e a checagem de proveniência ficam fora do comando. Este documento não declara a atomização pronta para operação nem autoriza promoção canônica.

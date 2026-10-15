@@ -5,6 +5,8 @@ from pathlib import Path
 
 import typer
 
+from packages.cli.porta import recusar_escrita_fora_do_kernel
+
 app = typer.Typer(help="Gerencia o Registry canônico local (JSON)")
 
 REGISTRY_FILE = Path("data/registry.json")
@@ -44,15 +46,14 @@ def _validar_hash(hash_sha: str):
         raise typer.Exit(2)
 
 
-@app.command()
-def add(
-    id_canonico: str = typer.Option(..., "--id"),
-    tipo: str = typer.Option(..., "--tipo"),
-    origem: str = typer.Option(..., "--origem"),
-    hash_sha: str = typer.Option(..., "--hash", help="SHA-256 do conteúdo (obrigatório)"),
-    status: str = typer.Option("bruto", "--status"),
-):
-    """Adiciona um item ao registry local. Hash obrigatório; status em allowlist."""
+def registrar_item(
+    id_canonico: str,
+    tipo: str,
+    origem: str,
+    hash_sha: str,
+    status: str = "bruto",
+) -> None:
+    """Harness da inclusão. O comando CLI não chama esta função."""
     _validar_hash(hash_sha)
     if status not in ESTADOS:
         typer.secho(f"FAIL: status '{status}' fora da allowlist {ESTADOS}", fg=typer.colors.RED)
@@ -85,13 +86,8 @@ def add(
     typer.secho(f"✓ {id_canonico} adicionado ({status})", fg=typer.colors.GREEN)
 
 
-@app.command()
-def set_status(
-    id_canonico: str = typer.Option(..., "--id"),
-    novo_status: str = typer.Option(..., "--para"),
-    evidencia: str = typer.Option(..., "--evidencia", help="Referência da evidência da transição"),
-):
-    """Transiciona o estado de um item validando a máquina de estados."""
+def transicionar_status(id_canonico: str, novo_status: str, evidencia: str) -> None:
+    """Harness da transição. O comando CLI não chama esta função."""
     if novo_status not in ESTADOS:
         typer.secho(f"FAIL: status '{novo_status}' fora da allowlist {ESTADOS}", fg=typer.colors.RED)
         raise typer.Exit(2)
@@ -124,6 +120,30 @@ def set_status(
             return
     typer.secho(f"FAIL: id {id_canonico} não encontrado", fg=typer.colors.RED)
     raise typer.Exit(2)
+
+
+@app.command()
+def add(
+    id_canonico: str = typer.Option(..., "--id"),
+    tipo: str = typer.Option(..., "--tipo"),
+    origem: str = typer.Option(..., "--origem"),
+    hash_sha: str = typer.Option(..., "--hash", help="SHA-256 do conteúdo (obrigatório)"),
+    status: str = typer.Option("bruto", "--status"),
+    work_order: Path = typer.Option(None, "--work-order"),
+):
+    """Recusa a gravação. Não há tarefa qualificada para incluir item no registry."""
+    recusar_escrita_fora_do_kernel(work_order)
+
+
+@app.command("set-status")
+def set_status(
+    id_canonico: str = typer.Option(..., "--id"),
+    novo_status: str = typer.Option(..., "--para"),
+    evidencia: str = typer.Option(..., "--evidencia", help="Referência da evidência da transição"),
+    work_order: Path = typer.Option(None, "--work-order"),
+):
+    """Recusa a gravação. TAREFA-T07 permanece não qualificada."""
+    recusar_escrita_fora_do_kernel(work_order)
 
 
 @app.command()

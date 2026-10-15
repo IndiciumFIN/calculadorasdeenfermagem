@@ -1,0 +1,18 @@
+{
+  "id": "WO-2026_10_15_0039",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "agent_id": "AGT-AUDITOR-001",
+  "task_id": "TAREFA-FIND-CORRIGIR",
+  "task_version": "1.0.0",
+  "task_type": "corrigir-find",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "entradas": [],
+  "parametros": {
+    "find_id": "FIND-0001",
+    "correcao_caminho": "data/finds/evidencias/porta_cli_2026_10_15.json",
+    "correcao_sha256": "f68ad83aa89d54d41a5c7030ba87ad69162eb3e41f8b1ff5d534e7d07a2c82a1",
+    "quando": "2026-10-15"
+  }
+}

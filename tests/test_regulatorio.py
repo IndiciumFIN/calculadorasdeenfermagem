@@ -6,7 +6,7 @@ import pytest
 import typer
 from pydantic import ValidationError
 
-from packages.cli.main import process
+from packages.cli.main import atomizar_heuristica as process
 from packages.cli.pep import RAIZ, carregar_wo
 from packages.cli.regulatorio import avaliar
 from packages.schemas.invariantes import AtomoBlindado

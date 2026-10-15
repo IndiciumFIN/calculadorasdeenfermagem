@@ -9,7 +9,7 @@ import typer
 from packages.cli.finds import carregar
 from packages.cli.kernel import encerrar_find, registrar_find, vincular_find
 from packages.cli.pep import carregar_wo
-from packages.cli.registry import set_status
+from packages.cli.registry import transicionar_status as set_status
 
 QUANDO = "2026-10-15"
 
