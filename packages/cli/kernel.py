@@ -8,6 +8,7 @@ import requests
 import typer
 from bs4 import BeautifulSoup
 
+from packages.cli import finds
 from packages.cli.pep import RAIZ, carregar_wo, decidir_atomizacao, politica
 
 app = typer.Typer(help="Kernel de tarefas: obter, atomizar, validar, retirar")
@@ -233,6 +234,44 @@ def retirar(work_order: Path = typer.Option(..., "--work-order")):
         {"work_order": wo.id, "checker_id": wo.checker_id, "ids": autorizados},
     )
     typer.secho(f"✓ retirar {wo.id}: {len(autorizados)} ids autorizados", fg=typer.colors.GREEN)
+
+
+def _find(work_order: Path, procedimento: str):
+    wo = _wo(work_order, procedimento)
+    try:
+        if procedimento == "registrar-find":
+            return wo, finds.registrar(wo.parametros, wo.id)
+        if procedimento == "vincular-find":
+            return wo, finds.vincular(wo.parametros, wo.id)
+        if procedimento == "encerrar-find":
+            return wo, finds.encerrar(wo.parametros, wo.id)
+    except Exception as exc:
+        _fail(str(exc))
+    _fail(f"procedimento de FIND desconhecido: {procedimento}")
+
+
+@app.command("registrar-find")
+def registrar_find(work_order: Path = typer.Option(..., "--work-order")):
+    """Registra o achado. Não autoriza correção."""
+    wo, doc = _find(work_order, "registrar-find")
+    ultimo = doc["eventos"][-1]
+    if any(item.get("correcao_autorizada") for item in doc["finds"]):
+        _fail("registro de FIND autorizou correção")
+    typer.secho(f"✓ registrar-find {wo.id}: {ultimo['tipo']} {ultimo['find_id']}", fg=typer.colors.GREEN)
+
+
+@app.command("vincular-find")
+def vincular_find(work_order: Path = typer.Option(..., "--work-order")):
+    """Liga o FIND a uma execução. Não fecha e não autoriza correção."""
+    wo, doc = _find(work_order, "vincular-find")
+    typer.secho(f"✓ vincular-find {wo.id}: {doc['eventos'][-1]['find_id']}", fg=typer.colors.GREEN)
+
+
+@app.command("encerrar-find")
+def encerrar_find(work_order: Path = typer.Option(..., "--work-order")):
+    """Fecha o FIND com evidência conferida. O histórico permanece."""
+    wo, doc = _find(work_order, "encerrar-find")
+    typer.secho(f"✓ encerrar-find {wo.id}: {doc['eventos'][-1]['find_id']}", fg=typer.colors.GREEN)
 
 
 if __name__ == "__main__":

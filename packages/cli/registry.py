@@ -106,6 +106,15 @@ def set_status(
                     fg=typer.colors.RED,
                 )
                 raise typer.Exit(2)
+            from packages.cli.finds import promocao_bloqueada
+
+            bloqueados = promocao_bloqueada(novo_status, item.get("find_ids") or [])
+            if bloqueados:
+                typer.secho(
+                    f"FAIL: promoção bloqueada por FIND aberto: {', '.join(bloqueados)}",
+                    fg=typer.colors.RED,
+                )
+                raise typer.Exit(2)
             item["status"] = novo_status
             item.setdefault("historico", []).append(
                 {"de": atual, "para": novo_status, "data": str(date.today()), "evidencia": evidencia}

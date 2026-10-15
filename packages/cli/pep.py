@@ -45,6 +45,28 @@ VALIDADORES_POR_PROCEDIMENTO = {
         "VAL-HASH-ARQUIVO",
         "VAL-PARECER",
     ],
+    "registrar-find": [
+        "VAL-WO-ESTRUTURA",
+        "VAL-DEFINICAO",
+        "VAL-FIND-CAMPOS",
+        "VAL-FIND-SEVERIDADE",
+        "VAL-FIND-DEDUP",
+        "VAL-FIND-HISTORICO",
+    ],
+    "vincular-find": [
+        "VAL-WO-ESTRUTURA",
+        "VAL-DEFINICAO",
+        "VAL-FIND-CAMPOS",
+        "VAL-FIND-HISTORICO",
+    ],
+    "encerrar-find": [
+        "VAL-WO-ESTRUTURA",
+        "VAL-DEFINICAO",
+        "VAL-CHECKER-TEXTUAL",
+        "VAL-FIND-CAMPOS",
+        "VAL-FIND-EVIDENCIA",
+        "VAL-HASH-ARQUIVO",
+    ],
 }
 
 
@@ -76,7 +98,7 @@ class WorkOrderTarefa(BaseModel):
     task_type: str = Field(min_length=3)
     policy_version: str = Field(min_length=1)
     state: str = Field(pattern=r"^PREAUTHORIZED$")
-    entradas: list[Entrada] = Field(min_length=1)
+    entradas: list[Entrada] = Field(default_factory=list)
     parametros: dict[str, str] = Field(default_factory=dict)
 
 
@@ -119,6 +141,12 @@ def carregar_wo(caminho: Path) -> WorkOrderTarefa:
     definicao = resolver_definicao(wo.task_id, wo.task_version)
     if wo.task_type != definicao["procedimento"]:
         raise ValueError("Work Order não redefine o procedimento")
+    minimo = definicao.get("entradas_minimas", 1)
+    if len(wo.entradas) < minimo:
+        raise ValueError("entradas abaixo do mínimo da definição")
+    for nome in definicao.get("parametros_obrigatorios", []):
+        if not wo.parametros.get(nome):
+            raise ValueError(f"parâmetro obrigatório ausente: {nome}")
     classes = doc["classes"]
     for entrada in wo.entradas:
         if entrada.classe not in classes:
