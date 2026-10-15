@@ -89,10 +89,10 @@ API do DeepSeek através do Supabase. Implementação:
 
 ## Retirada do acervo legado (15/10/2026)
 
-As 7 planilhas `NORMATIVE_ATOMS_COFEN` (V1 e lotes 1 a 6) saíram do Drive
-para `data/legado/`. O Supabase (schema public) não tem tabela de normativos
-— só provas e questões — então não havia o que retirar de lá, e nada foi
-apagado. As planilhas originais continuam no Drive.
+As 7 planilhas `NORMATIVE_ATOMS_COFEN` (V1 e lotes 1 a 6) foram copiadas
+para `data/legado/` e, após o SHA-256 conferir, foram para a lixeira do Drive.
+Há dois projetos Supabase. O censo de 15/10/2026 está em
+`data/legado/supabase_normativos.json`. Nada do Supabase foi apagado.
 
 - Comando: `python -m packages.cli.migrate_legado run`
 - 104.668 candidatos `AtomoBlindado`, todos `Não verificado`. Nenhum nasce

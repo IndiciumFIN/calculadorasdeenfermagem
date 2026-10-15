@@ -17,6 +17,8 @@ Projetos encontrados:
 
 Tabelas públicas no projeto ativo são de simulados/questões, não do corpus normativo principal.
 
+Releitura em 15/10/2026: os dois projetos foram abertos. O censo está em `data/legado/supabase_normativos.json`. O projeto `bsawvgyideporzailnys` estava pausado e foi restaurado para a leitura; permanece ativo. Nada foi apagado.
+
 ## Google Drive (raiz)
 
 Pastas relevantes identificadas:

@@ -1,0 +1,91 @@
+{
+  "versao": "1.0.0",
+  "invariante": "FONTE_RETIRADA",
+  "verificado_em": "2026-10-15T01:10:00Z",
+  "regra": "Releitura da API do Drive nesta data: os file ids implantados não são mais encontrados. A lixeira do Drive é a exclusão disponível; não há exclusão permanente pela API.",
+  "itens": [
+    {
+      "origem": "drive",
+      "id_origem": "16jA3isbkQuZqvsrkqU2FoIfp-JL1B8lyffNcb2f0ego",
+      "disposicao": "IMPLANTADO",
+      "sha256": "fdcebc29e7ae8ab8af44f91b8fe8fc165698ed74e6684c659092295b138dec41",
+      "copia": "data/legado/fontes/NORMATIVE_ATOMS_COFEN_V1.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1arlb-IIqpQJGrj8Suyj-VKeejczSqORBFZGS20BFq8s",
+      "disposicao": "IMPLANTADO",
+      "sha256": "38485d48beceb7acbb6806ef3e0f550a41f735050bc10211cc7950d668e73350",
+      "copia": "data/legado/fontes/NORMATIVE_ATOMS_COFEN_LOTE1_V1.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "13IoE-cxveJrjzkj-YNZRN6zQupiewGUv80pai1WACIE",
+      "disposicao": "IMPLANTADO",
+      "sha256": "dafc4da0ad0a3fc59f113dc8086f25168fcaf24116a57dc9aa33a0dca8d35816",
+      "copia": "data/legado/fontes/NORMATIVE_ATOMS_COFEN_LOTE2_V1.xlsx",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1h9Y5ZKIZhyp2xmcYiFfp55NQvWeShry0o0nWWRQLhfI",
+      "disposicao": "IMPLANTADO",
+      "sha256": "061a32325b2c0404188dea3363f21dfefac5d285aa8c9f4cb9479440d3a3fad5",
+      "copia": "data/legado/fontes/NORMATIVE_ATOMS_COFEN_LOTE3_V1.xlsx",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1RRQpbi0QWfc6FKmVK9tyjycbJz8JGSbSRBcveTGpDoQ",
+      "disposicao": "IMPLANTADO",
+      "sha256": "2e96a8ca8a918e776b2b660807918a219701bfa5a02462bc505d4d2a315e8bc9",
+      "copia": "data/legado/fontes/NORMATIVE_ATOMS_COFEN_LOTE4_V1.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1RnIiSt2X05M6Km3MO5oq-GXCiyYVv2xbZ3bD4M3hBlA",
+      "disposicao": "IMPLANTADO",
+      "sha256": "b6f31e070c9ec17c6bb0905e7c31fbcacfd84cce556bab198ecd0d77630817b6",
+      "copia": "data/legado/fontes/NORMATIVE_ATOMS_COFEN_LOTE5_V1.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1U4yRZ3cv7jef1frPfOKhYNQD0eFU2J0tKw3Ax35qBcw",
+      "disposicao": "IMPLANTADO",
+      "sha256": "78efe374ff452e671837413c40751fa4e2a1e5fa80f96b41002ba26a43e493ae",
+      "copia": "data/legado/fontes/NORMATIVE_ATOMS_COFEN_LOTE6_V1.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1GFC3cXYeB2fbpDUj0KykzYolrM4yiZ4e",
+      "disposicao": "IMPLANTADO",
+      "sha256": "9e52af612a1df7b5e460cdce40ecd2f667aaf99df8f1343b10e3a61aba75eb07",
+      "copia": "data/legado/piloto/RES_0800_DOU.pdf",
+      "estado_origem": "AUSENTE"
+    }
+  ],
+  "pendentes": [
+    {
+      "origem": "supabase",
+      "id_origem": "edge:cko-env-probe",
+      "disposicao": "DESCARTADO",
+      "motivo_descarte": "Sonda de ambiente de 15/10/2026. O corpo responde 410 e não revela segredo. A API disponível não oferece exclusão do slug.",
+      "estado_origem": "TOMBSTONE_410"
+    }
+  ],
+  "fora_da_regra": [
+    "drive:1N8CJcN4Hnb0BspHzGOv72BrGc1hTU07q normative_atoms.jsonl sem cópia com o mesmo SHA-256",
+    "supabase:cko_atlas_lab.canonical_atoms anatomia, não implantada neste repositório",
+    "supabase:cko_editorial calculadoras do site",
+    "supabase:public.questoes_enfermagem e storage questoes-enfermagem",
+    "supabase:aevqrmkdhffmursdtcmo regulatory.schema_registry contrato ativo; instruments e provisions com zero linhas; não copiado; não apagar",
+    "supabase:bsawvgyideporzailnys 23 objetos que nomeiam norma e quatro PDFs lei4623.pdf sem SHA-256; não apagar",
+    "supabase:edge:cko-deepseek-gateway é o endpoint da implantação, não uma cópia sobrando",
+    "censo:data/legado/supabase_normativos.json"
+  ]
+}

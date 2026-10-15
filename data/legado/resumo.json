@@ -65,6 +65,6 @@
     "termo_opinativo: o contrato v1.2.0 rejeita o vocábulo 'recomenda-se' mesmo quando ele é o verbo da própria norma. O texto integral fica na quarentena até decisão de contrato.",
     "conflito_duplicata: o mesmo NORM_ATOM_ID com textos diferentes não escolhe lado; as duas cópias ficam na quarentena.",
     "texto_acima_do_contrato e texto_curto preservam o texto integral, sem truncar.",
-    "O Supabase (schema public) não contém tabela de normativos; nada foi lido nem apagado lá. As planilhas de origem permanecem no Drive."
+    "Dois projetos Supabase foram lidos em 15/10/2026. O censo está em data/legado/supabase_normativos.json. Nada de lá foi apagado. As sete planilhas NORMATIVE_ATOMS já conferidas saíram do Drive."
   ]
 }
