@@ -28,7 +28,7 @@ Converter a estrutura da pasta Drive `1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC` para o 
 4. Gerar relatório de duplicidades.
 5. Só então copiar o que for único e rastreável.
 
-**Kernel só executa a política desta WO. Nenhuma promoção canônica automática.**
+Este arquivo não é uma Work Order do kernel. Não há `contracts/work_orders/WO-2026_10_15_0041.json`, e o kernel não consumiu este texto. O script abaixo não foi executado por esta integração. Nenhuma promoção canônica automática.
 
 ## Script de execução
 

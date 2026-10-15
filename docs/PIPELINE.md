@@ -1,14 +1,12 @@
 # Pipeline Blindado
 
+`ingest`, `process`, `pipeline run`, `registry add` e `registry set-status` recusam a gravação com exit 2. T01, T02, T04 e T07 permanecem não qualificadas. Uma Work Order de outro procedimento também não autoriza esses comandos. A escrita qualificada entra por `python -m packages.cli.kernel`.
+
+`validate` continua leitura fail-closed. A heurística de atomização e a máquina do registry permanecem como funções de regressão, fora do comando.
+
 ```bash
-# 1. Ingestão com allowlist de fontes, máscara auditável e hash duplo
-python packages/cli/main.py ingest --source URL_OFICIAL_OU_ARQUIVO --output data/raw.json
-
-# 2. Processamento (todas as linhas; omissão crítica bloqueia por padrão)
-python packages/cli/main.py process --input data/raw.json --output data/atomos.json
-
-# 3. Validação fail-closed (exit 2 para corpus vazio, omissão ou invariante)
-python packages/cli/main.py validate --input data/atomos.json
+# Validação fail-closed (exit 2 para corpus vazio, omissão ou invariante)
+python -m packages.cli.main validate --input data/atomos.json
 ```
 
 ## Controles ativos

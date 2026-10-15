@@ -1,5 +1,6 @@
 import json
 import hashlib
+import re
 from datetime import date
 from pathlib import Path
 
@@ -7,51 +8,24 @@ import typer
 
 from packages.cli.auditor import auditar_omissao
 from packages.cli.evidence import registrar_proveniencia
-from packages.cli.sources import ALLOWED, INVALID, REFERENCE_ONLY, classificar_url
+from packages.cli.porta import recusar_escrita_fora_do_kernel
+from packages.cli.sources import INVALID, REFERENCE_ONLY, classificar_url
 from packages.schemas.invariantes import LIMITE_TEXTO_REGRA, VERSAO_CONTRATO, AtomoBlindado
-from packages.cli.pep import carregar_wo
-
-import re
-
-def _validar_id_atomo(id_atomo: str) -> bool:
-    """Fase 3: ID imutável deve ser NORM- + 12 hex."""
-    return bool(re.fullmatch(r"NORM-[0-9a-f]{12}", id_atomo))
 
 app = typer.Typer(help="CLI canônica e blindada - Calculadoras de Enfermagem")
 
 
-def _exigir_wo(work_order: Path | None, esperado: str):
-    """Fase 1: exige Work Order válida. Sem WO → exit 2."""
-    if work_order is None:
-        typer.secho(
-            "FAIL: Work Order obrigatória. Use --work-order <arquivo> ou execute via Kernel (packages.cli.kernel).",
-            fg=typer.colors.RED,
-        )
-        raise typer.Exit(2)
-    try:
-        wo = carregar_wo(work_order)
-    except Exception as exc:
-        typer.secho(f"FAIL: Work Order inválida: {exc}", fg=typer.colors.RED)
-        raise typer.Exit(2)
-    if wo.task_type != esperado:
-        typer.secho(
-            f"FAIL: Work Order {wo.id} é do tipo '{wo.task_type}', esperado '{esperado}'.",
-            fg=typer.colors.RED,
-        )
-        raise typer.Exit(2)
-    typer.secho(f"✓ WO {wo.id} aceita para {esperado}", fg=typer.colors.GREEN)
-    return wo
+def _validar_id_atomo(id_atomo: str) -> bool:
+    """ID da heurística: NORM- seguido de 12 hex do texto e da origem."""
+    return bool(re.fullmatch(r"NORM-[0-9a-f]{12}", id_atomo))
 
 
-@app.command()
-def ingest(
-    source: str = typer.Option(..., "--source", "-s"),
-    output: Path = typer.Option("data/raw.json", "--output", "-o"),
-    fonte: str = typer.Option("auto", "--fonte", help="auto | dou_federal | secundaria"),
-    work_order: Path | None = typer.Option(None, "--work-order", help="Work Order obrigatória (Fase 1)"),
-):
-    """Ingesta com allowlist de fontes, máscara auditável e hash duplo. Exige WO."""
-    _exigir_wo(work_order, "ingest")
+def ingerir(
+    source: str,
+    output: Path = Path("data/raw.json"),
+    fonte: str = "auto",
+) -> None:
+    """Harness da ingestão. O comando CLI não chama esta função."""
     typer.echo(f"Ingerindo: {source} (fonte={fonte})")
 
     if source.startswith("http"):
@@ -100,21 +74,13 @@ def ingest(
     )
 
 
-@app.command()
-def process(
-    input_file: Path = typer.Option(..., "--input", "-i"),
-    output: Path = typer.Option("data/atomos.json", "--output", "-o"),
-    block_on_omission: bool = typer.Option(
-        True,
-        "--block-on-omission/--no-block-on-omission",
-        help="Omissão crítica bloqueia por padrão (GOV-006).",
-    ),
-    work_order: Path | None = typer.Option(None, "--work-order", help="Work Order obrigatória (Fase 1)"),
-):
-    """Atomização heurística. Exige WO. Vigência nunca atribuída automaticamente. Fase 3: ID NORM- + 12 hex; status inicial Não verificado."""
-    _exigir_wo(work_order, "process")
+def atomizar_heuristica(
+    input_file: Path,
+    output: Path = Path("data/atomos.json"),
+    block_on_omission: bool = True,
+) -> None:
+    """Harness da atomização heurística. O comando CLI não chama esta função."""
     data = json.loads(input_file.read_text())
-    # Fase 5: exige hash de proveniência se o payload veio de ingest
     if data.get("sha256_original") and not data.get("sha256_transformado"):
         typer.secho("FAIL: hash de proveniência incompleto (Fase 5)", fg=typer.colors.RED)
         raise typer.Exit(2)
@@ -122,7 +88,9 @@ def process(
     atomos = []
     linhas = [l.strip() for l in texto.split("\n") if len(l.strip()) > 40]
     has_critical = False
-    for i, linha in enumerate(linhas):
+    # Sem corte: limitar a extração às primeiras N linhas gerava sucesso
+    # parcial silencioso (GOV-005, confirmado no teste T4).
+    for linha in linhas:
         if any(k in linha.lower() for k in ["art.", "artigo", "§", "inciso", "parágrafo"]):
             texto_regra = linha
             if len(texto_regra) > LIMITE_TEXTO_REGRA:
@@ -141,7 +109,9 @@ def process(
                 "dispositivo_legal": linha,
                 "norma_origem": data.get("origem", "desconhecida"),
                 "link_fonte": data.get("origem", ""),
-                "status": "Não verificado",  # Fase 4: transição só via WO específica
+                # Vigência NUNCA é atribuída na extração (GOV-004). A promoção
+                # a 'Vigente' exige verificação com evidência (schema v1.2.0).
+                "status": "Não verificado",
                 "data_verificacao": None,
                 "versao_contrato": VERSAO_CONTRATO,
                 "fonte_tipo": data.get("fonte_tipo", "GENERICA"),
@@ -161,6 +131,8 @@ def process(
         )
         raise typer.Exit(2)
 
+    # Auditoria de corpus: números presentes no documento que não aparecem em
+    # nenhum átomo indicam dispositivos não capturados pela atomização.
     corpus_audit = auditar_omissao(texto, "\n".join(a["texto_regra"] for a in atomos))
     if corpus_audit.get("omissao_critica"):
         has_critical = True
@@ -179,6 +151,32 @@ def process(
 
 
 @app.command()
+def ingest(
+    source: str = typer.Option(..., "--source", "-s"),
+    output: Path = typer.Option("data/raw.json", "--output", "-o"),
+    fonte: str = typer.Option("auto", "--fonte", help="auto | dou_federal | secundaria"),
+    work_order: Path = typer.Option(None, "--work-order"),
+):
+    """Recusa a gravação. TAREFA-T01 permanece não qualificada."""
+    recusar_escrita_fora_do_kernel(work_order)
+
+
+@app.command()
+def process(
+    input_file: Path = typer.Option(..., "--input", "-i"),
+    output: Path = typer.Option("data/atomos.json", "--output", "-o"),
+    block_on_omission: bool = typer.Option(
+        True,
+        "--block-on-omission/--no-block-on-omission",
+        help="Omissão crítica bloqueia por padrão (GOV-006).",
+    ),
+    work_order: Path = typer.Option(None, "--work-order"),
+):
+    """Recusa a gravação. TAREFA-T02 permanece não qualificada."""
+    recusar_escrita_fora_do_kernel(work_order)
+
+
+@app.command()
 def validate(input_file: Path = typer.Option(..., "--input", "-i")):
     """Validação fail-closed: corpus vazio e omissão crítica reprovam."""
     data = json.loads(input_file.read_text())
@@ -194,6 +192,8 @@ def validate(input_file: Path = typer.Option(..., "--input", "-i")):
 
     validos = 0
     for item in data:
+        # A auditoria embutida é verificada ANTES de ser removida: descartar
+        # _auditoria sem ler permitia aprovar omissões críticas (teste T2).
         auditoria = item.get("_auditoria") or {}
         if auditoria.get("omissao_critica"):
             typer.secho(

@@ -5,14 +5,20 @@ Cada teste reproduz um cenário que ANTES era aceito indevidamente (T1–T4, T9)
 e agora deve falhar de forma fail-closed, além dos caminhos positivos.
 Executar com: pytest tests/ (PYTHONPATH é resolvido automaticamente).
 """
+import hashlib
 import json
 import os
+import re
 import shutil
 import subprocess
 import sys
 from pathlib import Path
 
 import pytest
+import typer
+
+from packages.cli.main import atomizar_heuristica, ingerir
+from packages.cli.registry import registrar_item, transicionar_status
 
 REPO = Path(__file__).resolve().parents[1]
 FIXTURES = REPO / "contracts" / "fixtures"
@@ -97,11 +103,7 @@ def test_t4_process_sem_corte_e_sem_vigencia(tmp_path):
         "texto_sanitizado": "\n".join(linhas),
     }), encoding="utf-8")
     out = tmp_path / "atomos.json"
-    r = run_cli(
-        ["packages.cli.main", "process", "--input", str(raw), "--output", str(out)],
-        cwd=tmp_path,
-    )
-    assert r.returncode == 0, r.stdout + r.stderr
+    atomizar_heuristica(raw, out)
     atomos = json.loads(out.read_text())
     assert len(atomos) == 25, "corte silencioso de linhas voltou (GOV-005)"
     assert {a["status"] for a in atomos} == {"Não verificado"}, "vigência automática voltou (GOV-004)"
@@ -110,11 +112,9 @@ def test_t4_process_sem_corte_e_sem_vigencia(tmp_path):
 def test_process_corpus_sem_atomos_reprova(tmp_path):
     raw = tmp_path / "raw_vazio.json"
     raw.write_text(json.dumps({"origem": "x", "texto_sanitizado": "texto sem dispositivos"}))
-    r = run_cli(
-        ["packages.cli.main", "process", "--input", str(raw), "--output", str(tmp_path / "a.json")],
-        cwd=tmp_path,
-    )
-    assert r.returncode == 2, r.stdout + r.stderr
+    with pytest.raises(typer.Exit) as exc:
+        atomizar_heuristica(raw, tmp_path / "a.json")
+    assert exc.value.exit_code == 2
 
 
 # --- T9: regex de omissão preserva os números ------------------------------
@@ -128,71 +128,89 @@ def test_t9_regex_preserva_numeros():
 
 # --- T3: registry com integridade e máquina de estados ----------------------
 
-def test_t3_registry_hash_invalido_reprova(tmp_path):
-    r = run_cli(
-        ["packages.cli.registry", "add", "--id", "X-1", "--tipo", "atomo",
-         "--origem", "manual", "--hash", "nao-e-hash"],
-        cwd=tmp_path,
-    )
-    assert r.returncode == 2, r.stdout + r.stderr
+def test_t3_registry_hash_invalido_reprova(tmp_path, monkeypatch):
+    monkeypatch.chdir(tmp_path)
+    with pytest.raises(typer.Exit) as exc:
+        registrar_item("X-1", "atomo", "manual", "nao-e-hash")
+    assert exc.value.exit_code == 2
 
 
-def test_t3_registry_status_livre_reprova(tmp_path):
-    r = run_cli(
-        ["packages.cli.registry", "add", "--id", "X-2", "--tipo", "atomo",
-         "--origem", "manual", "--hash", "a" * 64, "--status", "qualquer_coisa_inventada"],
-        cwd=tmp_path,
-    )
-    assert r.returncode == 2, r.stdout + r.stderr
+def test_t3_registry_status_livre_reprova(tmp_path, monkeypatch):
+    monkeypatch.chdir(tmp_path)
+    with pytest.raises(typer.Exit) as exc:
+        registrar_item("X-2", "atomo", "manual", "a" * 64, "qualquer_coisa_inventada")
+    assert exc.value.exit_code == 2
 
 
-def test_registry_transicao_invalida_reprova(tmp_path):
-    ok = run_cli(
-        ["packages.cli.registry", "add", "--id", "X-3", "--tipo", "atomo",
-         "--origem", "manual", "--hash", "a" * 64],
-        cwd=tmp_path,
-    )
-    assert ok.returncode == 0, ok.stdout + ok.stderr
-    pulo = run_cli(
-        ["packages.cli.registry", "set-status", "--id", "X-3", "--para", "canonico",
-         "--evidencia", "tentativa de pulo de estado"],
-        cwd=tmp_path,
-    )
-    assert pulo.returncode == 2, pulo.stdout + pulo.stderr
-    valido = run_cli(
-        ["packages.cli.registry", "set-status", "--id", "X-3", "--para", "candidato",
-         "--evidencia", "validação de schema em CI"],
-        cwd=tmp_path,
-    )
-    assert valido.returncode == 0, valido.stdout + valido.stderr
+def test_registry_transicao_invalida_reprova(tmp_path, monkeypatch):
+    monkeypatch.chdir(tmp_path)
+    registrar_item("X-3", "atomo", "manual", "a" * 64)
+    with pytest.raises(typer.Exit) as pulo:
+        transicionar_status("X-3", "canonico", "tentativa de pulo de estado")
+    assert pulo.value.exit_code == 2
+    transicionar_status("X-3", "candidato", "validação de schema em CI")
 
 
 # --- Allowlist de fontes na ingestão ----------------------------------------
 
-def test_ingest_dominio_fora_da_allowlist_reprova(tmp_path):
-    r = run_cli(
-        ["packages.cli.main", "ingest", "--source", "https://blog-nao-oficial.example.org/norma",
-         "--output", str(tmp_path / "raw.json")],
-        cwd=tmp_path,
-    )
-    assert r.returncode == 2, r.stdout + r.stderr
-    assert "REFERENCE_ONLY" in r.stdout
+def test_ingest_dominio_fora_da_allowlist_reprova(tmp_path, capsys):
+    with pytest.raises(typer.Exit) as exc:
+        ingerir("https://blog-nao-oficial.example.org/norma", tmp_path / "raw.json")
+    assert exc.value.exit_code == 2
+    assert "REFERENCE_ONLY" in capsys.readouterr().out
+    assert not (tmp_path / "raw.json").exists()
 
 
 # --- GAP-02: proveniência com hash duplo ------------------------------------
 
-def test_ingest_local_preserva_original_com_hash_duplo(tmp_path):
+def test_heuristica_id_hash_e_proveniencia_incompleta(tmp_path, capsys):
+    origem = "https://www.in.gov.br/web/dou/-/exemplo"
+    linha = "Art. 1º Dispositivo normativo de número 1 com prazo de 10 dias para cumprimento."
+    raw = tmp_path / "raw.json"
+    raw.write_text(json.dumps({
+        "origem": origem,
+        "texto_sanitizado": linha,
+        "sha256_original": "a" * 64,
+    }))
+    with pytest.raises(typer.Exit) as exc:
+        atomizar_heuristica(raw, tmp_path / "out.json")
+    assert exc.value.exit_code == 2
+    assert "proveniência incompleto" in capsys.readouterr().out
+    assert not (tmp_path / "out.json").exists()
+
+    raw.write_text(json.dumps({
+        "origem": origem,
+        "texto_sanitizado": linha,
+        "sha256_original": "a" * 64,
+        "sha256_transformado": "b" * 64,
+    }))
+    out = tmp_path / "atomos.json"
+    atomizar_heuristica(raw, out)
+    atomos = json.loads(out.read_text())
+    esperado = "NORM-" + hashlib.sha256(f"{linha}|{origem}".encode()).hexdigest()[:12]
+    assert atomos[0]["id_atomo"] == esperado
+    assert re.fullmatch(r"NORM-[0-9a-f]{12}", atomos[0]["id_atomo"])
+    assert atomos[0]["status"] == "Não verificado"
+
+
+def test_mascara_telefone_preserva_sequencia_longa():
+    from packages.cli.utils import aplicar_mascara_com_diff
+    texto = "Protocolo 2500012345678 e contato (11) 98765-4321."
+    limpo, diff = aplicar_mascara_com_diff(texto)
+    assert "2500012345678" in limpo
+    assert "[TEL_REDACT]" in limpo
+    assert any(item["padrao"] == "TELEFONE" for item in diff)
+
+
+def test_ingest_local_preserva_original_com_hash_duplo(tmp_path, monkeypatch):
+    monkeypatch.chdir(tmp_path)
     fonte = tmp_path / "norma.txt"
     fonte.write_text(
         "Art. 1º Prazo de 30 dias. Contato: (11) 98765-4321.\n"
         "Art. 2º Prazo de 60 dias para o recurso administrativo cabível.",
         encoding="utf-8",
     )
-    r = run_cli(
-        ["packages.cli.main", "ingest", "--source", str(fonte), "--output", str(tmp_path / "raw.json")],
-        cwd=tmp_path,
-    )
-    assert r.returncode == 0, r.stdout + r.stderr
+    ingerir(str(fonte), tmp_path / "raw.json")
     payload = json.loads((tmp_path / "raw.json").read_text())
     assert payload["sha256_original"] != payload["sha256_transformado"], "máscara aplicada deve alterar o hash"
     original = tmp_path / "data" / "sources" / f"{payload['sha256_original']}.txt"
