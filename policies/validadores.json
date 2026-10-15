@@ -1,0 +1,16 @@
+{
+  "versao": "1.0.0",
+  "regra": "Cada id nomeia uma verificação que o código executa. Uma definição qualificada só lista validadores deste registro, e o conjunto tem de ser exatamente o implementado para o procedimento.",
+  "validadores": {
+    "VAL-WO-ESTRUTURA": "packages.cli.pep.WorkOrderTarefa",
+    "VAL-DEFINICAO": "packages.cli.pep.resolver_definicao",
+    "VAL-CAMINHO": "packages.cli.pep.Entrada",
+    "VAL-CLASSE": "packages.cli.pep.carregar_wo",
+    "VAL-SHA-ENTRADA": "packages.cli.pep.carregar_wo",
+    "VAL-CHECKER-TEXTUAL": "packages.cli.pep.carregar_wo",
+    "VAL-HTML": "packages.cli.kernel._baixar",
+    "VAL-HASH-ARQUIVO": "packages.cli.kernel._sha",
+    "VAL-CLASSE-ATOMO": "packages.cli.pep.decidir_atomizacao",
+    "VAL-PARECER": "packages.cli.kernel.retirar"
+  }
+}

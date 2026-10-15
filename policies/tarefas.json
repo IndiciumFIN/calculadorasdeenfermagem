@@ -1,24 +1,6 @@
 {
   "versao": "1.0.0",
-  "regra": "Nada corre sem Work Order PREAUTHORIZED. A classe vem da política. Referência, script e documento não viram átomo normativo.",
-  "tarefas": {
-    "obter": {
-      "acoes": ["baixar"],
-      "exige_checker": false
-    },
-    "atomizar": {
-      "acoes": ["classificar"],
-      "exige_checker": false
-    },
-    "validar": {
-      "acoes": ["conferir"],
-      "exige_checker": true
-    },
-    "retirar": {
-      "acoes": ["autorizar_lixeira"],
-      "exige_checker": true
-    }
-  },
+  "regra": "A classe do arquivo vem daqui. O procedimento vem de policies/definicoes_tarefa.json. A Work Order não escolhe o procedimento.",
   "classes": {
     "REFERENCIA": {
       "atomizar": "NAO_APLICAVEL",
