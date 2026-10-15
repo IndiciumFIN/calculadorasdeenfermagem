@@ -114,6 +114,10 @@ def process(
     """Atomização heurística. Exige WO. Vigência nunca atribuída automaticamente. Fase 3: ID NORM- + 12 hex; status inicial Não verificado."""
     _exigir_wo(work_order, "process")
     data = json.loads(input_file.read_text())
+    # Fase 5: exige hash de proveniência se o payload veio de ingest
+    if data.get("sha256_original") and not data.get("sha256_transformado"):
+        typer.secho("FAIL: hash de proveniência incompleto (Fase 5)", fg=typer.colors.RED)
+        raise typer.Exit(2)
     texto = data.get("texto_sanitizado") or ""
     atomos = []
     linhas = [l.strip() for l in texto.split("\n") if len(l.strip()) > 40]
@@ -137,7 +141,7 @@ def process(
                 "dispositivo_legal": linha,
                 "norma_origem": data.get("origem", "desconhecida"),
                 "link_fonte": data.get("origem", ""),
-                "status": "Não verificado",
+                "status": "Não verificado",  # Fase 4: transição só via WO específica
                 "data_verificacao": None,
                 "versao_contrato": VERSAO_CONTRATO,
                 "fonte_tipo": data.get("fonte_tipo", "GENERICA"),
