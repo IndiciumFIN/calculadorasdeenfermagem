@@ -141,5 +141,7 @@ def test_corpus_migrado_so_tem_nao_verificado():
     assert resumo["candidatos"] == len(atomos)
     assert resumo["status_distintos"] == ["Não verificado"]
     assert all(a["status"] == "Não verificado" and a["data_verificacao"] is None for a in atomos)
+    from packages.cli.sources import dominio_oficial
+    assert all(not dominio_oficial(a["link_fonte"]) for a in atomos)
     for atomo in atomos:
         AtomoBlindado(**atomo)

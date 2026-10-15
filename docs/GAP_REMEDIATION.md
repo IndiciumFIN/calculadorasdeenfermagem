@@ -12,8 +12,8 @@ revisão; todos os reproduzíveis viraram testes de regressão permanentes em
 |----|----------|-------------|
 | GOV-002 | `|| echo` removido; workflow único `gate.yml` fail-closed; lint de workflow proíbe mascaramento, exige `permissions:` e pinagem por SHA | `gates/gate_workflow_lint.sh` (autoaplicado no agregador) |
 | GOV-003 | Gate agregador executa compilação, testes de regressão, fixtures negativas, type check, segredos e auditoria de dependências | `gates/aggregate.sh` |
-| GOV-004 | Átomo nasce `Não verificado`; `Vigente` exige `data_verificacao` + domínio oficial (schema v1.2.0); migration proposta remove default do banco | `test_t4_process_sem_corte_e_sem_vigencia`, `test_vigente_sem_verificacao_reprova` |
-| GOV-005 | Corte de 15 linhas e truncamentos de 30/40k chars removidos | `test_t4_process_sem_corte_e_sem_vigencia` |
+| GOV-004 | Átomo nasce `Não verificado`; `Vigente`, `Alterado` e `Revogado` exigem `data_verificacao` + domínio oficial (schema v1.2.0); migration proposta remove default do banco e separa a autorização de publicação do status | `test_t4_process_sem_corte_e_sem_vigencia`, `test_vigente_sem_verificacao_reprova`, `tests/test_regulatorio.py` |
+| GOV-005 | Corte de 15 linhas, truncamento de 500 caracteres em `texto_regra` e truncamentos de 30/40k chars removidos | `test_t4_process_sem_corte_e_sem_vigencia`, `test_process_conserva_numero_alem_de_quinhentos` |
 | GOV-006 | Omissão crítica bloqueia por padrão; `validate` lê `_auditoria` antes de descartar; corpus vazio reprova | `test_t1_*`, `test_t2_*` |
 | GOV-007 | Registry exige SHA-256 válido; status em allowlist; transições por máquina de estados com histórico | `test_t3_*`, `test_registry_transicao_invalida_reprova` |
 | GOV-008 | Contrato único `AtomoBlindado` v1.2.0 com `extra='forbid'`; `AtomoNormativo` é alias | `test_propriedade_desconhecida_reprova` |
@@ -85,7 +85,7 @@ API do DeepSeek através do Supabase. Implementação:
 - **Testes**: `tests/test_deepseek_provider.py` (5 casos) cobre credencial
   ausente, secret ausente no Supabase, TLS obrigatório, modelo não pinado e
   caminho feliz com manifesto (`provider_meta`, `promotable=true`,
-  `estagio=raw`).
+  `estagio=raw`, `homologacao_juridica=false`). `promotable` não homologa.
 
 ## Retirada do acervo legado (15/10/2026)
 
