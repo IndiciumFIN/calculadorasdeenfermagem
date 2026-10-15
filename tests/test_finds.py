@@ -278,3 +278,16 @@ def test_promocao_a_canonico_bloqueia_find_critico_aberto(tmp_path, monkeypatch)
     assert exc.value.exit_code == 2
     estado = json.loads((tmp_path / "data" / "registry.json").read_text(encoding="utf-8"))
     assert estado[0]["status"] == "validado"
+
+
+def test_registro_novo_nao_herda_correcao_de_outro_find():
+    from packages.cli.kernel import registro_nao_autoriza_correcao
+
+    doc = {
+        "finds": [
+            {"id": "FIND-0001", "correcao_autorizada": True},
+            {"id": "FIND-0002", "correcao_autorizada": False},
+        ]
+    }
+    assert registro_nao_autoriza_correcao(doc, "FIND-0002")
+    assert not registro_nao_autoriza_correcao(doc, "FIND-0001")

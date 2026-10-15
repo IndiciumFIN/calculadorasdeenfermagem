@@ -1,0 +1,20 @@
+{
+  "id": "WO-2026_10_15_0040",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "agent_id": "AGT-EXTRATOR-001",
+  "task_id": "TAREFA-FIND-REGISTRAR",
+  "task_version": "1.0.0",
+  "task_type": "registrar-find",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "entradas": [],
+  "parametros": {
+    "codigo": "PORTA-DRIVE-001",
+    "objeto": "scripts/migrar_drive.py",
+    "severidade": "CRITICA",
+    "descricao": "O script de migração copia arquivos sem Work Order do kernel.",
+    "impacto": "Uma execução direta grava no repositório fora do procedimento qualificado.",
+    "quando": "2026-10-15"
+  }
+}
