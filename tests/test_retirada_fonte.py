@@ -120,6 +120,13 @@ def test_ledger_do_repositorio_confere_com_as_copias():
     politica = json.loads((REPO / "policies" / "retirada_fonte.json").read_text(encoding="utf-8"))
     assert politica["esvaziar_lixeira"] == "BLOQUEAR"
     assert politica["esvaziar_lixeira_executor"] == "somente_humano"
+    assert {item["titulo"] for item in ledger["pastas_vazias"]} == {
+        "cid10",
+        "sepse",
+        "ferimentos",
+        "medlineplus",
+    }
+    assert all(item["estado"] == "AUSENTE" for item in ledger["pastas_vazias"])
 
 
 def test_cli_reprova_ledger_inconsistente(tmp_path):
