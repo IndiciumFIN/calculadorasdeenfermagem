@@ -116,6 +116,68 @@
       "qualificacao": "NAO_QUALIFICADA",
       "procedimento": "llm_runner",
       "motivo": "O contrato de Work Order do modelo está em contracts/work_order.schema.json e não foi unificado a esta definição."
+    },
+    "TAREFA-FIND-REGISTRAR": {
+      "id": "TAREFA-FIND-REGISTRAR",
+      "versao": "1.0.0",
+      "qualificacao": "QUALIFICADA",
+      "procedimento": "registrar-find",
+      "sha256_entrada": "proibido",
+      "entradas_minimas": 0,
+      "exige_checker": false,
+      "parametros_obrigatorios": ["codigo", "objeto", "severidade", "descricao", "impacto", "detector", "quando"],
+      "validadores": [
+        "VAL-WO-ESTRUTURA",
+        "VAL-DEFINICAO",
+        "VAL-FIND-CAMPOS",
+        "VAL-FIND-SEVERIDADE",
+        "VAL-FIND-DEDUP",
+        "VAL-FIND-HISTORICO"
+      ],
+      "erros": ["SEVERIDADE", "CAMPO_CURTO"]
+    },
+    "TAREFA-FIND-VINCULAR": {
+      "id": "TAREFA-FIND-VINCULAR",
+      "versao": "1.0.0",
+      "qualificacao": "QUALIFICADA",
+      "procedimento": "vincular-find",
+      "sha256_entrada": "proibido",
+      "entradas_minimas": 0,
+      "exige_checker": false,
+      "parametros_obrigatorios": ["find_id", "work_order_ref", "run_caminho", "quando"],
+      "validadores": [
+        "VAL-WO-ESTRUTURA",
+        "VAL-DEFINICAO",
+        "VAL-FIND-CAMPOS",
+        "VAL-FIND-HISTORICO"
+      ],
+      "erros": ["FIND_AUSENTE", "FIND_FECHADO"]
+    },
+    "TAREFA-FIND-ENCERRAR": {
+      "id": "TAREFA-FIND-ENCERRAR",
+      "versao": "1.0.0",
+      "qualificacao": "QUALIFICADA",
+      "procedimento": "encerrar-find",
+      "sha256_entrada": "proibido",
+      "entradas_minimas": 0,
+      "exige_checker": true,
+      "parametros_obrigatorios": ["find_id", "evidencia_caminho", "evidencia_sha256", "quando"],
+      "validadores": [
+        "VAL-WO-ESTRUTURA",
+        "VAL-DEFINICAO",
+        "VAL-CHECKER-TEXTUAL",
+        "VAL-FIND-CAMPOS",
+        "VAL-FIND-EVIDENCIA",
+        "VAL-HASH-ARQUIVO"
+      ],
+      "erros": ["SEM_PASS", "SHA_DIVERGENTE", "CHECKER_IGUAL"]
+    },
+    "TAREFA-FIND-CORRIGIR": {
+      "id": "TAREFA-FIND-CORRIGIR",
+      "versao": "0.0.0",
+      "qualificacao": "NAO_QUALIFICADA",
+      "procedimento": "corrigir-find",
+      "motivo": "Registrar um FIND não autoriza correção. Não há procedimento homologado para alterar código ou política."
     }
   }
 }

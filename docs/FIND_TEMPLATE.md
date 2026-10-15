@@ -1,5 +1,7 @@
 # Template de FIND (Achado de Qualidade)
 
+O registro executável está em `policies/finds.json` e `data/finds/registro.json`. Este modelo não abre, fecha nem autoriza correção.
+
 ```markdown
 # FIND-XXX — [Título curto]
 

@@ -11,6 +11,11 @@
     "VAL-HTML": "packages.cli.kernel._baixar",
     "VAL-HASH-ARQUIVO": "packages.cli.kernel._sha",
     "VAL-CLASSE-ATOMO": "packages.cli.pep.decidir_atomizacao",
-    "VAL-PARECER": "packages.cli.kernel.retirar"
+    "VAL-PARECER": "packages.cli.kernel.retirar",
+    "VAL-FIND-CAMPOS": "packages.cli.pep.carregar_wo",
+    "VAL-FIND-SEVERIDADE": "packages.cli.finds.registrar",
+    "VAL-FIND-DEDUP": "packages.cli.finds.registrar",
+    "VAL-FIND-HISTORICO": "packages.cli.finds.registrar",
+    "VAL-FIND-EVIDENCIA": "packages.cli.finds.encerrar"
   }
 }
