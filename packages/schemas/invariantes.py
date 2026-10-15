@@ -6,6 +6,8 @@ from pydantic import BaseModel, ConfigDict, Field, HttpUrl, field_validator, mod
 from packages.cli.sources import dominio_oficial
 
 VERSAO_CONTRATO = "1.2.0"
+LIMITE_TEXTO_REGRA = 800
+CONDICAO_DETERMINADA = frozenset({"Vigente", "Alterado", "Revogado"})
 
 # Placeholders que já foram aceitos como fonte (teste T2). Proibidos.
 DOMINIOS_PLACEHOLDER = {"example.com", "www.example.com", "localhost"}
@@ -17,14 +19,14 @@ class AtomoBlindado(BaseModel):
     Invariantes principais:
     - extra='forbid': propriedades desconhecidas são rejeitadas;
     - status nasce 'Não verificado'; 'Vigente' nunca é default (GOV-004);
-    - 'Vigente' exige data_verificacao e link_fonte em domínio oficial;
+    - Vigente, Alterado e Revogado exigem data_verificacao e link_fonte oficial;
     - placeholders (example.com) são rejeitados como fonte.
     """
 
     model_config = ConfigDict(extra="forbid")
 
     id_atomo: str = Field(..., pattern=r"^NORM-\d{4}-\d+")
-    texto_regra: str = Field(..., min_length=10, max_length=800)
+    texto_regra: str = Field(..., min_length=10, max_length=LIMITE_TEXTO_REGRA)
     dispositivo_legal: str = Field(..., min_length=3)
     norma_origem: str
     link_fonte: HttpUrl
@@ -53,13 +55,13 @@ class AtomoBlindado(BaseModel):
 
     @model_validator(mode="after")
     def vigencia_exige_evidencia(self):
-        if self.status == "Vigente":
+        if self.status in CONDICAO_DETERMINADA:
             if self.data_verificacao is None:
                 raise ValueError(
-                    "INVARIANTE: status Vigente exige data_verificacao com evidência de verificação"
+                    f"INVARIANTE: status {self.status} exige data_verificacao com evidência de verificação"
                 )
             if not dominio_oficial(str(self.link_fonte)):
                 raise ValueError(
-                    "INVARIANTE: status Vigente exige link_fonte em domínio oficial da allowlist"
+                    f"INVARIANTE: status {self.status} exige link_fonte em domínio oficial da allowlist"
                 )
         return self

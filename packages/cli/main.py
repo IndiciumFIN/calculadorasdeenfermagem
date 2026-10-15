@@ -7,7 +7,7 @@ import typer
 from packages.cli.auditor import auditar_omissao
 from packages.cli.evidence import registrar_proveniencia
 from packages.cli.sources import ALLOWED, INVALID, REFERENCE_ONLY, classificar_url
-from packages.schemas.invariantes import VERSAO_CONTRATO, AtomoBlindado
+from packages.schemas.invariantes import LIMITE_TEXTO_REGRA, VERSAO_CONTRATO, AtomoBlindado
 
 app = typer.Typer(help="CLI canônica e blindada - Calculadoras de Enfermagem")
 
@@ -87,10 +87,20 @@ def process(
     # parcial silencioso (GOV-005, confirmado no teste T4).
     for i, linha in enumerate(linhas):
         if any(k in linha.lower() for k in ["art.", "artigo", "§", "inciso", "parágrafo"]):
+            texto_regra = linha
+            if len(texto_regra) > LIMITE_TEXTO_REGRA:
+                audit = {
+                    "omissao_critica": True,
+                    "motivo": "texto_acima_do_contrato",
+                    "caracteres": len(texto_regra),
+                    "numeros_omitidos": [],
+                }
+            else:
+                audit = auditar_omissao(linha, texto_regra)
             atomo = {
                 "id_atomo": f"NORM-{date.today().year}-{i+1:03d}",
-                "texto_regra": linha[:500],
-                "dispositivo_legal": linha[:100],
+                "texto_regra": texto_regra,
+                "dispositivo_legal": linha,
                 "norma_origem": data.get("origem", "desconhecida"),
                 "link_fonte": data.get("origem", ""),
                 # Vigência NUNCA é atribuída na extração (GOV-004). A promoção
@@ -100,9 +110,6 @@ def process(
                 "versao_contrato": VERSAO_CONTRATO,
                 "fonte_tipo": data.get("fonte_tipo", "GENERICA"),
             }
-            # Auditoria por átomo: compara o átomo com a SUA linha de origem
-            # (detecta perda por truncamento), não com o documento inteiro.
-            audit = auditar_omissao(linha, atomo["texto_regra"])
             atomo["_auditoria"] = audit
             if audit.get("omissao_critica"):
                 has_critical = True

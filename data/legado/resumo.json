@@ -1,7 +1,7 @@
 {
   "gerado_em": "2026-10-15T00:28:58.263601+00:00",
   "versao_contrato": "1.2.0",
-  "regra": "Candidatos do acervo legado. status sempre Não verificado. link_fonte é a planilha de origem no Drive, não o diário oficial. Nada aqui é Vigente.",
+  "regra": "Candidatos do acervo legado. status sempre Não verificado. link_fonte é a planilha de origem no Drive, não o diário oficial. fonte_oficial permanece AUSENTE. Nada aqui é Vigente.",
   "origem_manifesto": "Google Drive, pasta de átomos COFEN, exportado em 2026-10-15. Planilhas mantidas no Drive; esta cópia é a retirada governada.",
   "fontes": {
     "NORMATIVE_ATOMS_COFEN_V1.csv": {
@@ -61,7 +61,7 @@
     "Não verificado"
   ],
   "notas": [
-    "Nenhum candidato nasce Vigente. link_fonte é a planilha de origem no Drive, não o diário oficial.",
+    "Nenhum candidato nasce Vigente. link_fonte é a planilha de origem no Drive, não o diário oficial. fonte_oficial permanece AUSENTE: nenhum átomo está associado ao ato publicado. Parecer de modelo não homologa.",
     "termo_opinativo: o contrato v1.2.0 rejeita o vocábulo 'recomenda-se' mesmo quando ele é o verbo da própria norma. O texto integral fica na quarentena até decisão de contrato.",
     "conflito_duplicata: o mesmo NORM_ATOM_ID com textos diferentes não escolhe lado; as duas cópias ficam na quarentena.",
     "texto_acima_do_contrato e texto_curto preservam o texto integral, sem truncar.",

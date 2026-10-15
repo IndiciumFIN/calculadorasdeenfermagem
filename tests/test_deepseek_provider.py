@@ -154,6 +154,8 @@ def test_deepseek_sucesso_envia_temperatura_zero_e_gera_manifesto(tmp_path):
     assert manifest["provider"] == "deepseek_via_supabase"
     assert manifest["estagio"] == "raw"
     assert manifest["promotable"] is True
+    assert manifest["homologacao_juridica"] is False
+    assert manifest["efeito"] == "CANDIDATE_ONLY"
     assert manifest["provider_meta"]["modelo_retornado"] == "deepseek-chat"
     assert (out_dir / "output.json").read_text(encoding="utf-8") == "{\"atomos\": []}"
 

@@ -1,6 +1,6 @@
 {
-  "versao": "1.1.0",
-  "regra": "Cada id nomeia uma verificação que o código executa. Uma definição qualificada só lista validadores deste registro, e o conjunto tem de ser exatamente o implementado para o procedimento. VAL-GRC implementado é chamável pelo kernel e não altera os procedimentos já qualificados. Validador só identificado fica fora desta lista.",
+  "versao": "1.2.0",
+  "regra": "Cada id nomeia uma verificação que o código executa. Uma definição qualificada só lista validadores deste registro, e o conjunto tem de ser exatamente o implementado para o procedimento. VAL-GRC e VAL-REG implementados são chamáveis pelo kernel e não alteram os procedimentos já qualificados. Validador só identificado fica fora desta lista.",
   "validadores": {
     "VAL-WO-ESTRUTURA": "packages.cli.pep.WorkOrderTarefa",
     "VAL-DEFINICAO": "packages.cli.pep.resolver_definicao",
@@ -35,6 +35,11 @@
     "VAL-GRC-019": "packages.cli.grc_politica.val_sem_promocao",
     "VAL-GRC-020": "packages.cli.grc_politica.val_estados",
     "VAL-GRC-021": "packages.cli.grc_politica.val_candidato_nao_executa",
-    "VAL-GRC-022": "packages.cli.grc_politica.val_enunciado_ausente"
+    "VAL-GRC-022": "packages.cli.grc_politica.val_enunciado_ausente",
+    "VAL-REG-001": "packages.cli.regulatorio.val_corpus",
+    "VAL-REG-002": "packages.cli.regulatorio.val_fonte_oficial",
+    "VAL-REG-003": "packages.cli.regulatorio.val_parecer_llm",
+    "VAL-REG-004": "packages.cli.regulatorio.val_publicacao",
+    "VAL-REG-005": "packages.cli.regulatorio.val_sem_truncamento"
   }
 }

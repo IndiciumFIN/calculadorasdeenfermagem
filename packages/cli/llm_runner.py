@@ -10,6 +10,8 @@ qualquer perímetro de controle. Regras:
   temperatura 0 obrigatória, hash do input conferido.
 - Saída SEMPRE aterrissa em estágio raw (CANDIDATE_ONLY) com manifesto de
   evidência: hashes de prompt, input e output, model_id e provider.
+- homologacao_juridica é sempre falsa. promotable distingue o mock do
+  provider real e não homologa o parecer.
 - Fail-closed: qualquer verificação ausente ou divergente termina com exit 2.
 
 Providers: model_id usa prefixo 'deepseek:', 'anthropic:', 'openai:' ou 'mock:'.
@@ -265,6 +267,8 @@ def run(work_order: Path = typer.Option(..., "--work-order", "-w")):
         "authorized_by": wo["authorized_by"],
         "estagio": "raw",
         "promotable": promotable,
+        "homologacao_juridica": False,
+        "efeito": "CANDIDATE_ONLY",
         "provider_meta": provider_meta,
         "executado_em": datetime.now(timezone.utc).isoformat(),
     }
