@@ -1,0 +1,134 @@
+{
+  "algoritmo": "extracao-bytes-sha256",
+  "arquivo": "FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+  "bytes": 6074592,
+  "sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0",
+  "membros": [
+    {
+      "nome": "FoodData_Central_sr_legacy_food_csv_2018-04/food_update_log_entry.csv",
+      "bytes": 623888,
+      "sha256": "a0b985eafbe2b70be4f99067528c65bcf0526aa4708d8b24e3e608f21987c552",
+      "disposicao": "GRAVADO",
+      "caminho": "FoodData_Central_sr_legacy_food_csv_2018-04/food_update_log_entry.csv"
+    },
+    {
+      "nome": "FoodData_Central_sr_legacy_food_csv_2018-04/sr_legacy_food.csv",
+      "bytes": 130404,
+      "sha256": "ff0fe85a469aa6d6702d68348850fc79dee35e9515324026964f1209a0e3544d",
+      "disposicao": "GRAVADO",
+      "caminho": "FoodData_Central_sr_legacy_food_csv_2018-04/sr_legacy_food.csv"
+    },
+    {
+      "nome": "FoodData_Central_sr_legacy_food_csv_2018-04/Download & API Field Descriptions-2019-10-11-16-22.xlsx",
+      "bytes": 447102,
+      "sha256": "6d18c66bd1f259b36432f514178cd15c2708ae22a212ca27bdd0d685e225961d",
+      "disposicao": "GRAVADO",
+      "caminho": "FoodData_Central_sr_legacy_food_csv_2018-04/Download & API Field Descriptions-2019-10-11-16-22.xlsx"
+    },
+    {
+      "nome": "FoodData_Central_sr_legacy_food_csv_2018-04/food_nutrient_source.csv",
+      "bytes": 602,
+      "sha256": "9b0a3f8bd746d8cf7428253442c91190d45479de448ce160cd9ff3af0a1ae302",
+      "disposicao": "GRAVADO",
+      "caminho": "FoodData_Central_sr_legacy_food_csv_2018-04/food_nutrient_source.csv"
+    },
+    {
+      "nome": "FoodData_Central_sr_legacy_food_csv_2018-04/food_attribute_type.csv",
+      "bytes": 331,
+      "sha256": "35ac614cc9958eaa5f43402bb592b595902b5cc43dad4b947958a0057287adde",
+      "disposicao": "IDENTICO_EXISTENTE",
+      "copia_existente": "nutricao/raw/extraido/FoodData_Central_foundation_food_csv_2026-04-30.zip/FoodData_Central_foundation_food_csv_2026-04-30/food_attribute_type.csv"
+    },
+    {
+      "nome": "FoodData_Central_sr_legacy_food_csv_2018-04/measure_unit.csv",
+      "bytes": 1955,
+      "sha256": "c1396ffebbe6337260fe4de6276aa91847c7f41ff31a4f69080764a5b36ba155",
+      "disposicao": "GRAVADO",
+      "caminho": "FoodData_Central_sr_legacy_food_csv_2018-04/measure_unit.csv"
+    },
+    {
+      "nome": "FoodData_Central_sr_legacy_food_csv_2018-04/food_nutrient_conversion_factor.csv",
+      "bytes": 183104,
+      "sha256": "472cdbf40f5ef747bb5f0aaa970a03ff05a2f13e6b3021f8617a1c625a50b004",
+      "disposicao": "GRAVADO",
+      "caminho": "FoodData_Central_sr_legacy_food_csv_2018-04/food_nutrient_conversion_factor.csv"
+    },
+    {
+      "nome": "FoodData_Central_sr_legacy_food_csv_2018-04/nutrient.csv",
+      "bytes": 21464,
+      "sha256": "466ab9d011094cc1ad8d939b246693988b56817c42d0e40a98820723695c6084",
+      "disposicao": "GRAVADO",
+      "caminho": "FoodData_Central_sr_legacy_food_csv_2018-04/nutrient.csv"
+    },
+    {
+      "nome": "FoodData_Central_sr_legacy_food_csv_2018-04/food_nutrient_derivation.csv",
+      "bytes": 6853,
+      "sha256": "f2b18b55d77bd7e7421de59d8a519c0edfb70fea6e064231983fd991e318a99d",
+      "disposicao": "GRAVADO",
+      "caminho": "FoodData_Central_sr_legacy_food_csv_2018-04/food_nutrient_derivation.csv"
+    },
+    {
+      "nome": "FoodData_Central_sr_legacy_food_csv_2018-04/food_attribute.csv",
+      "bytes": 63688,
+      "sha256": "28bfbd79d77e56a2e8cc74f3c7bd5e4066a87c70e598f01377bb4ed2cd3da3ec",
+      "disposicao": "GRAVADO",
+      "caminho": "FoodData_Central_sr_legacy_food_csv_2018-04/food_attribute.csv"
+    },
+    {
+      "nome": "FoodData_Central_sr_legacy_food_csv_2018-04/food.csv",
+      "bytes": 793104,
+      "sha256": "de8b0390058db4f102368c9fbdfde144790b480ff4cb0507c0e060ef99805dee",
+      "disposicao": "GRAVADO",
+      "caminho": "FoodData_Central_sr_legacy_food_csv_2018-04/food.csv"
+    },
+    {
+      "nome": "FoodData_Central_sr_legacy_food_csv_2018-04/food_protein_conversion_factor.csv",
+      "bytes": 90043,
+      "sha256": "6ad52bf942befd72188ff906c0e5f32c2402740a2022a08c328706f58d0468f9",
+      "disposicao": "GRAVADO",
+      "caminho": "FoodData_Central_sr_legacy_food_csv_2018-04/food_protein_conversion_factor.csv"
+    },
+    {
+      "nome": "FoodData_Central_sr_legacy_food_csv_2018-04/food_category.csv",
+      "bytes": 997,
+      "sha256": "a8e05c18cf010d44303f2a02765637a21f9ad621f90b4f811ab4a4a436cfedd9",
+      "disposicao": "IDENTICO_EXISTENTE",
+      "copia_existente": "nutricao/raw/extraido/FoodData_Central_foundation_food_csv_2026-04-30.zip/FoodData_Central_foundation_food_csv_2026-04-30/food_category.csv"
+    },
+    {
+      "nome": "FoodData_Central_sr_legacy_food_csv_2018-04/all_downloaded_table_record_counts.csv",
+      "bytes": 291,
+      "sha256": "bd97b400ba871b3946de402e820deac1b9c3bd39ccf008d49e6c4327762b8418",
+      "disposicao": "GRAVADO",
+      "caminho": "FoodData_Central_sr_legacy_food_csv_2018-04/all_downloaded_table_record_counts.csv"
+    },
+    {
+      "nome": "FoodData_Central_sr_legacy_food_csv_2018-04/food_nutrient.csv",
+      "bytes": 36366059,
+      "sha256": "6d07e6fc062b09750c4d95112be5a5cdb56a2346efcfd0c96b7a7d705812d4bd",
+      "disposicao": "GRAVADO",
+      "caminho": "FoodData_Central_sr_legacy_food_csv_2018-04/food_nutrient.csv"
+    },
+    {
+      "nome": "FoodData_Central_sr_legacy_food_csv_2018-04/retention_factor.csv",
+      "bytes": 13304,
+      "sha256": "4597c4a11fe4b8b61000ec04d3616aff61d6e8955322c4b579989df2d751df0e",
+      "disposicao": "GRAVADO",
+      "caminho": "FoodData_Central_sr_legacy_food_csv_2018-04/retention_factor.csv"
+    },
+    {
+      "nome": "FoodData_Central_sr_legacy_food_csv_2018-04/food_calorie_conversion_factor.csv",
+      "bytes": 129904,
+      "sha256": "c7a4f50bca01230171e76f398d35102d3c7821556010b4516dbf98fa2ddbe740",
+      "disposicao": "GRAVADO",
+      "caminho": "FoodData_Central_sr_legacy_food_csv_2018-04/food_calorie_conversion_factor.csv"
+    },
+    {
+      "nome": "FoodData_Central_sr_legacy_food_csv_2018-04/food_portion.csv",
+      "bytes": 918790,
+      "sha256": "6332e29da61e13f7bd950b759461af73303c76e8b0e64dc9df4e41d5347cf3d1",
+      "disposicao": "GRAVADO",
+      "caminho": "FoodData_Central_sr_legacy_food_csv_2018-04/food_portion.csv"
+    }
+  ]
+}

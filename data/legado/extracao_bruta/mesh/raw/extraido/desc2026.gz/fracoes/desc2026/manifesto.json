@@ -1,0 +1,67 @@
+{
+  "algoritmo": "concatenacao-bytes-sha256",
+  "id_origem": "",
+  "arquivo": "desc2026",
+  "caminho_obter": "desc2026",
+  "bytes": 312952703,
+  "sha256": "449792ed59ba4d60035e44724352f7361ec0dc945b67dcd821a50ff32f81bcdb",
+  "tamanho_parte": 40000000,
+  "partes": [
+    {
+      "nome": "part-000",
+      "ordem": 0,
+      "offset": 0,
+      "bytes": 40000000,
+      "sha256": "8a37f19d5f4f3b91fce052ac2049085a13d1f91f35658d0c24570ee635eac119"
+    },
+    {
+      "nome": "part-001",
+      "ordem": 1,
+      "offset": 40000000,
+      "bytes": 40000000,
+      "sha256": "d4565b7a7de1d7e803fcbfd5270f97128d2316f9bec6aea9f103d86ccc6fea9a"
+    },
+    {
+      "nome": "part-002",
+      "ordem": 2,
+      "offset": 80000000,
+      "bytes": 40000000,
+      "sha256": "6069156e244e6f2a928c9fcafa08be6629ed97654f8748d339c916da16d0459f"
+    },
+    {
+      "nome": "part-003",
+      "ordem": 3,
+      "offset": 120000000,
+      "bytes": 40000000,
+      "sha256": "46ecdd36806c4498cc4ebcb79b992c71f16186274af643f959fcfe7846c7b33a"
+    },
+    {
+      "nome": "part-004",
+      "ordem": 4,
+      "offset": 160000000,
+      "bytes": 40000000,
+      "sha256": "238f6c3569aee3fcbb5a43bf03434c2db4f13f26d8a16c44f2d72f750078a30d"
+    },
+    {
+      "nome": "part-005",
+      "ordem": 5,
+      "offset": 200000000,
+      "bytes": 40000000,
+      "sha256": "48e3653d059c4da8e59fa0655fe826c164a0ba0135914c52b20d8f03be6dc38e"
+    },
+    {
+      "nome": "part-006",
+      "ordem": 6,
+      "offset": 240000000,
+      "bytes": 40000000,
+      "sha256": "95c885a8c22a20cafacbb036bf4a2e171c4cddf95f61a25012644007344fd17b"
+    },
+    {
+      "nome": "part-007",
+      "ordem": 7,
+      "offset": 280000000,
+      "bytes": 32952703,
+      "sha256": "312211e20fea7a5272ae033425a8d9681c20e402e9d51da62d2f2ae658c03ba8"
+    }
+  ]
+}
