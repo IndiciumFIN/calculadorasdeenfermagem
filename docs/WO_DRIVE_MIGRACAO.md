@@ -29,3 +29,16 @@ Converter a estrutura da pasta Drive `1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC` para o 
 5. Só então copiar o que for único e rastreável.
 
 **Kernel só executa a política desta WO. Nenhuma promoção canônica automática.**
+
+## Script de execução
+
+```bash
+python scripts/migrar_drive.py /caminho/para/exportacao_do_drive
+```
+
+- Arquivos com SHA já presente: rejeitados (não sobrescrevem).
+- Nome existente com conteúdo diferente: quarentena em `data/quarentena_drive/`.
+- Relatório gerado em `data/relatorio_migracao.json`.
+- Exit 2 se houver itens em quarentena.
+
+**Nenhuma promoção de status ocorre neste script.**
