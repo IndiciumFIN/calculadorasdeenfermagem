@@ -108,3 +108,10 @@ apagado. As planilhas originais continuam no Drive.
 - `.gitleaks.toml` ignora só o padrão `sha256_texto=` (hash de evidência das
   planilhas). Sem isso o gate acusava 2.311 falsos positivos. Nenhuma outra
   regra foi relaxada.
+- Duplicidade: 38 ids repetidos com o mesmo texto foram deduplicados. 336 ids
+  com textos diferentes foram para quarentena sem escolher lado (335 dentro
+  do mesmo arquivo; 1 entre a V1 e o lote 3, aspas em "lato sensu").
+  Inventário em `data/legado/duplicidades.json`.
+- Limpeza: as 7 planilhas `NORMATIVE_ATOMS` e o PDF da Resolução 800 cujo
+  SHA-256 confere com o Git foram para a lixeira do Drive. PDFs parecidos,
+  registros e o Supabase (anatomia, calculadoras, questões) permanecem.
