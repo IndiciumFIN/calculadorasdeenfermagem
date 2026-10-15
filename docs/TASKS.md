@@ -1,6 +1,6 @@
-# Tarefas Determinísticas do Projeto
+# Inventário de comandos
 
-Todas as tarefas abaixo têm comando explícito e critério de aceite. Nenhuma é "pensante" — só avança com evidência.
+A qualificação do procedimento está em `policies/definicoes_tarefa.json`. Esta tabela não autoriza execução. A Work Order pede permissão para uma definição já qualificada e não descreve o procedimento.
 
 ## Tarefas ativas
 

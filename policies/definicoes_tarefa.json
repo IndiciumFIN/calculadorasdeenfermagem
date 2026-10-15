@@ -1,0 +1,121 @@
+{
+  "versao": "1.0.0",
+  "regra": "A definição é o procedimento homologado. A Work Order pede permissão para executá-lo e não o reescreve. Qualificação, autorização e resultado da execução são registros distintos.",
+  "definicoes": {
+    "TAREFA-OBTER": {
+      "id": "TAREFA-OBTER",
+      "versao": "1.0.0",
+      "qualificacao": "QUALIFICADA",
+      "procedimento": "obter",
+      "sha256_entrada": "proibido",
+      "exige_checker": false,
+      "validadores": [
+        "VAL-WO-ESTRUTURA",
+        "VAL-DEFINICAO",
+        "VAL-CAMINHO",
+        "VAL-CLASSE",
+        "VAL-SHA-ENTRADA",
+        "VAL-HTML"
+      ],
+      "erros": ["WO_AUSENTE", "SHA_DECLARADO", "HTML", "HTTP"]
+    },
+    "TAREFA-ATOMIZAR": {
+      "id": "TAREFA-ATOMIZAR",
+      "versao": "1.0.0",
+      "qualificacao": "QUALIFICADA",
+      "procedimento": "atomizar",
+      "sha256_entrada": "obrigatorio",
+      "exige_checker": false,
+      "validadores": [
+        "VAL-WO-ESTRUTURA",
+        "VAL-DEFINICAO",
+        "VAL-CAMINHO",
+        "VAL-CLASSE",
+        "VAL-SHA-ENTRADA",
+        "VAL-HASH-ARQUIVO",
+        "VAL-CLASSE-ATOMO"
+      ],
+      "erros": ["SHA_DIVERGENTE", "ATO_SEM_EXTRATOR", "ARQUIVO_AUSENTE"]
+    },
+    "TAREFA-VALIDAR": {
+      "id": "TAREFA-VALIDAR",
+      "versao": "1.0.0",
+      "qualificacao": "QUALIFICADA",
+      "procedimento": "validar",
+      "sha256_entrada": "obrigatorio",
+      "exige_checker": true,
+      "validadores": [
+        "VAL-WO-ESTRUTURA",
+        "VAL-DEFINICAO",
+        "VAL-CAMINHO",
+        "VAL-CLASSE",
+        "VAL-SHA-ENTRADA",
+        "VAL-CHECKER-TEXTUAL",
+        "VAL-HASH-ARQUIVO",
+        "VAL-CLASSE-ATOMO"
+      ],
+      "erros": ["CHECKER_IGUAL", "SEM_MANIFESTO", "SHA_DIVERGENTE", "RESULTADO_INESPERADO"]
+    },
+    "TAREFA-RETIRAR": {
+      "id": "TAREFA-RETIRAR",
+      "versao": "1.0.0",
+      "qualificacao": "QUALIFICADA",
+      "procedimento": "retirar",
+      "sha256_entrada": "obrigatorio",
+      "exige_checker": true,
+      "validadores": [
+        "VAL-WO-ESTRUTURA",
+        "VAL-DEFINICAO",
+        "VAL-CAMINHO",
+        "VAL-CLASSE",
+        "VAL-SHA-ENTRADA",
+        "VAL-CHECKER-TEXTUAL",
+        "VAL-HASH-ARQUIVO",
+        "VAL-PARECER"
+      ],
+      "erros": ["SEM_PARECER", "SEM_PASS", "SHA_DIVERGENTE"]
+    },
+    "TAREFA-T01": {
+      "id": "TAREFA-T01",
+      "versao": "0.0.0",
+      "qualificacao": "NAO_QUALIFICADA",
+      "procedimento": "ingest",
+      "motivo": "Comando existente em packages.cli.main. Sem definição homologada: o comando ainda corre fora do kernel."
+    },
+    "TAREFA-T02": {
+      "id": "TAREFA-T02",
+      "versao": "0.0.0",
+      "qualificacao": "NAO_QUALIFICADA",
+      "procedimento": "process",
+      "motivo": "O processador corta texto e não está ligado a esta definição."
+    },
+    "TAREFA-T03": {
+      "id": "TAREFA-T03",
+      "versao": "0.0.0",
+      "qualificacao": "NAO_QUALIFICADA",
+      "procedimento": "validate",
+      "motivo": "A validação de invariantes existe e não está registrada como procedimento deste kernel."
+    },
+    "TAREFA-T04": {
+      "id": "TAREFA-T04",
+      "versao": "0.0.0",
+      "qualificacao": "NAO_QUALIFICADA",
+      "procedimento": "pipeline",
+      "motivo": "O pipeline corre sem Work Order."
+    },
+    "TAREFA-T07": {
+      "id": "TAREFA-T07",
+      "versao": "0.0.0",
+      "qualificacao": "NAO_QUALIFICADA",
+      "procedimento": "set-status",
+      "motivo": "registry.py altera status sem Work Order. A máquina dele não é a de docs/REGISTRY.md. O kernel não executa esta transição."
+    },
+    "TAREFA-LLM-RUN": {
+      "id": "TAREFA-LLM-RUN",
+      "versao": "0.0.0",
+      "qualificacao": "NAO_QUALIFICADA",
+      "procedimento": "llm_runner",
+      "motivo": "O contrato de Work Order do modelo está em contracts/work_order.schema.json e não foi unificado a esta definição."
+    }
+  }
+}

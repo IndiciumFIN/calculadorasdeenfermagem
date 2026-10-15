@@ -9,6 +9,12 @@ from packages.cli.kernel import atomizar, obter, retirar, validar
 from packages.cli.pep import carregar_wo
 
 SHA = "a" * 64
+DEFINICAO = {
+    "obter": "TAREFA-OBTER",
+    "atomizar": "TAREFA-ATOMIZAR",
+    "validar": "TAREFA-VALIDAR",
+    "retirar": "TAREFA-RETIRAR",
+}
 
 
 def _base(task_type: str, *, sha: str | None, classe: str = "REFERENCIA") -> dict:
@@ -23,6 +29,8 @@ def _base(task_type: str, *, sha: str | None, classe: str = "REFERENCIA") -> dic
         "id": f"WO-{task_type.upper()}-TESTE-001",
         "contract_version": "CKO-TAREFA-1.0.0",
         "authorized_by": "IndiciumFIN",
+        "task_id": DEFINICAO[task_type],
+        "task_version": "1.0.0",
         "task_type": task_type,
         "policy_version": "1.0.0",
         "state": "PREAUTHORIZED",
@@ -42,6 +50,41 @@ def _gravar(tmp_path: Path, doc: dict) -> Path:
     caminho = tmp_path / "wo.json"
     caminho.write_text(json.dumps(doc), encoding="utf-8")
     return caminho
+
+
+def test_tarefa_nao_qualificada_reprova(tmp_path):
+    doc = _base("obter", sha=None)
+    doc["task_id"] = "TAREFA-T07"
+    doc["task_version"] = "0.0.0"
+    doc["task_type"] = "set-status"
+    with pytest.raises(ValueError, match="não qualificada"):
+        carregar_wo(_gravar(tmp_path, doc))
+
+
+def test_wo_nao_redefine_procedimento(tmp_path):
+    doc = _base("obter", sha=None)
+    doc["task_type"] = "atomizar"
+    with pytest.raises(ValueError, match="não redefine"):
+        carregar_wo(_gravar(tmp_path, doc))
+
+
+def test_definicao_ausente_reprova(tmp_path):
+    doc = _base("obter", sha=None)
+    doc["task_id"] = "TAREFA-INEXISTENTE"
+    with pytest.raises(ValueError, match="definição ausente"):
+        carregar_wo(_gravar(tmp_path, doc))
+
+
+def test_wos_do_repositorio_apontam_para_definicao_qualificada():
+    from packages.cli.pep import RAIZ
+
+    pasta = RAIZ / "contracts" / "work_orders"
+    vistos = sorted(pasta.glob("WO-*-EXTRACAO-*.json"))
+    assert len(vistos) == 8
+    for caminho in vistos:
+        wo = carregar_wo(caminho)
+        assert wo.task_id.startswith("TAREFA-")
+        assert wo.task_version == "1.0.0"
 
 
 def test_wo_ausente_sai_2(tmp_path):
