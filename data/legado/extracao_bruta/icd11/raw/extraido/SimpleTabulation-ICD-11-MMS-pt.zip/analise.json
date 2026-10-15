@@ -1,0 +1,29 @@
+{
+  "algoritmo": "extracao-bytes-sha256",
+  "arquivo": "SimpleTabulation-ICD-11-MMS-pt.zip",
+  "bytes": 4951519,
+  "sha256": "ba9f9a79eea89e57319eaf59757af8638286545ad4b3ba8fa5cbce11d6857422",
+  "membros": [
+    {
+      "nome": "readme.txt",
+      "bytes": 1228,
+      "sha256": "c48e8318fca91bcc443600868506a7181a743d78f3fbb56cacee28b9511e17df",
+      "disposicao": "GRAVADO",
+      "caminho": "readme.txt"
+    },
+    {
+      "nome": "SimpleTabulation-ICD-11-MMS-pt.txt",
+      "bytes": 13523313,
+      "sha256": "bcfd1b3fa54a21eee13df38ffe0abc3483b94fbfc024a5ccd20f2001922f1eda",
+      "disposicao": "GRAVADO",
+      "caminho": "SimpleTabulation-ICD-11-MMS-pt.txt"
+    },
+    {
+      "nome": "SimpleTabulation-ICD-11-MMS-pt.xlsx",
+      "bytes": 4473523,
+      "sha256": "124af291cc27f2a6bba1499c168026199978fa89183f060258f07265e721dd05",
+      "disposicao": "GRAVADO",
+      "caminho": "SimpleTabulation-ICD-11-MMS-pt.xlsx"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "algoritmo": "extracao-bytes-sha256",
+  "arquivo": "anvisa_medicamentos_registrados.json.zip",
+  "bytes": 15316314,
+  "sha256": "4fa160eed1c0ad74f8e3e3b94961e9577c27dd31483c7414d61c653afd5d554a",
+  "membros": [
+    {
+      "nome": "anvisa_medicamentos_registrados.json",
+      "bytes": 113538797,
+      "sha256": "285add02f9be153ef61c6970972a27bf7a7acb281d80750023cbb4a85a3755ed",
+      "disposicao": "FRACIONADO",
+      "caminho": "fracoes/anvisa_medicamentos_registrados.json",
+      "partes": 3
+    }
+  ]
+}

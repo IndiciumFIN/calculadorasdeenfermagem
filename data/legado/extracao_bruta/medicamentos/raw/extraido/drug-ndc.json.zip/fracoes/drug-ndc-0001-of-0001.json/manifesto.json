@@ -1,0 +1,60 @@
+{
+  "algoritmo": "concatenacao-bytes-sha256",
+  "id_origem": "",
+  "arquivo": "drug-ndc-0001-of-0001.json",
+  "caminho_obter": "drug-ndc-0001-of-0001.json",
+  "bytes": 245353596,
+  "sha256": "fb01c6c56311bdafd72ad98939b333eb08aca0c0246dbed7bff93fed23b2b0ab",
+  "tamanho_parte": 40000000,
+  "partes": [
+    {
+      "nome": "part-000",
+      "ordem": 0,
+      "offset": 0,
+      "bytes": 40000000,
+      "sha256": "bfb7d6db09a6db44ebb4858f13dda6a30fb0939544c8b2ef7cb80f64179e9775"
+    },
+    {
+      "nome": "part-001",
+      "ordem": 1,
+      "offset": 40000000,
+      "bytes": 40000000,
+      "sha256": "6d25a64d5f8e34df1d7944b5fab30a5f24ec8a01866320293460e183925770b6"
+    },
+    {
+      "nome": "part-002",
+      "ordem": 2,
+      "offset": 80000000,
+      "bytes": 40000000,
+      "sha256": "9d6b71c59b4c797d90fd8acb134d036acd82e1ec7b94e908ee9f1369819d60a8"
+    },
+    {
+      "nome": "part-003",
+      "ordem": 3,
+      "offset": 120000000,
+      "bytes": 40000000,
+      "sha256": "d33cbd58688906cabd4e95d5fef6b467c9ee151319df2781cf7ceaff0e393c7a"
+    },
+    {
+      "nome": "part-004",
+      "ordem": 4,
+      "offset": 160000000,
+      "bytes": 40000000,
+      "sha256": "c36fbfa874cc3821695f5180c15880fb3711d1555d26125e976ce852ec91119a"
+    },
+    {
+      "nome": "part-005",
+      "ordem": 5,
+      "offset": 200000000,
+      "bytes": 40000000,
+      "sha256": "31ea200829473f3e676ec8c05bbf8351c26b54da1d0953d04b32cc263ecc2cdd"
+    },
+    {
+      "nome": "part-006",
+      "ordem": 6,
+      "offset": 240000000,
+      "bytes": 5353596,
+      "sha256": "56c7a6a526c7284497b38fcafea32f12a263cec68d5d0b54beee47b279b1b398"
+    }
+  ]
+}
