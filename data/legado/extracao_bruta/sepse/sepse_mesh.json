@@ -1,0 +1,216 @@
+[
+ {
+  "ui": "D000031",
+  "nome": "Abortion, Septic",
+  "arvores": [
+   "C01.674.173",
+   "C12.050.703.039.256",
+   "C12.050.703.700.173"
+  ],
+  "categorias": [
+   "C"
+  ],
+  "nota_escopo": "Any type of abortion, induced or spontaneous, that is associated with infection of the UTERUS and its appendages. It is characterized by FEVER, uterine tenderness, and foul discharge.",
+  "termos_entrada": [
+   "Abortions, Septic",
+   "Septic Abortions",
+   "Septic Abortion"
+  ],
+  "data_introducao": "1966-01-01",
+  "ultima_atualizacao": "2021-06-30"
+ },
+ {
+  "ui": "D006483",
+  "nome": "Hemorrhagic Septicemia",
+  "arvores": [
+   "C01.150.252.100.375",
+   "C01.150.252.400.700.662.500",
+   "C01.757.100.375",
+   "C23.550.470.790.500.100.375"
+  ],
+  "categorias": [
+   "C"
+  ],
+  "nota_escopo": "Any of several bacterial diseases, usually caused by PASTEURELLA MULTOCIDA, marked by the presence of hemorrhagic areas in the subcutaneous tissues, serous membranes, muscles, lymph glands, and throughout the internal organs. The diseases primarily affect animals and rarely humans.",
+  "termos_entrada": [
+   "Septicemia, Hemorrhagic",
+   "Haemorrhagic Septicemia",
+   "Hemorrhagic Septicaemia",
+   "Haemorrhagic Septicaemia",
+   "Hemorrhagic Bacteremia",
+   "Bacteremia, Hemorrhagic",
+   "Haemorrhagic Bacteremia"
+  ],
+  "data_introducao": "1991-01-01",
+  "ultima_atualizacao": "2019-06-17"
+ },
+ {
+  "ui": "D012772",
+  "nome": "Shock, Septic",
+  "arvores": [
+   "C01.757.800",
+   "C23.550.470.790.500.800",
+   "C23.550.835.900.712"
+  ],
+  "categorias": [
+   "C"
+  ],
+  "nota_escopo": "Sepsis associated with HYPOTENSION or hypoperfusion despite adequate fluid resuscitation. Perfusion abnormalities may include but are not limited to LACTIC ACIDOSIS; OLIGURIA; or acute alteration in mental status.",
+  "termos_entrada": [
+   "Septic Shock",
+   "Shock, Endotoxic",
+   "Endotoxin Shock",
+   "Endotoxin Shocks",
+   "Shock, Endotoxin",
+   "Shocks, Endotoxin",
+   "Shock, Toxic",
+   "Toxic Shock",
+   "Toxic Shock Syndrome",
+   "Shock Syndrome, Toxic",
+   "Toxic Shock Syndromes"
+  ],
+  "data_introducao": "1977-01-01",
+  "ultima_atualizacao": "2021-06-30"
+ },
+ {
+  "ui": "D016470",
+  "nome": "Bacteremia",
+  "arvores": [
+   "C01.150.252.100",
+   "C01.757.100",
+   "C23.550.470.790.500.100"
+  ],
+  "categorias": [
+   "C"
+  ],
+  "nota_escopo": "The presence of viable bacteria circulating in the blood. Fever, chills, tachycardia, and tachypnea are common acute manifestations of bacteremia. The majority of cases are seen in already hospitalized patients, most of whom have underlying diseases or procedures which render their bloodstreams susceptible to invasion.",
+  "termos_entrada": [
+   "Bacteremias"
+  ],
+  "data_introducao": "1992-01-01",
+  "ultima_atualizacao": "2019-06-17"
+ },
+ {
+  "ui": "D018805",
+  "nome": "Sepsis",
+  "arvores": [
+   "C01.757",
+   "C23.550.470.790.500"
+  ],
+  "categorias": [
+   "C"
+  ],
+  "nota_escopo": "Systemic inflammatory response syndrome with a proven or suspected infectious etiology. When sepsis is associated with organ dysfunction distant from the site of infection, it is called severe sepsis. When sepsis is accompanied by HYPOTENSION despite adequate fluid infusion, it is called SEPTIC SHOCK.",
+  "termos_entrada": [
+   "Bloodstream Infection",
+   "Bloodstream Infections",
+   "Infection, Bloodstream",
+   "Septicemia",
+   "Septicemias",
+   "Blood Poisoning",
+   "Blood Poisonings",
+   "Poisonings, Blood",
+   "Poisoning, Blood",
+   "Severe Sepsis",
+   "Sepsis, Severe",
+   "Pyemia",
+   "Pyemias",
+   "Pyaemia",
+   "Pyaemias",
+   "Pyohemia",
+   "Pyohemias"
+  ],
+  "data_introducao": "1995-01-01",
+  "ultima_atualizacao": "2020-02-06"
+ },
+ {
+  "ui": "D031941",
+  "nome": "Hemorrhagic Septicemia, Viral",
+  "arvores": [
+   "C01.925.782.580.830.450",
+   "C22.362.450",
+   "C23.550.470.790.500.900.400"
+  ],
+  "categorias": [
+   "C"
+  ],
+  "nota_escopo": "A systemic infection of various salmonid and a few nonsalmonid fishes caused by Viral hemorrhagic septicemia virus (see NOVIRHABDOVIRUS),",
+  "termos_entrada": [
+   "Septicemia, Viral Hemorrhagic",
+   "Viral Hemorrhagic Septicemia",
+   "Haemorrhagic Septicaemia, Viral",
+   "Septicaemia, Viral Haemorrhagic",
+   "Viral Haemorrhagic Septicaemia"
+  ],
+  "data_introducao": "2003-01-01",
+  "ultima_atualizacao": "2019-06-17"
+ },
+ {
+  "ui": "D065166",
+  "nome": "Sepsis-Associated Encephalopathy",
+  "arvores": [
+   "C10.228.140.807"
+  ],
+  "categorias": [
+   "C"
+  ],
+  "nota_escopo": "Acute neurological dysfunction during severe SEPSIS in the absence of direct brain infection characterized by systemic inflammation and BLOOD BRAIN BARRIER perturbation.",
+  "termos_entrada": [
+   "Encephalopathies, Sepsis-Associated",
+   "Encephalopathy, Sepsis-Associated",
+   "Sepsis-Associated Encephalopathies",
+   "Sepsis Associated Encephalopathy",
+   "Associated Encephalopathies, Sepsis",
+   "Associated Encephalopathy, Sepsis",
+   "Encephalopathies, Sepsis Associated",
+   "Encephalopathy, Sepsis Associated",
+   "Sepsis Associated Encephalopathies",
+   "Sepsis-Associated Delirium",
+   "Delirium, Sepsis-Associated",
+   "Deliriums, Sepsis-Associated",
+   "Sepsis-Associated Deliriums",
+   "Sepsis Associated Delirium",
+   "Associated Delirium, Sepsis",
+   "Associated Deliriums, Sepsis",
+   "Delirium, Sepsis Associated",
+   "Deliriums, Sepsis Associated",
+   "Sepsis Associated Deliriums"
+  ],
+  "data_introducao": "2015-01-01",
+  "ultima_atualizacao": "2015-01-01"
+ },
+ {
+  "ui": "D000071074",
+  "nome": "Neonatal Sepsis",
+  "arvores": [
+   "C01.757.580",
+   "C16.614.627",
+   "C23.550.470.790.500.470"
+  ],
+  "categorias": [
+   "C"
+  ],
+  "nota_escopo": "Blood infection that occurs in an infant younger than 90 days old. Early-onset sepsis is seen in the first week of life and most often appears within 24 hours of birth. Late-onset occurs after 1 week and before 3 months of age.",
+  "termos_entrada": [
+   "Neonatal Sepses",
+   "Sepses, Neonatal",
+   "Sepsis, Neonatal",
+   "Neonatal Early-Onset Sepsis",
+   "Early-Onset Sepses, Neonatal",
+   "Early-Onset Sepsis, Neonatal",
+   "Neonatal Early-Onset Sepses",
+   "Neonatal Early Onset Sepsis",
+   "Sepses, Neonatal Early-Onset",
+   "Sepsis, Neonatal Early-Onset",
+   "Neonatal Late-Onset Sepsis",
+   "Late-Onset Sepses, Neonatal",
+   "Late-Onset Sepsis, Neonatal",
+   "Neonatal Late-Onset Sepses",
+   "Neonatal Late Onset Sepsis",
+   "Sepses, Neonatal Late-Onset",
+   "Sepsis, Neonatal Late-Onset"
+  ],
+  "data_introducao": "2017-01-01",
+  "ultima_atualizacao": "2019-06-17"
+ }
+]
