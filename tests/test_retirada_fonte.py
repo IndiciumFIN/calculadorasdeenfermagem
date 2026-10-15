@@ -114,6 +114,12 @@ def test_ledger_do_repositorio_confere_com_as_copias():
     assert verificar_ledger(ledger, REPO) == []
     assert len(ledger["itens"]) == 152
     assert any(p["id_origem"] == "edge:cko-env-probe" for p in ledger["pendentes"])
+    assert ledger["lixeira"]["mover_implantado"] == "EFETUADO"
+    assert ledger["lixeira"]["esvaziar"] == "BLOQUEAR"
+    assert ledger["lixeira"]["esvaziar_executor"] == "somente_humano"
+    politica = json.loads((REPO / "policies" / "retirada_fonte.json").read_text(encoding="utf-8"))
+    assert politica["esvaziar_lixeira"] == "BLOQUEAR"
+    assert politica["esvaziar_lixeira_executor"] == "somente_humano"
 
 
 def test_cli_reprova_ledger_inconsistente(tmp_path):

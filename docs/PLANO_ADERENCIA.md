@@ -44,7 +44,7 @@ Só começa com listagem fechada. Arquivo a partir de 50.000.000 bytes entra fra
 
 Classes `REFERENCIA`, `SCRIPT` e `DOCUMENTO` atomizam como não aplicável, com zero átomos, e o arquivo permanece. Ato sem extrator não gera átomo e não vai para a lixeira. ICD-11, se a listagem fechar, é copiado sem alteração (CC BY-ND). Texto clínico e PDF de protocolo não entram no repositório público como átomo normativo.
 
-`retirar` não chama o Drive. A lixeira é `trash_file` só para identificadores presentes no arquivo de autorização daquela Work Order. A releitura precisa devolver `Requested entity was not found` para o livro registrar `AUSENTE`. A lixeira é recuperável. Esvaziar a lixeira é ação humana. A pasta raiz permanece mesmo quando os filhos saíram.
+`retirar` não chama o Drive. A lixeira é `trash_file` só para identificadores presentes no arquivo de autorização daquela Work Order. A releitura precisa devolver `Requested entity was not found` para o livro registrar `AUSENTE`. A lixeira é recuperável. Esvaziar a lixeira está bloqueado: somente uma pessoa pode fazer isso. A pasta raiz permanece mesmo quando os filhos saíram.
 
 ## Onda 4 — Supabase
 

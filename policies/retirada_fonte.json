@@ -3,5 +3,7 @@
   "invariante": "FONTE_RETIRADA",
   "regra": "Objeto IMPLANTADO só sai do Drive ou do Supabase quando o SHA-256 da cópia governada é idêntico ao da origem. Objeto DESCARTADO só sai com motivo registrado. Hash diferente, conflito ou ausência de cópia bloqueiam a exclusão.",
   "estados_origem_concluidos": ["AUSENTE"],
-  "nao_confundir": "Endpoint que é a própria implantação (gateway DeepSeek) não é cópia sobrando. Anatomia, calculadoras, questões e arquivo sem cópia conferida não entram nesta regra."
+  "nao_confundir": "Endpoint que é a própria implantação (gateway DeepSeek) não é cópia sobrando. Anatomia, calculadoras, questões e arquivo sem cópia conferida não entram nesta regra.",
+  "esvaziar_lixeira": "BLOQUEAR",
+  "esvaziar_lixeira_executor": "somente_humano"
 }

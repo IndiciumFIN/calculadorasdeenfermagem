@@ -1,8 +1,13 @@
 {
   "versao": "1.0.0",
   "invariante": "FONTE_RETIRADA",
-  "verificado_em": "2026-10-15T07:15:03Z",
-  "regra": "Releitura da API do Drive em 15/10/2026: os file ids implantados não são mais encontrados. A lixeira do Drive é a exclusão disponível; não há exclusão permanente pela API. A raiz da extração bruta teve a listagem fechada em 18 pastas e um zip de controle. Entraram os lotes já retirados, as frações acima de 50 MB, suprimentos, os três arquivos restantes de dispositivos, os oito arquivos da raiz de atomizado e seis documentos de revisão. Sete tabelas clínicas transcritas, o zip de controle, pastas raw, protocolos e a árvore derivada de atomizado permanecem no Drive. As pastas vazias de tema não estavam na autorização.",
+  "verificado_em": "2026-10-15T07:20:00Z",
+  "lixeira": {
+    "mover_implantado": "EFETUADO",
+    "esvaziar": "BLOQUEAR",
+    "esvaziar_executor": "somente_humano"
+  },
+  "regra": "Releitura da API do Drive em 15/10/2026: os file ids implantados não são mais encontrados. A lixeira do Drive é a exclusão disponível; não há exclusão permanente pela API. A raiz da extração bruta teve a listagem fechada em 18 pastas e um zip de controle. Entraram os lotes já retirados, as frações acima de 50 MB, suprimentos, os três arquivos restantes de dispositivos, os oito arquivos da raiz de atomizado e seis documentos de revisão. Sete tabelas clínicas transcritas, o zip de controle, pastas raw, protocolos e a árvore derivada de atomizado permanecem no Drive. As pastas vazias de tema não estavam na autorização. Esvaziar a lixeira está bloqueado e só pode ser feito por uma pessoa.",
   "itens": [
     {
       "origem": "drive",
