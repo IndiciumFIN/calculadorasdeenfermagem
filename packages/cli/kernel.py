@@ -78,12 +78,12 @@ def _corpo(resposta, file_id: str) -> bytes:
 
 def _baixar(file_id: str, dest: Path) -> None:
     url = f"https://drive.google.com/uc?export=download&id={file_id}"
-    corpo = _corpo(requests.get(url, allow_redirects=True, timeout=180), file_id)
+    corpo = _corpo(requests.get(url, allow_redirects=True, timeout=600), file_id)
     if _eh_html(corpo):
         confirmacao = _confirmacao_drive(corpo, file_id)
         if not confirmacao:
             _fail(f"download {file_id} devolveu HTML, não o arquivo")
-        corpo = _corpo(requests.get(confirmacao, allow_redirects=True, timeout=180), file_id)
+        corpo = _corpo(requests.get(confirmacao, allow_redirects=True, timeout=600), file_id)
         if _eh_html(corpo):
             _fail(f"download {file_id} continuou em HTML depois da confirmação")
     dest.parent.mkdir(parents=True, exist_ok=True)
@@ -176,12 +176,12 @@ def validar(work_order: Path = typer.Option(..., "--work-order")):
     if not atomos.is_file():
         _fail("manifesto_atomizar.json ausente")
     feito = json.loads(atomos.read_text(encoding="utf-8"))
-    por_id = {item["id_origem"]: item for item in feito["itens"]}
+    por_caminho = {item["caminho"]: item for item in feito["itens"]}
     parecer = []
     for entrada in wo.entradas:
-        item = por_id.get(entrada.id_origem)
+        item = por_caminho.get(entrada.caminho)
         dest = _destino(entrada.caminho)
-        if item is None or not dest.is_file():
+        if item is None or item.get("id_origem") != entrada.id_origem or not dest.is_file():
             _fail(f"sem resultado de atomização: {entrada.id_origem}")
         if _sha(dest) != entrada.sha256 or item["sha256"] != entrada.sha256:
             _fail(f"SHA-256 divergente na validação: {entrada.id_origem}")
@@ -218,11 +218,11 @@ def retirar(work_order: Path = typer.Option(..., "--work-order")):
     parecer = json.loads(parecer_arq.read_text(encoding="utf-8"))
     if wo.parametros.get("parecer_work_order") != parecer.get("work_order"):
         _fail("parecer_work_order não confere com o parecer gravado")
-    por_id = {item["id_origem"]: item for item in parecer["itens"]}
+    por_caminho = {item["caminho"]: item for item in parecer["itens"] if item.get("caminho")}
     autorizados = []
     for entrada in wo.entradas:
-        item = por_id.get(entrada.id_origem)
-        if item is None or item.get("resultado") != "PASS":
+        item = por_caminho.get(entrada.caminho)
+        if item is None or item.get("id_origem") != entrada.id_origem or item.get("resultado") != "PASS":
             _fail(f"retirada sem PASS: {entrada.id_origem}")
         if item.get("sha256") != entrada.sha256:
             _fail(f"SHA-256 do parecer divergente: {entrada.id_origem}")

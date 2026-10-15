@@ -86,7 +86,7 @@ def test_wos_do_repositorio_apontam_para_definicao_qualificada():
 
     pasta = RAIZ / "contracts" / "work_orders"
     vistos = sorted(pasta.glob("WO-2026_10_15_*.json"))
-    assert len(vistos) == 54
+    assert len(vistos) == 62
     for caminho in vistos:
         wo = carregar_wo(caminho)
         assert wo.task_id.startswith("TAREFA-")

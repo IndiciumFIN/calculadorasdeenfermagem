@@ -1,0 +1,32 @@
+{
+  "algoritmo": "concatenacao-bytes-sha256",
+  "id_origem": "1l9ojaxlDhAORdPWlAT1tr-1jf5q935cz",
+  "arquivo": "usda_sr_legacy_nutrientes.json",
+  "caminho_obter": "nutricao/inteiros/usda_sr_legacy_nutrientes.json",
+  "bytes": 87096800,
+  "sha256": "342fbd431dce48cdbb82f4e1d6298a4909b6826fa205c9ac0e0aea319d7fb1e3",
+  "tamanho_parte": 40000000,
+  "partes": [
+    {
+      "nome": "part-000",
+      "ordem": 0,
+      "offset": 0,
+      "bytes": 40000000,
+      "sha256": "aa7b7afae6287f0c2b86d79f940bd5255d4249493f1dc1910ce8f184cf33625f"
+    },
+    {
+      "nome": "part-001",
+      "ordem": 1,
+      "offset": 40000000,
+      "bytes": 40000000,
+      "sha256": "835cdd745de2a9f37c7190a5993b33a84a809b9f50fd1d353311c26b32959842"
+    },
+    {
+      "nome": "part-002",
+      "ordem": 2,
+      "offset": 80000000,
+      "bytes": 7096800,
+      "sha256": "5568ec183e1105173af0b12c035c9723c1ee8dddbe69f107d475ed9ce50389a4"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "verificado_em": "2026-10-15T06:46:30Z",
+  "barra": "Extração bruta, listagem fechada",
+  "feitos": 126,
+  "total": 147,
+  "percentual": 85.7,
+  "desenho": "[█████████████████░░░]",
+  "conta": {
+    "implantados_na_listagem_fechada": 126,
+    "revisao_raiz_sem_lote": 13,
+    "atomizado_raiz_sem_lote": 8,
+    "json_grande_de_dispositivos_fora_da_barra": 1
+  },
+  "revisao_raiz": [
+    "REVISAO_TABELAS_TRANSCRITAS.xlsx",
+    "VERIFICAR_V2_2026-10-10_execucao2.txt",
+    "README_REVISAO.md",
+    "RECONFERENCIA_CORRECOES_2026-10-10.json",
+    "resumo.json",
+    "SHA256SUMS.txt",
+    "revisar.py",
+    "revisao_PA_DBHA2020.csv",
+    "revisao_NEWS2_risco.csv",
+    "revisao_qSOFA.csv",
+    "revisao_definicoes_sepsis3.csv",
+    "revisao_SOFA.csv",
+    "revisao_NEWS2_pontos.csv"
+  ],
+  "atomizado_raiz": [
+    "NOTA_CORRECAO_2026-10-10.md",
+    "atomizar_v1.2.0.py",
+    "README_ATOMIZADO_v1.1.0.md",
+    "verificar_v1.1.0.py",
+    "atomizar_v1.1.0.py",
+    "README_ATOMIZADO.md",
+    "verificar.py",
+    "atomizar.py"
+  ],
+  "fora_da_barra": [
+    "pastas raw",
+    "protocolos_enfermagem",
+    "filhos de atomizado",
+    "cofen736 e fontes, com página seguinte",
+    "dispositivos, com página seguinte; o JSON de 68436293 bytes já foi fracionado",
+    "as outras três raízes do Drive"
+  ]
+}
