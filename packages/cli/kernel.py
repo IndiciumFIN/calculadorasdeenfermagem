@@ -254,12 +254,18 @@ def _find(work_order: Path, procedimento: str):
     _fail(f"procedimento de FIND desconhecido: {procedimento}")
 
 
+def registro_nao_autoriza_correcao(doc: dict, find_id: str) -> bool:
+    """O FIND recém-registrado não sai com correção autorizada."""
+    alvo = next(item for item in doc["finds"] if item["id"] == find_id)
+    return not alvo.get("correcao_autorizada")
+
+
 @app.command("registrar-find")
 def registrar_find(work_order: Path = typer.Option(..., "--work-order")):
     """Registra o achado. Não autoriza correção."""
     wo, doc = _find(work_order, "registrar-find")
     ultimo = doc["eventos"][-1]
-    if any(item.get("correcao_autorizada") for item in doc["finds"]):
+    if not registro_nao_autoriza_correcao(doc, ultimo["find_id"]):
         _fail("registro de FIND autorizou correção")
     typer.secho(f"✓ registrar-find {wo.id}: {ultimo['tipo']} {ultimo['find_id']}", fg=typer.colors.GREEN)
 

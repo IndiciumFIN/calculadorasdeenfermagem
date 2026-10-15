@@ -5,7 +5,7 @@
 O sistema é dividido em camadas claras:
 
 1. **Ingestão de normativos** (bots + CLI) → átomos estruturados.
-2. **Master Data** (Supabase) → fonte única.
+2. **Master Data** (Supabase) → destino previsto do corpus. Ainda não é a autoridade do estado canônico.
 3. **Contratos de dados** (Pydantic / JSON Schema) → validação.
 4. **Frontend** (Next.js) → calculadoras e conteúdo.
 5. **Builder de camadas** → produção visual determinística.
@@ -20,6 +20,8 @@ Normativo oficial → Extração (CLI/bots) → Átomo validado → Supabase
                                                               ↓
                                                     Calculadora (front)
 ```
+
+O Git versiona código, contratos e governança. Drive e Supabase não substituem essa versão. O Registry canônico e a publicação continuam sem homologação.
 
 ## Decisões importantes
 

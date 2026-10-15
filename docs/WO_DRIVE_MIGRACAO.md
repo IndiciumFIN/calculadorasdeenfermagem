@@ -20,25 +20,8 @@ Converter a estrutura da pasta Drive `1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC` para o 
 | Duplicata exata (mesmo conteúdo) | Deduplicar com registro |
 | Duplicata com conteúdo diferente | Não escolher lado; quarentena |
 
-## Processo
+## Bloqueio
 
-1. Listar conteúdo do Drive.
-2. Calcular SHA-256 de cada arquivo.
-3. Comparar com o repositório e com o inventário existente.
-4. Gerar relatório de duplicidades.
-5. Só então copiar o que for único e rastreável.
+Este arquivo não é uma Work Order do kernel. Não há `contracts/work_orders/WO-2026_10_15_0041.json` nem tarefa qualificada de migração. `scripts/migrar_drive.py` sai com código 2 e não cria diretório nem copia arquivo.
 
-Este arquivo não é uma Work Order do kernel. Não há `contracts/work_orders/WO-2026_10_15_0041.json`, e o kernel não consumiu este texto. O script abaixo não foi executado por esta integração. Nenhuma promoção canônica automática.
-
-## Script de execução
-
-```bash
-python scripts/migrar_drive.py /caminho/para/exportacao_do_drive
-```
-
-- Arquivos com SHA já presente: rejeitados (não sobrescrevem).
-- Nome existente com conteúdo diferente: quarentena em `data/quarentena_drive/`.
-- Relatório gerado em `data/relatorio_migracao.json`.
-- Exit 2 se houver itens em quarentena.
-
-**Nenhuma promoção de status ocorre neste script.**
+`scripts/drive_duplicidade_check.py` só lê. Conteúdo idêntico em caminhos diferentes fica como duplicata. O mesmo nome com hashes diferentes é conflito, sem escolha de lado, e o comando sai com código 2.
