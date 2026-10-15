@@ -1,0 +1,812 @@
+[
+ {
+  "numero": "1",
+  "doenca_ou_agravo": "a. Acidente de trabalho com exposição a material biológico",
+  "imediata_ms": false,
+  "imediata_ses": false,
+  "imediata_sms": false,
+  "semanal": true,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "1",
+  "doenca_ou_agravo": "b. Acidente de trabalho",
+  "imediata_ms": false,
+  "imediata_ses": false,
+  "imediata_sms": true,
+  "semanal": false,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "2",
+  "doenca_ou_agravo": "Acidente por animal peçonhento",
+  "imediata_ms": false,
+  "imediata_ses": false,
+  "imediata_sms": true,
+  "semanal": false,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "3",
+  "doenca_ou_agravo": "Acidente por animal potencialmente transmissor da raiva",
+  "imediata_ms": false,
+  "imediata_ses": false,
+  "imediata_sms": true,
+  "semanal": false,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "4",
+  "doenca_ou_agravo": "Anomalias congênitas",
+  "imediata_ms": false,
+  "imediata_ses": false,
+  "imediata_sms": false,
+  "semanal": true,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "5",
+  "doenca_ou_agravo": "Botulismo",
+  "imediata_ms": true,
+  "imediata_ses": true,
+  "imediata_sms": true,
+  "semanal": false,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "6",
+  "doenca_ou_agravo": "Câncer relacionado ao trabalho",
+  "imediata_ms": false,
+  "imediata_ses": false,
+  "imediata_sms": false,
+  "semanal": true,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "7",
+  "doenca_ou_agravo": "Cólera",
+  "imediata_ms": true,
+  "imediata_ses": true,
+  "imediata_sms": true,
+  "semanal": false,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "8",
+  "doenca_ou_agravo": "Coqueluche",
+  "imediata_ms": false,
+  "imediata_ses": true,
+  "imediata_sms": true,
+  "semanal": false,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "9",
+  "doenca_ou_agravo": "a. Dengue - Casos",
+  "imediata_ms": false,
+  "imediata_ses": false,
+  "imediata_sms": false,
+  "semanal": true,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "9",
+  "doenca_ou_agravo": "b. Dengue - Óbitos",
+  "imediata_ms": true,
+  "imediata_ses": true,
+  "imediata_sms": true,
+  "semanal": false,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "10",
+  "doenca_ou_agravo": "Dermatose ocupacionais",
+  "imediata_ms": false,
+  "imediata_ses": false,
+  "imediata_sms": false,
+  "semanal": true,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "11",
+  "doenca_ou_agravo": "Difteria",
+  "imediata_ms": true,
+  "imediata_ses": true,
+  "imediata_sms": true,
+  "semanal": false,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "12",
+  "doenca_ou_agravo": "Distúrbio de voz relacionado ao trabalho",
+  "imediata_ms": false,
+  "imediata_ses": false,
+  "imediata_sms": false,
+  "semanal": true,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "13",
+  "doenca_ou_agravo": "a. Doença de Chagas Aguda",
+  "imediata_ms": false,
+  "imediata_ses": true,
+  "imediata_sms": true,
+  "semanal": false,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "13",
+  "doenca_ou_agravo": "b. Doença de Chagas Crônica",
+  "imediata_ms": false,
+  "imediata_ses": false,
+  "imediata_sms": false,
+  "semanal": true,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "14",
+  "doenca_ou_agravo": "Doença de Creutzfeldt-Jakob (DCJ)",
+  "imediata_ms": false,
+  "imediata_ses": false,
+  "imediata_sms": false,
+  "semanal": true,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "15",
+  "doenca_ou_agravo": "Doença Falciforme",
+  "imediata_ms": false,
+  "imediata_ses": false,
+  "imediata_sms": false,
+  "semanal": true,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "16",
+  "doenca_ou_agravo": "a. Doença Invasiva por \"Haemophilus Influenzae\"",
+  "imediata_ms": false,
+  "imediata_ses": true,
+  "imediata_sms": true,
+  "semanal": false,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "16",
+  "doenca_ou_agravo": "b. Doença Meningocócica e outras meningites",
+  "imediata_ms": false,
+  "imediata_ses": true,
+  "imediata_sms": true,
+  "semanal": false,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "17",
+  "doenca_ou_agravo": "Doenças com suspeita de disseminação intencional: a. Antraz pneumônico b. Tularemia c. Varíola",
+  "imediata_ms": true,
+  "imediata_ses": true,
+  "imediata_sms": true,
+  "semanal": false,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "18",
+  "doenca_ou_agravo": "Doenças febris hemorrágicas emergentes/ reemergentes: a. Arenavírus b. Ebola c. Marburg d. Lassa e. Febre purpúrica brasileira",
+  "imediata_ms": true,
+  "imediata_ses": true,
+  "imediata_sms": true,
+  "semanal": false,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "19",
+  "doenca_ou_agravo": "a. Doença aguda pelo vírus Zika",
+  "imediata_ms": false,
+  "imediata_ses": false,
+  "imediata_sms": false,
+  "semanal": true,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "19",
+  "doenca_ou_agravo": "b. Doença aguda pelo vírus Zika em gestante",
+  "imediata_ms": false,
+  "imediata_ses": true,
+  "imediata_sms": true,
+  "semanal": false,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "19",
+  "doenca_ou_agravo": "c. Óbito com suspeita de doença pelo vírus Zika",
+  "imediata_ms": true,
+  "imediata_ses": true,
+  "imediata_sms": true,
+  "semanal": false,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "19",
+  "doenca_ou_agravo": "d. Síndrome congênita associada à infecção pelo vírus Zika",
+  "imediata_ms": false,
+  "imediata_ses": false,
+  "imediata_sms": false,
+  "semanal": true,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "20",
+  "doenca_ou_agravo": "Esporotricose humana",
+  "imediata_ms": false,
+  "imediata_ses": false,
+  "imediata_sms": false,
+  "semanal": true,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "21",
+  "doenca_ou_agravo": "Esquistossomose",
+  "imediata_ms": false,
+  "imediata_ses": false,
+  "imediata_sms": false,
+  "semanal": true,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "22",
+  "doenca_ou_agravo": "Evento de Saúde Pública (ESP) que se constitua ameaça à saúde pública (ver definição no art. 2º desta portaria)",
+  "imediata_ms": true,
+  "imediata_ses": true,
+  "imediata_sms": true,
+  "semanal": false,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "23",
+  "doenca_ou_agravo": "Evento supostamente atribuível à vacinação ou imunização (ESAVI)",
+  "imediata_ms": true,
+  "imediata_ses": true,
+  "imediata_sms": true,
+  "semanal": false,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "24",
+  "doenca_ou_agravo": "Febre Amarela",
+  "imediata_ms": true,
+  "imediata_ses": true,
+  "imediata_sms": true,
+  "semanal": false,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "25",
+  "doenca_ou_agravo": "a. Febre de Chikungunya",
+  "imediata_ms": false,
+  "imediata_ses": false,
+  "imediata_sms": false,
+  "semanal": true,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "25",
+  "doenca_ou_agravo": "b. Febre de Chikungunya em áreas sem transmissão",
+  "imediata_ms": true,
+  "imediata_ses": true,
+  "imediata_sms": true,
+  "semanal": false,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "25",
+  "doenca_ou_agravo": "c. Óbito com suspeita de Febre de Chikungunya",
+  "imediata_ms": true,
+  "imediata_ses": true,
+  "imediata_sms": true,
+  "semanal": false,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "26",
+  "doenca_ou_agravo": "Febre do Nilo Ocidental e outras arboviroses de importância em saúde pública",
+  "imediata_ms": true,
+  "imediata_ses": true,
+  "imediata_sms": true,
+  "semanal": false,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "27",
+  "doenca_ou_agravo": "a. Febre do Oropouche - casos",
+  "imediata_ms": false,
+  "imediata_ses": false,
+  "imediata_sms": false,
+  "semanal": true,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "27",
+  "doenca_ou_agravo": "b. Febre do Oropouche - óbitos e óbitos fetais",
+  "imediata_ms": true,
+  "imediata_ses": true,
+  "imediata_sms": true,
+  "semanal": false,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "27",
+  "doenca_ou_agravo": "c. Febre do Oropouche em gestante",
+  "imediata_ms": true,
+  "imediata_ses": true,
+  "imediata_sms": true,
+  "semanal": false,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "27",
+  "doenca_ou_agravo": "d. Febre do Oropouche - Anomalias congênitas",
+  "imediata_ms": true,
+  "imediata_ses": true,
+  "imediata_sms": true,
+  "semanal": false,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "28",
+  "doenca_ou_agravo": "Febre Maculosa e outras Riquetsioses",
+  "imediata_ms": true,
+  "imediata_ses": true,
+  "imediata_sms": true,
+  "semanal": false,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "29",
+  "doenca_ou_agravo": "Febre Tifóide",
+  "imediata_ms": false,
+  "imediata_ses": true,
+  "imediata_sms": true,
+  "semanal": false,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "30",
+  "doenca_ou_agravo": "Hanseníase",
+  "imediata_ms": false,
+  "imediata_ses": false,
+  "imediata_sms": false,
+  "semanal": true,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "31",
+  "doenca_ou_agravo": "Hantavirose",
+  "imediata_ms": true,
+  "imediata_ses": true,
+  "imediata_sms": true,
+  "semanal": false,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "32",
+  "doenca_ou_agravo": "Hepatites virais",
+  "imediata_ms": false,
+  "imediata_ses": false,
+  "imediata_sms": false,
+  "semanal": true,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "33",
+  "doenca_ou_agravo": "Infecção pelo vírus da hepatite B em gestante, parturiente ou puérpera e Criança exposta ao risco de transmissão vertical da hepatite B",
+  "imediata_ms": false,
+  "imediata_ses": false,
+  "imediata_sms": false,
+  "semanal": true,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "34",
+  "doenca_ou_agravo": "HIV/AIDS - Infecção pelo Vírus da Imunodeficiência Humana ou Síndrome da Imunodeficiência Adquirida",
+  "imediata_ms": false,
+  "imediata_ses": false,
+  "imediata_sms": false,
+  "semanal": true,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "35",
+  "doenca_ou_agravo": "Infecção pelo HIV em gestante, parturiente ou puérpera e Criança exposta ao risco de transmissão vertical do HIV",
+  "imediata_ms": false,
+  "imediata_ses": false,
+  "imediata_sms": false,
+  "semanal": true,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "36",
+  "doenca_ou_agravo": "Infecção pelo Vírus da Imunodeficiência Humana (HIV)",
+  "imediata_ms": false,
+  "imediata_ses": false,
+  "imediata_sms": false,
+  "semanal": true,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "37",
+  "doenca_ou_agravo": "Infecção pelo Vírus Linfotrópico de Células T Humanas (HTLV)",
+  "imediata_ms": false,
+  "imediata_ses": false,
+  "imediata_sms": false,
+  "semanal": true,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "38",
+  "doenca_ou_agravo": "Infecção pelo HTLV em gestante, parturiente ou puérpera e Criança exposta ao risco de transmissão vertical do HTLV",
+  "imediata_ms": false,
+  "imediata_ses": false,
+  "imediata_sms": false,
+  "semanal": true,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "39",
+  "doenca_ou_agravo": "Influenza humana produzida por novo subtipo viral",
+  "imediata_ms": true,
+  "imediata_ses": true,
+  "imediata_sms": true,
+  "semanal": false,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "40",
+  "doenca_ou_agravo": "Intoxicação Exógena (por substâncias químicas, incluindo agrotóxicos, gases tóxicos e metais pesados)",
+  "imediata_ms": false,
+  "imediata_ses": false,
+  "imediata_sms": false,
+  "semanal": true,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "41",
+  "doenca_ou_agravo": "Leishmaniose Tegumentar Americana",
+  "imediata_ms": false,
+  "imediata_ses": false,
+  "imediata_sms": false,
+  "semanal": true,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "42",
+  "doenca_ou_agravo": "Leishmaniose Visceral",
+  "imediata_ms": false,
+  "imediata_ses": false,
+  "imediata_sms": false,
+  "semanal": true,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "43",
+  "doenca_ou_agravo": "Leptospirose",
+  "imediata_ms": false,
+  "imediata_ses": false,
+  "imediata_sms": true,
+  "semanal": false,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "44",
+  "doenca_ou_agravo": "Lesões por Esforços Repetitivos/ Distúrbios Osteomusculares Relacionados ao Trabalho (LER/DORT)",
+  "imediata_ms": false,
+  "imediata_ses": false,
+  "imediata_sms": false,
+  "semanal": true,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "45",
+  "doenca_ou_agravo": "a. Malária na região amazônica",
+  "imediata_ms": false,
+  "imediata_ses": false,
+  "imediata_sms": false,
+  "semanal": true,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "45",
+  "doenca_ou_agravo": "b. Malária na região extra-Amazônica",
+  "imediata_ms": true,
+  "imediata_ses": true,
+  "imediata_sms": true,
+  "semanal": false,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "46",
+  "doenca_ou_agravo": "Monkeypox (varíola dos macacos)",
+  "imediata_ms": true,
+  "imediata_ses": true,
+  "imediata_sms": true,
+  "semanal": false,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "47",
+  "doenca_ou_agravo": "Óbito: a. Infantil b. Materno",
+  "imediata_ms": false,
+  "imediata_ses": false,
+  "imediata_sms": false,
+  "semanal": true,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "48",
+  "doenca_ou_agravo": "Parotidite (Caxumba)",
+  "imediata_ms": false,
+  "imediata_ses": false,
+  "imediata_sms": false,
+  "semanal": true,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "49",
+  "doenca_ou_agravo": "Perda Auditiva relacionada ao trabalho",
+  "imediata_ms": false,
+  "imediata_ses": false,
+  "imediata_sms": false,
+  "semanal": true,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "50",
+  "doenca_ou_agravo": "Pneumoconioses relacionadas ao trabalho",
+  "imediata_ms": false,
+  "imediata_ses": false,
+  "imediata_sms": false,
+  "semanal": true,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "51",
+  "doenca_ou_agravo": "Peste",
+  "imediata_ms": true,
+  "imediata_ses": true,
+  "imediata_sms": true,
+  "semanal": false,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "52",
+  "doenca_ou_agravo": "Poliomielite/ Paralisia flácida aguda (PFA)",
+  "imediata_ms": true,
+  "imediata_ses": true,
+  "imediata_sms": true,
+  "semanal": false,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "53",
+  "doenca_ou_agravo": "Raiva humana",
+  "imediata_ms": true,
+  "imediata_ses": true,
+  "imediata_sms": true,
+  "semanal": false,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "54",
+  "doenca_ou_agravo": "Síndrome da Rubéola Congênita",
+  "imediata_ms": true,
+  "imediata_ses": true,
+  "imediata_sms": true,
+  "semanal": false,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "55",
+  "doenca_ou_agravo": "Doenças Exantemáticas: a. Sarampo b. Rubéola",
+  "imediata_ms": true,
+  "imediata_ses": true,
+  "imediata_sms": true,
+  "semanal": false,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "56",
+  "doenca_ou_agravo": "Sífilis: a. Adquirida b. Congênita c. Em gestante",
+  "imediata_ms": false,
+  "imediata_ses": false,
+  "imediata_sms": false,
+  "semanal": true,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "57",
+  "doenca_ou_agravo": "Síndrome Inflamatória Multissistêmica em Adultos (SIM-A) associada à covid-19",
+  "imediata_ms": true,
+  "imediata_ses": true,
+  "imediata_sms": true,
+  "semanal": false,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "58",
+  "doenca_ou_agravo": "Síndrome Inflamatória Multissistêmica Pediátrica (SIM-P) associada à covid-19",
+  "imediata_ms": true,
+  "imediata_ses": true,
+  "imediata_sms": true,
+  "semanal": false,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "59",
+  "doenca_ou_agravo": "Síndrome Respiratória Aguda Grave (SRAG) associada a Coronavírus a. SARSCoV b. MERS- CoV c. Síndrome Respiratória Aguda Grave (Srag) hospitalizado ou óbito por Srag",
+  "imediata_ms": true,
+  "imediata_ses": true,
+  "imediata_sms": true,
+  "semanal": false,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "60",
+  "doenca_ou_agravo": "Síndrome Gripal por covid-19 confirmada",
+  "imediata_ms": true,
+  "imediata_ses": true,
+  "imediata_sms": true,
+  "semanal": false,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "61",
+  "doenca_ou_agravo": "a. Tétano Acidental",
+  "imediata_ms": false,
+  "imediata_ses": true,
+  "imediata_sms": true,
+  "semanal": false,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "61",
+  "doenca_ou_agravo": "b. Tétano Neonatal",
+  "imediata_ms": true,
+  "imediata_ses": true,
+  "imediata_sms": true,
+  "semanal": false,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "62",
+  "doenca_ou_agravo": "Toxoplasmose gestacional e congênita",
+  "imediata_ms": false,
+  "imediata_ses": false,
+  "imediata_sms": false,
+  "semanal": true,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "63",
+  "doenca_ou_agravo": "Transtornos mentais relacionados ao trabalho",
+  "imediata_ms": false,
+  "imediata_ses": false,
+  "imediata_sms": false,
+  "semanal": true,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "64",
+  "doenca_ou_agravo": "Tuberculose",
+  "imediata_ms": false,
+  "imediata_ses": false,
+  "imediata_sms": false,
+  "semanal": true,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "65",
+  "doenca_ou_agravo": "Varicela",
+  "imediata_ms": false,
+  "imediata_ses": true,
+  "imediata_sms": true,
+  "semanal": false,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "66",
+  "doenca_ou_agravo": "a. Violência doméstica e/ou outras violências",
+  "imediata_ms": false,
+  "imediata_ses": false,
+  "imediata_sms": false,
+  "semanal": true,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ },
+ {
+  "numero": "66",
+  "doenca_ou_agravo": "b. Violência sexual e tentativa de suicídio",
+  "imediata_ms": false,
+  "imediata_ses": false,
+  "imediata_sms": true,
+  "semanal": false,
+  "fonte": "Portaria GM/MS nº 11.211/2026, Anexo I",
+  "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html"
+ }
+]

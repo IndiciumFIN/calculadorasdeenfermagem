@@ -31,7 +31,7 @@ Pastas relevantes identificadas:
 
 ## Próximos passos recomendados
 
-1. Continuar a extração bruta além dos lotes CID-10 e sepse. Em 15/10/2026, README.md, fetch.py, os doze arquivos de `cid10` e os doze arquivos de `sepse` foram copiados com SHA-256, classificados como não aplicáveis a átomo normativo e os ids de arquivo saíram do Drive. As pastas e os demais temas permanecem.
+1. Continuar a extração bruta além dos lotes já retirados. Em 15/10/2026, README.md, fetch.py e os arquivos de `cid10`, `sepse`, `ferimentos`, `sinais_vitais` e `epidemiologico` foram copiados com SHA-256, classificados como não aplicáveis a átomo normativo e os ids de arquivo saíram do Drive. As pastas, as subpastas `raw` e os demais temas permanecem.
 2. Exportar localStorage do site no navegador (instrução já documentada).
 3. Mapear quais pastas do Drive já têm correspondente no Registry do Git.
 4. Não promover nada do Drive a canônico sem passar pelo Kernel + validate + Registry.

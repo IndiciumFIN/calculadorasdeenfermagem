@@ -57,7 +57,7 @@
       "titulo": "extracao bruta Grok Bot Danadão",
       "acesso": "anyone_reader",
       "exclusao": "BLOQUEAR",
-      "nota": "Extração clínica e bruta, não o diário oficial. A raiz continua bloqueada. README.md, fetch.py, os doze arquivos de cid10 e os doze arquivos de sepse foram copiados com SHA-256; a releitura desses ids devolveu ausência. As pastas cid10 e sepse não estavam nas autorizações e permanecem, assim como atomizado, raw e os outros temas.",
+      "nota": "Extração clínica e bruta, não o diário oficial. A raiz continua bloqueada. README.md, fetch.py e os arquivos de cid10, sepse, ferimentos, sinais_vitais e epidemiologico foram copiados com SHA-256; a releitura desses ids devolveu ausência. As pastas desses temas não estavam nas autorizações e permanecem. Em sinais_vitais e epidemiologico a subpasta raw ficou de fora. atomizado, raw da raiz e os outros temas permanecem.",
       "filhos_normativos_ou_brutos": [
         {"id": "1zaJ1eZlFpe5jwz-wkXL9fkjpLCvFmS5t", "titulo": "atomizado"},
         {"id": "1YctWAPptjz1HUTm0B8HMA31-ScVBXXkU", "titulo": "revisao"},
