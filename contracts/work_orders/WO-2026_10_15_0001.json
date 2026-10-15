@@ -1,5 +1,5 @@
 {
-  "id": "WO-OBTER-EXTRACAO-CID10-001",
+  "id": "WO-2026_10_15_0001",
   "contract_version": "CKO-TAREFA-1.0.0",
   "authorized_by": "IndiciumFIN",
   "task_type": "obter",
@@ -8,7 +8,8 @@
   "parametros": {
     "pasta_drive": "1l519_P-9o6bnQcItydKvEEDpEYeE8R8s",
     "pasta_cid10": "1pnnVYNlg8CBszIsTeN529tcnPuxE6Rda",
-    "lote": "cid10-readme-fetch"
+    "lote": "cid10-readme-fetch",
+    "id_anterior": "WO-OBTER-EXTRACAO-CID10-001"
   },
   "entradas": [
     {

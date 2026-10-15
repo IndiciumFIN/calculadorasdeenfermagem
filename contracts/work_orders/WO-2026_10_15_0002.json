@@ -89,13 +89,13 @@
       "sha256": "fe8ef7a606282a8099e4b88dfc95947533701d885cf95ec9f1c717074b00c592"
     }
   ],
-  "id": "WO-VALIDAR-EXTRACAO-CID10-001",
-  "task_type": "validar",
-  "checker_id": "kernel-validar",
+  "id": "WO-2026_10_15_0002",
+  "task_type": "atomizar",
   "parametros": {
     "lote": "cid10-readme-fetch",
-    "atomizar_work_order": "WO-ATOMIZAR-EXTRACAO-CID10-001"
+    "origem_work_order": "WO-2026_10_15_0001",
+    "id_anterior": "WO-ATOMIZAR-EXTRACAO-CID10-001"
   },
-  "task_id": "TAREFA-VALIDAR",
+  "task_id": "TAREFA-ATOMIZAR",
   "task_version": "1.0.0"
 }

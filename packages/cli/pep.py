@@ -67,6 +67,22 @@ VALIDADORES_POR_PROCEDIMENTO = {
         "VAL-FIND-EVIDENCIA",
         "VAL-HASH-ARQUIVO",
     ],
+    "analisar-find": [
+        "VAL-WO-ESTRUTURA",
+        "VAL-DEFINICAO",
+        "VAL-FIND-CAMPOS",
+        "VAL-FIND-AGENTE",
+        "VAL-FIND-HISTORICO",
+    ],
+    "corrigir-find": [
+        "VAL-WO-ESTRUTURA",
+        "VAL-DEFINICAO",
+        "VAL-FIND-CAMPOS",
+        "VAL-FIND-AGENTE",
+        "VAL-FIND-EVIDENCIA",
+        "VAL-HASH-ARQUIVO",
+        "VAL-FIND-HISTORICO",
+    ],
 }
 
 
@@ -89,10 +105,11 @@ class Entrada(BaseModel):
 class WorkOrderTarefa(BaseModel):
     model_config = ConfigDict(extra="forbid")
 
-    id: str = Field(pattern=r"^WO-[A-Z0-9-]+$")
+    id: str = Field(pattern=r"^WO-\d{4}_\d{2}_\d{2}_\d{4}$")
     contract_version: str = Field(min_length=1)
     authorized_by: str = Field(min_length=3)
     checker_id: str | None = None
+    agent_id: str | None = Field(default=None, pattern=r"^AGT-[A-Z0-9-]+$")
     task_id: str = Field(pattern=r"^TAREFA-[A-Z0-9-]+$")
     task_version: str = Field(min_length=1)
     task_type: str = Field(min_length=3)
@@ -100,6 +117,13 @@ class WorkOrderTarefa(BaseModel):
     state: str = Field(pattern=r"^PREAUTHORIZED$")
     entradas: list[Entrada] = Field(default_factory=list)
     parametros: dict[str, str] = Field(default_factory=dict)
+
+    @model_validator(mode="after")
+    def data_da_ordem(self):
+        _, mes, dia, _seq = self.id.removeprefix("WO-").split("_")
+        if not 1 <= int(mes) <= 12 or not 1 <= int(dia) <= 31:
+            raise ValueError("data da Work Order inválida")
+        return self
 
 
 def politica() -> dict:
@@ -147,6 +171,8 @@ def carregar_wo(caminho: Path) -> WorkOrderTarefa:
     for nome in definicao.get("parametros_obrigatorios", []):
         if not wo.parametros.get(nome):
             raise ValueError(f"parâmetro obrigatório ausente: {nome}")
+    if definicao.get("exige_agente") and not wo.agent_id:
+        raise ValueError("agent_id obrigatório")
     classes = doc["classes"]
     for entrada in wo.entradas:
         if entrada.classe not in classes:

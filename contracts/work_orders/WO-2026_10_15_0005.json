@@ -1,5 +1,5 @@
 {
-  "id": "WO-OBTER-EXTRACAO-SEPSE-001",
+  "id": "WO-2026_10_15_0005",
   "contract_version": "CKO-TAREFA-1.0.0",
   "authorized_by": "IndiciumFIN",
   "task_type": "obter",
@@ -8,7 +8,8 @@
   "parametros": {
     "pasta_drive": "1l519_P-9o6bnQcItydKvEEDpEYeE8R8s",
     "pasta_sepse": "1Ca_H3hsH_dLLq6C9ZdZKWA4I7moaBctD",
-    "lote": "sepse"
+    "lote": "sepse",
+    "id_anterior": "WO-OBTER-EXTRACAO-SEPSE-001"
   },
   "entradas": [
     {
