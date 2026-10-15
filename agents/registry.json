@@ -6,7 +6,7 @@
       "funcao": "Extração literal de fontes oficiais",
       "prompts_permitidos": ["extractor_v1"],
       "modelos_permitidos": ["mock:echo-v1", "deepseek:deepseek-chat"],
-      "acoes_permitidas": ["extracao_atomos"],
+      "acoes_permitidas": ["extracao_atomos", "registrar-find"],
       "saida_estagio": "raw",
       "recertificacao": {
         "status": "vigente",
@@ -18,7 +18,7 @@
       "funcao": "Auditoria camada 2 (confrontação com a fonte)",
       "prompts_permitidos": ["auditor_v1"],
       "modelos_permitidos": ["mock:echo-v1", "deepseek:deepseek-chat"],
-      "acoes_permitidas": ["auditoria_camada_2"],
+      "acoes_permitidas": ["auditoria_camada_2", "analisar-find", "corrigir-find"],
       "saida_estagio": "raw",
       "recertificacao": {
         "status": "vigente",

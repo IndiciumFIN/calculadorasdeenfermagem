@@ -125,7 +125,8 @@
       "sha256_entrada": "proibido",
       "entradas_minimas": 0,
       "exige_checker": false,
-      "parametros_obrigatorios": ["codigo", "objeto", "severidade", "descricao", "impacto", "detector", "quando"],
+      "exige_agente": true,
+      "parametros_obrigatorios": ["codigo", "objeto", "severidade", "descricao", "impacto", "quando"],
       "validadores": [
         "VAL-WO-ESTRUTURA",
         "VAL-DEFINICAO",
@@ -172,12 +173,45 @@
       ],
       "erros": ["SEM_PASS", "SHA_DIVERGENTE", "CHECKER_IGUAL"]
     },
+    "TAREFA-FIND-ANALISAR": {
+      "id": "TAREFA-FIND-ANALISAR",
+      "versao": "1.0.0",
+      "qualificacao": "QUALIFICADA",
+      "procedimento": "analisar-find",
+      "sha256_entrada": "proibido",
+      "entradas_minimas": 0,
+      "exige_checker": false,
+      "exige_agente": true,
+      "parametros_obrigatorios": ["find_id", "analise", "quando"],
+      "validadores": [
+        "VAL-WO-ESTRUTURA",
+        "VAL-DEFINICAO",
+        "VAL-FIND-CAMPOS",
+        "VAL-FIND-AGENTE",
+        "VAL-FIND-HISTORICO"
+      ],
+      "erros": ["MESMO_AGENTE", "FIND_FECHADO"]
+    },
     "TAREFA-FIND-CORRIGIR": {
       "id": "TAREFA-FIND-CORRIGIR",
-      "versao": "0.0.0",
-      "qualificacao": "NAO_QUALIFICADA",
+      "versao": "1.0.0",
+      "qualificacao": "QUALIFICADA",
       "procedimento": "corrigir-find",
-      "motivo": "Registrar um FIND não autoriza correção. Não há procedimento homologado para alterar código ou política."
+      "sha256_entrada": "proibido",
+      "entradas_minimas": 0,
+      "exige_checker": false,
+      "exige_agente": true,
+      "parametros_obrigatorios": ["find_id", "correcao_caminho", "correcao_sha256", "quando"],
+      "validadores": [
+        "VAL-WO-ESTRUTURA",
+        "VAL-DEFINICAO",
+        "VAL-FIND-CAMPOS",
+        "VAL-FIND-AGENTE",
+        "VAL-FIND-EVIDENCIA",
+        "VAL-HASH-ARQUIVO",
+        "VAL-FIND-HISTORICO"
+      ],
+      "erros": ["MESMO_AGENTE", "SEM_ANALISE", "SHA_DIVERGENTE"]
     }
   }
 }

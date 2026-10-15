@@ -1,6 +1,7 @@
-"""Registro de FIND. Registrar não corrige. O histórico não é reescrito."""
+"""Registro de FIND. Quem detecta não analisa nem corrige. O histórico não é reescrito."""
 import hashlib
 import json
+from datetime import date
 from pathlib import Path
 
 from packages.cli import pep
@@ -78,7 +79,26 @@ def _exigir_texto(valor: str, nome: str) -> None:
         raise ValueError(f"{nome} precisa de pelo menos 10 caracteres")
 
 
-def registrar(parametros: dict, work_order: str, caminho: Path | None = None) -> dict:
+def exigir_agente(agent_id: str, acao: str) -> None:
+    registro = json.loads((pep.RAIZ / "agents" / "registry.json").read_text(encoding="utf-8"))
+    item = registro.get("agentes", {}).get(agent_id)
+    if item is None:
+        raise ValueError(f"agente ausente: {agent_id}")
+    recert = item.get("recertificacao") or {}
+    if recert.get("status") != "vigente":
+        raise ValueError(f"agente sem recertificação vigente: {agent_id}")
+    try:
+        valido_ate = date.fromisoformat(recert.get("valido_ate", ""))
+    except ValueError:
+        raise ValueError(f"recertificação sem data: {agent_id}") from None
+    if valido_ate < date.today():
+        raise ValueError(f"recertificação vencida: {agent_id}")
+    if acao not in item.get("acoes_permitidas", []):
+        raise ValueError(f"ação fora da allowlist do agente: {acao}")
+
+
+def registrar(parametros: dict, work_order: str, agent_id: str, caminho: Path | None = None) -> dict:
+    exigir_agente(agent_id, "registrar-find")
     regra = politica()
     if parametros["severidade"] not in regra["severidades"]:
         raise ValueError(f"severidade fora da política: {parametros['severidade']}")
@@ -97,6 +117,8 @@ def registrar(parametros: dict, work_order: str, caminho: Path | None = None) ->
             antes = _foto(fechado)
             fechado["status"] = "ABERTO"
             fechado["deteccoes"] += 1
+            fechado["agente_analise"] = None
+            fechado["agente_correcao"] = None
             fechado["correcao_autorizada"] = False
             _anexar(doc, "REABERTO", fechado, parametros["quando"], work_order, antes)
         else:
@@ -108,7 +130,7 @@ def registrar(parametros: dict, work_order: str, caminho: Path | None = None) ->
                 "status": "ABERTO",
                 "descricao": parametros["descricao"],
                 "impacto": parametros["impacto"],
-                "detector": parametros["detector"],
+                "detector_agente": agent_id,
                 "deteccoes": 1,
                 "ciclos": 0,
                 "correcao_autorizada": False,
@@ -152,6 +174,76 @@ def vincular(parametros: dict, work_order: str, caminho: Path | None = None) -> 
     )
     if len(doc["eventos"]) != antes_eventos + 1 or find["status"] != "ABERTO":
         raise ValueError("vínculo não pode fechar nem reescrever o FIND")
+    gravar(doc, caminho)
+    return doc
+
+
+def _outro_agente(find: dict, agent_id: str, acao: str) -> None:
+    exigir_agente(agent_id, acao)
+    if agent_id == find.get("detector_agente"):
+        raise ValueError("análise e correção exigem outro agente")
+
+
+def analisar(parametros: dict, work_order: str, agent_id: str, caminho: Path | None = None) -> dict:
+    doc = carregar(caminho)
+    antes_eventos = len(doc["eventos"])
+    find = _aberto_por_id(doc, parametros["find_id"])
+    _outro_agente(find, agent_id, "analisar-find")
+    _exigir_texto(parametros["analise"], "analise")
+    antes = _foto(find)
+    find["agente_analise"] = agent_id
+    find["correcao_autorizada"] = False
+    _anexar(
+        doc,
+        "ANALISADO",
+        find,
+        parametros["quando"],
+        work_order,
+        antes,
+        {"agente": agent_id, "analise": parametros["analise"]},
+    )
+    if len(doc["eventos"]) != antes_eventos + 1 or find["status"] != "ABERTO":
+        raise ValueError("análise não pode fechar nem reescrever o FIND")
+    gravar(doc, caminho)
+    return doc
+
+
+def corrigir(parametros: dict, work_order: str, agent_id: str, caminho: Path | None = None) -> dict:
+    destino = caminho_interno(parametros["correcao_caminho"])
+    if not destino.is_file():
+        raise ValueError("correcao_caminho ausente")
+    digest = hashlib.sha256(destino.read_bytes()).hexdigest()
+    if digest != parametros["correcao_sha256"]:
+        raise ValueError("SHA-256 da correção divergente")
+    doc = carregar(caminho)
+    antes_eventos = len(doc["eventos"])
+    find = _aberto_por_id(doc, parametros["find_id"])
+    _outro_agente(find, agent_id, "corrigir-find")
+    if find.get("agente_analise") != agent_id:
+        raise ValueError("a correção precisa do agente que analisou")
+    ciclo = []
+    for evento in doc["eventos"]:
+        if evento["find_id"] != find["id"]:
+            continue
+        if evento["tipo"] in {"REGISTRADO", "REABERTO"}:
+            ciclo = []
+        ciclo.append(evento)
+    if any(evento["tipo"] == "CORRIGIDO" for evento in ciclo):
+        raise ValueError("correção já registrada neste ciclo")
+    antes = _foto(find)
+    find["agente_correcao"] = agent_id
+    find["correcao_autorizada"] = True
+    _anexar(
+        doc,
+        "CORRIGIDO",
+        find,
+        parametros["quando"],
+        work_order,
+        antes,
+        {"agente": agent_id, "correcao_sha256": digest, "correcao_caminho": parametros["correcao_caminho"]},
+    )
+    if len(doc["eventos"]) != antes_eventos + 1 or find["status"] != "ABERTO":
+        raise ValueError("correção não fecha o FIND nem apaga o histórico")
     gravar(doc, caminho)
     return doc
 

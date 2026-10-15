@@ -77,13 +77,14 @@
       "sha256": "4aa2029f74a7b9b62c90c669bd7193a5c90fff0669ccdb0c1dd65b4beba20d9e"
     }
   ],
-  "id": "WO-RETIRAR-EXTRACAO-SEPSE-001",
-  "task_type": "retirar",
+  "id": "WO-2026_10_15_0007",
+  "task_type": "validar",
   "checker_id": "kernel-validar",
   "parametros": {
     "lote": "sepse",
-    "parecer_work_order": "WO-VALIDAR-EXTRACAO-SEPSE-001"
+    "atomizar_work_order": "WO-2026_10_15_0006",
+    "id_anterior": "WO-VALIDAR-EXTRACAO-SEPSE-001"
   },
-  "task_id": "TAREFA-RETIRAR",
+  "task_id": "TAREFA-VALIDAR",
   "task_version": "1.0.0"
 }

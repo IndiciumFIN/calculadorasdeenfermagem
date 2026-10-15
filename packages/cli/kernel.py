@@ -240,9 +240,13 @@ def _find(work_order: Path, procedimento: str):
     wo = _wo(work_order, procedimento)
     try:
         if procedimento == "registrar-find":
-            return wo, finds.registrar(wo.parametros, wo.id)
+            return wo, finds.registrar(wo.parametros, wo.id, wo.agent_id)
         if procedimento == "vincular-find":
             return wo, finds.vincular(wo.parametros, wo.id)
+        if procedimento == "analisar-find":
+            return wo, finds.analisar(wo.parametros, wo.id, wo.agent_id)
+        if procedimento == "corrigir-find":
+            return wo, finds.corrigir(wo.parametros, wo.id, wo.agent_id)
         if procedimento == "encerrar-find":
             return wo, finds.encerrar(wo.parametros, wo.id)
     except Exception as exc:
@@ -265,6 +269,20 @@ def vincular_find(work_order: Path = typer.Option(..., "--work-order")):
     """Liga o FIND a uma execução. Não fecha e não autoriza correção."""
     wo, doc = _find(work_order, "vincular-find")
     typer.secho(f"✓ vincular-find {wo.id}: {doc['eventos'][-1]['find_id']}", fg=typer.colors.GREEN)
+
+
+@app.command("analisar-find")
+def analisar_find(work_order: Path = typer.Option(..., "--work-order")):
+    """Outro agente analisa o FIND. Não corrige e não fecha."""
+    wo, doc = _find(work_order, "analisar-find")
+    typer.secho(f"✓ analisar-find {wo.id}: {doc['eventos'][-1]['find_id']}", fg=typer.colors.GREEN)
+
+
+@app.command("corrigir-find")
+def corrigir_find(work_order: Path = typer.Option(..., "--work-order")):
+    """O agente que analisou registra a correção. O FIND continua aberto."""
+    wo, doc = _find(work_order, "corrigir-find")
+    typer.secho(f"✓ corrigir-find {wo.id}: {doc['eventos'][-1]['find_id']}", fg=typer.colors.GREEN)
 
 
 @app.command("encerrar-find")

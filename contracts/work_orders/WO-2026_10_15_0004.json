@@ -89,12 +89,14 @@
       "sha256": "fe8ef7a606282a8099e4b88dfc95947533701d885cf95ec9f1c717074b00c592"
     }
   ],
-  "id": "WO-ATOMIZAR-EXTRACAO-CID10-001",
-  "task_type": "atomizar",
+  "id": "WO-2026_10_15_0004",
+  "task_type": "retirar",
+  "checker_id": "kernel-validar",
   "parametros": {
     "lote": "cid10-readme-fetch",
-    "origem_work_order": "WO-OBTER-EXTRACAO-CID10-001"
+    "parecer_work_order": "WO-2026_10_15_0003",
+    "id_anterior": "WO-RETIRAR-EXTRACAO-CID10-001"
   },
-  "task_id": "TAREFA-ATOMIZAR",
+  "task_id": "TAREFA-RETIRAR",
   "task_version": "1.0.0"
 }
