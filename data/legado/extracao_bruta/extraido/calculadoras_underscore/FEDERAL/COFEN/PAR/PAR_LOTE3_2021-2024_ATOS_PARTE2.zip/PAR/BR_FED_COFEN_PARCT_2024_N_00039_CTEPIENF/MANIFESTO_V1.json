@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-39-2024-cofen-camtec-ctepienf/ (API WordPress post 143301); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2024_N_00039_CTEPIENF_ATOMOS_V1.jsonl",
+      "sha256": "fb2a31abfd63b47f9c8b5956763382f9ba5a8c7b4b330fd1c5d7d7147d573fc7",
+      "tamanho": 36095
+    },
+    {
+      "nome": "PARCT_2024_N_00039_CTEPIENF_CONTEUDO_SITE_API.json",
+      "sha256": "38238941a061c0a05140dd460faadaa5fb7c6594e688ac0bab07b7975f1ffe44",
+      "tamanho": 9724
+    },
+    {
+      "nome": "PARCT_2024_N_00039_CTEPIENF_NORMA_V1.json",
+      "sha256": "31c1ec6da39a4c10b6921a9bc10740833ce120c510a31be5a78b70e0ea08370f",
+      "tamanho": 4143
+    },
+    {
+      "nome": "PARCT_2024_N_00039_CTEPIENF_PAGINA_SITE.html",
+      "sha256": "eabaa694b12f1017005740b7d26f9a76ef0958e74a652671ff1dbfe5eafdde2d",
+      "tamanho": 450077
+    },
+    {
+      "nome": "PARCT_2024_N_00039_CTEPIENF_PDF_SITE.pdf",
+      "sha256": "eea50d4ba079ad41645282a21c8ac62308f9c70bb69b5b61049da6935408a7cf",
+      "tamanho": 221079
+    },
+    {
+      "nome": "PARCT_2024_N_00039_CTEPIENF_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "692222c32797923d802b6c3ff2f610d01fbe065961189ac6452e4198b7086f70",
+      "tamanho": 9044
+    },
+    {
+      "nome": "PARCT_2024_N_00039_CTEPIENF_TEXTO_FONTE_V1.txt",
+      "sha256": "4072af09db277c32aed635d56b5292c529ebd68ef9b9b7f2261fa0b4840fea51",
+      "tamanho": 7280
+    },
+    {
+      "nome": "PARCT_2024_N_00039_CTEPIENF_VALIDACAO_V1.json",
+      "sha256": "3c5944c8945df16171c93a7f7bdfa8b55a5f0b39a56db6b15a72725e83e5f4ef",
+      "tamanho": 9622
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

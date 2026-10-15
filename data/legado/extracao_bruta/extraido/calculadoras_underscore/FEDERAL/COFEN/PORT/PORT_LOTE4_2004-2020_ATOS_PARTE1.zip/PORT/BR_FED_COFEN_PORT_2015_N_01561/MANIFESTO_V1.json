@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-1561-de-11-de-novembro-de-2015/ (API WordPress post 36264); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2015_N_01561_ATOMOS_V1.jsonl",
+      "sha256": "88bd51179a209759aafe6bffdfc5ce9e180b95af129f332be3f1bf9b293aac06",
+      "tamanho": 7679
+    },
+    {
+      "nome": "PORT_2015_N_01561_CONTEUDO_SITE_API.json",
+      "sha256": "65552f667e5d8b837bdd69aef597e1c5eec27db6d87cc6241837104725fcbf98",
+      "tamanho": 1917
+    },
+    {
+      "nome": "PORT_2015_N_01561_NORMA_V1.json",
+      "sha256": "c5aca38d290a76416be7786e290936a64cf105afaa1caf2722e18bf8ffc03a5d",
+      "tamanho": 3154
+    },
+    {
+      "nome": "PORT_2015_N_01561_PAGINA_SITE.html",
+      "sha256": "8b2ee60c95b282c17ee658806b0ce62086ae98991c195aabf83f850d6ed9a62a",
+      "tamanho": 441579
+    },
+    {
+      "nome": "PORT_2015_N_01561_TEXTO_FONTE_V1.txt",
+      "sha256": "187f1dbfcc4c970ccd60f01406ff03781c56650b954bae9c72f394b66edd98aa",
+      "tamanho": 1274
+    },
+    {
+      "nome": "PORT_2015_N_01561_VALIDACAO_V1.json",
+      "sha256": "96d0d3a852714e4226dcb51b422f7549488e52228d41cf300acc85b6a386d3f2",
+      "tamanho": 2462
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

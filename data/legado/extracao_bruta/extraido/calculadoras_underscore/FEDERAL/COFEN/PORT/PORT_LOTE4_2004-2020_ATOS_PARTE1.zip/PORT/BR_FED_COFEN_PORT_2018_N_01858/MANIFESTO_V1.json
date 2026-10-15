@@ -1,0 +1,51 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-1858-de-19-de-dezembro-de-2018/ (API WordPress post 67807); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2018_N_01858_ATOMOS_V1.jsonl",
+      "sha256": "c80eac30f099e94dca464dcccfc0a907143a192cb0537b93cc19d35c9237bf03",
+      "tamanho": 10935
+    },
+    {
+      "nome": "PORT_2018_N_01858_CONTEUDO_SITE_API.json",
+      "sha256": "26b90e42198445e642c2ae08e56c9a4a88cd9be37d87a250d7ece5b1d16bd8ea",
+      "tamanho": 2490
+    },
+    {
+      "nome": "PORT_2018_N_01858_NORMA_V1.json",
+      "sha256": "ed8fad161d8f8dba83fc08d1aa286aa8a5ccce2a308ef5ea056431db4d6cdb35",
+      "tamanho": 3318
+    },
+    {
+      "nome": "PORT_2018_N_01858_PAGINA_SITE.html",
+      "sha256": "b8bcfeb16d8b0eec625685636fdf76e0b376ccd98bbd18e938ba2a41a9a153f0",
+      "tamanho": 442415
+    },
+    {
+      "nome": "PORT_2018_N_01858_PDF_SITE.pdf",
+      "sha256": "0a7bbf554838ea3fe8966241da74c7d2fff25e74a43d253577eb897d61e7a563",
+      "tamanho": 178401
+    },
+    {
+      "nome": "PORT_2018_N_01858_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "98fff40f6294c657138dad6337e92b026dd5a8de5a40a4e7c3a8e9a08f1e083d",
+      "tamanho": 1973
+    },
+    {
+      "nome": "PORT_2018_N_01858_TEXTO_FONTE_V1.txt",
+      "sha256": "116783fa82dae52e1e1576d1a6c01c19c055c93c1d11b631f5a8b6b502b306f0",
+      "tamanho": 1765
+    },
+    {
+      "nome": "PORT_2018_N_01858_VALIDACAO_V1.json",
+      "sha256": "ddc36953c9bba145031ba737c1413fc628070b77a807957b121b04064d09974f",
+      "tamanho": 4640
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+  ]
+}

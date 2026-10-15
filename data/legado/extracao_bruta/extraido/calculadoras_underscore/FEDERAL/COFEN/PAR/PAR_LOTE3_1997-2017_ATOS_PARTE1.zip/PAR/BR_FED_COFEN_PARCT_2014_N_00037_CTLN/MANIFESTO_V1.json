@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-372014-ctln-realizacao-de-exame-de-fundo-de-olho-por-enfermeiro/ (API WordPress post 29508); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2014_N_00037_CTLN_ATOMOS_V1.jsonl",
+      "sha256": "66eb8f38968f86da18a20bc13808b172606fa500652dc5a7c8a5a38be7d9893d",
+      "tamanho": 64571
+    },
+    {
+      "nome": "PARCT_2014_N_00037_CTLN_CONTEUDO_SITE_API.json",
+      "sha256": "d04d782d72078d9b7043a9699148aa4bcd48bf4b31af717bfcde3f4cb5f9342f",
+      "tamanho": 9665
+    },
+    {
+      "nome": "PARCT_2014_N_00037_CTLN_NORMA_V1.json",
+      "sha256": "dc18f3479f4b4e04248836a43c993651b4c7481f9f5f7a4deec0d512791c19dd",
+      "tamanho": 3700
+    },
+    {
+      "nome": "PARCT_2014_N_00037_CTLN_PAGINA_SITE.html",
+      "sha256": "5aa7e3edabf4891649e53fa8fe95a28f9cf4d6d8c6d8fb291f16a3f8d45a7224",
+      "tamanho": 450325
+    },
+    {
+      "nome": "PARCT_2014_N_00037_CTLN_PDF_SITE.pdf",
+      "sha256": "133de71f6d81cbe04df94f741ac0015b639937e3ce4d75fd21c9a1c474e83191",
+      "tamanho": 1702909
+    },
+    {
+      "nome": "PARCT_2014_N_00037_CTLN_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "232e5b6214ae90f3ed96a66ab6d83bcd9028264268802cf1fb591748138b9fc1",
+      "tamanho": 8180
+    },
+    {
+      "nome": "PARCT_2014_N_00037_CTLN_TEXTO_FONTE_V1.txt",
+      "sha256": "4dc88bcac6424315fb889c995533fd0f4eb8237ca97a6909b556e20a15ef9dc4",
+      "tamanho": 8383
+    },
+    {
+      "nome": "PARCT_2014_N_00037_CTLN_VALIDACAO_V1.json",
+      "sha256": "d841f2efc81b116fa24573491b0477c33a4dd708a2ef61883962067a50ba5d7c",
+      "tamanho": 13545
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+  ]
+}

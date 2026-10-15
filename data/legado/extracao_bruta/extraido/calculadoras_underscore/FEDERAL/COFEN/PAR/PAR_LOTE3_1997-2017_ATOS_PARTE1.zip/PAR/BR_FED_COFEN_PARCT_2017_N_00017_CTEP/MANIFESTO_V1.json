@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-172017ctln-cofen/ (API WordPress post 54262); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2017_N_00017_CTEP_ATOMOS_V1.jsonl",
+      "sha256": "0f06ce68a307b31f4d4263b18034b26c3e0becc45da36bef59e4239a2881db20",
+      "tamanho": 34222
+    },
+    {
+      "nome": "PARCT_2017_N_00017_CTEP_CONTEUDO_SITE_API.json",
+      "sha256": "56ea11eb7fbe8c003ee3834284c5d358a32b64ab935b455dbf79e18cdc69d847",
+      "tamanho": 8422
+    },
+    {
+      "nome": "PARCT_2017_N_00017_CTEP_NORMA_V1.json",
+      "sha256": "2ae43c2614c097f13a8a1d31339f1a6343c17f2588a9b8526c5d752c39718f3a",
+      "tamanho": 3906
+    },
+    {
+      "nome": "PARCT_2017_N_00017_CTEP_PAGINA_SITE.html",
+      "sha256": "58543ed2b3039f06c59e2a53c285404fdbc7146dc3979f8a6dfb6b4c1bc98825",
+      "tamanho": 447283
+    },
+    {
+      "nome": "PARCT_2017_N_00017_CTEP_TEXTO_FONTE_V1.txt",
+      "sha256": "1a0782cc1b499eba5d6340f129b6e6b31bf2674331fc2438af6c5ab64492032f",
+      "tamanho": 6814
+    },
+    {
+      "nome": "PARCT_2017_N_00017_CTEP_VALIDACAO_V1.json",
+      "sha256": "c4920a783b2f0bf836b9a13086c3ed20a35600a0587e6774b507048fa8068703",
+      "tamanho": 2470
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

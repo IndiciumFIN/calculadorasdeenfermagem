@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-camara-tecnica-no-0034-2022-dgep-cofen/ (API WordPress post 101689); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2022_N_00034_ATOMOS_V1.jsonl",
+      "sha256": "c035681299afaf9ac35924fe4b8f456044e76a8eed73a50f296c248f5e4b39d8",
+      "tamanho": 24941
+    },
+    {
+      "nome": "PARCT_2022_N_00034_CONTEUDO_SITE_API.json",
+      "sha256": "36a70500df2466515ac2d4967df2a2049da00dd0a7f58e6c2f3d2009a0c350f1",
+      "tamanho": 5910
+    },
+    {
+      "nome": "PARCT_2022_N_00034_NORMA_V1.json",
+      "sha256": "45130f71ef9adcac2f5847cd98d1b4d96cd13c2bdf7e88a2c3100b1ceb247bcb",
+      "tamanho": 2731
+    },
+    {
+      "nome": "PARCT_2022_N_00034_PAGINA_SITE.html",
+      "sha256": "11a1862bea5ea7010aa73820795b0143635a684e67087943537114ddcec295f6",
+      "tamanho": 443503
+    },
+    {
+      "nome": "PARCT_2022_N_00034_TEXTO_FONTE_V1.txt",
+      "sha256": "2f4383a269967cb59e2854e30d91d10162488a9507cf886ace4ec94ad08f171e",
+      "tamanho": 4226
+    },
+    {
+      "nome": "PARCT_2022_N_00034_VALIDACAO_V1.json",
+      "sha256": "62590d86bc25641b32a7d438aaa0d9b84d18ab72413ae8bb3968e67179bd9b30",
+      "tamanho": 3089
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir."
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-3-2024-cofen-camtec-ctesnc/ (API WordPress post 140736); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2024_N_00003_CTESNC_ATOMOS_V1.jsonl",
+      "sha256": "34b074a706ea926f05c61d3a2b748cf2c2faa13578493e26207d85469e8933f8",
+      "tamanho": 50855
+    },
+    {
+      "nome": "PARCT_2024_N_00003_CTESNC_CONTEUDO_SITE_API.json",
+      "sha256": "080aa7a8b1fc459c0002817cabbc1c78a3d5e66477675f741ce3fbc036334bb2",
+      "tamanho": 15189
+    },
+    {
+      "nome": "PARCT_2024_N_00003_CTESNC_NORMA_V1.json",
+      "sha256": "427d1de42f68c73c5e5749004c80921097116547fcb9c7aea0468d19e62b1766",
+      "tamanho": 5207
+    },
+    {
+      "nome": "PARCT_2024_N_00003_CTESNC_PAGINA_SITE.html",
+      "sha256": "bcc0ed03adf80b37fe865383749e8eec9047dd42beec97cd3d992007f49d1155",
+      "tamanho": 454930
+    },
+    {
+      "nome": "PARCT_2024_N_00003_CTESNC_PDF_SITE.pdf",
+      "sha256": "8224a39065922ed18ac0aff6739712a8fbb0d37a732c362848c47159202a2109",
+      "tamanho": 275884
+    },
+    {
+      "nome": "PARCT_2024_N_00003_CTESNC_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "013c0e03792f2409b5b765e8a951c6287e44fe8e769f52fd34405515dbfb395f",
+      "tamanho": 13581
+    },
+    {
+      "nome": "PARCT_2024_N_00003_CTESNC_TEXTO_FONTE_V1.txt",
+      "sha256": "0a2bcf005414dcc085936a0de502288ec519d32f5784eceddb4c154550eabf88",
+      "tamanho": 12077
+    },
+    {
+      "nome": "PARCT_2024_N_00003_CTESNC_VALIDACAO_V1.json",
+      "sha256": "2e0fe6b9d85f16ae9b21ffd1f0d54c3c8f3c6ce1d1f528442067bb78e953dc17",
+      "tamanho": 12547
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "3 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

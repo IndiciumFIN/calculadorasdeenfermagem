@@ -1,0 +1,164 @@
+{
+  "identificador": "BR_FED_COFEN_PORT_2020_N_00833",
+  "resultado_processo": "PENDENTE",
+  "rotulo": "Pendente de verificação",
+  "controles": [
+    {
+      "nome": "Identificação do ato e emissor",
+      "resultado": "PASS",
+      "evidencia": "PORTARIA COFEN Nº 833 DE 02 DE DEZEMBRO DE 2020"
+    },
+    {
+      "nome": "Conferência site HTML × PDF oficial, dispositivo a dispositivo",
+      "resultado": "FAIL",
+      "status": "EXECUTADA_TEXTO_PDF_CONTRA_FAC_SIMILE_DOU",
+      "evidencia": {
+        "dispositivos_comparados": 9,
+        "por_resultado": {
+          "AUSENTE_NO_PDF": 2,
+          "DIFERENCA_MENOR": 2,
+          "IDENTICO_NORMALIZADO": 5
+        },
+        "trechos_pdf_ausentes_no_site": 0,
+        "pdf": "PORT_2020_N_00833_PDF_SITE.pdf"
+      }
+    },
+    {
+      "nome": "Publicação no DOU (registro, sem verificação online)",
+      "resultado": "NAO_CITADO",
+      "evidencia": [
+        "05292021010400057"
+      ]
+    },
+    {
+      "nome": "Anexos referenciados presentes e atomizados",
+      "resultado": "NAO_APLICAVEL",
+      "status": "SEM_ANEXO_REFERENCIADO",
+      "referencias": []
+    },
+    {
+      "nome": "Numeração contígua (seções, itens, alíneas)",
+      "resultado": "PASS",
+      "evidencia": null
+    },
+    {
+      "nome": "Conferência humana da literalidade",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Pesquisa de alterações posteriores",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Direitos autorais do texto do ato oficial",
+      "resultado": "PASS",
+      "fundamento": "Lei 9.610/1998, art. 8, IV"
+    }
+  ],
+  "fechamento": {
+    "apto": false,
+    "status": "PENDENCIAS",
+    "justificativa": "Aguardando revisão humana da atomização e pesquisa de atos posteriores. Há achados bloqueantes adicionais."
+  },
+  "achados": [
+    {
+      "codigo": "C001",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Atomização automática; requer conferência humana da segmentação e da literalidade."
+    },
+    {
+      "codigo": "C002",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada."
+    },
+    {
+      "codigo": "C011",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "2 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+      "evidencia": [
+        {
+          "identificador": "BR_FED_COFEN_PORT_2020_N_00833_LOCAL_DATA_001",
+          "resultado": "AUSENTE_NO_PDF",
+          "similaridade": 80.6,
+          "trecho": "Brasília, 21 de dezembro de 2020."
+        },
+        {
+          "identificador": "BR_FED_COFEN_PORT_2020_N_00833_ASSINATURA_001",
+          "resultado": "AUSENTE_NO_PDF",
+          "similaridade": 58.8,
+          "trecho": "MANOEL CARLOS NERI DA SILVA / COREN-RO Nº 63592 / Presidente"
+        }
+      ]
+    },
+    {
+      "codigo": "C052",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+      "evidencia": [
+        "PORT_2020_N_00833_PDF_SITE.pdf"
+      ]
+    }
+  ],
+  "conferencia_por_dispositivo": [
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00833_EPIGRAFE_001",
+      "tipo": "epigrafe",
+      "resultado": "DIFERENCA_MENOR",
+      "similaridade": 97.9
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00833_PREAMBULO_001",
+      "tipo": "preambulo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00833_CONSIDERANDO_001",
+      "tipo": "considerando",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00833_CONSIDERANDO_002",
+      "tipo": "considerando",
+      "resultado": "DIFERENCA_MENOR",
+      "similaridade": 96.1
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00833_ART_001",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00833_ART_002",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00833_ART_003",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00833_LOCAL_DATA_001",
+      "tipo": "local_data",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 80.6
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00833_ASSINATURA_001",
+      "tipo": "assinatura",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 58.8
+    }
+  ],
+  "data_verificacao": "2026-10-10",
+  "responsavel": "Triagem automatizada - requer validação humana"
+}

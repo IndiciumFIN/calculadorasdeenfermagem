@@ -1,0 +1,72 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-175-de-30-de-janeirode-2026/ (API WordPress post 180618); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2026_N_00175_ANEXO_01_PDF_SITE.pdf",
+      "sha256": "af09d7bc53a66830e7dac6a8027274b07c290e3c300e3f5001e2dcdb2b7585a0",
+      "tamanho": 176395
+    },
+    {
+      "nome": "PORT_2026_N_00175_ANEXO_01_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "8d22bd2be05015a0a3b67c575f30a5b1a448b983521cf60a4929dbe72ac180d0",
+      "tamanho": 12208
+    },
+    {
+      "nome": "PORT_2026_N_00175_ANEXO_02_PDF_SITE.pdf",
+      "sha256": "40cf2e880a4970d40e50d1c987cfff7a26da372fae64ed8860ec1258be3c2afa",
+      "tamanho": 177525
+    },
+    {
+      "nome": "PORT_2026_N_00175_ANEXO_02_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "4dcbc819f4bcfafb2fa0ca95b23265cc2c6a9d1e4fa622467e5529f2ea46b514",
+      "tamanho": 13718
+    },
+    {
+      "nome": "PORT_2026_N_00175_ATOMOS_V1.jsonl",
+      "sha256": "63b47700e38b25dd0c69fb7b7f1d447e5559f11eb627a757601385289cc5cdcc",
+      "tamanho": 137143
+    },
+    {
+      "nome": "PORT_2026_N_00175_CONTEUDO_SITE_API.json",
+      "sha256": "3eebefae051f0a3c788474608e7fe9dc9c9de8b5a22c0ccb54163e5121287135",
+      "tamanho": 1602
+    },
+    {
+      "nome": "PORT_2026_N_00175_NORMA_V1.json",
+      "sha256": "cb8b4398e492f43e522d439d651e34c5cb02419e6d66a11857935170e720ccc8",
+      "tamanho": 7618
+    },
+    {
+      "nome": "PORT_2026_N_00175_PAGINA_SITE.html",
+      "sha256": "c7441c139f94d79579bd9600af88dcbec67284010537bb8cc235ca12699f3fc8",
+      "tamanho": 442207
+    },
+    {
+      "nome": "PORT_2026_N_00175_PDF_SITE.pdf",
+      "sha256": "af4432f03326b1d4660f9ab4dff1e5e230cb10b6d1f25e5f5166b48b237a3da3",
+      "tamanho": 128507
+    },
+    {
+      "nome": "PORT_2026_N_00175_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "06323c2791ed876f0da7e4b75b5cd5784919310c4dfdb365cd89eb8f2b3f1fdb",
+      "tamanho": 1685
+    },
+    {
+      "nome": "PORT_2026_N_00175_TEXTO_FONTE_V1.txt",
+      "sha256": "b77340ec442ca0e1fc975090969439c1c84c549af36759bd1db2b4e58f6c5405",
+      "tamanho": 818
+    },
+    {
+      "nome": "PORT_2026_N_00175_VALIDACAO_V1.json",
+      "sha256": "5d6f5c05b54d62b0227cb98553013a9a272d93fc0ccbe397fd9dadfce524f128",
+      "tamanho": 4396
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

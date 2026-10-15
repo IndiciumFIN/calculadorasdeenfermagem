@@ -1,0 +1,25 @@
+{
+  "algoritmo": "concatenacao-bytes-sha256",
+  "id_origem": "13DMCK2bQSPCMzSGjH8glOVmXRoT3Vpvn",
+  "arquivo": "PORT_LOTE4_2021-2023_ATOS_PARTE1.zip",
+  "caminho_obter": "calculadoras_underscore/FEDERAL/COFEN/PORT/PORT_LOTE4_2021-2023_ATOS_PARTE1.zip",
+  "bytes": 50205849,
+  "sha256": "d1772a469c7cc724095edb0d153919dff1ccadc44548dc0ea4970f57d7f9dd16",
+  "tamanho_parte": 40000000,
+  "partes": [
+    {
+      "nome": "part-000",
+      "ordem": 0,
+      "offset": 0,
+      "bytes": 40000000,
+      "sha256": "e2e1b3fd9b01eb46734b7544f210ca311501cb8d43827bae02b5d8978e0e0a4b"
+    },
+    {
+      "nome": "part-001",
+      "ordem": 1,
+      "offset": 40000000,
+      "bytes": 10205849,
+      "sha256": "06154f2dea308466cf7b810dbb30906582b618b8825c22ccade91cbce67d184e"
+    }
+  ]
+}

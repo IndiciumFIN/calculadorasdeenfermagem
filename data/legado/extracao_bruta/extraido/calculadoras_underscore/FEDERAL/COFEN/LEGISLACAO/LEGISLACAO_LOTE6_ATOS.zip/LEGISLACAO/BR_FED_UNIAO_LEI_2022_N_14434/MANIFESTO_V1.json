@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/lei-no-14-434-de-4-de-agosto-de-2022/ (API WordPress post 102308); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "LEI_2022_N_14434_ATOMOS_V1.jsonl",
+      "sha256": "045e93a639f4dafca9ffec5dc481e3ca705a630b35534902764b16b051e40f43",
+      "tamanho": 20238
+    },
+    {
+      "nome": "LEI_2022_N_14434_CONTEUDO_SITE_API.json",
+      "sha256": "f4198803873f8c965ccb501f73261235433350fa59ed483569c623934e253174",
+      "tamanho": 5139
+    },
+    {
+      "nome": "LEI_2022_N_14434_NORMA_V1.json",
+      "sha256": "955dabac32d9ebfbe47d036ca662364eae3e436c2d7b6b1eb123143ad002339c",
+      "tamanho": 3568
+    },
+    {
+      "nome": "LEI_2022_N_14434_PAGINA_SITE.html",
+      "sha256": "2f3800fb13cc1fa20723047d73b4c60431bcdd020ec750faa45ed37725de7eb6",
+      "tamanho": 443083
+    },
+    {
+      "nome": "LEI_2022_N_14434_TEXTO_FONTE_V1.txt",
+      "sha256": "1c63a05d098bd449ccc540a12455e0d2d411246dffc136863ddfff93dabefe86",
+      "tamanho": 3176
+    },
+    {
+      "nome": "LEI_2022_N_14434_VALIDACAO_V1.json",
+      "sha256": "7e8bf9a9e13280c29afbd47a167783f565800199c67d034b21a346816f16d809",
+      "tamanho": 2450
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

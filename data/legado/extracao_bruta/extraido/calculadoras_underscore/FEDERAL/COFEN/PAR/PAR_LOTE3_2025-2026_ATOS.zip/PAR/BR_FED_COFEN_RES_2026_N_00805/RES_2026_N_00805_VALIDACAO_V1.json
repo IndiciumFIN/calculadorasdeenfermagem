@@ -1,0 +1,824 @@
+{
+  "identificador": "BR_FED_COFEN_RES_2026_N_00805",
+  "resultado_processo": "PENDENTE",
+  "rotulo": "Pendente de verificação",
+  "controles": [
+    {
+      "nome": "Identificação do ato e emissor",
+      "resultado": "PASS_COM_RESSALVA",
+      "evidencia": "RESOLUÇÃO COFEN Nº 805 DE 24 DE MARÇO DE 2026"
+    },
+    {
+      "nome": "Conferência site HTML × PDF oficial, dispositivo a dispositivo",
+      "resultado": "FAIL",
+      "status": "EXECUTADA_TEXTO_PDF_CONTRA_FAC_SIMILE_DOU",
+      "evidencia": {
+        "dispositivos_comparados": 111,
+        "por_resultado": {
+          "DIFERENCA_MENOR": 1,
+          "DIVERGENTE": 7,
+          "EQUIVALENTE_ORDEM_OU_QUEBRA_DIFERENTE": 12,
+          "IDENTICO_NORMALIZADO": 91
+        },
+        "trechos_pdf_ausentes_no_site": 0,
+        "pdf": "RES_2026_N_00805_PDF_SITE.pdf"
+      }
+    },
+    {
+      "nome": "Publicação no DOU (registro, sem verificação online)",
+      "resultado": "REGISTRADO",
+      "evidencia": [
+        "05152026032500197",
+        "05152026032500198"
+      ]
+    },
+    {
+      "nome": "Anexos referenciados presentes e atomizados",
+      "resultado": "PASS",
+      "status": "PRESENTE_E_ATOMIZADO",
+      "referencias": []
+    },
+    {
+      "nome": "Numeração contígua (seções, itens, alíneas)",
+      "resultado": "PASS",
+      "evidencia": null
+    },
+    {
+      "nome": "Conferência humana da literalidade",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Pesquisa de alterações posteriores",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Direitos autorais do texto do ato oficial",
+      "resultado": "PASS",
+      "fundamento": "Lei 9.610/1998, art. 8, IV"
+    }
+  ],
+  "fechamento": {
+    "apto": false,
+    "status": "PENDENCIAS",
+    "justificativa": "Aguardando revisão humana da atomização e pesquisa de atos posteriores. Há achados bloqueantes adicionais."
+  },
+  "achados": [
+    {
+      "codigo": "C001",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Atomização automática; requer conferência humana da segmentação e da literalidade."
+    },
+    {
+      "codigo": "C002",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada."
+    },
+    {
+      "codigo": "C011",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "7 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+      "evidencia": [
+        {
+          "identificador": "BR_FED_COFEN_RES_2026_N_00805_CONSIDERANDO_008",
+          "resultado": "DIVERGENTE",
+          "similaridade": 91.3,
+          "trecho": "CONSIDERANDO a Lei nº 13.722, de 4 de outubro de 2018 (Lei Lucas), que torna obrigatória a capacitação de professores e funcionários de estabelecimentos de ensi"
+        },
+        {
+          "identificador": "BR_FED_COFEN_RES_2026_N_00805_CONSIDERANDO_009",
+          "resultado": "DIVERGENTE",
+          "similaridade": 93.6,
+          "trecho": "CONSIDERANDO a Lei nº 13.819, de 26 de abril de 2019, que institui a Política Nacional de Prevenção da Automutilação e do Suicídio, reconhecendo a automutilação"
+        },
+        {
+          "identificador": "BR_FED_COFEN_RES_2026_N_00805_CONSIDERANDO_010",
+          "resultado": "DIVERGENTE",
+          "similaridade": 93.0,
+          "trecho": "CONSIDERANDO a Lei nº 14.819, de 16 de janeiro de 2024, que institui a Política Nacional de Atenção Psicossocial nas Comunidades Escolares, com vistas à promoçã"
+        },
+        {
+          "identificador": "BR_FED_COFEN_RES_2026_N_00805_CONSIDERANDO_012",
+          "resultado": "DIVERGENTE",
+          "similaridade": 92.4,
+          "trecho": "CONSIDERANDO o Decreto nº 6.286, de 5 de dezembro de 2007, que institui o Programa Saúde na Escola – PSE, com a finalidade de contribuir para a formação integra"
+        },
+        {
+          "identificador": "BR_FED_COFEN_RES_2026_N_00805_CONSIDERANDO_014",
+          "resultado": "DIVERGENTE",
+          "similaridade": 87.2,
+          "trecho": "CONSIDERANDO o Decreto nº 12.773, de 8 de dezembro de 2025, que altera o Decreto nº 12.686, de 20 de outubro de 2025, o qual institui a Política Nacional de Edu"
+        },
+        {
+          "identificador": "BR_FED_COFEN_RES_2026_N_00805_CONSIDERANDO_016",
+          "resultado": "DIVERGENTE",
+          "similaridade": 94.6,
+          "trecho": "CONSIDERANDO a Portaria Interministerial nº 1.055, de 25 de abril de 2017, dos Ministérios da Saúde e da Educação, que redefine as regras e os critérios de ades"
+        },
+        {
+          "identificador": "BR_FED_COFEN_RES_2026_N_00805_CONSIDERANDO_030",
+          "resultado": "DIVERGENTE",
+          "similaridade": 90.6,
+          "trecho": "CONSIDERANDO a Resolução Cofen nº 736 de 17 de janeiro de 2024, que dispõe sobre a implementação do Processo de Enfermagem em todo contexto socioambiental onde "
+        }
+      ]
+    },
+    {
+      "codigo": "C052",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+      "evidencia": [
+        "RES_2026_N_00805_PDF_SITE.pdf",
+        "RES_2026_N_00805_ANEXO_01_PDF_SITE.pdf"
+      ]
+    },
+    {
+      "codigo": "C053",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "Anexo em PDF com conteúdo já presente no texto do site (atomizado a partir do site); PDF usado só na conferência.",
+      "evidencia": [
+        "RES_2026_N_00805_ANEXO_01_PDF_SITE.pdf"
+      ]
+    },
+    {
+      "codigo": "C041",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "TIPO: Resolução listada na categoria Pareceres; Resoluções estão fora do escopo deste corpus, processada apenas para registro."
+    }
+  ],
+  "conferencia_por_dispositivo": [
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_EPIGRAFE_001",
+      "tipo": "epigrafe",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_EMENTA",
+      "tipo": "ementa",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_PREAMBULO_001",
+      "tipo": "preambulo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_CONSIDERANDO_001",
+      "tipo": "considerando",
+      "resultado": "EQUIVALENTE_ORDEM_OU_QUEBRA_DIFERENTE",
+      "similaridade": 88.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_CONSIDERANDO_002",
+      "tipo": "considerando",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_CONSIDERANDO_003",
+      "tipo": "considerando",
+      "resultado": "EQUIVALENTE_ORDEM_OU_QUEBRA_DIFERENTE",
+      "similaridade": 76.9
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_CONSIDERANDO_004",
+      "tipo": "considerando",
+      "resultado": "EQUIVALENTE_ORDEM_OU_QUEBRA_DIFERENTE",
+      "similaridade": 92.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_CONSIDERANDO_005",
+      "tipo": "considerando",
+      "resultado": "EQUIVALENTE_ORDEM_OU_QUEBRA_DIFERENTE",
+      "similaridade": 90.2
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_CONSIDERANDO_006",
+      "tipo": "considerando",
+      "resultado": "EQUIVALENTE_ORDEM_OU_QUEBRA_DIFERENTE",
+      "similaridade": 92.2
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_CONSIDERANDO_007",
+      "tipo": "considerando",
+      "resultado": "EQUIVALENTE_ORDEM_OU_QUEBRA_DIFERENTE",
+      "similaridade": 95.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_CONSIDERANDO_008",
+      "tipo": "considerando",
+      "resultado": "DIVERGENTE",
+      "similaridade": 91.3
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_CONSIDERANDO_009",
+      "tipo": "considerando",
+      "resultado": "DIVERGENTE",
+      "similaridade": 93.6
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_CONSIDERANDO_010",
+      "tipo": "considerando",
+      "resultado": "DIVERGENTE",
+      "similaridade": 93.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_CONSIDERANDO_011",
+      "tipo": "considerando",
+      "resultado": "EQUIVALENTE_ORDEM_OU_QUEBRA_DIFERENTE",
+      "similaridade": 93.5
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_CONSIDERANDO_012",
+      "tipo": "considerando",
+      "resultado": "DIVERGENTE",
+      "similaridade": 92.4
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_CONSIDERANDO_013",
+      "tipo": "considerando",
+      "resultado": "EQUIVALENTE_ORDEM_OU_QUEBRA_DIFERENTE",
+      "similaridade": 95.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_CONSIDERANDO_014",
+      "tipo": "considerando",
+      "resultado": "DIVERGENTE",
+      "similaridade": 87.2
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_CONSIDERANDO_015",
+      "tipo": "considerando",
+      "resultado": "EQUIVALENTE_ORDEM_OU_QUEBRA_DIFERENTE",
+      "similaridade": 90.9
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_CONSIDERANDO_016",
+      "tipo": "considerando",
+      "resultado": "DIVERGENTE",
+      "similaridade": 94.6
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_CONSIDERANDO_017",
+      "tipo": "considerando",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_CONSIDERANDO_018",
+      "tipo": "considerando",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_CONSIDERANDO_019",
+      "tipo": "considerando",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_CONSIDERANDO_020",
+      "tipo": "considerando",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_CONSIDERANDO_021",
+      "tipo": "considerando",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_CONSIDERANDO_022",
+      "tipo": "considerando",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_CONSIDERANDO_023",
+      "tipo": "considerando",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_CONSIDERANDO_024",
+      "tipo": "considerando",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_CONSIDERANDO_025",
+      "tipo": "considerando",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_CONSIDERANDO_026",
+      "tipo": "considerando",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_CONSIDERANDO_027",
+      "tipo": "considerando",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_CONSIDERANDO_028",
+      "tipo": "considerando",
+      "resultado": "EQUIVALENTE_ORDEM_OU_QUEBRA_DIFERENTE",
+      "similaridade": 91.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_CONSIDERANDO_029",
+      "tipo": "considerando",
+      "resultado": "EQUIVALENTE_ORDEM_OU_QUEBRA_DIFERENTE",
+      "similaridade": 92.7
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_CONSIDERANDO_030",
+      "tipo": "considerando",
+      "resultado": "DIVERGENTE",
+      "similaridade": 90.6
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_CONSIDERANDO_031",
+      "tipo": "considerando",
+      "resultado": "EQUIVALENTE_ORDEM_OU_QUEBRA_DIFERENTE",
+      "similaridade": 94.7
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_CONSIDERANDO_032",
+      "tipo": "considerando",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_FORMULA_DECISORIA_001",
+      "tipo": "formula_decisoria",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ART_001",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ART_001_PAR_UNICO",
+      "tipo": "paragrafo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ART_002",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ART_003",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ART_004",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ART_005",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ART_006",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ART_007",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ART_008",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ART_009",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ART_010",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ASSINATURA_001",
+      "tipo": "assinatura",
+      "resultado": "DIFERENCA_MENOR",
+      "similaridade": 57.9
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001",
+      "tipo": "anexo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_SECAO_001",
+      "tipo": "secao",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_PARAGRAFO_TEXTO_001",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_SECAO_002",
+      "tipo": "secao",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_PARAGRAFO_TEXTO_002",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_PARAGRAFO_TEXTO_003",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_PARAGRAFO_TEXTO_004",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_PARAGRAFO_TEXTO_005",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_PARAGRAFO_TEXTO_006",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_PARAGRAFO_TEXTO_007",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_SECAO_003",
+      "tipo": "secao",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_ITEM_001",
+      "tipo": "item",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_001",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_002",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_003",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_004",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_005",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_006",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_007",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_008",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_009",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_010",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_011",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_012",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_ALINEA_001",
+      "tipo": "alinea",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_013",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_ALINEA_002",
+      "tipo": "alinea",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_ITEM_002",
+      "tipo": "item",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_014",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_015",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_016",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_017",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_018",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_019",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_020",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_021",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_022",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_023",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_024",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_025",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_026",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_027",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_028",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_ITEM_003",
+      "tipo": "item",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_029",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_030",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_031",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_032",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_033",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_034",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_035",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_036",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_037",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_PARAGRAFO_TRANSCRITO_001",
+      "tipo": "paragrafo_transcrito",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_038",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_039",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_040",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_041",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_042",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_043",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_044",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_045",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_RES_2026_N_00805_ANEXO_001_INCISO_046",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    }
+  ],
+  "data_verificacao": "2026-10-10",
+  "responsavel": "Triagem automatizada - requer validação humana"
+}

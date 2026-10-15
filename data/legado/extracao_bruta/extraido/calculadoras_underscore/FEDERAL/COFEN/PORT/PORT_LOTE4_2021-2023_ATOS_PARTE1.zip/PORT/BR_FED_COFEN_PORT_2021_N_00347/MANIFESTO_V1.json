@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-347-de-29-de-abril-de-2021/ (API WordPress post 86682); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2021_N_00347_ATOMOS_V1.jsonl",
+      "sha256": "a303054c6b13b3e42f61a5607099234b23dd4006df6c55545151322cb794d459",
+      "tamanho": 6069
+    },
+    {
+      "nome": "PORT_2021_N_00347_CONTEUDO_SITE_API.json",
+      "sha256": "2860b3a1348c25132599885b1482f6cf3e9271a7ab8c04db74495e0d9b58221b",
+      "tamanho": 1438
+    },
+    {
+      "nome": "PORT_2021_N_00347_NORMA_V1.json",
+      "sha256": "7430ffffc17e0873a1f5046dadf733e1e6ce682370b8567a092bb878dda50a96",
+      "tamanho": 3087
+    },
+    {
+      "nome": "PORT_2021_N_00347_PAGINA_SITE.html",
+      "sha256": "b6a56f603edf90126991df404fa1536e31ffa991296f408151f502efd201b01d",
+      "tamanho": 439256
+    },
+    {
+      "nome": "PORT_2021_N_00347_TEXTO_FONTE_V1.txt",
+      "sha256": "7ccfba1eb53e09edc23cfc9cb68919a6aa9425465f1e3ce33269116346ade228",
+      "tamanho": 846
+    },
+    {
+      "nome": "PORT_2021_N_00347_VALIDACAO_V1.json",
+      "sha256": "63b5e3d1bd8c7f61ae08676bc184919b1544f912c72823357e6c057c79d586d8",
+      "tamanho": 2458
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-38-2025-camaras-tecnicas-de-enfermagem/ (API WordPress post 153009); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2025_N_00038_CAMTEC_ATOMOS_V1.jsonl",
+      "sha256": "84dddffd807f2861669055cdb83042dd216c42dd05e9bd151075d3bf2c55ab22",
+      "tamanho": 41573
+    },
+    {
+      "nome": "PARCT_2025_N_00038_CAMTEC_CONTEUDO_SITE_API.json",
+      "sha256": "3c223f0d29cafd26189200dc55eea064c721b0708ba7fca76837686a4607e5a8",
+      "tamanho": 13225
+    },
+    {
+      "nome": "PARCT_2025_N_00038_CAMTEC_NORMA_V1.json",
+      "sha256": "b4a3310c4c41863fd42c4db2279696e1d462913a36ff972cd61aa542a4b8a51a",
+      "tamanho": 4120
+    },
+    {
+      "nome": "PARCT_2025_N_00038_CAMTEC_PAGINA_SITE.html",
+      "sha256": "5d418fcfbaeebfc25ebdb993f8b2edc7be0fc5ab907ff33d7c37a72ee454eb03",
+      "tamanho": 453519
+    },
+    {
+      "nome": "PARCT_2025_N_00038_CAMTEC_PDF_SITE.pdf",
+      "sha256": "c1baf628052e9fd3a3cfa27b6a8358ba9f3c5fb878de2a8f9903fad6c1937f35",
+      "tamanho": 295455
+    },
+    {
+      "nome": "PARCT_2025_N_00038_CAMTEC_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "57c778822e68dbe643ba06cbef4643c4d4620f91ef56906481ba626febac2a91",
+      "tamanho": 13402
+    },
+    {
+      "nome": "PARCT_2025_N_00038_CAMTEC_TEXTO_FONTE_V1.txt",
+      "sha256": "4cc2947c4526d72346f527876175775da11e1c93f639293c31cc8f108e3ba547",
+      "tamanho": 10695
+    },
+    {
+      "nome": "PARCT_2025_N_00038_CAMTEC_VALIDACAO_V1.json",
+      "sha256": "d931b562aae605b6dead0b4d49cc351bd4371deb5a017cf217b21232fa195f26",
+      "tamanho": 10691
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "4 trecho(s) do PDF sem correspondente no texto do site.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência."
+  ]
+}

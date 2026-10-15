@@ -1,0 +1,61 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/decreto-no-8-754-de-10-de-maio-de-2016/ (API WordPress post 41579); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "DECR_2016_N_08754_ANEXO_01_PDF_SITE.pdf",
+      "sha256": "625253623d606f1d11a1fe9e893a4490e5aef91fad6f352d700d8d2fea84005e",
+      "tamanho": 28517
+    },
+    {
+      "nome": "DECR_2016_N_08754_ANEXO_01_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "9a076700e9775c8519a0f9770b143c1e6411a3534a2cf8e40207d4f978a629ad",
+      "tamanho": 2270
+    },
+    {
+      "nome": "DECR_2016_N_08754_ATOMOS_V1.jsonl",
+      "sha256": "92daf57b6abd206a6d8f74c1f7b5ab1015faf4fb9433d26768c609b1ad1390c4",
+      "tamanho": 20579
+    },
+    {
+      "nome": "DECR_2016_N_08754_CONTEUDO_SITE_API.json",
+      "sha256": "fe3c4158f5944359e8057b9c74809446e9923f8b242c9f39b34fa7b89bbb30d0",
+      "tamanho": 594
+    },
+    {
+      "nome": "DECR_2016_N_08754_NORMA_V1.json",
+      "sha256": "619ec2725151343decfe93c530c749a6289fc588ba3544d54c0aaab06eb09713",
+      "tamanho": 3365
+    },
+    {
+      "nome": "DECR_2016_N_08754_PAGINA_SITE.html",
+      "sha256": "3e5bb74fb7a10cb5f469f55c7888199983595c6b1b5b90cce0da7ca3af069aab",
+      "tamanho": 440230
+    },
+    {
+      "nome": "DECR_2016_N_08754_PDF_SITE.pdf",
+      "sha256": "625253623d606f1d11a1fe9e893a4490e5aef91fad6f352d700d8d2fea84005e",
+      "tamanho": 28517
+    },
+    {
+      "nome": "DECR_2016_N_08754_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "9a076700e9775c8519a0f9770b143c1e6411a3534a2cf8e40207d4f978a629ad",
+      "tamanho": 2270
+    },
+    {
+      "nome": "DECR_2016_N_08754_TEXTO_FONTE_V1.txt",
+      "sha256": "9a076700e9775c8519a0f9770b143c1e6411a3534a2cf8e40207d4f978a629ad",
+      "tamanho": 2270
+    },
+    {
+      "nome": "DECR_2016_N_08754_VALIDACAO_V1.json",
+      "sha256": "5da5dff96ec69d3f9fd22a8034cc0cebad78aa765df0dbc321b2d7506bf8773b",
+      "tamanho": 2481
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Texto do ato disponível apenas no PDF (o site traz só título/resumo); atomização feita a partir da camada de texto do PDF."
+  ]
+}

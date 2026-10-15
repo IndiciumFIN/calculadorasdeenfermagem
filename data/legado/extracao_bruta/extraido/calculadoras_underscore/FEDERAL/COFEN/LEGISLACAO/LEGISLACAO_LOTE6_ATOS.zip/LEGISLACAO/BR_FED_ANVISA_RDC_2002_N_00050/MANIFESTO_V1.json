@@ -1,0 +1,56 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/rdc-50-anvisa-2002-infraestrutura-fisica-de-servicos-de-saude-dou-no-54-quarta-feira-20-de-marco-de-2002/ (API WordPress post 51505); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "RDC_2002_N_00050_ATOMOS_V1.jsonl",
+      "sha256": "f23a9a44fedc6549c17f0456d1aaa7a48de6ca862f008485fc60f23680c9420f",
+      "tamanho": 1656562
+    },
+    {
+      "nome": "RDC_2002_N_00050_CONTEUDO_SITE_API.json",
+      "sha256": "c22b3eeaec79e04e5774adc4f7949609faa5beba1f13bd978d943a69e0328e1d",
+      "tamanho": 625
+    },
+    {
+      "nome": "RDC_2002_N_00050_NORMA_V1.json",
+      "sha256": "cecea7ef44ade99315d8d1d416ffbd5e291008dade9c9e9a3277224d3828b618",
+      "tamanho": 18650
+    },
+    {
+      "nome": "RDC_2002_N_00050_PAGINA_SITE.html",
+      "sha256": "af25fbd41d71a3305b6c1a5a75cad448e7fd9a92adb1b40ab3346b82e389c670",
+      "tamanho": 438159
+    },
+    {
+      "nome": "RDC_2002_N_00050_PDF_SITE.pdf",
+      "sha256": "f0197ba17137864c1642450cacd38589e237161f5c744563c8fcb731884192b5",
+      "tamanho": 1412821
+    },
+    {
+      "nome": "RDC_2002_N_00050_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "4b7842f9ab81ba38999b6f8411e58b385b91d8172b9d1b11063279f04418c348",
+      "tamanho": 370770
+    },
+    {
+      "nome": "RDC_2002_N_00050_TEXTO_FONTE_V1.txt",
+      "sha256": "8bc98342ac31e59b67d38f7d727cd9d403117df9a5211a8c03d502d1ba858a68",
+      "tamanho": 370812
+    },
+    {
+      "nome": "RDC_2002_N_00050_VALIDACAO_V1.json",
+      "sha256": "1fb80c83e1725451e6e467ce6256c4b16d41aaaf798e6a86abeeaa1e7b13982b",
+      "tamanho": 13316
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+    "Texto do ato disponível apenas no PDF (o site traz só título/resumo); atomização feita a partir da camada de texto do PDF.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir.",
+    "Data do ato não identificada no texto; usada a data do post no site.",
+    "Anexo presente mas sem conteúdo atomizado."
+  ]
+}

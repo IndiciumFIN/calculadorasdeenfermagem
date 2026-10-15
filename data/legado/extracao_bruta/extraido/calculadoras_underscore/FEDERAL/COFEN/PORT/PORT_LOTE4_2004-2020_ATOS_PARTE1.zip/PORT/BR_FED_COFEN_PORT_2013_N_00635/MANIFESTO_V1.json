@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-635-de-18-de-julho-de-2013/ (API WordPress post 20474); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2013_N_00635_ATOMOS_V1.jsonl",
+      "sha256": "c4c80ada3d44a8f5c01f6939ac7680e4e50e15fd25ad81e0d3500140ecad6a6c",
+      "tamanho": 6232
+    },
+    {
+      "nome": "PORT_2013_N_00635_CONTEUDO_SITE_API.json",
+      "sha256": "f40c9dcb6f697905798d39e67523bb590965225ef99c714f2f625b5b937556ea",
+      "tamanho": 1842
+    },
+    {
+      "nome": "PORT_2013_N_00635_NORMA_V1.json",
+      "sha256": "0a172db93fb64fb01ba09d5469e14b3ce91233d940aeadf0b3dc06e505657d89",
+      "tamanho": 3103
+    },
+    {
+      "nome": "PORT_2013_N_00635_PAGINA_SITE.html",
+      "sha256": "2e550c0c8a8b85ecb52ff5702b53f4125a7bd7c341927791e47ecc0449a12dec",
+      "tamanho": 439625
+    },
+    {
+      "nome": "PORT_2013_N_00635_TEXTO_FONTE_V1.txt",
+      "sha256": "ed9d1c079283d9ec210fbee27760a73096ace573aacdbdca3961d6b45c522cbb",
+      "tamanho": 1003
+    },
+    {
+      "nome": "PORT_2013_N_00635_VALIDACAO_V1.json",
+      "sha256": "0d363fd01c180be87061ac01f08e890757a2462073a4ca5caacb3352f43781f9",
+      "tamanho": 2458
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

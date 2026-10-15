@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-conselheiro-n-2802015/ (API WordPress post 50389); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCONS_2015_N_00280_ATOMOS_V1.jsonl",
+      "sha256": "8bbea537265db8323a57c987cb3505cc14f37d32fbcf7a0d8d85ad851a231c2c",
+      "tamanho": 19194
+    },
+    {
+      "nome": "PARCONS_2015_N_00280_CONTEUDO_SITE_API.json",
+      "sha256": "b810ee606a902b23967e5630e99b886626ea736e60d54429cd5a9c9e108603e9",
+      "tamanho": 4973
+    },
+    {
+      "nome": "PARCONS_2015_N_00280_NORMA_V1.json",
+      "sha256": "c3a356ac7d8165485f84b69f53ade4582493f0414b6bbfbacbf3de3a8b39b247",
+      "tamanho": 2414
+    },
+    {
+      "nome": "PARCONS_2015_N_00280_PAGINA_SITE.html",
+      "sha256": "7e491369349dfd6313cfed9f71ab8e2ff6b7bc8022f5f15cfecbc8713ba2ca67",
+      "tamanho": 442477
+    },
+    {
+      "nome": "PARCONS_2015_N_00280_TEXTO_FONTE_V1.txt",
+      "sha256": "31521be0a40ed672d8413f8e153f2d6807f0d7b2af205bee06024c4c44dd82e4",
+      "tamanho": 4061
+    },
+    {
+      "nome": "PARCONS_2015_N_00280_VALIDACAO_V1.json",
+      "sha256": "9d931204826bf798a966c4fd7df76cf7cbd46492d8a1162a3eee94f51d809780",
+      "tamanho": 2666
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

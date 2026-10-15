@@ -1,0 +1,43 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-1-2026-grupo-tecnico-de-acompanhamento-eleitoral-eleicoes-corens-2026/ (API WordPress post 191763); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARTEC_2026_N_00001_GRUPO_ATOMOS_V1.jsonl",
+      "sha256": "c268e13905470fdf4b41487a86cf61a45ea111dba56f3d45f1bc43e09a165f23",
+      "tamanho": 27904
+    },
+    {
+      "nome": "PARTEC_2026_N_00001_GRUPO_CONTEUDO_SITE_API.json",
+      "sha256": "78be98a17796c68c758b769d2ced4f1f66dbf99d8593f71d635dcad67b138e46",
+      "tamanho": 7394
+    },
+    {
+      "nome": "PARTEC_2026_N_00001_GRUPO_NORMA_V1.json",
+      "sha256": "06d961be25966051bfdcd36a25b427e6b4a5f8c43f75ad6929150ffc0ca0791b",
+      "tamanho": 3197
+    },
+    {
+      "nome": "PARTEC_2026_N_00001_GRUPO_PAGINA_SITE.html",
+      "sha256": "fa2296f22c2d588db2ac2cc186544db6d07fca1fd4741502160635c5c8322aa6",
+      "tamanho": 448925
+    },
+    {
+      "nome": "PARTEC_2026_N_00001_GRUPO_TEXTO_FONTE_V1.txt",
+      "sha256": "b435859df4a1e8bdfdae499ba9ecc1c7f93cc766d80db60125ec256df93dc9cf",
+      "tamanho": 5008
+    },
+    {
+      "nome": "PARTEC_2026_N_00001_GRUPO_VALIDACAO_V1.json",
+      "sha256": "24431c87322d65b6a41198e06548eb9649da35c2845fae5f90fedf3d39363335",
+      "tamanho": 3108
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

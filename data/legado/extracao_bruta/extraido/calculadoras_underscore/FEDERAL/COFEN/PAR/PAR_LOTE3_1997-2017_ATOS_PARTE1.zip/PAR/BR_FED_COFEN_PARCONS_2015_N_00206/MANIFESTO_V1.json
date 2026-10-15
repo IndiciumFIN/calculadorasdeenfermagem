@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-relator-no-2062015/ (API WordPress post 35324); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCONS_2015_N_00206_ATOMOS_V1.jsonl",
+      "sha256": "00938ef56772ed933df743158133828c3add4a348a3e2577bf5ef6ab624ceec1",
+      "tamanho": 40168
+    },
+    {
+      "nome": "PARCONS_2015_N_00206_CONTEUDO_SITE_API.json",
+      "sha256": "7f07d44426197f8c5d490a6d5b371f7eda05ede56e25c3ded727a6bd76438d46",
+      "tamanho": 14905
+    },
+    {
+      "nome": "PARCONS_2015_N_00206_NORMA_V1.json",
+      "sha256": "8c8187ae8201aec2eebfc0e8d20e94988e6a4ffb5c2b1c28fb9937ca36622418",
+      "tamanho": 4208
+    },
+    {
+      "nome": "PARCONS_2015_N_00206_PAGINA_SITE.html",
+      "sha256": "906811d72d6f881c5ebfb383379c4cfda88948d19b441ee6f4d9e9942a0ea5ad",
+      "tamanho": 451928
+    },
+    {
+      "nome": "PARCONS_2015_N_00206_TEXTO_FONTE_V1.txt",
+      "sha256": "c4aead54c98239ac9a3507d61041a6ac5efbe6bbbee4cae9371255a2cc518e3f",
+      "tamanho": 12631
+    },
+    {
+      "nome": "PARCONS_2015_N_00206_VALIDACAO_V1.json",
+      "sha256": "2cc5fc89bbf8f6cbaeba4252152af6dabdad5ed203b2754182ea586640e20c4b",
+      "tamanho": 2465
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

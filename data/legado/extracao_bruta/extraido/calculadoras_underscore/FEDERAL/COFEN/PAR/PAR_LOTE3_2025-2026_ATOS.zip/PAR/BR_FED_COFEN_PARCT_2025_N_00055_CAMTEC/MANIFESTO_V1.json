@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-55-2025-camaras-tecnicas-de-enfermagem/ (API WordPress post 179489); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2025_N_00055_CAMTEC_ATOMOS_V1.jsonl",
+      "sha256": "aef7434961fa9945e585f6fef760f3d372013a0301dc33315fd5e79ae4e77f76",
+      "tamanho": 79088
+    },
+    {
+      "nome": "PARCT_2025_N_00055_CAMTEC_CONTEUDO_SITE_API.json",
+      "sha256": "7faa7381532b4833734e378c5dafadb60b3b0f443e8d97e11e54fcec5b3f9d8e",
+      "tamanho": 19576
+    },
+    {
+      "nome": "PARCT_2025_N_00055_CAMTEC_NORMA_V1.json",
+      "sha256": "32ad8adba2293d39769fb1ec290ac12b6c69cd7e52bdef075f1fa72738133db5",
+      "tamanho": 7560
+    },
+    {
+      "nome": "PARCT_2025_N_00055_CAMTEC_PAGINA_SITE.html",
+      "sha256": "7942f67703b7f2449040aff4af44a58b556b0043566279c595063e3243e32ea7",
+      "tamanho": 460141
+    },
+    {
+      "nome": "PARCT_2025_N_00055_CAMTEC_PDF_SITE.pdf",
+      "sha256": "1cd7652fa585514c642bcd346f95d2d7b4940f657cd0403f001213059a75f275",
+      "tamanho": 256431
+    },
+    {
+      "nome": "PARCT_2025_N_00055_CAMTEC_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "2a1d6f04a1f291c0403bb1867f7b3f598503b506f21d8736e71bc9565dc45691",
+      "tamanho": 16305
+    },
+    {
+      "nome": "PARCT_2025_N_00055_CAMTEC_TEXTO_FONTE_V1.txt",
+      "sha256": "6ab6b6dca4230856cb0b04c09c0289ae14b62db28fe5f57e5951d8ecfdf0e7d0",
+      "tamanho": 15673
+    },
+    {
+      "nome": "PARCT_2025_N_00055_CAMTEC_VALIDACAO_V1.json",
+      "sha256": "02d49f17a3aaec63b5349a4388ab2a5751947eb0b58fbf7efdaa1f28846025ec",
+      "tamanho": 15802
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência."
+  ]
+}

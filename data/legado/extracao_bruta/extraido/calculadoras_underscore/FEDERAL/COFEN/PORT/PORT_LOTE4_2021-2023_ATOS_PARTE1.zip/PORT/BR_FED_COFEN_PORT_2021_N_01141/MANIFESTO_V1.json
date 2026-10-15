@@ -1,0 +1,66 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-1141-de-21-de-setembro-de-2021/ (API WordPress post 91262); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2021_N_01141_ANEXO_01_PDF_SITE.pdf",
+      "sha256": "277824b721b31830b9574d03685b04c7cf90db7be804b01e933980e4abaee29a",
+      "tamanho": 2386340
+    },
+    {
+      "nome": "PORT_2021_N_01141_ANEXO_01_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "2fcb6e053224199847c0a9a7031067fcfe0e3e304a3f19ed1e0343cd2140f0b5",
+      "tamanho": 12446
+    },
+    {
+      "nome": "PORT_2021_N_01141_ATOMOS_V1.jsonl",
+      "sha256": "eb7d615869859b9f4c520a135c3063d39b816eabe2741d40b7d9670de49db3de",
+      "tamanho": 107966
+    },
+    {
+      "nome": "PORT_2021_N_01141_CONTEUDO_SITE_API.json",
+      "sha256": "2c725eb3c80d0411b89e5ae63b532433e0304fd465a6a521d8e9d34247bfeb16",
+      "tamanho": 18023
+    },
+    {
+      "nome": "PORT_2021_N_01141_NORMA_V1.json",
+      "sha256": "c0631e484b65a492477094a8423f2a21ef76d5cdcf182a9197d1fc6a8084ffd7",
+      "tamanho": 5507
+    },
+    {
+      "nome": "PORT_2021_N_01141_PAGINA_SITE.html",
+      "sha256": "0b7a06df51d9ee80d9ea96a002b613b55c376c2c3c1fe83cbe09d3af1abbea0b",
+      "tamanho": 458104
+    },
+    {
+      "nome": "PORT_2021_N_01141_PDF_SITE.pdf",
+      "sha256": "72d0d0f928b8e8816939e0b0275cf937e1df2602ab73d2f0e7d12e5ed0d164fd",
+      "tamanho": 951148
+    },
+    {
+      "nome": "PORT_2021_N_01141_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "03b820d9fa17ed284f8a593df610aea3c43b044bfb2451a60a74a581b496738a",
+      "tamanho": 5334
+    },
+    {
+      "nome": "PORT_2021_N_01141_TEXTO_FONTE_V1.txt",
+      "sha256": "9825da09060ef8b18c565f5e1caa8c6f3036fe02c5d9d9b440d66845e7659787",
+      "tamanho": 14934
+    },
+    {
+      "nome": "PORT_2021_N_01141_VALIDACAO_V1.json",
+      "sha256": "affe297ca4b28c534e87756b1839b5389ec8a05ad200c798644b07d97bb47eb6",
+      "tamanho": 27686
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Anexo em PDF com conteúdo já presente no texto do site (atomizado a partir do site); PDF usado só na conferência.",
+    "9 trecho(s) do PDF sem correspondente no texto do site.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir.",
+    "Anexo presente mas sem conteúdo atomizado."
+  ]
+}

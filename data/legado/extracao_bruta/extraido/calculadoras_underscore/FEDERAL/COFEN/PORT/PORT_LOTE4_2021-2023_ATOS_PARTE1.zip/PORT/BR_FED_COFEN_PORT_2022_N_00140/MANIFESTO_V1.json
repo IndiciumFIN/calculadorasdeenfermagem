@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-140-de-1-de-fevereiro-de-2022/ (API WordPress post 95908); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2022_N_00140_ATOMOS_V1.jsonl",
+      "sha256": "b5bcbe2411f8c678da37bc9f65aae7e0bb9d5ff4af972d200a8d5b5f220ef8a7",
+      "tamanho": 6090
+    },
+    {
+      "nome": "PORT_2022_N_00140_CONTEUDO_SITE_API.json",
+      "sha256": "2fd6a81b6dea33be3b48076ed2815d5e4651de0dd01f00aa8ed5a64fa0a70873",
+      "tamanho": 1446
+    },
+    {
+      "nome": "PORT_2022_N_00140_NORMA_V1.json",
+      "sha256": "e09972a9f9c32c03959172e3be2637f29a1a8a40bf7a3d6ccaee6e8d32cfbb1c",
+      "tamanho": 3056
+    },
+    {
+      "nome": "PORT_2022_N_00140_PAGINA_SITE.html",
+      "sha256": "e028e87e5324fd350e3b3eceba1a55493d2da5fc165c6854061da9242b925120",
+      "tamanho": 440200
+    },
+    {
+      "nome": "PORT_2022_N_00140_TEXTO_FONTE_V1.txt",
+      "sha256": "3de8c1cf9ddf952be48881ee4f95f6796a9b452c052fa040fe7624b88358a53e",
+      "tamanho": 867
+    },
+    {
+      "nome": "PORT_2022_N_00140_VALIDACAO_V1.json",
+      "sha256": "cd6dda3868c3b3bac79273fd15e98a383cc94c6d71bedab6c866e59b99ec0bcc",
+      "tamanho": 2461
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

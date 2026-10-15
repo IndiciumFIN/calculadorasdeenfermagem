@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-038-2019-ctfis/ (API WordPress post 72555); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2019_N_00038_CTFIS_ATOMOS_V1.jsonl",
+      "sha256": "5b08fb547891fa2702e9c5c4bc0dc635ee2782fbf778ffd7631327ec581b04f1",
+      "tamanho": 34071
+    },
+    {
+      "nome": "PARCT_2019_N_00038_CTFIS_CONTEUDO_SITE_API.json",
+      "sha256": "d542405eba35c5a67f74afb19e3bbad16702057c574619d9d8580439253cc6df",
+      "tamanho": 9664
+    },
+    {
+      "nome": "PARCT_2019_N_00038_CTFIS_NORMA_V1.json",
+      "sha256": "9982ff991abe904e4219ab7bc57708863eb5de86b341e81a80082522ee510229",
+      "tamanho": 3835
+    },
+    {
+      "nome": "PARCT_2019_N_00038_CTFIS_PAGINA_SITE.html",
+      "sha256": "e61d6bf1138a0cd4574108f8ddd91ae5c44a10e8c691cc7cd87b40f793cd45eb",
+      "tamanho": 448450
+    },
+    {
+      "nome": "PARCT_2019_N_00038_CTFIS_TEXTO_FONTE_V1.txt",
+      "sha256": "23987e34c880057971801bd86bee774366e47ed9b570947a233ae2f1de39da37",
+      "tamanho": 8519
+    },
+    {
+      "nome": "PARCT_2019_N_00038_CTFIS_VALIDACAO_V1.json",
+      "sha256": "868f63d32b605a36dd83d809baa47485aa5067bb4f316d09c2e1675093aeb1ff",
+      "tamanho": 2472
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

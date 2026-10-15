@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-tecnico-cnsm-cofen-no-003-2019/ (API WordPress post 74671); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCOM_2019_N_00003_CNSM_ATOMOS_V1.jsonl",
+      "sha256": "d98e6384b7dd8b7c002b032a5da78cbdec596fcd269b9a822ee943a2f5db07d6",
+      "tamanho": 158266
+    },
+    {
+      "nome": "PARCOM_2019_N_00003_CNSM_CONTEUDO_SITE_API.json",
+      "sha256": "a85bacc266df17456ea1e957722d77d24d92d97d06ec9ad51dd48c90239b81c0",
+      "tamanho": 42349
+    },
+    {
+      "nome": "PARCOM_2019_N_00003_CNSM_NORMA_V1.json",
+      "sha256": "b52508c45b02ed44df59cbf4fbe57288cc54fe55ed1dbde84f3ec440a9c3364a",
+      "tamanho": 6304
+    },
+    {
+      "nome": "PARCOM_2019_N_00003_CNSM_PAGINA_SITE.html",
+      "sha256": "372ece7d0fb65fc89c514d650c2d04c608c058edd9482b66ad2289e5128c1318",
+      "tamanho": 481013
+    },
+    {
+      "nome": "PARCOM_2019_N_00003_CNSM_PDF_SITE.pdf",
+      "sha256": "b69546c3c59e7c4419bf934e454cbe26c5122e83509b61461753d0d5c885bb34",
+      "tamanho": 4421711
+    },
+    {
+      "nome": "PARCOM_2019_N_00003_CNSM_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "7ed7e02e7e15a6ace339dc7f36d2eaeb04a368e8a5e20e88e3c5ffee9f174eaa",
+      "tamanho": 44778
+    },
+    {
+      "nome": "PARCOM_2019_N_00003_CNSM_TEXTO_FONTE_V1.txt",
+      "sha256": "3d94deca5354951f57d100fe3bfe6fad94b806da2167b1a47283e27afac60d48",
+      "tamanho": 39779
+    },
+    {
+      "nome": "PARCOM_2019_N_00003_CNSM_VALIDACAO_V1.json",
+      "sha256": "4f47ca72dc938d4225395e47291d671f94b3c05160d8c03ba89ce6d989fcd76d",
+      "tamanho": 29832
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 trecho(s) do PDF sem correspondente no texto do site.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+  ]
+}

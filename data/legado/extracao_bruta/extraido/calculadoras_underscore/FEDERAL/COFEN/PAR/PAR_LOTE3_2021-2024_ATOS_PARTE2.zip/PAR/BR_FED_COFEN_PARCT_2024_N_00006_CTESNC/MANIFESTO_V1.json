@@ -1,0 +1,54 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-6-2024-cofen-camtec-ctesnc/ (API WordPress post 137747); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2024_N_00006_CTESNC_ATOMOS_V1.jsonl",
+      "sha256": "7f4c8009390b7026f9facd3cea6b956ade42bdf02980a86b5a443d3d4061cb55",
+      "tamanho": 93799
+    },
+    {
+      "nome": "PARCT_2024_N_00006_CTESNC_CONTEUDO_SITE_API.json",
+      "sha256": "60854c2e7249b1a7c4ff1a981eb43d9d378de59e45f007537353e23f02522fc3",
+      "tamanho": 20967
+    },
+    {
+      "nome": "PARCT_2024_N_00006_CTESNC_NORMA_V1.json",
+      "sha256": "7f718711224d400a328d677a714c6850144943370e5be8d41bd26be14ace8db0",
+      "tamanho": 4519
+    },
+    {
+      "nome": "PARCT_2024_N_00006_CTESNC_PAGINA_SITE.html",
+      "sha256": "0cece3ca916eee7bd01030f4e9ce148ef49164a9ebbb38a89a736d55384866cb",
+      "tamanho": 460436
+    },
+    {
+      "nome": "PARCT_2024_N_00006_CTESNC_PDF_SITE.pdf",
+      "sha256": "1169e7f042ba7ed4f9a0d24f6c09276182c164817260cb0568d591adba26c577",
+      "tamanho": 4438086
+    },
+    {
+      "nome": "PARCT_2024_N_00006_CTESNC_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "238c553713388cd78d420ddb859fd6b5a0b81430c1059b35d7ca20746879db3f",
+      "tamanho": 17729
+    },
+    {
+      "nome": "PARCT_2024_N_00006_CTESNC_TEXTO_FONTE_V1.txt",
+      "sha256": "d283d16ef0be49ab537264300300a61a6cb9398f6afd9b060433618500f7e11c",
+      "tamanho": 15490
+    },
+    {
+      "nome": "PARCT_2024_N_00006_CTESNC_VALIDACAO_V1.json",
+      "sha256": "7876bf1adbc69366230b1c61c9549c65e02bce71ff60151e9334f9e30a6b8824",
+      "tamanho": 21902
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "2 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "1 trecho(s) do PDF sem correspondente no texto do site.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir."
+  ]
+}

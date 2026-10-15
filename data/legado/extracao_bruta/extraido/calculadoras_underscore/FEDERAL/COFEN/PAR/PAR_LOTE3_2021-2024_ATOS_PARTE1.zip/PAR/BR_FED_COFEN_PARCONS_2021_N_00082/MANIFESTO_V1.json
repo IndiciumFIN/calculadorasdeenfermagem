@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-conselheiro-no-82-2021-cofen/ (API WordPress post 86560); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCONS_2021_N_00082_ATOMOS_V1.jsonl",
+      "sha256": "d857ba79cc1d1c3454c2acb40d39b51af2f7580920054fde81beed2d2b2ff220",
+      "tamanho": 47484
+    },
+    {
+      "nome": "PARCONS_2021_N_00082_CONTEUDO_SITE_API.json",
+      "sha256": "a7c55a8596f8e10bed05b160d83d58ac319e6bace9919569d3c19900370b7fb4",
+      "tamanho": 13660
+    },
+    {
+      "nome": "PARCONS_2021_N_00082_NORMA_V1.json",
+      "sha256": "702034b00a03f857544413beafe649e0288237b07d98d3b3acdf231a6aed1936",
+      "tamanho": 3951
+    },
+    {
+      "nome": "PARCONS_2021_N_00082_PAGINA_SITE.html",
+      "sha256": "ff71468aae61e3bc97d3216375f664a02317a6a4a4f0d80838cf64fa512c6024",
+      "tamanho": 450816
+    },
+    {
+      "nome": "PARCONS_2021_N_00082_TEXTO_FONTE_V1.txt",
+      "sha256": "47134f698668af49b62211fd1fa7ee9c4102bbdfa9da4e4d4773bf7ccd1ddb33",
+      "tamanho": 11666
+    },
+    {
+      "nome": "PARCONS_2021_N_00082_VALIDACAO_V1.json",
+      "sha256": "c2af220d33b0aaba9549fd1c7aebf93c4b45cf9b54c1e2b74e64f7edcbdc9d1a",
+      "tamanho": 2464
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

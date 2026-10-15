@@ -1,0 +1,53 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/rdc-63-anvisa-2011-boas-praticas-de-funcionamento-de-servicos-de-saude-dou-no-227-segunda-feira-28-de-novembro-de-2011/ (API WordPress post 51509); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "RDC_2011_N_00063_ATOMOS_V1.jsonl",
+      "sha256": "447bc85becb5eb45ea25603c2a7f32a73f5d584d842853dfbb59b1789db01f88",
+      "tamanho": 282936
+    },
+    {
+      "nome": "RDC_2011_N_00063_CONTEUDO_SITE_API.json",
+      "sha256": "7f4ed2f7c0e5652ce9af80e5bb73142b8a7efb17aa641b521488f04407d150c9",
+      "tamanho": 661
+    },
+    {
+      "nome": "RDC_2011_N_00063_NORMA_V1.json",
+      "sha256": "981eebb34c723631b2e87326d13f699bec7b5cdbb69f1b7b53269740465c8a4f",
+      "tamanho": 6016
+    },
+    {
+      "nome": "RDC_2011_N_00063_PAGINA_SITE.html",
+      "sha256": "2fb07f4e34958bc01cf8a5d6b0e45954992bc0b3f9e4ea17bfcc53fcf8c69a87",
+      "tamanho": 438839
+    },
+    {
+      "nome": "RDC_2011_N_00063_PDF_SITE.pdf",
+      "sha256": "d5095f1a224fff4608633cb4dc86342ad5a1d519ec1b87795590152f1d647594",
+      "tamanho": 154347
+    },
+    {
+      "nome": "RDC_2011_N_00063_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "43870bac17f9f54adcb26f274eec6ec29798d08d243671cc2c949d37779059f8",
+      "tamanho": 45474
+    },
+    {
+      "nome": "RDC_2011_N_00063_TEXTO_FONTE_V1.txt",
+      "sha256": "ada7dad952c21d61bfc937e63e1494ce8dffaac52af6808dfad4c3880b581a3a",
+      "tamanho": 45546
+    },
+    {
+      "nome": "RDC_2011_N_00063_VALIDACAO_V1.json",
+      "sha256": "5760c9cbf370a031e2a5e4f4ff375ad0912c1691b432135120d44743920bfa0e",
+      "tamanho": 3056
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+    "Texto do ato disponível apenas no PDF (o site traz só título/resumo); atomização feita a partir da camada de texto do PDF.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

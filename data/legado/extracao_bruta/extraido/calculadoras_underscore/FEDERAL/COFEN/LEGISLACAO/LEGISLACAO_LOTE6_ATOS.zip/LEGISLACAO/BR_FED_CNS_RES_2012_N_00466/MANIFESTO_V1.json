@@ -1,0 +1,55 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/resolucao-466-ms-12-12-2012-trata-de-pesquisas-e-testes-em-seres-humanos-dou-no-112-quinta-feira-13-de-junho-de-2013/ (API WordPress post 51517); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "RES_2012_N_00466_ATOMOS_V1.jsonl",
+      "sha256": "4880b18ba6abd9596723713401f08d5c96c1a5a1684a6724dd29060dc925a286",
+      "tamanho": 244215
+    },
+    {
+      "nome": "RES_2012_N_00466_CONTEUDO_SITE_API.json",
+      "sha256": "77ba0709500f1e5df2e05e920cdeb292d93e6be915ee11d8ad875542080684b9",
+      "tamanho": 718
+    },
+    {
+      "nome": "RES_2012_N_00466_NORMA_V1.json",
+      "sha256": "30ccba0ecdcb5eaf7fe22929178a6a0112128d45bd3b0a721a1f60cafe0181b2",
+      "tamanho": 10919
+    },
+    {
+      "nome": "RES_2012_N_00466_PAGINA_SITE.html",
+      "sha256": "59986731e128e3d3dd2bd897eb3f56a835a4d5ed30c737bafd5b3738eb926271",
+      "tamanho": 439696
+    },
+    {
+      "nome": "RES_2012_N_00466_PDF_SITE.pdf",
+      "sha256": "0302ddf57b853cb13622c4e393b8aa2fc9416445ce4eccc4a0f311cabee2eaf1",
+      "tamanho": 190348
+    },
+    {
+      "nome": "RES_2012_N_00466_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "ac122e754d9c3107c0bfdbe5c811a6cba97759e7f9121e351c5dd7d231b42df9",
+      "tamanho": 61822
+    },
+    {
+      "nome": "RES_2012_N_00466_TEXTO_FONTE_V1.txt",
+      "sha256": "5cf4129ac5dbe3caf63854bf650d64e76cfe096af22690666cb2a6eef72d728c",
+      "tamanho": 61943
+    },
+    {
+      "nome": "RES_2012_N_00466_VALIDACAO_V1.json",
+      "sha256": "4db0b92f993ee30436276d20c41ce78ac1ed6032c61d08494d27de5efa4041d8",
+      "tamanho": 15406
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+    "Texto do ato disponível apenas no PDF (o site traz só título/resumo); atomização feita a partir da camada de texto do PDF.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

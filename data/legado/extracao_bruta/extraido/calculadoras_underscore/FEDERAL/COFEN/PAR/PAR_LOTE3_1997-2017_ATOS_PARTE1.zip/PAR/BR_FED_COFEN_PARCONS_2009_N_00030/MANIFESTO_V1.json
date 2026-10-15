@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-conselheiro-cofen-n-0302009/ (API WordPress post 4160); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCONS_2009_N_00030_ATOMOS_V1.jsonl",
+      "sha256": "4456e9ffdcac8f07b127cd95ab8b6a4e69c1eeb63dde613e83c350e4cc0d3e8f",
+      "tamanho": 56402
+    },
+    {
+      "nome": "PARCONS_2009_N_00030_CONTEUDO_SITE_API.json",
+      "sha256": "dff1afa1420b6a8699543f5f8a0238c7bb74a5d01218468ad65beb14d56b9b3b",
+      "tamanho": 28171
+    },
+    {
+      "nome": "PARCONS_2009_N_00030_NORMA_V1.json",
+      "sha256": "a73b105187a53eb6a34b34c34f0e6513a9f9c76a1f0e7df346e5feb677148746",
+      "tamanho": 4749
+    },
+    {
+      "nome": "PARCONS_2009_N_00030_PAGINA_SITE.html",
+      "sha256": "db560bdd2b3a5a713a578e6957b75de672990c398b84913ef669056a4ca8a85e",
+      "tamanho": 463548
+    },
+    {
+      "nome": "PARCONS_2009_N_00030_TEXTO_FONTE_V1.txt",
+      "sha256": "6f0299c9bbcc4954fe57342a0ccebc39aa4bb3f3ba6c56c7594877ecf721f92f",
+      "tamanho": 13382
+    },
+    {
+      "nome": "PARCONS_2009_N_00030_VALIDACAO_V1.json",
+      "sha256": "5e6235c39de79f9f8c3ad370fe30c920418b95554a832b42e2c92a78b4359c16",
+      "tamanho": 2465
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

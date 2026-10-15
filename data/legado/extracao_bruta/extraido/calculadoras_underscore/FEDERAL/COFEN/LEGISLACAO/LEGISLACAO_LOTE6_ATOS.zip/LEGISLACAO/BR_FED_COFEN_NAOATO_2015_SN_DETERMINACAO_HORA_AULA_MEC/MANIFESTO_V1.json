@@ -1,0 +1,54 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/determinacao-da-hora-aula-mec/ (API WordPress post 36762); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "NAOATO_2015_SN_DETERMINACAO_HORA_AULA_MEC_ATOMOS_V1.jsonl",
+      "sha256": "de6ecfa9cf04eec57c8c816f71d4a451976ec4fdd875675ab177c39a963e3397",
+      "tamanho": 8023
+    },
+    {
+      "nome": "NAOATO_2015_SN_DETERMINACAO_HORA_AULA_MEC_CONTEUDO_SITE_API.json",
+      "sha256": "8632c01bbfb4722f3d7def3ee81ad7c5ffac380b50ed467dd85b0e5c8f746c67",
+      "tamanho": 1005
+    },
+    {
+      "nome": "NAOATO_2015_SN_DETERMINACAO_HORA_AULA_MEC_NORMA_V1.json",
+      "sha256": "3f2d0cf3c23f9108fd3e5285711ebb679cec0c84411f3a92645f8e70a6637d65",
+      "tamanho": 4127
+    },
+    {
+      "nome": "NAOATO_2015_SN_DETERMINACAO_HORA_AULA_MEC_PAGINA_SITE.html",
+      "sha256": "44ac967a9f75ee8cdc497ec6985e45bb135c351f4d1b2f3a832b18b3f6621648",
+      "tamanho": 440983
+    },
+    {
+      "nome": "NAOATO_2015_SN_DETERMINACAO_HORA_AULA_MEC_PDF_SITE.pdf",
+      "sha256": "00b7ff041c9ca8349015866901fbdc683a5c40a38c63a75de33a4af5d0f1ffb9",
+      "tamanho": 156563
+    },
+    {
+      "nome": "NAOATO_2015_SN_DETERMINACAO_HORA_AULA_MEC_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "0cea979059bbe0012ba8b3def796ffaa7e0afb20aa0a4b090887dabb2244a3fc",
+      "tamanho": 44716
+    },
+    {
+      "nome": "NAOATO_2015_SN_DETERMINACAO_HORA_AULA_MEC_TEXTO_FONTE_V1.txt",
+      "sha256": "2113620c4d2f9b93fd0bb13351e3562207e72fafb9e8ac2de79cacbdff073a45",
+      "tamanho": 656
+    },
+    {
+      "nome": "NAOATO_2015_SN_DETERMINACAO_HORA_AULA_MEC_VALIDACAO_V1.json",
+      "sha256": "f250cd4c1c19976b75a08ca27dee8c1041ffd0c517341d3de9249cf266b294f5",
+      "tamanho": 5494
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+    "Ato sem número no site; identificador formado por slug.",
+    "TIPO: listado em categoria de Legislação, mas o título não identifica um ato (\"DETERMINAÇÃO DA HORA AULA – MEC\"). ANO: ano do ato não consta do título; usado o ano do post (data de publicação no site, não do ato)."
+  ]
+}

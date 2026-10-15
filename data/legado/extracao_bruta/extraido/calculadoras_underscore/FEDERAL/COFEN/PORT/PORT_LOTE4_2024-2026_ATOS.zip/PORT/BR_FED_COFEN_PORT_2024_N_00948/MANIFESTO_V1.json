@@ -1,0 +1,50 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-948-de-22-de-maio-de-2024/ (API WordPress post 128185); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2024_N_00948_ATOMOS_V1.jsonl",
+      "sha256": "bab6c9bc11306ccd8b87a3e71f65562ee50480f2c765dc724c92d7f2b322e2e0",
+      "tamanho": 7014
+    },
+    {
+      "nome": "PORT_2024_N_00948_CONTEUDO_SITE_API.json",
+      "sha256": "1633101dd2a7f38d4f18a7ab126611bfd44a54967eebca9ae2696ac536c6cb23",
+      "tamanho": 1440
+    },
+    {
+      "nome": "PORT_2024_N_00948_NORMA_V1.json",
+      "sha256": "44ea3443899cb084fb87bf4f8baa17b8ae38909becd206735ffc6ebc3b0f43ea",
+      "tamanho": 3856
+    },
+    {
+      "nome": "PORT_2024_N_00948_PAGINA_SITE.html",
+      "sha256": "cea0d38a892b9afe379769b243a4f94ce503e82895d2cc6cb0994430ff9aa6c7",
+      "tamanho": 441263
+    },
+    {
+      "nome": "PORT_2024_N_00948_PDF_SITE.pdf",
+      "sha256": "1599cc91cd30c28657b82839497c1f9875f8fd4f331222b3267388dd716f5ff0",
+      "tamanho": 90371
+    },
+    {
+      "nome": "PORT_2024_N_00948_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "15ce039cc72c828e207d37e442af335be916641f448334e56cf9bdf6f9bf8349",
+      "tamanho": 1520
+    },
+    {
+      "nome": "PORT_2024_N_00948_TEXTO_FONTE_V1.txt",
+      "sha256": "c4cfd168c24e25d2703b8323b86ef556f657f9e327acc66182a5153f36626ea4",
+      "tamanho": 840
+    },
+    {
+      "nome": "PORT_2024_N_00948_VALIDACAO_V1.json",
+      "sha256": "34b29a9ab149552435a077d0baf399c70c1c2bec1c0d9947e6d8edf540dc0377",
+      "tamanho": 3706
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada."
+  ]
+}

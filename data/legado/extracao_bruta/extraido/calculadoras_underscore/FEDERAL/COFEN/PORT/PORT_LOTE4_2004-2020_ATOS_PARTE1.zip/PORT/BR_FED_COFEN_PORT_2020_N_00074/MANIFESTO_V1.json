@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-74-de-10-de-fevereiro-de-2020/ (API WordPress post 81001); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2020_N_00074_ATOMOS_V1.jsonl",
+      "sha256": "25335064bb2db36237661b8c9956e7794b387b04bbe90a5da8023f84fa8d02b0",
+      "tamanho": 11878
+    },
+    {
+      "nome": "PORT_2020_N_00074_CONTEUDO_SITE_API.json",
+      "sha256": "9a1feb7fe89ffb0aadb2299d3aceeb9835853a26b08785c24f528e40e6746da8",
+      "tamanho": 2514
+    },
+    {
+      "nome": "PORT_2020_N_00074_NORMA_V1.json",
+      "sha256": "29630d11c40efbbe370bff91170db63047249e902a57dcedb8cc6f1db126da47",
+      "tamanho": 3075
+    },
+    {
+      "nome": "PORT_2020_N_00074_PAGINA_SITE.html",
+      "sha256": "e140584624a24324d6ace75154c46f85aa043937fbe4d9b352433da5718b7ea8",
+      "tamanho": 440655
+    },
+    {
+      "nome": "PORT_2020_N_00074_TEXTO_FONTE_V1.txt",
+      "sha256": "613ec76802cf91e1d96ac19a351d8eae2a92e831b356545881f75878948ea90f",
+      "tamanho": 1785
+    },
+    {
+      "nome": "PORT_2020_N_00074_VALIDACAO_V1.json",
+      "sha256": "8bd854f3b5072b5e138baa36e3c595224c00f1c03277e0a64c34e88b30d1a7d6",
+      "tamanho": 2461
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

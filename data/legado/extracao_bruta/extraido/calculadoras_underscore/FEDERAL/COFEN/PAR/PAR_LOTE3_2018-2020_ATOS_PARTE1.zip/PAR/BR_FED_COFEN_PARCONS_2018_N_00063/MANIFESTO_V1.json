@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-conselheiro-n-063-2018/ (API WordPress post 61757); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCONS_2018_N_00063_ATOMOS_V1.jsonl",
+      "sha256": "4517316479e0d8d8e835126ffb8fcccd886a9116fc2342c337b8fe438a0ee763",
+      "tamanho": 28824
+    },
+    {
+      "nome": "PARCONS_2018_N_00063_CONTEUDO_SITE_API.json",
+      "sha256": "56f8ad63abd161162c714016668abcf39f4be99138d09f8e981a85f8d8f03d64",
+      "tamanho": 6071
+    },
+    {
+      "nome": "PARCONS_2018_N_00063_NORMA_V1.json",
+      "sha256": "093f0ca3c72d543531a895f8bfc76fdb99918ab5abf98edffca81a5e75fb11fe",
+      "tamanho": 3929
+    },
+    {
+      "nome": "PARCONS_2018_N_00063_PAGINA_SITE.html",
+      "sha256": "fb4cd52eb6f0629975bdba08060b97c793451a03613452428357d0091426ccaf",
+      "tamanho": 443521
+    },
+    {
+      "nome": "PARCONS_2018_N_00063_PDF_SITE.pdf",
+      "sha256": "4421a6b6cb5b2dcee7c688d143f37f0ea45b35a727f6a687664b2a8394b5a63e",
+      "tamanho": 1129832
+    },
+    {
+      "nome": "PARCONS_2018_N_00063_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "dd24ad365483dfb87874a007b1f776293091f1fccae8e62669fc4bb76ceaca39",
+      "tamanho": 5221
+    },
+    {
+      "nome": "PARCONS_2018_N_00063_TEXTO_FONTE_V1.txt",
+      "sha256": "8c219d990118ebdff8abf98540f6445d4c483e36ce2db0c4f09eb3e6439f6284",
+      "tamanho": 4955
+    },
+    {
+      "nome": "PARCONS_2018_N_00063_VALIDACAO_V1.json",
+      "sha256": "3b1afb092e6d745074493ee21b40de859e33f753ac5e96c470c62acc67aadcea",
+      "tamanho": 8135
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

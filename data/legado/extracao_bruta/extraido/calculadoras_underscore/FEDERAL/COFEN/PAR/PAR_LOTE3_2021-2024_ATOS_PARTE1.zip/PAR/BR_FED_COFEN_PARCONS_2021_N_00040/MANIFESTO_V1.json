@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-conselheiro-no-40-2021-cofen/ (API WordPress post 86566); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCONS_2021_N_00040_ATOMOS_V1.jsonl",
+      "sha256": "f8e9e1c134349b802362361c44ef6666fe6b2719727dad3710aff8b7ec6d6afe",
+      "tamanho": 30082
+    },
+    {
+      "nome": "PARCONS_2021_N_00040_CONTEUDO_SITE_API.json",
+      "sha256": "c865ec1ae4b40459abf3e31d2e331d516810295e6476a00f63e14ee06f6d2758",
+      "tamanho": 9824
+    },
+    {
+      "nome": "PARCONS_2021_N_00040_NORMA_V1.json",
+      "sha256": "3b7fba789ebcea4c5f665c0142cf7ec8883e1a41728ff616e5ee80609b75ac8b",
+      "tamanho": 2966
+    },
+    {
+      "nome": "PARCONS_2021_N_00040_PAGINA_SITE.html",
+      "sha256": "362c0cbd288abf3d0e41cbf41eb0fc829771cf48a4eaa924c890689fc845a25a",
+      "tamanho": 446867
+    },
+    {
+      "nome": "PARCONS_2021_N_00040_TEXTO_FONTE_V1.txt",
+      "sha256": "d6ebd8d87be9ef68615617c0241f9ab0e03ca3aa8419ba906a5d2899d273fffe",
+      "tamanho": 8767
+    },
+    {
+      "nome": "PARCONS_2021_N_00040_VALIDACAO_V1.json",
+      "sha256": "0c3650e6535f4e83c37bc502c1148351e036581b297b2fc1396203c606c55d1d",
+      "tamanho": 2657
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

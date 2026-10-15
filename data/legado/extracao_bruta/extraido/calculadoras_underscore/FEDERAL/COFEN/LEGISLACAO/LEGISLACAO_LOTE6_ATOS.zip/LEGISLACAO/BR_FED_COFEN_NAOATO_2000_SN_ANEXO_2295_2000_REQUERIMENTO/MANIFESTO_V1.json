@@ -1,0 +1,44 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/anexo-do-pl-22952000-requerimento-apresentado-na-cssf/ (API WordPress post 4213); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "NAOATO_2000_SN_ANEXO_2295_2000_REQUERIMENTO_ATOMOS_V1.jsonl",
+      "sha256": "89ba89d405f742b8e7de4872f668eef7f4b9c7c2ca30f3c3d39de7fc9016d79f",
+      "tamanho": 7372
+    },
+    {
+      "nome": "NAOATO_2000_SN_ANEXO_2295_2000_REQUERIMENTO_CONTEUDO_SITE_API.json",
+      "sha256": "372b012002ccf460607e0edc4afb06e31c907f6bdad67d6e53722e28e05b311c",
+      "tamanho": 1770
+    },
+    {
+      "nome": "NAOATO_2000_SN_ANEXO_2295_2000_REQUERIMENTO_NORMA_V1.json",
+      "sha256": "7e6bafdf6e532a72af95fb31aea9b5609b00936a1f1105bf80f23ea885963b20",
+      "tamanho": 2426
+    },
+    {
+      "nome": "NAOATO_2000_SN_ANEXO_2295_2000_REQUERIMENTO_PAGINA_SITE.html",
+      "sha256": "055061eac189ca579ab9120a9558bbcd66d1afb6cb0a404e3b657f482d721abf",
+      "tamanho": 439943
+    },
+    {
+      "nome": "NAOATO_2000_SN_ANEXO_2295_2000_REQUERIMENTO_TEXTO_FONTE_V1.txt",
+      "sha256": "fe7535cf4641fd3993c14231ce7f824061305f934d1e41298edffd77dc5b5888",
+      "tamanho": 1380
+    },
+    {
+      "nome": "NAOATO_2000_SN_ANEXO_2295_2000_REQUERIMENTO_VALIDACAO_V1.json",
+      "sha256": "9bbe2c71da872bf2bcc84d2e7c9fc6c1b54386daa74fa0f7cb231a4074d9330a",
+      "tamanho": 3162
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Ato sem número no site; identificador formado por slug.",
+    "TIPO: listado em categoria de Legislação, mas o título não identifica um ato (\"ANEXO DO PL 2295/2000, REQUERIMENTO APRESENTADO NA CSSF.\").",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

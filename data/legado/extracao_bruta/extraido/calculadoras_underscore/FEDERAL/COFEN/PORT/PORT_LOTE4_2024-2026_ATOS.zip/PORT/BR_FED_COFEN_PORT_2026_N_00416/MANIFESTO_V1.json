@@ -1,0 +1,50 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-416-de-06-de-maco-de-2026/ (API WordPress post 183707); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2026_N_00416_ATOMOS_V1.jsonl",
+      "sha256": "d6a6e7a4283a364d1d5e691d4694fe297c3ad2a7f54c4941b77b7a318c4ad77d",
+      "tamanho": 13674
+    },
+    {
+      "nome": "PORT_2026_N_00416_CONTEUDO_SITE_API.json",
+      "sha256": "e712e0d6071f218758d7510f7dc29549e921396c46405e2999daa61c790178dd",
+      "tamanho": 3219
+    },
+    {
+      "nome": "PORT_2026_N_00416_NORMA_V1.json",
+      "sha256": "da65d4689c847ea3c2dffaa4cf5cacc85d93b20bf2e955c209ddcde90e3f4b4f",
+      "tamanho": 4516
+    },
+    {
+      "nome": "PORT_2026_N_00416_PAGINA_SITE.html",
+      "sha256": "dd6eebaaf2522445037ed46dbcfc5b123c83250c654fd015a1ed81a899c9e29a",
+      "tamanho": 443005
+    },
+    {
+      "nome": "PORT_2026_N_00416_PDF_SITE.pdf",
+      "sha256": "34f559bbda90e3ccd9fcc8f3b0db0e14f79e2cf5a07f692e94b46e7f8b52e113",
+      "tamanho": 140687
+    },
+    {
+      "nome": "PORT_2026_N_00416_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "eeeccca454a16a05a479c6376d8feea2b4edc18800e962d51c9c7bfe239b676d",
+      "tamanho": 3041
+    },
+    {
+      "nome": "PORT_2026_N_00416_TEXTO_FONTE_V1.txt",
+      "sha256": "c535de4182a70e0d3736c7da9553e4a9a8386595b0a0b58f0ad01bfbdba80d2c",
+      "tamanho": 1986
+    },
+    {
+      "nome": "PORT_2026_N_00416_VALIDACAO_V1.json",
+      "sha256": "5beacbfdf67803642d169ed671b271ea033dbea0bb0d71fcf35a37990b394301",
+      "tamanho": 4972
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada."
+  ]
+}

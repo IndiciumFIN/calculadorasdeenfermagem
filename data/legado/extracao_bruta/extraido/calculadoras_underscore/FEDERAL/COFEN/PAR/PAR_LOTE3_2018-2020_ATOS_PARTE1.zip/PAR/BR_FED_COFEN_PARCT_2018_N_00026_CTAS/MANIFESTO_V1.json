@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-026-2018-cofen-ctas/ (API WordPress post 67435); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2018_N_00026_CTAS_ATOMOS_V1.jsonl",
+      "sha256": "e3b5e875f9ce8926e41deaa75664d20814bce9126cb6a8d9bff663c0e8ef5ee3",
+      "tamanho": 59461
+    },
+    {
+      "nome": "PARCT_2018_N_00026_CTAS_CONTEUDO_SITE_API.json",
+      "sha256": "50556281fcc95f0683eaa9f483f632f7e66b35203af56d1165ecc1e53e1593a1",
+      "tamanho": 12811
+    },
+    {
+      "nome": "PARCT_2018_N_00026_CTAS_NORMA_V1.json",
+      "sha256": "b3f953440cebc547d36d016332e96233b3cff04043cd40073ee004240da8ebfc",
+      "tamanho": 3685
+    },
+    {
+      "nome": "PARCT_2018_N_00026_CTAS_PAGINA_SITE.html",
+      "sha256": "4ff4cce46e2d6eb53ed50342b1c48a683f93c9ada620d35a330e6839fe6de482",
+      "tamanho": 453149
+    },
+    {
+      "nome": "PARCT_2018_N_00026_CTAS_PDF_SITE.pdf",
+      "sha256": "bfb5800fffbdc2cf387b588d404a44296332cbdb0bface53294a5a0365cb4efb",
+      "tamanho": 860995
+    },
+    {
+      "nome": "PARCT_2018_N_00026_CTAS_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "bf7d84b25744e6798587a56eed1b5affd459304001b82ab95cb20e176ea36583",
+      "tamanho": 12168
+    },
+    {
+      "nome": "PARCT_2018_N_00026_CTAS_TEXTO_FONTE_V1.txt",
+      "sha256": "4a32c7cefdc3d4e4dc1a6808f537a10398e9d524fc7214f2b63e556f740ead8f",
+      "tamanho": 11141
+    },
+    {
+      "nome": "PARCT_2018_N_00026_CTAS_VALIDACAO_V1.json",
+      "sha256": "e8803ce20567a119cff71b68db6fc7c924d61d5d79655b3c67650dbbf948087f",
+      "tamanho": 14221
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir."
+  ]
+}

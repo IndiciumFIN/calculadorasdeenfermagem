@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/lei-808090-lei-no-8-080-de-19-de-setembro-de-1990/ (API WordPress post 36790); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "LEI_1990_N_08080_P36790_ATOMOS_V1.jsonl",
+      "sha256": "ea09c280c6e77266d9473109d3ca06c2c4c25a85f29def29472d8c71ea53994e",
+      "tamanho": 268851
+    },
+    {
+      "nome": "LEI_1990_N_08080_P36790_CONTEUDO_SITE_API.json",
+      "sha256": "c89bbecc7b3fe5784ffed222210c4d03436cb39f5eb21d53d4c3d0f8c387765a",
+      "tamanho": 560
+    },
+    {
+      "nome": "LEI_1990_N_08080_P36790_NORMA_V1.json",
+      "sha256": "61cf15b63c4872ec3d0468f5bf26a4ac2db8978ca0472402af93961b9934d8d2",
+      "tamanho": 7998
+    },
+    {
+      "nome": "LEI_1990_N_08080_P36790_PAGINA_SITE.html",
+      "sha256": "f20ce288192d782c7f5e3d07836ea7f15dbb9a0ee898e016f6e614b035174629",
+      "tamanho": 440141
+    },
+    {
+      "nome": "LEI_1990_N_08080_P36790_PDF_SITE.pdf",
+      "sha256": "8cc95791baa118be9f41de19d366812d299e933a9da0592a2ae07143bb3de65a",
+      "tamanho": 128699
+    },
+    {
+      "nome": "LEI_1990_N_08080_P36790_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "c1381723df4925acb07bd46c17cc378efa312f169dead28a4d2d4658ab4294a3",
+      "tamanho": 53682
+    },
+    {
+      "nome": "LEI_1990_N_08080_P36790_TEXTO_FONTE_V1.txt",
+      "sha256": "c1381723df4925acb07bd46c17cc378efa312f169dead28a4d2d4658ab4294a3",
+      "tamanho": 53682
+    },
+    {
+      "nome": "LEI_1990_N_08080_P36790_VALIDACAO_V1.json",
+      "sha256": "db061835d1362ced71b34c8cde00c824032f1660641f3dc8c8715fb219726cd2",
+      "tamanho": 3469
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Texto do ato disponível apenas no PDF (o site traz só título/resumo); atomização feita a partir da camada de texto do PDF.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência."
+  ]
+}

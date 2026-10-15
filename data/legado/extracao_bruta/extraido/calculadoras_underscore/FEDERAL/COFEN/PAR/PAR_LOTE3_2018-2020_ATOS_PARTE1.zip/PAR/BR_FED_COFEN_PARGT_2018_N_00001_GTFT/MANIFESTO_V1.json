@@ -1,0 +1,54 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-n-01-2018-cofen-grupo-de-trabalho-sobre-programa-de-formacao-de-agentes-de-saude-profags/ (API WordPress post 61709); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARGT_2018_N_00001_GTFT_ATOMOS_V1.jsonl",
+      "sha256": "e6da87cfb5ad2b8e3661ecac787524adc760ac39ae227010e24730251a1e389d",
+      "tamanho": 69985
+    },
+    {
+      "nome": "PARGT_2018_N_00001_GTFT_CONTEUDO_SITE_API.json",
+      "sha256": "87f6ac5ded0f827730a185e7b56b58fdb4c12daa1b6b3ed8d4b3ae253962cd66",
+      "tamanho": 20726
+    },
+    {
+      "nome": "PARGT_2018_N_00001_GTFT_NORMA_V1.json",
+      "sha256": "0d3733e88b91dab17d8ad121de88ff10755da1c225952a0e8ab3342b5b6d53e4",
+      "tamanho": 9233
+    },
+    {
+      "nome": "PARGT_2018_N_00001_GTFT_PAGINA_SITE.html",
+      "sha256": "a1b4854636dcc155e755b43f77997c720a4cbe0f2deb89a041f01eb4d8ed2ab7",
+      "tamanho": 460241
+    },
+    {
+      "nome": "PARGT_2018_N_00001_GTFT_PDF_SITE.pdf",
+      "sha256": "fbd194a5b378a5e1a8bdf0b8a59fce0e162ce082aab84cb9586677aeedcd105b",
+      "tamanho": 3502186
+    },
+    {
+      "nome": "PARGT_2018_N_00001_GTFT_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "94b64092c63c0fe0e970476d9dd3aa60983fe0d742d3032cb055da7a68b99737",
+      "tamanho": 18578
+    },
+    {
+      "nome": "PARGT_2018_N_00001_GTFT_TEXTO_FONTE_V1.txt",
+      "sha256": "40621b94461f3a7e4a1f0ead336fd8727435fab22a8b446969ea08d900cfaca3",
+      "tamanho": 17249
+    },
+    {
+      "nome": "PARGT_2018_N_00001_GTFT_VALIDACAO_V1.json",
+      "sha256": "7ad18d8cbf90ab7bd3c5718e4a7002a15faa56ea8eabe7d8324463f97f18bfde",
+      "tamanho": 15706
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir."
+  ]
+}
