@@ -1,0 +1,43 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/anexo-do-pl-22952000-of73gdjl/ (API WordPress post 4214); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "NAOATO_2000_SN_ANEXO_2295_2000_GDJL_ATOMOS_V1.jsonl",
+      "sha256": "490921ec04fab55bfdc0e904a93c0ae155702955f80c9543779853aa36530859",
+      "tamanho": 6914
+    },
+    {
+      "nome": "NAOATO_2000_SN_ANEXO_2295_2000_GDJL_CONTEUDO_SITE_API.json",
+      "sha256": "6ded7833e260e9a5331f6bd46191281358795e8bfe2dcc483967ac26444714d7",
+      "tamanho": 841
+    },
+    {
+      "nome": "NAOATO_2000_SN_ANEXO_2295_2000_GDJL_NORMA_V1.json",
+      "sha256": "3c2b7824ace63d4bb01687f6fb9e818a3098ed10aded07d83ebb93aefbf97ef5",
+      "tamanho": 2348
+    },
+    {
+      "nome": "NAOATO_2000_SN_ANEXO_2295_2000_GDJL_PAGINA_SITE.html",
+      "sha256": "2069a8c9c54aaa4614519e5e1def2c44d8519b9d3962493c310eaec143ce7ab8",
+      "tamanho": 434887
+    },
+    {
+      "nome": "NAOATO_2000_SN_ANEXO_2295_2000_GDJL_TEXTO_FONTE_V1.txt",
+      "sha256": "2e8c3c92c0179615255f8b10a32159e56519a5caeef1ffdba1b7446ba03a40f3",
+      "tamanho": 508
+    },
+    {
+      "nome": "NAOATO_2000_SN_ANEXO_2295_2000_GDJL_VALIDACAO_V1.json",
+      "sha256": "f2d2007cac15b9fd0733c2e37cce505edda2c74c2f8ebb267102eb983ca8bbe6",
+      "tamanho": 2907
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Ato sem número no site; identificador formado por slug.",
+    "TIPO: listado em categoria de Legislação, mas o título não identifica um ato (\"ANEXO DO PL 2295/2000, OF.73/GDJL\")."
+  ]
+}

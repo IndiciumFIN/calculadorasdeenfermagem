@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-764-de-26-de-novembro-de-2020/ (API WordPress post 83537); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2020_N_00764_ATOMOS_V1.jsonl",
+      "sha256": "ae24ca000b1ae39a91b3b0c51a317ce6ed7ecd394b761884a7cdfac8b2d990b6",
+      "tamanho": 12891
+    },
+    {
+      "nome": "PORT_2020_N_00764_CONTEUDO_SITE_API.json",
+      "sha256": "08db85ebe47cd9d332b70ded7052052ed10440c65857295c473715757aa6536d",
+      "tamanho": 2931
+    },
+    {
+      "nome": "PORT_2020_N_00764_NORMA_V1.json",
+      "sha256": "f44d16c349af51b8c8cf0bc283757e81f0751bb62c2b218f73fdc2ae5dfa15be",
+      "tamanho": 2746
+    },
+    {
+      "nome": "PORT_2020_N_00764_PAGINA_SITE.html",
+      "sha256": "b5692021cfd010204671e7d5d801471722e7db27c88bd4182297bb4340203458",
+      "tamanho": 440295
+    },
+    {
+      "nome": "PORT_2020_N_00764_TEXTO_FONTE_V1.txt",
+      "sha256": "5a8544ead81fa1be21a0fa404b5c171a1391a82f9667414ed6a8bbac122a0ef7",
+      "tamanho": 2152
+    },
+    {
+      "nome": "PORT_2020_N_00764_VALIDACAO_V1.json",
+      "sha256": "540c5a83291f25e1446d8e05bd6fceea9d2e82fe099ec5bc5b972365ab2aad86",
+      "tamanho": 2461
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

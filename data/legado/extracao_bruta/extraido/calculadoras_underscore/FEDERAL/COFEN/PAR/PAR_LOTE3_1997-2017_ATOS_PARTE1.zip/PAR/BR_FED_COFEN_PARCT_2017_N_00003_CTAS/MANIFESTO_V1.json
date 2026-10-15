@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-n-0032017cofenctas/ (API WordPress post 50451); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2017_N_00003_CTAS_ATOMOS_V1.jsonl",
+      "sha256": "a4edf46558e30377bd941c490b06a900a82a491cda154b42fd7f997d936eedc7",
+      "tamanho": 21719
+    },
+    {
+      "nome": "PARCT_2017_N_00003_CTAS_CONTEUDO_SITE_API.json",
+      "sha256": "9d452e3fb01f8a70a0f4a43096415ab3f932dde8187261e164da35a99e1f92be",
+      "tamanho": 6016
+    },
+    {
+      "nome": "PARCT_2017_N_00003_CTAS_NORMA_V1.json",
+      "sha256": "e143a1bbce083ba5b7172b6ba80288c97d15e1404c67f1e1a30a516d172f3e4e",
+      "tamanho": 2474
+    },
+    {
+      "nome": "PARCT_2017_N_00003_CTAS_PAGINA_SITE.html",
+      "sha256": "0f791b4c1673d5bc3fe99d754b4b1f345ac4cb36a9e51198e32135e1276a438e",
+      "tamanho": 444278
+    },
+    {
+      "nome": "PARCT_2017_N_00003_CTAS_PDF_SITE.pdf",
+      "sha256": "8028410122521f78d2499a94f8000d17603a878cf06393cf5c802ba4c34681fc",
+      "tamanho": 1384257
+    },
+    {
+      "nome": "PARCT_2017_N_00003_CTAS_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "edc9d4a66b160059dd338087cc62c712576223ea450fe94ae857b72cf04d0790",
+      "tamanho": 5937
+    },
+    {
+      "nome": "PARCT_2017_N_00003_CTAS_TEXTO_FONTE_V1.txt",
+      "sha256": "db71ea804d4185fec72b51212d16f7d1c6abc5218506e0c59c2c7e9770ff5917",
+      "tamanho": 5210
+    },
+    {
+      "nome": "PARCT_2017_N_00003_CTAS_VALIDACAO_V1.json",
+      "sha256": "47b1f935c75ae35455f93e594fc3e1caf8ca023e965118cfe352773c23a7b39d",
+      "tamanho": 6516
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

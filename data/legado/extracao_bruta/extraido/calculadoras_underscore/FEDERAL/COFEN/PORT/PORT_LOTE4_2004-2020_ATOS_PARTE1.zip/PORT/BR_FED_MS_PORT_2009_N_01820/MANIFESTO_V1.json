@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-gm-n-1820-de-13-de-agosto-de-2009/ (API WordPress post 4204); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2009_N_01820_ATOMOS_V1.jsonl",
+      "sha256": "c9c1c6ea0404c28bd25f087f971487e1376016e8dce01c0be96684671fa5a3e8",
+      "tamanho": 618
+    },
+    {
+      "nome": "PORT_2009_N_01820_CONTEUDO_SITE_API.json",
+      "sha256": "1d0191dc55934e2ce68c97ad9f45bb9468d4bf50279e1dfe75e9cf70704922e1",
+      "tamanho": 329
+    },
+    {
+      "nome": "PORT_2009_N_01820_NORMA_V1.json",
+      "sha256": "112806ecee6d37dbeb0498ca7ec8d2275049e17f78a143aed205be893cf74276",
+      "tamanho": 1902
+    },
+    {
+      "nome": "PORT_2009_N_01820_PAGINA_SITE.html",
+      "sha256": "979785872f170954ed4c7e4ee1016b5cfd5e4316dfad45c2f1ce97dd002b2236",
+      "tamanho": 434102
+    },
+    {
+      "nome": "PORT_2009_N_01820_TEXTO_FONTE_V1.txt",
+      "sha256": "309fd7551103f30d3bc8b7d16aab59e7cf0a8cb4a4451f72207faeb5bb0e9eec",
+      "tamanho": 46
+    },
+    {
+      "nome": "PORT_2009_N_01820_VALIDACAO_V1.json",
+      "sha256": "bedbb5de7e5ed9720d770187256abfd72c2c175c68ce196872b9f6cdd9f71d37",
+      "tamanho": 2685
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Página do site quase sem texto (0 caracteres) e sem PDF do ato; conteúdo do ato não disponível."
+  ]
+}

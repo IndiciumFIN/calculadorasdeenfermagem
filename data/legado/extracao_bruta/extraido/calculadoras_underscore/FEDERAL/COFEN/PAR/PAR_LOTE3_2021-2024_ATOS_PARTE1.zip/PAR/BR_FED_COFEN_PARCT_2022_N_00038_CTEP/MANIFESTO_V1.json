@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-camara-tecnica-no-038-2022-ctep-cofen/ (API WordPress post 103335); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2022_N_00038_CTEP_ATOMOS_V1.jsonl",
+      "sha256": "a20f37ea4242afbc921b40d7df83f24c288633eca9c1fbaa1fadd633e8026e1e",
+      "tamanho": 49992
+    },
+    {
+      "nome": "PARCT_2022_N_00038_CTEP_CONTEUDO_SITE_API.json",
+      "sha256": "63774725df144613133498e0947e7093cd042f30c09d40fea25e340d1a1cad80",
+      "tamanho": 13478
+    },
+    {
+      "nome": "PARCT_2022_N_00038_CTEP_NORMA_V1.json",
+      "sha256": "8816764db018f68610a2880148915b982c9ef866f29cbdeac405c3541dfd20e6",
+      "tamanho": 3681
+    },
+    {
+      "nome": "PARCT_2022_N_00038_CTEP_PAGINA_SITE.html",
+      "sha256": "3bce243c6330cc2cd60d09b7881e14f97cc98e44689ad88440eb9fc1463c6c21",
+      "tamanho": 451182
+    },
+    {
+      "nome": "PARCT_2022_N_00038_CTEP_TEXTO_FONTE_V1.txt",
+      "sha256": "6afa1ed60bea5b85a4bddf066c712a3a7a0d0b37ea573a1cde55acf8a65edb04",
+      "tamanho": 11217
+    },
+    {
+      "nome": "PARCT_2022_N_00038_CTEP_VALIDACAO_V1.json",
+      "sha256": "b80d7bfc98d2cecac3ccc898b2184668381dd7487bd6eedc560495a2938b83c9",
+      "tamanho": 2470
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

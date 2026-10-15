@@ -1,0 +1,44 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/anexo-com-informe-parlamentar-n-24/ (API WordPress post 4218); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "NAOATO_2002_SN_ANEXO_INFORME_PARLAMENTAR_ATOMOS_V1.jsonl",
+      "sha256": "aa1b083b1ddeac7d69e7b8cf70d726f6e55901286af0648675361fa9935ca031",
+      "tamanho": 13449
+    },
+    {
+      "nome": "NAOATO_2002_SN_ANEXO_INFORME_PARLAMENTAR_CONTEUDO_SITE_API.json",
+      "sha256": "ea8735c156f7f2fe2517e86d0715f0bd7b8a62213be4be546f80df8d48cca6bf",
+      "tamanho": 2098
+    },
+    {
+      "nome": "NAOATO_2002_SN_ANEXO_INFORME_PARLAMENTAR_NORMA_V1.json",
+      "sha256": "c75c0355c6785528738a1e94b8ca9be5ac43e5365efa9acd56b3810dbd84037f",
+      "tamanho": 2240
+    },
+    {
+      "nome": "NAOATO_2002_SN_ANEXO_INFORME_PARLAMENTAR_PAGINA_SITE.html",
+      "sha256": "628a200dc295e34933c09a3c192d26d8e8356d59bb1f18a840577bdaee4f56b6",
+      "tamanho": 437727
+    },
+    {
+      "nome": "NAOATO_2002_SN_ANEXO_INFORME_PARLAMENTAR_TEXTO_FONTE_V1.txt",
+      "sha256": "efcd97a684326af12ac8fea73995cc4adbb2f0e93ff2f1d9d77cfd27435d69eb",
+      "tamanho": 1701
+    },
+    {
+      "nome": "NAOATO_2002_SN_ANEXO_INFORME_PARLAMENTAR_VALIDACAO_V1.json",
+      "sha256": "4a8232db126a1e34de8eca68febf76369f660c8975382ea58787ac7ce6a67738",
+      "tamanho": 3328
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Ato sem número no site; identificador formado por slug.",
+    "TIPO: listado em categoria de Legislação, mas o título não identifica um ato (\"ANEXO COM INFORME PARLAMENTAR Nº 24\"). ANO: ano do ato não consta do título; usado o ano do post (data de publicação no site, não do ato).",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

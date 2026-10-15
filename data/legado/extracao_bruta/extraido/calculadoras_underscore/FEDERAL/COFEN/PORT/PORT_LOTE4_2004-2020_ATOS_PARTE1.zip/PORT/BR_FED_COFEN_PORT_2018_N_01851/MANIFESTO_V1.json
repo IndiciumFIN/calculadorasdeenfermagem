@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-1851-de-19-de-dezembro-de-2018/ (API WordPress post 67781); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2018_N_01851_ATOMOS_V1.jsonl",
+      "sha256": "532de07e468b5eafecc740cef681489484c3b1bba65bc38802be278009d1c115",
+      "tamanho": 6900
+    },
+    {
+      "nome": "PORT_2018_N_01851_CONTEUDO_SITE_API.json",
+      "sha256": "98c3336a343b3fe9cbe6e2b7c935cd5e5d8af79d6ec882f01fefd5031de4cf28",
+      "tamanho": 1767
+    },
+    {
+      "nome": "PORT_2018_N_01851_NORMA_V1.json",
+      "sha256": "26317cd2efacd10d107a93e48ca73501f3cff79c1cf6d849e15c3bcf8dfc8016",
+      "tamanho": 3133
+    },
+    {
+      "nome": "PORT_2018_N_01851_PAGINA_SITE.html",
+      "sha256": "ebd7fa081439e3bfa50cfb909e264d903e744170dd152f338cf6fabaa37ce6aa",
+      "tamanho": 439951
+    },
+    {
+      "nome": "PORT_2018_N_01851_TEXTO_FONTE_V1.txt",
+      "sha256": "d056d191b058e6d4a5499a2c93ee9e1f4646122cc5c7ca61da9c8d99648ba8f3",
+      "tamanho": 1079
+    },
+    {
+      "nome": "PORT_2018_N_01851_VALIDACAO_V1.json",
+      "sha256": "14ded4817645a85ba34e846474a0f879ae75e1c2583cf3731f63155c9e2e813b",
+      "tamanho": 2462
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

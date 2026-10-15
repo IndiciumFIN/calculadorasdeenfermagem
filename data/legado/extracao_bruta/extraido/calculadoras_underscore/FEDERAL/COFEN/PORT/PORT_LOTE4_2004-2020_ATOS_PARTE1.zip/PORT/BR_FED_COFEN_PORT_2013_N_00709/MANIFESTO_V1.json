@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-709-de-8-de-agosto-de-2013/ (API WordPress post 20798); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2013_N_00709_ATOMOS_V1.jsonl",
+      "sha256": "4b17bc6ac7da75f3f5229d54379a1e7ba9fce09f1baf6b807d79d9bc3de61ca5",
+      "tamanho": 12187
+    },
+    {
+      "nome": "PORT_2013_N_00709_CONTEUDO_SITE_API.json",
+      "sha256": "8eb82fe2906818976873b68337898dc488add5c6493d3ef3b65fdfb00277cbd2",
+      "tamanho": 2972
+    },
+    {
+      "nome": "PORT_2013_N_00709_NORMA_V1.json",
+      "sha256": "2b6dc8f093c33dd1379319f5f1fbcb1e676d1e9f7bdd902ad590e49fde37f591",
+      "tamanho": 4601
+    },
+    {
+      "nome": "PORT_2013_N_00709_PAGINA_SITE.html",
+      "sha256": "cca34f6a6a6b31231ad5fe214d7f44fd66f8be41c38323311fa695de85f8b62c",
+      "tamanho": 440773
+    },
+    {
+      "nome": "PORT_2013_N_00709_TEXTO_FONTE_V1.txt",
+      "sha256": "54ffa31edefd1f8447ce10f602e56810c950509792d8d52d3ac62c1fdc7a5099",
+      "tamanho": 2096
+    },
+    {
+      "nome": "PORT_2013_N_00709_VALIDACAO_V1.json",
+      "sha256": "c289b94e578f297e17f4acee56856fb2fb75192871b464ad4d0e37dcc58128b4",
+      "tamanho": 2458
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

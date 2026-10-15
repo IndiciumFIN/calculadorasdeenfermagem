@@ -1,0 +1,1184 @@
+{
+  "algoritmo": "extracao-bytes-sha256",
+  "arquivo": "OS_LOTE5_ATOS.zip",
+  "bytes": 13344151,
+  "sha256": "dff6975fc8a31e85a4b64e964088db25f5195ea10cef309d236332132ddc7c01",
+  "membros": [
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00001/MANIFESTO_V1.json",
+      "bytes": 1891,
+      "sha256": "23b1cf8c339957a2542b5c4c89078e996181f0f316e519809686e3115e5b9026",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00001/MANIFESTO_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00001/OS_2017_N_00001_ATOMOS_V1.jsonl",
+      "bytes": 10776,
+      "sha256": "8f3b07b524f646d1a114e01f017567a090d4e43c0f80b5822c096536df2c9b88",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00001/OS_2017_N_00001_ATOMOS_V1.jsonl"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00001/OS_2017_N_00001_CONTEUDO_SITE_API.json",
+      "bytes": 2144,
+      "sha256": "d6383deedab0afae022cd4adb9b7a824a15415f8047ee30c520735591350f860",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00001/OS_2017_N_00001_CONTEUDO_SITE_API.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00001/OS_2017_N_00001_NORMA_V1.json",
+      "bytes": 4076,
+      "sha256": "bbfdeeae9a6ebf5d29fc71fafd903bd685930dd541585db6f7a2b6b1611b6274",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00001/OS_2017_N_00001_NORMA_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00001/OS_2017_N_00001_PAGINA_SITE.html",
+      "bytes": 440544,
+      "sha256": "4921a8efc7ebbbf38c99a041201ceda5fc68c40621d25dba85525d74ed893aaa",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00001/OS_2017_N_00001_PAGINA_SITE.html"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00001/OS_2017_N_00001_PDF_SITE.pdf",
+      "bytes": 359375,
+      "sha256": "b9606f9b94a651ba62e96b5947a4adb8ce83c10c0f624af35251ef2a9b957f63",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00001/OS_2017_N_00001_PDF_SITE.pdf"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00001/OS_2017_N_00001_PDF_SITE_TEXTO_OCR_V1.txt",
+      "bytes": 1581,
+      "sha256": "bd7fe3417eec6bcfa19f8c6672fd5d91f85b9c9c42c870a7ca10fffeacab102c",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00001/OS_2017_N_00001_PDF_SITE_TEXTO_OCR_V1.txt"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00001/OS_2017_N_00001_TEXTO_FONTE_V1.txt",
+      "bytes": 1448,
+      "sha256": "366d6c23cdb501be9f4fbb4620be0258f726b812ee4035fdaf172d3dd4d13df9",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00001/OS_2017_N_00001_TEXTO_FONTE_V1.txt"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00001/OS_2017_N_00001_VALIDACAO_V1.json",
+      "bytes": 4680,
+      "sha256": "eefddb0035f03960914c8e4f16469594cc7cdb3bbd801a84dfae1de4b5cd7be3",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00001/OS_2017_N_00001_VALIDACAO_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00002/MANIFESTO_V1.json",
+      "bytes": 1892,
+      "sha256": "54ef674694b2426d7709edc5de64fa4fc4fe7caf8a9a34c457ab057de6dc2f1d",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00002/MANIFESTO_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00002/OS_2017_N_00002_ATOMOS_V1.jsonl",
+      "bytes": 10650,
+      "sha256": "349b12ddcd1b39a3ff984bf08f6be3a8f2244e0060eea5cea091473f13d7e45c",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00002/OS_2017_N_00002_ATOMOS_V1.jsonl"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00002/OS_2017_N_00002_CONTEUDO_SITE_API.json",
+      "bytes": 2019,
+      "sha256": "144acebada17b5cdb6749805c8a960844b348a2cb2593c4c84d51b71ee167399",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00002/OS_2017_N_00002_CONTEUDO_SITE_API.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00002/OS_2017_N_00002_NORMA_V1.json",
+      "bytes": 3739,
+      "sha256": "a47401bd9add206bd38e35d752500c0ba479cef642a679636e9e40040477e322",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00002/OS_2017_N_00002_NORMA_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00002/OS_2017_N_00002_PAGINA_SITE.html",
+      "bytes": 439498,
+      "sha256": "47c1c5800ef13f673a11dfbc26c462e19f5d548c3b1fa383c0fda18b8535c2db",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00002/OS_2017_N_00002_PAGINA_SITE.html"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00002/OS_2017_N_00002_PDF_SITE.pdf",
+      "bytes": 343336,
+      "sha256": "4cb4b221f76c3ffdba00778a0f3d715fb0616ae310af3d989b81f3933bebc693",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00002/OS_2017_N_00002_PDF_SITE.pdf"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00002/OS_2017_N_00002_PDF_SITE_TEXTO_OCR_V1.txt",
+      "bytes": 1439,
+      "sha256": "fe3aeb3594760a46df50fd9ab441510642f68207388d4582057e9055103ebbec",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00002/OS_2017_N_00002_PDF_SITE_TEXTO_OCR_V1.txt"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00002/OS_2017_N_00002_TEXTO_FONTE_V1.txt",
+      "bytes": 1322,
+      "sha256": "b1323637d8dc5dbda24e3a822a55f9e471bd73cf64b62e17c19acb6d75d661e4",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00002/OS_2017_N_00002_TEXTO_FONTE_V1.txt"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00002/OS_2017_N_00002_VALIDACAO_V1.json",
+      "bytes": 4680,
+      "sha256": "47b95e42cfc42982d212e0613e61356af26f785c7e6770c31f5763fd452f95ec",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00002/OS_2017_N_00002_VALIDACAO_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00003/MANIFESTO_V1.json",
+      "bytes": 1892,
+      "sha256": "eca6186ac4ff0a6cdabc00a887b75a00852214ab7f3443029414593338f01297",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00003/MANIFESTO_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00003/OS_2017_N_00003_ATOMOS_V1.jsonl",
+      "bytes": 15484,
+      "sha256": "2d2e56829c063f49f9868edbb72b70ff6b9acb6d3ce99b66f110461566c96c28",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00003/OS_2017_N_00003_ATOMOS_V1.jsonl"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00003/OS_2017_N_00003_CONTEUDO_SITE_API.json",
+      "bytes": 4099,
+      "sha256": "d9a5ae587a5bdfd52f666f18071d8b16d6f915e9eb7cb77c014689f1bcc8d613",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00003/OS_2017_N_00003_CONTEUDO_SITE_API.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00003/OS_2017_N_00003_NORMA_V1.json",
+      "bytes": 3438,
+      "sha256": "36b6329c6fe6f8c09598c20fb74588972a6e791b1e663c93bbc44e903bacb4d2",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00003/OS_2017_N_00003_NORMA_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00003/OS_2017_N_00003_PAGINA_SITE.html",
+      "bytes": 442252,
+      "sha256": "047d682bbfec1e4a7ef1310a09573ded7a43dd1eddcae6e5d0189242ff6b9edb",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00003/OS_2017_N_00003_PAGINA_SITE.html"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00003/OS_2017_N_00003_PDF_SITE.pdf",
+      "bytes": 762275,
+      "sha256": "b194437bee0a039bb5a66f8c421d35ef580edfc00b2b8a1d7dda835860104244",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00003/OS_2017_N_00003_PDF_SITE.pdf"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00003/OS_2017_N_00003_PDF_SITE_TEXTO_OCR_V1.txt",
+      "bytes": 3468,
+      "sha256": "cca70d127fbebb4f371954a7dbbda46701f3156b061bc2208b151e070b1b3957",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00003/OS_2017_N_00003_PDF_SITE_TEXTO_OCR_V1.txt"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00003/OS_2017_N_00003_TEXTO_FONTE_V1.txt",
+      "bytes": 3108,
+      "sha256": "b84f618e7a46f55e80a90b0b7edf0f77fd1733d07995c51550d175ef258662ac",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00003/OS_2017_N_00003_TEXTO_FONTE_V1.txt"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00003/OS_2017_N_00003_VALIDACAO_V1.json",
+      "bytes": 5403,
+      "sha256": "b680f7b851af648f839509cbee92638ef85574451a60d08ccac62fdf41f4729b",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00003/OS_2017_N_00003_VALIDACAO_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00004/MANIFESTO_V1.json",
+      "bytes": 1893,
+      "sha256": "ac5b5fd623c49ee7f6e5173300515aafc73dbea894f1fed678cc5bb42247f351",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00004/MANIFESTO_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00004/OS_2017_N_00004_ATOMOS_V1.jsonl",
+      "bytes": 11302,
+      "sha256": "77bd739aef6ee641e9d4bf9ed9c878f7e681141bc22f7242f6098a25ee096e33",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00004/OS_2017_N_00004_ATOMOS_V1.jsonl"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00004/OS_2017_N_00004_CONTEUDO_SITE_API.json",
+      "bytes": 2884,
+      "sha256": "69afb49f0c03ffb5829740f379cb22de2a2ed1a414ba7aca16aa9284053318d9",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00004/OS_2017_N_00004_CONTEUDO_SITE_API.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00004/OS_2017_N_00004_NORMA_V1.json",
+      "bytes": 3691,
+      "sha256": "45151fcee323f990471ec44c2d483c13c480789a4ac45e8c80a58db0dd2160dc",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00004/OS_2017_N_00004_NORMA_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00004/OS_2017_N_00004_PAGINA_SITE.html",
+      "bytes": 441396,
+      "sha256": "ef19d3f422d126fed6b71bdd22f801d5e2f1f4bc9baca8ad16c61714d73e619e",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00004/OS_2017_N_00004_PAGINA_SITE.html"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00004/OS_2017_N_00004_PDF_SITE.pdf",
+      "bytes": 3081376,
+      "sha256": "a69a4b84947e375c78f7da87797e2e067d59054c550f7f0acc1acc2aec8fb681",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00004/OS_2017_N_00004_PDF_SITE.pdf"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00004/OS_2017_N_00004_PDF_SITE_TEXTO_OCR_V1.txt",
+      "bytes": 2747,
+      "sha256": "e2f28324a46d8ac71508fcc6a6bbd696a9860123e16d751e48f63ec8f0b9e190",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00004/OS_2017_N_00004_PDF_SITE_TEXTO_OCR_V1.txt"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00004/OS_2017_N_00004_TEXTO_FONTE_V1.txt",
+      "bytes": 2191,
+      "sha256": "a4778357afbb3f602f20b301ba17be9794170399ef11c523b3fccb05ac0a8208",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00004/OS_2017_N_00004_TEXTO_FONTE_V1.txt"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00004/OS_2017_N_00004_VALIDACAO_V1.json",
+      "bytes": 4609,
+      "sha256": "b429b25876983ceabcd8089418e0a840f7c348d6556b1507634de9dd133fe93c",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00004/OS_2017_N_00004_VALIDACAO_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00005/MANIFESTO_V1.json",
+      "bytes": 1954,
+      "sha256": "353065a6da6cdcab610b853fe7528d1cefbca2d552c658446b1ac418e3708654",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00005/MANIFESTO_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00005/OS_2017_N_00005_ATOMOS_V1.jsonl",
+      "bytes": 7954,
+      "sha256": "370ecec665cd01cd95a83185112ec324835facde5b103f959dc1ddc882062fe5",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00005/OS_2017_N_00005_ATOMOS_V1.jsonl"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00005/OS_2017_N_00005_CONTEUDO_SITE_API.json",
+      "bytes": 1632,
+      "sha256": "d51de56dd1e4c650181770ed8b239e2de244610c878d3372ec6357760b69de60",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00005/OS_2017_N_00005_CONTEUDO_SITE_API.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00005/OS_2017_N_00005_NORMA_V1.json",
+      "bytes": 3725,
+      "sha256": "755818743f185d20f01dc8f59999ac8feaa3df4574d36f1a02c4db2908804790",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00005/OS_2017_N_00005_NORMA_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00005/OS_2017_N_00005_PAGINA_SITE.html",
+      "bytes": 439455,
+      "sha256": "63f551d6a74a9195b378ec5836321655b35b3af596a88132c75c29efb76a6f7f",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00005/OS_2017_N_00005_PAGINA_SITE.html"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00005/OS_2017_N_00005_PDF_SITE.pdf",
+      "bytes": 323343,
+      "sha256": "ee12f7140e5370ce75a6081b40c67e58a79782374ec238b1c3b698f276163567",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00005/OS_2017_N_00005_PDF_SITE.pdf"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00005/OS_2017_N_00005_PDF_SITE_TEXTO_OCR_V1.txt",
+      "bytes": 1173,
+      "sha256": "baa0e5a850919a1eb339ee5611dad64d811c84bcb69d9a087dffd5d09edc1d51",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00005/OS_2017_N_00005_PDF_SITE_TEXTO_OCR_V1.txt"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00005/OS_2017_N_00005_TEXTO_FONTE_V1.txt",
+      "bytes": 1009,
+      "sha256": "d9085af01bcfa1d8da3c849a1ce34e6dda701608da3b5264b01283626b0cacf3",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00005/OS_2017_N_00005_TEXTO_FONTE_V1.txt"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00005/OS_2017_N_00005_VALIDACAO_V1.json",
+      "bytes": 4664,
+      "sha256": "152e290b2707350b47d4cb6343ecdcea5e7c5a1c27618c4c9d4d69ffcd840ff5",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00005/OS_2017_N_00005_VALIDACAO_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00006/MANIFESTO_V1.json",
+      "bytes": 1960,
+      "sha256": "62cc91bd1869698c6ecb87fd8aaa0017862d2e86d837218bdc8a3b4f23fb9b3a",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00006/MANIFESTO_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00006/OS_2017_N_00006_ATOMOS_V1.jsonl",
+      "bytes": 13468,
+      "sha256": "4ba1ce1f94e38931dfce3a55a45bf9be025a6b1d6ec6b1d80cc5c707d789689b",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00006/OS_2017_N_00006_ATOMOS_V1.jsonl"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00006/OS_2017_N_00006_CONTEUDO_SITE_API.json",
+      "bytes": 3517,
+      "sha256": "9abda4041836a578ec0f111043b2371a24644a2ac435014ea6fc275d33c0c304",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00006/OS_2017_N_00006_CONTEUDO_SITE_API.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00006/OS_2017_N_00006_NORMA_V1.json",
+      "bytes": 3763,
+      "sha256": "a373992c162975114e14bc017740fb9e06150114e7c42879aebd8032eda54116",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00006/OS_2017_N_00006_NORMA_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00006/OS_2017_N_00006_PAGINA_SITE.html",
+      "bytes": 441974,
+      "sha256": "8c3e2073bf4f6b464365dc4691b9714ccd419738d1474464f69aaa6873aa5ea6",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00006/OS_2017_N_00006_PAGINA_SITE.html"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00006/OS_2017_N_00006_PDF_SITE.pdf",
+      "bytes": 712752,
+      "sha256": "f5f543dacafe176cf209a5cf2a74e297e5831e8a55cbecc79e3e738307eee1e4",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00006/OS_2017_N_00006_PDF_SITE.pdf"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00006/OS_2017_N_00006_PDF_SITE_TEXTO_OCR_V1.txt",
+      "bytes": 2961,
+      "sha256": "2807e9688160f9f947fc303d724455b4588b7f544b7a0a3b7e959b9ca6ea3748",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00006/OS_2017_N_00006_PDF_SITE_TEXTO_OCR_V1.txt"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00006/OS_2017_N_00006_TEXTO_FONTE_V1.txt",
+      "bytes": 2570,
+      "sha256": "fe1d130e87d78795e68e7fe83fa5a79b839036ba50c4fcc6cba684fb76f45563",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00006/OS_2017_N_00006_TEXTO_FONTE_V1.txt"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00006/OS_2017_N_00006_VALIDACAO_V1.json",
+      "bytes": 5616,
+      "sha256": "80920b36edc6c35f87e9e728e2451b5c68d022a48b589e617ff36c36f31aaa05",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00006/OS_2017_N_00006_VALIDACAO_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00007/MANIFESTO_V1.json",
+      "bytes": 1889,
+      "sha256": "b67c8bc6ac6d7df225f2c2179bcfbd465a86b3b3c44b24039a15a59e14f77389",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00007/MANIFESTO_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00007/OS_2017_N_00007_ATOMOS_V1.jsonl",
+      "bytes": 6083,
+      "sha256": "5e1c80ac001f7bdb7078c37091558af6ac02af7b08e993e404d4a48f89390b8e",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00007/OS_2017_N_00007_ATOMOS_V1.jsonl"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00007/OS_2017_N_00007_CONTEUDO_SITE_API.json",
+      "bytes": 1236,
+      "sha256": "68d62f5b43d3d86dfe99f1c7eeca72afab7eb45edf74ec989b40ec92f119995c",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00007/OS_2017_N_00007_CONTEUDO_SITE_API.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00007/OS_2017_N_00007_NORMA_V1.json",
+      "bytes": 3371,
+      "sha256": "53cff0fb71d6b7e7365400c248365953ceab37f3e716fe8f8df66b377e4913c0",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00007/OS_2017_N_00007_NORMA_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00007/OS_2017_N_00007_PAGINA_SITE.html",
+      "bytes": 438460,
+      "sha256": "23e325c3bd72866b8515ff358b3663fb807de698cb5fb747fd0f57bb16b85903",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00007/OS_2017_N_00007_PAGINA_SITE.html"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00007/OS_2017_N_00007_PDF_SITE.pdf",
+      "bytes": 263102,
+      "sha256": "924fd213b01082c2d0091cf2d94412fdfa290181c51d1d708acd4bab206292f5",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00007/OS_2017_N_00007_PDF_SITE.pdf"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00007/OS_2017_N_00007_PDF_SITE_TEXTO_OCR_V1.txt",
+      "bytes": 839,
+      "sha256": "a29bc664cf3f0a71a7a0aba1b35ec0b2f603403a827c33e0f1cbefe795bad9af",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00007/OS_2017_N_00007_PDF_SITE_TEXTO_OCR_V1.txt"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00007/OS_2017_N_00007_TEXTO_FONTE_V1.txt",
+      "bytes": 672,
+      "sha256": "1e01a5ef6e8dec40878abb1acf1fcb1b31462a2469793da586636fcccbf40c4c",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00007/OS_2017_N_00007_TEXTO_FONTE_V1.txt"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00007/OS_2017_N_00007_VALIDACAO_V1.json",
+      "bytes": 3770,
+      "sha256": "d8971327da848fd2a033c02f347636eefd4799384696c591b466affb2db12826",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00007/OS_2017_N_00007_VALIDACAO_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00008/MANIFESTO_V1.json",
+      "bytes": 2619,
+      "sha256": "f678956025ff36422d483fea7409281588d08b3d95d3590d9ada5f6810a4c367",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00008/MANIFESTO_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00008/OS_2017_N_00008_ANEXO_01_PDF_SITE.pdf",
+      "bytes": 535286,
+      "sha256": "29b5e6c6c65dd07a27742e6c2a39b3c69c28edf74888ca01c99516ab77212731",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00008/OS_2017_N_00008_ANEXO_01_PDF_SITE.pdf"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00008/OS_2017_N_00008_ANEXO_01_PDF_SITE_TEXTO_OCR_V1.txt",
+      "bytes": 2805,
+      "sha256": "e1d34881178e664f8b390f445790c0d59200889f2a216f6a849f4fc30319c845",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00008/OS_2017_N_00008_ANEXO_01_PDF_SITE_TEXTO_OCR_V1.txt"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00008/OS_2017_N_00008_ATOMOS_V1.jsonl",
+      "bytes": 20145,
+      "sha256": "903f1d583433ed946d9fe82a078a1dd375d93594c55b64f4871cdf20d46c36fc",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00008/OS_2017_N_00008_ATOMOS_V1.jsonl"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00008/OS_2017_N_00008_CONTEUDO_SITE_API.json",
+      "bytes": 6944,
+      "sha256": "9203d70eabc979e503739c51579c49eb1c31fb07e6d9d7eddb94aadf60e677c5",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00008/OS_2017_N_00008_CONTEUDO_SITE_API.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00008/OS_2017_N_00008_NORMA_V1.json",
+      "bytes": 5645,
+      "sha256": "3f00e99af7d98bbe4d812daf120a3af362076808912beb68e3b8f777a7f0d3f3",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00008/OS_2017_N_00008_NORMA_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00008/OS_2017_N_00008_PAGINA_SITE.html",
+      "bytes": 446140,
+      "sha256": "aa64e2c3bcbf64f31778509c7118ddc4c59b924bc497066ddaaf5b9625648e3b",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00008/OS_2017_N_00008_PAGINA_SITE.html"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00008/OS_2017_N_00008_PDF_SITE.pdf",
+      "bytes": 3152309,
+      "sha256": "fc5ad99a0d1d47be076dcaa5e9b6b497828daea0e892a777906cd13119bf17a4",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00008/OS_2017_N_00008_PDF_SITE.pdf"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00008/OS_2017_N_00008_PDF_SITE_TEXTO_OCR_V1.txt",
+      "bytes": 5139,
+      "sha256": "cc6430d43839f8680bbc728dc174b9478b990cfdda2e7902b8b7c43163b0b165",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00008/OS_2017_N_00008_PDF_SITE_TEXTO_OCR_V1.txt"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00008/OS_2017_N_00008_TEXTO_FONTE_V1.txt",
+      "bytes": 5431,
+      "sha256": "5a4314361c9641c3f3dee3362f3689525cbd6630a756fb8abc6dbc64cbf3b855",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00008/OS_2017_N_00008_TEXTO_FONTE_V1.txt"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00008/OS_2017_N_00008_VALIDACAO_V1.json",
+      "bytes": 9232,
+      "sha256": "843e95a6262be2e3b9832d970774129f0a6c03bccf5abe5f013e825831be61b2",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00008/OS_2017_N_00008_VALIDACAO_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00009/MANIFESTO_V1.json",
+      "bytes": 2012,
+      "sha256": "c4cf78f678159372b9055fb25315a98f6c2ef1a3fe670a5f3072bcc810230e7e",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00009/MANIFESTO_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00009/OS_2017_N_00009_ATOMOS_V1.jsonl",
+      "bytes": 31566,
+      "sha256": "fd15657342608240fe5847bfe99016eca8c0e6068cdb45912431e9c193378625",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00009/OS_2017_N_00009_ATOMOS_V1.jsonl"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00009/OS_2017_N_00009_CONTEUDO_SITE_API.json",
+      "bytes": 7547,
+      "sha256": "96563852e0473fb09e005c62b544eb010d2a9b61f095f392301142df1d170b8f",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00009/OS_2017_N_00009_CONTEUDO_SITE_API.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00009/OS_2017_N_00009_NORMA_V1.json",
+      "bytes": 2864,
+      "sha256": "c4b894d506a2f1375096da618d8f30dc27ea48e7da0f0880b5bcf11432633cab",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00009/OS_2017_N_00009_NORMA_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00009/OS_2017_N_00009_PAGINA_SITE.html",
+      "bytes": 445512,
+      "sha256": "df9e188f8f7fb1b7b7a4753176aff0d4f300584be50a1da69cad444ea3889d84",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00009/OS_2017_N_00009_PAGINA_SITE.html"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00009/OS_2017_N_00009_PDF_SITE.pdf",
+      "bytes": 1543962,
+      "sha256": "b7f9d36b261ec1bbc2f347664e5927a67173a892320ccb5620deb12a55d71f32",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00009/OS_2017_N_00009_PDF_SITE.pdf"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00009/OS_2017_N_00009_PDF_SITE_TEXTO_OCR_V1.txt",
+      "bytes": 7174,
+      "sha256": "ee042d368b2cb9a9c5fb1d2e808c3663aa0c956b29d1cd1f108438861546976a",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00009/OS_2017_N_00009_PDF_SITE_TEXTO_OCR_V1.txt"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00009/OS_2017_N_00009_TEXTO_FONTE_V1.txt",
+      "bytes": 6262,
+      "sha256": "9f275f18efc8593fb4502fca07517dbc4e05104b68a86e06185375749ea932c5",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00009/OS_2017_N_00009_TEXTO_FONTE_V1.txt"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00009/OS_2017_N_00009_VALIDACAO_V1.json",
+      "bytes": 8939,
+      "sha256": "4126ed2382e5b9a4d52e03b417d4178744687914a553407cd6ba4b0ac69fee8d",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00009/OS_2017_N_00009_VALIDACAO_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00010/MANIFESTO_V1.json",
+      "bytes": 2024,
+      "sha256": "87a8db650833882952c34d637bea5b397d100f2986a62b8e5821ffef9c0d6119",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00010/MANIFESTO_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00010/OS_2017_N_00010_ATOMOS_V1.jsonl",
+      "bytes": 14713,
+      "sha256": "60cc6bb2b3d937e22c36be198c542cca6f814d6eb44fc08eedcfe5da44dd2aa5",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00010/OS_2017_N_00010_ATOMOS_V1.jsonl"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00010/OS_2017_N_00010_CONTEUDO_SITE_API.json",
+      "bytes": 3890,
+      "sha256": "5ad05aca139f0ab9ff04b8ac62904536626a2b74f64079b202e99afbc47e119b",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00010/OS_2017_N_00010_CONTEUDO_SITE_API.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00010/OS_2017_N_00010_NORMA_V1.json",
+      "bytes": 5050,
+      "sha256": "ac0651b2ff1f91835d06afca0c2f0e054d4aefed7ff6f9ae6390549c5b809452",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00010/OS_2017_N_00010_NORMA_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00010/OS_2017_N_00010_PAGINA_SITE.html",
+      "bytes": 441954,
+      "sha256": "2682043d6bb571848b0f57a82d6651a0412d7ada25d55494f6a273eed65084c8",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00010/OS_2017_N_00010_PAGINA_SITE.html"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00010/OS_2017_N_00010_PDF_SITE.pdf",
+      "bytes": 770189,
+      "sha256": "82e8c21cee8e922e7041ea0ceaba4c8dd7b4545b22d2bfdcd4bcdbbbc0ca5da2",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00010/OS_2017_N_00010_PDF_SITE.pdf"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00010/OS_2017_N_00010_PDF_SITE_TEXTO_OCR_V1.txt",
+      "bytes": 3526,
+      "sha256": "fe83121fb781fc7400df9c8ece4202b1aaeff1b2011ada1b7fefd435990c539e",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00010/OS_2017_N_00010_PDF_SITE_TEXTO_OCR_V1.txt"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00010/OS_2017_N_00010_TEXTO_FONTE_V1.txt",
+      "bytes": 3090,
+      "sha256": "af5baf7b4d40a19a738065d423e1c8ec262e5d60c28a5fe8f14971f55ed23e46",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00010/OS_2017_N_00010_TEXTO_FONTE_V1.txt"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2017_N_00010/OS_2017_N_00010_VALIDACAO_V1.json",
+      "bytes": 5592,
+      "sha256": "98afc2e2f6da9ff8877df3bf39f3bab621f8e4dfe3e9a5adcc4a88352eb7917c",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2017_N_00010/OS_2017_N_00010_VALIDACAO_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2018_N_00001/MANIFESTO_V1.json",
+      "bytes": 1551,
+      "sha256": "b244885613920dffb17da70e24f11d5789110ac3233fe9defd61871bc76aa5fe",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2018_N_00001/MANIFESTO_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2018_N_00001/OS_2018_N_00001_ATOMOS_V1.jsonl",
+      "bytes": 16731,
+      "sha256": "c2222f8023494e276b78592441ad78937232c0801d507c23f4f3f0362678027d",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2018_N_00001/OS_2018_N_00001_ATOMOS_V1.jsonl"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2018_N_00001/OS_2018_N_00001_CONTEUDO_SITE_API.json",
+      "bytes": 3790,
+      "sha256": "5fd974bf2535015b18ff36e375b06471cb181965d0f77a33069620ca124ba199",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2018_N_00001/OS_2018_N_00001_CONTEUDO_SITE_API.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2018_N_00001/OS_2018_N_00001_NORMA_V1.json",
+      "bytes": 3156,
+      "sha256": "29b5af0cb4eb8f99e8cc4d4c7ecffc3c1274c640e6d50df7cdc3625448223909",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2018_N_00001/OS_2018_N_00001_NORMA_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2018_N_00001/OS_2018_N_00001_PAGINA_SITE.html",
+      "bytes": 442957,
+      "sha256": "9231add84dc16bc858fa88df281feaa0df41ac4a320a3fde93a58c6ac91de75a",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2018_N_00001/OS_2018_N_00001_PAGINA_SITE.html"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2018_N_00001/OS_2018_N_00001_TEXTO_FONTE_V1.txt",
+      "bytes": 2995,
+      "sha256": "b4efc19ae8352c6afe030ee03ac166176787c5c263d7594160269e46b1c7c513",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2018_N_00001/OS_2018_N_00001_TEXTO_FONTE_V1.txt"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2018_N_00001/OS_2018_N_00001_VALIDACAO_V1.json",
+      "bytes": 2447,
+      "sha256": "1ac0ffb7a8264de7ef54db5464a65d69f94a73787ddd7b3cfc8453e9ce4212bf",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2018_N_00001/OS_2018_N_00001_VALIDACAO_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2024_N_00001/MANIFESTO_V1.json",
+      "bytes": 1817,
+      "sha256": "8c1d523d727973372d8c646c16842fbe208bdc12b3ab80f24167f9f567198bd8",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2024_N_00001/MANIFESTO_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2024_N_00001/OS_2024_N_00001_ATOMOS_V1.jsonl",
+      "bytes": 39722,
+      "sha256": "048b3dddda90f42d1a6d209f46e8539e2904b9b7aceb80d3ab840e4a33758ab0",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2024_N_00001/OS_2024_N_00001_ATOMOS_V1.jsonl"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2024_N_00001/OS_2024_N_00001_CONTEUDO_SITE_API.json",
+      "bytes": 8643,
+      "sha256": "397e28a5e79873415236854497309ffaf9a1c6f61a5f196d791fa12c8252e506",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2024_N_00001/OS_2024_N_00001_CONTEUDO_SITE_API.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2024_N_00001/OS_2024_N_00001_NORMA_V1.json",
+      "bytes": 4146,
+      "sha256": "a2bf2dfc18c356666d67eda08895a7be77187bf7df240665607ec6d953f1ae1e",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2024_N_00001/OS_2024_N_00001_NORMA_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2024_N_00001/OS_2024_N_00001_PAGINA_SITE.html",
+      "bytes": 446864,
+      "sha256": "4dbfcd152228be59a52a20c5e957af24f8dc6cd374ab6a80442e225f80d23316",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2024_N_00001/OS_2024_N_00001_PAGINA_SITE.html"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2024_N_00001/OS_2024_N_00001_PDF_SITE.pdf",
+      "bytes": 175551,
+      "sha256": "7252ddfeefd15c4155c38e4a086d01699b259af978b114e89218a7927a0b20aa",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2024_N_00001/OS_2024_N_00001_PDF_SITE.pdf"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2024_N_00001/OS_2024_N_00001_PDF_SITE_TEXTO_V1.txt",
+      "bytes": 7293,
+      "sha256": "78f52a8b518c927f2718ce00e117df312fd4ad21775df9aaedaa970fb3a5977e",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2024_N_00001/OS_2024_N_00001_PDF_SITE_TEXTO_V1.txt"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2024_N_00001/OS_2024_N_00001_TEXTO_FONTE_V1.txt",
+      "bytes": 5761,
+      "sha256": "8fe7fdc822d4cd1c48605c91d0a7782698ee943047863369079fdc31d001fecc",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2024_N_00001/OS_2024_N_00001_TEXTO_FONTE_V1.txt"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2024_N_00001/OS_2024_N_00001_VALIDACAO_V1.json",
+      "bytes": 10043,
+      "sha256": "7ab0310e93c715157c6ff72dea5d0bd1bd52f4e9a3ecdf6f74de47aaf42a7e43",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2024_N_00001/OS_2024_N_00001_VALIDACAO_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2024_N_00002/MANIFESTO_V1.json",
+      "bytes": 2540,
+      "sha256": "dcddb9a091abaecee1a5904859f6a151b0bf2271eb170e1873c39754efd28216",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2024_N_00002/MANIFESTO_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2024_N_00002/OS_2024_N_00002_ANEXO_01_PDF_SITE.pdf",
+      "bytes": 103344,
+      "sha256": "cde6b32dd0ed992092e235d32c1dd7ee4d03da613331c8b133910abf6db0de46",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2024_N_00002/OS_2024_N_00002_ANEXO_01_PDF_SITE.pdf"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2024_N_00002/OS_2024_N_00002_ANEXO_01_PDF_SITE_TEXTO_V1.txt",
+      "bytes": 2672,
+      "sha256": "e1e7e8f3c32bf53f544da4f99d0fcd539c25b693585eed84b9fe417382438ca7",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2024_N_00002/OS_2024_N_00002_ANEXO_01_PDF_SITE_TEXTO_V1.txt"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2024_N_00002/OS_2024_N_00002_ANEXO_02_PDF_SITE.pdf",
+      "bytes": 102505,
+      "sha256": "43a15421efe5cc5a95992e2f4cd4420aad4351b431279bde7d6488afd7d7d393",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2024_N_00002/OS_2024_N_00002_ANEXO_02_PDF_SITE.pdf"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2024_N_00002/OS_2024_N_00002_ANEXO_02_PDF_SITE_TEXTO_V1.txt",
+      "bytes": 2416,
+      "sha256": "6095f31aaca82c3c172792420f1a676fa364286d3e504b1b01c6fdac1046dbc1",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2024_N_00002/OS_2024_N_00002_ANEXO_02_PDF_SITE_TEXTO_V1.txt"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2024_N_00002/OS_2024_N_00002_ATOMOS_V1.jsonl",
+      "bytes": 199979,
+      "sha256": "400226d4cc7d007ffa32def85e97b3ade6ac6e1ecfb979aa7fe25ed17214b0f7",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2024_N_00002/OS_2024_N_00002_ATOMOS_V1.jsonl"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2024_N_00002/OS_2024_N_00002_CONTEUDO_SITE_API.json",
+      "bytes": 12125,
+      "sha256": "b3fd8e0cdaed9481534f6fe8260d3bd47b11adf62c1e89fec7866fe571fe272c",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2024_N_00002/OS_2024_N_00002_CONTEUDO_SITE_API.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2024_N_00002/OS_2024_N_00002_NORMA_V1.json",
+      "bytes": 5623,
+      "sha256": "130927f24bf537a5ee88c31d4a7c418bb0b3ee11eddd173f4ab57aa596ec1554",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2024_N_00002/OS_2024_N_00002_NORMA_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2024_N_00002/OS_2024_N_00002_PAGINA_SITE.html",
+      "bytes": 452769,
+      "sha256": "0da313e7534ebc9eef9b40292978a0cfe060ff53f55479b22dcac00139f5bc1e",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2024_N_00002/OS_2024_N_00002_PAGINA_SITE.html"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2024_N_00002/OS_2024_N_00002_PDF_SITE.pdf",
+      "bytes": 162366,
+      "sha256": "e6437ebeafdedf09772b34053c97ae7663ff8a751bd85fa822e6e9c436d53589",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2024_N_00002/OS_2024_N_00002_PDF_SITE.pdf"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2024_N_00002/OS_2024_N_00002_PDF_SITE_TEXTO_V1.txt",
+      "bytes": 9217,
+      "sha256": "ae619e716f4c391337e04fd3486a98d25ab1271386aa1d4de7e1177f4338fc92",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2024_N_00002/OS_2024_N_00002_PDF_SITE_TEXTO_V1.txt"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2024_N_00002/OS_2024_N_00002_TEXTO_FONTE_V1.txt",
+      "bytes": 8260,
+      "sha256": "91fbea26ec85aaf7562cdd3306f526f5d47e7527dae5c5381eee55e90b13d37e",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2024_N_00002/OS_2024_N_00002_TEXTO_FONTE_V1.txt"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2024_N_00002/OS_2024_N_00002_VALIDACAO_V1.json",
+      "bytes": 12331,
+      "sha256": "b14e612fe434d23f853d46adc6e3b9cbb2d4136a4e2d5d5448aaa54dd444d74d",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2024_N_00002/OS_2024_N_00002_VALIDACAO_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2025_N_00002/MANIFESTO_V1.json",
+      "bytes": 1979,
+      "sha256": "65b089d4bbed7174d644a60e09fcddbd8b33363528456be065c6bb6136e90fd7",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2025_N_00002/MANIFESTO_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2025_N_00002/OS_2025_N_00002_ATOMOS_V1.jsonl",
+      "bytes": 48327,
+      "sha256": "bd843eccaf3f969803d6a7eb17cb7065f463f28084fe437eb7c5d208d125004e",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2025_N_00002/OS_2025_N_00002_ATOMOS_V1.jsonl"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2025_N_00002/OS_2025_N_00002_CONTEUDO_SITE_API.json",
+      "bytes": 12142,
+      "sha256": "2925359e998b7a8ff7f7b5ffc084d5fc831b0d7379b7a8ec6f9bbd42631b58a2",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2025_N_00002/OS_2025_N_00002_CONTEUDO_SITE_API.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2025_N_00002/OS_2025_N_00002_NORMA_V1.json",
+      "bytes": 4650,
+      "sha256": "38fc2dbc9fa7b94d515510f5fdc74e76a5175c9bb8010018398f907e41327d39",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2025_N_00002/OS_2025_N_00002_NORMA_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2025_N_00002/OS_2025_N_00002_PAGINA_SITE.html",
+      "bytes": 452599,
+      "sha256": "b83b5a0bf3abe61dac4b8b90f9ae3b0a4c357dd38971887d420a027c4e646aeb",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2025_N_00002/OS_2025_N_00002_PAGINA_SITE.html"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2025_N_00002/OS_2025_N_00002_PDF_SITE.pdf",
+      "bytes": 193705,
+      "sha256": "13fb58050ab0ee33a929d65011dab12cb067acf950fb45ad5c3e84bafa603eaa",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2025_N_00002/OS_2025_N_00002_PDF_SITE.pdf"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2025_N_00002/OS_2025_N_00002_PDF_SITE_TEXTO_V1.txt",
+      "bytes": 9890,
+      "sha256": "17f4b6ba969ff61b7aa2e7bbf6fb82a1101ed2776652829f6827e2ad1777d6c7",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2025_N_00002/OS_2025_N_00002_PDF_SITE_TEXTO_V1.txt"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2025_N_00002/OS_2025_N_00002_TEXTO_FONTE_V1.txt",
+      "bytes": 8191,
+      "sha256": "706de9e97976d5b3e10f9d42265acd351b900d5f7755780b1efc3ffddf92b208",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2025_N_00002/OS_2025_N_00002_TEXTO_FONTE_V1.txt"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2025_N_00002/OS_2025_N_00002_VALIDACAO_V1.json",
+      "bytes": 12159,
+      "sha256": "2a64ed54476c20a0e8f6684f55d47e1bd207b2a3ecfd1ef246a14a846fd4390b",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2025_N_00002/OS_2025_N_00002_VALIDACAO_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2025_N_00003/MANIFESTO_V1.json",
+      "bytes": 1819,
+      "sha256": "9bc207f39c1b6738b269af3fe27501df6a4043a40d7622e27fd2951682ad7a79",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2025_N_00003/MANIFESTO_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2025_N_00003/OS_2025_N_00003_ATOMOS_V1.jsonl",
+      "bytes": 69898,
+      "sha256": "06aa4e2dfe855fe28f19c61cfa4b0b63dbf6b889eec133d49fb7356bacbdebb5",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2025_N_00003/OS_2025_N_00003_ATOMOS_V1.jsonl"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2025_N_00003/OS_2025_N_00003_CONTEUDO_SITE_API.json",
+      "bytes": 14875,
+      "sha256": "9081fda1d239134060c8cd902aee88fa33192fb9e75681b78c5d57579899afa1",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2025_N_00003/OS_2025_N_00003_CONTEUDO_SITE_API.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2025_N_00003/OS_2025_N_00003_NORMA_V1.json",
+      "bytes": 4265,
+      "sha256": "b3ab9887ac4290f41168833dd497fe7fcf5f7207892f19873016d580321947bf",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2025_N_00003/OS_2025_N_00003_NORMA_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2025_N_00003/OS_2025_N_00003_PAGINA_SITE.html",
+      "bytes": 455023,
+      "sha256": "c1b9e7760ecc0d28af68b78e8284ea181d9b1c259f0f67febba893d9285f047b",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2025_N_00003/OS_2025_N_00003_PAGINA_SITE.html"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2025_N_00003/OS_2025_N_00003_PDF_SITE.pdf",
+      "bytes": 183257,
+      "sha256": "c611769e7a76f42ad27ba23dd7bd1cf8f4961d00cebc74e85105bfda6450b893",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2025_N_00003/OS_2025_N_00003_PDF_SITE.pdf"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2025_N_00003/OS_2025_N_00003_PDF_SITE_TEXTO_V1.txt",
+      "bytes": 10549,
+      "sha256": "5cba412d9e51affa0a903e51088f958054ffd0b5258ddaf1fcbe5b0e3f57d5b7",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2025_N_00003/OS_2025_N_00003_PDF_SITE_TEXTO_V1.txt"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2025_N_00003/OS_2025_N_00003_TEXTO_FONTE_V1.txt",
+      "bytes": 9591,
+      "sha256": "1695118f97485c4f9a1085e72cc4d6f826298885d3e1eb50e350e49d09ca511f",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2025_N_00003/OS_2025_N_00003_TEXTO_FONTE_V1.txt"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2025_N_00003/OS_2025_N_00003_VALIDACAO_V1.json",
+      "bytes": 15870,
+      "sha256": "e6ed17691a6c71980b68186590e0dd7280652d4c8ec37bfb7403965681c7bc3f",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2025_N_00003/OS_2025_N_00003_VALIDACAO_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2025_N_00004/MANIFESTO_V1.json",
+      "bytes": 1816,
+      "sha256": "7c0452e5443267cccf3e37d90fa084794187d3f0077b840020e710f68e3d2df1",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2025_N_00004/MANIFESTO_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2025_N_00004/OS_2025_N_00004_ATOMOS_V1.jsonl",
+      "bytes": 21033,
+      "sha256": "3ba793a0a0f325e08bbdcfd04b5e27f619fa3855672348fdffefd3b10e0ca9be",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2025_N_00004/OS_2025_N_00004_ATOMOS_V1.jsonl"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2025_N_00004/OS_2025_N_00004_CONTEUDO_SITE_API.json",
+      "bytes": 5030,
+      "sha256": "a28490aa711a97e97fda39bc02c714d92e7dd8b09d28abd8ad06568b25d31fbb",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2025_N_00004/OS_2025_N_00004_CONTEUDO_SITE_API.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2025_N_00004/OS_2025_N_00004_NORMA_V1.json",
+      "bytes": 4369,
+      "sha256": "76fc6695b184170796d29e7b1e67caef015659657cbb1da9a06e477fb646bb96",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2025_N_00004/OS_2025_N_00004_NORMA_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2025_N_00004/OS_2025_N_00004_PAGINA_SITE.html",
+      "bytes": 442690,
+      "sha256": "a39d48da85f505f14e6b60a827c42a81ac054cf157c268c55edb32411fba8d7e",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2025_N_00004/OS_2025_N_00004_PAGINA_SITE.html"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2025_N_00004/OS_2025_N_00004_PDF_SITE.pdf",
+      "bytes": 171913,
+      "sha256": "bb38f4e5cda2dda3f8dc0a3e5cda664c772b8a09024e971e9608f4d8e6a7e7e9",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2025_N_00004/OS_2025_N_00004_PDF_SITE.pdf"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2025_N_00004/OS_2025_N_00004_PDF_SITE_TEXTO_V1.txt",
+      "bytes": 4465,
+      "sha256": "9b63c9d96e225161f993ffc61f65e8b275d80eb9e30d5195ad83e367ccb7c9a9",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2025_N_00004/OS_2025_N_00004_PDF_SITE_TEXTO_V1.txt"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2025_N_00004/OS_2025_N_00004_TEXTO_FONTE_V1.txt",
+      "bytes": 3111,
+      "sha256": "c88eedb2e8e71aa381ca919009e24f525b9dc55f0cb288646b8be482ea875fd3",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2025_N_00004/OS_2025_N_00004_TEXTO_FONTE_V1.txt"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2025_N_00004/OS_2025_N_00004_VALIDACAO_V1.json",
+      "bytes": 6365,
+      "sha256": "8b17a2db246c058bd92e2de86a526013088828a37e44cef7834977afe04149e3",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2025_N_00004/OS_2025_N_00004_VALIDACAO_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2026_N_00001/MANIFESTO_V1.json",
+      "bytes": 2182,
+      "sha256": "dbf765cd792e6e9d85ef5405985fd840a2b818716ed7cf201afa350e98e3bdc4",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2026_N_00001/MANIFESTO_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2026_N_00001/OS_2026_N_00001_ANEXO_01_PDF_SITE.pdf",
+      "bytes": 560856,
+      "sha256": "10c60548e49d6b5df195e460b5f86e1ceff86ef81beb66df2b0cb456a8a1062c",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2026_N_00001/OS_2026_N_00001_ANEXO_01_PDF_SITE.pdf"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2026_N_00001/OS_2026_N_00001_ANEXO_01_PDF_SITE_TEXTO_V1.txt",
+      "bytes": 2432,
+      "sha256": "7579bc3d98017a7a0eed82a44b772e20209aa956eee935584ab4e2a92c241ee3",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2026_N_00001/OS_2026_N_00001_ANEXO_01_PDF_SITE_TEXTO_V1.txt"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2026_N_00001/OS_2026_N_00001_ATOMOS_V1.jsonl",
+      "bytes": 88033,
+      "sha256": "79840a88988adaaba6d3a97c4dbb149b9917291bce298891ce1f42f6cfa8252c",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2026_N_00001/OS_2026_N_00001_ATOMOS_V1.jsonl"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2026_N_00001/OS_2026_N_00001_CONTEUDO_SITE_API.json",
+      "bytes": 15445,
+      "sha256": "bbc51d2348bc5031e371552a6d755acd6fe13596f3b0e5e30f8fa1a208881f95",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2026_N_00001/OS_2026_N_00001_CONTEUDO_SITE_API.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2026_N_00001/OS_2026_N_00001_NORMA_V1.json",
+      "bytes": 5008,
+      "sha256": "984afa4f60e0118acff65961014db12ddf07c918ceb41d69033431cd6c4ed0a8",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2026_N_00001/OS_2026_N_00001_NORMA_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2026_N_00001/OS_2026_N_00001_PAGINA_SITE.html",
+      "bytes": 456005,
+      "sha256": "326227a3f96eea29e2539ebc75d90903fda64379b4ea75f7ef74fc95e75ea7b8",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2026_N_00001/OS_2026_N_00001_PAGINA_SITE.html"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2026_N_00001/OS_2026_N_00001_PDF_SITE.pdf",
+      "bytes": 194747,
+      "sha256": "8e0787423976ac15fa2b56fdb1ec897ec3f79f8049b30e62e0ad504b30f5f9bb",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2026_N_00001/OS_2026_N_00001_PDF_SITE.pdf"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2026_N_00001/OS_2026_N_00001_PDF_SITE_TEXTO_V1.txt",
+      "bytes": 11523,
+      "sha256": "e38d467cce0d10b4c54626f80339f8b7e9e9c6e7df613f29743aff61eb2da2da",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2026_N_00001/OS_2026_N_00001_PDF_SITE_TEXTO_V1.txt"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2026_N_00001/OS_2026_N_00001_TEXTO_FONTE_V1.txt",
+      "bytes": 9768,
+      "sha256": "46f5e146dec246a03f4caa8180cd78656f8c289a7c35e0e4faa2903d4805f846",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2026_N_00001/OS_2026_N_00001_TEXTO_FONTE_V1.txt"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2026_N_00001/OS_2026_N_00001_VALIDACAO_V1.json",
+      "bytes": 15649,
+      "sha256": "243e5be5b47830945f0431588aaf0e737ab4b127be73b8599a3f79def501a56e",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2026_N_00001/OS_2026_N_00001_VALIDACAO_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2026_N_00002/MANIFESTO_V1.json",
+      "bytes": 1818,
+      "sha256": "f51858effb7d03008f612559680e529dd74a4003274296e47dc852670ce8bd2d",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2026_N_00002/MANIFESTO_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2026_N_00002/OS_2026_N_00002_ATOMOS_V1.jsonl",
+      "bytes": 28285,
+      "sha256": "80cb9ade0146aaa7c190fd22c23b18784ddff43e0cfd0b34585f1f537556a870",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2026_N_00002/OS_2026_N_00002_ATOMOS_V1.jsonl"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2026_N_00002/OS_2026_N_00002_CONTEUDO_SITE_API.json",
+      "bytes": 7325,
+      "sha256": "54437bf2b1bbc78a86f42a2abc04a066ba64736725d4ac3de760c26d4962d12f",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2026_N_00002/OS_2026_N_00002_CONTEUDO_SITE_API.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2026_N_00002/OS_2026_N_00002_NORMA_V1.json",
+      "bytes": 3443,
+      "sha256": "16101340e5abfae0e0b734d6a2d61730dd72ae740cbbc0bdbc59e35a61ead1b9",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2026_N_00002/OS_2026_N_00002_NORMA_V1.json"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2026_N_00002/OS_2026_N_00002_PAGINA_SITE.html",
+      "bytes": 447776,
+      "sha256": "0243d763d0a78d52437827364d9f647acd863b14dd440058a40666312ec73251",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2026_N_00002/OS_2026_N_00002_PAGINA_SITE.html"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2026_N_00002/OS_2026_N_00002_PDF_SITE.pdf",
+      "bytes": 137867,
+      "sha256": "4b58d05c5a2c3f9589cb7fe638a0c826f75838d50cb3cd7bc160fe1be5257b67",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2026_N_00002/OS_2026_N_00002_PDF_SITE.pdf"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2026_N_00002/OS_2026_N_00002_PDF_SITE_TEXTO_V1.txt",
+      "bytes": 5757,
+      "sha256": "7877f5b09f0fd996e0d334be3dec400319c0400bba558bfc12b3724b342adeb5",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2026_N_00002/OS_2026_N_00002_PDF_SITE_TEXTO_V1.txt"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2026_N_00002/OS_2026_N_00002_TEXTO_FONTE_V1.txt",
+      "bytes": 4817,
+      "sha256": "d546b4a506b78f4169a3b5af1cee6deafb90f98870158db2a532daf94eda9f4e",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2026_N_00002/OS_2026_N_00002_TEXTO_FONTE_V1.txt"
+    },
+    {
+      "nome": "OS/BR_FED_COFEN_OS_2026_N_00002/OS_2026_N_00002_VALIDACAO_V1.json",
+      "bytes": 7604,
+      "sha256": "f5c93a39c21718ea81c7a9336674478f7abd92b4cf3141b82578344f31e294b9",
+      "disposicao": "GRAVADO",
+      "caminho": "OS/BR_FED_COFEN_OS_2026_N_00002/OS_2026_N_00002_VALIDACAO_V1.json"
+    }
+  ]
+}

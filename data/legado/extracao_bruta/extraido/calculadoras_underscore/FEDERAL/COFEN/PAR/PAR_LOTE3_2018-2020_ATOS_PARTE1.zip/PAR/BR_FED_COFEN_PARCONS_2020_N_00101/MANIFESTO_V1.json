@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-conselheiro-no-101-2020/ (API WordPress post 82554); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCONS_2020_N_00101_ATOMOS_V1.jsonl",
+      "sha256": "d34754ea725d3e00357b9b5b47e0b16bf6530504319bea3bbadadb889a003d31",
+      "tamanho": 30955
+    },
+    {
+      "nome": "PARCONS_2020_N_00101_CONTEUDO_SITE_API.json",
+      "sha256": "7a68cf31ee919976ffedc89b68d566097a1ab44874577903fd45ad9362c8c79f",
+      "tamanho": 8717
+    },
+    {
+      "nome": "PARCONS_2020_N_00101_NORMA_V1.json",
+      "sha256": "1b5f020c7c0ba728b28f5cbb6c0d2af12bafd5474a8324f1cf877baa0af2a523",
+      "tamanho": 3355
+    },
+    {
+      "nome": "PARCONS_2020_N_00101_PAGINA_SITE.html",
+      "sha256": "bde912eb1e98afc1dfe49f25092a90506676df22cfa4e7ca0637b20668372365",
+      "tamanho": 447754
+    },
+    {
+      "nome": "PARCONS_2020_N_00101_PDF_SITE.pdf",
+      "sha256": "8fe9206815208292b3f80c45293e5451fcabee910b5c5a5480d324295de89c75",
+      "tamanho": 1624947
+    },
+    {
+      "nome": "PARCONS_2020_N_00101_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "0ca72ed402295d58085247e2e66977144f2e583668f29985f56938f891b5f88a",
+      "tamanho": 8423
+    },
+    {
+      "nome": "PARCONS_2020_N_00101_TEXTO_FONTE_V1.txt",
+      "sha256": "dad88ad2ed6815a7f18ce466cad80a5d6e9087e7085dd38331929f6f339e71dc",
+      "tamanho": 7743
+    },
+    {
+      "nome": "PARCONS_2020_N_00101_VALIDACAO_V1.json",
+      "sha256": "cae4cfc22966cfce266bff9029ae56dbb9ea86e4668256c5b90169c630700fbc",
+      "tamanho": 8502
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+  ]
+}

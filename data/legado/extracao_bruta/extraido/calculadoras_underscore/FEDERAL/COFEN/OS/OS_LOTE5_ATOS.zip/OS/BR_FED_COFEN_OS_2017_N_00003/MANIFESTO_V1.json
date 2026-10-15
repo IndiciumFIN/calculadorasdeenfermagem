@@ -1,0 +1,51 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/ordem-de-servico-cofen-no-003-2017/ (API WordPress post 59703); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "OS_2017_N_00003_ATOMOS_V1.jsonl",
+      "sha256": "2d2e56829c063f49f9868edbb72b70ff6b9acb6d3ce99b66f110461566c96c28",
+      "tamanho": 15484
+    },
+    {
+      "nome": "OS_2017_N_00003_CONTEUDO_SITE_API.json",
+      "sha256": "d9a5ae587a5bdfd52f666f18071d8b16d6f915e9eb7cb77c014689f1bcc8d613",
+      "tamanho": 4099
+    },
+    {
+      "nome": "OS_2017_N_00003_NORMA_V1.json",
+      "sha256": "36b6329c6fe6f8c09598c20fb74588972a6e791b1e663c93bbc44e903bacb4d2",
+      "tamanho": 3438
+    },
+    {
+      "nome": "OS_2017_N_00003_PAGINA_SITE.html",
+      "sha256": "047d682bbfec1e4a7ef1310a09573ded7a43dd1eddcae6e5d0189242ff6b9edb",
+      "tamanho": 442252
+    },
+    {
+      "nome": "OS_2017_N_00003_PDF_SITE.pdf",
+      "sha256": "b194437bee0a039bb5a66f8c421d35ef580edfc00b2b8a1d7dda835860104244",
+      "tamanho": 762275
+    },
+    {
+      "nome": "OS_2017_N_00003_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "cca70d127fbebb4f371954a7dbbda46701f3156b061bc2208b151e070b1b3957",
+      "tamanho": 3468
+    },
+    {
+      "nome": "OS_2017_N_00003_TEXTO_FONTE_V1.txt",
+      "sha256": "b84f618e7a46f55e80a90b0b7edf0f77fd1733d07995c51550d175ef258662ac",
+      "tamanho": 3108
+    },
+    {
+      "nome": "OS_2017_N_00003_VALIDACAO_V1.json",
+      "sha256": "b680f7b851af648f839509cbee92638ef85574451a60d08ccac62fdf41f4729b",
+      "tamanho": 5403
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+  ]
+}

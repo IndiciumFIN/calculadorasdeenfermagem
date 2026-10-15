@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-camara-tecnica-no-051-2010-ctln-cofen/ (API WordPress post 83385); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2020_N_00051_CTLN_ATOMOS_V1.jsonl",
+      "sha256": "c1a4ec63653da58bac7481b8884e1048e3b3041e045b1584a24cd637bf58cb87",
+      "tamanho": 34308
+    },
+    {
+      "nome": "PARCT_2020_N_00051_CTLN_CONTEUDO_SITE_API.json",
+      "sha256": "9a5aa0f3b74c80b6ce81dc43a2756c32f039a7b59c06c6597bffd39764d18f27",
+      "tamanho": 10143
+    },
+    {
+      "nome": "PARCT_2020_N_00051_CTLN_NORMA_V1.json",
+      "sha256": "f230250185c67ae358f24e02644921ba2cfcd0c19944d1fd46e7c1e3ea0267f5",
+      "tamanho": 3790
+    },
+    {
+      "nome": "PARCT_2020_N_00051_CTLN_PAGINA_SITE.html",
+      "sha256": "4fd4df5adea62dbbfc8ea31cc39be1b18bbf522e9685ab3459da36047492b7bd",
+      "tamanho": 450229
+    },
+    {
+      "nome": "PARCT_2020_N_00051_CTLN_TEXTO_FONTE_V1.txt",
+      "sha256": "8a8d71fd7b4a21d430b7f6178d3d378c008d27285d08d32c0c9f662e7d0ea03d",
+      "tamanho": 8598
+    },
+    {
+      "nome": "PARCT_2020_N_00051_CTLN_VALIDACAO_V1.json",
+      "sha256": "473d89a7537178ad34acb88fe03fe5682790dfae933787cf6b0fc8ef71a2369e",
+      "tamanho": 2468
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

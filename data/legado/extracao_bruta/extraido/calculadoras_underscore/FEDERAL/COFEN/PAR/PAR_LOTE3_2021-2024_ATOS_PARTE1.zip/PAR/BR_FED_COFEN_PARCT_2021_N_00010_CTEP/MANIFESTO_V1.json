@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-camara-tecnica-no-0010-2021-ctep-cofen/ (API WordPress post 87642); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2021_N_00010_CTEP_ATOMOS_V1.jsonl",
+      "sha256": "ef799bbf36361e9ebb2ba671834ed62bf371e750b7689209e3c42a113bb24c93",
+      "tamanho": 62927
+    },
+    {
+      "nome": "PARCT_2021_N_00010_CTEP_CONTEUDO_SITE_API.json",
+      "sha256": "80af816eec42ee86d8fb2fe764f058307979406b2b58d306fc7408e5daaf0854",
+      "tamanho": 19054
+    },
+    {
+      "nome": "PARCT_2021_N_00010_CTEP_NORMA_V1.json",
+      "sha256": "f066b708eb64d475cdf8fd59577742eb57a39c02c700fec77643a214679bd697",
+      "tamanho": 5727
+    },
+    {
+      "nome": "PARCT_2021_N_00010_CTEP_PAGINA_SITE.html",
+      "sha256": "e8b771807f5d3cef05fa78a300bd79d911f3bdc8312351114e53d35efb6eb102",
+      "tamanho": 459124
+    },
+    {
+      "nome": "PARCT_2021_N_00010_CTEP_PDF_SITE.pdf",
+      "sha256": "1535b2ecf7efdfd8cb872fdf80f674946cdb3d81387de8ba88c0ca9f2226321a",
+      "tamanho": 2493101
+    },
+    {
+      "nome": "PARCT_2021_N_00010_CTEP_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "504140aec6c8419a59b9eee8347a3f3fd61dfc3755df7a277bbdc3c93b5d6b38",
+      "tamanho": 17215
+    },
+    {
+      "nome": "PARCT_2021_N_00010_CTEP_TEXTO_FONTE_V1.txt",
+      "sha256": "4a9d294f23506bf90c480e7f553e2eb3d1423d6156c83b3d5a3bb17b542ab142",
+      "tamanho": 14394
+    },
+    {
+      "nome": "PARCT_2021_N_00010_CTEP_VALIDACAO_V1.json",
+      "sha256": "27ae884cca2968bdb1702f1fbe0f3033c15d019714710d1c6dc06b46b68e4e05",
+      "tamanho": 21175
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "5 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "21 trecho(s) do PDF sem correspondente no texto do site."
+  ]
+}

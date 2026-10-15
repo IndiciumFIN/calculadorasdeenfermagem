@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-85-de-3-de-fevereiro-de-2021/ (API WordPress post 85105); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2021_N_00085_ATOMOS_V1.jsonl",
+      "sha256": "75c7fb20fa133fd6006ba15a810e761c6696c65119d5dd4b84198487bc5cb964",
+      "tamanho": 7702
+    },
+    {
+      "nome": "PORT_2021_N_00085_CONTEUDO_SITE_API.json",
+      "sha256": "dda4aa4427fde39c4602d0d907def937f29a6c52b405b9ac84280625692ddd9b",
+      "tamanho": 1873
+    },
+    {
+      "nome": "PORT_2021_N_00085_NORMA_V1.json",
+      "sha256": "7dfe6f03c59a742badaebfee5e44e9e31db3da1d2951e30aa1505099e7156099",
+      "tamanho": 2724
+    },
+    {
+      "nome": "PORT_2021_N_00085_PAGINA_SITE.html",
+      "sha256": "5f431fb6f43356d7d47b1ea3c7cc4caf6261a3e4c06a7fc75e98651c45e96380",
+      "tamanho": 439818
+    },
+    {
+      "nome": "PORT_2021_N_00085_TEXTO_FONTE_V1.txt",
+      "sha256": "1a2495d5e76fedb4a60869e3f2ee146822df5462ad342324afa1e3f91cfce6b7",
+      "tamanho": 1258
+    },
+    {
+      "nome": "PORT_2021_N_00085_VALIDACAO_V1.json",
+      "sha256": "d590f63c53bea800b00b74510c772716d89786ff0fb6f49c62a7bb21c30a2fb7",
+      "tamanho": 2460
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-60-2026-camaras-tecnicas-de-enfermagem/ (API WordPress post 195684); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2026_N_00060_CAMTEC_ATOMOS_V1.jsonl",
+      "sha256": "bebab09c6deeb88c1b4f0a4fec86e691a126fffcd72456f82e02cbde1e80e93c",
+      "tamanho": 63071
+    },
+    {
+      "nome": "PARCT_2026_N_00060_CAMTEC_CONTEUDO_SITE_API.json",
+      "sha256": "0d0c99b335466a83f920db80b9c3dbda65e7a0d4d0756e19447188f5d84c15f1",
+      "tamanho": 18236
+    },
+    {
+      "nome": "PARCT_2026_N_00060_CAMTEC_NORMA_V1.json",
+      "sha256": "9feccb044519f2183258fa580d4dfe7e89fa0a2779c26293a97003d250549d5b",
+      "tamanho": 7255
+    },
+    {
+      "nome": "PARCT_2026_N_00060_CAMTEC_PAGINA_SITE.html",
+      "sha256": "c586d5427751491f893be77a978d8aa461f155383e0906ec470c332212af03c6",
+      "tamanho": 458593
+    },
+    {
+      "nome": "PARCT_2026_N_00060_CAMTEC_PDF_SITE.pdf",
+      "sha256": "ef882c243619f7163efde25a0fc220b98e425ac5e71f29221bc360cae5e6a1dc",
+      "tamanho": 223045
+    },
+    {
+      "nome": "PARCT_2026_N_00060_CAMTEC_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "15d790bce994d9ffa22417cd546623df71d44a55de1e4cc4c7b4ee6d7253061b",
+      "tamanho": 15741
+    },
+    {
+      "nome": "PARCT_2026_N_00060_CAMTEC_TEXTO_FONTE_V1.txt",
+      "sha256": "8cd096286e9ce0d93b552b231052ab1ee2c6bc7e738b209731d825504dc4b2c5",
+      "tamanho": 15125
+    },
+    {
+      "nome": "PARCT_2026_N_00060_CAMTEC_VALIDACAO_V1.json",
+      "sha256": "251980292e9a68bc8bba917fab3f55f7ed58df846ede42bf3428eeb6859b6f9f",
+      "tamanho": 11337
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir."
+  ]
+}

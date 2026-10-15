@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/emenda-constitucional-n34/ (API WordPress post 4167); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "EC_2001_N_00034_ATOMOS_V1.jsonl",
+      "sha256": "fe30ad507173ab40ac302bc79415e18cff1f5ef5a009fbd7b8b4ecb06b5ccdbd",
+      "tamanho": 25054
+    },
+    {
+      "nome": "EC_2001_N_00034_CONTEUDO_SITE_API.json",
+      "sha256": "d32b1b1386d66ab89f1cfc19157ed6893af680d27f98ea77d52dda11c85545c6",
+      "tamanho": 2774
+    },
+    {
+      "nome": "EC_2001_N_00034_NORMA_V1.json",
+      "sha256": "2430788a37991883992c9d056ae096ff9285493a0df926eeeb80e09f24ef1815",
+      "tamanho": 2696
+    },
+    {
+      "nome": "EC_2001_N_00034_PAGINA_SITE.html",
+      "sha256": "73849430c52f4866b9408149b832adce2919f455a19fb8eb894c9d6bffc442d4",
+      "tamanho": 440519
+    },
+    {
+      "nome": "EC_2001_N_00034_TEXTO_FONTE_V1.txt",
+      "sha256": "2b127742a76678e78acc809522663ab185d758ea5a729ef7a924c4c57fd3b2cf",
+      "tamanho": 1606
+    },
+    {
+      "nome": "EC_2001_N_00034_VALIDACAO_V1.json",
+      "sha256": "5c738f9e66f55b7dc7c6610332f5920271a21b08659bbf1cbff54a3db44695ca",
+      "tamanho": 2438
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

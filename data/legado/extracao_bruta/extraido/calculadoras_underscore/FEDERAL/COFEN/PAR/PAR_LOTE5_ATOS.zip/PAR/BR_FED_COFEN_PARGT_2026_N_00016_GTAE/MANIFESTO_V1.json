@@ -1,0 +1,51 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-16-2026-grupo-tecnico-de-acompanhamento-eleitoral-eleicoes-corens-2026/ (API WordPress post 197407); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARGT_2026_N_00016_GTAE_ATOMOS_V1.jsonl",
+      "sha256": "2b98b03d02058ce028a73e2e87f58ed6c7ec7b47e9ed4b0d93789f15f51afafd",
+      "tamanho": 18403
+    },
+    {
+      "nome": "PARGT_2026_N_00016_GTAE_CONTEUDO_SITE_API.json",
+      "sha256": "699274c21820fffa86853fd164e1aee35086353fdbfe6c2dee95a35402479544",
+      "tamanho": 5049
+    },
+    {
+      "nome": "PARGT_2026_N_00016_GTAE_NORMA_V1.json",
+      "sha256": "4b3e8e32bad8542af648ecc942a09eac1445ff554062ed952b9791f36a89aa1e",
+      "tamanho": 3788
+    },
+    {
+      "nome": "PARGT_2026_N_00016_GTAE_PAGINA_SITE.html",
+      "sha256": "46ff06516d358e054ce519f6482bdbe50b323d021dd2b9ce49158f6973d9aa7f",
+      "tamanho": 446238
+    },
+    {
+      "nome": "PARGT_2026_N_00016_GTAE_PDF_SITE.pdf",
+      "sha256": "a3d6ba1e6ca2563655c7f156c985441ae4f95ef16dc2611dddcd3b76f0869026",
+      "tamanho": 133174
+    },
+    {
+      "nome": "PARGT_2026_N_00016_GTAE_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "07b260544ed89e724addae6b0eb3371cd3145121bea43aa5edc68f7adb50469b",
+      "tamanho": 4302
+    },
+    {
+      "nome": "PARGT_2026_N_00016_GTAE_TEXTO_FONTE_V1.txt",
+      "sha256": "058294f0527c399dddc6d88c1739ad80fbe7081d0e23cd13022f3315543c3d58",
+      "tamanho": 3491
+    },
+    {
+      "nome": "PARGT_2026_N_00016_GTAE_VALIDACAO_V1.json",
+      "sha256": "54ff4a74e00169c2f5240667a43de07eeb2242796b67556283861468cba974a7",
+      "tamanho": 6017
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

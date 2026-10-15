@@ -1,0 +1,51 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-211-2025-plenario/ (API WordPress post 153356); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARPLEN_2025_N_00211_PLENARIO_ATOMOS_V1.jsonl",
+      "sha256": "3b610a862d3ed9a27d76e4f20271dc9617083b162a76b1efff4d6e1d8d70a1fd",
+      "tamanho": 37204
+    },
+    {
+      "nome": "PARPLEN_2025_N_00211_PLENARIO_CONTEUDO_SITE_API.json",
+      "sha256": "a2c900975c701bb400a60bd49c52dc9d910f9e14a216db8e8af6544f08037efd",
+      "tamanho": 9901
+    },
+    {
+      "nome": "PARPLEN_2025_N_00211_PLENARIO_NORMA_V1.json",
+      "sha256": "c214bf05f449bb49433cbefa18399ae1b06c88844913c44a180db4042d746760",
+      "tamanho": 4935
+    },
+    {
+      "nome": "PARPLEN_2025_N_00211_PLENARIO_PAGINA_SITE.html",
+      "sha256": "65eb579bd891f057bda3fc972f3f7a269aed1100c21e70ba8776e7cb649e53fe",
+      "tamanho": 449404
+    },
+    {
+      "nome": "PARPLEN_2025_N_00211_PLENARIO_PDF_SITE.pdf",
+      "sha256": "103adf947e51bad492946cc17cf351ba5539969d62063d5da426b7c440c04db7",
+      "tamanho": 176286
+    },
+    {
+      "nome": "PARPLEN_2025_N_00211_PLENARIO_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "d468b5327d26c97a1c173d4f014b90f482681ff0c30d6607da3c9fbd018cba0e",
+      "tamanho": 8031
+    },
+    {
+      "nome": "PARPLEN_2025_N_00211_PLENARIO_TEXTO_FONTE_V1.txt",
+      "sha256": "9865b3013b8fb0b96c846c470f6fbb70ec8eb2b87e5acc70f4e700b7eba2e0db",
+      "tamanho": 7369
+    },
+    {
+      "nome": "PARPLEN_2025_N_00211_PLENARIO_VALIDACAO_V1.json",
+      "sha256": "ed263823f2460dfe9fdd70bc50fb09490d9038b6489f18f9694437897c0aaadb",
+      "tamanho": 9715
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 dispositivo(s) do site divergente(s) ou ausente(s) no PDF."
+  ]
+}

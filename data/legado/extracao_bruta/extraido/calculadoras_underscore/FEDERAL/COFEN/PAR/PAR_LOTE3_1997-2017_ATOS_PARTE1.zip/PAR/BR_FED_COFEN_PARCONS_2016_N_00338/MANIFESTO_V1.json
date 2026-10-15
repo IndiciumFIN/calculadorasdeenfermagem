@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-relator-vistas-no-3382016/ (API WordPress post 48408); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCONS_2016_N_00338_ATOMOS_V1.jsonl",
+      "sha256": "8a92543b19f024fb665ec73dc095a93242a27b4ea1929a7f28fde2ad5eb2f915",
+      "tamanho": 59127
+    },
+    {
+      "nome": "PARCONS_2016_N_00338_CONTEUDO_SITE_API.json",
+      "sha256": "ae4fc0649fd84ed98277b4ebe6bb1cfc9b44d2571597dd39d4e8f9f883df18f3",
+      "tamanho": 7887
+    },
+    {
+      "nome": "PARCONS_2016_N_00338_NORMA_V1.json",
+      "sha256": "74ec6558dc0835d41c443a321d92d01b29a51b61a51c573a3fa9058583591ab0",
+      "tamanho": 3409
+    },
+    {
+      "nome": "PARCONS_2016_N_00338_PAGINA_SITE.html",
+      "sha256": "8a34d37842a152713694846e472e4770ea81496bfc311e88ddac2c20e0941c66",
+      "tamanho": 446472
+    },
+    {
+      "nome": "PARCONS_2016_N_00338_PDF_SITE.pdf",
+      "sha256": "a7eff09d41f12101bbd3d2c662f3f397a6aa449a35b8520a6bf94e5b8e342e6c",
+      "tamanho": 2203475
+    },
+    {
+      "nome": "PARCONS_2016_N_00338_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "c812f1932d845d76c91c04a58bc3e566878ff694c88bc5d91b9d4e59bdeb73f2",
+      "tamanho": 7357
+    },
+    {
+      "nome": "PARCONS_2016_N_00338_TEXTO_FONTE_V1.txt",
+      "sha256": "6e1abe187a8c06cc337afa52aa4706c3140ec7df968ca4bf36bc2f3095c68afc",
+      "tamanho": 6461
+    },
+    {
+      "nome": "PARCONS_2016_N_00338_VALIDACAO_V1.json",
+      "sha256": "9214f297d2094b02f1b780fd39d8e42e9fd173e51c9700a81a17a8c245d1cbf3",
+      "tamanho": 14930
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "WO-2026_10_15_0103",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "task_version": "1.0.0",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "task_id": "TAREFA-RETIRAR",
+  "task_type": "retirar",
+  "parametros": {
+    "lote": "cofen_port_50mb",
+    "parecer_work_order": "WO-2026_10_15_0102"
+  },
+  "entradas": [
+    {
+      "id_origem": "13DMCK2bQSPCMzSGjH8glOVmXRoT3Vpvn",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/PORT/PORT_LOTE4_2021-2023_ATOS_PARTE1.zip",
+      "classe": "REFERENCIA",
+      "sha256": "d1772a469c7cc724095edb0d153919dff1ccadc44548dc0ea4970f57d7f9dd16"
+    }
+  ],
+  "checker_id": "kernel-validar"
+}

@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/lei-n-8967-de-281294/ (API WordPress post 4170); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "LEI_1994_N_08967_ATOMOS_V1.jsonl",
+      "sha256": "f40d7137f34b641d5a081bae9816e8b7668c92de18437b6645a2e9e5b90b5859",
+      "tamanho": 7339
+    },
+    {
+      "nome": "LEI_1994_N_08967_CONTEUDO_SITE_API.json",
+      "sha256": "7dec3565121600ab846b9e6809a6331289ae764df4691f5bf35476efdbb52362",
+      "tamanho": 1243
+    },
+    {
+      "nome": "LEI_1994_N_08967_NORMA_V1.json",
+      "sha256": "20d69b135018cf5508a261f0c6d0354d596aaaafa5c1e28494e29bcbc2977cad",
+      "tamanho": 2784
+    },
+    {
+      "nome": "LEI_1994_N_08967_PAGINA_SITE.html",
+      "sha256": "f47a8597d2dba1a754e1873de64ca13e9617a2f729bc1ac2acb855394a3a50ac",
+      "tamanho": 436450
+    },
+    {
+      "nome": "LEI_1994_N_08967_TEXTO_FONTE_V1.txt",
+      "sha256": "563b3e7a59ec5120eed62710a835c68bdf91b6f8a843474dfb025c83aa029877",
+      "tamanho": 886
+    },
+    {
+      "nome": "LEI_1994_N_08967_VALIDACAO_V1.json",
+      "sha256": "20a6032e56efb74e9d5d863fa57fe517af6730ec93a5d28ac6f685eed6ab25bb",
+      "tamanho": 2450
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

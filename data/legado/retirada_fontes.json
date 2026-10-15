@@ -1,12 +1,12 @@
 {
   "versao": "1.0.0",
   "invariante": "FONTE_RETIRADA",
-  "verificado_em": "2026-10-15T08:39:16Z",
+  "verificado_em": "2026-10-15T15:01:24Z",
   "lixeira": {
     "mover_implantado": "EFETUADO",
     "esvaziar": "BLOQUEAR",
     "esvaziar_executor": "somente_humano",
-    "pastas_vazias_em": "2026-10-15T08:39:16Z"
+    "pastas_vazias_em": "2026-10-15T15:01:24Z"
   },
   "pastas_vazias": [
     {
@@ -284,9 +284,117 @@
       "titulo": "protocolos_enfermagem",
       "estado": "AUSENTE",
       "motivo": "listagem fechada sem filhos depois da copia"
+    },
+    {
+      "id": "1PT6ywj858okJB_I0U2g5sH4As7XAzFhS",
+      "titulo": "calculadoras_underscore/atlas",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia das 30 partes"
+    },
+    {
+      "id": "1BATUC2WiWdIVMQB-X66oDERtRzJ1XAXt",
+      "titulo": "calculadoras_underscore/FEDERAL/COFEN/PAR",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia dos zips"
+    },
+    {
+      "id": "1i-EI5X2sIUXf5P1j4rinMqI5lrPAEkcw",
+      "titulo": "calculadoras_underscore/FEDERAL/COFEN/OS",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia do zip"
+    },
+    {
+      "id": "1RBJ62zQHmh7sIRztidiVWiB8qM6RjT5p",
+      "titulo": "calculadoras_underscore/FEDERAL/COFEN/LEGISLACAO",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia do zip"
+    },
+    {
+      "id": "1F0Ht9mjSbCsoddgzfy6UK5OdCkgNFHGm",
+      "titulo": "calculadoras_underscore/FEDERAL/COFEN/OUTROS",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia do zip"
+    },
+    {
+      "id": "1VRCcuu9jYGVALraJXhHqi2CegeGFYyhT",
+      "titulo": "calculadoras_underscore/FEDERAL/COFEN/EDITAL",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia do zip"
+    },
+    {
+      "id": "14ZCaEWVFIwc0negb1W-q9cNjsmS9hAxz",
+      "titulo": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2025_N_00800",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia do ato"
+    },
+    {
+      "id": "1Q62H_7fga_DQhUhDZfxDmPoQ0tXQhkFV",
+      "titulo": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00813",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia do ato"
+    },
+    {
+      "id": "1kNDZBVjlcA-tsK-Vz1TBeJMZ-aAGNhEV",
+      "titulo": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00814",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia do ato"
+    },
+    {
+      "id": "1_coG6A2cmDrR-clz8gxHhB31oL4-cxvh",
+      "titulo": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00809",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia do ato"
+    },
+    {
+      "id": "10D3myxkQZmy1XjlXLmQSzVerXyNgiK3v",
+      "titulo": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00806",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia do ato"
+    },
+    {
+      "id": "13A-4gAckpdwF_rsbt0177jlObWx70apJ",
+      "titulo": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00802",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia do ato"
+    },
+    {
+      "id": "1E-lJb6NWRGWk4hH3tyrGF0775yWEoPH4",
+      "titulo": "calculadoras_underscore/FEDERAL/COFEN/PORT",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia"
+    },
+    {
+      "id": "1krtK4DFUORdj0FAZ3Sx3S-9FPquRWdUq",
+      "titulo": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00811",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia"
+    },
+    {
+      "id": "1oNwZUf3Ft-fi4nW4XJ_4NB3SY4UJqvsl",
+      "titulo": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00812",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia"
+    },
+    {
+      "id": "11KjLTy8LUwBgb2uyEk8wGkP-TsAccEXI",
+      "titulo": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00810",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia"
+    },
+    {
+      "id": "1om3UBy9FXX2uVBz-5eLUBpGJs_gud6Mz",
+      "titulo": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00808",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia"
+    },
+    {
+      "id": "15wUvVoH24sSjQuruPbprdEkqASPtTExZ",
+      "titulo": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00807",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia"
     }
   ],
-  "regra": "Releitura da API do Drive em 15/10/2026. Os 152 arquivos anteriores, os 50 do lote raw_distinto e os 129 do lote resto_grok (WO-2026_10_15_0072 a 0075) não aparecem mais na pasta ativa. A lixeira devolveu resposta vazia para os 129 ids e para as pastas que ficaram sem filhos. Uma amostra de arquivos e de pastas respondeu que a entidade não existe. Esvaziar a lixeira continua bloqueado e só uma pessoa pode fazer isso. Na raiz da extração Grok permanece a pasta revisao; dentro dela permanece fontes, com cinco PDFs de editora: NEWS2 RCP 2017 (relatório e dois gráficos), Sepsis-3 JAMA 2016 e Diretrizes Brasileiras de Hipertensão 2020. O texto de página desses PDFs não entra no Git. Os cabeçalhos correspondentes foram copiados.",
+  "regra": "Releitura da API do Drive em 15/10/2026. Os 152 arquivos anteriores, os 50 do lote raw_distinto, os 129 do lote resto_grok (WO-2026_10_15_0072 a 0075) e os 30 do lote atlas_partes (WO-2026_10_15_0076 a 0079) não aparecem mais na pasta ativa. A lixeira devolveu resposta vazia para esses ids e para as pastas que ficaram sem filhos. Uma amostra de arquivos e de pastas respondeu que a entidade não existe; os 30 ids do atlas não foram relidos um a um. Esvaziar a lixeira continua bloqueado e só uma pessoa pode fazer isso. Na raiz da extração Grok permanece a pasta revisao; dentro dela permanece fontes, com cinco PDFs de editora. A pasta ATLAS_3D_BACKUP_PROTEGIDO_LEITURA_2026-10-10 ficou sem filhos e foi para a lixeira. Os scripts RECONSTRUIR_ATLAS não foram executados e o zip não foi remontado. O lote cofen_par_os (WO-2026_10_15_0080 a 0083) copiou 7 LEIA-ME e 9 zips, todos abaixo de 50 MB, com zero átomos. A lixeira devolveu resposta vazia. Uma amostra respondeu que a entidade não existe. As pastas PAR e OS ficaram sem filhos e foram para a lixeira. Os zips permanecem no Git e a extração em bytes segue ao lado. O lote cofen_port_e_lotes (WO-2026_10_15_0084, 0092 a 0094) copiou 8 zips abaixo de 50 MB. Amostra ausente. LEGISLACAO, OUTROS e EDITAL ficaram vazias e foram para a lixeira. PORT ainda tem o zip acima de 50 MB. O lote cofen_atos_fechados (WO-2026_10_15_0086, 0095 a 0097) copiou 36 arquivos de seis resoluções, zero átomos. A lixeira devolveu resposta vazia. As pastas desses atos ainda serão relidas antes de irem para a lixeira. Seis pastas de resolução ficaram sem filhos e foram para a lixeira. Amostra de arquivo respondeu que a entidade não existe. O lote cofen_atos_lote2 (WO 0089, 0098 a 0100) copiou 30 arquivos de cinco resoluções. O zip de portaria acima de 50 MB (WO 0085, 0101 a 0103) foi fracionado em duas partes; o monólito saiu do Git e a concatenação repete o SHA-256. PORT e cinco pastas de resolução ficaram sem filhos e foram para a lixeira. Esvaziar a lixeira continua bloqueado.",
   "itens": [
     {
       "origem": "drive",
@@ -2934,6 +3042,974 @@
       "disposicao": "IMPLANTADO",
       "sha256": "fb799f9f6c8e0e2296224e1d4128eec1ec5f08e6ff7cea573ecf4afc264d3904",
       "copia": "data/legado/extracao_bruta/atomizado/icd11/MANIFESTO.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1-UWhEDid1Em0jctcD6J5D8Xp9srJHKny",
+      "disposicao": "IMPLANTADO",
+      "sha256": "3c0d5b1a35eb6a4ba4d26ca04929f37fdeb8d6b50a57b9dac2b1727ff118c214",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_STATUS_20261010.md",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1mg7wIT_UtQQgWIYOA-SF00ruFpztrUGQ",
+      "disposicao": "IMPLANTADO",
+      "sha256": "14a857927855962f160a7d22fa622344fe30f6bd5b0ca84bd29bcaa16e09bd1d",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_VALIDACAO_BACKUP_DRIVE_20261010.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1hk9QL8ImLZZlY_I5UXjphy6vNDIkIldx",
+      "disposicao": "IMPLANTADO",
+      "sha256": "7dd3a8160bfa125ead8087aa79ca9c30bcfe0846d5e8a357704775edc838b7c7",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/RECONSTRUIR_ATLAS.cmd",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1-Pk2whIYCvKG0T2os64M5wjiQKzdpGZx",
+      "disposicao": "IMPLANTADO",
+      "sha256": "d3caa11ff82ac70d9a3b7f5b88143a62bbc63a2f0fb6fb5e04682e6447c3420f",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/RECONSTRUIR_ATLAS.ps1",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1svS8PxonDAbEFXHQ6DxDGUryctKMVViP",
+      "disposicao": "IMPLANTADO",
+      "sha256": "786e4cc352255caea4ca8f52d1bd7e61bf0d4237e13f20652a7b4683ab51c686",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/MANIFESTO_DRIVE_PARTES_SHA256.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1TOfK_JQQ38Fq_Ek1SL7Y0tRtJEYnmYog",
+      "disposicao": "IMPLANTADO",
+      "sha256": "959f79c66e1f860525a8ae8abe4445e18715d741794486b755cb9228e2145a1f",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_MANIFESTO_SHA256_20261010.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1zUtmrim2DZLrPLOdnufKt1AWf7EFzwW2",
+      "disposicao": "IMPLANTADO",
+      "sha256": "42ab4235182dc9d1afdb75eaa26b18d1d0d6b3f472c2bc839137a78df7867ddd",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part001",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1E4t2XdNOu_L5xzukYUkfGHfsTM7lWjAx",
+      "disposicao": "IMPLANTADO",
+      "sha256": "425c9a7a932445dae098187ae876af4a43d07c77e3efcc4bf866e98ee9404eb9",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part002",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1bTmPZ2TGKE0ZPq0JlsK7XgDCAMo1fVQm",
+      "disposicao": "IMPLANTADO",
+      "sha256": "df3f9a3085724cd48a48cab88452ed7a0a71eed72e6687bf0da5b913c7fb69f0",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part003",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1v8SxCmBEe1yusCrAGdeT3FsZpRuG9rTX",
+      "disposicao": "IMPLANTADO",
+      "sha256": "791d64087e501010133401134b6ae1ab68edb9c16eab20f93c8db04f0cb08cf7",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part004",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Tf_Rnf_ic6nHoQitdaD0kNBKxW_V7d5H",
+      "disposicao": "IMPLANTADO",
+      "sha256": "96d0a10cd4a18fecf4012574362ddea9e5bbc11096878f918a8fa2d1f44b2f8d",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part005",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1J2M5i4j8SpFT5u1n8Sw0GigCalJz_6jk",
+      "disposicao": "IMPLANTADO",
+      "sha256": "369d61e08b5a185448c7d9150302f4205176c08bde6254db421329ea6bda754e",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part006",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1B4382Bc3V-_LCvUlar5dGsdTeU4BDWGd",
+      "disposicao": "IMPLANTADO",
+      "sha256": "ad2a5dd80998485a6cb9a3a45671d58999ee9ebd49d3c0e19bdae3a1dba91bc1",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part007",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1yGpmiw_jM5yoVCrpdgXlsgHSBMqoayD1",
+      "disposicao": "IMPLANTADO",
+      "sha256": "ed11ce91e39052ace7c71e29c83cf301e1c594bafce00647711704186e6cb5f5",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part008",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Jqc1nOOdoIbAuAdwXluyaBcIfnl3iV-5",
+      "disposicao": "IMPLANTADO",
+      "sha256": "a440b29a6000bf78127e67db19636d44296d71a187d39b9273271a7c99094c21",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part009",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1FgaFxZLsRQ4ZOjiGohTt1ub3QK98-qkI",
+      "disposicao": "IMPLANTADO",
+      "sha256": "65156eaa3fe3b99b242250ac8685e074773bd79ebe175a0a56453cf2736f2343",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part010",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1A1hpXGNhR6j_lDmDnya_gEMQnXaf25zZ",
+      "disposicao": "IMPLANTADO",
+      "sha256": "79807bd9f7c29da9d9e5dde64695b43d59ddf9717cdfae7e9243d5661574814e",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part011",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1rdNZgaR7ekTSsMF-20yA7eHcpFXupFY5",
+      "disposicao": "IMPLANTADO",
+      "sha256": "87679b2f2f4c72b528609e85d6038260ce19a14e21d2433ac1115e3576dd981e",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part012",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1wb0B-TuEV18YF6Ngag8fx-aDRQ-C1lAJ",
+      "disposicao": "IMPLANTADO",
+      "sha256": "09a035bdca14cb26b58c5586068b9b3c91a358df60593f2014e20e2113c0aa84",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part013",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "17xtT3tPrVwKKAPijBNUSrmtxSElmz-U_",
+      "disposicao": "IMPLANTADO",
+      "sha256": "a1fd25745bb3bbf55ec85338f7d01b4ff9a352affc44f32c21c506c6978556d6",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part014",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1dnPUnVMjG--9ZyQ6AFGujBsxkyKOdP1E",
+      "disposicao": "IMPLANTADO",
+      "sha256": "38d2de1a98a8a7fcf549e14d1104f0d50e6c536d44badacdc0afe0477aad3e7b",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part015",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1IQb-PREqdYHsQVmi6yUQcCs8lbPjJA7q",
+      "disposicao": "IMPLANTADO",
+      "sha256": "a7b00e908f803faac928e1030aacd84ef9fbf67f9ae06c1abc57cfa4ea153c1c",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part016",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1O2sHdtrAHCvhIAi8NTI4eAH1tWaTayIL",
+      "disposicao": "IMPLANTADO",
+      "sha256": "dffeeb677b9874be7d20fd93e098750d0639f0d006194898ded2a69556f6493a",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part017",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1vnYq5ya8xsgcVDNrDsma0E5yh6t4tVhM",
+      "disposicao": "IMPLANTADO",
+      "sha256": "de772dc36fa05e489b74c3067cb173e3dbf83a786232ee79828f4f656b84b5e7",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part018",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1UvXQ8Z3TWomco5AOii7uCRBg56xaDSP5",
+      "disposicao": "IMPLANTADO",
+      "sha256": "8f1a551ccd811abbdd1a8c976f15505c0912e1667a62d33355b6b035eaaa905f",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part019",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1co-TQj1hfKTFv4wY33_nwLCcz5MiTCp-",
+      "disposicao": "IMPLANTADO",
+      "sha256": "e2aecb8b6530f5c5c5a828fee78a80b1b6a35a01f1a231d90cfb40f522c7bc33",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part020",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1HjetOJJ27kyDpnj1YC7qbgvRPpld1m4h",
+      "disposicao": "IMPLANTADO",
+      "sha256": "93b1e184f35401195494561e8ec70232648654fa12411d758c56e579b466dc9c",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part021",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1u-_MdpLZkkrQgDxYp1fGYcavLEMe0SfT",
+      "disposicao": "IMPLANTADO",
+      "sha256": "b7c07c37400dc5ea8a9679b7ba1b34ca68510d479b46eeef920b78c6e28b184d",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part022",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "18bfa-SiYZr1YCRYsUPPPFpyoIKKyRRlk",
+      "disposicao": "IMPLANTADO",
+      "sha256": "425fcf124a22e8601b63b9f355b3ad85f8deb70eeffbc00a95628b7bab20c0eb",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part023",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1lkPzuH0hFTS7kdrqWokP93X3VWEpu4__",
+      "disposicao": "IMPLANTADO",
+      "sha256": "ad07f2e387ea1e50dd87f509a4b353190ac42a1be93e6a51b13558766f24a6ef",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part024",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1el_2xMMzd19UHOONIVyPk4_ZUfmpt0kH",
+      "disposicao": "IMPLANTADO",
+      "sha256": "7de0b92f8bf0df710c91adfb39aed0f29d0016b558653acf050848cbc1b9f1bd",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/LEIA-ME_LOTE4.md",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1F2YLci4Oj-0IaAQt2O7SCIlqOjzf51f8",
+      "disposicao": "IMPLANTADO",
+      "sha256": "b697ff002cfd59d02dd4be99d4a6b13345a1c5964a5c3ae6964ed604f6900f3b",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/LEIA-ME_LOTE5.md",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1MVsJKI-awIZJuBNWPqGgpa7w3ee1Bkz5",
+      "disposicao": "IMPLANTADO",
+      "sha256": "6d87aabd97462e81c3c9e628e8de811f65c346cee632c8602f4aeab868769cd1",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/LEIA-ME_LOTE3.md",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1YOTUQ0n9N2qEb_koX0-posd8iuThDnSQ",
+      "disposicao": "IMPLANTADO",
+      "sha256": "d9c182dd1cdc9a51d6f9ad941040f114d4fadeb95f19c462a013b3ccaa759dc6",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/LEIA-ME_LOTE6.md",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1iqtPZPwShmX9UrG_QNpWWazIjcHE0VAQ",
+      "disposicao": "IMPLANTADO",
+      "sha256": "1c5bcd7949ee5b54560e492da50324ba6954f3470a4b10e33b341bd1a62f2faa",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/LEIA-ME_LOTE2.md",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1rx3hZeEwqb275T3W6xLdM8h2dg2TZDxV",
+      "disposicao": "IMPLANTADO",
+      "sha256": "46b8bdb33e1f2da320d694588eec8a8b30655f93bc0dc49709497624893d8861",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/LEIA-ME_LOTE1.md",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "13iYKfKo_GU7Ycnku5ZB7Pione3sDJ8d2",
+      "disposicao": "IMPLANTADO",
+      "sha256": "a6ad2826d9753134234f718bd8a072d73d2ccd8b43936a6110b89ebfa308fc4e",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/LEIA-ME.md",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1C5OkakB0ruiNdhVO8_d3noS4fD4HehBr",
+      "disposicao": "IMPLANTADO",
+      "sha256": "689c80f7a86742c45680bff9a29f6daadb1a9debb64e135c7aecf1f520a1f899",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/PAR/PAR_LOTE3_1997-2017_ATOS_PARTE1.zip",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1J3mh32e7Yftj7F3JoT1vY8_E7LmNR_lz",
+      "disposicao": "IMPLANTADO",
+      "sha256": "c52b59133f204834c2340207924d575092fc8e1407cd8ebfa82838fb76595f7b",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/PAR/PAR_LOTE3_1997-2017_ATOS_PARTE2.zip",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1SApKh8ttUO-OnSbaU_DN2s4dq9bX3Zx1",
+      "disposicao": "IMPLANTADO",
+      "sha256": "51728d2fcdd7dfc505fa2608b341ba52983377a3065f370091ace506f4b3215d",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/PAR/PAR_LOTE3_2021-2024_ATOS_PARTE2.zip",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1jJTtCr8ITFMZUcqRqdjZ661wHselXSTO",
+      "disposicao": "IMPLANTADO",
+      "sha256": "2676a05062c968361a4b7f9a4e208eac9ea6fd8fda52749d29a5943c1e202409",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/PAR/PAR_LOTE3_2018-2020_ATOS_PARTE1.zip",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "14Z9lUIVXjNgDo5FkVUIyftVX6GD4FOwK",
+      "disposicao": "IMPLANTADO",
+      "sha256": "a8cdbf0b34afe440e6eaf3680f29b0c860f4fbbab4705426017c6e5171dcd0c6",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/PAR/PAR_LOTE3_2018-2020_ATOS_PARTE2.zip",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1tnZiLuoScx4vKTDxCGF35wLAnKaEvfJq",
+      "disposicao": "IMPLANTADO",
+      "sha256": "7bd470f8b2853f9cc0ae66329a7b5d36e9a48610d40dd899c6ec421b69cb4259",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/PAR/PAR_LOTE5_ATOS.zip",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1TpjBz440mBSUegmNDb9AH5qq_WMfkeMI",
+      "disposicao": "IMPLANTADO",
+      "sha256": "2c1212741bab519ea7915aea604b292611a161905cb13500b5f7df05319cfe87",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/PAR/PAR_LOTE3_2025-2026_ATOS.zip",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1cs9VswF71rWtiYfuHYdGFe1tXayuXPel",
+      "disposicao": "IMPLANTADO",
+      "sha256": "1584997ea553b6c1d60be30683004d006cd40304355cde20bb2b0c76fc686fdc",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/PAR/PAR_LOTE3_2021-2024_ATOS_PARTE1.zip",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1iF0j1ZMGAMUkiH7P57EtAYzIiTGmkcfS",
+      "disposicao": "IMPLANTADO",
+      "sha256": "dff6975fc8a31e85a4b64e964088db25f5195ea10cef309d236332132ddc7c01",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/OS/OS_LOTE5_ATOS.zip",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1r6OLEYIUbm7cvfGHfEk6ot7tvh2CLB6b",
+      "disposicao": "IMPLANTADO",
+      "sha256": "9654300fa6a3c9f33b4234eb5e62c6f3882e802d43ed79ffb1543bb572e6347c",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/PORT/PORT_LOTE4_2024-2026_ATOS.zip",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1-Nbcny8pEyBS9XOj0INxhNiDJGTAkGN2",
+      "disposicao": "IMPLANTADO",
+      "sha256": "6ed21fd699b8c626ab6b6d3973c3c92f5fcc4a8e458a078b9ebce237a32821d3",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/PORT/PORT_LOTE4_2004-2020_ATOS_PARTE2.zip",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1rtfR3GvJxBsODz-qiDwHfLfPuuAfq8MU",
+      "disposicao": "IMPLANTADO",
+      "sha256": "5669891bf0450d2e2ffcff924c8085055389101eebd7361363ea0bbef14461ac",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/PORT/PORT_LOTE4_2004-2020_ATOS_PARTE1.zip",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Nb7juaHoXbkYYxKcSpHsNbYIjIpfamiQ",
+      "disposicao": "IMPLANTADO",
+      "sha256": "07ccd392d82f51fd4a639eac6d604e64c37f64be599427ac3f980b0673bd7620",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/PORT/PORT_LOTE4_2021-2023_ATOS_PARTE2.zip",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1-ZUJggFmVFX2hKUbWTwSXNlPizTWAlst",
+      "disposicao": "IMPLANTADO",
+      "sha256": "05b28b3c5473a0163f9f649e61ca44bd33e3e50d5c0415df1524652273092682",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/PORT/PORT_LOTE5_ATOS.zip",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1TDCQT6S1hPLdGexv8LK4146QwfLTY7Wl",
+      "disposicao": "IMPLANTADO",
+      "sha256": "5ad384fc0ae4a30d4c78a44048d45e7a6a2c978712bfe9e66b1d7eb0c78cd3a7",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/LEGISLACAO/LEGISLACAO_LOTE6_ATOS.zip",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1FvYgWADv5_6qhV8ZoJekLqooM_sc4WK-",
+      "disposicao": "IMPLANTADO",
+      "sha256": "6aab8c67bea46a84775736a2a35e684fa5a461966464d1074dd71c4a76759e94",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/OUTROS/OUTROS_LOTE5_ATOS.zip",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "10rWy28QdQavqZNZ1XMfMhr3_6xrb4oRO",
+      "disposicao": "IMPLANTADO",
+      "sha256": "078f28fff0ce75e03bbf5e97321668f4e150b5dd3879c44be3598b80887d6efa",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/EDITAL/EDITAL_LOTE5_ATOS.zip",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1soLWxJoK97ZV3_89DnQxazXpaimvjs5p",
+      "disposicao": "IMPLANTADO",
+      "sha256": "41be032d9dfe85f4df640866113679544fc0f375db4495ba7a7609072dd2bde2",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2025_N_00800/RES_2025_N_00800_TEXTO_DOU_V1.txt",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1OhW1SHoCaQuFM1OFmBjNBW88DLqQjEjp",
+      "disposicao": "IMPLANTADO",
+      "sha256": "9e52af612a1df7b5e460cdce40ecd2f667aaf99df8f1343b10e3a61aba75eb07",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2025_N_00800/RES_2025_N_00800_DOU_FONTE.pdf",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1zeQMh3kKYGiOdo9nUuE0PoBgR45fbUkg",
+      "disposicao": "IMPLANTADO",
+      "sha256": "d3e05773eb1d26d51fc45cf38b287d6613595c82c7af92b54f8b254bf6296375",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2025_N_00800/RES_2025_N_00800_VALIDACAO_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Rw9TVYRD7aZH_PaS5zl-UVj5wiZFykDa",
+      "disposicao": "IMPLANTADO",
+      "sha256": "93b84fc5fc0dc6b9a599cadbcc6d884e86ff010291947db8ee7f821610f79ca0",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2025_N_00800/RES_2025_N_00800_NORMA_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "12ixtHSVKmrCLXRcBYsMAlm13VzIWmAu6",
+      "disposicao": "IMPLANTADO",
+      "sha256": "70e93608b7a38be7929b2be4907aabfcde8700367368136b54eb39339ba56597",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2025_N_00800/RES_2025_N_00800_ATOMOS_V1.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "18Nw71-pLqwka5SdObM4u5do_pz0QkeqK",
+      "disposicao": "IMPLANTADO",
+      "sha256": "632dd214f8ec029697baffaf7ce056308dc5aacc0c4add78494b98d8693d326b",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2025_N_00800/MANIFESTO_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1yzKvPGqUTqTNx16GhvGK0aPclteKS7ZJ",
+      "disposicao": "IMPLANTADO",
+      "sha256": "84d9b01cfb9fcc1ffc3a1a48256e579cac33ae945453c38a89259f25a78dbe86",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00813/RES_2026_N_00813_TEXTO_DOU_V1.txt",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1zaEFG9rcjXdpYi_8T1i0RGAdwrZ_Reim",
+      "disposicao": "IMPLANTADO",
+      "sha256": "f6bae4953df11c2054edd5a795ffa9862160194dabad1a6861254d01a9c83d66",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00813/RES_2026_N_00813_DOU_FONTE.pdf",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1tr5ygcS5NRc4oYchO_5kpFk06mceZzol",
+      "disposicao": "IMPLANTADO",
+      "sha256": "068740d062326d57794fb914e454d0e472eeda0f928c9d88d3d44b90f4db4f57",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00813/RES_2026_N_00813_VALIDACAO_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "19dThs6QP5r-EexXvPAK854uwUhD-CdnY",
+      "disposicao": "IMPLANTADO",
+      "sha256": "f777fe3ceff9ac1b0ed02bb102e3beaf87dfbdc26bf62e57fd492167b9acc796",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00813/RES_2026_N_00813_ATOMOS_V1.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1A4BaDbm1cNfD19lEnWC9o7XXpnsXOr3I",
+      "disposicao": "IMPLANTADO",
+      "sha256": "ab3636111185738c602096ffb5c1e3e8cae71d5be61c87ff9c148115f2ce831a",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00813/MANIFESTO_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "18zFKbVNXS0jTuC3RCrLB_B3DpDfCfVDh",
+      "disposicao": "IMPLANTADO",
+      "sha256": "8a0d211e96191417488bbe383d1519afcab83de2e59ba0c04ecec6466bcc3387",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00813/RES_2026_N_00813_NORMA_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1iH4DtCkKo9jiyK2wPasZc2hqaE2hgaQz",
+      "disposicao": "IMPLANTADO",
+      "sha256": "473a7783d365f2228e1ad7952f2bf7ff8f10a80d45e64ee5fe4a4caf0b36825a",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00814/RES_2026_N_00814_TEXTO_DOU_V1.txt",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1L3tWQEuALyQZb3FoGtkjvIfL7QLaj-k7",
+      "disposicao": "IMPLANTADO",
+      "sha256": "5486e25faaac13d53b15b38829984745ca2b77bdde73539f5159cdd3aa159fbb",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00814/RES_2026_N_00814_DOU_FONTE.pdf",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "12GWEIcfQwAw-NuHyi9NfLYrrVqSueVqV",
+      "disposicao": "IMPLANTADO",
+      "sha256": "ece5b1e76eb0510649e5a26099a9be4c36844bdd99cf4a230c042a9242a79573",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00814/MANIFESTO_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "18C7BZjdl4a1G-LM-EqmcH7nuAuh_bwZj",
+      "disposicao": "IMPLANTADO",
+      "sha256": "8a65532dad6301dec8da46e32003ad550219d91e078f8080bace836bc4ee6bf7",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00814/RES_2026_N_00814_ATOMOS_V1.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1yoQKK3NSs6DVoBJoB3MZ3T2cdOxOIE7k",
+      "disposicao": "IMPLANTADO",
+      "sha256": "04e7547d2593ad7131f8c3c88c0cfd86ef3ad0ece1f36c4b1767173e5d317f11",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00814/RES_2026_N_00814_VALIDACAO_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1IPz2__ra5ak4VrBWZCXCcU12b1BvgQYj",
+      "disposicao": "IMPLANTADO",
+      "sha256": "8e8c2d5693cb36fb6b8088e0c478ebbe62cd0453cad262f744f80efdb91d0190",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00814/RES_2026_N_00814_NORMA_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Tn6keWfq4FCkN4V6TULbEDABXckJeo-P",
+      "disposicao": "IMPLANTADO",
+      "sha256": "0f1b2c84ad352d66b9b70a0973339f59d555b69c31bd0736b1f28fd3237d3c61",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00809/RES_2026_N_00809_TEXTO_DOU_V1.txt",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1THvkEfa_7Y6a78o7AJWJVFIRkr1weW0b",
+      "disposicao": "IMPLANTADO",
+      "sha256": "1b3c67393e12a8f4aad71ecc4654d1c6af326eea4dc02cf044ce836664bdfa1b",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00809/RES_2026_N_00809_DOU_FONTE.pdf",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1AX-HzWY5-vxsRRy1gyBtBRZq89I3z98K",
+      "disposicao": "IMPLANTADO",
+      "sha256": "5066ca292ee7e6cf41f840923bcfbe4293c96c9708ae0dfe1a24fcf246554c97",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00809/RES_2026_N_00809_NORMA_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1oZX54LuFl4ErdJK0csokrayOtsYr-B0W",
+      "disposicao": "IMPLANTADO",
+      "sha256": "9063e7097cd51c7d8ad26c891d69a32485cf3a6526de85364d972939a418fbd9",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00809/MANIFESTO_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1jjzEHENl7yi9AL5Enn-9cm1UKyOlVccB",
+      "disposicao": "IMPLANTADO",
+      "sha256": "6f4789932aa47cba3d4f081fa595e1a5a820b0f00ffde6aecbfc8bdd904348c9",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00809/RES_2026_N_00809_VALIDACAO_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1MeqkvqRGNiCO40fC-vfdm75wMJeBpRpd",
+      "disposicao": "IMPLANTADO",
+      "sha256": "b47ffa9d16b9ea1d82794b7fde21d5eddf96c1484bb771f72f726a2b7f0b9bf8",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00809/RES_2026_N_00809_ATOMOS_V1.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1BWK2ttlI2dFMtXjR5Y-v4cs77MpPcqdZ",
+      "disposicao": "IMPLANTADO",
+      "sha256": "1669ccf9a0324f17429dfdd009e619f17c6c5b9cf51ad4ca6247c400a4a6c24c",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00806/RES_2026_N_00806_TEXTO_DOU_V1.txt",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Grw8Z-fI69gP_cvd1n85nOsNgtN8hYEt",
+      "disposicao": "IMPLANTADO",
+      "sha256": "58439e0c59480b65e7bf3d2815d9d3d62bd6d786f3623084367004fdd03b9547",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00806/RES_2026_N_00806_DOU_FONTE.pdf",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1eIp-RFMURRx5NkSGBzWcqcsFLudzq8jA",
+      "disposicao": "IMPLANTADO",
+      "sha256": "668927d9a1c92eb1727f323c43324bd272a06361062ae9f66fbbbae625388876",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00806/RES_2026_N_00806_NORMA_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1GeJHyt6SXeNdElEVVly1YDBux2xAjVrC",
+      "disposicao": "IMPLANTADO",
+      "sha256": "21f6ed91c40b073398d50eb701c1d711e3e1e6b7914345be0c9ccd99b43b6157",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00806/MANIFESTO_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1BTjqX5-kW5p3eMhqLJyl6FwDhbnerVFi",
+      "disposicao": "IMPLANTADO",
+      "sha256": "2b00010c634fc711b8e3d15e2a9853ba17cdd294ce344b0c0e2cfb984c15d0ad",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00806/RES_2026_N_00806_ATOMOS_V1.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1YcS-wZExSBXQVjx9eRFXoaSlF5Vuh7gg",
+      "disposicao": "IMPLANTADO",
+      "sha256": "e916240b455eb180bcd7536840739bfbaa7f6ef85b35c4fbb9d76441a353bc99",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00806/RES_2026_N_00806_VALIDACAO_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Y-fiPjgDzcaEkcCzNYzf_JxkxFoTR6JA",
+      "disposicao": "IMPLANTADO",
+      "sha256": "9a3ea61e94f0994d1e69e52de050d89d3442cf0d368365b6b0b8dd20b82c932f",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00802/RES_2026_N_00802_TEXTO_DOU_V1.txt",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1fbQ9pqiUWvJJzGnhlgwCrnNgSQbeBxBS",
+      "disposicao": "IMPLANTADO",
+      "sha256": "ee105280cf5b9ecbb304ddf964f0e2e909a7f20891e00597aeced712972df4f4",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00802/RES_2026_N_00802_DOU_FONTE.pdf",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1dDQp6ADTZUbdd-EN_6fDhO3fdSBxZw1B",
+      "disposicao": "IMPLANTADO",
+      "sha256": "72a2a6ae89bdca58ff6cf624657ab309d82173cdb30d44693a54e2d0e0898fe6",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00802/RES_2026_N_00802_ATOMOS_V1.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1CAD-yr1dKgjdgpvFp2OU4M8W3lo1DXXw",
+      "disposicao": "IMPLANTADO",
+      "sha256": "2a5c9ced1d9374d71946edfa7d85522d769be4008c7b0cb5b5a4f027826b222b",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00802/RES_2026_N_00802_NORMA_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1zQmAMLhAVee7QqBnmTqE3IWcbrNm3owp",
+      "disposicao": "IMPLANTADO",
+      "sha256": "61552c73f4e1df2b8ee6cb632eff50b6aee9007b426ea1a0a258e2f6ddf1563b",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00802/MANIFESTO_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1ts4-BQjENpFtmejltQDy7q1PMoHeIfjr",
+      "disposicao": "IMPLANTADO",
+      "sha256": "3465c6d77a53d533733c6f68676b95eb1599c48af495f7ca69d689c27dc95356",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00802/RES_2026_N_00802_VALIDACAO_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1_Srerhny2Z-MIEfygZt-SbLIshi5At-B",
+      "disposicao": "IMPLANTADO",
+      "sha256": "73793e742f894651b8704ebf9c891d2c0f8406f9246e2a5c77d467669814fbff",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00811/RES_2026_N_00811_TEXTO_DOU_V1.txt",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1ZtdFv4VHEMZnKHHRNUU6zk1Ud6KOIqke",
+      "disposicao": "IMPLANTADO",
+      "sha256": "7f1db5653b8b287544cc8b30163108a11d962dc5f33718ee92ade0c14637bb6e",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00811/RES_2026_N_00811_DOU_FONTE.pdf",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1yrxCAxmV0lVcdx5t2PUCyMiabAS3PQkE",
+      "disposicao": "IMPLANTADO",
+      "sha256": "28c457c7bb6eb4fd91960cb5bed5faa73246603e484beb5a7ddc5bdebb0ed26e",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00811/MANIFESTO_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1F0BYfa_u36J-gb-kM9pe7LBrRIMseeoQ",
+      "disposicao": "IMPLANTADO",
+      "sha256": "1c26ff89d7c1ae0712937a0aaeedf1cb44336f68f41c7c01a162071ca6b3d57e",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00811/RES_2026_N_00811_NORMA_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1bNTizFMTOrD6BhMPlepXUdoq48YZ-5Bz",
+      "disposicao": "IMPLANTADO",
+      "sha256": "fee16451a409d3250c9dfe2a798f3c9b3aae4572ef00586711aef60d7280f9c4",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00811/RES_2026_N_00811_ATOMOS_V1.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1ET0Z48U78a73PKvlmPgbeIkL4l_JJptB",
+      "disposicao": "IMPLANTADO",
+      "sha256": "68c285e6c947b156af12a89eb042c7ffabce77ebc348bdaf5746f693d3b09c3f",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00811/RES_2026_N_00811_VALIDACAO_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1h8Nfuwz0ToHKB7wY3tkawicSQUSDCjzB",
+      "disposicao": "IMPLANTADO",
+      "sha256": "9e8a645afd68f3179037373c7753da3dae8034c269e1679f69ded0da7caf6f08",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00812/RES_2026_N_00812_TEXTO_DOU_V1.txt",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1WF2Wk68d6PdOs7r-kQl5lev4jtmkR9tX",
+      "disposicao": "IMPLANTADO",
+      "sha256": "0fcb9dd35af78beb593f1bec4184835b487cfc96e91170ca78b842982265be65",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00812/RES_2026_N_00812_DOU_FONTE.pdf",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1mfxJMm8B-Jqwira524LRjJnOkBFPsGgG",
+      "disposicao": "IMPLANTADO",
+      "sha256": "6822b709a2a36e782f9009f2d51333f79c23935b26764501841d5e04f6d328b6",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00812/RES_2026_N_00812_NORMA_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1s6EjAOjOFx3nPq0TpsL0Cmv9Rw_AgfgC",
+      "disposicao": "IMPLANTADO",
+      "sha256": "089294ffd6842c9ab36e4c70cd011224a5b59db3037e58017e6f2ef2b13f662c",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00812/MANIFESTO_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1_KWip4f-RYBRYZ1_mMvmVQbvdcFujmCz",
+      "disposicao": "IMPLANTADO",
+      "sha256": "b06bd54781ffd237485a7b4b3a43d4312bf4b03b3b4ace98a4171c912e627e69",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00812/RES_2026_N_00812_ATOMOS_V1.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1ywu2jr8vBzc9QRYdV9X82hNIBGHaLXsl",
+      "disposicao": "IMPLANTADO",
+      "sha256": "0a8bb820e8f2339752ec2f8bcd126f13aaa1538a1eaddf918275e4a73e2cd79d",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00812/RES_2026_N_00812_VALIDACAO_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1n5eZ-HUs1C7n6ID5jv_I_HvUp4JYCSPM",
+      "disposicao": "IMPLANTADO",
+      "sha256": "0702442df8b552dfb023a575b575504485465236a64c1d5511e5907867789012",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00810/RES_2026_N_00810_TEXTO_DOU_V1.txt",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1-pRIr0zeYcW46vsu3QL7pfrRHra6sCOL",
+      "disposicao": "IMPLANTADO",
+      "sha256": "1b3c67393e12a8f4aad71ecc4654d1c6af326eea4dc02cf044ce836664bdfa1b",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00810/RES_2026_N_00810_DOU_FONTE.pdf",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1n-Tg4l8TncnWVYfacXafnY7c1OaFKBnW",
+      "disposicao": "IMPLANTADO",
+      "sha256": "499e9fdcd293ab8bbacf7a7ba52d4b50cc4e550e0dfb07e5a0ad9701d6513907",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00810/RES_2026_N_00810_VALIDACAO_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Li8EOXVVnbV2tNZohSjAmUgYIPDvBkMz",
+      "disposicao": "IMPLANTADO",
+      "sha256": "348db87deaa5a07de896e8a9293d172ff6a84f92290656837391517cfd839121",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00810/RES_2026_N_00810_ATOMOS_V1.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1F50YW4Kdrkd-jItlqwmpmqbcUtGbfnPB",
+      "disposicao": "IMPLANTADO",
+      "sha256": "98404a0d088f00048a9c2487f4caf30f7c13c560e9779ab83ffff0d5520d78e0",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00810/RES_2026_N_00810_NORMA_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1QXemlA7Tz0cnjBCu1rY8w_uPoR5rzDix",
+      "disposicao": "IMPLANTADO",
+      "sha256": "51ff3fc852bf86b1c1e4069c5673d37d7c3ce8b014d895866365b65d01850655",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00810/MANIFESTO_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1RNbTrI15IfOK97D4C1_I2tlR73qeCUjB",
+      "disposicao": "IMPLANTADO",
+      "sha256": "9032acb5395433e3d02ddbf6daf39e2fc3984fd710963b14281de303952560a7",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00808/RES_2026_N_00808_TEXTO_DOU_V1.txt",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1huXTV_CZCshvUg-DScW_qg2XCbYgiwHp",
+      "disposicao": "IMPLANTADO",
+      "sha256": "242bd055860dd0585711e9e605eab57d00195f21ab1f4958c83f7ab172b25836",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00808/RES_2026_N_00808_DOU_FONTE.pdf",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1TTJDVBNu7TGJFviAOdAzWe-hPRj6he86",
+      "disposicao": "IMPLANTADO",
+      "sha256": "eba46b593b29ce88f6464d5ebe0bcbcd44694c8ff7b634999e5983c8260826dc",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00808/MANIFESTO_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1IQL02k1AAvhmUWg6POEgkadtr_dkKP8A",
+      "disposicao": "IMPLANTADO",
+      "sha256": "ccf3c45fe4c79a2a2b84519afdd2aa909fa3b6fe2fa7a452431d8a242f48a15f",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00808/RES_2026_N_00808_VALIDACAO_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Lf38tvr6sgEIDzjyDhyzPsdbcqQIQkBk",
+      "disposicao": "IMPLANTADO",
+      "sha256": "ab8483102432c3925b3149cda36a8210571a277fb3e49803b7295f54bde83438",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00808/RES_2026_N_00808_NORMA_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1vB44Bxzym7REy0Wsm5KEb44UWWKOTmSN",
+      "disposicao": "IMPLANTADO",
+      "sha256": "2066965d154e8519de0e715b871474cc42d43a9b8c14f2232935e3be5ebe399a",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00808/RES_2026_N_00808_ATOMOS_V1.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1v1qnfMSHjHWxREAOTPNokaWLUoYhl6TB",
+      "disposicao": "IMPLANTADO",
+      "sha256": "ee467b929e53b273a527ab850bdb3e131a4d04b8d171f8451901cb60211639f5",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00807/RES_2026_N_00807_TEXTO_DOU_V1.txt",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1bsOeuMDZyWhhy_v-15Dh5HxMPKL1-x2W",
+      "disposicao": "IMPLANTADO",
+      "sha256": "e11d3ef1f867d04d7827eccf13ee2c94e234980d597c2ceaab350decffe1ee77",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00807/RES_2026_N_00807_DOU_FONTE.pdf",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1prolcDtwQXFd0Y3dOciY-qXnrNySXb1g",
+      "disposicao": "IMPLANTADO",
+      "sha256": "88a4c67cbe27ae1efb3288a327a8e05fc3cea69821bb841f46466e75bd77cfe5",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00807/MANIFESTO_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1vukbet6WmHTrJnCIGj3Xjg273wDjbEjN",
+      "disposicao": "IMPLANTADO",
+      "sha256": "a3e92893c068b251d12f6899fad0bfd27deb73ac7df01518367b72a70a01c548",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00807/RES_2026_N_00807_VALIDACAO_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1LE20Hp1pMXErr0W1wyVj0fiWaHQHfyUT",
+      "disposicao": "IMPLANTADO",
+      "sha256": "1f86bdadf21f386de9e4dbe7e371d0b46002b35afb4c3cfbef1a47ce1a59bd0a",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00807/RES_2026_N_00807_NORMA_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1288z8hycrQBImPv73ouXTYghbShO1Hop",
+      "disposicao": "IMPLANTADO",
+      "sha256": "688b0c7738da8747543bcbb9a50140c9d984faf6fbdb8ab187e89224b80a753d",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00807/RES_2026_N_00807_ATOMOS_V1.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "13DMCK2bQSPCMzSGjH8glOVmXRoT3Vpvn",
+      "disposicao": "IMPLANTADO",
+      "sha256": "d1772a469c7cc724095edb0d153919dff1ccadc44548dc0ea4970f57d7f9dd16",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/PORT/fracoes/PORT_LOTE4_2021-2023_ATOS_PARTE1.zip/manifesto.json",
       "estado_origem": "AUSENTE"
     }
   ],

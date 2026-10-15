@@ -1,0 +1,43 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-camara-tecnica-no-056-2020-cofen-ctas/ (API WordPress post 86691); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2020_N_00056_CTAS_ATOMOS_V1.jsonl",
+      "sha256": "b8806d89e059a082daeaba13aba12a067b7a9364578d2e74263d18988f81c863",
+      "tamanho": 35972
+    },
+    {
+      "nome": "PARCT_2020_N_00056_CTAS_CONTEUDO_SITE_API.json",
+      "sha256": "b5f694dc3ed276d8223fa939fb311cd82392f08849ffff082400af0d2b010cdd",
+      "tamanho": 12944
+    },
+    {
+      "nome": "PARCT_2020_N_00056_CTAS_NORMA_V1.json",
+      "sha256": "9a2f2046a76d86a6421668890e0ca328b9ce302817efddc93f2d8a64fe066b88",
+      "tamanho": 4350
+    },
+    {
+      "nome": "PARCT_2020_N_00056_CTAS_PAGINA_SITE.html",
+      "sha256": "dba9217ddbc852f9badb58bf2477bc88e93be0dbf4a1837a6699ea935d176d55",
+      "tamanho": 450463
+    },
+    {
+      "nome": "PARCT_2020_N_00056_CTAS_TEXTO_FONTE_V1.txt",
+      "sha256": "fee0d358ac9e3040c93ae917eeaddfc1ad0213384ebdf671da860bb2e2ed11a1",
+      "tamanho": 10745
+    },
+    {
+      "nome": "PARCT_2020_N_00056_CTAS_VALIDACAO_V1.json",
+      "sha256": "0bfd5f045c7b4152f0eb90ce6499a27129a4e217cb9027dcb74e950901e707ee",
+      "tamanho": 3289
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir."
+  ]
+}

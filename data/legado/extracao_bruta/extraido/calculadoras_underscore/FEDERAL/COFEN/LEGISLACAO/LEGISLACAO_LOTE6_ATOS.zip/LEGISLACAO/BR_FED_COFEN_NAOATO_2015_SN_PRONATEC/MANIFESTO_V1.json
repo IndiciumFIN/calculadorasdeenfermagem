@@ -1,0 +1,53 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/pronatec/ (API WordPress post 36765); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "NAOATO_2015_SN_PRONATEC_ATOMOS_V1.jsonl",
+      "sha256": "717e4204f762867e7dca674905ee808b9289f97b4f057d77f223dce1e8282f5f",
+      "tamanho": 2253
+    },
+    {
+      "nome": "NAOATO_2015_SN_PRONATEC_CONTEUDO_SITE_API.json",
+      "sha256": "29f4c3bd17b5fdc7e5a8a0308b5223d6909579068380a0f7f68975aef97f7380",
+      "tamanho": 880
+    },
+    {
+      "nome": "NAOATO_2015_SN_PRONATEC_NORMA_V1.json",
+      "sha256": "822e7e496cbd7add989ec538b57579ca1b92c76c67d53bed1c692b3622f1b101",
+      "tamanho": 2832
+    },
+    {
+      "nome": "NAOATO_2015_SN_PRONATEC_PAGINA_SITE.html",
+      "sha256": "b355f961dc6797db3a652a73a3d173bdfaa8ac3f611cb58672eafe9b9c42f10e",
+      "tamanho": 439527
+    },
+    {
+      "nome": "NAOATO_2015_SN_PRONATEC_PDF_SITE.pdf",
+      "sha256": "43fa1cc4fe781af092a5c0c6fabc73f6d647c595cd01f7163ba6803978d095f0",
+      "tamanho": 159883
+    },
+    {
+      "nome": "NAOATO_2015_SN_PRONATEC_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "824e4b42c8e3fbfa36deea8cf3773b45b34d897e20d48ce36b60310a19875f24",
+      "tamanho": 58333
+    },
+    {
+      "nome": "NAOATO_2015_SN_PRONATEC_TEXTO_FONTE_V1.txt",
+      "sha256": "d9d9bff705b486646b588bbd308b21d77d083552249e6fb406698fa646899136",
+      "tamanho": 614
+    },
+    {
+      "nome": "NAOATO_2015_SN_PRONATEC_VALIDACAO_V1.json",
+      "sha256": "a4f8b4cd617789f7aa039b647b228e2763da0cd5f0688e6fa16176b13ae01210",
+      "tamanho": 17415
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "256 trecho(s) do PDF sem correspondente no texto do site.",
+    "Ato sem número no site; identificador formado por slug.",
+    "TIPO: listado em categoria de Legislação, mas o título não identifica um ato (\"PRONATEC\"). ANO: ano do ato não consta do título; usado o ano do post (data de publicação no site, não do ato)."
+  ]
+}

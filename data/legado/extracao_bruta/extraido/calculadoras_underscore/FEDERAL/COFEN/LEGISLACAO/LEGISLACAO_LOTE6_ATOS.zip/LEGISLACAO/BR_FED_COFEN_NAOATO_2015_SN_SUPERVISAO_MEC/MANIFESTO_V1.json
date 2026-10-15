@@ -1,0 +1,54 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/supervisao-mec/ (API WordPress post 36781); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "NAOATO_2015_SN_SUPERVISAO_MEC_ATOMOS_V1.jsonl",
+      "sha256": "7bd6202d24f485ecbec78733014fa44dfa76e357c104cff35246410bd23612d0",
+      "tamanho": 47082
+    },
+    {
+      "nome": "NAOATO_2015_SN_SUPERVISAO_MEC_CONTEUDO_SITE_API.json",
+      "sha256": "41e488a37fbcaf7e775457c3fe658333f62d428c1b1d1777047fadc85fe8af7a",
+      "tamanho": 401
+    },
+    {
+      "nome": "NAOATO_2015_SN_SUPERVISAO_MEC_NORMA_V1.json",
+      "sha256": "c8f40a5a1fe7fb7137938a66c64b8be84ada5278ef504d8ff53ad31bbd1a1f61",
+      "tamanho": 3322
+    },
+    {
+      "nome": "NAOATO_2015_SN_SUPERVISAO_MEC_PAGINA_SITE.html",
+      "sha256": "f9cc4abc7e86529934385230e536f964307b710509a50a2cc781bfeeabfd0b79",
+      "tamanho": 437570
+    },
+    {
+      "nome": "NAOATO_2015_SN_SUPERVISAO_MEC_PDF_SITE.pdf",
+      "sha256": "499c542a7a63948b941142f208ecce2b9fc002f10ec5ab3c2248783cb1c3505c",
+      "tamanho": 501058
+    },
+    {
+      "nome": "NAOATO_2015_SN_SUPERVISAO_MEC_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "32aae28c8480e3dbe72f6dc08471b92d36bcb159629414a6abb9092c4627a146",
+      "tamanho": 4068
+    },
+    {
+      "nome": "NAOATO_2015_SN_SUPERVISAO_MEC_TEXTO_FONTE_V1.txt",
+      "sha256": "6ae32fd80527e51b89038212afcd3e5d1e4ac2255c6b0c5e65a88946fa68fbe2",
+      "tamanho": 4084
+    },
+    {
+      "nome": "NAOATO_2015_SN_SUPERVISAO_MEC_VALIDACAO_V1.json",
+      "sha256": "9471d645ce75047fde182faec9c2725c4280bab4e53cd3b49ccb0f8e446cae26",
+      "tamanho": 3233
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Texto do ato disponível apenas no PDF (o site traz só título/resumo); atomização feita a partir da camada de texto do PDF.",
+    "Ato sem número no site; identificador formado por slug.",
+    "TIPO: listado em categoria de Legislação, mas o título não identifica um ato (\"SUPERVISÃO MEC\"). ANO: ano do ato não consta do título; usado o ano do post (data de publicação no site, não do ato).",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

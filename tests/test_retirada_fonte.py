@@ -112,7 +112,7 @@ def test_quatro_raizes_do_drive_bloqueiam_exclusao():
 def test_ledger_do_repositorio_confere_com_as_copias():
     ledger = json.loads((REPO / "data" / "legado" / "retirada_fontes.json").read_text(encoding="utf-8"))
     assert verificar_ledger(ledger, REPO) == []
-    assert len(ledger["itens"]) == 331
+    assert len(ledger["itens"]) == 452
     assert any(p["id_origem"] == "edge:cko-env-probe" for p in ledger["pendentes"])
     assert ledger["lixeira"]["mover_implantado"] == "EFETUADO"
     assert ledger["lixeira"]["esvaziar"] == "BLOQUEAR"
@@ -167,6 +167,24 @@ def test_ledger_do_repositorio_confere_com_as_copias():
         "protocolos_enfermagem/raw/pdfs",
         "protocolos_enfermagem/raw",
         "protocolos_enfermagem",
+        "calculadoras_underscore/atlas",
+        "calculadoras_underscore/FEDERAL/COFEN/PAR",
+        "calculadoras_underscore/FEDERAL/COFEN/OS",
+        "calculadoras_underscore/FEDERAL/COFEN/LEGISLACAO",
+        "calculadoras_underscore/FEDERAL/COFEN/OUTROS",
+        "calculadoras_underscore/FEDERAL/COFEN/EDITAL",
+        "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2025_N_00800",
+        "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00813",
+        "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00814",
+        "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00809",
+        "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00806",
+        "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00802",
+        "calculadoras_underscore/FEDERAL/COFEN/PORT",
+        "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00811",
+        "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00812",
+        "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00810",
+        "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00808",
+        "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00807",
     }
     assert all(item["estado"] == "AUSENTE" for item in ledger["pastas_vazias"])
 

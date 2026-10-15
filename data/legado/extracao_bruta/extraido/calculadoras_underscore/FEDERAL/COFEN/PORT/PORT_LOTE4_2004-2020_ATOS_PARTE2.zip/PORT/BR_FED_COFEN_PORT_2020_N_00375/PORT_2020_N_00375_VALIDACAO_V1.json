@@ -1,0 +1,194 @@
+{
+  "identificador": "BR_FED_COFEN_PORT_2020_N_00375",
+  "resultado_processo": "PENDENTE",
+  "rotulo": "Pendente de verificação",
+  "controles": [
+    {
+      "nome": "Identificação do ato e emissor",
+      "resultado": "PASS",
+      "evidencia": "PORTARIA COFEN Nº 375 DE 27 DE JULHO DE 2020"
+    },
+    {
+      "nome": "Conferência site HTML × PDF oficial, dispositivo a dispositivo",
+      "resultado": "FAIL",
+      "status": "EXECUTADA_VIA_OCR",
+      "evidencia": {
+        "dispositivos_comparados": 16,
+        "por_resultado": {
+          "EQUIVALENTE_OCR": 5,
+          "IDENTICO_NORMALIZADO": 11
+        },
+        "trechos_pdf_ausentes_no_site": 1,
+        "pdf": "PORT_2020_N_00375_PDF_SITE.pdf"
+      }
+    },
+    {
+      "nome": "Publicação no DOU (registro, sem verificação online)",
+      "resultado": "NAO_CITADO",
+      "evidencia": null
+    },
+    {
+      "nome": "Anexos referenciados presentes e atomizados",
+      "resultado": "NAO_APLICAVEL",
+      "status": "SEM_ANEXO_REFERENCIADO",
+      "referencias": []
+    },
+    {
+      "nome": "Numeração contígua (seções, itens, alíneas)",
+      "resultado": "PASS",
+      "evidencia": null
+    },
+    {
+      "nome": "Conferência humana da literalidade",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Pesquisa de alterações posteriores",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Direitos autorais do texto do ato oficial",
+      "resultado": "PASS",
+      "fundamento": "Lei 9.610/1998, art. 8, IV"
+    }
+  ],
+  "fechamento": {
+    "apto": false,
+    "status": "PENDENCIAS",
+    "justificativa": "Aguardando revisão humana da atomização e pesquisa de atos posteriores. Há achados bloqueantes adicionais."
+  },
+  "achados": [
+    {
+      "codigo": "C001",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Atomização automática; requer conferência humana da segmentação e da literalidade."
+    },
+    {
+      "codigo": "C002",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada."
+    },
+    {
+      "codigo": "C014",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "1 trecho(s) do PDF sem correspondente no texto do site.",
+      "evidencia": [
+        {
+          "trecho_pdf": "calves em substituição Saúde - CTAS, que passa a ter a seguin",
+          "similaridade": 77.6,
+          "cobertura_vocabulario": 0.667,
+          "arquivo": "PORT_2020_N_00375_PDF_SITE.pdf"
+        }
+      ]
+    },
+    {
+      "codigo": "C012",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+    }
+  ],
+  "conferencia_por_dispositivo": [
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00375_EPIGRAFE_001",
+      "tipo": "epigrafe",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00375_PREAMBULO_001",
+      "tipo": "preambulo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00375_CONSIDERANDO_001",
+      "tipo": "considerando",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 98.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00375_CONSIDERANDO_002",
+      "tipo": "considerando",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 96.3
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00375_CONSIDERANDO_003",
+      "tipo": "considerando",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 98.8
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00375_ART_001",
+      "tipo": "artigo_transcrito",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 71.5
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00375_ITEM_LISTA_001",
+      "tipo": "item_lista",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00375_ITEM_LISTA_002",
+      "tipo": "item_lista",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00375_ITEM_LISTA_003",
+      "tipo": "item_lista",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00375_ITEM_LISTA_004",
+      "tipo": "item_lista",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00375_ITEM_LISTA_005",
+      "tipo": "item_lista",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00375_ART_003",
+      "tipo": "artigo_transcrito",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00375_ART_004",
+      "tipo": "artigo_transcrito",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00375_ART_005",
+      "tipo": "artigo_transcrito",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00375_LOCAL_DATA_001",
+      "tipo": "local_data",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00375_ASSINATURA_001",
+      "tipo": "assinatura",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 88.9
+    }
+  ],
+  "data_verificacao": "2026-10-10",
+  "responsavel": "Triagem automatizada - requer validação humana"
+}

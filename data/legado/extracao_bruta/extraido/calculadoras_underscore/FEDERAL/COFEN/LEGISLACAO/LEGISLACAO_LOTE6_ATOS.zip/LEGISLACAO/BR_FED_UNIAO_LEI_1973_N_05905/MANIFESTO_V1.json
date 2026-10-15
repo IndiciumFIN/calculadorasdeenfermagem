@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/lei-n-590573-de-12-de-julho-de-1973/ (API WordPress post 4162); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "LEI_1973_N_05905_ATOMOS_V1.jsonl",
+      "sha256": "3969b100c3ff313edb9017c20c979a8eeccee019d60d2afdb09e3de827669f6b",
+      "tamanho": 61119
+    },
+    {
+      "nome": "LEI_1973_N_05905_CONTEUDO_SITE_API.json",
+      "sha256": "2653f9ffac9141cdbe47f28df196b2cd80119055def971e9806162e643787914",
+      "tamanho": 10303
+    },
+    {
+      "nome": "LEI_1973_N_05905_NORMA_V1.json",
+      "sha256": "95bec2d877efcde1d01bcdf626a5e1a7f5382b3f7837626872d4f7d96455ca81",
+      "tamanho": 3165
+    },
+    {
+      "nome": "LEI_1973_N_05905_PAGINA_SITE.html",
+      "sha256": "cb93c9a531f90315a66ad0e52c2e20a73b219142fe0c2c9810ed0cc05f974ed5",
+      "tamanho": 447760
+    },
+    {
+      "nome": "LEI_1973_N_05905_TEXTO_FONTE_V1.txt",
+      "sha256": "32481cfe93c001fbdf9b0eacf3df571d5146fa01454f9d413297b85b8c960f68",
+      "tamanho": 9067
+    },
+    {
+      "nome": "LEI_1973_N_05905_VALIDACAO_V1.json",
+      "sha256": "b2078a0f3154f0a3f287bc5a9be9ca31f7ca885fe8c507d4da36aed2787e239c",
+      "tamanho": 2450
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

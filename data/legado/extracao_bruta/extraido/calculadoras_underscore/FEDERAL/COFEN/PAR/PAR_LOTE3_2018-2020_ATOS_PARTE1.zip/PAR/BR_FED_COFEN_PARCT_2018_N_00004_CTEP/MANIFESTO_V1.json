@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-004-2018-ctep-cofen/ (API WordPress post 63127); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2018_N_00004_CTEP_ATOMOS_V1.jsonl",
+      "sha256": "c4bf1d4e712550a0ce5340afb287f6d9c15cc3aeb3361624975c4244da991d49",
+      "tamanho": 23309
+    },
+    {
+      "nome": "PARCT_2018_N_00004_CTEP_CONTEUDO_SITE_API.json",
+      "sha256": "ec61be928c706a23eb854e88b71e0975ceac165d6d66c6eeeafadae4839a10b2",
+      "tamanho": 9977
+    },
+    {
+      "nome": "PARCT_2018_N_00004_CTEP_NORMA_V1.json",
+      "sha256": "269a98f821edff9cbc1db631500e37e8cbf8c78a9c19812623130770db438916",
+      "tamanho": 3925
+    },
+    {
+      "nome": "PARCT_2018_N_00004_CTEP_PAGINA_SITE.html",
+      "sha256": "a7a69fe83f3713c25436b78c6fbad952046c0cae8b1095d03df1d3d93d80bacc",
+      "tamanho": 450159
+    },
+    {
+      "nome": "PARCT_2018_N_00004_CTEP_PDF_SITE.pdf",
+      "sha256": "a5f4c03544c4fa6cad1495f0104db98b0234b09bc0bf1f791c62129b01262bb9",
+      "tamanho": 986908
+    },
+    {
+      "nome": "PARCT_2018_N_00004_CTEP_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "8ed566b08a015810792dd7096eb302826bf5bb07a5d3087743a46987cc565f26",
+      "tamanho": 3582
+    },
+    {
+      "nome": "PARCT_2018_N_00004_CTEP_TEXTO_FONTE_V1.txt",
+      "sha256": "e4a9953e27e7fd1434939535f0559357d2a100cd0e65bf8bf3fdf247e81c2293",
+      "tamanho": 3464
+    },
+    {
+      "nome": "PARCT_2018_N_00004_CTEP_VALIDACAO_V1.json",
+      "sha256": "de319ebc33b8a232974b8e71cadfe1a0b33fbb97bec8e2b31a18560b67da1744",
+      "tamanho": 7527
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-camara-tecnica-no-0056-2022-ctln-ctas-cofen/ (API WordPress post 111589); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2022_N_00058_CTLN_ATOMOS_V1.jsonl",
+      "sha256": "c90340b732b5452de878b5f7b3094409cf9096ba8643cee68e2fd55e54af217c",
+      "tamanho": 48289
+    },
+    {
+      "nome": "PARCT_2022_N_00058_CTLN_CONTEUDO_SITE_API.json",
+      "sha256": "70b56cfac85ffd11345cf7141c408a95184e25dd8d3956d1749220590a8db2da",
+      "tamanho": 7314
+    },
+    {
+      "nome": "PARCT_2022_N_00058_CTLN_NORMA_V1.json",
+      "sha256": "896681e6299fa30f08f40183b52146f32a55fca51999b8c226387777c43a8646",
+      "tamanho": 2770
+    },
+    {
+      "nome": "PARCT_2022_N_00058_CTLN_PAGINA_SITE.html",
+      "sha256": "f91c3a414f116d06be5fa27536fa0f82513437bd6ead598630cfa9588eb22784",
+      "tamanho": 444925
+    },
+    {
+      "nome": "PARCT_2022_N_00058_CTLN_TEXTO_FONTE_V1.txt",
+      "sha256": "ff88174e1bd7b08322a8846c3b9b8b87ff78a37f52cf36700f871c9f93758dc9",
+      "tamanho": 6259
+    },
+    {
+      "nome": "PARCT_2022_N_00058_CTLN_VALIDACAO_V1.json",
+      "sha256": "32bb1826391fcdaed6a734449a5f2205b6c7567b94439a4d0d433df4dcb3aaa1",
+      "tamanho": 2874
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir."
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/projetos-de-lei-2/ (API WordPress post 4225); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "NAOATO_2010_SN_PROJETOS_LEI_ATOMOS_V1.jsonl",
+      "sha256": "2478673606265d3ae1b859a04a66d64a899fd9961103436243fa385cdb7a8d93",
+      "tamanho": 99739
+    },
+    {
+      "nome": "NAOATO_2010_SN_PROJETOS_LEI_CONTEUDO_SITE_API.json",
+      "sha256": "125e6c16ffe71624745503a748156bc2feaa9734615877c89983c8e57077ca38",
+      "tamanho": 11785
+    },
+    {
+      "nome": "NAOATO_2010_SN_PROJETOS_LEI_NORMA_V1.json",
+      "sha256": "dff2a8ad577be2cb37d450d868a94b9988818e94af28056513f9a72bbdbcec94",
+      "tamanho": 7626
+    },
+    {
+      "nome": "NAOATO_2010_SN_PROJETOS_LEI_PAGINA_SITE.html",
+      "sha256": "0d3709bab5a7495252b8975fe2e359a422ced75e0cf9cc358fb060f03e9de942",
+      "tamanho": 448393
+    },
+    {
+      "nome": "NAOATO_2010_SN_PROJETOS_LEI_TEXTO_FONTE_V1.txt",
+      "sha256": "21e76467117744abe054d07131c99a28f7c1e43565f0d1896217a596719ff0e5",
+      "tamanho": 10313
+    },
+    {
+      "nome": "NAOATO_2010_SN_PROJETOS_LEI_VALIDACAO_V1.json",
+      "sha256": "ca8d3cc3ca5ba9c333ee1be8b2ef577f87f8fb0d912bc14bb35d1f380a9c77bb",
+      "tamanho": 3180
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Ato sem número no site; identificador formado por slug.",
+    "TIPO: listado em categoria de Legislação, mas o título não identifica um ato (\"PROJETOS DE LEI\"). ANO: ano do ato não consta do título; usado o ano do post (data de publicação no site, não do ato).",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

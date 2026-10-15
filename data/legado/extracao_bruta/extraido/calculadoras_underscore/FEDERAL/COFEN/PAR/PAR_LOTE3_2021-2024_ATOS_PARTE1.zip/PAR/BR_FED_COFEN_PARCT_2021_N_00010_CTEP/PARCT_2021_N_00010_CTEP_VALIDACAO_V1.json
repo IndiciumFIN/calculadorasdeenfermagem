@@ -1,0 +1,595 @@
+{
+  "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP",
+  "resultado_processo": "PENDENTE",
+  "rotulo": "Pendente de verificação",
+  "controles": [
+    {
+      "nome": "Identificação do ato e emissor",
+      "resultado": "PASS",
+      "evidencia": "PARECER DE CÂMARA TÉCNICA Nº 10/2021/CTEP/COFEN"
+    },
+    {
+      "nome": "Conferência site HTML × PDF oficial, dispositivo a dispositivo",
+      "resultado": "FAIL",
+      "status": "EXECUTADA_TEXTO_PDF",
+      "evidencia": {
+        "dispositivos_comparados": 57,
+        "por_resultado": {
+          "AUSENTE_NO_PDF": 4,
+          "DIFERENCA_MENOR": 11,
+          "DIVERGENTE": 1,
+          "EQUIVALENTE_ORDEM_OU_QUEBRA_DIFERENTE": 8,
+          "IDENTICO_NORMALIZADO": 33
+        },
+        "trechos_pdf_ausentes_no_site": 21,
+        "pdf": "PARCT_2021_N_00010_CTEP_PDF_SITE.pdf"
+      }
+    },
+    {
+      "nome": "Publicação no DOU (registro, sem verificação online)",
+      "resultado": "NAO_CITADO",
+      "evidencia": null
+    },
+    {
+      "nome": "Anexos referenciados presentes e atomizados",
+      "resultado": "NAO_APLICAVEL",
+      "status": "SEM_ANEXO_REFERENCIADO",
+      "referencias": []
+    },
+    {
+      "nome": "Numeração contígua (seções, itens, alíneas)",
+      "resultado": "PASS",
+      "evidencia": null
+    },
+    {
+      "nome": "Conferência humana da literalidade",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Pesquisa de alterações posteriores",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Direitos autorais do texto do ato oficial",
+      "resultado": "PASS",
+      "fundamento": "Lei 9.610/1998, art. 8, IV"
+    }
+  ],
+  "fechamento": {
+    "apto": false,
+    "status": "PENDENCIAS",
+    "justificativa": "Aguardando revisão humana da atomização e pesquisa de atos posteriores. Há achados bloqueantes adicionais."
+  },
+  "achados": [
+    {
+      "codigo": "C001",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Atomização automática; requer conferência humana da segmentação e da literalidade."
+    },
+    {
+      "codigo": "C002",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada."
+    },
+    {
+      "codigo": "C011",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "5 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+      "evidencia": [
+        {
+          "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_SECAO_001",
+          "resultado": "AUSENTE_NO_PDF",
+          "similaridade": 62.3,
+          "trecho": "CONSULTAR O PARECER Nº 17/2026/CÂMARAS TÉCNICAS DE ENFERMAGEM"
+        },
+        {
+          "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_PARAGRAFO_TEXTO_033",
+          "resultado": "AUSENTE_NO_PDF",
+          "similaridade": 63.6,
+          "trecho": "Documento assinado por:"
+        },
+        {
+          "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_PARAGRAFO_TEXTO_034",
+          "resultado": "DIVERGENTE",
+          "similaridade": 77.7,
+          "trecho": "Prof. Dr. Francisco Rosemiro Guimarães Ximenes Neto, Coren – CE Nº 72.638, Coordenador e Membro CTEP;"
+        },
+        {
+          "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_PARAGRAFO_TEXTO_037",
+          "resultado": "AUSENTE_NO_PDF",
+          "similaridade": 55.6,
+          "trecho": "Prof. Dr. Jorge Domingos de Sousa Filho, Coren – RO Nº 111.710, Membro da CTEP;"
+        },
+        {
+          "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_PARAGRAFO_TEXTO_038",
+          "resultado": "AUSENTE_NO_PDF",
+          "similaridade": 67.7,
+          "trecho": "Prof. Dr. Ítalo Rodolfo Silva, Coren – RJ Nº 319.539, Membro da CTEP."
+        }
+      ]
+    },
+    {
+      "codigo": "C014",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "21 trecho(s) do PDF sem correspondente no texto do site.",
+      "evidencia": [
+        {
+          "trecho_pdf": "sc ee Parecer de Camara Técnica N° 0010/2021/CTEP/DGPE/COFEN.",
+          "similaridade": 86.8,
+          "cobertura_vocabulario": 0.75,
+          "arquivo": "PARCT_2021_N_00010_CTEP_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "0516/2016 em seu Art. 1º, 1º $ — “A comprovação da qualificação para a prática-de obsfetrícia E | SCLN, Qd. 304, Bloco E, Lote 09 -Asa Norte - Brasília - DF 25 \\ | CEP: 70.736-550 - Tel.: (61) 3329-5800 | Nº Home Page: www.portalcofen.gov.br b",
+          "similaridade": 59.7,
+          "cobertura_vocabulario": 0.412,
+          "arquivo": "PARCT_2021_N_00010_CTEP_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "cadliuirsm enterra om in ago o paso bstpimciv E e 4 /",
+          "similaridade": 54.9,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "PARCT_2021_N_00010_CTEP_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "naw CONSELHO FEDERAL DE ENFERMAGEM it a Cosimo termal de nfermetos Genet",
+          "similaridade": 65.3,
+          "cobertura_vocabulario": 0.429,
+          "arquivo": "PARCT_2021_N_00010_CTEP_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "É \\ Ps 3 SCLN, Qd. 304, Bloco E, Lote 09 -Ash Norte - Brasília - DF Nat CEP: 70.736-550 - Tel.: (61) 3329-5800 A. | Home Page: www.portalcofen.gov.br \\",
+          "similaridade": 48.0,
+          "cobertura_vocabulario": 0.1,
+          "arquivo": "PARCT_2021_N_00010_CTEP_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "e e CTEP, CONSELHO FEDERAL DE ENFERMAGEM Fi ‘sd. Coase internacional te tnfevonis-Gete esguiia Fls, Add one tomara tres Ge [ Pi",
+          "similaridade": 57.0,
+          "cobertura_vocabulario": 0.455,
+          "arquivo": "PARCT_2021_N_00010_CTEP_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Prof. Dr. Francisco Rosemiro imarães Ximenes Neto Coordenador e Membro CTEP",
+          "similaridade": 80.8,
+          "cobertura_vocabulario": 0.889,
+          "arquivo": "PARCT_2021_N_00010_CTEP_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Prof-Dr=ftalo ira Silva Membro da CTEP Coren — RJ N° 319.539",
+          "similaridade": 68.4,
+          "cobertura_vocabulario": 0.833,
+          "arquivo": "PARCT_2021_N_00010_CTEP_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "CEP: 70.736-550 - Tel.: (61) 3329-5800 Home Page: www.portalcofen.gov.br",
+          "similaridade": 46.9,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "PARCT_2021_N_00010_CTEP_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "a \\ 90800\" —SWhatsapp~ convénios~ sejaumpoto — seja um atitado - (NETNETETETES (",
+          "similaridade": 46.3,
+          "cobertura_vocabulario": 0.143,
+          "arquivo": "PARCT_2021_N_00010_CTEP_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Unyleya $# vaduacdo wad itigradusção sad | itoficão asi Contios especializados conhe cuntoo- [8",
+          "similaridade": 52.3,
+          "cobertura_vocabulario": 0.125,
+          "arquivo": "PARCT_2021_N_00010_CTEP_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "(Código) Nome da TES: 1 (3876)Faculdade Unyleya - Situação:",
+          "similaridade": 63.5,
+          "cobertura_vocabulario": 0.667,
+          "arquivo": "PARCT_2021_N_00010_CTEP_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Q Cadastro Nacional de Cursos de Especialização (Lato sensu) - Educação a Distância",
+          "similaridade": 60.8,
+          "cobertura_vocabulario": 0.75,
+          "arquivo": "PARCT_2021_N_00010_CTEP_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Área: 09 - Saúde e bem-estar Grau: Lato-sensu",
+          "similaridade": 58.5,
+          "cobertura_vocabulario": 0.667,
+          "arquivo": "PARCT_2021_N_00010_CTEP_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Carga horária: 360 Horas Duração: 10 (meses) Periodicidade de oferta: Regular",
+          "similaridade": 56.9,
+          "cobertura_vocabulario": 0.5,
+          "arquivo": "PARCT_2021_N_00010_CTEP_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Data de início da oferta: 03/04/2012 Modalidade: Educação a Distância Quantidade de vagas: 100",
+          "similaridade": 51.6,
+          "cobertura_vocabulario": 0.667,
+          "arquivo": "PARCT_2021_N_00010_CTEP_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Situação de Funcionamento Atual: Ativo Quantidade Total EGRESSOS: 29",
+          "similaridade": 56.1,
+          "cobertura_vocabulario": 0.143,
+          "arquivo": "PARCT_2021_N_00010_CTEP_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Titulação Máxima : Mestrado Vínculo Empregatício: Outro Regime de Trabalho: Parcial",
+          "similaridade": 50.6,
+          "cobertura_vocabulario": 0.111,
+          "arquivo": "PARCT_2021_N_00010_CTEP_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Rua do Carmo, 66, Centro, 20011-020 Rio de Janeiro RJ",
+          "similaridade": 54.0,
+          "cobertura_vocabulario": 0.25,
+          "arquivo": "PARCT_2021_N_00010_CTEP_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Curso de Graduação Vinculado: Não possui vma E",
+          "similaridade": 62.2,
+          "cobertura_vocabulario": 0.75,
+          "arquivo": "PARCT_2021_N_00010_CTEP_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "https://emec.mec.gov.br/emec/consulta-cadastro/detalhamento/d96957145516405d1406542552b0f6eb/Mzg3Ng==/93916316abe23148507bd4C26... 1/1",
+          "similaridade": 41.1,
+          "cobertura_vocabulario": 0.111,
+          "arquivo": "PARCT_2021_N_00010_CTEP_PDF_SITE.pdf"
+        }
+      ]
+    }
+  ],
+  "conferencia_por_dispositivo": [
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_EPIGRAFE_001",
+      "tipo": "epigrafe",
+      "resultado": "EQUIVALENTE_ORDEM_OU_QUEBRA_DIFERENTE",
+      "similaridade": 89.4
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_SECAO_001",
+      "tipo": "secao",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 62.3
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_IDENTIFICACAO_PROCESSO_001",
+      "tipo": "identificacao_processo",
+      "resultado": "DIFERENCA_MENOR",
+      "similaridade": 98.3
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_PARAGRAFO_TEXTO_001",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_PARAGRAFO_TEXTO_002",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_PARAGRAFO_TEXTO_003",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_PARAGRAFO_TEXTO_004",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_SECAO_002",
+      "tipo": "secao",
+      "resultado": "EQUIVALENTE_ORDEM_OU_QUEBRA_DIFERENTE",
+      "similaridade": 88.9
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_PARAGRAFO_TEXTO_005",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_PARAGRAFO_TEXTO_006",
+      "tipo": "paragrafo_texto",
+      "resultado": "DIFERENCA_MENOR",
+      "similaridade": 99.3
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_PARAGRAFO_TEXTO_007",
+      "tipo": "paragrafo_texto",
+      "resultado": "DIFERENCA_MENOR",
+      "similaridade": 99.7
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_SECAO_003",
+      "tipo": "secao",
+      "resultado": "DIFERENCA_MENOR",
+      "similaridade": 96.6
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_PARAGRAFO_TEXTO_008",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_PARAGRAFO_TEXTO_009",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_PARAGRAFO_TEXTO_010",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_PARAGRAFO_TEXTO_011",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_PARAGRAFO_TEXTO_012",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_ORDEM_OU_QUEBRA_DIFERENTE",
+      "similaridade": 91.5
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_PARAGRAFO_TEXTO_013",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_PARAGRAFO_TEXTO_014",
+      "tipo": "paragrafo_texto",
+      "resultado": "DIFERENCA_MENOR",
+      "similaridade": 99.8
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_PARAGRAFO_TEXTO_015",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_PARAGRAFO_TEXTO_016",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_INCISO_001",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_INCISO_002",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_INCISO_003",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_PARAGRAFO_TEXTO_017",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_ORDEM_OU_QUEBRA_DIFERENTE",
+      "similaridade": 93.5
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_PARAGRAFO_TEXTO_018",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_PARAGRAFO_TEXTO_019",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_PARAGRAFO_TEXTO_020",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_PARAGRAFO_TEXTO_021",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_PARAGRAFO_TEXTO_022",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_PARAGRAFO_TEXTO_023",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_PARAGRAFO_TEXTO_024",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_PARAGRAFO_TEXTO_025",
+      "tipo": "paragrafo_texto",
+      "resultado": "DIFERENCA_MENOR",
+      "similaridade": 97.5
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_PARAGRAFO_TEXTO_026",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_PARAGRAFO_TEXTO_027",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_PARAGRAFO_TEXTO_028",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_PARAGRAFO_TEXTO_029",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_PARAGRAFO_TEXTO_030",
+      "tipo": "paragrafo_texto",
+      "resultado": "DIFERENCA_MENOR",
+      "similaridade": 99.7
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_ITEM_LISTA_001",
+      "tipo": "item_lista",
+      "resultado": "DIFERENCA_MENOR",
+      "similaridade": 99.1
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_ITEM_LISTA_002",
+      "tipo": "item_lista",
+      "resultado": "DIFERENCA_MENOR",
+      "similaridade": 99.3
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_ITEM_LISTA_003",
+      "tipo": "item_lista",
+      "resultado": "EQUIVALENTE_ORDEM_OU_QUEBRA_DIFERENTE",
+      "similaridade": 79.5
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_PARAGRAFO_TEXTO_031",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_PARAGRAFO_TEXTO_032",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_ORDEM_OU_QUEBRA_DIFERENTE",
+      "similaridade": 80.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_LOCAL_DATA_001",
+      "tipo": "local_data",
+      "resultado": "DIFERENCA_MENOR",
+      "similaridade": 96.7
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_PARAGRAFO_TEXTO_033",
+      "tipo": "paragrafo_texto",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 63.6
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_PARAGRAFO_TEXTO_034",
+      "tipo": "paragrafo_texto",
+      "resultado": "DIVERGENTE",
+      "similaridade": 77.7
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_PARAGRAFO_TEXTO_035",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_ORDEM_OU_QUEBRA_DIFERENTE",
+      "similaridade": 69.7
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_PARAGRAFO_TEXTO_036",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_ORDEM_OU_QUEBRA_DIFERENTE",
+      "similaridade": 72.5
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_PARAGRAFO_TEXTO_037",
+      "tipo": "paragrafo_texto",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 55.6
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_PARAGRAFO_TEXTO_038",
+      "tipo": "paragrafo_texto",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 67.7
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_SECAO_004",
+      "tipo": "secao",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_REFERENCIA_001",
+      "tipo": "referencia",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_REFERENCIA_002",
+      "tipo": "referencia",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_REFERENCIA_003",
+      "tipo": "referencia",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_REFERENCIA_004",
+      "tipo": "referencia",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_REFERENCIA_005",
+      "tipo": "referencia",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2021_N_00010_CTEP_REFERENCIA_006",
+      "tipo": "referencia",
+      "resultado": "DIFERENCA_MENOR",
+      "similaridade": 99.5
+    }
+  ],
+  "data_verificacao": "2026-10-10",
+  "responsavel": "Triagem automatizada - requer validação humana"
+}

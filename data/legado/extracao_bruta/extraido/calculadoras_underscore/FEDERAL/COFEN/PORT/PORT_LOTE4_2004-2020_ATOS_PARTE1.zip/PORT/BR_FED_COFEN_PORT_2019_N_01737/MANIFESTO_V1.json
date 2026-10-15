@@ -1,0 +1,51 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-1737-de-21-de-outubro-de-2019/ (API WordPress post 74620); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2019_N_01737_ATOMOS_V1.jsonl",
+      "sha256": "47ff2321a07093d1e52e17d096ea9311404f159d2036076e0851aa2af52ec54c",
+      "tamanho": 9866
+    },
+    {
+      "nome": "PORT_2019_N_01737_CONTEUDO_SITE_API.json",
+      "sha256": "006b9dc2b709225f4a35b15353c6adc712b0206f0c4273314f42e1a1dc12f648",
+      "tamanho": 2071
+    },
+    {
+      "nome": "PORT_2019_N_01737_NORMA_V1.json",
+      "sha256": "ec7e083d250640428559e0dc4e2b857ec29e253ba389f14f34d3c2c13b4fa9e8",
+      "tamanho": 4019
+    },
+    {
+      "nome": "PORT_2019_N_01737_PAGINA_SITE.html",
+      "sha256": "50018c5209a0a5d85e5ce66ee0e8552724557a0192124b2d5937f4825ec6845e",
+      "tamanho": 441948
+    },
+    {
+      "nome": "PORT_2019_N_01737_PDF_SITE.pdf",
+      "sha256": "6966e5d78fc10774cf70bfa4f0566474e400f0a51ae3781c694033de93c7f28a",
+      "tamanho": 63548
+    },
+    {
+      "nome": "PORT_2019_N_01737_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "046c7954f6c5d47f96e1bfc6560cecd7211402ce0c472a40ce19d986909874e5",
+      "tamanho": 1548
+    },
+    {
+      "nome": "PORT_2019_N_01737_TEXTO_FONTE_V1.txt",
+      "sha256": "f5d17aa1b7b770ab7a737877be2222f747dd07648aaab629914247bee2599f8d",
+      "tamanho": 1335
+    },
+    {
+      "nome": "PORT_2019_N_01737_VALIDACAO_V1.json",
+      "sha256": "4284b536023db06f4815bacd86fd8998d79c6262a1b90257a396b0c28540cd23",
+      "tamanho": 4528
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+  ]
+}

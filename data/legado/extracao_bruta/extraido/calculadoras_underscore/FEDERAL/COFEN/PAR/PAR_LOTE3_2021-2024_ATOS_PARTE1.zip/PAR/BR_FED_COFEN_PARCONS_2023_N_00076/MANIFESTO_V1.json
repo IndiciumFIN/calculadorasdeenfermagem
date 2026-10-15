@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-conselheiro-federal-no-76-2023-plen-cofen/ (API WordPress post 111961); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCONS_2023_N_00076_ATOMOS_V1.jsonl",
+      "sha256": "d9bc5a3a18202360b0f523b815538c1b858b0cd043795c73212a924bce393bd7",
+      "tamanho": 41949
+    },
+    {
+      "nome": "PARCONS_2023_N_00076_CONTEUDO_SITE_API.json",
+      "sha256": "72c337d81c79f242b5ccedd995c7c5dc3adf457632223d2772e3e1c59a8fbaad",
+      "tamanho": 16932
+    },
+    {
+      "nome": "PARCONS_2023_N_00076_NORMA_V1.json",
+      "sha256": "e8a4606ec38de2389288bbf02c199cf658d24cab7afa26d8359f6363e6cdfb7d",
+      "tamanho": 3475
+    },
+    {
+      "nome": "PARCONS_2023_N_00076_PAGINA_SITE.html",
+      "sha256": "e03f1f5678d36c4718f32a36d4d951d9331faaa8ae2587dc6bcb7ab53ccfe057",
+      "tamanho": 453928
+    },
+    {
+      "nome": "PARCONS_2023_N_00076_TEXTO_FONTE_V1.txt",
+      "sha256": "3d7e0e44371c2c1542d640e1de0af18555a2c5f07572da12d5fab1be9b8ebc8e",
+      "tamanho": 10235
+    },
+    {
+      "nome": "PARCONS_2023_N_00076_VALIDACAO_V1.json",
+      "sha256": "71bb17e9a567bbe1ecd16f6fda48e4884307100719680c4eac5a90035443b89e",
+      "tamanho": 2670
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/ordem-de-servico-cofen-no-2-de-23-de-junho-de-2026-2/ (API WordPress post 192812); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "OS_2026_N_00002_ATOMOS_V1.jsonl",
+      "sha256": "80cb9ade0146aaa7c190fd22c23b18784ddff43e0cfd0b34585f1f537556a870",
+      "tamanho": 28285
+    },
+    {
+      "nome": "OS_2026_N_00002_CONTEUDO_SITE_API.json",
+      "sha256": "54437bf2b1bbc78a86f42a2abc04a066ba64736725d4ac3de760c26d4962d12f",
+      "tamanho": 7325
+    },
+    {
+      "nome": "OS_2026_N_00002_NORMA_V1.json",
+      "sha256": "16101340e5abfae0e0b734d6a2d61730dd72ae740cbbc0bdbc59e35a61ead1b9",
+      "tamanho": 3443
+    },
+    {
+      "nome": "OS_2026_N_00002_PAGINA_SITE.html",
+      "sha256": "0243d763d0a78d52437827364d9f647acd863b14dd440058a40666312ec73251",
+      "tamanho": 447776
+    },
+    {
+      "nome": "OS_2026_N_00002_PDF_SITE.pdf",
+      "sha256": "4b58d05c5a2c3f9589cb7fe638a0c826f75838d50cb3cd7bc160fe1be5257b67",
+      "tamanho": 137867
+    },
+    {
+      "nome": "OS_2026_N_00002_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "7877f5b09f0fd996e0d334be3dec400319c0400bba558bfc12b3724b342adeb5",
+      "tamanho": 5757
+    },
+    {
+      "nome": "OS_2026_N_00002_TEXTO_FONTE_V1.txt",
+      "sha256": "d546b4a506b78f4169a3b5af1cee6deafb90f98870158db2a532daf94eda9f4e",
+      "tamanho": 4817
+    },
+    {
+      "nome": "OS_2026_N_00002_VALIDACAO_V1.json",
+      "sha256": "f5c93a39c21718ea81c7a9336674478f7abd92b4cf3141b82578344f31e294b9",
+      "tamanho": 7604
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada."
+  ]
+}

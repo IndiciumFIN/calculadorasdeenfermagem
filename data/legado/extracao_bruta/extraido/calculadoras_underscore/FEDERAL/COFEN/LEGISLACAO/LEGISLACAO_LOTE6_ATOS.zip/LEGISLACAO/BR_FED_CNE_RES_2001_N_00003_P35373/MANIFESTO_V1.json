@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/resolucao-cneces-no-3-de-7-de-novembro-de-2001/ (API WordPress post 35373); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "RES_2001_N_00003_P35373_ATOMOS_V1.jsonl",
+      "sha256": "14b6c8a83d874684cdfb9cfa6f2d38bd3e003ea7b0bc2d49a4dcbb89e85f7dde",
+      "tamanho": 68290
+    },
+    {
+      "nome": "RES_2001_N_00003_P35373_CONTEUDO_SITE_API.json",
+      "sha256": "6f20699b26636d9129a52a40ac837f74407a082999b8ddcfcec53bbc31ad9f57",
+      "tamanho": 433
+    },
+    {
+      "nome": "RES_2001_N_00003_P35373_NORMA_V1.json",
+      "sha256": "a04885f01e57207bd91e77d99fa3db3d00b86122274a0db0ea9a08380bc1ca43",
+      "tamanho": 4249
+    },
+    {
+      "nome": "RES_2001_N_00003_P35373_PAGINA_SITE.html",
+      "sha256": "b0d7151ccc64ca4aa7b79ba10516aa0b0c475730332ad779120c081e33c0e771",
+      "tamanho": 436124
+    },
+    {
+      "nome": "RES_2001_N_00003_P35373_PDF_SITE.pdf",
+      "sha256": "b9c6d1d174f8b08b1cd697684a8e72a460934362a39d6e65dfa417969f8988a6",
+      "tamanho": 28579
+    },
+    {
+      "nome": "RES_2001_N_00003_P35373_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "59cbf8674916d8a0bd8d8c77318cfc5d6a6c8dc8e783526f8b666e49ea3b09ab",
+      "tamanho": 18878
+    },
+    {
+      "nome": "RES_2001_N_00003_P35373_TEXTO_FONTE_V1.txt",
+      "sha256": "b79c4bc19c3104b70f972b83879c5a3df50492dae0a9df1aed7d101e937d460e",
+      "tamanho": 18921
+    },
+    {
+      "nome": "RES_2001_N_00003_P35373_VALIDACAO_V1.json",
+      "sha256": "b208f66bcd338e7175593695bc9e130030added917f4c683103a44f505dfd5d7",
+      "tamanho": 2848
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+    "Texto do ato disponível apenas no PDF (o site traz só título/resumo); atomização feita a partir da camada de texto do PDF."
+  ]
+}
