@@ -5,9 +5,36 @@
   "lixeira": {
     "mover_implantado": "EFETUADO",
     "esvaziar": "BLOQUEAR",
-    "esvaziar_executor": "somente_humano"
+    "esvaziar_executor": "somente_humano",
+    "pastas_vazias_em": "2026-10-15T07:22:00Z"
   },
-  "regra": "Releitura da API do Drive em 15/10/2026: os file ids implantados não são mais encontrados. A lixeira do Drive é a exclusão disponível; não há exclusão permanente pela API. A raiz da extração bruta teve a listagem fechada em 18 pastas e um zip de controle. Entraram os lotes já retirados, as frações acima de 50 MB, suprimentos, os três arquivos restantes de dispositivos, os oito arquivos da raiz de atomizado e seis documentos de revisão. Sete tabelas clínicas transcritas, o zip de controle, pastas raw, protocolos e a árvore derivada de atomizado permanecem no Drive. As pastas vazias de tema não estavam na autorização. Esvaziar a lixeira está bloqueado e só pode ser feito por uma pessoa.",
+  "pastas_vazias": [
+    {
+      "id": "1pnnVYNlg8CBszIsTeN529tcnPuxE6Rda",
+      "titulo": "cid10",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos"
+    },
+    {
+      "id": "1Ca_H3hsH_dLLq6C9ZdZKWA4I7moaBctD",
+      "titulo": "sepse",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos"
+    },
+    {
+      "id": "1vzBaCpcH_HPsoXbwc5uNkcZ2VSGh9si2",
+      "titulo": "ferimentos",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos"
+    },
+    {
+      "id": "1NXKr32axZLHmOaWf0TfO9soKgfJ0WHuR",
+      "titulo": "medlineplus",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos"
+    }
+  ],
+  "regra": "Releitura da API do Drive em 15/10/2026: os file ids implantados não são mais encontrados. A lixeira do Drive é a exclusão disponível; não há exclusão permanente pela API. A raiz da extração bruta teve a listagem fechada em 18 pastas e um zip de controle. Entraram os lotes já retirados, as frações acima de 50 MB, suprimentos, os três arquivos restantes de dispositivos, os oito arquivos da raiz de atomizado e seis documentos de revisão. Sete tabelas clínicas transcritas, o zip de controle, pastas raw, protocolos e a árvore derivada de atomizado permanecem no Drive. As pastas cid10, sepse, ferimentos e medlineplus estavam sem filhos e foram para a lixeira. Esvaziar a lixeira está bloqueado e só pode ser feito por uma pessoa.",
   "itens": [
     {
       "origem": "drive",
