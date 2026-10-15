@@ -1,8 +1,8 @@
 {
   "versao": "1.0.0",
   "invariante": "FONTE_RETIRADA",
-  "verificado_em": "2026-10-15T02:35:00Z",
-  "regra": "Releitura da API do Drive em 15/10/2026: os file ids implantados não são mais encontrados. A lixeira do Drive é a exclusão disponível; não há exclusão permanente pela API. Os lotes cid10-readme-fetch, sepse, ferimentos, sinais_vitais e epidemiologico da extração bruta entraram nessa releitura.",
+  "verificado_em": "2026-10-15T02:50:59Z",
+  "regra": "Releitura da API do Drive em 15/10/2026: os file ids implantados não são mais encontrados. A lixeira do Drive é a exclusão disponível; não há exclusão permanente pela API. Os lotes cid10-readme-fetch, sepse, ferimentos, sinais_vitais, epidemiologico, vacinas, vacinal_brasil e medlineplus da extração bruta entraram nessa releitura.",
   "itens": [
     {
       "origem": "drive",
@@ -578,6 +578,182 @@
       "disposicao": "IMPLANTADO",
       "sha256": "fda1e83561ff6fd016012ee3103b1b344256341778ea676b0f6656ce607dcfad",
       "copia": "data/legado/extracao_bruta/epidemiologico/febre_amarela_epizootias.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1cIHdDi6Q5-Db1yYhbI_nJATCUsmnl9bD",
+      "disposicao": "IMPLANTADO",
+      "sha256": "e9c830c74949ac4d860d3f959585ab6530807df33518c2cc2b77b4351b4c5a34",
+      "copia": "data/legado/extracao_bruta/vacinas/cdsi_esquemas_doses_acip.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1CzgnyQvWMNCWZJX-gXcRWcIK6dJjUJJK",
+      "disposicao": "IMPLANTADO",
+      "sha256": "23ba6014bd4976534f934cd963c0a5c1fab4968c06a536ad9ed25a49793bb288",
+      "copia": "data/legado/extracao_bruta/vacinas/cdsi_cvx_para_antigeno.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "13STGIUK3NlCXqGYPMaikki0trif6-_eN",
+      "disposicao": "IMPLANTADO",
+      "sha256": "fa4772667b9b4dffab97cbf11d7234053086b462a7c816498fd81406ca570298",
+      "copia": "data/legado/extracao_bruta/vacinas/cdsi_observacoes_condicoes.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1H6AKUMovFr6qbVdrtaaxX-uvoawt1GgG",
+      "disposicao": "IMPLANTADO",
+      "sha256": "f6d74621a8e397d06e42c3c32df27451a8aeb5a8de35c130a413e86cdbbff7d4",
+      "copia": "data/legado/extracao_bruta/vacinas/cdc_cvx_codigos_vacinas.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1mu-R46oQG4g2Svuh9tW3-k3su05Hrkpb",
+      "disposicao": "IMPLANTADO",
+      "sha256": "5f2eae41dc1f4d4b618fa816eb73063c2fffffb74f5ea808233614e71a5d1ab5",
+      "copia": "data/legado/extracao_bruta/vacinas/cdsi_observacoes_condicoes.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1VtjwRQ_yUH72t3nDg8Uy5tN9Wi0BWaKM",
+      "disposicao": "IMPLANTADO",
+      "sha256": "4979c9a595a4eb5ac5365c77fb610a68a6367df663c7ddb29824b8c21e0f78c2",
+      "copia": "data/legado/extracao_bruta/vacinas/cdsi_esquemas_doses_acip.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "14cdnYSmLSE3Cw0Dp59wY-5CBoHIUz7b8",
+      "disposicao": "IMPLANTADO",
+      "sha256": "ba9ab30c569dabe0f1c2bef9999e05c47255f2b5e281c0d5761ee160001959b1",
+      "copia": "data/legado/extracao_bruta/vacinas/cdsi_cvx_para_antigeno.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1kSZpD7LSQ6ZYEJTSiTWEfMG1CMCdTqEt",
+      "disposicao": "IMPLANTADO",
+      "sha256": "e6c6ddfb885eff28603b1aa5486b9aa168317cbd99e801a5c1169b5adc1b6f3c",
+      "copia": "data/legado/extracao_bruta/vacinas/cdc_cvx_codigos_vacinas.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1kigeUQOrHyZmEifXVdECdB000WrGq5NJ",
+      "disposicao": "IMPLANTADO",
+      "sha256": "5c3e0caf1fd95f8adfe4da07d2c471285ffd7bf9b509ad7d114a98c130b9b014",
+      "copia": "data/legado/extracao_bruta/vacinal_brasil/esavi_eventos_adversos_vacinacao_amostra.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1cdHPk3ADQLwM_xE8TkilIsvxI0HBgE3t",
+      "disposicao": "IMPLANTADO",
+      "sha256": "f00c2f34f3ba8db8d3490b4266890d6e9cb9e6376e2d9d4135cd3c218ad26a49",
+      "copia": "data/legado/extracao_bruta/vacinal_brasil/sies_insumos_estrategicos_amostra.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1jilFoIwWWU_sT3u-idHrKLujRI3P-2Uf",
+      "disposicao": "IMPLANTADO",
+      "sha256": "b14af23bf97c283409b67f778ff62ba4f6268009425d18a76c35f64f8a35f5cf",
+      "copia": "data/legado/extracao_bruta/vacinal_brasil/pni_doses_aplicadas_2026_amostra.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1disptl2bFXg4Q9t-Fm3UHgZ8GeTmqrNa",
+      "disposicao": "IMPLANTADO",
+      "sha256": "009655a8087f60e4645dc7af8c4690ceefb2e07cbe94c3c75ac1a16f659cd2e1",
+      "copia": "data/legado/extracao_bruta/vacinal_brasil/sesai_cobertura_vacinal_indigena.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Ycij5EOJPCY_D7VVKjeL_5BEa-b_TMTL",
+      "disposicao": "IMPLANTADO",
+      "sha256": "98f950f6ee5b9baf557e3b02f28eed430f47216ee80ed986b35fef0683989b4e",
+      "copia": "data/legado/extracao_bruta/vacinal_brasil/pni_doses_aplicadas_2026_amostra.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Qj5qOB5dp2DS7TTGAo8mdNfrkGEYI6pe",
+      "disposicao": "IMPLANTADO",
+      "sha256": "90cfc09e47d6a51d21cc1486ed00db5d529d46dc5715f85d9b1bc4b0762a4d93",
+      "copia": "data/legado/extracao_bruta/vacinal_brasil/esavi_eventos_adversos_vacinacao_amostra.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1KxO3wN3gQ9mFHMBj7oxi3B_UfogjDjcc",
+      "disposicao": "IMPLANTADO",
+      "sha256": "4e09bac2a220e5649544faad2df63967722577411dd8eca0b672104c5fa44caa",
+      "copia": "data/legado/extracao_bruta/vacinal_brasil/sies_insumos_estrategicos_amostra.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Grc-0ylcm5A1tdYjkauXkbXitFqrsfSH",
+      "disposicao": "IMPLANTADO",
+      "sha256": "c791a7a4fc7b199d90d15232376e805300cff273e6b27e8a26038dc71501e803",
+      "copia": "data/legado/extracao_bruta/vacinal_brasil/sesai_cobertura_vacinal_indigena.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1SrieLn7U9sf6tCVdfWLwD7JdcNvEtL-1",
+      "disposicao": "IMPLANTADO",
+      "sha256": "3a95c2f1d9c5ce6fc08f4a88be9eae6d6a1bd5142dd7b5448c264b610b4d8ca4",
+      "copia": "data/legado/extracao_bruta/medlineplus/health_topics_es.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1U_818JaGuZtizXjYFYdU8GsTJ5AxphAF",
+      "disposicao": "IMPLANTADO",
+      "sha256": "0edfe1992b6a1d9bf58b6d5b1a51235128d65e6e16188aeaa2db213d270f6d2d",
+      "copia": "data/legado/extracao_bruta/medlineplus/health_topics_en.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1hrjo_TJCI3oy761mDEuhzy5HrZOBSqjd",
+      "disposicao": "IMPLANTADO",
+      "sha256": "08fd6e47bb5b43d1d43e3520ea01ff97a947691d7ce00f36d19ef7a6cdbd5cab",
+      "copia": "data/legado/extracao_bruta/medlineplus/health_topics_todos.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "15q9abQLqAj4t70tistOHhORnlBhRKgQb",
+      "disposicao": "IMPLANTADO",
+      "sha256": "20bbefb3b0c39b3f86b330ade3c790855e0a1c51f47ad2efc09d94c91a22448b",
+      "copia": "data/legado/extracao_bruta/medlineplus/health_topics_es.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1F30ds9hIoS_o003gWXzWz00hSciZZjdf",
+      "disposicao": "IMPLANTADO",
+      "sha256": "d1ea77b552398d213223738145e32de40f28da07d3cf3c902c7427e02ace4afd",
+      "copia": "data/legado/extracao_bruta/medlineplus/health_topics_todos.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1jWqNrJ7wS5zGnotk9VJzcQMThmWzmQ_N",
+      "disposicao": "IMPLANTADO",
+      "sha256": "a3adc1c3a7c067302719dafaded3c4966093e97bec9c4abb1914f5be4ae339c5",
+      "copia": "data/legado/extracao_bruta/medlineplus/health_topics_en.json",
       "estado_origem": "AUSENTE"
     }
   ],
