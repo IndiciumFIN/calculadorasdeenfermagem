@@ -1,8 +1,8 @@
 {
   "versao": "1.0.0",
   "invariante": "FONTE_RETIRADA",
-  "verificado_em": "2026-10-15T01:10:00Z",
-  "regra": "Releitura da API do Drive nesta data: os file ids implantados não são mais encontrados. A lixeira do Drive é a exclusão disponível; não há exclusão permanente pela API.",
+  "verificado_em": "2026-10-15T01:46:00Z",
+  "regra": "Releitura da API do Drive em 15/10/2026: os file ids implantados não são mais encontrados. A lixeira do Drive é a exclusão disponível; não há exclusão permanente pela API. Os lotes cid10-readme-fetch e sepse da extração bruta entraram nessa releitura.",
   "itens": [
     {
       "origem": "drive",
@@ -66,6 +66,214 @@
       "disposicao": "IMPLANTADO",
       "sha256": "9e52af612a1df7b5e460cdce40ecd2f667aaf99df8f1343b10e3a61aba75eb07",
       "copia": "data/legado/piloto/RES_0800_DOU.pdf",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1lhbVqocl6Yp0b__jBi9COATKHaXL-HzI",
+      "disposicao": "IMPLANTADO",
+      "sha256": "4169b0204b34fe6bd7e1958ea041f7c85a383f1e6c5509cca07a0073a0578fe5",
+      "copia": "data/legado/extracao_bruta/README.md",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1ISyJyXKl0yaJuoDGOvdDCuhvZvFroVWj",
+      "disposicao": "IMPLANTADO",
+      "sha256": "bc9db08e0bf31772252b463ed39c72968cb4cf08afa6255ae1c94d48bdd7b3fa",
+      "copia": "data/legado/extracao_bruta/fetch.py",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Gp9cB8fYN7CjNg286wesct-_6CGoW_tT",
+      "disposicao": "IMPLANTADO",
+      "sha256": "f762f7b72d16cad535b6765d7f4b4e72fb96691f1052cbffa2e1bfb6ed9b195a",
+      "copia": "data/legado/extracao_bruta/cid10/capitulos.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "11IrSya_l28agJdVb5vxHtAL929E77w5n",
+      "disposicao": "IMPLANTADO",
+      "sha256": "a096dc297a77f9b24a6150f907648c2473b499b2576d2b10d7ed7408426542f2",
+      "copia": "data/legado/extracao_bruta/cid10/capitulos.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1UqOtV4-IIz71aLqMyiNkLbA_WqM5o8iv",
+      "disposicao": "IMPLANTADO",
+      "sha256": "471883b9fc85e8dc9c98a051236a7a39626d440244bcf90fffc5aaec0a5760b4",
+      "copia": "data/legado/extracao_bruta/cid10/grupos.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1cWc_Efgv7v9ZTrn2PQ89wtyk1sRy2Xbr",
+      "disposicao": "IMPLANTADO",
+      "sha256": "fc007406c8ffc12bcaa9f26412ef3b436dc13fd7420478b5565007c63919bb47",
+      "copia": "data/legado/extracao_bruta/cid10/grupos.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1i6GiiIEfXThnujlmMLb1ok4YIXEiFKvS",
+      "disposicao": "IMPLANTADO",
+      "sha256": "e11584b518dc13e64b78d7949f4b43055b1203f367f3b1613fccb27a3fb52712",
+      "copia": "data/legado/extracao_bruta/cid10/categorias.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "11OJreDtdS8i2T4SLWGT1MdZNbA8tSP5K",
+      "disposicao": "IMPLANTADO",
+      "sha256": "b75cfea362f1a61d126f133e5e9bee134e5ad2d6292a273e0c60c2ef1e90b71a",
+      "copia": "data/legado/extracao_bruta/cid10/categorias.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1uEiFAoW0eRE5nrCDO-KEyOucDLqQQRVs",
+      "disposicao": "IMPLANTADO",
+      "sha256": "873d844abb2fe35cfbbc61de6579eaa2b7cab4524e6649b53e557359a8505055",
+      "copia": "data/legado/extracao_bruta/cid10/subcategorias.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1CUEx0IkHMPY1jWW_7RaNbVHQcfa1nAo0",
+      "disposicao": "IMPLANTADO",
+      "sha256": "21c599f9a93a68345e9e2a82133cadba71b8ea76dfd13a4a2de35d159aaf0afc",
+      "copia": "data/legado/extracao_bruta/cid10/subcategorias.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1DXtIbR4Q66UdaOTHWCW39weuQT84y8iN",
+      "disposicao": "IMPLANTADO",
+      "sha256": "ee605b7be92c0163053c20bd09d279453463e5e37902c9512f0ddcd685b2e39b",
+      "copia": "data/legado/extracao_bruta/cid10/cid_o_grupos.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "12XxKcxTa1yvAqmv2mo_AP2sBXnyjgCxk",
+      "disposicao": "IMPLANTADO",
+      "sha256": "4188cbbbbe2a51c7c2ff10cccf848d0a8b1f2a810fbfa08efc5d9e05d34fb2e8",
+      "copia": "data/legado/extracao_bruta/cid10/cid_o_grupos.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Qahfk8grGPDSryXacJb8jWzR68i7EZD5",
+      "disposicao": "IMPLANTADO",
+      "sha256": "69fc782c257746da2c770cc269babb05dbcfbb3c209d7f9706652c8c1f1dfb0a",
+      "copia": "data/legado/extracao_bruta/cid10/cid_o_categorias.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Nh1eZZopH0FfOJh5fVInGGxwDK_3sw1A",
+      "disposicao": "IMPLANTADO",
+      "sha256": "fe8ef7a606282a8099e4b88dfc95947533701d885cf95ec9f1c717074b00c592",
+      "copia": "data/legado/extracao_bruta/cid10/cid_o_categorias.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1_8gjbX0NYDN_uPe1WA6OY-IvoAzT_Nn6",
+      "disposicao": "IMPLANTADO",
+      "sha256": "b620741114c3b0931e38e379b7eb1bf50e520e9df68b02a3107ee7306d63e2a3",
+      "copia": "data/legado/extracao_bruta/sepse/criterios_sofa_qsofa.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1axgeX9gSXDA_HQ-cKWKZbSlqIzOfWbyy",
+      "disposicao": "IMPLANTADO",
+      "sha256": "97a3692f3955406f5642dacc95eefa4aa4b81b32bea03092d23182e04657cc15",
+      "copia": "data/legado/extracao_bruta/sepse/sepse_cid10.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1TqON1PhdJvwyblSl_WRFP7hdKWLVS1fu",
+      "disposicao": "IMPLANTADO",
+      "sha256": "716f254fcb46c719537ee34bdbe1ff1d2203f13c41e2673324e378e4a851992b",
+      "copia": "data/legado/extracao_bruta/sepse/sepse_medlineplus.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1DHHjSw16wJx8h3sJQzWyzSFggarlyWkX",
+      "disposicao": "IMPLANTADO",
+      "sha256": "b344d7d368f5b5157e0c3d7ce8eac080bf148259c2559d56afd7d7054624bff1",
+      "copia": "data/legado/extracao_bruta/sepse/sepse_cid11.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1kH1BmLlTB6mxV8OBG280kFV1KwCn08QD",
+      "disposicao": "IMPLANTADO",
+      "sha256": "489ae70c3f31891257b5e7ee970736253648e004bd56cb8ba6b52749217014d9",
+      "copia": "data/legado/extracao_bruta/sepse/sepse_mesh.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "16EE4ImtPTHipM8BKvgLn2RmqJdqOlpr1",
+      "disposicao": "IMPLANTADO",
+      "sha256": "8a2e032ee51508e86f3ab213a73478ded8458f53e02a51f2213c13c47aef4d6d",
+      "copia": "data/legado/extracao_bruta/sepse/criterios_sepsis3.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1CR_AJkHnbbvelMzRLM6mTKqAJoOPSmwt",
+      "disposicao": "IMPLANTADO",
+      "sha256": "f6c94f3318917f2e286306dd2d579b23d1b129111683cc9dd7ca83e162ec4461",
+      "copia": "data/legado/extracao_bruta/sepse/criterios_sofa_qsofa.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "15il7ALACNAXKUOGONxBhIFEb_9GYkGMu",
+      "disposicao": "IMPLANTADO",
+      "sha256": "450b1d9e31b1e21524c2e59124df9e7d6948285060c10a8aad2da903d08ed0d8",
+      "copia": "data/legado/extracao_bruta/sepse/criterios_sepsis3_v2.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1gNvyHXrXssUY0HUJWIx8hYJ9g3m06xyL",
+      "disposicao": "IMPLANTADO",
+      "sha256": "888e1d23d09eabacb1e8631e6225b4e61e0189db2f514b5d66cebad814338aed",
+      "copia": "data/legado/extracao_bruta/sepse/sepse_cid10.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "181tJxvkWLDRQmjX6zWDiTRz2Vm5x34kb",
+      "disposicao": "IMPLANTADO",
+      "sha256": "ff9228f149d5429e1773035e6a2881c95d99f2b9347fdcbebf0e44cf36675c6b",
+      "copia": "data/legado/extracao_bruta/sepse/sepse_cid11.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1GggiNotlSg8oXEalkSAQj_5AzJU5nwu1",
+      "disposicao": "IMPLANTADO",
+      "sha256": "93b0b06439ea146c26c4aca219683e61665af027922c06d92643748f8494811c",
+      "copia": "data/legado/extracao_bruta/sepse/sepse_mesh.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1qTiIwVzJjCUzgRMZCOOKuAXjUR-5VL_S",
+      "disposicao": "IMPLANTADO",
+      "sha256": "4aa2029f74a7b9b62c90c669bd7193a5c90fff0669ccdb0c1dd65b4beba20d9e",
+      "copia": "data/legado/extracao_bruta/sepse/sepse_medlineplus.json",
       "estado_origem": "AUSENTE"
     }
   ],
