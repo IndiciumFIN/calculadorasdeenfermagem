@@ -1,0 +1,25 @@
+{
+  "algoritmo": "concatenacao-bytes-sha256",
+  "id_origem": "1l3dgZs_IeTvV_yJj5aFGB1h034GtZWhA",
+  "arquivo": "anvisa_produtos_saude_registrados.json",
+  "caminho_obter": "dispositivos/inteiros/anvisa_produtos_saude_registrados.json",
+  "bytes": 68436293,
+  "sha256": "2a118eb0e39ecaa0107b03f13027d8c27a065844f13735d5b8509b2717286920",
+  "tamanho_parte": 40000000,
+  "partes": [
+    {
+      "nome": "part-000",
+      "ordem": 0,
+      "offset": 0,
+      "bytes": 40000000,
+      "sha256": "e39951c8a895fb019f22f0ecfa4c5d714f6eb3afed8b70c009362560905a81ae"
+    },
+    {
+      "nome": "part-001",
+      "ordem": 1,
+      "offset": 40000000,
+      "bytes": 28436293,
+      "sha256": "543653c31354ceb0fe4c93342dde4b7a6a9d27210b624396b033824ef52fad1d"
+    }
+  ]
+}

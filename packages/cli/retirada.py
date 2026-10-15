@@ -63,7 +63,13 @@ def hashes_conferem(item: ItemRetirada, raiz: Path) -> bool:
     if not arquivo.is_file():
         return False
     digest = hashlib.sha256(arquivo.read_bytes()).hexdigest()
-    return digest == item.sha256
+    if digest == item.sha256:
+        return True
+    if arquivo.name != "manifesto.json":
+        return False
+    from packages.cli.fracionar import recomposto_confere
+
+    return recomposto_confere(arquivo, item.sha256)
 
 
 def verificar_ledger(ledger: dict, raiz: Path) -> list[str]:

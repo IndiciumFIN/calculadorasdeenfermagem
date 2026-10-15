@@ -1,6 +1,6 @@
 # Plano de aderência canônica
 
-Estado observado: branch `cursor/fix-governance-gaps-ec54`, commit `3aa4ebb`. Gate Agregador do PR passou na run `38690629942`. Este documento não autoriza produção, não qualifica tarefa e não substitui Work Order.
+Estado observado: branch `cursor/fix-governance-gaps-ec54`. Gate Agregador do PR passou na run `38690629942`, antes dos lotes de fração. Este documento não autoriza produção, não qualifica tarefa e não substitui Work Order.
 
 Automático significa executar a próxima onda cujo gate esteja verde e parar no primeiro gate vermelho. Não significa promover, copiar ou apagar sem o procedimento qualificado.
 
@@ -16,17 +16,19 @@ O Git versiona código, contratos e governança. O corpus canônico não está h
 
 Portas de escrita do CLI antigo fechadas. `FIND-0001` e `FIND-0002` abertos. 104.668 candidatos em `Não verificado`. 7.679 linhas em quarentena. 336 identificadores com textos diferentes, sem escolha de lado. 109 itens do Drive relidos como ausentes na lixeira recuperável. Quatro raízes do Drive com exclusão bloqueada.
 
-## Onda 1 — executada até o gate de tamanho
+## Onda 1 — fração dos arquivos grandes e suprimentos
 
-`mesh`, `icd11` e `medicamentos` tiveram a listagem fechada. A página seguinte de `mesh` e de `icd11` voltou vazia; cada título exato fechou sem `nextPageToken`. Em `medicamentos`, a segunda página trouxe arquivos e não trouxe página seguinte.
+`mesh`, `icd11` e `medicamentos` tiveram a listagem fechada. A página seguinte de `mesh` e de `icd11` voltou vazia; cada título exato fechou sem `nextPageToken`. Em `medicamentos` e em `suprimentos`, a segunda página trouxe arquivos e não trouxe página seguinte.
 
-Cada lote passou por `obter`, `atomizar`, `validar` e `retirar`. Classe `REFERENCIA`, zero átomos. ICD-11 foi copiado sem alteração. Os 14 arquivos foram para a lixeira e a releitura devolveu ausência. As pastas `raw` permanecem.
+Cada lote passou por `obter`, `atomizar`, `validar` e `retirar`. Classe `REFERENCIA`, zero átomos. ICD-11 foi copiado sem alteração. As pastas `raw` permanecem.
 
-O gate vermelho que interrompe a cópia seguinte está em `medicamentos`: `anvisa_cmed_precos_medicamentos.json` (57.759.041 bytes) e `fda_ndc_produtos.json` (93.709.852 bytes) ficam no Drive. `protocolos_enfermagem` não começou: é ato, sem extrator, e o PDF clínico não entra no Git público.
+A decisão de volume para arquivo a partir de 50.000.000 bytes é fracionar em partes de 40.000.000 bytes. O arquivo inteiro não entra no Git. A concatenação das partes precisa repetir o SHA-256 lido no `obter`. Cinco JSON passaram por isso e a releitura devolveu ausência: preços CMED, NDC, USDA SR Legacy, produtos para saúde da Anvisa e CATMAT das classes 6510, 6515, 6530 e 6532. Os sete arquivos de `suprimentos` abaixo do limite também foram copiados inteiros e a origem está ausente.
 
-Pastas ainda sem lote: `revisao`, `atomizado`, `protocolos_enfermagem`, `suprimentos`, `raw`, `dispositivos`.
+`protocolos_enfermagem` não começou: é ato, sem extrator, e o PDF clínico não entra no Git público.
 
-Arquivos que permanecem no Drive nesta onda: `usda_sr_legacy_nutrientes.json` (87.096.800 bytes), o JSON Anvisa de dispositivos (68.436.293 bytes) e o JSON CATMAT (51.223.636 bytes). Acima de cerca de 50 MB não entra no Git.
+Pastas ainda sem lote completo: `revisao`, `atomizado`, `protocolos_enfermagem`, `raw`, `dispositivos`. A raiz de `revisao` e os oito arquivos na raiz de `atomizado` têm listagem fechada e ainda não têm lote. A listagem de `dispositivos` ainda tem página seguinte; o JSON grande dessa pasta já foi fracionado.
+
+A barra da listagem fechada está em `data/legado/progresso_drive.json`: 126 de 147 arquivos, 86%.
 
 ## Onda 2 — duplicidade por hash
 
@@ -36,7 +38,7 @@ Nome e tamanho iguais não são identidade. Conteúdo idêntico em caminhos dife
 
 ## Onda 3 — lote de referência
 
-Só começa com listagem fechada e todo arquivo abaixo de cerca de 50 MB. Cada lote usa quatro Work Orders, nesta ordem: `obter`, `atomizar`, `validar`, `retirar`.
+Só começa com listagem fechada. Arquivo a partir de 50.000.000 bytes entra fracionado, em partes de 40.000.000 bytes, com o SHA-256 original conferido na concatenação. Cada lote usa quatro Work Orders, nesta ordem: `obter`, `atomizar`, `validar`, `retirar`.
 
 Classes `REFERENCIA`, `SCRIPT` e `DOCUMENTO` atomizam como não aplicável, com zero átomos, e o arquivo permanece. Ato sem extrator não gera átomo e não vai para a lixeira. ICD-11, se a listagem fechar, é copiado sem alteração (CC BY-ND). Texto clínico e PDF de protocolo não entram no repositório público como átomo normativo.
 
@@ -69,7 +71,7 @@ Calculadora clínica de catálogo inteiro espera instrumento com fonte oficial, 
 1. Listagem incompleta.
 2. Hash da cópia diferente do arquivo lido.
 3. Mesmo nome e conteúdo diferente.
-4. Arquivo com cerca de 50 MB ou mais.
+4. Fração cuja concatenação não repete o SHA-256 original, ou parte com 50.000.000 bytes ou mais.
 5. Licença desconhecida, ou cópia que exigiria alteração de ICD-11.
 6. Tarefa fora dos nove procedimentos qualificados.
 7. Work Order inválida, ou `FIND` crítico aberto quando o passo promove status.
