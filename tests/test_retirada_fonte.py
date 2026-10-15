@@ -88,6 +88,27 @@ def test_censo_registra_os_dois_projetos_e_bloqueia_exclusao():
     assert "bsawvgyideporzailnys" in texto
 
 
+def test_quatro_raizes_do_drive_bloqueiam_exclusao():
+    doc = json.loads((REPO / "data" / "legado" / "drive_raizes.json").read_text(encoding="utf-8"))
+    por_id = {r["id"]: r for r in doc["raizes"]}
+    assert set(por_id) == {
+        "1FDBAMQ3-WT-8l6xU0664u7QjABd0FbEH",
+        "1xhNiG35r_1_Cb211b3oz5IvcCE_Ql0K7",
+        "1l519_P-9o6bnQcItydKvEEDpEYeE8R8s",
+        "1c9vErI_It3XwzAcAFOnbxw9V0Mn6xfB9",
+    }
+    assert all(r["exclusao"] == "BLOQUEAR" for r in por_id.values())
+    arvores = por_id["1FDBAMQ3-WT-8l6xU0664u7QjABd0FbEH"]["arvores_cofen"]
+    assert {a["id"] for a in arvores} == {
+        "1CuNVo6TSwMcEyHabRhCVnBJ8W4dRfo7R",
+        "1LP6uKkBJ5y9VDEQJTxIPyaEFKDLQNWxo",
+    }
+    assert por_id["1FDBAMQ3-WT-8l6xU0664u7QjABd0FbEH"]["acesso"] == "anyone_reader"
+    assert por_id["1l519_P-9o6bnQcItydKvEEDpEYeE8R8s"]["acesso"] == "anyone_reader"
+    assert por_id["1xhNiG35r_1_Cb211b3oz5IvcCE_Ql0K7"]["acesso"] == "somente_dono"
+    assert "não prova pasta vazia" in por_id["1c9vErI_It3XwzAcAFOnbxw9V0Mn6xfB9"]["nota"]
+
+
 def test_ledger_do_repositorio_confere_com_as_copias():
     ledger = json.loads((REPO / "data" / "legado" / "retirada_fontes.json").read_text(encoding="utf-8"))
     assert verificar_ledger(ledger, REPO) == []
