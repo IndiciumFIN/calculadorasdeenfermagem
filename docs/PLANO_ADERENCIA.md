@@ -36,6 +36,8 @@ A barra do que pode entrar, com listagem fechada, está em `data/legado/progress
 
 Nome e tamanho iguais não são identidade. Conteúdo idêntico em caminhos diferentes é uma cópia, registrada uma vez. O mesmo nome com hashes diferentes não tem lado escolhido e não sai do Drive.
 
+As pastas `raw` ainda no Drive foram cruzadas com as Work Orders `0001` a `0040`. As ordens `0037` a `0040` não copiam arquivo. Dezesseis títulos repetem o nome de uma cópia implantada e têm outro tamanho, então o SHA-256 não coincide. Seis CSV do CID-10 na pasta `raw` têm outro nome e outro tamanho. Vinte e oito arquivos, entre eles zip, gzip e perfil FHIR, não têm o nome de nenhuma cópia desse recorte. Nenhum par tem o mesmo nome e o mesmo tamanho. O registro está em `data/legado/comparacao_raw_wo_0040.json`. Esses arquivos permanecem no Drive.
+
 `atomizado/mesh` já teve a comparação: os hashes de origem conferem com a cópia implantada e o jsonl derivado permanece. As outras pastas filhas de `atomizado` ainda precisam dessa comparação, arquivo a arquivo. A árvore COFEN tem 249 pares de mesmo nome e tamanho entre `FEDERAL/COFEN` e `NORMATIVOS/FEDERAL/COFEN`; os dois hashes precisam existir antes de qualquer descarte. Os 336 conflitos do legado continuam sem fusão.
 
 ## Onda 3 — lote de referência

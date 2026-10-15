@@ -129,6 +129,20 @@ def test_ledger_do_repositorio_confere_com_as_copias():
     assert all(item["estado"] == "AUSENTE" for item in ledger["pastas_vazias"])
 
 
+def test_raw_nao_repete_nome_e_tamanho_das_wo_ate_0040():
+    doc = json.loads((REPO / "data" / "legado" / "comparacao_raw_wo_0040.json").read_text(encoding="utf-8"))
+    assert doc["recorte"] == "WO-2026_10_15_0001 a WO-2026_10_15_0040"
+    assert doc["work_orders_sem_arquivo"] == ["0037", "0038", "0039", "0040"]
+    assert doc["arquivos_implantados"] == 101
+    assert doc["listagens_raw_fechadas"] == 50
+    assert doc["mesmo_nome_e_mesmo_tamanho"] == 0
+    assert len(doc["mesmo_nome_tamanho_diferente"]) == 16
+    assert len(doc["nome_reescrito_tamanho_diferente"]) == 6
+    assert len(doc["sem_nome_nas_wo_ate_0040"]) == 28
+    for item in doc["mesmo_nome_tamanho_diferente"] + doc["nome_reescrito_tamanho_diferente"]:
+        assert item["bytes_drive"] != item["bytes_implantado"]
+
+
 def test_cli_reprova_ledger_inconsistente(tmp_path):
     ledger = {
         "invariante": "FONTE_RETIRADA",
