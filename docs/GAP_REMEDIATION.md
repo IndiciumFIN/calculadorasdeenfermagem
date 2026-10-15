@@ -39,7 +39,7 @@ revisão; todos os reproduzíveis viraram testes de regressão permanentes em
 | GAP-04 | Configurar secrets `SUPABASE_URL` e `SUPABASE_ANON_KEY` e acoplar `sync-check.yml` ao pipeline de deploy do site (hoje é `workflow_dispatch`, fail-closed sem secrets) | Admin + TEC |
 | Migration | Revisar e aplicar `supabase/migrations/20261014000000_governance_fixes.sql` no projeto Supabase (remove default `Vigente` e restringe RLS). O arquivo está versionado, mas **não aplicado** | Admin do Supabase |
 | Modelos reais | ~~Autorizar um `model_id` real~~ **Feito**: `deepseek:deepseek-chat` autorizado via gateway Supabase (ver seção abaixo). Falta apenas definir o secret `DEEPSEEK_API_KEY` nas Edge Functions do Supabase | Governança de IA |
-| DeepSeek secret | Definir `DEEPSEEK_API_KEY` nas Edge Functions do Supabase (Dashboard → Edge Functions → Secrets, ou `supabase secrets set DEEPSEEK_API_KEY=...`). Sem ele, o gateway responde `503 deepseek_secret_missing` e o runner falha fechado (exit 2) — comportamento verificado contra o gateway real | Admin do Supabase |
+| DeepSeek secret | **Feito em 15/10/2026**: secret configurado no Supabase (nome `DeepseekAPI`; o gateway v3 aceita `DEEPSEEK_API_KEY` e `DeepseekAPI`). Execução real de ponta a ponta verificada: WO-DEEPSEEK-EXEMPLO-001 → exit 0, manifesto com `provider_meta` e request id do DeepSeek | — |
 
 ## Decisões de política registradas nesta mudança
 
@@ -72,6 +72,16 @@ API do DeepSeek através do Supabase. Implementação:
   Supabase, o gateway responde `503 deepseek_secret_missing` e o runner
   termina com exit 2 (evidência no PR). TLS obrigatório; gateway `http://`
   só em `127.0.0.1` com `CE_ALLOW_TEST_GATEWAY=1` (teste do harness).
+- **Execução real verificada (15/10/2026)**: com o secret configurado, a
+  WO-DEEPSEEK-EXEMPLO-001 executou de ponta a ponta (exit 0), saída em
+  `data/raw_llm/` (ignorada pelo Git — candidato raw nunca entra no repo) e
+  manifesto com hashes, `usage` e request id do DeepSeek. A fonte do gateway
+  (v3) está espelhada em `supabase/functions/cko-deepseek-gateway/index.ts`
+  para rastreabilidade sob CODEOWNERS.
+- **Credencial do runner**: `CE_SUPABASE_ANON_KEY` recebe a chave anon
+  (publicável) do projeto Supabase — Dashboard → Settings → API Keys. Não é
+  a chave do DeepSeek e não dá acesso privilegiado ao banco (RLS), mas fica
+  fora do repositório para o gate de secrets não abrir exceções a JWTs.
 - **Testes**: `tests/test_deepseek_provider.py` (5 casos) cobre credencial
   ausente, secret ausente no Supabase, TLS obrigatório, modelo não pinado e
   caminho feliz com manifesto (`provider_meta`, `promotable=true`,

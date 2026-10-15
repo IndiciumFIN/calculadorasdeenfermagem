@@ -40,3 +40,6 @@ venv/
 # coverage
 .coverage
 htmlcov/
+
+# saidas de runtime do llm_runner (candidatos raw, nunca canon no Git)
+/data/raw_llm/
