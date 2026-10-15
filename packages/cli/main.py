@@ -8,8 +8,32 @@ from packages.cli.auditor import auditar_omissao
 from packages.cli.evidence import registrar_proveniencia
 from packages.cli.sources import ALLOWED, INVALID, REFERENCE_ONLY, classificar_url
 from packages.schemas.invariantes import LIMITE_TEXTO_REGRA, VERSAO_CONTRATO, AtomoBlindado
+from packages.cli.pep import carregar_wo
 
 app = typer.Typer(help="CLI canônica e blindada - Calculadoras de Enfermagem")
+
+
+def _exigir_wo(work_order: Path | None, esperado: str):
+    """Fase 1: exige Work Order válida. Sem WO → exit 2."""
+    if work_order is None:
+        typer.secho(
+            "FAIL: Work Order obrigatória. Use --work-order <arquivo> ou execute via Kernel (packages.cli.kernel).",
+            fg=typer.colors.RED,
+        )
+        raise typer.Exit(2)
+    try:
+        wo = carregar_wo(work_order)
+    except Exception as exc:
+        typer.secho(f"FAIL: Work Order inválida: {exc}", fg=typer.colors.RED)
+        raise typer.Exit(2)
+    if wo.task_type != esperado:
+        typer.secho(
+            f"FAIL: Work Order {wo.id} é do tipo '{wo.task_type}', esperado '{esperado}'.",
+            fg=typer.colors.RED,
+        )
+        raise typer.Exit(2)
+    typer.secho(f"✓ WO {wo.id} aceita para {esperado}", fg=typer.colors.GREEN)
+    return wo
 
 
 @app.command()
@@ -17,8 +41,10 @@ def ingest(
     source: str = typer.Option(..., "--source", "-s"),
     output: Path = typer.Option("data/raw.json", "--output", "-o"),
     fonte: str = typer.Option("auto", "--fonte", help="auto | dou_federal | secundaria"),
+    work_order: Path | None = typer.Option(None, "--work-order", help="Work Order obrigatória (Fase 1)"),
 ):
-    """Ingesta com allowlist de fontes, máscara auditável e hash duplo."""
+    """Ingesta com allowlist de fontes, máscara auditável e hash duplo. Exige WO."""
+    _exigir_wo(work_order, "ingest")
     typer.echo(f"Ingerindo: {source} (fonte={fonte})")
 
     if source.startswith("http"):
@@ -76,15 +102,15 @@ def process(
         "--block-on-omission/--no-block-on-omission",
         help="Omissão crítica bloqueia por padrão (GOV-006).",
     ),
+    work_order: Path | None = typer.Option(None, "--work-order", help="Work Order obrigatória (Fase 1)"),
 ):
-    """Atomização heurística: processa TODAS as linhas elegíveis, sem vigência automática."""
+    """Atomização heurística. Exige WO. Vigência nunca atribuída automaticamente."""
+    _exigir_wo(work_order, "process")
     data = json.loads(input_file.read_text())
     texto = data.get("texto_sanitizado") or ""
     atomos = []
     linhas = [l.strip() for l in texto.split("\n") if len(l.strip()) > 40]
     has_critical = False
-    # Sem corte: limitar a extração às primeiras N linhas gerava sucesso
-    # parcial silencioso (GOV-005, confirmado no teste T4).
     for i, linha in enumerate(linhas):
         if any(k in linha.lower() for k in ["art.", "artigo", "§", "inciso", "parágrafo"]):
             texto_regra = linha
@@ -103,8 +129,6 @@ def process(
                 "dispositivo_legal": linha,
                 "norma_origem": data.get("origem", "desconhecida"),
                 "link_fonte": data.get("origem", ""),
-                # Vigência NUNCA é atribuída na extração (GOV-004). A promoção
-                # a 'Vigente' exige verificação com evidência (schema v1.2.0).
                 "status": "Não verificado",
                 "data_verificacao": None,
                 "versao_contrato": VERSAO_CONTRATO,
@@ -122,8 +146,6 @@ def process(
         )
         raise typer.Exit(2)
 
-    # Auditoria de corpus: números presentes no documento que não aparecem em
-    # nenhum átomo indicam dispositivos não capturados pela atomização.
     corpus_audit = auditar_omissao(texto, "\n".join(a["texto_regra"] for a in atomos))
     if corpus_audit.get("omissao_critica"):
         has_critical = True
@@ -157,8 +179,6 @@ def validate(input_file: Path = typer.Option(..., "--input", "-i")):
 
     validos = 0
     for item in data:
-        # A auditoria embutida é verificada ANTES de ser removida: descartar
-        # _auditoria sem ler permitia aprovar omissões críticas (teste T2).
         auditoria = item.get("_auditoria") or {}
         if auditoria.get("omissao_critica"):
             typer.secho(
