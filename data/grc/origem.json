@@ -1,0 +1,16 @@
+{
+  "estado": "CANDIDATE_NOT_HOMOLOGATED",
+  "fonte": {
+    "origem": "drive",
+    "id_origem": "1wBohCXFLZbRIk9mhMBCMWFQq50Q1NWLv",
+    "titulo": "CKO_GRC_COSO_GOVTI_v0_2_0 (1).zip",
+    "bytes": 289541,
+    "sha256": "f6bb4f7ae382e260233846571427abf69d0ccda8ac278b4ba64fc83dd2babb65",
+    "mesmo_sha256": "1TGlZOi_vzZqFFTwkbZ04Abs5UX4x367b"
+  },
+  "planilha_sha256": "ae83c4fd127376d6151c4deddd44f26d253c3dec82a45547210be5c8c6e7b419",
+  "regra": "Somente os 105 controles. A norma fica em metadados: framework, código e checkpoints. O enunciado normativo que acompanhava o desenho dos 75 modelos COSO foi omitido. Os dois zips permanecem no Drive.",
+  "controles": 105,
+  "modelos_coso": 75,
+  "controles_cko": 30
+}
