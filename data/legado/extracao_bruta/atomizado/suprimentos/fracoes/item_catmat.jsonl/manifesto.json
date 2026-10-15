@@ -1,0 +1,25 @@
+{
+  "algoritmo": "concatenacao-bytes-sha256",
+  "id_origem": "1KV9W6gXe8q6G6ZmouVpsdKVOsDy7c_j7",
+  "arquivo": "item_catmat.jsonl",
+  "caminho_obter": "atomizado/suprimentos/item_catmat.jsonl",
+  "bytes": 72026196,
+  "sha256": "aa764c1951eb28e1966af4b8f28dc41f34643acbe09a48329be7300b97e51a19",
+  "tamanho_parte": 40000000,
+  "partes": [
+    {
+      "nome": "part-000",
+      "ordem": 0,
+      "offset": 0,
+      "bytes": 40000000,
+      "sha256": "a00d959c4d134baf4e0d0f9cf1fadbdf753d0c5438262fa69f12182594de7a98"
+    },
+    {
+      "nome": "part-001",
+      "ordem": 1,
+      "offset": 40000000,
+      "bytes": 32026196,
+      "sha256": "6ff90a960ef4855dcafea5ce2f2908e495520aa63b47eee533a2e7f006b0f39e"
+    }
+  ]
+}

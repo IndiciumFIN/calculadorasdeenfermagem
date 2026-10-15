@@ -1,0 +1,280 @@
+{
+ "arquivos": [
+  {
+   "arquivo": "documento_protocolo.jsonl",
+   "atomos": 12,
+   "bytes": 13856,
+   "sha256": "5a10c15d2964b6b8eb916d5378b0aefc9f970d67325de78cc215d116d1a572fb",
+   "tipo_entidade": "documento_protocolo"
+  },
+  {
+   "arquivo": "pcdt_conitec_situacao.jsonl",
+   "atomos": 83,
+   "bytes": 68554,
+   "sha256": "18d85689e33950c76d325707439084e6f4a87ff1902e29c8cd8a3a2aa28c32b1",
+   "tipo_entidade": "pcdt_conitec_situacao"
+  },
+  {
+   "arquivo": "tecnologia_diretriz_covid19_conitec.jsonl",
+   "atomos": 10,
+   "bytes": 18023,
+   "sha256": "f772d31a24ad868a934befa259ad3fe24b2a128c6debf99a253107f2a3f69e21",
+   "tipo_entidade": "tecnologia_diretriz_covid19_conitec"
+  }
+ ],
+ "atomos_por_tipo_entidade": {
+  "documento_protocolo": 12,
+  "pcdt_conitec_situacao": 83,
+  "tecnologia_diretriz_covid19_conitec": 10
+ },
+ "conferencia_contagens": [
+  {
+   "arquivo_entrada": "protocolos_enfermagem/indice_protocolos.csv",
+   "atomos": 12,
+   "confere": true,
+   "explicacao": "",
+   "linhas_csv": 12
+  },
+  {
+   "arquivo_entrada": "protocolos_enfermagem/conitec_pcdt_situacao.csv",
+   "atomos": 83,
+   "confere": true,
+   "explicacao": "",
+   "linhas_csv": 83
+  },
+  {
+   "arquivo_entrada": "protocolos_enfermagem/conitec_tecnologias_diretrizes.csv",
+   "atomos": 10,
+   "confere": true,
+   "explicacao": "Sem identificador na fonte: código = 16 primeiros hex do SHA-256 do registro canônico. (O campo 'quantidade' não é identificador: vale '-' em 2 linhas.)",
+   "linhas_csv": 10
+  }
+ ],
+ "entradas": [
+  {
+   "arquivo": "protocolos_enfermagem/indice_protocolos.json",
+   "linhas_csv": 12,
+   "registros_json": 12,
+   "sha256_csv": "da127a6f90f4534673ec929dbb74fde7da7241e0500fbb936f65e8e9d47437b5",
+   "sha256_json": "e45c0fceab270b4af4dac3014aa2abb87bc34c15bdf82f9ff5bb904b517e74dc"
+  },
+  {
+   "arquivo": "protocolos_enfermagem/conitec_pcdt_situacao.json",
+   "linhas_csv": 83,
+   "registros_json": 83,
+   "sha256_csv": "1f8a8e04174fb070b507eefe3c99e42b72d013e7eec9667edfc26f8556bf9632",
+   "sha256_json": "b0ddbe72ca350fdd5546a7531801af04d8905fd1ab3895daf3017c5ba963f6a1"
+  },
+  {
+   "arquivo": "protocolos_enfermagem/conitec_tecnologias_diretrizes.json",
+   "linhas_csv": 10,
+   "registros_json": 10,
+   "sha256_csv": "f37322e9342f46abfe8ff97a6c51658428170982aa9552001e7b5359adb46038",
+   "sha256_json": "dbe02b65e038a8767ef3df88ad93ffefb6d9f884a9472cb742b5fa024b443b2f"
+  }
+ ],
+ "fontes": [
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "CDC/HICPAC - Guideline for Isolation Precautions",
+   "fonte_url": "https://www.cdc.gov/infection-control/media/pdfs/guideline-isolation-h.pdf",
+   "fonte_versao": "ano 2007; PDF baixado em 2026-10-10"
+  },
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "CDC/HICPAC - Guidelines for the Prevention of Intravascular Catheter-Related Infections",
+   "fonte_url": "https://www.cdc.gov/infection-control/media/pdfs/guideline-bsi-h.pdf",
+   "fonte_versao": "ano 2011; PDF baixado em 2026-10-10"
+  },
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "Cofen - Resolução Cofen nº 736/2024 - Processo de Enfermagem",
+   "fonte_url": "https://www.cofen.gov.br/wp-content/uploads/2024/01/Resolucao-736-2024.pdf",
+   "fonte_versao": "ano 2024; PDF baixado em 2026-10-10"
+  },
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "MS/Anvisa/Fiocruz - Protocolo de Identificação do Paciente (PNSP)",
+   "fonte_url": "https://bibliotecadigital.anvisa.gov.br/jspui/bitstream/anvisa/1778/1/MS_ANVISA_FIOCRUZ_Protocolo%20de%20identifica%c3%a7%c3%a3o%20do%20paciente_2013.pdf",
+   "fonte_versao": "ano 2013; PDF baixado em 2026-10-10"
+  },
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "MS/Anvisa/Fiocruz - Protocolo para Cirurgia Segura (PNSP)",
+   "fonte_url": "https://bibliotecadigital.anvisa.gov.br/jspui/bitstream/anvisa/1771/1/MS_ANVISA_FIOCRUZ_Protocolo%20para%20cirurgia%20segura_09.07.2013.pdf",
+   "fonte_versao": "ano 2013; PDF baixado em 2026-10-10"
+  },
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "MS/Anvisa/Fiocruz - Protocolo para a Prática de Higiene das Mãos em Serviços de Saúde (PNSP)",
+   "fonte_url": "https://bibliotecadigital.anvisa.gov.br/jspui/bitstream/anvisa/1772/1/MS_ANVISA_FIOCRUZ_Protocolo%20para%20a%20pr%c3%a1tica%20de%20higiene%20das%20m%c3%a3os%20em%20servi%c3%a7os%20de%20sa%c3%bade_09.07.2013.pdf",
+   "fonte_versao": "ano 2013; PDF baixado em 2026-10-10"
+  },
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "Ministério da Saúde (cópia SESA-PR) - Portaria GM-MS 2.095/2013 com anexos: Protocolo de Prevencao de Ulcera por Pressao e Protocolo para Cirurgia Segura",
+   "fonte_url": "https://www.saude.pr.gov.br/sites/default/arquivos_restritos/files/documento/2020-05/portaria_2095_2013.pdf",
+   "fonte_versao": "ano 2013; PDF baixado em 2026-10-10"
+  },
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "Ministério da Saúde - API de Dados Abertos (ciencia-tecnologia/dgits-controle-pcdt)",
+   "fonte_url": "https://apidadosabertos.saude.gov.br/ciencia-tecnologia/dgits-controle-pcdt",
+   "fonte_versao": "todos os registros devolvidos pela API em 2026-10-10"
+  },
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "Ministério da Saúde - API de Dados Abertos (ciencia-tecnologia/dgits-tecnologias-diretrizes)",
+   "fonte_url": "https://apidadosabertos.saude.gov.br/ciencia-tecnologia/dgits-tecnologias-diretrizes",
+   "fonte_versao": "todos os registros devolvidos pela API em 2026-10-10"
+  },
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "Ministério da Saúde - Instrução Normativa do Calendário Nacional de Vacinação 2026",
+   "fonte_url": "https://www.gov.br/saude/pt-br/vacinacao/publicacoes/instrucao-normativa-que-instrui-o-calendario-nacional-de-vacinacao-2026.pdf",
+   "fonte_versao": "ano 2026; PDF baixado em 2026-10-10"
+  },
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "Ministério da Saúde - Manual de Normas e Procedimentos para Vacinação (2ª ed. rev.)",
+   "fonte_url": "https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/guias-e-manuais/2024/manual-de-normas-e-procedimentos-para-vacinacao.pdf",
+   "fonte_versao": "ano 2024; PDF baixado em 2026-10-10"
+  },
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "Ministério da Saúde - Protocolos da Atenção Básica: Saúde das Mulheres",
+   "fonte_url": "https://bvsms.saude.gov.br/bvs/publicacoes/protocolos_atencao_basica_saude_mulheres.pdf",
+   "fonte_versao": "ano 2016; PDF baixado em 2026-10-10"
+  },
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "OMS - WHO Guidelines on Hand Hygiene in Health Care",
+   "fonte_url": "https://iris.who.int/bitstream/handle/10665/44102/9789241597906_eng.pdf",
+   "fonte_versao": "ano 2009; download falhou em 2026-10-10 (só o registro do índice)"
+  },
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "OMS - WHO Surgical Safety Checklist",
+   "fonte_url": "https://iris.who.int/bitstream/handle/10665/44186/9789241598590_eng_Checklist.pdf",
+   "fonte_versao": "ano 2009; download falhou em 2026-10-10 (só o registro do índice)"
+  }
+ ],
+ "pdfs_locais": [
+  {
+   "arquivo": "Manual_de_Normas_e_Procedimentos_para_Vacinacao_2a_ed_rev.pdf",
+   "atom_id": "protocolos_enfermagem:protocolo:manual-de-normas-e-procedimentos-para-vacinacao-2a-ed.-rev",
+   "bytes": 7995572,
+   "sha256": "f1b7d1a86193982b99ad4d7a68d54d359b77f3ad3ee8eea931ff6a266bef21a6"
+  },
+  {
+   "arquivo": "Instrucao_Normativa_do_Calendario_Nacional_de_Vacinacao_2026.pdf",
+   "atom_id": "protocolos_enfermagem:protocolo:instrucao-normativa-do-calendario-nacional-de-vacinacao-2026",
+   "bytes": 1573688,
+   "sha256": "ff0a85fa4d81680b6b3c0c0ccb237c1475b2876214971228b7567e45d5d3d8c9"
+  },
+  {
+   "arquivo": "Protocolo_para_Cirurgia_Segura_PNSP.pdf",
+   "atom_id": "protocolos_enfermagem:protocolo:protocolo-para-cirurgia-segura-pnsp",
+   "bytes": 457330,
+   "sha256": "fc882cd862a4ddef7ef4efad5a777c9cb6be5de5e44720b20c2478f422d10934"
+  },
+  {
+   "arquivo": "Protocolo_para_a_Pratica_de_Higiene_das_Maos_em_Servicos_de_Saude_PNSP.pdf",
+   "atom_id": "protocolos_enfermagem:protocolo:protocolo-para-a-pratica-de-higiene-das-maos-em-servicos-de-saude-pnsp",
+   "bytes": 628504,
+   "sha256": "0fef60b19a1732814a2bdd3ca5754c2fe33e0ec781ff0b2e6f8e5e3f223496ca"
+  },
+  {
+   "arquivo": "Protocolo_de_Identificacao_do_Paciente_PNSP.pdf",
+   "atom_id": "protocolos_enfermagem:protocolo:protocolo-de-identificacao-do-paciente-pnsp",
+   "bytes": 191306,
+   "sha256": "305e64d923d193f3f2fa4b24cc93b787975e4ae19e161ad00ec31b70a844c8d2"
+  },
+  {
+   "arquivo": "Portaria_GM_MS_2_095_2013_com_anexos_Protocolo_de_Prevencao_de_Ulcera_por_Pressa.pdf",
+   "atom_id": "protocolos_enfermagem:protocolo:portaria-gm-ms-2.095-2013-com-anexos-protocolo-de-prevencao-de-ulcera-por-pressao-e-protocolo-para-cirurgia-segura",
+   "bytes": 948575,
+   "sha256": "8d0ff473b1fcbf5190a20b73d27bc97970a916503c73b0d323a7fbd00f47a4b2"
+  },
+  {
+   "arquivo": "Resolucao_Cofen_no_736_2024_Processo_de_Enfermagem.pdf",
+   "atom_id": "protocolos_enfermagem:protocolo:resolucao-cofen-no-736-2024-processo-de-enfermagem",
+   "bytes": 718575,
+   "sha256": "3fb4e597f053aefeb1aadf9b50c1ace53c32ca687454c28184814741677d7a49"
+  },
+  {
+   "arquivo": "Protocolos_da_Atencao_Basica_Saude_das_Mulheres.pdf",
+   "atom_id": "protocolos_enfermagem:protocolo:protocolos-da-atencao-basica-saude-das-mulheres",
+   "bytes": 4885085,
+   "sha256": "5d83345b49ee9fac862423e9534afe7c04f44c200f5f752738b782012c5a7680"
+  },
+  {
+   "arquivo": "Guidelines_for_the_Prevention_of_Intravascular_Catheter_Related_Infections.pdf",
+   "atom_id": "protocolos_enfermagem:protocolo:guidelines-for-the-prevention-of-intravascular-catheter-related-infections",
+   "bytes": 683366,
+   "sha256": "3d151c1d1c81f593ae2acd3e149029a01ee2a42b09e18eeff246e1a0dba36561"
+  },
+  {
+   "arquivo": "Guideline_for_Isolation_Precautions.pdf",
+   "atom_id": "protocolos_enfermagem:protocolo:guideline-for-isolation-precautions",
+   "bytes": 4350707,
+   "sha256": "b613754256f54883345213c85c379bb7178c1f4d26d774915deaa91aa59c0508"
+  }
+ ],
+ "regras": {
+  "atom_id": "<tema>:<codigo>; codigo = chave local, com prefixo de subfonte quando o tema tem mais de uma fonte",
+  "data_extracao": "fixa por fonte (2026-10-10), não é a data da execução",
+  "descricao_literal": "renderização literal 'campo: valor' de todos os registros de origem da entidade (nada resumido)",
+  "ordenacao": "um arquivo por tipo_entidade, linhas ordenadas por atom_id, partes <= 90.000.000 bytes",
+  "sha256_atomo": "SHA-256 do JSON canônico (sort_keys, ensure_ascii=False, separators=(',',':')) do átomo sem o campo sha256"
+ },
+ "sobreposicao_matriz": {
+  "conflitos_ou_ambiguidades": [
+   "RES|736|2024 recomenda 'Nao duplicar 736' e diz que o PDF do A é redundante 'se sha = fonte oficial (confirmar)'. Interpretado como orientação de não duplicar o conteúdo normativo, não como ordem explícita de remover o átomo do índice (que só tem o registro do índice, não o texto). Átomo mantido e mapeado para a pasta canônica em Calculadoras-de-Enfermagem; a confirmação de que o sha é o da fonte oficial continua pendente."
+  ],
+  "decisoes": [
+   "Matriz (TEMA|protocolos_enfermagem, parcial): Cofen 736 duplica a fonte que está em Calculadoras-de-Enfermagem (pasta V2); PNSP: o corpus tem a Portaria 529, o A tem os protocolos anexos (complementares); PCDT: o A tem a lista de situação, o corpus tem 1 PCDT.",
+   "Mapeamento item a item determinístico: a linha RES|736|2024 cita literalmente o arquivo Resolucao_Cofen_no_736_2024_Processo_de_Enfermagem.pdf e o prefixo de sha256 3fb4e597, que confere com o PDF local (ver mapeamentos_itens_calculadoras_enfermagem).",
+   "PDFs: 1 átomo por documento do índice; descricao_literal = registro literal do índice. O texto dos PDFs NÃO foi extraído (a extração depende da ferramenta/versão, não é trivialmente determinística, e alguns PDFs têm centenas de páginas); o sha256 e o tamanho de cada PDF local estão em pdfs_locais.",
+   "Os 2 documentos da OMS cujo download falhou continuam como átomos (registro do índice com status 'falhou'), com fonte_url = URL oficial."
+  ],
+  "linha_do_tema_literal": {
+   "a_existe": "sim",
+   "a_local": "extracao bruta Grok Bot Danadao/protocolos_enfermagem https://drive.google.com/drive/folders/1cwbbiJyNPc-7IPhsE0YcnC_sXjaptdmy",
+   "calc_enf_existe": "parcial",
+   "calc_enf_local": "https://drive.google.com/drive/folders/1ykOJ14s_tzQHa6pqGH0uDA5z_Vht6OGW",
+   "calc_enf_status": "parcial: Cofen 736 (pasta V2) e corpus SRC-MS-PNSP-529-2013, SRC-MS-PCDT-AVC-2023, SRC-ANVISA-RDC36-2013",
+   "chave": "TEMA|protocolos_enfermagem",
+   "debby_existe": "nao",
+   "debby_local": "",
+   "debby_n_atomos": "",
+   "debby_status": "",
+   "descricao": "12 protocolos (MS/Anvisa PNSP, Cofen 736, CDC, PNI) + CONITEC PCDT",
+   "diferencas": "Cofen 736 = duplicata da fonte (ver linha RES|736|2024); PNSP: corpus tem a Portaria 529, A tem os protocolos anexos; PCDT: A tem lista de situacao, corpus tem 1 PCDT",
+   "recomendacao": "Nao duplicar 736; protocolos PNSP do A sao complementares ao corpus.",
+   "sobreposicao": "parcial",
+   "tipo_registro": "dados (A)"
+  },
+  "mapeamentos_itens_calculadoras_enfermagem": [
+   {
+    "atom_id": "protocolos_enfermagem:protocolo:resolucao-cofen-no-736-2024-processo-de-enfermagem",
+    "calc_enf_existe": "sim",
+    "calc_enf_local": "Calculadoras-de-Enfermagem/cofen/BR_FED_COFEN_RES_2024_N_00736 https://drive.google.com/drive/folders/1P9swVPS1G4sg_jBGWeHJXYeKGEhuS_JE ; 11_CANONICAL_CORPUS SRC-COFEN-736-2024 (44+19+60 blocos)",
+    "calc_enf_status": "iniciado/avancado (V0->V1->V2 manual: NORMA_V2, VALIDACAO_V2, MANIFESTO_V2, ATOMOS_V1 com 25 atomos de resumo_para_indexacao, transcricao_literal=null; _HISTORICO V0 + dossie)",
+    "diferencas": "Calc: atomos-resumo sem texto literal (schema V0/V2 manual); A: so PDF fonte; corpus: blocos EvidenceAtom",
+    "matriz_chave": "RES|736|2024",
+    "recomendacao": "Canonica: pasta 736 em Calculadoras-de-Enfermagem. Completar: gerar ATOMOS literais V1 pelo pipeline deterministico (texto do PDF oficial) mantendo V2; PDF do A e redundante se sha = fonte oficial (confirmar).",
+    "sha256_confere": true,
+    "sha256_prefixo_matriz": "3fb4e597",
+    "sobreposicao": "parcial"
+   }
+  ],
+  "matriz_arquivo": "MATRIZ_CRUZAMENTO_NORMATIVOS_DADOS_2026-10-10.csv",
+  "matriz_drive_file_id": "1eJETouIY0YwoZ0qUg-ObYRmPLeKgcEy_",
+  "matriz_sha256": "72968b5dfb5a68b53df4ab8a9e9268b6d631de9c687629ef951527e0323548a2",
+  "regra": "Nenhum átomo foi removido por sobreposição (a matriz não manda remover átomos). Mapeamentos item a item só quando a linha da matriz cita literalmente o arquivo de origem do átomo (a_local) e, se a matriz traz prefixo de sha256, ele confere com o arquivo local; o resto fica registrado aqui no nível do tema. referencias_cruzadas mantém só as 4 chaves do spec (cid10, cid11, mesh, medlineplus)."
+ },
+ "tema": "protocolos_enfermagem",
+ "total_atomos": 105,
+ "versao_gerador": "atomizar.py 1.1.0"
+}

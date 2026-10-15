@@ -112,7 +112,7 @@ def test_quatro_raizes_do_drive_bloqueiam_exclusao():
 def test_ledger_do_repositorio_confere_com_as_copias():
     ledger = json.loads((REPO / "data" / "legado" / "retirada_fontes.json").read_text(encoding="utf-8"))
     assert verificar_ledger(ledger, REPO) == []
-    assert len(ledger["itens"]) == 202
+    assert len(ledger["itens"]) == 331
     assert any(p["id_origem"] == "edge:cko-env-probe" for p in ledger["pendentes"])
     assert ledger["lixeira"]["mover_implantado"] == "EFETUADO"
     assert ledger["lixeira"]["esvaziar"] == "BLOQUEAR"
@@ -147,6 +147,26 @@ def test_ledger_do_repositorio_confere_com_as_copias():
         "mesh",
         "icd11",
         "suprimentos",
+        "atomizado/mesh",
+        "atomizado/cid10",
+        "atomizado/vacinas",
+        "atomizado/epidemiologico",
+        "atomizado/vacinal_brasil",
+        "atomizado/sinais_vitais",
+        "atomizado/protocolos_enfermagem",
+        "atomizado/ferimentos",
+        "atomizado/sepse",
+        "atomizado/suprimentos",
+        "atomizado/nutricao",
+        "atomizado/dispositivos",
+        "atomizado/medicamentos",
+        "atomizado/medlineplus",
+        "atomizado/icd11",
+        "atomizado",
+        "revisao/cofen736",
+        "protocolos_enfermagem/raw/pdfs",
+        "protocolos_enfermagem/raw",
+        "protocolos_enfermagem",
     }
     assert all(item["estado"] == "AUSENTE" for item in ledger["pastas_vazias"])
 

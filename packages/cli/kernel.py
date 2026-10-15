@@ -1,6 +1,7 @@
 """Porta única das tarefas de acervo. Sem Work Order, a tarefa não corre."""
 import hashlib
 import json
+import time
 from pathlib import Path
 from urllib.parse import urlencode
 
@@ -68,6 +69,31 @@ def _confirmacao_drive(corpo: bytes, file_id: str) -> str | None:
     )
 
 
+TENTATIVAS_DOWNLOAD = 3
+ESPERA_DOWNLOAD = 2
+
+
+def _get(url: str, file_id: str):
+    """Repete só resposta 5xx. Quatrocentos e o terceiro erro fecham."""
+    ultimo = None
+    for tentativa in range(TENTATIVAS_DOWNLOAD):
+        try:
+            resposta = requests.get(url, allow_redirects=True, timeout=600)
+        except requests.RequestException as exc:
+            ultimo = exc
+            if tentativa + 1 == TENTATIVAS_DOWNLOAD:
+                _fail(f"download {file_id} falhou: {exc}")
+            time.sleep(ESPERA_DOWNLOAD)
+            continue
+        if resposta.status_code < 500:
+            return resposta
+        ultimo = resposta.status_code
+        if tentativa + 1 == TENTATIVAS_DOWNLOAD:
+            break
+        time.sleep(ESPERA_DOWNLOAD)
+    _fail(f"download {file_id} respondeu {ultimo}")
+
+
 def _corpo(resposta, file_id: str) -> bytes:
     if resposta.status_code != 200:
         _fail(f"download {file_id} respondeu {resposta.status_code}")
@@ -87,12 +113,12 @@ def _nome_anexo(resposta) -> str | None:
 
 def _baixar(file_id: str, dest: Path) -> None:
     url = f"https://drive.google.com/uc?export=download&id={file_id}"
-    resposta = requests.get(url, allow_redirects=True, timeout=600)
+    resposta = _get(url, file_id)
     corpo = _corpo(resposta, file_id)
     if _eh_html(corpo):
         confirmacao = _confirmacao_drive(corpo, file_id)
         if confirmacao:
-            resposta = requests.get(confirmacao, allow_redirects=True, timeout=600)
+            resposta = _get(confirmacao, file_id)
             corpo = _corpo(resposta, file_id)
             if _eh_html(corpo):
                 _fail(f"download {file_id} continuou em HTML depois da confirmação")
