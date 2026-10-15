@@ -1,8 +1,8 @@
 {
   "versao": "1.0.0",
   "invariante": "FONTE_RETIRADA",
-  "verificado_em": "2026-10-15T01:46:00Z",
-  "regra": "Releitura da API do Drive em 15/10/2026: os file ids implantados não são mais encontrados. A lixeira do Drive é a exclusão disponível; não há exclusão permanente pela API. Os lotes cid10-readme-fetch e sepse da extração bruta entraram nessa releitura.",
+  "verificado_em": "2026-10-15T02:35:00Z",
+  "regra": "Releitura da API do Drive em 15/10/2026: os file ids implantados não são mais encontrados. A lixeira do Drive é a exclusão disponível; não há exclusão permanente pela API. Os lotes cid10-readme-fetch, sepse, ferimentos, sinais_vitais e epidemiologico da extração bruta entraram nessa releitura.",
   "itens": [
     {
       "origem": "drive",
@@ -274,6 +274,310 @@
       "disposicao": "IMPLANTADO",
       "sha256": "4aa2029f74a7b9b62c90c669bd7193a5c90fff0669ccdb0c1dd65b4beba20d9e",
       "copia": "data/legado/extracao_bruta/sepse/sepse_medlineplus.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "110HJsNy7HSiVLmi8JuknxdpFhS5w5k3N",
+      "disposicao": "IMPLANTADO",
+      "sha256": "d131a3905a6c67b4e86602e0ad9b2ef297f99a4b015ac3a045bbd3a59bdc7877",
+      "copia": "data/legado/extracao_bruta/ferimentos/ferimentos_cid10.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1t3IA4MfcM7_nwdS25d6z58Hkg7AHaIVf",
+      "disposicao": "IMPLANTADO",
+      "sha256": "b242d6613b860cf235c4bf6228d36d071fc95dba9603c21044e63860e6a4003b",
+      "copia": "data/legado/extracao_bruta/ferimentos/ferimentos_cid11.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1G3y_ifQERM0D2_SqYyMlz0QTkHDJdDvs",
+      "disposicao": "IMPLANTADO",
+      "sha256": "bdb0d867fcf6fe5f88cfe36eb9ea0fc18174180b239aac899558ad227ad6c42a",
+      "copia": "data/legado/extracao_bruta/ferimentos/tipos_curativos_catmat_pdm_classe_6510.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1TAW63gtvlVhU2WiMhzE3hDhasn561AMv",
+      "disposicao": "IMPLANTADO",
+      "sha256": "458e43bbc3834d391016664e19c51efad6ef146abda36b4feac27e5cb768a502",
+      "copia": "data/legado/extracao_bruta/ferimentos/ferimentos_mesh.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1x8hjIJtMavEObyezJBeKTyqBDHxsA2UA",
+      "disposicao": "IMPLANTADO",
+      "sha256": "4408493dd04445c25499f71ccfb632611157eea620dd72b370ec0ed050b54439",
+      "copia": "data/legado/extracao_bruta/ferimentos/tipos_curativos_anvisa_nome_tecnico.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "17UUvWPNcf61G4gmzzwmcO0BhnoyYDCn7",
+      "disposicao": "IMPLANTADO",
+      "sha256": "5f849992288d3244368af3681a4cd4380617665cf6547507f8f4728dd938fe7c",
+      "copia": "data/legado/extracao_bruta/ferimentos/tipos_curativos_anvisa_nome_tecnico.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1VnzPNoeyx9R-8WNr2JMoeUqJ3RBRV-KU",
+      "disposicao": "IMPLANTADO",
+      "sha256": "8093d15a71474971b4d2d38794f769a38111e94f8b14ffc30361075df5317efc",
+      "copia": "data/legado/extracao_bruta/ferimentos/tipos_curativos_catmat_pdm_classe_6510.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1cQoLJQjbRsT8_LNH1PSsdppAGZXmih-7",
+      "disposicao": "IMPLANTADO",
+      "sha256": "f9231e7cdba645525b052779d22e90a067d901bd47b5871dc5f5965c65d39a0e",
+      "copia": "data/legado/extracao_bruta/ferimentos/ferimentos_mesh.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1e9Tx4mk6x_T27I7AevJJS_zV86G6fsrs",
+      "disposicao": "IMPLANTADO",
+      "sha256": "b274010477bb07965b88d75a139cfdf057b751ca208ebda73dd2986c3e2dc170",
+      "copia": "data/legado/extracao_bruta/ferimentos/ferimentos_cid11.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1v48oRASO7Fn-RgXN-sRGhOVmYOENXeHY",
+      "disposicao": "IMPLANTADO",
+      "sha256": "1f99040d5e0c119a500098b18e2d3a5119469597eca5eb1e4dccf8cb341b0e8a",
+      "copia": "data/legado/extracao_bruta/ferimentos/ferimentos_cid10.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1CGOzAzRqdH_kifUcLWj6PVoQZJ9gvfdj",
+      "disposicao": "IMPLANTADO",
+      "sha256": "65785cbf764fee9bc5c03f1a845e8f81ac6f115b0587a1af2f3bcf5f4a0d3d20",
+      "copia": "data/legado/extracao_bruta/sinais_vitais/classificacao_pressao_arterial_dbha2020_transcrita_v2.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1_Gm_NmBPrlTaWm60grqk9gN-02y67MyY",
+      "disposicao": "IMPLANTADO",
+      "sha256": "978dc48f442438fe9efd23634b6766af49ec9d677f6c1838b02f1019eb220dce",
+      "copia": "data/legado/extracao_bruta/sinais_vitais/classificacao_pressao_arterial_dbha2020_transcrita.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1LVQE1bpbfyjwIZGtNe4Udquprak-1RRC",
+      "disposicao": "IMPLANTADO",
+      "sha256": "810ea174598ef3dc45de38fb245ebbe23afcacf8c49484ac29cb13ccfba1990a",
+      "copia": "data/legado/extracao_bruta/sinais_vitais/fhir_r4_sinais_vitais_codigos_loinc.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1haLA_pbmYHPR5fZEYaIvBbpkwHoaD5qn",
+      "disposicao": "IMPLANTADO",
+      "sha256": "138187b4ca2d41ff29254af4f165a5964fe5134386c1c0024ae8566187fe29b8",
+      "copia": "data/legado/extracao_bruta/sinais_vitais/news2_pontuacao_transcrita.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1UFph_IwllzYY9FXN7nwyL988FnEh8Ez3",
+      "disposicao": "IMPLANTADO",
+      "sha256": "6f472b7020852cfa0a50894a7d7b2afcb10d9de4592eea0e78d4b44b769f5bce",
+      "copia": "data/legado/extracao_bruta/sinais_vitais/referencias_sinais_vitais_transcritas_v2.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1ZATLzUunHuQN22hGohxmdESmJmxo4lSU",
+      "disposicao": "IMPLANTADO",
+      "sha256": "461d462478cd96f3d48820ffe82499e82551c91e41a310c4b556a91569ac2cc6",
+      "copia": "data/legado/extracao_bruta/sinais_vitais/classificacao_pressao_arterial_dbha2020_transcrita_v2.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1roiRgnrNlLbZ39WhW2Ql5Kt_Rl6x8fsG",
+      "disposicao": "IMPLANTADO",
+      "sha256": "db566a8b56bf10d0b808179b060bd7a074ab064c10ecdfb6e86f6d3b0ab73790",
+      "copia": "data/legado/extracao_bruta/sinais_vitais/referencias_sinais_vitais_transcritas.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Xg-9NKkFSkrd6SZi_FtCOGyzKKKMl7pB",
+      "disposicao": "IMPLANTADO",
+      "sha256": "6fcbd401c656f7292ec4fb43321217c4617739c943f130f57657f4fc01523254",
+      "copia": "data/legado/extracao_bruta/sinais_vitais/news2_pontuacao_transcrita.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1IuJ9tUWn7DX0e6z63-Cs9FDBhqpuk1bH",
+      "disposicao": "IMPLANTADO",
+      "sha256": "e51d83822b2cea28291b6a56c6964b9fc68a2fbfbda4c054a6824129b67e163c",
+      "copia": "data/legado/extracao_bruta/sinais_vitais/classificacao_pressao_arterial_dbha2020_transcrita.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "16yXD3n8Rhy2qtn2OnpJy8Obz-ph8w9EN",
+      "disposicao": "IMPLANTADO",
+      "sha256": "827c5cce26d9401354de138702b241efdb7d9f822a1cb524686054931d06a6db",
+      "copia": "data/legado/extracao_bruta/sinais_vitais/fhir_r4_sinais_vitais_codigos_loinc.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "13UjmLqnXuVfIAR-SCWC3HhJTjKn4UdV6",
+      "disposicao": "IMPLANTADO",
+      "sha256": "1f1ce418dbc9510b850eb59838028a08f6d99f6bae73177a1ec7498f732addac",
+      "copia": "data/legado/extracao_bruta/epidemiologico/sinan_zika_2026_amostra.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1xaw4U1_I3FFivnJiGRP0Or-PUYadB6Nb",
+      "disposicao": "IMPLANTADO",
+      "sha256": "20670f0fe007cf6b45a28dae8411528201a7c863444a87bfc77d7c9a9b0b529e",
+      "copia": "data/legado/extracao_bruta/epidemiologico/febre_amarela_humanos_primatas.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "18dSCoe5CcbFN0lmtQuAfUgwcXh4p_yIK",
+      "disposicao": "IMPLANTADO",
+      "sha256": "f093b662d9cfff8ad33c6dfb1fb6faaca0ca90fceb2249bd0cece161b8a140ba",
+      "copia": "data/legado/extracao_bruta/epidemiologico/lista_notificacao_compulsoria_2026.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Bv_rlztmXUEkzch-YVVBamutKopoTUHr",
+      "disposicao": "IMPLANTADO",
+      "sha256": "89aaa0c3086239b8836667893e47a486e7e0803b46c1addf17c9add53e478f46",
+      "copia": "data/legado/extracao_bruta/epidemiologico/sim_mortalidade_amostra.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1aGCAchb_JicQqggSA_jyn9eEF4VsoJQq",
+      "disposicao": "IMPLANTADO",
+      "sha256": "a776d1b99e26e08f6eb2c62937c0d1b872d5791cead4f312384d7e76aa6a9ace",
+      "copia": "data/legado/extracao_bruta/epidemiologico/srag_2019_2026_amostra.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1tyfgN1fqy_YOlhHWf0MkSixeWhbYCHjp",
+      "disposicao": "IMPLANTADO",
+      "sha256": "f02c151b866ad2f0fe7f696efaafd75cc8b7b6e2cdd501127f0414e62b66cad7",
+      "copia": "data/legado/extracao_bruta/epidemiologico/sinan_dengue_2026_amostra.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Cq1HE0FiQN3TuntG1RIgfhai4vA6MAlm",
+      "disposicao": "IMPLANTADO",
+      "sha256": "c5d275fc6707b6d961736b11026962c63667959ab30767ffef67342ecd0e938d",
+      "copia": "data/legado/extracao_bruta/epidemiologico/srag_2019_2026_amostra.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "14k6KprjLpTdAmRKoUMibJiZL0_0HMiXU",
+      "disposicao": "IMPLANTADO",
+      "sha256": "2e7aa77348fd2e132239d9ffc29743efa6452c638d3650135af3991e107c2618",
+      "copia": "data/legado/extracao_bruta/epidemiologico/sim_mortalidade_amostra.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1fO4z2sl0gxzIr8t-u5qMIvspD6ovWIMD",
+      "disposicao": "IMPLANTADO",
+      "sha256": "572b9c6d67e41860acf55f5bd3bb4da9dcbae9290792ab054566dcb0584219f8",
+      "copia": "data/legado/extracao_bruta/epidemiologico/sinan_zika_2026_amostra.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "150_ELPqkvDBVQSqtmkBXEFWOx8bhuGCD",
+      "disposicao": "IMPLANTADO",
+      "sha256": "62895996fbbd959a91dfab923348366021937d3950a5b9d9fb83c87d48b7b41a",
+      "copia": "data/legado/extracao_bruta/epidemiologico/sinan_chikungunya_2026_amostra.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1vRIsrF7KbJq0_adgFUdiEVduouSNbsdd",
+      "disposicao": "IMPLANTADO",
+      "sha256": "8f0cb3c1b156d919d60ee9543bfc50d01b11c573d6b8782d12bde44754e70a15",
+      "copia": "data/legado/extracao_bruta/epidemiologico/sinan_dengue_2026_amostra.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Kf4RAPomdfMPORJj5bYNM8-_3CAMyn4T",
+      "disposicao": "IMPLANTADO",
+      "sha256": "42216b449fb9313edd881c8fab628cfec5f41b05dc6441403fdf772d30e8b5e1",
+      "copia": "data/legado/extracao_bruta/epidemiologico/sinan_chikungunya_2026_amostra.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1oTTLMqfshSnw5ZzSHiIq4d95xlp_xmr_",
+      "disposicao": "IMPLANTADO",
+      "sha256": "1961ab3f208144bb8d821a3669c8a9c874a4ab570eac4819008c795f2bd55aef",
+      "copia": "data/legado/extracao_bruta/epidemiologico/mpox_amostra.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1g8Wjt6F24PX4h0JaUuMagvcl8oMrYrCF",
+      "disposicao": "IMPLANTADO",
+      "sha256": "8769a7fe2fc3319244a5882062460cd988eb2661d0b75c40df59e68fad45f878",
+      "copia": "data/legado/extracao_bruta/epidemiologico/mpox_amostra.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1qntmhP2HayZW_MGtGbD9l8RvTFxDpjo8",
+      "disposicao": "IMPLANTADO",
+      "sha256": "0cb6da60c795d75fcd7f827d50aa2b266639a5c0bb525031efc82bff1b8c26ab",
+      "copia": "data/legado/extracao_bruta/epidemiologico/lista_notificacao_compulsoria_2026.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1vRMu1CZZmjU2f4tydHtDRDg4z6JmVuUJ",
+      "disposicao": "IMPLANTADO",
+      "sha256": "6c75fc974d323b66c6966998775702767536f63f3224fca0dc6884a85d8198d3",
+      "copia": "data/legado/extracao_bruta/epidemiologico/febre_amarela_humanos_primatas.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1hMxh4qHfOadABaPZ2VQqhO0ELjm431nv",
+      "disposicao": "IMPLANTADO",
+      "sha256": "373dd2d044b7767197c35aecd91fad43dfde516270abfd448b29d499ed88fa5b",
+      "copia": "data/legado/extracao_bruta/epidemiologico/febre_amarela_epizootias.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1aCeVpq2lnRb0U03-ERgymqT0GF14vgaq",
+      "disposicao": "IMPLANTADO",
+      "sha256": "fda1e83561ff6fd016012ee3103b1b344256341778ea676b0f6656ce607dcfad",
+      "copia": "data/legado/extracao_bruta/epidemiologico/febre_amarela_epizootias.csv",
       "estado_origem": "AUSENTE"
     }
   ],
