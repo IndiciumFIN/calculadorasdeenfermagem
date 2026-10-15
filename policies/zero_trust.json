@@ -1,0 +1,63 @@
+{
+  "versao": "0.1.0",
+  "regra": "PASS_LOCAL não homologa, não implanta o protótipo e não autoriza produção. Estas políticas não entram nos procedimentos já qualificados.",
+  "politicas": [
+    {
+      "policy_id": "POL-ZT-001",
+      "version": "0.1.0",
+      "status": "CANDIDATE_NOT_HOMOLOGATED",
+      "rule_key": "pacote_conferido",
+      "statement": "O zip conferido permanece CANDIDATE_NOT_HOMOLOGATED. O SHA-256 externo e o manifesto interno fecham a cópia.",
+      "effect_on_violation": "HOLD",
+      "validador": "VAL-ZT-001",
+      "authorization": false
+    },
+    {
+      "policy_id": "POL-ZT-002",
+      "version": "0.1.0",
+      "status": "CANDIDATE_NOT_HOMOLOGATED",
+      "rule_key": "sem_promocao",
+      "statement": "Os dois agentes vigentes permanecem. Os 108 candidatos permanecem candidatos. Os 18 agentes novos permanecem fora do registro executável.",
+      "effect_on_violation": "HOLD",
+      "validador": "VAL-ZT-002",
+      "authorization": false
+    },
+    {
+      "policy_id": "POL-ZT-003",
+      "version": "0.1.0",
+      "status": "CANDIDATE_NOT_HOMOLOGATED",
+      "rule_key": "overlay_nao_revoga",
+      "statement": "O overlay HOLD_RECONCILE não revoga as nove tarefas qualificadas nem substitui o contrato CKO-TAREFA-1.0.0.",
+      "effect_on_violation": "HOLD",
+      "validador": "VAL-ZT-003",
+      "authorization": false
+    },
+    {
+      "policy_id": "POL-ZT-004",
+      "version": "0.1.0",
+      "status": "CANDIDATE_NOT_HOMOLOGATED",
+      "rule_key": "portas_nao_implantadas",
+      "statement": "As sete portas permanecem NOT_DEPLOYED. O SQL e o gateway do pacote permanecem referência.",
+      "effect_on_violation": "HOLD",
+      "validador": "VAL-ZT-004",
+      "authorization": false
+    },
+    {
+      "policy_id": "POL-ZT-005",
+      "version": "0.1.0",
+      "status": "CANDIDATE_NOT_HOMOLOGATED",
+      "rule_key": "determinacao_total",
+      "statement": "Cobertura total significa que cada item recebeu determinação. Autorização permanece falsa.",
+      "effect_on_violation": "HOLD",
+      "validador": "VAL-ZT-005",
+      "authorization": false
+    }
+  ],
+  "validadores": {
+    "VAL-ZT-001": {"implementado": true, "funcao": "packages.cli.zero_trust.val_pacote"},
+    "VAL-ZT-002": {"implementado": true, "funcao": "packages.cli.zero_trust.val_sem_promocao"},
+    "VAL-ZT-003": {"implementado": true, "funcao": "packages.cli.zero_trust.val_nao_revoga"},
+    "VAL-ZT-004": {"implementado": true, "funcao": "packages.cli.zero_trust.val_portas"},
+    "VAL-ZT-005": {"implementado": true, "funcao": "packages.cli.zero_trust.val_cobertura"}
+  }
+}
