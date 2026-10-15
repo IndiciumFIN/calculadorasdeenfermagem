@@ -1,0 +1,25 @@
+{
+  "algoritmo": "concatenacao-bytes-sha256",
+  "id_origem": "1G3Nn3L4Ze3p27JWVRRyd_VuReNKuf7lg",
+  "arquivo": "alimento_usda_sr_legacy.jsonl",
+  "caminho_obter": "atomizado/nutricao/alimento_usda_sr_legacy.jsonl",
+  "bytes": 73915846,
+  "sha256": "0760203b0a9b54a0c95bbe0a031ceb36586f197c1085416a0e2a9aed58d828db",
+  "tamanho_parte": 40000000,
+  "partes": [
+    {
+      "nome": "part-000",
+      "ordem": 0,
+      "offset": 0,
+      "bytes": 40000000,
+      "sha256": "718bcf806243e637557ee8811bd288d118ec7c1441ff0b4814f546b9da34d1e1"
+    },
+    {
+      "nome": "part-001",
+      "ordem": 1,
+      "offset": 40000000,
+      "bytes": 33915846,
+      "sha256": "20e835754cdf386a510678c5a2cc0c4070c4c1495b91a3c9a258dd2527df0b9f"
+    }
+  ]
+}

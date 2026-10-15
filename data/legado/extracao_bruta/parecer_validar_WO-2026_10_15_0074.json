@@ -1,0 +1,910 @@
+{
+  "work_order": "WO-2026_10_15_0074",
+  "checker_id": "kernel-validar",
+  "authorized_by": "IndiciumFIN",
+  "itens": [
+    {
+      "id_origem": "1a0Fb5ALbKlHLGrpwACGZOKD7IOYgnqGh",
+      "caminho": "revisao/REVISAO_TABELAS_TRANSCRITAS.xlsx",
+      "sha256": "c373fbca75fe70dfc858839d56790443d8e20233f94a507dca79cb99df5e7677",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1XvlU7qBILooUFFc9pcmzo-ensGqtpj7b",
+      "caminho": "revisao/revisao_qSOFA.csv",
+      "sha256": "15a58dac11c3f0ba41eb3a84cb7887554f35030c9f4935fc912c72f7b013ba93",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1PTtuKNOitjawEe6FzA1J2XnMrD85b2sV",
+      "caminho": "revisao/revisao_PA_DBHA2020.csv",
+      "sha256": "7ae05e972daba72eceecac23646a29e8292e027d579062601fb71b8895fe3747",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1_hhZ0CnjYa2QZeDiMHiRelGBuGh-8kEl",
+      "caminho": "revisao/revisao_NEWS2_risco.csv",
+      "sha256": "68ba07bb237f686508fc66fd324f40795e0f2ab0650f29341f9d0165c7b570ad",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1_aWF3oT6MzjDcDvTBSQy4lWjltHYJdm2",
+      "caminho": "revisao/revisao_definicoes_sepsis3.csv",
+      "sha256": "92df881c74b8a62df1b2748a193254765cbd0a6c62886fdc9bb1353647014002",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1OhBHZDGjPC_hy1xNJHQ5X9VuqagZYndj",
+      "caminho": "revisao/revisao_SOFA.csv",
+      "sha256": "fb00eb75c1928e68d4738d575d00b27bf059e293d9a584bfb4371fb72694d51e",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1wf4PoVv2aJRm_ehI4-krVBdShmtS9eQM",
+      "caminho": "revisao/revisao_NEWS2_pontos.csv",
+      "sha256": "b2f7035d376b46946d42d029cd135a0c347dff3604b3ab15aa8c096cc460b319",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "11X4un3UKuw3D-wFq2QoE-AEipo-BjbKB",
+      "caminho": "protocolos_enfermagem/indice_protocolos.csv",
+      "sha256": "da127a6f90f4534673ec929dbb74fde7da7241e0500fbb936f65e8e9d47437b5",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1S3V29LPUmDTxTdBV85s0ZZPOqaHYpFz5",
+      "caminho": "protocolos_enfermagem/conitec_tecnologias_diretrizes.csv",
+      "sha256": "f37322e9342f46abfe8ff97a6c51658428170982aa9552001e7b5359adb46038",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1gHsu7CiD50uLszPhsboghn2S88LB2dPB",
+      "caminho": "protocolos_enfermagem/conitec_pcdt_situacao.csv",
+      "sha256": "1f8a8e04174fb070b507eefe3c99e42b72d013e7eec9667edfc26f8556bf9632",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1T8YhQppUtEoTlB9ELBgRtA2rIgt-hobr",
+      "caminho": "protocolos_enfermagem/conitec_tecnologias_diretrizes.json",
+      "sha256": "dbe02b65e038a8767ef3df88ad93ffefb6d9f884a9472cb742b5fa024b443b2f",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "12VCC3Ukx0ZbtR7albdvfdfjhNPhbb8S3",
+      "caminho": "protocolos_enfermagem/conitec_pcdt_situacao.json",
+      "sha256": "b0ddbe72ca350fdd5546a7531801af04d8905fd1ab3895daf3017c5ba963f6a1",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1ZSyIaB54279pxbt978pQznrf3neRWLwu",
+      "caminho": "protocolos_enfermagem/indice_protocolos.json",
+      "sha256": "e45c0fceab270b4af4dac3014aa2abb87bc34c15bdf82f9ff5bb904b517e74dc",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1fhlLt9lJTaTB_yvrDc0HaEhTPTsOOO8M",
+      "caminho": "protocolos_enfermagem/raw/conitec_pcdt_situacao.json",
+      "sha256": "d5725e482bfe7b76f0653f0a676e686d1b99bdaa4f84f679276d4bc25e4cd947",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1TZyIPpWjey-gydkIElB1jL_PPPYm50Yy",
+      "caminho": "protocolos_enfermagem/raw/conitec_tecnologias_diretrizes.json",
+      "sha256": "5aea36f15143cb15df6ddb89ee13e87a0b156db3d8a6f48f7ef7891186a9b58b",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1R1xFb99ehGppHbfQEXeNCMEhkB2Kfboc",
+      "caminho": "protocolos_enfermagem/raw/pdfs/Guideline_for_Isolation_Precautions.pdf",
+      "sha256": "b613754256f54883345213c85c379bb7178c1f4d26d774915deaa91aa59c0508",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1qCRop-FZFBxxZQbbT2JUTWiUD8Hpqk2g",
+      "caminho": "protocolos_enfermagem/raw/pdfs/Instrucao_Normativa_do_Calendario_Nacional_de_Vacinacao_2026.pdf",
+      "sha256": "ff0a85fa4d81680b6b3c0c0ccb237c1475b2876214971228b7567e45d5d3d8c9",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1Q9I0ymWNFJ-t-g8eMz7smFX_Jz30kc4e",
+      "caminho": "protocolos_enfermagem/raw/pdfs/Protocolo_para_Cirurgia_Segura_PNSP.pdf",
+      "sha256": "fc882cd862a4ddef7ef4efad5a777c9cb6be5de5e44720b20c2478f422d10934",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1DI93yP4vtohgcN68_RRE1ZQRBULh2ujA",
+      "caminho": "protocolos_enfermagem/raw/pdfs/Manual_de_Normas_e_Procedimentos_para_Vacinacao_2a_ed_rev.pdf",
+      "sha256": "f1b7d1a86193982b99ad4d7a68d54d359b77f3ad3ee8eea931ff6a266bef21a6",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1LalSePDqjgrpgN7PRUBDKlMCIiyRhOMK",
+      "caminho": "protocolos_enfermagem/raw/pdfs/Protocolos_da_Atencao_Basica_Saude_das_Mulheres.pdf",
+      "sha256": "5d83345b49ee9fac862423e9534afe7c04f44c200f5f752738b782012c5a7680",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1ej566oEMOi1hC0jmM23PwPd7NId6BSo7",
+      "caminho": "protocolos_enfermagem/raw/pdfs/Resolucao_Cofen_no_736_2024_Processo_de_Enfermagem.pdf",
+      "sha256": "3fb4e597f053aefeb1aadf9b50c1ace53c32ca687454c28184814741677d7a49",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1PhJcBnmXyMKESP4QC_BWp4kmtJdClvIS",
+      "caminho": "protocolos_enfermagem/raw/pdfs/Portaria_GM_MS_2_095_2013_com_anexos_Protocolo_de_Prevencao_de_Ulcera_por_Pressa.pdf",
+      "sha256": "8d0ff473b1fcbf5190a20b73d27bc97970a916503c73b0d323a7fbd00f47a4b2",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1EWt9xFlf25imzyZaH27SWNUEg_VLZt-N",
+      "caminho": "protocolos_enfermagem/raw/pdfs/Protocolo_para_a_Pratica_de_Higiene_das_Maos_em_Servicos_de_Saude_PNSP.pdf",
+      "sha256": "0fef60b19a1732814a2bdd3ca5754c2fe33e0ec781ff0b2e6f8e5e3f223496ca",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1fGXDqeQI4JTs7M9aMew2S7_dFBcJYYzw",
+      "caminho": "protocolos_enfermagem/raw/pdfs/Protocolo_de_Identificacao_do_Paciente_PNSP.pdf",
+      "sha256": "305e64d923d193f3f2fa4b24cc93b787975e4ae19e161ad00ec31b70a844c8d2",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "12C8riQd-JrPML1Q_7w_7Ck3w4bMHQc8C",
+      "caminho": "protocolos_enfermagem/raw/pdfs/Guidelines_for_the_Prevention_of_Intravascular_Catheter_Related_Infections.pdf",
+      "sha256": "3d151c1d1c81f593ae2acd3e149029a01ee2a42b09e18eeff246e1a0dba36561",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1MWW8d24TeoOhiXWnTBD6ybX_KKfsWcEI",
+      "caminho": "revisao/cofen736/EVIDENCIA_COFEN_736_2024.md",
+      "sha256": "7136cad2a16d2a7f4447f47c8dea65160f2ddce1bd4939c76b22d7084401f1bc",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1E7osopWj82_wpiDC-LeDMVkvCo7DMeOz",
+      "caminho": "revisao/cofen736/dou_2024-01-23_s1_p74.txt",
+      "sha256": "6893f9654a448e0493048bb4c9643d89c7b52d39948d213eb54aed7032572dba",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "13c2ZH0fa5ZfI77VoJT3adOxtpKdO00-u",
+      "caminho": "revisao/cofen736/headers_cofen.txt",
+      "sha256": "82e35246e1ddcff6b3e4c19ea4ef80f6d575a4ad691984e4ab35db59dc130444",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1Pdz-GRWv_VNUJ92IUHRqYz_NR97b3bF8",
+      "caminho": "revisao/cofen736/oficial_cofen_Resolucao-736-2024.txt",
+      "sha256": "6893f9654a448e0493048bb4c9643d89c7b52d39948d213eb54aed7032572dba",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1SdN3_j5f6XOb7hjK3WXEFTb1W-xH6Wfb",
+      "caminho": "revisao/cofen736/headers_cofen_2.txt",
+      "sha256": "abb6d38ec90d6128795d8e9ae240818aeade62e92f5eef7a888a2a415506304c",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "17u2av6F_sLm8louoBmx6p-xv1_O9efeB",
+      "caminho": "revisao/cofen736/oficial_cofen_2_Resolucao-Cofen-no-736-2024-Dispoe.txt",
+      "sha256": "0ca6f15b92c51556d270b38a6018bfd706290c087e78e181436fa4f5a59ec930",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1rsLWfo1QNNhfZE5ox9JMERvEhQkE0tLP",
+      "caminho": "revisao/cofen736/diff_dou_x_sei.json",
+      "sha256": "5480b62213aa51888e8cd6024ff249197790209eb9c9de38a7c95bcb39447fbd",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1j-Oc5GJilKcbWkyiDHzgz69yJWO-eWCX",
+      "caminho": "revisao/cofen736/headers_dou.txt",
+      "sha256": "63aa32f52b2886c48dc5f36d82a67a3770b4712e42b9090dd1875f6f8ac45432",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1Y7eFgSP02wYSxe81vBeZ0aFHftVejPuf",
+      "caminho": "revisao/cofen736/data_download_utc.txt",
+      "sha256": "188b136452c9c5373297698263aa2483029ee21c8e56dc0bb5c837f4a5934479",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "11jzESaG3WYXHf60LfILnRaDKhzBnbBuP",
+      "caminho": "revisao/cofen736/dou_2024-01-23_s1_p74.pdf",
+      "sha256": "f302110a6564257b782c6286908b5bdcb1897436c3c15998f138cabd8d8fd3a4",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "17262fugB2BERb_0CwWdzL-oEzE_dd_3a",
+      "caminho": "revisao/cofen736/oficial_cofen_2_Resolucao-Cofen-no-736-2024-Dispoe.pdf",
+      "sha256": "8a8a9ecb5987a308f8e51fa2a291ea19c9284c9712300744f144c7ba48c3329e",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "19QYmIDCMIKMcjCgM76KAMbAsaPjtDbrq",
+      "caminho": "revisao/cofen736/EVIDENCIA_COFEN_736_2024.json",
+      "sha256": "56d0a08104f82bea7ca252f3d4192d7278dd593cbfd9f673643f83005a41d0f6",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1f6qWkOTcdgB02ZztomCZFIxaRV9NL0bc",
+      "caminho": "revisao/fontes/NEWS2_RCP2017_Chart1_scoring_system.pdf.headers.txt",
+      "sha256": "44d73920cafc5c7dc8c1a022c5273e4440fba6512f3891a15c51a3ea8e98b2cb",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1cPNiJuCesP_tYYHPsLc1Bs8HwVL5vW3Z",
+      "caminho": "revisao/fontes/Sepsis3_Singer2016_JAMA_VoR_via_AmsterdamUMC.pdf.headers.txt",
+      "sha256": "459bc15915b9e9f486f3b6b75e52f480333c2e1859ca1ba70bb98ea0278de331",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1NeMIJ7yir4wVVFVpW48WsdwZ-FsV3qFM",
+      "caminho": "revisao/fontes/NEWS2_RCP2017_Final_report.pdf.headers.txt",
+      "sha256": "fde2438c2cceff79f6aaacb8dce7bb8eb3daa1eede5bb3d14e7c2baab8c60f7b",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1j6wWiK076Qu78npOsL07iuvlTjhxyAAr",
+      "caminho": "revisao/fontes/NEWS2_RCP2017_Chart2_thresholds_triggers.pdf.headers.txt",
+      "sha256": "d3cb1a80ecab4659ae4a724a689bad6040652d19093c7a26a8ba67fa42681234",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1KW8VWo_wvhBvSq2NUdzI7vKaKbZ-5LOz",
+      "caminho": "revisao/fontes/DBHA2020_ArqBrasCardiol_116-3_516-658.pdf.headers.txt",
+      "sha256": "8a7095e99ee95489929bd9b30a71464f88c9d42aac897444f5f2801dc3d6161c",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "18b_csdHpKYdMXvGj7SioKMeRpi1Wp17f",
+      "caminho": "CKO_CURSOR_00_CONTROLE_v1_0_0.zip",
+      "sha256": "aa9c25a3c016b2fa2d43b816bba98c410f1e6a7d72c331f9f0aa6539bb41cc4e",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1Gvio35Z6BxIpfZ5dnfkbyR2kuD5HW5pJ",
+      "caminho": "atomizado/mesh/descritor_mesh.jsonl",
+      "sha256": "606bb9d27e7ceb531b38a4507ba3fbe0ab1a89d803763e19abc92e393569acf4",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1-65SxZCXaxEBbKOKobwXMXQS2CmvqlHv",
+      "caminho": "atomizado/mesh/MANIFESTO.json",
+      "sha256": "619a2a9b5720d4cbe0c883ace2ff71b83e450a0619137784ab2c0b082ce00c3c",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1xrXaCPpl0EehFytt3SaZLMTttHRm02Mg",
+      "caminho": "atomizado/cid10/grupo.jsonl",
+      "sha256": "4992ca890a72b68842406c8f9c2bf655eec7b693afce7a4820558e43cafc7116",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "16pxNuoWB7G--6EzFkrsrM9E5cH13ZUYo",
+      "caminho": "atomizado/cid10/capitulo.jsonl",
+      "sha256": "da3a540d800207f394fc5f119c08a164ea5f4dc0453986fac835e66671455fdf",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1eWGS95r4tIM5a6FEDXixivpbhhyH7F94",
+      "caminho": "atomizado/cid10/MANIFESTO.json",
+      "sha256": "363fbbb4c4c2f80622ae2e31c806d093305ebfcd270aa3906408f166718a105d",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1aoyHl_db4xeApDIJyYX5alVNpaXbvMOz",
+      "caminho": "atomizado/cid10/categoria.jsonl",
+      "sha256": "ee61d4260657965067cf1569b54a15b30824d23df8475fbaf270365fbd04de10",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1dsx3I9i1nsPRg7Fy8O7c1XYdDBwFAIKR",
+      "caminho": "atomizado/cid10/subcategoria.jsonl",
+      "sha256": "e6e214bb0753a14143045eef6f738a7e7ee2be542f2ca38f37636715c33c6cb9",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "11hOX3ctWJZC2A1t8743T4CWbBh-qRFT1",
+      "caminho": "atomizado/cid10/cido_grupo.jsonl",
+      "sha256": "f868f3a6a7fd1acfee9eb44887a21a28a8d9ab832cc4fe523988fac1ecc0094f",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1GiCe9So0ps5NAY7A7cj8fggTzmqlA_fC",
+      "caminho": "atomizado/cid10/cido_categoria.jsonl",
+      "sha256": "a23603ea207ffaea4064853ea4285516be30aacab4889d7da4809856c7da2b49",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1V6lShVDnG2vgSOpkn-wWUw3jzCq7RB9g",
+      "caminho": "atomizado/vacinas/dose_esquema_cdsi_acip.jsonl",
+      "sha256": "5ddb28d208a9d679948336b4b80ef59483778b2f2f3b19a243e8d6429fdb3217",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1U94wdcQgab-rM6a90eM33Q46ZWYKDf1W",
+      "caminho": "atomizado/vacinas/observacao_condicao_cdsi.jsonl",
+      "sha256": "667e03746b0123712792db7092983c867bb43972f851dafbbceee9c6bbd7303c",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1156_196L_SBGoFJUjbcLG8NmFFNV-KKf",
+      "caminho": "atomizado/vacinas/codigo_cvx.jsonl",
+      "sha256": "51ba29464a9e975c96411cd42acf3a17e46ac82fe674f9aecaaae7d1a304b325",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1SGQn2b3CN2vaNr9lNryxa4toSopVhHzM",
+      "caminho": "atomizado/vacinas/associacao_cvx_antigeno_cdsi.jsonl",
+      "sha256": "532d00a702a1f809dfaaea31652cf7e76b10f74de56287f62ae56bc75551112c",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1wLeUxXPqu5uJe-_oLx8LGXmszuUP1hGe",
+      "caminho": "atomizado/vacinas/MANIFESTO.json",
+      "sha256": "61f389edc707cf7d2bc7586edde59365e1c105de5ceb4af03779a9688c430651",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1BzpgjBboP-WnTGtx6h31ZAmUHbCVhoqq",
+      "caminho": "atomizado/epidemiologico/notificacao_mpox.jsonl",
+      "sha256": "36b35c37643db97f945236feeebc251c951b1d43ddf6c290641d1ca446b63cd1",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "16owgQjVxLaXqLnevFSeKurGRT29BnGy2",
+      "caminho": "atomizado/epidemiologico/obito_sim.jsonl",
+      "sha256": "68fdfa8878b5f926404ce12520e747cbea919fca79ea890e974c451f27610f10",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1m21NjM10nPI9TrjSZYPxCjFkACoROrEi",
+      "caminho": "atomizado/epidemiologico/MANIFESTO.json",
+      "sha256": "a527199f58a3e527abd7409d06d47c52d8632340ef2e03d40a4a9163bffa8ca7",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1HBKJ1PFREEVSvw58pqkozFF_IFh3k9H6",
+      "caminho": "atomizado/epidemiologico/epizootia_febre_amarela.jsonl",
+      "sha256": "c44216eda28eaac391fb25a8842f672ba3bc0c8bd7db1d7446f6b6093290b9e4",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1iqCnXxs2Yy0Olrp95LfeUCmQo7fHr9eY",
+      "caminho": "atomizado/epidemiologico/notificacao_sinan_chikungunya.jsonl",
+      "sha256": "44ab6d81e458d71792b384e09037e0377c73b3ec4280fc82be01cebef203382b",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1w56pn1deMxGFF4cZYqQ9DWfmOToJfmSj",
+      "caminho": "atomizado/epidemiologico/notificacao_srag.jsonl",
+      "sha256": "947e194d135dc58f008ae8d8ac2189f6ad924f197d9642984679926d76220991",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1Nhwt0tJUPd_sE0VHweHgSuGcBRsaBmD-",
+      "caminho": "atomizado/epidemiologico/notificacao_sinan_zika.jsonl",
+      "sha256": "3ad6f61cb22bcf4d8997d7af6c26d4c3c72285f02a337f0f1894fb1ce2705c17",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1BNHpl3rqNncLXrrFxTmZnG9jL_gnjoCQ",
+      "caminho": "atomizado/epidemiologico/notificacao_sinan_dengue.jsonl",
+      "sha256": "1c74862d40ade00508a34f2b358b751cdd8689cf86619f29d524be2a58de91c9",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1SGGVODmWhh5gV6BokIBmLZE8Wv9MJ3QG",
+      "caminho": "atomizado/epidemiologico/caso_febre_amarela_humano_primata.jsonl",
+      "sha256": "a164f2a87444b1fdc093ce758dd30a6c6944e041b96e8b605a8db5674f5eb4c5",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1fuNwc1OubL8UdvW5KQK2qsZ6BXrpAnys",
+      "caminho": "atomizado/epidemiologico/agravo_notificacao_compulsoria.jsonl",
+      "sha256": "a8679098244fc6376ceed6be45d0db70a2871efe6e480cbe160ec7f27b235a91",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1KLWHvmkBBdE9-upJr4V-pLR_SezNZhJO",
+      "caminho": "atomizado/vacinal_brasil/dose_aplicada_pni.jsonl",
+      "sha256": "28dd0e1eddd67e291fe71c149fc6400374bb68715daa1ef8d4353199b71a774c",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "19zAGT894c91MqNrxhQ3zepz0UTZuL3Bp",
+      "caminho": "atomizado/vacinal_brasil/notificacao_esavi.jsonl",
+      "sha256": "57db980f98e6e5f39b832c2b1e9f4327a067423502f58dfb0e90671ba3f8c514",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1fvirYL2ywWFYvjDd_nCcJLI3aOL9bI2Q",
+      "caminho": "atomizado/vacinal_brasil/cobertura_vacinal_polo_sesai.jsonl",
+      "sha256": "0d24bac84b0ffb970531e26ba871fab3bbbaf35a37b4453400b9b1b218294e19",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1i3LejaC8MmhdSfMl6JpfM5OjTxBXqJmJ",
+      "caminho": "atomizado/vacinal_brasil/MANIFESTO.json",
+      "sha256": "47caf7388785a6665ce29e3d9b1486fafd498a018dd2c92a3fc45fdc52bb5c6c",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1UT9IWqGwsX2s95FVnkIZWq0bQw2HSF3a",
+      "caminho": "atomizado/vacinal_brasil/movimento_insumo_sies.jsonl",
+      "sha256": "91e0a3b66c5db8162255c99def77e45d36c6cdbecdaee5820a34661100de3be5",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1me5_9-nXNDXkfTI86YLyzm8Np15sH_VD",
+      "caminho": "atomizado/sinais_vitais/MANIFESTO_2026-10-10.json",
+      "sha256": "85d6bc212c6cd2469c0e78c78cf8e19519d2000deaefd58262efa2cfc50308c3",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1ftJeCth0rcSWF4BQ18kzowny6Tj9Zoai",
+      "caminho": "atomizado/sinais_vitais/classificacao_pa_dbha2020_transcrita_manualmente_v2.jsonl",
+      "sha256": "427fdd11a4b6f7de5f48de47b1df37a7f389afe3147b0a5f53789c00cf408933",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1Uyl6rdP249hmR5Bng3rIlcYTaNrKGgCb",
+      "caminho": "atomizado/sinais_vitais/MANIFESTO_v2.json",
+      "sha256": "517f36fb1d23cee7311c010a389f6db063eeddbc6b24684302bf51b690eb0fa4",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1mOMdoYo6cUAsljlKvMaS-zO_5rJlgIty",
+      "caminho": "atomizado/sinais_vitais/risco_news2_transcrito_manualmente.jsonl",
+      "sha256": "b717da83d391cd25642d60b35b31f4eebc8edaf1875ab5d6be26c40651a99171",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1s-ANBr-SU-IERu9QDl85-KvkbK25R7dC",
+      "caminho": "atomizado/sinais_vitais/pontuacao_news2_transcrita_manualmente.jsonl",
+      "sha256": "94303acd7d6aa0e45149803cb0f323dcf68f3bf6dfa637f300d2f1ad2bade0f1",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1XuQdGPv-VuaaBqhrJr0qN-PrKKhMFf19",
+      "caminho": "atomizado/sinais_vitais/codigo_loinc_perfil_fhir.jsonl",
+      "sha256": "f95625f42b888d2b088b025b3c0c4546b58454c25f1d8ca13be2051197c15785",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1MkRprgzaunssjNvLc-909U_NZNOsgNvW",
+      "caminho": "atomizado/sinais_vitais/classificacao_pa_dbha2020_transcrita_manualmente.jsonl",
+      "sha256": "7917a82bb69258ac8e7dcfaf75c80411a91c5a529f82b5ad642903fbb6bb2864",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1ifA3ddCOX8DqkVLApTG04h0wcQn9Ymsi",
+      "caminho": "atomizado/sinais_vitais/MANIFESTO.json",
+      "sha256": "d693965c50b453706a049ee6b9deaccc1b0504c91a9f44ada2cc7edc9cf1baa0",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1j3Evtv04DL4VA8OwTGOEjMsePZHf-tOp",
+      "caminho": "atomizado/protocolos_enfermagem/MANIFESTO.json",
+      "sha256": "d4061d3eb78cd30261f58adb65cfba96016f8b1d5449ccb188b6685ed834f91b",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1fILsfE4nT5ubUSksGnlHKvqnTTrh-Pjp",
+      "caminho": "atomizado/protocolos_enfermagem/pcdt_conitec_situacao.jsonl",
+      "sha256": "18d85689e33950c76d325707439084e6f4a87ff1902e29c8cd8a3a2aa28c32b1",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1nryjNVcFEMjA9FVevxaDJ3dVUn-F0DZL",
+      "caminho": "atomizado/protocolos_enfermagem/documento_protocolo.jsonl",
+      "sha256": "5a10c15d2964b6b8eb916d5378b0aefc9f970d67325de78cc215d116d1a572fb",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1OPxxqck7R-bq46kimyVrMS5C8MgoJf41",
+      "caminho": "atomizado/protocolos_enfermagem/tecnologia_diretriz_covid19_conitec.jsonl",
+      "sha256": "f772d31a24ad868a934befa259ad3fe24b2a128c6debf99a253107f2a3f69e21",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1XV0fanEYJHbTPsVMZAlV-bncLp88wuZI",
+      "caminho": "atomizado/ferimentos/recorte_cid10.jsonl",
+      "sha256": "5891b30874ee7497f8b1dad92cb44230d04cdf0162bb00856618b30994ec811e",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1k5X4nrmL1c5gsrcjeL6J0VGBY3jtVnXX",
+      "caminho": "atomizado/ferimentos/recorte_cid11.jsonl",
+      "sha256": "7958f8a5af3829229522734023d7e2be667e607fb152f12a128d697a1c511fc3",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1v8qusbJFkwtJWTlKrsYzvlx2HBEOMyLa",
+      "caminho": "atomizado/ferimentos/recorte_mesh.jsonl",
+      "sha256": "5695c99c139fe4ae0cbcf2a87528b103045d0f668d36c9932b13c02bb7987ba9",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1TclpbMZwaU4DFy2gmOAjQy9cf1Jp1rOA",
+      "caminho": "atomizado/ferimentos/pdm_catmat_classe_6510.jsonl",
+      "sha256": "d5276953e1e24475e80fb503eced43c9ce61f1f6e8faad80c0158a112c23d9e7",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1FO_hN0ple1pK29L3lNWl0XKzh6WYu_ve",
+      "caminho": "atomizado/ferimentos/MANIFESTO.json",
+      "sha256": "0de3619a574559d5df7f891fef1e0793e26330c5b1acc311f6b9129ed504ed8b",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "142hBIMBzKsWRDNYajfnzPrZc402qHolQ",
+      "caminho": "atomizado/ferimentos/nome_tecnico_anvisa_curativo.jsonl",
+      "sha256": "46448513c89d6a3f1f13071acefaf9806c7d07e7fea2c5e63bf04e3ced44c078",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1reCkHWdWQZjiJ0MjiB_rxcRfyJdVIa33",
+      "caminho": "atomizado/sepse/MANIFESTO_v2.json",
+      "sha256": "519281115a2021772087796618433c30fb6162a991c27424bfe7843a7217f282",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1i5JAG-LmLDKgHMEziZrqt9oyU5Vx1MqQ",
+      "caminho": "atomizado/sepse/MANIFESTO_2026-10-10.json",
+      "sha256": "f29bf3e889538ac2611acbe776270230e02816046ecac13df65cffcb46c98a87",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "12USrAv8967pGN_o0zHBp_r4ZXkLtt2tw",
+      "caminho": "atomizado/sepse/definicao_transcrita_manualmente_v2.jsonl",
+      "sha256": "694a071253aae0d8f2836276a2ca828564d278d01d7bc4ebab5f63341b43975f",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1mF00m0ltaBaLsGoAOQu8cnCT1VeK__yc",
+      "caminho": "atomizado/sepse/definicao_transcrita_manualmente.jsonl",
+      "sha256": "193d09a6070608b113b3895218eb6f2d365f33dd2bb07dc74451f8b1010bb859",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1dde4NkFPCmwA8DxoSNxeJx_PfxoDuEh5",
+      "caminho": "atomizado/sepse/escore_transcrito_manualmente.jsonl",
+      "sha256": "5bf84ee50ab45f8c73928ee9cd8714ddce17a283206231a4cd5ae88609aa5e8d",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1meR7YCYGGJIXQAHjL0ScwlBT-w89Gcxx",
+      "caminho": "atomizado/sepse/recorte_mesh.jsonl",
+      "sha256": "c46ebeb2ccd3cd70b35b0b54f951dc0e60370c0611695865b5b7ab43b142e717",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1Ezc42on63YcF2yGtvqpdsxrmysDBjASf",
+      "caminho": "atomizado/sepse/recorte_medlineplus.jsonl",
+      "sha256": "6805b19897bc97bea78adb48e936685ed1c16e40e551c1fef33fa7f972ada1fd",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1hz5wj7zojHLg8kE6kGydZseiX1oIPlLq",
+      "caminho": "atomizado/sepse/recorte_cid11.jsonl",
+      "sha256": "256b7ffdadfe1f0ea4d45666ca0d68f9dee60f8278ed94e1037efd7eb96efe5f",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1xH7tewPIXKt0p73FwkAz70_mUg48SG7j",
+      "caminho": "atomizado/sepse/recorte_cid10.jsonl",
+      "sha256": "a284d9ff8db01dd87041d3a9566f93f4e9e17b7adb4170b5b0286fba1b48c85a",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1KfzZFuGbk2YZlL9VJfJYKnK054LLPXxx",
+      "caminho": "atomizado/sepse/criterio_escore_transcrito_manualmente.jsonl",
+      "sha256": "e07778e9b95cbcc30bbcae4095217f1f00d6bd404ee425dfe36a08dd4cd54081",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1lfJ-bPSXnrTZqsdIXo9mc2kWx97wYhNC",
+      "caminho": "atomizado/sepse/MANIFESTO.json",
+      "sha256": "3242f4f4398f2b072f862f01ae88a02f903d6a4fa3e8051d920d43e98fcb6d28",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1_zeyuWYYuNhhQ49dBhuM4NFn3vdExsTf",
+      "caminho": "atomizado/suprimentos/registro_anvisa_seringa_agulha_luva_curativo.jsonl",
+      "sha256": "c9c63067367b94f3fe457a4cd03627e6604fd544c15574c1fa84307ccff5f442",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1bd4MlCxeeehR8bsPmoxBs4uxniIXkGA7",
+      "caminho": "atomizado/suprimentos/classificacao_fda_seringa_agulha_luva_curativo.jsonl",
+      "sha256": "db7e6f42db30a9d25b1cda24000908dc8c27680d9aa95ec4a4b268bb079b9caf",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1KV9W6gXe8q6G6ZmouVpsdKVOsDy7c_j7",
+      "caminho": "atomizado/suprimentos/item_catmat.jsonl",
+      "sha256": "aa764c1951eb28e1966af4b8f28dc41f34643acbe09a48329be7300b97e51a19",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1tA7Lt-E3UBJbGQB70T6PtjcTjezay9U6",
+      "caminho": "atomizado/suprimentos/item_catmat_seringa_agulha_luva_curativo.jsonl",
+      "sha256": "04d8edc3251299954833b6d3bff3be93099c93bc482bd4be64a44752bd78a472",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1UsoXAQ6AMNcTlnb40IamSaSBwfpv3fy8",
+      "caminho": "atomizado/suprimentos/MANIFESTO.json",
+      "sha256": "a4c8b9b9cc5d429c6a4c4a17c18e6f3e44c67fd19a18f748b02ec82b63af4991",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1G3Nn3L4Ze3p27JWVRRyd_VuReNKuf7lg",
+      "caminho": "atomizado/nutricao/alimento_usda_sr_legacy.jsonl",
+      "sha256": "0760203b0a9b54a0c95bbe0a031ceb36586f197c1085416a0e2a9aed58d828db",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1Na672Ul8VovjmC0aArUImCJASpOfF0Av",
+      "caminho": "atomizado/nutricao/MANIFESTO.json",
+      "sha256": "b6497d3834c7a986af6cff23574d0331c1dda38d85e83f65fb83aa22aa89140b",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1aqSK3lrNt8hS4VcCbDK_uproyqsHyOE3",
+      "caminho": "atomizado/nutricao/medida_caseira_pof.jsonl",
+      "sha256": "45c9a536e66641c74e04807d905717971a9dc97d9c20219f5052cce2428c6d62",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1Cj0ZK0JUSmWTpGYNVqYAvvtxid_YjLfv",
+      "caminho": "atomizado/nutricao/alimento_taco.jsonl",
+      "sha256": "f60c6962858975fe54b4ee698a84674ead0b48f5d7f0fe132c8957e5ab866ab2",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1tQRjgczSfuCO4SEuYYv2DOZKuXxuCkzD",
+      "caminho": "atomizado/nutricao/alimento_usda_foundation.jsonl",
+      "sha256": "30eb47897cbd66750507f69505e383b22d67c70248b9b3ac7bbffa282003cb44",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "145HPQZsZOEDYbrKANkFssqOAHdxafvFB",
+      "caminho": "atomizado/dispositivos/classificacao_fda_dispositivo.jsonl",
+      "sha256": "f6baf5aa6817b597076058b4ecf2c3107b9de9c139d1267f905881e2d4de169c",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1R_rRC04vWjNgM7AYYKMmqyqzX2pJVZwL",
+      "caminho": "atomizado/dispositivos/registro_anvisa_produto_saude.parte-0002.jsonl",
+      "sha256": "5a14e78e5cde50a2e39bebb0a0df08bbe4dbfc7dec323ca3caf4dbf44095f8ec",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1LWWFk_QuADCz5a9L2Xek5CuZaNi6FIjQ",
+      "caminho": "atomizado/dispositivos/registro_anvisa_produto_saude.parte-0001.jsonl",
+      "sha256": "7966ab61d11d8697eaf4a4b68d79f551cc7971e4bfd0861a877ebe2ed3c605f1",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1OMRyAhpzp_xVeSzrMXkyTywN_rCpAF6p",
+      "caminho": "atomizado/dispositivos/MANIFESTO.json",
+      "sha256": "09ba640b86b4a1ab44ba46baeb3ed0d8699fcd0b0336dc24d8a9c33688d1ac6a",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1YnDMU1hvoHGFYSpNEQh-teuVdHx6PWhn",
+      "caminho": "atomizado/medicamentos/desabastecimento_fda.jsonl",
+      "sha256": "0f7ebcd8dd876e872de448e9e5d8e92a118f46c65348c964e32ac18649624f34",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1upszrDc_kyL7emITACfuzsC0Y611Q9vH",
+      "caminho": "atomizado/medicamentos/MANIFESTO.json",
+      "sha256": "2209259bdce393bb472f01d120d3d5518138a3803b22cf8e33176d468ffe6d06",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1pATK4LNcfKvN3AAiSMbJKSX5rJp4HGey",
+      "caminho": "atomizado/medicamentos/produto_fda_ndc.parte-0001.jsonl",
+      "sha256": "ac8384d115c43434ceb36abcd1722ffd4054e018dc238e8ddbf9ac9b8dfeb9bf",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1Ym9x4kE3CDvn1g7mYVIQLvXu_w2B_8qn",
+      "caminho": "atomizado/medicamentos/produto_fda_ndc.parte-0002.jsonl",
+      "sha256": "f1e331a5e3de15eb7a5eef36369210e795f94efadce5f1f0e0768f5ddd5dea4c",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1O5GDkgUOiLiXcd-2JiscAZc7qBY3qYPG",
+      "caminho": "atomizado/medicamentos/produto_anvisa_sem_numero_registro.jsonl",
+      "sha256": "fc592821341dfbb919b297166a8ba948ec7afd7ca955da7085c7a54198bb12e1",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1S9KrJFUlnxTPx-OeVKBdmVeOJBJKuUrm",
+      "caminho": "atomizado/medicamentos/apresentacao_cmed.jsonl",
+      "sha256": "3f158c141200caae51cc2b3ea7d309f8a52db2b2a4b7136278df612b8f1e37b6",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1Fq9xo0CTJpJcyrpAzWUM3EOVfRIixvoz",
+      "caminho": "atomizado/medicamentos/registro_anvisa_medicamento.jsonl",
+      "sha256": "5adb436235b72b51156bbb7ee2b27d53cbcc3884c4ce0bc4f8dbf04d0f9660ed",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1tJWoyOJg5HUuuXtG7gKhHw6eKY_ArJeC",
+      "caminho": "atomizado/medlineplus/topico_saude_es.jsonl",
+      "sha256": "fe22d3f7c4eb9ef27419a07af8c33a3d99d94e74f451e4ed3bf4423af52623f8",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1A1eoGDNdxbJoOeDhS7PB7_ouEaVPjSJU",
+      "caminho": "atomizado/medlineplus/topico_saude_en.jsonl",
+      "sha256": "f47bc45931cf576316eac265b480ea8eb606a20eb66eb7bbeaf76336e097cb3c",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1WbO5QW2pXc8UjTmToN0ss3UmYyx8phMx",
+      "caminho": "atomizado/medlineplus/MANIFESTO.json",
+      "sha256": "d6e62f21147d9553ff2ac6b9bfca1afcaa8ef0d774e685d51285eb1b003da9f4",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1uJYU67kzyEoQczGcr4HMaFGvMpiiNE1U",
+      "caminho": "atomizado/icd11/bloco.jsonl",
+      "sha256": "04968018ebd54a3cb1df1426e4d230f4381ee479a57f98b014ed224ff75a74f1",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1DegoeMIF2Uq5vXkE7kg-8_0qQnwK1R0t",
+      "caminho": "atomizado/icd11/capitulo.jsonl",
+      "sha256": "9952e421e017da2f8659ae28f791e78a6804bf8d867a101ff413e68288358080",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "12NtEw66DS4enEIy2BNOtNS8jKugF14G4",
+      "caminho": "atomizado/icd11/categoria.jsonl",
+      "sha256": "92cde37221b93f6d2d46ccb802b16de9a9b7b53e7b1c5e32ce128b3102b46c8d",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1O1u1lRhM0d-3lobriZ03IPf88ShqqUz-",
+      "caminho": "atomizado/icd11/MANIFESTO.json",
+      "sha256": "fb799f9f6c8e0e2296224e1d4128eec1ec5f08e6ff7cea573ecf4afc264d3904",
+      "resultado": "PASS",
+      "atomos": 0
+    }
+  ]
+}

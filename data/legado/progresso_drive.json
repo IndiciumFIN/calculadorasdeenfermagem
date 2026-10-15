@@ -1,18 +1,31 @@
 {
-  "verificado_em": "2026-10-15T08:04:31Z",
+  "verificado_em": "2026-10-15T08:39:16Z",
   "barra_autorizada": {
     "nome": "Extração bruta, listagem fechada, entrada autorizada",
     "feitos": 144,
     "total": 144,
     "percentual": 100.0,
     "desenho": "[████████████████████]",
-    "nota": "Cem por cento deste recorte. Não é cem por cento do Drive."
+    "nota": "Cem por cento deste recorte antigo. Não é cem por cento do Drive."
+  },
+  "pasta_grok": {
+    "id": "1l519_P-9o6bnQcItydKvEEDpEYeE8R8s",
+    "listagem": "fechada",
+    "filho_restante": "revisao",
+    "resto": "revisao/fontes contém cinco PDFs de editora. O texto de página não entra no Git e a única cópia não foi para a lixeira.",
+    "pdfs_editora": [
+      "NEWS2_RCP2017_Final_report.pdf",
+      "NEWS2_RCP2017_Chart1_scoring_system.pdf",
+      "NEWS2_RCP2017_Chart2_thresholds_triggers.pdf",
+      "Sepsis3_Singer2016_JAMA_VoR_via_AmsterdamUMC.pdf",
+      "DBHA2020_ArqBrasCardiol_116-3_516-658.pdf"
+    ]
   },
   "pastas_da_raiz": [
-    {"titulo": "cid10", "considerada": true, "arquivos": "implantados", "permanece": "pasta vazia na lixeira"},
-    {"titulo": "ferimentos", "considerada": true, "arquivos": "implantados", "permanece": "pasta vazia na lixeira"},
-    {"titulo": "medlineplus", "considerada": true, "arquivos": "implantados", "permanece": "pasta vazia na lixeira"},
-    {"titulo": "sepse", "considerada": true, "arquivos": "implantados", "permanece": "pasta vazia na lixeira"},
+    {"titulo": "cid10", "considerada": true, "arquivos": "implantados", "permanece": "pasta na lixeira"},
+    {"titulo": "ferimentos", "considerada": true, "arquivos": "implantados", "permanece": "pasta na lixeira"},
+    {"titulo": "medlineplus", "considerada": true, "arquivos": "implantados", "permanece": "pasta na lixeira"},
+    {"titulo": "sepse", "considerada": true, "arquivos": "implantados", "permanece": "pasta na lixeira"},
     {"titulo": "epidemiologico", "considerada": true, "arquivos": "implantados e raw", "permanece": "pasta na lixeira"},
     {"titulo": "icd11", "considerada": true, "arquivos": "implantados e raw", "permanece": "pasta na lixeira"},
     {"titulo": "medicamentos", "considerada": true, "arquivos": "implantados, frações e raw", "permanece": "pasta na lixeira"},
@@ -23,15 +36,15 @@
     {"titulo": "vacinas", "considerada": true, "arquivos": "implantados e raw", "permanece": "pasta na lixeira"},
     {"titulo": "vacinal_brasil", "considerada": true, "arquivos": "implantados e raw", "permanece": "pasta na lixeira"},
     {"titulo": "dispositivos", "considerada": true, "arquivos": "quatro implantados, um fracionado, e raw", "permanece": "pasta na lixeira"},
-    {"titulo": "revisao", "considerada": true, "arquivos": "seis documentos e o script", "permanece": "sete tabelas clínicas transcritas"},
-    {"titulo": "atomizado", "considerada": true, "arquivos": "oito da raiz", "permanece": "filhos derivados; mesh confere com a cópia já implantada"},
-    {"titulo": "protocolos_enfermagem", "considerada": true, "arquivos": "não copiados", "permanece": "ato sem extrator e PDF clínico"},
+    {"titulo": "revisao", "considerada": true, "arquivos": "documentos, tabelas, cofen736 e cabeçalhos", "permanece": "a pasta fontes, com cinco PDFs de editora"},
+    {"titulo": "atomizado", "considerada": true, "arquivos": "raiz e 86 jsonl ou manifestos, seis fracionados", "permanece": "pasta na lixeira"},
+    {"titulo": "protocolos_enfermagem", "considerada": true, "arquivos": "índices, raw e dez PDFs oficiais", "permanece": "pasta na lixeira"},
     {"titulo": "raw", "considerada": true, "arquivos": "50 copiados em */raw/ pelas WO 0068 a 0071", "permanece": "pasta na lixeira"}
   ],
   "arquivo_na_raiz": {
     "titulo": "CKO_CURSOR_00_CONTROLE_v1_0_0.zip",
     "considerado": true,
-    "disposicao": "permanece no Drive; controle de análise de PDF clínico"
+    "disposicao": "copiado, extraído em bytes e enviado à lixeira"
   },
   "outras_raizes": [
     "Calculadoras_de_Enfermagem: duas árvores COFEN, 249 pares de nome e tamanho sem os dois hashes",
@@ -39,11 +52,9 @@
     "Calculadoras-de-Enfermagem: listagem passou de 105 itens e ainda tinha página seguinte"
   ],
   "alternativas_para_o_drive_inteiro": [
-    "Manter este recorte em 144 de 144 e não chamar isso de Drive concluído.",
-    "Comparar cada filho de atomizado com a cópia implantada. Hash igual sai; hash diferente não tem lado escolhido.",
+    "A pasta Grok não está vazia: restam cinco PDFs de editora em revisao/fontes.",
     "Fracionar o que passar de 50 MB. A concatenação precisa repetir o SHA-256.",
-    "Deixar tabelas clínicas transcritas, protocolos e o zip de controle até haver licença ou extrator.",
     "Fechar a listagem das outras três raízes antes de atribuir percentual a elas.",
-    "Casca de pasta e raw não entram no numerador. Esvaziar a lixeira está bloqueado e somente uma pessoa pode fazer isso."
+    "Esvaziar a lixeira está bloqueado e somente uma pessoa pode fazer isso."
   ]
 }

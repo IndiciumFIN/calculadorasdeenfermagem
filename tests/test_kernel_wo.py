@@ -86,7 +86,7 @@ def test_wos_do_repositorio_apontam_para_definicao_qualificada():
 
     pasta = RAIZ / "contracts" / "work_orders"
     vistos = sorted(pasta.glob("WO-2026_10_15_*.json"))
-    assert len(vistos) == 70
+    assert len(vistos) == 74
     for caminho in vistos:
         wo = carregar_wo(caminho)
         assert wo.task_id.startswith("TAREFA-")
@@ -259,6 +259,48 @@ def test_html_anexo_com_o_nome_do_destino_e_gravado(tmp_path, monkeypatch):
     doc["entradas"][0]["caminho"] = "epidemiologico/raw/capitulos.csv"
     obter(work_order=_gravar(tmp_path, doc))
     assert (saida / "epidemiologico/raw/capitulos.csv").read_bytes() == corpo
+
+
+def test_download_500_repete_e_grava(tmp_path, monkeypatch):
+    saida = tmp_path / "saida"
+    monkeypatch.setattr("packages.cli.kernel.SAIDA", saida)
+    monkeypatch.setattr("packages.cli.kernel.ESPERA_DOWNLOAD", 0)
+    pedidos = []
+
+    class Resposta:
+        def __init__(self, status, content=b""):
+            self.status_code = status
+            self.content = content
+            self.headers = {}
+
+    def get(url, **kwargs):
+        pedidos.append(url)
+        if len(pedidos) == 1:
+            return Resposta(500)
+        return Resposta(200, b"pdf")
+
+    monkeypatch.setattr("packages.cli.kernel.requests.get", get)
+    obter(work_order=_gravar(tmp_path, _base("obter", sha=None)))
+    assert len(pedidos) == 2
+    assert (saida / "cid10" / "capitulos.csv").read_bytes() == b"pdf"
+
+
+def test_download_500_tres_vezes_nao_grava(tmp_path, monkeypatch):
+    saida = tmp_path / "saida"
+    monkeypatch.setattr("packages.cli.kernel.SAIDA", saida)
+    monkeypatch.setattr("packages.cli.kernel.ESPERA_DOWNLOAD", 0)
+
+    class Resposta:
+        status_code = 500
+        content = b""
+        headers = {}
+
+    monkeypatch.setattr("packages.cli.kernel.requests.get", lambda *args, **kwargs: Resposta())
+    with pytest.raises(typer.Exit) as exc:
+        obter(work_order=_gravar(tmp_path, _base("obter", sha=None)))
+    assert exc.value.exit_code == 2
+    assert not (saida / "manifesto_obter_WO-2026_10_15_0001.json").exists()
+    assert not (saida / "cid10" / "capitulos.csv").exists()
 
 
 def test_download_html_nao_grava_arquivo(tmp_path, monkeypatch):
