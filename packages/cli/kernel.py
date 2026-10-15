@@ -47,9 +47,7 @@ def _eh_html(corpo: bytes) -> bool:
 
 
 def _confirmacao_drive(corpo: bytes, file_id: str) -> str | None:
-    """Uma confirmação do aviso de varredura, só se o formulário for deste id."""
-    if b"Virus scan warning" not in corpo:
-        return None
+    """Confirma o aviso do Drive só quando o formulário é deste id."""
     form = BeautifulSoup(corpo, "html.parser").find("form", id="download-form")
     if form is None or form.get("action") != "https://drive.usercontent.google.com/download":
         return None
@@ -76,16 +74,30 @@ def _corpo(resposta, file_id: str) -> bytes:
     return resposta.content
 
 
+def _nome_anexo(resposta) -> str | None:
+    headers = getattr(resposta, "headers", None) or {}
+    disp = headers.get("content-disposition") or ""
+    if "filename=" not in disp:
+        return None
+    bruto = disp.split("filename=", 1)[1].strip()
+    if bruto.startswith('"'):
+        return bruto.split('"', 2)[1]
+    return bruto.split(";", 1)[0].strip()
+
+
 def _baixar(file_id: str, dest: Path) -> None:
     url = f"https://drive.google.com/uc?export=download&id={file_id}"
-    corpo = _corpo(requests.get(url, allow_redirects=True, timeout=600), file_id)
+    resposta = requests.get(url, allow_redirects=True, timeout=600)
+    corpo = _corpo(resposta, file_id)
     if _eh_html(corpo):
         confirmacao = _confirmacao_drive(corpo, file_id)
-        if not confirmacao:
+        if confirmacao:
+            resposta = requests.get(confirmacao, allow_redirects=True, timeout=600)
+            corpo = _corpo(resposta, file_id)
+            if _eh_html(corpo):
+                _fail(f"download {file_id} continuou em HTML depois da confirmação")
+        elif _nome_anexo(resposta) != dest.name or b"Virus scan warning" in corpo:
             _fail(f"download {file_id} devolveu HTML, não o arquivo")
-        corpo = _corpo(requests.get(confirmacao, allow_redirects=True, timeout=600), file_id)
-        if _eh_html(corpo):
-            _fail(f"download {file_id} continuou em HTML depois da confirmação")
     dest.parent.mkdir(parents=True, exist_ok=True)
     dest.write_bytes(corpo)
 

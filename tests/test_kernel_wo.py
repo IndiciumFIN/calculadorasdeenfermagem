@@ -86,7 +86,7 @@ def test_wos_do_repositorio_apontam_para_definicao_qualificada():
 
     pasta = RAIZ / "contracts" / "work_orders"
     vistos = sorted(pasta.glob("WO-2026_10_15_*.json"))
-    assert len(vistos) == 66
+    assert len(vistos) == 70
     for caminho in vistos:
         wo = carregar_wo(caminho)
         assert wo.task_id.startswith("TAREFA-")
@@ -242,6 +242,23 @@ def test_confirmacao_de_varredura_baixa_o_arquivo(tmp_path, monkeypatch):
     assert "id=id-origem-1" in pedidos[1]
     assert "confirm=t" in pedidos[1]
     assert (saida / "cid10" / "capitulos.csv").read_bytes() == b"print('coleta')\n"
+
+
+def test_html_anexo_com_o_nome_do_destino_e_gravado(tmp_path, monkeypatch):
+    saida = tmp_path / "saida"
+    monkeypatch.setattr("packages.cli.kernel.SAIDA", saida)
+    corpo = b"<!DOCTYPE html><html><title>Ministerio da Saude</title></html>"
+
+    class Resposta:
+        status_code = 200
+        content = corpo
+        headers = {"content-disposition": 'attachment; filename="capitulos.csv"'}
+
+    monkeypatch.setattr("packages.cli.kernel.requests.get", lambda *args, **kwargs: Resposta())
+    doc = _base("obter", sha=None)
+    doc["entradas"][0]["caminho"] = "epidemiologico/raw/capitulos.csv"
+    obter(work_order=_gravar(tmp_path, doc))
+    assert (saida / "epidemiologico/raw/capitulos.csv").read_bytes() == corpo
 
 
 def test_download_html_nao_grava_arquivo(tmp_path, monkeypatch):

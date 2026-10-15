@@ -1,5 +1,5 @@
 {
-  "verificado_em": "2026-10-15T07:31:37Z",
+  "verificado_em": "2026-10-15T08:04:31Z",
   "barra_autorizada": {
     "nome": "Extração bruta, listagem fechada, entrada autorizada",
     "feitos": 144,
@@ -13,20 +13,20 @@
     {"titulo": "ferimentos", "considerada": true, "arquivos": "implantados", "permanece": "pasta vazia na lixeira"},
     {"titulo": "medlineplus", "considerada": true, "arquivos": "implantados", "permanece": "pasta vazia na lixeira"},
     {"titulo": "sepse", "considerada": true, "arquivos": "implantados", "permanece": "pasta vazia na lixeira"},
-    {"titulo": "epidemiologico", "considerada": true, "arquivos": "implantados", "permanece": "casca e raw"},
-    {"titulo": "icd11", "considerada": true, "arquivos": "implantados", "permanece": "casca e raw"},
-    {"titulo": "medicamentos", "considerada": true, "arquivos": "implantados, inclusive frações", "permanece": "casca e raw"},
-    {"titulo": "mesh", "considerada": true, "arquivos": "implantados", "permanece": "casca e raw"},
-    {"titulo": "nutricao", "considerada": true, "arquivos": "implantados, inclusive fração", "permanece": "casca e raw"},
-    {"titulo": "sinais_vitais", "considerada": true, "arquivos": "implantados", "permanece": "casca e raw"},
-    {"titulo": "suprimentos", "considerada": true, "arquivos": "implantados, inclusive fração", "permanece": "casca e raw"},
-    {"titulo": "vacinas", "considerada": true, "arquivos": "implantados", "permanece": "casca e raw"},
-    {"titulo": "vacinal_brasil", "considerada": true, "arquivos": "implantados", "permanece": "casca e raw"},
-    {"titulo": "dispositivos", "considerada": true, "arquivos": "quatro implantados, um deles fracionado", "permanece": "casca e raw"},
+    {"titulo": "epidemiologico", "considerada": true, "arquivos": "implantados e raw", "permanece": "pasta na lixeira"},
+    {"titulo": "icd11", "considerada": true, "arquivos": "implantados e raw", "permanece": "pasta na lixeira"},
+    {"titulo": "medicamentos", "considerada": true, "arquivos": "implantados, frações e raw", "permanece": "pasta na lixeira"},
+    {"titulo": "mesh", "considerada": true, "arquivos": "implantados e raw", "permanece": "pasta na lixeira"},
+    {"titulo": "nutricao", "considerada": true, "arquivos": "implantados, fração e raw", "permanece": "pasta na lixeira"},
+    {"titulo": "sinais_vitais", "considerada": true, "arquivos": "implantados e raw", "permanece": "pasta na lixeira"},
+    {"titulo": "suprimentos", "considerada": true, "arquivos": "implantados, fração e raw", "permanece": "pasta na lixeira"},
+    {"titulo": "vacinas", "considerada": true, "arquivos": "implantados e raw", "permanece": "pasta na lixeira"},
+    {"titulo": "vacinal_brasil", "considerada": true, "arquivos": "implantados e raw", "permanece": "pasta na lixeira"},
+    {"titulo": "dispositivos", "considerada": true, "arquivos": "quatro implantados, um fracionado, e raw", "permanece": "pasta na lixeira"},
     {"titulo": "revisao", "considerada": true, "arquivos": "seis documentos e o script", "permanece": "sete tabelas clínicas transcritas"},
     {"titulo": "atomizado", "considerada": true, "arquivos": "oito da raiz", "permanece": "filhos derivados; mesh confere com a cópia já implantada"},
     {"titulo": "protocolos_enfermagem", "considerada": true, "arquivos": "não copiados", "permanece": "ato sem extrator e PDF clínico"},
-    {"titulo": "raw", "considerada": true, "arquivos": "não copiados", "permanece": "50 arquivos listados; nenhum é cópia das WO até 0040"}
+    {"titulo": "raw", "considerada": true, "arquivos": "50 copiados em */raw/ pelas WO 0068 a 0071", "permanece": "pasta na lixeira"}
   ],
   "arquivo_na_raiz": {
     "titulo": "CKO_CURSOR_00_CONTROLE_v1_0_0.zip",
