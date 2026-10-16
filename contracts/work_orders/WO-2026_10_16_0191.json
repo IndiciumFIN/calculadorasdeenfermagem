@@ -1,5 +1,5 @@
 {
-  "id": "WO-2026_10_16_189",
+  "id": "WO-2026_10_16_0191",
   "contract_version": "CKO-TAREFA-1.0.0",
   "authorized_by": "IndiciumFIN",
   "task_id": "TAREFA-IMPORTAR-DRIVE",
@@ -9,16 +9,16 @@
   "state": "PREAUTHORIZED",
   "entradas": [
     {
-      "id_origem": "1pJXeV013dikmTvqoU7FLfoO-N-drc6gO",
-      "caminho": "data/legado/extracao_bruta/CORPUS_CANONICO_INDIVIDUAL/04_DIREITOS_E_PROVENIENCIA/source_rights_profiles.csv",
+      "id_origem": "1OQ7I3lWVddr_uU8JqzPeRbI1mTBhHZaP",
+      "caminho": "data/legado/extracao_bruta/CORPUS_CANONICO_INDIVIDUAL/00_CONTROLE/README.md",
       "classe": "REFERENCIA",
-      "sha256": "f8f99fb03a74cfcd3c02d800a0f62d892f620bf8d6d6b42f51bac5d8388188d4"
+      "sha256": "d5037705a0cf2cb44fdd067d5cc2b5e55ac3a0de3701778d7b67ad31443cdfb8"
     }
   ],
   "parametros": {
     "lote": "CORPUS-INDIVIDUAL-W09-20261016",
     "source_provider": "google_drive",
-    "source_mount": "source_rights_profiles.csv",
-    "source_original_name": "source_rights_profiles.csv"
+    "source_mount": "README.md",
+    "source_original_name": "README.md"
   }
 }
