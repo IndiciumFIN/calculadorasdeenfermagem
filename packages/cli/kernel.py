@@ -7,6 +7,7 @@ from urllib.parse import urlencode
 
 import requests
 import typer
+import zipfile
 from bs4 import BeautifulSoup
 
 from packages.cli import finds
@@ -372,6 +373,19 @@ def importar_drive(work_order: Path = typer.Option(..., "--work-order")):
     except (ValueError, OSError) as exc:
         _fail(f"WO {wo.id}: {exc}")
     typer.echo(f"✓ {wo.id}: {report['bytes']} bytes; status {report['status']}; evidência {evidence}")
+
+@app.command("reconstituir-partes")
+def reconstituir_partes(work_order: Path = typer.Option(..., "--work-order")):
+    """Reconstroi partes verificadas, com Work Order qualificada."""
+    from packages.cli.recompose import reconstruir
+    wo = _wo(work_order, "reconstituir-partes")
+    try:
+        report, evidence = reconstruir(wo, RAIZ)
+    except (ValueError, OSError, zipfile.BadZipFile) as exc:
+        _fail(f"WO {wo.id}: {exc}")
+    typer.echo(f"✓ {wo.id}: {report['status']}; evidencia {evidence}")
+    if report["status"] == "HOLD_HUMAN":
+        raise typer.Exit(2)
 
 if __name__ == "__main__":
     app()
