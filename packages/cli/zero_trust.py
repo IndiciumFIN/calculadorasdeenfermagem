@@ -351,6 +351,7 @@ def _contrato() -> dict:
         "auditar-inventario": "TAREFA-AUDITAR-INVENTARIO",
         "auditar-zip": "TAREFA-AUDITAR-ZIP",
         "importar-drive": "TAREFA-IMPORTAR-DRIVE",
+        "reconstituir-partes": "TAREFA-RECONSTRUIR-PARTES",
     }
     opcionais = {"auditar-duplicatas": "TAREFA-AUDITAR-DUPLICATAS"}
     definicoes = _ler("policies/definicoes_tarefa.json")["definicoes"]

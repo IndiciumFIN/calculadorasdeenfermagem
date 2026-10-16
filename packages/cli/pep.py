@@ -65,6 +65,16 @@ VALIDADORES_POR_PROCEDIMENTO = {
         "VAL-ZIP-ESTRUTURA",
         "VAL-ZIP-RISCOS"
     ],
+    "reconstituir-partes": [
+        "VAL-WO-ESTRUTURA",
+        "VAL-DEFINICAO",
+        "VAL-CAMINHO",
+        "VAL-CLASSE",
+        "VAL-SHA-ENTRADA",
+        "VAL-HASH-ARQUIVO",
+        "VAL-PARTES-MANIFEST",
+        "VAL-PARTES-ROUNDTRIP"
+    ],
     "importar-drive": [
         "VAL-WO-ESTRUTURA",
         "VAL-DEFINICAO",

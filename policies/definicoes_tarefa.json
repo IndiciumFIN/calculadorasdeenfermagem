@@ -373,6 +373,41 @@
         "SEM_PUBLICACAO",
         "SEM_COMMIT_DE_BINARIO"
       ]
+    },
+    "TAREFA-RECONSTRUIR-PARTES": {
+      "id": "TAREFA-RECONSTRUIR-PARTES",
+      "versao": "1.0.0",
+      "qualificacao": "QUALIFICADA",
+      "procedimento": "reconstituir-partes",
+      "sha256_entrada": "obrigatorio",
+      "entradas_minimas": 3,
+      "exige_checker": true,
+      "parametros_obrigatorios": [
+        "output_path"
+      ],
+      "validadores": [
+        "VAL-WO-ESTRUTURA",
+        "VAL-DEFINICAO",
+        "VAL-CAMINHO",
+        "VAL-CLASSE",
+        "VAL-SHA-ENTRADA",
+        "VAL-HASH-ARQUIVO",
+        "VAL-PARTES-MANIFEST",
+        "VAL-PARTES-ROUNDTRIP"
+      ],
+      "erros": [
+        "PARTES_DIVERGENTES",
+        "ORDEM_INVALIDA",
+        "SHA_TOTAL_DIVERGENTE",
+        "MANIFESTO_INVALIDO"
+      ],
+      "restricoes": [
+        "SOMENTE_ESTAGIO_PRIVADO",
+        "SEM_EXTRACAO",
+        "SEM_EXECUCAO",
+        "SEM_PUBLICACAO",
+        "SEM_EXCLUSAO"
+      ]
     }
   }
 }
