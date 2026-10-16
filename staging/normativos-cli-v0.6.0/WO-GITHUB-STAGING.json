@@ -1,0 +1,31 @@
+{
+  "schema": "CE-LOCAL-GITHUB-STAGING-WO-1.0.0",
+  "id": "WO-LOCAL-GH-STAGE-20261016-001",
+  "task": "STAGE_VERIFIED_LOCAL_FILES_TO_GITHUB_REVIEW_BRANCH",
+  "request": "user explicitly requested uploading completed files with integrity",
+  "authority": "USER_REQUEST_FOR_REVIEW_BRANCH_ONLY",
+  "qualification": "LOCAL_PREFLIGHT_ONLY_OFFICIAL_KERNEL_NOT_QUALIFIED",
+  "repository": "IndiciumFIN/calculadorasdeenfermagem",
+  "branch": "staging/wo-kernel-normativos-cli-20261016",
+  "base_commit": "8056d08a35cfb7932933fa330d8c902e5a465710",
+  "scope_paths": [
+    "staging/normativos-cli-v0.6.0/ce.py",
+    "staging/normativos-cli-v0.6.0/requirements.txt",
+    "staging/normativos-cli-v0.6.0/policies/file_standardization.json",
+    "staging/normativos-cli-v0.6.0/policies/universal_normative_naming.json",
+    "staging/normativos-cli-v0.6.0/contracts/agent_registry.json",
+    "staging/normativos-cli-v0.6.0/run_windows.ps1",
+    "staging/normativos-cli-v0.6.0/docs/DECISION_REGISTER.md"
+  ],
+  "input_manifest_sha256": "d082e31846814f0c159b68ea02743b2f0debe795d287c0ea117092b5d84f612a",
+  "constraints": [
+    "NO_MAIN_WRITE",
+    "NO_MERGE",
+    "NO_PUBLICATION",
+    "NO_DRIVE_MUTATION",
+    "NO_SUPABASE_MUTATION",
+    "READBACK_GIT_BLOB_SHA_MATCH",
+    "UNSTAGED_SOURCE_REMAINS_LOCAL"
+  ],
+  "status": "PREFLIGHT_PASS_PENDING_GITHUB_READBACK"
+}
