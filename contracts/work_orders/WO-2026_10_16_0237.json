@@ -1,0 +1,29 @@
+{
+  "id": "WO-2026_10_16_0237",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "checker_id": "drive-move-independent-checker",
+  "task_id": "TAREFA-MOVER-DRIVE",
+  "task_version": "1.0.0",
+  "task_type": "mover-drive",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "entradas": [
+    {
+      "id_origem": "1eJETouIY0YwoZ0qUg-ObYRmPLeKgcEy_",
+      "caminho": "data/legado/extracao_bruta/TYPE_MOVE_WAVE14/MATRIZ_CRUZAMENTO_NORMATIVOS_DADOS_2026-10-10.csv",
+      "classe": "REFERENCIA",
+      "sha256": "72968b5dfb5a68b53df4ab8a9e9268b6d631de9c687629ef951527e0323548a2"
+    }
+  ],
+  "parametros": {
+    "source_parent_id": "1c9vErI_It3XwzAcAFOnbxw9V0Mn6xfB9",
+    "target_parent_id": "1PYFS29kjrFQVkR7fLE_OzDT3-hHMX3lY",
+    "file_type": "CSV",
+    "expected_title": "MATRIZ_CRUZAMENTO_NORMATIVOS_DADOS_2026-10-10.csv",
+    "expected_mime": "text/csv",
+    "expected_bytes": "55056",
+    "pilot_lote": "TYPE-MOVE-WAVE14",
+    "source_preservation": "SAME_DRIVE_ID"
+  }
+}
