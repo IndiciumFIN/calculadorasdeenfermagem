@@ -25,7 +25,7 @@ class AtomoBlindado(BaseModel):
 
     model_config = ConfigDict(extra="forbid")
 
-    id_atomo: str = Field(..., pattern=r"^NORM-\d{4}-\d+")
+    id_atomo: str = Field(..., pattern=r"^NORM-(?:\d{4}-\d+|[0-9a-f]{12})$")
     texto_regra: str = Field(..., min_length=10, max_length=LIMITE_TEXTO_REGRA)
     dispositivo_legal: str = Field(..., min_length=3)
     norma_origem: str
