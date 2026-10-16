@@ -32,7 +32,8 @@ def run(max_idade_dias: int = typer.Option(90, "--max-idade-dias")):
             "neste repositório; o corpus publicado deve ser coberto pelo sync-check.",
             fg=typer.colors.YELLOW,
         )
-        raise typer.Exit(0)
+        # Ausência de corpus verificado é INDETERMINADO, não PASS.
+        raise typer.Exit(2)
 
     hoje = date.today()
     violacoes = []
