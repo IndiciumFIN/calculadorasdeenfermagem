@@ -525,10 +525,18 @@ def val_nao_revoga(determinacao=None) -> list[str]:
     det = determinar() if determinacao is None else determinacao
     por_id = _por_id(det)
     issues = []
+    # Overlay histórico representa as NOVE tarefas existentes na base original.
+    # WOs adicionadas são verificadas separadamente por _contrato(); não são
+    # retroativamente inseridas no pacote externo que permanece imutável.
     qualificadas = _qualificadas()
-    if len(qualificadas) != 9:
+    originais = {
+        "TAREFA-OBTER", "TAREFA-ATOMIZAR", "TAREFA-VALIDAR", "TAREFA-RETIRAR",
+        "TAREFA-FIND-REGISTRAR", "TAREFA-FIND-VINCULAR",
+        "TAREFA-FIND-ENCERRAR", "TAREFA-FIND-ANALISAR", "TAREFA-FIND-CORRIGIR",
+    }
+    if not originais.issubset(qualificadas):
         issues.append("ERR_QUALIFICADAS")
-    for ident in qualificadas:
+    for ident in sorted(originais):
         item = por_id.get(ident)
         if item is None or item.get("determinacao") != "NAO_REVOGA":
             issues.append(f"ERR_REVOGA:{ident}")
