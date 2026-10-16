@@ -1,0 +1,25 @@
+{
+  "id": "WO-2026_10_16_0197",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "task_id": "TAREFA-IMPORTAR-DRIVE",
+  "task_type": "importar-drive",
+  "task_version": "1.0.0",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "entradas": [
+    {
+      "id_origem": "1BLZC-Ckn1XS7zRqqqkOBFXU2rot5bFKW",
+      "caminho": "data/legado/extracao_bruta/CONTEUDOS_CE_WAVE10/JS/1BLZC-Ckn1XS7zRqqqkOBFXU2rot5bFKW/recursos-assistivos.js",
+      "classe": "REFERENCIA",
+      "sha256": "bdd23cb7ba65d1e575954d639a1078eb03909306e054b047288765606e33d649"
+    }
+  ],
+  "parametros": {
+    "source_provider": "google_drive",
+    "source_mount": "recursos-assistivos.js",
+    "lote": "WAVE10-CONTENT-BROADENED",
+    "publicacao": "BLOQUEADA",
+    "exclusao": "BLOQUEADA"
+  }
+}
