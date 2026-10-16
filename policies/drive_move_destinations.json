@@ -1,0 +1,24 @@
+{
+  "schema": "CE-DRIVE-MOVE-TYPES-1.0.0",
+  "root_secondary_repository": "1c9vErI_It3XwzAcAFOnbxw9V0Mn6xfB9",
+  "organization_folder": "1yKjD0aQsVdRgQFh0cdzo5w8XJlQT4kaT",
+  "source_parents": [
+    "1c9vErI_It3XwzAcAFOnbxw9V0Mn6xfB9"
+  ],
+  "type_destinations": {
+    "MD": "1HtmOws6k6c-jQ6x6FwScxh4n0djK9_mz",
+    "CSV": "1PYFS29kjrFQVkR7fLE_OzDT3-hHMX3lY"
+  },
+  "mime_by_type": {
+    "MD": "text/markdown",
+    "CSV": "text/csv"
+  },
+  "rules": [
+    "MOVER_SEM_COPIAR",
+    "MANTER_FILE_ID",
+    "PREFLIGHT_KERNEL_OBRIGATORIO",
+    "READBACK_META_E_SHA",
+    "ROLLBACK_POSSIVEL",
+    "SEM_DELETE"
+  ]
+}

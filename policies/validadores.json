@@ -52,6 +52,8 @@
     "VAL-ZIP-RISCOS": "packages.cli.archive_audit.zip_scan",
     "VAL-ORIGEM-MONTADA": "packages.cli.staging.importar",
     "VAL-PARTES-MANIFEST": "packages.cli.recompose.reconstruir",
-    "VAL-PARTES-ROUNDTRIP": "packages.cli.recompose.reconstruir"
+    "VAL-PARTES-ROUNDTRIP": "packages.cli.recompose.reconstruir",
+    "VAL-DRIVE-MOVE-PARENT": "packages.cli.drive_move.guard",
+    "VAL-DRIVE-MOVE-READBACK": "packages.cli.drive_move.reconcile"
   }
 }
