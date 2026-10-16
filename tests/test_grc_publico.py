@@ -16,6 +16,8 @@ def test_recorte_tem_os_arquivos_publicos():
     assert sorted(p.name for p in GRC.iterdir()) == [
         "agentes.json",
         "controles.json",
+        "drive_inventory_20261016_pilot.json",
+        "drive_inventory_20261016_wave2.json",
         "normas.json",
         "origem.json",
     ]
