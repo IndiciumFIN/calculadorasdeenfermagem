@@ -1,0 +1,24 @@
+{
+  "id": "WO-2026_10_16_186",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "task_id": "TAREFA-IMPORTAR-DRIVE",
+  "task_type": "importar-drive",
+  "task_version": "1.0.0",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "entradas": [
+    {
+      "id_origem": "1FBQS8KfMkgdHo5H2TKZQQp4dVaOuC_vo",
+      "caminho": "data/legado/extracao_bruta/CORPUS_CANONICO_INDIVIDUAL/08_AUDITORIA/FILE_INVENTORY.csv",
+      "classe": "REFERENCIA",
+      "sha256": "fccedf488212988ea9a22e01334d99ad5ce60ffeef0cf081187abdb097a796fd"
+    }
+  ],
+  "parametros": {
+    "lote": "CORPUS-INDIVIDUAL-W09-20261016",
+    "source_provider": "google_drive",
+    "source_mount": "FILE_INVENTORY.csv",
+    "source_original_name": "FILE_INVENTORY.csv"
+  }
+}

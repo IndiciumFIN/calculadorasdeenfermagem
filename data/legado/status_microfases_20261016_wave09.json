@@ -1,0 +1,88 @@
+{
+  "schema": "CE-WAVE09-GIT-EVIDENCE-INDEX-1.0.0",
+  "date": "2026-10-16",
+  "source": "Google Drive authenticated acquisition",
+  "mode": "PRIVATE_STAGING_CONTENT_NOT_COMMITTED",
+  "previous_checkpoint_sha256": "92d515499c267c0f672da51ff96088dceefab625c3535dcfc042d81beb0550c6",
+  "checkpoint_wave09_sha256": "63090c8a21b0ed9b6e4971aacb080344b25171c47252da485b4309e3b76b4c1a",
+  "sqlite_readonly_audit_sha256": "e1a8dd99279ef8aa1b362f6d28e457010e919e9b9e51735f0d7b964a474c39ec",
+  "scope": "eight documented sources",
+  "status": "PRIVATE_EVIDENCE_VALIDATED_NOT_PUBLISHED",
+  "independent_backup_verified": false,
+  "drive_removed": 0,
+  "drive_deleted": 0,
+  "wos": [
+    {
+      "wo": "WO-2026_10_16_184",
+      "source_id": "1brhNay_AEzjAtQyfxv0VSsAnImODPaaH",
+      "logical_path": "data/legado/extracao_bruta/CORPUS_CANONICO_INDIVIDUAL/08_AUDITORIA/NORMATIVE_HOLDING_MANIFEST_v0_1.csv",
+      "sha256": "2223ae3e6e37d0ff1f3d1ca6287d7b7116e4b345385c1a537c79dc92bf090998",
+      "bytes": 3027,
+      "private_evidence_sha256": "469d7f4f90bd888b95653fce2610b55617507e180d6ea4b0b4d5d756e4015804",
+      "executed_in_private_kernel": true
+    },
+    {
+      "wo": "WO-2026_10_16_185",
+      "source_id": "1s1Z-7mDn_ymfM_4jHQIya0n7Jkfh2iOo",
+      "logical_path": "data/legado/extracao_bruta/CORPUS_CANONICO_INDIVIDUAL/08_AUDITORIA/WAVE2_MANIFEST.csv",
+      "sha256": "6e33e2b5c2a552d7540ffd0b2f6fb7a60eea0c2801f73b7735350db9a1de0d95",
+      "bytes": 4270,
+      "private_evidence_sha256": "352d9f364bd5a36943b92e6ad19c8b52b5916c089df2690a5ee4f862efaee892",
+      "executed_in_private_kernel": true
+    },
+    {
+      "wo": "WO-2026_10_16_186",
+      "source_id": "1FBQS8KfMkgdHo5H2TKZQQp4dVaOuC_vo",
+      "logical_path": "data/legado/extracao_bruta/CORPUS_CANONICO_INDIVIDUAL/08_AUDITORIA/FILE_INVENTORY.csv",
+      "sha256": "fccedf488212988ea9a22e01334d99ad5ce60ffeef0cf081187abdb097a796fd",
+      "bytes": 2304,
+      "private_evidence_sha256": "fd6fc2df0695d321a192b2f221690a5fda3f129c5525567a293ac49b33e06f2e",
+      "executed_in_private_kernel": true
+    },
+    {
+      "wo": "WO-2026_10_16_187",
+      "source_id": "1-hqrv6D_andvPHDrWk_mm274npX7GSUB",
+      "logical_path": "data/legado/extracao_bruta/CORPUS_CANONICO_INDIVIDUAL/08_AUDITORIA/CORPUS_SUMMARY.json",
+      "sha256": "d6960dde32b2f5dfb1067b4e371ceb9653cd621ad06b1c43c87140478d9a476e",
+      "bytes": 1681,
+      "private_evidence_sha256": "f2cf18563134bf89cfbc618c61bafa908de2eec42d43c51b80760122c8d2c09c",
+      "executed_in_private_kernel": true
+    },
+    {
+      "wo": "WO-2026_10_16_188",
+      "source_id": "1DXAO6j3ymdHwKxKxU-DuU7cr_YHGhiqV",
+      "logical_path": "data/legado/extracao_bruta/CORPUS_CANONICO_INDIVIDUAL/04_DIREITOS_E_PROVENIENCIA/raw_file_inventory_reference.csv",
+      "sha256": "0fa20938972c3c1d8679ad4493d13c357b0c8669ee029ee835f038860e4db9e6",
+      "bytes": 160829,
+      "private_evidence_sha256": "9252ac48273895d71a08cc99e0d4468f19bf495b47780e44fd84c9dd7c79e447",
+      "executed_in_private_kernel": true
+    },
+    {
+      "wo": "WO-2026_10_16_189",
+      "source_id": "1pJXeV013dikmTvqoU7FLfoO-N-drc6gO",
+      "logical_path": "data/legado/extracao_bruta/CORPUS_CANONICO_INDIVIDUAL/04_DIREITOS_E_PROVENIENCIA/source_rights_profiles.csv",
+      "sha256": "f8f99fb03a74cfcd3c02d800a0f62d892f620bf8d6d6b42f51bac5d8388188d4",
+      "bytes": 80931,
+      "private_evidence_sha256": "3d0bfe8f3c12f6b1e45edf95e671527c2f21f1dcec34c5e386d9d2bd7ac54da4",
+      "executed_in_private_kernel": true
+    },
+    {
+      "wo": "WO-2026_10_16_190",
+      "source_id": "1ElTnQyuL351SRRTr9rwT7lLxBBWpsZph",
+      "logical_path": "data/legado/extracao_bruta/CORPUS_CANONICO_INDIVIDUAL/06_PUBLICACAO/publication_queue.csv",
+      "sha256": "df35f9a369dfb3565659ec3989fc60530788b3b692d34a078639a9264c82d209",
+      "bytes": 233849,
+      "private_evidence_sha256": "2967f8d348c781e35ed0cc20f97a3092926a6466b2728a6d6bc373c67b895972",
+      "executed_in_private_kernel": true
+    },
+    {
+      "wo": "WO-2026_10_16_191",
+      "source_id": "1OQ7I3lWVddr_uU8JqzPeRbI1mTBhHZaP",
+      "logical_path": "data/legado/extracao_bruta/CORPUS_CANONICO_INDIVIDUAL/00_CONTROLE/README.md",
+      "sha256": "d5037705a0cf2cb44fdd067d5cc2b5e55ac3a0de3701778d7b67ad31443cdfb8",
+      "bytes": 178,
+      "private_evidence_sha256": "a4c2800cf8414f85383e73f0ccec25969a88c407891fccefa8f4fd53cde83392",
+      "executed_in_private_kernel": true
+    }
+  ]
+}
