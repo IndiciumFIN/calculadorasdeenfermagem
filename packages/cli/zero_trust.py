@@ -219,7 +219,11 @@ def _julgar_find(ident: str, exclusividade: dict) -> dict:
             "Os superagentes do pacote têm execução negada. AGT-ORCH-001 continua fora do registro.",
         ),
         "AG-KER-006": (
-            len(qualificadas) == 9,
+            all(ident in qualificadas for ident in (
+                "TAREFA-OBTER", "TAREFA-ATOMIZAR", "TAREFA-VALIDAR", "TAREFA-RETIRAR",
+                "TAREFA-FIND-REGISTRAR", "TAREFA-FIND-VINCULAR", "TAREFA-FIND-ENCERRAR",
+                "TAREFA-FIND-ANALISAR", "TAREFA-FIND-CORRIGIR",
+            )),
             "NAO_REVOGA",
             "As 9 tarefas qualificadas permanecem qualificadas. O overlay marca homologação independente como falsa.",
         ),
