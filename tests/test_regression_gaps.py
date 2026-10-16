@@ -295,7 +295,8 @@ def test_llm_runner_modelo_fora_da_allowlist_reprova(tmp_path):
 def test_id_heuristico_aceito_pelo_contrato():
     from packages.schemas.invariantes import AtomoBlindado
     from pydantic import ValidationError
-    payload = json.loads((FIXTURES / "atomo_valido.json").read_text())
+    fixture = json.loads((FIXTURES / "atomo_valido.json").read_text())
+    payload = fixture[0] if isinstance(fixture, list) else fixture
     payload["id_atomo"] = "NORM-a1b2c3d4e5f6"
     AtomoBlindado(**payload)
     payload["id_atomo"] = "NORM-qualquer-coisa"
