@@ -332,17 +332,56 @@ def _referencias(arquivo) -> list[dict]:
 
 
 def _contrato() -> dict:
+    """Preserva os nove procedimentos originais e valida extensões por contrato."""
     versao = _ler("policies/tarefas.json")["versao"]
+    antigos = {
+        "obter": "TAREFA-OBTER", "atomizar": "TAREFA-ATOMIZAR",
+        "validar": "TAREFA-VALIDAR", "retirar": "TAREFA-RETIRAR",
+        "registrar-find": "TAREFA-FIND-REGISTRAR",
+        "vincular-find": "TAREFA-FIND-VINCULAR",
+        "analisar-find": "TAREFA-FIND-ANALISAR",
+        "corrigir-find": "TAREFA-FIND-CORRIGIR",
+        "encerrar-find": "TAREFA-FIND-ENCERRAR",
+    }
+    extensoes = {
+        "auditar-inventario": "TAREFA-AUDITAR-INVENTARIO",
+        "auditar-zip": "TAREFA-AUDITAR-ZIP",
+        "importar-drive": "TAREFA-IMPORTAR-DRIVE",
+    }
+    opcionais = {"auditar-duplicatas": "TAREFA-AUDITAR-DUPLICATAS"}
+    definicoes = _ler("policies/definicoes_tarefa.json")["definicoes"]
+    if "TAREFA-AUDITAR-DUPLICATAS" in definicoes:
+        extensoes.update(opcionais)
     procedimentos = set(VALIDADORES_POR_PROCEDIMENTO)
-    esperados = {"obter", "atomizar", "validar", "retirar", "registrar-find", "vincular-find", "analisar-find", "corrigir-find", "encerrar-find"}
-    if versao == "1.0.0" and procedimentos == esperados and not _validador_no_procedimento():
+    esperado = antigos | extensoes
+    validadores = _ler("policies/validadores.json")["validadores"]
+    protegido = (
+        versao == "1.0.0"
+        and procedimentos == set(esperado)
+        and not _validador_no_procedimento()
+    )
+    if protegido:
+        for nome, task_id in esperado.items():
+            d = definicoes.get(task_id, {})
+            exigidos = VALIDADORES_POR_PROCEDIMENTO[nome]
+            if (
+                d.get("versao") != "1.0.0"
+                or d.get("qualificacao") != "QUALIFICADA"
+                or d.get("procedimento") != nome
+                or d.get("validadores") != exigidos
+                or any(v not in validadores for v in exigidos)
+            ):
+                protegido = False
+                break
+    if protegido:
         return _item(
-            "CONTRATO-TAREFA",
-            "CONTRATO",
-            "NAO_REVOGA",
-            "policies/tarefas.json permanece 1.0.0. Os procedimentos qualificados e os conjuntos de validadores permanecem.",
+            "CONTRATO-TAREFA", "CONTRATO", "NAO_REVOGA",
+            "Nove procedimentos originais preservados; extensões auditadas por allowlist exata, Work Order e validadores.",
         )
-    return _item("CONTRATO-TAREFA", "CONTRATO", "DIVERGENTE", "O contrato de tarefa vigente foi alterado durante a reconciliação.")
+    return _item(
+        "CONTRATO-TAREFA", "CONTRATO", "DIVERGENTE",
+        "Conjunto de procedimentos ou qualificação/validadores divergentes; revisão humana necessária.",
+    )
 
 
 def _registro_find() -> dict:
