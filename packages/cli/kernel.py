@@ -387,5 +387,23 @@ def reconstituir_partes(work_order: Path = typer.Option(..., "--work-order")):
     if report["status"] == "HOLD_HUMAN":
         raise typer.Exit(2)
 
+@app.command("mover-drive")
+def mover_drive(work_order: Path = typer.Option(..., "--work-order"),
+                phase: str = typer.Option("preflight", "--phase"),
+                receipt: Path = typer.Option(None, "--receipt")):
+    """Preflight e reconciliação. Transferência apenas via adaptador autenticado Drive."""
+    from packages.cli.drive_move import preflight, reconcile
+    wo = _wo(work_order, "mover-drive")
+    try:
+        if phase == "preflight":
+            report, evidence = preflight(wo, RAIZ)
+        elif phase == "reconcile" and receipt:
+            report, evidence = reconcile(wo, RAIZ, receipt)
+        else:
+            _fail("phase precisa ser preflight ou reconcile com receipt")
+    except (ValueError, OSError, KeyError, json.JSONDecodeError) as exc:
+        _fail(f"WO {wo.id}: {exc}")
+    typer.echo(f"✓ {wo.id}: {report['phase']}; evidência {evidence}")
+
 if __name__ == "__main__":
     app()

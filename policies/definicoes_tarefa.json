@@ -408,6 +408,45 @@
         "SEM_PUBLICACAO",
         "SEM_EXCLUSAO"
       ]
+    },
+    "TAREFA-MOVER-DRIVE": {
+      "id": "TAREFA-MOVER-DRIVE",
+      "versao": "1.0.0",
+      "qualificacao": "QUALIFICADA",
+      "procedimento": "mover-drive",
+      "sha256_entrada": "obrigatorio",
+      "entradas_minimas": 1,
+      "exige_checker": true,
+      "parametros_obrigatorios": [
+        "source_parent_id",
+        "target_parent_id",
+        "file_type",
+        "expected_title",
+        "expected_mime",
+        "expected_bytes"
+      ],
+      "validadores": [
+        "VAL-WO-ESTRUTURA",
+        "VAL-DEFINICAO",
+        "VAL-CAMINHO",
+        "VAL-CLASSE",
+        "VAL-SHA-ENTRADA",
+        "VAL-HASH-ARQUIVO",
+        "VAL-DRIVE-MOVE-PARENT",
+        "VAL-DRIVE-MOVE-READBACK"
+      ],
+      "erros": [
+        "HASH_DIVERGENTE",
+        "DRIVE_PARENT_DIVERGENTE",
+        "MIME_DIVERGENTE",
+        "READBACK_AUSENTE"
+      ],
+      "restricoes": [
+        "MOVER_SEM_COPIAR",
+        "MANTER_FILE_ID",
+        "SEM_EXCLUSAO",
+        "ROLLBACK_PARENTS"
+      ]
     }
   }
 }

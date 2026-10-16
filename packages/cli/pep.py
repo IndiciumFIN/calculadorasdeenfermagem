@@ -8,6 +8,7 @@ RAIZ = Path(__file__).resolve().parents[2]
 SHA = r"^[0-9a-f]{64}$"
 
 VALIDADORES_POR_PROCEDIMENTO = {
+    "mover-drive": ["VAL-WO-ESTRUTURA","VAL-DEFINICAO","VAL-CAMINHO","VAL-CLASSE","VAL-SHA-ENTRADA","VAL-HASH-ARQUIVO","VAL-DRIVE-MOVE-PARENT","VAL-DRIVE-MOVE-READBACK"],
     "obter": [
         "VAL-WO-ESTRUTURA",
         "VAL-DEFINICAO",
