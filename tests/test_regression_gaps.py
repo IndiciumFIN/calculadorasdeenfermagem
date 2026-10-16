@@ -289,3 +289,23 @@ def test_llm_runner_modelo_fora_da_allowlist_reprova(tmp_path):
     )
     assert r.returncode == 2, r.stdout + r.stderr
     assert "allowlist" in r.stdout
+
+
+# Regressões adicionadas em 16/10 — contratos e recheck.
+def test_id_heuristico_aceito_pelo_contrato():
+    from packages.schemas.invariantes import AtomoBlindado
+    from pydantic import ValidationError
+    payload = json.loads((FIXTURES / "atomo_valido.json").read_text())
+    payload["id_atomo"] = "NORM-a1b2c3d4e5f6"
+    AtomoBlindado(**payload)
+    payload["id_atomo"] = "NORM-qualquer-coisa"
+    with pytest.raises(ValidationError):
+        AtomoBlindado(**payload)
+
+
+def test_recheck_sem_corpus_falha_fechado(tmp_path, monkeypatch):
+    from packages.cli import recheck
+    monkeypatch.setattr(recheck, "CAMINHOS_CORPUS", [tmp_path / "ausente.json"])
+    with pytest.raises(typer.Exit) as exc:
+        recheck.run(max_idade_dias=90)
+    assert exc.value.exit_code == 2
