@@ -1,0 +1,25 @@
+{
+  "id": "WO-2026_10_16_0199",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "task_id": "TAREFA-IMPORTAR-DRIVE",
+  "task_type": "importar-drive",
+  "task_version": "1.0.0",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "entradas": [
+    {
+      "id_origem": "1QQs9R4BleP85RTKIrNRk0oi8NuVKrjFK",
+      "caminho": "data/legado/extracao_bruta/CONTEUDOS_CE_WAVE10/VILA_DO_CUIDADO/1QQs9R4BleP85RTKIrNRk0oi8NuVKrjFK/MASTER_FILE_INVENTORY.json",
+      "classe": "REFERENCIA",
+      "sha256": "75c5ab6866e45fd7b4e93b1e0dba78af7e6a3e26ff8c02cdc70c2a3347520c68"
+    }
+  ],
+  "parametros": {
+    "source_provider": "google_drive",
+    "source_mount": "MASTER_FILE_INVENTORY.json",
+    "lote": "WAVE10-CONTENT-BROADENED",
+    "publicacao": "BLOQUEADA",
+    "exclusao": "BLOQUEADA"
+  }
+}

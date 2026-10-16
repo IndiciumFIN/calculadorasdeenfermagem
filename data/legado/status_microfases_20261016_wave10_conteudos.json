@@ -1,0 +1,154 @@
+{
+  "schema": "CE-WAVE10-CONTENT-MIGRATION-1.0.0",
+  "date": "2026-10-16",
+  "scope": "curriculum, editorial pages, UI JS, graphics, translations, social cards, content model, clinical, emergency, Vila do Cuidado",
+  "mode": "PRIVATE_STAGE_ONLY",
+  "authorized_method": "WO + Kernel",
+  "imports": [
+    {
+      "wo": "WO-2026_10_16_0192",
+      "domain": "CURRICULO",
+      "name": "content_registry(1).csv",
+      "drive_id": "1MfMrlRz73Rx4RYfON_8EGMpz1QCmIsfZ",
+      "sha256": "2fcbc4d1b17e7a8dba0ea5d520496f767c0ee566ad1840997e3b6910cd8d3c7a",
+      "bytes": 318767,
+      "status": "PASS_PRIVATE_KERNEL"
+    },
+    {
+      "wo": "WO-2026_10_16_0193",
+      "domain": "MODELO_CONTENT",
+      "name": "calculadoras_enfermagem_canonical_content_model_v0.3.2.zip",
+      "drive_id": "1Wjz4DjQoTLfvLwO9_CngNNhY10C6F9m3",
+      "sha256": "ced13e9728eed912fc05e767fa80d5aeb3fea3d20b8744b7ec863af5925c19d8",
+      "bytes": 1449236,
+      "status": "PASS_PRIVATE_KERNEL"
+    },
+    {
+      "wo": "WO-2026_10_16_0194",
+      "domain": "CONTEUDO_SOCIAL",
+      "name": "conteudo-cartoes.json",
+      "drive_id": "1LFXTS3NcXmxoIP4VL7uZ7LTRqdS5-EIz",
+      "sha256": "36760c179db6eabd72c82aa226daf8e1e542e005f55ec1011b9d9170fb6823dd",
+      "bytes": 54527,
+      "status": "PASS_PRIVATE_KERNEL"
+    },
+    {
+      "wo": "WO-2026_10_16_0195",
+      "domain": "I18N",
+      "name": "locales_corrigidos.json",
+      "drive_id": "1m57MRi5fDUmMr8P4qmxZTSXK7tx3E-28",
+      "sha256": "b2162d738803a5d6ae7097efd106372a7709faa6e508a1557c0baf74cd6380c8",
+      "bytes": 868381,
+      "status": "PASS_PRIVATE_KERNEL"
+    },
+    {
+      "wo": "WO-2026_10_16_0196",
+      "domain": "PAGINA",
+      "name": "recursos-assistivos.html",
+      "drive_id": "1wXAxgecmz1JqlHg8RDHSZtvDsVT0EP0e",
+      "sha256": "3e137bc0694a7514ee7a828888b69e3699d058a42049b62dbb78c87b2a1a0bfa",
+      "bytes": 10900,
+      "status": "PASS_PRIVATE_KERNEL"
+    },
+    {
+      "wo": "WO-2026_10_16_0197",
+      "domain": "JS",
+      "name": "recursos-assistivos.js",
+      "drive_id": "1BLZC-Ckn1XS7zRqqqkOBFXU2rot5bFKW",
+      "sha256": "bdd23cb7ba65d1e575954d639a1078eb03909306e054b047288765606e33d649",
+      "bytes": 4665,
+      "status": "PASS_PRIVATE_KERNEL"
+    },
+    {
+      "wo": "WO-2026_10_16_0198",
+      "domain": "IMAGEM_INSTITUCIONAL",
+      "name": "logotipo-calculadoras-de-enfermagem.webp",
+      "drive_id": "1BlJcgdqn93-JyVkPTw9-QmHnpjTpUH0x",
+      "sha256": "4f74760fdb8a61236d752159a92a5f5fd264186641da32aedb49a28ca55d6ac3",
+      "bytes": 38834,
+      "status": "PASS_PRIVATE_KERNEL"
+    },
+    {
+      "wo": "WO-2026_10_16_0199",
+      "domain": "VILA_DO_CUIDADO",
+      "name": "MASTER_FILE_INVENTORY.json",
+      "drive_id": "1QQs9R4BleP85RTKIrNRk0oi8NuVKrjFK",
+      "sha256": "75c5ab6866e45fd7b4e93b1e0dba78af7e6a3e26ff8c02cdc70c2a3347520c68",
+      "bytes": 151155,
+      "status": "PASS_PRIVATE_KERNEL"
+    },
+    {
+      "wo": "WO-2026_10_16_0200",
+      "domain": "CONTEUDO_CLINICO",
+      "name": "CONTEUDO_NORMATIVO_WAVE01_TEMPLATE_SEPSE_v1.0.0.zip",
+      "drive_id": "1TtAORAfW_SmA0ljPkOaumKyd4_mkkHqg",
+      "sha256": "85b8fc8bd75de0424e917994da9578931b9d8e8afde6b67e2468b04537fc753d",
+      "bytes": 205193,
+      "status": "PASS_PRIVATE_KERNEL"
+    },
+    {
+      "wo": "WO-2026_10_16_0201",
+      "domain": "FERRAMENTA_I18N",
+      "name": "CALENF-LOCALE-TOOL-CLOSURE-v0.6.1.zip",
+      "drive_id": "1hEus3zsvx0as-oHShwmlbNVoL91mHVab",
+      "sha256": "58a45e71fd63a639756c23e80dc00bdb89bac38b0b3b8b5cea89b37795de2cfe",
+      "bytes": 935799,
+      "status": "PASS_PRIVATE_KERNEL"
+    },
+    {
+      "wo": "WO-2026_10_16_0202",
+      "domain": "POLITICA_PUBLICACAO",
+      "name": "CKO-Universal-Content-Publication-Policy-v2.0.md",
+      "drive_id": "19D2Cmo0DMKin58Z0ZwR01miCSb05XTf8",
+      "sha256": "c1d4486034fb275ce9be5ed07fec7287d6b405e1b3b85d5b993ef49445712cca",
+      "bytes": 4217,
+      "status": "PASS_PRIVATE_KERNEL"
+    },
+    {
+      "wo": "WO-2026_10_16_0203",
+      "domain": "URGENCIA_EMERGENCIA",
+      "name": "urgencia_emergencia_content_bank_v1.0.0(1).zip",
+      "drive_id": "17Tiq2NDxGzDwREPH_e12io87N_yFTZ3D",
+      "sha256": "9c2b11d0a9c95bc29f39ecbb6ec85b8e9295e0a5c617b82f1d07577d148886c2",
+      "bytes": 10881652,
+      "status": "PASS_PRIVATE_KERNEL"
+    }
+  ],
+  "zip_audits": [
+    {
+      "wo": "WO-2026_10_16_0204",
+      "source_wo": "WO-2026_10_16_0193",
+      "member_count": 69,
+      "structural_result": "ANALISADO"
+    },
+    {
+      "wo": "WO-2026_10_16_0205",
+      "source_wo": "WO-2026_10_16_0200",
+      "member_count": 23,
+      "structural_result": "ANALISADO"
+    },
+    {
+      "wo": "WO-2026_10_16_0206",
+      "source_wo": "WO-2026_10_16_0201",
+      "member_count": 317,
+      "structural_result": "ANALISADO"
+    },
+    {
+      "wo": "WO-2026_10_16_0207",
+      "source_wo": "WO-2026_10_16_0203",
+      "member_count": 76,
+      "structural_result": "ANALISADO"
+    }
+  ],
+  "original_bytes": 14923326,
+  "zip_members_analysed": 485,
+  "wo_count": 16,
+  "clinical_validated": false,
+  "rights_validated": false,
+  "i18n_validated": false,
+  "publication_authorized": false,
+  "durable_independent_backup": false,
+  "source_deleted": 0,
+  "source_retirement_gate": "HOLD_INDEPENDENT_DURABLE_BACKUP",
+  "comment": "Private evidence files held in downloadable checkpoint, raw sources excluded from public Git."
+}
