@@ -4,6 +4,7 @@ on:
     branches: [cursor/fix-governance-gaps-ec54]
     paths:
       - 'packages/cli/archive_audit.py'
+      - 'packages/cli/staging.py'
       - 'packages/cli/kernel.py'
       - 'contracts/work_orders/WO-2026_10_16_0105.json'
       - '.github/workflows/drive-zip-pilot.yml'
@@ -24,6 +25,19 @@ jobs:
         run: pip install -r packages/cli/requirements.txt
       - name: Analisar ZIP atraves do Kernel
         run: PYTHONPATH=. python -m packages.cli.kernel auditar-zip --work-order contracts/work_orders/WO-2026_10_16_0105.json
+      - name: Gerar runtime do Kernel para execução privada
+        run: |
+          tar -czf kernel-runtime.tar.gz packages/cli packages/schemas policies
+          sha256sum kernel-runtime.tar.gz > kernel-runtime.tar.gz.sha256
+      - name: Runtime versionado como artefato
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: kernel-runtime-${{ github.sha }}
+          path: |
+            kernel-runtime.tar.gz
+            kernel-runtime.tar.gz.sha256
+          if-no-files-found: error
+          retention-days: 90
       - name: Evidencia em artifact
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         with:
