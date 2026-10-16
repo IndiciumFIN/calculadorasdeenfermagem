@@ -1,0 +1,25 @@
+{
+  "id": "WO-2026_10_16_0231",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "task_id": "TAREFA-IMPORTAR-DRIVE",
+  "task_type": "importar-drive",
+  "task_version": "1.0.0",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "entradas": [
+    {
+      "id_origem": "1MjPlNOPVC118iwiPo8uHZd3mYMhJ8JgP",
+      "caminho": "data/legado/extracao_bruta/CONTEUDOS_CE_WAVE13/VILA_DO_CUIDADO/1MjPlNOPVC118iwiPo8uHZd3mYMhJ8JgP/Vila_do_Cuidado_CONSOLIDADO_MASTER_LOCAL_2026-08-26.zip.part-02",
+      "classe": "REFERENCIA",
+      "sha256": "e7e8edf62cf0c8f83ea269d09a064bd54379cb3f63f186bd2f80fa5594771ad9"
+    }
+  ],
+  "parametros": {
+    "source_provider": "google_drive",
+    "source_mount": "Vila_do_Cuidado_CONSOLIDADO_MASTER_LOCAL_2026-08-26.zip.part-02.bin",
+    "lote": "VDC-SPLIT-W13",
+    "publicacao": "BLOQUEADA",
+    "exclusao": "BLOQUEADA"
+  }
+}
