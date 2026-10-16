@@ -1,0 +1,25 @@
+{
+  "id": "WO-2026_10_16_0105",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "checker_id": "kernel-zip-checker",
+  "task_id": "TAREFA-AUDITAR-ZIP",
+  "task_version": "1.0.0",
+  "task_type": "auditar-zip",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "entradas": [
+    {
+      "id_origem": "GIT-LEGADO-CKO-CURSOR-CONTROLE",
+      "caminho": "data/legado/extracao_bruta/CKO_CURSOR_00_CONTROLE_v1_0_0.zip",
+      "classe": "REFERENCIA",
+      "sha256": "aa9c25a3c016b2fa2d43b816bba98c410f1e6a7d72c331f9f0aa6539bb41cc4e"
+    }
+  ],
+  "parametros": {
+    "lote": "DRIVE-ZIP-PILOTO-01",
+    "fase": "ZIP_MEMBERS",
+    "extracao": "PROIBIDA",
+    "exclusao": "PROIBIDA"
+  }
+}

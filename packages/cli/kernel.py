@@ -349,5 +349,18 @@ def auditar_inventario(work_order: Path = typer.Option(..., "--work-order")):
                f"{resultado['zips_observados']} ZIPs; status {resultado['status']}; "
                f"evidência {destino}")
 
+@app.command("auditar-zip")
+def auditar_zip(work_order: Path = typer.Option(..., "--work-order")):
+    """Audita ZIP original sob WO. Sem remoção ou extração para disco."""
+    from packages.cli.archive_audit import auditar_zip_wo
+    wo = _wo(work_order, "auditar-zip")
+    try:
+        result, evidence = auditar_zip_wo(wo, RAIZ)
+    except (ValueError, OSError, json.JSONDecodeError) as exc:
+        _fail(f"WO {wo.id}: {exc}")
+    typer.echo(f"✓ {wo.id}: {result['membros']} membros; status {result['status']}; evidência {evidence}")
+    if result["status"] != "ANALISADO":
+        raise typer.Exit(2)
+
 if __name__ == "__main__":
     app()

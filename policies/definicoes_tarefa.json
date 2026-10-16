@@ -305,6 +305,39 @@
         "SEM_EXCLUSAO",
         "SEM_PUBLICACAO"
       ]
+    },
+    "TAREFA-AUDITAR-ZIP": {
+      "id": "TAREFA-AUDITAR-ZIP",
+      "versao": "1.0.0",
+      "qualificacao": "QUALIFICADA",
+      "procedimento": "auditar-zip",
+      "sha256_entrada": "obrigatorio",
+      "entradas_minimas": 1,
+      "exige_checker": true,
+      "validadores": [
+        "VAL-WO-ESTRUTURA",
+        "VAL-DEFINICAO",
+        "VAL-CAMINHO",
+        "VAL-CLASSE",
+        "VAL-SHA-ENTRADA",
+        "VAL-HASH-ARQUIVO",
+        "VAL-ZIP-ESTRUTURA",
+        "VAL-ZIP-RISCOS"
+      ],
+      "erros": [
+        "HASH_DIVERGENTE",
+        "ZIP_INVALIDO",
+        "MEMBRO_INSEGURO",
+        "ZIP_BOMB",
+        "ARQUIVO_AUSENTE"
+      ],
+      "restricoes": [
+        "SOMENTE_LEITURA_FONTE",
+        "SEM_EXTRACAO_EM_DISCO",
+        "SEM_DEDUP_AUTOMATICA",
+        "SEM_EXCLUSAO",
+        "SEM_PUBLICACAO"
+      ]
     }
   }
 }

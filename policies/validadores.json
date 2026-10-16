@@ -47,6 +47,8 @@
     "VAL-ZT-004": "packages.cli.zero_trust.val_portas",
     "VAL-ZT-005": "packages.cli.zero_trust.val_cobertura",
     "VAL-INVENTARIO-RAIZES": "packages.cli.inventory.auditar",
-    "VAL-INVENTARIO-COMPLETUDE": "packages.cli.inventory.auditar"
+    "VAL-INVENTARIO-COMPLETUDE": "packages.cli.inventory.auditar",
+    "VAL-ZIP-ESTRUTURA": "packages.cli.archive_audit.zip_scan",
+    "VAL-ZIP-RISCOS": "packages.cli.archive_audit.zip_scan"
   }
 }

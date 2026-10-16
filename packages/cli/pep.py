@@ -55,6 +55,16 @@ VALIDADORES_POR_PROCEDIMENTO = {
         "VAL-INVENTARIO-RAIZES",
         "VAL-INVENTARIO-COMPLETUDE"
     ],
+    "auditar-zip": [
+        "VAL-WO-ESTRUTURA",
+        "VAL-DEFINICAO",
+        "VAL-CAMINHO",
+        "VAL-CLASSE",
+        "VAL-SHA-ENTRADA",
+        "VAL-HASH-ARQUIVO",
+        "VAL-ZIP-ESTRUTURA",
+        "VAL-ZIP-RISCOS"
+    ],
     "registrar-find": [
         "VAL-WO-ESTRUTURA",
         "VAL-DEFINICAO",
