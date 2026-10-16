@@ -338,6 +338,41 @@
         "SEM_EXCLUSAO",
         "SEM_PUBLICACAO"
       ]
+    },
+    "TAREFA-IMPORTAR-DRIVE": {
+      "id": "TAREFA-IMPORTAR-DRIVE",
+      "versao": "1.0.0",
+      "qualificacao": "QUALIFICADA",
+      "procedimento": "importar-drive",
+      "sha256_entrada": "obrigatorio",
+      "entradas_minimas": 1,
+      "exige_checker": false,
+      "parametros_obrigatorios": [
+        "source_mount",
+        "source_provider"
+      ],
+      "validadores": [
+        "VAL-WO-ESTRUTURA",
+        "VAL-DEFINICAO",
+        "VAL-CAMINHO",
+        "VAL-CLASSE",
+        "VAL-SHA-ENTRADA",
+        "VAL-ORIGEM-MONTADA",
+        "VAL-HASH-ARQUIVO"
+      ],
+      "erros": [
+        "SEM_WO",
+        "FONTE_AUSENTE",
+        "MONTAGEM_INSEGURA",
+        "SHA_DIVERGENTE",
+        "DESTINO_DIVERGENTE"
+      ],
+      "restricoes": [
+        "SOMENTE_ESTAGIO_PRIVADO",
+        "SEM_EXCLUSAO_DA_ORIGEM",
+        "SEM_PUBLICACAO",
+        "SEM_COMMIT_DE_BINARIO"
+      ]
     }
   }
 }

@@ -362,5 +362,16 @@ def auditar_zip(work_order: Path = typer.Option(..., "--work-order")):
     if result["status"] != "ANALISADO":
         raise typer.Exit(2)
 
+@app.command("importar-drive")
+def importar_drive(work_order: Path = typer.Option(..., "--work-order")):
+    """Importa arquivo autenticado previamente montado, sob WO. Sem remoção."""
+    from packages.cli.staging import importar
+    wo = _wo(work_order, "importar-drive")
+    try:
+        report, evidence = importar(wo, RAIZ)
+    except (ValueError, OSError) as exc:
+        _fail(f"WO {wo.id}: {exc}")
+    typer.echo(f"✓ {wo.id}: {report['bytes']} bytes; status {report['status']}; evidência {evidence}")
+
 if __name__ == "__main__":
     app()
