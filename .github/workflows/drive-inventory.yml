@@ -8,6 +8,8 @@ on:
       - 'policies/definicoes_tarefa.json'
       - 'policies/validadores.json'
       - 'contracts/work_orders/WO-2026_10_16_0104.json'
+      - 'contracts/work_orders/WO-2026_10_16_0106.json'
+      - 'data/grc/drive_inventory_20261016_wave2.json'
       - 'data/grc/drive_inventory_20261016_pilot.json'
       - '.github/workflows/drive-inventory.yml'
   workflow_dispatch:
@@ -27,10 +29,14 @@ jobs:
         run: pip install -r packages/cli/requirements.txt
       - name: Executar WO via Kernel
         run: PYTHONPATH=. python -m packages.cli.kernel auditar-inventario --work-order contracts/work_orders/WO-2026_10_16_0104.json
+      - name: Executar WO de inventario ampliado
+        run: PYTHONPATH=. python -m packages.cli.kernel auditar-inventario --work-order contracts/work_orders/WO-2026_10_16_0106.json
       - name: Publicar evidencia nao-promovivel
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         with:
           name: drive-inventory-WO-2026_10_16_0104
-          path: data/grc/evidencias/auditar_inventario_WO-2026_10_16_0104.json
+          path: |
+            data/grc/evidencias/auditar_inventario_WO-2026_10_16_0104.json
+            data/grc/evidencias/auditar_inventario_WO-2026_10_16_0106.json
           if-no-files-found: error
           retention-days: 90
