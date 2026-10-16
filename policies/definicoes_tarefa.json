@@ -17,7 +17,12 @@
         "VAL-SHA-ENTRADA",
         "VAL-HTML"
       ],
-      "erros": ["WO_AUSENTE", "SHA_DECLARADO", "HTML", "HTTP"]
+      "erros": [
+        "WO_AUSENTE",
+        "SHA_DECLARADO",
+        "HTML",
+        "HTTP"
+      ]
     },
     "TAREFA-ATOMIZAR": {
       "id": "TAREFA-ATOMIZAR",
@@ -35,7 +40,11 @@
         "VAL-HASH-ARQUIVO",
         "VAL-CLASSE-ATOMO"
       ],
-      "erros": ["SHA_DIVERGENTE", "ATO_SEM_EXTRATOR", "ARQUIVO_AUSENTE"]
+      "erros": [
+        "SHA_DIVERGENTE",
+        "ATO_SEM_EXTRATOR",
+        "ARQUIVO_AUSENTE"
+      ]
     },
     "TAREFA-VALIDAR": {
       "id": "TAREFA-VALIDAR",
@@ -54,7 +63,12 @@
         "VAL-HASH-ARQUIVO",
         "VAL-CLASSE-ATOMO"
       ],
-      "erros": ["CHECKER_IGUAL", "SEM_MANIFESTO", "SHA_DIVERGENTE", "RESULTADO_INESPERADO"]
+      "erros": [
+        "CHECKER_IGUAL",
+        "SEM_MANIFESTO",
+        "SHA_DIVERGENTE",
+        "RESULTADO_INESPERADO"
+      ]
     },
     "TAREFA-RETIRAR": {
       "id": "TAREFA-RETIRAR",
@@ -73,7 +87,11 @@
         "VAL-HASH-ARQUIVO",
         "VAL-PARECER"
       ],
-      "erros": ["SEM_PARECER", "SEM_PASS", "SHA_DIVERGENTE"]
+      "erros": [
+        "SEM_PARECER",
+        "SEM_PASS",
+        "SHA_DIVERGENTE"
+      ]
     },
     "TAREFA-T01": {
       "id": "TAREFA-T01",
@@ -126,7 +144,14 @@
       "entradas_minimas": 0,
       "exige_checker": false,
       "exige_agente": true,
-      "parametros_obrigatorios": ["codigo", "objeto", "severidade", "descricao", "impacto", "quando"],
+      "parametros_obrigatorios": [
+        "codigo",
+        "objeto",
+        "severidade",
+        "descricao",
+        "impacto",
+        "quando"
+      ],
       "validadores": [
         "VAL-WO-ESTRUTURA",
         "VAL-DEFINICAO",
@@ -135,7 +160,10 @@
         "VAL-FIND-DEDUP",
         "VAL-FIND-HISTORICO"
       ],
-      "erros": ["SEVERIDADE", "CAMPO_CURTO"]
+      "erros": [
+        "SEVERIDADE",
+        "CAMPO_CURTO"
+      ]
     },
     "TAREFA-FIND-VINCULAR": {
       "id": "TAREFA-FIND-VINCULAR",
@@ -145,14 +173,22 @@
       "sha256_entrada": "proibido",
       "entradas_minimas": 0,
       "exige_checker": false,
-      "parametros_obrigatorios": ["find_id", "work_order_ref", "run_caminho", "quando"],
+      "parametros_obrigatorios": [
+        "find_id",
+        "work_order_ref",
+        "run_caminho",
+        "quando"
+      ],
       "validadores": [
         "VAL-WO-ESTRUTURA",
         "VAL-DEFINICAO",
         "VAL-FIND-CAMPOS",
         "VAL-FIND-HISTORICO"
       ],
-      "erros": ["FIND_AUSENTE", "FIND_FECHADO"]
+      "erros": [
+        "FIND_AUSENTE",
+        "FIND_FECHADO"
+      ]
     },
     "TAREFA-FIND-ENCERRAR": {
       "id": "TAREFA-FIND-ENCERRAR",
@@ -162,7 +198,12 @@
       "sha256_entrada": "proibido",
       "entradas_minimas": 0,
       "exige_checker": true,
-      "parametros_obrigatorios": ["find_id", "evidencia_caminho", "evidencia_sha256", "quando"],
+      "parametros_obrigatorios": [
+        "find_id",
+        "evidencia_caminho",
+        "evidencia_sha256",
+        "quando"
+      ],
       "validadores": [
         "VAL-WO-ESTRUTURA",
         "VAL-DEFINICAO",
@@ -171,7 +212,11 @@
         "VAL-FIND-EVIDENCIA",
         "VAL-HASH-ARQUIVO"
       ],
-      "erros": ["SEM_PASS", "SHA_DIVERGENTE", "CHECKER_IGUAL"]
+      "erros": [
+        "SEM_PASS",
+        "SHA_DIVERGENTE",
+        "CHECKER_IGUAL"
+      ]
     },
     "TAREFA-FIND-ANALISAR": {
       "id": "TAREFA-FIND-ANALISAR",
@@ -182,7 +227,11 @@
       "entradas_minimas": 0,
       "exige_checker": false,
       "exige_agente": true,
-      "parametros_obrigatorios": ["find_id", "analise", "quando"],
+      "parametros_obrigatorios": [
+        "find_id",
+        "analise",
+        "quando"
+      ],
       "validadores": [
         "VAL-WO-ESTRUTURA",
         "VAL-DEFINICAO",
@@ -190,7 +239,10 @@
         "VAL-FIND-AGENTE",
         "VAL-FIND-HISTORICO"
       ],
-      "erros": ["MESMO_AGENTE", "FIND_FECHADO"]
+      "erros": [
+        "MESMO_AGENTE",
+        "FIND_FECHADO"
+      ]
     },
     "TAREFA-FIND-CORRIGIR": {
       "id": "TAREFA-FIND-CORRIGIR",
@@ -201,7 +253,12 @@
       "entradas_minimas": 0,
       "exige_checker": false,
       "exige_agente": true,
-      "parametros_obrigatorios": ["find_id", "correcao_caminho", "correcao_sha256", "quando"],
+      "parametros_obrigatorios": [
+        "find_id",
+        "correcao_caminho",
+        "correcao_sha256",
+        "quando"
+      ],
       "validadores": [
         "VAL-WO-ESTRUTURA",
         "VAL-DEFINICAO",
@@ -211,7 +268,43 @@
         "VAL-HASH-ARQUIVO",
         "VAL-FIND-HISTORICO"
       ],
-      "erros": ["MESMO_AGENTE", "SEM_ANALISE", "SHA_DIVERGENTE"]
+      "erros": [
+        "MESMO_AGENTE",
+        "SEM_ANALISE",
+        "SHA_DIVERGENTE"
+      ]
+    },
+    "TAREFA-AUDITAR-INVENTARIO": {
+      "id": "TAREFA-AUDITAR-INVENTARIO",
+      "versao": "1.0.0",
+      "qualificacao": "QUALIFICADA",
+      "procedimento": "auditar-inventario",
+      "sha256_entrada": "obrigatorio",
+      "entradas_minimas": 1,
+      "exige_checker": true,
+      "validadores": [
+        "VAL-WO-ESTRUTURA",
+        "VAL-DEFINICAO",
+        "VAL-CAMINHO",
+        "VAL-CLASSE",
+        "VAL-SHA-ENTRADA",
+        "VAL-HASH-ARQUIVO",
+        "VAL-INVENTARIO-RAIZES",
+        "VAL-INVENTARIO-COMPLETUDE"
+      ],
+      "erros": [
+        "INVENTARIO_AUSENTE",
+        "HASH_DIVERGENTE",
+        "RAIZES_INVALIDAS",
+        "INVENTARIO_PARCIAL",
+        "DUPLICATA_POTENCIAL"
+      ],
+      "restricoes": [
+        "SOMENTE_LEITURA_FONTE",
+        "SEM_DEDUP_AUTOMATICA",
+        "SEM_EXCLUSAO",
+        "SEM_PUBLICACAO"
+      ]
     }
   }
 }
