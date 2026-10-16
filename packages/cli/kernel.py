@@ -336,5 +336,18 @@ def encerrar_find(work_order: Path = typer.Option(..., "--work-order")):
     typer.secho(f"✓ encerrar-find {wo.id}: {doc['eventos'][-1]['find_id']}", fg=typer.colors.GREEN)
 
 
+@app.command("auditar-inventario")
+def auditar_inventario(work_order: Path = typer.Option(..., "--work-order")):
+    """Audita snapshot de metadados pelo Kernel. Jamais elimina nem publica."""
+    from packages.cli.inventory import auditar
+    wo = _wo(work_order, "auditar-inventario")
+    try:
+        resultado, destino = auditar(wo, RAIZ)
+    except (ValueError, OSError, json.JSONDecodeError) as exc:
+        _fail(f"WO {wo.id}: {exc}")
+    typer.echo(f"✓ {wo.id}: {resultado['arquivos_observados']} itens; "
+               f"{resultado['zips_observados']} ZIPs; status {resultado['status']}; "
+               f"evidência {destino}")
+
 if __name__ == "__main__":
     app()

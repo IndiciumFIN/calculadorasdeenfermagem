@@ -45,6 +45,8 @@
     "VAL-ZT-002": "packages.cli.zero_trust.val_sem_promocao",
     "VAL-ZT-003": "packages.cli.zero_trust.val_nao_revoga",
     "VAL-ZT-004": "packages.cli.zero_trust.val_portas",
-    "VAL-ZT-005": "packages.cli.zero_trust.val_cobertura"
+    "VAL-ZT-005": "packages.cli.zero_trust.val_cobertura",
+    "VAL-INVENTARIO-RAIZES": "packages.cli.inventory.auditar",
+    "VAL-INVENTARIO-COMPLETUDE": "packages.cli.inventory.auditar"
   }
 }

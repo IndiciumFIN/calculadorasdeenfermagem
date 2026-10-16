@@ -45,6 +45,16 @@ VALIDADORES_POR_PROCEDIMENTO = {
         "VAL-HASH-ARQUIVO",
         "VAL-PARECER",
     ],
+    "auditar-inventario": [
+        "VAL-WO-ESTRUTURA",
+        "VAL-DEFINICAO",
+        "VAL-CAMINHO",
+        "VAL-CLASSE",
+        "VAL-SHA-ENTRADA",
+        "VAL-HASH-ARQUIVO",
+        "VAL-INVENTARIO-RAIZES",
+        "VAL-INVENTARIO-COMPLETUDE"
+    ],
     "registrar-find": [
         "VAL-WO-ESTRUTURA",
         "VAL-DEFINICAO",
