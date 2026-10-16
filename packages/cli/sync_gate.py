@@ -50,15 +50,44 @@ def run():
     local = json.loads(CORPUS_LOCAL.read_text())
     local_por_id = {a["id_atomo"]: calcular_hash(a["texto_regra"]) for a in local}
 
-    resp = requests.get(
-        f"{url.rstrip('/')}/rest/v1/atoms",
-        params={"select": "id_atomo,texto_regra,status"},
-        headers={"apikey": key, "Authorization": f"Bearer {key}"},
-        timeout=30,
-    )
-    resp.raise_for_status()
-    remoto = resp.json()
-    remoto_por_id = {a["id_atomo"]: calcular_hash(a.get("texto_regra") or "") for a in remoto}
+    # Paginação explícita: nunca tratar a primeira página como universo remoto.
+    # PostgREST pode impor max_rows; a página curta NÃO encerra a coleta.
+    remoto_por_id = {}
+    pagina = 1000
+    offset = 0
+    while True:
+        resp = requests.get(
+            f"{url.rstrip('/')}/rest/v1/atoms",
+            params={"select": "id_atomo,texto_regra,status", "order": "id_atomo.asc", "limit": str(pagina), "offset": str(offset)},
+            headers={"apikey": key, "Authorization": f"Bearer {key}", "Prefer": "count=exact"},
+            timeout=30,
+        )
+        resp.raise_for_status()
+        lote = resp.json()
+        if not isinstance(lote, list):
+            typer.secho("FAIL: resposta remota não é lista", fg=typer.colors.RED)
+            raise typer.Exit(2)
+        for atomo in lote:
+            ident = atomo["id_atomo"]
+            if ident in remoto_por_id:
+                typer.secho(f"FAIL: ID remoto duplicado entre páginas: {ident}", fg=typer.colors.RED)
+                raise typer.Exit(2)
+            remoto_por_id[ident] = calcular_hash(atomo.get("texto_regra") or "")
+        offset += len(lote)
+        content_range = resp.headers.get("Content-Range", "")
+        # Com count=exact, o total deve ser conhecido e estável.
+        if "/" not in content_range or not content_range.rsplit("/", 1)[1].isdigit():
+            typer.secho("FAIL: total remoto não informado (Content-Range)", fg=typer.colors.RED)
+            raise typer.Exit(2)
+        total = int(content_range.rsplit("/", 1)[1])
+        if offset >= total:
+            if len(remoto_por_id) != total:
+                typer.secho("FAIL: contagem remota incompatível", fg=typer.colors.RED)
+                raise typer.Exit(2)
+            break
+        if not lote:
+            typer.secho("FAIL: paginação remota interrompida", fg=typer.colors.RED)
+            raise typer.Exit(2)
 
     apenas_local = sorted(set(local_por_id) - set(remoto_por_id))
     apenas_remoto = sorted(set(remoto_por_id) - set(local_por_id))
