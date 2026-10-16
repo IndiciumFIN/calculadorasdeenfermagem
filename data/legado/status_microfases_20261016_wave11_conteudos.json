@@ -1,0 +1,59 @@
+{
+  "schema": "CE-CONTENT-WAVE11-1.0.0",
+  "date": "2026-10-16",
+  "status": "PRIVATE_KERNEL_PASS",
+  "records": [
+    {
+      "wo": "WO-2026_10_16_0208",
+      "domain": "ARTIGO_NR17",
+      "name": "NR17_Ergonomia_Artigo_Completo.html",
+      "source_id": "12Amq33UERg-7AVD_uNGD2_9ldltAxwsY",
+      "sha256": "3ab92b23304d534b18e477a033e9008a03888b7b9a1405348e2053d6b955eb39",
+      "bytes": 82803,
+      "path": "data/legado/extracao_bruta/CONTEUDOS_CE_WAVE11/ARTIGO_NR17/12Amq33UERg-7AVD_uNGD2_9ldltAxwsY/NR17_Ergonomia_Artigo_Completo.html"
+    },
+    {
+      "wo": "WO-2026_10_16_0209",
+      "domain": "ARTIGO_NR1",
+      "name": "NR1_Artigo_Tecnico_Completo.html",
+      "source_id": "1kHyZ-KKTj1o3lkxG3fjMKribkF7siKj0",
+      "sha256": "d851bea3f41420a75fe77c4c9b041385788c1884326909e8e8ef9713fa515b86",
+      "bytes": 95683,
+      "path": "data/legado/extracao_bruta/CONTEUDOS_CE_WAVE11/ARTIGO_NR1/1kHyZ-KKTj1o3lkxG3fjMKribkF7siKj0/NR1_Artigo_Tecnico_Completo.html"
+    },
+    {
+      "wo": "WO-2026_10_16_0210",
+      "domain": "ESCALA_FUGULIN_EDITORIAL",
+      "name": "Fugulin-W1-Editorial-Release-Candidate.html",
+      "source_id": "1gWlF6hbfjYvCqeND5TaN7pEjz1Om9KTe",
+      "sha256": "305d030e66e00b1c2981f2fcbe84fd0ad792f5e0b9c550f9c1e90f8897313424",
+      "bytes": 288935,
+      "path": "data/legado/extracao_bruta/CONTEUDOS_CE_WAVE11/ESCALA_FUGULIN_EDITORIAL/1gWlF6hbfjYvCqeND5TaN7pEjz1Om9KTe/Fugulin-W1-Editorial-Release-Candidate.html"
+    },
+    {
+      "wo": "WO-2026_10_16_0211",
+      "domain": "ESCALA_ALDRETE_FORM",
+      "name": "aldrete-ptBR-experience-candidate-v0.5.2.html",
+      "source_id": "1AojkL8Kth9Gwg3PMG_aXyY-DbCjJWYdU",
+      "sha256": "bef59755425a62f7e41ce8a09a9086c6455c4aac3b6aaadb788e8b167a6b9a54",
+      "bytes": 14331,
+      "path": "data/legado/extracao_bruta/CONTEUDOS_CE_WAVE11/ESCALA_ALDRETE_FORM/1AojkL8Kth9Gwg3PMG_aXyY-DbCjJWYdU/aldrete-ptBR-experience-candidate-v0.5.2.html"
+    },
+    {
+      "wo": "WO-2026_10_16_0212",
+      "domain": "CHECKLIST_CIRURGICO",
+      "name": "checklist-cirurgico-seguro.html",
+      "source_id": "1XNfCXNIZyS2UL3X9Wxe4W7sZaUVSHLgM",
+      "sha256": "1edd1316ff213f3f705c57d07ac36b5eed6d03947576a2d1940c6edb68bb8307",
+      "bytes": 22878,
+      "path": "data/legado/extracao_bruta/CONTEUDOS_CE_WAVE11/CHECKLIST_CIRURGICO/1XNfCXNIZyS2UL3X9Wxe4W7sZaUVSHLgM/checklist-cirurgico-seguro.html"
+    }
+  ],
+  "items": 5,
+  "bytes": 504630,
+  "clinical_review": "HOLD_HUMAN",
+  "rights_review": "HOLD_HUMAN",
+  "publication_allowed": false,
+  "independent_durable_backup": false,
+  "drive_deletions": 0
+}

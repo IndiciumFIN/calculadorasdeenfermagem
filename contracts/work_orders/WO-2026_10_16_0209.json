@@ -1,0 +1,25 @@
+{
+  "id": "WO-2026_10_16_0209",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "task_id": "TAREFA-IMPORTAR-DRIVE",
+  "task_type": "importar-drive",
+  "task_version": "1.0.0",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "entradas": [
+    {
+      "id_origem": "1kHyZ-KKTj1o3lkxG3fjMKribkF7siKj0",
+      "caminho": "data/legado/extracao_bruta/CONTEUDOS_CE_WAVE11/ARTIGO_NR1/1kHyZ-KKTj1o3lkxG3fjMKribkF7siKj0/NR1_Artigo_Tecnico_Completo.html",
+      "classe": "REFERENCIA",
+      "sha256": "d851bea3f41420a75fe77c4c9b041385788c1884326909e8e8ef9713fa515b86"
+    }
+  ],
+  "parametros": {
+    "source_provider": "google_drive",
+    "source_mount": "NR1_Artigo_Tecnico_Completo.html",
+    "lote": "WAVE11-EDITORIAL-FORMS",
+    "publicacao": "BLOQUEADA",
+    "exclusao": "BLOQUEADA"
+  }
+}
