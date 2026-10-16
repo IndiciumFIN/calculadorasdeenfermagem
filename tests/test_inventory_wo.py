@@ -44,3 +44,16 @@ def test_contagem_adulterada_mesmo_com_wo_invalida(tmp_path):
     wo.entradas[0].sha256 = "b" * 64
     with pytest.raises(ValueError, match="SHA-256"):
         auditar(wo, tmp_path)
+
+
+def test_inventario_ampliado_mesmo_kernel(tmp_path):
+    wo = carregar_wo(RAIZ / "contracts/work_orders/WO-2026_10_16_0106.json")
+    source = RAIZ / "data/grc/drive_inventory_20261016_wave2.json"
+    dest = tmp_path / "data/grc/drive_inventory_20261016_wave2.json"
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(source, dest)
+    report, artifact = auditar(wo, tmp_path)
+    assert artifact.exists()
+    assert report["arquivos_observados"] == 432
+    assert report["zips_observados"] == 137
+    assert not report["homologacao"]
