@@ -1,0 +1,59 @@
+{
+  "schema": "CE-WO-CANDIDATE-0.1.0",
+  "id": "WO-CE-GITHUB-FIRST-ADMISSION-20261016-CANDIDATE",
+  "status": "CANDIDATE_NOT_KERNEL_APPROVED",
+  "target_branch": "cursor/fix-governance-gaps-ec54",
+  "source_branches": [
+    "staging/wo-kernel-normativos-cli-20261016"
+  ],
+  "fronts": [
+    {
+      "id": "N",
+      "scope": "normativos",
+      "batch_size": 25
+    },
+    {
+      "id": "C",
+      "scope": "demais_conteudos_todos_formatos",
+      "batch_size": 25
+    }
+  ],
+  "max_workers": 2,
+  "admission_policy": {
+    "allow_candidate_with_findings": true,
+    "publication_requires_explicit_gates": true,
+    "automatic_canonical_promotion": false,
+    "prohibited_bytes": [
+      "secrets",
+      "sensitive_personal_data",
+      "copyrighted_bytes_without_storage_permission"
+    ],
+    "restricted_reference": "metadata_only_when_permitted"
+  },
+  "controls": {
+    "require_sha256_readback": true,
+    "require_provenance": true,
+    "require_per_file_findings": true,
+    "require_kernel_contract_reconciliation": true,
+    "delete_sources": false,
+    "merge_main": false,
+    "delete_staging_branch": false
+  },
+  "known_evidence": {
+    "staging_pr": 3,
+    "staging_files": 10,
+    "source_distribution_files": 46,
+    "source_distribution_missing": 39,
+    "staging_branch_ahead": 1,
+    "staging_branch_behind": 72,
+    "comparison_base_sha": "a9bd6f7f68aacdb22296193b3897e6a05aa026dc"
+  },
+  "gates": {
+    "inventory": "PENDING",
+    "rights": "PENDING",
+    "kernel": "PENDING",
+    "github_readback": "PENDING",
+    "publication": "HOLD"
+  },
+  "note": "This WO is a candidate document committed to the authorized branch, not official Kernel registration or approval."
+}
