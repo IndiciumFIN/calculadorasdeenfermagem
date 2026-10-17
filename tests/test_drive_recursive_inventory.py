@@ -39,9 +39,15 @@ def test_limits_fail_closed():
             max_items=0)
 
 
-def test_overlap_fails_closed():
-    with pytest.raises(ValueError, match="visited twice"):
-        crawl([{"id": "root"}, {"id": "root"}], "dummy", fetch=lambda *args: {"files": []})
+def test_overlapping_roots_are_recorded_without_double_traversal():
+    def fetch(folder, token, page_token=None):
+        if folder == "parent":
+            return {"files": [{"id": "child", "name": "Child", "mimeType": FOLDER}]}
+        return {"files": []}
+    result = crawl([{"id": "parent"}, {"id": "child"}], "dummy", fetch=fetch)
+    assert result["folders_traversed"] == 2
+    assert len(result["overlapping_folder_references"]) == 1
+    assert result["overlapping_folder_references"][0]["folder_id"] == "child"
 
 
 def test_missing_files_collection_fails_closed():
