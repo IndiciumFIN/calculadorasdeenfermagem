@@ -1,0 +1,225 @@
+{
+  "schema": "CE04-CONFLICT-COMPARISON-CANDIDATE-1.0",
+  "wo": "WO-CE04-RECON-20261017",
+  "task_id": "TASK-CE04-003",
+  "branch": "audit/ce04-reconciliation-tasks-20261017",
+  "main_sha": "e0f62491b104f4a97c6025a6393cabc2e7ada30e",
+  "historic_root_sha": "fd5818f42c6a6f716996d8c9418ba87a079d0c59",
+  "comparison": "Git recursive trees; same relative path differing blob SHA1",
+  "source_preserved": true,
+  "no_winner_selected": true,
+  "mutation_allowed": false,
+  "status": "READ_ONLY_METADATA_CONFLICTS_NOT_RESOLVED",
+  "count": 11,
+  "conflicts": [
+    {
+      "path": ".github/workflows/drive-recursive-collect.yml",
+      "main": {
+        "blob_sha1": "d8f9df54364072f5962b123b2d79be46dfae244b",
+        "size": 2192
+      },
+      "historic": {
+        "blob_sha1": "d1e1b7474ca932ad7789e42dc6e225288fa9ffc8",
+        "size": 2311
+      },
+      "size_equal": false,
+      "category": "CI_OR_SECURITY",
+      "risk": "CANDIDATE_NOT_REVIEWED",
+      "resolution": "KEEP_BOTH_HOLD_HUMAN",
+      "actual_diff_review": "PENDING",
+      "independent_audit": "PENDING",
+      "validated": false,
+      "pass": false
+    },
+    {
+      "path": ".gitignore",
+      "main": {
+        "blob_sha1": "f6cf09f6171af3519e9fb489d99e87010222d56f",
+        "size": 353
+      },
+      "historic": {
+        "blob_sha1": "9c985a8eddb7e0a22fb543e5f18880435d9b6536",
+        "size": 543
+      },
+      "size_equal": false,
+      "category": "OTHER",
+      "risk": "CANDIDATE_NOT_REVIEWED",
+      "resolution": "KEEP_BOTH_HOLD_HUMAN",
+      "actual_diff_review": "PENDING",
+      "independent_audit": "PENDING",
+      "validated": false,
+      "pass": false
+    },
+    {
+      "path": "contracts/exemplo_atomo.json",
+      "main": {
+        "blob_sha1": "3d1cc8056c640da209e0c0b74f288804abdfb178",
+        "size": 750
+      },
+      "historic": {
+        "blob_sha1": "fcf5e9a8e73ab2d092954e6922e61cf76a0b5f78",
+        "size": 332
+      },
+      "size_equal": false,
+      "category": "CONTRACT",
+      "risk": "CANDIDATE_NOT_REVIEWED",
+      "resolution": "KEEP_BOTH_HOLD_HUMAN",
+      "actual_diff_review": "PENDING",
+      "independent_audit": "PENDING",
+      "validated": false,
+      "pass": false
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "main": {
+        "blob_sha1": "bf119e9690ccc8a1018a15deab9f4675d7e88f5a",
+        "size": 1240
+      },
+      "historic": {
+        "blob_sha1": "59d3cb4017a01caafdaf0253a3547f7cc19f439c",
+        "size": 1466
+      },
+      "size_equal": false,
+      "category": "GOVERNANCE_DOC",
+      "risk": "CANDIDATE_NOT_REVIEWED",
+      "resolution": "KEEP_BOTH_HOLD_HUMAN",
+      "actual_diff_review": "PENDING",
+      "independent_audit": "PENDING",
+      "validated": false,
+      "pass": false
+    },
+    {
+      "path": "docs/FIND_TEMPLATE.md",
+      "main": {
+        "blob_sha1": "9f7a007db878ed429293fcff5e3c346e6274538e",
+        "size": 570
+      },
+      "historic": {
+        "blob_sha1": "9f478581e7078c0ff27dffca7a434964a43692a8",
+        "size": 709
+      },
+      "size_equal": false,
+      "category": "GOVERNANCE_DOC",
+      "risk": "CANDIDATE_NOT_REVIEWED",
+      "resolution": "KEEP_BOTH_HOLD_HUMAN",
+      "actual_diff_review": "PENDING",
+      "independent_audit": "PENDING",
+      "validated": false,
+      "pass": false
+    },
+    {
+      "path": "docs/GOVERNANCE.md",
+      "main": {
+        "blob_sha1": "347f0c221ced42e516cd77f5121b941d9d23b10c",
+        "size": 698
+      },
+      "historic": {
+        "blob_sha1": "f5ad6908d6aaf51b72833b94f50e657a517eddc4",
+        "size": 2841
+      },
+      "size_equal": false,
+      "category": "GOVERNANCE_DOC",
+      "risk": "CANDIDATE_NOT_REVIEWED",
+      "resolution": "KEEP_BOTH_HOLD_HUMAN",
+      "actual_diff_review": "PENDING",
+      "independent_audit": "PENDING",
+      "validated": false,
+      "pass": false
+    },
+    {
+      "path": "docs/INVENTORY_INITIAL.md",
+      "main": {
+        "blob_sha1": "78fe4e40beb594984318bd6b268f60a8acb1a94d",
+        "size": 1823
+      },
+      "historic": {
+        "blob_sha1": "17a8a9dfc445a6116b18b1b494598a9b195598b0",
+        "size": 2428
+      },
+      "size_equal": false,
+      "category": "GOVERNANCE_DOC",
+      "risk": "CANDIDATE_NOT_REVIEWED",
+      "resolution": "KEEP_BOTH_HOLD_HUMAN",
+      "actual_diff_review": "PENDING",
+      "independent_audit": "PENDING",
+      "validated": false,
+      "pass": false
+    },
+    {
+      "path": "docs/KERNEL.md",
+      "main": {
+        "blob_sha1": "241e66da56f5e1093cbaa4e19aa40f99af2aca7f",
+        "size": 702
+      },
+      "historic": {
+        "blob_sha1": "7ee3442ed0b065961b59b5e11db5e1c90daee80e",
+        "size": 878
+      },
+      "size_equal": false,
+      "category": "GOVERNANCE_DOC",
+      "risk": "CANDIDATE_NOT_REVIEWED",
+      "resolution": "KEEP_BOTH_HOLD_HUMAN",
+      "actual_diff_review": "PENDING",
+      "independent_audit": "PENDING",
+      "validated": false,
+      "pass": false
+    },
+    {
+      "path": "docs/PIPELINE.md",
+      "main": {
+        "blob_sha1": "857a4473c288620bf3c7162105cc1204812ac64d",
+        "size": 860
+      },
+      "historic": {
+        "blob_sha1": "16aad9bdfda5f54b9206b7ccbddc449ac4155394",
+        "size": 2056
+      },
+      "size_equal": false,
+      "category": "GOVERNANCE_DOC",
+      "risk": "CANDIDATE_NOT_REVIEWED",
+      "resolution": "KEEP_BOTH_HOLD_HUMAN",
+      "actual_diff_review": "PENDING",
+      "independent_audit": "PENDING",
+      "validated": false,
+      "pass": false
+    },
+    {
+      "path": "docs/REGISTRY.md",
+      "main": {
+        "blob_sha1": "bad374ee31e99576a03a91d0ef0eaedab98a0abc",
+        "size": 1085
+      },
+      "historic": {
+        "blob_sha1": "7ad59cc563cdd5d130da0a973fe2b2e5845abea6",
+        "size": 1303
+      },
+      "size_equal": false,
+      "category": "GOVERNANCE_DOC",
+      "risk": "CANDIDATE_NOT_REVIEWED",
+      "resolution": "KEEP_BOTH_HOLD_HUMAN",
+      "actual_diff_review": "PENDING",
+      "independent_audit": "PENDING",
+      "validated": false,
+      "pass": false
+    },
+    {
+      "path": "docs/TASKS.md",
+      "main": {
+        "blob_sha1": "8a56597e09704981ed347219236307f6f494c147",
+        "size": 1866
+      },
+      "historic": {
+        "blob_sha1": "e26a4b05d4851e369f274ea0e709a599d2dbafde",
+        "size": 1942
+      },
+      "size_equal": false,
+      "category": "GOVERNANCE_DOC",
+      "risk": "CANDIDATE_NOT_REVIEWED",
+      "resolution": "KEEP_BOTH_HOLD_HUMAN",
+      "actual_diff_review": "PENDING",
+      "independent_audit": "PENDING",
+      "validated": false,
+      "pass": false
+    }
+  ]
+}
