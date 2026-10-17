@@ -1,0 +1,49 @@
+{
+  "schema": "CE04-GIT-SHA256-RAW-TEXT-EVIDENCE-CANDIDATE-1.0",
+  "source_ref": "cursor/drive-sa-key-refactor",
+  "wo": "WO-CE04-RECON-20261017",
+  "kernel": "NOT_ADMITTED",
+  "method": "SHA256 over exact UTF8 text obtained by GitHub connector, evaluated in prior instrumented invocation; SHA256 KAT positive and negative passed",
+  "initial_check": "FAIL_CLOSED due to manually transcribed hash typo in expected input for sepse/recorte_mesh.jsonl",
+  "correction": "Expected value read back from previously persisted Git structural matrix, not manually trusted; no source bytes or Git objects changed",
+  "results": {
+    "total": 3,
+    "match": 3,
+    "release_approved": false
+  },
+  "rows": [
+    {
+      "path": "data/legado/extracao_bruta/atomizado/sinais_vitais/classificacao_pa_dbha2020_transcrita_manualmente_v2.jsonl",
+      "source_git_blob_sha1": "0d03660926f7b489f21b3da7b24d77826da680c7",
+      "sha256_computed_from_github_utf8": "427fdd11a4b6f7de5f48de47b1df37a7f389afe3147b0a5f53789c00cf408933",
+      "manifest_declared_sha256": "427fdd11a4b6f7de5f48de47b1df37a7f389afe3147b0a5f53789c00cf408933",
+      "observed_size": 11598,
+      "declared_size": 11598,
+      "bytes_match": true,
+      "hash_match": true,
+      "source_crosscheck": "CE04_DOMAIN_TREE_MANIFEST_BATCH_{01,02,03}_20261017.candidate.json"
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/sepse/recorte_mesh.jsonl",
+      "source_git_blob_sha1": "12468fe5c2c450c0b042d82c0a6ce266fd6f00bf",
+      "sha256_computed_from_github_utf8": "c46ebeb2ccd3cd70b35b0b54f951dc0e60370c0611695865b5b7ab43b142e717",
+      "manifest_declared_sha256": "c46ebeb2ccd3cd70b35b0b54f951dc0e60370c0611695865b5b7ab43b142e717",
+      "observed_size": 11955,
+      "declared_size": 11955,
+      "bytes_match": true,
+      "hash_match": true,
+      "source_crosscheck": "CE04_DOMAIN_TREE_MANIFEST_BATCH_{01,02,03}_20261017.candidate.json"
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/protocolos_enfermagem/documento_protocolo.jsonl",
+      "source_git_blob_sha1": "50442e1e0c92b6d61e495fa1604d2028759f9eab",
+      "sha256_computed_from_github_utf8": "5a10c15d2964b6b8eb916d5378b0aefc9f970d67325de78cc215d116d1a572fb",
+      "manifest_declared_sha256": "5a10c15d2964b6b8eb916d5378b0aefc9f970d67325de78cc215d116d1a572fb",
+      "observed_size": 13856,
+      "declared_size": 13856,
+      "bytes_match": true,
+      "hash_match": true,
+      "source_crosscheck": "CE04_DOMAIN_TREE_MANIFEST_BATCH_{01,02,03}_20261017.candidate.json"
+    }
+  ]
+}
