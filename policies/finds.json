@@ -1,0 +1,8 @@
+{
+  "versao": "1.0.0",
+  "regra": "Registrar um FIND não autoriza correção. Análise e correção são de outro agente, registrado e diferente do detector. O histórico só recebe eventos. Fechar exige outra Work Order, checker diferente e evidência cujo SHA-256 confere. FIND crítico aberto bloqueia a promoção a canonico. O id da Work Order é WO-AAAA_MM_DD_0000.",
+  "severidades": ["CRITICA", "ALTA", "MEDIA", "BAIXA"],
+  "status": ["ABERTO", "FECHADO"],
+  "promocao_bloqueada_por": ["CRITICA"],
+  "status_promocao": ["canonico"]
+}
