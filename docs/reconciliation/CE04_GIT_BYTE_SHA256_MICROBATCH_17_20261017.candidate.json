@@ -1,0 +1,22 @@
+{
+  "schema": "CE04-SHA256-STREAMING-UTF8-GIT-BLOB-CANDIDATE-1.0",
+  "wo": "WO-CE04-RECON-20261017",
+  "wo_admission": "DRAFT_NOT_ADMITTED",
+  "tests": {
+    "sha256_abc": "PASS",
+    "sha256_million_a": "PASS"
+  },
+  "source": "GitHub blob by pinned source tree SHA1; streaming hash over decoded UTF8",
+  "record": {
+    "name": "mesh/descritor_mesh.jsonl",
+    "git_blob_sha1": "785b89abc38e8f71f2d9947c8a62021219f718d9",
+    "actual_sha256": "606bb9d27e7ceb531b38a4507ba3fbe0ab1a89d803763e19abc92e393569acf4",
+    "expected_sha256": "606bb9d27e7ceb531b38a4507ba3fbe0ab1a89d803763e19abc92e393569acf4",
+    "actual_bytes": 40798270,
+    "expected_bytes": 40798270,
+    "hash_match": true,
+    "size_match": true
+  },
+  "clinical_audit": "PENDING",
+  "release_allowed": false
+}
