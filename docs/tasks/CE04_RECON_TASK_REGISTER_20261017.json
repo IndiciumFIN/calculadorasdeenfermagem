@@ -1,0 +1,1050 @@
+{
+  "schema": "CE-DETERMINISTIC-TASK-REGISTER-1.0",
+  "id": "CE04-RECON-20261017",
+  "wo_id": "WO-CE04-RECON-20261017",
+  "version": "0.1.0-CANDIDATE",
+  "branch": "audit/ce04-reconciliation-tasks-20261017",
+  "authority": "GitHub",
+  "source_cutoff": "2026-10-17",
+  "status": "CANDIDATE_REGISTERED_PENDING_KERNEL_ADMISSION",
+  "task_count": 38,
+  "progress": {
+    "persisted_registration": "REQUIRES_READBACK",
+    "completed": 0,
+    "approved": 0
+  },
+  "definitions": {
+    "task_completion": "CLOSED only with WO admitted, external test/result evidence, independent auditor and Kernel FIND validation",
+    "preflight": "May collect read-only evidence but cannot claim RELEASE/PASS",
+    "hold_human": "Only tasks needing external authority blocked; do not stall independent tasks"
+  },
+  "tasks": [
+    {
+      "id": "TASK-CE04-001",
+      "wo_id": "WO-CE04-RECON-20261017",
+      "title": "Fixar escopo e baseline de GitHub e Supabase",
+      "description": "Freeze tree SHA and document Supabase source identity, permitted read-only SQL and immutable cutoff.",
+      "kind": "READ_ONLY",
+      "status": "PREFLIGHT_VERIFICATION_PENDING",
+      "required": true,
+      "dependencies": [],
+      "acceptance_criteria": [
+        "tree SHAs and DB identity read back",
+        "no mutation"
+      ],
+      "evidence_required": [
+        "GitHub Git Trees readback",
+        "Supabase current_database() query"
+      ],
+      "completion_evidence": [],
+      "closed_at": null,
+      "closed_by": null,
+      "authority": "Kernel after independent tests/audit",
+      "no_implicit_completion": true
+    },
+    {
+      "id": "TASK-CE04-002",
+      "wo_id": "WO-CE04-RECON-20261017",
+      "title": "Reverificar os cinco snapshots sem perda",
+      "description": "Compare all 18,955 original blobs with staged tree references, exact path, Git blob SHA and size; detect omissions and extras.",
+      "kind": "READ_ONLY",
+      "status": "PREFLIGHT_VERIFICATION_PENDING",
+      "required": true,
+      "dependencies": [
+        "TASK-CE04-001"
+      ],
+      "acceptance_criteria": [
+        "5/5 source trees verifiable",
+        "0 missing or changed blobs",
+        "snapshot tree hashes pinned"
+      ],
+      "evidence_required": [
+        "GitHub recursive tree JSON",
+        "comparison log"
+      ],
+      "completion_evidence": [],
+      "closed_at": null,
+      "closed_by": null,
+      "authority": "Kernel after independent tests/audit",
+      "no_implicit_completion": true
+    },
+    {
+      "id": "TASK-CE04-003",
+      "wo_id": "WO-CE04-RECON-20261017",
+      "title": "Reconciliar 22 versões divergentes da main",
+      "description": "Preserve both versions and use policy/validator to decide each divergent path; do not overwrite.",
+      "kind": "CONTROLLED_REVIEW",
+      "status": "PENDING_KERNEL_ADMISSION",
+      "required": true,
+      "dependencies": [
+        "TASK-CE04-002"
+      ],
+      "acceptance_criteria": [
+        "all 22 conflicts have traceable disposition",
+        "no loss of versions"
+      ],
+      "evidence_required": [
+        "base/source Git SHA",
+        "diff",
+        "authorized resolution"
+      ],
+      "completion_evidence": [],
+      "closed_at": null,
+      "closed_by": null,
+      "authority": "Kernel after independent tests/audit",
+      "no_implicit_completion": true
+    },
+    {
+      "id": "TASK-CE04-004",
+      "wo_id": "WO-CE04-RECON-20261017",
+      "title": "Conferir arquivos e hashes contra 65 registros Supabase",
+      "description": "Check exact path, size and SHA256 of actual bytes of all 65 records; never treat Git SHA1 as SHA256.",
+      "kind": "READ_ONLY",
+      "status": "PENDING_KERNEL_ADMISSION",
+      "required": true,
+      "dependencies": [
+        "TASK-CE04-002"
+      ],
+      "acceptance_criteria": [
+        "65/65 have verified byte SHA256 or explicit unresolved exception",
+        "single unambiguous source path per file"
+      ],
+      "evidence_required": [
+        "raw file bytes or trusted independent hash",
+        "file_integrity rows",
+        "Git object SHA"
+      ],
+      "completion_evidence": [],
+      "closed_at": null,
+      "closed_by": null,
+      "authority": "Kernel after independent tests/audit",
+      "no_implicit_completion": true
+    },
+    {
+      "id": "TASK-CE04-005",
+      "wo_id": "WO-CE04-RECON-20261017",
+      "title": "Reconciliar 15 manifestos por versão",
+      "description": "Check 65 rows by theme with per-file manifest, selecting v2 explicitly for sepse/sinais_vitais and recording base-vs-v2 drift.",
+      "kind": "READ_ONLY",
+      "status": "PENDING_KERNEL_ADMISSION",
+      "required": true,
+      "dependencies": [
+        "TASK-CE04-004"
+      ],
+      "acceptance_criteria": [
+        "15 manifest chains inspected",
+        "2 v2 references tested",
+        "no silent version substitutions"
+      ],
+      "evidence_required": [
+        "versioned MANIFESTO files",
+        "file_integrity data",
+        "manifest selection rationale"
+      ],
+      "completion_evidence": [],
+      "closed_at": null,
+      "closed_by": null,
+      "authority": "Kernel after independent tests/audit",
+      "no_implicit_completion": true
+    },
+    {
+      "id": "TASK-CE04-006",
+      "wo_id": "WO-CE04-RECON-20261017",
+      "title": "Pesquisar e reconciliar faltas nas branches",
+      "description": "Inspect every source branch and staged snapshot for six missing path names including large files, alternative naming and Git LFS.",
+      "kind": "READ_ONLY",
+      "status": "PENDING_KERNEL_ADMISSION",
+      "required": true,
+      "dependencies": [
+        "TASK-CE04-004"
+      ],
+      "acceptance_criteria": [
+        "six rows assigned grounded found/absent/conflict status",
+        "raw bytes audited for recovered files"
+      ],
+      "evidence_required": [
+        "full tree scan",
+        "Git LFS pointer evidence",
+        "provider limits/readback"
+      ],
+      "completion_evidence": [],
+      "closed_at": null,
+      "closed_by": null,
+      "authority": "Kernel after independent tests/audit",
+      "no_implicit_completion": true
+    },
+    {
+      "id": "TASK-CE04-007",
+      "wo_id": "WO-CE04-RECON-20261017",
+      "title": "Investigação de arquivo ausente: dispositivos/registro_anvisa_produto_saude.parte-0001.jsonl",
+      "description": "Locate this file in all 5 Git snapshot source trees and 2 preserved staging branches; preserve record and do not synthesize bytes.",
+      "kind": "MISSING_FILE",
+      "status": "PENDING_KERNEL_ADMISSION",
+      "required": true,
+      "dependencies": [
+        "TASK-CE04-006"
+      ],
+      "acceptance_criteria": [
+        "record exact Git path and Git blob if present",
+        "otherwise report absent unverified",
+        "no destructive remediation"
+      ],
+      "evidence_required": [
+        "Git trees",
+        "original manifest SHA256",
+        "independent binary readback"
+      ],
+      "completion_evidence": [],
+      "closed_at": null,
+      "closed_by": null,
+      "authority": "Kernel after independent tests/audit",
+      "no_implicit_completion": true
+    },
+    {
+      "id": "TASK-CE04-008",
+      "wo_id": "WO-CE04-RECON-20261017",
+      "title": "Investigação de arquivo ausente: medicamentos/apresentacao_cmed.jsonl",
+      "description": "Locate this file in all 5 Git snapshot source trees and 2 preserved staging branches; preserve record and do not synthesize bytes.",
+      "kind": "MISSING_FILE",
+      "status": "PENDING_KERNEL_ADMISSION",
+      "required": true,
+      "dependencies": [
+        "TASK-CE04-006"
+      ],
+      "acceptance_criteria": [
+        "record exact Git path and Git blob if present",
+        "otherwise report absent unverified",
+        "no destructive remediation"
+      ],
+      "evidence_required": [
+        "Git trees",
+        "original manifest SHA256",
+        "independent binary readback"
+      ],
+      "completion_evidence": [],
+      "closed_at": null,
+      "closed_by": null,
+      "authority": "Kernel after independent tests/audit",
+      "no_implicit_completion": true
+    },
+    {
+      "id": "TASK-CE04-009",
+      "wo_id": "WO-CE04-RECON-20261017",
+      "title": "Investigação de arquivo ausente: medicamentos/produto_fda_ndc.parte-0001.jsonl",
+      "description": "Locate this file in all 5 Git snapshot source trees and 2 preserved staging branches; preserve record and do not synthesize bytes.",
+      "kind": "MISSING_FILE",
+      "status": "PENDING_KERNEL_ADMISSION",
+      "required": true,
+      "dependencies": [
+        "TASK-CE04-006"
+      ],
+      "acceptance_criteria": [
+        "record exact Git path and Git blob if present",
+        "otherwise report absent unverified",
+        "no destructive remediation"
+      ],
+      "evidence_required": [
+        "Git trees",
+        "original manifest SHA256",
+        "independent binary readback"
+      ],
+      "completion_evidence": [],
+      "closed_at": null,
+      "closed_by": null,
+      "authority": "Kernel after independent tests/audit",
+      "no_implicit_completion": true
+    },
+    {
+      "id": "TASK-CE04-010",
+      "wo_id": "WO-CE04-RECON-20261017",
+      "title": "Investigação de arquivo ausente: medicamentos/produto_fda_ndc.parte-0002.jsonl",
+      "description": "Locate this file in all 5 Git snapshot source trees and 2 preserved staging branches; preserve record and do not synthesize bytes.",
+      "kind": "MISSING_FILE",
+      "status": "PENDING_KERNEL_ADMISSION",
+      "required": true,
+      "dependencies": [
+        "TASK-CE04-006"
+      ],
+      "acceptance_criteria": [
+        "record exact Git path and Git blob if present",
+        "otherwise report absent unverified",
+        "no destructive remediation"
+      ],
+      "evidence_required": [
+        "Git trees",
+        "original manifest SHA256",
+        "independent binary readback"
+      ],
+      "completion_evidence": [],
+      "closed_at": null,
+      "closed_by": null,
+      "authority": "Kernel after independent tests/audit",
+      "no_implicit_completion": true
+    },
+    {
+      "id": "TASK-CE04-011",
+      "wo_id": "WO-CE04-RECON-20261017",
+      "title": "Investigação de arquivo ausente: nutricao/alimento_usda_sr_legacy.jsonl",
+      "description": "Locate this file in all 5 Git snapshot source trees and 2 preserved staging branches; preserve record and do not synthesize bytes.",
+      "kind": "MISSING_FILE",
+      "status": "PENDING_KERNEL_ADMISSION",
+      "required": true,
+      "dependencies": [
+        "TASK-CE04-006"
+      ],
+      "acceptance_criteria": [
+        "record exact Git path and Git blob if present",
+        "otherwise report absent unverified",
+        "no destructive remediation"
+      ],
+      "evidence_required": [
+        "Git trees",
+        "original manifest SHA256",
+        "independent binary readback"
+      ],
+      "completion_evidence": [],
+      "closed_at": null,
+      "closed_by": null,
+      "authority": "Kernel after independent tests/audit",
+      "no_implicit_completion": true
+    },
+    {
+      "id": "TASK-CE04-012",
+      "wo_id": "WO-CE04-RECON-20261017",
+      "title": "Investigação de arquivo ausente: suprimentos/item_catmat.jsonl",
+      "description": "Locate this file in all 5 Git snapshot source trees and 2 preserved staging branches; preserve record and do not synthesize bytes.",
+      "kind": "MISSING_FILE",
+      "status": "PENDING_KERNEL_ADMISSION",
+      "required": true,
+      "dependencies": [
+        "TASK-CE04-006"
+      ],
+      "acceptance_criteria": [
+        "record exact Git path and Git blob if present",
+        "otherwise report absent unverified",
+        "no destructive remediation"
+      ],
+      "evidence_required": [
+        "Git trees",
+        "original manifest SHA256",
+        "independent binary readback"
+      ],
+      "completion_evidence": [],
+      "closed_at": null,
+      "closed_by": null,
+      "authority": "Kernel after independent tests/audit",
+      "no_implicit_completion": true
+    },
+    {
+      "id": "TASK-CE04-013",
+      "wo_id": "WO-CE04-RECON-20261017",
+      "title": "Reconciliação domínio cid10 (6 arquivos)",
+      "description": "Reconcile every item in this domain across Git tree, versioned manifest, Supabase file_integrity, rights and provenance gates.",
+      "kind": "DOMAIN_RECONCILIATION",
+      "status": "PENDING_KERNEL_ADMISSION",
+      "required": true,
+      "dependencies": [
+        "TASK-CE04-004",
+        "TASK-CE04-005"
+      ],
+      "acceptance_criteria": [
+        "6 item(ns) accounted for",
+        "raw byte hashes verified or held",
+        "domain policy+clinical/rights gates documented"
+      ],
+      "evidence_required": [
+        "item-level reconciliation rows",
+        "source manifest",
+        "technical/clinical/rights review"
+      ],
+      "completion_evidence": [],
+      "closed_at": null,
+      "closed_by": null,
+      "authority": "Kernel after independent tests/audit",
+      "no_implicit_completion": true
+    },
+    {
+      "id": "TASK-CE04-014",
+      "wo_id": "WO-CE04-RECON-20261017",
+      "title": "Reconciliação domínio dispositivos (3 arquivos)",
+      "description": "Reconcile every item in this domain across Git tree, versioned manifest, Supabase file_integrity, rights and provenance gates.",
+      "kind": "DOMAIN_RECONCILIATION",
+      "status": "PENDING_KERNEL_ADMISSION",
+      "required": true,
+      "dependencies": [
+        "TASK-CE04-004",
+        "TASK-CE04-005"
+      ],
+      "acceptance_criteria": [
+        "3 item(ns) accounted for",
+        "raw byte hashes verified or held",
+        "domain policy+clinical/rights gates documented"
+      ],
+      "evidence_required": [
+        "item-level reconciliation rows",
+        "source manifest",
+        "technical/clinical/rights review"
+      ],
+      "completion_evidence": [],
+      "closed_at": null,
+      "closed_by": null,
+      "authority": "Kernel after independent tests/audit",
+      "no_implicit_completion": true
+    },
+    {
+      "id": "TASK-CE04-015",
+      "wo_id": "WO-CE04-RECON-20261017",
+      "title": "Reconciliação domínio epidemiologico (9 arquivos)",
+      "description": "Reconcile every item in this domain across Git tree, versioned manifest, Supabase file_integrity, rights and provenance gates.",
+      "kind": "DOMAIN_RECONCILIATION",
+      "status": "PENDING_KERNEL_ADMISSION",
+      "required": true,
+      "dependencies": [
+        "TASK-CE04-004",
+        "TASK-CE04-005"
+      ],
+      "acceptance_criteria": [
+        "9 item(ns) accounted for",
+        "raw byte hashes verified or held",
+        "domain policy+clinical/rights gates documented"
+      ],
+      "evidence_required": [
+        "item-level reconciliation rows",
+        "source manifest",
+        "technical/clinical/rights review"
+      ],
+      "completion_evidence": [],
+      "closed_at": null,
+      "closed_by": null,
+      "authority": "Kernel after independent tests/audit",
+      "no_implicit_completion": true
+    },
+    {
+      "id": "TASK-CE04-016",
+      "wo_id": "WO-CE04-RECON-20261017",
+      "title": "Reconciliação domínio ferimentos (5 arquivos)",
+      "description": "Reconcile every item in this domain across Git tree, versioned manifest, Supabase file_integrity, rights and provenance gates.",
+      "kind": "DOMAIN_RECONCILIATION",
+      "status": "PENDING_KERNEL_ADMISSION",
+      "required": true,
+      "dependencies": [
+        "TASK-CE04-004",
+        "TASK-CE04-005"
+      ],
+      "acceptance_criteria": [
+        "5 item(ns) accounted for",
+        "raw byte hashes verified or held",
+        "domain policy+clinical/rights gates documented"
+      ],
+      "evidence_required": [
+        "item-level reconciliation rows",
+        "source manifest",
+        "technical/clinical/rights review"
+      ],
+      "completion_evidence": [],
+      "closed_at": null,
+      "closed_by": null,
+      "authority": "Kernel after independent tests/audit",
+      "no_implicit_completion": true
+    },
+    {
+      "id": "TASK-CE04-017",
+      "wo_id": "WO-CE04-RECON-20261017",
+      "title": "Reconciliação domínio icd11 (3 arquivos)",
+      "description": "Reconcile every item in this domain across Git tree, versioned manifest, Supabase file_integrity, rights and provenance gates.",
+      "kind": "DOMAIN_RECONCILIATION",
+      "status": "PENDING_KERNEL_ADMISSION",
+      "required": true,
+      "dependencies": [
+        "TASK-CE04-004",
+        "TASK-CE04-005"
+      ],
+      "acceptance_criteria": [
+        "3 item(ns) accounted for",
+        "raw byte hashes verified or held",
+        "domain policy+clinical/rights gates documented"
+      ],
+      "evidence_required": [
+        "item-level reconciliation rows",
+        "source manifest",
+        "technical/clinical/rights review"
+      ],
+      "completion_evidence": [],
+      "closed_at": null,
+      "closed_by": null,
+      "authority": "Kernel after independent tests/audit",
+      "no_implicit_completion": true
+    },
+    {
+      "id": "TASK-CE04-018",
+      "wo_id": "WO-CE04-RECON-20261017",
+      "title": "Reconciliação domínio medicamentos (6 arquivos)",
+      "description": "Reconcile every item in this domain across Git tree, versioned manifest, Supabase file_integrity, rights and provenance gates.",
+      "kind": "DOMAIN_RECONCILIATION",
+      "status": "PENDING_KERNEL_ADMISSION",
+      "required": true,
+      "dependencies": [
+        "TASK-CE04-004",
+        "TASK-CE04-005"
+      ],
+      "acceptance_criteria": [
+        "6 item(ns) accounted for",
+        "raw byte hashes verified or held",
+        "domain policy+clinical/rights gates documented"
+      ],
+      "evidence_required": [
+        "item-level reconciliation rows",
+        "source manifest",
+        "technical/clinical/rights review"
+      ],
+      "completion_evidence": [],
+      "closed_at": null,
+      "closed_by": null,
+      "authority": "Kernel after independent tests/audit",
+      "no_implicit_completion": true
+    },
+    {
+      "id": "TASK-CE04-019",
+      "wo_id": "WO-CE04-RECON-20261017",
+      "title": "Reconciliação domínio medlineplus (2 arquivos)",
+      "description": "Reconcile every item in this domain across Git tree, versioned manifest, Supabase file_integrity, rights and provenance gates.",
+      "kind": "DOMAIN_RECONCILIATION",
+      "status": "PENDING_KERNEL_ADMISSION",
+      "required": true,
+      "dependencies": [
+        "TASK-CE04-004",
+        "TASK-CE04-005"
+      ],
+      "acceptance_criteria": [
+        "2 item(ns) accounted for",
+        "raw byte hashes verified or held",
+        "domain policy+clinical/rights gates documented"
+      ],
+      "evidence_required": [
+        "item-level reconciliation rows",
+        "source manifest",
+        "technical/clinical/rights review"
+      ],
+      "completion_evidence": [],
+      "closed_at": null,
+      "closed_by": null,
+      "authority": "Kernel after independent tests/audit",
+      "no_implicit_completion": true
+    },
+    {
+      "id": "TASK-CE04-020",
+      "wo_id": "WO-CE04-RECON-20261017",
+      "title": "Reconciliação domínio mesh (1 arquivos)",
+      "description": "Reconcile every item in this domain across Git tree, versioned manifest, Supabase file_integrity, rights and provenance gates.",
+      "kind": "DOMAIN_RECONCILIATION",
+      "status": "PENDING_KERNEL_ADMISSION",
+      "required": true,
+      "dependencies": [
+        "TASK-CE04-004",
+        "TASK-CE04-005"
+      ],
+      "acceptance_criteria": [
+        "1 item(ns) accounted for",
+        "raw byte hashes verified or held",
+        "domain policy+clinical/rights gates documented"
+      ],
+      "evidence_required": [
+        "item-level reconciliation rows",
+        "source manifest",
+        "technical/clinical/rights review"
+      ],
+      "completion_evidence": [],
+      "closed_at": null,
+      "closed_by": null,
+      "authority": "Kernel after independent tests/audit",
+      "no_implicit_completion": true
+    },
+    {
+      "id": "TASK-CE04-021",
+      "wo_id": "WO-CE04-RECON-20261017",
+      "title": "Reconciliação domínio nutricao (4 arquivos)",
+      "description": "Reconcile every item in this domain across Git tree, versioned manifest, Supabase file_integrity, rights and provenance gates.",
+      "kind": "DOMAIN_RECONCILIATION",
+      "status": "PENDING_KERNEL_ADMISSION",
+      "required": true,
+      "dependencies": [
+        "TASK-CE04-004",
+        "TASK-CE04-005"
+      ],
+      "acceptance_criteria": [
+        "4 item(ns) accounted for",
+        "raw byte hashes verified or held",
+        "domain policy+clinical/rights gates documented"
+      ],
+      "evidence_required": [
+        "item-level reconciliation rows",
+        "source manifest",
+        "technical/clinical/rights review"
+      ],
+      "completion_evidence": [],
+      "closed_at": null,
+      "closed_by": null,
+      "authority": "Kernel after independent tests/audit",
+      "no_implicit_completion": true
+    },
+    {
+      "id": "TASK-CE04-022",
+      "wo_id": "WO-CE04-RECON-20261017",
+      "title": "Reconciliação domínio protocolos_enfermagem (3 arquivos)",
+      "description": "Reconcile every item in this domain across Git tree, versioned manifest, Supabase file_integrity, rights and provenance gates.",
+      "kind": "DOMAIN_RECONCILIATION",
+      "status": "PENDING_KERNEL_ADMISSION",
+      "required": true,
+      "dependencies": [
+        "TASK-CE04-004",
+        "TASK-CE04-005"
+      ],
+      "acceptance_criteria": [
+        "3 item(ns) accounted for",
+        "raw byte hashes verified or held",
+        "domain policy+clinical/rights gates documented"
+      ],
+      "evidence_required": [
+        "item-level reconciliation rows",
+        "source manifest",
+        "technical/clinical/rights review"
+      ],
+      "completion_evidence": [],
+      "closed_at": null,
+      "closed_by": null,
+      "authority": "Kernel after independent tests/audit",
+      "no_implicit_completion": true
+    },
+    {
+      "id": "TASK-CE04-023",
+      "wo_id": "WO-CE04-RECON-20261017",
+      "title": "Reconciliação domínio sepse (7 arquivos)",
+      "description": "Reconcile every item in this domain across Git tree, versioned manifest, Supabase file_integrity, rights and provenance gates.",
+      "kind": "DOMAIN_RECONCILIATION",
+      "status": "PENDING_KERNEL_ADMISSION",
+      "required": true,
+      "dependencies": [
+        "TASK-CE04-004",
+        "TASK-CE04-005"
+      ],
+      "acceptance_criteria": [
+        "7 item(ns) accounted for",
+        "raw byte hashes verified or held",
+        "domain policy+clinical/rights gates documented"
+      ],
+      "evidence_required": [
+        "item-level reconciliation rows",
+        "source manifest",
+        "technical/clinical/rights review"
+      ],
+      "completion_evidence": [],
+      "closed_at": null,
+      "closed_by": null,
+      "authority": "Kernel after independent tests/audit",
+      "no_implicit_completion": true
+    },
+    {
+      "id": "TASK-CE04-024",
+      "wo_id": "WO-CE04-RECON-20261017",
+      "title": "Reconciliação domínio sinais_vitais (4 arquivos)",
+      "description": "Reconcile every item in this domain across Git tree, versioned manifest, Supabase file_integrity, rights and provenance gates.",
+      "kind": "DOMAIN_RECONCILIATION",
+      "status": "PENDING_KERNEL_ADMISSION",
+      "required": true,
+      "dependencies": [
+        "TASK-CE04-004",
+        "TASK-CE04-005"
+      ],
+      "acceptance_criteria": [
+        "4 item(ns) accounted for",
+        "raw byte hashes verified or held",
+        "domain policy+clinical/rights gates documented"
+      ],
+      "evidence_required": [
+        "item-level reconciliation rows",
+        "source manifest",
+        "technical/clinical/rights review"
+      ],
+      "completion_evidence": [],
+      "closed_at": null,
+      "closed_by": null,
+      "authority": "Kernel after independent tests/audit",
+      "no_implicit_completion": true
+    },
+    {
+      "id": "TASK-CE04-025",
+      "wo_id": "WO-CE04-RECON-20261017",
+      "title": "Reconciliação domínio suprimentos (4 arquivos)",
+      "description": "Reconcile every item in this domain across Git tree, versioned manifest, Supabase file_integrity, rights and provenance gates.",
+      "kind": "DOMAIN_RECONCILIATION",
+      "status": "PENDING_KERNEL_ADMISSION",
+      "required": true,
+      "dependencies": [
+        "TASK-CE04-004",
+        "TASK-CE04-005"
+      ],
+      "acceptance_criteria": [
+        "4 item(ns) accounted for",
+        "raw byte hashes verified or held",
+        "domain policy+clinical/rights gates documented"
+      ],
+      "evidence_required": [
+        "item-level reconciliation rows",
+        "source manifest",
+        "technical/clinical/rights review"
+      ],
+      "completion_evidence": [],
+      "closed_at": null,
+      "closed_by": null,
+      "authority": "Kernel after independent tests/audit",
+      "no_implicit_completion": true
+    },
+    {
+      "id": "TASK-CE04-026",
+      "wo_id": "WO-CE04-RECON-20261017",
+      "title": "Reconciliação domínio vacinal_brasil (4 arquivos)",
+      "description": "Reconcile every item in this domain across Git tree, versioned manifest, Supabase file_integrity, rights and provenance gates.",
+      "kind": "DOMAIN_RECONCILIATION",
+      "status": "PENDING_KERNEL_ADMISSION",
+      "required": true,
+      "dependencies": [
+        "TASK-CE04-004",
+        "TASK-CE04-005"
+      ],
+      "acceptance_criteria": [
+        "4 item(ns) accounted for",
+        "raw byte hashes verified or held",
+        "domain policy+clinical/rights gates documented"
+      ],
+      "evidence_required": [
+        "item-level reconciliation rows",
+        "source manifest",
+        "technical/clinical/rights review"
+      ],
+      "completion_evidence": [],
+      "closed_at": null,
+      "closed_by": null,
+      "authority": "Kernel after independent tests/audit",
+      "no_implicit_completion": true
+    },
+    {
+      "id": "TASK-CE04-027",
+      "wo_id": "WO-CE04-RECON-20261017",
+      "title": "Reconciliação domínio vacinas (4 arquivos)",
+      "description": "Reconcile every item in this domain across Git tree, versioned manifest, Supabase file_integrity, rights and provenance gates.",
+      "kind": "DOMAIN_RECONCILIATION",
+      "status": "PENDING_KERNEL_ADMISSION",
+      "required": true,
+      "dependencies": [
+        "TASK-CE04-004",
+        "TASK-CE04-005"
+      ],
+      "acceptance_criteria": [
+        "4 item(ns) accounted for",
+        "raw byte hashes verified or held",
+        "domain policy+clinical/rights gates documented"
+      ],
+      "evidence_required": [
+        "item-level reconciliation rows",
+        "source manifest",
+        "technical/clinical/rights review"
+      ],
+      "completion_evidence": [],
+      "closed_at": null,
+      "closed_by": null,
+      "authority": "Kernel after independent tests/audit",
+      "no_implicit_completion": true
+    },
+    {
+      "id": "TASK-CE04-028",
+      "wo_id": "WO-CE04-RECON-20261017",
+      "title": "Validar os 61 vínculos de proveniência",
+      "description": "Reconcile source_lineage and source/claim authority with Git manifests and external originals; never assert verification from database alone.",
+      "kind": "PROVENANCE",
+      "status": "PENDING_KERNEL_ADMISSION",
+      "required": true,
+      "dependencies": [
+        "TASK-CE04-005"
+      ],
+      "acceptance_criteria": [
+        "61/61 relations independently verified or explicitly held",
+        "source link and version retained"
+      ],
+      "evidence_required": [
+        "original citations/files",
+        "source IDs",
+        "independent verifier report"
+      ],
+      "completion_evidence": [],
+      "closed_at": null,
+      "closed_by": null,
+      "authority": "Kernel after independent tests/audit",
+      "no_implicit_completion": true
+    },
+    {
+      "id": "TASK-CE04-029",
+      "wo_id": "WO-CE04-RECON-20261017",
+      "title": "Tratar nove HOLD_HUMAN existentes",
+      "description": "Review domain restrictions privacy/clinical/rights/normative; no auto-release, no overwrite.",
+      "kind": "GOVERNANCE",
+      "status": "PENDING_KERNEL_ADMISSION",
+      "required": true,
+      "dependencies": [
+        "TASK-CE04-005"
+      ],
+      "acceptance_criteria": [
+        "9 holds identified by ID",
+        "only human authorized resolution",
+        "each decision evidenced"
+      ],
+      "evidence_required": [
+        "Supabase reconciliation_holds readback",
+        "reviewer authorization"
+      ],
+      "completion_evidence": [],
+      "closed_at": null,
+      "closed_by": null,
+      "authority": "Kernel after independent tests/audit",
+      "no_implicit_completion": true
+    },
+    {
+      "id": "TASK-CE04-030",
+      "wo_id": "WO-CE04-RECON-20261017",
+      "title": "Auditar 303 eventos outbox pendentes",
+      "description": "Classify events by aggregate and failure cause without replay or mutation.",
+      "kind": "READ_ONLY",
+      "status": "PENDING_KERNEL_ADMISSION",
+      "required": true,
+      "dependencies": [
+        "TASK-CE04-001"
+      ],
+      "acceptance_criteria": [
+        "303 events accounted for",
+        "no automatic reprocessing",
+        "recovery plan with controls"
+      ],
+      "evidence_required": [
+        "outbox read-only query",
+        "event IDs and hashes",
+        "risk matrix"
+      ],
+      "completion_evidence": [],
+      "closed_at": null,
+      "closed_by": null,
+      "authority": "Kernel after independent tests/audit",
+      "no_implicit_completion": true
+    },
+    {
+      "id": "TASK-CE04-031",
+      "wo_id": "WO-CE04-RECON-20261017",
+      "title": "Confrontar duas raízes originais do Drive",
+      "description": "Only after connection permits, inventory all accessible originals including ZIP members, IDs, sizes, SHA256, cutoff and provenance.",
+      "kind": "EXTERNAL_ACCESS_REQUIRED",
+      "status": "HOLD_EXTERNAL_ACCESS",
+      "required": true,
+      "dependencies": [
+        "TASK-CE04-001"
+      ],
+      "acceptance_criteria": [
+        "both registered roots fully listed or hold by object",
+        "member-by-member verification",
+        "no deletes"
+      ],
+      "evidence_required": [
+        "Drive provider metadata and raw bytes",
+        "Git matching hashes"
+      ],
+      "completion_evidence": [],
+      "closed_at": null,
+      "closed_by": null,
+      "authority": "Kernel after independent tests/audit",
+      "no_implicit_completion": true
+    },
+    {
+      "id": "TASK-CE04-032",
+      "wo_id": "WO-CE04-RECON-20261017",
+      "title": "Reconciliar 102 WOs históricas e seus estados",
+      "description": "Compare historical WO files and prior state claims with real Git version and Kernel admissions; never trust PASS label alone.",
+      "kind": "GOVERNANCE",
+      "status": "PENDING_KERNEL_ADMISSION",
+      "required": true,
+      "dependencies": [
+        "TASK-CE04-002"
+      ],
+      "acceptance_criteria": [
+        "WOs reconciled one-by-one",
+        "Kernel admission and closure evidence not inferred"
+      ],
+      "evidence_required": [
+        "historical contracts/work_orders",
+        "Kernel admission records",
+        "CI logs"
+      ],
+      "completion_evidence": [],
+      "closed_at": null,
+      "closed_by": null,
+      "authority": "Kernel after independent tests/audit",
+      "no_implicit_completion": true
+    },
+    {
+      "id": "TASK-CE04-033",
+      "wo_id": "WO-CE04-RECON-20261017",
+      "title": "Revisar segurança, segredos, licenças e dados pessoais",
+      "description": "Classify staged code/data for secrets, protected content, PHI, permissions, large ZIP/long-path cases before import.",
+      "kind": "SECURITY",
+      "status": "PENDING_KERNEL_ADMISSION",
+      "required": true,
+      "dependencies": [
+        "TASK-CE04-002"
+      ],
+      "acceptance_criteria": [
+        "no secrets or restricted content promoted",
+        "rights matrix complete or held"
+      ],
+      "evidence_required": [
+        "independent scans",
+        "rights approvals",
+        "privacy review"
+      ],
+      "completion_evidence": [],
+      "closed_at": null,
+      "closed_by": null,
+      "authority": "Kernel after independent tests/audit",
+      "no_implicit_completion": true
+    },
+    {
+      "id": "TASK-CE04-034",
+      "wo_id": "WO-CE04-RECON-20261017",
+      "title": "Submeter WO ao Kernel e obter admissão verificável",
+      "description": "Verify versioned WO blob SHA, current policy/validator, task homologation and transactional admission via real Kernel; no fake admission.",
+      "kind": "KERNEL_GATE",
+      "status": "PENDING_KERNEL_ADMISSION",
+      "required": true,
+      "dependencies": [
+        "TASK-CE04-001"
+      ],
+      "acceptance_criteria": [
+        "admission tied to GitHub WO blob SHA",
+        "pre-approved or admitted scope explicit",
+        "real authoritative readback"
+      ],
+      "evidence_required": [
+        "Kernel decision log",
+        "GitHub WO blob SHA",
+        "policy/validator hashes"
+      ],
+      "completion_evidence": [],
+      "closed_at": null,
+      "closed_by": null,
+      "authority": "Kernel after independent tests/audit",
+      "no_implicit_completion": true
+    },
+    {
+      "id": "TASK-CE04-035",
+      "wo_id": "WO-CE04-RECON-20261017",
+      "title": "Executar testes positivos, negativos e integração",
+      "description": "Test CLI/Kernel, manifests, SHA checks, ZIP member verification, idempotence, duplicate/conflict preservation, and failure injection.",
+      "kind": "CONTROLLED_TEST",
+      "status": "PENDING_KERNEL_ADMISSION",
+      "required": true,
+      "dependencies": [
+        "TASK-CE04-032"
+      ],
+      "acceptance_criteria": [
+        "all mandatory tests PASS with external logs",
+        "no invalid shortcut silently passes"
+      ],
+      "evidence_required": [
+        "test inputs",
+        "expected/observed outcomes",
+        "exit codes",
+        "logs and CI run IDs"
+      ],
+      "completion_evidence": [],
+      "closed_at": null,
+      "closed_by": null,
+      "authority": "Kernel after independent tests/audit",
+      "no_implicit_completion": true
+    },
+    {
+      "id": "TASK-CE04-036",
+      "wo_id": "WO-CE04-RECON-20261017",
+      "title": "Auditoria independente e validação de FINDs",
+      "description": "Generate reconciliation opinion with REQUIRED×PRESENT×VALIDATED×PASS, unresolved FINDs and authorized decisions.",
+      "kind": "INDEPENDENT_AUDIT",
+      "status": "PENDING_KERNEL_ADMISSION",
+      "required": true,
+      "dependencies": [
+        "TASK-CE04-033"
+      ],
+      "acceptance_criteria": [
+        "all blocking FINDs validated/closed by Kernel or HOLD",
+        "independent audit PASS",
+        "original evidence retained"
+      ],
+      "evidence_required": [
+        "auditor report",
+        "Kernel FIND transitions",
+        "full matrix"
+      ],
+      "completion_evidence": [],
+      "closed_at": null,
+      "closed_by": null,
+      "authority": "Kernel after independent tests/audit",
+      "no_implicit_completion": true
+    },
+    {
+      "id": "TASK-CE04-037",
+      "wo_id": "WO-CE04-RECON-20261017",
+      "title": "PR DRAFT de promoção controlada",
+      "description": "Only after Kernel admission and independent evidence, stage PR draft for authorized review; do not merge.",
+      "kind": "CONTROLLED_PR",
+      "status": "PENDING_KERNEL_ADMISSION",
+      "required": true,
+      "dependencies": [
+        "TASK-CE04-034"
+      ],
+      "acceptance_criteria": [
+        "PR draft links WO SHA, tests, audit and FIND closure",
+        "no main mutation"
+      ],
+      "evidence_required": [
+        "GitHub PR URL",
+        "review gates",
+        "CI status"
+      ],
+      "completion_evidence": [],
+      "closed_at": null,
+      "closed_by": null,
+      "authority": "Kernel after independent tests/audit",
+      "no_implicit_completion": true
+    },
+    {
+      "id": "TASK-CE04-038",
+      "wo_id": "WO-CE04-RECON-20261017",
+      "title": "Promoção autorizada após reconciliação",
+      "description": "Only permitted after all gates PASS and explicit authorized reviewer; never auto-merge.",
+      "kind": "PROMOTION",
+      "status": "PENDING_KERNEL_ADMISSION",
+      "required": true,
+      "dependencies": [
+        "TASK-CE04-035"
+      ],
+      "acceptance_criteria": [
+        "REQUIRED/PRESENT/VALIDATED/PASS complete",
+        "zero unresolved blocking FIND",
+        "human approval and Kernel gate evidence"
+      ],
+      "evidence_required": [
+        "approved PR",
+        "Kernel release decision",
+        "GitHub commit SHA"
+      ],
+      "completion_evidence": [],
+      "closed_at": null,
+      "closed_by": null,
+      "authority": "Kernel after independent tests/audit",
+      "no_implicit_completion": true
+    }
+  ]
+}
