@@ -124,3 +124,19 @@ def test_shared_nonroot_folder_is_not_mistaken_for_cycle():
     paths = {x["path"] for x in result["items"] if x["id"] == "doc"}
     assert paths == {"A/Shared/data.txt", "B/Shared/data.txt"}
     assert result["folders_traversed"] == 4
+
+
+def test_duplicate_paginated_id_fails_closed():
+    def fetch(folder, token, page_token=None):
+        record = {"id": "same", "name": "same.txt", "mimeType": "text/plain"}
+        return {"files": [record], "nextPageToken": "p2"} if page_token is None else {"files": [record]}
+    with pytest.raises(ValueError, match="duplicate folder entry"):
+        crawl([{"id": "root"}], "dummy", fetch=fetch)
+
+
+def test_same_name_different_ids_fails_closed():
+    def fetch(folder, token, page_token=None):
+        return {"files": [{"id": "a", "name": "x.txt", "mimeType": "text/plain"},
+                          {"id": "b", "name": "x.txt", "mimeType": "text/plain"}]}
+    with pytest.raises(ValueError, match="duplicate folder entry"):
+        crawl([{"id": "root"}], "dummy", fetch=fetch)
