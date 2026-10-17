@@ -1,0 +1,133 @@
+{
+  "schema": "CE04-GIT-TEXT-DIFF-METADATA-1.0-CANDIDATE",
+  "wo": "WO-CE04-RECON-20261017",
+  "scope": "5 conflicts, two pinned refs; read actual source text; persist counts and hashes only",
+  "main_ref": "main",
+  "historic_ref": "cursor/drive-sa-key-refactor",
+  "status": "NO_RESOLUTION_OR_HOMOLOGATION",
+  "items": [
+    {
+      "path": ".github/workflows/drive-recursive-collect.yml",
+      "main_sha": "d8f9df54364072f5962b123b2d79be46dfae244b",
+      "historical_sha": "d1e1b7474ca932ad7789e42dc6e225288fa9ffc8",
+      "source_sha_verified": true,
+      "size_main": 2192,
+      "size_historical": 2311,
+      "content_exact_equal": false,
+      "diff_approx": {
+        "old_lines": 61,
+        "new_lines": 61,
+        "removed_or_modified_lines": 3,
+        "added_or_modified_lines": 3,
+        "algorithm": "multiset line intersection, ignores ordering"
+      },
+      "sensitive_gates": [
+        "governance",
+        "security"
+      ],
+      "resolution": "KEEP_BOTH_HOLD_REVIEW",
+      "tests": [
+        "Git path SHA readback PASSED"
+      ],
+      "no_overwrite": true
+    },
+    {
+      "path": ".gitignore",
+      "main_sha": "f6cf09f6171af3519e9fb489d99e87010222d56f",
+      "historical_sha": "9c985a8eddb7e0a22fb543e5f18880435d9b6536",
+      "source_sha_verified": true,
+      "size_main": 353,
+      "size_historical": 543,
+      "content_exact_equal": false,
+      "diff_approx": {
+        "old_lines": 49,
+        "new_lines": 43,
+        "removed_or_modified_lines": 6,
+        "added_or_modified_lines": 0,
+        "algorithm": "multiset line intersection, ignores ordering"
+      },
+      "sensitive_gates": [
+        "governance",
+        "security"
+      ],
+      "resolution": "KEEP_BOTH_HOLD_REVIEW",
+      "tests": [
+        "Git path SHA readback PASSED"
+      ],
+      "no_overwrite": true
+    },
+    {
+      "path": "contracts/exemplo_atomo.json",
+      "main_sha": "3d1cc8056c640da209e0c0b74f288804abdfb178",
+      "historical_sha": "fcf5e9a8e73ab2d092954e6922e61cf76a0b5f78",
+      "source_sha_verified": true,
+      "size_main": 750,
+      "size_historical": 332,
+      "content_exact_equal": false,
+      "diff_approx": {
+        "old_lines": 11,
+        "new_lines": 17,
+        "removed_or_modified_lines": 7,
+        "added_or_modified_lines": 13,
+        "algorithm": "multiset line intersection, ignores ordering"
+      },
+      "sensitive_gates": [
+        "versioning"
+      ],
+      "resolution": "KEEP_BOTH_HOLD_REVIEW",
+      "tests": [
+        "Git path SHA readback PASSED"
+      ],
+      "no_overwrite": true
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "main_sha": "bf119e9690ccc8a1018a15deab9f4675d7e88f5a",
+      "historical_sha": "59d3cb4017a01caafdaf0253a3547f7cc19f439c",
+      "source_sha_verified": true,
+      "size_main": 1240,
+      "size_historical": 1466,
+      "content_exact_equal": false,
+      "diff_approx": {
+        "old_lines": 38,
+        "new_lines": 36,
+        "removed_or_modified_lines": 3,
+        "added_or_modified_lines": 1,
+        "algorithm": "multiset line intersection, ignores ordering"
+      },
+      "sensitive_gates": [
+        "versioning"
+      ],
+      "resolution": "KEEP_BOTH_HOLD_REVIEW",
+      "tests": [
+        "Git path SHA readback PASSED"
+      ],
+      "no_overwrite": true
+    },
+    {
+      "path": "docs/FIND_TEMPLATE.md",
+      "main_sha": "9f7a007db878ed429293fcff5e3c346e6274538e",
+      "historical_sha": "9f478581e7078c0ff27dffca7a434964a43692a8",
+      "source_sha_verified": true,
+      "size_main": 570,
+      "size_historical": 709,
+      "content_exact_equal": false,
+      "diff_approx": {
+        "old_lines": 29,
+        "new_lines": 27,
+        "removed_or_modified_lines": 2,
+        "added_or_modified_lines": 0,
+        "algorithm": "multiset line intersection, ignores ordering"
+      },
+      "sensitive_gates": [
+        "governance",
+        "security"
+      ],
+      "resolution": "KEEP_BOTH_HOLD_REVIEW",
+      "tests": [
+        "Git path SHA readback PASSED"
+      ],
+      "no_overwrite": true
+    }
+  ]
+}
