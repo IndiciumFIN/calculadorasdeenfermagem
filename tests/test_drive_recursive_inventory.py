@@ -134,9 +134,18 @@ def test_duplicate_paginated_id_fails_closed():
         crawl([{"id": "root"}], "dummy", fetch=fetch)
 
 
-def test_same_name_different_ids_fails_closed():
+def test_same_name_different_ids_accepted():
+    """Same name in the same folder is valid in Google Drive — accepted by ID deduplication only."""
     def fetch(folder, token, page_token=None):
-        return {"files": [{"id": "a", "name": "x.txt", "mimeType": "text/plain"},
-                          {"id": "b", "name": "x.txt", "mimeType": "text/plain"}]}
-    with pytest.raises(ValueError, match="duplicate folder entry"):
-        crawl([{"id": "root"}], "dummy", fetch=fetch)
+        return {"files": [
+            {"id": "a", "name": "x.txt", "mimeType": "text/plain", "size": "10"},
+            {"id": "b", "name": "x.txt", "mimeType": "text/plain", "size": "20"},
+        ]}
+    result = crawl([{"id": "root"}], "dummy", fetch=fetch)
+    assert result["items_count"] == 2
+    paths = {x["path"] for x in result["items"]}
+    assert paths == {"x.txt"}  # both in same root, same relative path
+    ids = {x["id"] for x in result["items"]}
+    assert ids == {"a", "b"}
+    sizes = {x["size_bytes"] for x in result["items"]}
+    assert sizes == {10, 20}
