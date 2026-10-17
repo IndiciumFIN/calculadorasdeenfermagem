@@ -1,0 +1,116 @@
+{
+  "schema": "CE04-CONFLICT-LINE-COMPARISON-CANDIDATE-1.0",
+  "task": "TASK-CE04-003",
+  "wo": "WO-CE04-RECON-20261017",
+  "status": "DIFF_METADATA_CAPTURED_NOT_RESOLVED",
+  "items": [
+    {
+      "path": "docs/TASKS.md",
+      "main_blob": "8a56597e09704981ed347219236307f6f494c147",
+      "historical_blob": "e26a4b05d4851e369f274ea0e709a599d2dbafde",
+      "sha_verified": true,
+      "diff": {
+        "old_lines": 29,
+        "new_lines": 29,
+        "only_old": 2,
+        "only_new": 2,
+        "method": "line-multiset (not a semantic diff)"
+      },
+      "size_main": 1866,
+      "size_historical": 1942,
+      "review_status": "KEEP_BOTH_NOT_DECIDED",
+      "kernel_admission": "NOT_VERIFIED",
+      "auditor_review": "PENDING"
+    },
+    {
+      "path": "package.json",
+      "main_blob": "c34dea63000f29524e0e77d1b1f4c428236808e8",
+      "historical_blob": "3cd718c127821b043d4df7a6cfc45fcbae28f321",
+      "sha_verified": true,
+      "diff": {
+        "old_lines": 33,
+        "new_lines": 29,
+        "only_old": 4,
+        "only_new": 0,
+        "method": "line-multiset (not a semantic diff)"
+      },
+      "size_main": 647,
+      "size_historical": 718,
+      "review_status": "KEEP_BOTH_NOT_DECIDED",
+      "kernel_admission": "NOT_VERIFIED",
+      "auditor_review": "PENDING"
+    },
+    {
+      "path": "packages/cli/adapters/dou.py",
+      "main_blob": "c0cde62ae2e32d244c2257dd942f014b41e50cea",
+      "historical_blob": "4991ec37bd915c21b5394d86f8962bff004f5f61",
+      "sha_verified": true,
+      "diff": {
+        "old_lines": 38,
+        "new_lines": 29,
+        "only_old": 15,
+        "only_new": 6,
+        "method": "line-multiset (not a semantic diff)"
+      },
+      "size_main": 1078,
+      "size_historical": 1429,
+      "review_status": "KEEP_BOTH_NOT_DECIDED",
+      "kernel_admission": "NOT_VERIFIED",
+      "auditor_review": "PENDING"
+    },
+    {
+      "path": "packages/cli/adapters/secundaria.py",
+      "main_blob": "11638dbf2ff13a8a5ea1d0d6a74db31960021ab7",
+      "historical_blob": "966ed3987a85b71a0ceb7f74ef1624d217f2fa11",
+      "sha_verified": true,
+      "diff": {
+        "old_lines": 33,
+        "new_lines": 28,
+        "only_old": 10,
+        "only_new": 5,
+        "method": "line-multiset (not a semantic diff)"
+      },
+      "size_main": 1012,
+      "size_historical": 1215,
+      "review_status": "KEEP_BOTH_NOT_DECIDED",
+      "kernel_admission": "NOT_VERIFIED",
+      "auditor_review": "PENDING"
+    },
+    {
+      "path": "packages/cli/main.py",
+      "main_blob": "79fe358e7698c0eddf70357fac696daac0abc1e6",
+      "historical_blob": "00d1d76ddf6e9446e296a8d303764f68fcdae5cf",
+      "sha_verified": true,
+      "diff": {
+        "old_lines": 218,
+        "new_lines": 251,
+        "only_old": 134,
+        "only_new": 167,
+        "method": "line-multiset (not a semantic diff)"
+      },
+      "size_main": 9976,
+      "size_historical": 8839,
+      "review_status": "KEEP_BOTH_NOT_DECIDED",
+      "kernel_admission": "NOT_VERIFIED",
+      "auditor_review": "PENDING"
+    },
+    {
+      "path": "packages/cli/pipeline.py",
+      "main_blob": "a25b923730c7930bd3850b5e833ba1ceaa0c26a7",
+      "historical_blob": "9dd09a54e2160a9b909a556ddae8f76a228ad0e8",
+      "sha_verified": true,
+      "diff": {
+        "old_lines": 25,
+        "new_lines": 118,
+        "only_old": 8,
+        "only_new": 101,
+        "method": "line-multiset (not a semantic diff)"
+      },
+      "size_main": 4295,
+      "size_historical": 736,
+      "review_status": "KEEP_BOTH_NOT_DECIDED",
+      "kernel_admission": "NOT_VERIFIED",
+      "auditor_review": "PENDING"
+    }
+  ]
+}
