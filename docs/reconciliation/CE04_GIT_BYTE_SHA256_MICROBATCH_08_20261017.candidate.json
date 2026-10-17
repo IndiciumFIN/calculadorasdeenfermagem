@@ -1,0 +1,57 @@
+{
+  "schema": "CE04-GIT-BLOB-SHA256-CANDIDATE-1.0",
+  "wo": "WO-CE04-RECON-20261017",
+  "wo_status": "DRAFT_NOT_ADMITTED",
+  "task": "TASK-CE04-004",
+  "hash_tests": {
+    "abc": "PASS",
+    "one_million_a": "PASS"
+  },
+  "result": "RAW_BYTE_SHA256_MATCH_ONLY_NO_RELEASE",
+  "records": [
+    {
+      "name": "nutricao/alimento_usda_foundation.jsonl",
+      "source_blob_sha1": "9ce0873a2206212a67d92012edff758e46c33d91",
+      "bytes_computed": 2122484,
+      "bytes_expected": 2122484,
+      "sha256_computed": "30eb47897cbd66750507f69505e383b22d67c70248b9b3ac7bbffa282003cb44",
+      "sha256_expected": "30eb47897cbd66750507f69505e383b22d67c70248b9b3ac7bbffa282003cb44",
+      "bytes_pass": true,
+      "sha256_pass": true,
+      "method": "GitHub fetch_blob by pinned tree SHA; UTF8 SHA256"
+    },
+    {
+      "name": "epidemiologico/epizootia_febre_amarela.jsonl",
+      "source_blob_sha1": "359a46872ab395ce59b5eb5dad3b195b1aa6f757",
+      "bytes_computed": 2392120,
+      "bytes_expected": 2392120,
+      "sha256_computed": "c44216eda28eaac391fb25a8842f672ba3bc0c8bd7db1d7446f6b6093290b9e4",
+      "sha256_expected": "c44216eda28eaac391fb25a8842f672ba3bc0c8bd7db1d7446f6b6093290b9e4",
+      "bytes_pass": true,
+      "sha256_pass": true,
+      "method": "GitHub fetch_blob by pinned tree SHA; UTF8 SHA256"
+    },
+    {
+      "name": "epidemiologico/caso_febre_amarela_humano_primata.jsonl",
+      "source_blob_sha1": "9568b9a27c43fa2b616fb1908005f45bb4d62a5c",
+      "bytes_computed": 2963984,
+      "bytes_expected": 2963984,
+      "sha256_computed": "a164f2a87444b1fdc093ce758dd30a6c6944e041b96e8b605a8db5674f5eb4c5",
+      "sha256_expected": "a164f2a87444b1fdc093ce758dd30a6c6944e041b96e8b605a8db5674f5eb4c5",
+      "bytes_pass": true,
+      "sha256_pass": true,
+      "method": "GitHub fetch_blob by pinned tree SHA; UTF8 SHA256"
+    },
+    {
+      "name": "epidemiologico/notificacao_sinan_zika.jsonl",
+      "source_blob_sha1": "d9d933a8982ea6005b00dd32848da523577b4c38",
+      "bytes_computed": 3981858,
+      "bytes_expected": 3981858,
+      "sha256_computed": "3ad6f61cb22bcf4d8997d7af6c26d4c3c72285f02a337f0f1894fb1ce2705c17",
+      "sha256_expected": "3ad6f61cb22bcf4d8997d7af6c26d4c3c72285f02a337f0f1894fb1ce2705c17",
+      "bytes_pass": true,
+      "sha256_pass": true,
+      "method": "GitHub fetch_blob by pinned tree SHA; UTF8 SHA256"
+    }
+  ]
+}
