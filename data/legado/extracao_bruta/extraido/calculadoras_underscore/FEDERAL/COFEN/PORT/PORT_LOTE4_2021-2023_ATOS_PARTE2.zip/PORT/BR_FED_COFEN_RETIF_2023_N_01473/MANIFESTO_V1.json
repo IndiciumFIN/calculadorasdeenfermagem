@@ -1,0 +1,53 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/retificacao-da-portaria-cofen-no-1473-2023-comissao-eleitoral-do-cofen/ (API WordPress post 119018); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "RETIF_2023_N_01473_ATOMOS_V1.jsonl",
+      "sha256": "ff6eefa0f4d27b9b71fa18d81882c03c028ca68e0c9b251981e246dc258bec21",
+      "tamanho": 4120
+    },
+    {
+      "nome": "RETIF_2023_N_01473_CONTEUDO_SITE_API.json",
+      "sha256": "33e4f533dd38fd4ad3f2f47c4402bf367629292e601b2da5ff3801e35e9d8134",
+      "tamanho": 1456
+    },
+    {
+      "nome": "RETIF_2023_N_01473_NORMA_V1.json",
+      "sha256": "16632965464a779bbf6440593e420477db0da7686450c3a35e84183509fc963a",
+      "tamanho": 5475
+    },
+    {
+      "nome": "RETIF_2023_N_01473_PAGINA_SITE.html",
+      "sha256": "df587d789d9e3f4e67cfee9f390f009240c23dfb390da00fe69fba5f287d22d5",
+      "tamanho": 443258
+    },
+    {
+      "nome": "RETIF_2023_N_01473_PDF_SITE.pdf",
+      "sha256": "85e8f02194efa18f54aef2b096307b6ed791d2f57bfae19850ca8f3ce068e152",
+      "tamanho": 741578
+    },
+    {
+      "nome": "RETIF_2023_N_01473_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "3207f1f56375768a9892fb1d63b8149109fb100857a7f8debba4b5bb92304ebc",
+      "tamanho": 12561
+    },
+    {
+      "nome": "RETIF_2023_N_01473_TEXTO_FONTE_V1.txt",
+      "sha256": "5275a0e29c5e21eae48353e7b13cd40b93509d1cdcd80480dc57561da9e4dcf3",
+      "tamanho": 846
+    },
+    {
+      "nome": "RETIF_2023_N_01473_VALIDACAO_V1.json",
+      "sha256": "278c16a685eddf385194ccb28c52e484f03c836f9e4e956e5890ecc5b3d2a0de",
+      "tamanho": 4179
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+    "TIPO: retificação de Portaria (ato acessório)."
+  ]
+}

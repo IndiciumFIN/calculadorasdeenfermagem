@@ -1,0 +1,43 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-camara-tecnica-conjunto-no-0095-2020-ctln-ctas-cofen/ (API WordPress post 85523); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2020_N_00095_CTLN_ATOMOS_V1.jsonl",
+      "sha256": "32d6ea85565b1a44772355d65680e3fb0a5a783cdc4ce4d912444580fd5f8125",
+      "tamanho": 43676
+    },
+    {
+      "nome": "PARCT_2020_N_00095_CTLN_CONTEUDO_SITE_API.json",
+      "sha256": "3f4e08c0590c1fad9f2db38a3c7e6f6a51b529d045271fbabd8204b8dad5761b",
+      "tamanho": 11996
+    },
+    {
+      "nome": "PARCT_2020_N_00095_CTLN_NORMA_V1.json",
+      "sha256": "cd42ea1b795d643dc679e7111eddb7123252eb46203567f7089f2fbaae416e60",
+      "tamanho": 2937
+    },
+    {
+      "nome": "PARCT_2020_N_00095_CTLN_PAGINA_SITE.html",
+      "sha256": "5b08664034d5f1a0e61620e0a6cfbcb27097b6e9679c88d6ad591fc7b2ffdfb9",
+      "tamanho": 450099
+    },
+    {
+      "nome": "PARCT_2020_N_00095_CTLN_TEXTO_FONTE_V1.txt",
+      "sha256": "e06fcc2968132aca8be1baa5013fe5f20d245031dfa00daaa09c12984ba7b012",
+      "tamanho": 10079
+    },
+    {
+      "nome": "PARCT_2020_N_00095_CTLN_VALIDACAO_V1.json",
+      "sha256": "cbb7bb800ac3e51bf31e899bed70cc2740054a9597cf368c435aa9ca40207bd0",
+      "tamanho": 3294
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir."
+  ]
+}

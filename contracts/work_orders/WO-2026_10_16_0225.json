@@ -1,0 +1,25 @@
+{
+  "id": "WO-2026_10_16_0225",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "task_id": "TAREFA-IMPORTAR-DRIVE",
+  "task_type": "importar-drive",
+  "task_version": "1.0.0",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "entradas": [
+    {
+      "id_origem": "1RJJfAGWcExGEh_7Fe8cctWip4_0mAfoZ",
+      "caminho": "data/legado/extracao_bruta/CONTEUDOS_CE_WAVE12/site/pages/1RJJfAGWcExGEh_7Fe8cctWip4_0mAfoZ/missao.html",
+      "classe": "REFERENCIA",
+      "sha256": "e328f4d50c77e49c8f62b73ed9365ef4e1f488e017d9795fa421f752ff38c0a0"
+    }
+  ],
+  "parametros": {
+    "source_provider": "google_drive",
+    "source_mount": "missao.html",
+    "lote": "WAVE12-SITE-MODULAR",
+    "publicacao": "BLOQUEADA",
+    "exclusao": "BLOQUEADA"
+  }
+}

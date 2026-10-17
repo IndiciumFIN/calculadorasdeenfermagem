@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-camara-tecnica-no-0037-2021-ctln-dgep-cofen/ (API WordPress post 95191); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2021_N_00037_CTLN_ATOMOS_V1.jsonl",
+      "sha256": "2212c6454281470ad13fecf8dd17a60373734af776a014d3d6c9440965ce20e7",
+      "tamanho": 18015
+    },
+    {
+      "nome": "PARCT_2021_N_00037_CTLN_CONTEUDO_SITE_API.json",
+      "sha256": "0f6fa8f91246798f8ba3172dfb73ba7dee7d5346cd6aa4ebcd428c42c1f1dc7b",
+      "tamanho": 6881
+    },
+    {
+      "nome": "PARCT_2021_N_00037_CTLN_NORMA_V1.json",
+      "sha256": "d32f72e11dbe20f48f82f43470b26f40abbd31578a9751328361d8d8581f452d",
+      "tamanho": 2541
+    },
+    {
+      "nome": "PARCT_2021_N_00037_CTLN_PAGINA_SITE.html",
+      "sha256": "9a93574962bc8e47389fdc9bc8a7d8c324da9daaeea12ac765e3e79510c3d3a3",
+      "tamanho": 444730
+    },
+    {
+      "nome": "PARCT_2021_N_00037_CTLN_TEXTO_FONTE_V1.txt",
+      "sha256": "408814ab0757f1f40ecf3b1053af823451bb480250aeefa07b8d2e14c8c3fee5",
+      "tamanho": 5794
+    },
+    {
+      "nome": "PARCT_2021_N_00037_CTLN_VALIDACAO_V1.json",
+      "sha256": "11d546337fcbfa9ea58a1d4325b411676f142afb198d6a46660345bdd1b4b4ae",
+      "tamanho": 2480
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

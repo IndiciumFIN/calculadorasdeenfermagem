@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/lei-n-10861-de-14-de-abril-de-2004/ (API WordPress post 4166); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "LEI_2004_N_10861_ATOMOS_V1.jsonl",
+      "sha256": "bae2d355267f497c3d7e42c32aacc0060f8f0fb6e2eb4ecf29bd105238ab28ee",
+      "tamanho": 72164
+    },
+    {
+      "nome": "LEI_2004_N_10861_CONTEUDO_SITE_API.json",
+      "sha256": "d993b083eb249368ff201fbfdcdffe882b281824974444e56aa525c5385255e6",
+      "tamanho": 18046
+    },
+    {
+      "nome": "LEI_2004_N_10861_NORMA_V1.json",
+      "sha256": "76eef379213233a7a6cb783df44bc1d597e8d2482acf01f1ab64902ca5e89c58",
+      "tamanho": 3521
+    },
+    {
+      "nome": "LEI_2004_N_10861_PAGINA_SITE.html",
+      "sha256": "7e89442699259389aeb3f54df391b0002b1272c796701061803acde363e87643",
+      "tamanho": 456532
+    },
+    {
+      "nome": "LEI_2004_N_10861_TEXTO_FONTE_V1.txt",
+      "sha256": "d9ded5fbc7213efa7518187dc1d0bb57abefc3045925dcb0c229e4fd7dd00055",
+      "tamanho": 16782
+    },
+    {
+      "nome": "LEI_2004_N_10861_VALIDACAO_V1.json",
+      "sha256": "9f1bd4fb520068cb63582fa339c1e062a548768e5b08847861cbbdcae40a9d7a",
+      "tamanho": 2450
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

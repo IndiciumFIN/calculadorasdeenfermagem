@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Work Order de execução de agente (GAP-01)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "agent_id",
+    "task_type",
+    "prompt_id",
+    "prompt_sha256",
+    "model_id",
+    "temperature",
+    "input_file",
+    "input_sha256",
+    "authorized_by"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^WO-[A-Z0-9-]+$" },
+    "agent_id": { "type": "string", "pattern": "^AGT-[A-Z0-9-]+$" },
+    "task_type": { "type": "string" },
+    "prompt_id": { "type": "string" },
+    "prompt_sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "model_id": { "type": "string" },
+    "temperature": { "const": 0 },
+    "input_file": { "type": "string" },
+    "input_sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "authorized_by": { "type": "string", "minLength": 3 },
+    "nota": { "type": "string" }
+  }
+}

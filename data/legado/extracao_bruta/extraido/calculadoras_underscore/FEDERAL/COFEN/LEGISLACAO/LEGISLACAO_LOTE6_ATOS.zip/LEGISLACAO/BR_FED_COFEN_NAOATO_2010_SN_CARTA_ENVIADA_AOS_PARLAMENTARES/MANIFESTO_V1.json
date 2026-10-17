@@ -1,0 +1,44 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/carta-enviada-aos-parlamentares/ (API WordPress post 4224); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "NAOATO_2010_SN_CARTA_ENVIADA_AOS_PARLAMENTARES_ATOMOS_V1.jsonl",
+      "sha256": "6dc24889efc0ffc5a0f5328b580318ecdccbfc5efc8f04e23b4b48ae0c13d183",
+      "tamanho": 10333
+    },
+    {
+      "nome": "NAOATO_2010_SN_CARTA_ENVIADA_AOS_PARLAMENTARES_CONTEUDO_SITE_API.json",
+      "sha256": "b914bd42daa049de074555584a624f0aef22bfbfe424cc5a293d3b67c3d8bca4",
+      "tamanho": 2447
+    },
+    {
+      "nome": "NAOATO_2010_SN_CARTA_ENVIADA_AOS_PARLAMENTARES_NORMA_V1.json",
+      "sha256": "cceb4c9c2f6e98bff55cbb7cbfe9c420284830cd0792e276a2126d42b4d21725",
+      "tamanho": 2111
+    },
+    {
+      "nome": "NAOATO_2010_SN_CARTA_ENVIADA_AOS_PARLAMENTARES_PAGINA_SITE.html",
+      "sha256": "a69a3c82db2709cb88cf1c0508f5963b478eb84ae7eb44601c83b7d583ffa4bd",
+      "tamanho": 436519
+    },
+    {
+      "nome": "NAOATO_2010_SN_CARTA_ENVIADA_AOS_PARLAMENTARES_TEXTO_FONTE_V1.txt",
+      "sha256": "3981f658f25494e7afed09f2847fd11c75fa2b2858875001ac1a6274c8f31bb0",
+      "tamanho": 2089
+    },
+    {
+      "nome": "NAOATO_2010_SN_CARTA_ENVIADA_AOS_PARLAMENTARES_VALIDACAO_V1.json",
+      "sha256": "ba886c443f72e8f44097300a61e89df9466d212515220303d67f480f6dfe4a85",
+      "tamanho": 3231
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Ato sem número no site; identificador formado por slug.",
+    "TIPO: listado em categoria de Legislação, mas o título não identifica um ato (\"CARTA ENVIADA AOS PARLAMENTARES\"). ANO: ano do ato não consta do título; usado o ano do post (data de publicação no site, não do ato).",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

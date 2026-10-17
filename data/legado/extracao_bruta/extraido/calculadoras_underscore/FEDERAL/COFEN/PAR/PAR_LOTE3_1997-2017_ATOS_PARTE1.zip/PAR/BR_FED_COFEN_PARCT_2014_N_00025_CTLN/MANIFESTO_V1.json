@@ -1,0 +1,51 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-25-2014-ctln-resposta-ao-questionamento-sobre-a-resolucao-376-2011/ (API WordPress post 29113); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2014_N_00025_CTLN_ATOMOS_V1.jsonl",
+      "sha256": "e6132d591b6462a431094fa2422dda9b6dcb0477be186eaba75c6d6efaa9c00c",
+      "tamanho": 19178
+    },
+    {
+      "nome": "PARCT_2014_N_00025_CTLN_CONTEUDO_SITE_API.json",
+      "sha256": "b53253ad91923382da93299901000033368825bd53d1bb15ac155233f7fa4cea",
+      "tamanho": 4446
+    },
+    {
+      "nome": "PARCT_2014_N_00025_CTLN_NORMA_V1.json",
+      "sha256": "d83917598ee40194c90ff40d1037e4507c61e32ab875f3c8266c6ab6777be3bd",
+      "tamanho": 3433
+    },
+    {
+      "nome": "PARCT_2014_N_00025_CTLN_PAGINA_SITE.html",
+      "sha256": "7034dc97af66f3151b0a894de44483965c2cbacf2ef9a62c482092e493edc9b3",
+      "tamanho": 443144
+    },
+    {
+      "nome": "PARCT_2014_N_00025_CTLN_PDF_SITE.pdf",
+      "sha256": "cdc47879ccd211d230f72ca8eb690d4c947505167047415673d637f10ea75000",
+      "tamanho": 791157
+    },
+    {
+      "nome": "PARCT_2014_N_00025_CTLN_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "d4f4db5a78a24fbe6e72dd6685907fa313dc10308e2046fd64e5f326a3f21751",
+      "tamanho": 3483
+    },
+    {
+      "nome": "PARCT_2014_N_00025_CTLN_TEXTO_FONTE_V1.txt",
+      "sha256": "2e2366480bbe724d8bdcce5c957b69cd838e30979e1f1740a7f1941346235048",
+      "tamanho": 3507
+    },
+    {
+      "nome": "PARCT_2014_N_00025_CTLN_VALIDACAO_V1.json",
+      "sha256": "ea0bc25a67e516d1b0a3cbee0d1be8c7d1f38b123af6a1817c2fc16bfe96f068",
+      "tamanho": 6037
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-camara-tecnica-no-0048-2021-ctep-cofen/ (API WordPress post 90508); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2021_N_00048_CTEP_ATOMOS_V1.jsonl",
+      "sha256": "16d4ee45effa59dd51fb6ac7181a5585e79dc56d99ce9c8767584c2fb90a0610",
+      "tamanho": 82287
+    },
+    {
+      "nome": "PARCT_2021_N_00048_CTEP_CONTEUDO_SITE_API.json",
+      "sha256": "e6ff0763a8b465bffa70fa683ee9751f28202f2445c015e55b8c93b99de669f3",
+      "tamanho": 22797
+    },
+    {
+      "nome": "PARCT_2021_N_00048_CTEP_NORMA_V1.json",
+      "sha256": "8a48129e0569229f968dea452ca8a92b2536e7314e6e3aba9927688fb2997afc",
+      "tamanho": 7653
+    },
+    {
+      "nome": "PARCT_2021_N_00048_CTEP_PAGINA_SITE.html",
+      "sha256": "a546877061fd903d2aef55e32f67a2031f2d21747476bebef6f0f06db0a8fb32",
+      "tamanho": 460264
+    },
+    {
+      "nome": "PARCT_2021_N_00048_CTEP_TEXTO_FONTE_V1.txt",
+      "sha256": "5c0e1fcec92a30c11784a44f30907789284c86ee8f985eade0ae6bf9d699172d",
+      "tamanho": 20500
+    },
+    {
+      "nome": "PARCT_2021_N_00048_CTEP_VALIDACAO_V1.json",
+      "sha256": "af6a5dc047a411f480ebfae7e94e83eceacb796953380839b90646494c934252",
+      "tamanho": 3991
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir."
+  ]
+}

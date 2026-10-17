@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-n-117-de-15-de-fevereiro-de-2011/ (API WordPress post 6371); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2011_N_00117_ATOMOS_V1.jsonl",
+      "sha256": "e5b668e5b4a2c95402b5cfc46f9dca00ed9c21ec0e55bbc1a979161c03dbf22c",
+      "tamanho": 14282
+    },
+    {
+      "nome": "PORT_2011_N_00117_CONTEUDO_SITE_API.json",
+      "sha256": "a055b9df1c2f8f2ec670379f2ca2fdef2df9ed7076438c8fcb309b2233f41315",
+      "tamanho": 4231
+    },
+    {
+      "nome": "PORT_2011_N_00117_NORMA_V1.json",
+      "sha256": "1c77901a7418c67b9f102ec649e7314f95aead5c44ddda392297acadd5aee255",
+      "tamanho": 2917
+    },
+    {
+      "nome": "PORT_2011_N_00117_PAGINA_SITE.html",
+      "sha256": "25c4958193d782396080422e07c3ca8b758081f631cf02c173376659b74cb9e6",
+      "tamanho": 441447
+    },
+    {
+      "nome": "PORT_2011_N_00117_TEXTO_FONTE_V1.txt",
+      "sha256": "337d5658ab97861f1f5c378ba60fd9230f753af1db6c9ab62e0179a2d09d1df5",
+      "tamanho": 2446
+    },
+    {
+      "nome": "PORT_2011_N_00117_VALIDACAO_V1.json",
+      "sha256": "dae4ad8309dfe602ab786534e70717c29dc18ad69a61061a1cb5a1ab908067a0",
+      "tamanho": 2456
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

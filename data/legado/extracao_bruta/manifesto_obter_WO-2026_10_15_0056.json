@@ -1,0 +1,41 @@
+{
+  "work_order": "WO-2026_10_15_0056",
+  "policy_version": "1.0.0",
+  "itens": [
+    {
+      "id_origem": "1YidMR-L1ovUfyxz4-jxUtfgr_5o3Kn1c",
+      "caminho": "medicamentos/inteiros/anvisa_cmed_precos_medicamentos.json",
+      "classe": "REFERENCIA",
+      "sha256": "1259f573cbcb84b9f6e7e9f7833dc5cddb016d64d736e1049d2ec54a9767ef54",
+      "bytes": 57759041
+    },
+    {
+      "id_origem": "1Vzm6B5HqowgiXuHBDJSJ1ktJdpZ3CWin",
+      "caminho": "medicamentos/inteiros/fda_ndc_produtos.json",
+      "classe": "REFERENCIA",
+      "sha256": "5e25cf97c2788789fe2ee9e3d31b288cf97823eaf84eb108ab5a4b49fae1fc83",
+      "bytes": 93709852
+    },
+    {
+      "id_origem": "1l9ojaxlDhAORdPWlAT1tr-1jf5q935cz",
+      "caminho": "nutricao/inteiros/usda_sr_legacy_nutrientes.json",
+      "classe": "REFERENCIA",
+      "sha256": "342fbd431dce48cdbb82f4e1d6298a4909b6826fa205c9ac0e0aea319d7fb1e3",
+      "bytes": 87096800
+    },
+    {
+      "id_origem": "1l3dgZs_IeTvV_yJj5aFGB1h034GtZWhA",
+      "caminho": "dispositivos/inteiros/anvisa_produtos_saude_registrados.json",
+      "classe": "REFERENCIA",
+      "sha256": "2a118eb0e39ecaa0107b03f13027d8c27a065844f13735d5b8509b2717286920",
+      "bytes": 68436293
+    },
+    {
+      "id_origem": "1MmOEsNfDfpnimOb5rHNYzJtXtqGWfDJx",
+      "caminho": "suprimentos/inteiros/catmat_itens_classes_6510_6515_6530_6532.json",
+      "classe": "REFERENCIA",
+      "sha256": "3d8267b74c603ce1f4515f6639705010ac367a598dcc5478a5535adb992b2485",
+      "bytes": 51223636
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "work_order": "WO-2026_10_15_0058",
+  "checker_id": "kernel-validar",
+  "authorized_by": "IndiciumFIN",
+  "itens": [
+    {
+      "id_origem": "1YidMR-L1ovUfyxz4-jxUtfgr_5o3Kn1c",
+      "caminho": "medicamentos/fracoes/anvisa_cmed_precos_medicamentos.json/part-000",
+      "sha256": "33eedef13687cec287cbe7bd4ecaf882d4b2b2da5500fe6970af2bbdae3a3ea5",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1YidMR-L1ovUfyxz4-jxUtfgr_5o3Kn1c",
+      "caminho": "medicamentos/fracoes/anvisa_cmed_precos_medicamentos.json/part-001",
+      "sha256": "41767c99247370ea59859d05f9f468e3efd933f2d7be96f3f551db652e42e816",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1YidMR-L1ovUfyxz4-jxUtfgr_5o3Kn1c",
+      "caminho": "medicamentos/fracoes/anvisa_cmed_precos_medicamentos.json/manifesto.json",
+      "sha256": "2ad1aceeb230d29880b7127dab8cb84d112b1c7eeb1e0bc51cf9be05effc2a9a",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1Vzm6B5HqowgiXuHBDJSJ1ktJdpZ3CWin",
+      "caminho": "medicamentos/fracoes/fda_ndc_produtos.json/part-000",
+      "sha256": "e51cbc02513b8f94b265d6d48107215180a756cd6605d59866ae931ba3b68d69",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1Vzm6B5HqowgiXuHBDJSJ1ktJdpZ3CWin",
+      "caminho": "medicamentos/fracoes/fda_ndc_produtos.json/part-001",
+      "sha256": "6d48d479865051298f21fd9396242628d14c1ba0095e5e4b76a0c456b41eeec1",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1Vzm6B5HqowgiXuHBDJSJ1ktJdpZ3CWin",
+      "caminho": "medicamentos/fracoes/fda_ndc_produtos.json/part-002",
+      "sha256": "fcb3395cc3c4ebec910249252807e2129753d5b3a16031f96a2bea4c1589f11f",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1Vzm6B5HqowgiXuHBDJSJ1ktJdpZ3CWin",
+      "caminho": "medicamentos/fracoes/fda_ndc_produtos.json/manifesto.json",
+      "sha256": "5af55d91119a921ab4f503e59b6a6cc1980a1769c2395be6a966712a2a9b5a82",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1l9ojaxlDhAORdPWlAT1tr-1jf5q935cz",
+      "caminho": "nutricao/fracoes/usda_sr_legacy_nutrientes.json/part-000",
+      "sha256": "aa7b7afae6287f0c2b86d79f940bd5255d4249493f1dc1910ce8f184cf33625f",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1l9ojaxlDhAORdPWlAT1tr-1jf5q935cz",
+      "caminho": "nutricao/fracoes/usda_sr_legacy_nutrientes.json/part-001",
+      "sha256": "835cdd745de2a9f37c7190a5993b33a84a809b9f50fd1d353311c26b32959842",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1l9ojaxlDhAORdPWlAT1tr-1jf5q935cz",
+      "caminho": "nutricao/fracoes/usda_sr_legacy_nutrientes.json/part-002",
+      "sha256": "5568ec183e1105173af0b12c035c9723c1ee8dddbe69f107d475ed9ce50389a4",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1l9ojaxlDhAORdPWlAT1tr-1jf5q935cz",
+      "caminho": "nutricao/fracoes/usda_sr_legacy_nutrientes.json/manifesto.json",
+      "sha256": "73dcc0ae83ab23087fecb5a82628b0704275c98316b316ea3d0e5559dcd3f12c",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1l3dgZs_IeTvV_yJj5aFGB1h034GtZWhA",
+      "caminho": "dispositivos/fracoes/anvisa_produtos_saude_registrados.json/part-000",
+      "sha256": "e39951c8a895fb019f22f0ecfa4c5d714f6eb3afed8b70c009362560905a81ae",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1l3dgZs_IeTvV_yJj5aFGB1h034GtZWhA",
+      "caminho": "dispositivos/fracoes/anvisa_produtos_saude_registrados.json/part-001",
+      "sha256": "543653c31354ceb0fe4c93342dde4b7a6a9d27210b624396b033824ef52fad1d",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1l3dgZs_IeTvV_yJj5aFGB1h034GtZWhA",
+      "caminho": "dispositivos/fracoes/anvisa_produtos_saude_registrados.json/manifesto.json",
+      "sha256": "a2c1d1ed54bdcd1d2ae573fd75f91f1438f5a12d9934ae9c97eb46bca88bbd5c",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1MmOEsNfDfpnimOb5rHNYzJtXtqGWfDJx",
+      "caminho": "suprimentos/fracoes/catmat_itens_classes_6510_6515_6530_6532.json/part-000",
+      "sha256": "c793935c0eeb6bbc9cf29a4bfec5392c1968091838bac2514e0b093249ef8a1f",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1MmOEsNfDfpnimOb5rHNYzJtXtqGWfDJx",
+      "caminho": "suprimentos/fracoes/catmat_itens_classes_6510_6515_6530_6532.json/part-001",
+      "sha256": "5ae47a28c997776dd563ad253f9e7c43b05b30de8011d50c6bdaf57f8f42982a",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1MmOEsNfDfpnimOb5rHNYzJtXtqGWfDJx",
+      "caminho": "suprimentos/fracoes/catmat_itens_classes_6510_6515_6530_6532.json/manifesto.json",
+      "sha256": "e079e8492a14f059bf5f8cf914df77a6962933cfe45a95dc5cd19f684d0369cd",
+      "resultado": "PASS",
+      "atomos": 0
+    }
+  ]
+}

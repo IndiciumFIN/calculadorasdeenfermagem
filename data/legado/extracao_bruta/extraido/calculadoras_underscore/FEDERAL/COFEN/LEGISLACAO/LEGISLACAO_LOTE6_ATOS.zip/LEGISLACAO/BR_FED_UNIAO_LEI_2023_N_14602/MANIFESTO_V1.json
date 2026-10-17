@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/lei-no-14-602-de-20-de-junho-de-2023/ (API WordPress post 109477); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "LEI_2023_N_14602_ATOMOS_V1.jsonl",
+      "sha256": "be12ca1b2b7142a7ab30df916830fb93ef2c71401646c6063afa6bfdd2ffb489",
+      "tamanho": 11746
+    },
+    {
+      "nome": "LEI_2023_N_14602_CONTEUDO_SITE_API.json",
+      "sha256": "4c6a22aa98da4a613a14dfc82f79e88e44e0c8f731a414b7d8e474c11f0e1ba2",
+      "tamanho": 2693
+    },
+    {
+      "nome": "LEI_2023_N_14602_NORMA_V1.json",
+      "sha256": "88facdcb206b57c768b357e964ec9072400765336df21e38a96cdd71a17df374",
+      "tamanho": 2688
+    },
+    {
+      "nome": "LEI_2023_N_14602_PAGINA_SITE.html",
+      "sha256": "86106bab804fe0b7f3eb43a01927c30ebf4e1c80638dea3d9dbf9e0d03799722",
+      "tamanho": 440306
+    },
+    {
+      "nome": "LEI_2023_N_14602_TEXTO_FONTE_V1.txt",
+      "sha256": "8db83f6e8c16e701112f1722bf5ef4f518f1157b11e2b17ddb8a685e5626dd7f",
+      "tamanho": 1455
+    },
+    {
+      "nome": "LEI_2023_N_14602_VALIDACAO_V1.json",
+      "sha256": "c4da981e38723fdac7683f19e8d0ddcfeaf23390fa50c4ea87e2a68a70fb4941",
+      "tamanho": 2450
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-6-2026-grupo-tecnico-de-acompanhamento-eleitoral-eleicoes-corens-2026/ (API WordPress post 195518); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARGT_2026_N_00006_GTAE_ATOMOS_V1.jsonl",
+      "sha256": "34ad0599093ed16a325a6b600d3fb5ee2d14ef16ab7ffda5be9711ff5e55d191",
+      "tamanho": 68294
+    },
+    {
+      "nome": "PARGT_2026_N_00006_GTAE_CONTEUDO_SITE_API.json",
+      "sha256": "6caffd09cac56ff7edba4d3a33e000151f68fbd4854417999011df23c0ff0613",
+      "tamanho": 15050
+    },
+    {
+      "nome": "PARGT_2026_N_00006_GTAE_NORMA_V1.json",
+      "sha256": "d5dcf6712149d356001f9427356ab74721b5ee299fa1ababa7cd465f44335a7f",
+      "tamanho": 3939
+    },
+    {
+      "nome": "PARGT_2026_N_00006_GTAE_PAGINA_SITE.html",
+      "sha256": "025e6d53d9e1dc2db4d9fd633e2b01fae2cf64c8814e7f18cf662cece2aececb",
+      "tamanho": 456559
+    },
+    {
+      "nome": "PARGT_2026_N_00006_GTAE_PDF_SITE.pdf",
+      "sha256": "c3571b3a57e7089edfcd0c4dd1ae93f5f9c2b6a6d8f9cf28ca40b88852df3a07",
+      "tamanho": 169406
+    },
+    {
+      "nome": "PARGT_2026_N_00006_GTAE_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "06f15b53556e12ec5c237a58e2120ae3183ed32a2c1e4925a22ae6b9d2c11d16",
+      "tamanho": 12358
+    },
+    {
+      "nome": "PARGT_2026_N_00006_GTAE_TEXTO_FONTE_V1.txt",
+      "sha256": "b39affae821ec386c2dca504a97c6edd443147b7c6e98e3e6113095fbbb04dc6",
+      "tamanho": 10685
+    },
+    {
+      "nome": "PARGT_2026_N_00006_GTAE_VALIDACAO_V1.json",
+      "sha256": "f23a236e281a12ea16e7cd14a3b4e5b41aa6c9083d4ead91d878c56761e2f52f",
+      "tamanho": 15579
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

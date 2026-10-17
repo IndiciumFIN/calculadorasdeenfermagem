@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-082013cofenctas/ (API WordPress post 28107); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2013_N_00008_CTAS_ATOMOS_V1.jsonl",
+      "sha256": "3b9ebc99c3e5b8d8d60a87f1a5326a044e9821592cf388190ed1d2b708ca31c2",
+      "tamanho": 25955
+    },
+    {
+      "nome": "PARCT_2013_N_00008_CTAS_CONTEUDO_SITE_API.json",
+      "sha256": "3bf3de60be2028c1a980260cebf4ec908bc22f35434ea15befa698f9c8e636a0",
+      "tamanho": 7313
+    },
+    {
+      "nome": "PARCT_2013_N_00008_CTAS_NORMA_V1.json",
+      "sha256": "f89587b772693676f8c8afaf8c75c29b18b3c3f83baa3787fd6a7e75956df209",
+      "tamanho": 4433
+    },
+    {
+      "nome": "PARCT_2013_N_00008_CTAS_PAGINA_SITE.html",
+      "sha256": "ba4bdfcd8f059e9c9e9a51f60bc687b59feb8c68a07a25f3c0668618787f176f",
+      "tamanho": 441443
+    },
+    {
+      "nome": "PARCT_2013_N_00008_CTAS_TEXTO_FONTE_V1.txt",
+      "sha256": "1370da0b28a5ae7954df2df660a7b649214e02e3808851bef442863a5d26230d",
+      "tamanho": 5935
+    },
+    {
+      "nome": "PARCT_2013_N_00008_CTAS_VALIDACAO_V1.json",
+      "sha256": "82fdbeb09993b28dba68b85e707f2b712bec15ca09ec9a82a98d801428aef756",
+      "tamanho": 2469
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

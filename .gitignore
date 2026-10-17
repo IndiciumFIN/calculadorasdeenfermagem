@@ -40,3 +40,9 @@ venv/
 # coverage
 .coverage
 htmlcov/
+
+# saidas de runtime do llm_runner (candidatos raw, nunca canon no Git)
+/data/raw_llm/
+
+# arquivo inteiro acima de 50 MB, só enquanto é fracionado
+/data/legado/extracao_bruta/**/inteiros/

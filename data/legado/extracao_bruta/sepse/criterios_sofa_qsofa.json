@@ -1,0 +1,233 @@
+[
+ {
+  "escore": "SOFA",
+  "sistema": "Respiratório",
+  "variavel": "PaO2/FiO2 (mmHg)",
+  "pontos": 0,
+  "criterio": ">= 400"
+ },
+ {
+  "escore": "SOFA",
+  "sistema": "Respiratório",
+  "variavel": "PaO2/FiO2 (mmHg)",
+  "pontos": 1,
+  "criterio": "< 400"
+ },
+ {
+  "escore": "SOFA",
+  "sistema": "Respiratório",
+  "variavel": "PaO2/FiO2 (mmHg)",
+  "pontos": 2,
+  "criterio": "< 300"
+ },
+ {
+  "escore": "SOFA",
+  "sistema": "Respiratório",
+  "variavel": "PaO2/FiO2 (mmHg)",
+  "pontos": 3,
+  "criterio": "< 200 com suporte ventilatório"
+ },
+ {
+  "escore": "SOFA",
+  "sistema": "Respiratório",
+  "variavel": "PaO2/FiO2 (mmHg)",
+  "pontos": 4,
+  "criterio": "< 100 com suporte ventilatório"
+ },
+ {
+  "escore": "SOFA",
+  "sistema": "Coagulação",
+  "variavel": "Plaquetas (x10^3/µL)",
+  "pontos": 0,
+  "criterio": ">= 150"
+ },
+ {
+  "escore": "SOFA",
+  "sistema": "Coagulação",
+  "variavel": "Plaquetas (x10^3/µL)",
+  "pontos": 1,
+  "criterio": "< 150"
+ },
+ {
+  "escore": "SOFA",
+  "sistema": "Coagulação",
+  "variavel": "Plaquetas (x10^3/µL)",
+  "pontos": 2,
+  "criterio": "< 100"
+ },
+ {
+  "escore": "SOFA",
+  "sistema": "Coagulação",
+  "variavel": "Plaquetas (x10^3/µL)",
+  "pontos": 3,
+  "criterio": "< 50"
+ },
+ {
+  "escore": "SOFA",
+  "sistema": "Coagulação",
+  "variavel": "Plaquetas (x10^3/µL)",
+  "pontos": 4,
+  "criterio": "< 20"
+ },
+ {
+  "escore": "SOFA",
+  "sistema": "Hepático",
+  "variavel": "Bilirrubina (mg/dL [µmol/L])",
+  "pontos": 0,
+  "criterio": "< 1,2 [< 20]"
+ },
+ {
+  "escore": "SOFA",
+  "sistema": "Hepático",
+  "variavel": "Bilirrubina (mg/dL [µmol/L])",
+  "pontos": 1,
+  "criterio": "1,2-1,9 [20-32]"
+ },
+ {
+  "escore": "SOFA",
+  "sistema": "Hepático",
+  "variavel": "Bilirrubina (mg/dL [µmol/L])",
+  "pontos": 2,
+  "criterio": "2,0-5,9 [33-101]"
+ },
+ {
+  "escore": "SOFA",
+  "sistema": "Hepático",
+  "variavel": "Bilirrubina (mg/dL [µmol/L])",
+  "pontos": 3,
+  "criterio": "6,0-11,9 [102-204]"
+ },
+ {
+  "escore": "SOFA",
+  "sistema": "Hepático",
+  "variavel": "Bilirrubina (mg/dL [µmol/L])",
+  "pontos": 4,
+  "criterio": "> 12,0 [> 204]"
+ },
+ {
+  "escore": "SOFA",
+  "sistema": "Cardiovascular",
+  "variavel": "PAM / vasopressores (µg/kg/min por >= 1 h)",
+  "pontos": 0,
+  "criterio": "PAM >= 70 mmHg"
+ },
+ {
+  "escore": "SOFA",
+  "sistema": "Cardiovascular",
+  "variavel": "PAM / vasopressores (µg/kg/min por >= 1 h)",
+  "pontos": 1,
+  "criterio": "PAM < 70 mmHg"
+ },
+ {
+  "escore": "SOFA",
+  "sistema": "Cardiovascular",
+  "variavel": "PAM / vasopressores (µg/kg/min por >= 1 h)",
+  "pontos": 2,
+  "criterio": "Dopamina < 5 ou dobutamina (qualquer dose)"
+ },
+ {
+  "escore": "SOFA",
+  "sistema": "Cardiovascular",
+  "variavel": "PAM / vasopressores (µg/kg/min por >= 1 h)",
+  "pontos": 3,
+  "criterio": "Dopamina 5,1-15 ou epinefrina <= 0,1 ou norepinefrina <= 0,1"
+ },
+ {
+  "escore": "SOFA",
+  "sistema": "Cardiovascular",
+  "variavel": "PAM / vasopressores (µg/kg/min por >= 1 h)",
+  "pontos": 4,
+  "criterio": "Dopamina > 15 ou epinefrina > 0,1 ou norepinefrina > 0,1"
+ },
+ {
+  "escore": "SOFA",
+  "sistema": "Sistema nervoso central",
+  "variavel": "Escala de Coma de Glasgow",
+  "pontos": 0,
+  "criterio": "15"
+ },
+ {
+  "escore": "SOFA",
+  "sistema": "Sistema nervoso central",
+  "variavel": "Escala de Coma de Glasgow",
+  "pontos": 1,
+  "criterio": "13-14"
+ },
+ {
+  "escore": "SOFA",
+  "sistema": "Sistema nervoso central",
+  "variavel": "Escala de Coma de Glasgow",
+  "pontos": 2,
+  "criterio": "10-12"
+ },
+ {
+  "escore": "SOFA",
+  "sistema": "Sistema nervoso central",
+  "variavel": "Escala de Coma de Glasgow",
+  "pontos": 3,
+  "criterio": "6-9"
+ },
+ {
+  "escore": "SOFA",
+  "sistema": "Sistema nervoso central",
+  "variavel": "Escala de Coma de Glasgow",
+  "pontos": 4,
+  "criterio": "< 6"
+ },
+ {
+  "escore": "SOFA",
+  "sistema": "Renal",
+  "variavel": "Creatinina (mg/dL [µmol/L]) ou diurese",
+  "pontos": 0,
+  "criterio": "< 1,2 [< 110]"
+ },
+ {
+  "escore": "SOFA",
+  "sistema": "Renal",
+  "variavel": "Creatinina (mg/dL [µmol/L]) ou diurese",
+  "pontos": 1,
+  "criterio": "1,2-1,9 [110-170]"
+ },
+ {
+  "escore": "SOFA",
+  "sistema": "Renal",
+  "variavel": "Creatinina (mg/dL [µmol/L]) ou diurese",
+  "pontos": 2,
+  "criterio": "2,0-3,4 [171-299]"
+ },
+ {
+  "escore": "SOFA",
+  "sistema": "Renal",
+  "variavel": "Creatinina (mg/dL [µmol/L]) ou diurese",
+  "pontos": 3,
+  "criterio": "3,5-4,9 [300-440] ou diurese < 500 mL/dia"
+ },
+ {
+  "escore": "SOFA",
+  "sistema": "Renal",
+  "variavel": "Creatinina (mg/dL [µmol/L]) ou diurese",
+  "pontos": 4,
+  "criterio": "> 5,0 [> 440] ou diurese < 200 mL/dia"
+ },
+ {
+  "escore": "qSOFA",
+  "sistema": "",
+  "variavel": "frequencia_respiratoria",
+  "pontos": 1,
+  "criterio": "Frequência respiratória >= 22 irpm"
+ },
+ {
+  "escore": "qSOFA",
+  "sistema": "",
+  "variavel": "nivel_consciencia",
+  "pontos": 1,
+  "criterio": "Alteração do estado mental (Glasgow < 15)"
+ },
+ {
+  "escore": "qSOFA",
+  "sistema": "",
+  "variavel": "pressao_sistolica",
+  "pontos": 1,
+  "criterio": "Pressão arterial sistólica <= 100 mmHg"
+ }
+]

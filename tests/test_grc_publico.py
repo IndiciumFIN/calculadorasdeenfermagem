@@ -1,0 +1,113 @@
+"""Recorte público do pacote GRC: controles permanecem; a norma fica em metadados."""
+import json
+import re
+from pathlib import Path
+
+REPO = Path(__file__).resolve().parents[1]
+GRC = REPO / "data" / "grc"
+CODIGO = re.compile(r"^(EDM|APO|BAI|DSS|MEA)\d{2}$")
+
+
+def _json(nome):
+    return json.loads((GRC / nome).read_text(encoding="utf-8"))
+
+
+def test_recorte_tem_os_arquivos_publicos():
+    assert sorted(p.name for p in GRC.iterdir()) == [
+        "agentes.json",
+        "controles.json",
+        "drive_inventory_20261016_pilot.json",
+        "drive_inventory_20261016_wave2.json",
+        "normas.json",
+        "origem.json",
+    ]
+
+
+def test_controles_conservam_o_modelo_e_omitem_o_enunciado_da_norma():
+    controles = _json("controles.json")
+    assert len(controles) == 105
+    coso = [c for c in controles if c["origin"] == "USER_SUPPLIED_COSO_CONTROL_TEMPLATE"]
+    cko = [c for c in controles if c["origin"] == "NEW_INTERNAL_CONTROL_PROPOSAL"]
+    assert len(coso) == 75
+    assert len(cko) == 30
+    for item in coso:
+        assert "test_design_template" not in item
+        assert item["norma"]["nivel"] == "METADADOS"
+        assert set(item["norma"]) == {"framework", "codigo", "checkpoints", "nivel"}
+        assert item["norma"]["framework"] in {"COSO_ICIF2013", "COSO_ERM2017"}
+        assert item["template_status"] == "MODEL_DRAFT_NOT_IMPLEMENTED"
+        assert item["implementation_status"] == "NOT_VERIFIED"
+        assert item["effectiveness_status"] == "NOT_ASSESSED"
+        assert item["evaluation_status"] == "NOT_TESTED"
+    for item in cko:
+        assert item["norma"]["framework"] == "CKO_ORIGINAL_CONTROL"
+        assert item["test_design_template"].startswith("Inspecionar definição formal")
+    texto = json.dumps(controles, ensure_ascii=False)
+    assert "endereça:" not in texto
+
+
+def test_norma_publica_so_tem_metadados():
+    doc = _json("normas.json")
+    assert doc["versao"] == "0.2.0"
+    por_id = {item["id"]: item for item in doc["itens"]}
+    assert set(por_id) == {
+        "COSO_ICIF2013",
+        "COSO_ERM2017",
+        "IT_GOVERNANCE_PUBLIC_COBIT_IDS",
+    }
+    assert por_id["COSO_ICIF2013"]["principios"] == 17
+    assert por_id["COSO_ICIF2013"]["controles"] == 35
+    assert por_id["COSO_ERM2017"]["principios"] == 20
+    assert por_id["COSO_ERM2017"]["controles"] == 40
+    objetivos = por_id["IT_GOVERNANCE_PUBLIC_COBIT_IDS"]["objetivos"]
+    assert len(objetivos) == 40
+    assert all(CODIGO.fullmatch(codigo) for codigo in objetivos)
+    assert por_id["IT_GOVERNANCE_PUBLIC_COBIT_IDS"]["controles"] == 0
+    texto = json.dumps(doc, ensure_ascii=False)
+    assert "description" not in texto
+    assert "practice" not in texto
+
+
+def test_agentes_entram_como_candidato_sem_enunciado():
+    agentes = _json("agentes.json")
+    assert len(agentes) == 108
+    principios = [a for a in agentes if a["kind"] == "principio"]
+    assert len(principios) == 37
+    texto = json.dumps(agentes, ensure_ascii=False)
+    assert "· Princípio" not in texto
+    assert "· Componente" not in texto
+    for item in agentes:
+        assert item["status"] == "CANDIDATE_NOT_HOMOLOGATED"
+        assert item["enunciado_oficial_armazenado"] is False
+        assert item["may_change_status"] is False
+        assert item["may_approve_work_order"] is False
+        assert item["may_execute_correction"] is False
+        assert "WRITE_CANONICAL_STATE" in item["forbidden_effects"]
+    for item in principios:
+        assert item["controles"]
+        assert item["norma"]["nivel"] == "METADADOS"
+        assert re.fullmatch(r"(ICIF|ERM)-\d{2}", item["norma"]["codigo"])
+        assert item["norma"]["codigo"] in item["regra"]
+    registro = json.loads((REPO / "agents" / "registry.json").read_text(encoding="utf-8"))
+    vigentes = [
+        aid
+        for aid, item in registro["agentes"].items()
+        if item["recertificacao"]["status"] == "vigente"
+    ]
+    assert vigentes == ["AGT-EXTRATOR-001", "AGT-AUDITOR-001"]
+    for item in agentes:
+        reg = registro["agentes"][item["agent_id"]]
+        assert reg["recertificacao"]["status"] == "candidato"
+        assert reg["acoes_permitidas"] == ["diagnostico"]
+        assert reg["funcao"] == item["regra"]
+
+
+def test_origem_aponta_para_o_zip_e_deixa_o_drive_no_lugar():
+    origem = _json("origem.json")
+    assert origem["estado"] == "CANDIDATE_NOT_HOMOLOGATED"
+    assert origem["controles"] == 105
+    assert origem["fonte"]["sha256"] == "f6bb4f7ae382e260233846571427abf69d0ccda8ac278b4ba64fc83dd2babb65"
+    assert origem["fonte"]["bytes"] == 289541
+    assert origem["fonte"]["id_origem"] == "1wBohCXFLZbRIk9mhMBCMWFQq50Q1NWLv"
+    assert origem["agentes"] == 108
+    assert origem["recertificacao"] == "candidato"

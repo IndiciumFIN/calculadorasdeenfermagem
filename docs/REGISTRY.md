@@ -18,6 +18,8 @@ Tabela mínima no Supabase (ou planilha controlada) que é a fonte única de ver
 | find_ids | text[] | Lista de FINDs abertos |
 | notas | text | |
 
+`packages/cli/registry.py` usa outra lista: `bruto`, `candidato`, `validado`, `canonico`, `quarentena`. As duas listas não foram unificadas. `registry add` e `registry set-status` saem com código 2 antes de gravar.
+
 ## Estados
 
 - `bruto` → acabou de ser ingerido

@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-conselheira-no-240-2021-cofen/ (API WordPress post 94963); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCONS_2021_N_00240_ATOMOS_V1.jsonl",
+      "sha256": "2186ed7b74a34334ca9b1ba0fa23d5a5f811f6157b15e5c9b85e92500741fa42",
+      "tamanho": 43553
+    },
+    {
+      "nome": "PARCONS_2021_N_00240_CONTEUDO_SITE_API.json",
+      "sha256": "1dcf161fac96f93295945ea0a7a23e6cf960fb28305edd4b3219c32215aeee7c",
+      "tamanho": 12276
+    },
+    {
+      "nome": "PARCONS_2021_N_00240_NORMA_V1.json",
+      "sha256": "fb892753b3fd5b42a6a3775dce7614c669dce18f778ad97c684dcc8c5b545793",
+      "tamanho": 4340
+    },
+    {
+      "nome": "PARCONS_2021_N_00240_PAGINA_SITE.html",
+      "sha256": "c6fb4afbab058b60f0877568ba1c368a70b1d88844496e2ddad13301b9365433",
+      "tamanho": 449538
+    },
+    {
+      "nome": "PARCONS_2021_N_00240_TEXTO_FONTE_V1.txt",
+      "sha256": "df0de2b85b31d01aede5b8f82ad019329cb9e78b3113ffdd35e3c272f2fbce29",
+      "tamanho": 10774
+    },
+    {
+      "nome": "PARCONS_2021_N_00240_VALIDACAO_V1.json",
+      "sha256": "a18bf4346c68e3e3474bd3be854320e28f34e3d769915abe8b83f36d92163c77",
+      "tamanho": 3059
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir."
+  ]
+}

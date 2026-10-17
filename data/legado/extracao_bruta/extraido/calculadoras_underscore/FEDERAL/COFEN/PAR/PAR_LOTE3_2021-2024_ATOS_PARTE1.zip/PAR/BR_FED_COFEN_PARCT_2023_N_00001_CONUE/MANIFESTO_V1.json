@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-camara-tecnica-no-1-2023-conue-cofen/ (API WordPress post 110249); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2023_N_00001_CONUE_ATOMOS_V1.jsonl",
+      "sha256": "ed823e2490fdc068d9969352f54fe58af337de7a02e533da01a9bf548982413b",
+      "tamanho": 58346
+    },
+    {
+      "nome": "PARCT_2023_N_00001_CONUE_CONTEUDO_SITE_API.json",
+      "sha256": "45910ef39293779805f836cb789abcd20deabeb7e0c1cee1ac1edb2d052cc04c",
+      "tamanho": 11310
+    },
+    {
+      "nome": "PARCT_2023_N_00001_CONUE_NORMA_V1.json",
+      "sha256": "9f814e636190b4d50c19436f928642987944c9447c2291227b39e32fa9b32e87",
+      "tamanho": 3660
+    },
+    {
+      "nome": "PARCT_2023_N_00001_CONUE_PAGINA_SITE.html",
+      "sha256": "29b0084e6f88ab6cad1ae9ef00a81415579135edc9c64fb06ddd51f598daed51",
+      "tamanho": 448360
+    },
+    {
+      "nome": "PARCT_2023_N_00001_CONUE_TEXTO_FONTE_V1.txt",
+      "sha256": "512c51ddae06ab0f08bec83fea29733a8393d8b62734a0293e33b49fd2d92aa9",
+      "tamanho": 10250
+    },
+    {
+      "nome": "PARCT_2023_N_00001_CONUE_VALIDACAO_V1.json",
+      "sha256": "a52a2ba73e77521496dfc2f7ff557bbfb175672def5990e5988a5a677d3f9001",
+      "tamanho": 2470
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

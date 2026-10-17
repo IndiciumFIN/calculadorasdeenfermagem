@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-1008-de-30-de-agosto-de-2021/ (API WordPress post 90481); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2021_N_01008_ATOMOS_V1.jsonl",
+      "sha256": "d6e89b41b8d74be81e1d4316fb2fdc9b2d1c43d2cf65d4e01f9950f385216cd8",
+      "tamanho": 6776
+    },
+    {
+      "nome": "PORT_2021_N_01008_CONTEUDO_SITE_API.json",
+      "sha256": "fc6b319e04583868f11544b631e8e0528c6c5b4fd5e8669345c5f897d2f0dbbd",
+      "tamanho": 1587
+    },
+    {
+      "nome": "PORT_2021_N_01008_NORMA_V1.json",
+      "sha256": "880efde990d0521e6df08652b96f497834b6fbe355c16df04aa831e1601062a6",
+      "tamanho": 3408
+    },
+    {
+      "nome": "PORT_2021_N_01008_PAGINA_SITE.html",
+      "sha256": "572f2bbed4bf42b5bff5f6853e36315e6b0d161e9f5fae03859cc12e3da55929",
+      "tamanho": 439349
+    },
+    {
+      "nome": "PORT_2021_N_01008_TEXTO_FONTE_V1.txt",
+      "sha256": "a246f24b8d035e665bd2f2a5a9bcd8c8a8cbe744fd66ea9c14cd783b43b5a0e1",
+      "tamanho": 961
+    },
+    {
+      "nome": "PORT_2021_N_01008_VALIDACAO_V1.json",
+      "sha256": "69ace0795aac37766c43aa0b537b94a2646cbf1247c6ca139af06b5585423833",
+      "tamanho": 2460
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

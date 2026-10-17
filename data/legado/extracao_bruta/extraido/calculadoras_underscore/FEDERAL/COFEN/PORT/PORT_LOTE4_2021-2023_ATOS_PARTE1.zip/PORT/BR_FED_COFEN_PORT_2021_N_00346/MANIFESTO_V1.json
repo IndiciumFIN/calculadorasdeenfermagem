@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-346-de-29-de-abril-de-2021/ (API WordPress post 86679); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2021_N_00346_ATOMOS_V1.jsonl",
+      "sha256": "2cfab5cc10ce3bb7b3c0bcae5af8990ef061630c1b314c07c5d3c6cb344da218",
+      "tamanho": 6109
+    },
+    {
+      "nome": "PORT_2021_N_00346_CONTEUDO_SITE_API.json",
+      "sha256": "42e5124325631dfbf31ab8a4aaed807a051852183f97df943fef391b29288f87",
+      "tamanho": 1460
+    },
+    {
+      "nome": "PORT_2021_N_00346_NORMA_V1.json",
+      "sha256": "df52a6c38e838196e9709410f6ab7d2412bda8f5f48342eb7bada794ed9a9b74",
+      "tamanho": 3087
+    },
+    {
+      "nome": "PORT_2021_N_00346_PAGINA_SITE.html",
+      "sha256": "cbcf00264cfd6e452cfbbb5fd772eba8ba2df2230b220e7bfe4c0ae2f3d8da37",
+      "tamanho": 439520
+    },
+    {
+      "nome": "PORT_2021_N_00346_TEXTO_FONTE_V1.txt",
+      "sha256": "9399f1e432056744391a9cb30ea31b212ab52206f3e874d4e98d5fdac34b0a17",
+      "tamanho": 886
+    },
+    {
+      "nome": "PORT_2021_N_00346_VALIDACAO_V1.json",
+      "sha256": "0d7100fe188798fc1212c448b61f21f6bb40d7afe46925f0259e2a91973953d2",
+      "tamanho": 2458
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

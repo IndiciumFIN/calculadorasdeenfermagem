@@ -1,0 +1,44 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-conselheiro-federal-no-106-2021-cofen/ (API WordPress post 87881); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCONS_2021_N_00106_ATOMOS_V1.jsonl",
+      "sha256": "4d77d045df66f3228065d7d793e6e7e4dce656e6810239a6eefe5ff8ffe27dae",
+      "tamanho": 61925
+    },
+    {
+      "nome": "PARCONS_2021_N_00106_CONTEUDO_SITE_API.json",
+      "sha256": "5acab1b8e06c5f73adffcf7b8520d7b8ed21f4ec019e2a9ff515e7c6ab8a2b65",
+      "tamanho": 15538
+    },
+    {
+      "nome": "PARCONS_2021_N_00106_NORMA_V1.json",
+      "sha256": "7766919d0e14031e02200c41d577c43711b00fb73f9c7c174652001f1c65a23c",
+      "tamanho": 5790
+    },
+    {
+      "nome": "PARCONS_2021_N_00106_PAGINA_SITE.html",
+      "sha256": "a7f5254a9563d23e4aea1d8e7bea087ff4d6186669d4efca7c9d4758989268ec",
+      "tamanho": 453430
+    },
+    {
+      "nome": "PARCONS_2021_N_00106_TEXTO_FONTE_V1.txt",
+      "sha256": "d286ef75bb0d9611559ed69addcb34f668ba93643c4a2829f6e3a31037602edc",
+      "tamanho": 13551
+    },
+    {
+      "nome": "PARCONS_2021_N_00106_VALIDACAO_V1.json",
+      "sha256": "25d706c511e04006ef94196117f92c7438b8c0990d5502c2bc35761562f4880f",
+      "tamanho": 3637
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

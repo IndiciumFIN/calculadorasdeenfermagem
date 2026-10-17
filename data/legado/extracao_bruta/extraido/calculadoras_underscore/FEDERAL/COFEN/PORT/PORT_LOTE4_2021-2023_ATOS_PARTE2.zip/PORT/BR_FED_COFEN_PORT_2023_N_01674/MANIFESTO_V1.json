@@ -1,0 +1,50 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-1674-de-13-de-novembro-de-2023/ (API WordPress post 119386); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2023_N_01674_ATOMOS_V1.jsonl",
+      "sha256": "314d2e565643f2774ee4bad18bab67e0cfab8ad04b7f4c8eaaa4660a18825b63",
+      "tamanho": 10250
+    },
+    {
+      "nome": "PORT_2023_N_01674_CONTEUDO_SITE_API.json",
+      "sha256": "f01b142cd607be00ad6bad91624e11bb81fad72fc6f83996ecaf520eb2ad183d",
+      "tamanho": 2721
+    },
+    {
+      "nome": "PORT_2023_N_01674_NORMA_V1.json",
+      "sha256": "3fd075751eab79ab5dcc66ab2f8dd7203c4719f3485426eff90e5f94d4c13688",
+      "tamanho": 3758
+    },
+    {
+      "nome": "PORT_2023_N_01674_PAGINA_SITE.html",
+      "sha256": "0ec01f70930e76e6b4863cf01cbddb36cd01c47935c325ceabde974205fb032b",
+      "tamanho": 442897
+    },
+    {
+      "nome": "PORT_2023_N_01674_PDF_SITE.pdf",
+      "sha256": "5ffff9ae09d33b994dbbdb93e4a25df0f0df6d8f65348e82d5a03361aee27cf8",
+      "tamanho": 117684
+    },
+    {
+      "nome": "PORT_2023_N_01674_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "bf423f2d5e610acce45430e33887d065abcc73c2476f88be2d582afea104fec3",
+      "tamanho": 2856
+    },
+    {
+      "nome": "PORT_2023_N_01674_TEXTO_FONTE_V1.txt",
+      "sha256": "b12acc1aa538119b4c87b73c0d99dc74a950c5e8517081d852026240d0f99c50",
+      "tamanho": 1788
+    },
+    {
+      "nome": "PORT_2023_N_01674_VALIDACAO_V1.json",
+      "sha256": "cd026a7ee24f22d1a4b2bbd834b009d29e7672f1b4bf69c2432e9eb5cd358bbd",
+      "tamanho": 4232
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada."
+  ]
+}

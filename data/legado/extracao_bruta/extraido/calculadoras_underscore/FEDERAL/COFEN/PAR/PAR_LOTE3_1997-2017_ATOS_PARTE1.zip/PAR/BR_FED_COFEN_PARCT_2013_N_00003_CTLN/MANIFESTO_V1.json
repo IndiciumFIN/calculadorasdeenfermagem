@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-03-2013-ctln-inclusao-de-recomendacao/ (API WordPress post 29101); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2013_N_00003_CTLN_ATOMOS_V1.jsonl",
+      "sha256": "bc5ff19825b796ed4920e5ae37e83fe4713a4deef1a392dfd263d48e862aa10a",
+      "tamanho": 19319
+    },
+    {
+      "nome": "PARCT_2013_N_00003_CTLN_CONTEUDO_SITE_API.json",
+      "sha256": "5d4888bed83d39fb7888a32ea5e640eaf1e442e109ee0b8ceaba911c6d89fba7",
+      "tamanho": 4045
+    },
+    {
+      "nome": "PARCT_2013_N_00003_CTLN_NORMA_V1.json",
+      "sha256": "b45b75b4edeb7e2082382439a6696cdd1fc911d73021c5f0f2153585e014632d",
+      "tamanho": 2737
+    },
+    {
+      "nome": "PARCT_2013_N_00003_CTLN_PAGINA_SITE.html",
+      "sha256": "988bb61c17ab3cad2d0fd842e25ba2367ab2cf78b0ba580ba76416f35111cad5",
+      "tamanho": 443855
+    },
+    {
+      "nome": "PARCT_2013_N_00003_CTLN_TEXTO_FONTE_V1.txt",
+      "sha256": "992e2cb3e88a76dd89028449db13c89eb135a36f9e5afc482b7c21154747ac78",
+      "tamanho": 3026
+    },
+    {
+      "nome": "PARCT_2013_N_00003_CTLN_VALIDACAO_V1.json",
+      "sha256": "467b70b17dd51d838caa3b5029afaab64503c8300fc492095892ab4763a0d46b",
+      "tamanho": 2644
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

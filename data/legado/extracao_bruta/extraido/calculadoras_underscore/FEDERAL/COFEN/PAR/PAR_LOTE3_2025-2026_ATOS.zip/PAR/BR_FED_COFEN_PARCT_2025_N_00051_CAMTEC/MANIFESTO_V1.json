@@ -1,0 +1,50 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-51-2025-camatas-tecnicas-de-enfermagem/ (API WordPress post 179297); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2025_N_00051_CAMTEC_ATOMOS_V1.jsonl",
+      "sha256": "2e2e3d2ba42f0c53f0a45492df74823d80564010cc1e6ef293813cab26260d17",
+      "tamanho": 41137
+    },
+    {
+      "nome": "PARCT_2025_N_00051_CAMTEC_CONTEUDO_SITE_API.json",
+      "sha256": "a2e4c7b338bf63b33ede4143db0079106610e5d6a2fec2480baf15f92f32b61b",
+      "tamanho": 12282
+    },
+    {
+      "nome": "PARCT_2025_N_00051_CAMTEC_NORMA_V1.json",
+      "sha256": "f226430cd8cde36471dafa9ae34b263c013963d7913106ac9cb80b3098e6e0f2",
+      "tamanho": 4540
+    },
+    {
+      "nome": "PARCT_2025_N_00051_CAMTEC_PAGINA_SITE.html",
+      "sha256": "cede255fb63ca639c8a1bd6553b881899804acaa52889532becc2bcc2f552461",
+      "tamanho": 452754
+    },
+    {
+      "nome": "PARCT_2025_N_00051_CAMTEC_PDF_SITE.pdf",
+      "sha256": "935750d6c4cf5888006be2b3148a0cb53934800fc69fe9d99e0681b15178a6da",
+      "tamanho": 197316
+    },
+    {
+      "nome": "PARCT_2025_N_00051_CAMTEC_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "952cbd700c075ec8d8f74d1d559bd180c9ee78b5cb4054428919891d39368431",
+      "tamanho": 10256
+    },
+    {
+      "nome": "PARCT_2025_N_00051_CAMTEC_TEXTO_FONTE_V1.txt",
+      "sha256": "d56fc40da0e2672246c4e72529f09362dff61c1ba1ee5bf08de92908526f2f7f",
+      "tamanho": 9855
+    },
+    {
+      "nome": "PARCT_2025_N_00051_CAMTEC_VALIDACAO_V1.json",
+      "sha256": "a25adcb2b2199706f439a025afdd5c37bad0ecabb51ad4f1da6031b09f8435c6",
+      "tamanho": 7709
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada."
+  ]
+}

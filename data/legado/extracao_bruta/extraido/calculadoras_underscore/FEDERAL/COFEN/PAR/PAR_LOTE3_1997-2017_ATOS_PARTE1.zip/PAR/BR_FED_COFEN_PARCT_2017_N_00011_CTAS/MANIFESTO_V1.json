@@ -1,0 +1,56 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-0112017cofenctas/ (API WordPress post 58044); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2017_N_00011_CTAS_ATOMOS_V1.jsonl",
+      "sha256": "c9771a44f8d5993f946ef2c02f20cfd43aabf6b5750aaf5e37e2fa41691c7e7a",
+      "tamanho": 48404
+    },
+    {
+      "nome": "PARCT_2017_N_00011_CTAS_CONTEUDO_SITE_API.json",
+      "sha256": "73beba322fda04179a5fdca126189a8d16380524473de74690531a26c1f1b451",
+      "tamanho": 11200
+    },
+    {
+      "nome": "PARCT_2017_N_00011_CTAS_NORMA_V1.json",
+      "sha256": "e5eb60724119803598fde6c945ceb109ea6d8a86a0b4146d9207000c537096df",
+      "tamanho": 5071
+    },
+    {
+      "nome": "PARCT_2017_N_00011_CTAS_PAGINA_SITE.html",
+      "sha256": "2677c99c7da36abdcffcbcc174fd430a664e17525a49b13666c094ae9c4a7bc8",
+      "tamanho": 448928
+    },
+    {
+      "nome": "PARCT_2017_N_00011_CTAS_PDF_SITE.pdf",
+      "sha256": "865f95f171f9cf583b3fff563526d243486532743aa36b4712ffff386a73ac4a",
+      "tamanho": 2075076
+    },
+    {
+      "nome": "PARCT_2017_N_00011_CTAS_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "5f4fe69a7a992bb61c32c4dc4a781e58337a274c391041b719f8fe3a0c59a57d",
+      "tamanho": 10373
+    },
+    {
+      "nome": "PARCT_2017_N_00011_CTAS_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tamanho": 1
+    },
+    {
+      "nome": "PARCT_2017_N_00011_CTAS_TEXTO_FONTE_V1.txt",
+      "sha256": "59b6db7f42bcf2e5ff7d9ed739a2d85892adce4d39475f12a098c3d6bf66fea2",
+      "tamanho": 9562
+    },
+    {
+      "nome": "PARCT_2017_N_00011_CTAS_VALIDACAO_V1.json",
+      "sha256": "bb0a2bed77656783b048c31f436a3ca4c41cde1d04370f5c36f907a035009e58",
+      "tamanho": 10364
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+  ]
+}

@@ -1,0 +1,80 @@
+{
+ "arquivos": [
+  {
+   "arquivo": "bloco.jsonl",
+   "atomos": 1360,
+   "bytes": 1445790,
+   "sha256": "04968018ebd54a3cb1df1426e4d230f4381ee479a57f98b014ed224ff75a74f1",
+   "tipo_entidade": "bloco"
+  },
+  {
+   "arquivo": "capitulo.jsonl",
+   "atomos": 28,
+   "bytes": 27735,
+   "sha256": "9952e421e017da2f8659ae28f791e78a6804bf8d867a101ff413e68288358080",
+   "tipo_entidade": "capitulo"
+  },
+  {
+   "arquivo": "categoria.jsonl",
+   "atomos": 35664,
+   "bytes": 37484555,
+   "sha256": "92cde37221b93f6d2d46ccb802b16de9a9b7b53e7b1c5e32ce128b3102b46c8d",
+   "tipo_entidade": "categoria"
+  }
+ ],
+ "atomos_por_tipo_entidade": {
+  "bloco": 1360,
+  "capitulo": 28,
+  "categoria": 35664
+ },
+ "conferencia_contagens": [
+  {
+   "arquivo_entrada": "icd11/cid11_mms_completa.csv",
+   "atomos": 37052,
+   "confere": true,
+   "explicacao": "",
+   "linhas_csv": 37052
+  },
+  {
+   "arquivo_entrada": "icd11/cid11_mms_categorias_com_codigo.csv",
+   "atomos": 0,
+   "confere": false,
+   "explicacao": "Subconjunto de cid11_mms_completa (as 35664 linhas com código); todas já estão nos átomos tipo 'categoria'. Não gera átomos novos para não duplicar.",
+   "linhas_csv": 35664
+  }
+ ],
+ "entradas": [
+  {
+   "arquivo": "icd11/cid11_mms_completa.json",
+   "linhas_csv": 37052,
+   "registros_json": 37052,
+   "sha256_csv": "61fb231473a02a0d4a2d8dfb3f33fff0cd2d39a434ceaf20b79233aa87da46b9",
+   "sha256_json": "e02664e399936275b88bc2c409f7db657d607d36adbbaf0d4581ffc3eebcf8a9"
+  },
+  {
+   "arquivo": "icd11/cid11_mms_categorias_com_codigo.json",
+   "linhas_csv": 35664,
+   "registros_json": 35664,
+   "sha256_csv": "e31b88903b28ddc71bb00d44da7f55d164c92aad8f1e2dae460cfa03a9454541",
+   "sha256_json": "b49034ddefefe0266261bf8f905eb35c9eb6a829d7906eba867dd05e2a5ba19b"
+  }
+ ],
+ "fontes": [
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "OMS - CID-11 MMS Simple Tabulation (pt)",
+   "fonte_url": "https://icdcdn.who.int/static/releasefiles/2026-01/SimpleTabulation-ICD-11-MMS-pt.zip",
+   "fonte_versao": "ICD-11 MMS release 2026-01"
+  }
+ ],
+ "regras": {
+  "atom_id": "<tema>:<codigo>; codigo = chave local, com prefixo de subfonte quando o tema tem mais de uma fonte",
+  "data_extracao": "fixa por fonte (2026-10-10), não é a data da execução",
+  "descricao_literal": "renderização literal 'campo: valor' de todos os registros de origem da entidade (nada resumido)",
+  "ordenacao": "um arquivo por tipo_entidade, linhas ordenadas por atom_id, partes <= 90.000.000 bytes",
+  "sha256_atomo": "SHA-256 do JSON canônico (sort_keys, ensure_ascii=False, separators=(',',':')) do átomo sem o campo sha256"
+ },
+ "tema": "icd11",
+ "total_atomos": 37052,
+ "versao_gerador": "atomizar.py 1.0.0"
+}

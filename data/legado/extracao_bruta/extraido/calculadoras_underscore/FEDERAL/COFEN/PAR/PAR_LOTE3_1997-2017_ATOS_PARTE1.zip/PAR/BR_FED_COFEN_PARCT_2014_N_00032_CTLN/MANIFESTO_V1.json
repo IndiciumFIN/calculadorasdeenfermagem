@@ -1,0 +1,51 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-32-2014-ctln-solicitacao-do-ministerio-publicors-obrigatoriedade-presenca-de-enfermeiro-samu/ (API WordPress post 29117); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2014_N_00032_CTLN_ATOMOS_V1.jsonl",
+      "sha256": "825ae7b9097f34248c6532521d5430a3ee2f579107018ab4a1aba35885a737c0",
+      "tamanho": 33465
+    },
+    {
+      "nome": "PARCT_2014_N_00032_CTLN_CONTEUDO_SITE_API.json",
+      "sha256": "bd179e0f8cb313ef226da575b39e2eac6d624a935f1d71ff5f21886df7967df3",
+      "tamanho": 7299
+    },
+    {
+      "nome": "PARCT_2014_N_00032_CTLN_NORMA_V1.json",
+      "sha256": "2fb726b1de688fd2c8d3c45b0f8f12ab3e3c3f1533164ed6ed03fb9943390dcc",
+      "tamanho": 4606
+    },
+    {
+      "nome": "PARCT_2014_N_00032_CTLN_PAGINA_SITE.html",
+      "sha256": "123a94c6925eb91a72727dfd712b9e7fb6eb591eed7a93251e4955a3269ce762",
+      "tamanho": 447004
+    },
+    {
+      "nome": "PARCT_2014_N_00032_CTLN_PDF_SITE.pdf",
+      "sha256": "fb262540f1a80ab51600c174f62fbdb90627b2d367ddbcfbe738e5a675a62812",
+      "tamanho": 1235482
+    },
+    {
+      "nome": "PARCT_2014_N_00032_CTLN_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "2e1ab9deed1544ba2931540c09320690366668c009c51700e0a1674c08a6a9a1",
+      "tamanho": 6104
+    },
+    {
+      "nome": "PARCT_2014_N_00032_CTLN_TEXTO_FONTE_V1.txt",
+      "sha256": "2d37970710659448860d6631243b022de30224a1a65eb6c9e19e044c71108b27",
+      "tamanho": 6198
+    },
+    {
+      "nome": "PARCT_2014_N_00032_CTLN_VALIDACAO_V1.json",
+      "sha256": "222f9c728e2825818351f92681db37fd4724b46e262099ed0c19ec6b26d8d904",
+      "tamanho": 8433
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+  ]
+}

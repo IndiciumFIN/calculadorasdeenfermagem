@@ -1,0 +1,89 @@
+{
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "entradas": [
+    {
+      "id_origem": "1_8gjbX0NYDN_uPe1WA6OY-IvoAzT_Nn6",
+      "caminho": "sepse/criterios_sofa_qsofa.csv",
+      "classe": "REFERENCIA",
+      "sha256": "b620741114c3b0931e38e379b7eb1bf50e520e9df68b02a3107ee7306d63e2a3"
+    },
+    {
+      "id_origem": "1axgeX9gSXDA_HQ-cKWKZbSlqIzOfWbyy",
+      "caminho": "sepse/sepse_cid10.csv",
+      "classe": "REFERENCIA",
+      "sha256": "97a3692f3955406f5642dacc95eefa4aa4b81b32bea03092d23182e04657cc15"
+    },
+    {
+      "id_origem": "1TqON1PhdJvwyblSl_WRFP7hdKWLVS1fu",
+      "caminho": "sepse/sepse_medlineplus.csv",
+      "classe": "REFERENCIA",
+      "sha256": "716f254fcb46c719537ee34bdbe1ff1d2203f13c41e2673324e378e4a851992b"
+    },
+    {
+      "id_origem": "1DHHjSw16wJx8h3sJQzWyzSFggarlyWkX",
+      "caminho": "sepse/sepse_cid11.csv",
+      "classe": "REFERENCIA",
+      "sha256": "b344d7d368f5b5157e0c3d7ce8eac080bf148259c2559d56afd7d7054624bff1"
+    },
+    {
+      "id_origem": "1kH1BmLlTB6mxV8OBG280kFV1KwCn08QD",
+      "caminho": "sepse/sepse_mesh.csv",
+      "classe": "REFERENCIA",
+      "sha256": "489ae70c3f31891257b5e7ee970736253648e004bd56cb8ba6b52749217014d9"
+    },
+    {
+      "id_origem": "16EE4ImtPTHipM8BKvgLn2RmqJdqOlpr1",
+      "caminho": "sepse/criterios_sepsis3.json",
+      "classe": "REFERENCIA",
+      "sha256": "8a2e032ee51508e86f3ab213a73478ded8458f53e02a51f2213c13c47aef4d6d"
+    },
+    {
+      "id_origem": "1CR_AJkHnbbvelMzRLM6mTKqAJoOPSmwt",
+      "caminho": "sepse/criterios_sofa_qsofa.json",
+      "classe": "REFERENCIA",
+      "sha256": "f6c94f3318917f2e286306dd2d579b23d1b129111683cc9dd7ca83e162ec4461"
+    },
+    {
+      "id_origem": "15il7ALACNAXKUOGONxBhIFEb_9GYkGMu",
+      "caminho": "sepse/criterios_sepsis3_v2.json",
+      "classe": "REFERENCIA",
+      "sha256": "450b1d9e31b1e21524c2e59124df9e7d6948285060c10a8aad2da903d08ed0d8"
+    },
+    {
+      "id_origem": "1gNvyHXrXssUY0HUJWIx8hYJ9g3m06xyL",
+      "caminho": "sepse/sepse_cid10.json",
+      "classe": "REFERENCIA",
+      "sha256": "888e1d23d09eabacb1e8631e6225b4e61e0189db2f514b5d66cebad814338aed"
+    },
+    {
+      "id_origem": "181tJxvkWLDRQmjX6zWDiTRz2Vm5x34kb",
+      "caminho": "sepse/sepse_cid11.json",
+      "classe": "REFERENCIA",
+      "sha256": "ff9228f149d5429e1773035e6a2881c95d99f2b9347fdcbebf0e44cf36675c6b"
+    },
+    {
+      "id_origem": "1GggiNotlSg8oXEalkSAQj_5AzJU5nwu1",
+      "caminho": "sepse/sepse_mesh.json",
+      "classe": "REFERENCIA",
+      "sha256": "93b0b06439ea146c26c4aca219683e61665af027922c06d92643748f8494811c"
+    },
+    {
+      "id_origem": "1qTiIwVzJjCUzgRMZCOOKuAXjUR-5VL_S",
+      "caminho": "sepse/sepse_medlineplus.json",
+      "classe": "REFERENCIA",
+      "sha256": "4aa2029f74a7b9b62c90c669bd7193a5c90fff0669ccdb0c1dd65b4beba20d9e"
+    }
+  ],
+  "id": "WO-2026_10_15_0006",
+  "task_type": "atomizar",
+  "parametros": {
+    "lote": "sepse",
+    "origem_work_order": "WO-2026_10_15_0005",
+    "id_anterior": "WO-ATOMIZAR-EXTRACAO-SEPSE-001"
+  },
+  "task_id": "TAREFA-ATOMIZAR",
+  "task_version": "1.0.0"
+}

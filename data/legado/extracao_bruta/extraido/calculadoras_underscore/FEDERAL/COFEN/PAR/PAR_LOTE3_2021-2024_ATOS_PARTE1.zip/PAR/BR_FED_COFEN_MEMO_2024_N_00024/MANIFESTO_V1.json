@@ -1,0 +1,53 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/memorando-no-24-2024-cofen-camtec-ctlnenf/ (API WordPress post 139705); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "MEMO_2024_N_00024_ATOMOS_V1.jsonl",
+      "sha256": "62cf517e6f503cef3fdc96b6d4755051670ff1eb89f07f05c9104c73e035f2f5",
+      "tamanho": 53612
+    },
+    {
+      "nome": "MEMO_2024_N_00024_CONTEUDO_SITE_API.json",
+      "sha256": "a0d5d72f3ffa7cea59e797a17ce3aae15fc339eb6f9aea8c4b5679955c1fbe96",
+      "tamanho": 12403
+    },
+    {
+      "nome": "MEMO_2024_N_00024_NORMA_V1.json",
+      "sha256": "992b4fb391c7fe9817a21150ba87f28f8b00bfacd1bcd02a56ba1ae11f36e380",
+      "tamanho": 4485
+    },
+    {
+      "nome": "MEMO_2024_N_00024_PAGINA_SITE.html",
+      "sha256": "a695a6391bbe95a5718e83c0785fa6e65fd8f300eb92d60cf758f8b7d12aaaef",
+      "tamanho": 452145
+    },
+    {
+      "nome": "MEMO_2024_N_00024_PDF_SITE.pdf",
+      "sha256": "326f7c188877a7b792072f3b5226e4d22b5fc9e7567f9aa60a8fbc18b1040b7e",
+      "tamanho": 159504
+    },
+    {
+      "nome": "MEMO_2024_N_00024_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "2efb26d1a3f408b72087fa3e1f07846775aba8d5678108b77d0f88b4c25fac1c",
+      "tamanho": 9265
+    },
+    {
+      "nome": "MEMO_2024_N_00024_TEXTO_FONTE_V1.txt",
+      "sha256": "8f6ab2c1854d0ad2763207af46b3ca16781175e03b2e4ff30ba8f420087fd8ec",
+      "tamanho": 8843
+    },
+    {
+      "nome": "MEMO_2024_N_00024_VALIDACAO_V1.json",
+      "sha256": "c09c5801f478f632c653526083e8923aec215946b8982e5843f2e578b4c7434e",
+      "tamanho": 12375
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "TIPO: Memorando listado na categoria Pareceres.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

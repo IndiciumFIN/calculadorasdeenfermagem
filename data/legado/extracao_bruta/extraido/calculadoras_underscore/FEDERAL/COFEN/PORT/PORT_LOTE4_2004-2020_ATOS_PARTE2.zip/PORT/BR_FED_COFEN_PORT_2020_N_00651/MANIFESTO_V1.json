@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-651-de-5-de-novembro-de-2020/ (API WordPress post 83135); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2020_N_00651_ATOMOS_V1.jsonl",
+      "sha256": "0f216f075a4ecc5ddc8718f58dbb1d75eac7df3c53ed0ffd040fcf3cc69abcaa",
+      "tamanho": 6728
+    },
+    {
+      "nome": "PORT_2020_N_00651_CONTEUDO_SITE_API.json",
+      "sha256": "93206491e2c04cc7d6fe9df976098ced064d82196fcf6b3d57cfe4782ddf2551",
+      "tamanho": 2084
+    },
+    {
+      "nome": "PORT_2020_N_00651_NORMA_V1.json",
+      "sha256": "d307db56e30d25772cb37420b8984313f6d495244c708b12d652a032c274b388",
+      "tamanho": 3274
+    },
+    {
+      "nome": "PORT_2020_N_00651_PAGINA_SITE.html",
+      "sha256": "d87dd797fff0cb188061ae4b2b546c9af69c417cb252aa25c15dfe7a9b1ed558",
+      "tamanho": 441881
+    },
+    {
+      "nome": "PORT_2020_N_00651_TEXTO_FONTE_V1.txt",
+      "sha256": "22c5afcf22538b4f63d0fa0df69bf1ead8c65c102cc7773b13d2bcc22620c288",
+      "tamanho": 1519
+    },
+    {
+      "nome": "PORT_2020_N_00651_VALIDACAO_V1.json",
+      "sha256": "88aea265109662ff908ed37314969352ed584bcb344ead201cff1dc6b6d95a5a",
+      "tamanho": 2460
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

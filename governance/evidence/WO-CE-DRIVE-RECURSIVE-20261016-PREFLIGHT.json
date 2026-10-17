@@ -1,0 +1,49 @@
+{
+  "schema": "CE-DRIVE-RECURSIVE-PREFLIGHT-1.0.0",
+  "status": "IMPLEMENTED_NOT_EXECUTION_APPROVED",
+  "branch": "cursor/fix-governance-gaps-ec54",
+  "changes": [
+    {
+      "commit": "4623595d19f24c1c09b542e678bba773777625e9",
+      "path": "tests/test_drive_recursive_inventory.py",
+      "note": "nine tests authored; not reported passed"
+    },
+    {
+      "commit": "db851a4653f869e7949e50b6fe3b610141a421f4",
+      "path": "config/drive_inventory_roots_20261016.json",
+      "note": "four roots registered"
+    },
+    {
+      "commit": "4a569e04c42fd57dc574ab7774d34bb995e2cbd9",
+      "path": ".github/workflows/drive-recursive-collect.yml",
+      "note": "read-only candidate workflow"
+    },
+    {
+      "commit": "46e48375b9cd020f7fc5e1d1c87f48ff88bf6ac7",
+      "path": ".github/workflows/drive-recursive-collect.yml",
+      "note": "push trigger for authorized branch"
+    }
+  ],
+  "checks": {
+    "git_readback": "PASS",
+    "tests_written": 9,
+    "tests_run": "NOT_VERIFIED",
+    "github_actions_run": "NOT_VERIFIED",
+    "credential_configured": "NOT_VERIFIED",
+    "drive_inventory_run": "NOT_RUN_BY_ASSISTANT",
+    "kernel_wo_for_new_acquisition": "PENDING",
+    "rights_gate": "PENDING",
+    "sha256_remote_bytes": "NOT_AVAILABLE",
+    "zip_contents": "NOT_INSPECTED",
+    "main_merged": false,
+    "source_deleted": false,
+    "publication": "HOLD"
+  },
+  "next": [
+    "Inspect GitHub Actions run artifacts and logs",
+    "Provide scoped read-only Drive credential in GitHub Actions secret if missing",
+    "Register acquired snapshot SHA-256 with a new qualified Work Order",
+    "Run existing Kernel inventory validator with approved WO",
+    "Only then prepare N/C batch manifests"
+  ]
+}

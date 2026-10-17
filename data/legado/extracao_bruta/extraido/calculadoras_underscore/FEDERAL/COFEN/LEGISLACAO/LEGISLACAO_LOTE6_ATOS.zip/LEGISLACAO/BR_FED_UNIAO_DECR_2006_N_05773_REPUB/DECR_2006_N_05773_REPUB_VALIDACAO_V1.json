@@ -1,0 +1,129 @@
+{
+  "identificador": "BR_FED_UNIAO_DECR_2006_N_05773_REPUB",
+  "resultado_processo": "PENDENTE",
+  "rotulo": "Pendente de verificação",
+  "controles": [
+    {
+      "nome": "Identificação do ato e emissor",
+      "resultado": "PASS",
+      "evidencia": "Decreto 5773"
+    },
+    {
+      "nome": "Conferência site HTML × PDF oficial, dispositivo a dispositivo",
+      "resultado": "NAO_EXECUTADO",
+      "status": "NAO_APLICAVEL_TEXTO_SO_NO_PDF",
+      "evidencia": {
+        "dispositivos_comparados": 0,
+        "por_resultado": {},
+        "trechos_pdf_ausentes_no_site": 0,
+        "pdf": "DECR_2006_N_05773_REPUB_PDF_SITE.pdf"
+      }
+    },
+    {
+      "nome": "Publicação no DOU (registro, sem verificação online)",
+      "resultado": "REGISTRADO",
+      "evidencia": null
+    },
+    {
+      "nome": "Anexos referenciados presentes e atomizados",
+      "resultado": "NAO_APLICAVEL",
+      "status": "SEM_ANEXO_REFERENCIADO",
+      "referencias": []
+    },
+    {
+      "nome": "Numeração contígua (seções, itens, alíneas)",
+      "resultado": "FAIL",
+      "evidencia": [
+        "Artigos: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 17, 18, 19, 19, 20, 21, 22, 23, 23, 24, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 35, 35, 36, 36, 37, 38, 39, 39, 40, 41, 41, 42, 42, 43, 44, 44, 45, 45, 46, 47, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 60, 61, 62, 63, 64, 65, 66, 67, 68, 68, 69, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79]",
+        "Parágrafos sob BR_FED_UNIAO_DECR_2006_N_05773_REPUB_ART_010: [1, 2, 3, 4, 5, 6, 7, 7, 8, 8, 9, 10, 10, 11]",
+        "Parágrafos sob BR_FED_UNIAO_DECR_2006_N_05773_REPUB_ART_011: [1, 2, 2, 3, 4]",
+        "Parágrafos sob BR_FED_UNIAO_DECR_2006_N_05773_REPUB_ART_013: [1, 2, 3, 4, 4]",
+        "Parágrafos sob BR_FED_UNIAO_DECR_2006_N_05773_REPUB_ART_017_2: [1, 2, 3, 4, 4]",
+        "Parágrafos sob BR_FED_UNIAO_DECR_2006_N_05773_REPUB_ART_024_2: [1, 2, 2, 3, 4, 4, 5]",
+        "Parágrafos sob BR_FED_UNIAO_DECR_2006_N_05773_REPUB_ART_025: [1, 2, 3, 4, 4, 5, 6, 7]",
+        "Parágrafos sob BR_FED_UNIAO_DECR_2006_N_05773_REPUB_ART_028: [1, 2, 2, 2, 3, 3, 4, 5, 6]",
+        "Parágrafos sob BR_FED_UNIAO_DECR_2006_N_05773_REPUB_ART_046: [1, 2, 2, 3, 3, 4, 5]",
+        "Parágrafos sob BR_FED_UNIAO_DECR_2006_N_05773_REPUB_ART_063: [1, 2, 2, 3, 3, 4, 5]",
+        "Parágrafos sob BR_FED_UNIAO_DECR_2006_N_05773_REPUB_ART_077: [4, 2, 5]",
+        "Parágrafos sob BR_FED_UNIAO_DECR_2006_N_05773_REPUB_ART_077: começa em 4 (sequência [4, 2, 5])",
+        "Alíneas sob BR_FED_UNIAO_DECR_2006_N_05773_REPUB_ART_015: [1, 2, 3, 4, 5, 6, 6, 7, 8] [alíneas: provável transcrição parcial de outra norma]"
+      ]
+    },
+    {
+      "nome": "Conferência humana da literalidade",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Pesquisa de alterações posteriores",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Direitos autorais do texto do ato oficial",
+      "resultado": "PASS",
+      "fundamento": "Lei 9.610/1998, art. 8, IV"
+    }
+  ],
+  "fechamento": {
+    "apto": false,
+    "status": "PENDENCIAS",
+    "justificativa": "Aguardando revisão humana da atomização e pesquisa de atos posteriores. Há achados bloqueantes adicionais."
+  },
+  "achados": [
+    {
+      "codigo": "C001",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Atomização automática; requer conferência humana da segmentação e da literalidade."
+    },
+    {
+      "codigo": "C002",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada."
+    },
+    {
+      "codigo": "C016",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "Texto do ato disponível apenas no PDF (o site traz só título/resumo); atomização feita a partir da camada de texto do PDF."
+    },
+    {
+      "codigo": "C030",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+      "evidencia": [
+        "Artigos: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 17, 18, 19, 19, 20, 21, 22, 23, 23, 24, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 35, 35, 36, 36, 37, 38, 39, 39, 40, 41, 41, 42, 42, 43, 44, 44, 45, 45, 46, 47, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 60, 61, 62, 63, 64, 65, 66, 67, 68, 68, 69, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79]",
+        "Parágrafos sob BR_FED_UNIAO_DECR_2006_N_05773_REPUB_ART_010: [1, 2, 3, 4, 5, 6, 7, 7, 8, 8, 9, 10, 10, 11]",
+        "Parágrafos sob BR_FED_UNIAO_DECR_2006_N_05773_REPUB_ART_011: [1, 2, 2, 3, 4]",
+        "Parágrafos sob BR_FED_UNIAO_DECR_2006_N_05773_REPUB_ART_013: [1, 2, 3, 4, 4]",
+        "Parágrafos sob BR_FED_UNIAO_DECR_2006_N_05773_REPUB_ART_017_2: [1, 2, 3, 4, 4]",
+        "Parágrafos sob BR_FED_UNIAO_DECR_2006_N_05773_REPUB_ART_024_2: [1, 2, 2, 3, 4, 4, 5]",
+        "Parágrafos sob BR_FED_UNIAO_DECR_2006_N_05773_REPUB_ART_025: [1, 2, 3, 4, 4, 5, 6, 7]",
+        "Parágrafos sob BR_FED_UNIAO_DECR_2006_N_05773_REPUB_ART_028: [1, 2, 2, 2, 3, 3, 4, 5, 6]",
+        "Parágrafos sob BR_FED_UNIAO_DECR_2006_N_05773_REPUB_ART_046: [1, 2, 2, 3, 3, 4, 5]",
+        "Parágrafos sob BR_FED_UNIAO_DECR_2006_N_05773_REPUB_ART_063: [1, 2, 2, 3, 3, 4, 5]",
+        "Parágrafos sob BR_FED_UNIAO_DECR_2006_N_05773_REPUB_ART_077: [4, 2, 5]"
+      ]
+    },
+    {
+      "codigo": "C031",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir.",
+      "evidencia": [
+        "Parágrafos sob BR_FED_UNIAO_DECR_2006_N_05773_REPUB_ART_077: começa em 4 (sequência [4, 2, 5])",
+        "Alíneas sob BR_FED_UNIAO_DECR_2006_N_05773_REPUB_ART_015: [1, 2, 3, 4, 5, 6, 6, 7, 8] [alíneas: provável transcrição parcial de outra norma]"
+      ]
+    },
+    {
+      "codigo": "C042",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "DUPLICADA: nova publicação no site do mesmo ato (post 41577, 2016-06-15); a primeira é o post 36784 (2015-12-09). Similaridade 92."
+    }
+  ],
+  "conferencia_por_dispositivo": [],
+  "data_verificacao": "2026-10-10",
+  "responsavel": "Triagem automatizada - requer validação humana"
+}

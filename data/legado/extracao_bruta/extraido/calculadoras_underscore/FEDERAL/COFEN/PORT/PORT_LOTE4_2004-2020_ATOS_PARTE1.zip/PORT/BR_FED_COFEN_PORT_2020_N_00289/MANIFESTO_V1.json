@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-289-de-04-de-maio-de-2020/ (API WordPress post 81549); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2020_N_00289_ATOMOS_V1.jsonl",
+      "sha256": "7f196d7d0e54387afc4e3aad43455283e5e7b2f5985423ab086c26b3927ab524",
+      "tamanho": 11549
+    },
+    {
+      "nome": "PORT_2020_N_00289_CONTEUDO_SITE_API.json",
+      "sha256": "f42ac2a916ba5f3a1eaba1123fb62d381c5ad886959e406fcb97044d89b98c4a",
+      "tamanho": 2068
+    },
+    {
+      "nome": "PORT_2020_N_00289_NORMA_V1.json",
+      "sha256": "24770e4f101902e9e140a663effdb454e3f31af06783d1ff0503d1d209ef3081",
+      "tamanho": 3487
+    },
+    {
+      "nome": "PORT_2020_N_00289_PAGINA_SITE.html",
+      "sha256": "fc90c9fe5ee90b64e859721bca0c86b09b13423300203eb32c1e93aa758b98a0",
+      "tamanho": 439897
+    },
+    {
+      "nome": "PORT_2020_N_00289_TEXTO_FONTE_V1.txt",
+      "sha256": "3e30f651c47287bc4073a48bff4d3188cfbef5fcb87adc5eb7326bf48861d97b",
+      "tamanho": 1394
+    },
+    {
+      "nome": "PORT_2020_N_00289_VALIDACAO_V1.json",
+      "sha256": "027c5b6256e9302baffad10885193a0c11fedd7591e4903744c5e845238254bf",
+      "tamanho": 2457
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

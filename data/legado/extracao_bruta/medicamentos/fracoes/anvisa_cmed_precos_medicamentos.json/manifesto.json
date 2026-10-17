@@ -1,0 +1,25 @@
+{
+  "algoritmo": "concatenacao-bytes-sha256",
+  "id_origem": "1YidMR-L1ovUfyxz4-jxUtfgr_5o3Kn1c",
+  "arquivo": "anvisa_cmed_precos_medicamentos.json",
+  "caminho_obter": "medicamentos/inteiros/anvisa_cmed_precos_medicamentos.json",
+  "bytes": 57759041,
+  "sha256": "1259f573cbcb84b9f6e7e9f7833dc5cddb016d64d736e1049d2ec54a9767ef54",
+  "tamanho_parte": 40000000,
+  "partes": [
+    {
+      "nome": "part-000",
+      "ordem": 0,
+      "offset": 0,
+      "bytes": 40000000,
+      "sha256": "33eedef13687cec287cbe7bd4ecaf882d4b2b2da5500fe6970af2bbdae3a3ea5"
+    },
+    {
+      "nome": "part-001",
+      "ordem": 1,
+      "offset": 40000000,
+      "bytes": 17759041,
+      "sha256": "41767c99247370ea59859d05f9f468e3efd933f2d7be96f3f551db652e42e816"
+    }
+  ]
+}

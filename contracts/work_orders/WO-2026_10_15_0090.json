@@ -1,0 +1,76 @@
+{
+  "id": "WO-2026_10_15_0090",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "task_id": "TAREFA-OBTER",
+  "task_version": "1.0.0",
+  "task_type": "obter",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "parametros": {
+    "lote": "cofen_dec_abaixo_50",
+    "alternativa": "zips de decreto abaixo de 50 MB; listagem da pasta ainda tem pagina"
+  },
+  "entradas": [
+    {
+      "id_origem": "17VAo6hC0hAky4g6UIFQIERAc1lBPYDVF",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/DEC/DEC_LOTE5_ATOS.zip",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1zZP0OIudXbNBqQhP2oC0qW90Nl46JKBp",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/DEC/DEC_2026_ATOS.zip",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1Po8p_JoVbsFrRZHeCoC-OrP59QzSuddG",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/DEC/DEC_2019_ATOS.zip",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1F5EEdCIW9PhNxJRzufrMEPtHYzpqB2id",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/DEC/DEC_2021_ATOS.zip",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1MXgiT6GrdwLkvNjgSiD-LhJHjKKAOAxJ",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/DEC/DEC_2025_ATOS.zip",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1XW4RS5fG_akp5B1sdHr46dMxhI3POKZX",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/DEC/DEC_2022_ATOS.zip",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1B_7yrKJV7SAYys-WzhyoD38WDAyUl5ww",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/DEC/DEC_2020_ATOS.zip",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1no6_R3_-30d-S1mTRbFKjCB5rBGmF54H",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/DEC/DEC_2023_ATOS_PARTE2.zip",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1neCdwzRbspnDJcZcgZE8vwKdBL5i832L",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/DEC/DEC_2017_ATOS_PARTE2.zip",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1fzWFJsFkGfAMMmrDXQ_PID9EOehFwQbY",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/DEC/DEC_2018_ATOS.zip",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1_2X7vf0JlcNE6z0y40toKcZ0vd2Wf3v0",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/DEC/DEC_2014_ATOS.zip",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1aP96RKG76IcTB8rTgNbpvdpUS-at4hUJ",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/DEC/DEC_2017_ATOS_PARTE3.zip",
+      "classe": "REFERENCIA"
+    }
+  ]
+}

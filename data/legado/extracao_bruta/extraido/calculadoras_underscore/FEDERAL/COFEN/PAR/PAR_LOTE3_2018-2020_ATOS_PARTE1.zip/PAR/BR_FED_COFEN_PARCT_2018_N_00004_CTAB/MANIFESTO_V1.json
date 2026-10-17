@@ -1,0 +1,51 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-04-2018-cofen-ctab/ (API WordPress post 67486); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2018_N_00004_CTAB_ATOMOS_V1.jsonl",
+      "sha256": "9d5f729c5c67d587a0d34515670353f6de75dd9db4c348c888d14c74c6365f11",
+      "tamanho": 50539
+    },
+    {
+      "nome": "PARCT_2018_N_00004_CTAB_CONTEUDO_SITE_API.json",
+      "sha256": "6825ea020a6bf8ed4778acc1fa31a01937b43804f89188f2c3679bb2556fd46d",
+      "tamanho": 12408
+    },
+    {
+      "nome": "PARCT_2018_N_00004_CTAB_NORMA_V1.json",
+      "sha256": "a0bfa07098ba48632723515f1d34eaa5fadce013ea3036bd07331f6279c33b44",
+      "tamanho": 3727
+    },
+    {
+      "nome": "PARCT_2018_N_00004_CTAB_PAGINA_SITE.html",
+      "sha256": "8981fdfdeed7b381c7ee5d3775ff6227e8779bdd33d865e77ec95b3d4adb5581",
+      "tamanho": 450192
+    },
+    {
+      "nome": "PARCT_2018_N_00004_CTAB_PDF_SITE.pdf",
+      "sha256": "72f89e736d00a1a3dcebd13269ccf55c37f6b81dbe72eba5fdf44db217aa7235",
+      "tamanho": 667921
+    },
+    {
+      "nome": "PARCT_2018_N_00004_CTAB_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "8cc7e12f2bdf05933bde3b35d8e3ff76cd627a7976e38cd75ceca492c954635a",
+      "tamanho": 11749
+    },
+    {
+      "nome": "PARCT_2018_N_00004_CTAB_TEXTO_FONTE_V1.txt",
+      "sha256": "da28dfadc80fd6e9e02231c4467b1b48d060f07359cdc71d27602930157bab08",
+      "tamanho": 10677
+    },
+    {
+      "nome": "PARCT_2018_N_00004_CTAB_VALIDACAO_V1.json",
+      "sha256": "db4c5813f08cd5f3b330bec0c20ae4585fb52b1359bc6237aa07127f47eb2571",
+      "tamanho": 11587
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+  ]
+}

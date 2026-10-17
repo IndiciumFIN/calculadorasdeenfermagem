@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-n-380-de-5-de-maio-de-2011/ (API WordPress post 6801); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2011_N_00380_ATOMOS_V1.jsonl",
+      "sha256": "0b1a9f901c04f5464f7f7608ecd37aafbdeebee035166aad76da1f8c6cbf187a",
+      "tamanho": 6751
+    },
+    {
+      "nome": "PORT_2011_N_00380_CONTEUDO_SITE_API.json",
+      "sha256": "f2525a5b9b4b9b7d6ed38b3ea8cfd3cdb768433bd52514b194e5b797c5203839",
+      "tamanho": 1728
+    },
+    {
+      "nome": "PORT_2011_N_00380_NORMA_V1.json",
+      "sha256": "d67a68843b96bdaddb81ce69911b3ecd71caa4a7955052d6d5c203abec42d734",
+      "tamanho": 2624
+    },
+    {
+      "nome": "PORT_2011_N_00380_PAGINA_SITE.html",
+      "sha256": "3f952cf90ddf6c55a854212ee2b466a41138305a1858c1b7677cf6b53b9d98f4",
+      "tamanho": 439334
+    },
+    {
+      "nome": "PORT_2011_N_00380_TEXTO_FONTE_V1.txt",
+      "sha256": "fabfad55961f6443f2a9da724a4983ef8095d1c5bbf62287c2f3ac3ad6f625f8",
+      "tamanho": 906
+    },
+    {
+      "nome": "PORT_2011_N_00380_VALIDACAO_V1.json",
+      "sha256": "d04d519ed31fe607dba8eae08b3b034ba4980ff06a0a2a2b5fc1cc2d30905120",
+      "tamanho": 2456
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

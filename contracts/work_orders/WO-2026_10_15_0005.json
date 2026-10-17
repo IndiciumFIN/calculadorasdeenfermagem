@@ -1,0 +1,78 @@
+{
+  "id": "WO-2026_10_15_0005",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "task_type": "obter",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "parametros": {
+    "pasta_drive": "1l519_P-9o6bnQcItydKvEEDpEYeE8R8s",
+    "pasta_sepse": "1Ca_H3hsH_dLLq6C9ZdZKWA4I7moaBctD",
+    "lote": "sepse",
+    "id_anterior": "WO-OBTER-EXTRACAO-SEPSE-001"
+  },
+  "entradas": [
+    {
+      "id_origem": "1_8gjbX0NYDN_uPe1WA6OY-IvoAzT_Nn6",
+      "caminho": "sepse/criterios_sofa_qsofa.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1axgeX9gSXDA_HQ-cKWKZbSlqIzOfWbyy",
+      "caminho": "sepse/sepse_cid10.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1TqON1PhdJvwyblSl_WRFP7hdKWLVS1fu",
+      "caminho": "sepse/sepse_medlineplus.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1DHHjSw16wJx8h3sJQzWyzSFggarlyWkX",
+      "caminho": "sepse/sepse_cid11.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1kH1BmLlTB6mxV8OBG280kFV1KwCn08QD",
+      "caminho": "sepse/sepse_mesh.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "16EE4ImtPTHipM8BKvgLn2RmqJdqOlpr1",
+      "caminho": "sepse/criterios_sepsis3.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1CR_AJkHnbbvelMzRLM6mTKqAJoOPSmwt",
+      "caminho": "sepse/criterios_sofa_qsofa.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "15il7ALACNAXKUOGONxBhIFEb_9GYkGMu",
+      "caminho": "sepse/criterios_sepsis3_v2.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1gNvyHXrXssUY0HUJWIx8hYJ9g3m06xyL",
+      "caminho": "sepse/sepse_cid10.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "181tJxvkWLDRQmjX6zWDiTRz2Vm5x34kb",
+      "caminho": "sepse/sepse_cid11.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1GggiNotlSg8oXEalkSAQj_5AzJU5nwu1",
+      "caminho": "sepse/sepse_mesh.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1qTiIwVzJjCUzgRMZCOOKuAXjUR-5VL_S",
+      "caminho": "sepse/sepse_medlineplus.json",
+      "classe": "REFERENCIA"
+    }
+  ],
+  "task_id": "TAREFA-OBTER",
+  "task_version": "1.0.0"
+}

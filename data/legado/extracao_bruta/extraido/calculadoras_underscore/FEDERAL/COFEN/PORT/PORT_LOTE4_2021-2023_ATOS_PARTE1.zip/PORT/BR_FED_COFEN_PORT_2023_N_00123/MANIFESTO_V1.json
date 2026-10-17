@@ -1,0 +1,50 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-123-de-26-de-janeiro-de-2023/ (API WordPress post 105724); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2023_N_00123_ATOMOS_V1.jsonl",
+      "sha256": "5d1537082efa986bf54299fd7e9e486bfa425bd2b2f770ab5efdbcee763a7973",
+      "tamanho": 7966
+    },
+    {
+      "nome": "PORT_2023_N_00123_CONTEUDO_SITE_API.json",
+      "sha256": "9154227cf42e5e6e6962514b5b0bb0fdd1aa32e7016092c31ee7db61ce2382b0",
+      "tamanho": 2325
+    },
+    {
+      "nome": "PORT_2023_N_00123_NORMA_V1.json",
+      "sha256": "a6367b34a2a1121fcf5ad9d2baaa30f64468ddaed0f56e6bc62fa2c23c8ab5f6",
+      "tamanho": 4235
+    },
+    {
+      "nome": "PORT_2023_N_00123_PAGINA_SITE.html",
+      "sha256": "1d531a0210a47cb1d5ee5e5728f9b83c802c0f69ae6bcd8a9f7fdb09811921a2",
+      "tamanho": 440982
+    },
+    {
+      "nome": "PORT_2023_N_00123_PDF_SITE.pdf",
+      "sha256": "44929b3e7fbb8390f21021ce3dcbcb78142f35ddf2ff5c68ea0a189d68dfc903",
+      "tamanho": 112417
+    },
+    {
+      "nome": "PORT_2023_N_00123_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "d1fc666de3b0f1ef4e1b018a648f14970d890d703a18e39d1e9e1c3d68977f52",
+      "tamanho": 1884
+    },
+    {
+      "nome": "PORT_2023_N_00123_TEXTO_FONTE_V1.txt",
+      "sha256": "da2d5166bfcb3ec9fdbb42ea0d829d8bb799d40cf88c4dfd227e63c326480424",
+      "tamanho": 1009
+    },
+    {
+      "nome": "PORT_2023_N_00123_VALIDACAO_V1.json",
+      "sha256": "3497734e283eefaf4f317ae44881ea14111c0b4937431944252b530bcf53b1be",
+      "tamanho": 3897
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada."
+  ]
+}

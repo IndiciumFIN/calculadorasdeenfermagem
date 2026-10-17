@@ -1,0 +1,56 @@
+name: ZIP piloto via WO Kernel
+on:
+  push:
+    branches: [cursor/fix-governance-gaps-ec54]
+    paths:
+      - 'packages/cli/archive_audit.py'
+      - 'packages/cli/staging.py'
+      - 'packages/cli/kernel.py'
+      - 'contracts/work_orders/WO-2026_10_16_0105.json'
+      - '.github/workflows/drive-zip-pilot.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  zip-pilot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            packages/cli/
+            packages/schemas/
+            policies/
+            contracts/work_orders/WO-2026_10_16_0105.json
+            data/legado/extracao_bruta/CKO_CURSOR_00_CONTROLE_v1_0_0.zip
+      - name: Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.11'
+      - name: Dependencias
+        run: pip install -r packages/cli/requirements.txt
+      - name: Analisar ZIP atraves do Kernel
+        run: PYTHONPATH=. python -m packages.cli.kernel auditar-zip --work-order contracts/work_orders/WO-2026_10_16_0105.json
+      - name: Gerar runtime do Kernel para execução privada
+        run: |
+          tar -czf kernel-runtime.tar.gz packages/cli packages/schemas policies
+          sha256sum kernel-runtime.tar.gz > kernel-runtime.tar.gz.sha256
+      - name: Runtime versionado como artefato
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: kernel-runtime-${{ github.sha }}
+          path: |
+            kernel-runtime.tar.gz
+            kernel-runtime.tar.gz.sha256
+          if-no-files-found: error
+          retention-days: 90
+      - name: Evidencia em artifact
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: drive-zip-WO-2026_10_16_0105
+          path: data/grc/evidencias/auditar_zip_WO-2026_10_16_0105.json
+          if-no-files-found: error
+          retention-days: 90

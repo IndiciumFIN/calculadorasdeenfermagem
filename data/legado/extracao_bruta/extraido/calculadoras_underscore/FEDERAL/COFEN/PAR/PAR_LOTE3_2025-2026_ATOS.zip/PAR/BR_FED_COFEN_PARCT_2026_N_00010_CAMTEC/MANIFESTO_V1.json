@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-10-2026-camaras-tecnicas-de-enfermagem/ (API WordPress post 188076); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2026_N_00010_CAMTEC_ATOMOS_V1.jsonl",
+      "sha256": "5d8c853e8bbe519e30c8a131859dddc612fdd635788d1e60ea8b289360cacc9b",
+      "tamanho": 74840
+    },
+    {
+      "nome": "PARCT_2026_N_00010_CAMTEC_CONTEUDO_SITE_API.json",
+      "sha256": "5b2fd27c097ce6953c2f21c2580eb8be14d7a001f7a571922a71ce06164bbbdc",
+      "tamanho": 22098
+    },
+    {
+      "nome": "PARCT_2026_N_00010_CAMTEC_NORMA_V1.json",
+      "sha256": "a6d2d94d7f2606792f147fb98f01f7de45dc14bf903e7bee308f0103785c966c",
+      "tamanho": 8327
+    },
+    {
+      "nome": "PARCT_2026_N_00010_CAMTEC_PAGINA_SITE.html",
+      "sha256": "a0d44d4e294ef1f17f15a3e0654c790835a0784037fe75ea3e5483556ed5981d",
+      "tamanho": 462393
+    },
+    {
+      "nome": "PARCT_2026_N_00010_CAMTEC_PDF_SITE.pdf",
+      "sha256": "b71456487dbd0a4f7c4675d1789b61f50ccc5d6f7106db51c85ea47d527e7d73",
+      "tamanho": 197550
+    },
+    {
+      "nome": "PARCT_2026_N_00010_CAMTEC_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "d711aaac7e8d73ef25db078a906492b7bbaf566a507ff4d7eb60eb4754e6c2a5",
+      "tamanho": 18215
+    },
+    {
+      "nome": "PARCT_2026_N_00010_CAMTEC_TEXTO_FONTE_V1.txt",
+      "sha256": "8b7d687202a9a43b98f7adf22e2e09ffecb8c4e0346d03cce1e9ddd783484975",
+      "tamanho": 18249
+    },
+    {
+      "nome": "PARCT_2026_N_00010_CAMTEC_VALIDACAO_V1.json",
+      "sha256": "99734f1a2564b3bd4880fbcaf20fc8d76558d6220287a8342e1e9a287573af7b",
+      "tamanho": 14496
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência."
+  ]
+}

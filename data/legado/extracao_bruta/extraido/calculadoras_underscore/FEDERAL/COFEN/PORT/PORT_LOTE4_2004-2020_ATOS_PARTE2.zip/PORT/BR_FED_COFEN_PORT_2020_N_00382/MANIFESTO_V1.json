@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-382-de-28-de-julho-de-2020/ (API WordPress post 81544); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2020_N_00382_ATOMOS_V1.jsonl",
+      "sha256": "4c76f3e8574a470172bc770b470ce953fd69b8dac6be94709c5ac12aae400e7b",
+      "tamanho": 10955
+    },
+    {
+      "nome": "PORT_2020_N_00382_CONTEUDO_SITE_API.json",
+      "sha256": "7c52fcdaecd44016bb8d6074200ae2560496beb936b7464b6e28378993a8e196",
+      "tamanho": 2140
+    },
+    {
+      "nome": "PORT_2020_N_00382_NORMA_V1.json",
+      "sha256": "91ce60a558b7dfa5e78bf3e0d3643794ee97075e614a7b4695cd13688aaa8c7a",
+      "tamanho": 3450
+    },
+    {
+      "nome": "PORT_2020_N_00382_PAGINA_SITE.html",
+      "sha256": "441eed1ef226d5df33afc9d8bacbc24528ebceddd67382f35f26857e26f92979",
+      "tamanho": 440286
+    },
+    {
+      "nome": "PORT_2020_N_00382_TEXTO_FONTE_V1.txt",
+      "sha256": "0ca0e857e0d9efade092c4291c7dcf0dd6a5c2297d8782e5b1a21b67a7f5ca53",
+      "tamanho": 1454
+    },
+    {
+      "nome": "PORT_2020_N_00382_VALIDACAO_V1.json",
+      "sha256": "827796207b2e6e0fecbaf418ff50faca008308cbb2cdadbdcd32b08f7f6bd088",
+      "tamanho": 2458
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}
