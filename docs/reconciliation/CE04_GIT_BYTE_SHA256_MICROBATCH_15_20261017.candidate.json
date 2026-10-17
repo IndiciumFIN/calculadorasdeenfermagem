@@ -1,0 +1,23 @@
+{
+  "schema": "CE04-SHA256-STREAMING-UTF8-GIT-BLOB-CANDIDATE-1.0",
+  "wo": "WO-CE04-RECON-20261017",
+  "wo_admission": "DRAFT_NOT_ADMITTED",
+  "tests": {
+    "sha256_abc": "PASS",
+    "sha256_million_a": "PASS",
+    "sha256_utf8_multibyte": "PASS"
+  },
+  "source": "GitHub blob by pinned source tree SHA1; streaming hash over decoded UTF8",
+  "record": {
+    "name": "medicamentos/registro_anvisa_medicamento.jsonl",
+    "git_blob_sha1": "11984d6b417cb6181c3c20dab9a2430c9e46cdbd",
+    "actual_sha256": "5adb436235b72b51156bbb7ee2b27d53cbcc3884c4ce0bc4f8dbf04d0f9660ed",
+    "expected_sha256": "5adb436235b72b51156bbb7ee2b27d53cbcc3884c4ce0bc4f8dbf04d0f9660ed",
+    "actual_bytes": 35578046,
+    "expected_bytes": 35578046,
+    "hash_match": true,
+    "size_match": true
+  },
+  "clinical_audit": "PENDING",
+  "release_allowed": false
+}
