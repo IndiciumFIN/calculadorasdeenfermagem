@@ -34,63 +34,72 @@ def crawl(roots, token, fetch=list_page, max_folders=100000, max_items=2000000):
     """Fail closed on API errors, loops, truncation, missing IDs or quota limits."""
     if not roots or len({r["id"] for r in roots}) != len(roots):
         raise ValueError("roots must be nonempty and unique")
-    registered_roots = {r["id"] for r in roots}
-    queue = deque((root["id"], root["id"], "") for root in roots)
-    visited = {}
+    # Cache each physical folder's API listing once, but preserve every root path.
+    queue = deque((root["id"], root["id"], "", (root["id"],)) for root in roots)
+    cache = {}
     overlaps = []
     items = []
-    folders_seen = 0
+    memberships = {}
+    unique_objects = set()
     while queue:
-        root_id, folder_id, relative = queue.popleft()
-        if folder_id in visited:
-            if folder_id not in registered_roots or visited[folder_id] == root_id:
-                raise ValueError("unexpected folder cycle/overlap: " + folder_id)
-            overlaps.append({"folder_id": folder_id, "first_root_id": visited[folder_id],
+        root_id, folder_id, relative, ancestry = queue.popleft()
+        if folder_id not in cache:
+            if len(cache) >= max_folders:
+                raise ValueError("folder limit exceeded; inventory incomplete")
+            collected = []
+            page_token = None
+            tokens_seen = set()
+            while True:
+                page = fetch(folder_id, token, page_token)
+                if not isinstance(page, dict) or not isinstance(page.get("files"), list):
+                    raise ValueError("missing files list")
+                collected.extend(page["files"])
+                nxt = page.get("nextPageToken")
+                if not nxt:
+                    break
+                if nxt in tokens_seen:
+                    raise ValueError("repeated pagination token")
+                tokens_seen.add(nxt)
+                page_token = nxt
+            cache[folder_id] = collected
+        prior = memberships.setdefault(folder_id, set())
+        if prior and root_id not in prior:
+            overlaps.append({"folder_id": folder_id, "first_root_id": sorted(prior)[0],
                              "also_reached_from_root_id": root_id, "path": relative})
-            continue
-        visited[folder_id] = root_id
-        folders_seen += 1
-        if folders_seen > max_folders:
-            raise ValueError("folder limit exceeded; inventory incomplete")
-        page_token = None
-        tokens_seen = set()
-        while True:
-            page = fetch(folder_id, token, page_token)
-            if not isinstance(page.get("files"), list):
-                raise ValueError("missing files list")
-            for obj in page["files"]:
-                if not obj.get("id") or not obj.get("name") or not obj.get("mimeType"):
-                    raise ValueError("incomplete Drive metadata")
-                name = obj["name"]
-                if "/" in name or name in (".", ".."):
-                    raise ValueError("ambiguous Drive filename")
-                rel = relative + "/" + name if relative else name
-                record = {"root_id": root_id, "parent_id": folder_id,
-                          "id": obj["id"], "path": rel, "mime_type": obj["mimeType"],
-                          "size_bytes": int(obj["size"]) if obj.get("size") is not None else None,
-                          "md5_provider": obj.get("md5Checksum"),
-                          "modified_time": obj.get("modifiedTime"),
-                          "sha256": None, "hash_status": "BYTES_NOT_ACQUIRED",
-                          "is_zip_candidate": name.lower().endswith(".zip"),
-                          "kind": "folder" if obj["mimeType"] == FOLDER else "file"}
-                items.append(record)
-                if len(items) > max_items:
+        prior.add(root_id)
+        for obj in cache[folder_id]:
+            if not isinstance(obj, dict) or not obj.get("id") or not obj.get("name") or not obj.get("mimeType"):
+                raise ValueError("incomplete Drive metadata")
+            name = obj["name"]
+            if "/" in name or name in (".", ".."):
+                raise ValueError("ambiguous Drive filename")
+            rel = relative + "/" + name if relative else name
+            obj_id = obj["id"]
+            if obj_id not in unique_objects:
+                if len(unique_objects) >= max_items:
                     raise ValueError("item limit exceeded; inventory incomplete")
-                if obj["mimeType"] == FOLDER:
-                    queue.append((root_id, obj["id"], rel))
-            nxt = page.get("nextPageToken")
-            if not nxt:
-                break
-            if nxt in tokens_seen:
-                raise ValueError("repeated pagination token")
-            tokens_seen.add(nxt)
-            page_token = nxt
+                unique_objects.add(obj_id)
+            record = {"root_id": root_id, "parent_id": folder_id,
+                      "id": obj_id, "path": rel, "mime_type": obj["mimeType"],
+                      "size_bytes": int(obj["size"]) if obj.get("size") is not None else None,
+                      "md5_provider": obj.get("md5Checksum"),
+                      "modified_time": obj.get("modifiedTime"),
+                      "sha256": None, "hash_status": "BYTES_NOT_ACQUIRED",
+                      "is_zip_candidate": name.lower().endswith(".zip"),
+                      "kind": "folder" if obj["mimeType"] == FOLDER else "file"}
+            items.append(record)
+            if obj["mimeType"] == FOLDER:
+                if obj_id in ancestry:
+                    raise ValueError("unexpected folder cycle/overlap: " + obj_id)
+                queue.append((root_id, obj_id, rel, ancestry + (obj_id,)))
     return {"schema": "CE-DRIVE-RECURSIVE-METADATA-1.0.0",
             "status": "COLLECTED_NOT_KERNEL_APPROVED",
             "complete_pagination": True, "roots": roots,
-            "folders_traversed": folders_seen, "items_count": len(items),
+            "folders_traversed": len(cache), "items_count": len(items),
+            "unique_objects_count": len(unique_objects),
+            "root_memberships": {k: sorted(v) for k, v in sorted(memberships.items())},
             "overlapping_folder_references": overlaps,
-            "root_membership_status": "HOLD_OVERLAP_RECONCILIATION" if overlaps else "NO_OVERLAPS_DETECTED",
+            "root_membership_status": "RECONCILED_BY_ROOT_PATH" if overlaps else "NO_OVERLAPS_DETECTED",
             "items": sorted(items, key=lambda x: (x["root_id"], x["path"], x["id"])),
             "restrictions": ["NO_DELETE", "NO_PUBLICATION", "NO_DEDUP_WITHOUT_SHA256",
                              "ZIP_CONTENTS_NOT_INSPECTED", "RIGHTS_GATE_REQUIRED"]}
