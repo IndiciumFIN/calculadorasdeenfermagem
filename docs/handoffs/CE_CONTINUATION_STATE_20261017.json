@@ -1,7 +1,7 @@
 {
   "schema": "CE-PROJECT-CONTINUATION-MANIFEST-1.0",
   "cutoff": "2026-10-17",
-  "status": "39_OF_65_GIT_SHA256_MATCH_CANDIDATE_WO_NOT_ADMITTED",
+  "status": "59_OF_65_GIT_SHA256_EVIDENCE_READBACK_PASS_6_CHUNKED_PENDING_WO_NOT_ADMITTED",
   "repository": "IndiciumFIN/calculadorasdeenfermagem",
   "authority": {
     "documents": "GitHub",
@@ -78,7 +78,7 @@
     "missing_exact_paths": 6,
     "manifest_base_matched": 63,
     "manifest_v2_matched": 2,
-    "raw_byte_hash_verified_samples": 3,
+    "raw_byte_hash_verified_samples": 59,
     "all_raw_byte_hashes_verified": false,
     "source_missing_paths": [
       "dispositivos/registro_anvisa_produto_saude.parte-0001.jsonl",
@@ -91,7 +91,7 @@
     "target_matrix_path": "docs/reconciliation/CE04_GIT_SUPABASE_MATRIX_20261017.json",
     "target_matrix_state": "65_GIT_TREE_AND_VERSIONED_MANIFEST_METADATA_READBACK_PASS_SHA256_BYTES_PENDING",
     "records_metadata_persisted": 65,
-    "records_sha256_verified_this_session": 0,
+    "records_sha256_verified_this_session": 59,
     "matrix_index_blob_sha1": "2bac4e9d0af0527e526e3adbd92b6fde61bdc475",
     "matrix_index_commit_sha1": "f35ae3699d9b42e2d88c0125618d21665e5cd6dc",
     "microbatch_count": 7,
@@ -106,10 +106,10 @@
     "conflicts_inventory": 22,
     "conflicts_text_compared": 22,
     "conflicts_resolved": 0,
-    "sha256_new_checks_total": 39,
+    "sha256_new_checks_total": 59,
     "sha256_new_checks_all_pass": true,
-    "sha256_total_distinct_rechecked_this_session": 39,
-    "sha256_remaining": 26,
+    "sha256_total_distinct_rechecked_this_session": 59,
+    "sha256_remaining": 6,
     "sha256_sample_files": [
       "ferimentos/nome_tecnico_anvisa_curativo.jsonl",
       "sepse/escore_transcrito_manualmente.jsonl",
@@ -139,9 +139,19 @@
       "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_05_20261017.candidate.json",
       "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_06_20261017.candidate.json",
       "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_07_20261017.candidate.json",
-      "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_08_20261017.candidate.json"
+      "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_08_20261017.candidate.json",
+      "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_09_20261017.candidate.json",
+      "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_10_20261017.candidate.json",
+      "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_11_20261017.candidate.json",
+      "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_12_20261017.candidate.json",
+      "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_13_20261017.candidate.json",
+      "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_14_20261017.candidate.json",
+      "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_15_20261017.candidate.json",
+      "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_16_20261017.candidate.json",
+      "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_17_20261017.candidate.json"
     ],
-    "hash_evidence_latest": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_08_20261017.candidate.json"
+    "hash_evidence_latest": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_17_20261017.candidate.json",
+    "hash_evidence_readback_scope": "17 GitHub evidence microbatches compared to 65 Git structural manifest records; 59 distinct direct blobs verified; 6 chunked parents pending"
   },
   "wo": {
     "id": "WO-CE04-RECON-20261017",
