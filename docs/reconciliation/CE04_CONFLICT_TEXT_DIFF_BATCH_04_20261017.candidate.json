@@ -1,0 +1,116 @@
+{
+  "schema": "CE04-CONFLICT-TEXT-DIFF-1.0-CANDIDATE",
+  "task": "TASK-CE04-003",
+  "wo": "WO-CE04-RECON-20261017",
+  "status": "READONLY_DIFF_RECORDED_NO_CONFLICT_RESOLUTION",
+  "items": [
+    {
+      "path": "packages/cli/registry.py",
+      "main_blob": "cbaf477eeb3f2095e9e182a60238e36d638976cc",
+      "historical_blob": "676e3d81ece0c7011177f66a71f18ec79d880a97",
+      "main_size": 1835,
+      "historical_size": 5685,
+      "comparison": {
+        "historical_lines": 162,
+        "main_lines": 59,
+        "historical_only": 109,
+        "main_only": 6,
+        "method": "multiset of literal lines (ordering ignored)"
+      },
+      "sha_readback": "PASS",
+      "resolution": "KEEP_BOTH_HOLD",
+      "audit": "PENDING",
+      "release": false
+    },
+    {
+      "path": "packages/cli/requirements.txt",
+      "main_blob": "207950b50f385a8cd15d5ab851e68a82126a6009",
+      "historical_blob": "f57ac51785cad6f459110fc7b1be0ac11e26ed68",
+      "main_size": 94,
+      "historical_size": 91,
+      "comparison": {
+        "historical_lines": 6,
+        "main_lines": 6,
+        "historical_only": 1,
+        "main_only": 1,
+        "method": "multiset of literal lines (ordering ignored)"
+      },
+      "sha_readback": "PASS",
+      "resolution": "KEEP_BOTH_HOLD",
+      "audit": "PENDING",
+      "release": false
+    },
+    {
+      "path": "packages/cli/utils.py",
+      "main_blob": "f7a7dc644af29bb378dbca102df2de485b3f7d42",
+      "historical_blob": "b9e6d284b8417807fb6ef7aefa0f694b6edd02f7",
+      "main_size": 1077,
+      "historical_size": 2205,
+      "comparison": {
+        "historical_lines": 61,
+        "main_lines": 31,
+        "historical_only": 41,
+        "main_only": 11,
+        "method": "multiset of literal lines (ordering ignored)"
+      },
+      "sha_readback": "PASS",
+      "resolution": "KEEP_BOTH_HOLD",
+      "audit": "PENDING",
+      "release": false
+    },
+    {
+      "path": "packages/schemas/atomo.py",
+      "main_blob": "02fd7ddfe2ba2831a6f2618a5f6d7beb34bce053",
+      "historical_blob": "07e54c6b8837188e0b8e29d284379bba2ea7cc4a",
+      "main_size": 920,
+      "historical_size": 510,
+      "comparison": {
+        "historical_lines": 14,
+        "main_lines": 27,
+        "historical_only": 11,
+        "main_only": 24,
+        "method": "multiset of literal lines (ordering ignored)"
+      },
+      "sha_readback": "PASS",
+      "resolution": "KEEP_BOTH_HOLD",
+      "audit": "PENDING",
+      "release": false
+    },
+    {
+      "path": "packages/schemas/invariantes.py",
+      "main_blob": "f2cb16efbc30b2edc024fad4ed768dcc0964944f",
+      "historical_blob": "a5c70dbdf059ed8039b318c3257d4aa11bfee4f9",
+      "main_size": 6215,
+      "historical_size": 2628,
+      "comparison": {
+        "historical_lines": 68,
+        "main_lines": 162,
+        "historical_only": 43,
+        "main_only": 137,
+        "method": "multiset of literal lines (ordering ignored)"
+      },
+      "sha_readback": "PASS",
+      "resolution": "KEEP_BOTH_HOLD",
+      "audit": "PENDING",
+      "release": false
+    },
+    {
+      "path": "tsconfig.json",
+      "main_blob": "2aead53bd47286c1c87d4e092b10593a0c054a98",
+      "historical_blob": "19c4c7686665e91eba0c9946173f9f90153f31df",
+      "main_size": 552,
+      "historical_size": 574,
+      "comparison": {
+        "historical_lines": 23,
+        "main_lines": 23,
+        "historical_only": 1,
+        "main_only": 1,
+        "method": "multiset of literal lines (ordering ignored)"
+      },
+      "sha_readback": "PASS",
+      "resolution": "KEEP_BOTH_HOLD",
+      "audit": "PENDING",
+      "release": false
+    }
+  ]
+}
