@@ -323,3 +323,9 @@ Para qualquer artefato de tarefa (`.md`, `.json`, `.py`, `.sql`, logs):
 
 - GitHub árvores recursivas completas: origem `fd5818f42c6a6f716996d8c9418ba87a079d0c59`; destino em corte `5f97a94c073eae0b487bdb4302289a3940eb884c`. Plano de 65 registros cobre **73 caminhos de blobs** (59 arquivos diretos + 14 partes). Todos os 73 caminhos foram localizados na origem com SHA Git idêntico; **zero colisões** no destino naquele corte. A checagem de colisões deve ser refeita no HEAD atual antes de qualquer gravação. Evidência `docs/migration/CE04_IMPORT_COLLISION_PREFLIGHT_20261017.candidate.json`, commit `2f3b4903bf18f7b1b1fbb3df2d8f360d6a9625ed`, readback PASS.
 - **Importação efetiva: zero arquivos-fonte.** Nenhuma mutação permitida antes de política aplicável homologada, validador de WO implementado/testado, WO admitida pelo Kernel e CI/autorizações. Somente evidências e planos candidatos foram gravados na branch de auditoria. Manifesto atualizado no commit `3f606eb24bedce1185a7a1f9d35ae3de5cf976c5`, readback PASS.
+
+
+### Addendum CE-04 — especificação candidata para política e validador (2026-10-17)
+
+- Documento **não executável** `docs/governance/CE04_WO_ADMISSION_POLICY_VALIDATOR_SPEC_20261017.candidate.json`, commit `09832894f527f05597f91cdb224beefa16fb20ae`, readback PASS: política `CE-GOV-WO-ADMISSION-001` candidata e validador `wo_admission_validator` proposto com dez casos positivos/negativos **não executados no Kernel real**. Não registrado no diretório de políticas ativas; sem admissão.
+- Manifesto de continuidade atualizado no commit `fef8b7453716d5481eb8d5581076bc8f73c35af8`. O primeiro readback imediato retornou conteúdo diferente (propagação/concorrência não determinada); uma segunda leitura confirmou o conteúdo atualizado e a reserialização literal, e o commit foi verificado via API de commits. Tratar como **readback após retry**, não readback imediato. Nenhuma mutação de fontes ou `main`.
