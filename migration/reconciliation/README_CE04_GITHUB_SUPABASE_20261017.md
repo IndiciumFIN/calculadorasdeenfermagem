@@ -1,7 +1,8 @@
 # CE-04 — Reconciliação GitHub × Supabase (candidata, somente leitura)
 
 **Data:** 2026-10-17  
-**WO documental:** `CE-WO-GITHUB-FULL-DIRECTORY-20261017`  
+**WO referenciada no manifesto Git:** `CE-WO-GITHUB-FULL-DIRECTORY-20261017`  
+**Verificação da WO formal separada:** não localizada na árvore examinada; `HOLD_WO_FILE_AND_KERNEL_ADMISSION`  
 **Status da WO:** `WO_DOCUMENTED_GIT_NOT_KERNEL_ADMITTED`  
 **Fonte documental da verdade:** GitHub `IndiciumFIN/calculadorasdeenfermagem`  
 **Supabase:** `Calculadoras-Smart` como fonte secundária de confronto, nunca repositório canônico.  
@@ -26,7 +27,8 @@
 | Relações de proveniência Supabase | 61 | 61 | 0 verificadas | **HOLD** |
 | Outbox Supabase | 303 PENDING | 303 PENDING | Sem replay | **HOLD** |
 | Holds humanos preexistentes | 9 | 9 | Não homologados | **HOLD** |
-| WO admitida pelo Kernel | 1 | Documento Git | Admissão não comprovada | **HOLD** |
+| WO de migração formal separada | 1 | ID referenciado em `migration/MANIFEST.json`, arquivo da WO não localizado | Não validado | **HOLD** |
+| WO admitida pelo Kernel | 1 | Identificador no manifesto | Admissão não comprovada | **HOLD** |
 | Completude das duas raízes originais do Drive | A inventariar | Não avaliado neste ciclo | Leitura Drive não realizada | **HOLD** |
 
 ## Resultados e correções do próprio preflight
@@ -36,6 +38,8 @@
 3. Dois registros de versões `v2` inicialmente apontavam para blobs de manifestos-base anteriores. O readback detectou a falha e o arquivo JSON candidato foi corrigido no commit `c5414bf84d1899e4891af4f522e47ae2779f597b`.
 4. Três arquivos pequenos tiveram o SHA-256 recalculado a partir do conteúdo obtido do GitHub e confrontado com a referência Supabase/manifesto, com 3/3 coincidências. **Os outros 62 ainda não tiveram o hash dos bytes originais recalculado**.
 5. Todos os 65 registros na tabela `file_delta_plan` estão `PLAN_ONLY` e com `raw_data_loaded=false`, `production_write_allowed=false` e `public_release_allowed=false`. Esse é um controle de segurança, não uma validação clínica nem liberação de publicação.
+
+6. A árvore Git examinada contém referência ao ID da WO de migração, mas **não foi localizado um arquivo autônomo versionado com esse identificador**. O contrato legado `work_order.schema.json` possui escopo explícito de execução de agentes; não presumi que seja o contrato adequado para a reconciliação. Esse item permanece bloqueado até identificação/homologação da WO aplicável.
 
 ## Próximo teste obrigatório
 
