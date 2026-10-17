@@ -1,7 +1,7 @@
 {
   "schema": "CE-PROJECT-CONTINUATION-MANIFEST-1.0",
   "cutoff": "2026-10-17",
-  "status": "CANDIDATE_HANDOFF_UPDATED_METADATA_MATRIX_PERSISTED_NOT_HOMOLOGATED",
+  "status": "CANDIDATE_HANDOFF_STRUCTURAL_RECONCILIATION_PERSISTED_NOT_HOMOLOGATED",
   "repository": "IndiciumFIN/calculadorasdeenfermagem",
   "authority": {
     "documents": "GitHub",
@@ -89,13 +89,20 @@
       "suprimentos/item_catmat.jsonl"
     ],
     "target_matrix_path": "docs/reconciliation/CE04_GIT_SUPABASE_MATRIX_20261017.json",
-    "target_matrix_state": "PERSISTED_METADATA_ONLY_READBACK_PASS_NO_KERNEL_ADMISSION",
+    "target_matrix_state": "65_GIT_TREE_AND_VERSIONED_MANIFEST_METADATA_READBACK_PASS_SHA256_BYTES_PENDING",
     "records_metadata_persisted": 65,
     "records_sha256_verified_this_session": 0,
-    "matrix_index_blob_sha1": "bafcd0f6076cbce25cbd9917441e0cf7ae4017e4",
-    "matrix_index_commit_sha1": "606451862c7e219f6acf05f7052fc22d0ca4f4ee",
+    "matrix_index_blob_sha1": "2bac4e9d0af0527e526e3adbd92b6fde61bdc475",
+    "matrix_index_commit_sha1": "f35ae3699d9b42e2d88c0125618d21665e5cd6dc",
     "microbatch_count": 7,
-    "matrix_scope": "Supabase metadata only, Git bytes not revalidated; no task closure"
+    "matrix_scope": "Supabase metadata only, Git bytes not revalidated; no task closure",
+    "exact_git_blob_size_paths": 59,
+    "chunked_git_present": 6,
+    "chunk_objects": 14,
+    "manifest_metadata_matches": 65,
+    "gaps_report": "docs/reconciliation/CE04_GAPS_06_CHUNKS_20261017.candidate.json",
+    "gaps_status": "FOUND_AS_GIT_CHUNKS_BYTE_REHASH_PENDING",
+    "structural_batch_count": 3
   },
   "wo": {
     "id": "WO-CE04-RECON-20261017",
