@@ -1,0 +1,174 @@
+{
+  "schema": "CE-PROJECT-CONTINUATION-MANIFEST-1.0",
+  "cutoff": "2026-10-17",
+  "status": "CANDIDATE_HANDOFF_PERSISTED_NOT_HOMOLOGATED",
+  "repository": "IndiciumFIN/calculadorasdeenfermagem",
+  "authority": {
+    "documents": "GitHub",
+    "work_order_documents": "GitHub",
+    "decisions": "Deterministic Kernel after validated policy",
+    "runtime_transactional_support": "Supabase",
+    "supabase_not_document_source_of_truth": true
+  },
+  "drive_access": {
+    "never_request_again": true,
+    "never_invoke_drive_connector": true,
+    "existing_historical_sources_only": true,
+    "roots_registered_count": 2,
+    "coverage_complete": false,
+    "non_verifiable_status": "HOLD_SOURCE"
+  },
+  "supabase": {
+    "name": "Calculadoras-Smart",
+    "project_ref": "pgsybzggewhinaniybiy",
+    "mode": "READ_ONLY",
+    "tables": [
+      "calculadoras_de_enfermagem.file_integrity",
+      "calculadoras_de_enfermagem.file_delta_plan",
+      "calculadoras_de_enfermagem.source_lineage",
+      "calculadoras_de_enfermagem.reconciliation_holds",
+      "cko_orch.outbox_events"
+    ],
+    "observed": {
+      "registered_files": 65,
+      "themes": 15,
+      "declared_atoms": 547908,
+      "delta_plan_only": 65,
+      "lineage_total": 61,
+      "lineage_verified": 0,
+      "holds": 9,
+      "outbox_pending": 303
+    }
+  },
+  "github": {
+    "branch": "audit/ce04-reconciliation-tasks-20261017",
+    "main_tree": "e0f62491b104f4a97c6025a6393cabc2e7ada30e",
+    "staging_tree": "bad54d1d9b6d281a0a2bb8077895e2ad45571b68",
+    "staging_source_blobs": 18955,
+    "staging_verified_blobs": 18955,
+    "current_main_path_conflicts": 22,
+    "pr6": {
+      "state": "OPEN_DRAFT",
+      "merged": false
+    },
+    "artifacts": [
+      {
+        "path": "docs/handoffs/CE_MASTER_HANDOFF_20261017.md",
+        "blob_sha1": "b364e43bf616092dc8bc3c09eefba4002562b687",
+        "readback": "PASS"
+      },
+      {
+        "path": "docs/tasks/CE04_RECON_TASK_REGISTER_20261017.json",
+        "blob_sha1": "7085bf32d61daabae092fb97fb9ace1088f95918",
+        "readback": "PASS",
+        "task_count": 38
+      },
+      {
+        "path": "contracts/wo/WO-CE04-RECON-20261017.candidate.json",
+        "blob_sha1": "19a37c6563ac0e54026c3dd49770438457f03f4c",
+        "readback": "PASS",
+        "admission": "NOT_REQUESTED"
+      }
+    ]
+  },
+  "reconciliation": {
+    "snapshot_preservation": "TREE_METADATA_PASS",
+    "supabase_rows": 65,
+    "matched_exact_path_and_size": 59,
+    "missing_exact_paths": 6,
+    "manifest_base_matched": 63,
+    "manifest_v2_matched": 2,
+    "raw_byte_hash_verified_samples": 3,
+    "all_raw_byte_hashes_verified": false,
+    "source_missing_paths": [
+      "dispositivos/registro_anvisa_produto_saude.parte-0001.jsonl",
+      "medicamentos/apresentacao_cmed.jsonl",
+      "medicamentos/produto_fda_ndc.parte-0001.jsonl",
+      "medicamentos/produto_fda_ndc.parte-0002.jsonl",
+      "nutricao/alimento_usda_sr_legacy.jsonl",
+      "suprimentos/item_catmat.jsonl"
+    ],
+    "target_matrix_path": "docs/reconciliation/CE04_GIT_SUPABASE_MATRIX_20261017.json",
+    "target_matrix_state": "NOT_SAVED_404_BY_READBACK"
+  },
+  "wo": {
+    "id": "WO-CE04-RECON-20261017",
+    "status": "DRAFT_NOT_ADMITTED",
+    "admission": {
+      "status": "NOT_REQUESTED",
+      "kernel_id": null,
+      "admission_evidence": null
+    },
+    "branch": "audit/ce04-reconciliation-tasks-20261017",
+    "git_blob_sha1": "19a37c6563ac0e54026c3dd49770438457f03f4c"
+  },
+  "task_register": {
+    "path": "docs/tasks/CE04_RECON_TASK_REGISTER_20261017.json",
+    "version": "0.1.0-CANDIDATE",
+    "count": 38,
+    "closed": 0,
+    "status": "CANDIDATE_REGISTERED_PENDING_KERNEL_ADMISSION",
+    "task_ids": [
+      "TASK-CE04-001",
+      "TASK-CE04-002",
+      "TASK-CE04-003",
+      "TASK-CE04-004",
+      "TASK-CE04-005",
+      "TASK-CE04-006",
+      "TASK-CE04-007",
+      "TASK-CE04-008",
+      "TASK-CE04-009",
+      "TASK-CE04-010",
+      "TASK-CE04-011",
+      "TASK-CE04-012",
+      "TASK-CE04-013",
+      "TASK-CE04-014",
+      "TASK-CE04-015",
+      "TASK-CE04-016",
+      "TASK-CE04-017",
+      "TASK-CE04-018",
+      "TASK-CE04-019",
+      "TASK-CE04-020",
+      "TASK-CE04-021",
+      "TASK-CE04-022",
+      "TASK-CE04-023",
+      "TASK-CE04-024",
+      "TASK-CE04-025",
+      "TASK-CE04-026",
+      "TASK-CE04-027",
+      "TASK-CE04-028",
+      "TASK-CE04-029",
+      "TASK-CE04-030",
+      "TASK-CE04-031",
+      "TASK-CE04-032",
+      "TASK-CE04-033",
+      "TASK-CE04-034",
+      "TASK-CE04-035",
+      "TASK-CE04-036",
+      "TASK-CE04-037",
+      "TASK-CE04-038"
+    ],
+    "task_031_no_drive": true
+  },
+  "required_processes": 18,
+  "continuation_order": [
+    "Verify handoff/WO/task register live readback",
+    "Save 65-object matrix in small chunks and verify each readback",
+    "Reconcile 6 missing exact paths and 22 Git conflicts",
+    "Check 61 source lineage links and 9 holds",
+    "Audit 303 outbox without replay",
+    "Reconcile legacy FIND IDs/Kernel admission",
+    "Run tests/independent audit/CI",
+    "Advance 18 process pilots with own governance",
+    "Promote only approved content after Kernel+human gates"
+  ],
+  "completion_gate": {
+    "write_then_readback_required": true,
+    "external_test_logs_required": true,
+    "find_closure_kernel_only": true,
+    "independent_audit_required": true,
+    "no_merge_without_approved_gates": true,
+    "never_close_task_on_write_only": true
+  },
+  "next_turn_instruction": "Open docs/handoffs/CE_MASTER_HANDOFF_20261017.md on audit/ce04-reconciliation-tasks-20261017. Do not request or use Google Drive. Confirm repo readbacks; continue CE04 micro-batches and persist missing matrix, evidence and tasks to GitHub; compare Supabase read-only; do not claim Kernel admission or task completion without verified evidence."
+}
