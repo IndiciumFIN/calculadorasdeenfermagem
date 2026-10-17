@@ -1,0 +1,57 @@
+{
+  "schema": "CE04-GIT-BLOB-SHA256-CANDIDATE-1.0",
+  "wo": "WO-CE04-RECON-20261017",
+  "wo_status": "DRAFT_NOT_ADMITTED",
+  "task": "TASK-CE04-004",
+  "hash_tests": {
+    "abc": "PASS",
+    "one_million_a": "PASS"
+  },
+  "result": "RAW_BYTE_SHA256_MATCH_ONLY_NO_RELEASE",
+  "records": [
+    {
+      "name": "nutricao/alimento_taco.jsonl",
+      "source_blob_sha1": "d1815bf4c58d4861704b98cc47950e48d9cdc271",
+      "bytes_computed": 1002862,
+      "bytes_expected": 1002862,
+      "sha256_computed": "f60c6962858975fe54b4ee698a84674ead0b48f5d7f0fe132c8957e5ab866ab2",
+      "sha256_expected": "f60c6962858975fe54b4ee698a84674ead0b48f5d7f0fe132c8957e5ab866ab2",
+      "bytes_pass": true,
+      "sha256_pass": true,
+      "method": "GitHub fetch_blob by tree SHA; compute UTF8 sha256"
+    },
+    {
+      "name": "icd11/bloco.jsonl",
+      "source_blob_sha1": "683fd98ed5f8efd9a2e2308b3eff5a29b113bd78",
+      "bytes_computed": 1445790,
+      "bytes_expected": 1445790,
+      "sha256_computed": "04968018ebd54a3cb1df1426e4d230f4381ee479a57f98b014ed224ff75a74f1",
+      "sha256_expected": "04968018ebd54a3cb1df1426e4d230f4381ee479a57f98b014ed224ff75a74f1",
+      "bytes_pass": true,
+      "sha256_pass": true,
+      "method": "GitHub fetch_blob by tree SHA; compute UTF8 sha256"
+    },
+    {
+      "name": "cid10/categoria.jsonl",
+      "source_blob_sha1": "a629655db0798b124d077d36bcda3fb126d099f6",
+      "bytes_computed": 1740799,
+      "bytes_expected": 1740799,
+      "sha256_computed": "ee61d4260657965067cf1569b54a15b30824d23df8475fbaf270365fbd04de10",
+      "sha256_expected": "ee61d4260657965067cf1569b54a15b30824d23df8475fbaf270365fbd04de10",
+      "bytes_pass": true,
+      "sha256_pass": true,
+      "method": "GitHub fetch_blob by tree SHA; compute UTF8 sha256"
+    },
+    {
+      "name": "medicamentos/desabastecimento_fda.jsonl",
+      "source_blob_sha1": "89dfdd44bb3a432dd57cd5438d90b560f9acb77c",
+      "bytes_computed": 1790974,
+      "bytes_expected": 1790974,
+      "sha256_computed": "0f7ebcd8dd876e872de448e9e5d8e92a118f46c65348c964e32ac18649624f34",
+      "sha256_expected": "0f7ebcd8dd876e872de448e9e5d8e92a118f46c65348c964e32ac18649624f34",
+      "bytes_pass": true,
+      "sha256_pass": true,
+      "method": "GitHub fetch_blob by tree SHA; compute UTF8 sha256"
+    }
+  ]
+}
