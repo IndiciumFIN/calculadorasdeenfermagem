@@ -1,0 +1,32 @@
+{
+  "schema": "CE-WO-GOVERNANCE-PROPOSAL-1.0",
+  "id": "CE-GOV-WO-ADMISSION-001",
+  "status": "PROPOSED_NOT_HOMOLOGATED",
+  "authority": {
+    "document": "github",
+    "admission": "kernel",
+    "transaction": "supabase_optional"
+  },
+  "fail_closed": true,
+  "ordered_gates": [
+    "FIND_REGISTERED",
+    "POLICY_VALIDATED",
+    "VALIDATOR_TESTED",
+    "TASK_HOMOLOGATED",
+    "WO_VERSIONED_GITHUB",
+    "KERNEL_ADMITTED",
+    "ISOLATED_EXECUTION",
+    "TESTS_PASS",
+    "INDEPENDENT_AUDIT_PASS",
+    "FIND_CLOSED",
+    "PROMOTION_AUTHORIZED"
+  ],
+  "rules": {
+    "wo_must_be_versioned_in_github": true,
+    "admission_must_bind_wo_blob_sha": true,
+    "execution_requires_admission": true,
+    "closure_requires_independent_audit": true,
+    "g1_requires_zero_open_finds": true
+  },
+  "notes": "Proposal only; offline preflight is not Kernel admission."
+}
