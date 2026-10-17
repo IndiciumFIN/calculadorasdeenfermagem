@@ -1,0 +1,57 @@
+{
+  "schema": "CE04-GIT-BLOB-SHA256-CANDIDATE-1.0",
+  "wo": "WO-CE04-RECON-20261017",
+  "wo_status": "DRAFT_NOT_ADMITTED",
+  "task": "TASK-CE04-004",
+  "hash_tests": {
+    "abc": "PASS",
+    "one_million_a": "PASS"
+  },
+  "result": "RAW_BYTE_SHA256_MATCH_ONLY_NO_RELEASE",
+  "records": [
+    {
+      "name": "epidemiologico/notificacao_mpox.jsonl",
+      "source_blob_sha1": "49193bed61ac7c30d692e48a1ce3fc5cc83e3829",
+      "bytes_computed": 7146720,
+      "bytes_expected": 7146720,
+      "sha256_computed": "36b35c37643db97f945236feeebc251c951b1d43ddf6c290641d1ca446b63cd1",
+      "sha256_expected": "36b35c37643db97f945236feeebc251c951b1d43ddf6c290641d1ca446b63cd1",
+      "bytes_pass": true,
+      "sha256_pass": true,
+      "method": "GitHub fetch_blob by pinned tree SHA; UTF8 SHA256"
+    },
+    {
+      "name": "medlineplus/topico_saude_es.jsonl",
+      "source_blob_sha1": "882828c0a6c9e41864b05f39cbfb0ea115a37941",
+      "bytes_computed": 7176316,
+      "bytes_expected": 7176316,
+      "sha256_computed": "fe22d3f7c4eb9ef27419a07af8c33a3d99d94e74f451e4ed3bf4423af52623f8",
+      "sha256_expected": "fe22d3f7c4eb9ef27419a07af8c33a3d99d94e74f451e4ed3bf4423af52623f8",
+      "bytes_pass": true,
+      "sha256_pass": true,
+      "method": "GitHub fetch_blob by pinned tree SHA; UTF8 SHA256"
+    },
+    {
+      "name": "dispositivos/classificacao_fda_dispositivo.jsonl",
+      "source_blob_sha1": "05f702cf9efaa55be157139684b749ceee014a7b",
+      "bytes_computed": 7442573,
+      "bytes_expected": 7442573,
+      "sha256_computed": "f6baf5aa6817b597076058b4ecf2c3107b9de9c139d1267f905881e2d4de169c",
+      "sha256_expected": "f6baf5aa6817b597076058b4ecf2c3107b9de9c139d1267f905881e2d4de169c",
+      "bytes_pass": true,
+      "sha256_pass": true,
+      "method": "GitHub fetch_blob by pinned tree SHA; UTF8 SHA256"
+    },
+    {
+      "name": "epidemiologico/notificacao_sinan_chikungunya.jsonl",
+      "source_blob_sha1": "b48e53d74016bd6f7e54b604c6816a53db5ea04e",
+      "bytes_computed": 7768769,
+      "bytes_expected": 7768769,
+      "sha256_computed": "44ab6d81e458d71792b384e09037e0377c73b3ec4280fc82be01cebef203382b",
+      "sha256_expected": "44ab6d81e458d71792b384e09037e0377c73b3ec4280fc82be01cebef203382b",
+      "bytes_pass": true,
+      "sha256_pass": true,
+      "method": "GitHub fetch_blob by pinned tree SHA; UTF8 SHA256"
+    }
+  ]
+}
