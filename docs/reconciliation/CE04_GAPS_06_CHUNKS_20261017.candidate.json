@@ -1,0 +1,351 @@
+{
+  "schema": "CE04-CHUNKED-GAPS-RECON-1.0-CANDIDATE",
+  "cutoff_date": "2026-10-17",
+  "wo": "WO-CE04-RECON-20261017",
+  "wo_status": "DRAFT_NOT_ADMITTED",
+  "task_ids": [
+    "TASK-CE04-006",
+    "TASK-CE04-007",
+    "TASK-CE04-008",
+    "TASK-CE04-009",
+    "TASK-CE04-010",
+    "TASK-CE04-011",
+    "TASK-CE04-012"
+  ],
+  "github_source": "cursor/drive-sa-key-refactor",
+  "supabase_source": "Calculadoras-Smart file_integrity read-only snapshot captured in CE04_MATRIX_BATCH_01..07",
+  "status": "SIX_PATH_GAPS_LOCATED_IN_CHUNKS_NOT_CRYPTOGRAPHICALLY_REASSEMBLED",
+  "file_count": 6,
+  "git_chunk_objects": 14,
+  "tests": {
+    "positive": true,
+    "negative_simulations": [
+      {
+        "case": "missing-part detected by null Git SHA",
+        "type": "structural_test_design_only_not_executed"
+      },
+      {
+        "case": "size mismatch detected by unequal declared/Git size",
+        "type": "structural_test_design_only_not_executed"
+      },
+      {
+        "case": "out-of-order offsets detected by continuity check",
+        "type": "structural_test_design_only_not_executed"
+      },
+      {
+        "case": "whole-file SHA declared disagreement detected by compare",
+        "type": "structural_test_design_only_not_executed"
+      }
+    ]
+  },
+  "items": [
+    {
+      "theme": "dispositivos",
+      "file_name": "registro_anvisa_produto_saude.parte-0001.jsonl",
+      "source_manifest_path": "data/legado/extracao_bruta/atomizado/dispositivos/fracoes/registro_anvisa_produto_saude.parte-0001.jsonl/manifesto.json",
+      "source_manifest_git_blob_sha1": "72cad87d34b7269de3c4aafcf27164e8de3d9776",
+      "source_branch": "cursor/drive-sa-key-refactor",
+      "snapshot_tree_sha1": "fd5818f42c6a6f716996d8c9418ba87a079d0c59",
+      "canonical_split_location": "data/legado/extracao_bruta/atomizado/dispositivos/fracoes/registro_anvisa_produto_saude.parte-0001.jsonl/",
+      "parent_sha256_declared": "7966ab61d11d8697eaf4a4b68d79f551cc7971e4bfd0861a877ebe2ed3c605f1",
+      "parent_size_declared": 89998991,
+      "supabase_sha256_declared": "7966ab61d11d8697eaf4a4b68d79f551cc7971e4bfd0861a877ebe2ed3c605f1",
+      "supabase_size": 89998991,
+      "chunk_count": 3,
+      "chunks": [
+        {
+          "name": "part-000",
+          "offset": 0,
+          "size_declared": 40000000,
+          "git_blob_sha1": "f58018ac0e28a987279ce56030f5f8881de962e0",
+          "git_blob_size": 40000000,
+          "declared_sha256": "38f6b5189d382b60ab0be841e3a407a07c4bf131c1b1b8fb14ae0b91eeea7649",
+          "git_size_matches_manifest": true
+        },
+        {
+          "name": "part-001",
+          "offset": 40000000,
+          "size_declared": 40000000,
+          "git_blob_sha1": "da21481f9c736157979684cbc8e2f9361e4737a0",
+          "git_blob_size": 40000000,
+          "declared_sha256": "a2a562506b6276af33368eda1790ebbadb84b8e59844ba90a803cf9ea4da17c0",
+          "git_size_matches_manifest": true
+        },
+        {
+          "name": "part-002",
+          "offset": 80000000,
+          "size_declared": 9998991,
+          "git_blob_sha1": "5404eabaf3f314e2ea94766d5274aec7d8224d5b",
+          "git_blob_size": 9998991,
+          "declared_sha256": "a243e70ca40af7bb69e0842efef4fb02439d00052ff810fe99216e61f609ced2",
+          "git_size_matches_manifest": true
+        }
+      ],
+      "structural_checks": {
+        "offsets_contiguous": true,
+        "part_sizes_match_git_trees": true,
+        "total_size_matches_supabase": true,
+        "declared_parent_sha256_matches_supabase": true
+      },
+      "raw_chunk_sha256_verification": "NOT_PERFORMED",
+      "reassembled_sha256_verification": "NOT_PERFORMED",
+      "resolution": "FOUND_AS_GIT_CHUNKS_BYTE_REHASH_PENDING",
+      "required": true,
+      "present": true,
+      "validated": false,
+      "pass": false
+    },
+    {
+      "theme": "medicamentos",
+      "file_name": "apresentacao_cmed.jsonl",
+      "source_manifest_path": "data/legado/extracao_bruta/atomizado/medicamentos/fracoes/apresentacao_cmed.jsonl/manifesto.json",
+      "source_manifest_git_blob_sha1": "8500d42296f8654afa07919ce2d995a7f68380e5",
+      "source_branch": "cursor/drive-sa-key-refactor",
+      "snapshot_tree_sha1": "fd5818f42c6a6f716996d8c9418ba87a079d0c59",
+      "canonical_split_location": "data/legado/extracao_bruta/atomizado/medicamentos/fracoes/apresentacao_cmed.jsonl/",
+      "parent_sha256_declared": "3f158c141200caae51cc2b3ea7d309f8a52db2b2a4b7136278df612b8f1e37b6",
+      "parent_size_declared": 60737486,
+      "supabase_sha256_declared": "3f158c141200caae51cc2b3ea7d309f8a52db2b2a4b7136278df612b8f1e37b6",
+      "supabase_size": 60737486,
+      "chunk_count": 2,
+      "chunks": [
+        {
+          "name": "part-000",
+          "offset": 0,
+          "size_declared": 40000000,
+          "git_blob_sha1": "0656a6c2d6303a58c1ef2a35b2f293ffc910230d",
+          "git_blob_size": 40000000,
+          "declared_sha256": "0b5ea50a28b829f30943cae0fb2588f42f0d82f72f8c844664761a7ffd3cf287",
+          "git_size_matches_manifest": true
+        },
+        {
+          "name": "part-001",
+          "offset": 40000000,
+          "size_declared": 20737486,
+          "git_blob_sha1": "6944a832ae23ba69ae03fc6677f6cb68af98b4fb",
+          "git_blob_size": 20737486,
+          "declared_sha256": "2f35e2246951c8e5fe223fb9856a37777494db941733d5af5af47ed7f22d3214",
+          "git_size_matches_manifest": true
+        }
+      ],
+      "structural_checks": {
+        "offsets_contiguous": true,
+        "part_sizes_match_git_trees": true,
+        "total_size_matches_supabase": true,
+        "declared_parent_sha256_matches_supabase": true
+      },
+      "raw_chunk_sha256_verification": "NOT_PERFORMED",
+      "reassembled_sha256_verification": "NOT_PERFORMED",
+      "resolution": "FOUND_AS_GIT_CHUNKS_BYTE_REHASH_PENDING",
+      "required": true,
+      "present": true,
+      "validated": false,
+      "pass": false
+    },
+    {
+      "theme": "medicamentos",
+      "file_name": "produto_fda_ndc.parte-0001.jsonl",
+      "source_manifest_path": "data/legado/extracao_bruta/atomizado/medicamentos/fracoes/produto_fda_ndc.parte-0001.jsonl/manifesto.json",
+      "source_manifest_git_blob_sha1": "11c66b87b4b8fb774e371db0d8d5ea496cb8e25b",
+      "source_branch": "cursor/drive-sa-key-refactor",
+      "snapshot_tree_sha1": "fd5818f42c6a6f716996d8c9418ba87a079d0c59",
+      "canonical_split_location": "data/legado/extracao_bruta/atomizado/medicamentos/fracoes/produto_fda_ndc.parte-0001.jsonl/",
+      "parent_sha256_declared": "ac8384d115c43434ceb36abcd1722ffd4054e018dc238e8ddbf9ac9b8dfeb9bf",
+      "parent_size_declared": 89999221,
+      "supabase_sha256_declared": "ac8384d115c43434ceb36abcd1722ffd4054e018dc238e8ddbf9ac9b8dfeb9bf",
+      "supabase_size": 89999221,
+      "chunk_count": 3,
+      "chunks": [
+        {
+          "name": "part-000",
+          "offset": 0,
+          "size_declared": 40000000,
+          "git_blob_sha1": "fbd9f5fa3adeb7b5b29947444e0a16ca095032bb",
+          "git_blob_size": 40000000,
+          "declared_sha256": "698863f5567703a0aff80e177c38b3edc85fdf2c1a647cd1a520bb8f920de309",
+          "git_size_matches_manifest": true
+        },
+        {
+          "name": "part-001",
+          "offset": 40000000,
+          "size_declared": 40000000,
+          "git_blob_sha1": "e2f173efa21f6e38bc7f5e655fc099006591a880",
+          "git_blob_size": 40000000,
+          "declared_sha256": "6f4addb173be1bc41ed064746bd6182509bd0a271b23a768acbbbc5586ba1040",
+          "git_size_matches_manifest": true
+        },
+        {
+          "name": "part-002",
+          "offset": 80000000,
+          "size_declared": 9999221,
+          "git_blob_sha1": "4f6f8df0ac83610e22e8775f7d9764b8f0eccab7",
+          "git_blob_size": 9999221,
+          "declared_sha256": "036a7d512bb00debd6f35f80018dbb64dcbc1889530b1564da911e0c8af3544f",
+          "git_size_matches_manifest": true
+        }
+      ],
+      "structural_checks": {
+        "offsets_contiguous": true,
+        "part_sizes_match_git_trees": true,
+        "total_size_matches_supabase": true,
+        "declared_parent_sha256_matches_supabase": true
+      },
+      "raw_chunk_sha256_verification": "NOT_PERFORMED",
+      "reassembled_sha256_verification": "NOT_PERFORMED",
+      "resolution": "FOUND_AS_GIT_CHUNKS_BYTE_REHASH_PENDING",
+      "required": true,
+      "present": true,
+      "validated": false,
+      "pass": false
+    },
+    {
+      "theme": "medicamentos",
+      "file_name": "produto_fda_ndc.parte-0002.jsonl",
+      "source_manifest_path": "data/legado/extracao_bruta/atomizado/medicamentos/fracoes/produto_fda_ndc.parte-0002.jsonl/manifesto.json",
+      "source_manifest_git_blob_sha1": "c75ff0e47141276f30d5b0d333893d458ea6cba3",
+      "source_branch": "cursor/drive-sa-key-refactor",
+      "snapshot_tree_sha1": "fd5818f42c6a6f716996d8c9418ba87a079d0c59",
+      "canonical_split_location": "data/legado/extracao_bruta/atomizado/medicamentos/fracoes/produto_fda_ndc.parte-0002.jsonl/",
+      "parent_sha256_declared": "f1e331a5e3de15eb7a5eef36369210e795f94efadce5f1f0e0768f5ddd5dea4c",
+      "parent_size_declared": 62444010,
+      "supabase_sha256_declared": "f1e331a5e3de15eb7a5eef36369210e795f94efadce5f1f0e0768f5ddd5dea4c",
+      "supabase_size": 62444010,
+      "chunk_count": 2,
+      "chunks": [
+        {
+          "name": "part-000",
+          "offset": 0,
+          "size_declared": 40000000,
+          "git_blob_sha1": "d95fbae8056b055c98e636875744f38457d43429",
+          "git_blob_size": 40000000,
+          "declared_sha256": "1b5e63ffeb5857b148ca9e13297f9da51df03c97dc1e7ca20c3b2ace6382152f",
+          "git_size_matches_manifest": true
+        },
+        {
+          "name": "part-001",
+          "offset": 40000000,
+          "size_declared": 22444010,
+          "git_blob_sha1": "f4f402a823e3538e5abc1f9a3df801361631180a",
+          "git_blob_size": 22444010,
+          "declared_sha256": "105f180eee494dc8a4d89866f2a7633ec9173c51dd9ac807785afdf5bb0e67f6",
+          "git_size_matches_manifest": true
+        }
+      ],
+      "structural_checks": {
+        "offsets_contiguous": true,
+        "part_sizes_match_git_trees": true,
+        "total_size_matches_supabase": true,
+        "declared_parent_sha256_matches_supabase": true
+      },
+      "raw_chunk_sha256_verification": "NOT_PERFORMED",
+      "reassembled_sha256_verification": "NOT_PERFORMED",
+      "resolution": "FOUND_AS_GIT_CHUNKS_BYTE_REHASH_PENDING",
+      "required": true,
+      "present": true,
+      "validated": false,
+      "pass": false
+    },
+    {
+      "theme": "nutricao",
+      "file_name": "alimento_usda_sr_legacy.jsonl",
+      "source_manifest_path": "data/legado/extracao_bruta/atomizado/nutricao/fracoes/alimento_usda_sr_legacy.jsonl/manifesto.json",
+      "source_manifest_git_blob_sha1": "e75d5e0248dacaf751c026d1943164ec9efbb651",
+      "source_branch": "cursor/drive-sa-key-refactor",
+      "snapshot_tree_sha1": "fd5818f42c6a6f716996d8c9418ba87a079d0c59",
+      "canonical_split_location": "data/legado/extracao_bruta/atomizado/nutricao/fracoes/alimento_usda_sr_legacy.jsonl/",
+      "parent_sha256_declared": "0760203b0a9b54a0c95bbe0a031ceb36586f197c1085416a0e2a9aed58d828db",
+      "parent_size_declared": 73915846,
+      "supabase_sha256_declared": "0760203b0a9b54a0c95bbe0a031ceb36586f197c1085416a0e2a9aed58d828db",
+      "supabase_size": 73915846,
+      "chunk_count": 2,
+      "chunks": [
+        {
+          "name": "part-000",
+          "offset": 0,
+          "size_declared": 40000000,
+          "git_blob_sha1": "30f259755b9902352ac2c083e4aac21f39de7737",
+          "git_blob_size": 40000000,
+          "declared_sha256": "718bcf806243e637557ee8811bd288d118ec7c1441ff0b4814f546b9da34d1e1",
+          "git_size_matches_manifest": true
+        },
+        {
+          "name": "part-001",
+          "offset": 40000000,
+          "size_declared": 33915846,
+          "git_blob_sha1": "4ed6f69a37bc88fe5728dc57cc2ee48818aa3c10",
+          "git_blob_size": 33915846,
+          "declared_sha256": "20e835754cdf386a510678c5a2cc0c4070c4c1495b91a3c9a258dd2527df0b9f",
+          "git_size_matches_manifest": true
+        }
+      ],
+      "structural_checks": {
+        "offsets_contiguous": true,
+        "part_sizes_match_git_trees": true,
+        "total_size_matches_supabase": true,
+        "declared_parent_sha256_matches_supabase": true
+      },
+      "raw_chunk_sha256_verification": "NOT_PERFORMED",
+      "reassembled_sha256_verification": "NOT_PERFORMED",
+      "resolution": "FOUND_AS_GIT_CHUNKS_BYTE_REHASH_PENDING",
+      "required": true,
+      "present": true,
+      "validated": false,
+      "pass": false
+    },
+    {
+      "theme": "suprimentos",
+      "file_name": "item_catmat.jsonl",
+      "source_manifest_path": "data/legado/extracao_bruta/atomizado/suprimentos/fracoes/item_catmat.jsonl/manifesto.json",
+      "source_manifest_git_blob_sha1": "4349d7e1442df3495edd495547e259b8323d5f66",
+      "source_branch": "cursor/drive-sa-key-refactor",
+      "snapshot_tree_sha1": "fd5818f42c6a6f716996d8c9418ba87a079d0c59",
+      "canonical_split_location": "data/legado/extracao_bruta/atomizado/suprimentos/fracoes/item_catmat.jsonl/",
+      "parent_sha256_declared": "aa764c1951eb28e1966af4b8f28dc41f34643acbe09a48329be7300b97e51a19",
+      "parent_size_declared": 72026196,
+      "supabase_sha256_declared": "aa764c1951eb28e1966af4b8f28dc41f34643acbe09a48329be7300b97e51a19",
+      "supabase_size": 72026196,
+      "chunk_count": 2,
+      "chunks": [
+        {
+          "name": "part-000",
+          "offset": 0,
+          "size_declared": 40000000,
+          "git_blob_sha1": "cbd4745f157b15ca4044021371bfddfa2ff354f5",
+          "git_blob_size": 40000000,
+          "declared_sha256": "a00d959c4d134baf4e0d0f9cf1fadbdf753d0c5438262fa69f12182594de7a98",
+          "git_size_matches_manifest": true
+        },
+        {
+          "name": "part-001",
+          "offset": 40000000,
+          "size_declared": 32026196,
+          "git_blob_sha1": "a90994b492ed092875fd141a2e6deab89cd91be2",
+          "git_blob_size": 32026196,
+          "declared_sha256": "6ff90a960ef4855dcafea5ce2f2908e495520aa63b47eee533a2e7f006b0f39e",
+          "git_size_matches_manifest": true
+        }
+      ],
+      "structural_checks": {
+        "offsets_contiguous": true,
+        "part_sizes_match_git_trees": true,
+        "total_size_matches_supabase": true,
+        "declared_parent_sha256_matches_supabase": true
+      },
+      "raw_chunk_sha256_verification": "NOT_PERFORMED",
+      "reassembled_sha256_verification": "NOT_PERFORMED",
+      "resolution": "FOUND_AS_GIT_CHUNKS_BYTE_REHASH_PENDING",
+      "required": true,
+      "present": true,
+      "validated": false,
+      "pass": false
+    }
+  ],
+  "restrictions": [
+    "no Drive connector or permission",
+    "no Supabase mutation",
+    "no main merge",
+    "no FIND closure",
+    "no task closure",
+    "no claim that historical chunk checksums have been independently verified"
+  ]
+}
