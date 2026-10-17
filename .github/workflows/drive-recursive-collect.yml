@@ -1,6 +1,13 @@
 # Acquisition only. No canonical admission without a separate qualified Kernel WO.
 name: Drive recursive metadata candidate
 on:
+  push:
+    branches: [cursor/fix-governance-gaps-ec54]
+    paths:
+      - 'packages/cli/drive_recursive_inventory.py'
+      - 'config/drive_inventory_roots_20261016.json'
+      - 'tests/test_drive_recursive_inventory.py'
+      - '.github/workflows/drive-recursive-collect.yml'
   workflow_dispatch:
 permissions:
   contents: read
