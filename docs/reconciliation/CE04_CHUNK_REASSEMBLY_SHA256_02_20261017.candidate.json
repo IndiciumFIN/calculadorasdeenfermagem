@@ -1,0 +1,40 @@
+{
+  "schema": "CE04-CHUNK-REASSEMBLY-SHA256-1.0-CANDIDATE",
+  "wo": "WO-CE04-RECON-20261017",
+  "wo_status": "DRAFT_NOT_ADMITTED",
+  "parent": "medicamentos/produto_fda_ndc.parte-0002.jsonl",
+  "source_manifest": "data/legado/extracao_bruta/atomizado/medicamentos/fracoes/produto_fda_ndc.parte-0002.jsonl/manifesto.json",
+  "expected_parent_sha256": "f1e331a5e3de15eb7a5eef36369210e795f94efadce5f1f0e0768f5ddd5dea4c",
+  "actual_parent_sha256": "f1e331a5e3de15eb7a5eef36369210e795f94efadce5f1f0e0768f5ddd5dea4c",
+  "expected_parent_bytes": 62444010,
+  "actual_parent_bytes": 62444010,
+  "all_parts_pass": true,
+  "parent_pass": true,
+  "parts": [
+    {
+      "name": "part-000",
+      "offset": 0,
+      "git_blob_sha1": "d95fbae8056b055c98e636875744f38457d43429",
+      "bytes": 40000000,
+      "expected_bytes": 40000000,
+      "sha256": "1b5e63ffeb5857b148ca9e13297f9da51df03c97dc1e7ca20c3b2ace6382152f",
+      "expected_sha256": "1b5e63ffeb5857b148ca9e13297f9da51df03c97dc1e7ca20c3b2ace6382152f",
+      "utf8_replacements": 0,
+      "pass": true
+    },
+    {
+      "name": "part-001",
+      "offset": 40000000,
+      "git_blob_sha1": "f4f402a823e3538e5abc1f9a3df801361631180a",
+      "bytes": 22444010,
+      "expected_bytes": 22444010,
+      "sha256": "105f180eee494dc8a4d89866f2a7633ec9173c51dd9ac807785afdf5bb0e67f6",
+      "expected_sha256": "105f180eee494dc8a4d89866f2a7633ec9173c51dd9ac807785afdf5bb0e67f6",
+      "utf8_replacements": 0,
+      "pass": true
+    }
+  ],
+  "method": "pinned Git blob UTF8 bytes fed sequentially to incremental SHA256",
+  "clinical_audit": "PENDING",
+  "release_allowed": false
+}
