@@ -16,7 +16,8 @@
   "definitions": {
     "task_completion": "CLOSED only with WO admitted, external test/result evidence, independent auditor and Kernel FIND validation",
     "preflight": "May collect read-only evidence but cannot claim RELEASE/PASS",
-    "hold_human": "Only tasks needing external authority blocked; do not stall independent tasks"
+    "hold_human": "Only tasks needing external authority blocked; do not stall independent tasks",
+    "drive_access_policy": "NEVER_REQUEST_AGAIN; DO_NOT_CALL_DRIVE_CONNECTOR; USE_ONLY_EXISTING_GITHUB_ARCHIVE_AND_SUPABASE_READ_ONLY"
   },
   "tasks": [
     {
@@ -837,22 +838,24 @@
     {
       "id": "TASK-CE04-031",
       "wo_id": "WO-CE04-RECON-20261017",
-      "title": "Confrontar duas raízes originais do Drive",
-      "description": "Only after connection permits, inventory all accessible originals including ZIP members, IDs, sizes, SHA256, cutoff and provenance.",
+      "title": "Confrontar inventários históricos do Drive já preservados no GitHub (sem solicitar acesso ao Drive)",
+      "description": "Usar SOMENTE evidências, manifestos, metadados e snapshots já migrados e preservados em GitHub, confrontados com inventário Supabase de apoio. NÃO pedir autorização nem chamar conector Drive. Falta de fonte independente gera UNVERIFIABLE/HOLD_SOURCE, sem bloquear leitura e reconciliação GitHub–Supabase.",
       "kind": "EXTERNAL_ACCESS_REQUIRED",
-      "status": "HOLD_EXTERNAL_ACCESS",
+      "status": "HOLD_SOURCE_EVIDENCE_NO_DRIVE_ACCESS_REQUEST",
       "required": true,
       "dependencies": [
         "TASK-CE04-001"
       ],
       "acceptance_criteria": [
-        "both registered roots fully listed or hold by object",
-        "member-by-member verification",
-        "no deletes"
+        "duas raízes registradas reconhecidas a partir de configuração Git",
+        "todos os registros históricos acessíveis classificados",
+        "lacunas sem evidência marcadas UNVERIFIABLE",
+        "zero tentativas de acesso ou solicitações Drive"
       ],
       "evidence_required": [
-        "Drive provider metadata and raw bytes",
-        "Git matching hashes"
+        "GitHub archived manifests and source tree",
+        "historical inventory evidence already migrated",
+        "Supabase inventory as non-authoritative comparison"
       ],
       "completion_evidence": [],
       "closed_at": null,
@@ -1056,6 +1059,7 @@
     "unique_ids": 38,
     "dependency_graph": "ACYCLIC_FORWARD_REFERENCES_REJECTED",
     "zero_closed_tasks": true,
-    "readback_receipt": "docs/reconciliation/CE04_TASK_PERSISTENCE_READBACK_20261017.json"
+    "readback_receipt": "docs/reconciliation/CE04_TASK_PERSISTENCE_READBACK_20261017.json",
+    "source_access_rule": "PASS_IF_NO_DRIVE_ACCESS_REQUESTED"
   }
 }
