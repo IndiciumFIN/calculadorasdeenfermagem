@@ -9,7 +9,7 @@
     "TASK-CE04-013",
     "TASK-CE04-027"
   ],
-  "status": "PERSISTED_METADATA_ONLY_NOT_HOMOLOGATED",
+  "status": "PERSISTED_TREE_MANIFEST_METADATA_CHECKED_HASH_OF_BYTES_PENDING",
   "population": 65,
   "supabase_project_id": "pgsybzggewhinaniybiy",
   "records_metadata_persisted": 65,
@@ -77,5 +77,36 @@
     }
   ],
   "integrity_gate": "ALL_SEVEN_GIT_READBACKS_MATCHED",
-  "next_action": "Reconcile Git tree exact paths, SHA256 actual bytes and manifest versions. Do not close tasks before admission, independent evidence and audit."
+  "next_action": "Reconcile Git tree exact paths, SHA256 actual bytes and manifest versions. Do not close tasks before admission, independent evidence and audit.",
+  "git_tree_metadata_crosscheck": {
+    "records": 65,
+    "exact_git_blobs": 59,
+    "chunked_git_representations": 6,
+    "metadata_manifest_matches": 65,
+    "selected_manifest_v2": [
+      "sepse",
+      "sinais_vitais"
+    ],
+    "raw_byte_sha256_reverified_this_session": 0,
+    "source_git_root_tree_sha1": "fd5818f42c6a6f716996d8c9418ba87a079d0c59",
+    "batches": [
+      {
+        "path": "docs/reconciliation/CE04_DOMAIN_TREE_MANIFEST_BATCH_01_20261017.candidate.json",
+        "blob_sha1": "29a854d36aa92183e3caae68328b196bbac07fa8",
+        "rows": 26
+      },
+      {
+        "path": "docs/reconciliation/CE04_DOMAIN_TREE_MANIFEST_BATCH_02_20261017.candidate.json",
+        "blob_sha1": "0d29d21acfd613e77044b5c8a3dd5f13aef11b0f",
+        "rows": 16
+      },
+      {
+        "path": "docs/reconciliation/CE04_DOMAIN_TREE_MANIFEST_BATCH_03_20261017.candidate.json",
+        "blob_sha1": "9cf2fff5ba60a4ff9a4e10bffbf06622f0573599",
+        "rows": 23
+      }
+    ],
+    "chunks_evidence": "docs/reconciliation/CE04_GAPS_06_CHUNKS_20261017.candidate.json",
+    "note": "Metadata equality is not the byte SHA256 or clinical/rights validation; batch01 uses field manifest_metadados_confere, batch02/03 use manifest_metadata_matches_supabase."
+  }
 }
