@@ -1,7 +1,7 @@
 {
   "schema": "CE-PROJECT-CONTINUATION-MANIFEST-1.0",
   "cutoff": "2026-10-17",
-  "status": "CANDIDATE_HANDOFF_PERSISTED_NOT_HOMOLOGATED",
+  "status": "CANDIDATE_HANDOFF_UPDATED_METADATA_MATRIX_PERSISTED_NOT_HOMOLOGATED",
   "repository": "IndiciumFIN/calculadorasdeenfermagem",
   "authority": {
     "documents": "GitHub",
@@ -89,7 +89,13 @@
       "suprimentos/item_catmat.jsonl"
     ],
     "target_matrix_path": "docs/reconciliation/CE04_GIT_SUPABASE_MATRIX_20261017.json",
-    "target_matrix_state": "NOT_SAVED_404_BY_READBACK"
+    "target_matrix_state": "PERSISTED_METADATA_ONLY_READBACK_PASS_NO_KERNEL_ADMISSION",
+    "records_metadata_persisted": 65,
+    "records_sha256_verified_this_session": 0,
+    "matrix_index_blob_sha1": "bafcd0f6076cbce25cbd9917441e0cf7ae4017e4",
+    "matrix_index_commit_sha1": "606451862c7e219f6acf05f7052fc22d0ca4f4ee",
+    "microbatch_count": 7,
+    "matrix_scope": "Supabase metadata only, Git bytes not revalidated; no task closure"
   },
   "wo": {
     "id": "WO-CE04-RECON-20261017",
@@ -170,5 +176,14 @@
     "no_merge_without_approved_gates": true,
     "never_close_task_on_write_only": true
   },
-  "next_turn_instruction": "Open docs/handoffs/CE_MASTER_HANDOFF_20261017.md on audit/ce04-reconciliation-tasks-20261017. Do not request or use Google Drive. Confirm repo readbacks; continue CE04 micro-batches and persist missing matrix, evidence and tasks to GitHub; compare Supabase read-only; do not claim Kernel admission or task completion without verified evidence."
+  "next_turn_instruction": "Open docs/handoffs/CE_MASTER_HANDOFF_20261017.md on audit/ce04-reconciliation-tasks-20261017. Do not request or use Google Drive. Confirm repo readbacks; continue CE04 micro-batches and persist missing matrix, evidence and tasks to GitHub; compare Supabase read-only; do not claim Kernel admission or task completion without verified evidence.",
+  "latest_readback": {
+    "date": "2026-10-17",
+    "source": "GitHub branch",
+    "matrix_index": "docs/reconciliation/CE04_GIT_SUPABASE_MATRIX_20261017.json",
+    "readback": "PASS",
+    "matrix_rows": 65,
+    "task_count_unchanged": 38,
+    "closed_count": 0
+  }
 }
