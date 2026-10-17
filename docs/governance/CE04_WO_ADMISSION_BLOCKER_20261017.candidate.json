@@ -1,0 +1,58 @@
+{
+  "schema": "CE04-KERNEL-ADMISSION-GAP-CANDIDATE-1.0",
+  "cutoff": "2026-10-17",
+  "wo": "WO-CE04-RECON-20261017",
+  "source": "GitHub branch audit/ce04-reconciliation-tasks-20261017",
+  "status": "OBSERVATION_NOT_OFFICIAL_FIND",
+  "severity": "BLOCKER",
+  "read_only_preflight": true,
+  "evidence": [
+    {
+      "file": "contracts/wo/WO-CE04-RECON-20261017.candidate.json",
+      "fact": "policy_binding.id=CE-GOV-WO-ADMISSION-001; admission.status=NOT_REQUESTED; status=DRAFT_NOT_ADMITTED"
+    },
+    {
+      "file": "contracts/policies/KERNEL-POLICY-001.json through KERNEL-POLICY-020.json",
+      "fact": "All 20 policy JSON IDs checked; none is CE-GOV-WO-ADMISSION-001"
+    },
+    {
+      "file": "packages/cli/kernel/policy_registry.py",
+      "blob_sha1": "041bfaf4151effd05de7cb33a5458a53a2ab04af",
+      "fact": "Registry loads JSON policy files; missing policy ID raises KeyError"
+    },
+    {
+      "file": "packages/cli/kernel/core.py",
+      "blob_sha1": "7649f6e1f0160184e1014308cc05c90a5eb659e9",
+      "fact": "Kernel.evaluate checks policy validators for item; no WO admission receipt demonstrated by this inspection"
+    },
+    {
+      "file": "packages/cli/validators/sha256_validator.py",
+      "blob_sha1": "f14906023a35adddb23dfc34bc9942ededf0ad33",
+      "fact": "Sha256Validator verifies 64-hex syntax, not digest equality against bytes"
+    }
+  ],
+  "find_action": "Submit formal FIND through authoritative Kernel after policy and validator readiness; do not self-issue or close FIND",
+  "required_sequence": [
+    "FIND formal",
+    "policy CE-GOV-WO-ADMISSION-001 candidate, review and homologation",
+    "WO-admission validator implementation and positive/negative tests",
+    "task register alignment",
+    "WO update and submission",
+    "authoritative Kernel admission with durable receipt",
+    "controlled Git import in isolated branch after dry-run",
+    "CI, independent audit, promotion approval"
+  ],
+  "prohibited": [
+    "No source Git blob imports until WO admitted",
+    "No Supabase write or outbox replay",
+    "No main merge",
+    "No Drive access"
+  ],
+  "current_state": {
+    "policy_homologated": false,
+    "wo_validator_available": false,
+    "wo_admitted": false,
+    "source_import_executed": false,
+    "find_closed": false
+  }
+}
