@@ -1,0 +1,119 @@
+{
+  "schema": "CE04-WO-ADMISSION-POLICY-VALIDATOR-SPEC-CANDIDATE-1.0",
+  "wo": "WO-CE04-RECON-20261017",
+  "status": "DESIGN_ONLY_NOT_EXECUTABLE_NOT_HOMOLOGATED",
+  "policy": {
+    "id": "CE-GOV-WO-ADMISSION-001",
+    "version": "0.1.0-CANDIDATE",
+    "status": "NOT_REGISTERED_NOT_HOMOLOGATED",
+    "type": "WORK_ORDER_ADMISSION",
+    "fail_closed": true,
+    "source_contract": "contracts/wo/WO-CE04-RECON-20261017.candidate.json",
+    "validator": "wo_admission_validator",
+    "required_claims": [
+      "wo id stable",
+      "GitHub branch fixed",
+      "policy ID exists and is homologated",
+      "validator version pinned and positive/negative tests pass",
+      "task register 38 unique tasks",
+      "all evidence references GitHub",
+      "no Drive access",
+      "Supabase READ_ONLY",
+      "no source mutation until admission",
+      "Kernel transactional receipt and fencing"
+    ],
+    "admission_receipt_fields": [
+      "wo_id",
+      "kernel_instance",
+      "policy_id",
+      "policy_version",
+      "validator_id",
+      "validator_version",
+      "decision",
+      "decision_timestamp",
+      "transaction_id",
+      "fencing_token",
+      "evidence_digest",
+      "git_commit_sha"
+    ],
+    "denial_on_missing_receipt": true,
+    "default_decision": "REJECTED"
+  },
+  "validator_spec": {
+    "id": "wo_admission_validator",
+    "version": "0.1.0-CANDIDATE",
+    "kind": "DETERMINISTIC",
+    "source_of_truth": "GitHub",
+    "kernel_authority": "Supabase transactional Kernel after homologation",
+    "tests": [
+      {
+        "id": "T01",
+        "input": "missing policy ID",
+        "expected": "REJECTED"
+      },
+      {
+        "id": "T02",
+        "input": "policy candidate only",
+        "expected": "REJECTED"
+      },
+      {
+        "id": "T03",
+        "input": "validator not registered",
+        "expected": "REJECTED"
+      },
+      {
+        "id": "T04",
+        "input": "WO status DRAFT_NOT_ADMITTED",
+        "expected": "NOT_ADMITTED"
+      },
+      {
+        "id": "T05",
+        "input": "task register has duplicate task IDs",
+        "expected": "REJECTED"
+      },
+      {
+        "id": "T06",
+        "input": "requested Drive access",
+        "expected": "REJECTED"
+      },
+      {
+        "id": "T07",
+        "input": "Supabase mutation requested",
+        "expected": "REJECTED"
+      },
+      {
+        "id": "T08",
+        "input": "main merge requested",
+        "expected": "REJECTED"
+      },
+      {
+        "id": "T09",
+        "input": "missing Kernel receipt",
+        "expected": "NOT_ADMITTED"
+      },
+      {
+        "id": "T10",
+        "input": "valid authorized WO plus durable receipt",
+        "expected": "ADMITTED_ONLY_AFTER_RUNTIME_EVIDENCE"
+      }
+    ],
+    "test_execution": "NOT_RUN_REAL_KERNEL",
+    "expected_current_wo_decision": "NOT_ADMITTED"
+  },
+  "process_order": [
+    "formal FIND through Kernel",
+    "policy homologation",
+    "validator implementation + tests",
+    "task alignment",
+    "WO submission",
+    "Kernel admission receipt",
+    "source import in isolated branch",
+    "CI, independent audit, approval"
+  ],
+  "restrictions": {
+    "no_drive": true,
+    "no_supabase_write": true,
+    "no_source_import_now": true,
+    "no_main_merge": true
+  }
+}
