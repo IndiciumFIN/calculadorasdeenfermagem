@@ -163,7 +163,8 @@
       "docs/migration/CE04_GIT_BLOB_IMPORT_PLAN_65_20261017.candidate.json",
       "docs/tasks/CE04_TASK_EVIDENCE_CROSSWALK_38_20261017.candidate.json",
       "docs/governance/CE04_WO_ADMISSION_BLOCKER_20261017.candidate.json",
-      "docs/migration/CE04_IMPORT_COLLISION_PREFLIGHT_20261017.candidate.json"
+      "docs/migration/CE04_IMPORT_COLLISION_PREFLIGHT_20261017.candidate.json",
+      "docs/governance/CE04_WO_ADMISSION_POLICY_VALIDATOR_SPEC_20261017.candidate.json"
     ],
     "hash_evidence_latest": "docs/reconciliation/CE04_SHA256_FULL_COVERAGE_65_20261017.candidate.json",
     "hash_evidence_readback_scope": "17 GitHub evidence microbatches compared to 65 Git structural manifest records; 59 distinct direct blobs verified; 6 chunked parents pending",
@@ -194,7 +195,11 @@
     "policy_binding_preflight": "MISSING_IN_20_GIT_POLICIES",
     "wo_admission_validator_preflight": "NOT_VERIFIED_PRESENT",
     "governance_blocker_report": "docs/governance/CE04_WO_ADMISSION_BLOCKER_20261017.candidate.json",
-    "governance_blocker_commit": "11afd72b3a90c55ffc2bfbc321b7f134de60b30e"
+    "governance_blocker_commit": "11afd72b3a90c55ffc2bfbc321b7f134de60b30e",
+    "policy_validator_candidate_spec": "docs/governance/CE04_WO_ADMISSION_POLICY_VALIDATOR_SPEC_20261017.candidate.json",
+    "policy_validator_candidate_spec_commit": "09832894f527f05597f91cdb224beefa16fb20ae",
+    "policy_validator_spec_test_cases": 10,
+    "policy_validator_spec_tests_executed": false
   },
   "task_register": {
     "path": "docs/tasks/CE04_RECON_TASK_REGISTER_20261017.json",
@@ -266,7 +271,7 @@
     "no_merge_without_approved_gates": true,
     "never_close_task_on_write_only": true
   },
-  "next_turn_instruction": "Read CE04_WO_ADMISSION_BLOCKER_20261017.candidate.json. Follow FIND->policy->validator->task->WO->Kernel admission before source import. 65/65 byte SHA256 proofs already in GitHub, no need to repeat. No Drive. No main promotion.",
+  "next_turn_instruction": "Policy/validator spec is a candidate only, not registered or tested in real Kernel. Continue FIND formal and policy/validator controlled implementation, then WO admission. Do not import 73 source paths until Kernel receipt. No Drive.",
   "latest_readback": {
     "artifact": "docs/reconciliation/CE04_SHA256_FULL_COVERAGE_65_20261017.candidate.json",
     "commit": "5fe65af64fc23a741b1082be32b488ad50df7f8b",
