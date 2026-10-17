@@ -1,0 +1,402 @@
+{
+  "schema": "CE-MIGRATION-GATES-1.0.0",
+  "gate_namespace": "CE-MIG-GNN",
+  "legacy_gate_name_collision_policy": "Never reuse existing G1-G6 IDs",
+  "gates": [
+    {
+      "id": "CE-MIG-G00",
+      "phase": "F00",
+      "title": "Governo, proteção e linha de base",
+      "prerequisite": "Repository and authority access read-only verified",
+      "checks": [
+        "Completeness of all microtask evidence",
+        "No unexplained SHA/size/ID conflict",
+        "No unauthorized mutation",
+        "Independent review recorded"
+      ],
+      "pass_condition": "All 8 WOs of phase have independent evidence-based PASS; all CRITICAL controls pass; required human reviews signed",
+      "fail_condition": "Missing evidence, partial sample treated as full, source inaccessible, unapproved write, inconsistent state or security rights issue",
+      "statuses": [
+        "NOT_STARTED",
+        "PASS",
+        "FAIL",
+        "HOLD_HUMAN"
+      ],
+      "default_status": "NOT_STARTED",
+      "promotion_rule": "G00–G12 required before any main merge; G13 gate authorizes only enumerated signed PRs; G14–G15 for closeout",
+      "current_status": "PARTIAL",
+      "last_updated": "2026-10-17T00:00:00Z",
+      "evidence_note": "Updated by Mavis Agent after parallel review 2026-10-17"
+    },
+    {
+      "id": "CE-MIG-G01",
+      "phase": "F01",
+      "title": "Inventário completo de branches e Git",
+      "prerequisite": "Previous phase gate PASS",
+      "checks": [
+        "Completeness of all microtask evidence",
+        "No unexplained SHA/size/ID conflict",
+        "No unauthorized mutation",
+        "Independent review recorded"
+      ],
+      "pass_condition": "All 8 WOs of phase have independent evidence-based PASS; all CRITICAL controls pass; required human reviews signed",
+      "fail_condition": "Missing evidence, partial sample treated as full, source inaccessible, unapproved write, inconsistent state or security rights issue",
+      "statuses": [
+        "NOT_STARTED",
+        "PASS",
+        "FAIL",
+        "HOLD_HUMAN"
+      ],
+      "default_status": "NOT_STARTED",
+      "promotion_rule": "G00–G12 required before any main merge; G13 gate authorizes only enumerated signed PRs; G14–G15 for closeout",
+      "current_status": "PARTIAL",
+      "last_updated": "2026-10-17T00:00:00Z",
+      "evidence_note": "Updated by Mavis Agent after parallel review 2026-10-17"
+    },
+    {
+      "id": "CE-MIG-G02",
+      "phase": "F02",
+      "title": "Fontes externas, Drive e Supabase",
+      "prerequisite": "Previous phase gate PASS",
+      "checks": [
+        "Completeness of all microtask evidence",
+        "No unexplained SHA/size/ID conflict",
+        "No unauthorized mutation",
+        "Independent review recorded"
+      ],
+      "pass_condition": "All 8 WOs of phase have independent evidence-based PASS; all CRITICAL controls pass; required human reviews signed",
+      "fail_condition": "Missing evidence, partial sample treated as full, source inaccessible, unapproved write, inconsistent state or security rights issue",
+      "statuses": [
+        "NOT_STARTED",
+        "PASS",
+        "FAIL",
+        "HOLD_HUMAN"
+      ],
+      "default_status": "NOT_STARTED",
+      "promotion_rule": "G00–G12 required before any main merge; G13 gate authorizes only enumerated signed PRs; G14–G15 for closeout",
+      "current_status": "PARTIAL",
+      "last_updated": "2026-10-17T00:00:00Z",
+      "evidence_note": "Updated by Mavis Agent after parallel review 2026-10-17"
+    },
+    {
+      "id": "CE-MIG-G03",
+      "phase": "F03",
+      "title": "Conciliação por arquivo e conteúdo",
+      "prerequisite": "Previous phase gate PASS",
+      "checks": [
+        "Completeness of all microtask evidence",
+        "No unexplained SHA/size/ID conflict",
+        "No unauthorized mutation",
+        "Independent review recorded"
+      ],
+      "pass_condition": "All 8 WOs of phase have independent evidence-based PASS; all CRITICAL controls pass; required human reviews signed",
+      "fail_condition": "Missing evidence, partial sample treated as full, source inaccessible, unapproved write, inconsistent state or security rights issue",
+      "statuses": [
+        "NOT_STARTED",
+        "PASS",
+        "FAIL",
+        "HOLD_HUMAN"
+      ],
+      "default_status": "NOT_STARTED",
+      "promotion_rule": "G00–G12 required before any main merge; G13 gate authorizes only enumerated signed PRs; G14–G15 for closeout",
+      "current_status": "NOT_STARTED",
+      "last_updated": "2026-10-17T00:00:00Z",
+      "evidence_note": "Updated by Mavis Agent after parallel review 2026-10-17"
+    },
+    {
+      "id": "CE-MIG-G04",
+      "phase": "F04",
+      "title": "Estrutura, nomenclatura e versionamento",
+      "prerequisite": "Previous phase gate PASS",
+      "checks": [
+        "Completeness of all microtask evidence",
+        "No unexplained SHA/size/ID conflict",
+        "No unauthorized mutation",
+        "Independent review recorded"
+      ],
+      "pass_condition": "All 8 WOs of phase have independent evidence-based PASS; all CRITICAL controls pass; required human reviews signed",
+      "fail_condition": "Missing evidence, partial sample treated as full, source inaccessible, unapproved write, inconsistent state or security rights issue",
+      "statuses": [
+        "NOT_STARTED",
+        "PASS",
+        "FAIL",
+        "HOLD_HUMAN"
+      ],
+      "default_status": "NOT_STARTED",
+      "promotion_rule": "G00–G12 required before any main merge; G13 gate authorizes only enumerated signed PRs; G14–G15 for closeout",
+      "current_status": "NOT_STARTED",
+      "last_updated": "2026-10-17T00:00:00Z",
+      "evidence_note": "Updated by Mavis Agent after parallel review 2026-10-17"
+    },
+    {
+      "id": "CE-MIG-G05",
+      "phase": "F05",
+      "title": "Duplicidades, obsolescência e retenção",
+      "prerequisite": "Previous phase gate PASS",
+      "checks": [
+        "Completeness of all microtask evidence",
+        "No unexplained SHA/size/ID conflict",
+        "No unauthorized mutation",
+        "Independent review recorded"
+      ],
+      "pass_condition": "All 8 WOs of phase have independent evidence-based PASS; all CRITICAL controls pass; required human reviews signed",
+      "fail_condition": "Missing evidence, partial sample treated as full, source inaccessible, unapproved write, inconsistent state or security rights issue",
+      "statuses": [
+        "NOT_STARTED",
+        "PASS",
+        "FAIL",
+        "HOLD_HUMAN"
+      ],
+      "default_status": "NOT_STARTED",
+      "promotion_rule": "G00–G12 required before any main merge; G13 gate authorizes only enumerated signed PRs; G14–G15 for closeout",
+      "current_status": "NOT_STARTED",
+      "last_updated": "2026-10-17T00:00:00Z",
+      "evidence_note": "Updated by Mavis Agent after parallel review 2026-10-17"
+    },
+    {
+      "id": "CE-MIG-G06",
+      "phase": "F06",
+      "title": "Kernel, contratos, WOs e gates",
+      "prerequisite": "Previous phase gate PASS",
+      "checks": [
+        "Completeness of all microtask evidence",
+        "No unexplained SHA/size/ID conflict",
+        "No unauthorized mutation",
+        "Independent review recorded"
+      ],
+      "pass_condition": "All 8 WOs of phase have independent evidence-based PASS; all CRITICAL controls pass; required human reviews signed",
+      "fail_condition": "Missing evidence, partial sample treated as full, source inaccessible, unapproved write, inconsistent state or security rights issue",
+      "statuses": [
+        "NOT_STARTED",
+        "PASS",
+        "FAIL",
+        "HOLD_HUMAN"
+      ],
+      "default_status": "NOT_STARTED",
+      "promotion_rule": "G00–G12 required before any main merge; G13 gate authorizes only enumerated signed PRs; G14–G15 for closeout",
+      "current_status": "PARTIAL",
+      "last_updated": "2026-10-17T00:00:00Z",
+      "evidence_note": "Updated by Mavis Agent after parallel review 2026-10-17"
+    },
+    {
+      "id": "CE-MIG-G07",
+      "phase": "F07",
+      "title": "Código, bibliotecas, parsers e agentes",
+      "prerequisite": "Previous phase gate PASS",
+      "checks": [
+        "Completeness of all microtask evidence",
+        "No unexplained SHA/size/ID conflict",
+        "No unauthorized mutation",
+        "Independent review recorded"
+      ],
+      "pass_condition": "All 8 WOs of phase have independent evidence-based PASS; all CRITICAL controls pass; required human reviews signed",
+      "fail_condition": "Missing evidence, partial sample treated as full, source inaccessible, unapproved write, inconsistent state or security rights issue",
+      "statuses": [
+        "NOT_STARTED",
+        "PASS",
+        "FAIL",
+        "HOLD_HUMAN"
+      ],
+      "default_status": "NOT_STARTED",
+      "promotion_rule": "G00–G12 required before any main merge; G13 gate authorizes only enumerated signed PRs; G14–G15 for closeout",
+      "current_status": "NOT_STARTED",
+      "last_updated": "2026-10-17T00:00:00Z",
+      "evidence_note": "Updated by Mavis Agent after parallel review 2026-10-17"
+    },
+    {
+      "id": "CE-MIG-G08",
+      "phase": "F08",
+      "title": "CI/CD, segurança e automação",
+      "prerequisite": "Previous phase gate PASS",
+      "checks": [
+        "Completeness of all microtask evidence",
+        "No unexplained SHA/size/ID conflict",
+        "No unauthorized mutation",
+        "Independent review recorded"
+      ],
+      "pass_condition": "All 8 WOs of phase have independent evidence-based PASS; all CRITICAL controls pass; required human reviews signed",
+      "fail_condition": "Missing evidence, partial sample treated as full, source inaccessible, unapproved write, inconsistent state or security rights issue",
+      "statuses": [
+        "NOT_STARTED",
+        "PASS",
+        "FAIL",
+        "HOLD_HUMAN"
+      ],
+      "default_status": "NOT_STARTED",
+      "promotion_rule": "G00–G12 required before any main merge; G13 gate authorizes only enumerated signed PRs; G14–G15 for closeout",
+      "current_status": "PARTIAL",
+      "last_updated": "2026-10-17T00:00:00Z",
+      "evidence_note": "Updated by Mavis Agent after parallel review 2026-10-17"
+    },
+    {
+      "id": "CE-MIG-G09",
+      "phase": "F09",
+      "title": "Migração física do corpus e arquivos grandes",
+      "prerequisite": "Previous phase gate PASS",
+      "checks": [
+        "Completeness of all microtask evidence",
+        "No unexplained SHA/size/ID conflict",
+        "No unauthorized mutation",
+        "Independent review recorded"
+      ],
+      "pass_condition": "All 8 WOs of phase have independent evidence-based PASS; all CRITICAL controls pass; required human reviews signed",
+      "fail_condition": "Missing evidence, partial sample treated as full, source inaccessible, unapproved write, inconsistent state or security rights issue",
+      "statuses": [
+        "NOT_STARTED",
+        "PASS",
+        "FAIL",
+        "HOLD_HUMAN"
+      ],
+      "default_status": "NOT_STARTED",
+      "promotion_rule": "G00–G12 required before any main merge; G13 gate authorizes only enumerated signed PRs; G14–G15 for closeout"
+    },
+    {
+      "id": "CE-MIG-G10",
+      "phase": "F10",
+      "title": "Revisão normativa, clínica e jurídica",
+      "prerequisite": "Previous phase gate PASS",
+      "checks": [
+        "Completeness of all microtask evidence",
+        "No unexplained SHA/size/ID conflict",
+        "No unauthorized mutation",
+        "Independent review recorded"
+      ],
+      "pass_condition": "All 8 WOs of phase have independent evidence-based PASS; all CRITICAL controls pass; required human reviews signed",
+      "fail_condition": "Missing evidence, partial sample treated as full, source inaccessible, unapproved write, inconsistent state or security rights issue",
+      "statuses": [
+        "NOT_STARTED",
+        "PASS",
+        "FAIL",
+        "HOLD_HUMAN"
+      ],
+      "default_status": "NOT_STARTED",
+      "promotion_rule": "G00–G12 required before any main merge; G13 gate authorizes only enumerated signed PRs; G14–G15 for closeout"
+    },
+    {
+      "id": "CE-MIG-G11",
+      "phase": "F11",
+      "title": "Integração e testes E2E",
+      "prerequisite": "Previous phase gate PASS",
+      "checks": [
+        "Completeness of all microtask evidence",
+        "No unexplained SHA/size/ID conflict",
+        "No unauthorized mutation",
+        "Independent review recorded"
+      ],
+      "pass_condition": "All 8 WOs of phase have independent evidence-based PASS; all CRITICAL controls pass; required human reviews signed",
+      "fail_condition": "Missing evidence, partial sample treated as full, source inaccessible, unapproved write, inconsistent state or security rights issue",
+      "statuses": [
+        "NOT_STARTED",
+        "PASS",
+        "FAIL",
+        "HOLD_HUMAN"
+      ],
+      "default_status": "NOT_STARTED",
+      "promotion_rule": "G00–G12 required before any main merge; G13 gate authorizes only enumerated signed PRs; G14–G15 for closeout"
+    },
+    {
+      "id": "CE-MIG-G12",
+      "phase": "F12",
+      "title": "Reconciliação e aceite pré-promoção",
+      "prerequisite": "Previous phase gate PASS",
+      "checks": [
+        "Completeness of all microtask evidence",
+        "No unexplained SHA/size/ID conflict",
+        "No unauthorized mutation",
+        "Independent review recorded"
+      ],
+      "pass_condition": "All 8 WOs of phase have independent evidence-based PASS; all CRITICAL controls pass; required human reviews signed",
+      "fail_condition": "Missing evidence, partial sample treated as full, source inaccessible, unapproved write, inconsistent state or security rights issue",
+      "statuses": [
+        "NOT_STARTED",
+        "PASS",
+        "FAIL",
+        "HOLD_HUMAN"
+      ],
+      "default_status": "NOT_STARTED",
+      "promotion_rule": "G00–G12 required before any main merge; G13 gate authorizes only enumerated signed PRs; G14–G15 for closeout"
+    },
+    {
+      "id": "CE-MIG-G13",
+      "phase": "F13",
+      "title": "Promoção canônica controlada",
+      "prerequisite": "Previous phase gate PASS",
+      "checks": [
+        "Completeness of all microtask evidence",
+        "No unexplained SHA/size/ID conflict",
+        "No unauthorized mutation",
+        "Independent review recorded"
+      ],
+      "pass_condition": "All 8 WOs of phase have independent evidence-based PASS; all CRITICAL controls pass; required human reviews signed",
+      "fail_condition": "Missing evidence, partial sample treated as full, source inaccessible, unapproved write, inconsistent state or security rights issue",
+      "statuses": [
+        "NOT_STARTED",
+        "PASS",
+        "FAIL",
+        "HOLD_HUMAN"
+      ],
+      "default_status": "NOT_STARTED",
+      "promotion_rule": "G00–G12 required before any main merge; G13 gate authorizes only enumerated signed PRs; G14–G15 for closeout"
+    },
+    {
+      "id": "CE-MIG-G14",
+      "phase": "F14",
+      "title": "Pós-promoção e continuidade",
+      "prerequisite": "Previous phase gate PASS",
+      "checks": [
+        "Completeness of all microtask evidence",
+        "No unexplained SHA/size/ID conflict",
+        "No unauthorized mutation",
+        "Independent review recorded"
+      ],
+      "pass_condition": "All 8 WOs of phase have independent evidence-based PASS; all CRITICAL controls pass; required human reviews signed",
+      "fail_condition": "Missing evidence, partial sample treated as full, source inaccessible, unapproved write, inconsistent state or security rights issue",
+      "statuses": [
+        "NOT_STARTED",
+        "PASS",
+        "FAIL",
+        "HOLD_HUMAN"
+      ],
+      "default_status": "NOT_STARTED",
+      "promotion_rule": "G00–G12 required before any main merge; G13 gate authorizes only enumerated signed PRs; G14–G15 for closeout"
+    },
+    {
+      "id": "CE-MIG-G15",
+      "phase": "F15",
+      "title": "Encerramento, arquivamento e transferência",
+      "prerequisite": "Previous phase gate PASS",
+      "checks": [
+        "Completeness of all microtask evidence",
+        "No unexplained SHA/size/ID conflict",
+        "No unauthorized mutation",
+        "Independent review recorded"
+      ],
+      "pass_condition": "All 8 WOs of phase have independent evidence-based PASS; all CRITICAL controls pass; required human reviews signed",
+      "fail_condition": "Missing evidence, partial sample treated as full, source inaccessible, unapproved write, inconsistent state or security rights issue",
+      "statuses": [
+        "NOT_STARTED",
+        "PASS",
+        "FAIL",
+        "HOLD_HUMAN"
+      ],
+      "default_status": "NOT_STARTED",
+      "promotion_rule": "G00–G12 required before any main merge; G13 gate authorizes only enumerated signed PRs; G14–G15 for closeout"
+    }
+  ],
+  "_meta": {
+    "updated": "2026-10-17T00:00:00Z",
+    "updated_by": "Mavis Agent",
+    "improvements": [
+      "Action guides 01-09 complete",
+      "gate.yml updated with PR->main trigger",
+      "G6-auto implemented (SHA256 verification)",
+      "RACI F00-07 synced with F06-08 (Leivis designated)"
+    ],
+    "critical_blockers": [
+      "Branch protection (CRITICAL)",
+      "CLONE_PAT secret (CRITICAL)",
+      "Supabase credentials (HIGH)",
+      "Enfermeiro COREN designation (HIGH)"
+    ]
+  }
+}
