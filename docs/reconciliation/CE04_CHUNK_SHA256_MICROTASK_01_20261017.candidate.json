@@ -1,0 +1,30 @@
+{
+  "schema": "CE04-CHUNK-SHA256-EVIDENCE-CANDIDATE-1.0",
+  "wo": "WO-CE04-RECON-20261017",
+  "admission": "DRAFT_NOT_ADMITTED",
+  "task_ids": [
+    "TASK-CE04-006",
+    "TASK-CE04-007"
+  ],
+  "kernel_release": false,
+  "source_git_ref": "cursor/drive-sa-key-refactor",
+  "result": {
+    "source_file": "dispositivos/registro_anvisa_produto_saude.parte-0001.jsonl",
+    "chunk": "part-002",
+    "git_blob_sha1": "5404eabaf3f314e2ea94766d5274aec7d8224d5b",
+    "declared_sha256": "a243e70ca40af7bb69e0842efef4fb02439d00052ff810fe99216e61f609ced2",
+    "computed_sha256": "a243e70ca40af7bb69e0842efef4fb02439d00052ff810fe99216e61f609ced2",
+    "declared_bytes": 9998991,
+    "computed_bytes": 9998991,
+    "contains_replacement_character": false,
+    "hash_match": true,
+    "size_match": true,
+    "method": "GitHub pinned blob decoded text -> UTF8 bytes",
+    "status": "READ_ONLY_CANDIDATE"
+  },
+  "limitations": [
+    "Only one chunk; not the parent hash",
+    "GitHub UTF8 decoding must preserve exact bytes for this check",
+    "No source content copied or promoted"
+  ]
+}
