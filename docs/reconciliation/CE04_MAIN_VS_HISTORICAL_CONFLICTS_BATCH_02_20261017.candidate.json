@@ -1,0 +1,225 @@
+{
+  "schema": "CE04-CONFLICT-COMPARISON-CANDIDATE-1.0",
+  "wo": "WO-CE04-RECON-20261017",
+  "task_id": "TASK-CE04-003",
+  "branch": "audit/ce04-reconciliation-tasks-20261017",
+  "main_sha": "e0f62491b104f4a97c6025a6393cabc2e7ada30e",
+  "historic_root_sha": "fd5818f42c6a6f716996d8c9418ba87a079d0c59",
+  "comparison": "Git recursive trees; same relative path differing blob SHA1",
+  "source_preserved": true,
+  "no_winner_selected": true,
+  "mutation_allowed": false,
+  "status": "READ_ONLY_METADATA_CONFLICTS_NOT_RESOLVED",
+  "count": 11,
+  "conflicts": [
+    {
+      "path": "package.json",
+      "main": {
+        "blob_sha1": "c34dea63000f29524e0e77d1b1f4c428236808e8",
+        "size": 647
+      },
+      "historic": {
+        "blob_sha1": "3cd718c127821b043d4df7a6cfc45fcbae28f321",
+        "size": 718
+      },
+      "size_equal": false,
+      "category": "BUILD_CONFIG",
+      "risk": "CANDIDATE_NOT_REVIEWED",
+      "resolution": "KEEP_BOTH_HOLD_HUMAN",
+      "actual_diff_review": "PENDING",
+      "independent_audit": "PENDING",
+      "validated": false,
+      "pass": false
+    },
+    {
+      "path": "packages/cli/adapters/dou.py",
+      "main": {
+        "blob_sha1": "c0cde62ae2e32d244c2257dd942f014b41e50cea",
+        "size": 1078
+      },
+      "historic": {
+        "blob_sha1": "4991ec37bd915c21b5394d86f8962bff004f5f61",
+        "size": 1429
+      },
+      "size_equal": false,
+      "category": "APPLICATION_CODE",
+      "risk": "CANDIDATE_NOT_REVIEWED",
+      "resolution": "KEEP_BOTH_HOLD_HUMAN",
+      "actual_diff_review": "PENDING",
+      "independent_audit": "PENDING",
+      "validated": false,
+      "pass": false
+    },
+    {
+      "path": "packages/cli/adapters/secundaria.py",
+      "main": {
+        "blob_sha1": "11638dbf2ff13a8a5ea1d0d6a74db31960021ab7",
+        "size": 1012
+      },
+      "historic": {
+        "blob_sha1": "966ed3987a85b71a0ceb7f74ef1624d217f2fa11",
+        "size": 1215
+      },
+      "size_equal": false,
+      "category": "APPLICATION_CODE",
+      "risk": "CANDIDATE_NOT_REVIEWED",
+      "resolution": "KEEP_BOTH_HOLD_HUMAN",
+      "actual_diff_review": "PENDING",
+      "independent_audit": "PENDING",
+      "validated": false,
+      "pass": false
+    },
+    {
+      "path": "packages/cli/main.py",
+      "main": {
+        "blob_sha1": "79fe358e7698c0eddf70357fac696daac0abc1e6",
+        "size": 9976
+      },
+      "historic": {
+        "blob_sha1": "00d1d76ddf6e9446e296a8d303764f68fcdae5cf",
+        "size": 8839
+      },
+      "size_equal": false,
+      "category": "APPLICATION_CODE",
+      "risk": "CANDIDATE_NOT_REVIEWED",
+      "resolution": "KEEP_BOTH_HOLD_HUMAN",
+      "actual_diff_review": "PENDING",
+      "independent_audit": "PENDING",
+      "validated": false,
+      "pass": false
+    },
+    {
+      "path": "packages/cli/pipeline.py",
+      "main": {
+        "blob_sha1": "a25b923730c7930bd3850b5e833ba1ceaa0c26a7",
+        "size": 4295
+      },
+      "historic": {
+        "blob_sha1": "9dd09a54e2160a9b909a556ddae8f76a228ad0e8",
+        "size": 736
+      },
+      "size_equal": false,
+      "category": "APPLICATION_CODE",
+      "risk": "CANDIDATE_NOT_REVIEWED",
+      "resolution": "KEEP_BOTH_HOLD_HUMAN",
+      "actual_diff_review": "PENDING",
+      "independent_audit": "PENDING",
+      "validated": false,
+      "pass": false
+    },
+    {
+      "path": "packages/cli/registry.py",
+      "main": {
+        "blob_sha1": "cbaf477eeb3f2095e9e182a60238e36d638976cc",
+        "size": 1835
+      },
+      "historic": {
+        "blob_sha1": "676e3d81ece0c7011177f66a71f18ec79d880a97",
+        "size": 5685
+      },
+      "size_equal": false,
+      "category": "APPLICATION_CODE",
+      "risk": "CANDIDATE_NOT_REVIEWED",
+      "resolution": "KEEP_BOTH_HOLD_HUMAN",
+      "actual_diff_review": "PENDING",
+      "independent_audit": "PENDING",
+      "validated": false,
+      "pass": false
+    },
+    {
+      "path": "packages/cli/requirements.txt",
+      "main": {
+        "blob_sha1": "207950b50f385a8cd15d5ab851e68a82126a6009",
+        "size": 94
+      },
+      "historic": {
+        "blob_sha1": "f57ac51785cad6f459110fc7b1be0ac11e26ed68",
+        "size": 91
+      },
+      "size_equal": false,
+      "category": "APPLICATION_CODE",
+      "risk": "CANDIDATE_NOT_REVIEWED",
+      "resolution": "KEEP_BOTH_HOLD_HUMAN",
+      "actual_diff_review": "PENDING",
+      "independent_audit": "PENDING",
+      "validated": false,
+      "pass": false
+    },
+    {
+      "path": "packages/cli/utils.py",
+      "main": {
+        "blob_sha1": "f7a7dc644af29bb378dbca102df2de485b3f7d42",
+        "size": 1077
+      },
+      "historic": {
+        "blob_sha1": "b9e6d284b8417807fb6ef7aefa0f694b6edd02f7",
+        "size": 2205
+      },
+      "size_equal": false,
+      "category": "APPLICATION_CODE",
+      "risk": "CANDIDATE_NOT_REVIEWED",
+      "resolution": "KEEP_BOTH_HOLD_HUMAN",
+      "actual_diff_review": "PENDING",
+      "independent_audit": "PENDING",
+      "validated": false,
+      "pass": false
+    },
+    {
+      "path": "packages/schemas/atomo.py",
+      "main": {
+        "blob_sha1": "02fd7ddfe2ba2831a6f2618a5f6d7beb34bce053",
+        "size": 920
+      },
+      "historic": {
+        "blob_sha1": "07e54c6b8837188e0b8e29d284379bba2ea7cc4a",
+        "size": 510
+      },
+      "size_equal": false,
+      "category": "APPLICATION_CODE",
+      "risk": "CANDIDATE_NOT_REVIEWED",
+      "resolution": "KEEP_BOTH_HOLD_HUMAN",
+      "actual_diff_review": "PENDING",
+      "independent_audit": "PENDING",
+      "validated": false,
+      "pass": false
+    },
+    {
+      "path": "packages/schemas/invariantes.py",
+      "main": {
+        "blob_sha1": "f2cb16efbc30b2edc024fad4ed768dcc0964944f",
+        "size": 6215
+      },
+      "historic": {
+        "blob_sha1": "a5c70dbdf059ed8039b318c3257d4aa11bfee4f9",
+        "size": 2628
+      },
+      "size_equal": false,
+      "category": "APPLICATION_CODE",
+      "risk": "CANDIDATE_NOT_REVIEWED",
+      "resolution": "KEEP_BOTH_HOLD_HUMAN",
+      "actual_diff_review": "PENDING",
+      "independent_audit": "PENDING",
+      "validated": false,
+      "pass": false
+    },
+    {
+      "path": "tsconfig.json",
+      "main": {
+        "blob_sha1": "2aead53bd47286c1c87d4e092b10593a0c054a98",
+        "size": 552
+      },
+      "historic": {
+        "blob_sha1": "19c4c7686665e91eba0c9946173f9f90153f31df",
+        "size": 574
+      },
+      "size_equal": false,
+      "category": "BUILD_CONFIG",
+      "risk": "CANDIDATE_NOT_REVIEWED",
+      "resolution": "KEEP_BOTH_HOLD_HUMAN",
+      "actual_diff_review": "PENDING",
+      "independent_audit": "PENDING",
+      "validated": false,
+      "pass": false
+    }
+  ]
+}
