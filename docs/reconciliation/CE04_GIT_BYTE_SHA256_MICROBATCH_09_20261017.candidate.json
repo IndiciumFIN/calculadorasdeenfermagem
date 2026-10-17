@@ -1,0 +1,57 @@
+{
+  "schema": "CE04-GIT-BLOB-SHA256-CANDIDATE-1.0",
+  "wo": "WO-CE04-RECON-20261017",
+  "wo_status": "DRAFT_NOT_ADMITTED",
+  "task": "TASK-CE04-004",
+  "hash_tests": {
+    "abc": "PASS",
+    "one_million_a": "PASS"
+  },
+  "result": "RAW_BYTE_SHA256_MATCH_ONLY_NO_RELEASE",
+  "records": [
+    {
+      "name": "vacinal_brasil/movimento_insumo_sies.jsonl",
+      "source_blob_sha1": "174af8c183681f398d418c7a1d22d4cf1f527829",
+      "bytes_computed": 4553211,
+      "bytes_expected": 4553211,
+      "sha256_computed": "91e0a3b66c5db8162255c99def77e45d36c6cdbecdaee5820a34661100de3be5",
+      "sha256_expected": "91e0a3b66c5db8162255c99def77e45d36c6cdbecdaee5820a34661100de3be5",
+      "bytes_pass": true,
+      "sha256_pass": true,
+      "method": "GitHub fetch_blob by pinned tree SHA; UTF8 SHA256"
+    },
+    {
+      "name": "medlineplus/topico_saude_en.jsonl",
+      "source_blob_sha1": "1aa9a5915e6ea4f85fb0ef58c5a0f059bfe6dd1b",
+      "bytes_computed": 6320529,
+      "bytes_expected": 6320529,
+      "sha256_computed": "f47bc45931cf576316eac265b480ea8eb606a20eb66eb7bbeaf76336e097cb3c",
+      "sha256_expected": "f47bc45931cf576316eac265b480ea8eb606a20eb66eb7bbeaf76336e097cb3c",
+      "bytes_pass": true,
+      "sha256_pass": true,
+      "method": "GitHub fetch_blob by pinned tree SHA; UTF8 SHA256"
+    },
+    {
+      "name": "medicamentos/produto_anvisa_sem_numero_registro.jsonl",
+      "source_blob_sha1": "99dae0571299db8eb1314d6c5b94cea929307a6b",
+      "bytes_computed": 6933937,
+      "bytes_expected": 6933937,
+      "sha256_computed": "fc592821341dfbb919b297166a8ba948ec7afd7ca955da7085c7a54198bb12e1",
+      "sha256_expected": "fc592821341dfbb919b297166a8ba948ec7afd7ca955da7085c7a54198bb12e1",
+      "bytes_pass": true,
+      "sha256_pass": true,
+      "method": "GitHub fetch_blob by pinned tree SHA; UTF8 SHA256"
+    },
+    {
+      "name": "epidemiologico/obito_sim.jsonl",
+      "source_blob_sha1": "a362cfda441fb315ab81199cde24c4362dcef699",
+      "bytes_computed": 6973662,
+      "bytes_expected": 6973662,
+      "sha256_computed": "68fdfa8878b5f926404ce12520e747cbea919fca79ea890e974c451f27610f10",
+      "sha256_expected": "68fdfa8878b5f926404ce12520e747cbea919fca79ea890e974c451f27610f10",
+      "bytes_pass": true,
+      "sha256_pass": true,
+      "method": "GitHub fetch_blob by pinned tree SHA; UTF8 SHA256"
+    }
+  ]
+}
