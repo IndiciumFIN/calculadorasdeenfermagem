@@ -1,0 +1,43 @@
+{
+  "schema": "CE04-CHUNK-REASSEMBLY-SHA256-CANDIDATE-1.0",
+  "wo": "WO-CE04-RECON-20261017",
+  "kernel_admitted": false,
+  "task_ids": [
+    "TASK-CE04-006",
+    "TASK-CE04-007"
+  ],
+  "file": "nutricao/alimento_usda_sr_legacy.jsonl",
+  "source_git_ref": "cursor/drive-sa-key-refactor",
+  "algorithm": "incremental SHA256 of UTF8 decoded pinned Git chunks in manifest order",
+  "parts": [
+    {
+      "name": "part-000",
+      "sha1": "30f259755b9902352ac2c083e4aac21f39de7737",
+      "expected": "718bcf806243e637557ee8811bd288d118ec7c1441ff0b4814f546b9da34d1e1",
+      "computed": "718bcf806243e637557ee8811bd288d118ec7c1441ff0b4814f546b9da34d1e1",
+      "expected_bytes": 40000000,
+      "computed_bytes": 40000000,
+      "pass": true,
+      "unicode_replacement": false
+    },
+    {
+      "name": "part-001",
+      "sha1": "4ed6f69a37bc88fe5728dc57cc2ee48818aa3c10",
+      "expected": "20e835754cdf386a510678c5a2cc0c4070c4c1495b91a3c9a258dd2527df0b9f",
+      "computed": "20e835754cdf386a510678c5a2cc0c4070c4c1495b91a3c9a258dd2527df0b9f",
+      "expected_bytes": 33915846,
+      "computed_bytes": 33915846,
+      "pass": true,
+      "unicode_replacement": false
+    }
+  ],
+  "parent": {
+    "expected_sha256": "0760203b0a9b54a0c95bbe0a031ceb36586f197c1085416a0e2a9aed58d828db",
+    "computed_sha256": "0760203b0a9b54a0c95bbe0a031ceb36586f197c1085416a0e2a9aed58d828db",
+    "expected_bytes": 73915846,
+    "computed_bytes": 73915846,
+    "pass": true
+  },
+  "no_source_mutation": true,
+  "release_allowed": false
+}
