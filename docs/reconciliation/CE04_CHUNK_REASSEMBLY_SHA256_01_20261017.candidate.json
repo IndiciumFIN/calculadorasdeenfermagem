@@ -1,0 +1,40 @@
+{
+  "schema": "CE04-CHUNK-REASSEMBLY-SHA256-1.0-CANDIDATE",
+  "wo": "WO-CE04-RECON-20261017",
+  "wo_status": "DRAFT_NOT_ADMITTED",
+  "source": "GitHub pinned chunk blob SHAs; logical byte concatenation only",
+  "parent": "medicamentos/apresentacao_cmed.jsonl",
+  "source_manifest": "data/legado/extracao_bruta/atomizado/medicamentos/fracoes/apresentacao_cmed.jsonl/manifesto.json",
+  "expected_parent_sha256": "3f158c141200caae51cc2b3ea7d309f8a52db2b2a4b7136278df612b8f1e37b6",
+  "actual_parent_sha256": "3f158c141200caae51cc2b3ea7d309f8a52db2b2a4b7136278df612b8f1e37b6",
+  "expected_parent_bytes": 60737486,
+  "actual_parent_bytes": 60737486,
+  "all_parts_pass": true,
+  "parent_pass": true,
+  "parts": [
+    {
+      "name": "part-000",
+      "blob_sha1": "0656a6c2d6303a58c1ef2a35b2f293ffc910230d",
+      "offset": 0,
+      "bytes": 40000000,
+      "expected_bytes": 40000000,
+      "computed_sha256": "0b5ea50a28b829f30943cae0fb2588f42f0d82f72f8c844664761a7ffd3cf287",
+      "expected_sha256": "0b5ea50a28b829f30943cae0fb2588f42f0d82f72f8c844664761a7ffd3cf287",
+      "utf8_replacement_count": 0,
+      "pass": true
+    },
+    {
+      "name": "part-001",
+      "blob_sha1": "6944a832ae23ba69ae03fc6677f6cb68af98b4fb",
+      "offset": 40000000,
+      "bytes": 20737486,
+      "expected_bytes": 20737486,
+      "computed_sha256": "2f35e2246951c8e5fe223fb9856a37777494db941733d5af5af47ed7f22d3214",
+      "expected_sha256": "2f35e2246951c8e5fe223fb9856a37777494db941733d5af5af47ed7f22d3214",
+      "utf8_replacement_count": 0,
+      "pass": true
+    }
+  ],
+  "release_allowed": false,
+  "clinical_audit": "PENDING"
+}
