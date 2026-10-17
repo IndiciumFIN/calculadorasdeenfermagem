@@ -1,0 +1,685 @@
+{
+  "schema": "CE04-TASK-EVIDENCE-CROSSWALK-CANDIDATE-1.0",
+  "wo": "WO-CE04-RECON-20261017",
+  "admission": "DRAFT_NOT_ADMITTED",
+  "summary": {
+    "registered_tasks": 38,
+    "formally_closed": 0,
+    "domains": 15,
+    "domain_files_cryptographically_verified": 65,
+    "source_holds": 9,
+    "lineage_unverified": 61,
+    "conflicts_unresolved": 22
+  },
+  "domain_counts": [
+    {
+      "domain": "cid10",
+      "files": 6,
+      "cryptographic_sha256_verified": 6
+    },
+    {
+      "domain": "dispositivos",
+      "files": 3,
+      "cryptographic_sha256_verified": 3
+    },
+    {
+      "domain": "epidemiologico",
+      "files": 9,
+      "cryptographic_sha256_verified": 9
+    },
+    {
+      "domain": "ferimentos",
+      "files": 5,
+      "cryptographic_sha256_verified": 5
+    },
+    {
+      "domain": "icd11",
+      "files": 3,
+      "cryptographic_sha256_verified": 3
+    },
+    {
+      "domain": "medicamentos",
+      "files": 6,
+      "cryptographic_sha256_verified": 6
+    },
+    {
+      "domain": "medlineplus",
+      "files": 2,
+      "cryptographic_sha256_verified": 2
+    },
+    {
+      "domain": "mesh",
+      "files": 1,
+      "cryptographic_sha256_verified": 1
+    },
+    {
+      "domain": "nutricao",
+      "files": 4,
+      "cryptographic_sha256_verified": 4
+    },
+    {
+      "domain": "protocolos_enfermagem",
+      "files": 3,
+      "cryptographic_sha256_verified": 3
+    },
+    {
+      "domain": "sepse",
+      "files": 7,
+      "cryptographic_sha256_verified": 7
+    },
+    {
+      "domain": "sinais_vitais",
+      "files": 4,
+      "cryptographic_sha256_verified": 4
+    },
+    {
+      "domain": "suprimentos",
+      "files": 4,
+      "cryptographic_sha256_verified": 4
+    },
+    {
+      "domain": "vacinal_brasil",
+      "files": 4,
+      "cryptographic_sha256_verified": 4
+    },
+    {
+      "domain": "vacinas",
+      "files": 4,
+      "cryptographic_sha256_verified": 4
+    }
+  ],
+  "task_evidence": [
+    {
+      "task_id": "TASK-CE04-001",
+      "title": "Fixar escopo e baseline de GitHub e Supabase",
+      "registered_status": "PREFLIGHT_VERIFICATION_PENDING",
+      "kind": "READ_ONLY",
+      "domain": null,
+      "domain_crypto_files_verified": null,
+      "evidence_refs": [],
+      "evidence_readiness": "BLOCKED_BY_WO_AND_INDEPENDENT_AUDIT",
+      "formal_task_closed": false,
+      "kernel_admission": "NOT_REQUESTED",
+      "independent_audit": "PENDING",
+      "authorized_promotion": false
+    },
+    {
+      "task_id": "TASK-CE04-002",
+      "title": "Reverificar os cinco snapshots sem perda",
+      "registered_status": "PREFLIGHT_VERIFICATION_PENDING",
+      "kind": "READ_ONLY",
+      "domain": null,
+      "domain_crypto_files_verified": null,
+      "evidence_refs": [],
+      "evidence_readiness": "BLOCKED_BY_WO_AND_INDEPENDENT_AUDIT",
+      "formal_task_closed": false,
+      "kernel_admission": "NOT_REQUESTED",
+      "independent_audit": "PENDING",
+      "authorized_promotion": false
+    },
+    {
+      "task_id": "TASK-CE04-003",
+      "title": "Reconciliar 22 versões divergentes da main",
+      "registered_status": "PENDING_KERNEL_ADMISSION",
+      "kind": "CONTROLLED_REVIEW",
+      "domain": null,
+      "domain_crypto_files_verified": null,
+      "evidence_refs": [
+        "docs/reconciliation/CE04_MAIN_VS_HISTORICAL_CONFLICTS_BATCH_01_20261017.candidate.json",
+        "docs/reconciliation/CE04_MAIN_VS_HISTORICAL_CONFLICTS_BATCH_02_20261017.candidate.json"
+      ],
+      "evidence_readiness": "BLOCKED_BY_WO_AND_INDEPENDENT_AUDIT",
+      "formal_task_closed": false,
+      "kernel_admission": "NOT_REQUESTED",
+      "independent_audit": "PENDING",
+      "authorized_promotion": false
+    },
+    {
+      "task_id": "TASK-CE04-004",
+      "title": "Conferir arquivos e hashes contra 65 registros Supabase",
+      "registered_status": "PENDING_KERNEL_ADMISSION",
+      "kind": "READ_ONLY",
+      "domain": null,
+      "domain_crypto_files_verified": null,
+      "evidence_refs": [
+        "docs/reconciliation/CE04_SHA256_FULL_COVERAGE_65_20261017.candidate.json"
+      ],
+      "evidence_readiness": "CRYPTO_EVIDENCE_READY_GATES_PENDING",
+      "formal_task_closed": false,
+      "kernel_admission": "NOT_REQUESTED",
+      "independent_audit": "PENDING",
+      "authorized_promotion": false
+    },
+    {
+      "task_id": "TASK-CE04-005",
+      "title": "Reconciliar 15 manifestos por versão",
+      "registered_status": "PENDING_KERNEL_ADMISSION",
+      "kind": "READ_ONLY",
+      "domain": null,
+      "domain_crypto_files_verified": null,
+      "evidence_refs": [
+        "docs/reconciliation/CE04_SHA256_FULL_COVERAGE_65_20261017.candidate.json"
+      ],
+      "evidence_readiness": "CRYPTO_EVIDENCE_READY_GATES_PENDING",
+      "formal_task_closed": false,
+      "kernel_admission": "NOT_REQUESTED",
+      "independent_audit": "PENDING",
+      "authorized_promotion": false
+    },
+    {
+      "task_id": "TASK-CE04-006",
+      "title": "Pesquisar e reconciliar faltas nas branches",
+      "registered_status": "PENDING_KERNEL_ADMISSION",
+      "kind": "READ_ONLY",
+      "domain": null,
+      "domain_crypto_files_verified": null,
+      "evidence_refs": [
+        "docs/reconciliation/CE04_SHA256_FULL_COVERAGE_65_20261017.candidate.json"
+      ],
+      "evidence_readiness": "CRYPTO_EVIDENCE_READY_GATES_PENDING",
+      "formal_task_closed": false,
+      "kernel_admission": "NOT_REQUESTED",
+      "independent_audit": "PENDING",
+      "authorized_promotion": false
+    },
+    {
+      "task_id": "TASK-CE04-007",
+      "title": "Investigação de arquivo ausente: dispositivos/registro_anvisa_produto_saude.parte-0001.jsonl",
+      "registered_status": "PENDING_KERNEL_ADMISSION",
+      "kind": "MISSING_FILE",
+      "domain": null,
+      "domain_crypto_files_verified": null,
+      "evidence_refs": [
+        "docs/reconciliation/CE04_SHA256_FULL_COVERAGE_65_20261017.candidate.json"
+      ],
+      "evidence_readiness": "CRYPTO_EVIDENCE_READY_GATES_PENDING",
+      "formal_task_closed": false,
+      "kernel_admission": "NOT_REQUESTED",
+      "independent_audit": "PENDING",
+      "authorized_promotion": false
+    },
+    {
+      "task_id": "TASK-CE04-008",
+      "title": "Investigação de arquivo ausente: medicamentos/apresentacao_cmed.jsonl",
+      "registered_status": "PENDING_KERNEL_ADMISSION",
+      "kind": "MISSING_FILE",
+      "domain": null,
+      "domain_crypto_files_verified": null,
+      "evidence_refs": [
+        "docs/reconciliation/CE04_SHA256_FULL_COVERAGE_65_20261017.candidate.json"
+      ],
+      "evidence_readiness": "CRYPTO_EVIDENCE_READY_GATES_PENDING",
+      "formal_task_closed": false,
+      "kernel_admission": "NOT_REQUESTED",
+      "independent_audit": "PENDING",
+      "authorized_promotion": false
+    },
+    {
+      "task_id": "TASK-CE04-009",
+      "title": "Investigação de arquivo ausente: medicamentos/produto_fda_ndc.parte-0001.jsonl",
+      "registered_status": "PENDING_KERNEL_ADMISSION",
+      "kind": "MISSING_FILE",
+      "domain": null,
+      "domain_crypto_files_verified": null,
+      "evidence_refs": [
+        "docs/reconciliation/CE04_SHA256_FULL_COVERAGE_65_20261017.candidate.json"
+      ],
+      "evidence_readiness": "CRYPTO_EVIDENCE_READY_GATES_PENDING",
+      "formal_task_closed": false,
+      "kernel_admission": "NOT_REQUESTED",
+      "independent_audit": "PENDING",
+      "authorized_promotion": false
+    },
+    {
+      "task_id": "TASK-CE04-010",
+      "title": "Investigação de arquivo ausente: medicamentos/produto_fda_ndc.parte-0002.jsonl",
+      "registered_status": "PENDING_KERNEL_ADMISSION",
+      "kind": "MISSING_FILE",
+      "domain": null,
+      "domain_crypto_files_verified": null,
+      "evidence_refs": [
+        "docs/reconciliation/CE04_SHA256_FULL_COVERAGE_65_20261017.candidate.json"
+      ],
+      "evidence_readiness": "CRYPTO_EVIDENCE_READY_GATES_PENDING",
+      "formal_task_closed": false,
+      "kernel_admission": "NOT_REQUESTED",
+      "independent_audit": "PENDING",
+      "authorized_promotion": false
+    },
+    {
+      "task_id": "TASK-CE04-011",
+      "title": "Investigação de arquivo ausente: nutricao/alimento_usda_sr_legacy.jsonl",
+      "registered_status": "PENDING_KERNEL_ADMISSION",
+      "kind": "MISSING_FILE",
+      "domain": null,
+      "domain_crypto_files_verified": null,
+      "evidence_refs": [
+        "docs/reconciliation/CE04_SHA256_FULL_COVERAGE_65_20261017.candidate.json"
+      ],
+      "evidence_readiness": "CRYPTO_EVIDENCE_READY_GATES_PENDING",
+      "formal_task_closed": false,
+      "kernel_admission": "NOT_REQUESTED",
+      "independent_audit": "PENDING",
+      "authorized_promotion": false
+    },
+    {
+      "task_id": "TASK-CE04-012",
+      "title": "Investigação de arquivo ausente: suprimentos/item_catmat.jsonl",
+      "registered_status": "PENDING_KERNEL_ADMISSION",
+      "kind": "MISSING_FILE",
+      "domain": null,
+      "domain_crypto_files_verified": null,
+      "evidence_refs": [
+        "docs/reconciliation/CE04_SHA256_FULL_COVERAGE_65_20261017.candidate.json"
+      ],
+      "evidence_readiness": "CRYPTO_EVIDENCE_READY_GATES_PENDING",
+      "formal_task_closed": false,
+      "kernel_admission": "NOT_REQUESTED",
+      "independent_audit": "PENDING",
+      "authorized_promotion": false
+    },
+    {
+      "task_id": "TASK-CE04-013",
+      "title": "Reconciliação domínio cid10 (6 arquivos)",
+      "registered_status": "PENDING_KERNEL_ADMISSION",
+      "kind": "DOMAIN_RECONCILIATION",
+      "domain": "cid10",
+      "domain_crypto_files_verified": 6,
+      "evidence_refs": [
+        "docs/reconciliation/CE04_SHA256_FULL_COVERAGE_65_20261017.candidate.json"
+      ],
+      "evidence_readiness": "CRYPTO_EVIDENCE_READY_GATES_PENDING",
+      "formal_task_closed": false,
+      "kernel_admission": "NOT_REQUESTED",
+      "independent_audit": "PENDING",
+      "authorized_promotion": false
+    },
+    {
+      "task_id": "TASK-CE04-014",
+      "title": "Reconciliação domínio dispositivos (3 arquivos)",
+      "registered_status": "PENDING_KERNEL_ADMISSION",
+      "kind": "DOMAIN_RECONCILIATION",
+      "domain": "dispositivos",
+      "domain_crypto_files_verified": 3,
+      "evidence_refs": [
+        "docs/reconciliation/CE04_SHA256_FULL_COVERAGE_65_20261017.candidate.json"
+      ],
+      "evidence_readiness": "CRYPTO_EVIDENCE_READY_GATES_PENDING",
+      "formal_task_closed": false,
+      "kernel_admission": "NOT_REQUESTED",
+      "independent_audit": "PENDING",
+      "authorized_promotion": false
+    },
+    {
+      "task_id": "TASK-CE04-015",
+      "title": "Reconciliação domínio epidemiologico (9 arquivos)",
+      "registered_status": "PENDING_KERNEL_ADMISSION",
+      "kind": "DOMAIN_RECONCILIATION",
+      "domain": "epidemiologico",
+      "domain_crypto_files_verified": 9,
+      "evidence_refs": [
+        "docs/reconciliation/CE04_SHA256_FULL_COVERAGE_65_20261017.candidate.json"
+      ],
+      "evidence_readiness": "CRYPTO_EVIDENCE_READY_GATES_PENDING",
+      "formal_task_closed": false,
+      "kernel_admission": "NOT_REQUESTED",
+      "independent_audit": "PENDING",
+      "authorized_promotion": false
+    },
+    {
+      "task_id": "TASK-CE04-016",
+      "title": "Reconciliação domínio ferimentos (5 arquivos)",
+      "registered_status": "PENDING_KERNEL_ADMISSION",
+      "kind": "DOMAIN_RECONCILIATION",
+      "domain": "ferimentos",
+      "domain_crypto_files_verified": 5,
+      "evidence_refs": [
+        "docs/reconciliation/CE04_SHA256_FULL_COVERAGE_65_20261017.candidate.json"
+      ],
+      "evidence_readiness": "CRYPTO_EVIDENCE_READY_GATES_PENDING",
+      "formal_task_closed": false,
+      "kernel_admission": "NOT_REQUESTED",
+      "independent_audit": "PENDING",
+      "authorized_promotion": false
+    },
+    {
+      "task_id": "TASK-CE04-017",
+      "title": "Reconciliação domínio icd11 (3 arquivos)",
+      "registered_status": "PENDING_KERNEL_ADMISSION",
+      "kind": "DOMAIN_RECONCILIATION",
+      "domain": "icd11",
+      "domain_crypto_files_verified": 3,
+      "evidence_refs": [
+        "docs/reconciliation/CE04_SHA256_FULL_COVERAGE_65_20261017.candidate.json"
+      ],
+      "evidence_readiness": "CRYPTO_EVIDENCE_READY_GATES_PENDING",
+      "formal_task_closed": false,
+      "kernel_admission": "NOT_REQUESTED",
+      "independent_audit": "PENDING",
+      "authorized_promotion": false
+    },
+    {
+      "task_id": "TASK-CE04-018",
+      "title": "Reconciliação domínio medicamentos (6 arquivos)",
+      "registered_status": "PENDING_KERNEL_ADMISSION",
+      "kind": "DOMAIN_RECONCILIATION",
+      "domain": "medicamentos",
+      "domain_crypto_files_verified": 6,
+      "evidence_refs": [
+        "docs/reconciliation/CE04_SHA256_FULL_COVERAGE_65_20261017.candidate.json"
+      ],
+      "evidence_readiness": "CRYPTO_EVIDENCE_READY_GATES_PENDING",
+      "formal_task_closed": false,
+      "kernel_admission": "NOT_REQUESTED",
+      "independent_audit": "PENDING",
+      "authorized_promotion": false
+    },
+    {
+      "task_id": "TASK-CE04-019",
+      "title": "Reconciliação domínio medlineplus (2 arquivos)",
+      "registered_status": "PENDING_KERNEL_ADMISSION",
+      "kind": "DOMAIN_RECONCILIATION",
+      "domain": "medlineplus",
+      "domain_crypto_files_verified": 2,
+      "evidence_refs": [
+        "docs/reconciliation/CE04_SHA256_FULL_COVERAGE_65_20261017.candidate.json"
+      ],
+      "evidence_readiness": "CRYPTO_EVIDENCE_READY_GATES_PENDING",
+      "formal_task_closed": false,
+      "kernel_admission": "NOT_REQUESTED",
+      "independent_audit": "PENDING",
+      "authorized_promotion": false
+    },
+    {
+      "task_id": "TASK-CE04-020",
+      "title": "Reconciliação domínio mesh (1 arquivos)",
+      "registered_status": "PENDING_KERNEL_ADMISSION",
+      "kind": "DOMAIN_RECONCILIATION",
+      "domain": "mesh",
+      "domain_crypto_files_verified": 1,
+      "evidence_refs": [
+        "docs/reconciliation/CE04_SHA256_FULL_COVERAGE_65_20261017.candidate.json"
+      ],
+      "evidence_readiness": "CRYPTO_EVIDENCE_READY_GATES_PENDING",
+      "formal_task_closed": false,
+      "kernel_admission": "NOT_REQUESTED",
+      "independent_audit": "PENDING",
+      "authorized_promotion": false
+    },
+    {
+      "task_id": "TASK-CE04-021",
+      "title": "Reconciliação domínio nutricao (4 arquivos)",
+      "registered_status": "PENDING_KERNEL_ADMISSION",
+      "kind": "DOMAIN_RECONCILIATION",
+      "domain": "nutricao",
+      "domain_crypto_files_verified": 4,
+      "evidence_refs": [
+        "docs/reconciliation/CE04_SHA256_FULL_COVERAGE_65_20261017.candidate.json"
+      ],
+      "evidence_readiness": "CRYPTO_EVIDENCE_READY_GATES_PENDING",
+      "formal_task_closed": false,
+      "kernel_admission": "NOT_REQUESTED",
+      "independent_audit": "PENDING",
+      "authorized_promotion": false
+    },
+    {
+      "task_id": "TASK-CE04-022",
+      "title": "Reconciliação domínio protocolos_enfermagem (3 arquivos)",
+      "registered_status": "PENDING_KERNEL_ADMISSION",
+      "kind": "DOMAIN_RECONCILIATION",
+      "domain": "protocolos_enfermagem",
+      "domain_crypto_files_verified": 3,
+      "evidence_refs": [
+        "docs/reconciliation/CE04_SHA256_FULL_COVERAGE_65_20261017.candidate.json"
+      ],
+      "evidence_readiness": "CRYPTO_EVIDENCE_READY_GATES_PENDING",
+      "formal_task_closed": false,
+      "kernel_admission": "NOT_REQUESTED",
+      "independent_audit": "PENDING",
+      "authorized_promotion": false
+    },
+    {
+      "task_id": "TASK-CE04-023",
+      "title": "Reconciliação domínio sepse (7 arquivos)",
+      "registered_status": "PENDING_KERNEL_ADMISSION",
+      "kind": "DOMAIN_RECONCILIATION",
+      "domain": "sepse",
+      "domain_crypto_files_verified": 7,
+      "evidence_refs": [
+        "docs/reconciliation/CE04_SHA256_FULL_COVERAGE_65_20261017.candidate.json"
+      ],
+      "evidence_readiness": "CRYPTO_EVIDENCE_READY_GATES_PENDING",
+      "formal_task_closed": false,
+      "kernel_admission": "NOT_REQUESTED",
+      "independent_audit": "PENDING",
+      "authorized_promotion": false
+    },
+    {
+      "task_id": "TASK-CE04-024",
+      "title": "Reconciliação domínio sinais_vitais (4 arquivos)",
+      "registered_status": "PENDING_KERNEL_ADMISSION",
+      "kind": "DOMAIN_RECONCILIATION",
+      "domain": "sinais_vitais",
+      "domain_crypto_files_verified": 4,
+      "evidence_refs": [
+        "docs/reconciliation/CE04_SHA256_FULL_COVERAGE_65_20261017.candidate.json"
+      ],
+      "evidence_readiness": "CRYPTO_EVIDENCE_READY_GATES_PENDING",
+      "formal_task_closed": false,
+      "kernel_admission": "NOT_REQUESTED",
+      "independent_audit": "PENDING",
+      "authorized_promotion": false
+    },
+    {
+      "task_id": "TASK-CE04-025",
+      "title": "Reconciliação domínio suprimentos (4 arquivos)",
+      "registered_status": "PENDING_KERNEL_ADMISSION",
+      "kind": "DOMAIN_RECONCILIATION",
+      "domain": "suprimentos",
+      "domain_crypto_files_verified": 4,
+      "evidence_refs": [
+        "docs/reconciliation/CE04_SHA256_FULL_COVERAGE_65_20261017.candidate.json"
+      ],
+      "evidence_readiness": "CRYPTO_EVIDENCE_READY_GATES_PENDING",
+      "formal_task_closed": false,
+      "kernel_admission": "NOT_REQUESTED",
+      "independent_audit": "PENDING",
+      "authorized_promotion": false
+    },
+    {
+      "task_id": "TASK-CE04-026",
+      "title": "Reconciliação domínio vacinal_brasil (4 arquivos)",
+      "registered_status": "PENDING_KERNEL_ADMISSION",
+      "kind": "DOMAIN_RECONCILIATION",
+      "domain": "vacinal_brasil",
+      "domain_crypto_files_verified": 4,
+      "evidence_refs": [
+        "docs/reconciliation/CE04_SHA256_FULL_COVERAGE_65_20261017.candidate.json"
+      ],
+      "evidence_readiness": "CRYPTO_EVIDENCE_READY_GATES_PENDING",
+      "formal_task_closed": false,
+      "kernel_admission": "NOT_REQUESTED",
+      "independent_audit": "PENDING",
+      "authorized_promotion": false
+    },
+    {
+      "task_id": "TASK-CE04-027",
+      "title": "Reconciliação domínio vacinas (4 arquivos)",
+      "registered_status": "PENDING_KERNEL_ADMISSION",
+      "kind": "DOMAIN_RECONCILIATION",
+      "domain": "vacinas",
+      "domain_crypto_files_verified": 4,
+      "evidence_refs": [
+        "docs/reconciliation/CE04_SHA256_FULL_COVERAGE_65_20261017.candidate.json"
+      ],
+      "evidence_readiness": "CRYPTO_EVIDENCE_READY_GATES_PENDING",
+      "formal_task_closed": false,
+      "kernel_admission": "NOT_REQUESTED",
+      "independent_audit": "PENDING",
+      "authorized_promotion": false
+    },
+    {
+      "task_id": "TASK-CE04-028",
+      "title": "Validar os 61 vínculos de proveniência",
+      "registered_status": "PENDING_KERNEL_ADMISSION",
+      "kind": "PROVENANCE",
+      "domain": null,
+      "domain_crypto_files_verified": null,
+      "evidence_refs": [
+        "docs/reconciliation/CE04_SUPABASE_READONLY_STATUS_20261017.candidate.json"
+      ],
+      "evidence_readiness": "BLOCKED_BY_WO_AND_INDEPENDENT_AUDIT",
+      "formal_task_closed": false,
+      "kernel_admission": "NOT_REQUESTED",
+      "independent_audit": "PENDING",
+      "authorized_promotion": false
+    },
+    {
+      "task_id": "TASK-CE04-029",
+      "title": "Tratar nove HOLD_HUMAN existentes",
+      "registered_status": "PENDING_KERNEL_ADMISSION",
+      "kind": "GOVERNANCE",
+      "domain": null,
+      "domain_crypto_files_verified": null,
+      "evidence_refs": [
+        "docs/reconciliation/CE04_SUPABASE_READONLY_STATUS_20261017.candidate.json"
+      ],
+      "evidence_readiness": "BLOCKED_BY_WO_AND_INDEPENDENT_AUDIT",
+      "formal_task_closed": false,
+      "kernel_admission": "NOT_REQUESTED",
+      "independent_audit": "PENDING",
+      "authorized_promotion": false
+    },
+    {
+      "task_id": "TASK-CE04-030",
+      "title": "Auditar 303 eventos outbox pendentes",
+      "registered_status": "PENDING_KERNEL_ADMISSION",
+      "kind": "READ_ONLY",
+      "domain": null,
+      "domain_crypto_files_verified": null,
+      "evidence_refs": [
+        "docs/reconciliation/CE04_SUPABASE_READONLY_STATUS_20261017.candidate.json"
+      ],
+      "evidence_readiness": "BLOCKED_BY_WO_AND_INDEPENDENT_AUDIT",
+      "formal_task_closed": false,
+      "kernel_admission": "NOT_REQUESTED",
+      "independent_audit": "PENDING",
+      "authorized_promotion": false
+    },
+    {
+      "task_id": "TASK-CE04-031",
+      "title": "Confrontar inventários históricos do Drive já preservados no GitHub (sem solicitar acesso ao Drive)",
+      "registered_status": "HOLD_SOURCE_EVIDENCE_NO_DRIVE_ACCESS_REQUEST",
+      "kind": "EXTERNAL_ACCESS_REQUIRED",
+      "domain": null,
+      "domain_crypto_files_verified": null,
+      "evidence_refs": [],
+      "evidence_readiness": "HOLD_SOURCE_NO_DRIVE_ACCESS",
+      "formal_task_closed": false,
+      "kernel_admission": "NOT_REQUESTED",
+      "independent_audit": "PENDING",
+      "authorized_promotion": false
+    },
+    {
+      "task_id": "TASK-CE04-032",
+      "title": "Reconciliar 102 WOs históricas e seus estados",
+      "registered_status": "PENDING_KERNEL_ADMISSION",
+      "kind": "GOVERNANCE",
+      "domain": null,
+      "domain_crypto_files_verified": null,
+      "evidence_refs": [],
+      "evidence_readiness": "BLOCKED_BY_WO_AND_INDEPENDENT_AUDIT",
+      "formal_task_closed": false,
+      "kernel_admission": "NOT_REQUESTED",
+      "independent_audit": "PENDING",
+      "authorized_promotion": false
+    },
+    {
+      "task_id": "TASK-CE04-033",
+      "title": "Revisar segurança, segredos, licenças e dados pessoais",
+      "registered_status": "PENDING_KERNEL_ADMISSION",
+      "kind": "SECURITY",
+      "domain": null,
+      "domain_crypto_files_verified": null,
+      "evidence_refs": [],
+      "evidence_readiness": "BLOCKED_BY_WO_AND_INDEPENDENT_AUDIT",
+      "formal_task_closed": false,
+      "kernel_admission": "NOT_REQUESTED",
+      "independent_audit": "PENDING",
+      "authorized_promotion": false
+    },
+    {
+      "task_id": "TASK-CE04-034",
+      "title": "Submeter WO ao Kernel e obter admissão verificável",
+      "registered_status": "PENDING_KERNEL_ADMISSION",
+      "kind": "KERNEL_GATE",
+      "domain": null,
+      "domain_crypto_files_verified": null,
+      "evidence_refs": [
+        "contracts/wo/WO-CE04-RECON-20261017.candidate.json"
+      ],
+      "evidence_readiness": "BLOCKED_BY_WO_AND_INDEPENDENT_AUDIT",
+      "formal_task_closed": false,
+      "kernel_admission": "NOT_REQUESTED",
+      "independent_audit": "PENDING",
+      "authorized_promotion": false
+    },
+    {
+      "task_id": "TASK-CE04-035",
+      "title": "Executar testes positivos, negativos e integração",
+      "registered_status": "PENDING_KERNEL_ADMISSION",
+      "kind": "CONTROLLED_TEST",
+      "domain": null,
+      "domain_crypto_files_verified": null,
+      "evidence_refs": [],
+      "evidence_readiness": "BLOCKED_BY_WO_AND_INDEPENDENT_AUDIT",
+      "formal_task_closed": false,
+      "kernel_admission": "NOT_REQUESTED",
+      "independent_audit": "PENDING",
+      "authorized_promotion": false
+    },
+    {
+      "task_id": "TASK-CE04-036",
+      "title": "Auditoria independente e validação de FINDs",
+      "registered_status": "PENDING_KERNEL_ADMISSION",
+      "kind": "INDEPENDENT_AUDIT",
+      "domain": null,
+      "domain_crypto_files_verified": null,
+      "evidence_refs": [],
+      "evidence_readiness": "BLOCKED_BY_WO_AND_INDEPENDENT_AUDIT",
+      "formal_task_closed": false,
+      "kernel_admission": "NOT_REQUESTED",
+      "independent_audit": "PENDING",
+      "authorized_promotion": false
+    },
+    {
+      "task_id": "TASK-CE04-037",
+      "title": "PR DRAFT de promoção controlada",
+      "registered_status": "PENDING_KERNEL_ADMISSION",
+      "kind": "CONTROLLED_PR",
+      "domain": null,
+      "domain_crypto_files_verified": null,
+      "evidence_refs": [],
+      "evidence_readiness": "BLOCKED_BY_WO_AND_INDEPENDENT_AUDIT",
+      "formal_task_closed": false,
+      "kernel_admission": "NOT_REQUESTED",
+      "independent_audit": "PENDING",
+      "authorized_promotion": false
+    },
+    {
+      "task_id": "TASK-CE04-038",
+      "title": "Promoção autorizada após reconciliação",
+      "registered_status": "PENDING_KERNEL_ADMISSION",
+      "kind": "PROMOTION",
+      "domain": null,
+      "domain_crypto_files_verified": null,
+      "evidence_refs": [],
+      "evidence_readiness": "PROMOTION_NOT_AUTHORIZED",
+      "formal_task_closed": false,
+      "kernel_admission": "NOT_REQUESTED",
+      "independent_audit": "PENDING",
+      "authorized_promotion": false
+    }
+  ],
+  "decision": "NO_AUTOMATIC_TASK_CLOSURE_OR_PROMOTION"
+}
