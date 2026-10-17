@@ -1,0 +1,50 @@
+{
+  "schema": "CE-FINDINGS-1.0.0",
+  "cutoff": "2026-10-17",
+  "status": "HOLD_HUMAN",
+  "scope": "GitHub main inventory and CE01 materialization",
+  "evidence": {
+    "main_tree_sha": "e0f62491b104f4a97c6025a6393cabc2e7ada30e",
+    "main_blobs": 176,
+    "main_tree_entries": 210,
+    "main_tree_truncated": false,
+    "ce01_materialized": 5,
+    "ce01_last_commit": "b83ee6203325541331685589542475a480d0a7de"
+  },
+  "findings": [
+    {
+      "id": "FIND-001",
+      "severity": "critical",
+      "issue": "CE01 materialized without verifiable WO Kernel admission",
+      "correction": "record exception; require transactional WO admission before any next batch",
+      "state": "OPEN"
+    },
+    {
+      "id": "FIND-002",
+      "severity": "high",
+      "issue": "complete corpus inventory Drive/Supabase not reconciled against GitHub",
+      "correction": "produce complete source manifests with source IDs SHA256 and provenance; compare REQUIRED PRESENT VALIDATED PASS",
+      "state": "OPEN"
+    },
+    {
+      "id": "FIND-003",
+      "severity": "high",
+      "issue": "CE05 fixes not yet production tested",
+      "correction": "run regression and PostgreSQL integration CI before GO_CANONICAL",
+      "state": "OPEN"
+    },
+    {
+      "id": "FIND-004",
+      "severity": "high",
+      "issue": "main does not contain five CE01 staged JSONs",
+      "correction": "retain in isolated branch pending CE06 review",
+      "state": "INTENTIONAL_HOLD"
+    }
+  ],
+  "prohibitions": [
+    "no_merge_main",
+    "no_source_deletion",
+    "no_canonical_promotion"
+  ],
+  "note": "Finding record is not a WO admission or independent homologation"
+}
