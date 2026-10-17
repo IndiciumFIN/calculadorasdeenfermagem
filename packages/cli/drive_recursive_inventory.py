@@ -61,6 +61,15 @@ def crawl(roots, token, fetch=list_page, max_folders=100000, max_items=2000000):
                     raise ValueError("repeated pagination token")
                 tokens_seen.add(nxt)
                 page_token = nxt
+            seen_ids = set()
+            seen_names = set()
+            for obj in collected:
+                if not isinstance(obj, dict) or not obj.get("id") or not obj.get("name"):
+                    raise ValueError("incomplete Drive metadata")
+                if obj["id"] in seen_ids or obj["name"] in seen_names:
+                    raise ValueError("duplicate folder entry id/name; inventory ambiguous")
+                seen_ids.add(obj["id"])
+                seen_names.add(obj["name"])
             cache[folder_id] = collected
         prior = memberships.setdefault(folder_id, set())
         if prior and root_id not in prior:
