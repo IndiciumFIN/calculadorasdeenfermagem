@@ -9,7 +9,7 @@
   "status": "CANDIDATE_REGISTERED_PENDING_KERNEL_ADMISSION",
   "task_count": 38,
   "progress": {
-    "persisted_registration": "REQUIRES_READBACK",
+    "persisted_registration": "CHECKED_EXTERNALLY_BY_GITHUB_READBACK",
     "completed": 0,
     "approved": 0
   },
@@ -948,7 +948,7 @@
       "status": "PENDING_KERNEL_ADMISSION",
       "required": true,
       "dependencies": [
-        "TASK-CE04-032"
+        "TASK-CE04-034"
       ],
       "acceptance_criteria": [
         "all mandatory tests PASS with external logs",
@@ -975,7 +975,9 @@
       "status": "PENDING_KERNEL_ADMISSION",
       "required": true,
       "dependencies": [
-        "TASK-CE04-033"
+        "TASK-CE04-035",
+        "TASK-CE04-028",
+        "TASK-CE04-029"
       ],
       "acceptance_criteria": [
         "all blocking FINDs validated/closed by Kernel or HOLD",
@@ -1002,7 +1004,8 @@
       "status": "PENDING_KERNEL_ADMISSION",
       "required": true,
       "dependencies": [
-        "TASK-CE04-034"
+        "TASK-CE04-034",
+        "TASK-CE04-036"
       ],
       "acceptance_criteria": [
         "PR draft links WO SHA, tests, audit and FIND closure",
@@ -1028,7 +1031,8 @@
       "status": "PENDING_KERNEL_ADMISSION",
       "required": true,
       "dependencies": [
-        "TASK-CE04-035"
+        "TASK-CE04-037",
+        "TASK-CE04-036"
       ],
       "acceptance_criteria": [
         "REQUIRED/PRESENT/VALIDATED/PASS complete",
@@ -1046,5 +1050,12 @@
       "authority": "Kernel after independent tests/audit",
       "no_implicit_completion": true
     }
-  ]
+  ],
+  "validation": {
+    "deterministic_task_count": 38,
+    "unique_ids": 38,
+    "dependency_graph": "ACYCLIC_FORWARD_REFERENCES_REJECTED",
+    "zero_closed_tasks": true,
+    "readback_receipt": "docs/reconciliation/CE04_TASK_PERSISTENCE_READBACK_20261017.json"
+  }
 }
