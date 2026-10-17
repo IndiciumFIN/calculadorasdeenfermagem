@@ -1,0 +1,90 @@
+{
+  "schema": "CE04-GIT-BYTE-HASH-EVIDENCE-CANDIDATE-1.0",
+  "wo_id": "WO-CE04-RECON-20261017",
+  "admission": "DRAFT_NOT_ADMITTED",
+  "task": "TASK-CE04-004",
+  "source_branch": "cursor/drive-sa-key-refactor",
+  "hash_scope": "UTF8 payload returned by GitHub connector, verified against Git tree and Supabase/manifest",
+  "sha256_known_answer_tests": {
+    "empty": "PASS",
+    "abc": "PASS"
+  },
+  "batch_count": 6,
+  "all_hashes_pass": true,
+  "clinical_approval": false,
+  "release_pass": false,
+  "rows": [
+    {
+      "path": "data/legado/extracao_bruta/atomizado/protocolos_enfermagem/tecnologia_diretriz_covid19_conitec.jsonl",
+      "source_blob_sha1": "a613cc6058670fd8c798dbdacb63a11f7000dfd2",
+      "expected_blob_sha1": "a613cc6058670fd8c798dbdacb63a11f7000dfd2",
+      "byte_length": 18023,
+      "expected_byte_length": 18023,
+      "sha256_computed": "f772d31a24ad868a934befa259ad3fe24b2a128c6debf99a253107f2a3f69e21",
+      "sha256_expected": "f772d31a24ad868a934befa259ad3fe24b2a128c6debf99a253107f2a3f69e21",
+      "blob_sha1_pass": true,
+      "sha256_pass": true,
+      "size_pass": true
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/sepse/recorte_cid11.jsonl",
+      "source_blob_sha1": "8d7c6d07022fcb326fa10e01c43e7437da371820",
+      "expected_blob_sha1": "8d7c6d07022fcb326fa10e01c43e7437da371820",
+      "byte_length": 24145,
+      "expected_byte_length": 24145,
+      "sha256_computed": "256b7ffdadfe1f0ea4d45666ca0d68f9dee60f8278ed94e1037efd7eb96efe5f",
+      "sha256_expected": "256b7ffdadfe1f0ea4d45666ca0d68f9dee60f8278ed94e1037efd7eb96efe5f",
+      "blob_sha1_pass": true,
+      "sha256_pass": true,
+      "size_pass": true
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/icd11/capitulo.jsonl",
+      "source_blob_sha1": "b66c69492107bf35c45363246b6e3b400894d8f8",
+      "expected_blob_sha1": "b66c69492107bf35c45363246b6e3b400894d8f8",
+      "byte_length": 27735,
+      "expected_byte_length": 27735,
+      "sha256_computed": "9952e421e017da2f8659ae28f791e78a6804bf8d867a101ff413e68288358080",
+      "sha256_expected": "9952e421e017da2f8659ae28f791e78a6804bf8d867a101ff413e68288358080",
+      "blob_sha1_pass": true,
+      "sha256_pass": true,
+      "size_pass": true
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/sepse/recorte_cid10.jsonl",
+      "source_blob_sha1": "a4fc61c54079bf57de97c1893aeb5cb75210b019",
+      "expected_blob_sha1": "a4fc61c54079bf57de97c1893aeb5cb75210b019",
+      "byte_length": 33863,
+      "expected_byte_length": 33863,
+      "sha256_computed": "a284d9ff8db01dd87041d3a9566f93f4e9e17b7adb4170b5b0286fba1b48c85a",
+      "sha256_expected": "a284d9ff8db01dd87041d3a9566f93f4e9e17b7adb4170b5b0286fba1b48c85a",
+      "blob_sha1_pass": true,
+      "sha256_pass": true,
+      "size_pass": true
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/cid10/cido_grupo.jsonl",
+      "source_blob_sha1": "58d1c60e2d37acbb6f1a054e5999a4b4c6c22820",
+      "expected_blob_sha1": "58d1c60e2d37acbb6f1a054e5999a4b4c6c22820",
+      "byte_length": 39637,
+      "expected_byte_length": 39637,
+      "sha256_computed": "f868f3a6a7fd1acfee9eb44887a21a28a8d9ab832cc4fe523988fac1ecc0094f",
+      "sha256_expected": "f868f3a6a7fd1acfee9eb44887a21a28a8d9ab832cc4fe523988fac1ecc0094f",
+      "blob_sha1_pass": true,
+      "sha256_pass": true,
+      "size_pass": true
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/sepse/recorte_medlineplus.jsonl",
+      "source_blob_sha1": "2de53c5162802b19ad7f463d3eb1fdcfd660f95a",
+      "expected_blob_sha1": "2de53c5162802b19ad7f463d3eb1fdcfd660f95a",
+      "byte_length": 44699,
+      "expected_byte_length": 44699,
+      "sha256_computed": "6805b19897bc97bea78adb48e936685ed1c16e40e551c1fef33fa7f972ada1fd",
+      "sha256_expected": "6805b19897bc97bea78adb48e936685ed1c16e40e551c1fef33fa7f972ada1fd",
+      "blob_sha1_pass": true,
+      "sha256_pass": true,
+      "size_pass": true
+    }
+  ]
+}
