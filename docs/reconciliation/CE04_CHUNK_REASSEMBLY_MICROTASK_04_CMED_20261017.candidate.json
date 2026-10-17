@@ -1,0 +1,50 @@
+{
+  "schema": "CE04-CHUNK-REASSEMBLY-SHA256-CANDIDATE-1.0",
+  "wo": "WO-CE04-RECON-20261017",
+  "admission": "DRAFT_NOT_ADMITTED",
+  "task_ids": [
+    "TASK-CE04-006",
+    "TASK-CE04-007"
+  ],
+  "algorithm": "SHA256 incremental streaming over GitHub UTF8 decoded chunk bytes, order and offsets as Git manifest",
+  "source_branch": "cursor/drive-sa-key-refactor",
+  "validator_correction": "First dry-run mistakenly measured byte counter after SHA256 padding (40,000,064), although digest was correct. Fail-closed before write; corrected to record count before digest.",
+  "result": {
+    "file": "medicamentos/apresentacao_cmed.jsonl",
+    "parts": [
+      {
+        "name": "part-000",
+        "git_blob_sha1": "0656a6c2d6303a58c1ef2a35b2f293ffc910230d",
+        "declared_sha256": "0b5ea50a28b829f30943cae0fb2588f42f0d82f72f8c844664761a7ffd3cf287",
+        "computed_sha256": "0b5ea50a28b829f30943cae0fb2588f42f0d82f72f8c844664761a7ffd3cf287",
+        "declared_bytes": 40000000,
+        "computed_bytes": 40000000,
+        "hash_pass": true,
+        "bytes_pass": true,
+        "has_unicode_replacement": false
+      },
+      {
+        "name": "part-001",
+        "git_blob_sha1": "6944a832ae23ba69ae03fc6677f6cb68af98b4fb",
+        "declared_sha256": "2f35e2246951c8e5fe223fb9856a37777494db941733d5af5af47ed7f22d3214",
+        "computed_sha256": "2f35e2246951c8e5fe223fb9856a37777494db941733d5af5af47ed7f22d3214",
+        "declared_bytes": 20737486,
+        "computed_bytes": 20737486,
+        "hash_pass": true,
+        "bytes_pass": true,
+        "has_unicode_replacement": false
+      }
+    ],
+    "whole_sha256_computed": "3f158c141200caae51cc2b3ea7d309f8a52db2b2a4b7136278df612b8f1e37b6",
+    "whole_sha256_expected": "3f158c141200caae51cc2b3ea7d309f8a52db2b2a4b7136278df612b8f1e37b6",
+    "whole_bytes_computed": 60737486,
+    "whole_bytes_expected": 60737486,
+    "whole_hash_pass": true,
+    "whole_size_pass": true,
+    "all_parts_pass": true,
+    "parent_pass": true
+  },
+  "release_allowed": false,
+  "independent_audit": "PENDING",
+  "no_source_mutation": true
+}
