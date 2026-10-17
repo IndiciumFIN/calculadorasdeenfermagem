@@ -1,0 +1,38 @@
+{
+  "schema": "CE04-GIT-REASSEMBLY-SHA256-CANDIDATE-1.0",
+  "wo": "WO-CE04-RECON-20261017",
+  "admission": "DRAFT_NOT_ADMITTED",
+  "name": "medicamentos/produto_fda_ndc.parte-0002.jsonl",
+  "report_blob": "94f46a9aa68f3878f219baad0880259801854e60",
+  "part_checks": [
+    {
+      "name": "part-000",
+      "blob_sha1": "d95fbae8056b055c98e636875744f38457d43429",
+      "expected_sha256": "1b5e63ffeb5857b148ca9e13297f9da51df03c97dc1e7ca20c3b2ace6382152f",
+      "actual_sha256": "1b5e63ffeb5857b148ca9e13297f9da51df03c97dc1e7ca20c3b2ace6382152f",
+      "expected_bytes": 40000000,
+      "actual_bytes": 40000000,
+      "pass": true
+    },
+    {
+      "name": "part-001",
+      "blob_sha1": "f4f402a823e3538e5abc1f9a3df801361631180a",
+      "expected_sha256": "105f180eee494dc8a4d89866f2a7633ec9173c51dd9ac807785afdf5bb0e67f6",
+      "actual_sha256": "105f180eee494dc8a4d89866f2a7633ec9173c51dd9ac807785afdf5bb0e67f6",
+      "expected_bytes": 22444010,
+      "actual_bytes": 22444010,
+      "pass": true
+    }
+  ],
+  "parent_expected_sha256": "f1e331a5e3de15eb7a5eef36369210e795f94efadce5f1f0e0768f5ddd5dea4c",
+  "parent_expected_bytes": 62444010,
+  "parent_computed": {
+    "bytes": 62444010,
+    "sha256": "f1e331a5e3de15eb7a5eef36369210e795f94efadce5f1f0e0768f5ddd5dea4c"
+  },
+  "verified": true,
+  "status": "REASSEMBLED_BYTES_VERIFIED_GIT_ONLY",
+  "rights_approved": false,
+  "clinical_approved": false,
+  "release_allowed": false
+}
