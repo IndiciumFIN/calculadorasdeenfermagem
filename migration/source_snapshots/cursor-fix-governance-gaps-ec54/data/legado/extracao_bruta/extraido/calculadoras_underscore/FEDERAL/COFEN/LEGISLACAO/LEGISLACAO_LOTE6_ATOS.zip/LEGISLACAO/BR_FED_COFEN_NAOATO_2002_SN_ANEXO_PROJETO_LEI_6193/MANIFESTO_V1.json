@@ -1,0 +1,44 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/anexo-do-projeto-de-lei-n-61932002/ (API WordPress post 4220); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "NAOATO_2002_SN_ANEXO_PROJETO_LEI_6193_ATOMOS_V1.jsonl",
+      "sha256": "55e7a2c938f11ed8b0a9b6337b44e4a401901edb9f9009c20755d4ac0d47062a",
+      "tamanho": 19557
+    },
+    {
+      "nome": "NAOATO_2002_SN_ANEXO_PROJETO_LEI_6193_CONTEUDO_SITE_API.json",
+      "sha256": "cc06a1503cf7a9fc7abc97e5e650e8a6033acf16a29c43217231b6061a4fff46",
+      "tamanho": 5117
+    },
+    {
+      "nome": "NAOATO_2002_SN_ANEXO_PROJETO_LEI_6193_NORMA_V1.json",
+      "sha256": "dbfe9755140e4f928d4fef53dd0765a769604bf9d1d50e6cf57cb4d0349cd128",
+      "tamanho": 2716
+    },
+    {
+      "nome": "NAOATO_2002_SN_ANEXO_PROJETO_LEI_6193_PAGINA_SITE.html",
+      "sha256": "47a526c4f91ee647d0d5a1936268627ca2028056b3ce14e4236f0aaf3ec27c08",
+      "tamanho": 440181
+    },
+    {
+      "nome": "NAOATO_2002_SN_ANEXO_PROJETO_LEI_6193_TEXTO_FONTE_V1.txt",
+      "sha256": "52c491b89e23d70d3efcd8933ce3f48978a2faaf45d1646df1c88f908583c2c1",
+      "tamanho": 4623
+    },
+    {
+      "nome": "NAOATO_2002_SN_ANEXO_PROJETO_LEI_6193_VALIDACAO_V1.json",
+      "sha256": "f158c0ec8fd03311f9b3fa4b34a9ad6a37dd50fe3a25c3f42428dac0ac087598",
+      "tamanho": 3129
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Ato sem número no site; identificador formado por slug.",
+    "TIPO: listado em categoria de Legislação, mas o título não identifica um ato (\"ANEXO DO PROJETO DE LEI Nº 6193/2002\").",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

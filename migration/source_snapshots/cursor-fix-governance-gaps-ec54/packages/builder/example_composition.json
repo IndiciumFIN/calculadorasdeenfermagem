@@ -1,0 +1,27 @@
+{
+  "id": "CE-POST-001",
+  "version": "1.0.0",
+  "canvas": { "width": 1080, "height": 1350 },
+  "designSystem": "ce_canonical",
+  "layers": [
+    {
+      "id": "background",
+      "type": "shape",
+      "variant": "white",
+      "locked": true,
+      "optional": true
+    },
+    {
+      "id": "headline",
+      "type": "text",
+      "editable": true,
+      "optional": false
+    },
+    {
+      "id": "logo",
+      "type": "image",
+      "locked": true,
+      "optional": true
+    }
+  ]
+}

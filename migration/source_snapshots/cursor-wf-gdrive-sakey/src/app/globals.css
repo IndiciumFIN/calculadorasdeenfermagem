@@ -1,0 +1,18 @@
+/* Design system canônico — tokens aplicados */
+:root {
+  --ce-primary: #1A3E74;
+  --ce-primary-mid: #1E4D8C;
+  --ce-primary-dark: #163269;
+  --ce-accent-vigente: #10B981;
+  --ce-accent-revogado: #EF4444;
+  --ce-text: #1A202C;
+  --ce-bg: #FFFFFF;
+  --ce-surface: #F8FAFC;
+  --ce-font: Inter, system-ui, sans-serif;
+}
+
+body {
+  font-family: var(--ce-font);
+  color: var(--ce-text);
+  background: var(--ce-bg);
+}

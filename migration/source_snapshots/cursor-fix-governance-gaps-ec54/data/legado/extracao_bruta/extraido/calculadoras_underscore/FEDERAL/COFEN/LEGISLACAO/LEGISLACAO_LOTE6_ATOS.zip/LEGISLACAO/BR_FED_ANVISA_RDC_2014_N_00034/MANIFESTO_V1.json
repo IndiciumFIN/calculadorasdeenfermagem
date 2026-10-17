@@ -1,0 +1,55 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/rdc-34-anvisa-2014-boas-praticas-para-o-ciclo-do-sangue-dou-no-113-segunda-feira-16-de-junho-de-2014/ (API WordPress post 51499); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "RDC_2014_N_00034_ATOMOS_V1.jsonl",
+      "sha256": "28de31b69abaa2bd737b6ce160e81b5be45c7f129f5e55264104c8ef59f210c2",
+      "tamanho": 1190575
+    },
+    {
+      "nome": "RDC_2014_N_00034_CONTEUDO_SITE_API.json",
+      "sha256": "3bece4b97c3f837e6db8e35c60a4cab34159f9edfadf80a23504823ba192e03f",
+      "tamanho": 555
+    },
+    {
+      "nome": "RDC_2014_N_00034_NORMA_V1.json",
+      "sha256": "292741d8e481d5fc7f0548d853553c1e280a4349728ef187cf33a7e7eb7937da",
+      "tamanho": 9863
+    },
+    {
+      "nome": "RDC_2014_N_00034_PAGINA_SITE.html",
+      "sha256": "c7500301c07ec807013c59fa1881db109fd97f49911df59a66149710aab851e8",
+      "tamanho": 437259
+    },
+    {
+      "nome": "RDC_2014_N_00034_PDF_SITE.pdf",
+      "sha256": "5ba92c02ee7e8e1fc74d9c7028a1073aa2be1134e040998389e0d8f12598fa15",
+      "tamanho": 840134
+    },
+    {
+      "nome": "RDC_2014_N_00034_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "ad3df8733148cf4fbfc9e50dcef594f33b3ed34b0f581216283add8c65fa67c1",
+      "tamanho": 218899
+    },
+    {
+      "nome": "RDC_2014_N_00034_TEXTO_FONTE_V1.txt",
+      "sha256": "c521078f3b12fe3d5388bc3ca6f253c215b4b890b4776d08c4dac2fa66a10442",
+      "tamanho": 218921
+    },
+    {
+      "nome": "RDC_2014_N_00034_VALIDACAO_V1.json",
+      "sha256": "3073f2229547c674d16812c8cf1d61884ac3f4fdce0d7e858ce0753fb6dbab61",
+      "tamanho": 14174
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+    "Texto do ato disponível apenas no PDF (o site traz só título/resumo); atomização feita a partir da camada de texto do PDF.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

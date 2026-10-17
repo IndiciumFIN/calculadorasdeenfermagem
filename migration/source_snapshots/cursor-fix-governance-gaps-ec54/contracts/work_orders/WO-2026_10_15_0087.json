@@ -1,0 +1,51 @@
+{
+  "id": "WO-2026_10_15_0087",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "task_id": "TAREFA-OBTER",
+  "task_version": "1.0.0",
+  "task_type": "obter",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "parametros": {
+    "lote": "nativos_google",
+    "alternativa": "planilha e documento nativos; download publico deve falhar fechado"
+  },
+  "entradas": [
+    {
+      "id_origem": "1vi129pgXWMZPFddxlMd5YemMEohumxqk714yCoGCVOg",
+      "caminho": "calculadoras_underscore/CORPUS_KNOWLEDGE_PMO",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1SuB--RX1U1UG8uiPNOcCQtMK8caAOcUoVDDhgNk60cU",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/REGISTROS/DOCUMENT_REGISTER_COFEN_LOTE4_V1",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1FtxqwfrSMWxwhtVZFi5WKh8rTZW--A-XxYk-bLnaH1k",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/REGISTROS/RELACOES_NORMATIVAS_COFEN_LOTE4_V1",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1wtuYtleCUE1SCBNsXcL3IXUSjnmqSa-GHfUYn9XEkDk",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/REGISTROS/DOCUMENT_REGISTER_COFEN_LOTE5_V1",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1mDvWvN19kxmy1Yo7k1crsQBP5PoZ3FwxdknBbPeNK2k",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/REGISTROS/DOCUMENT_REGISTER_COFEN_LOTE3_V1",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1LSjJfQgp4GR4uBeasMOrdlyuEbK5SLzLOf-Sw_gy3ig",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/REGISTROS/RELACOES_NORMATIVAS_COFEN_LOTE3_V1",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1OYcdAlH6cF0XLo2eHCJs9X4lW-NPVOMNqq3kMlCzQmw",
+      "caminho": "esteira_cofen/HANDOFF_SEQUENCIA_ESTEIRA_COFEN",
+      "classe": "DOCUMENTO"
+    }
+  ]
+}

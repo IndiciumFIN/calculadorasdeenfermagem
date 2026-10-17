@@ -1,0 +1,44 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/anexo-i/ (API WordPress post 4400); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "ANEXO_2010_SN_ANEXO_ATOMOS_V1.jsonl",
+      "sha256": "0f104df2b61315796908ecd7f4ab821c9321f150f990ec3d331fe0994fd62221",
+      "tamanho": 6884
+    },
+    {
+      "nome": "ANEXO_2010_SN_ANEXO_CONTEUDO_SITE_API.json",
+      "sha256": "e51082d0b38cbf80fc05b830e75c81a418562498ef75eea6df5f4cbfb1e1dbb3",
+      "tamanho": 1414
+    },
+    {
+      "nome": "ANEXO_2010_SN_ANEXO_NORMA_V1.json",
+      "sha256": "1ce6c09e5b36b90c860d6120b542eef9e6df2a32639665fe438717076f309d60",
+      "tamanho": 1870
+    },
+    {
+      "nome": "ANEXO_2010_SN_ANEXO_PAGINA_SITE.html",
+      "sha256": "d534e9bd645cc69cede653e93a2421e7d27a521c1fa9f0d88edaf7b040fc0bdc",
+      "tamanho": 435574
+    },
+    {
+      "nome": "ANEXO_2010_SN_ANEXO_TEXTO_FONTE_V1.txt",
+      "sha256": "c66fb9d1c42c4f81ce7df1329d1ca8718c8d7d0c03c93eb23a082451811dc47d",
+      "tamanho": 989
+    },
+    {
+      "nome": "ANEXO_2010_SN_ANEXO_VALIDACAO_V1.json",
+      "sha256": "5aa346f2d3ee21ba22236b1ac4685360ec5de9ad54a4310806f8a2620394914d",
+      "tamanho": 3074
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Ato sem número no site; identificador formado por slug.",
+    "TIPO: anexo publicado como post autônomo na categoria Anexos; vínculo com o ato principal a confirmar.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

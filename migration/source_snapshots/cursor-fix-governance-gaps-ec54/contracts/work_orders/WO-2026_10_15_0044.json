@@ -1,0 +1,39 @@
+{
+  "id": "WO-2026_10_15_0044",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "task_id": "TAREFA-OBTER",
+  "task_version": "1.0.0",
+  "task_type": "obter",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "parametros": {
+    "pasta_drive": "1l519_P-9o6bnQcItydKvEEDpEYeE8R8s",
+    "pasta_mesh": "1JIhcSyNCqcIAuhozk7kK6l2qF1TVDJlz",
+    "pasta_raw_fora": "1kSz7d5S0Ee1oBSamWt_bDOIOCIfeeiJp",
+    "lote": "mesh",
+    "listagem": "pagina seguinte vazia; cada titulo exato fechou sem nextPageToken"
+  },
+  "entradas": [
+    {
+      "id_origem": "1iMy28m66UZDPagasCDXnXmu1fr1cHU6L",
+      "caminho": "mesh/mesh_descritores.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1pjdy6m38sVuHeWyx-2kvns_lB5V7c8MI",
+      "caminho": "mesh/mesh_doencas_categoria_C.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1VaGYdrH4Otmvk4VVkLkwLDGnF3KrEo5s",
+      "caminho": "mesh/mesh_descritores.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "114EU2ekgI_PeoSvqNp24CCNxptP9O5qu",
+      "caminho": "mesh/mesh_doencas_categoria_C.json",
+      "classe": "REFERENCIA"
+    }
+  ]
+}

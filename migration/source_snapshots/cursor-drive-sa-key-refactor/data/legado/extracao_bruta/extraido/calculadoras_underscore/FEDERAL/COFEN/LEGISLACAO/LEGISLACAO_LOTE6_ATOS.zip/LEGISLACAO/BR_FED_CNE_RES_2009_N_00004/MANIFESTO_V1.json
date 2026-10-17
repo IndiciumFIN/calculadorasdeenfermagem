@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/resolucao-no-4-de-6-de-abril-de-2009/ (API WordPress post 35358); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "RES_2009_N_00004_ATOMOS_V1.jsonl",
+      "sha256": "3c721c194003daa44c70c04f5ef697c2da2a4220bd2dd0de731a7c89cec1513b",
+      "tamanho": 17500
+    },
+    {
+      "nome": "RES_2009_N_00004_CONTEUDO_SITE_API.json",
+      "sha256": "61baf9d08d2627db8219493fe4c441ab89c299d81b16aa1276e15a2118557c45",
+      "tamanho": 473
+    },
+    {
+      "nome": "RES_2009_N_00004_NORMA_V1.json",
+      "sha256": "7c9eb18321a60c4dd40c82e6840fe407321b41461fd3015ec492831af710068f",
+      "tamanho": 6176
+    },
+    {
+      "nome": "RES_2009_N_00004_PAGINA_SITE.html",
+      "sha256": "278e07fa5bc966c40198b71eb82be55a0871a84c4b302c34b0a739cf960a57f4",
+      "tamanho": 438961
+    },
+    {
+      "nome": "RES_2009_N_00004_PDF_SITE.pdf",
+      "sha256": "d97db92e21506834c099c8a93377398ec3eba09733a7fd133efa1a2aae8345e7",
+      "tamanho": 114415
+    },
+    {
+      "nome": "RES_2009_N_00004_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "fb78f0e5cffe4fd2c8344c4b83dbb71665d6a824bd1739a7828fb07e5755b19b",
+      "tamanho": 4589
+    },
+    {
+      "nome": "RES_2009_N_00004_TEXTO_FONTE_V1.txt",
+      "sha256": "cda8fdae482294bec854be29150a56178babcea4570f7cc8cf8b524a3f71b610",
+      "tamanho": 4628
+    },
+    {
+      "nome": "RES_2009_N_00004_VALIDACAO_V1.json",
+      "sha256": "a1b03d2bf39176e9c724bf3874b9761fca8f733689017887591d1793e723a104",
+      "tamanho": 2815
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+    "Texto do ato disponível apenas no PDF (o site traz só título/resumo); atomização feita a partir da camada de texto do PDF."
+  ]
+}

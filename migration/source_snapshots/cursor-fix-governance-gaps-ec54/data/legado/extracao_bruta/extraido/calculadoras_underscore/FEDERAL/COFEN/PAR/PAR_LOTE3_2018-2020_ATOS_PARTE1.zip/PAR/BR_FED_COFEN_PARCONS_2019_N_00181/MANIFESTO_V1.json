@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-conselheiro-federal-n-181-2019-cofen/ (API WordPress post 97348); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCONS_2019_N_00181_ATOMOS_V1.jsonl",
+      "sha256": "9b445c42935a4792f1dbcf545d9b190602a2dec779fd81e278cd02dd0928fd96",
+      "tamanho": 41176
+    },
+    {
+      "nome": "PARCONS_2019_N_00181_CONTEUDO_SITE_API.json",
+      "sha256": "0688f683759becce5f16441c39a253e82dbdbeaa27c016fd0f2dce80968899a9",
+      "tamanho": 10917
+    },
+    {
+      "nome": "PARCONS_2019_N_00181_NORMA_V1.json",
+      "sha256": "545846a6dcaaa5235f800554d0591d4c3d5621eb06b0e129bd76d1f76df74d64",
+      "tamanho": 3073
+    },
+    {
+      "nome": "PARCONS_2019_N_00181_PAGINA_SITE.html",
+      "sha256": "91f01178cdca5d0521c42c8e60c97e07ef57c9edfdeb70a50ceeb63e92d80c7c",
+      "tamanho": 448106
+    },
+    {
+      "nome": "PARCONS_2019_N_00181_TEXTO_FONTE_V1.txt",
+      "sha256": "9aaf2573873fe7b1bfd802d40c0881112cfe6dbe8e5753f4ced789ca548e9e90",
+      "tamanho": 8986
+    },
+    {
+      "nome": "PARCONS_2019_N_00181_VALIDACAO_V1.json",
+      "sha256": "1d3a9d432294266fdfb838e9c88977d5a8f3e20b5e1129abb7581fd67d990bd8",
+      "tamanho": 2666
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-comissao-no-004-2019-cnsm-cofen/ (API WordPress post 86641); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCOM_2019_N_00004_CNSM_ATOMOS_V1.jsonl",
+      "sha256": "9045be3a393908d7560b83638668aefe10b493290a860a6c8ae13e40db064417",
+      "tamanho": 145983
+    },
+    {
+      "nome": "PARCOM_2019_N_00004_CNSM_CONTEUDO_SITE_API.json",
+      "sha256": "f71de81a933a50b0cf3c69b7a566d6a2c9f7addd30932306f38edcbc950eb3fe",
+      "tamanho": 43938
+    },
+    {
+      "nome": "PARCOM_2019_N_00004_CNSM_NORMA_V1.json",
+      "sha256": "5a2ae31aea876609dbdb20efd11eedb4a34a03463ce23d414335dff01ef537ad",
+      "tamanho": 6733
+    },
+    {
+      "nome": "PARCOM_2019_N_00004_CNSM_PAGINA_SITE.html",
+      "sha256": "55041e77d8b44658fa94f215ed386489555ca94bd364981176ad73888a3fd7cc",
+      "tamanho": 480833
+    },
+    {
+      "nome": "PARCOM_2019_N_00004_CNSM_TEXTO_FONTE_V1.txt",
+      "sha256": "c39bfcf06300b74d7bb032e0af4abb55a4efb17ce0aace7cbbbe178f9a2bbba3",
+      "tamanho": 38333
+    },
+    {
+      "nome": "PARCOM_2019_N_00004_CNSM_VALIDACAO_V1.json",
+      "sha256": "42cb71112085a037672fac81df15b4d8ea12dc537a4189301bddb9181e5626e1",
+      "tamanho": 2966
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir."
+  ]
+}

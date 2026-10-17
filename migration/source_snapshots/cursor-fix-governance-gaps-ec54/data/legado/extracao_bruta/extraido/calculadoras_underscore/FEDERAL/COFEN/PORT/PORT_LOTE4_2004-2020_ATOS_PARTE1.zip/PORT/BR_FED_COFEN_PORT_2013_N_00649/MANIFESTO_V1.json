@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-649-de-23-de-julho-de-2013/ (API WordPress post 20631); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2013_N_00649_ATOMOS_V1.jsonl",
+      "sha256": "cd819eceabd261252219b0ac95b1446f5ecac8e26c32c1a2641a6b547c381ea6",
+      "tamanho": 6224
+    },
+    {
+      "nome": "PORT_2013_N_00649_CONTEUDO_SITE_API.json",
+      "sha256": "e11bb42328afbbde37308d90b275a9d6eb161ec9a756a911eff7306dd85dc6f8",
+      "tamanho": 1682
+    },
+    {
+      "nome": "PORT_2013_N_00649_NORMA_V1.json",
+      "sha256": "deab6beecff10ff006c780e0d1747ee89bbd35c09764ed4ec83028261a6869bd",
+      "tamanho": 3103
+    },
+    {
+      "nome": "PORT_2013_N_00649_PAGINA_SITE.html",
+      "sha256": "a36fa54abd0588103cd5a01a4203d072613573de6836e51970f867097f838ff7",
+      "tamanho": 439196
+    },
+    {
+      "nome": "PORT_2013_N_00649_TEXTO_FONTE_V1.txt",
+      "sha256": "b04cd35dfd20d0bc9c671d5b40811a6799d7d54288328ca271a92f01719dd1c0",
+      "tamanho": 995
+    },
+    {
+      "nome": "PORT_2013_N_00649_VALIDACAO_V1.json",
+      "sha256": "95c449025f46f7760f616bb4fb7e047af572902e5bf8e0f9f8370c99bf4b1979",
+      "tamanho": 2458
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

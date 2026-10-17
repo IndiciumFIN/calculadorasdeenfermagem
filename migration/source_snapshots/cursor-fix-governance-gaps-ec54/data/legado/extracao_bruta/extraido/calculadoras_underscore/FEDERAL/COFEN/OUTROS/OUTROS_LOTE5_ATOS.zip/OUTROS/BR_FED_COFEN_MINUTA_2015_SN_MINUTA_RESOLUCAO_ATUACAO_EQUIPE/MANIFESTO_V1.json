@@ -1,0 +1,46 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/minuta-de-resolucao/ (API WordPress post 30404); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "MINUTA_2015_SN_MINUTA_RESOLUCAO_ATUACAO_EQUIPE_ATOMOS_V1.jsonl",
+      "sha256": "16cc8a3cf7ff1bd821d2d70f1cb97b920e51ee3f897fde9618b22fd1a94dacb3",
+      "tamanho": 2329
+    },
+    {
+      "nome": "MINUTA_2015_SN_MINUTA_RESOLUCAO_ATUACAO_EQUIPE_CONTEUDO_SITE_API.json",
+      "sha256": "b57445989eb9d1200249400fff9ab621e269e9e317cc70a4c00e6f1f18e78cbc",
+      "tamanho": 589
+    },
+    {
+      "nome": "MINUTA_2015_SN_MINUTA_RESOLUCAO_ATUACAO_EQUIPE_NORMA_V1.json",
+      "sha256": "280f43a6bde3089a0b1de4e8a5d5c65116e3fc90805ba21ffa44e98ceae7d4dc",
+      "tamanho": 1943
+    },
+    {
+      "nome": "MINUTA_2015_SN_MINUTA_RESOLUCAO_ATUACAO_EQUIPE_PAGINA_SITE.html",
+      "sha256": "333eb0038b4ebbe4a97b5e32d7853dbd359c3ecc89787d8fa5b03bc4bdfcdfec",
+      "tamanho": 435922
+    },
+    {
+      "nome": "MINUTA_2015_SN_MINUTA_RESOLUCAO_ATUACAO_EQUIPE_TEXTO_FONTE_V1.txt",
+      "sha256": "a3e8e8d3e91bba2e5b7251ee68132dce469631db627826ae8dd08ba9fc1ba6da",
+      "tamanho": 256
+    },
+    {
+      "nome": "MINUTA_2015_SN_MINUTA_RESOLUCAO_ATUACAO_EQUIPE_VALIDACAO_V1.json",
+      "sha256": "1e3588366e5496cbc45257fb3a6186aa7ad94cf735c9951513d2ef3bdf786cbc",
+      "tamanho": 3689
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 anexo(s) em formato não PDF (doc/xls/odt) baixado(s) mas não atomizado(s).",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Página do site quase sem texto (164 caracteres) e sem PDF do ato; conteúdo do ato não disponível.",
+    "Ato sem número no site; identificador formado por slug.",
+    "TIPO: minuta (proposta), não é ato normativo vigente.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

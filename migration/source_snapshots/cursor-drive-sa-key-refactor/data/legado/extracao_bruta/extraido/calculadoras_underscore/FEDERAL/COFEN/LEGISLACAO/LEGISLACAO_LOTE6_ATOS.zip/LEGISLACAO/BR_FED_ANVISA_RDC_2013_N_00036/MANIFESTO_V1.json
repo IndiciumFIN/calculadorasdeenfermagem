@@ -1,0 +1,53 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/rdc-36-anvisa-2013-seguranca-do-paciente-em-servicos-de-saude-dou-no-143-sexta-feira-26-de-julho-de-2013/ (API WordPress post 51503); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "RDC_2013_N_00036_ATOMOS_V1.jsonl",
+      "sha256": "5549aa171474eb84a10cb29fc81e1278b097d2969ba5f9d1053b579437a43069",
+      "tamanho": 113487
+    },
+    {
+      "nome": "RDC_2013_N_00036_CONTEUDO_SITE_API.json",
+      "sha256": "d014d8f95f3c18915e283ef02e4719afc707fdba946eb79149cab0d53b7496f4",
+      "tamanho": 624
+    },
+    {
+      "nome": "RDC_2013_N_00036_NORMA_V1.json",
+      "sha256": "8a533fade09932001136a61d247bd65c647128f713de9e9005dd567cc4d1a489",
+      "tamanho": 12326
+    },
+    {
+      "nome": "RDC_2013_N_00036_PAGINA_SITE.html",
+      "sha256": "ead77a324511548afd04d5e63e472419d4f9a67bf45a20794e36a4c732313a28",
+      "tamanho": 438145
+    },
+    {
+      "nome": "RDC_2013_N_00036_PDF_SITE.pdf",
+      "sha256": "890d382ea31e5d001a1577b61ecc891f6352c9acc6e9dba356db11c0a7aaea76",
+      "tamanho": 94479
+    },
+    {
+      "nome": "RDC_2013_N_00036_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "b3c3b94cc4ff4900e3e2571d4b6df368633e3128fb5bf95a004f18de53100c03",
+      "tamanho": 24765
+    },
+    {
+      "nome": "RDC_2013_N_00036_TEXTO_FONTE_V1.txt",
+      "sha256": "b760268186cc9edf0286cdaee3ddc0ae8ffab81e9a1ff7fd2cf67164c4f245f8",
+      "tamanho": 24830
+    },
+    {
+      "nome": "RDC_2013_N_00036_VALIDACAO_V1.json",
+      "sha256": "d50ca84f02a3c79984e61d44ee46390b887ed09daec056471fa2c1b3b83d321d",
+      "tamanho": 3036
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+    "Texto do ato disponível apenas no PDF (o site traz só título/resumo); atomização feita a partir da camada de texto do PDF.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

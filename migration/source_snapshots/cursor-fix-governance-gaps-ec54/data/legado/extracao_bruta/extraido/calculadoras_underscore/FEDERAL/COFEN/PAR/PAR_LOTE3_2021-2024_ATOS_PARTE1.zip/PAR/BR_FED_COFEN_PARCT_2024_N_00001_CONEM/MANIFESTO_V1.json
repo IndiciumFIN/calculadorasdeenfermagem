@@ -1,0 +1,53 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-1-2024-cofen-camtec-conem/ (API WordPress post 137659); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2024_N_00001_CONEM_ATOMOS_V1.jsonl",
+      "sha256": "98a3ebe9a7fb8149e50660c6c1d82e14571cd00e2194394da5a91e3209d28ad2",
+      "tamanho": 41318
+    },
+    {
+      "nome": "PARCT_2024_N_00001_CONEM_CONTEUDO_SITE_API.json",
+      "sha256": "cbc15cb5d85a7e85bb4b31528ced098993867e0ec62d2cb69c725ae8078a070a",
+      "tamanho": 8554
+    },
+    {
+      "nome": "PARCT_2024_N_00001_CONEM_NORMA_V1.json",
+      "sha256": "0a93e99392de28075fb17f8ba29d28976806bfd8c43f43e2828c1ed6c6830126",
+      "tamanho": 3673
+    },
+    {
+      "nome": "PARCT_2024_N_00001_CONEM_PAGINA_SITE.html",
+      "sha256": "972fa99477da678b3009eea2f65a40a82721061ee05e15a42eaaa74e78d74307",
+      "tamanho": 448811
+    },
+    {
+      "nome": "PARCT_2024_N_00001_CONEM_PDF_SITE.pdf",
+      "sha256": "a3d0e4a9f142a628ac53c934f588a668ff4d7892c1b207fe32940f57771985d6",
+      "tamanho": 1798677
+    },
+    {
+      "nome": "PARCT_2024_N_00001_CONEM_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "bd321109529289a7391ad693ec0cc912ebefbcdb94dee47733dc1b3fba360f7c",
+      "tamanho": 6721
+    },
+    {
+      "nome": "PARCT_2024_N_00001_CONEM_TEXTO_FONTE_V1.txt",
+      "sha256": "c982e7509769052af290e89beffe47fc058321f36b3e9244c96fb96e1c25a7ef",
+      "tamanho": 5898
+    },
+    {
+      "nome": "PARCT_2024_N_00001_CONEM_VALIDACAO_V1.json",
+      "sha256": "3fa685325db5e08ac515527b9250711ac3309244afd8d1dd6bd9417dda69012a",
+      "tamanho": 11701
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "3 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-n-234-de-24-de-maro-de-2011/ (API WordPress post 6533); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2011_N_00234_ATOMOS_V1.jsonl",
+      "sha256": "6b71611d3aad253cc19e49e6b15104ddbe267e0b11eee47fda184114b1c8c3c4",
+      "tamanho": 4993
+    },
+    {
+      "nome": "PORT_2011_N_00234_CONTEUDO_SITE_API.json",
+      "sha256": "3eedd477cc1cc1a433fc9a3ff44881ca57565204a96cf70e3f6825e722b51a08",
+      "tamanho": 1309
+    },
+    {
+      "nome": "PORT_2011_N_00234_NORMA_V1.json",
+      "sha256": "4eb3c22ef7a8ff55550192cba71e03a5e9d88a4e9a9d70ac32d2e81653a7b50c",
+      "tamanho": 3011
+    },
+    {
+      "nome": "PORT_2011_N_00234_PAGINA_SITE.html",
+      "sha256": "d1997481d0f98461903b430ba5a7bfbabb312438593af01d095c3570d1570eef",
+      "tamanho": 439550
+    },
+    {
+      "nome": "PORT_2011_N_00234_TEXTO_FONTE_V1.txt",
+      "sha256": "5211043d3c7b31afafe3a2a2b1e261e50fa2fb9035c4c4f7b0eccd80ab18f407",
+      "tamanho": 916
+    },
+    {
+      "nome": "PORT_2011_N_00234_VALIDACAO_V1.json",
+      "sha256": "59d972107b0901247800d7eb4c1f77929b31924d3d00adfd9498077ba474c0c9",
+      "tamanho": 2459
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

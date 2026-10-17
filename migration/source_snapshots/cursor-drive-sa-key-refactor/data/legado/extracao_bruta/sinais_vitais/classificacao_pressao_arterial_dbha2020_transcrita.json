@@ -1,0 +1,44 @@
+[
+ {
+  "classificacao": "PA ótima",
+  "pas_mmHg": "<120",
+  "conector": "e",
+  "pad_mmHg": "<80",
+  "fonte": "Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial - 2020. Arq Bras Cardiol. 2021;116(3):516-658. Tabela de classificação da PA no consultório (>=18 anos)"
+ },
+ {
+  "classificacao": "PA normal",
+  "pas_mmHg": "120-129",
+  "conector": "e/ou",
+  "pad_mmHg": "80-84",
+  "fonte": "Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial - 2020. Arq Bras Cardiol. 2021;116(3):516-658. Tabela de classificação da PA no consultório (>=18 anos)"
+ },
+ {
+  "classificacao": "Pré-hipertensão",
+  "pas_mmHg": "130-139",
+  "conector": "e/ou",
+  "pad_mmHg": "85-89",
+  "fonte": "Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial - 2020. Arq Bras Cardiol. 2021;116(3):516-658. Tabela de classificação da PA no consultório (>=18 anos)"
+ },
+ {
+  "classificacao": "HA estágio 1",
+  "pas_mmHg": "140-159",
+  "conector": "e/ou",
+  "pad_mmHg": "90-99",
+  "fonte": "Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial - 2020. Arq Bras Cardiol. 2021;116(3):516-658. Tabela de classificação da PA no consultório (>=18 anos)"
+ },
+ {
+  "classificacao": "HA estágio 2",
+  "pas_mmHg": "160-179",
+  "conector": "e/ou",
+  "pad_mmHg": "100-109",
+  "fonte": "Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial - 2020. Arq Bras Cardiol. 2021;116(3):516-658. Tabela de classificação da PA no consultório (>=18 anos)"
+ },
+ {
+  "classificacao": "HA estágio 3",
+  "pas_mmHg": ">=180",
+  "conector": "e/ou",
+  "pad_mmHg": ">=110",
+  "fonte": "Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial - 2020. Arq Bras Cardiol. 2021;116(3):516-658. Tabela de classificação da PA no consultório (>=18 anos)"
+ }
+]

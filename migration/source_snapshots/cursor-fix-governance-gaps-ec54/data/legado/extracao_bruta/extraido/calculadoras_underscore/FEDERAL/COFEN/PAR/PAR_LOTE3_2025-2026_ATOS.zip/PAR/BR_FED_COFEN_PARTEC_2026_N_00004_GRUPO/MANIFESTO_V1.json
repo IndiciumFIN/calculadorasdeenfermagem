@@ -1,0 +1,54 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-n-4-2026-grupo-tecnico-de-acompanhamento-eleitoral-eleicoes-corens-2026/ (API WordPress post 195504); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARTEC_2026_N_00004_GRUPO_ATOMOS_V1.jsonl",
+      "sha256": "c519346e63ebf35b02c12f3720b81abe3ca01825c60212e5d5bdca3038e12e9d",
+      "tamanho": 58049
+    },
+    {
+      "nome": "PARTEC_2026_N_00004_GRUPO_CONTEUDO_SITE_API.json",
+      "sha256": "72eec910a168c23136cca988abb919a123019770a3b4ec29de31ce4e6b348b42",
+      "tamanho": 14667
+    },
+    {
+      "nome": "PARTEC_2026_N_00004_GRUPO_NORMA_V1.json",
+      "sha256": "1e38ae93b17320ae6e74995b156e34852e5a5cd193f3670d3863e31ec25298e8",
+      "tamanho": 3921
+    },
+    {
+      "nome": "PARTEC_2026_N_00004_GRUPO_PAGINA_SITE.html",
+      "sha256": "31c69fb0431e82bd003555dac7c2235f6cf1e156f248071c3586667cf51795a8",
+      "tamanho": 455418
+    },
+    {
+      "nome": "PARTEC_2026_N_00004_GRUPO_PDF_SITE.pdf",
+      "sha256": "d6ede1fad5cb85ea89a27b7c09abc8d67e869428d9f59208ea09679f6b5a8072",
+      "tamanho": 174917
+    },
+    {
+      "nome": "PARTEC_2026_N_00004_GRUPO_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "45f4e450053f0ab4ac1171a4b0b4d581f98a9b7ec24e4a8446fe164cf97044f0",
+      "tamanho": 12367
+    },
+    {
+      "nome": "PARTEC_2026_N_00004_GRUPO_TEXTO_FONTE_V1.txt",
+      "sha256": "8bf0d1c45f9d5502c085595856e638eb48a620c689a5734424660608c7442f5d",
+      "tamanho": 11024
+    },
+    {
+      "nome": "PARTEC_2026_N_00004_GRUPO_VALIDACAO_V1.json",
+      "sha256": "9c79ebaec75470aaee6960647f3a85486ac694a882a44c247806ed7af2bdffd7",
+      "tamanho": 14184
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "versao": "1.0.0",
+  "finds": [
+    {
+      "id": "FIND-0001",
+      "codigo": "PORTA-CLI-001",
+      "objeto": "packages/cli/main.py",
+      "severidade": "CRITICA",
+      "status": "ABERTO",
+      "descricao": "ingest, process, pipeline e registry gravam sem Work Order qualificada.",
+      "impacto": "O CLI antigo gera átomo e registro fora do kernel.",
+      "detector_agente": "AGT-EXTRATOR-001",
+      "deteccoes": 1,
+      "ciclos": 0,
+      "correcao_autorizada": true,
+      "agente_analise": "AGT-AUDITOR-001",
+      "agente_correcao": "AGT-AUDITOR-001"
+    },
+    {
+      "id": "FIND-0002",
+      "codigo": "PORTA-DRIVE-001",
+      "objeto": "scripts/migrar_drive.py",
+      "severidade": "CRITICA",
+      "status": "ABERTO",
+      "descricao": "O script de migração copia arquivos sem Work Order do kernel.",
+      "impacto": "Uma execução direta grava no repositório fora do procedimento qualificado.",
+      "detector_agente": "AGT-EXTRATOR-001",
+      "deteccoes": 1,
+      "ciclos": 0,
+      "correcao_autorizada": true,
+      "agente_analise": "AGT-AUDITOR-001",
+      "agente_correcao": "AGT-AUDITOR-001"
+    }
+  ],
+  "eventos": [
+    {
+      "seq": 1,
+      "tipo": "REGISTRADO",
+      "find_id": "FIND-0001",
+      "quando": "2026-10-15",
+      "work_order": "WO-2026_10_15_0037",
+      "antes": {
+        "status": null,
+        "ciclos": 0,
+        "deteccoes": 0
+      },
+      "depois": {
+        "status": "ABERTO",
+        "ciclos": 0,
+        "deteccoes": 1
+      }
+    },
+    {
+      "seq": 2,
+      "tipo": "ANALISADO",
+      "find_id": "FIND-0001",
+      "quando": "2026-10-15",
+      "work_order": "WO-2026_10_15_0038",
+      "antes": {
+        "status": "ABERTO",
+        "ciclos": 0,
+        "deteccoes": 1
+      },
+      "depois": {
+        "status": "ABERTO",
+        "ciclos": 0,
+        "deteccoes": 1
+      },
+      "extra": {
+        "agente": "AGT-AUDITOR-001",
+        "analise": "T01, T02, T04 e T07 seguem não qualificadas. Esses comandos passam a recusar antes de gravar."
+      }
+    },
+    {
+      "seq": 3,
+      "tipo": "CORRIGIDO",
+      "find_id": "FIND-0001",
+      "quando": "2026-10-15",
+      "work_order": "WO-2026_10_15_0039",
+      "antes": {
+        "status": "ABERTO",
+        "ciclos": 0,
+        "deteccoes": 1
+      },
+      "depois": {
+        "status": "ABERTO",
+        "ciclos": 0,
+        "deteccoes": 1
+      },
+      "extra": {
+        "agente": "AGT-AUDITOR-001",
+        "correcao_sha256": "f68ad83aa89d54d41a5c7030ba87ad69162eb3e41f8b1ff5d534e7d07a2c82a1",
+        "correcao_caminho": "data/finds/evidencias/porta_cli_2026_10_15.json"
+      }
+    },
+    {
+      "seq": 4,
+      "tipo": "REGISTRADO",
+      "find_id": "FIND-0002",
+      "quando": "2026-10-15",
+      "work_order": "WO-2026_10_15_0040",
+      "antes": {
+        "status": null,
+        "ciclos": 0,
+        "deteccoes": 0
+      },
+      "depois": {
+        "status": "ABERTO",
+        "ciclos": 0,
+        "deteccoes": 1
+      }
+    },
+    {
+      "seq": 5,
+      "tipo": "ANALISADO",
+      "find_id": "FIND-0002",
+      "quando": "2026-10-15",
+      "work_order": "WO-2026_10_15_0042",
+      "antes": {
+        "status": "ABERTO",
+        "ciclos": 0,
+        "deteccoes": 1
+      },
+      "depois": {
+        "status": "ABERTO",
+        "ciclos": 0,
+        "deteccoes": 1
+      },
+      "extra": {
+        "agente": "AGT-AUDITOR-001",
+        "analise": "Não há tarefa qualificada de migração. O comando passa a sair com código 2 antes de criar diretório ou copiar."
+      }
+    },
+    {
+      "seq": 6,
+      "tipo": "CORRIGIDO",
+      "find_id": "FIND-0002",
+      "quando": "2026-10-15",
+      "work_order": "WO-2026_10_15_0043",
+      "antes": {
+        "status": "ABERTO",
+        "ciclos": 0,
+        "deteccoes": 1
+      },
+      "depois": {
+        "status": "ABERTO",
+        "ciclos": 0,
+        "deteccoes": 1
+      },
+      "extra": {
+        "agente": "AGT-AUDITOR-001",
+        "correcao_sha256": "9d431e8f21f22accb587c0d6dba0aa954e0e910a17741e99aa81d25fc47ffc36",
+        "correcao_caminho": "data/finds/evidencias/porta_drive_2026_10_15.json"
+      }
+    }
+  ]
+}

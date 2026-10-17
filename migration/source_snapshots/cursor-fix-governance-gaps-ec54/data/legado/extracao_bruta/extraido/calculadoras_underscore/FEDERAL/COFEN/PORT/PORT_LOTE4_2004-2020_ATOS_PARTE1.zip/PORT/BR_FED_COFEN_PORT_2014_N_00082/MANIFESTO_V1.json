@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-82-de-31-de-janeiro-de-2014/ (API WordPress post 23500); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2014_N_00082_ATOMOS_V1.jsonl",
+      "sha256": "982ac5565fb0f0b3281a238f1ce6e87fa03853e18d449fa6c5525ef75211d9ef",
+      "tamanho": 11313
+    },
+    {
+      "nome": "PORT_2014_N_00082_CONTEUDO_SITE_API.json",
+      "sha256": "374a28df6716346f4006237e22cfb92f0ed3b88e252eb6212541d624411f8152",
+      "tamanho": 3276
+    },
+    {
+      "nome": "PORT_2014_N_00082_NORMA_V1.json",
+      "sha256": "940448ed6d1ca34bd684952d10001b2cd8c0360627c42b3f132504faee7a3cc4",
+      "tamanho": 3765
+    },
+    {
+      "nome": "PORT_2014_N_00082_PAGINA_SITE.html",
+      "sha256": "36ab58029db8753061ee4affc4a6be7738c4682477550fb39186e99872168fb3",
+      "tamanho": 441077
+    },
+    {
+      "nome": "PORT_2014_N_00082_TEXTO_FONTE_V1.txt",
+      "sha256": "ca3252016d3a5fdce0ff11c1392af2f63a4ffadc875089c3ead100e972a8489f",
+      "tamanho": 2420
+    },
+    {
+      "nome": "PORT_2014_N_00082_VALIDACAO_V1.json",
+      "sha256": "397b6d6c49439ef0e00657164226f89fd26e3c1fcf1cb0ce03857b4ee151f13a",
+      "tamanho": 2459
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

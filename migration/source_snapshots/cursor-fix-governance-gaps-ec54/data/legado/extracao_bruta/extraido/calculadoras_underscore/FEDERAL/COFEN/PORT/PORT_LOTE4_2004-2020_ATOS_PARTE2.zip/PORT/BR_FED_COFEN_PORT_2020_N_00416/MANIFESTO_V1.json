@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-416-de-14-de-agosto-de-2020/ (API WordPress post 81769); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2020_N_00416_ATOMOS_V1.jsonl",
+      "sha256": "64e1ad3c6a70624b2d6e051be6586c603fea7c9c5c107bd7c805daa330c833fd",
+      "tamanho": 7719
+    },
+    {
+      "nome": "PORT_2020_N_00416_CONTEUDO_SITE_API.json",
+      "sha256": "420370660e62af78d8f5265d17ffc2b61d5f1848227dea76368b5f62719b8090",
+      "tamanho": 1427
+    },
+    {
+      "nome": "PORT_2020_N_00416_NORMA_V1.json",
+      "sha256": "9076d3b8ee55dc1e36cc119f75c393f7314fdc493c1898f44c6c8a15ca8c3d0e",
+      "tamanho": 3588
+    },
+    {
+      "nome": "PORT_2020_N_00416_PAGINA_SITE.html",
+      "sha256": "132a9e65bd7c91c9d174c23a8e4952b22792c32e7e30e1d2f3abf5d03e2ea762",
+      "tamanho": 439423
+    },
+    {
+      "nome": "PORT_2020_N_00416_PDF_SITE.pdf",
+      "sha256": "b751bdbec77034bc8bf7e204bda4572996de20d89af7c4079769892412c044fe",
+      "tamanho": 256727
+    },
+    {
+      "nome": "PORT_2020_N_00416_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "01b824559c0140717f6a070f329dc81b035aef11d24cf1f5aab079f5f634a8bb",
+      "tamanho": 1006
+    },
+    {
+      "nome": "PORT_2020_N_00416_TEXTO_FONTE_V1.txt",
+      "sha256": "b2a66f26a5e091e73604f504e71eca9c62dc0d2a8bf8e31e731e4af62c28fdd0",
+      "tamanho": 829
+    },
+    {
+      "nome": "PORT_2020_N_00416_VALIDACAO_V1.json",
+      "sha256": "52d16ddc3b839cd91cd862b744006241610eea29f849503a56bd86db02d9291c",
+      "tamanho": 4641
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+  ]
+}

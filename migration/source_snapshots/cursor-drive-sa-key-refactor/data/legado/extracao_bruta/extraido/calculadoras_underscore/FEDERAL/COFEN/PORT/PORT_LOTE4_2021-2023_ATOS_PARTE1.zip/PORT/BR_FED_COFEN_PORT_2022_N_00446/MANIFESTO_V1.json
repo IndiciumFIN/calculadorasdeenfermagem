@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-446-de-5-de-abril-de-2022/ (API WordPress post 97550); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2022_N_00446_ATOMOS_V1.jsonl",
+      "sha256": "d248b7f698e21e479e665854cb63e7212848c2bd5fff9b9d72d81355928f4c17",
+      "tamanho": 7677
+    },
+    {
+      "nome": "PORT_2022_N_00446_CONTEUDO_SITE_API.json",
+      "sha256": "8f2d163eec5906d846212a86e8aa272afd7700f1f75af498b5ea7a8f8196b2b6",
+      "tamanho": 1419
+    },
+    {
+      "nome": "PORT_2022_N_00446_NORMA_V1.json",
+      "sha256": "16b9b8e7be0020e3d111dad554fc4756f6565abfca809d17068623649738254a",
+      "tamanho": 3606
+    },
+    {
+      "nome": "PORT_2022_N_00446_PAGINA_SITE.html",
+      "sha256": "3d942f2697a21786622d40ed5cc3c670bffa544d1cbf7e85a5c5736f17bfd14c",
+      "tamanho": 441259
+    },
+    {
+      "nome": "PORT_2022_N_00446_PDF_SITE.pdf",
+      "sha256": "87edb6adf6aaa43f5fc216d8a897fa548751f82fb1eff3df649c9e434d900904",
+      "tamanho": 119056
+    },
+    {
+      "nome": "PORT_2022_N_00446_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "ecdda29eb4162f8aa2169d7dbe04a656adab7d3aaed090dc754aadd978e52616",
+      "tamanho": 869
+    },
+    {
+      "nome": "PORT_2022_N_00446_TEXTO_FONTE_V1.txt",
+      "sha256": "7e9a176daa0eff6a7d13a6bb9e3e7c0006d62e5b5cd95d1bf6ad70d28daa347c",
+      "tamanho": 827
+    },
+    {
+      "nome": "PORT_2022_N_00446_VALIDACAO_V1.json",
+      "sha256": "faa051835027f5bbff14f52b31606805a632c42d92058fa59a2502ab89538077",
+      "tamanho": 4618
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+  ]
+}

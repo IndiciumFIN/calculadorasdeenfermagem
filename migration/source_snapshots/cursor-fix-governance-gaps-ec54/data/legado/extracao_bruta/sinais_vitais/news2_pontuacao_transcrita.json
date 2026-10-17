@@ -1,0 +1,218 @@
+[
+ {
+  "escore": "NEWS2",
+  "parametro": "Frequência respiratória (irpm)",
+  "faixa": "<=8",
+  "pontos": 3
+ },
+ {
+  "escore": "NEWS2",
+  "parametro": "Frequência respiratória (irpm)",
+  "faixa": "9-11",
+  "pontos": 1
+ },
+ {
+  "escore": "NEWS2",
+  "parametro": "Frequência respiratória (irpm)",
+  "faixa": "12-20",
+  "pontos": 0
+ },
+ {
+  "escore": "NEWS2",
+  "parametro": "Frequência respiratória (irpm)",
+  "faixa": "21-24",
+  "pontos": 2
+ },
+ {
+  "escore": "NEWS2",
+  "parametro": "Frequência respiratória (irpm)",
+  "faixa": ">=25",
+  "pontos": 3
+ },
+ {
+  "escore": "NEWS2",
+  "parametro": "SpO2 escala 1 (%)",
+  "faixa": "<=91",
+  "pontos": 3
+ },
+ {
+  "escore": "NEWS2",
+  "parametro": "SpO2 escala 1 (%)",
+  "faixa": "92-93",
+  "pontos": 2
+ },
+ {
+  "escore": "NEWS2",
+  "parametro": "SpO2 escala 1 (%)",
+  "faixa": "94-95",
+  "pontos": 1
+ },
+ {
+  "escore": "NEWS2",
+  "parametro": "SpO2 escala 1 (%)",
+  "faixa": ">=96",
+  "pontos": 0
+ },
+ {
+  "escore": "NEWS2",
+  "parametro": "SpO2 escala 2 (%) - hipercapnia",
+  "faixa": "<=83",
+  "pontos": 3
+ },
+ {
+  "escore": "NEWS2",
+  "parametro": "SpO2 escala 2 (%) - hipercapnia",
+  "faixa": "84-85",
+  "pontos": 2
+ },
+ {
+  "escore": "NEWS2",
+  "parametro": "SpO2 escala 2 (%) - hipercapnia",
+  "faixa": "86-87",
+  "pontos": 1
+ },
+ {
+  "escore": "NEWS2",
+  "parametro": "SpO2 escala 2 (%) - hipercapnia",
+  "faixa": "88-92 ou >=93 em ar ambiente",
+  "pontos": 0
+ },
+ {
+  "escore": "NEWS2",
+  "parametro": "SpO2 escala 2 (%) - hipercapnia",
+  "faixa": "93-94 com O2",
+  "pontos": 1
+ },
+ {
+  "escore": "NEWS2",
+  "parametro": "SpO2 escala 2 (%) - hipercapnia",
+  "faixa": "95-96 com O2",
+  "pontos": 2
+ },
+ {
+  "escore": "NEWS2",
+  "parametro": "SpO2 escala 2 (%) - hipercapnia",
+  "faixa": ">=97 com O2",
+  "pontos": 3
+ },
+ {
+  "escore": "NEWS2",
+  "parametro": "Ar ambiente ou oxigênio",
+  "faixa": "Oxigênio",
+  "pontos": 2
+ },
+ {
+  "escore": "NEWS2",
+  "parametro": "Ar ambiente ou oxigênio",
+  "faixa": "Ar ambiente",
+  "pontos": 0
+ },
+ {
+  "escore": "NEWS2",
+  "parametro": "Pressão arterial sistólica (mmHg)",
+  "faixa": "<=90",
+  "pontos": 3
+ },
+ {
+  "escore": "NEWS2",
+  "parametro": "Pressão arterial sistólica (mmHg)",
+  "faixa": "91-100",
+  "pontos": 2
+ },
+ {
+  "escore": "NEWS2",
+  "parametro": "Pressão arterial sistólica (mmHg)",
+  "faixa": "101-110",
+  "pontos": 1
+ },
+ {
+  "escore": "NEWS2",
+  "parametro": "Pressão arterial sistólica (mmHg)",
+  "faixa": "111-219",
+  "pontos": 0
+ },
+ {
+  "escore": "NEWS2",
+  "parametro": "Pressão arterial sistólica (mmHg)",
+  "faixa": ">=220",
+  "pontos": 3
+ },
+ {
+  "escore": "NEWS2",
+  "parametro": "Frequência cardíaca (bpm)",
+  "faixa": "<=40",
+  "pontos": 3
+ },
+ {
+  "escore": "NEWS2",
+  "parametro": "Frequência cardíaca (bpm)",
+  "faixa": "41-50",
+  "pontos": 1
+ },
+ {
+  "escore": "NEWS2",
+  "parametro": "Frequência cardíaca (bpm)",
+  "faixa": "51-90",
+  "pontos": 0
+ },
+ {
+  "escore": "NEWS2",
+  "parametro": "Frequência cardíaca (bpm)",
+  "faixa": "91-110",
+  "pontos": 1
+ },
+ {
+  "escore": "NEWS2",
+  "parametro": "Frequência cardíaca (bpm)",
+  "faixa": "111-130",
+  "pontos": 2
+ },
+ {
+  "escore": "NEWS2",
+  "parametro": "Frequência cardíaca (bpm)",
+  "faixa": ">=131",
+  "pontos": 3
+ },
+ {
+  "escore": "NEWS2",
+  "parametro": "Consciência (ACVPU)",
+  "faixa": "Alerta",
+  "pontos": 0
+ },
+ {
+  "escore": "NEWS2",
+  "parametro": "Consciência (ACVPU)",
+  "faixa": "Confusão nova, V, P ou U",
+  "pontos": 3
+ },
+ {
+  "escore": "NEWS2",
+  "parametro": "Temperatura (°C)",
+  "faixa": "<=35.0",
+  "pontos": 3
+ },
+ {
+  "escore": "NEWS2",
+  "parametro": "Temperatura (°C)",
+  "faixa": "35.1-36.0",
+  "pontos": 1
+ },
+ {
+  "escore": "NEWS2",
+  "parametro": "Temperatura (°C)",
+  "faixa": "36.1-38.0",
+  "pontos": 0
+ },
+ {
+  "escore": "NEWS2",
+  "parametro": "Temperatura (°C)",
+  "faixa": "38.1-39.0",
+  "pontos": 1
+ },
+ {
+  "escore": "NEWS2",
+  "parametro": "Temperatura (°C)",
+  "faixa": ">=39.1",
+  "pontos": 2
+ }
+]

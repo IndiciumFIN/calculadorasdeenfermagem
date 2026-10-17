@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-camara-tecnica-no-4-2023-cree-cofen/ (API WordPress post 119815); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2023_N_00004_CREE_ATOMOS_V1.jsonl",
+      "sha256": "b2316331b7dc00bde9c0156c5a05130178215ca2166a38c22a9535a5e59d11a1",
+      "tamanho": 37425
+    },
+    {
+      "nome": "PARCT_2023_N_00004_CREE_CONTEUDO_SITE_API.json",
+      "sha256": "cd8ef2d32448a8cd74ec758911cad05b1c65202e3d301dd6be2a35ec4137d680",
+      "tamanho": 11488
+    },
+    {
+      "nome": "PARCT_2023_N_00004_CREE_NORMA_V1.json",
+      "sha256": "ed1f9b871b36159ecf69774c3fb5d0de1cde17088c93c14bcd4f652e6ddf5ca3",
+      "tamanho": 1930
+    },
+    {
+      "nome": "PARCT_2023_N_00004_CREE_PAGINA_SITE.html",
+      "sha256": "84afd5ce9b5bb9556791e7d7e461746c2e6d62eda90a4e626feec460c16ce89e",
+      "tamanho": 451640
+    },
+    {
+      "nome": "PARCT_2023_N_00004_CREE_TEXTO_FONTE_V1.txt",
+      "sha256": "f42a52305cb55a1cac24b92e9bf590a44a7dc41c523cd18ba2c9d49c3cc83ff5",
+      "tamanho": 10479
+    },
+    {
+      "nome": "PARCT_2023_N_00004_CREE_VALIDACAO_V1.json",
+      "sha256": "e4772cdb102593d8d39f10d72774f838fadda9683bfab4b78aa894cf0edb8657",
+      "tamanho": 2669
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-no-2-068-ms-21-10-2016-diretrizes-para-alojamento-conjunto-dou-no-204-segunda-feira-24-de-outubro-de-2016/ (API WordPress post 51485); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2016_N_02068_ATOMOS_V1.jsonl",
+      "sha256": "d7fd7d5bc55c2acc3b05d9462ff04dc24a4524e300f24a721807ac6dc976bb54",
+      "tamanho": 113272
+    },
+    {
+      "nome": "PORT_2016_N_02068_CONTEUDO_SITE_API.json",
+      "sha256": "1eadddea322c4621a0e3a83f91d68b60a6e2afa1d04570520db858617203b1d0",
+      "tamanho": 603
+    },
+    {
+      "nome": "PORT_2016_N_02068_NORMA_V1.json",
+      "sha256": "61010dd8830e009858140a3d717351d4ed5ce9298eae12590095024dee49c488",
+      "tamanho": 10953
+    },
+    {
+      "nome": "PORT_2016_N_02068_PAGINA_SITE.html",
+      "sha256": "ffc8f3977423478f865a6222ffa18755ddba70be18511b9473a25cf9866225c2",
+      "tamanho": 438040
+    },
+    {
+      "nome": "PORT_2016_N_02068_PDF_SITE.pdf",
+      "sha256": "0c356c40fd3a1cb7760420edaa04d4920a29613f4708283a22d3c743a1bab9cd",
+      "tamanho": 100236
+    },
+    {
+      "nome": "PORT_2016_N_02068_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "41aaff18dcc292bfc4e3e04c12059cfeb38a36d0270b5f4dead0c95607b8648a",
+      "tamanho": 29175
+    },
+    {
+      "nome": "PORT_2016_N_02068_TEXTO_FONTE_V1.txt",
+      "sha256": "a794fb3b385f47769191ca3df9f9f1328b2d86d33b663cc3450c82783214075a",
+      "tamanho": 29171
+    },
+    {
+      "nome": "PORT_2016_N_02068_VALIDACAO_V1.json",
+      "sha256": "09d0bd8a31c83bbe60185040a5590a7af590b14ab4bace438b8a9e6c7feae51b",
+      "tamanho": 3163
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+    "Texto do ato disponível apenas no PDF (o site traz só título/resumo); atomização feita a partir da camada de texto do PDF.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

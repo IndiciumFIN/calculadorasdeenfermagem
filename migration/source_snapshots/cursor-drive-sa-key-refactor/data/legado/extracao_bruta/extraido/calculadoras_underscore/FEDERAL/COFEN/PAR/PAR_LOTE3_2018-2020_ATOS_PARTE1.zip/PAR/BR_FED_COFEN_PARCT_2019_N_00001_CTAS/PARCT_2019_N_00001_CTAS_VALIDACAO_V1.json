@@ -1,0 +1,487 @@
+{
+  "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS",
+  "resultado_processo": "PENDENTE",
+  "rotulo": "Pendente de verificação",
+  "controles": [
+    {
+      "nome": "Identificação do ato e emissor",
+      "resultado": "PASS",
+      "evidencia": "PARECER DE CÂMARA TÉCNICA CONJUNTO Nº 001/2019/CTAS/CTLN/COFEN"
+    },
+    {
+      "nome": "Conferência site HTML × PDF oficial, dispositivo a dispositivo",
+      "resultado": "FAIL",
+      "status": "EXECUTADA_VIA_OCR",
+      "evidencia": {
+        "dispositivos_comparados": 54,
+        "por_resultado": {
+          "AUSENTE_NO_PDF": 3,
+          "DIFERENCA_MENOR": 1,
+          "DIVERGENTE": 1,
+          "EQUIVALENTE_OCR": 38,
+          "IDENTICO_NORMALIZADO": 11
+        },
+        "trechos_pdf_ausentes_no_site": 6,
+        "pdf": "PARCT_2019_N_00001_CTAS_PDF_SITE.pdf"
+      }
+    },
+    {
+      "nome": "Publicação no DOU (registro, sem verificação online)",
+      "resultado": "NAO_CITADO",
+      "evidencia": null
+    },
+    {
+      "nome": "Anexos referenciados presentes e atomizados",
+      "resultado": "NAO_APLICAVEL",
+      "status": "SEM_ANEXO_REFERENCIADO",
+      "referencias": []
+    },
+    {
+      "nome": "Numeração contígua (seções, itens, alíneas)",
+      "resultado": "PASS",
+      "evidencia": null
+    },
+    {
+      "nome": "Conferência humana da literalidade",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Pesquisa de alterações posteriores",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Direitos autorais do texto do ato oficial",
+      "resultado": "PASS",
+      "fundamento": "Lei 9.610/1998, art. 8, IV"
+    }
+  ],
+  "fechamento": {
+    "apto": false,
+    "status": "PENDENCIAS",
+    "justificativa": "Aguardando revisão humana da atomização e pesquisa de atos posteriores. Há achados bloqueantes adicionais."
+  },
+  "achados": [
+    {
+      "codigo": "C001",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Atomização automática; requer conferência humana da segmentação e da literalidade."
+    },
+    {
+      "codigo": "C002",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada."
+    },
+    {
+      "codigo": "C011",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "4 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+      "evidencia": [
+        {
+          "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_REFERENCIA_003",
+          "resultado": "DIVERGENTE",
+          "similaridade": 53.6,
+          "trecho": "CONSELHO FEDERAL DE ENFERMAGEM. RESOLUÇÃO COFEN 258/2001. Inserção de Cateter Periférico Central, pelos Enfermeiros. Brasília, 2001. Disponível em: http://www.c"
+        },
+        {
+          "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_REFERENCIA_004",
+          "resultado": "AUSENTE_NO_PDF",
+          "similaridade": 50.1,
+          "trecho": "SOUSA, M. L. Atuação do Técnico de Enfermagem nos cuidados com o cateter central de inserção periférica em neonatologia. Monografia apresentada ao Curso de Espe"
+        },
+        {
+          "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_REFERENCIA_005",
+          "resultado": "AUSENTE_NO_PDF",
+          "similaridade": 45.9,
+          "trecho": "OLIVEIRA, Cristine Ruviaro de et al. Cateter central de inserção periférica em pediatria e neonatologia: possibilidades de sistematização em hospital universitá"
+        },
+        {
+          "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_REFERENCIA_006",
+          "resultado": "AUSENTE_NO_PDF",
+          "similaridade": 50.5,
+          "trecho": "RODRIGUES, N. S. CATETER CENTRAL DE INSERÇÃO PERIFÉRICA: Atuação do enfermeiro para um cuidado seguro. Trabalho de conclusão de curso apresentado à faculdade Pa"
+        }
+      ]
+    },
+    {
+      "codigo": "C014",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "6 trecho(s) do PDF sem correspondente no texto do site.",
+      "evidencia": [
+        {
+          "trecho_pdf": "AMERICAN NA SOCIETY FOR GASTROINTESTINAL ENDOSCOPY. Appropriete use of GI endoscopy",
+          "similaridade": 48.8,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "PARCT_2019_N_00001_CTAS_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Guidelines. Gastrointestinal Endoscopy, v 75, n 6, p 1127-31, 2012, disponivel emihitp.iaspe.org/Workare/",
+          "similaridade": 49.0,
+          "cobertura_vocabulario": 0.111,
+          "arquivo": "PARCT_2019_N_00001_CTAS_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "AMERICAN NA SOCIETY FOR GASTROINTESTINAL ENDOSCOPY. Endoscopy by nonphysicians. Guideline Gastrointest. Endosc. v. 69, n p. TB7-70, 2009",
+          "similaridade": 45.3,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "PARCT_2019_N_00001_CTAS_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "disponivelem-hitp.//aspe.org/uploasedFiles/Publications-and Producis/Practice- quidelinas/end%20physicians(1).pdf, acesso em 12 jul.2012",
+          "similaridade": 45.8,
+          "cobertura_vocabulario": 0.091,
+          "arquivo": "PARCT_2019_N_00001_CTAS_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "SOCIEDADE BRASILEIRA DE ENFERMAGEM EM ENDOSCOPIA GASTROINTESTINAL. Historia da enfermagem na endoscopia: apresentação",
+          "similaridade": 54.8,
+          "cobertura_vocabulario": 0.333,
+          "arquivo": "PARCT_2019_N_00001_CTAS_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "SOUZA, Aparecida Helena de. Tecnologia operacional visando à assistência de Enfermagem no setor de endoscopia. / Aparecida Helena da Souza. — Niterói: [s.n.], 2017, 115.",
+          "similaridade": 52.6,
+          "cobertura_vocabulario": 0.267,
+          "arquivo": "PARCT_2019_N_00001_CTAS_PDF_SITE.pdf"
+        }
+      ]
+    },
+    {
+      "codigo": "C012",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+    }
+  ],
+  "conferencia_por_dispositivo": [
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_EPIGRAFE_001",
+      "tipo": "epigrafe",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 67.7
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_IDENTIFICACAO_PROCESSO_001",
+      "tipo": "identificacao_processo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_PARAGRAFO_TEXTO_001",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_PARAGRAFO_TEXTO_002",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_SECAO_001",
+      "tipo": "secao",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 92.3
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_PARAGRAFO_TEXTO_003",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 90.1
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_SECAO_002",
+      "tipo": "secao",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 91.7
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_PARAGRAFO_TEXTO_004",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_PARAGRAFO_TEXTO_005",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_PARAGRAFO_TEXTO_006",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 95.1
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_ART_001",
+      "tipo": "artigo_transcrito",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 98.6
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_ART_002",
+      "tipo": "artigo_transcrito",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 77.3
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_PARAGRAFO_TEXTO_007",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_ITEM_LISTA_001",
+      "tipo": "item_lista",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 98.7
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_ITEM_LISTA_002",
+      "tipo": "item_lista",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 99.6
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_ITEM_LISTA_003",
+      "tipo": "item_lista",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 97.8
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_PARAGRAFO_TEXTO_008",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 99.7
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_ITEM_LISTA_004",
+      "tipo": "item_lista",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 99.4
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_PARAGRAFO_TEXTO_009",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 99.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_ITEM_LISTA_005",
+      "tipo": "item_lista",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 99.3
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_ART_001_2",
+      "tipo": "artigo_transcrito",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 97.1
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_ART_001_2_PAR_01",
+      "tipo": "paragrafo_transcrito",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 95.5
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_ART_001_2_PAR_02",
+      "tipo": "paragrafo_transcrito",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 97.1
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_ART_001_2_PAR_03",
+      "tipo": "paragrafo_transcrito",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 96.8
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_ART_002_2",
+      "tipo": "artigo_transcrito",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 96.7
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_ITEM_LISTA_006",
+      "tipo": "item_lista",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 99.6
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_PARAGRAFO_TEXTO_010",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 96.4
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_PARAGRAFO_TEXTO_011",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 74.7
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_PARAGRAFO_TEXTO_012",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_ART_002_2_INC_III",
+      "tipo": "inciso",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 98.4
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_PARAGRAFO_TEXTO_013",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 98.8
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_PARAGRAFO_TEXTO_014",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 99.7
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_PARAGRAFO_TEXTO_015",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_PARAGRAFO_TEXTO_016",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 99.3
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_PARAGRAFO_TEXTO_017",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 76.9
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_PARAGRAFO_TEXTO_018",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 99.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_PARAGRAFO_TEXTO_019",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 99.8
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_PARAGRAFO_TEXTO_020",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 98.7
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_PARAGRAFO_TEXTO_021",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 99.2
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_PARAGRAFO_TEXTO_022",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 99.4
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_ART_002_2_INC_IV",
+      "tipo": "inciso",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 99.6
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_PARAGRAFO_TEXTO_023",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 98.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_PARAGRAFO_TEXTO_024",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_PARAGRAFO_TEXTO_025",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_LOCAL_DATA_001",
+      "tipo": "local_data",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 90.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_ASSINATURA_001",
+      "tipo": "assinatura",
+      "resultado": "DIFERENCA_MENOR",
+      "similaridade": 62.5
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_PARAGRAFO_TEXTO_026",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 97.8
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_SECAO_003",
+      "tipo": "secao",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_REFERENCIA_001",
+      "tipo": "referencia",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 97.7
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_REFERENCIA_002",
+      "tipo": "referencia",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 97.2
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_REFERENCIA_003",
+      "tipo": "referencia",
+      "resultado": "DIVERGENTE",
+      "similaridade": 53.6
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_REFERENCIA_004",
+      "tipo": "referencia",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 50.1
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_REFERENCIA_005",
+      "tipo": "referencia",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 45.9
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2019_N_00001_CTAS_REFERENCIA_006",
+      "tipo": "referencia",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 50.5
+    }
+  ],
+  "data_verificacao": "2026-10-10",
+  "responsavel": "Triagem automatizada - requer validação humana"
+}

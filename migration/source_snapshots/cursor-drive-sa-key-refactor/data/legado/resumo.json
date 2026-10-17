@@ -1,0 +1,70 @@
+{
+  "gerado_em": "2026-10-15T00:28:58.263601+00:00",
+  "versao_contrato": "1.2.0",
+  "regra": "Candidatos do acervo legado. status sempre Não verificado. link_fonte é a planilha de origem no Drive, não o diário oficial. fonte_oficial permanece AUSENTE. Nada aqui é Vigente.",
+  "origem_manifesto": "Google Drive, pasta de átomos COFEN, exportado em 2026-10-15. Planilhas mantidas no Drive; esta cópia é a retirada governada.",
+  "fontes": {
+    "NORMATIVE_ATOMS_COFEN_V1.csv": {
+      "drive_file_id": "16jA3isbkQuZqvsrkqU2FoIfp-JL1B8lyffNcb2f0ego",
+      "sha256": "fdcebc29e7ae8ab8af44f91b8fe8fc165698ed74e6684c659092295b138dec41",
+      "linhas": 338,
+      "link_fonte": "https://docs.google.com/spreadsheets/d/16jA3isbkQuZqvsrkqU2FoIfp-JL1B8lyffNcb2f0ego"
+    },
+    "NORMATIVE_ATOMS_COFEN_LOTE1_V1.csv": {
+      "drive_file_id": "1arlb-IIqpQJGrj8Suyj-VKeejczSqORBFZGS20BFq8s",
+      "sha256": "38485d48beceb7acbb6806ef3e0f550a41f735050bc10211cc7950d668e73350",
+      "linhas": 4446,
+      "link_fonte": "https://docs.google.com/spreadsheets/d/1arlb-IIqpQJGrj8Suyj-VKeejczSqORBFZGS20BFq8s"
+    },
+    "NORMATIVE_ATOMS_COFEN_LOTE2_V1.xlsx": {
+      "drive_file_id": "13IoE-cxveJrjzkj-YNZRN6zQupiewGUv80pai1WACIE",
+      "sha256": "dafc4da0ad0a3fc59f113dc8086f25168fcaf24116a57dc9aa33a0dca8d35816",
+      "linhas": 54131,
+      "link_fonte": "https://docs.google.com/spreadsheets/d/13IoE-cxveJrjzkj-YNZRN6zQupiewGUv80pai1WACIE"
+    },
+    "NORMATIVE_ATOMS_COFEN_LOTE3_V1.xlsx": {
+      "drive_file_id": "1h9Y5ZKIZhyp2xmcYiFfp55NQvWeShry0o0nWWRQLhfI",
+      "sha256": "061a32325b2c0404188dea3363f21dfefac5d285aa8c9f4cb9479440d3a3fad5",
+      "linhas": 22729,
+      "link_fonte": "https://docs.google.com/spreadsheets/d/1h9Y5ZKIZhyp2xmcYiFfp55NQvWeShry0o0nWWRQLhfI"
+    },
+    "NORMATIVE_ATOMS_COFEN_LOTE4_V1.csv": {
+      "drive_file_id": "1RRQpbi0QWfc6FKmVK9tyjycbJz8JGSbSRBcveTGpDoQ",
+      "sha256": "2e96a8ca8a918e776b2b660807918a219701bfa5a02462bc505d4d2a315e8bc9",
+      "linhas": 13639,
+      "link_fonte": "https://docs.google.com/spreadsheets/d/1RRQpbi0QWfc6FKmVK9tyjycbJz8JGSbSRBcveTGpDoQ"
+    },
+    "NORMATIVE_ATOMS_COFEN_LOTE5_V1.csv": {
+      "drive_file_id": "1RnIiSt2X05M6Km3MO5oq-GXCiyYVv2xbZ3bD4M3hBlA",
+      "sha256": "b6f31e070c9ec17c6bb0905e7c31fbcacfd84cce556bab198ecd0d77630817b6",
+      "linhas": 3544,
+      "link_fonte": "https://docs.google.com/spreadsheets/d/1RnIiSt2X05M6Km3MO5oq-GXCiyYVv2xbZ3bD4M3hBlA"
+    },
+    "NORMATIVE_ATOMS_COFEN_LOTE6_V1.csv": {
+      "drive_file_id": "1U4yRZ3cv7jef1frPfOKhYNQD0eFU2J0tKw3Ax35qBcw",
+      "sha256": "78efe374ff452e671837413c40751fa4e2a1e5fa80f96b41002ba26a43e493ae",
+      "linhas": 13564,
+      "link_fonte": "https://docs.google.com/spreadsheets/d/1U4yRZ3cv7jef1frPfOKhYNQD0eFU2J0tKw3Ax35qBcw"
+    }
+  },
+  "candidatos": 104668,
+  "quarentena": 7679,
+  "proveniencia": 104668,
+  "motivos": {
+    "conflito_duplicata": 752,
+    "duplicata_identica": 44,
+    "termo_opinativo": 165,
+    "texto_acima_do_contrato": 1044,
+    "texto_curto": 5718
+  },
+  "status_distintos": [
+    "Não verificado"
+  ],
+  "notas": [
+    "Nenhum candidato nasce Vigente. link_fonte é a planilha de origem no Drive, não o diário oficial. fonte_oficial permanece AUSENTE: nenhum átomo está associado ao ato publicado. Parecer de modelo não homologa.",
+    "termo_opinativo: o contrato v1.2.0 rejeita o vocábulo 'recomenda-se' mesmo quando ele é o verbo da própria norma. O texto integral fica na quarentena até decisão de contrato.",
+    "conflito_duplicata: o mesmo NORM_ATOM_ID com textos diferentes não escolhe lado; as duas cópias ficam na quarentena.",
+    "texto_acima_do_contrato e texto_curto preservam o texto integral, sem truncar.",
+    "Dois projetos Supabase foram lidos em 15/10/2026. O censo está em data/legado/supabase_normativos.json. Nada de lá foi apagado. As sete planilhas NORMATIVE_ATOMS já conferidas saíram do Drive."
+  ]
+}

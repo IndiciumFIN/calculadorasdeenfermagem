@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-camara-tecnica-no-46-2024-plen-cofen/ (API WordPress post 127275); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2024_N_00046_ATOMOS_V1.jsonl",
+      "sha256": "ee003bd70a9dcb79eedc1626683697fe76a990b626292341ecbde7ab03d6048f",
+      "tamanho": 52964
+    },
+    {
+      "nome": "PARCT_2024_N_00046_CONTEUDO_SITE_API.json",
+      "sha256": "c7a77c8382085e345963686edcd56796d73408b1df1b67ee5afec034c34d1bd2",
+      "tamanho": 17202
+    },
+    {
+      "nome": "PARCT_2024_N_00046_NORMA_V1.json",
+      "sha256": "ac9498026d565eaf543f9f7efa27aa36306afde0acef33a0367d1331a6d82415",
+      "tamanho": 5166
+    },
+    {
+      "nome": "PARCT_2024_N_00046_PAGINA_SITE.html",
+      "sha256": "e921a8ebca8f2bd59bcaa6dbb83493718ae2cfca20b48c73e6da9ec6b92a5b41",
+      "tamanho": 455938
+    },
+    {
+      "nome": "PARCT_2024_N_00046_TEXTO_FONTE_V1.txt",
+      "sha256": "bcd5dd03c310a7c76644a03b4f8b68d8a40515f0b2e9821907ffcf4a259e4294",
+      "tamanho": 15078
+    },
+    {
+      "nome": "PARCT_2024_N_00046_VALIDACAO_V1.json",
+      "sha256": "db67c153f2c12d15ffb5921bf2f3ed6ea0c5f55472f57886a3354a64a0ea828e",
+      "tamanho": 2665
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

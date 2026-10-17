@@ -1,0 +1,469 @@
+{
+  "verificado_em": "2026-10-15T07:31:37Z",
+  "recorte": "WO-2026_10_15_0001 a WO-2026_10_15_0040",
+  "obter_com_arquivo": [
+    "0001",
+    "0005",
+    "0009",
+    "0013",
+    "0017",
+    "0021",
+    "0025",
+    "0029",
+    "0033"
+  ],
+  "work_orders_sem_arquivo": [
+    "0037",
+    "0038",
+    "0039",
+    "0040"
+  ],
+  "arquivos_implantados": 101,
+  "listagens_raw_fechadas": 50,
+  "mesmo_nome_e_mesmo_tamanho": 0,
+  "conclusao": "Nenhum arquivo destas pastas raw tem o mesmo nome e o mesmo tamanho de uma cópia das Work Orders até 0040. Tamanho diferente impede o mesmo SHA-256. Eles permanecem no Drive.",
+  "mesmo_nome_tamanho_diferente": [
+    {
+      "pasta": "nutricao/raw",
+      "id_drive": "1gM2_sQHivhuGKZA4FiMqIt6FyCI8NbdA",
+      "nome": "taco_composicao.csv",
+      "bytes_drive": 231544,
+      "work_order": "WO-2026_10_15_0033",
+      "caminho_implantado": "nutricao/taco_composicao.csv",
+      "bytes_implantado": 232137,
+      "sha256_implantado": "916fab6814be517b656ed5cdfb276b7273915ef7c723f1f77d2d4882bb1d7681",
+      "veredito": "MESMO_NOME_TAMANHO_DIFERENTE"
+    },
+    {
+      "pasta": "nutricao/raw",
+      "id_drive": "1I8N7AfgOzvcF5WjrgiH8cLX0OfHnwh0-",
+      "nome": "taco_aminoacidos.csv",
+      "bytes_drive": 9935,
+      "work_order": "WO-2026_10_15_0033",
+      "caminho_implantado": "nutricao/taco_aminoacidos.csv",
+      "bytes_implantado": 9960,
+      "sha256_implantado": "23f5f415bde759c4178ded98b102519acde2d3021fd80263c2595830d37024e0",
+      "veredito": "MESMO_NOME_TAMANHO_DIFERENTE"
+    },
+    {
+      "pasta": "nutricao/raw",
+      "id_drive": "19NYY_s6m2bwNq1tWKwXj6MLaAAwiIILK",
+      "nome": "pof_medidas_caseiras.csv",
+      "bytes_drive": 1214077,
+      "work_order": "WO-2026_10_15_0033",
+      "caminho_implantado": "nutricao/pof_medidas_caseiras.csv",
+      "bytes_implantado": 1225879,
+      "sha256_implantado": "613abfc94ea2a640684c6246f4e2f5e34d0c0e10d9a3d53bbcdab0853fb08e9a",
+      "veredito": "MESMO_NOME_TAMANHO_DIFERENTE"
+    },
+    {
+      "pasta": "nutricao/raw",
+      "id_drive": "1oIezq0r-uldlzXe3tLr-YzHi-KuUVxl1",
+      "nome": "taco_acidos_graxos.csv",
+      "bytes_drive": 71041,
+      "work_order": "WO-2026_10_15_0033",
+      "caminho_implantado": "nutricao/taco_acidos_graxos.csv",
+      "bytes_implantado": 71463,
+      "sha256_implantado": "ec0f99de19b10fa0336bdd7ac22bc42cc62b8c82a62bef6c93c3c8cce3bcf030",
+      "veredito": "MESMO_NOME_TAMANHO_DIFERENTE"
+    },
+    {
+      "pasta": "vacinal_brasil/raw",
+      "id_drive": "1YNmk7J8MFIsonctBzBifcPjO_gfOMm-e",
+      "nome": "pni_doses_aplicadas_2026_amostra.json",
+      "bytes_drive": 10192355,
+      "work_order": "WO-2026_10_15_0025",
+      "caminho_implantado": "vacinal_brasil/pni_doses_aplicadas_2026_amostra.json",
+      "bytes_implantado": 10702357,
+      "sha256_implantado": "98f950f6ee5b9baf557e3b02f28eed430f47216ee80ed986b35fef0683989b4e",
+      "veredito": "MESMO_NOME_TAMANHO_DIFERENTE"
+    },
+    {
+      "pasta": "vacinal_brasil/raw",
+      "id_drive": "1VVLF5sJE-v18UbtKpS-zbmO8ZA7a3EWY",
+      "nome": "sies_insumos_estrategicos_amostra.json",
+      "bytes_drive": 904148,
+      "work_order": "WO-2026_10_15_0025",
+      "caminho_implantado": "vacinal_brasil/sies_insumos_estrategicos_amostra.json",
+      "bytes_implantado": 1004150,
+      "sha256_implantado": "4e09bac2a220e5649544faad2df63967722577411dd8eca0b672104c5fa44caa",
+      "veredito": "MESMO_NOME_TAMANHO_DIFERENTE"
+    },
+    {
+      "pasta": "vacinal_brasil/raw",
+      "id_drive": "1ixYK-sscf3OgVtdKSGSnBqwAtTFL-8bo",
+      "nome": "sesai_cobertura_vacinal_indigena.json",
+      "bytes_drive": 134343,
+      "work_order": "WO-2026_10_15_0025",
+      "caminho_implantado": "vacinal_brasil/sesai_cobertura_vacinal_indigena.json",
+      "bytes_implantado": 151687,
+      "sha256_implantado": "c791a7a4fc7b199d90d15232376e805300cff273e6b27e8a26038dc71501e803",
+      "veredito": "MESMO_NOME_TAMANHO_DIFERENTE"
+    },
+    {
+      "pasta": "vacinal_brasil/raw",
+      "id_drive": "1GBQUfhGo_Y3Au9-IacaVbAqSstO6Hkog",
+      "nome": "esavi_eventos_adversos_vacinacao_amostra.json",
+      "bytes_drive": 15310431,
+      "work_order": "WO-2026_10_15_0025",
+      "caminho_implantado": "vacinal_brasil/esavi_eventos_adversos_vacinacao_amostra.json",
+      "bytes_implantado": 16060433,
+      "sha256_implantado": "90cfc09e47d6a51d21cc1486ed00db5d529d46dc5715f85d9b1bc4b0762a4d93",
+      "veredito": "MESMO_NOME_TAMANHO_DIFERENTE"
+    },
+    {
+      "pasta": "epidemiologico/raw",
+      "id_drive": "1XRzFrqhGQf3NPXpypf9jko3in9HiIzb7",
+      "nome": "sinan_dengue_2026_amostra.json",
+      "bytes_drive": 18468768,
+      "work_order": "WO-2026_10_15_0017",
+      "caminho_implantado": "epidemiologico/sinan_dengue_2026_amostra.json",
+      "bytes_implantado": 20448770,
+      "sha256_implantado": "f02c151b866ad2f0fe7f696efaafd75cc8b7b6e2cdd501127f0414e62b66cad7",
+      "veredito": "MESMO_NOME_TAMANHO_DIFERENTE"
+    },
+    {
+      "pasta": "epidemiologico/raw",
+      "id_drive": "1MUSUpZJfDicrSysyxvRkC8-grEbJh4S3",
+      "nome": "sinan_chikungunya_2026_amostra.json",
+      "bytes_drive": 7213757,
+      "work_order": "WO-2026_10_15_0017",
+      "caminho_implantado": "epidemiologico/sinan_chikungunya_2026_amostra.json",
+      "bytes_implantado": 7975759,
+      "sha256_implantado": "62895996fbbd959a91dfab923348366021937d3950a5b9d9fb83c87d48b7b41a",
+      "veredito": "MESMO_NOME_TAMANHO_DIFERENTE"
+    },
+    {
+      "pasta": "epidemiologico/raw",
+      "id_drive": "1sBzOpDEM6w-py6WNbOHusKok-Rn9NS-P",
+      "nome": "febre_amarela_humanos_primatas.json",
+      "bytes_drive": 782943,
+      "work_order": "WO-2026_10_15_0017",
+      "caminho_implantado": "epidemiologico/febre_amarela_humanos_primatas.json",
+      "bytes_implantado": 876161,
+      "sha256_implantado": "6c75fc974d323b66c6966998775702767536f63f3224fca0dc6884a85d8198d3",
+      "veredito": "MESMO_NOME_TAMANHO_DIFERENTE"
+    },
+    {
+      "pasta": "epidemiologico/raw",
+      "id_drive": "1vh6jzrdbBh8keSZ_9rR_yhsS0mGn-S3I",
+      "nome": "sinan_zika_2026_amostra.json",
+      "bytes_drive": 2526846,
+      "work_order": "WO-2026_10_15_0017",
+      "caminho_implantado": "epidemiologico/sinan_zika_2026_amostra.json",
+      "bytes_implantado": 2784848,
+      "sha256_implantado": "572b9c6d67e41860acf55f5bd3bb4da9dcbae9290792ab054566dcb0584219f8",
+      "veredito": "MESMO_NOME_TAMANHO_DIFERENTE"
+    },
+    {
+      "pasta": "epidemiologico/raw",
+      "id_drive": "15a31FnIzzmvDCHzNeYkU-4CJg6S43KAS",
+      "nome": "srag_2019_2026_amostra.json",
+      "bytes_drive": 18861043,
+      "work_order": "WO-2026_10_15_0017",
+      "caminho_implantado": "epidemiologico/srag_2019_2026_amostra.json",
+      "bytes_implantado": 20821045,
+      "sha256_implantado": "a776d1b99e26e08f6eb2c62937c0d1b872d5791cead4f312384d7e76aa6a9ace",
+      "veredito": "MESMO_NOME_TAMANHO_DIFERENTE"
+    },
+    {
+      "pasta": "epidemiologico/raw",
+      "id_drive": "1d-4BX3q4xaBGPzPdVebF5GOTWEfyE3xy",
+      "nome": "sim_mortalidade_amostra.json",
+      "bytes_drive": 8214128,
+      "work_order": "WO-2026_10_15_0017",
+      "caminho_implantado": "epidemiologico/sim_mortalidade_amostra.json",
+      "bytes_implantado": 9094130,
+      "sha256_implantado": "2e7aa77348fd2e132239d9ffc29743efa6452c638d3650135af3991e107c2618",
+      "veredito": "MESMO_NOME_TAMANHO_DIFERENTE"
+    },
+    {
+      "pasta": "epidemiologico/raw",
+      "id_drive": "1WW_-OnxA8VHKiWuwaKKWYbUQ6LMdJhVX",
+      "nome": "mpox_amostra.json",
+      "bytes_drive": 5668786,
+      "work_order": "WO-2026_10_15_0017",
+      "caminho_implantado": "epidemiologico/mpox_amostra.json",
+      "bytes_implantado": 6238788,
+      "sha256_implantado": "1961ab3f208144bb8d821a3669c8a9c874a4ab570eac4819008c795f2bd55aef",
+      "veredito": "MESMO_NOME_TAMANHO_DIFERENTE"
+    },
+    {
+      "pasta": "epidemiologico/raw",
+      "id_drive": "1ut9N5W2_x_YgWZB740nX-fteqilSHH1S",
+      "nome": "febre_amarela_epizootias.json",
+      "bytes_drive": 588263,
+      "work_order": "WO-2026_10_15_0017",
+      "caminho_implantado": "epidemiologico/febre_amarela_epizootias.json",
+      "bytes_implantado": 651553,
+      "sha256_implantado": "373dd2d044b7767197c35aecd91fad43dfde516270abfd448b29d499ed88fa5b",
+      "veredito": "MESMO_NOME_TAMANHO_DIFERENTE"
+    }
+  ],
+  "nome_reescrito_tamanho_diferente": [
+    {
+      "pasta": "raw/cid10",
+      "id_drive": "1NhdSaxR8U6B8oQ8PiHag09wFyHV9HIP5",
+      "nome": "CID-10-CAPITULOS.CSV",
+      "bytes_drive": 2594,
+      "work_order": "WO-2026_10_15_0001",
+      "caminho_implantado": "cid10/capitulos.csv",
+      "bytes_implantado": 2689,
+      "sha256_implantado": "f762f7b72d16cad535b6765d7f4b4e72fb96691f1052cbffa2e1bfb6ed9b195a",
+      "veredito": "NOME_REESCRITO_TAMANHO_DIFERENTE"
+    },
+    {
+      "pasta": "raw/cid10",
+      "id_drive": "1A38SELA128MPZahYyarTCEK0vv6TK9_L",
+      "nome": "CID-10-SUBCATEGORIAS.CSV",
+      "bytes_drive": 1352723,
+      "work_order": "WO-2026_10_15_0001",
+      "caminho_implantado": "cid10/subcategorias.csv",
+      "bytes_implantado": 3572030,
+      "sha256_implantado": "873d844abb2fe35cfbbc61de6579eaa2b7cab4524e6649b53e557359a8505055",
+      "veredito": "NOME_REESCRITO_TAMANHO_DIFERENTE"
+    },
+    {
+      "pasta": "raw/cid10",
+      "id_drive": "1-kUkQYiQMbT70_emdi-QYy3yGMmgM6zf",
+      "nome": "CID-O-CATEGORIAS.CSV",
+      "bytes_drive": 34414,
+      "work_order": "WO-2026_10_15_0001",
+      "caminho_implantado": "cid10/cid_o_categorias.csv",
+      "bytes_implantado": 34390,
+      "sha256_implantado": "69fc782c257746da2c770cc269babb05dbcfbb3c209d7f9706652c8c1f1dfb0a",
+      "veredito": "NOME_REESCRITO_TAMANHO_DIFERENTE"
+    },
+    {
+      "pasta": "raw/cid10",
+      "id_drive": "1u12z-VnAkb2tuo1jRnyVgDESX90gWVcz",
+      "nome": "CID-10-GRUPOS.CSV",
+      "bytes_drive": 27053,
+      "work_order": "WO-2026_10_15_0001",
+      "caminho_implantado": "cid10/grupos.csv",
+      "bytes_implantado": 27866,
+      "sha256_implantado": "471883b9fc85e8dc9c98a051236a7a39626d440244bcf90fffc5aaec0a5760b4",
+      "veredito": "NOME_REESCRITO_TAMANHO_DIFERENTE"
+    },
+    {
+      "pasta": "raw/cid10",
+      "id_drive": "1qnEgatkslUBnZ6AxvwTvc3--z4NdrQWe",
+      "nome": "CID-10-CATEGORIAS.CSV",
+      "bytes_drive": 197561,
+      "work_order": "WO-2026_10_15_0001",
+      "caminho_implantado": "cid10/categorias.csv",
+      "bytes_implantado": 295665,
+      "sha256_implantado": "e11584b518dc13e64b78d7949f4b43055b1203f367f3b1613fccb27a3fb52712",
+      "veredito": "NOME_REESCRITO_TAMANHO_DIFERENTE"
+    },
+    {
+      "pasta": "raw/cid10",
+      "id_drive": "13XjLgP0Fq5-8UoiMda1G6g-zzLITkqJf",
+      "nome": "CID-O-GRUPOS.CSV",
+      "bytes_drive": 2742,
+      "work_order": "WO-2026_10_15_0001",
+      "caminho_implantado": "cid10/cid_o_grupos.csv",
+      "bytes_implantado": 2733,
+      "sha256_implantado": "ee605b7be92c0163053c20bd09d279453463e5e37902c9512f0ddcd685b2e39b",
+      "veredito": "NOME_REESCRITO_TAMANHO_DIFERENTE"
+    }
+  ],
+  "sem_nome_nas_wo_ate_0040": [
+    {
+      "pasta": "nutricao/raw",
+      "id_drive": "1kzd2CjIke1A63qx8A9aJhUx5vKznnyr9",
+      "nome": "FoodData_Central_foundation_food_csv_2026-04-30.zip",
+      "bytes_drive": 3825741,
+      "veredito": "SEM_NOME_NAS_WO_ATE_0040"
+    },
+    {
+      "pasta": "nutricao/raw",
+      "id_drive": "1vm5_U_zlxkk2FhuOC9hPVbQj3vrZOQdt",
+      "nome": "FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+      "bytes_drive": 6074592,
+      "veredito": "SEM_NOME_NAS_WO_ATE_0040"
+    },
+    {
+      "pasta": "epidemiologico/raw",
+      "id_drive": "1znYzpP4NzjACSKGtBwfvNY23-fJiljab",
+      "nome": "portaria_gm_ms_11211_2026.html",
+      "bytes_drive": 56295,
+      "veredito": "SEM_NOME_NAS_WO_ATE_0040"
+    },
+    {
+      "pasta": "vacinas/raw",
+      "id_drive": "1uNJ5aIcevM8CV2EMIwaHRNLTgkIEiXZy",
+      "nome": "cvx.txt",
+      "bytes_drive": 55005,
+      "veredito": "SEM_NOME_NAS_WO_ATE_0040"
+    },
+    {
+      "pasta": "vacinas/raw",
+      "id_drive": "1C4CpoBq9JEPcPazFziCtxB_7cPtVhurw",
+      "nome": "supporting-data-4.65-508.zip",
+      "bytes_drive": 2592660,
+      "veredito": "SEM_NOME_NAS_WO_ATE_0040"
+    },
+    {
+      "pasta": "medicamentos/raw",
+      "id_drive": "1ie7zBt9a7QUSFa0q1Pu6LXHXet3u3oXu",
+      "nome": "TA_PRECO_MEDICAMENTO.csv",
+      "bytes_drive": 17148070,
+      "veredito": "SEM_NOME_NAS_WO_ATE_0040"
+    },
+    {
+      "pasta": "medicamentos/raw",
+      "id_drive": "1QANc6VZNRicGCkdO0rwfpJP7ZeDuxGDC",
+      "nome": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "bytes_drive": 45901211,
+      "veredito": "SEM_NOME_NAS_WO_ATE_0040"
+    },
+    {
+      "pasta": "medicamentos/raw",
+      "id_drive": "1aNuM4zJ5QHkAtmbYMCpG9hlB3O8KBuFW",
+      "nome": "drug-shortages.json.zip",
+      "bytes_drive": 421262,
+      "veredito": "SEM_NOME_NAS_WO_ATE_0040"
+    },
+    {
+      "pasta": "medicamentos/raw",
+      "id_drive": "1iy-12zaFSIWjQiVloq-W3QzOq64Nxpgo",
+      "nome": "drug-ndc.json.zip",
+      "bytes_drive": 28011943,
+      "veredito": "SEM_NOME_NAS_WO_ATE_0040"
+    },
+    {
+      "pasta": "dispositivos/raw",
+      "id_drive": "1NIlJmWM22xKQLZma7OwjDJgKA8aunoN_",
+      "nome": "TA_PRODUTO_SAUDE_SITE.csv",
+      "bytes_drive": 27692821,
+      "veredito": "SEM_NOME_NAS_WO_ATE_0040"
+    },
+    {
+      "pasta": "dispositivos/raw",
+      "id_drive": "1u-SO7w_Mrvmrm9GmOuOllNNduQzqHId8",
+      "nome": "device-classification.json.zip",
+      "bytes_drive": 3274881,
+      "veredito": "SEM_NOME_NAS_WO_ATE_0040"
+    },
+    {
+      "pasta": "mesh/raw",
+      "id_drive": "1EmKkhmEAakgJo35_1oUDx56N88pXyaH1",
+      "nome": "desc2026.gz",
+      "bytes_drive": 16812612,
+      "veredito": "SEM_NOME_NAS_WO_ATE_0040"
+    },
+    {
+      "pasta": "icd11/raw",
+      "id_drive": "1dqb2pWwcfCfB4fWBLXHRMGD32zQcARHH",
+      "nome": "SimpleTabulation-ICD-11-MMS-pt.zip",
+      "bytes_drive": 4951519,
+      "veredito": "SEM_NOME_NAS_WO_ATE_0040"
+    },
+    {
+      "pasta": "suprimentos/raw",
+      "id_drive": "1ulqgD6D-4NKo-jwySjc-re06l_xD8qjZ",
+      "nome": "catmat_classes_6510_6515_6530_6532.json",
+      "bytes_drive": 48969842,
+      "veredito": "SEM_NOME_NAS_WO_ATE_0040"
+    },
+    {
+      "pasta": "sinais_vitais/raw",
+      "id_drive": "1p-0sOjq9aUTwSQtlbDwLErcrNO3ZC_fB",
+      "nome": "bodyheight.profile.json",
+      "bytes_drive": 162194,
+      "veredito": "SEM_NOME_NAS_WO_ATE_0040"
+    },
+    {
+      "pasta": "sinais_vitais/raw",
+      "id_drive": "1Hd3TfVp13PvbIXeSOOftrlWYUklhYJoB",
+      "nome": "heartrate.profile.json",
+      "bytes_drive": 161221,
+      "veredito": "SEM_NOME_NAS_WO_ATE_0040"
+    },
+    {
+      "pasta": "sinais_vitais/raw",
+      "id_drive": "1faBmxjPbWodEv1xMtJMRk6AHtzLDEMwL",
+      "nome": "resprate.profile.json",
+      "bytes_drive": 161267,
+      "veredito": "SEM_NOME_NAS_WO_ATE_0040"
+    },
+    {
+      "pasta": "sinais_vitais/raw",
+      "id_drive": "1fj3kMl2ssPUIl5pYeiejtqbMwNHqixmm",
+      "nome": "vitalspanel.profile.json",
+      "bytes_drive": 147379,
+      "veredito": "SEM_NOME_NAS_WO_ATE_0040"
+    },
+    {
+      "pasta": "sinais_vitais/raw",
+      "id_drive": "1X02pL7bXDEmeJQeuL7o0vaMJKww00YWD",
+      "nome": "bodyweight.profile.json",
+      "bytes_drive": 161969,
+      "veredito": "SEM_NOME_NAS_WO_ATE_0040"
+    },
+    {
+      "pasta": "sinais_vitais/raw",
+      "id_drive": "128tlK5NGu4OcrVCNPu2Fe8zMRhav-GFH",
+      "nome": "vitalsigns.profile.json",
+      "bytes_drive": 136450,
+      "veredito": "SEM_NOME_NAS_WO_ATE_0040"
+    },
+    {
+      "pasta": "sinais_vitais/raw",
+      "id_drive": "1XSIq0-XOOCbz7T6fJvlD5MIi33Uhexj_",
+      "nome": "bp.profile.json",
+      "bytes_drive": 258955,
+      "veredito": "SEM_NOME_NAS_WO_ATE_0040"
+    },
+    {
+      "pasta": "sinais_vitais/raw",
+      "id_drive": "1XnocODMjVObuSuaTWAa5fbUmhqOGhmup",
+      "nome": "oxygensat.profile.json",
+      "bytes_drive": 161286,
+      "veredito": "SEM_NOME_NAS_WO_ATE_0040"
+    },
+    {
+      "pasta": "sinais_vitais/raw",
+      "id_drive": "1v8kJG17gxpxDZ3nIJrRSkwe1akXguX0C",
+      "nome": "headcircum.profile.json",
+      "bytes_drive": 162134,
+      "veredito": "SEM_NOME_NAS_WO_ATE_0040"
+    },
+    {
+      "pasta": "sinais_vitais/raw",
+      "id_drive": "1WQYnYl4kR6vjvKUwdoQpQhyoLMm0Yrn8",
+      "nome": "bmi.profile.json",
+      "bytes_drive": 161275,
+      "veredito": "SEM_NOME_NAS_WO_ATE_0040"
+    },
+    {
+      "pasta": "sinais_vitais/raw",
+      "id_drive": "1HJbgLTmvpe7xafjrrmyZB5LXUirD0kmt",
+      "nome": "bodytemp.profile.json",
+      "bytes_drive": 161981,
+      "veredito": "SEM_NOME_NAS_WO_ATE_0040"
+    },
+    {
+      "pasta": "sinais_vitais/raw",
+      "id_drive": "18E0nmDuaVFcCzKUFGSEEcDfXocRNKggg",
+      "nome": "valueset-observation-vitalsignresult.json",
+      "bytes_drive": 4976,
+      "veredito": "SEM_NOME_NAS_WO_ATE_0040"
+    },
+    {
+      "pasta": "raw",
+      "id_drive": "1lxcRl5BgzbFwO3hIOIkZkHBoN_ywZc_B",
+      "nome": "mplus_topics_2026-10-10.xml",
+      "bytes_drive": 30103232,
+      "veredito": "SEM_NOME_NAS_WO_ATE_0040"
+    },
+    {
+      "pasta": "raw",
+      "id_drive": "1PEzDf4oWIyChctfwu7mB_6luZIOCDzAe",
+      "nome": "CID10CSV.zip",
+      "bytes_drive": 306066,
+      "veredito": "SEM_NOME_NAS_WO_ATE_0040"
+    }
+  ]
+}

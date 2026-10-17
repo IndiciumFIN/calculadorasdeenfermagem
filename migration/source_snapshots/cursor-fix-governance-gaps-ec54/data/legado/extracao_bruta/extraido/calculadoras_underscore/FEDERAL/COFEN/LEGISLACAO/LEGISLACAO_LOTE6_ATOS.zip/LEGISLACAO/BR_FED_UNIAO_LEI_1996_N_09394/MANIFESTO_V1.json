@@ -1,0 +1,51 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/lei-de-diretrizes-e-bases-da-educacao-nacional/ (API WordPress post 35382); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "LEI_1996_N_09394_ATOMOS_V1.jsonl",
+      "sha256": "c6aa5f19ef1efa527b302679f8374a29fa336b9e3b6c63a3ec69a0e39b82bf0f",
+      "tamanho": 319852
+    },
+    {
+      "nome": "LEI_1996_N_09394_CONTEUDO_SITE_API.json",
+      "sha256": "e1ccd7ffe4b98926f31f2b5ca335c8900531c40405fe07a8a19fc56e9a501736",
+      "tamanho": 446
+    },
+    {
+      "nome": "LEI_1996_N_09394_NORMA_V1.json",
+      "sha256": "399cd2c680d9b5eb3e78857a2cdbe97263b81e72f3d36c3e6f444d8b516a256b",
+      "tamanho": 3245
+    },
+    {
+      "nome": "LEI_1996_N_09394_PAGINA_SITE.html",
+      "sha256": "d582e7f1659076275b64b6572c1bfe405c5fa061e7c62e48bb22695ba0b7ad2e",
+      "tamanho": 436161
+    },
+    {
+      "nome": "LEI_1996_N_09394_PDF_SITE.pdf",
+      "sha256": "80c0eab1707b25dac0b0677bf6fed3f227cfd21eff2efd1146f4ff78b5af7562",
+      "tamanho": 70870
+    },
+    {
+      "nome": "LEI_1996_N_09394_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "02548ad3203d1b3409bc9fe459c8bcbf16f7c40506f253503226f5a21fd95d27",
+      "tamanho": 61652
+    },
+    {
+      "nome": "LEI_1996_N_09394_TEXTO_FONTE_V1.txt",
+      "sha256": "02548ad3203d1b3409bc9fe459c8bcbf16f7c40506f253503226f5a21fd95d27",
+      "tamanho": 61652
+    },
+    {
+      "nome": "LEI_1996_N_09394_VALIDACAO_V1.json",
+      "sha256": "2230d162fd99fab61562a6a2f8f6d9fb7026c721ce34424d22690b7ec7b8b81d",
+      "tamanho": 2498
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Texto do ato disponível apenas no PDF (o site traz só título/resumo); atomização feita a partir da camada de texto do PDF."
+  ]
+}

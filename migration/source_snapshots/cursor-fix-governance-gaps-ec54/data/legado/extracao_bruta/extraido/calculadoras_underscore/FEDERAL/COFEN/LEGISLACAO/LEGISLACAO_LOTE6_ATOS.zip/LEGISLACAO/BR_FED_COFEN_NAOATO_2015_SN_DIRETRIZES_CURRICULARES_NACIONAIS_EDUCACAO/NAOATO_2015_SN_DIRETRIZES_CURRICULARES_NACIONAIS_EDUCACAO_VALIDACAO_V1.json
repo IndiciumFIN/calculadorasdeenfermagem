@@ -1,0 +1,349 @@
+{
+  "identificador": "BR_FED_COFEN_NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO",
+  "resultado_processo": "PENDENTE",
+  "rotulo": "Pendente de verificação",
+  "controles": [
+    {
+      "nome": "Identificação do ato e emissor",
+      "resultado": "PASS_COM_RESSALVA",
+      "evidencia": "Diretrizes Curriculares Nacionais para a Educação das Relações Étnico-Raciais e para o Ensino de História e Cultura Afro-Brasileira e Africana"
+    },
+    {
+      "nome": "Conferência site HTML × PDF oficial, dispositivo a dispositivo",
+      "resultado": "FAIL",
+      "status": "EXECUTADA_TEXTO_PDF",
+      "evidencia": {
+        "dispositivos_comparados": 2,
+        "por_resultado": {
+          "IDENTICO_NORMALIZADO": 2
+        },
+        "trechos_pdf_ausentes_no_site": 245,
+        "pdf": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PDF_SITE.pdf"
+      }
+    },
+    {
+      "nome": "Publicação no DOU (registro, sem verificação online)",
+      "resultado": "REGISTRADO",
+      "evidencia": null
+    },
+    {
+      "nome": "Anexos referenciados presentes e atomizados",
+      "resultado": "NAO_APLICAVEL",
+      "status": "SEM_ANEXO_REFERENCIADO",
+      "referencias": []
+    },
+    {
+      "nome": "Numeração contígua (seções, itens, alíneas)",
+      "resultado": "PASS",
+      "evidencia": null
+    },
+    {
+      "nome": "Conferência humana da literalidade",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Pesquisa de alterações posteriores",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Direitos autorais do texto do ato oficial",
+      "resultado": "PASS",
+      "fundamento": "Lei 9.610/1998, art. 8, IV"
+    }
+  ],
+  "fechamento": {
+    "apto": false,
+    "status": "PENDENCIAS",
+    "justificativa": "Aguardando revisão humana da atomização e pesquisa de atos posteriores. Há achados bloqueantes adicionais."
+  },
+  "achados": [
+    {
+      "codigo": "C001",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Atomização automática; requer conferência humana da segmentação e da literalidade."
+    },
+    {
+      "codigo": "C002",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada."
+    },
+    {
+      "codigo": "C014",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "245 trecho(s) do PDF sem correspondente no texto do site.",
+      "evidencia": [
+        {
+          "trecho_pdf": "RESOLUÇÃO Nº 1, de 17 de junho de 2004 ......................................31",
+          "similaridade": 47.5,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "LEI Nº 10.639, de 9 de janeiro de 2003 ..............................................35",
+          "similaridade": 47.5,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "O Ministério da Educação, comprometido com a pauta de políticas afirmati- vas do governo federal, vem instituindo e implementando um conjunto de medidas e ações com o objetivo de corrigir injustiças, eliminar discriminações e promover a inclu- são social e a cidadania para todos no sistema educacion",
+          "similaridade": 46.4,
+          "cobertura_vocabulario": 0.074,
+          "arquivo": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "O Brasil, ao longo de sua história, estabeleceu um modelo de desenvolvimen- to excludente, impedindo que milhões de brasileiros tivessem acesso à escola ou nela permanecessem. Com a criação da Secretaria de Educação Continuada, Alfabetização e Diversidade (Secad), o Ministério da Educação dá um gran",
+          "similaridade": 47.3,
+          "cobertura_vocabulario": 0.125,
+          "arquivo": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Garantir o exercício desse direito e forjar um novo modo de desenvolvimento com inclusão é um desafio que impõe ao campo da educação decisões inovadoras. Na reestruturação do MEC, o fortalecimento de políticas e a criação de instrumentos de gestão para a afirmação cidadã tornaram-se prioridades, val",
+          "similaridade": 45.4,
+          "cobertura_vocabulario": 0.091,
+          "arquivo": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "A constituição da Secad traduz uma inovação institucional. Pela primeira vez, estão reunidos os programas de alfabetização e de educação de jovens e adultos, as coordenações de educação indígena, diversidade e inclusão educacional, educação no campo e educação ambiental. Esta estrutura permite a art",
+          "similaridade": 47.2,
+          "cobertura_vocabulario": 0.086,
+          "arquivo": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Para democratizar a educação, é preciso mobilizar toda a sociedade. O MEC, por intermédio da Secad, tem a missão de promover a união de esforços com os gover- nos estaduais e municipais, ONG’s, sindicatos, associações profissionais e de morado- res, contando com a cooperação de organismos internacio",
+          "similaridade": 46.2,
+          "cobertura_vocabulario": 0.139,
+          "arquivo": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "A presente publicação, parceria entre o Ministério da Educação e a Secretaria Especial de Políticas de Promoção da Igualdade Racial, tem o mérito de trazer ao conhe- cimento de todos os setores interessados da sociedade, questões, informações, bem como os marcos legais das Diretrizes Curriculares Na",
+          "similaridade": 60.7,
+          "cobertura_vocabulario": 0.277,
+          "arquivo": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "O Brasil, Colônia, Império e República, teve historicamente, no aspecto legal, uma postura ativa e permissiva diante da discriminação e do racismo que atinge a popu- lação afro-descendente brasileira até hoje. O Decreto nº 1.331, de 17 de fevereiro de 1854, estabelecia que nas escolas públicas do pa",
+          "similaridade": 45.4,
+          "cobertura_vocabulario": 0.05,
+          "arquivo": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Após a promulgação da Constituição de 1988, o Brasil busca efetivar a con- dição de um Estado democrático de direito com ênfase na cidadania e na dignidade da pessoa humana, contudo, ainda possui uma realidade marcada por posturas subjetivas e objetivas de preconceito, racismo e discriminação aos af",
+          "similaridade": 45.8,
+          "cobertura_vocabulario": 0.054,
+          "arquivo": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "A educação constitui-se um dos principais ativos e mecanismos de transfor- mação de um povo e é papel da escola, de forma democrática e comprometida com a promoção do ser humano na sua integralidade, estimular a formação de valores, hábitos e comportamentos que respeitem as diferenças e as caracterí",
+          "similaridade": 45.7,
+          "cobertura_vocabulario": 0.073,
+          "arquivo": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Nesse sentido, ao analisar os dados que apontam as desigualdades entre bran- cos e negros na educação, constata-se a necessidade de políticas específicas que revertam o atual quadro. Os números são ilustrativos dessa situação. Vejamos: pessoas negras têm menor número de anos de estudos do que pessoa",
+          "similaridade": 47.0,
+          "cobertura_vocabulario": 0.06,
+          "arquivo": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "crianças brancas entre 10 e 14 anos encontram-se no mercado de trabalho, enquanto 40,5% das crianças negras, na mesma faixa etária, vivem essa situação.",
+          "similaridade": 48.3,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "O governo federal, a partir da eleição do Presidente Luiz Inácio Lula da Silva, passou a redefinir o papel do Estado como propulsor das transformações sociais, reco- nhecendo as disparidades entre brancos e negros em nossa sociedade e a necessidade de intervir de forma positiva, assumindo o compromi",
+          "similaridade": 45.1,
+          "cobertura_vocabulario": 0.065,
+          "arquivo": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Nesse contexto, o governo federal sancionou, em março de 2003, a Lei nº 10.639/03-MEC, que altera a LDB (Lei Diretrizes e Bases) e estabelece as Diretrizes Curriculares para a implementação da mesma. A 10.639 instituiu a obrigatoriedade do ensino da História da África e dos africanos no currículo es",
+          "similaridade": 49.3,
+          "cobertura_vocabulario": 0.297,
+          "arquivo": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Criou, em 21 de março de 2003, a Seppir (Secretaria Especial de Políticas de Promoção da Igualdade Racial) e instituiu a Política Nacional de Promoção da Igual- dade Racial. Desta forma, recolocou a questão racial na agenda nacional e a impor- tância de se adotarem políticas públicas afirmativas de ",
+          "similaridade": 47.5,
+          "cobertura_vocabulario": 0.067,
+          "arquivo": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "O governo federal, por meio da Seppir, assume o compromisso histórico de romper com os entraves que impedem o desenvolvimento pleno da população negra brasileira. O principal instrumento, para isso, é o encaminhamento de diretrizes que nortearão a implementação de ações afirmativas no âmbito da admi",
+          "similaridade": 47.2,
+          "cobertura_vocabulario": 0.08,
+          "arquivo": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Por isso, a Seppir, no cumprimento de sua missão, considera importante estabelecer parcerias para o cumprimento desse desafio, que é, de uma vez por todas, combater o racismo e promover a igualdade de oportunidades entre os diferentes gru- pos étnicos que compõem a rica nação brasileira.",
+          "similaridade": 46.6,
+          "cobertura_vocabulario": 0.08,
+          "arquivo": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Matilde Ribeiro Ministra Chefe da Secretaria Especial de Políticas de Promoção da Igualdade Racial",
+          "similaridade": 48.4,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "CONSELHO NACIONAL DE EDUCAÇÃO/CONSELHO PLENO/DF",
+          "similaridade": 59.6,
+          "cobertura_vocabulario": 0.4,
+          "arquivo": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Diretrizes Curriculares Nacionais para a Educação das Relações Étnico-Raciais e para o Ensino de História e Cultura Afro-Brasileira e Africana. 23001.000215/2002-96 CNE/CP 3/2004, aprovado em 10/3/2004 Proc. 23001000215/2002-96",
+          "similaridade": 79.6,
+          "cobertura_vocabulario": 0.708,
+          "arquivo": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Este parecer visa a atender os propósitos expressos na Indicação CNE/CP 6/ 2002, bem como regulamentar a alteração trazida à Lei 9.394/96 de Diretrizes e Bases da Educação Nacional, pela Lei 10.639/2000, que estabelece a obrigatoriedade do ensino de História e Cultura Afro-Brasileira e Africana na E",
+          "similaridade": 81.3,
+          "cobertura_vocabulario": 0.552,
+          "arquivo": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Juntam-se a preceitos analógicos os Art. 26 e 26 A da LDB, como os das Constituições Estaduais da Bahia (Art. 275, IV e 288), do Rio de Janeiro (Art. 306), de Alagoas (Art. 253), assim como de Leis Orgânicas, tais como a de Recife (Art. 138), de Belo Horizonte (Art. 182, VI), a do Rio de Janeiro (Ar",
+          "similaridade": 43.9,
+          "cobertura_vocabulario": 0.111,
+          "arquivo": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Junta-se, também, ao disposto no Estatuto da Criança e do Adolescente (Lei 8.096, de 13 de junho de 1990), bem como no Plano Nacional de Educação (Lei 10.172, de 9 de janeiro de 2001).",
+          "similaridade": 46.6,
+          "cobertura_vocabulario": 0.214,
+          "arquivo": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Todos estes dispositivos legais, bem como reivindicações e propostas do Movimento Negro ao longo do século XX, apontam para a necessidade de diretrizes que orientem a formulação de projetos empenhados na valorização da história e cultura dos afro-brasileiros e dos africanos, assim como comprometidos",
+          "similaridade": 47.9,
+          "cobertura_vocabulario": 0.297,
+          "arquivo": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "(1) Belém – Lei Municipal nº 7.6985, de 17 de janeiro de 1994, que “Dispõe sobre a inclusão, no currículo escolar da Rede Municipal de Ensino, na disciplina História, de conteúdo relativo ao estudo da Raça Negra na formação sócio-cultural brasileira e dá outras providências”. Aracaju – Lei Municipal",
+          "similaridade": 48.1,
+          "cobertura_vocabulario": 0.077,
+          "arquivo": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Destina-se, o parecer, aos administradores dos sistemas de ensino, de mantenedoras de estabelecimentos de ensino, aos estabelecimentos de ensino, seus professores e a todos implicados na elaboração, execução, avaliação de programas de interesse educacional, de planos institucionais, pedagógicos e de",
+          "similaridade": 51.2,
+          "cobertura_vocabulario": 0.225,
+          "arquivo": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Em vista disso, foi feita consulta sobre as questões objeto deste parecer, por meio de questionário encaminhado a grupos do Movimento Negro, a militantes individu- almente, aos Conselhos Estaduais e Municipais de Educação, a professores que vêm desenvolvendo trabalhos que abordam a questão racial, a",
+          "similaridade": 45.3,
+          "cobertura_vocabulario": 0.042,
+          "arquivo": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "O parecer procura oferecer uma resposta, entre outras, na área da educação, à demanda da população afrodescendente, no sentido de políticas de ações afirmativas, isto é, de políticas de reparações, e de reconhecimento e valorização de sua história, cultura, identidade. Trata, ele, de política curric",
+          "similaridade": 47.6,
+          "cobertura_vocabulario": 0.091,
+          "arquivo": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "É importante salientar que tais políticas têm como meta o direito dos negros se reconhecerem na cultura nacional, expressarem visões de mundo próprias, manifestarem com autonomia, individual e coletiva, seus pensamentos. É necessário sublinhar que tais políticas têm, também, como meta o direito dos ",
+          "similaridade": 45.0,
+          "cobertura_vocabulario": 0.16,
+          "arquivo": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "conhecimentos; com formação para lidar com as tensas relações produzidas pelo racismo e discriminações, sensíveis e capazes de conduzir a reeducação das relações entre dife- rentes grupos étnico-raciais, ou seja, entre descendentes de africanos, de europeus, de asiáticos, e povos indígenas. Estas co",
+          "similaridade": 49.2,
+          "cobertura_vocabulario": 0.22,
+          "arquivo": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Políticas de Reparações, de Reconhecimento e Valorização de Ações Afirmativas",
+          "similaridade": 53.9,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "A demanda por reparações visa a que o Estado e a sociedade tomem medi- das para ressarcir os descendentes de africanos negros, dos danos psicológicos, mate- riais, sociais, políticos e educacionais sofridos sob o regime escravista, bem como em virtude das políticas explícitas ou tácitas de branqueam",
+          "similaridade": 45.5,
+          "cobertura_vocabulario": 0.096,
+          "arquivo": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Cabe ao Estado promover e incentivar políticas de reparações, no que cum- pre ao disposto na Constituição Federal, Art. 205, que assinala o dever do Estado de garantir indistintamente, por meio da educação, iguais direitos para o pleno desenvolvi- mento de todos e de cada um, enquanto pessoa, cidadã",
+          "similaridade": 45.8,
+          "cobertura_vocabulario": 0.068,
+          "arquivo": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Políticas de reparações voltadas para a educação dos negros devem oferecer garantias a essa população de ingresso, permanência e sucesso na educação escolar, de valorização do patrimônio histórico-cultural afro-brasileiro, de aquisição das compe- tências e dos conhecimentos tidos como indispensáveis",
+          "similaridade": 48.9,
+          "cobertura_vocabulario": 0.204,
+          "arquivo": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "A demanda da comunidade afro-brasileira por reconhecimento, valorização e afirmação de direitos, no que diz respeito à educação, passou a ser particularmente apoiada com a promulgação da Lei 10.639/2003, que alterou a Lei 9.394/1996, estabe- lecendo a obrigatoriedade do ensino de história e cultura ",
+          "similaridade": 62.5,
+          "cobertura_vocabulario": 0.308,
+          "arquivo": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Reconhecimento implica justiça e iguais direitos sociais, civis, culturais e eco- nômicos, bem como valorização da diversidade daquilo que distingue os negros dos ou- tros grupos que compõem a população brasileira. E isto requer mudança nos discursos, raciocínios, lógicas, gestos, posturas, modo de ",
+          "similaridade": 46.4,
+          "cobertura_vocabulario": 0.059,
+          "arquivo": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "que se conheça a sua história e cultura apresentadas, explicadas, buscando-se especifica- mente desconstruir o mito da democracia racial na sociedade brasileira; mito este que difunde a crença de que, se os negros não atingem os mesmos patamares que os não negros, é por falta de competência ou de in",
+          "similaridade": 46.4,
+          "cobertura_vocabulario": 0.139,
+          "arquivo": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Reconhecimento requer a adoção de políticas educacionais e de estratégias pedagógicas de valorização da diversidade, a fim de superar a desigualdade étnico- racial presente na educação escolar brasileira, nos diferentes níveis de ensino.",
+          "similaridade": 48.5,
+          "cobertura_vocabulario": 0.2,
+          "arquivo": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Reconhecer exige que se questionem relações étnico-raciais baseadas em preconceitos que desqualificam os negros e salientam estereótipos depreciativos, pala- vras e atitudes que, velada ou explicitamente violentas, expressam sentimentos de su- perioridade em relação aos negros, próprios de uma socie",
+          "similaridade": 47.8,
+          "cobertura_vocabulario": 0.107,
+          "arquivo": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PDF_SITE.pdf"
+        }
+      ]
+    },
+    {
+      "codigo": "C040",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "Ato sem número no site; identificador formado por slug."
+    },
+    {
+      "codigo": "C041",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "TIPO: listado em categoria de Legislação, mas o título não identifica um ato (\"Diretrizes Curriculares Nacionais para a Educação das Relações Étnico-Raciais e para o Ensino de His\"). ANO: ano do ato não consta do título; usado o ano do post (data de publicação no site, não do ato)."
+    }
+  ],
+  "conferencia_por_dispositivo": [
+    {
+      "identificador": "BR_FED_COFEN_NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PARAGRAFO_TEXTO_001",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PARAGRAFO_TEXTO_002",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    }
+  ],
+  "data_verificacao": "2026-10-10",
+  "responsavel": "Triagem automatizada - requer validação humana"
+}

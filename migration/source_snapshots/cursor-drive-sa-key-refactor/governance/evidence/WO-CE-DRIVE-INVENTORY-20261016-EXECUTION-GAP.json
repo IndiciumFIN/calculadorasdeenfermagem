@@ -1,0 +1,49 @@
+{
+  "schema": "CE-GITHUB-KERNEL-EXECUTION-FINDING-1.0",
+  "branch": "cursor/fix-governance-gaps-ec54",
+  "status": "HOLD_EXECUTION_NOT_VERIFIED",
+  "kernel": "packages/cli/kernel.py",
+  "validator": "packages/cli/inventory.py",
+  "work_orders": [
+    "contracts/work_orders/WO-2026_10_16_0104.json",
+    "contracts/work_orders/WO-2026_10_16_0106.json"
+  ],
+  "workflow": ".github/workflows/drive-inventory.yml",
+  "findings": [
+    {
+      "id": "F01",
+      "severity": "HIGH",
+      "finding": "Expected evidence files absent in repository",
+      "paths": [
+        "data/grc/evidencias/auditar_inventario_WO-2026_10_16_0104.json",
+        "data/grc/evidencias/auditar_inventario_WO-2026_10_16_0106.json"
+      ],
+      "qualification": "Workflow may upload ephemeral artifacts; repository absence alone does not prove run failure"
+    },
+    {
+      "id": "F02",
+      "severity": "HIGH",
+      "finding": "Inventory implementation validates four roots of metadata snapshots, not recursive live Drive traversal",
+      "impact": "Cannot assert complete corpus or file-level SHA"
+    },
+    {
+      "id": "F03",
+      "severity": "HIGH",
+      "finding": "Existing inventory workflow push path filter excludes governance evidence changes",
+      "impact": "Recent governance commits do not necessarily trigger inventory workflow"
+    },
+    {
+      "id": "F04",
+      "severity": "MEDIUM",
+      "finding": "GitHub connector provides no workflow dispatch or general workflow-run listing action in current access",
+      "impact": "Cannot verify/trigger current run through available connector"
+    }
+  ],
+  "controls": {
+    "publication": "HOLD",
+    "main_merge": "HOLD",
+    "source_deletion": "DENY",
+    "kernel_approval": "NOT_CLAIMED"
+  },
+  "next_action": "Verify Actions run and artifacts through authorized workflow execution; then reconcile SHA and evidence before candidate batches"
+}

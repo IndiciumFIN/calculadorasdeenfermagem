@@ -1,0 +1,341 @@
+{
+  "schema": "CKO_ATLAS_TRANSFER_PACK/1.0.0",
+  "data_referencia": "2026-10-10",
+  "preservation_rule": "original archives copied byte-for-byte, no content rewrite",
+  "arquivos": [
+    {
+      "id": "G3_RAW",
+      "relative_path": "01_FONTES_CANONICAS/CKO_ATLAS_G3_AQUISICAO_CORPUS_INTEGRAL_v1.0.0%20(2)(1).zip",
+      "bytes": 210076406,
+      "sha256": "d0cb70b2e082a8ec7908cfe8d0654a59c33a17f3c6248f2bdd5ca4d4954e2bbc",
+      "type": "original_zip",
+      "archive_crc_status": "PASS"
+    },
+    {
+      "id": "G36_ATOMIC",
+      "relative_path": "01_FONTES_CANONICAS/CKO_ATLAS_G36_ATOMIZACAO_CANONICA_CORPUS_v1.0.0 (1).zip",
+      "bytes": 5186321,
+      "sha256": "3377c627f7fcf9bc80806fec45a287a8675cddc36d6b8cf304f414e6081da01e",
+      "type": "original_zip",
+      "archive_crc_status": "PASS"
+    },
+    {
+      "id": "G44_DIAGNOSTIC",
+      "relative_path": "01_FONTES_CANONICAS/CKO_ATLAS_G44_RECUPERACAO_AUDITADA_G0_G3_v1.0.0 (1).zip",
+      "bytes": 6348,
+      "sha256": "51a5d52909c0ea569686d70d4b79cc642f067fa10a0ed03d808e8f66eae69429",
+      "type": "original_zip",
+      "archive_crc_status": "PASS"
+    },
+    {
+      "id": "CONTEXTO",
+      "relative_path": "01_FONTES_CANONICAS/CONTEXTO_COMPLETO(1).md",
+      "bytes": 12679,
+      "sha256": "4738551dbf62fd47be6cc9ab6bbd9bed47783955c1c2b5dd76e43887bd0aa56a",
+      "type": "support_file",
+      "archive_crc_status": null
+    },
+    {
+      "id": "PROMPT_CONTINUIDADE",
+      "relative_path": "01_FONTES_CANONICAS/PROMPT_PARA_NOVA_CONVERSA(1).txt",
+      "bytes": 1727,
+      "sha256": "bb1cb6142fed4d10ee00aed0a09f4b8dce700086c0175829f2e20071006b3c41",
+      "type": "support_file",
+      "archive_crc_status": null
+    },
+    {
+      "id": "G42_BASE",
+      "relative_path": "02_EXECUTAVEL_ATUAL/CKO_ATLAS_G42_DESIGN_CALCULADORAS_ENFERMAGEM_v1.0.0 (2).zip",
+      "bytes": 11116253,
+      "sha256": "48558756953057432116b4b296abb9be4334db60fb10e6087387b24b5fe4a10d",
+      "type": "original_zip",
+      "archive_crc_status": "PASS"
+    },
+    {
+      "id": "G433_FULL",
+      "relative_path": "02_EXECUTAVEL_ATUAL/CKO_ATLAS_G433_CORPO3D_DEEPSEEK_COMPLETO_20261010.zip",
+      "bytes": 92219510,
+      "sha256": "7a56fc338037057b79398f4b60067379c20b7be7fc2f1da0693fc44fa7f25199",
+      "type": "original_zip",
+      "archive_crc_status": "PASS"
+    },
+    {
+      "id": "LOGO_DEFAULT",
+      "relative_path": "02_EXECUTAVEL_ATUAL/logotipo_default(3).png",
+      "bytes": 698852,
+      "sha256": "7ac35e96dcf038088621051887226205622bfcf6d61cbe8bf171fd9ccd87de51",
+      "type": "support_file",
+      "archive_crc_status": null
+    },
+    {
+      "id": "LOGO_WEBSITE",
+      "relative_path": "02_EXECUTAVEL_ATUAL/logotipo_website(4).png",
+      "bytes": 459927,
+      "sha256": "97260a44b9d62bc1e8a7150302f19343b8a12aed05823daa20d67d04d27922b1",
+      "type": "support_file",
+      "archive_crc_status": null
+    },
+    {
+      "id": "LOGO_FOOTER",
+      "relative_path": "02_EXECUTAVEL_ATUAL/logotipo_footer(1).png",
+      "bytes": 372049,
+      "sha256": "28993719e00afc6b1072fb2d75027786d920370e37ad3f1a35a81a486d9aa202",
+      "type": "support_file",
+      "archive_crc_status": null
+    },
+    {
+      "id": "G43_FULL",
+      "relative_path": "03_HISTORICO_PATCHES/CKO_ATLAS_G43_INTEGRADO_G42_20261010.zip",
+      "bytes": 24485269,
+      "sha256": "eed4daa18ace0bea573f979ac706ce9cb7c8458cb1193316fad4edcee979aaa7",
+      "type": "original_zip",
+      "archive_crc_status": "PASS"
+    },
+    {
+      "id": "G431_FULL",
+      "relative_path": "03_HISTORICO_PATCHES/CKO_ATLAS_G431_LOGOTIPOS_INTEGRADO_G42_COMPLETO_20261010.zip",
+      "bytes": 30384515,
+      "sha256": "8c87be4f6ba95d333317f7913223062ae4ffeaf3a924755ae93900d2c8fc8b6f",
+      "type": "original_zip",
+      "archive_crc_status": "PASS"
+    },
+    {
+      "id": "G432_FULL",
+      "relative_path": "03_HISTORICO_PATCHES/CKO_ATLAS_G432_CORPO_HUMANO_3D_COMPLETO_20261010.zip",
+      "bytes": 45160209,
+      "sha256": "ea3c63e13d6fb77f63f24769aa3508b097c457fde32e24986a9ae350f51b8a12",
+      "type": "original_zip",
+      "archive_crc_status": "PASS"
+    },
+    {
+      "id": "G43_PATCH",
+      "relative_path": "03_HISTORICO_PATCHES/CKO_ATLAS_G43_PATCH_SOBRE_G42_20261010.zip",
+      "bytes": 244229,
+      "sha256": "5baeb2f37a667d62ab1cb1c59a4c2203db838de32d54817737adb5dc0a3380a9",
+      "type": "original_zip",
+      "archive_crc_status": "PASS"
+    },
+    {
+      "id": "G431_PATCH",
+      "relative_path": "03_HISTORICO_PATCHES/CKO_ATLAS_G431_PATCH_LOGOTIPOS_20261010.zip",
+      "bytes": 5917574,
+      "sha256": "73c6611e0bf2d826bd0e84d6a4733c692351e0afa8b455f1aae6e8225ecc7f9d",
+      "type": "original_zip",
+      "archive_crc_status": "PASS"
+    },
+    {
+      "id": "G432_PATCH",
+      "relative_path": "03_HISTORICO_PATCHES/CKO_ATLAS_G432_PATCH_SOBRE_G431_20261010.zip",
+      "bytes": 14706531,
+      "sha256": "8ecb6cc078198aefc26fb6d6abaac04692d1bae8cfb550b97763289a63607b80",
+      "type": "original_zip",
+      "archive_crc_status": "PASS"
+    },
+    {
+      "id": "G433_PATCH",
+      "relative_path": "03_HISTORICO_PATCHES/CKO_ATLAS_G433_PATCH_SOBRE_G432_20261010.zip",
+      "bytes": 46531760,
+      "sha256": "688ad2e22b49ee997f033d5d005a283492375767970176f6b351713181ca7f72",
+      "type": "original_zip",
+      "archive_crc_status": "PASS"
+    },
+    {
+      "id": "G43_PUBLIC_UI",
+      "relative_path": "03_HISTORICO_PATCHES/CKO_ATLAS_G43_PUBLICO_COMPLETO_20261010.zip",
+      "bytes": 1423911,
+      "sha256": "80e1bb7f82b13b02f1a831885920f3d586cc347243783827eb027e24834a30c2",
+      "type": "original_zip",
+      "archive_crc_status": "PASS"
+    },
+    {
+      "id": "G43_PUBLIC_PATCH",
+      "relative_path": "03_HISTORICO_PATCHES/CKO_ATLAS_G43_PATCH_INTERFACE_PUBLICA_20261010.zip",
+      "bytes": 209138,
+      "sha256": "0c142768d9ba52a961057414636b6e919fe3dc09ab5ec24225799dcaf7e127f0",
+      "type": "original_zip",
+      "archive_crc_status": "PASS"
+    },
+    {
+      "id": "G43_CANDIDATE",
+      "relative_path": "03_HISTORICO_PATCHES/CKO_ATLAS_G4_3_CANDIDATE_20261010.zip",
+      "bytes": 1223845,
+      "sha256": "14c6ce7fd6c5b95a1dd81b40345ea4dc9e128e59b55c858186f7406557208c7a",
+      "type": "original_zip",
+      "archive_crc_status": "PASS"
+    },
+    {
+      "id": "CODE-atlas_g433_select.py",
+      "relative_path": "02_EXECUTAVEL_ATUAL/construcao_e_qa/atlas_g433_select.py",
+      "bytes": 4005,
+      "sha256": "45be83d0d201576dc77c463a6018808df00d1b5a8bcc4e5d6082e2b3ecaf3290",
+      "type": "build_qa_artifact",
+      "archive_crc_status": null
+    },
+    {
+      "id": "CODE-build_g433.py",
+      "relative_path": "02_EXECUTAVEL_ATUAL/construcao_e_qa/build_g433.py",
+      "bytes": 5747,
+      "sha256": "f6ad135cae9fd01fb1a2d0a8d59d2a27faaf7fcbc94ceb2464b17137e512f708",
+      "type": "build_qa_artifact",
+      "archive_crc_status": null
+    },
+    {
+      "id": "CODE-upgrade_g433_ui.py",
+      "relative_path": "02_EXECUTAVEL_ATUAL/construcao_e_qa/upgrade_g433_ui.py",
+      "bytes": 4275,
+      "sha256": "75aae1c67d49cbeb1e041796ac6d9378eb8ec2449a24f46944b3fbad10b86c9c",
+      "type": "build_qa_artifact",
+      "archive_crc_status": null
+    },
+    {
+      "id": "CODE-qa_g433.py",
+      "relative_path": "02_EXECUTAVEL_ATUAL/construcao_e_qa/qa_g433.py",
+      "bytes": 7943,
+      "sha256": "cfd7a44a55f159586f089a214cbeaa9aa43e5387f8f44305955b0c0b2ec4143a",
+      "type": "build_qa_artifact",
+      "archive_crc_status": null
+    },
+    {
+      "id": "CODE-render_g433_static.py",
+      "relative_path": "02_EXECUTAVEL_ATUAL/construcao_e_qa/render_g433_static.py",
+      "bytes": 2429,
+      "sha256": "dcbe412c77d0277691a4a4c5f9a5d02a9c80841a21aa075f7673aebe4445da87",
+      "type": "build_qa_artifact",
+      "archive_crc_status": null
+    },
+    {
+      "id": "CODE-zip_g433.py",
+      "relative_path": "02_EXECUTAVEL_ATUAL/construcao_e_qa/zip_g433.py",
+      "bytes": 1376,
+      "sha256": "88e1bbaf3cc6fc9ccfcc8a7997c887bb8cbe94044d223d4e4036fba0f3a88115",
+      "type": "build_qa_artifact",
+      "archive_crc_status": null
+    },
+    {
+      "id": "CODE-build_atlas_g432.py",
+      "relative_path": "02_EXECUTAVEL_ATUAL/construcao_e_qa/build_atlas_g432.py",
+      "bytes": 8194,
+      "sha256": "1e158be5f0d565f909a9f76bab8e1905cfbc9abd9d6fea3168875f18df588fd4",
+      "type": "build_qa_artifact",
+      "archive_crc_status": null
+    },
+    {
+      "id": "CODE-write_g432_ui.py",
+      "relative_path": "02_EXECUTAVEL_ATUAL/construcao_e_qa/write_g432_ui.py",
+      "bytes": 18710,
+      "sha256": "e136b12b995b5fc6a5a9b06cc936b2bab84ac38127a29fca8b6d1f6084471730",
+      "type": "build_qa_artifact",
+      "archive_crc_status": null
+    },
+    {
+      "id": "CODE-qa_atlas_g432.py",
+      "relative_path": "02_EXECUTAVEL_ATUAL/construcao_e_qa/qa_atlas_g432.py",
+      "bytes": 5724,
+      "sha256": "74e909694b3204dec97907c1570faa63101dd2acd68ac4c3665fbf3a528f3497",
+      "type": "build_qa_artifact",
+      "archive_crc_status": null
+    },
+    {
+      "id": "CODE-build_g43_integrated.py",
+      "relative_path": "02_EXECUTAVEL_ATUAL/construcao_e_qa/build_g43_integrated.py",
+      "bytes": 15704,
+      "sha256": "f61a063cf8bfe279e05019475811d5391bb39bdc5762bf0710a5fbed62944430",
+      "type": "build_qa_artifact",
+      "archive_crc_status": null
+    },
+    {
+      "id": "CODE-qa_atlas_integrated.py",
+      "relative_path": "02_EXECUTAVEL_ATUAL/construcao_e_qa/qa_atlas_integrated.py",
+      "bytes": 5713,
+      "sha256": "797a359e299e2e629a71f31535dcfed6fb5676b578fbc02aab8fcf9b6a246c80",
+      "type": "build_qa_artifact",
+      "archive_crc_status": null
+    },
+    {
+      "id": "CODE-qa_atlas_integrated_static.py",
+      "relative_path": "02_EXECUTAVEL_ATUAL/construcao_e_qa/qa_atlas_integrated_static.py",
+      "bytes": 7550,
+      "sha256": "81e2371ab6a17606db18c14aaee8b78486921f896ffcd82aa3350450bb010510",
+      "type": "build_qa_artifact",
+      "archive_crc_status": null
+    },
+    {
+      "id": "CODE-build_atlas_public.py",
+      "relative_path": "02_EXECUTAVEL_ATUAL/construcao_e_qa/build_atlas_public.py",
+      "bytes": 43566,
+      "sha256": "a8488a92626e3797959410a3f0c7c9fa0c6bab8d0f1dfa474f30aeddad068af0",
+      "type": "build_qa_artifact",
+      "archive_crc_status": null
+    },
+    {
+      "id": "CODE-qa_atlas_webgl_inline.py",
+      "relative_path": "02_EXECUTAVEL_ATUAL/construcao_e_qa/qa_atlas_webgl_inline.py",
+      "bytes": 2761,
+      "sha256": "f44d035ff1eb55433320f7cc0e57d6b52958e1a5a4cff0218c7b21988f5c9a2b",
+      "type": "build_qa_artifact",
+      "archive_crc_status": null
+    },
+    {
+      "id": "CODE-render_atlas_glb.py",
+      "relative_path": "02_EXECUTAVEL_ATUAL/construcao_e_qa/render_atlas_glb.py",
+      "bytes": 3340,
+      "sha256": "11cc0e283a0310b9ebc695cd23eda540cdcaf8f967a16c2086cae16a63f3b42a",
+      "type": "build_qa_artifact",
+      "archive_crc_status": null
+    },
+    {
+      "id": "CODE-apply_brand_g431.py",
+      "relative_path": "02_EXECUTAVEL_ATUAL/construcao_e_qa/apply_brand_g431.py",
+      "bytes": 11230,
+      "sha256": "e11db18e08bc265ba640c2cef3aab50fbaceb927f47ae7b08539d6501709a6b4",
+      "type": "build_qa_artifact",
+      "archive_crc_status": null
+    },
+    {
+      "id": "CODE-package_g431.py",
+      "relative_path": "02_EXECUTAVEL_ATUAL/construcao_e_qa/package_g431.py",
+      "bytes": 3239,
+      "sha256": "ae0e473e9e385a28366f023c01e7b0471ae3ef8126ba54a321173209d41afc6f",
+      "type": "build_qa_artifact",
+      "archive_crc_status": null
+    },
+    {
+      "id": "CODE-atlas_g433_select.json",
+      "relative_path": "02_EXECUTAVEL_ATUAL/construcao_e_qa/atlas_g433_select.json",
+      "bytes": 62399,
+      "sha256": "cee8883a9cab7f9a9eb04b80b40ebce38ee110dbec73e08d09d296fc308e2cbb",
+      "type": "build_qa_artifact",
+      "archive_crc_status": null
+    },
+    {
+      "id": "CODE-qa_g433_retry.log",
+      "relative_path": "02_EXECUTAVEL_ATUAL/construcao_e_qa/qa_g433_retry.log",
+      "bytes": 1635,
+      "sha256": "b7ddaea28ba9551ec1d5962d3f43881a6c8c11a5ccf1db913dc5d5635720c8c6",
+      "type": "build_qa_artifact",
+      "archive_crc_status": null
+    },
+    {
+      "id": "CODE-build_g433.log",
+      "relative_path": "02_EXECUTAVEL_ATUAL/construcao_e_qa/build_g433.log",
+      "bytes": 370,
+      "sha256": "676a85e128829679c07e1697dc21198daa2d5275d3518c1eeedc4e07f258e694",
+      "type": "build_qa_artifact",
+      "archive_crc_status": null
+    },
+    {
+      "id": "CODE-zip_g433.log",
+      "relative_path": "02_EXECUTAVEL_ATUAL/construcao_e_qa/zip_g433.log",
+      "bytes": 165,
+      "sha256": "3e5ea9d47c3e71246a10136d12136ca5de74166089ca466e4518a5c187295436",
+      "type": "build_qa_artifact",
+      "archive_crc_status": null
+    }
+  ],
+  "source_zip_tested": 15,
+  "notes": [
+    "Run verifier after extracting volumes.",
+    "Only ZIP files are CRC-checked by verifier, all files SHA-256 checked.",
+    "G44 is a diagnostic package, not latest runtime."
+  ]
+}

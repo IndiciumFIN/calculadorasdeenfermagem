@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-112015cofenctln-informacoes-sobre-o-que-consiste-a-coleta-de-gasometria-arterial-e-puncao-arterial-2/ (API WordPress post 35502); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2015_N_00011_CTLN_ATOMOS_V1.jsonl",
+      "sha256": "60da944dd26ac3bc11df71707a7feb867757e217c865c9d6d854e7cb28494b4b",
+      "tamanho": 28956
+    },
+    {
+      "nome": "PARCT_2015_N_00011_CTLN_CONTEUDO_SITE_API.json",
+      "sha256": "8331040fd2b925954ba302caeafbf79c174384fea6e83b9a32bb9ef3781d2e7f",
+      "tamanho": 6872
+    },
+    {
+      "nome": "PARCT_2015_N_00011_CTLN_NORMA_V1.json",
+      "sha256": "e47b86eb8f8e9e280753967e7cf098cb6c871c930ba847070078fed8b87d2f81",
+      "tamanho": 3519
+    },
+    {
+      "nome": "PARCT_2015_N_00011_CTLN_PAGINA_SITE.html",
+      "sha256": "1b4edb5ce7c67570c2d75b03f1208ead3457aef0c051fe51d67fe7a481693198",
+      "tamanho": 446748
+    },
+    {
+      "nome": "PARCT_2015_N_00011_CTLN_TEXTO_FONTE_V1.txt",
+      "sha256": "dabb8836eb567df3736945e0376966c1f99f53f8fd1138072c2cc00192f5f5fd",
+      "tamanho": 6006
+    },
+    {
+      "nome": "PARCT_2015_N_00011_CTLN_VALIDACAO_V1.json",
+      "sha256": "e8a344e084dc26678a3463ef75568e06acbf4177ea234b1fbdd95b8de009b643",
+      "tamanho": 2469
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

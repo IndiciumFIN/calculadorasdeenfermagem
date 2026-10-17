@@ -1,0 +1,51 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/decreto-no-2-026-de-10-de-outubro-1996/ (API WordPress post 36771); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "DECR_1996_N_02026_ATOMOS_V1.jsonl",
+      "sha256": "aabe0921a996c7f059c0a7cfcfe761bc7ab419073256717c1ef88400cce57ec0",
+      "tamanho": 34255
+    },
+    {
+      "nome": "DECR_1996_N_02026_CONTEUDO_SITE_API.json",
+      "sha256": "8267e7c928838f915531761a142ebf35df8f8b262934c7ff896e475941897ac0",
+      "tamanho": 441
+    },
+    {
+      "nome": "DECR_1996_N_02026_NORMA_V1.json",
+      "sha256": "99bf8fe0b1818a2808759cc9171c0d4ad2b24b8d8b0b9aef08afa04a8cfff889",
+      "tamanho": 4423
+    },
+    {
+      "nome": "DECR_1996_N_02026_PAGINA_SITE.html",
+      "sha256": "8509d2d9c7f12238c5d225378c14dbb27655a624397ac16fb4fe86de3c4cc840",
+      "tamanho": 438618
+    },
+    {
+      "nome": "DECR_1996_N_02026_PDF_SITE.pdf",
+      "sha256": "cdb90078a66d49ecb0337334e14b1bc61b32652eba8553d51938da5cb1ad2384",
+      "tamanho": 114100
+    },
+    {
+      "nome": "DECR_1996_N_02026_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "7dda32e2748bbd0ecf06bc7f7c2faf8889908c71bbb901b85877a8fed76aae4d",
+      "tamanho": 5863
+    },
+    {
+      "nome": "DECR_1996_N_02026_TEXTO_FONTE_V1.txt",
+      "sha256": "7dda32e2748bbd0ecf06bc7f7c2faf8889908c71bbb901b85877a8fed76aae4d",
+      "tamanho": 5863
+    },
+    {
+      "nome": "DECR_1996_N_02026_VALIDACAO_V1.json",
+      "sha256": "c27e97adca7fb59e33efa14d6cb78a16f2c896f6fd302b1caa86a8b8527231b6",
+      "tamanho": 2493
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Texto do ato disponível apenas no PDF (o site traz só título/resumo); atomização feita a partir da camada de texto do PDF."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-conselheiro-federal-no-70-2023-plen-cofen/ (API WordPress post 111318); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCONS_2023_N_00070_ATOMOS_V1.jsonl",
+      "sha256": "eef0fee6434563f1373738c45d66f92bc7650802c338356d7d3df02700f30dc5",
+      "tamanho": 55463
+    },
+    {
+      "nome": "PARCONS_2023_N_00070_CONTEUDO_SITE_API.json",
+      "sha256": "0aabd75ba732130996a741c12bdd6ea4cf557c524cff5e834d99bf78c7bd912a",
+      "tamanho": 23383
+    },
+    {
+      "nome": "PARCONS_2023_N_00070_NORMA_V1.json",
+      "sha256": "1119caaf74d46cf9f36603653f42dc97bc6cc8539241e0413d71a35f347ffaaa",
+      "tamanho": 3143
+    },
+    {
+      "nome": "PARCONS_2023_N_00070_PAGINA_SITE.html",
+      "sha256": "0241fe811e765f52317f11592367eda3cd291151653ceabd3f2fc6e9fc31b2bc",
+      "tamanho": 460719
+    },
+    {
+      "nome": "PARCONS_2023_N_00070_TEXTO_FONTE_V1.txt",
+      "sha256": "54b9d6037fe681155c83ba5dddb4031528a1b333cd6b9e49968ddf773fe48ec7",
+      "tamanho": 18458
+    },
+    {
+      "nome": "PARCONS_2023_N_00070_VALIDACAO_V1.json",
+      "sha256": "611ef64849c05d5ca8e4df9c02808b73d3f2f7ae60aba6e96280e5dc59942b5d",
+      "tamanho": 2670
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

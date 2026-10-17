@@ -1,0 +1,24 @@
+{
+  "id": "WO-2026_10_16_0233",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "checker_id": "kernel-zip-independent-review",
+  "task_id": "TAREFA-AUDITAR-ZIP",
+  "task_type": "auditar-zip",
+  "task_version": "1.0.0",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "entradas": [
+    {
+      "id_origem": "WO-2026_10_16_0232",
+      "caminho": "data/legado/extracao_bruta/CONTEUDOS_CE_WAVE13/VILA_DO_CUIDADO/reassembled/Vila_do_Cuidado_CONSOLIDADO_MASTER_LOCAL_2026-08-26.zip",
+      "classe": "REFERENCIA",
+      "sha256": "98291b0432233002000f5d2be7a18a60e6ae950da26454be56cc008608556d6d"
+    }
+  ],
+  "parametros": {
+    "lote": "VDC-WAVE13-REASSEMBLED",
+    "publicacao": "BLOQUEADA",
+    "exclusao": "BLOQUEADA"
+  }
+}

@@ -1,0 +1,34 @@
+escore,sistema,variavel,pontos,criterio
+SOFA,Respiratório,PaO2/FiO2 (mmHg),0,>= 400
+SOFA,Respiratório,PaO2/FiO2 (mmHg),1,< 400
+SOFA,Respiratório,PaO2/FiO2 (mmHg),2,< 300
+SOFA,Respiratório,PaO2/FiO2 (mmHg),3,< 200 com suporte ventilatório
+SOFA,Respiratório,PaO2/FiO2 (mmHg),4,< 100 com suporte ventilatório
+SOFA,Coagulação,Plaquetas (x10^3/µL),0,>= 150
+SOFA,Coagulação,Plaquetas (x10^3/µL),1,< 150
+SOFA,Coagulação,Plaquetas (x10^3/µL),2,< 100
+SOFA,Coagulação,Plaquetas (x10^3/µL),3,< 50
+SOFA,Coagulação,Plaquetas (x10^3/µL),4,< 20
+SOFA,Hepático,Bilirrubina (mg/dL [µmol/L]),0,"< 1,2 [< 20]"
+SOFA,Hepático,Bilirrubina (mg/dL [µmol/L]),1,"1,2-1,9 [20-32]"
+SOFA,Hepático,Bilirrubina (mg/dL [µmol/L]),2,"2,0-5,9 [33-101]"
+SOFA,Hepático,Bilirrubina (mg/dL [µmol/L]),3,"6,0-11,9 [102-204]"
+SOFA,Hepático,Bilirrubina (mg/dL [µmol/L]),4,"> 12,0 [> 204]"
+SOFA,Cardiovascular,PAM / vasopressores (µg/kg/min por >= 1 h),0,PAM >= 70 mmHg
+SOFA,Cardiovascular,PAM / vasopressores (µg/kg/min por >= 1 h),1,PAM < 70 mmHg
+SOFA,Cardiovascular,PAM / vasopressores (µg/kg/min por >= 1 h),2,Dopamina < 5 ou dobutamina (qualquer dose)
+SOFA,Cardiovascular,PAM / vasopressores (µg/kg/min por >= 1 h),3,"Dopamina 5,1-15 ou epinefrina <= 0,1 ou norepinefrina <= 0,1"
+SOFA,Cardiovascular,PAM / vasopressores (µg/kg/min por >= 1 h),4,"Dopamina > 15 ou epinefrina > 0,1 ou norepinefrina > 0,1"
+SOFA,Sistema nervoso central,Escala de Coma de Glasgow,0,15
+SOFA,Sistema nervoso central,Escala de Coma de Glasgow,1,13-14
+SOFA,Sistema nervoso central,Escala de Coma de Glasgow,2,10-12
+SOFA,Sistema nervoso central,Escala de Coma de Glasgow,3,6-9
+SOFA,Sistema nervoso central,Escala de Coma de Glasgow,4,< 6
+SOFA,Renal,Creatinina (mg/dL [µmol/L]) ou diurese,0,"< 1,2 [< 110]"
+SOFA,Renal,Creatinina (mg/dL [µmol/L]) ou diurese,1,"1,2-1,9 [110-170]"
+SOFA,Renal,Creatinina (mg/dL [µmol/L]) ou diurese,2,"2,0-3,4 [171-299]"
+SOFA,Renal,Creatinina (mg/dL [µmol/L]) ou diurese,3,"3,5-4,9 [300-440] ou diurese < 500 mL/dia"
+SOFA,Renal,Creatinina (mg/dL [µmol/L]) ou diurese,4,"> 5,0 [> 440] ou diurese < 200 mL/dia"
+qSOFA,,frequencia_respiratoria,1,Frequência respiratória >= 22 irpm
+qSOFA,,nivel_consciencia,1,Alteração do estado mental (Glasgow < 15)
+qSOFA,,pressao_sistolica,1,Pressão arterial sistólica <= 100 mmHg

@@ -1,0 +1,53 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-002-2019-ctep-cofen/ (API WordPress post 69840); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2019_N_00002_CTEP_ATOMOS_V1.jsonl",
+      "sha256": "d41f22cd29428cd04736b7d5daaa247eed0a81343ae9a681c28e8302a501f107",
+      "tamanho": 50185
+    },
+    {
+      "nome": "PARCT_2019_N_00002_CTEP_CONTEUDO_SITE_API.json",
+      "sha256": "4b7121996ad1c11fe841744fa30736a45c42eff1f13884410b2f26586a6cffa5",
+      "tamanho": 14267
+    },
+    {
+      "nome": "PARCT_2019_N_00002_CTEP_NORMA_V1.json",
+      "sha256": "bc2b69ed9274e2573b206d962faff494c78412e85fd412712b41a9d0716b908b",
+      "tamanho": 4434
+    },
+    {
+      "nome": "PARCT_2019_N_00002_CTEP_PAGINA_SITE.html",
+      "sha256": "d64b11c13f9344dd3a065d4a24043c705707b001fc44cd8ec7c24d54949c87a3",
+      "tamanho": 452202
+    },
+    {
+      "nome": "PARCT_2019_N_00002_CTEP_PDF_SITE.pdf",
+      "sha256": "a5bc3893161d7ec01fb013cbd485c8b4c510dd1a8e37b628b4e3286948e0a052",
+      "tamanho": 393685
+    },
+    {
+      "nome": "PARCT_2019_N_00002_CTEP_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "a70247bd262379457e8e822f05907de51231ff74b6daa45eb448df481ea5bf56",
+      "tamanho": 13631
+    },
+    {
+      "nome": "PARCT_2019_N_00002_CTEP_TEXTO_FONTE_V1.txt",
+      "sha256": "51cd042481e6e0bfb647202b8b027c07c009a2436a888c16f08e70b20932b4c5",
+      "tamanho": 12527
+    },
+    {
+      "nome": "PARCT_2019_N_00002_CTEP_VALIDACAO_V1.json",
+      "sha256": "46c25f8b473bda159f6bde0448824d55e30bc1bedf85f5d34073b5b488ad2d34",
+      "tamanho": 12564
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "2 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+  ]
+}

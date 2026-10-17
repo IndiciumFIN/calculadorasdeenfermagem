@@ -1,0 +1,63 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-105-de-21-de-janeiro-de-2022/ (API WordPress post 95337); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2022_N_00105_ANEXO_01_PDF_SITE.pdf",
+      "sha256": "aad1608a8af4dcbce31a552825df0010950ff5b6ed3bdc638f9d516859aa67f7",
+      "tamanho": 319431
+    },
+    {
+      "nome": "PORT_2022_N_00105_ANEXO_01_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "e095a91d46b882e119b983f7b9248b9010e8011d4fc6255e69f29736ab54157d",
+      "tamanho": 10709
+    },
+    {
+      "nome": "PORT_2022_N_00105_ATOMOS_V1.jsonl",
+      "sha256": "b220f146b0e5b2b9e56de3b8332bc4d4d98e2d869bd68ce37aa300fc31405b8b",
+      "tamanho": 117226
+    },
+    {
+      "nome": "PORT_2022_N_00105_CONTEUDO_SITE_API.json",
+      "sha256": "ffee3482fe59729fdb035f3a76e087879af38df27276c8c267de6b1165472300",
+      "tamanho": 5899
+    },
+    {
+      "nome": "PORT_2022_N_00105_NORMA_V1.json",
+      "sha256": "63a2d7ebadba21a669226da8c9cbed0e6906600acd7824040ac4cdb02dd81a46",
+      "tamanho": 6631
+    },
+    {
+      "nome": "PORT_2022_N_00105_PAGINA_SITE.html",
+      "sha256": "43155147a16369c069d9ead92c6c985aefded4d9f6900213ec1ee97cc7bd19a6",
+      "tamanho": 444561
+    },
+    {
+      "nome": "PORT_2022_N_00105_PDF_SITE.pdf",
+      "sha256": "5d1bd3c79507af2c613640cdcc64296aef2b63057408069fb356c5b242de95d1",
+      "tamanho": 178059
+    },
+    {
+      "nome": "PORT_2022_N_00105_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "4ee6691d3bd2fe83c4d0d9a1620b2f6d4ca1c148586fd1f93b10625c7a88cf30",
+      "tamanho": 5114
+    },
+    {
+      "nome": "PORT_2022_N_00105_TEXTO_FONTE_V1.txt",
+      "sha256": "16aa316388638e7d364588d37cecedf066ccec76172d3c485d7c5b7f406e8beb",
+      "tamanho": 4953
+    },
+    {
+      "nome": "PORT_2022_N_00105_VALIDACAO_V1.json",
+      "sha256": "bc9e22721936c63cd4974410cf6a414b64f1e3f2b2d1c2a87c3c2df3bf440290",
+      "tamanho": 8531
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir."
+  ]
+}

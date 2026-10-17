@@ -1,0 +1,4035 @@
+{
+  "versao": "1.0.0",
+  "invariante": "FONTE_RETIRADA",
+  "verificado_em": "2026-10-15T15:01:24Z",
+  "lixeira": {
+    "mover_implantado": "EFETUADO",
+    "esvaziar": "BLOQUEAR",
+    "esvaziar_executor": "somente_humano",
+    "pastas_vazias_em": "2026-10-15T15:01:24Z"
+  },
+  "pastas_vazias": [
+    {
+      "id": "1pnnVYNlg8CBszIsTeN529tcnPuxE6Rda",
+      "titulo": "cid10",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos"
+    },
+    {
+      "id": "1Ca_H3hsH_dLLq6C9ZdZKWA4I7moaBctD",
+      "titulo": "sepse",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos"
+    },
+    {
+      "id": "1vzBaCpcH_HPsoXbwc5uNkcZ2VSGh9si2",
+      "titulo": "ferimentos",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos"
+    },
+    {
+      "id": "1NXKr32axZLHmOaWf0TfO9soKgfJ0WHuR",
+      "titulo": "medlineplus",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos"
+    },
+    {
+      "id": "186WfnIGyFfRb1fCwUQ7G0GqI2r4zKtdO",
+      "titulo": "raw/cid10",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia raw"
+    },
+    {
+      "id": "1ZvTgzezK-f2HRhKp-c2oLBS6b4RjYOKQ",
+      "titulo": "nutricao/raw",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia raw"
+    },
+    {
+      "id": "1CEooVgRWhH9pGT83w19S4jcfyRuVQlQ7",
+      "titulo": "epidemiologico/raw",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia raw"
+    },
+    {
+      "id": "1qtEEe-LzF5N_18d2nYthX92G_4Hnk_1A",
+      "titulo": "vacinal_brasil/raw",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia raw"
+    },
+    {
+      "id": "1nSSpmTrT2uDs70ViXtkpJI2cGnDfZciO",
+      "titulo": "vacinas/raw",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia raw"
+    },
+    {
+      "id": "1z4lhFruUgHAM7GA6Es6RD6x0AaJhdHWh",
+      "titulo": "medicamentos/raw",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia raw"
+    },
+    {
+      "id": "13yctKJWgNVowNbVaHrc8kk6Kt-PLaSsI",
+      "titulo": "sinais_vitais/raw",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia raw"
+    },
+    {
+      "id": "1kSz7d5S0Ee1oBSamWt_bDOIOCIfeeiJp",
+      "titulo": "mesh/raw",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia raw"
+    },
+    {
+      "id": "1Ld8cBUABNE2aoRE93UiDvGTzgYqgUbQ-",
+      "titulo": "icd11/raw",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia raw"
+    },
+    {
+      "id": "1E_K_f2k9fKR7U6LJcgjA626A5QX3NcAW",
+      "titulo": "suprimentos/raw",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia raw"
+    },
+    {
+      "id": "1xrVp4akktgkV65XjXlRkBG43BKswzV6P",
+      "titulo": "dispositivos/raw",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia raw"
+    },
+    {
+      "id": "1fMp2UBS3_AA0iGjmtP7qrKiJzAyMSZOq",
+      "titulo": "raw",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia raw"
+    },
+    {
+      "id": "1C61L-Mz3xCucxTXAK2FUtna3O7EJntgb",
+      "titulo": "nutricao",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia raw"
+    },
+    {
+      "id": "139dzD_DmI8U70B3KZgK3l2uWRMNZ_qoI",
+      "titulo": "epidemiologico",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia raw"
+    },
+    {
+      "id": "1G2aMEz7hSOeJyurPAs2m1y_fJC87uUcC",
+      "titulo": "medicamentos",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia raw"
+    },
+    {
+      "id": "1dTV3qa2fccSje0ag-2J3MKoRC1ITDXCu",
+      "titulo": "sinais_vitais",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia raw"
+    },
+    {
+      "id": "1y1HVB-KxQRcSCiYr5Afol3QySkdxepkF",
+      "titulo": "vacinas",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia raw"
+    },
+    {
+      "id": "1zEoA1LWrFUzr6ZDJByDbXPKB02bbR3cb",
+      "titulo": "vacinal_brasil",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia raw"
+    },
+    {
+      "id": "1mPOrn_oPXUxqTvVTEQ78vJ7jRtCwvaVW",
+      "titulo": "dispositivos",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia raw"
+    },
+    {
+      "id": "1JIhcSyNCqcIAuhozk7kK6l2qF1TVDJlz",
+      "titulo": "mesh",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia raw"
+    },
+    {
+      "id": "1uce28Tl5MKmLNm8mdQkl9YckbckusEPT",
+      "titulo": "icd11",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia raw"
+    },
+    {
+      "id": "1TFwocqDkH78AyX9UsbzCSFTcIEXyKZFO",
+      "titulo": "suprimentos",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia raw"
+    },
+    {
+      "id": "1iS6Gez2umOg_2Y1QGeUd-A3v-zrKCNa9",
+      "titulo": "atomizado/mesh",
+      "estado": "AUSENTE",
+      "motivo": "listagem fechada sem filhos depois da copia"
+    },
+    {
+      "id": "1JaDdBLRLbF4IfaLcZWUGZ9PsehSfRKFO",
+      "titulo": "atomizado/cid10",
+      "estado": "AUSENTE",
+      "motivo": "listagem fechada sem filhos depois da copia"
+    },
+    {
+      "id": "1EC_wo_cxPo4VSaMDjqPkyAUTXEeYGHBK",
+      "titulo": "atomizado/vacinas",
+      "estado": "AUSENTE",
+      "motivo": "listagem fechada sem filhos depois da copia"
+    },
+    {
+      "id": "1JQKm1V3Sv8T1ZN5Am0N0jBwpLab9t6jk",
+      "titulo": "atomizado/epidemiologico",
+      "estado": "AUSENTE",
+      "motivo": "listagem fechada sem filhos depois da copia"
+    },
+    {
+      "id": "1CqXDlOMMZhPc5eETxR-yJXPZwfJBTthy",
+      "titulo": "atomizado/vacinal_brasil",
+      "estado": "AUSENTE",
+      "motivo": "listagem fechada sem filhos depois da copia"
+    },
+    {
+      "id": "1k0-QldNXRFeL17wU_lqcvqlBu-kKJle4",
+      "titulo": "atomizado/sinais_vitais",
+      "estado": "AUSENTE",
+      "motivo": "listagem fechada sem filhos depois da copia"
+    },
+    {
+      "id": "1YM8wo-apwki_xKSiDmTZY3CHjdmWmT_E",
+      "titulo": "atomizado/protocolos_enfermagem",
+      "estado": "AUSENTE",
+      "motivo": "listagem fechada sem filhos depois da copia"
+    },
+    {
+      "id": "1Fg8ndQjpwS-6RlBcxGGkkybH6kchpbNn",
+      "titulo": "atomizado/ferimentos",
+      "estado": "AUSENTE",
+      "motivo": "listagem fechada sem filhos depois da copia"
+    },
+    {
+      "id": "1cmuj9SUhKmF5pZ4kRbWrNWW0X-OoF5-V",
+      "titulo": "atomizado/sepse",
+      "estado": "AUSENTE",
+      "motivo": "listagem fechada sem filhos depois da copia"
+    },
+    {
+      "id": "1MbEiBwXtRxkAiO6i2XU5KI42b2viF32Z",
+      "titulo": "atomizado/suprimentos",
+      "estado": "AUSENTE",
+      "motivo": "listagem fechada sem filhos depois da copia"
+    },
+    {
+      "id": "16xX6jywK3Bwwm7E7sTMxBNgQz0hiAZ1T",
+      "titulo": "atomizado/nutricao",
+      "estado": "AUSENTE",
+      "motivo": "listagem fechada sem filhos depois da copia"
+    },
+    {
+      "id": "1CP3y40r55vty9FliCYg5tr4QbLEbvWVl",
+      "titulo": "atomizado/dispositivos",
+      "estado": "AUSENTE",
+      "motivo": "listagem fechada sem filhos depois da copia"
+    },
+    {
+      "id": "11FQZDHSYtOZldy7que07Vpt52XLutHzl",
+      "titulo": "atomizado/medicamentos",
+      "estado": "AUSENTE",
+      "motivo": "listagem fechada sem filhos depois da copia"
+    },
+    {
+      "id": "1cMaAU9heLFElV5oQ_HxYjjxvDJ-L6NB3",
+      "titulo": "atomizado/medlineplus",
+      "estado": "AUSENTE",
+      "motivo": "listagem fechada sem filhos depois da copia"
+    },
+    {
+      "id": "1zEMfqLSgJYrqLSV-6e9tSkpv7Fjw7s1Q",
+      "titulo": "atomizado/icd11",
+      "estado": "AUSENTE",
+      "motivo": "listagem fechada sem filhos depois da copia"
+    },
+    {
+      "id": "1zaJ1eZlFpe5jwz-wkXL9fkjpLCvFmS5t",
+      "titulo": "atomizado",
+      "estado": "AUSENTE",
+      "motivo": "listagem fechada sem filhos depois da copia"
+    },
+    {
+      "id": "12ohcggjs2MIm2KOr1-OOC7vxtVL1W3XO",
+      "titulo": "revisao/cofen736",
+      "estado": "AUSENTE",
+      "motivo": "listagem fechada sem filhos depois da copia"
+    },
+    {
+      "id": "1rVGx-960Phc6dX-IsAVn1d4oF7_IfzwD",
+      "titulo": "protocolos_enfermagem/raw/pdfs",
+      "estado": "AUSENTE",
+      "motivo": "listagem fechada sem filhos depois da copia"
+    },
+    {
+      "id": "1tPQ2BkWRjqi2NOI3Ow8T_0oc4IaL0GQB",
+      "titulo": "protocolos_enfermagem/raw",
+      "estado": "AUSENTE",
+      "motivo": "listagem fechada sem filhos depois da copia"
+    },
+    {
+      "id": "1cwbbiJyNPc-7IPhsE0YcnC_sXjaptdmy",
+      "titulo": "protocolos_enfermagem",
+      "estado": "AUSENTE",
+      "motivo": "listagem fechada sem filhos depois da copia"
+    },
+    {
+      "id": "1PT6ywj858okJB_I0U2g5sH4As7XAzFhS",
+      "titulo": "calculadoras_underscore/atlas",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia das 30 partes"
+    },
+    {
+      "id": "1BATUC2WiWdIVMQB-X66oDERtRzJ1XAXt",
+      "titulo": "calculadoras_underscore/FEDERAL/COFEN/PAR",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia dos zips"
+    },
+    {
+      "id": "1i-EI5X2sIUXf5P1j4rinMqI5lrPAEkcw",
+      "titulo": "calculadoras_underscore/FEDERAL/COFEN/OS",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia do zip"
+    },
+    {
+      "id": "1RBJ62zQHmh7sIRztidiVWiB8qM6RjT5p",
+      "titulo": "calculadoras_underscore/FEDERAL/COFEN/LEGISLACAO",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia do zip"
+    },
+    {
+      "id": "1F0Ht9mjSbCsoddgzfy6UK5OdCkgNFHGm",
+      "titulo": "calculadoras_underscore/FEDERAL/COFEN/OUTROS",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia do zip"
+    },
+    {
+      "id": "1VRCcuu9jYGVALraJXhHqi2CegeGFYyhT",
+      "titulo": "calculadoras_underscore/FEDERAL/COFEN/EDITAL",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia do zip"
+    },
+    {
+      "id": "14ZCaEWVFIwc0negb1W-q9cNjsmS9hAxz",
+      "titulo": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2025_N_00800",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia do ato"
+    },
+    {
+      "id": "1Q62H_7fga_DQhUhDZfxDmPoQ0tXQhkFV",
+      "titulo": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00813",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia do ato"
+    },
+    {
+      "id": "1kNDZBVjlcA-tsK-Vz1TBeJMZ-aAGNhEV",
+      "titulo": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00814",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia do ato"
+    },
+    {
+      "id": "1_coG6A2cmDrR-clz8gxHhB31oL4-cxvh",
+      "titulo": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00809",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia do ato"
+    },
+    {
+      "id": "10D3myxkQZmy1XjlXLmQSzVerXyNgiK3v",
+      "titulo": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00806",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia do ato"
+    },
+    {
+      "id": "13A-4gAckpdwF_rsbt0177jlObWx70apJ",
+      "titulo": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00802",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia do ato"
+    },
+    {
+      "id": "1E-lJb6NWRGWk4hH3tyrGF0775yWEoPH4",
+      "titulo": "calculadoras_underscore/FEDERAL/COFEN/PORT",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia"
+    },
+    {
+      "id": "1krtK4DFUORdj0FAZ3Sx3S-9FPquRWdUq",
+      "titulo": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00811",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia"
+    },
+    {
+      "id": "1oNwZUf3Ft-fi4nW4XJ_4NB3SY4UJqvsl",
+      "titulo": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00812",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia"
+    },
+    {
+      "id": "11KjLTy8LUwBgb2uyEk8wGkP-TsAccEXI",
+      "titulo": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00810",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia"
+    },
+    {
+      "id": "1om3UBy9FXX2uVBz-5eLUBpGJs_gud6Mz",
+      "titulo": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00808",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia"
+    },
+    {
+      "id": "15wUvVoH24sSjQuruPbprdEkqASPtTExZ",
+      "titulo": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00807",
+      "estado": "AUSENTE",
+      "motivo": "listagem sem filhos depois da copia"
+    }
+  ],
+  "regra": "Releitura da API do Drive em 15/10/2026. Os 152 arquivos anteriores, os 50 do lote raw_distinto, os 129 do lote resto_grok (WO-2026_10_15_0072 a 0075) e os 30 do lote atlas_partes (WO-2026_10_15_0076 a 0079) não aparecem mais na pasta ativa. A lixeira devolveu resposta vazia para esses ids e para as pastas que ficaram sem filhos. Uma amostra de arquivos e de pastas respondeu que a entidade não existe; os 30 ids do atlas não foram relidos um a um. Esvaziar a lixeira continua bloqueado e só uma pessoa pode fazer isso. Na raiz da extração Grok permanece a pasta revisao; dentro dela permanece fontes, com cinco PDFs de editora. A pasta ATLAS_3D_BACKUP_PROTEGIDO_LEITURA_2026-10-10 ficou sem filhos e foi para a lixeira. Os scripts RECONSTRUIR_ATLAS não foram executados e o zip não foi remontado. O lote cofen_par_os (WO-2026_10_15_0080 a 0083) copiou 7 LEIA-ME e 9 zips, todos abaixo de 50 MB, com zero átomos. A lixeira devolveu resposta vazia. Uma amostra respondeu que a entidade não existe. As pastas PAR e OS ficaram sem filhos e foram para a lixeira. Os zips permanecem no Git e a extração em bytes segue ao lado. O lote cofen_port_e_lotes (WO-2026_10_15_0084, 0092 a 0094) copiou 8 zips abaixo de 50 MB. Amostra ausente. LEGISLACAO, OUTROS e EDITAL ficaram vazias e foram para a lixeira. PORT ainda tem o zip acima de 50 MB. O lote cofen_atos_fechados (WO-2026_10_15_0086, 0095 a 0097) copiou 36 arquivos de seis resoluções, zero átomos. A lixeira devolveu resposta vazia. As pastas desses atos ainda serão relidas antes de irem para a lixeira. Seis pastas de resolução ficaram sem filhos e foram para a lixeira. Amostra de arquivo respondeu que a entidade não existe. O lote cofen_atos_lote2 (WO 0089, 0098 a 0100) copiou 30 arquivos de cinco resoluções. O zip de portaria acima de 50 MB (WO 0085, 0101 a 0103) foi fracionado em duas partes; o monólito saiu do Git e a concatenação repete o SHA-256. PORT e cinco pastas de resolução ficaram sem filhos e foram para a lixeira. Esvaziar a lixeira continua bloqueado.",
+  "itens": [
+    {
+      "origem": "drive",
+      "id_origem": "16jA3isbkQuZqvsrkqU2FoIfp-JL1B8lyffNcb2f0ego",
+      "disposicao": "IMPLANTADO",
+      "sha256": "fdcebc29e7ae8ab8af44f91b8fe8fc165698ed74e6684c659092295b138dec41",
+      "copia": "data/legado/fontes/NORMATIVE_ATOMS_COFEN_V1.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1arlb-IIqpQJGrj8Suyj-VKeejczSqORBFZGS20BFq8s",
+      "disposicao": "IMPLANTADO",
+      "sha256": "38485d48beceb7acbb6806ef3e0f550a41f735050bc10211cc7950d668e73350",
+      "copia": "data/legado/fontes/NORMATIVE_ATOMS_COFEN_LOTE1_V1.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "13IoE-cxveJrjzkj-YNZRN6zQupiewGUv80pai1WACIE",
+      "disposicao": "IMPLANTADO",
+      "sha256": "dafc4da0ad0a3fc59f113dc8086f25168fcaf24116a57dc9aa33a0dca8d35816",
+      "copia": "data/legado/fontes/NORMATIVE_ATOMS_COFEN_LOTE2_V1.xlsx",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1h9Y5ZKIZhyp2xmcYiFfp55NQvWeShry0o0nWWRQLhfI",
+      "disposicao": "IMPLANTADO",
+      "sha256": "061a32325b2c0404188dea3363f21dfefac5d285aa8c9f4cb9479440d3a3fad5",
+      "copia": "data/legado/fontes/NORMATIVE_ATOMS_COFEN_LOTE3_V1.xlsx",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1RRQpbi0QWfc6FKmVK9tyjycbJz8JGSbSRBcveTGpDoQ",
+      "disposicao": "IMPLANTADO",
+      "sha256": "2e96a8ca8a918e776b2b660807918a219701bfa5a02462bc505d4d2a315e8bc9",
+      "copia": "data/legado/fontes/NORMATIVE_ATOMS_COFEN_LOTE4_V1.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1RnIiSt2X05M6Km3MO5oq-GXCiyYVv2xbZ3bD4M3hBlA",
+      "disposicao": "IMPLANTADO",
+      "sha256": "b6f31e070c9ec17c6bb0905e7c31fbcacfd84cce556bab198ecd0d77630817b6",
+      "copia": "data/legado/fontes/NORMATIVE_ATOMS_COFEN_LOTE5_V1.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1U4yRZ3cv7jef1frPfOKhYNQD0eFU2J0tKw3Ax35qBcw",
+      "disposicao": "IMPLANTADO",
+      "sha256": "78efe374ff452e671837413c40751fa4e2a1e5fa80f96b41002ba26a43e493ae",
+      "copia": "data/legado/fontes/NORMATIVE_ATOMS_COFEN_LOTE6_V1.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1GFC3cXYeB2fbpDUj0KykzYolrM4yiZ4e",
+      "disposicao": "IMPLANTADO",
+      "sha256": "9e52af612a1df7b5e460cdce40ecd2f667aaf99df8f1343b10e3a61aba75eb07",
+      "copia": "data/legado/piloto/RES_0800_DOU.pdf",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1lhbVqocl6Yp0b__jBi9COATKHaXL-HzI",
+      "disposicao": "IMPLANTADO",
+      "sha256": "4169b0204b34fe6bd7e1958ea041f7c85a383f1e6c5509cca07a0073a0578fe5",
+      "copia": "data/legado/extracao_bruta/README.md",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1ISyJyXKl0yaJuoDGOvdDCuhvZvFroVWj",
+      "disposicao": "IMPLANTADO",
+      "sha256": "bc9db08e0bf31772252b463ed39c72968cb4cf08afa6255ae1c94d48bdd7b3fa",
+      "copia": "data/legado/extracao_bruta/fetch.py",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Gp9cB8fYN7CjNg286wesct-_6CGoW_tT",
+      "disposicao": "IMPLANTADO",
+      "sha256": "f762f7b72d16cad535b6765d7f4b4e72fb96691f1052cbffa2e1bfb6ed9b195a",
+      "copia": "data/legado/extracao_bruta/cid10/capitulos.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "11IrSya_l28agJdVb5vxHtAL929E77w5n",
+      "disposicao": "IMPLANTADO",
+      "sha256": "a096dc297a77f9b24a6150f907648c2473b499b2576d2b10d7ed7408426542f2",
+      "copia": "data/legado/extracao_bruta/cid10/capitulos.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1UqOtV4-IIz71aLqMyiNkLbA_WqM5o8iv",
+      "disposicao": "IMPLANTADO",
+      "sha256": "471883b9fc85e8dc9c98a051236a7a39626d440244bcf90fffc5aaec0a5760b4",
+      "copia": "data/legado/extracao_bruta/cid10/grupos.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1cWc_Efgv7v9ZTrn2PQ89wtyk1sRy2Xbr",
+      "disposicao": "IMPLANTADO",
+      "sha256": "fc007406c8ffc12bcaa9f26412ef3b436dc13fd7420478b5565007c63919bb47",
+      "copia": "data/legado/extracao_bruta/cid10/grupos.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1i6GiiIEfXThnujlmMLb1ok4YIXEiFKvS",
+      "disposicao": "IMPLANTADO",
+      "sha256": "e11584b518dc13e64b78d7949f4b43055b1203f367f3b1613fccb27a3fb52712",
+      "copia": "data/legado/extracao_bruta/cid10/categorias.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "11OJreDtdS8i2T4SLWGT1MdZNbA8tSP5K",
+      "disposicao": "IMPLANTADO",
+      "sha256": "b75cfea362f1a61d126f133e5e9bee134e5ad2d6292a273e0c60c2ef1e90b71a",
+      "copia": "data/legado/extracao_bruta/cid10/categorias.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1uEiFAoW0eRE5nrCDO-KEyOucDLqQQRVs",
+      "disposicao": "IMPLANTADO",
+      "sha256": "873d844abb2fe35cfbbc61de6579eaa2b7cab4524e6649b53e557359a8505055",
+      "copia": "data/legado/extracao_bruta/cid10/subcategorias.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1CUEx0IkHMPY1jWW_7RaNbVHQcfa1nAo0",
+      "disposicao": "IMPLANTADO",
+      "sha256": "21c599f9a93a68345e9e2a82133cadba71b8ea76dfd13a4a2de35d159aaf0afc",
+      "copia": "data/legado/extracao_bruta/cid10/subcategorias.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1DXtIbR4Q66UdaOTHWCW39weuQT84y8iN",
+      "disposicao": "IMPLANTADO",
+      "sha256": "ee605b7be92c0163053c20bd09d279453463e5e37902c9512f0ddcd685b2e39b",
+      "copia": "data/legado/extracao_bruta/cid10/cid_o_grupos.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "12XxKcxTa1yvAqmv2mo_AP2sBXnyjgCxk",
+      "disposicao": "IMPLANTADO",
+      "sha256": "4188cbbbbe2a51c7c2ff10cccf848d0a8b1f2a810fbfa08efc5d9e05d34fb2e8",
+      "copia": "data/legado/extracao_bruta/cid10/cid_o_grupos.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Qahfk8grGPDSryXacJb8jWzR68i7EZD5",
+      "disposicao": "IMPLANTADO",
+      "sha256": "69fc782c257746da2c770cc269babb05dbcfbb3c209d7f9706652c8c1f1dfb0a",
+      "copia": "data/legado/extracao_bruta/cid10/cid_o_categorias.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Nh1eZZopH0FfOJh5fVInGGxwDK_3sw1A",
+      "disposicao": "IMPLANTADO",
+      "sha256": "fe8ef7a606282a8099e4b88dfc95947533701d885cf95ec9f1c717074b00c592",
+      "copia": "data/legado/extracao_bruta/cid10/cid_o_categorias.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1_8gjbX0NYDN_uPe1WA6OY-IvoAzT_Nn6",
+      "disposicao": "IMPLANTADO",
+      "sha256": "b620741114c3b0931e38e379b7eb1bf50e520e9df68b02a3107ee7306d63e2a3",
+      "copia": "data/legado/extracao_bruta/sepse/criterios_sofa_qsofa.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1axgeX9gSXDA_HQ-cKWKZbSlqIzOfWbyy",
+      "disposicao": "IMPLANTADO",
+      "sha256": "97a3692f3955406f5642dacc95eefa4aa4b81b32bea03092d23182e04657cc15",
+      "copia": "data/legado/extracao_bruta/sepse/sepse_cid10.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1TqON1PhdJvwyblSl_WRFP7hdKWLVS1fu",
+      "disposicao": "IMPLANTADO",
+      "sha256": "716f254fcb46c719537ee34bdbe1ff1d2203f13c41e2673324e378e4a851992b",
+      "copia": "data/legado/extracao_bruta/sepse/sepse_medlineplus.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1DHHjSw16wJx8h3sJQzWyzSFggarlyWkX",
+      "disposicao": "IMPLANTADO",
+      "sha256": "b344d7d368f5b5157e0c3d7ce8eac080bf148259c2559d56afd7d7054624bff1",
+      "copia": "data/legado/extracao_bruta/sepse/sepse_cid11.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1kH1BmLlTB6mxV8OBG280kFV1KwCn08QD",
+      "disposicao": "IMPLANTADO",
+      "sha256": "489ae70c3f31891257b5e7ee970736253648e004bd56cb8ba6b52749217014d9",
+      "copia": "data/legado/extracao_bruta/sepse/sepse_mesh.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "16EE4ImtPTHipM8BKvgLn2RmqJdqOlpr1",
+      "disposicao": "IMPLANTADO",
+      "sha256": "8a2e032ee51508e86f3ab213a73478ded8458f53e02a51f2213c13c47aef4d6d",
+      "copia": "data/legado/extracao_bruta/sepse/criterios_sepsis3.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1CR_AJkHnbbvelMzRLM6mTKqAJoOPSmwt",
+      "disposicao": "IMPLANTADO",
+      "sha256": "f6c94f3318917f2e286306dd2d579b23d1b129111683cc9dd7ca83e162ec4461",
+      "copia": "data/legado/extracao_bruta/sepse/criterios_sofa_qsofa.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "15il7ALACNAXKUOGONxBhIFEb_9GYkGMu",
+      "disposicao": "IMPLANTADO",
+      "sha256": "450b1d9e31b1e21524c2e59124df9e7d6948285060c10a8aad2da903d08ed0d8",
+      "copia": "data/legado/extracao_bruta/sepse/criterios_sepsis3_v2.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1gNvyHXrXssUY0HUJWIx8hYJ9g3m06xyL",
+      "disposicao": "IMPLANTADO",
+      "sha256": "888e1d23d09eabacb1e8631e6225b4e61e0189db2f514b5d66cebad814338aed",
+      "copia": "data/legado/extracao_bruta/sepse/sepse_cid10.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "181tJxvkWLDRQmjX6zWDiTRz2Vm5x34kb",
+      "disposicao": "IMPLANTADO",
+      "sha256": "ff9228f149d5429e1773035e6a2881c95d99f2b9347fdcbebf0e44cf36675c6b",
+      "copia": "data/legado/extracao_bruta/sepse/sepse_cid11.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1GggiNotlSg8oXEalkSAQj_5AzJU5nwu1",
+      "disposicao": "IMPLANTADO",
+      "sha256": "93b0b06439ea146c26c4aca219683e61665af027922c06d92643748f8494811c",
+      "copia": "data/legado/extracao_bruta/sepse/sepse_mesh.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1qTiIwVzJjCUzgRMZCOOKuAXjUR-5VL_S",
+      "disposicao": "IMPLANTADO",
+      "sha256": "4aa2029f74a7b9b62c90c669bd7193a5c90fff0669ccdb0c1dd65b4beba20d9e",
+      "copia": "data/legado/extracao_bruta/sepse/sepse_medlineplus.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "110HJsNy7HSiVLmi8JuknxdpFhS5w5k3N",
+      "disposicao": "IMPLANTADO",
+      "sha256": "d131a3905a6c67b4e86602e0ad9b2ef297f99a4b015ac3a045bbd3a59bdc7877",
+      "copia": "data/legado/extracao_bruta/ferimentos/ferimentos_cid10.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1t3IA4MfcM7_nwdS25d6z58Hkg7AHaIVf",
+      "disposicao": "IMPLANTADO",
+      "sha256": "b242d6613b860cf235c4bf6228d36d071fc95dba9603c21044e63860e6a4003b",
+      "copia": "data/legado/extracao_bruta/ferimentos/ferimentos_cid11.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1G3y_ifQERM0D2_SqYyMlz0QTkHDJdDvs",
+      "disposicao": "IMPLANTADO",
+      "sha256": "bdb0d867fcf6fe5f88cfe36eb9ea0fc18174180b239aac899558ad227ad6c42a",
+      "copia": "data/legado/extracao_bruta/ferimentos/tipos_curativos_catmat_pdm_classe_6510.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1TAW63gtvlVhU2WiMhzE3hDhasn561AMv",
+      "disposicao": "IMPLANTADO",
+      "sha256": "458e43bbc3834d391016664e19c51efad6ef146abda36b4feac27e5cb768a502",
+      "copia": "data/legado/extracao_bruta/ferimentos/ferimentos_mesh.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1x8hjIJtMavEObyezJBeKTyqBDHxsA2UA",
+      "disposicao": "IMPLANTADO",
+      "sha256": "4408493dd04445c25499f71ccfb632611157eea620dd72b370ec0ed050b54439",
+      "copia": "data/legado/extracao_bruta/ferimentos/tipos_curativos_anvisa_nome_tecnico.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "17UUvWPNcf61G4gmzzwmcO0BhnoyYDCn7",
+      "disposicao": "IMPLANTADO",
+      "sha256": "5f849992288d3244368af3681a4cd4380617665cf6547507f8f4728dd938fe7c",
+      "copia": "data/legado/extracao_bruta/ferimentos/tipos_curativos_anvisa_nome_tecnico.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1VnzPNoeyx9R-8WNr2JMoeUqJ3RBRV-KU",
+      "disposicao": "IMPLANTADO",
+      "sha256": "8093d15a71474971b4d2d38794f769a38111e94f8b14ffc30361075df5317efc",
+      "copia": "data/legado/extracao_bruta/ferimentos/tipos_curativos_catmat_pdm_classe_6510.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1cQoLJQjbRsT8_LNH1PSsdppAGZXmih-7",
+      "disposicao": "IMPLANTADO",
+      "sha256": "f9231e7cdba645525b052779d22e90a067d901bd47b5871dc5f5965c65d39a0e",
+      "copia": "data/legado/extracao_bruta/ferimentos/ferimentos_mesh.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1e9Tx4mk6x_T27I7AevJJS_zV86G6fsrs",
+      "disposicao": "IMPLANTADO",
+      "sha256": "b274010477bb07965b88d75a139cfdf057b751ca208ebda73dd2986c3e2dc170",
+      "copia": "data/legado/extracao_bruta/ferimentos/ferimentos_cid11.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1v48oRASO7Fn-RgXN-sRGhOVmYOENXeHY",
+      "disposicao": "IMPLANTADO",
+      "sha256": "1f99040d5e0c119a500098b18e2d3a5119469597eca5eb1e4dccf8cb341b0e8a",
+      "copia": "data/legado/extracao_bruta/ferimentos/ferimentos_cid10.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1CGOzAzRqdH_kifUcLWj6PVoQZJ9gvfdj",
+      "disposicao": "IMPLANTADO",
+      "sha256": "65785cbf764fee9bc5c03f1a845e8f81ac6f115b0587a1af2f3bcf5f4a0d3d20",
+      "copia": "data/legado/extracao_bruta/sinais_vitais/classificacao_pressao_arterial_dbha2020_transcrita_v2.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1_Gm_NmBPrlTaWm60grqk9gN-02y67MyY",
+      "disposicao": "IMPLANTADO",
+      "sha256": "978dc48f442438fe9efd23634b6766af49ec9d677f6c1838b02f1019eb220dce",
+      "copia": "data/legado/extracao_bruta/sinais_vitais/classificacao_pressao_arterial_dbha2020_transcrita.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1LVQE1bpbfyjwIZGtNe4Udquprak-1RRC",
+      "disposicao": "IMPLANTADO",
+      "sha256": "810ea174598ef3dc45de38fb245ebbe23afcacf8c49484ac29cb13ccfba1990a",
+      "copia": "data/legado/extracao_bruta/sinais_vitais/fhir_r4_sinais_vitais_codigos_loinc.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1haLA_pbmYHPR5fZEYaIvBbpkwHoaD5qn",
+      "disposicao": "IMPLANTADO",
+      "sha256": "138187b4ca2d41ff29254af4f165a5964fe5134386c1c0024ae8566187fe29b8",
+      "copia": "data/legado/extracao_bruta/sinais_vitais/news2_pontuacao_transcrita.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1UFph_IwllzYY9FXN7nwyL988FnEh8Ez3",
+      "disposicao": "IMPLANTADO",
+      "sha256": "6f472b7020852cfa0a50894a7d7b2afcb10d9de4592eea0e78d4b44b769f5bce",
+      "copia": "data/legado/extracao_bruta/sinais_vitais/referencias_sinais_vitais_transcritas_v2.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1ZATLzUunHuQN22hGohxmdESmJmxo4lSU",
+      "disposicao": "IMPLANTADO",
+      "sha256": "461d462478cd96f3d48820ffe82499e82551c91e41a310c4b556a91569ac2cc6",
+      "copia": "data/legado/extracao_bruta/sinais_vitais/classificacao_pressao_arterial_dbha2020_transcrita_v2.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1roiRgnrNlLbZ39WhW2Ql5Kt_Rl6x8fsG",
+      "disposicao": "IMPLANTADO",
+      "sha256": "db566a8b56bf10d0b808179b060bd7a074ab064c10ecdfb6e86f6d3b0ab73790",
+      "copia": "data/legado/extracao_bruta/sinais_vitais/referencias_sinais_vitais_transcritas.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Xg-9NKkFSkrd6SZi_FtCOGyzKKKMl7pB",
+      "disposicao": "IMPLANTADO",
+      "sha256": "6fcbd401c656f7292ec4fb43321217c4617739c943f130f57657f4fc01523254",
+      "copia": "data/legado/extracao_bruta/sinais_vitais/news2_pontuacao_transcrita.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1IuJ9tUWn7DX0e6z63-Cs9FDBhqpuk1bH",
+      "disposicao": "IMPLANTADO",
+      "sha256": "e51d83822b2cea28291b6a56c6964b9fc68a2fbfbda4c054a6824129b67e163c",
+      "copia": "data/legado/extracao_bruta/sinais_vitais/classificacao_pressao_arterial_dbha2020_transcrita.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "16yXD3n8Rhy2qtn2OnpJy8Obz-ph8w9EN",
+      "disposicao": "IMPLANTADO",
+      "sha256": "827c5cce26d9401354de138702b241efdb7d9f822a1cb524686054931d06a6db",
+      "copia": "data/legado/extracao_bruta/sinais_vitais/fhir_r4_sinais_vitais_codigos_loinc.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "13UjmLqnXuVfIAR-SCWC3HhJTjKn4UdV6",
+      "disposicao": "IMPLANTADO",
+      "sha256": "1f1ce418dbc9510b850eb59838028a08f6d99f6bae73177a1ec7498f732addac",
+      "copia": "data/legado/extracao_bruta/epidemiologico/sinan_zika_2026_amostra.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1xaw4U1_I3FFivnJiGRP0Or-PUYadB6Nb",
+      "disposicao": "IMPLANTADO",
+      "sha256": "20670f0fe007cf6b45a28dae8411528201a7c863444a87bfc77d7c9a9b0b529e",
+      "copia": "data/legado/extracao_bruta/epidemiologico/febre_amarela_humanos_primatas.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "18dSCoe5CcbFN0lmtQuAfUgwcXh4p_yIK",
+      "disposicao": "IMPLANTADO",
+      "sha256": "f093b662d9cfff8ad33c6dfb1fb6faaca0ca90fceb2249bd0cece161b8a140ba",
+      "copia": "data/legado/extracao_bruta/epidemiologico/lista_notificacao_compulsoria_2026.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Bv_rlztmXUEkzch-YVVBamutKopoTUHr",
+      "disposicao": "IMPLANTADO",
+      "sha256": "89aaa0c3086239b8836667893e47a486e7e0803b46c1addf17c9add53e478f46",
+      "copia": "data/legado/extracao_bruta/epidemiologico/sim_mortalidade_amostra.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1aGCAchb_JicQqggSA_jyn9eEF4VsoJQq",
+      "disposicao": "IMPLANTADO",
+      "sha256": "a776d1b99e26e08f6eb2c62937c0d1b872d5791cead4f312384d7e76aa6a9ace",
+      "copia": "data/legado/extracao_bruta/epidemiologico/srag_2019_2026_amostra.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1tyfgN1fqy_YOlhHWf0MkSixeWhbYCHjp",
+      "disposicao": "IMPLANTADO",
+      "sha256": "f02c151b866ad2f0fe7f696efaafd75cc8b7b6e2cdd501127f0414e62b66cad7",
+      "copia": "data/legado/extracao_bruta/epidemiologico/sinan_dengue_2026_amostra.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Cq1HE0FiQN3TuntG1RIgfhai4vA6MAlm",
+      "disposicao": "IMPLANTADO",
+      "sha256": "c5d275fc6707b6d961736b11026962c63667959ab30767ffef67342ecd0e938d",
+      "copia": "data/legado/extracao_bruta/epidemiologico/srag_2019_2026_amostra.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "14k6KprjLpTdAmRKoUMibJiZL0_0HMiXU",
+      "disposicao": "IMPLANTADO",
+      "sha256": "2e7aa77348fd2e132239d9ffc29743efa6452c638d3650135af3991e107c2618",
+      "copia": "data/legado/extracao_bruta/epidemiologico/sim_mortalidade_amostra.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1fO4z2sl0gxzIr8t-u5qMIvspD6ovWIMD",
+      "disposicao": "IMPLANTADO",
+      "sha256": "572b9c6d67e41860acf55f5bd3bb4da9dcbae9290792ab054566dcb0584219f8",
+      "copia": "data/legado/extracao_bruta/epidemiologico/sinan_zika_2026_amostra.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "150_ELPqkvDBVQSqtmkBXEFWOx8bhuGCD",
+      "disposicao": "IMPLANTADO",
+      "sha256": "62895996fbbd959a91dfab923348366021937d3950a5b9d9fb83c87d48b7b41a",
+      "copia": "data/legado/extracao_bruta/epidemiologico/sinan_chikungunya_2026_amostra.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1vRIsrF7KbJq0_adgFUdiEVduouSNbsdd",
+      "disposicao": "IMPLANTADO",
+      "sha256": "8f0cb3c1b156d919d60ee9543bfc50d01b11c573d6b8782d12bde44754e70a15",
+      "copia": "data/legado/extracao_bruta/epidemiologico/sinan_dengue_2026_amostra.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Kf4RAPomdfMPORJj5bYNM8-_3CAMyn4T",
+      "disposicao": "IMPLANTADO",
+      "sha256": "42216b449fb9313edd881c8fab628cfec5f41b05dc6441403fdf772d30e8b5e1",
+      "copia": "data/legado/extracao_bruta/epidemiologico/sinan_chikungunya_2026_amostra.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1oTTLMqfshSnw5ZzSHiIq4d95xlp_xmr_",
+      "disposicao": "IMPLANTADO",
+      "sha256": "1961ab3f208144bb8d821a3669c8a9c874a4ab570eac4819008c795f2bd55aef",
+      "copia": "data/legado/extracao_bruta/epidemiologico/mpox_amostra.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1g8Wjt6F24PX4h0JaUuMagvcl8oMrYrCF",
+      "disposicao": "IMPLANTADO",
+      "sha256": "8769a7fe2fc3319244a5882062460cd988eb2661d0b75c40df59e68fad45f878",
+      "copia": "data/legado/extracao_bruta/epidemiologico/mpox_amostra.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1qntmhP2HayZW_MGtGbD9l8RvTFxDpjo8",
+      "disposicao": "IMPLANTADO",
+      "sha256": "0cb6da60c795d75fcd7f827d50aa2b266639a5c0bb525031efc82bff1b8c26ab",
+      "copia": "data/legado/extracao_bruta/epidemiologico/lista_notificacao_compulsoria_2026.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1vRMu1CZZmjU2f4tydHtDRDg4z6JmVuUJ",
+      "disposicao": "IMPLANTADO",
+      "sha256": "6c75fc974d323b66c6966998775702767536f63f3224fca0dc6884a85d8198d3",
+      "copia": "data/legado/extracao_bruta/epidemiologico/febre_amarela_humanos_primatas.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1hMxh4qHfOadABaPZ2VQqhO0ELjm431nv",
+      "disposicao": "IMPLANTADO",
+      "sha256": "373dd2d044b7767197c35aecd91fad43dfde516270abfd448b29d499ed88fa5b",
+      "copia": "data/legado/extracao_bruta/epidemiologico/febre_amarela_epizootias.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1aCeVpq2lnRb0U03-ERgymqT0GF14vgaq",
+      "disposicao": "IMPLANTADO",
+      "sha256": "fda1e83561ff6fd016012ee3103b1b344256341778ea676b0f6656ce607dcfad",
+      "copia": "data/legado/extracao_bruta/epidemiologico/febre_amarela_epizootias.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1cIHdDi6Q5-Db1yYhbI_nJATCUsmnl9bD",
+      "disposicao": "IMPLANTADO",
+      "sha256": "e9c830c74949ac4d860d3f959585ab6530807df33518c2cc2b77b4351b4c5a34",
+      "copia": "data/legado/extracao_bruta/vacinas/cdsi_esquemas_doses_acip.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1CzgnyQvWMNCWZJX-gXcRWcIK6dJjUJJK",
+      "disposicao": "IMPLANTADO",
+      "sha256": "23ba6014bd4976534f934cd963c0a5c1fab4968c06a536ad9ed25a49793bb288",
+      "copia": "data/legado/extracao_bruta/vacinas/cdsi_cvx_para_antigeno.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "13STGIUK3NlCXqGYPMaikki0trif6-_eN",
+      "disposicao": "IMPLANTADO",
+      "sha256": "fa4772667b9b4dffab97cbf11d7234053086b462a7c816498fd81406ca570298",
+      "copia": "data/legado/extracao_bruta/vacinas/cdsi_observacoes_condicoes.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1H6AKUMovFr6qbVdrtaaxX-uvoawt1GgG",
+      "disposicao": "IMPLANTADO",
+      "sha256": "f6d74621a8e397d06e42c3c32df27451a8aeb5a8de35c130a413e86cdbbff7d4",
+      "copia": "data/legado/extracao_bruta/vacinas/cdc_cvx_codigos_vacinas.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1mu-R46oQG4g2Svuh9tW3-k3su05Hrkpb",
+      "disposicao": "IMPLANTADO",
+      "sha256": "5f2eae41dc1f4d4b618fa816eb73063c2fffffb74f5ea808233614e71a5d1ab5",
+      "copia": "data/legado/extracao_bruta/vacinas/cdsi_observacoes_condicoes.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1VtjwRQ_yUH72t3nDg8Uy5tN9Wi0BWaKM",
+      "disposicao": "IMPLANTADO",
+      "sha256": "4979c9a595a4eb5ac5365c77fb610a68a6367df663c7ddb29824b8c21e0f78c2",
+      "copia": "data/legado/extracao_bruta/vacinas/cdsi_esquemas_doses_acip.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "14cdnYSmLSE3Cw0Dp59wY-5CBoHIUz7b8",
+      "disposicao": "IMPLANTADO",
+      "sha256": "ba9ab30c569dabe0f1c2bef9999e05c47255f2b5e281c0d5761ee160001959b1",
+      "copia": "data/legado/extracao_bruta/vacinas/cdsi_cvx_para_antigeno.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1kSZpD7LSQ6ZYEJTSiTWEfMG1CMCdTqEt",
+      "disposicao": "IMPLANTADO",
+      "sha256": "e6c6ddfb885eff28603b1aa5486b9aa168317cbd99e801a5c1169b5adc1b6f3c",
+      "copia": "data/legado/extracao_bruta/vacinas/cdc_cvx_codigos_vacinas.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1kigeUQOrHyZmEifXVdECdB000WrGq5NJ",
+      "disposicao": "IMPLANTADO",
+      "sha256": "5c3e0caf1fd95f8adfe4da07d2c471285ffd7bf9b509ad7d114a98c130b9b014",
+      "copia": "data/legado/extracao_bruta/vacinal_brasil/esavi_eventos_adversos_vacinacao_amostra.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1cdHPk3ADQLwM_xE8TkilIsvxI0HBgE3t",
+      "disposicao": "IMPLANTADO",
+      "sha256": "f00c2f34f3ba8db8d3490b4266890d6e9cb9e6376e2d9d4135cd3c218ad26a49",
+      "copia": "data/legado/extracao_bruta/vacinal_brasil/sies_insumos_estrategicos_amostra.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1jilFoIwWWU_sT3u-idHrKLujRI3P-2Uf",
+      "disposicao": "IMPLANTADO",
+      "sha256": "b14af23bf97c283409b67f778ff62ba4f6268009425d18a76c35f64f8a35f5cf",
+      "copia": "data/legado/extracao_bruta/vacinal_brasil/pni_doses_aplicadas_2026_amostra.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1disptl2bFXg4Q9t-Fm3UHgZ8GeTmqrNa",
+      "disposicao": "IMPLANTADO",
+      "sha256": "009655a8087f60e4645dc7af8c4690ceefb2e07cbe94c3c75ac1a16f659cd2e1",
+      "copia": "data/legado/extracao_bruta/vacinal_brasil/sesai_cobertura_vacinal_indigena.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Ycij5EOJPCY_D7VVKjeL_5BEa-b_TMTL",
+      "disposicao": "IMPLANTADO",
+      "sha256": "98f950f6ee5b9baf557e3b02f28eed430f47216ee80ed986b35fef0683989b4e",
+      "copia": "data/legado/extracao_bruta/vacinal_brasil/pni_doses_aplicadas_2026_amostra.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Qj5qOB5dp2DS7TTGAo8mdNfrkGEYI6pe",
+      "disposicao": "IMPLANTADO",
+      "sha256": "90cfc09e47d6a51d21cc1486ed00db5d529d46dc5715f85d9b1bc4b0762a4d93",
+      "copia": "data/legado/extracao_bruta/vacinal_brasil/esavi_eventos_adversos_vacinacao_amostra.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1KxO3wN3gQ9mFHMBj7oxi3B_UfogjDjcc",
+      "disposicao": "IMPLANTADO",
+      "sha256": "4e09bac2a220e5649544faad2df63967722577411dd8eca0b672104c5fa44caa",
+      "copia": "data/legado/extracao_bruta/vacinal_brasil/sies_insumos_estrategicos_amostra.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Grc-0ylcm5A1tdYjkauXkbXitFqrsfSH",
+      "disposicao": "IMPLANTADO",
+      "sha256": "c791a7a4fc7b199d90d15232376e805300cff273e6b27e8a26038dc71501e803",
+      "copia": "data/legado/extracao_bruta/vacinal_brasil/sesai_cobertura_vacinal_indigena.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1SrieLn7U9sf6tCVdfWLwD7JdcNvEtL-1",
+      "disposicao": "IMPLANTADO",
+      "sha256": "3a95c2f1d9c5ce6fc08f4a88be9eae6d6a1bd5142dd7b5448c264b610b4d8ca4",
+      "copia": "data/legado/extracao_bruta/medlineplus/health_topics_es.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1U_818JaGuZtizXjYFYdU8GsTJ5AxphAF",
+      "disposicao": "IMPLANTADO",
+      "sha256": "0edfe1992b6a1d9bf58b6d5b1a51235128d65e6e16188aeaa2db213d270f6d2d",
+      "copia": "data/legado/extracao_bruta/medlineplus/health_topics_en.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1hrjo_TJCI3oy761mDEuhzy5HrZOBSqjd",
+      "disposicao": "IMPLANTADO",
+      "sha256": "08fd6e47bb5b43d1d43e3520ea01ff97a947691d7ce00f36d19ef7a6cdbd5cab",
+      "copia": "data/legado/extracao_bruta/medlineplus/health_topics_todos.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "15q9abQLqAj4t70tistOHhORnlBhRKgQb",
+      "disposicao": "IMPLANTADO",
+      "sha256": "20bbefb3b0c39b3f86b330ade3c790855e0a1c51f47ad2efc09d94c91a22448b",
+      "copia": "data/legado/extracao_bruta/medlineplus/health_topics_es.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1F30ds9hIoS_o003gWXzWz00hSciZZjdf",
+      "disposicao": "IMPLANTADO",
+      "sha256": "d1ea77b552398d213223738145e32de40f28da07d3cf3c902c7427e02ace4afd",
+      "copia": "data/legado/extracao_bruta/medlineplus/health_topics_todos.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1jWqNrJ7wS5zGnotk9VJzcQMThmWzmQ_N",
+      "disposicao": "IMPLANTADO",
+      "sha256": "a3adc1c3a7c067302719dafaded3c4966093e97bec9c4abb1914f5be4ae339c5",
+      "copia": "data/legado/extracao_bruta/medlineplus/health_topics_en.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1bPkNWkimu5mC_d_0a49FcZzvoUv3BpAm",
+      "disposicao": "IMPLANTADO",
+      "sha256": "ab58a4289e57fffce7b1d6e5f51e5db2f35164fe728b1cdfac45944a20f3d3ac",
+      "copia": "data/legado/extracao_bruta/nutricao/usda_sr_legacy_nutrientes.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1ppkFkjxqmxd5u4hwkv_As9a0W0OwaPD4",
+      "disposicao": "IMPLANTADO",
+      "sha256": "4c06c749829e86b960cc9989efb3b26bd9c81e13668e1bee8f9fd887a963f879",
+      "copia": "data/legado/extracao_bruta/nutricao/usda_sr_legacy_alimentos.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1z0jgL0IDigCKYuYu9NeUo-3rQ7DGSrFv",
+      "disposicao": "IMPLANTADO",
+      "sha256": "916fab6814be517b656ed5cdfb276b7273915ef7c723f1f77d2d4882bb1d7681",
+      "copia": "data/legado/extracao_bruta/nutricao/taco_composicao.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1CpzHP2vwKAjkoLEw0_6R9BywKc7VIQen",
+      "disposicao": "IMPLANTADO",
+      "sha256": "ec0f99de19b10fa0336bdd7ac22bc42cc62b8c82a62bef6c93c3c8cce3bcf030",
+      "copia": "data/legado/extracao_bruta/nutricao/taco_acidos_graxos.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1HvRo11SREZfNjd4MR14z6nRT1Ue3hHo0",
+      "disposicao": "IMPLANTADO",
+      "sha256": "23f5f415bde759c4178ded98b102519acde2d3021fd80263c2595830d37024e0",
+      "copia": "data/legado/extracao_bruta/nutricao/taco_aminoacidos.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "16Tjd-RpfpwRt27SRhJXTQcVYbZYTiKg4",
+      "disposicao": "IMPLANTADO",
+      "sha256": "e34dc85907d7880fda30b1726e05c41840e1ea7dbb182e74c17cc4ffbc483d64",
+      "copia": "data/legado/extracao_bruta/nutricao/usda_foundation_alimentos.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1SmgOyWUp-DYG2ze3iCjatUvWYbUnI4K-",
+      "disposicao": "IMPLANTADO",
+      "sha256": "115677e918ab0e2a695700b857fd22d2c115e4d5c0413f91fe2be3064b73a1d5",
+      "copia": "data/legado/extracao_bruta/nutricao/usda_foundation_nutrientes.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1eI8i8ngywFkvilBOchGlRuYkBFIOa462",
+      "disposicao": "IMPLANTADO",
+      "sha256": "613abfc94ea2a640684c6246f4e2f5e34d0c0e10d9a3d53bbcdab0853fb08e9a",
+      "copia": "data/legado/extracao_bruta/nutricao/pof_medidas_caseiras.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1I7c_isOmz6OptCAavFzdC4ikfXDiSAas",
+      "disposicao": "IMPLANTADO",
+      "sha256": "1550dd7fd389a31e90752fa0a0606c277d4a36864210e3124111d8408e2f0686",
+      "copia": "data/legado/extracao_bruta/nutricao/usda_sr_legacy_alimentos.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1KcJsa5_OlgEmgNkVpvt5VaRZjBvY_89l",
+      "disposicao": "IMPLANTADO",
+      "sha256": "4eb281702530b317f7f8ee0198f9c177bab6be87d812fb5f0170cee5854ebf13",
+      "copia": "data/legado/extracao_bruta/nutricao/usda_foundation_nutrientes.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1bqVCwuKF07wD1AdO3M1gwUpBhcpRhv0f",
+      "disposicao": "IMPLANTADO",
+      "sha256": "6c86a4cdabc394836a0f86a51c5bc885e4e506df0eafc506acefd1f9ea35f201",
+      "copia": "data/legado/extracao_bruta/nutricao/usda_foundation_alimentos.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1CQ8ekEeKO-CgpRdrl4xdYWylBosj84cU",
+      "disposicao": "IMPLANTADO",
+      "sha256": "3f9a018fc20f5a1d38ec22ef43fc32501e3c6afcdddcf36fe6a92eadae61389a",
+      "copia": "data/legado/extracao_bruta/nutricao/pof_medidas_caseiras.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1IkV59vNBVMalrbywk-SpEH6ugyFAmFJR",
+      "disposicao": "IMPLANTADO",
+      "sha256": "e2e620339ed2f36091ae073c22f0f0c9f392c5ab41eba07761237b6af055f63f",
+      "copia": "data/legado/extracao_bruta/nutricao/taco_aminoacidos.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1vla7IGX_wG14Kq4T0ZNmRznD1NOC22lI",
+      "disposicao": "IMPLANTADO",
+      "sha256": "cbf541bb4793c4115c3a5a00f6829579a370ba7e8d2207be317acd864ee906a8",
+      "copia": "data/legado/extracao_bruta/nutricao/taco_acidos_graxos.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "18O9-x1hiZrwgzRzHTz5RlEeMWGpMP69s",
+      "disposicao": "IMPLANTADO",
+      "sha256": "293e47a30e3c7a21fff29bda8beeb3d066d6f017103e133f068a421c106864dc",
+      "copia": "data/legado/extracao_bruta/nutricao/taco_composicao.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1iMy28m66UZDPagasCDXnXmu1fr1cHU6L",
+      "disposicao": "IMPLANTADO",
+      "sha256": "94c6e58a1cbee4d951f129d70f0a9764bf6011cb0c754ca42cfb8537035adab6",
+      "copia": "data/legado/extracao_bruta/mesh/mesh_descritores.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1pjdy6m38sVuHeWyx-2kvns_lB5V7c8MI",
+      "disposicao": "IMPLANTADO",
+      "sha256": "81289a95f5a6abc713e531233b5ac534bfd5dde114984bc9c7a6771ed29b3f24",
+      "copia": "data/legado/extracao_bruta/mesh/mesh_doencas_categoria_C.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1VaGYdrH4Otmvk4VVkLkwLDGnF3KrEo5s",
+      "disposicao": "IMPLANTADO",
+      "sha256": "93c876e1303005ac1829a7b0cd7078edb24c5181d6b47b7a9a3395789820a25a",
+      "copia": "data/legado/extracao_bruta/mesh/mesh_descritores.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "114EU2ekgI_PeoSvqNp24CCNxptP9O5qu",
+      "disposicao": "IMPLANTADO",
+      "sha256": "3c0983fcb5858b583e65b2f08e41dca461d7d4e19a91225f561486b07897ed8d",
+      "copia": "data/legado/extracao_bruta/mesh/mesh_doencas_categoria_C.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1UW0D9tYELJoEBzL0qwzV9DqveIly6nqS",
+      "disposicao": "IMPLANTADO",
+      "sha256": "61fb231473a02a0d4a2d8dfb3f33fff0cd2d39a434ceaf20b79233aa87da46b9",
+      "copia": "data/legado/extracao_bruta/icd11/cid11_mms_completa.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "17CeVSphd5BfMj5Jp3uc-pgCyxiJ0jhfR",
+      "disposicao": "IMPLANTADO",
+      "sha256": "e31b88903b28ddc71bb00d44da7f55d164c92aad8f1e2dae460cfa03a9454541",
+      "copia": "data/legado/extracao_bruta/icd11/cid11_mms_categorias_com_codigo.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1gB9hDNM4jZPn9wFm58sYsQbT1ioLReUI",
+      "disposicao": "IMPLANTADO",
+      "sha256": "b49034ddefefe0266261bf8f905eb35c9eb6a829d7906eba867dd05e2a5ba19b",
+      "copia": "data/legado/extracao_bruta/icd11/cid11_mms_categorias_com_codigo.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1ctTZPLzGovMDXHiWFEE1ldnwtReoN6xr",
+      "disposicao": "IMPLANTADO",
+      "sha256": "e02664e399936275b88bc2c409f7db657d607d36adbbaf0d4581ffc3eebcf8a9",
+      "copia": "data/legado/extracao_bruta/icd11/cid11_mms_completa.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1TXR8PKTzlSx9arROxaQfxHrVUB0Dhf5M",
+      "disposicao": "IMPLANTADO",
+      "sha256": "c397d619fb15c7709b413fe2adaf82f1489f44f06613da89e60feead04fd8937",
+      "copia": "data/legado/extracao_bruta/medicamentos/anvisa_cmed_precos_medicamentos.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1oaZGdYfyi4y_t3lvB-6ZGT2abcmUf-p1",
+      "disposicao": "IMPLANTADO",
+      "sha256": "476b9cfec70945d7ba8a163571fd6cf48033b7a9e8f990fbc53577931745fb3b",
+      "copia": "data/legado/extracao_bruta/medicamentos/anvisa_medicamentos_registrados.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "16aJHou1uEY_yMxSBVAzKt8onkbPTgbWJ",
+      "disposicao": "IMPLANTADO",
+      "sha256": "3e8b5c33184f8dd4a0139158e9cb3e947eb6455a261f6d2862029061352fd7fd",
+      "copia": "data/legado/extracao_bruta/medicamentos/fda_ndc_produtos.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1ko9doZkUtPsl8ZQ1aqqlxlPBx23XVnZW",
+      "disposicao": "IMPLANTADO",
+      "sha256": "1f468406d134e2bf5cde33403c14ba165aad2c56b0ab10cf74c844d055a13941",
+      "copia": "data/legado/extracao_bruta/medicamentos/fda_desabastecimento.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1EXiObJW-6ANm9MQXNLY6_oSUy47_wLBP",
+      "disposicao": "IMPLANTADO",
+      "sha256": "4fa160eed1c0ad74f8e3e3b94961e9577c27dd31483c7414d61c653afd5d554a",
+      "copia": "data/legado/extracao_bruta/medicamentos/anvisa_medicamentos_registrados.json.zip",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "16pK1HPQuz5h7cWmC4A6hZ0bJKlTY0ETH",
+      "disposicao": "IMPLANTADO",
+      "sha256": "448d6168a3884242eed9898cedb3bb501e92f5291c5a7b640cb43af036bc075c",
+      "copia": "data/legado/extracao_bruta/medicamentos/fda_desabastecimento.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1YidMR-L1ovUfyxz4-jxUtfgr_5o3Kn1c",
+      "disposicao": "IMPLANTADO",
+      "sha256": "1259f573cbcb84b9f6e7e9f7833dc5cddb016d64d736e1049d2ec54a9767ef54",
+      "copia": "data/legado/extracao_bruta/medicamentos/fracoes/anvisa_cmed_precos_medicamentos.json/manifesto.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Vzm6B5HqowgiXuHBDJSJ1ktJdpZ3CWin",
+      "disposicao": "IMPLANTADO",
+      "sha256": "5e25cf97c2788789fe2ee9e3d31b288cf97823eaf84eb108ab5a4b49fae1fc83",
+      "copia": "data/legado/extracao_bruta/medicamentos/fracoes/fda_ndc_produtos.json/manifesto.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1l9ojaxlDhAORdPWlAT1tr-1jf5q935cz",
+      "disposicao": "IMPLANTADO",
+      "sha256": "342fbd431dce48cdbb82f4e1d6298a4909b6826fa205c9ac0e0aea319d7fb1e3",
+      "copia": "data/legado/extracao_bruta/nutricao/fracoes/usda_sr_legacy_nutrientes.json/manifesto.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1l3dgZs_IeTvV_yJj5aFGB1h034GtZWhA",
+      "disposicao": "IMPLANTADO",
+      "sha256": "2a118eb0e39ecaa0107b03f13027d8c27a065844f13735d5b8509b2717286920",
+      "copia": "data/legado/extracao_bruta/dispositivos/fracoes/anvisa_produtos_saude_registrados.json/manifesto.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1MmOEsNfDfpnimOb5rHNYzJtXtqGWfDJx",
+      "disposicao": "IMPLANTADO",
+      "sha256": "3d8267b74c603ce1f4515f6639705010ac367a598dcc5478a5535adb992b2485",
+      "copia": "data/legado/extracao_bruta/suprimentos/fracoes/catmat_itens_classes_6510_6515_6530_6532.json/manifesto.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1B01q4W3zCMbpI9RVFIJlQeJel5dsYNpj",
+      "disposicao": "IMPLANTADO",
+      "sha256": "a36a6d3f39a69e689a2912530dd1ee3cd322eb1e38e26fb0a2c45a9b8819a3e3",
+      "copia": "data/legado/extracao_bruta/suprimentos/fda_classificacao_seringas_agulhas_luvas_curativos.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Nap8JhoMn2OF2x6h1_9IV5Uqc7nwbqwj",
+      "disposicao": "IMPLANTADO",
+      "sha256": "ddfa32b216710fa3694f61b743dd9fc7bba8e75dde489f2881f4d65ab476522e",
+      "copia": "data/legado/extracao_bruta/suprimentos/catmat_itens_classes_6510_6515_6530_6532.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "16Bl9wdpgTY0ShO5UWWioEh8yqviKKPFi",
+      "disposicao": "IMPLANTADO",
+      "sha256": "960f8ff42d7e88381745414f7a7f5792853a1b1ad5ec848523d73a9ae72342f6",
+      "copia": "data/legado/extracao_bruta/suprimentos/catmat_seringas_agulhas_luvas_curativos.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1CDW5Jn8hoZUBfZk_m2KyB4w8qB28teTf",
+      "disposicao": "IMPLANTADO",
+      "sha256": "728cb6460f8c8387d748ab7eebb244846f19607684866e7e7b6fbc68f3f456af",
+      "copia": "data/legado/extracao_bruta/suprimentos/anvisa_registros_seringas_agulhas_luvas_curativos.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1safrPF_eILlgdAWLoNWHl8AvXttZivXd",
+      "disposicao": "IMPLANTADO",
+      "sha256": "306d201b2f279e1bff702ef15d38f7b28268019f67f78feafb341791df09dc9c",
+      "copia": "data/legado/extracao_bruta/suprimentos/fda_classificacao_seringas_agulhas_luvas_curativos.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1ZnXX1yPK2thakHi3dUBVqwMl79wn6wjr",
+      "disposicao": "IMPLANTADO",
+      "sha256": "5fef6a79f1a286db98c4db0ff6193f48ec0eaba307a2e9886a68b9d50da1a1d4",
+      "copia": "data/legado/extracao_bruta/suprimentos/catmat_seringas_agulhas_luvas_curativos.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "14ufxeFBWZbEiS5X8DxoiAiWbxqFJ1Qpk",
+      "disposicao": "IMPLANTADO",
+      "sha256": "d1097b04b85b9ebc8ff4a0c6266702005a6b377b8f43524a3df29c1140a087c6",
+      "copia": "data/legado/extracao_bruta/suprimentos/anvisa_registros_seringas_agulhas_luvas_curativos.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "19DcedcGg9SjBYX93peoPtHkg0ghgShCn",
+      "disposicao": "IMPLANTADO",
+      "sha256": "c45a71b1e6c24ef364457a444df44adbb47dfa8d8d5d9edda0e9570c06907a76",
+      "copia": "data/legado/extracao_bruta/dispositivos/fda_classificacao_dispositivos.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1WAtrnFgoKLyWtZEDq8AGFhkIEJZBxxnj",
+      "disposicao": "IMPLANTADO",
+      "sha256": "3bf39a9a601ad32453830f97bdf0ae1f203e62e17caf19a74fd1d49de418135f",
+      "copia": "data/legado/extracao_bruta/dispositivos/anvisa_produtos_saude_registrados.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Ol_LydTOEcSRMq383_EocGxnWoRF4oSt",
+      "disposicao": "IMPLANTADO",
+      "sha256": "9fa4b3301d164ac9973b7fedde14b3dd5d798e6670772564f365afa76e7058bb",
+      "copia": "data/legado/extracao_bruta/dispositivos/fda_classificacao_dispositivos.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "10iCL4OyCdG-iyoMbqMtCKnScPOuU2Hay",
+      "disposicao": "IMPLANTADO",
+      "sha256": "3f9e932e668be289aa4367d9a027980c858064ec0f74c9676d995850a75a9a7a",
+      "copia": "data/legado/extracao_bruta/atomizado/NOTA_CORRECAO_2026-10-10.md",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1YPgMKA8WMHPVu-QoSSnRrswM8cc3d9qJ",
+      "disposicao": "IMPLANTADO",
+      "sha256": "305b769906be12c618587e8df729a86d9e1e3d5266db60a4ff520fd1b00cd725",
+      "copia": "data/legado/extracao_bruta/atomizado/atomizar_v1.2.0.py",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1wmQ8iwPcEhvz7SUjKkMLF6xtdx1yUj5z",
+      "disposicao": "IMPLANTADO",
+      "sha256": "ff578052206f845fe19d7578e23af2f10a594ff44a21393bc7d26d8e251806df",
+      "copia": "data/legado/extracao_bruta/atomizado/README_ATOMIZADO_v1.1.0.md",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1zWduqu8PlJckIGfJ0McmjQV_JnGkAVrF",
+      "disposicao": "IMPLANTADO",
+      "sha256": "7bb87a121904fe1abea7ad625d3022fd603c20eb1fcc956dbe70faf6c6414a2d",
+      "copia": "data/legado/extracao_bruta/atomizado/verificar_v1.1.0.py",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1JO4UgXTWBXEFaQfayKs10DRuwUlMel4S",
+      "disposicao": "IMPLANTADO",
+      "sha256": "46af867bef1ed82c2eeabe5846c04840feb3ad22fc5a5932e37296516a361ab5",
+      "copia": "data/legado/extracao_bruta/atomizado/atomizar_v1.1.0.py",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1vHnIGyI_YKBN3YBF6tABYCoviAy7WuHc",
+      "disposicao": "IMPLANTADO",
+      "sha256": "c34da875b409580d9a12479dd8b6c28b2937681cad453298eebcc120b037ad92",
+      "copia": "data/legado/extracao_bruta/atomizado/README_ATOMIZADO.md",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1qOLwGOX2vgTZoh4s5-F8HWhLLUns0YD0",
+      "disposicao": "IMPLANTADO",
+      "sha256": "c888fff80a9c80c34ca454f3f7f489c32cf815f22571852cc9f3dc524b8a6bf8",
+      "copia": "data/legado/extracao_bruta/atomizado/verificar.py",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1C1rxVw2j8gnTmT6utu8i8tYMJ35BHfLk",
+      "disposicao": "IMPLANTADO",
+      "sha256": "40c5ac26c977b3b8d7ca97b528f31f954ae52d7522bfe6826082ba53d9029f3b",
+      "copia": "data/legado/extracao_bruta/atomizado/atomizar.py",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1omCfXJroBkbuz6MuwwgJx8emTstu4Z4S",
+      "disposicao": "IMPLANTADO",
+      "sha256": "a132ed015dfcf4da82e305d8a5abffe51eef49c16baf5307ce213efe62ca1061",
+      "copia": "data/legado/extracao_bruta/revisao/VERIFICAR_V2_2026-10-10_execucao2.txt",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1413pOdLB0lDcGO4PCbTLHwR4Rzq-1dgY",
+      "disposicao": "IMPLANTADO",
+      "sha256": "dbdf4b95b663a57cea516912a48fdf6f0831a4683eaf5b4844f2dfe646e6bb52",
+      "copia": "data/legado/extracao_bruta/revisao/README_REVISAO.md",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1lbkZGxCWt7OZ2ksAvwKO5NG-R_rmhPX7",
+      "disposicao": "IMPLANTADO",
+      "sha256": "6ab88a96c56de6a8c326bd800bd6d255a34c76be62bd4d2df399bf2e35305d16",
+      "copia": "data/legado/extracao_bruta/revisao/RECONFERENCIA_CORRECOES_2026-10-10.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1F0Aa383gXYukui-Uc0GeHHYtLtJAZmyn",
+      "disposicao": "IMPLANTADO",
+      "sha256": "c60bf355da1cc570a0ddf621783bfc17b2b7bc741ede475e7011a63d0c1fc079",
+      "copia": "data/legado/extracao_bruta/revisao/resumo.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1ynmJZz5tOyyBNxkkgs6QjlTdvH6sf9-h",
+      "disposicao": "IMPLANTADO",
+      "sha256": "6202fd4df4fa615d9f97c53802ed8d667d78e6191dd606f916390fb140c723c4",
+      "copia": "data/legado/extracao_bruta/revisao/SHA256SUMS.txt",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1y6g6rSrhj7-GAEcFKv6yd23ZgjF5a_8R",
+      "disposicao": "IMPLANTADO",
+      "sha256": "4696d9377e5b2395ff6ff304fdbe5ec0632822338d46e424af0a2f2d69e3ea28",
+      "copia": "data/legado/extracao_bruta/revisao/revisar.py",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1gM2_sQHivhuGKZA4FiMqIt6FyCI8NbdA",
+      "disposicao": "IMPLANTADO",
+      "sha256": "7dee98c4562c4faecc713712d5ae9f909a2a43a8fa4f10c81d3d52fc5cad6058",
+      "copia": "data/legado/extracao_bruta/nutricao/raw/taco_composicao.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1I8N7AfgOzvcF5WjrgiH8cLX0OfHnwh0-",
+      "disposicao": "IMPLANTADO",
+      "sha256": "d396eaed98c9374e5452c3a240e8a3ddc2f03b87afbab29d7102e4c7a9e9be94",
+      "copia": "data/legado/extracao_bruta/nutricao/raw/taco_aminoacidos.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "19NYY_s6m2bwNq1tWKwXj6MLaAAwiIILK",
+      "disposicao": "IMPLANTADO",
+      "sha256": "baf300288eb153d94592ff3818e87641feeb996da23b3b8ed99fd5e5e2e65ff8",
+      "copia": "data/legado/extracao_bruta/nutricao/raw/pof_medidas_caseiras.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1oIezq0r-uldlzXe3tLr-YzHi-KuUVxl1",
+      "disposicao": "IMPLANTADO",
+      "sha256": "3a389408e2d3dc234035d862f2d3c8039b5d76304b0ad061143861c5ee5913bd",
+      "copia": "data/legado/extracao_bruta/nutricao/raw/taco_acidos_graxos.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1YNmk7J8MFIsonctBzBifcPjO_gfOMm-e",
+      "disposicao": "IMPLANTADO",
+      "sha256": "5330d9de6064625eb27419b69380599639a73df336b33c7ae6027d771d22dddc",
+      "copia": "data/legado/extracao_bruta/vacinal_brasil/raw/pni_doses_aplicadas_2026_amostra.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1VVLF5sJE-v18UbtKpS-zbmO8ZA7a3EWY",
+      "disposicao": "IMPLANTADO",
+      "sha256": "5c38295f2c80a56d654d08f3617f10fb5a7e5e6ac26cb714bc27c037a71cba0f",
+      "copia": "data/legado/extracao_bruta/vacinal_brasil/raw/sies_insumos_estrategicos_amostra.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1ixYK-sscf3OgVtdKSGSnBqwAtTFL-8bo",
+      "disposicao": "IMPLANTADO",
+      "sha256": "a7517b17975fec33455fc5f198f971d484caa7a6f5adb6749b6bd622f8750302",
+      "copia": "data/legado/extracao_bruta/vacinal_brasil/raw/sesai_cobertura_vacinal_indigena.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1GBQUfhGo_Y3Au9-IacaVbAqSstO6Hkog",
+      "disposicao": "IMPLANTADO",
+      "sha256": "28bfd25c5f822afdb90c6bf36aeded1683c70edb480e69ad22368c2b1e074372",
+      "copia": "data/legado/extracao_bruta/vacinal_brasil/raw/esavi_eventos_adversos_vacinacao_amostra.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1XRzFrqhGQf3NPXpypf9jko3in9HiIzb7",
+      "disposicao": "IMPLANTADO",
+      "sha256": "b307c77113bffa4a3e8631634f8f5c61e6069178385596cda6c7bc9382e13557",
+      "copia": "data/legado/extracao_bruta/epidemiologico/raw/sinan_dengue_2026_amostra.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1MUSUpZJfDicrSysyxvRkC8-grEbJh4S3",
+      "disposicao": "IMPLANTADO",
+      "sha256": "838b674c15eb7987f740686b2a42feae584e0893fe4213be4e575dd77302544b",
+      "copia": "data/legado/extracao_bruta/epidemiologico/raw/sinan_chikungunya_2026_amostra.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1sBzOpDEM6w-py6WNbOHusKok-Rn9NS-P",
+      "disposicao": "IMPLANTADO",
+      "sha256": "d414ffd9a8cbe56199a261a9661abeedb1bd8fe75c725dc0e43e09e1dfd12e5e",
+      "copia": "data/legado/extracao_bruta/epidemiologico/raw/febre_amarela_humanos_primatas.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1vh6jzrdbBh8keSZ_9rR_yhsS0mGn-S3I",
+      "disposicao": "IMPLANTADO",
+      "sha256": "8302ff76d655abb340a0689d9c87f2082a19b28c647f057eddd3b3520e05692f",
+      "copia": "data/legado/extracao_bruta/epidemiologico/raw/sinan_zika_2026_amostra.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "15a31FnIzzmvDCHzNeYkU-4CJg6S43KAS",
+      "disposicao": "IMPLANTADO",
+      "sha256": "1717921f7709a00b1be34da353eaa58a367583e03afadc1cd1d5e91a21f99628",
+      "copia": "data/legado/extracao_bruta/epidemiologico/raw/srag_2019_2026_amostra.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1d-4BX3q4xaBGPzPdVebF5GOTWEfyE3xy",
+      "disposicao": "IMPLANTADO",
+      "sha256": "0b2965a9a6470ace90a521a714bd8e30a5dccdcb637a0ee559c6d8d0280501f4",
+      "copia": "data/legado/extracao_bruta/epidemiologico/raw/sim_mortalidade_amostra.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1WW_-OnxA8VHKiWuwaKKWYbUQ6LMdJhVX",
+      "disposicao": "IMPLANTADO",
+      "sha256": "90abc93272d48a4f7c7ef57721fd4729f4a5570c5b75ffdac680f823459a0df4",
+      "copia": "data/legado/extracao_bruta/epidemiologico/raw/mpox_amostra.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1ut9N5W2_x_YgWZB740nX-fteqilSHH1S",
+      "disposicao": "IMPLANTADO",
+      "sha256": "5b08d65046866e6114bc9a38c9324f84498759a5e20ba9aae7059fd15f113032",
+      "copia": "data/legado/extracao_bruta/epidemiologico/raw/febre_amarela_epizootias.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1NhdSaxR8U6B8oQ8PiHag09wFyHV9HIP5",
+      "disposicao": "IMPLANTADO",
+      "sha256": "23cee69acb227dbeeb99bf26ae2b9c40525795604e321cfe4d1b42ba04aeaf4c",
+      "copia": "data/legado/extracao_bruta/raw/cid10/CID-10-CAPITULOS.CSV",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1A38SELA128MPZahYyarTCEK0vv6TK9_L",
+      "disposicao": "IMPLANTADO",
+      "sha256": "1a85bef8f2065ad3e95ab07b6441e6f03404c54ab35849ebd4edccc3ba234e60",
+      "copia": "data/legado/extracao_bruta/raw/cid10/CID-10-SUBCATEGORIAS.CSV",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1-kUkQYiQMbT70_emdi-QYy3yGMmgM6zf",
+      "disposicao": "IMPLANTADO",
+      "sha256": "29f5afd6a62ae189fb34e420907a82b8bc2402593ae18251d0ec0119fc57f2d8",
+      "copia": "data/legado/extracao_bruta/raw/cid10/CID-O-CATEGORIAS.CSV",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1u12z-VnAkb2tuo1jRnyVgDESX90gWVcz",
+      "disposicao": "IMPLANTADO",
+      "sha256": "bbf1d465546cfa8907a951895140982cee2d759f826f9a9a048a440cc2f33e10",
+      "copia": "data/legado/extracao_bruta/raw/cid10/CID-10-GRUPOS.CSV",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1qnEgatkslUBnZ6AxvwTvc3--z4NdrQWe",
+      "disposicao": "IMPLANTADO",
+      "sha256": "e372033b1c04f321a9a98aac8534f2bd4f22aa40c622525b619a2f616a3b6fc8",
+      "copia": "data/legado/extracao_bruta/raw/cid10/CID-10-CATEGORIAS.CSV",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "13XjLgP0Fq5-8UoiMda1G6g-zzLITkqJf",
+      "disposicao": "IMPLANTADO",
+      "sha256": "e66d7490c00b4135498711cea4e04dabd30492276bb07d93430c284f09f53c57",
+      "copia": "data/legado/extracao_bruta/raw/cid10/CID-O-GRUPOS.CSV",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1kzd2CjIke1A63qx8A9aJhUx5vKznnyr9",
+      "disposicao": "IMPLANTADO",
+      "sha256": "70457ee9d9342f43bda2010318c85f04210c689fdeb9cd2da4c513b0e8dbc655",
+      "copia": "data/legado/extracao_bruta/nutricao/raw/FoodData_Central_foundation_food_csv_2026-04-30.zip",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1vm5_U_zlxkk2FhuOC9hPVbQj3vrZOQdt",
+      "disposicao": "IMPLANTADO",
+      "sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0",
+      "copia": "data/legado/extracao_bruta/nutricao/raw/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1znYzpP4NzjACSKGtBwfvNY23-fJiljab",
+      "disposicao": "IMPLANTADO",
+      "sha256": "f55d931a166882974443a003ad16ce8b95bbbca8c1abd841c17dcf94ce52856e",
+      "copia": "data/legado/extracao_bruta/epidemiologico/raw/portaria_gm_ms_11211_2026.html",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1uNJ5aIcevM8CV2EMIwaHRNLTgkIEiXZy",
+      "disposicao": "IMPLANTADO",
+      "sha256": "efd2a6770f0f648ce76e10ac2889602b2ea8fa8ca4b63deb33ca883e7d0d7413",
+      "copia": "data/legado/extracao_bruta/vacinas/raw/cvx.txt",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1C4CpoBq9JEPcPazFziCtxB_7cPtVhurw",
+      "disposicao": "IMPLANTADO",
+      "sha256": "741b8fd21c77887c4d2dc9ce1119a58d2659152007bda6791ffc57fdc098ce3d",
+      "copia": "data/legado/extracao_bruta/vacinas/raw/supporting-data-4.65-508.zip",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1ie7zBt9a7QUSFa0q1Pu6LXHXet3u3oXu",
+      "disposicao": "IMPLANTADO",
+      "sha256": "e843e1ba8cbe781692101282ac4e7dee10ae66ad262a620aa03abc781918c7cf",
+      "copia": "data/legado/extracao_bruta/medicamentos/raw/TA_PRECO_MEDICAMENTO.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1QANc6VZNRicGCkdO0rwfpJP7ZeDuxGDC",
+      "disposicao": "IMPLANTADO",
+      "sha256": "b71283bece2e11db95ffc48069fee0b4020c117ead18007fbc95c4f2082965ea",
+      "copia": "data/legado/extracao_bruta/medicamentos/raw/DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1aNuM4zJ5QHkAtmbYMCpG9hlB3O8KBuFW",
+      "disposicao": "IMPLANTADO",
+      "sha256": "da13db50b39d002144195ceae3d9068582d24c725ab394a2fa5cbaa810e05bf0",
+      "copia": "data/legado/extracao_bruta/medicamentos/raw/drug-shortages.json.zip",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1iy-12zaFSIWjQiVloq-W3QzOq64Nxpgo",
+      "disposicao": "IMPLANTADO",
+      "sha256": "d1861731eeaa68d28adce6e33250b1b0061fa1ac94f67a6ad09cf814c168ee7a",
+      "copia": "data/legado/extracao_bruta/medicamentos/raw/drug-ndc.json.zip",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1NIlJmWM22xKQLZma7OwjDJgKA8aunoN_",
+      "disposicao": "IMPLANTADO",
+      "sha256": "6e4a94d9e7f7bc176e8f2ed50ea016cf0bded7ab3d42c6d90da785e6063ddcef",
+      "copia": "data/legado/extracao_bruta/dispositivos/raw/TA_PRODUTO_SAUDE_SITE.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1u-SO7w_Mrvmrm9GmOuOllNNduQzqHId8",
+      "disposicao": "IMPLANTADO",
+      "sha256": "c1b65415257d0984e3cbadd34870ab4ef24c7af88cc7245945c3a5b5887f8a6e",
+      "copia": "data/legado/extracao_bruta/dispositivos/raw/device-classification.json.zip",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1EmKkhmEAakgJo35_1oUDx56N88pXyaH1",
+      "disposicao": "IMPLANTADO",
+      "sha256": "ccd4d0d33bebfd4c836a59e7dd0c635b1d4e20c4f5a6abc55e2eb0ba4c8716dd",
+      "copia": "data/legado/extracao_bruta/mesh/raw/desc2026.gz",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1dqb2pWwcfCfB4fWBLXHRMGD32zQcARHH",
+      "disposicao": "IMPLANTADO",
+      "sha256": "ba9f9a79eea89e57319eaf59757af8638286545ad4b3ba8fa5cbce11d6857422",
+      "copia": "data/legado/extracao_bruta/icd11/raw/SimpleTabulation-ICD-11-MMS-pt.zip",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1ulqgD6D-4NKo-jwySjc-re06l_xD8qjZ",
+      "disposicao": "IMPLANTADO",
+      "sha256": "d314ab1be679f50cbfe5646c071cd04e6b8addd9b6e9dd4c36000044b0330e1c",
+      "copia": "data/legado/extracao_bruta/suprimentos/raw/catmat_classes_6510_6515_6530_6532.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1p-0sOjq9aUTwSQtlbDwLErcrNO3ZC_fB",
+      "disposicao": "IMPLANTADO",
+      "sha256": "b20ea7e6c046b149beee7085bb38ef628d8d16ac03f1bc310f37849c4773f591",
+      "copia": "data/legado/extracao_bruta/sinais_vitais/raw/bodyheight.profile.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Hd3TfVp13PvbIXeSOOftrlWYUklhYJoB",
+      "disposicao": "IMPLANTADO",
+      "sha256": "700c3d1e082a72dcb3fbf2d7c2d31579cd45f7c07ec9ad5102172c84020141a5",
+      "copia": "data/legado/extracao_bruta/sinais_vitais/raw/heartrate.profile.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1faBmxjPbWodEv1xMtJMRk6AHtzLDEMwL",
+      "disposicao": "IMPLANTADO",
+      "sha256": "84def63e2aa5691e247bcddc7578e9ed4c1c5c6f5d68b750acfb877450fab777",
+      "copia": "data/legado/extracao_bruta/sinais_vitais/raw/resprate.profile.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1fj3kMl2ssPUIl5pYeiejtqbMwNHqixmm",
+      "disposicao": "IMPLANTADO",
+      "sha256": "b2c51dbe1c0fcdd44fb199db7742a164322540908494cb5d586cfd739bc5a0f2",
+      "copia": "data/legado/extracao_bruta/sinais_vitais/raw/vitalspanel.profile.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1X02pL7bXDEmeJQeuL7o0vaMJKww00YWD",
+      "disposicao": "IMPLANTADO",
+      "sha256": "30f9e6f27f46ce40d94d6ad543ceb66465306843413a1a646a6cda5d3d42ebe3",
+      "copia": "data/legado/extracao_bruta/sinais_vitais/raw/bodyweight.profile.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "128tlK5NGu4OcrVCNPu2Fe8zMRhav-GFH",
+      "disposicao": "IMPLANTADO",
+      "sha256": "68edb98807b704911308ab91a5e3c7ac365827cd7d4c141c245902f2dbbec302",
+      "copia": "data/legado/extracao_bruta/sinais_vitais/raw/vitalsigns.profile.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1XSIq0-XOOCbz7T6fJvlD5MIi33Uhexj_",
+      "disposicao": "IMPLANTADO",
+      "sha256": "d4e8a936457662013a6941baf18a2b395f0e2f40a9c8079ce179d3073d0a8324",
+      "copia": "data/legado/extracao_bruta/sinais_vitais/raw/bp.profile.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1XnocODMjVObuSuaTWAa5fbUmhqOGhmup",
+      "disposicao": "IMPLANTADO",
+      "sha256": "173fff2535fb33523429243fc10eee2de2e5e18b2cee921f3776dd1124dc275f",
+      "copia": "data/legado/extracao_bruta/sinais_vitais/raw/oxygensat.profile.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1v8kJG17gxpxDZ3nIJrRSkwe1akXguX0C",
+      "disposicao": "IMPLANTADO",
+      "sha256": "3d5863c5bc54fd926c24166ababf28cc406945a95af48e92af3b478d7fcd52c8",
+      "copia": "data/legado/extracao_bruta/sinais_vitais/raw/headcircum.profile.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1WQYnYl4kR6vjvKUwdoQpQhyoLMm0Yrn8",
+      "disposicao": "IMPLANTADO",
+      "sha256": "26b550ae22882cb5dbcb3792b9154d5f0b41e48f1183861715ed2006e5b8988d",
+      "copia": "data/legado/extracao_bruta/sinais_vitais/raw/bmi.profile.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1HJbgLTmvpe7xafjrrmyZB5LXUirD0kmt",
+      "disposicao": "IMPLANTADO",
+      "sha256": "b9860ea4b49b32309cdb0742dc484aefe459626f67ce4e20a3341bd3fe64202b",
+      "copia": "data/legado/extracao_bruta/sinais_vitais/raw/bodytemp.profile.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "18E0nmDuaVFcCzKUFGSEEcDfXocRNKggg",
+      "disposicao": "IMPLANTADO",
+      "sha256": "ec1afc6e7d8421cf3e74dfa2e5602078468e7604307215a5816734a106951693",
+      "copia": "data/legado/extracao_bruta/sinais_vitais/raw/valueset-observation-vitalsignresult.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1lxcRl5BgzbFwO3hIOIkZkHBoN_ywZc_B",
+      "disposicao": "IMPLANTADO",
+      "sha256": "ae1f946dc6a230c4b744293791e9164c6347cd8a453d677a1c1aff61bf88c536",
+      "copia": "data/legado/extracao_bruta/raw/mplus_topics_2026-10-10.xml",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1PEzDf4oWIyChctfwu7mB_6luZIOCDzAe",
+      "disposicao": "IMPLANTADO",
+      "sha256": "84f23809275575f751255048064bbb244b0de33fd5987ab98df0f98e5f5d2c95",
+      "copia": "data/legado/extracao_bruta/raw/CID10CSV.zip",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1a0Fb5ALbKlHLGrpwACGZOKD7IOYgnqGh",
+      "disposicao": "IMPLANTADO",
+      "sha256": "c373fbca75fe70dfc858839d56790443d8e20233f94a507dca79cb99df5e7677",
+      "copia": "data/legado/extracao_bruta/revisao/REVISAO_TABELAS_TRANSCRITAS.xlsx",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1XvlU7qBILooUFFc9pcmzo-ensGqtpj7b",
+      "disposicao": "IMPLANTADO",
+      "sha256": "15a58dac11c3f0ba41eb3a84cb7887554f35030c9f4935fc912c72f7b013ba93",
+      "copia": "data/legado/extracao_bruta/revisao/revisao_qSOFA.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1PTtuKNOitjawEe6FzA1J2XnMrD85b2sV",
+      "disposicao": "IMPLANTADO",
+      "sha256": "7ae05e972daba72eceecac23646a29e8292e027d579062601fb71b8895fe3747",
+      "copia": "data/legado/extracao_bruta/revisao/revisao_PA_DBHA2020.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1_hhZ0CnjYa2QZeDiMHiRelGBuGh-8kEl",
+      "disposicao": "IMPLANTADO",
+      "sha256": "68ba07bb237f686508fc66fd324f40795e0f2ab0650f29341f9d0165c7b570ad",
+      "copia": "data/legado/extracao_bruta/revisao/revisao_NEWS2_risco.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1_aWF3oT6MzjDcDvTBSQy4lWjltHYJdm2",
+      "disposicao": "IMPLANTADO",
+      "sha256": "92df881c74b8a62df1b2748a193254765cbd0a6c62886fdc9bb1353647014002",
+      "copia": "data/legado/extracao_bruta/revisao/revisao_definicoes_sepsis3.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1OhBHZDGjPC_hy1xNJHQ5X9VuqagZYndj",
+      "disposicao": "IMPLANTADO",
+      "sha256": "fb00eb75c1928e68d4738d575d00b27bf059e293d9a584bfb4371fb72694d51e",
+      "copia": "data/legado/extracao_bruta/revisao/revisao_SOFA.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1wf4PoVv2aJRm_ehI4-krVBdShmtS9eQM",
+      "disposicao": "IMPLANTADO",
+      "sha256": "b2f7035d376b46946d42d029cd135a0c347dff3604b3ab15aa8c096cc460b319",
+      "copia": "data/legado/extracao_bruta/revisao/revisao_NEWS2_pontos.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "11X4un3UKuw3D-wFq2QoE-AEipo-BjbKB",
+      "disposicao": "IMPLANTADO",
+      "sha256": "da127a6f90f4534673ec929dbb74fde7da7241e0500fbb936f65e8e9d47437b5",
+      "copia": "data/legado/extracao_bruta/protocolos_enfermagem/indice_protocolos.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1S3V29LPUmDTxTdBV85s0ZZPOqaHYpFz5",
+      "disposicao": "IMPLANTADO",
+      "sha256": "f37322e9342f46abfe8ff97a6c51658428170982aa9552001e7b5359adb46038",
+      "copia": "data/legado/extracao_bruta/protocolos_enfermagem/conitec_tecnologias_diretrizes.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1gHsu7CiD50uLszPhsboghn2S88LB2dPB",
+      "disposicao": "IMPLANTADO",
+      "sha256": "1f8a8e04174fb070b507eefe3c99e42b72d013e7eec9667edfc26f8556bf9632",
+      "copia": "data/legado/extracao_bruta/protocolos_enfermagem/conitec_pcdt_situacao.csv",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1T8YhQppUtEoTlB9ELBgRtA2rIgt-hobr",
+      "disposicao": "IMPLANTADO",
+      "sha256": "dbe02b65e038a8767ef3df88ad93ffefb6d9f884a9472cb742b5fa024b443b2f",
+      "copia": "data/legado/extracao_bruta/protocolos_enfermagem/conitec_tecnologias_diretrizes.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "12VCC3Ukx0ZbtR7albdvfdfjhNPhbb8S3",
+      "disposicao": "IMPLANTADO",
+      "sha256": "b0ddbe72ca350fdd5546a7531801af04d8905fd1ab3895daf3017c5ba963f6a1",
+      "copia": "data/legado/extracao_bruta/protocolos_enfermagem/conitec_pcdt_situacao.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1ZSyIaB54279pxbt978pQznrf3neRWLwu",
+      "disposicao": "IMPLANTADO",
+      "sha256": "e45c0fceab270b4af4dac3014aa2abb87bc34c15bdf82f9ff5bb904b517e74dc",
+      "copia": "data/legado/extracao_bruta/protocolos_enfermagem/indice_protocolos.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1fhlLt9lJTaTB_yvrDc0HaEhTPTsOOO8M",
+      "disposicao": "IMPLANTADO",
+      "sha256": "d5725e482bfe7b76f0653f0a676e686d1b99bdaa4f84f679276d4bc25e4cd947",
+      "copia": "data/legado/extracao_bruta/protocolos_enfermagem/raw/conitec_pcdt_situacao.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1TZyIPpWjey-gydkIElB1jL_PPPYm50Yy",
+      "disposicao": "IMPLANTADO",
+      "sha256": "5aea36f15143cb15df6ddb89ee13e87a0b156db3d8a6f48f7ef7891186a9b58b",
+      "copia": "data/legado/extracao_bruta/protocolos_enfermagem/raw/conitec_tecnologias_diretrizes.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1R1xFb99ehGppHbfQEXeNCMEhkB2Kfboc",
+      "disposicao": "IMPLANTADO",
+      "sha256": "b613754256f54883345213c85c379bb7178c1f4d26d774915deaa91aa59c0508",
+      "copia": "data/legado/extracao_bruta/protocolos_enfermagem/raw/pdfs/Guideline_for_Isolation_Precautions.pdf",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1qCRop-FZFBxxZQbbT2JUTWiUD8Hpqk2g",
+      "disposicao": "IMPLANTADO",
+      "sha256": "ff0a85fa4d81680b6b3c0c0ccb237c1475b2876214971228b7567e45d5d3d8c9",
+      "copia": "data/legado/extracao_bruta/protocolos_enfermagem/raw/pdfs/Instrucao_Normativa_do_Calendario_Nacional_de_Vacinacao_2026.pdf",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Q9I0ymWNFJ-t-g8eMz7smFX_Jz30kc4e",
+      "disposicao": "IMPLANTADO",
+      "sha256": "fc882cd862a4ddef7ef4efad5a777c9cb6be5de5e44720b20c2478f422d10934",
+      "copia": "data/legado/extracao_bruta/protocolos_enfermagem/raw/pdfs/Protocolo_para_Cirurgia_Segura_PNSP.pdf",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1DI93yP4vtohgcN68_RRE1ZQRBULh2ujA",
+      "disposicao": "IMPLANTADO",
+      "sha256": "f1b7d1a86193982b99ad4d7a68d54d359b77f3ad3ee8eea931ff6a266bef21a6",
+      "copia": "data/legado/extracao_bruta/protocolos_enfermagem/raw/pdfs/Manual_de_Normas_e_Procedimentos_para_Vacinacao_2a_ed_rev.pdf",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1LalSePDqjgrpgN7PRUBDKlMCIiyRhOMK",
+      "disposicao": "IMPLANTADO",
+      "sha256": "5d83345b49ee9fac862423e9534afe7c04f44c200f5f752738b782012c5a7680",
+      "copia": "data/legado/extracao_bruta/protocolos_enfermagem/raw/pdfs/Protocolos_da_Atencao_Basica_Saude_das_Mulheres.pdf",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1ej566oEMOi1hC0jmM23PwPd7NId6BSo7",
+      "disposicao": "IMPLANTADO",
+      "sha256": "3fb4e597f053aefeb1aadf9b50c1ace53c32ca687454c28184814741677d7a49",
+      "copia": "data/legado/extracao_bruta/protocolos_enfermagem/raw/pdfs/Resolucao_Cofen_no_736_2024_Processo_de_Enfermagem.pdf",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1PhJcBnmXyMKESP4QC_BWp4kmtJdClvIS",
+      "disposicao": "IMPLANTADO",
+      "sha256": "8d0ff473b1fcbf5190a20b73d27bc97970a916503c73b0d323a7fbd00f47a4b2",
+      "copia": "data/legado/extracao_bruta/protocolos_enfermagem/raw/pdfs/Portaria_GM_MS_2_095_2013_com_anexos_Protocolo_de_Prevencao_de_Ulcera_por_Pressa.pdf",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1EWt9xFlf25imzyZaH27SWNUEg_VLZt-N",
+      "disposicao": "IMPLANTADO",
+      "sha256": "0fef60b19a1732814a2bdd3ca5754c2fe33e0ec781ff0b2e6f8e5e3f223496ca",
+      "copia": "data/legado/extracao_bruta/protocolos_enfermagem/raw/pdfs/Protocolo_para_a_Pratica_de_Higiene_das_Maos_em_Servicos_de_Saude_PNSP.pdf",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1fGXDqeQI4JTs7M9aMew2S7_dFBcJYYzw",
+      "disposicao": "IMPLANTADO",
+      "sha256": "305e64d923d193f3f2fa4b24cc93b787975e4ae19e161ad00ec31b70a844c8d2",
+      "copia": "data/legado/extracao_bruta/protocolos_enfermagem/raw/pdfs/Protocolo_de_Identificacao_do_Paciente_PNSP.pdf",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "12C8riQd-JrPML1Q_7w_7Ck3w4bMHQc8C",
+      "disposicao": "IMPLANTADO",
+      "sha256": "3d151c1d1c81f593ae2acd3e149029a01ee2a42b09e18eeff246e1a0dba36561",
+      "copia": "data/legado/extracao_bruta/protocolos_enfermagem/raw/pdfs/Guidelines_for_the_Prevention_of_Intravascular_Catheter_Related_Infections.pdf",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1MWW8d24TeoOhiXWnTBD6ybX_KKfsWcEI",
+      "disposicao": "IMPLANTADO",
+      "sha256": "7136cad2a16d2a7f4447f47c8dea65160f2ddce1bd4939c76b22d7084401f1bc",
+      "copia": "data/legado/extracao_bruta/revisao/cofen736/EVIDENCIA_COFEN_736_2024.md",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1E7osopWj82_wpiDC-LeDMVkvCo7DMeOz",
+      "disposicao": "IMPLANTADO",
+      "sha256": "6893f9654a448e0493048bb4c9643d89c7b52d39948d213eb54aed7032572dba",
+      "copia": "data/legado/extracao_bruta/revisao/cofen736/dou_2024-01-23_s1_p74.txt",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "13c2ZH0fa5ZfI77VoJT3adOxtpKdO00-u",
+      "disposicao": "IMPLANTADO",
+      "sha256": "82e35246e1ddcff6b3e4c19ea4ef80f6d575a4ad691984e4ab35db59dc130444",
+      "copia": "data/legado/extracao_bruta/revisao/cofen736/headers_cofen.txt",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Pdz-GRWv_VNUJ92IUHRqYz_NR97b3bF8",
+      "disposicao": "IMPLANTADO",
+      "sha256": "6893f9654a448e0493048bb4c9643d89c7b52d39948d213eb54aed7032572dba",
+      "copia": "data/legado/extracao_bruta/revisao/cofen736/oficial_cofen_Resolucao-736-2024.txt",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1SdN3_j5f6XOb7hjK3WXEFTb1W-xH6Wfb",
+      "disposicao": "IMPLANTADO",
+      "sha256": "abb6d38ec90d6128795d8e9ae240818aeade62e92f5eef7a888a2a415506304c",
+      "copia": "data/legado/extracao_bruta/revisao/cofen736/headers_cofen_2.txt",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "17u2av6F_sLm8louoBmx6p-xv1_O9efeB",
+      "disposicao": "IMPLANTADO",
+      "sha256": "0ca6f15b92c51556d270b38a6018bfd706290c087e78e181436fa4f5a59ec930",
+      "copia": "data/legado/extracao_bruta/revisao/cofen736/oficial_cofen_2_Resolucao-Cofen-no-736-2024-Dispoe.txt",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1rsLWfo1QNNhfZE5ox9JMERvEhQkE0tLP",
+      "disposicao": "IMPLANTADO",
+      "sha256": "5480b62213aa51888e8cd6024ff249197790209eb9c9de38a7c95bcb39447fbd",
+      "copia": "data/legado/extracao_bruta/revisao/cofen736/diff_dou_x_sei.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1j-Oc5GJilKcbWkyiDHzgz69yJWO-eWCX",
+      "disposicao": "IMPLANTADO",
+      "sha256": "63aa32f52b2886c48dc5f36d82a67a3770b4712e42b9090dd1875f6f8ac45432",
+      "copia": "data/legado/extracao_bruta/revisao/cofen736/headers_dou.txt",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Y7eFgSP02wYSxe81vBeZ0aFHftVejPuf",
+      "disposicao": "IMPLANTADO",
+      "sha256": "188b136452c9c5373297698263aa2483029ee21c8e56dc0bb5c837f4a5934479",
+      "copia": "data/legado/extracao_bruta/revisao/cofen736/data_download_utc.txt",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "11jzESaG3WYXHf60LfILnRaDKhzBnbBuP",
+      "disposicao": "IMPLANTADO",
+      "sha256": "f302110a6564257b782c6286908b5bdcb1897436c3c15998f138cabd8d8fd3a4",
+      "copia": "data/legado/extracao_bruta/revisao/cofen736/dou_2024-01-23_s1_p74.pdf",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "17262fugB2BERb_0CwWdzL-oEzE_dd_3a",
+      "disposicao": "IMPLANTADO",
+      "sha256": "8a8a9ecb5987a308f8e51fa2a291ea19c9284c9712300744f144c7ba48c3329e",
+      "copia": "data/legado/extracao_bruta/revisao/cofen736/oficial_cofen_2_Resolucao-Cofen-no-736-2024-Dispoe.pdf",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "19QYmIDCMIKMcjCgM76KAMbAsaPjtDbrq",
+      "disposicao": "IMPLANTADO",
+      "sha256": "56d0a08104f82bea7ca252f3d4192d7278dd593cbfd9f673643f83005a41d0f6",
+      "copia": "data/legado/extracao_bruta/revisao/cofen736/EVIDENCIA_COFEN_736_2024.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1f6qWkOTcdgB02ZztomCZFIxaRV9NL0bc",
+      "disposicao": "IMPLANTADO",
+      "sha256": "44d73920cafc5c7dc8c1a022c5273e4440fba6512f3891a15c51a3ea8e98b2cb",
+      "copia": "data/legado/extracao_bruta/revisao/fontes/NEWS2_RCP2017_Chart1_scoring_system.pdf.headers.txt",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1cPNiJuCesP_tYYHPsLc1Bs8HwVL5vW3Z",
+      "disposicao": "IMPLANTADO",
+      "sha256": "459bc15915b9e9f486f3b6b75e52f480333c2e1859ca1ba70bb98ea0278de331",
+      "copia": "data/legado/extracao_bruta/revisao/fontes/Sepsis3_Singer2016_JAMA_VoR_via_AmsterdamUMC.pdf.headers.txt",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1NeMIJ7yir4wVVFVpW48WsdwZ-FsV3qFM",
+      "disposicao": "IMPLANTADO",
+      "sha256": "fde2438c2cceff79f6aaacb8dce7bb8eb3daa1eede5bb3d14e7c2baab8c60f7b",
+      "copia": "data/legado/extracao_bruta/revisao/fontes/NEWS2_RCP2017_Final_report.pdf.headers.txt",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1j6wWiK076Qu78npOsL07iuvlTjhxyAAr",
+      "disposicao": "IMPLANTADO",
+      "sha256": "d3cb1a80ecab4659ae4a724a689bad6040652d19093c7a26a8ba67fa42681234",
+      "copia": "data/legado/extracao_bruta/revisao/fontes/NEWS2_RCP2017_Chart2_thresholds_triggers.pdf.headers.txt",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1KW8VWo_wvhBvSq2NUdzI7vKaKbZ-5LOz",
+      "disposicao": "IMPLANTADO",
+      "sha256": "8a7095e99ee95489929bd9b30a71464f88c9d42aac897444f5f2801dc3d6161c",
+      "copia": "data/legado/extracao_bruta/revisao/fontes/DBHA2020_ArqBrasCardiol_116-3_516-658.pdf.headers.txt",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "18b_csdHpKYdMXvGj7SioKMeRpi1Wp17f",
+      "disposicao": "IMPLANTADO",
+      "sha256": "aa9c25a3c016b2fa2d43b816bba98c410f1e6a7d72c331f9f0aa6539bb41cc4e",
+      "copia": "data/legado/extracao_bruta/CKO_CURSOR_00_CONTROLE_v1_0_0.zip",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Gvio35Z6BxIpfZ5dnfkbyR2kuD5HW5pJ",
+      "disposicao": "IMPLANTADO",
+      "sha256": "606bb9d27e7ceb531b38a4507ba3fbe0ab1a89d803763e19abc92e393569acf4",
+      "copia": "data/legado/extracao_bruta/atomizado/mesh/descritor_mesh.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1-65SxZCXaxEBbKOKobwXMXQS2CmvqlHv",
+      "disposicao": "IMPLANTADO",
+      "sha256": "619a2a9b5720d4cbe0c883ace2ff71b83e450a0619137784ab2c0b082ce00c3c",
+      "copia": "data/legado/extracao_bruta/atomizado/mesh/MANIFESTO.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1xrXaCPpl0EehFytt3SaZLMTttHRm02Mg",
+      "disposicao": "IMPLANTADO",
+      "sha256": "4992ca890a72b68842406c8f9c2bf655eec7b693afce7a4820558e43cafc7116",
+      "copia": "data/legado/extracao_bruta/atomizado/cid10/grupo.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "16pxNuoWB7G--6EzFkrsrM9E5cH13ZUYo",
+      "disposicao": "IMPLANTADO",
+      "sha256": "da3a540d800207f394fc5f119c08a164ea5f4dc0453986fac835e66671455fdf",
+      "copia": "data/legado/extracao_bruta/atomizado/cid10/capitulo.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1eWGS95r4tIM5a6FEDXixivpbhhyH7F94",
+      "disposicao": "IMPLANTADO",
+      "sha256": "363fbbb4c4c2f80622ae2e31c806d093305ebfcd270aa3906408f166718a105d",
+      "copia": "data/legado/extracao_bruta/atomizado/cid10/MANIFESTO.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1aoyHl_db4xeApDIJyYX5alVNpaXbvMOz",
+      "disposicao": "IMPLANTADO",
+      "sha256": "ee61d4260657965067cf1569b54a15b30824d23df8475fbaf270365fbd04de10",
+      "copia": "data/legado/extracao_bruta/atomizado/cid10/categoria.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1dsx3I9i1nsPRg7Fy8O7c1XYdDBwFAIKR",
+      "disposicao": "IMPLANTADO",
+      "sha256": "e6e214bb0753a14143045eef6f738a7e7ee2be542f2ca38f37636715c33c6cb9",
+      "copia": "data/legado/extracao_bruta/atomizado/cid10/subcategoria.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "11hOX3ctWJZC2A1t8743T4CWbBh-qRFT1",
+      "disposicao": "IMPLANTADO",
+      "sha256": "f868f3a6a7fd1acfee9eb44887a21a28a8d9ab832cc4fe523988fac1ecc0094f",
+      "copia": "data/legado/extracao_bruta/atomizado/cid10/cido_grupo.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1GiCe9So0ps5NAY7A7cj8fggTzmqlA_fC",
+      "disposicao": "IMPLANTADO",
+      "sha256": "a23603ea207ffaea4064853ea4285516be30aacab4889d7da4809856c7da2b49",
+      "copia": "data/legado/extracao_bruta/atomizado/cid10/cido_categoria.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1V6lShVDnG2vgSOpkn-wWUw3jzCq7RB9g",
+      "disposicao": "IMPLANTADO",
+      "sha256": "5ddb28d208a9d679948336b4b80ef59483778b2f2f3b19a243e8d6429fdb3217",
+      "copia": "data/legado/extracao_bruta/atomizado/vacinas/dose_esquema_cdsi_acip.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1U94wdcQgab-rM6a90eM33Q46ZWYKDf1W",
+      "disposicao": "IMPLANTADO",
+      "sha256": "667e03746b0123712792db7092983c867bb43972f851dafbbceee9c6bbd7303c",
+      "copia": "data/legado/extracao_bruta/atomizado/vacinas/observacao_condicao_cdsi.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1156_196L_SBGoFJUjbcLG8NmFFNV-KKf",
+      "disposicao": "IMPLANTADO",
+      "sha256": "51ba29464a9e975c96411cd42acf3a17e46ac82fe674f9aecaaae7d1a304b325",
+      "copia": "data/legado/extracao_bruta/atomizado/vacinas/codigo_cvx.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1SGQn2b3CN2vaNr9lNryxa4toSopVhHzM",
+      "disposicao": "IMPLANTADO",
+      "sha256": "532d00a702a1f809dfaaea31652cf7e76b10f74de56287f62ae56bc75551112c",
+      "copia": "data/legado/extracao_bruta/atomizado/vacinas/associacao_cvx_antigeno_cdsi.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1wLeUxXPqu5uJe-_oLx8LGXmszuUP1hGe",
+      "disposicao": "IMPLANTADO",
+      "sha256": "61f389edc707cf7d2bc7586edde59365e1c105de5ceb4af03779a9688c430651",
+      "copia": "data/legado/extracao_bruta/atomizado/vacinas/MANIFESTO.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1BzpgjBboP-WnTGtx6h31ZAmUHbCVhoqq",
+      "disposicao": "IMPLANTADO",
+      "sha256": "36b35c37643db97f945236feeebc251c951b1d43ddf6c290641d1ca446b63cd1",
+      "copia": "data/legado/extracao_bruta/atomizado/epidemiologico/notificacao_mpox.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "16owgQjVxLaXqLnevFSeKurGRT29BnGy2",
+      "disposicao": "IMPLANTADO",
+      "sha256": "68fdfa8878b5f926404ce12520e747cbea919fca79ea890e974c451f27610f10",
+      "copia": "data/legado/extracao_bruta/atomizado/epidemiologico/obito_sim.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1m21NjM10nPI9TrjSZYPxCjFkACoROrEi",
+      "disposicao": "IMPLANTADO",
+      "sha256": "a527199f58a3e527abd7409d06d47c52d8632340ef2e03d40a4a9163bffa8ca7",
+      "copia": "data/legado/extracao_bruta/atomizado/epidemiologico/MANIFESTO.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1HBKJ1PFREEVSvw58pqkozFF_IFh3k9H6",
+      "disposicao": "IMPLANTADO",
+      "sha256": "c44216eda28eaac391fb25a8842f672ba3bc0c8bd7db1d7446f6b6093290b9e4",
+      "copia": "data/legado/extracao_bruta/atomizado/epidemiologico/epizootia_febre_amarela.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1iqCnXxs2Yy0Olrp95LfeUCmQo7fHr9eY",
+      "disposicao": "IMPLANTADO",
+      "sha256": "44ab6d81e458d71792b384e09037e0377c73b3ec4280fc82be01cebef203382b",
+      "copia": "data/legado/extracao_bruta/atomizado/epidemiologico/notificacao_sinan_chikungunya.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1w56pn1deMxGFF4cZYqQ9DWfmOToJfmSj",
+      "disposicao": "IMPLANTADO",
+      "sha256": "947e194d135dc58f008ae8d8ac2189f6ad924f197d9642984679926d76220991",
+      "copia": "data/legado/extracao_bruta/atomizado/epidemiologico/notificacao_srag.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Nhwt0tJUPd_sE0VHweHgSuGcBRsaBmD-",
+      "disposicao": "IMPLANTADO",
+      "sha256": "3ad6f61cb22bcf4d8997d7af6c26d4c3c72285f02a337f0f1894fb1ce2705c17",
+      "copia": "data/legado/extracao_bruta/atomizado/epidemiologico/notificacao_sinan_zika.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1BNHpl3rqNncLXrrFxTmZnG9jL_gnjoCQ",
+      "disposicao": "IMPLANTADO",
+      "sha256": "1c74862d40ade00508a34f2b358b751cdd8689cf86619f29d524be2a58de91c9",
+      "copia": "data/legado/extracao_bruta/atomizado/epidemiologico/notificacao_sinan_dengue.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1SGGVODmWhh5gV6BokIBmLZE8Wv9MJ3QG",
+      "disposicao": "IMPLANTADO",
+      "sha256": "a164f2a87444b1fdc093ce758dd30a6c6944e041b96e8b605a8db5674f5eb4c5",
+      "copia": "data/legado/extracao_bruta/atomizado/epidemiologico/caso_febre_amarela_humano_primata.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1fuNwc1OubL8UdvW5KQK2qsZ6BXrpAnys",
+      "disposicao": "IMPLANTADO",
+      "sha256": "a8679098244fc6376ceed6be45d0db70a2871efe6e480cbe160ec7f27b235a91",
+      "copia": "data/legado/extracao_bruta/atomizado/epidemiologico/agravo_notificacao_compulsoria.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1KLWHvmkBBdE9-upJr4V-pLR_SezNZhJO",
+      "disposicao": "IMPLANTADO",
+      "sha256": "28dd0e1eddd67e291fe71c149fc6400374bb68715daa1ef8d4353199b71a774c",
+      "copia": "data/legado/extracao_bruta/atomizado/vacinal_brasil/dose_aplicada_pni.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "19zAGT894c91MqNrxhQ3zepz0UTZuL3Bp",
+      "disposicao": "IMPLANTADO",
+      "sha256": "57db980f98e6e5f39b832c2b1e9f4327a067423502f58dfb0e90671ba3f8c514",
+      "copia": "data/legado/extracao_bruta/atomizado/vacinal_brasil/notificacao_esavi.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1fvirYL2ywWFYvjDd_nCcJLI3aOL9bI2Q",
+      "disposicao": "IMPLANTADO",
+      "sha256": "0d24bac84b0ffb970531e26ba871fab3bbbaf35a37b4453400b9b1b218294e19",
+      "copia": "data/legado/extracao_bruta/atomizado/vacinal_brasil/cobertura_vacinal_polo_sesai.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1i3LejaC8MmhdSfMl6JpfM5OjTxBXqJmJ",
+      "disposicao": "IMPLANTADO",
+      "sha256": "47caf7388785a6665ce29e3d9b1486fafd498a018dd2c92a3fc45fdc52bb5c6c",
+      "copia": "data/legado/extracao_bruta/atomizado/vacinal_brasil/MANIFESTO.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1UT9IWqGwsX2s95FVnkIZWq0bQw2HSF3a",
+      "disposicao": "IMPLANTADO",
+      "sha256": "91e0a3b66c5db8162255c99def77e45d36c6cdbecdaee5820a34661100de3be5",
+      "copia": "data/legado/extracao_bruta/atomizado/vacinal_brasil/movimento_insumo_sies.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1me5_9-nXNDXkfTI86YLyzm8Np15sH_VD",
+      "disposicao": "IMPLANTADO",
+      "sha256": "85d6bc212c6cd2469c0e78c78cf8e19519d2000deaefd58262efa2cfc50308c3",
+      "copia": "data/legado/extracao_bruta/atomizado/sinais_vitais/MANIFESTO_2026-10-10.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1ftJeCth0rcSWF4BQ18kzowny6Tj9Zoai",
+      "disposicao": "IMPLANTADO",
+      "sha256": "427fdd11a4b6f7de5f48de47b1df37a7f389afe3147b0a5f53789c00cf408933",
+      "copia": "data/legado/extracao_bruta/atomizado/sinais_vitais/classificacao_pa_dbha2020_transcrita_manualmente_v2.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Uyl6rdP249hmR5Bng3rIlcYTaNrKGgCb",
+      "disposicao": "IMPLANTADO",
+      "sha256": "517f36fb1d23cee7311c010a389f6db063eeddbc6b24684302bf51b690eb0fa4",
+      "copia": "data/legado/extracao_bruta/atomizado/sinais_vitais/MANIFESTO_v2.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1mOMdoYo6cUAsljlKvMaS-zO_5rJlgIty",
+      "disposicao": "IMPLANTADO",
+      "sha256": "b717da83d391cd25642d60b35b31f4eebc8edaf1875ab5d6be26c40651a99171",
+      "copia": "data/legado/extracao_bruta/atomizado/sinais_vitais/risco_news2_transcrito_manualmente.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1s-ANBr-SU-IERu9QDl85-KvkbK25R7dC",
+      "disposicao": "IMPLANTADO",
+      "sha256": "94303acd7d6aa0e45149803cb0f323dcf68f3bf6dfa637f300d2f1ad2bade0f1",
+      "copia": "data/legado/extracao_bruta/atomizado/sinais_vitais/pontuacao_news2_transcrita_manualmente.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1XuQdGPv-VuaaBqhrJr0qN-PrKKhMFf19",
+      "disposicao": "IMPLANTADO",
+      "sha256": "f95625f42b888d2b088b025b3c0c4546b58454c25f1d8ca13be2051197c15785",
+      "copia": "data/legado/extracao_bruta/atomizado/sinais_vitais/codigo_loinc_perfil_fhir.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1MkRprgzaunssjNvLc-909U_NZNOsgNvW",
+      "disposicao": "IMPLANTADO",
+      "sha256": "7917a82bb69258ac8e7dcfaf75c80411a91c5a529f82b5ad642903fbb6bb2864",
+      "copia": "data/legado/extracao_bruta/atomizado/sinais_vitais/classificacao_pa_dbha2020_transcrita_manualmente.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1ifA3ddCOX8DqkVLApTG04h0wcQn9Ymsi",
+      "disposicao": "IMPLANTADO",
+      "sha256": "d693965c50b453706a049ee6b9deaccc1b0504c91a9f44ada2cc7edc9cf1baa0",
+      "copia": "data/legado/extracao_bruta/atomizado/sinais_vitais/MANIFESTO.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1j3Evtv04DL4VA8OwTGOEjMsePZHf-tOp",
+      "disposicao": "IMPLANTADO",
+      "sha256": "d4061d3eb78cd30261f58adb65cfba96016f8b1d5449ccb188b6685ed834f91b",
+      "copia": "data/legado/extracao_bruta/atomizado/protocolos_enfermagem/MANIFESTO.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1fILsfE4nT5ubUSksGnlHKvqnTTrh-Pjp",
+      "disposicao": "IMPLANTADO",
+      "sha256": "18d85689e33950c76d325707439084e6f4a87ff1902e29c8cd8a3a2aa28c32b1",
+      "copia": "data/legado/extracao_bruta/atomizado/protocolos_enfermagem/pcdt_conitec_situacao.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1nryjNVcFEMjA9FVevxaDJ3dVUn-F0DZL",
+      "disposicao": "IMPLANTADO",
+      "sha256": "5a10c15d2964b6b8eb916d5378b0aefc9f970d67325de78cc215d116d1a572fb",
+      "copia": "data/legado/extracao_bruta/atomizado/protocolos_enfermagem/documento_protocolo.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1OPxxqck7R-bq46kimyVrMS5C8MgoJf41",
+      "disposicao": "IMPLANTADO",
+      "sha256": "f772d31a24ad868a934befa259ad3fe24b2a128c6debf99a253107f2a3f69e21",
+      "copia": "data/legado/extracao_bruta/atomizado/protocolos_enfermagem/tecnologia_diretriz_covid19_conitec.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1XV0fanEYJHbTPsVMZAlV-bncLp88wuZI",
+      "disposicao": "IMPLANTADO",
+      "sha256": "5891b30874ee7497f8b1dad92cb44230d04cdf0162bb00856618b30994ec811e",
+      "copia": "data/legado/extracao_bruta/atomizado/ferimentos/recorte_cid10.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1k5X4nrmL1c5gsrcjeL6J0VGBY3jtVnXX",
+      "disposicao": "IMPLANTADO",
+      "sha256": "7958f8a5af3829229522734023d7e2be667e607fb152f12a128d697a1c511fc3",
+      "copia": "data/legado/extracao_bruta/atomizado/ferimentos/recorte_cid11.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1v8qusbJFkwtJWTlKrsYzvlx2HBEOMyLa",
+      "disposicao": "IMPLANTADO",
+      "sha256": "5695c99c139fe4ae0cbcf2a87528b103045d0f668d36c9932b13c02bb7987ba9",
+      "copia": "data/legado/extracao_bruta/atomizado/ferimentos/recorte_mesh.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1TclpbMZwaU4DFy2gmOAjQy9cf1Jp1rOA",
+      "disposicao": "IMPLANTADO",
+      "sha256": "d5276953e1e24475e80fb503eced43c9ce61f1f6e8faad80c0158a112c23d9e7",
+      "copia": "data/legado/extracao_bruta/atomizado/ferimentos/pdm_catmat_classe_6510.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1FO_hN0ple1pK29L3lNWl0XKzh6WYu_ve",
+      "disposicao": "IMPLANTADO",
+      "sha256": "0de3619a574559d5df7f891fef1e0793e26330c5b1acc311f6b9129ed504ed8b",
+      "copia": "data/legado/extracao_bruta/atomizado/ferimentos/MANIFESTO.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "142hBIMBzKsWRDNYajfnzPrZc402qHolQ",
+      "disposicao": "IMPLANTADO",
+      "sha256": "46448513c89d6a3f1f13071acefaf9806c7d07e7fea2c5e63bf04e3ced44c078",
+      "copia": "data/legado/extracao_bruta/atomizado/ferimentos/nome_tecnico_anvisa_curativo.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1reCkHWdWQZjiJ0MjiB_rxcRfyJdVIa33",
+      "disposicao": "IMPLANTADO",
+      "sha256": "519281115a2021772087796618433c30fb6162a991c27424bfe7843a7217f282",
+      "copia": "data/legado/extracao_bruta/atomizado/sepse/MANIFESTO_v2.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1i5JAG-LmLDKgHMEziZrqt9oyU5Vx1MqQ",
+      "disposicao": "IMPLANTADO",
+      "sha256": "f29bf3e889538ac2611acbe776270230e02816046ecac13df65cffcb46c98a87",
+      "copia": "data/legado/extracao_bruta/atomizado/sepse/MANIFESTO_2026-10-10.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "12USrAv8967pGN_o0zHBp_r4ZXkLtt2tw",
+      "disposicao": "IMPLANTADO",
+      "sha256": "694a071253aae0d8f2836276a2ca828564d278d01d7bc4ebab5f63341b43975f",
+      "copia": "data/legado/extracao_bruta/atomizado/sepse/definicao_transcrita_manualmente_v2.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1mF00m0ltaBaLsGoAOQu8cnCT1VeK__yc",
+      "disposicao": "IMPLANTADO",
+      "sha256": "193d09a6070608b113b3895218eb6f2d365f33dd2bb07dc74451f8b1010bb859",
+      "copia": "data/legado/extracao_bruta/atomizado/sepse/definicao_transcrita_manualmente.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1dde4NkFPCmwA8DxoSNxeJx_PfxoDuEh5",
+      "disposicao": "IMPLANTADO",
+      "sha256": "5bf84ee50ab45f8c73928ee9cd8714ddce17a283206231a4cd5ae88609aa5e8d",
+      "copia": "data/legado/extracao_bruta/atomizado/sepse/escore_transcrito_manualmente.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1meR7YCYGGJIXQAHjL0ScwlBT-w89Gcxx",
+      "disposicao": "IMPLANTADO",
+      "sha256": "c46ebeb2ccd3cd70b35b0b54f951dc0e60370c0611695865b5b7ab43b142e717",
+      "copia": "data/legado/extracao_bruta/atomizado/sepse/recorte_mesh.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Ezc42on63YcF2yGtvqpdsxrmysDBjASf",
+      "disposicao": "IMPLANTADO",
+      "sha256": "6805b19897bc97bea78adb48e936685ed1c16e40e551c1fef33fa7f972ada1fd",
+      "copia": "data/legado/extracao_bruta/atomizado/sepse/recorte_medlineplus.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1hz5wj7zojHLg8kE6kGydZseiX1oIPlLq",
+      "disposicao": "IMPLANTADO",
+      "sha256": "256b7ffdadfe1f0ea4d45666ca0d68f9dee60f8278ed94e1037efd7eb96efe5f",
+      "copia": "data/legado/extracao_bruta/atomizado/sepse/recorte_cid11.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1xH7tewPIXKt0p73FwkAz70_mUg48SG7j",
+      "disposicao": "IMPLANTADO",
+      "sha256": "a284d9ff8db01dd87041d3a9566f93f4e9e17b7adb4170b5b0286fba1b48c85a",
+      "copia": "data/legado/extracao_bruta/atomizado/sepse/recorte_cid10.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1KfzZFuGbk2YZlL9VJfJYKnK054LLPXxx",
+      "disposicao": "IMPLANTADO",
+      "sha256": "e07778e9b95cbcc30bbcae4095217f1f00d6bd404ee425dfe36a08dd4cd54081",
+      "copia": "data/legado/extracao_bruta/atomizado/sepse/criterio_escore_transcrito_manualmente.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1lfJ-bPSXnrTZqsdIXo9mc2kWx97wYhNC",
+      "disposicao": "IMPLANTADO",
+      "sha256": "3242f4f4398f2b072f862f01ae88a02f903d6a4fa3e8051d920d43e98fcb6d28",
+      "copia": "data/legado/extracao_bruta/atomizado/sepse/MANIFESTO.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1_zeyuWYYuNhhQ49dBhuM4NFn3vdExsTf",
+      "disposicao": "IMPLANTADO",
+      "sha256": "c9c63067367b94f3fe457a4cd03627e6604fd544c15574c1fa84307ccff5f442",
+      "copia": "data/legado/extracao_bruta/atomizado/suprimentos/registro_anvisa_seringa_agulha_luva_curativo.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1bd4MlCxeeehR8bsPmoxBs4uxniIXkGA7",
+      "disposicao": "IMPLANTADO",
+      "sha256": "db7e6f42db30a9d25b1cda24000908dc8c27680d9aa95ec4a4b268bb079b9caf",
+      "copia": "data/legado/extracao_bruta/atomizado/suprimentos/classificacao_fda_seringa_agulha_luva_curativo.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1KV9W6gXe8q6G6ZmouVpsdKVOsDy7c_j7",
+      "disposicao": "IMPLANTADO",
+      "sha256": "aa764c1951eb28e1966af4b8f28dc41f34643acbe09a48329be7300b97e51a19",
+      "copia": "data/legado/extracao_bruta/atomizado/suprimentos/fracoes/item_catmat.jsonl/manifesto.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1tA7Lt-E3UBJbGQB70T6PtjcTjezay9U6",
+      "disposicao": "IMPLANTADO",
+      "sha256": "04d8edc3251299954833b6d3bff3be93099c93bc482bd4be64a44752bd78a472",
+      "copia": "data/legado/extracao_bruta/atomizado/suprimentos/item_catmat_seringa_agulha_luva_curativo.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1UsoXAQ6AMNcTlnb40IamSaSBwfpv3fy8",
+      "disposicao": "IMPLANTADO",
+      "sha256": "a4c8b9b9cc5d429c6a4c4a17c18e6f3e44c67fd19a18f748b02ec82b63af4991",
+      "copia": "data/legado/extracao_bruta/atomizado/suprimentos/MANIFESTO.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1G3Nn3L4Ze3p27JWVRRyd_VuReNKuf7lg",
+      "disposicao": "IMPLANTADO",
+      "sha256": "0760203b0a9b54a0c95bbe0a031ceb36586f197c1085416a0e2a9aed58d828db",
+      "copia": "data/legado/extracao_bruta/atomizado/nutricao/fracoes/alimento_usda_sr_legacy.jsonl/manifesto.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Na672Ul8VovjmC0aArUImCJASpOfF0Av",
+      "disposicao": "IMPLANTADO",
+      "sha256": "b6497d3834c7a986af6cff23574d0331c1dda38d85e83f65fb83aa22aa89140b",
+      "copia": "data/legado/extracao_bruta/atomizado/nutricao/MANIFESTO.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1aqSK3lrNt8hS4VcCbDK_uproyqsHyOE3",
+      "disposicao": "IMPLANTADO",
+      "sha256": "45c9a536e66641c74e04807d905717971a9dc97d9c20219f5052cce2428c6d62",
+      "copia": "data/legado/extracao_bruta/atomizado/nutricao/medida_caseira_pof.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Cj0ZK0JUSmWTpGYNVqYAvvtxid_YjLfv",
+      "disposicao": "IMPLANTADO",
+      "sha256": "f60c6962858975fe54b4ee698a84674ead0b48f5d7f0fe132c8957e5ab866ab2",
+      "copia": "data/legado/extracao_bruta/atomizado/nutricao/alimento_taco.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1tQRjgczSfuCO4SEuYYv2DOZKuXxuCkzD",
+      "disposicao": "IMPLANTADO",
+      "sha256": "30eb47897cbd66750507f69505e383b22d67c70248b9b3ac7bbffa282003cb44",
+      "copia": "data/legado/extracao_bruta/atomizado/nutricao/alimento_usda_foundation.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "145HPQZsZOEDYbrKANkFssqOAHdxafvFB",
+      "disposicao": "IMPLANTADO",
+      "sha256": "f6baf5aa6817b597076058b4ecf2c3107b9de9c139d1267f905881e2d4de169c",
+      "copia": "data/legado/extracao_bruta/atomizado/dispositivos/classificacao_fda_dispositivo.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1R_rRC04vWjNgM7AYYKMmqyqzX2pJVZwL",
+      "disposicao": "IMPLANTADO",
+      "sha256": "5a14e78e5cde50a2e39bebb0a0df08bbe4dbfc7dec323ca3caf4dbf44095f8ec",
+      "copia": "data/legado/extracao_bruta/atomizado/dispositivos/registro_anvisa_produto_saude.parte-0002.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1LWWFk_QuADCz5a9L2Xek5CuZaNi6FIjQ",
+      "disposicao": "IMPLANTADO",
+      "sha256": "7966ab61d11d8697eaf4a4b68d79f551cc7971e4bfd0861a877ebe2ed3c605f1",
+      "copia": "data/legado/extracao_bruta/atomizado/dispositivos/fracoes/registro_anvisa_produto_saude.parte-0001.jsonl/manifesto.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1OMRyAhpzp_xVeSzrMXkyTywN_rCpAF6p",
+      "disposicao": "IMPLANTADO",
+      "sha256": "09ba640b86b4a1ab44ba46baeb3ed0d8699fcd0b0336dc24d8a9c33688d1ac6a",
+      "copia": "data/legado/extracao_bruta/atomizado/dispositivos/MANIFESTO.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1YnDMU1hvoHGFYSpNEQh-teuVdHx6PWhn",
+      "disposicao": "IMPLANTADO",
+      "sha256": "0f7ebcd8dd876e872de448e9e5d8e92a118f46c65348c964e32ac18649624f34",
+      "copia": "data/legado/extracao_bruta/atomizado/medicamentos/desabastecimento_fda.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1upszrDc_kyL7emITACfuzsC0Y611Q9vH",
+      "disposicao": "IMPLANTADO",
+      "sha256": "2209259bdce393bb472f01d120d3d5518138a3803b22cf8e33176d468ffe6d06",
+      "copia": "data/legado/extracao_bruta/atomizado/medicamentos/MANIFESTO.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1pATK4LNcfKvN3AAiSMbJKSX5rJp4HGey",
+      "disposicao": "IMPLANTADO",
+      "sha256": "ac8384d115c43434ceb36abcd1722ffd4054e018dc238e8ddbf9ac9b8dfeb9bf",
+      "copia": "data/legado/extracao_bruta/atomizado/medicamentos/fracoes/produto_fda_ndc.parte-0001.jsonl/manifesto.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Ym9x4kE3CDvn1g7mYVIQLvXu_w2B_8qn",
+      "disposicao": "IMPLANTADO",
+      "sha256": "f1e331a5e3de15eb7a5eef36369210e795f94efadce5f1f0e0768f5ddd5dea4c",
+      "copia": "data/legado/extracao_bruta/atomizado/medicamentos/fracoes/produto_fda_ndc.parte-0002.jsonl/manifesto.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1O5GDkgUOiLiXcd-2JiscAZc7qBY3qYPG",
+      "disposicao": "IMPLANTADO",
+      "sha256": "fc592821341dfbb919b297166a8ba948ec7afd7ca955da7085c7a54198bb12e1",
+      "copia": "data/legado/extracao_bruta/atomizado/medicamentos/produto_anvisa_sem_numero_registro.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1S9KrJFUlnxTPx-OeVKBdmVeOJBJKuUrm",
+      "disposicao": "IMPLANTADO",
+      "sha256": "3f158c141200caae51cc2b3ea7d309f8a52db2b2a4b7136278df612b8f1e37b6",
+      "copia": "data/legado/extracao_bruta/atomizado/medicamentos/fracoes/apresentacao_cmed.jsonl/manifesto.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Fq9xo0CTJpJcyrpAzWUM3EOVfRIixvoz",
+      "disposicao": "IMPLANTADO",
+      "sha256": "5adb436235b72b51156bbb7ee2b27d53cbcc3884c4ce0bc4f8dbf04d0f9660ed",
+      "copia": "data/legado/extracao_bruta/atomizado/medicamentos/registro_anvisa_medicamento.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1tJWoyOJg5HUuuXtG7gKhHw6eKY_ArJeC",
+      "disposicao": "IMPLANTADO",
+      "sha256": "fe22d3f7c4eb9ef27419a07af8c33a3d99d94e74f451e4ed3bf4423af52623f8",
+      "copia": "data/legado/extracao_bruta/atomizado/medlineplus/topico_saude_es.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1A1eoGDNdxbJoOeDhS7PB7_ouEaVPjSJU",
+      "disposicao": "IMPLANTADO",
+      "sha256": "f47bc45931cf576316eac265b480ea8eb606a20eb66eb7bbeaf76336e097cb3c",
+      "copia": "data/legado/extracao_bruta/atomizado/medlineplus/topico_saude_en.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1WbO5QW2pXc8UjTmToN0ss3UmYyx8phMx",
+      "disposicao": "IMPLANTADO",
+      "sha256": "d6e62f21147d9553ff2ac6b9bfca1afcaa8ef0d774e685d51285eb1b003da9f4",
+      "copia": "data/legado/extracao_bruta/atomizado/medlineplus/MANIFESTO.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1uJYU67kzyEoQczGcr4HMaFGvMpiiNE1U",
+      "disposicao": "IMPLANTADO",
+      "sha256": "04968018ebd54a3cb1df1426e4d230f4381ee479a57f98b014ed224ff75a74f1",
+      "copia": "data/legado/extracao_bruta/atomizado/icd11/bloco.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1DegoeMIF2Uq5vXkE7kg-8_0qQnwK1R0t",
+      "disposicao": "IMPLANTADO",
+      "sha256": "9952e421e017da2f8659ae28f791e78a6804bf8d867a101ff413e68288358080",
+      "copia": "data/legado/extracao_bruta/atomizado/icd11/capitulo.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "12NtEw66DS4enEIy2BNOtNS8jKugF14G4",
+      "disposicao": "IMPLANTADO",
+      "sha256": "92cde37221b93f6d2d46ccb802b16de9a9b7b53e7b1c5e32ce128b3102b46c8d",
+      "copia": "data/legado/extracao_bruta/atomizado/icd11/categoria.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1O1u1lRhM0d-3lobriZ03IPf88ShqqUz-",
+      "disposicao": "IMPLANTADO",
+      "sha256": "fb799f9f6c8e0e2296224e1d4128eec1ec5f08e6ff7cea573ecf4afc264d3904",
+      "copia": "data/legado/extracao_bruta/atomizado/icd11/MANIFESTO.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1-UWhEDid1Em0jctcD6J5D8Xp9srJHKny",
+      "disposicao": "IMPLANTADO",
+      "sha256": "3c0d5b1a35eb6a4ba4d26ca04929f37fdeb8d6b50a57b9dac2b1727ff118c214",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_STATUS_20261010.md",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1mg7wIT_UtQQgWIYOA-SF00ruFpztrUGQ",
+      "disposicao": "IMPLANTADO",
+      "sha256": "14a857927855962f160a7d22fa622344fe30f6bd5b0ca84bd29bcaa16e09bd1d",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_VALIDACAO_BACKUP_DRIVE_20261010.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1hk9QL8ImLZZlY_I5UXjphy6vNDIkIldx",
+      "disposicao": "IMPLANTADO",
+      "sha256": "7dd3a8160bfa125ead8087aa79ca9c30bcfe0846d5e8a357704775edc838b7c7",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/RECONSTRUIR_ATLAS.cmd",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1-Pk2whIYCvKG0T2os64M5wjiQKzdpGZx",
+      "disposicao": "IMPLANTADO",
+      "sha256": "d3caa11ff82ac70d9a3b7f5b88143a62bbc63a2f0fb6fb5e04682e6447c3420f",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/RECONSTRUIR_ATLAS.ps1",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1svS8PxonDAbEFXHQ6DxDGUryctKMVViP",
+      "disposicao": "IMPLANTADO",
+      "sha256": "786e4cc352255caea4ca8f52d1bd7e61bf0d4237e13f20652a7b4683ab51c686",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/MANIFESTO_DRIVE_PARTES_SHA256.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1TOfK_JQQ38Fq_Ek1SL7Y0tRtJEYnmYog",
+      "disposicao": "IMPLANTADO",
+      "sha256": "959f79c66e1f860525a8ae8abe4445e18715d741794486b755cb9228e2145a1f",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_MANIFESTO_SHA256_20261010.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1zUtmrim2DZLrPLOdnufKt1AWf7EFzwW2",
+      "disposicao": "IMPLANTADO",
+      "sha256": "42ab4235182dc9d1afdb75eaa26b18d1d0d6b3f472c2bc839137a78df7867ddd",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part001",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1E4t2XdNOu_L5xzukYUkfGHfsTM7lWjAx",
+      "disposicao": "IMPLANTADO",
+      "sha256": "425c9a7a932445dae098187ae876af4a43d07c77e3efcc4bf866e98ee9404eb9",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part002",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1bTmPZ2TGKE0ZPq0JlsK7XgDCAMo1fVQm",
+      "disposicao": "IMPLANTADO",
+      "sha256": "df3f9a3085724cd48a48cab88452ed7a0a71eed72e6687bf0da5b913c7fb69f0",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part003",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1v8SxCmBEe1yusCrAGdeT3FsZpRuG9rTX",
+      "disposicao": "IMPLANTADO",
+      "sha256": "791d64087e501010133401134b6ae1ab68edb9c16eab20f93c8db04f0cb08cf7",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part004",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Tf_Rnf_ic6nHoQitdaD0kNBKxW_V7d5H",
+      "disposicao": "IMPLANTADO",
+      "sha256": "96d0a10cd4a18fecf4012574362ddea9e5bbc11096878f918a8fa2d1f44b2f8d",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part005",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1J2M5i4j8SpFT5u1n8Sw0GigCalJz_6jk",
+      "disposicao": "IMPLANTADO",
+      "sha256": "369d61e08b5a185448c7d9150302f4205176c08bde6254db421329ea6bda754e",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part006",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1B4382Bc3V-_LCvUlar5dGsdTeU4BDWGd",
+      "disposicao": "IMPLANTADO",
+      "sha256": "ad2a5dd80998485a6cb9a3a45671d58999ee9ebd49d3c0e19bdae3a1dba91bc1",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part007",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1yGpmiw_jM5yoVCrpdgXlsgHSBMqoayD1",
+      "disposicao": "IMPLANTADO",
+      "sha256": "ed11ce91e39052ace7c71e29c83cf301e1c594bafce00647711704186e6cb5f5",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part008",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Jqc1nOOdoIbAuAdwXluyaBcIfnl3iV-5",
+      "disposicao": "IMPLANTADO",
+      "sha256": "a440b29a6000bf78127e67db19636d44296d71a187d39b9273271a7c99094c21",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part009",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1FgaFxZLsRQ4ZOjiGohTt1ub3QK98-qkI",
+      "disposicao": "IMPLANTADO",
+      "sha256": "65156eaa3fe3b99b242250ac8685e074773bd79ebe175a0a56453cf2736f2343",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part010",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1A1hpXGNhR6j_lDmDnya_gEMQnXaf25zZ",
+      "disposicao": "IMPLANTADO",
+      "sha256": "79807bd9f7c29da9d9e5dde64695b43d59ddf9717cdfae7e9243d5661574814e",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part011",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1rdNZgaR7ekTSsMF-20yA7eHcpFXupFY5",
+      "disposicao": "IMPLANTADO",
+      "sha256": "87679b2f2f4c72b528609e85d6038260ce19a14e21d2433ac1115e3576dd981e",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part012",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1wb0B-TuEV18YF6Ngag8fx-aDRQ-C1lAJ",
+      "disposicao": "IMPLANTADO",
+      "sha256": "09a035bdca14cb26b58c5586068b9b3c91a358df60593f2014e20e2113c0aa84",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part013",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "17xtT3tPrVwKKAPijBNUSrmtxSElmz-U_",
+      "disposicao": "IMPLANTADO",
+      "sha256": "a1fd25745bb3bbf55ec85338f7d01b4ff9a352affc44f32c21c506c6978556d6",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part014",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1dnPUnVMjG--9ZyQ6AFGujBsxkyKOdP1E",
+      "disposicao": "IMPLANTADO",
+      "sha256": "38d2de1a98a8a7fcf549e14d1104f0d50e6c536d44badacdc0afe0477aad3e7b",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part015",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1IQb-PREqdYHsQVmi6yUQcCs8lbPjJA7q",
+      "disposicao": "IMPLANTADO",
+      "sha256": "a7b00e908f803faac928e1030aacd84ef9fbf67f9ae06c1abc57cfa4ea153c1c",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part016",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1O2sHdtrAHCvhIAi8NTI4eAH1tWaTayIL",
+      "disposicao": "IMPLANTADO",
+      "sha256": "dffeeb677b9874be7d20fd93e098750d0639f0d006194898ded2a69556f6493a",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part017",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1vnYq5ya8xsgcVDNrDsma0E5yh6t4tVhM",
+      "disposicao": "IMPLANTADO",
+      "sha256": "de772dc36fa05e489b74c3067cb173e3dbf83a786232ee79828f4f656b84b5e7",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part018",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1UvXQ8Z3TWomco5AOii7uCRBg56xaDSP5",
+      "disposicao": "IMPLANTADO",
+      "sha256": "8f1a551ccd811abbdd1a8c976f15505c0912e1667a62d33355b6b035eaaa905f",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part019",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1co-TQj1hfKTFv4wY33_nwLCcz5MiTCp-",
+      "disposicao": "IMPLANTADO",
+      "sha256": "e2aecb8b6530f5c5c5a828fee78a80b1b6a35a01f1a231d90cfb40f522c7bc33",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part020",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1HjetOJJ27kyDpnj1YC7qbgvRPpld1m4h",
+      "disposicao": "IMPLANTADO",
+      "sha256": "93b1e184f35401195494561e8ec70232648654fa12411d758c56e579b466dc9c",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part021",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1u-_MdpLZkkrQgDxYp1fGYcavLEMe0SfT",
+      "disposicao": "IMPLANTADO",
+      "sha256": "b7c07c37400dc5ea8a9679b7ba1b34ca68510d479b46eeef920b78c6e28b184d",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part022",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "18bfa-SiYZr1YCRYsUPPPFpyoIKKyRRlk",
+      "disposicao": "IMPLANTADO",
+      "sha256": "425fcf124a22e8601b63b9f355b3ad85f8deb70eeffbc00a95628b7bab20c0eb",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part023",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1lkPzuH0hFTS7kdrqWokP93X3VWEpu4__",
+      "disposicao": "IMPLANTADO",
+      "sha256": "ad07f2e387ea1e50dd87f509a4b353190ac42a1be93e6a51b13558766f24a6ef",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part024",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1el_2xMMzd19UHOONIVyPk4_ZUfmpt0kH",
+      "disposicao": "IMPLANTADO",
+      "sha256": "7de0b92f8bf0df710c91adfb39aed0f29d0016b558653acf050848cbc1b9f1bd",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/LEIA-ME_LOTE4.md",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1F2YLci4Oj-0IaAQt2O7SCIlqOjzf51f8",
+      "disposicao": "IMPLANTADO",
+      "sha256": "b697ff002cfd59d02dd4be99d4a6b13345a1c5964a5c3ae6964ed604f6900f3b",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/LEIA-ME_LOTE5.md",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1MVsJKI-awIZJuBNWPqGgpa7w3ee1Bkz5",
+      "disposicao": "IMPLANTADO",
+      "sha256": "6d87aabd97462e81c3c9e628e8de811f65c346cee632c8602f4aeab868769cd1",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/LEIA-ME_LOTE3.md",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1YOTUQ0n9N2qEb_koX0-posd8iuThDnSQ",
+      "disposicao": "IMPLANTADO",
+      "sha256": "d9c182dd1cdc9a51d6f9ad941040f114d4fadeb95f19c462a013b3ccaa759dc6",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/LEIA-ME_LOTE6.md",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1iqtPZPwShmX9UrG_QNpWWazIjcHE0VAQ",
+      "disposicao": "IMPLANTADO",
+      "sha256": "1c5bcd7949ee5b54560e492da50324ba6954f3470a4b10e33b341bd1a62f2faa",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/LEIA-ME_LOTE2.md",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1rx3hZeEwqb275T3W6xLdM8h2dg2TZDxV",
+      "disposicao": "IMPLANTADO",
+      "sha256": "46b8bdb33e1f2da320d694588eec8a8b30655f93bc0dc49709497624893d8861",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/LEIA-ME_LOTE1.md",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "13iYKfKo_GU7Ycnku5ZB7Pione3sDJ8d2",
+      "disposicao": "IMPLANTADO",
+      "sha256": "a6ad2826d9753134234f718bd8a072d73d2ccd8b43936a6110b89ebfa308fc4e",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/LEIA-ME.md",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1C5OkakB0ruiNdhVO8_d3noS4fD4HehBr",
+      "disposicao": "IMPLANTADO",
+      "sha256": "689c80f7a86742c45680bff9a29f6daadb1a9debb64e135c7aecf1f520a1f899",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/PAR/PAR_LOTE3_1997-2017_ATOS_PARTE1.zip",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1J3mh32e7Yftj7F3JoT1vY8_E7LmNR_lz",
+      "disposicao": "IMPLANTADO",
+      "sha256": "c52b59133f204834c2340207924d575092fc8e1407cd8ebfa82838fb76595f7b",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/PAR/PAR_LOTE3_1997-2017_ATOS_PARTE2.zip",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1SApKh8ttUO-OnSbaU_DN2s4dq9bX3Zx1",
+      "disposicao": "IMPLANTADO",
+      "sha256": "51728d2fcdd7dfc505fa2608b341ba52983377a3065f370091ace506f4b3215d",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/PAR/PAR_LOTE3_2021-2024_ATOS_PARTE2.zip",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1jJTtCr8ITFMZUcqRqdjZ661wHselXSTO",
+      "disposicao": "IMPLANTADO",
+      "sha256": "2676a05062c968361a4b7f9a4e208eac9ea6fd8fda52749d29a5943c1e202409",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/PAR/PAR_LOTE3_2018-2020_ATOS_PARTE1.zip",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "14Z9lUIVXjNgDo5FkVUIyftVX6GD4FOwK",
+      "disposicao": "IMPLANTADO",
+      "sha256": "a8cdbf0b34afe440e6eaf3680f29b0c860f4fbbab4705426017c6e5171dcd0c6",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/PAR/PAR_LOTE3_2018-2020_ATOS_PARTE2.zip",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1tnZiLuoScx4vKTDxCGF35wLAnKaEvfJq",
+      "disposicao": "IMPLANTADO",
+      "sha256": "7bd470f8b2853f9cc0ae66329a7b5d36e9a48610d40dd899c6ec421b69cb4259",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/PAR/PAR_LOTE5_ATOS.zip",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1TpjBz440mBSUegmNDb9AH5qq_WMfkeMI",
+      "disposicao": "IMPLANTADO",
+      "sha256": "2c1212741bab519ea7915aea604b292611a161905cb13500b5f7df05319cfe87",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/PAR/PAR_LOTE3_2025-2026_ATOS.zip",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1cs9VswF71rWtiYfuHYdGFe1tXayuXPel",
+      "disposicao": "IMPLANTADO",
+      "sha256": "1584997ea553b6c1d60be30683004d006cd40304355cde20bb2b0c76fc686fdc",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/PAR/PAR_LOTE3_2021-2024_ATOS_PARTE1.zip",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1iF0j1ZMGAMUkiH7P57EtAYzIiTGmkcfS",
+      "disposicao": "IMPLANTADO",
+      "sha256": "dff6975fc8a31e85a4b64e964088db25f5195ea10cef309d236332132ddc7c01",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/OS/OS_LOTE5_ATOS.zip",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1r6OLEYIUbm7cvfGHfEk6ot7tvh2CLB6b",
+      "disposicao": "IMPLANTADO",
+      "sha256": "9654300fa6a3c9f33b4234eb5e62c6f3882e802d43ed79ffb1543bb572e6347c",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/PORT/PORT_LOTE4_2024-2026_ATOS.zip",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1-Nbcny8pEyBS9XOj0INxhNiDJGTAkGN2",
+      "disposicao": "IMPLANTADO",
+      "sha256": "6ed21fd699b8c626ab6b6d3973c3c92f5fcc4a8e458a078b9ebce237a32821d3",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/PORT/PORT_LOTE4_2004-2020_ATOS_PARTE2.zip",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1rtfR3GvJxBsODz-qiDwHfLfPuuAfq8MU",
+      "disposicao": "IMPLANTADO",
+      "sha256": "5669891bf0450d2e2ffcff924c8085055389101eebd7361363ea0bbef14461ac",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/PORT/PORT_LOTE4_2004-2020_ATOS_PARTE1.zip",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Nb7juaHoXbkYYxKcSpHsNbYIjIpfamiQ",
+      "disposicao": "IMPLANTADO",
+      "sha256": "07ccd392d82f51fd4a639eac6d604e64c37f64be599427ac3f980b0673bd7620",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/PORT/PORT_LOTE4_2021-2023_ATOS_PARTE2.zip",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1-ZUJggFmVFX2hKUbWTwSXNlPizTWAlst",
+      "disposicao": "IMPLANTADO",
+      "sha256": "05b28b3c5473a0163f9f649e61ca44bd33e3e50d5c0415df1524652273092682",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/PORT/PORT_LOTE5_ATOS.zip",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1TDCQT6S1hPLdGexv8LK4146QwfLTY7Wl",
+      "disposicao": "IMPLANTADO",
+      "sha256": "5ad384fc0ae4a30d4c78a44048d45e7a6a2c978712bfe9e66b1d7eb0c78cd3a7",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/LEGISLACAO/LEGISLACAO_LOTE6_ATOS.zip",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1FvYgWADv5_6qhV8ZoJekLqooM_sc4WK-",
+      "disposicao": "IMPLANTADO",
+      "sha256": "6aab8c67bea46a84775736a2a35e684fa5a461966464d1074dd71c4a76759e94",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/OUTROS/OUTROS_LOTE5_ATOS.zip",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "10rWy28QdQavqZNZ1XMfMhr3_6xrb4oRO",
+      "disposicao": "IMPLANTADO",
+      "sha256": "078f28fff0ce75e03bbf5e97321668f4e150b5dd3879c44be3598b80887d6efa",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/EDITAL/EDITAL_LOTE5_ATOS.zip",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1soLWxJoK97ZV3_89DnQxazXpaimvjs5p",
+      "disposicao": "IMPLANTADO",
+      "sha256": "41be032d9dfe85f4df640866113679544fc0f375db4495ba7a7609072dd2bde2",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2025_N_00800/RES_2025_N_00800_TEXTO_DOU_V1.txt",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1OhW1SHoCaQuFM1OFmBjNBW88DLqQjEjp",
+      "disposicao": "IMPLANTADO",
+      "sha256": "9e52af612a1df7b5e460cdce40ecd2f667aaf99df8f1343b10e3a61aba75eb07",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2025_N_00800/RES_2025_N_00800_DOU_FONTE.pdf",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1zeQMh3kKYGiOdo9nUuE0PoBgR45fbUkg",
+      "disposicao": "IMPLANTADO",
+      "sha256": "d3e05773eb1d26d51fc45cf38b287d6613595c82c7af92b54f8b254bf6296375",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2025_N_00800/RES_2025_N_00800_VALIDACAO_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Rw9TVYRD7aZH_PaS5zl-UVj5wiZFykDa",
+      "disposicao": "IMPLANTADO",
+      "sha256": "93b84fc5fc0dc6b9a599cadbcc6d884e86ff010291947db8ee7f821610f79ca0",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2025_N_00800/RES_2025_N_00800_NORMA_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "12ixtHSVKmrCLXRcBYsMAlm13VzIWmAu6",
+      "disposicao": "IMPLANTADO",
+      "sha256": "70e93608b7a38be7929b2be4907aabfcde8700367368136b54eb39339ba56597",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2025_N_00800/RES_2025_N_00800_ATOMOS_V1.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "18Nw71-pLqwka5SdObM4u5do_pz0QkeqK",
+      "disposicao": "IMPLANTADO",
+      "sha256": "632dd214f8ec029697baffaf7ce056308dc5aacc0c4add78494b98d8693d326b",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2025_N_00800/MANIFESTO_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1yzKvPGqUTqTNx16GhvGK0aPclteKS7ZJ",
+      "disposicao": "IMPLANTADO",
+      "sha256": "84d9b01cfb9fcc1ffc3a1a48256e579cac33ae945453c38a89259f25a78dbe86",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00813/RES_2026_N_00813_TEXTO_DOU_V1.txt",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1zaEFG9rcjXdpYi_8T1i0RGAdwrZ_Reim",
+      "disposicao": "IMPLANTADO",
+      "sha256": "f6bae4953df11c2054edd5a795ffa9862160194dabad1a6861254d01a9c83d66",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00813/RES_2026_N_00813_DOU_FONTE.pdf",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1tr5ygcS5NRc4oYchO_5kpFk06mceZzol",
+      "disposicao": "IMPLANTADO",
+      "sha256": "068740d062326d57794fb914e454d0e472eeda0f928c9d88d3d44b90f4db4f57",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00813/RES_2026_N_00813_VALIDACAO_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "19dThs6QP5r-EexXvPAK854uwUhD-CdnY",
+      "disposicao": "IMPLANTADO",
+      "sha256": "f777fe3ceff9ac1b0ed02bb102e3beaf87dfbdc26bf62e57fd492167b9acc796",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00813/RES_2026_N_00813_ATOMOS_V1.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1A4BaDbm1cNfD19lEnWC9o7XXpnsXOr3I",
+      "disposicao": "IMPLANTADO",
+      "sha256": "ab3636111185738c602096ffb5c1e3e8cae71d5be61c87ff9c148115f2ce831a",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00813/MANIFESTO_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "18zFKbVNXS0jTuC3RCrLB_B3DpDfCfVDh",
+      "disposicao": "IMPLANTADO",
+      "sha256": "8a0d211e96191417488bbe383d1519afcab83de2e59ba0c04ecec6466bcc3387",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00813/RES_2026_N_00813_NORMA_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1iH4DtCkKo9jiyK2wPasZc2hqaE2hgaQz",
+      "disposicao": "IMPLANTADO",
+      "sha256": "473a7783d365f2228e1ad7952f2bf7ff8f10a80d45e64ee5fe4a4caf0b36825a",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00814/RES_2026_N_00814_TEXTO_DOU_V1.txt",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1L3tWQEuALyQZb3FoGtkjvIfL7QLaj-k7",
+      "disposicao": "IMPLANTADO",
+      "sha256": "5486e25faaac13d53b15b38829984745ca2b77bdde73539f5159cdd3aa159fbb",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00814/RES_2026_N_00814_DOU_FONTE.pdf",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "12GWEIcfQwAw-NuHyi9NfLYrrVqSueVqV",
+      "disposicao": "IMPLANTADO",
+      "sha256": "ece5b1e76eb0510649e5a26099a9be4c36844bdd99cf4a230c042a9242a79573",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00814/MANIFESTO_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "18C7BZjdl4a1G-LM-EqmcH7nuAuh_bwZj",
+      "disposicao": "IMPLANTADO",
+      "sha256": "8a65532dad6301dec8da46e32003ad550219d91e078f8080bace836bc4ee6bf7",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00814/RES_2026_N_00814_ATOMOS_V1.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1yoQKK3NSs6DVoBJoB3MZ3T2cdOxOIE7k",
+      "disposicao": "IMPLANTADO",
+      "sha256": "04e7547d2593ad7131f8c3c88c0cfd86ef3ad0ece1f36c4b1767173e5d317f11",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00814/RES_2026_N_00814_VALIDACAO_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1IPz2__ra5ak4VrBWZCXCcU12b1BvgQYj",
+      "disposicao": "IMPLANTADO",
+      "sha256": "8e8c2d5693cb36fb6b8088e0c478ebbe62cd0453cad262f744f80efdb91d0190",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00814/RES_2026_N_00814_NORMA_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Tn6keWfq4FCkN4V6TULbEDABXckJeo-P",
+      "disposicao": "IMPLANTADO",
+      "sha256": "0f1b2c84ad352d66b9b70a0973339f59d555b69c31bd0736b1f28fd3237d3c61",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00809/RES_2026_N_00809_TEXTO_DOU_V1.txt",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1THvkEfa_7Y6a78o7AJWJVFIRkr1weW0b",
+      "disposicao": "IMPLANTADO",
+      "sha256": "1b3c67393e12a8f4aad71ecc4654d1c6af326eea4dc02cf044ce836664bdfa1b",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00809/RES_2026_N_00809_DOU_FONTE.pdf",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1AX-HzWY5-vxsRRy1gyBtBRZq89I3z98K",
+      "disposicao": "IMPLANTADO",
+      "sha256": "5066ca292ee7e6cf41f840923bcfbe4293c96c9708ae0dfe1a24fcf246554c97",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00809/RES_2026_N_00809_NORMA_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1oZX54LuFl4ErdJK0csokrayOtsYr-B0W",
+      "disposicao": "IMPLANTADO",
+      "sha256": "9063e7097cd51c7d8ad26c891d69a32485cf3a6526de85364d972939a418fbd9",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00809/MANIFESTO_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1jjzEHENl7yi9AL5Enn-9cm1UKyOlVccB",
+      "disposicao": "IMPLANTADO",
+      "sha256": "6f4789932aa47cba3d4f081fa595e1a5a820b0f00ffde6aecbfc8bdd904348c9",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00809/RES_2026_N_00809_VALIDACAO_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1MeqkvqRGNiCO40fC-vfdm75wMJeBpRpd",
+      "disposicao": "IMPLANTADO",
+      "sha256": "b47ffa9d16b9ea1d82794b7fde21d5eddf96c1484bb771f72f726a2b7f0b9bf8",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00809/RES_2026_N_00809_ATOMOS_V1.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1BWK2ttlI2dFMtXjR5Y-v4cs77MpPcqdZ",
+      "disposicao": "IMPLANTADO",
+      "sha256": "1669ccf9a0324f17429dfdd009e619f17c6c5b9cf51ad4ca6247c400a4a6c24c",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00806/RES_2026_N_00806_TEXTO_DOU_V1.txt",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Grw8Z-fI69gP_cvd1n85nOsNgtN8hYEt",
+      "disposicao": "IMPLANTADO",
+      "sha256": "58439e0c59480b65e7bf3d2815d9d3d62bd6d786f3623084367004fdd03b9547",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00806/RES_2026_N_00806_DOU_FONTE.pdf",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1eIp-RFMURRx5NkSGBzWcqcsFLudzq8jA",
+      "disposicao": "IMPLANTADO",
+      "sha256": "668927d9a1c92eb1727f323c43324bd272a06361062ae9f66fbbbae625388876",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00806/RES_2026_N_00806_NORMA_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1GeJHyt6SXeNdElEVVly1YDBux2xAjVrC",
+      "disposicao": "IMPLANTADO",
+      "sha256": "21f6ed91c40b073398d50eb701c1d711e3e1e6b7914345be0c9ccd99b43b6157",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00806/MANIFESTO_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1BTjqX5-kW5p3eMhqLJyl6FwDhbnerVFi",
+      "disposicao": "IMPLANTADO",
+      "sha256": "2b00010c634fc711b8e3d15e2a9853ba17cdd294ce344b0c0e2cfb984c15d0ad",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00806/RES_2026_N_00806_ATOMOS_V1.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1YcS-wZExSBXQVjx9eRFXoaSlF5Vuh7gg",
+      "disposicao": "IMPLANTADO",
+      "sha256": "e916240b455eb180bcd7536840739bfbaa7f6ef85b35c4fbb9d76441a353bc99",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00806/RES_2026_N_00806_VALIDACAO_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Y-fiPjgDzcaEkcCzNYzf_JxkxFoTR6JA",
+      "disposicao": "IMPLANTADO",
+      "sha256": "9a3ea61e94f0994d1e69e52de050d89d3442cf0d368365b6b0b8dd20b82c932f",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00802/RES_2026_N_00802_TEXTO_DOU_V1.txt",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1fbQ9pqiUWvJJzGnhlgwCrnNgSQbeBxBS",
+      "disposicao": "IMPLANTADO",
+      "sha256": "ee105280cf5b9ecbb304ddf964f0e2e909a7f20891e00597aeced712972df4f4",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00802/RES_2026_N_00802_DOU_FONTE.pdf",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1dDQp6ADTZUbdd-EN_6fDhO3fdSBxZw1B",
+      "disposicao": "IMPLANTADO",
+      "sha256": "72a2a6ae89bdca58ff6cf624657ab309d82173cdb30d44693a54e2d0e0898fe6",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00802/RES_2026_N_00802_ATOMOS_V1.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1CAD-yr1dKgjdgpvFp2OU4M8W3lo1DXXw",
+      "disposicao": "IMPLANTADO",
+      "sha256": "2a5c9ced1d9374d71946edfa7d85522d769be4008c7b0cb5b5a4f027826b222b",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00802/RES_2026_N_00802_NORMA_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1zQmAMLhAVee7QqBnmTqE3IWcbrNm3owp",
+      "disposicao": "IMPLANTADO",
+      "sha256": "61552c73f4e1df2b8ee6cb632eff50b6aee9007b426ea1a0a258e2f6ddf1563b",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00802/MANIFESTO_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1ts4-BQjENpFtmejltQDy7q1PMoHeIfjr",
+      "disposicao": "IMPLANTADO",
+      "sha256": "3465c6d77a53d533733c6f68676b95eb1599c48af495f7ca69d689c27dc95356",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00802/RES_2026_N_00802_VALIDACAO_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1_Srerhny2Z-MIEfygZt-SbLIshi5At-B",
+      "disposicao": "IMPLANTADO",
+      "sha256": "73793e742f894651b8704ebf9c891d2c0f8406f9246e2a5c77d467669814fbff",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00811/RES_2026_N_00811_TEXTO_DOU_V1.txt",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1ZtdFv4VHEMZnKHHRNUU6zk1Ud6KOIqke",
+      "disposicao": "IMPLANTADO",
+      "sha256": "7f1db5653b8b287544cc8b30163108a11d962dc5f33718ee92ade0c14637bb6e",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00811/RES_2026_N_00811_DOU_FONTE.pdf",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1yrxCAxmV0lVcdx5t2PUCyMiabAS3PQkE",
+      "disposicao": "IMPLANTADO",
+      "sha256": "28c457c7bb6eb4fd91960cb5bed5faa73246603e484beb5a7ddc5bdebb0ed26e",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00811/MANIFESTO_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1F0BYfa_u36J-gb-kM9pe7LBrRIMseeoQ",
+      "disposicao": "IMPLANTADO",
+      "sha256": "1c26ff89d7c1ae0712937a0aaeedf1cb44336f68f41c7c01a162071ca6b3d57e",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00811/RES_2026_N_00811_NORMA_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1bNTizFMTOrD6BhMPlepXUdoq48YZ-5Bz",
+      "disposicao": "IMPLANTADO",
+      "sha256": "fee16451a409d3250c9dfe2a798f3c9b3aae4572ef00586711aef60d7280f9c4",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00811/RES_2026_N_00811_ATOMOS_V1.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1ET0Z48U78a73PKvlmPgbeIkL4l_JJptB",
+      "disposicao": "IMPLANTADO",
+      "sha256": "68c285e6c947b156af12a89eb042c7ffabce77ebc348bdaf5746f693d3b09c3f",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00811/RES_2026_N_00811_VALIDACAO_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1h8Nfuwz0ToHKB7wY3tkawicSQUSDCjzB",
+      "disposicao": "IMPLANTADO",
+      "sha256": "9e8a645afd68f3179037373c7753da3dae8034c269e1679f69ded0da7caf6f08",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00812/RES_2026_N_00812_TEXTO_DOU_V1.txt",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1WF2Wk68d6PdOs7r-kQl5lev4jtmkR9tX",
+      "disposicao": "IMPLANTADO",
+      "sha256": "0fcb9dd35af78beb593f1bec4184835b487cfc96e91170ca78b842982265be65",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00812/RES_2026_N_00812_DOU_FONTE.pdf",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1mfxJMm8B-Jqwira524LRjJnOkBFPsGgG",
+      "disposicao": "IMPLANTADO",
+      "sha256": "6822b709a2a36e782f9009f2d51333f79c23935b26764501841d5e04f6d328b6",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00812/RES_2026_N_00812_NORMA_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1s6EjAOjOFx3nPq0TpsL0Cmv9Rw_AgfgC",
+      "disposicao": "IMPLANTADO",
+      "sha256": "089294ffd6842c9ab36e4c70cd011224a5b59db3037e58017e6f2ef2b13f662c",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00812/MANIFESTO_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1_KWip4f-RYBRYZ1_mMvmVQbvdcFujmCz",
+      "disposicao": "IMPLANTADO",
+      "sha256": "b06bd54781ffd237485a7b4b3a43d4312bf4b03b3b4ace98a4171c912e627e69",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00812/RES_2026_N_00812_ATOMOS_V1.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1ywu2jr8vBzc9QRYdV9X82hNIBGHaLXsl",
+      "disposicao": "IMPLANTADO",
+      "sha256": "0a8bb820e8f2339752ec2f8bcd126f13aaa1538a1eaddf918275e4a73e2cd79d",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00812/RES_2026_N_00812_VALIDACAO_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1n5eZ-HUs1C7n6ID5jv_I_HvUp4JYCSPM",
+      "disposicao": "IMPLANTADO",
+      "sha256": "0702442df8b552dfb023a575b575504485465236a64c1d5511e5907867789012",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00810/RES_2026_N_00810_TEXTO_DOU_V1.txt",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1-pRIr0zeYcW46vsu3QL7pfrRHra6sCOL",
+      "disposicao": "IMPLANTADO",
+      "sha256": "1b3c67393e12a8f4aad71ecc4654d1c6af326eea4dc02cf044ce836664bdfa1b",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00810/RES_2026_N_00810_DOU_FONTE.pdf",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1n-Tg4l8TncnWVYfacXafnY7c1OaFKBnW",
+      "disposicao": "IMPLANTADO",
+      "sha256": "499e9fdcd293ab8bbacf7a7ba52d4b50cc4e550e0dfb07e5a0ad9701d6513907",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00810/RES_2026_N_00810_VALIDACAO_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Li8EOXVVnbV2tNZohSjAmUgYIPDvBkMz",
+      "disposicao": "IMPLANTADO",
+      "sha256": "348db87deaa5a07de896e8a9293d172ff6a84f92290656837391517cfd839121",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00810/RES_2026_N_00810_ATOMOS_V1.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1F50YW4Kdrkd-jItlqwmpmqbcUtGbfnPB",
+      "disposicao": "IMPLANTADO",
+      "sha256": "98404a0d088f00048a9c2487f4caf30f7c13c560e9779ab83ffff0d5520d78e0",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00810/RES_2026_N_00810_NORMA_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1QXemlA7Tz0cnjBCu1rY8w_uPoR5rzDix",
+      "disposicao": "IMPLANTADO",
+      "sha256": "51ff3fc852bf86b1c1e4069c5673d37d7c3ce8b014d895866365b65d01850655",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00810/MANIFESTO_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1RNbTrI15IfOK97D4C1_I2tlR73qeCUjB",
+      "disposicao": "IMPLANTADO",
+      "sha256": "9032acb5395433e3d02ddbf6daf39e2fc3984fd710963b14281de303952560a7",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00808/RES_2026_N_00808_TEXTO_DOU_V1.txt",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1huXTV_CZCshvUg-DScW_qg2XCbYgiwHp",
+      "disposicao": "IMPLANTADO",
+      "sha256": "242bd055860dd0585711e9e605eab57d00195f21ab1f4958c83f7ab172b25836",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00808/RES_2026_N_00808_DOU_FONTE.pdf",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1TTJDVBNu7TGJFviAOdAzWe-hPRj6he86",
+      "disposicao": "IMPLANTADO",
+      "sha256": "eba46b593b29ce88f6464d5ebe0bcbcd44694c8ff7b634999e5983c8260826dc",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00808/MANIFESTO_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1IQL02k1AAvhmUWg6POEgkadtr_dkKP8A",
+      "disposicao": "IMPLANTADO",
+      "sha256": "ccf3c45fe4c79a2a2b84519afdd2aa909fa3b6fe2fa7a452431d8a242f48a15f",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00808/RES_2026_N_00808_VALIDACAO_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1Lf38tvr6sgEIDzjyDhyzPsdbcqQIQkBk",
+      "disposicao": "IMPLANTADO",
+      "sha256": "ab8483102432c3925b3149cda36a8210571a277fb3e49803b7295f54bde83438",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00808/RES_2026_N_00808_NORMA_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1vB44Bxzym7REy0Wsm5KEb44UWWKOTmSN",
+      "disposicao": "IMPLANTADO",
+      "sha256": "2066965d154e8519de0e715b871474cc42d43a9b8c14f2232935e3be5ebe399a",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00808/RES_2026_N_00808_ATOMOS_V1.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1v1qnfMSHjHWxREAOTPNokaWLUoYhl6TB",
+      "disposicao": "IMPLANTADO",
+      "sha256": "ee467b929e53b273a527ab850bdb3e131a4d04b8d171f8451901cb60211639f5",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00807/RES_2026_N_00807_TEXTO_DOU_V1.txt",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1bsOeuMDZyWhhy_v-15Dh5HxMPKL1-x2W",
+      "disposicao": "IMPLANTADO",
+      "sha256": "e11d3ef1f867d04d7827eccf13ee2c94e234980d597c2ceaab350decffe1ee77",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00807/RES_2026_N_00807_DOU_FONTE.pdf",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1prolcDtwQXFd0Y3dOciY-qXnrNySXb1g",
+      "disposicao": "IMPLANTADO",
+      "sha256": "88a4c67cbe27ae1efb3288a327a8e05fc3cea69821bb841f46466e75bd77cfe5",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00807/MANIFESTO_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1vukbet6WmHTrJnCIGj3Xjg273wDjbEjN",
+      "disposicao": "IMPLANTADO",
+      "sha256": "a3e92893c068b251d12f6899fad0bfd27deb73ac7df01518367b72a70a01c548",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00807/RES_2026_N_00807_VALIDACAO_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1LE20Hp1pMXErr0W1wyVj0fiWaHQHfyUT",
+      "disposicao": "IMPLANTADO",
+      "sha256": "1f86bdadf21f386de9e4dbe7e371d0b46002b35afb4c3cfbef1a47ce1a59bd0a",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00807/RES_2026_N_00807_NORMA_V1.json",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "1288z8hycrQBImPv73ouXTYghbShO1Hop",
+      "disposicao": "IMPLANTADO",
+      "sha256": "688b0c7738da8747543bcbb9a50140c9d984faf6fbdb8ab187e89224b80a753d",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00807/RES_2026_N_00807_ATOMOS_V1.jsonl",
+      "estado_origem": "AUSENTE"
+    },
+    {
+      "origem": "drive",
+      "id_origem": "13DMCK2bQSPCMzSGjH8glOVmXRoT3Vpvn",
+      "disposicao": "IMPLANTADO",
+      "sha256": "d1772a469c7cc724095edb0d153919dff1ccadc44548dc0ea4970f57d7f9dd16",
+      "copia": "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/PORT/fracoes/PORT_LOTE4_2021-2023_ATOS_PARTE1.zip/manifesto.json",
+      "estado_origem": "AUSENTE"
+    }
+  ],
+  "pendentes": [
+    {
+      "origem": "supabase",
+      "id_origem": "edge:cko-env-probe",
+      "disposicao": "DESCARTADO",
+      "motivo_descarte": "Sonda de ambiente de 15/10/2026. O corpo responde 410 e não revela segredo. A API disponível não oferece exclusão do slug.",
+      "estado_origem": "TOMBSTONE_410"
+    }
+  ],
+  "fora_da_regra": [
+    "drive:1N8CJcN4Hnb0BspHzGOv72BrGc1hTU07q normative_atoms.jsonl sem cópia com o mesmo SHA-256",
+    "supabase:cko_atlas_lab.canonical_atoms anatomia, não implantada neste repositório",
+    "supabase:cko_editorial calculadoras do site",
+    "supabase:public.questoes_enfermagem e storage questoes-enfermagem",
+    "supabase:aevqrmkdhffmursdtcmo regulatory.schema_registry contrato ativo; instruments e provisions com zero linhas; não copiado; não apagar",
+    "supabase:bsawvgyideporzailnys 23 objetos que nomeiam norma e quatro PDFs lei4623.pdf sem SHA-256; não apagar",
+    "supabase:edge:cko-deepseek-gateway é o endpoint da implantação, não uma cópia sobrando",
+    "censo:data/legado/supabase_normativos.json"
+  ]
+}

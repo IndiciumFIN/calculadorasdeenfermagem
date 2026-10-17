@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-conselheira-federal-n-105-2022-cofen/ (API WordPress post 102162); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCONS_2022_N_00105_ATOMOS_V1.jsonl",
+      "sha256": "c43404e29df90f675dc95918d53def74fb81471fecf65f691784348ed0e1ac7e",
+      "tamanho": 29414
+    },
+    {
+      "nome": "PARCONS_2022_N_00105_CONTEUDO_SITE_API.json",
+      "sha256": "e48dc34e8e99ebdb52973b1485d118a38d7f9f640520c59fc7ecb4ff44e98d22",
+      "tamanho": 9938
+    },
+    {
+      "nome": "PARCONS_2022_N_00105_NORMA_V1.json",
+      "sha256": "8d2ada5039f5bfe3c3e29f24e2d50c6bfb34552be5151af50c91dcddb84d9875",
+      "tamanho": 3597
+    },
+    {
+      "nome": "PARCONS_2022_N_00105_PAGINA_SITE.html",
+      "sha256": "98653c0e95fca73f8db2729139dfc5c28830a2992ea4754516d0a66d4b6b7935",
+      "tamanho": 447620
+    },
+    {
+      "nome": "PARCONS_2022_N_00105_TEXTO_FONTE_V1.txt",
+      "sha256": "3e4e53bb81724f944f6bb3115bf4c76ad1b2f100a17b24352e6f1b6917315e10",
+      "tamanho": 7813
+    },
+    {
+      "nome": "PARCONS_2022_N_00105_VALIDACAO_V1.json",
+      "sha256": "595bfe4db83ff8b1507bcaa9b9ee3929f40797cc6a1695d5f6a187f643292293",
+      "tamanho": 2465
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

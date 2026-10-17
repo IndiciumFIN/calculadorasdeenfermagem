@@ -1,0 +1,88 @@
+{
+  "verificado_em": "2026-10-15T01:30:00Z",
+  "regra": "As quatro raízes abaixo são o acervo indicado. Nome igual e tamanho igual não provam o mesmo arquivo. Nada sai do Drive sem SHA-256 da cópia no Git. A proposta de organização de 14/10/2026 não foi executada.",
+  "resumo_14_10": {
+    "id": "1XCNCXsDx-psoYTOjPRAGkIaegL7A7BdJ",
+    "titulo": "RESUMO_20261014_1341.md",
+    "pasta": "1xhNiG35r_1_Cb211b3oz5IvcCE_Ql0K7",
+    "escopo_cofen_itens": 2508,
+    "atos_completos_com_evidencia": 1989,
+    "atos_so_dentro_de_zip": 1919,
+    "atos_ausentes_no_drive": 653,
+    "grupos_mesmo_nome_e_tamanho": 298,
+    "nota": "Contagens citadas desse resumo. O conector não informa md5 nem sha. Esta sessão não recontou os 2.508 itens e não abriu os ZIPs."
+  },
+  "raizes": [
+    {
+      "id": "1FDBAMQ3-WT-8l6xU0664u7QjABd0FbEH",
+      "titulo": "Calculadoras_de_Enfermagem",
+      "acesso": "anyone_reader",
+      "exclusao": "BLOQUEAR",
+      "filhos_listados": [
+        {"id": "16V5vILqgBLnKKuLSu9cYvKN_DN88ui5I", "titulo": "NORMATIVOS", "tipo": "pasta"},
+        {"id": "1XKNmVvGJDfg3HVsDdXRnvUyGsz6Ib5Iq", "titulo": "FEDERAL", "tipo": "pasta"},
+        {"id": "1PT6ywj858okJB_I0U2g5sH4As7XAzFhS", "titulo": "ATLAS_3D_BACKUP_PROTEGIDO_LEITURA_2026-10-10", "tipo": "pasta"},
+        {"id": "1vi129pgXWMZPFddxlMd5YemMEohumxqk714yCoGCVOg", "titulo": "CORPUS & KNOWLEDGE PMO — Calculadoras de Enfermagem", "tipo": "planilha"}
+      ],
+      "arvores_cofen": [
+        {
+          "caminho": "FEDERAL/COFEN",
+          "id": "1CuNVo6TSwMcEyHabRhCVnBJ8W4dRfo7R",
+          "nota": "Pastas de ato soltas (RES 800, RES 813) e pastas de tipo (PARNORM, OS, PAR). Não é a mesma árvore de NORMATIVOS/FEDERAL/COFEN."
+        },
+        {
+          "caminho": "NORMATIVOS/FEDERAL/COFEN",
+          "id": "1LP6uKkBJ5y9VDEQJTxIPyaEFKDLQNWxo",
+          "nota": "O resumo de 14/10 conta 315 itens, dos quais 249 têm o mesmo nome e o mesmo tamanho que FEDERAL/COFEN. Sem SHA-256 isso não autoriza descarte."
+        }
+      ]
+    },
+    {
+      "id": "1xhNiG35r_1_Cb211b3oz5IvcCE_Ql0K7",
+      "titulo": "ESTEIRA_COFEN_BACKUP_20261010_1715",
+      "acesso": "somente_dono",
+      "exclusao": "BLOQUEAR",
+      "nota": "Backup e inventário de 14/10. Há dois arquivos com o título CRUZAMENTO_ATOS_DRIVE_20261014_1341.csv e o mesmo tamanho 465696. Há também handoff e manifesto marcados SUPERADO. ZIPs de staging passam de 49 MB e não foram copiados.",
+      "filhos_relevantes": [
+        {"id": "1XCNCXsDx-psoYTOjPRAGkIaegL7A7BdJ", "titulo": "RESUMO_20261014_1341.md", "bytes": 7883},
+        {"id": "1PcS2NSmNnzizDqFrbNCuWOrECsbF1e24", "titulo": "INVENTARIO_DRIVE_20261014_1341.csv", "bytes": 16145594},
+        {"id": "1i-72bX6BZ1KE7G3wWa6Sxev-Gr-2AOX8", "titulo": "DUPLICATAS_20261014_1341.csv", "bytes": 215887},
+        {"id": "1FTSS4azGv6PrvE9cMpwG_xcoVG05XFFW", "titulo": "REGISTRO_AUTORIA_20261014_1332.csv", "bytes": 14572355},
+        {"id": "1nwJcysG9sO5KxjKERfjhXTEgvmZzgd27", "titulo": "MANIFESTO_BACKUP.json", "bytes": 12140615},
+        {"id": "1XqZ_BiT_90z_kZC-8v0cB9vVKl1B22Z3", "titulo": "MANIFESTO_BACKUP_SUPERADO_pre-divisao.json", "bytes": 12038464}
+      ]
+    },
+    {
+      "id": "1l519_P-9o6bnQcItydKvEEDpEYeE8R8s",
+      "titulo": "extracao bruta Grok Bot Danadão",
+      "acesso": "anyone_reader",
+      "exclusao": "BLOQUEAR",
+      "nota": "Extração clínica e bruta, não o diário oficial. A raiz continua bloqueada. A listagem da raiz fechou em 15/10/2026, sem página seguinte: 18 pastas e o zip CKO_CURSOR_00_CONTROLE. Os arquivos autorizados foram copiados ou fracionados e a releitura devolveu ausência. Permanecem as cascas das pastas, as subpastas raw, protocolos_enfermagem, sete tabelas clínicas transcritas em revisao, o zip de controle e a árvore derivada de atomizado.",
+      "filhos_normativos_ou_brutos": [
+        {"id": "1zaJ1eZlFpe5jwz-wkXL9fkjpLCvFmS5t", "titulo": "atomizado"},
+        {"id": "1YctWAPptjz1HUTm0B8HMA31-ScVBXXkU", "titulo": "revisao"},
+        {"id": "1fMp2UBS3_AA0iGjmtP7qrKiJzAyMSZOq", "titulo": "raw"}
+      ]
+    },
+    {
+      "id": "1c9vErI_It3XwzAcAFOnbxw9V0Mn6xfB9",
+      "titulo": "Calculadoras-de-Enfermagem",
+      "acesso": "dono_e_dois_editores",
+      "editores": ["kauesp07@hotmail.com", "kauepg18@gmail.com"],
+      "exclusao": "BLOQUEAR",
+      "nota": "A raiz mistura normativo, governança, site e backups. A listagem desta sessão passou de 105 itens e ainda tinha próxima página. A pasta FEDERAL deste projeto existe, mas a consulta por filhos devolveu lista vazia; isso não prova pasta vazia.",
+      "federal_id": "194ppG1qi_umpSocRyToxIbocpGlEzGw0",
+      "filhos_de_governanca_ou_norma": [
+        {"id": "1W_-PUyhJfggNlisklVBzLa60NASAUJ4S", "titulo": "MEMORIA_E_GOVERNANCA"},
+        {"id": "1Hkzkhakni4Gid-rTQvneB_9xqe1ksyBZ", "titulo": "cofen"},
+        {"id": "1hORSMSQiYaxSZeoZ4ILVKbjCwyMPVtt8", "titulo": "coren"},
+        {"id": "194ppG1qi_umpSocRyToxIbocpGlEzGw0", "titulo": "FEDERAL"},
+        {"id": "1k28gN245X7u4EDgIIJO9wUL915AR4hb7", "titulo": "EXTRACAO_VERIFICAVEL_v0_3"},
+        {"id": "1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC", "titulo": "CORPUS_CANONICO_INDIVIDUAL"},
+        {"id": "1sPNYlbAzKtyS0RNJoDpCEc3xgXR2JJma", "titulo": "PILOTO_PIPELINE_DETERMINISTICO_COFEN_2026-10-10"},
+        {"id": "15v8Nm6H7UxEinHp5W7FRVzZZ2Hi4Ds8S", "titulo": "00_HANDOFF"},
+        {"id": "1UbPlp0RMgOsw3Ey2V-lwpZvcGKfMcEy0", "titulo": "Corpus_Canonico_2026-10-03"}
+      ]
+    }
+  ]
+}

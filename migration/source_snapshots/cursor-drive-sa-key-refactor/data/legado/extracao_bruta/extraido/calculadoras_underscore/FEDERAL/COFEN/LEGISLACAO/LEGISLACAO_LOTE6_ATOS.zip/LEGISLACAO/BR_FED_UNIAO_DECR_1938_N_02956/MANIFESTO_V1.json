@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/decreto-n-2956-de-100838/ (API WordPress post 4172); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "DECR_1938_N_02956_ATOMOS_V1.jsonl",
+      "sha256": "90a952f4e32a4d07b5f60c4dea893ecfcc03bc09e007d0d4fb45a8a368e6d26d",
+      "tamanho": 5203
+    },
+    {
+      "nome": "DECR_1938_N_02956_CONTEUDO_SITE_API.json",
+      "sha256": "a15efb12e10ec0400edfdbff58b3d82475c3718bb352958dc1237cbecf547c64",
+      "tamanho": 806
+    },
+    {
+      "nome": "DECR_1938_N_02956_NORMA_V1.json",
+      "sha256": "3c2706a0706036606b596ad9a34edfc5c4bf7299bd5d380b22367ee3543a5d48",
+      "tamanho": 1923
+    },
+    {
+      "nome": "DECR_1938_N_02956_PAGINA_SITE.html",
+      "sha256": "b37d4a0ffcb5162cbe4d2eb8172f2e76491adbd16775b9748c81a3c8be696dd7",
+      "tamanho": 434747
+    },
+    {
+      "nome": "DECR_1938_N_02956_TEXTO_FONTE_V1.txt",
+      "sha256": "7dce2da9e83372d8a9522c94f7352ef295deb1ddf5cad9c006bf3fa5dab7abb8",
+      "tamanho": 457
+    },
+    {
+      "nome": "DECR_1938_N_02956_VALIDACAO_V1.json",
+      "sha256": "c20345837ddbd99110c342566704fbb588df49070a7bab718b7b23cd62d415a7",
+      "tamanho": 2642
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

@@ -1,0 +1,62 @@
+[
+ {
+  "classificacao": "PA ótima",
+  "pas_mmHg": "<120",
+  "conector": "e",
+  "pad_mmHg": "<80",
+  "fonte": "Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial - 2020. Arq Bras Cardiol. 2021;116(3):516-658. Tabela de classificação da PA no consultório (>=18 anos)",
+  "nota_asterisco_1": "*A classificação é definida de acordo com a PA no consultório e pelo nível mais elevado de PA, sistólica ou diastólica.",
+  "nota_asterisco_2": "**A HA sistólica isolada, caracterizada pela PAS ≥ 140 mmHg e PAD < 90 mmHg, é classificada em 1, 2 ou 3, de acordo com os valores da PAS nos intervalos indicados.",
+  "nota_asterisco_3": "***A HA diastólica isolada, caracterizada pela PAS < 140 mmHg e PAD ≥ 90 mmHg, é classificada em 1, 2 ou 3, de acordo com os valores da PAD nos intervalos indicados."
+ },
+ {
+  "classificacao": "PA normal",
+  "pas_mmHg": "120-129",
+  "conector": "e/ou",
+  "pad_mmHg": "80-84",
+  "fonte": "Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial - 2020. Arq Bras Cardiol. 2021;116(3):516-658. Tabela de classificação da PA no consultório (>=18 anos)",
+  "nota_asterisco_1": "*A classificação é definida de acordo com a PA no consultório e pelo nível mais elevado de PA, sistólica ou diastólica.",
+  "nota_asterisco_2": "**A HA sistólica isolada, caracterizada pela PAS ≥ 140 mmHg e PAD < 90 mmHg, é classificada em 1, 2 ou 3, de acordo com os valores da PAS nos intervalos indicados.",
+  "nota_asterisco_3": "***A HA diastólica isolada, caracterizada pela PAS < 140 mmHg e PAD ≥ 90 mmHg, é classificada em 1, 2 ou 3, de acordo com os valores da PAD nos intervalos indicados."
+ },
+ {
+  "classificacao": "Pré-hipertensão",
+  "pas_mmHg": "130-139",
+  "conector": "e/ou",
+  "pad_mmHg": "85-89",
+  "fonte": "Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial - 2020. Arq Bras Cardiol. 2021;116(3):516-658. Tabela de classificação da PA no consultório (>=18 anos)",
+  "nota_asterisco_1": "*A classificação é definida de acordo com a PA no consultório e pelo nível mais elevado de PA, sistólica ou diastólica.",
+  "nota_asterisco_2": "**A HA sistólica isolada, caracterizada pela PAS ≥ 140 mmHg e PAD < 90 mmHg, é classificada em 1, 2 ou 3, de acordo com os valores da PAS nos intervalos indicados.",
+  "nota_asterisco_3": "***A HA diastólica isolada, caracterizada pela PAS < 140 mmHg e PAD ≥ 90 mmHg, é classificada em 1, 2 ou 3, de acordo com os valores da PAD nos intervalos indicados."
+ },
+ {
+  "classificacao": "HA estágio 1",
+  "pas_mmHg": "140-159",
+  "conector": "e/ou",
+  "pad_mmHg": "90-99",
+  "fonte": "Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial - 2020. Arq Bras Cardiol. 2021;116(3):516-658. Tabela de classificação da PA no consultório (>=18 anos)",
+  "nota_asterisco_1": "*A classificação é definida de acordo com a PA no consultório e pelo nível mais elevado de PA, sistólica ou diastólica.",
+  "nota_asterisco_2": "**A HA sistólica isolada, caracterizada pela PAS ≥ 140 mmHg e PAD < 90 mmHg, é classificada em 1, 2 ou 3, de acordo com os valores da PAS nos intervalos indicados.",
+  "nota_asterisco_3": "***A HA diastólica isolada, caracterizada pela PAS < 140 mmHg e PAD ≥ 90 mmHg, é classificada em 1, 2 ou 3, de acordo com os valores da PAD nos intervalos indicados."
+ },
+ {
+  "classificacao": "HA estágio 2",
+  "pas_mmHg": "160-179",
+  "conector": "e/ou",
+  "pad_mmHg": "100-109",
+  "fonte": "Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial - 2020. Arq Bras Cardiol. 2021;116(3):516-658. Tabela de classificação da PA no consultório (>=18 anos)",
+  "nota_asterisco_1": "*A classificação é definida de acordo com a PA no consultório e pelo nível mais elevado de PA, sistólica ou diastólica.",
+  "nota_asterisco_2": "**A HA sistólica isolada, caracterizada pela PAS ≥ 140 mmHg e PAD < 90 mmHg, é classificada em 1, 2 ou 3, de acordo com os valores da PAS nos intervalos indicados.",
+  "nota_asterisco_3": "***A HA diastólica isolada, caracterizada pela PAS < 140 mmHg e PAD ≥ 90 mmHg, é classificada em 1, 2 ou 3, de acordo com os valores da PAD nos intervalos indicados."
+ },
+ {
+  "classificacao": "HA estágio 3",
+  "pas_mmHg": ">=180",
+  "conector": "e/ou",
+  "pad_mmHg": ">=110",
+  "fonte": "Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial - 2020. Arq Bras Cardiol. 2021;116(3):516-658. Tabela de classificação da PA no consultório (>=18 anos)",
+  "nota_asterisco_1": "*A classificação é definida de acordo com a PA no consultório e pelo nível mais elevado de PA, sistólica ou diastólica.",
+  "nota_asterisco_2": "**A HA sistólica isolada, caracterizada pela PAS ≥ 140 mmHg e PAD < 90 mmHg, é classificada em 1, 2 ou 3, de acordo com os valores da PAS nos intervalos indicados.",
+  "nota_asterisco_3": "***A HA diastólica isolada, caracterizada pela PAS < 140 mmHg e PAD ≥ 90 mmHg, é classificada em 1, 2 ou 3, de acordo com os valores da PAD nos intervalos indicados."
+ }
+]

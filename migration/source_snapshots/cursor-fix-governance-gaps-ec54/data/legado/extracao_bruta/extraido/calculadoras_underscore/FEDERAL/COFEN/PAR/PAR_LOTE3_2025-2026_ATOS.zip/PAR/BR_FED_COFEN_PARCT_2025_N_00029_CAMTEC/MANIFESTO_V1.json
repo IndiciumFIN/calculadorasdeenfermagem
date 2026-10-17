@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-29-2025-camaras-tecnicas-de-enfermagem/ (API WordPress post 150305); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2025_N_00029_CAMTEC_ATOMOS_V1.jsonl",
+      "sha256": "4989758379a90ae47f2f2dc4e26f0c86072e4f734b0c3b7868c0bc6222b0352b",
+      "tamanho": 40362
+    },
+    {
+      "nome": "PARCT_2025_N_00029_CAMTEC_CONTEUDO_SITE_API.json",
+      "sha256": "e6f626b945a52be854ad85b5e188fb904fa9c6cd88648213f798ca46898ea9f7",
+      "tamanho": 13986
+    },
+    {
+      "nome": "PARCT_2025_N_00029_CAMTEC_NORMA_V1.json",
+      "sha256": "4ead0d4b5cbb6c7da42ad79973775238c0fb3f47a4e859ac0fb29dfb7418c23c",
+      "tamanho": 7014
+    },
+    {
+      "nome": "PARCT_2025_N_00029_CAMTEC_PAGINA_SITE.html",
+      "sha256": "5f7fe1f064e575c9c740cfcb3ac8d383beab4fe524b089d480f7e46fafad5b0c",
+      "tamanho": 454831
+    },
+    {
+      "nome": "PARCT_2025_N_00029_CAMTEC_PDF_SITE.pdf",
+      "sha256": "5f28a20d935fa98ed47365b8974eb0bbe944197cb970a742aa21010729e24a28",
+      "tamanho": 287663
+    },
+    {
+      "nome": "PARCT_2025_N_00029_CAMTEC_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "787ff7de5c5b46cd3fd21c086eea987e55a3b8359cac3cd7fe12d6488c37b8be",
+      "tamanho": 12445
+    },
+    {
+      "nome": "PARCT_2025_N_00029_CAMTEC_TEXTO_FONTE_V1.txt",
+      "sha256": "492320ae5a557754224d3ec326037c2437d64dce42cd2e69917be790625dffa6",
+      "tamanho": 11696
+    },
+    {
+      "nome": "PARCT_2025_N_00029_CAMTEC_VALIDACAO_V1.json",
+      "sha256": "88f2ded137331f2aaefb89bc6d105ecd749247460e2d80bbf948f39e8bd83421",
+      "tamanho": 9412
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

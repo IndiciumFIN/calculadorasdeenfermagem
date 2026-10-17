@@ -1,0 +1,101 @@
+{
+  "identificador": "BR_FED_COFEN_PARCT_2018_N_00026_CTAS",
+  "tipo": "Parecer de Câmara Técnica",
+  "codigo_tipo": "PARCT",
+  "categoria_site": "Pareceres",
+  "numero": 26,
+  "numero_original": "PARECER DE CÂMARA TÉCNICA Nº 026/2018/CTAS/COFEN",
+  "ano": 2018,
+  "emissor": "Conselho Federal de Enfermagem",
+  "unidade_emissora": "CTAS/COFEN",
+  "data_ato": "2018-08-23",
+  "data_ato_fonte": "Brasília, 23 de agosto de 2018",
+  "ementa": null,
+  "titulo_site": "PARECER DE CÂMARA TÉCNICA Nº 026/2018/CTAS/COFEN",
+  "publicacao": {
+    "veiculo": "Portal do Cofen (cofen.gov.br)",
+    "url": "https://www.cofen.gov.br/parecer-no-026-2018-cofen-ctas/",
+    "wp_post_id": 67435,
+    "data_publicacao_site": "2018-12-04",
+    "data_modificacao_site": "2020-12-17",
+    "pdfs": [
+      {
+        "url": "https://www.cofen.gov.br/wp-content/uploads/2018/12/PARECER-Nº-026-2018-CTAS.pdf",
+        "rotulo_site": "PARECER DE CÂMARA TÉCNICA Nº 026/2018/CTAS/COFEN",
+        "origem_link": "bloco_anexos_pagina",
+        "arquivo": "PARCT_2018_N_00026_CTAS_PDF_SITE.pdf",
+        "papel": "PRINCIPAL",
+        "ocr": true,
+        "paginas": 6,
+        "arquivo_texto": "PARCT_2018_N_00026_CTAS_PDF_SITE_TEXTO_OCR_V1.txt",
+        "pagina_dou": false
+      }
+    ],
+    "sei": {
+      "documento_sei": null,
+      "codigo_verificador": null,
+      "codigo_crc": null,
+      "assinaturas_eletronicas": []
+    },
+    "dou": {
+      "citado_no_texto": false,
+      "trechos": [],
+      "registros_de_publicacao": [],
+      "codigos_autenticidade": [],
+      "verificado_online_in_gov_br": false,
+      "observacao": "Nenhuma menção a publicação no DOU no texto do site nem no PDF.",
+      "fac_simile_dou_no_site": []
+    }
+  },
+  "vigencia": {
+    "clausula": null,
+    "situacao": "NAO_VERIFICADA_ATOS_POSTERIORES"
+  },
+  "normas_relacionadas": [
+    {
+      "ato": "Resolução Cofen 0569/2018",
+      "relacao": "CITADA",
+      "verificacao": "EXTRAIDO_AUTOMATICO_DO_TEXTO",
+      "contexto": "que tange ao objeto do questionamento realizado pelo Coren-PE, solicitando posicionamento quanto à Resolução Cofen n° 0569/2018, quanto à atribuição de desinstalação de quimioterapia anti"
+    },
+    {
+      "ato": "Lei 7498/1986",
+      "relacao": "CITADA",
+      "verificacao": "EXTRAIDO_AUTOMATICO_DO_TEXTO",
+      "contexto": "e – Cumprir e fazer cumprir as normas, regulamentos e legislações pertinentes à área de atuação. A Lei nº 7498/86 que dispõe sobre a regulamentação do exercício da Enfermage"
+    },
+    {
+      "ato": "Portaria 874/2013",
+      "relacao": "CITADA",
+      "verificacao": "EXTRAIDO_AUTOMATICO_DO_TEXTO",
+      "contexto": "s Santos. Na 37ª Reunião Ordinária da CTAS. REFERÊNCIAS BIBLIOGRÁFICAS BRASIL. Ministério da Saúde. Portaria nº 874, de 16 de maio de 2013. Institui a Política Nacional para a Prevenção e Controle d"
+    }
+  ],
+  "assinaturas": [],
+  "licenca_uso": {
+    "fundamento": "Lei 9.610/1998, art. 8, IV",
+    "texto_ato_oficial": "NAO_PROTEGIDO_POR_DIREITOS_AUTORAIS",
+    "uso_texto_normativo": "ELEGIVEL_PARA_REPRODUCAO_COM_PROVENIENCIA",
+    "materiais_terceiros": "CONTEM_CITACOES_E_OU_IMAGENS_DE_TERCEIROS_ANALISE_ESPECIFICA"
+  },
+  "contagem_dispositivos": {
+    "epigrafe": 1,
+    "identificacao_processo": 1,
+    "paragrafo_texto": 17,
+    "secao": 6,
+    "anexo": 1,
+    "item_lista": 24,
+    "item": 1,
+    "local_data": 1,
+    "referencia": 5
+  },
+  "anexos": {
+    "referencias_no_texto": [],
+    "resultado": "PRESENTE_E_ATOMIZADO",
+    "anexos_no_texto": [
+      "BR_FED_COFEN_PARCT_2018_N_00026_CTAS_ANEXO_001"
+    ]
+  },
+  "observacoes": [],
+  "situacao": "ATOMIZADO_PENDENTE_REVISAO"
+}

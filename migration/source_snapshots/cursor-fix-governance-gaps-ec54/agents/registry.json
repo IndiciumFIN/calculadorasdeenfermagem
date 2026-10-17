@@ -1,0 +1,1560 @@
+{
+  "versao": "1.2.0",
+  "regra": "Agente fora deste registro, ou com recertificação vencida, não executa (PEP deny-by-default). Decisão histórica: agente corrigido exige recertificação antes de recuperar autoridade de execução. Agente GRC entra como candidato: a regra operacional fica no registro e o enunciado oficial não fica armazenado.",
+  "agentes": {
+    "AGT-EXTRATOR-001": {
+      "funcao": "Extração literal de fontes oficiais",
+      "prompts_permitidos": [
+        "extractor_v1"
+      ],
+      "modelos_permitidos": [
+        "mock:echo-v1",
+        "deepseek:deepseek-chat"
+      ],
+      "acoes_permitidas": [
+        "extracao_atomos",
+        "registrar-find"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "vigente",
+        "valido_ate": "2027-04-14",
+        "evidencia": "Bootstrap do harness nesta mudança; recertificar após primeiro ciclo real de reperformance."
+      }
+    },
+    "AGT-AUDITOR-001": {
+      "funcao": "Auditoria camada 2 (confrontação com a fonte)",
+      "prompts_permitidos": [
+        "auditor_v1"
+      ],
+      "modelos_permitidos": [
+        "mock:echo-v1",
+        "deepseek:deepseek-chat"
+      ],
+      "acoes_permitidas": [
+        "auditoria_camada_2",
+        "analisar-find",
+        "corrigir-find"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "vigente",
+        "valido_ate": "2027-04-14",
+        "evidencia": "Bootstrap do harness nesta mudança; recertificar após primeiro ciclo real de reperformance."
+      }
+    },
+    "AG-CKO-GRC-COSO-DEFICIENCY": {
+      "funcao": "Propõe FIND de deficiência comprovada com causa-raiz pendente de revisão.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-GRC-COSO-DESIGN": {
+      "funcao": "Analisa se testes de desenho documentados satisfazem contratos internos sem declarar eficácia oficial.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-GRC-COSO-OPERATION": {
+      "funcao": "Analisa testes operacionais e sua suficiência sem certificar efetividade do controle-modelo.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-GRC-CROSSWALK": {
+      "funcao": "Compara referências COSO e objetivos públicos de TI, sem produzir crosswalk oficial.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-APO": {
+      "funcao": "Agrupa os identificadores APO01 a APO14. A inspeção usa só o código. Não altera estado e não grava título de domínio.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-APO01": {
+      "funcao": "Inspeciona evidências do identificador APO01. A regra operacional foi derivada fora da base e o enunciado não fica armazenado. Devolve diagnóstico. Não altera estado e não declara maturidade.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-APO02": {
+      "funcao": "Inspeciona evidências do identificador APO02. A regra operacional foi derivada fora da base e o enunciado não fica armazenado. Devolve diagnóstico. Não altera estado e não declara maturidade.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-APO03": {
+      "funcao": "Inspeciona evidências do identificador APO03. A regra operacional foi derivada fora da base e o enunciado não fica armazenado. Devolve diagnóstico. Não altera estado e não declara maturidade.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-APO04": {
+      "funcao": "Inspeciona evidências do identificador APO04. A regra operacional foi derivada fora da base e o enunciado não fica armazenado. Devolve diagnóstico. Não altera estado e não declara maturidade.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-APO05": {
+      "funcao": "Inspeciona evidências do identificador APO05. A regra operacional foi derivada fora da base e o enunciado não fica armazenado. Devolve diagnóstico. Não altera estado e não declara maturidade.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-APO06": {
+      "funcao": "Inspeciona evidências do identificador APO06. A regra operacional foi derivada fora da base e o enunciado não fica armazenado. Devolve diagnóstico. Não altera estado e não declara maturidade.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-APO07": {
+      "funcao": "Inspeciona evidências do identificador APO07. A regra operacional foi derivada fora da base e o enunciado não fica armazenado. Devolve diagnóstico. Não altera estado e não declara maturidade.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-APO08": {
+      "funcao": "Inspeciona evidências do identificador APO08. A regra operacional foi derivada fora da base e o enunciado não fica armazenado. Devolve diagnóstico. Não altera estado e não declara maturidade.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-APO09": {
+      "funcao": "Inspeciona evidências do identificador APO09. A regra operacional foi derivada fora da base e o enunciado não fica armazenado. Devolve diagnóstico. Não altera estado e não declara maturidade.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-APO10": {
+      "funcao": "Inspeciona evidências do identificador APO10. A regra operacional foi derivada fora da base e o enunciado não fica armazenado. Devolve diagnóstico. Não altera estado e não declara maturidade.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-APO11": {
+      "funcao": "Inspeciona evidências do identificador APO11. A regra operacional foi derivada fora da base e o enunciado não fica armazenado. Devolve diagnóstico. Não altera estado e não declara maturidade.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-APO12": {
+      "funcao": "Inspeciona evidências do identificador APO12. A regra operacional foi derivada fora da base e o enunciado não fica armazenado. Devolve diagnóstico. Não altera estado e não declara maturidade.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-APO13": {
+      "funcao": "Inspeciona evidências do identificador APO13. A regra operacional foi derivada fora da base e o enunciado não fica armazenado. Devolve diagnóstico. Não altera estado e não declara maturidade.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-APO14": {
+      "funcao": "Inspeciona evidências do identificador APO14. A regra operacional foi derivada fora da base e o enunciado não fica armazenado. Devolve diagnóstico. Não altera estado e não declara maturidade.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-ASSET-RECONCILER": {
+      "funcao": "Identifica diferenças entre inventários e hashes existentes sem alterá-los.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-BAI": {
+      "funcao": "Agrupa os identificadores BAI01 a BAI11. A inspeção usa só o código. Não altera estado e não grava título de domínio.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-BAI01": {
+      "funcao": "Inspeciona evidências do identificador BAI01. A regra operacional foi derivada fora da base e o enunciado não fica armazenado. Devolve diagnóstico. Não altera estado e não declara maturidade.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-BAI02": {
+      "funcao": "Inspeciona evidências do identificador BAI02. A regra operacional foi derivada fora da base e o enunciado não fica armazenado. Devolve diagnóstico. Não altera estado e não declara maturidade.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-BAI03": {
+      "funcao": "Inspeciona evidências do identificador BAI03. A regra operacional foi derivada fora da base e o enunciado não fica armazenado. Devolve diagnóstico. Não altera estado e não declara maturidade.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-BAI04": {
+      "funcao": "Inspeciona evidências do identificador BAI04. A regra operacional foi derivada fora da base e o enunciado não fica armazenado. Devolve diagnóstico. Não altera estado e não declara maturidade.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-BAI05": {
+      "funcao": "Inspeciona evidências do identificador BAI05. A regra operacional foi derivada fora da base e o enunciado não fica armazenado. Devolve diagnóstico. Não altera estado e não declara maturidade.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-BAI06": {
+      "funcao": "Inspeciona evidências do identificador BAI06. A regra operacional foi derivada fora da base e o enunciado não fica armazenado. Devolve diagnóstico. Não altera estado e não declara maturidade.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-BAI07": {
+      "funcao": "Inspeciona evidências do identificador BAI07. A regra operacional foi derivada fora da base e o enunciado não fica armazenado. Devolve diagnóstico. Não altera estado e não declara maturidade.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-BAI08": {
+      "funcao": "Inspeciona evidências do identificador BAI08. A regra operacional foi derivada fora da base e o enunciado não fica armazenado. Devolve diagnóstico. Não altera estado e não declara maturidade.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-BAI09": {
+      "funcao": "Inspeciona evidências do identificador BAI09. A regra operacional foi derivada fora da base e o enunciado não fica armazenado. Devolve diagnóstico. Não altera estado e não declara maturidade.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-BAI10": {
+      "funcao": "Inspeciona evidências do identificador BAI10. A regra operacional foi derivada fora da base e o enunciado não fica armazenado. Devolve diagnóstico. Não altera estado e não declara maturidade.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-BAI11": {
+      "funcao": "Inspeciona evidências do identificador BAI11. A regra operacional foi derivada fora da base e o enunciado não fica armazenado. Devolve diagnóstico. Não altera estado e não declara maturidade.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-CONTROL-VALIDATOR": {
+      "funcao": "Valida estrutura, IDs, estados e relações de controles existentes.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-CYCLE-RETESTER": {
+      "funcao": "Compara avaliações entre ciclos, sem alterar estados ou aprovar correções.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-DSS": {
+      "funcao": "Agrupa os identificadores DSS01 a DSS06. A inspeção usa só o código. Não altera estado e não grava título de domínio.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-DSS01": {
+      "funcao": "Inspeciona evidências do identificador DSS01. A regra operacional foi derivada fora da base e o enunciado não fica armazenado. Devolve diagnóstico. Não altera estado e não declara maturidade.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-DSS02": {
+      "funcao": "Inspeciona evidências do identificador DSS02. A regra operacional foi derivada fora da base e o enunciado não fica armazenado. Devolve diagnóstico. Não altera estado e não declara maturidade.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-DSS03": {
+      "funcao": "Inspeciona evidências do identificador DSS03. A regra operacional foi derivada fora da base e o enunciado não fica armazenado. Devolve diagnóstico. Não altera estado e não declara maturidade.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-DSS04": {
+      "funcao": "Inspeciona evidências do identificador DSS04. A regra operacional foi derivada fora da base e o enunciado não fica armazenado. Devolve diagnóstico. Não altera estado e não declara maturidade.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-DSS05": {
+      "funcao": "Inspeciona evidências do identificador DSS05. A regra operacional foi derivada fora da base e o enunciado não fica armazenado. Devolve diagnóstico. Não altera estado e não declara maturidade.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-DSS06": {
+      "funcao": "Inspeciona evidências do identificador DSS06. A regra operacional foi derivada fora da base e o enunciado não fica armazenado. Devolve diagnóstico. Não altera estado e não declara maturidade.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-EDM": {
+      "funcao": "Agrupa os identificadores EDM01 a EDM05. A inspeção usa só o código. Não altera estado e não grava título de domínio.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-EDM01": {
+      "funcao": "Inspeciona evidências do identificador EDM01. A regra operacional foi derivada fora da base e o enunciado não fica armazenado. Devolve diagnóstico. Não altera estado e não declara maturidade.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-EDM02": {
+      "funcao": "Inspeciona evidências do identificador EDM02. A regra operacional foi derivada fora da base e o enunciado não fica armazenado. Devolve diagnóstico. Não altera estado e não declara maturidade.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-EDM03": {
+      "funcao": "Inspeciona evidências do identificador EDM03. A regra operacional foi derivada fora da base e o enunciado não fica armazenado. Devolve diagnóstico. Não altera estado e não declara maturidade.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-EDM04": {
+      "funcao": "Inspeciona evidências do identificador EDM04. A regra operacional foi derivada fora da base e o enunciado não fica armazenado. Devolve diagnóstico. Não altera estado e não declara maturidade.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-EDM05": {
+      "funcao": "Inspeciona evidências do identificador EDM05. A regra operacional foi derivada fora da base e o enunciado não fica armazenado. Devolve diagnóstico. Não altera estado e não declara maturidade.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-EVIDENCE-INSPECTOR": {
+      "funcao": "Verifica integridade estrutural e hashes de evidências fornecidas.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-FIND-TRIAGER": {
+      "funcao": "Produz FIND_CANDIDATE e classifica campos incompletos; não encerra achados.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-MASTER": {
+      "funcao": "Consolida indicadores de evidência por domínio; não determina maturidade oficial.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-MEA": {
+      "funcao": "Agrupa os identificadores MEA01 a MEA04. A inspeção usa só o código. Não altera estado e não grava título de domínio.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-MEA01": {
+      "funcao": "Inspeciona evidências do identificador MEA01. A regra operacional foi derivada fora da base e o enunciado não fica armazenado. Devolve diagnóstico. Não altera estado e não declara maturidade.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-MEA02": {
+      "funcao": "Inspeciona evidências do identificador MEA02. A regra operacional foi derivada fora da base e o enunciado não fica armazenado. Devolve diagnóstico. Não altera estado e não declara maturidade.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-MEA03": {
+      "funcao": "Inspeciona evidências do identificador MEA03. A regra operacional foi derivada fora da base e o enunciado não fica armazenado. Devolve diagnóstico. Não altera estado e não declara maturidade.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-MEA04": {
+      "funcao": "Inspeciona evidências do identificador MEA04. A regra operacional foi derivada fora da base e o enunciado não fica armazenado. Devolve diagnóstico. Não altera estado e não declara maturidade.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-POLICY-INSPECTOR": {
+      "funcao": "Aponta divergências entre registro de políticas e configurações declaradas.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-PUBLICATION-GUARD": {
+      "funcao": "Sinaliza ausência de aprovações e licença antes de qualquer publicação.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-CKO-ITG-SOD-ANALYST": {
+      "funcao": "Identifica colisões declaradas entre solicitante, executor e checker.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-COSO-MASTER": {
+      "funcao": "Encaminha o diagnóstico aos códigos ICIF-01 a ERM-20. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ERM-EO": {
+      "funcao": "Agrupa os códigos ERM-06 a ERM-09 e aplica a mesma régua a cada código. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ERM-GC": {
+      "funcao": "Agrupa os códigos ERM-01 a ERM-05 e aplica a mesma régua a cada código. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ERM-IR": {
+      "funcao": "Agrupa os códigos ERM-18 a ERM-20 e aplica a mesma régua a cada código. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ERM-ORQ": {
+      "funcao": "Encaminha o diagnóstico aos códigos ERM-01 a ERM-20. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ERM-P01": {
+      "funcao": "Confere os controles com norma.codigo ERM-01. Exige attributes_to_test e test_operation_template preenchidos, template_status MODEL_DRAFT_NOT_IMPLEMENTED e implementation_status NOT_VERIFIED. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ERM-P02": {
+      "funcao": "Confere os controles com norma.codigo ERM-02. Exige attributes_to_test e test_operation_template preenchidos, template_status MODEL_DRAFT_NOT_IMPLEMENTED e implementation_status NOT_VERIFIED. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ERM-P03": {
+      "funcao": "Confere os controles com norma.codigo ERM-03. Exige attributes_to_test e test_operation_template preenchidos, template_status MODEL_DRAFT_NOT_IMPLEMENTED e implementation_status NOT_VERIFIED. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ERM-P04": {
+      "funcao": "Confere os controles com norma.codigo ERM-04. Exige attributes_to_test e test_operation_template preenchidos, template_status MODEL_DRAFT_NOT_IMPLEMENTED e implementation_status NOT_VERIFIED. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ERM-P05": {
+      "funcao": "Confere os controles com norma.codigo ERM-05. Exige attributes_to_test e test_operation_template preenchidos, template_status MODEL_DRAFT_NOT_IMPLEMENTED e implementation_status NOT_VERIFIED. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ERM-P06": {
+      "funcao": "Confere os controles com norma.codigo ERM-06. Exige attributes_to_test e test_operation_template preenchidos, template_status MODEL_DRAFT_NOT_IMPLEMENTED e implementation_status NOT_VERIFIED. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ERM-P07": {
+      "funcao": "Confere os controles com norma.codigo ERM-07. Exige attributes_to_test e test_operation_template preenchidos, template_status MODEL_DRAFT_NOT_IMPLEMENTED e implementation_status NOT_VERIFIED. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ERM-P08": {
+      "funcao": "Confere os controles com norma.codigo ERM-08. Exige attributes_to_test e test_operation_template preenchidos, template_status MODEL_DRAFT_NOT_IMPLEMENTED e implementation_status NOT_VERIFIED. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ERM-P09": {
+      "funcao": "Confere os controles com norma.codigo ERM-09. Exige attributes_to_test e test_operation_template preenchidos, template_status MODEL_DRAFT_NOT_IMPLEMENTED e implementation_status NOT_VERIFIED. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ERM-P10": {
+      "funcao": "Confere os controles com norma.codigo ERM-10. Exige attributes_to_test e test_operation_template preenchidos, template_status MODEL_DRAFT_NOT_IMPLEMENTED e implementation_status NOT_VERIFIED. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ERM-P11": {
+      "funcao": "Confere os controles com norma.codigo ERM-11. Exige attributes_to_test e test_operation_template preenchidos, template_status MODEL_DRAFT_NOT_IMPLEMENTED e implementation_status NOT_VERIFIED. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ERM-P12": {
+      "funcao": "Confere os controles com norma.codigo ERM-12. Exige attributes_to_test e test_operation_template preenchidos, template_status MODEL_DRAFT_NOT_IMPLEMENTED e implementation_status NOT_VERIFIED. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ERM-P13": {
+      "funcao": "Confere os controles com norma.codigo ERM-13. Exige attributes_to_test e test_operation_template preenchidos, template_status MODEL_DRAFT_NOT_IMPLEMENTED e implementation_status NOT_VERIFIED. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ERM-P14": {
+      "funcao": "Confere os controles com norma.codigo ERM-14. Exige attributes_to_test e test_operation_template preenchidos, template_status MODEL_DRAFT_NOT_IMPLEMENTED e implementation_status NOT_VERIFIED. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ERM-P15": {
+      "funcao": "Confere os controles com norma.codigo ERM-15. Exige attributes_to_test e test_operation_template preenchidos, template_status MODEL_DRAFT_NOT_IMPLEMENTED e implementation_status NOT_VERIFIED. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ERM-P16": {
+      "funcao": "Confere os controles com norma.codigo ERM-16. Exige attributes_to_test e test_operation_template preenchidos, template_status MODEL_DRAFT_NOT_IMPLEMENTED e implementation_status NOT_VERIFIED. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ERM-P17": {
+      "funcao": "Confere os controles com norma.codigo ERM-17. Exige attributes_to_test e test_operation_template preenchidos, template_status MODEL_DRAFT_NOT_IMPLEMENTED e implementation_status NOT_VERIFIED. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ERM-P18": {
+      "funcao": "Confere os controles com norma.codigo ERM-18. Exige attributes_to_test e test_operation_template preenchidos, template_status MODEL_DRAFT_NOT_IMPLEMENTED e implementation_status NOT_VERIFIED. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ERM-P19": {
+      "funcao": "Confere os controles com norma.codigo ERM-19. Exige attributes_to_test e test_operation_template preenchidos, template_status MODEL_DRAFT_NOT_IMPLEMENTED e implementation_status NOT_VERIFIED. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ERM-P20": {
+      "funcao": "Confere os controles com norma.codigo ERM-20. Exige attributes_to_test e test_operation_template preenchidos, template_status MODEL_DRAFT_NOT_IMPLEMENTED e implementation_status NOT_VERIFIED. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ERM-PE": {
+      "funcao": "Agrupa os códigos ERM-10 a ERM-14 e aplica a mesma régua a cada código. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ERM-RR": {
+      "funcao": "Agrupa os códigos ERM-15 a ERM-17 e aplica a mesma régua a cada código. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ICIF-AC": {
+      "funcao": "Agrupa os códigos ICIF-10 a ICIF-12 e aplica a mesma régua a cada código. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ICIF-AR": {
+      "funcao": "Agrupa os códigos ICIF-06 a ICIF-09 e aplica a mesma régua a cada código. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ICIF-CA": {
+      "funcao": "Agrupa os códigos ICIF-01 a ICIF-05 e aplica a mesma régua a cada código. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ICIF-IC": {
+      "funcao": "Agrupa os códigos ICIF-13 a ICIF-15 e aplica a mesma régua a cada código. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ICIF-MO": {
+      "funcao": "Agrupa os códigos ICIF-16 a ICIF-17 e aplica a mesma régua a cada código. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ICIF-ORQ": {
+      "funcao": "Encaminha o diagnóstico aos códigos ICIF-01 a ICIF-17. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ICIF-P01": {
+      "funcao": "Confere os controles com norma.codigo ICIF-01. Exige attributes_to_test e test_operation_template preenchidos, template_status MODEL_DRAFT_NOT_IMPLEMENTED e implementation_status NOT_VERIFIED. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ICIF-P02": {
+      "funcao": "Confere os controles com norma.codigo ICIF-02. Exige attributes_to_test e test_operation_template preenchidos, template_status MODEL_DRAFT_NOT_IMPLEMENTED e implementation_status NOT_VERIFIED. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ICIF-P03": {
+      "funcao": "Confere os controles com norma.codigo ICIF-03. Exige attributes_to_test e test_operation_template preenchidos, template_status MODEL_DRAFT_NOT_IMPLEMENTED e implementation_status NOT_VERIFIED. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ICIF-P04": {
+      "funcao": "Confere os controles com norma.codigo ICIF-04. Exige attributes_to_test e test_operation_template preenchidos, template_status MODEL_DRAFT_NOT_IMPLEMENTED e implementation_status NOT_VERIFIED. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ICIF-P05": {
+      "funcao": "Confere os controles com norma.codigo ICIF-05. Exige attributes_to_test e test_operation_template preenchidos, template_status MODEL_DRAFT_NOT_IMPLEMENTED e implementation_status NOT_VERIFIED. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ICIF-P06": {
+      "funcao": "Confere os controles com norma.codigo ICIF-06. Exige attributes_to_test e test_operation_template preenchidos, template_status MODEL_DRAFT_NOT_IMPLEMENTED e implementation_status NOT_VERIFIED. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ICIF-P07": {
+      "funcao": "Confere os controles com norma.codigo ICIF-07. Exige attributes_to_test e test_operation_template preenchidos, template_status MODEL_DRAFT_NOT_IMPLEMENTED e implementation_status NOT_VERIFIED. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ICIF-P08": {
+      "funcao": "Confere os controles com norma.codigo ICIF-08. Exige attributes_to_test e test_operation_template preenchidos, template_status MODEL_DRAFT_NOT_IMPLEMENTED e implementation_status NOT_VERIFIED. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ICIF-P09": {
+      "funcao": "Confere os controles com norma.codigo ICIF-09. Exige attributes_to_test e test_operation_template preenchidos, template_status MODEL_DRAFT_NOT_IMPLEMENTED e implementation_status NOT_VERIFIED. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ICIF-P10": {
+      "funcao": "Confere os controles com norma.codigo ICIF-10. Exige attributes_to_test e test_operation_template preenchidos, template_status MODEL_DRAFT_NOT_IMPLEMENTED e implementation_status NOT_VERIFIED. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ICIF-P11": {
+      "funcao": "Confere os controles com norma.codigo ICIF-11. Exige attributes_to_test e test_operation_template preenchidos, template_status MODEL_DRAFT_NOT_IMPLEMENTED e implementation_status NOT_VERIFIED. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ICIF-P12": {
+      "funcao": "Confere os controles com norma.codigo ICIF-12. Exige attributes_to_test e test_operation_template preenchidos, template_status MODEL_DRAFT_NOT_IMPLEMENTED e implementation_status NOT_VERIFIED. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ICIF-P13": {
+      "funcao": "Confere os controles com norma.codigo ICIF-13. Exige attributes_to_test e test_operation_template preenchidos, template_status MODEL_DRAFT_NOT_IMPLEMENTED e implementation_status NOT_VERIFIED. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ICIF-P14": {
+      "funcao": "Confere os controles com norma.codigo ICIF-14. Exige attributes_to_test e test_operation_template preenchidos, template_status MODEL_DRAFT_NOT_IMPLEMENTED e implementation_status NOT_VERIFIED. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ICIF-P15": {
+      "funcao": "Confere os controles com norma.codigo ICIF-15. Exige attributes_to_test e test_operation_template preenchidos, template_status MODEL_DRAFT_NOT_IMPLEMENTED e implementation_status NOT_VERIFIED. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ICIF-P16": {
+      "funcao": "Confere os controles com norma.codigo ICIF-16. Exige attributes_to_test e test_operation_template preenchidos, template_status MODEL_DRAFT_NOT_IMPLEMENTED e implementation_status NOT_VERIFIED. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    },
+    "AG-ICIF-P17": {
+      "funcao": "Confere os controles com norma.codigo ICIF-17. Exige attributes_to_test e test_operation_template preenchidos, template_status MODEL_DRAFT_NOT_IMPLEMENTED e implementation_status NOT_VERIFIED. Devolve diagnóstico. Não altera estado, não aprova Work Order e não declara eficácia.",
+      "prompts_permitidos": [],
+      "modelos_permitidos": [],
+      "acoes_permitidas": [
+        "diagnostico"
+      ],
+      "saida_estagio": "raw",
+      "recertificacao": {
+        "status": "candidato",
+        "valido_ate": null,
+        "evidencia": "Contrato v0.2.0 CANDIDATE_NOT_HOMOLOGATED. Sem recertificação. Enunciado oficial omitido."
+      }
+    }
+  },
+  "nota_modelos": "Modelo real autorizado: deepseek:deepseek-chat, roteado EXCLUSIVAMENTE pelo gateway governado no Supabase (Edge Function cko-deepseek-gateway, ver config/providers.json). Decisão humana registrada: instrução do mantenedor em 14/10/2026 ('usar o DeepSeek API do Supabase'). A chave DEEPSEEK_API_KEY vive apenas como secret das Edge Functions no Supabase; o runner usa o token do projeto via CE_SUPABASE_ANON_KEY. mock:echo-v1 permanece (promotable=false) para teste do harness. Adicionar outro modelo requer PR revisado (CODEOWNERS)."
+}

@@ -1,0 +1,53 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-24-2014-ctln-contestacao-parecer-do-coren-mt-pelo-conselho-regional-de-nutricao/ (API WordPress post 29109); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2014_N_00024_CTLN_ATOMOS_V1.jsonl",
+      "sha256": "cab8473d1df95d37695cd0294c71dd90180b331f3211725388ee853b95929e01",
+      "tamanho": 41483
+    },
+    {
+      "nome": "PARCT_2014_N_00024_CTLN_CONTEUDO_SITE_API.json",
+      "sha256": "31a5174fd173ad23919d93a29c9177a77e19a7db4a5344fee38c500f0c3af48f",
+      "tamanho": 6577
+    },
+    {
+      "nome": "PARCT_2014_N_00024_CTLN_NORMA_V1.json",
+      "sha256": "6c5c2e3dfcb9b4f90ad7a370887af8d293f057bd0f95de250b2b15b507418c76",
+      "tamanho": 4155
+    },
+    {
+      "nome": "PARCT_2014_N_00024_CTLN_PAGINA_SITE.html",
+      "sha256": "2e6e82dd61260a67d3ec4ea70187313e83c227a6c7eb22ed0880e01ed630af42",
+      "tamanho": 445741
+    },
+    {
+      "nome": "PARCT_2014_N_00024_CTLN_PDF_SITE.pdf",
+      "sha256": "92071424b07ffe995edd407d71b0758647b7d87734c0e719712b043b05ee341b",
+      "tamanho": 1109096
+    },
+    {
+      "nome": "PARCT_2014_N_00024_CTLN_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "a688ab34209f3f005e9b6110d0546ca8b548ded6096e440cb77020b3bb2edaa4",
+      "tamanho": 5298
+    },
+    {
+      "nome": "PARCT_2014_N_00024_CTLN_TEXTO_FONTE_V1.txt",
+      "sha256": "451062801d77474157601c5c71c9771c220315f42c55ae9d4dac46d8c2e470e6",
+      "tamanho": 5294
+    },
+    {
+      "nome": "PARCT_2014_N_00024_CTLN_VALIDACAO_V1.json",
+      "sha256": "86599a2106ed9957f3ebd86ad73dd98b90d576dbd1699e29444ff36b4bb51113",
+      "tamanho": 10976
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir."
+  ]
+}

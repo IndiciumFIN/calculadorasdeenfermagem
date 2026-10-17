@@ -1,0 +1,50 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-660-de-04-de-abril-de-2025/ (API WordPress post 143819); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2025_N_00660_ATOMOS_V1.jsonl",
+      "sha256": "c407f688aa43e3ba1774620d607aa3cb67aef3c8a4b457d2f2da89ef12573a76",
+      "tamanho": 18629
+    },
+    {
+      "nome": "PORT_2025_N_00660_CONTEUDO_SITE_API.json",
+      "sha256": "d7bd3c0f208a1a2bc6b74ecde2ad38f790e8adb85b8f579efe611212fe2d879a",
+      "tamanho": 4725
+    },
+    {
+      "nome": "PORT_2025_N_00660_NORMA_V1.json",
+      "sha256": "5a8e67fe754d115b84362116ef13e2ff15c52dd9320ffa2689c0909d4aaa5919",
+      "tamanho": 5489
+    },
+    {
+      "nome": "PORT_2025_N_00660_PAGINA_SITE.html",
+      "sha256": "b0925fbfaaa6fb67a6e424c120be205e0c9a0eaac3bc2bf2114ba867c168ec6c",
+      "tamanho": 444583
+    },
+    {
+      "nome": "PORT_2025_N_00660_PDF_SITE.pdf",
+      "sha256": "b3f4576b9fe0451d6e6e8038316e5f253e057c5e239e6ea0b995f5663e1c55ef",
+      "tamanho": 146510
+    },
+    {
+      "nome": "PORT_2025_N_00660_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "918116361d1c9c3d4b583c0b57046379d8dc9e2b9c1dec396d1a56ba19c41bc1",
+      "tamanho": 4134
+    },
+    {
+      "nome": "PORT_2025_N_00660_TEXTO_FONTE_V1.txt",
+      "sha256": "d4478dfc894d88d4e9a75064f280ab81834d49fab282c5cfe4f58c0c1adb4ef3",
+      "tamanho": 3084
+    },
+    {
+      "nome": "PORT_2025_N_00660_VALIDACAO_V1.json",
+      "sha256": "44cde7c3591a9bef7f653164b3c60b01bdd8ace9fd5006b4b1038dc1ef6e239f",
+      "tamanho": 5868
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada."
+  ]
+}

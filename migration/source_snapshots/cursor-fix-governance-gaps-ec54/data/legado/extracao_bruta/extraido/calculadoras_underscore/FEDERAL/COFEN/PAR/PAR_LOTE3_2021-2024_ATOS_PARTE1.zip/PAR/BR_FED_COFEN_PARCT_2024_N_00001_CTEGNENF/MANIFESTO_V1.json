@@ -1,0 +1,53 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-1-2024-cofen-camtec-ctegnenf/ (API WordPress post 140761); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2024_N_00001_CTEGNENF_ATOMOS_V1.jsonl",
+      "sha256": "b80e1673baa616c73bbf3528faabe7e04ffdf1b9b44410642a2cdcfd3582ae28",
+      "tamanho": 72988
+    },
+    {
+      "nome": "PARCT_2024_N_00001_CTEGNENF_CONTEUDO_SITE_API.json",
+      "sha256": "e1269d9f772b8af5e2f14807b2cd1c1933ac7d1cb2d465ec665d1214f68a1acb",
+      "tamanho": 22049
+    },
+    {
+      "nome": "PARCT_2024_N_00001_CTEGNENF_NORMA_V1.json",
+      "sha256": "e6b20f2f7e9e2e7fd5c2d6da3d9dcea41404a914374c505e15ea6718d2849ba6",
+      "tamanho": 5024
+    },
+    {
+      "nome": "PARCT_2024_N_00001_CTEGNENF_PAGINA_SITE.html",
+      "sha256": "aaa3b67ea35673929379b94b8d717f195f714e9597b5e8b861ba465a6442789d",
+      "tamanho": 461765
+    },
+    {
+      "nome": "PARCT_2024_N_00001_CTEGNENF_PDF_SITE.pdf",
+      "sha256": "ea03a1c5f4bacba574b259d08314ba627a504e4d2cd2a18f85850d003c119230",
+      "tamanho": 309873
+    },
+    {
+      "nome": "PARCT_2024_N_00001_CTEGNENF_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "564598c9098b22cb5b56e625282a5bc72012ca4a6c8f0b1e4d90fb04ed4f4cd8",
+      "tamanho": 18016
+    },
+    {
+      "nome": "PARCT_2024_N_00001_CTEGNENF_TEXTO_FONTE_V1.txt",
+      "sha256": "a889b18704f42c479f616abe232bca9efaa140344940f5f2ce748cf2a677c7c6",
+      "tamanho": 17381
+    },
+    {
+      "nome": "PARCT_2024_N_00001_CTEGNENF_VALIDACAO_V1.json",
+      "sha256": "18c6dbd936fb03f98e3662319f13e92f6f0293d47579b147a1a6297b487dc9f2",
+      "tamanho": 16002
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "schema": "CE-WAVE12-CONTENT-CHECKPOINT-1.0.0",
+  "date": "2026-10-16",
+  "source": "Google Drive / assets modular",
+  "status": "PRIVATE_KERNEL_HASH_PASS_NOT_HOMOLOGATED",
+  "private_checkpoint_sha256": "312a9fdf59ea12e50aec4149ff784e016c75acb444e2df49c3cf4a3efcb94634",
+  "evidence_archive_sha256": "a8e8455166f01243cc594be5808917db8107570d49f8bea8cb67b310090ef897",
+  "records": [
+    {
+      "wo": "WO-2026_10_16_0213",
+      "domain": "MODULAR_HTML",
+      "name": "header-v4.html",
+      "source_id": "1c6rw7jV9nXYj09XQm-yiYK5nYij9K5ZA",
+      "sha256": "2bef67caa2e93d001eab1206c46feba8d8661dcd7782095d29e357372b17648c",
+      "bytes": 101675,
+      "folder": "site/components",
+      "status": "PASS_PRIVATE_KERNEL"
+    },
+    {
+      "wo": "WO-2026_10_16_0214",
+      "domain": "MODULAR_HTML",
+      "name": "footer-v4.html",
+      "source_id": "16gEjsfCxQ7ajd1dFA1f5-ri3vVnaARwa",
+      "sha256": "871174bc7483177e446ef7d64924d08f3eb23a221c048efbc890e6d70d0ce5d2",
+      "bytes": 20915,
+      "folder": "site/components",
+      "status": "PASS_PRIVATE_KERNEL"
+    },
+    {
+      "wo": "WO-2026_10_16_0215",
+      "domain": "MODULAR_HTML",
+      "name": "accessibility-v4.html",
+      "source_id": "1jxmTy3OKVc3ZlASgwoCCJl_qIxtLscMV",
+      "sha256": "6f2ebcba2fad335bf9bb1d05f4eb7979fdf482c8c47b942d618be0a117eab36e",
+      "bytes": 17974,
+      "folder": "site/components",
+      "status": "PASS_PRIVATE_KERNEL"
+    },
+    {
+      "wo": "WO-2026_10_16_0216",
+      "domain": "MODULAR_JS",
+      "name": "header-v4.js",
+      "source_id": "1VH5ghLLCo2xbfxF1UBy_jVSfF1jShMFC",
+      "sha256": "f4c4c144596c54aa2d48bec3934e34c7b48fd51fdede3fb26412073cb4490c8a",
+      "bytes": 33351,
+      "folder": "site/js",
+      "status": "PASS_PRIVATE_KERNEL"
+    },
+    {
+      "wo": "WO-2026_10_16_0217",
+      "domain": "MODULAR_JS",
+      "name": "footer-v4.js",
+      "source_id": "1lanbatfrtjVRakPcFlcr8Ea2-nll0Euc",
+      "sha256": "a006fe6441f608db6a091cbf9cff164d7d020663569fc56b707b3567276a0746",
+      "bytes": 29507,
+      "folder": "site/js",
+      "status": "PASS_PRIVATE_KERNEL"
+    },
+    {
+      "wo": "WO-2026_10_16_0218",
+      "domain": "MODULAR_JS",
+      "name": "accessibility-v4.js",
+      "source_id": "1Gl1ZtlCopUUdDVI6DJY9xr82VGpQ7rRZ",
+      "sha256": "9ca5e7f7b64b80cc48c74b541b3fcc82c5ca2ed633f747966f2c0384dca1eafa",
+      "bytes": 56251,
+      "folder": "site/js",
+      "status": "PASS_PRIVATE_KERNEL"
+    },
+    {
+      "wo": "WO-2026_10_16_0219",
+      "domain": "MODULAR_CSS",
+      "name": "variables-v4.css",
+      "source_id": "1uW0Kdy49WzDprryExhVxplefRckslVig",
+      "sha256": "183b0fbbfa996e82b25d855fc77aa8ee02a7e2001478810193420af5a0f3b442",
+      "bytes": 12231,
+      "folder": "site/css",
+      "status": "PASS_PRIVATE_KERNEL"
+    },
+    {
+      "wo": "WO-2026_10_16_0220",
+      "domain": "MODULAR_CSS",
+      "name": "header-v4.css",
+      "source_id": "1wH-tM5u1ZSyKTSyxfjnQ8pXolCgESvJ_",
+      "sha256": "2cc87bac5f9fd92206306b7ae76ce4f71b02aec199080dbddddf49a36c083d18",
+      "bytes": 68727,
+      "folder": "site/css",
+      "status": "PASS_PRIVATE_KERNEL"
+    },
+    {
+      "wo": "WO-2026_10_16_0221",
+      "domain": "MODULAR_CSS",
+      "name": "accessibility-v4.css",
+      "source_id": "1nOumfjm2nch9J90WoCwSN6la-neHu5e0",
+      "sha256": "dec8e3052b59fe4ab32cb0dcfc988e0350d52657fce8b3ee3a137dc9f8666435",
+      "bytes": 38330,
+      "folder": "site/css",
+      "status": "PASS_PRIVATE_KERNEL"
+    },
+    {
+      "wo": "WO-2026_10_16_0222",
+      "domain": "DATA_UI",
+      "name": "glossario-v4.json",
+      "source_id": "1oLVQk76thFl1yFH4gBl-f6ZdlqKz36r_",
+      "sha256": "4b055d572a96b03eda2ae5b35f907f097ddc49f76f47c883f17b58977f75567a",
+      "bytes": 12583,
+      "folder": "site/data",
+      "status": "PASS_PRIVATE_KERNEL"
+    },
+    {
+      "wo": "WO-2026_10_16_0223",
+      "domain": "ASSET_IMAGE",
+      "name": "featured-acessibilidade-digital.webp",
+      "source_id": "1lUuINckpB861mGfDuxsEiWmjSXITE7V7",
+      "sha256": "a26926b1d5573d2f5edbecf55f2bfaf6308102b759467918c172aa6c5ff48676",
+      "bytes": 57308,
+      "folder": "site/images",
+      "status": "PASS_PRIVATE_KERNEL"
+    },
+    {
+      "wo": "WO-2026_10_16_0224",
+      "domain": "ASSET_IMAGE",
+      "name": "featured-privacidade-digital.webp",
+      "source_id": "11snbZyHCV92K9MLJSlEsNlN4eMZmKUeA",
+      "sha256": "7244b4383208269a38635698e95f9b505a497f6d74a33b530356dcf6e95d5c81",
+      "bytes": 55850,
+      "folder": "site/images",
+      "status": "PASS_PRIVATE_KERNEL"
+    },
+    {
+      "wo": "WO-2026_10_16_0225",
+      "domain": "PAGINA_SITE",
+      "name": "missao.html",
+      "source_id": "1RJJfAGWcExGEh_7Fe8cctWip4_0mAfoZ",
+      "sha256": "e328f4d50c77e49c8f62b73ed9365ef4e1f488e017d9795fa421f752ff38c0a0",
+      "bytes": 8794,
+      "folder": "site/pages",
+      "status": "PASS_PRIVATE_KERNEL"
+    },
+    {
+      "wo": "WO-2026_10_16_0226",
+      "domain": "PAGINA_CSS",
+      "name": "missao.css",
+      "source_id": "1w97JFhyNFtrdp_pOH5_0fjZs1IvpEI4a",
+      "sha256": "064f198a9e478010988f3ef40f7cebe65f49300d313aa62ed44a90050da73550",
+      "bytes": 15409,
+      "folder": "site/pages",
+      "status": "PASS_PRIVATE_KERNEL"
+    },
+    {
+      "wo": "WO-2026_10_16_0227",
+      "domain": "PAGINA_JS",
+      "name": "missao.js",
+      "source_id": "1ww5kyh3hypD-u38eJRNJ9oMNCLIzDTRH",
+      "sha256": "2f2fe1a0636d08ff91c4770bb5a27eed91280caaf76700d7ee35016541f9974d",
+      "bytes": 5260,
+      "folder": "site/pages",
+      "status": "PASS_PRIVATE_KERNEL"
+    }
+  ],
+  "node_syntax_checks": 4,
+  "node_syntax_passed": 4,
+  "bytes_total": 534165,
+  "file_count": 15,
+  "source_deleted": 0,
+  "source_retirement_gate": "HOLD_BACKUP_INDEPENDENTE",
+  "independent_durable_backup": false,
+  "release_allowed": false
+}

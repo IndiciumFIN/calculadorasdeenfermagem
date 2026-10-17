@@ -1,0 +1,54 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/memorando-no-15-2024-cofen-camtec-ctesm/ (API WordPress post 137804); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "MEMO_2024_N_00015_ATOMOS_V1.jsonl",
+      "sha256": "a869502c6538715d46a225d7801f658d842bc74cfc5904a895ca0c8a5eca8ddf",
+      "tamanho": 31719
+    },
+    {
+      "nome": "MEMO_2024_N_00015_CONTEUDO_SITE_API.json",
+      "sha256": "8a7f7e84e45b7b741a766f4dff9779a2e31daf13e60de12b4c580e75db15fd88",
+      "tamanho": 10790
+    },
+    {
+      "nome": "MEMO_2024_N_00015_NORMA_V1.json",
+      "sha256": "018d63c09e7f7959a47236e7b6766dff565a5e1adf919f59220cef674d9419fe",
+      "tamanho": 2689
+    },
+    {
+      "nome": "MEMO_2024_N_00015_PAGINA_SITE.html",
+      "sha256": "07e51ec74de6dfffaef0cd2ea44c4b64460e77c37a8d3c0980fa1d34831060a6",
+      "tamanho": 450679
+    },
+    {
+      "nome": "MEMO_2024_N_00015_PDF_SITE.pdf",
+      "sha256": "24cc7acb0806534dfa96f482b922e893e809ae2b398dfd52a1d963ef345f9559",
+      "tamanho": 226363
+    },
+    {
+      "nome": "MEMO_2024_N_00015_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "2ca870ac13c59e59e41d19a06376bade8b2095cd8ec07174da8a16877c9b5110",
+      "tamanho": 9245
+    },
+    {
+      "nome": "MEMO_2024_N_00015_TEXTO_FONTE_V1.txt",
+      "sha256": "a815ddf51159788eeb9acf77e925d4187a0e74390e570cf1e2cd89c692509bce",
+      "tamanho": 8308
+    },
+    {
+      "nome": "MEMO_2024_N_00015_VALIDACAO_V1.json",
+      "sha256": "28bff9f371ba5f11d2368eecb365078b299ebc4687acf91a79b232e77f274c5d",
+      "tamanho": 9062
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir.",
+    "TIPO: Memorando listado na categoria Pareceres.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

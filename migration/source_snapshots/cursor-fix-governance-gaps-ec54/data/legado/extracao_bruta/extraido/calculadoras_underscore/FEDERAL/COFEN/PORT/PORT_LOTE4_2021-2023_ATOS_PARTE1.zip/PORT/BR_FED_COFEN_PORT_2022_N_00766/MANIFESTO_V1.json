@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-766-de-30-de-maio-de-2022/ (API WordPress post 105223); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2022_N_00766_ATOMOS_V1.jsonl",
+      "sha256": "b16844fbb9c01ee52ef4c17e2c5978979fc92cbb85a5d94ca0aad030060c4863",
+      "tamanho": 7007
+    },
+    {
+      "nome": "PORT_2022_N_00766_CONTEUDO_SITE_API.json",
+      "sha256": "272f83b19aacf355db9324a6e291def35771ec6b4042383d6d5b8fd958ef127b",
+      "tamanho": 1801
+    },
+    {
+      "nome": "PORT_2022_N_00766_NORMA_V1.json",
+      "sha256": "38c99f85dedc76026c9e7305d4b935d3092a0781bdc92cdc049587d13b6a31ef",
+      "tamanho": 3043
+    },
+    {
+      "nome": "PORT_2022_N_00766_PAGINA_SITE.html",
+      "sha256": "89b13d12d8a7f07594723d6da7a21bdb13ad2ed157da8dfde349b8782ba28dcb",
+      "tamanho": 441336
+    },
+    {
+      "nome": "PORT_2022_N_00766_TEXTO_FONTE_V1.txt",
+      "sha256": "f43fd3549991d1b3231b56cc89165c3015167b71f51ad6aa2b3e9faa71c669a1",
+      "tamanho": 1213
+    },
+    {
+      "nome": "PORT_2022_N_00766_VALIDACAO_V1.json",
+      "sha256": "5f367d006afb697fdb35b0f8544c2d1b07f966f1f711859fd5bf3b05c95dd38d",
+      "tamanho": 2457
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

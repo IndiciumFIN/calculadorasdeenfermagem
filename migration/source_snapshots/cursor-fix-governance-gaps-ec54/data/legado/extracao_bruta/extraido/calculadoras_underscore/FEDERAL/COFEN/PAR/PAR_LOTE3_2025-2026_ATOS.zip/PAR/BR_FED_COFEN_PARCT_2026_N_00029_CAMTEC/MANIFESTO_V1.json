@@ -1,0 +1,53 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-29-2026-camaras-tecnicas-de-enfermagem/ (API WordPress post 192574); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2026_N_00029_CAMTEC_ATOMOS_V1.jsonl",
+      "sha256": "f9b43dfde928d2a1b668f060ccfb18f9d8a43dab345d0a7fd1c4c83201e77064",
+      "tamanho": 117367
+    },
+    {
+      "nome": "PARCT_2026_N_00029_CAMTEC_CONTEUDO_SITE_API.json",
+      "sha256": "6b673fd6caa03098b2de1dc46c93f655cb60c3a52d89e150d238c2bc43328a67",
+      "tamanho": 25377
+    },
+    {
+      "nome": "PARCT_2026_N_00029_CAMTEC_NORMA_V1.json",
+      "sha256": "3b7a800c0918818cd179bbf7fc4f3328450b552a2ced8980e938bd8e490edfdd",
+      "tamanho": 10082
+    },
+    {
+      "nome": "PARCT_2026_N_00029_CAMTEC_PAGINA_SITE.html",
+      "sha256": "cd0bdcb1e8a1df22bcc5e8de01fd9d6760a5aabbcf9b6447d64df90a2ca4bd11",
+      "tamanho": 465527
+    },
+    {
+      "nome": "PARCT_2026_N_00029_CAMTEC_PDF_SITE.pdf",
+      "sha256": "846b9072d3791e82933ac665ce92c32b2b8a4c84e838e9ccdc7559dbe223b4ae",
+      "tamanho": 232058
+    },
+    {
+      "nome": "PARCT_2026_N_00029_CAMTEC_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "5337420834a9c8fca38d44c999d4442d6c559501661a94086bad8bf4505b5572",
+      "tamanho": 22095
+    },
+    {
+      "nome": "PARCT_2026_N_00029_CAMTEC_TEXTO_FONTE_V1.txt",
+      "sha256": "97c907a594db9032a08b6c4d65d66bedb509e3f81ca15df5a3c3687d5acb9677",
+      "tamanho": 21282
+    },
+    {
+      "nome": "PARCT_2026_N_00029_CAMTEC_VALIDACAO_V1.json",
+      "sha256": "177ada6a764634c7491b613a33a83175e6fba9d4fca47e8f527372d0d115a519",
+      "tamanho": 22900
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+    "Anexo referenciado no texto não está presente no site nem em PDF."
+  ]
+}

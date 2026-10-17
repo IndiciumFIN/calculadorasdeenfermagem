@@ -1,0 +1,144 @@
+{
+  "schema": "CE-LOCAL-AGENTS-1.1.0",
+  "kernel_mode": "LOCAL_CANDIDATE_NOT_OFFICIAL",
+  "agent_count": 10,
+  "agents": [
+    {
+      "id": "AGT-LOCAL-A01",
+      "task_id": "TAREFA-LOCAL-INVENTARIAR",
+      "name": "Inventario",
+      "depends_on": null,
+      "output": "evidence/A01.json",
+      "local_validators": [
+        "WO_HASH",
+        "SCOPE",
+        "SYMLINK",
+        "INVENTORY",
+        "REMOTE_SNAPSHOT_READONLY",
+        "EMPTY_FOLDER_PLAN_NO_DELETE"
+      ]
+    },
+    {
+      "id": "AGT-LOCAL-A02",
+      "task_id": "TAREFA-LOCAL-TIPAR",
+      "name": "Tipagem",
+      "depends_on": "A01",
+      "output": "evidence/A02.json",
+      "local_validators": [
+        "WO_HASH",
+        "SOURCE_SNAPSHOT",
+        "SIGNATURE",
+        "EXTENSION"
+      ]
+    },
+    {
+      "id": "AGT-LOCAL-A03",
+      "task_id": "TAREFA-LOCAL-HASHEAR",
+      "name": "Fixidez",
+      "depends_on": "A02",
+      "output": "evidence/A03.json",
+      "local_validators": [
+        "WO_HASH",
+        "SOURCE_SNAPSHOT",
+        "SHA256"
+      ]
+    },
+    {
+      "id": "AGT-LOCAL-A04",
+      "task_id": "TAREFA-LOCAL-AUDITAR-ZIP",
+      "name": "Auditoria ZIP",
+      "depends_on": "A03",
+      "output": "evidence/A04.json",
+      "local_validators": [
+        "WO_HASH",
+        "CRC",
+        "ZIP_SLIP",
+        "ZIP_RATIO",
+        "ZIP_SIZE",
+        "MEMBER_HASH"
+      ]
+    },
+    {
+      "id": "AGT-LOCAL-A05",
+      "task_id": "TAREFA-LOCAL-EXTRAIR",
+      "name": "Extracao",
+      "depends_on": "A04",
+      "output": "evidence/A05.json",
+      "local_validators": [
+        "WO_HASH",
+        "PARSER_ALLOWLIST",
+        "TEXT_HASH"
+      ]
+    },
+    {
+      "id": "AGT-LOCAL-A06",
+      "task_id": "TAREFA-LOCAL-NORMALIZAR",
+      "name": "Normalização e plano canônico de todos os arquivos",
+      "depends_on": "A05",
+      "output": "evidence/A06.json",
+      "local_validators": [
+        "WO_HASH",
+        "NFC_ONLY",
+        "INPUT_HASH",
+        "OUTPUT_HASH",
+        "CANONICAL_PATH_UNIQUE",
+        "PLAN_HASH",
+        "SOURCE_COPY_HASH",
+        "NO_ORIGINAL_RENAME"
+      ],
+      "canonical_output": "standardization/plan.json"
+    },
+    {
+      "id": "AGT-LOCAL-A07",
+      "task_id": "TAREFA-LOCAL-COMPARAR",
+      "name": "Duplicidades candidatas",
+      "depends_on": "A06",
+      "output": "evidence/A07.json",
+      "local_validators": [
+        "WO_HASH",
+        "SHA256",
+        "NO_DELETE"
+      ]
+    },
+    {
+      "id": "AGT-LOCAL-A08",
+      "task_id": "TAREFA-LOCAL-ATOMIZAR",
+      "name": "Atomizacao conservadora",
+      "depends_on": "A07",
+      "output": "evidence/A08.json",
+      "local_validators": [
+        "WO_HASH",
+        "EXPLICIT_ARTICLE_BOUNDARY",
+        "PROVENANCE",
+        "NO_PROMOTION"
+      ]
+    },
+    {
+      "id": "AGT-LOCAL-A09",
+      "task_id": "TAREFA-LOCAL-VALIDAR",
+      "name": "Validacao local",
+      "depends_on": "A08",
+      "output": "evidence/A09.json",
+      "local_validators": [
+        "WO_HASH",
+        "SOURCE_REHASH",
+        "ATOM_PROVENANCE",
+        "HOLD_LEDGER"
+      ]
+    },
+    {
+      "id": "AGT-LOCAL-A10",
+      "task_id": "TAREFA-LOCAL-REGISTRAR",
+      "name": "Register e frontend estatico",
+      "depends_on": "A09",
+      "output": "evidence/A10.json",
+      "local_validators": [
+        "WO_HASH",
+        "REGISTER",
+        "HTML_STATIC",
+        "FRONTEND_DEPENDENCIES",
+        "NO_PUBLICATION"
+      ]
+    }
+  ]
+}

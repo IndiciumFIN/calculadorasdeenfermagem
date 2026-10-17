@@ -1,0 +1,51 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-398-de-07-de-maio-de-2021/ (API WordPress post 87352); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2021_N_00398_ATOMOS_V1.jsonl",
+      "sha256": "0c7ba154c84055b2dc31604948c597d1a30b86ce4a334c6aac61f19a33586d03",
+      "tamanho": 26084
+    },
+    {
+      "nome": "PORT_2021_N_00398_CONTEUDO_SITE_API.json",
+      "sha256": "3f490d016b2c2775456f42c1c76764ed3ca2c68ce1786c1b1edb03327e7cbbc3",
+      "tamanho": 3839
+    },
+    {
+      "nome": "PORT_2021_N_00398_NORMA_V1.json",
+      "sha256": "b54afb67ffe82d6ebe3315146ae5a342f06d9bda942bbfd8dd5e7d485c0f94bd",
+      "tamanho": 4039
+    },
+    {
+      "nome": "PORT_2021_N_00398_PAGINA_SITE.html",
+      "sha256": "1266ce9e80f5c4bc4dbfebb1c00c50c367a12e8796ac96eddcfb727af9cd2a38",
+      "tamanho": 442486
+    },
+    {
+      "nome": "PORT_2021_N_00398_PDF_SITE.pdf",
+      "sha256": "cb4c830d532e0c7691ee7505b1f22d92282efe326df295856a0fb11ae560a8d6",
+      "tamanho": 578277
+    },
+    {
+      "nome": "PORT_2021_N_00398_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "6328c1cd1e18c6b98fc95b889fde90c825a71725ae263121b44756cf706ace4c",
+      "tamanho": 3110
+    },
+    {
+      "nome": "PORT_2021_N_00398_TEXTO_FONTE_V1.txt",
+      "sha256": "21e31ee179d6f357afcdb0da9b67593e07df11b0a694f2046b04c3a7c1367b4a",
+      "tamanho": 2646
+    },
+    {
+      "nome": "PORT_2021_N_00398_VALIDACAO_V1.json",
+      "sha256": "582c8001cf731cc168c76703610d4248c84e0bd9d4bf4b45d0765af104e55e33",
+      "tamanho": 7782
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+  ]
+}

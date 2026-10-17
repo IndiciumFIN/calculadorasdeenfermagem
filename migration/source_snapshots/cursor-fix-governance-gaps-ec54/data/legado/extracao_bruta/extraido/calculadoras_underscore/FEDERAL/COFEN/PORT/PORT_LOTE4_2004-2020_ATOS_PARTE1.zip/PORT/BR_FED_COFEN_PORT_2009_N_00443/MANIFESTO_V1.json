@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-n-443-de-17-de-agosto-de-2009/ (API WordPress post 4202); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2009_N_00443_ATOMOS_V1.jsonl",
+      "sha256": "8c81c935d1675d0c4517e7b5075fe66f951fe14c154a46ccd877a97106e5f0b8",
+      "tamanho": 11685
+    },
+    {
+      "nome": "PORT_2009_N_00443_CONTEUDO_SITE_API.json",
+      "sha256": "6fab01bb6fb1e955631a5826d7e89cd8cee077d0c68f138b21cc4d1bf4ad4e8d",
+      "tamanho": 1654
+    },
+    {
+      "nome": "PORT_2009_N_00443_NORMA_V1.json",
+      "sha256": "8b4cbc1c78a19cff63284a303179bb935b3bda2cafe0b6b63dbe1ff4206c9802",
+      "tamanho": 2799
+    },
+    {
+      "nome": "PORT_2009_N_00443_PAGINA_SITE.html",
+      "sha256": "1b0dbd831cb364f22c4303ad6e603b8b31efd7664fe62123591c0203ccb68347",
+      "tamanho": 440386
+    },
+    {
+      "nome": "PORT_2009_N_00443_TEXTO_FONTE_V1.txt",
+      "sha256": "1693c98d8b9e1282c27bec10c382dfeeeb4fce024bbae78e19343f2221db42bf",
+      "tamanho": 1193
+    },
+    {
+      "nome": "PORT_2009_N_00443_VALIDACAO_V1.json",
+      "sha256": "88a155dc2b903a7cc1cab3b2ba1e8056e1f3b490e6f86b82a075bc68bf9e5b66",
+      "tamanho": 2454
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

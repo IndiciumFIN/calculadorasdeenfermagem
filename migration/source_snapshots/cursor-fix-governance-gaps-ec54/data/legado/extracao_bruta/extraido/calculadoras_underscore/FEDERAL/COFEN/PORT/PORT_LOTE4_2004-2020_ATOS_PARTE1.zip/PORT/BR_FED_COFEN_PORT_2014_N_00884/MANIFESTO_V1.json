@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-884-de-29-de-agosto-de-2014/ (API WordPress post 26737); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2014_N_00884_ATOMOS_V1.jsonl",
+      "sha256": "b9e1e62a62675923e17b1988ab0d017f82c69c4d0e1aa4f78b930052ea5a79d0",
+      "tamanho": 10442
+    },
+    {
+      "nome": "PORT_2014_N_00884_CONTEUDO_SITE_API.json",
+      "sha256": "521ba7f274f3e754d647e3d34daacfb5cb15981038eef59c0e024f4abcc1a272",
+      "tamanho": 2629
+    },
+    {
+      "nome": "PORT_2014_N_00884_NORMA_V1.json",
+      "sha256": "963a0be36b38cf34ddb0c628ff87514e402f180041733e4004da1bd97bcf94fd",
+      "tamanho": 3542
+    },
+    {
+      "nome": "PORT_2014_N_00884_PAGINA_SITE.html",
+      "sha256": "3488dd61a829b1981f42fb3c4464e05526385f508b3d959da0e91c8d176d5881",
+      "tamanho": 440000
+    },
+    {
+      "nome": "PORT_2014_N_00884_TEXTO_FONTE_V1.txt",
+      "sha256": "66ddd294c4f622197eff54f87323f4082912e618a5287cfdf987d3b4d7ddada8",
+      "tamanho": 1402
+    },
+    {
+      "nome": "PORT_2014_N_00884_VALIDACAO_V1.json",
+      "sha256": "be791a3a4930a66e78f6f41f97725feedd7b7ae3475e7e082960c74fb35a674f",
+      "tamanho": 2459
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

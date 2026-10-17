@@ -1,0 +1,107 @@
+{
+  "identificador": "BR_FED_COFEN_PARCT_2018_N_00032_CTLN",
+  "resultado_processo": "PENDENTE",
+  "rotulo": "Pendente de verificação",
+  "controles": [
+    {
+      "nome": "Identificação do ato e emissor",
+      "resultado": "PASS",
+      "evidencia": "PARECER DE CÂMARA TÉCNICA N° 32/2018/CTLN/COFEN"
+    },
+    {
+      "nome": "Conferência site HTML × PDF oficial, dispositivo a dispositivo",
+      "resultado": "NAO_EXECUTADO",
+      "status": "NAO_EXECUTADA_SEM_PDF",
+      "evidencia": {
+        "dispositivos_comparados": 0,
+        "por_resultado": {},
+        "trechos_pdf_ausentes_no_site": 0,
+        "pdf": null
+      }
+    },
+    {
+      "nome": "Publicação no DOU (registro, sem verificação online)",
+      "resultado": "NAO_CITADO",
+      "evidencia": null
+    },
+    {
+      "nome": "Anexos referenciados presentes e atomizados",
+      "resultado": "NAO_APLICAVEL",
+      "status": "SEM_ANEXO_REFERENCIADO",
+      "referencias": []
+    },
+    {
+      "nome": "Numeração contígua (seções, itens, alíneas)",
+      "resultado": "FAIL",
+      "evidencia": [
+        "Seções em romano: [1, 2, 2, 3]",
+        "Seções numeradas: começa em 4 (sequência [4, 5])",
+        "Alíneas sob BR_FED_COFEN_PARCT_2018_N_00032_CTLN_PARAGRAFO_TEXTO_017: [10, 12] [alíneas: provável transcrição parcial de outra norma]",
+        "Alíneas sob BR_FED_COFEN_PARCT_2018_N_00032_CTLN_PARAGRAFO_TEXTO_017: começa em j (sequência [10, 12]) [alíneas: provável transcrição parcial de outra norma]",
+        "Alíneas sob BR_FED_COFEN_PARCT_2018_N_00032_CTLN_SECAO_005: começa em c (sequência [3]) [alíneas: provável transcrição parcial de outra norma]"
+      ]
+    },
+    {
+      "nome": "Conferência humana da literalidade",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Pesquisa de alterações posteriores",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Direitos autorais do texto do ato oficial",
+      "resultado": "PASS",
+      "fundamento": "Lei 9.610/1998, art. 8, IV"
+    }
+  ],
+  "fechamento": {
+    "apto": false,
+    "status": "PENDENCIAS",
+    "justificativa": "Aguardando revisão humana da atomização e pesquisa de atos posteriores. Há achados bloqueantes adicionais."
+  },
+  "achados": [
+    {
+      "codigo": "C001",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Atomização automática; requer conferência humana da segmentação e da literalidade."
+    },
+    {
+      "codigo": "C002",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada."
+    },
+    {
+      "codigo": "C010",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+    },
+    {
+      "codigo": "C030",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+      "evidencia": [
+        "Seções em romano: [1, 2, 2, 3]"
+      ]
+    },
+    {
+      "codigo": "C031",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir.",
+      "evidencia": [
+        "Seções numeradas: começa em 4 (sequência [4, 5])",
+        "Alíneas sob BR_FED_COFEN_PARCT_2018_N_00032_CTLN_PARAGRAFO_TEXTO_017: [10, 12] [alíneas: provável transcrição parcial de outra norma]",
+        "Alíneas sob BR_FED_COFEN_PARCT_2018_N_00032_CTLN_PARAGRAFO_TEXTO_017: começa em j (sequência [10, 12]) [alíneas: provável transcrição parcial de outra norma]",
+        "Alíneas sob BR_FED_COFEN_PARCT_2018_N_00032_CTLN_SECAO_005: começa em c (sequência [3]) [alíneas: provável transcrição parcial de outra norma]"
+      ]
+    }
+  ],
+  "conferencia_por_dispositivo": [],
+  "data_verificacao": "2026-10-10",
+  "responsavel": "Triagem automatizada - requer validação humana"
+}

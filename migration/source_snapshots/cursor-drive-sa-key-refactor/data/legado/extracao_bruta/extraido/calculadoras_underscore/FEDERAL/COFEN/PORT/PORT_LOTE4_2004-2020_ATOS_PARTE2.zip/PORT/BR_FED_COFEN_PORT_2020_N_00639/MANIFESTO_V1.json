@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-639-de-3-de-novembro-de-2020/ (API WordPress post 83112); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2020_N_00639_ATOMOS_V1.jsonl",
+      "sha256": "8b9629772e138a2a0c85b7987a1484c8dbf6031d6deb10643e00fb76d2a1c734",
+      "tamanho": 7519
+    },
+    {
+      "nome": "PORT_2020_N_00639_CONTEUDO_SITE_API.json",
+      "sha256": "506f4ec4bdf2e4a033a18e13aaedfe05f4ddd779f7aee0d0f27b46500c9046b0",
+      "tamanho": 1787
+    },
+    {
+      "nome": "PORT_2020_N_00639_NORMA_V1.json",
+      "sha256": "2745c62f994faf3e692e2283190faf60ea99f87cc19c688f9ab2702f196056d7",
+      "tamanho": 3602
+    },
+    {
+      "nome": "PORT_2020_N_00639_PAGINA_SITE.html",
+      "sha256": "a90e218d5f8db00c0b8381247638fbd22e56a9484764062498760e7481aca82b",
+      "tamanho": 440338
+    },
+    {
+      "nome": "PORT_2020_N_00639_TEXTO_FONTE_V1.txt",
+      "sha256": "6fcb35b5834f506c62a75bcab8b5ff679e98d183733a8d950c7babc06a657657",
+      "tamanho": 1136
+    },
+    {
+      "nome": "PORT_2020_N_00639_VALIDACAO_V1.json",
+      "sha256": "683ed86a290b2f33802f26f328a9c7f809800bf1130ae7071a4233af82f89c46",
+      "tamanho": 2460
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

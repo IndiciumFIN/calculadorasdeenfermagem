@@ -1,0 +1,22 @@
+{
+  "versao": "1.0.0",
+  "regra": "A classe do arquivo vem daqui. O procedimento vem de policies/definicoes_tarefa.json. A Work Order não escolhe o procedimento.",
+  "classes": {
+    "REFERENCIA": {
+      "atomizar": "NAO_APLICAVEL",
+      "motivo": "Tabela de referência não é ato normativo. O contrato AtomoBlindado não recebe linha de CID, medicamento, vacina ou amostra."
+    },
+    "SCRIPT": {
+      "atomizar": "NAO_APLICAVEL",
+      "motivo": "Código de coleta não é ato normativo."
+    },
+    "DOCUMENTO": {
+      "atomizar": "NAO_APLICAVEL",
+      "motivo": "Descrição da biblioteca não é ato normativo."
+    },
+    "ATO": {
+      "atomizar": "CANDIDATO",
+      "motivo": "Texto de dispositivo pode virar candidato Não verificado. Corpus vazio falha fechado."
+    }
+  }
+}

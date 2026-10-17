@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-177-de-9-de-fevereiro-de-2022/ (API WordPress post 96048); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2022_N_00177_ATOMOS_V1.jsonl",
+      "sha256": "3788872ed7116bd44ed097fca18898223bf3b9bb74027a26328772b6c8a3b47f",
+      "tamanho": 7017
+    },
+    {
+      "nome": "PORT_2022_N_00177_CONTEUDO_SITE_API.json",
+      "sha256": "0a700707111b5bfd19368ef14ced07c0694ad0538028cef53d27d09377f161f4",
+      "tamanho": 1866
+    },
+    {
+      "nome": "PORT_2022_N_00177_NORMA_V1.json",
+      "sha256": "a94b1f056b8450bdaad73e6c7a39792163c0a44ca8b3234a21b28d9d05318dca",
+      "tamanho": 3375
+    },
+    {
+      "nome": "PORT_2022_N_00177_PAGINA_SITE.html",
+      "sha256": "d5f476fb9c5fbdeea0bce9483fc650162ebd7921ae5e179b3787071270e446ae",
+      "tamanho": 441386
+    },
+    {
+      "nome": "PORT_2022_N_00177_TEXTO_FONTE_V1.txt",
+      "sha256": "fc13825c1b7ce3dc52b8167418747f626c0b05ee6a3bb4081cba45ee0ba01de8",
+      "tamanho": 1237
+    },
+    {
+      "nome": "PORT_2022_N_00177_VALIDACAO_V1.json",
+      "sha256": "3640d8168044244a55d8332f7e5ca1e35cfdb130bc82c4cae9641d6c8ce45e8b",
+      "tamanho": 2461
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-10-2024-cofen-camtec-ctlnenf/ (API WordPress post 140731); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2024_N_00010_CTLNENF_ATOMOS_V1.jsonl",
+      "sha256": "d5007319793a7ba6d6c2b3f3e38e61f9d2d47c4c74aaea758fde57874ef2b904",
+      "tamanho": 39698
+    },
+    {
+      "nome": "PARCT_2024_N_00010_CTLNENF_CONTEUDO_SITE_API.json",
+      "sha256": "10201669d30380c17cf3d4437e729ebc6e1e9223e9553858429dc6cf058af08f",
+      "tamanho": 10887
+    },
+    {
+      "nome": "PARCT_2024_N_00010_CTLNENF_NORMA_V1.json",
+      "sha256": "5ea366e53dbc15f0db66ec2fc9c090668fbc15344ee5253e4f3f206b34aee455",
+      "tamanho": 3831
+    },
+    {
+      "nome": "PARCT_2024_N_00010_CTLNENF_PAGINA_SITE.html",
+      "sha256": "64976d65dbb631f492109621ce0b79f33fa46441ddf1a097fb84f58a5326a33e",
+      "tamanho": 450736
+    },
+    {
+      "nome": "PARCT_2024_N_00010_CTLNENF_PDF_SITE.pdf",
+      "sha256": "d18f0cd0ba39fb70b110252d73261bca564297a82bbe9c0a8bf0c36bde1acb58",
+      "tamanho": 212948
+    },
+    {
+      "nome": "PARCT_2024_N_00010_CTLNENF_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "91c8e7f4ccbef70195cd5de7bcc17833451035d70a631d78db169318813e81f5",
+      "tamanho": 9816
+    },
+    {
+      "nome": "PARCT_2024_N_00010_CTLNENF_TEXTO_FONTE_V1.txt",
+      "sha256": "7f4ca5e716248aff21ae2f6dcd6924a22ffa091dfde9c55b08663f77645cc079",
+      "tamanho": 8315
+    },
+    {
+      "nome": "PARCT_2024_N_00010_CTLNENF_VALIDACAO_V1.json",
+      "sha256": "5fec434649a347778b601bc87080ccc1438f70fbe2edbac4628ee063476ab442",
+      "tamanho": 10634
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

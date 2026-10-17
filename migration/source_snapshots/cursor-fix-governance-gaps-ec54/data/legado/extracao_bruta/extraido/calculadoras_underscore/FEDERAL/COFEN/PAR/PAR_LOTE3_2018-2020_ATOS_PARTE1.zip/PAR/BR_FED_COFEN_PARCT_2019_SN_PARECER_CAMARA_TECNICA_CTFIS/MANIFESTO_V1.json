@@ -1,0 +1,53 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-s-n-ctfis/ (API WordPress post 69944); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2019_SN_PARECER_CAMARA_TECNICA_CTFIS_ATOMOS_V1.jsonl",
+      "sha256": "552b10bdf9a99c6c64d6e2b624d4b7656f477ca449c3a9eb9840805f06baaba5",
+      "tamanho": 39743
+    },
+    {
+      "nome": "PARCT_2019_SN_PARECER_CAMARA_TECNICA_CTFIS_CONTEUDO_SITE_API.json",
+      "sha256": "e5b0ec207b328ef08e994cd0f4306020a9700c389e8ec3422e02a8207a2828cc",
+      "tamanho": 8988
+    },
+    {
+      "nome": "PARCT_2019_SN_PARECER_CAMARA_TECNICA_CTFIS_NORMA_V1.json",
+      "sha256": "60b8bcd56fe2411c1f2fd331d591dc4d6a50857da61b76df59d7f890be35e335",
+      "tamanho": 4731
+    },
+    {
+      "nome": "PARCT_2019_SN_PARECER_CAMARA_TECNICA_CTFIS_PAGINA_SITE.html",
+      "sha256": "a20c6dc133b8b5b4f762e387f4ee75dfd619f1d7dcc3b52331ef6a67b4300100",
+      "tamanho": 447092
+    },
+    {
+      "nome": "PARCT_2019_SN_PARECER_CAMARA_TECNICA_CTFIS_PDF_SITE.pdf",
+      "sha256": "15ed5e4276f495d725bc12d0fd393504907053a21793d9d84227bd6edf82c575",
+      "tamanho": 274758
+    },
+    {
+      "nome": "PARCT_2019_SN_PARECER_CAMARA_TECNICA_CTFIS_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "6d6209ea165b2ccfb8aeee8092a02638b5fffad533df1e8a00176b967451477f",
+      "tamanho": 7974
+    },
+    {
+      "nome": "PARCT_2019_SN_PARECER_CAMARA_TECNICA_CTFIS_TEXTO_FONTE_V1.txt",
+      "sha256": "9f9fd01c6582793d5ef31d77f70e9d9506d79456a24975371e451cf6c1299db8",
+      "tamanho": 7502
+    },
+    {
+      "nome": "PARCT_2019_SN_PARECER_CAMARA_TECNICA_CTFIS_VALIDACAO_V1.json",
+      "sha256": "0ce286beb6c6c46913272060566f76c9c8a6a7527c8dcc6e03b75a86a6a59b34",
+      "tamanho": 10730
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 trecho(s) do PDF sem correspondente no texto do site.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal.",
+    "Ato sem número no site; identificador formado por slug."
+  ]
+}

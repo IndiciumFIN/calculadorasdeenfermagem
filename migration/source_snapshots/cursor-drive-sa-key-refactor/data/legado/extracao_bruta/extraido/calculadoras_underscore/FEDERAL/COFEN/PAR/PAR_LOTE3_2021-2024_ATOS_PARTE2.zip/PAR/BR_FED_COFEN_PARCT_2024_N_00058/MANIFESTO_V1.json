@@ -1,0 +1,43 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-camara-tecnica-no-58-2024-cofen-plen/ (API WordPress post 127294); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2024_N_00058_ATOMOS_V1.jsonl",
+      "sha256": "10bfa052f5e055fde3a0f31b321a105ab93f8df28dc6aebda5aef4a2e7a08ec0",
+      "tamanho": 31131
+    },
+    {
+      "nome": "PARCT_2024_N_00058_CONTEUDO_SITE_API.json",
+      "sha256": "deb88c1a9337fe6a754c9b4dcd72ed934ffe834a48dc4c7018580aaad05c8cb0",
+      "tamanho": 8914
+    },
+    {
+      "nome": "PARCT_2024_N_00058_NORMA_V1.json",
+      "sha256": "caaaa3e12b130f73c173b50e1714ecf958a73acb955e14148cbafda2bb354bb0",
+      "tamanho": 3169
+    },
+    {
+      "nome": "PARCT_2024_N_00058_PAGINA_SITE.html",
+      "sha256": "8e5b9da642615a53fde377fab9e53c5d855ce387ed2f83d7f08f3f36bb74db8f",
+      "tamanho": 447414
+    },
+    {
+      "nome": "PARCT_2024_N_00058_TEXTO_FONTE_V1.txt",
+      "sha256": "c4de055e87743ec97196a300ea7c95aa75d024b3d2681c1f5a65fb03b6bbc2fa",
+      "tamanho": 6720
+    },
+    {
+      "nome": "PARCT_2024_N_00058_VALIDACAO_V1.json",
+      "sha256": "0500e1ef692e5c97593355a21f90b49438b500479262934cc9943f4fe99ff395",
+      "tamanho": 3917
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

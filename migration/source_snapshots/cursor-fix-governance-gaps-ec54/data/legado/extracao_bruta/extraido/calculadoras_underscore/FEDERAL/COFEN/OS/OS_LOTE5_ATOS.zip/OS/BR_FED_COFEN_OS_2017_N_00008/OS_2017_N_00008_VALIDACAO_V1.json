@@ -1,0 +1,271 @@
+{
+  "identificador": "BR_FED_COFEN_OS_2017_N_00008",
+  "resultado_processo": "PENDENTE",
+  "rotulo": "Pendente de verificação",
+  "controles": [
+    {
+      "nome": "Identificação do ato e emissor",
+      "resultado": "PASS",
+      "evidencia": "ORDEM DE SERVIÇO COFEN Nº 008/2017 – ALTERADA PELA DECISÃO COFEN Nº 0168/2021"
+    },
+    {
+      "nome": "Conferência site HTML × PDF oficial, dispositivo a dispositivo",
+      "resultado": "FAIL",
+      "status": "EXECUTADA_VIA_OCR",
+      "evidencia": {
+        "dispositivos_comparados": 19,
+        "por_resultado": {
+          "AUSENTE_NO_PDF": 1,
+          "EQUIVALENTE_OCR": 5,
+          "IDENTICO_NORMALIZADO": 13
+        },
+        "trechos_pdf_ausentes_no_site": 5,
+        "pdf": "OS_2017_N_00008_PDF_SITE.pdf"
+      }
+    },
+    {
+      "nome": "Publicação no DOU (registro, sem verificação online)",
+      "resultado": "REGISTRADO",
+      "evidencia": null
+    },
+    {
+      "nome": "Anexos referenciados presentes e atomizados",
+      "resultado": "PASS",
+      "status": "PRESENTE_E_ATOMIZADO",
+      "referencias": []
+    },
+    {
+      "nome": "Numeração contígua (seções, itens, alíneas)",
+      "resultado": "FAIL",
+      "evidencia": [
+        "Incisos sob BR_FED_COFEN_OS_2017_N_00008_ART_001_PAR_01: [1, 2, 2, 3]"
+      ]
+    },
+    {
+      "nome": "Conferência humana da literalidade",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Pesquisa de alterações posteriores",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Direitos autorais do texto do ato oficial",
+      "resultado": "PASS",
+      "fundamento": "Lei 9.610/1998, art. 8, IV"
+    }
+  ],
+  "fechamento": {
+    "apto": false,
+    "status": "PENDENCIAS",
+    "justificativa": "Aguardando revisão humana da atomização e pesquisa de atos posteriores. Há achados bloqueantes adicionais."
+  },
+  "achados": [
+    {
+      "codigo": "C001",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Atomização automática; requer conferência humana da segmentação e da literalidade."
+    },
+    {
+      "codigo": "C002",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada."
+    },
+    {
+      "codigo": "C011",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "1 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+      "evidencia": [
+        {
+          "identificador": "BR_FED_COFEN_OS_2017_N_00008_ASSINATURA_001",
+          "resultado": "AUSENTE_NO_PDF",
+          "similaridade": 54.2,
+          "trecho": "MANOEL CARLOS N. DA SILVA / COREN-RO Nº 63592 / Presidente / MARIA R. F. B. SAMPAIO / COREN-PI Nº 19084 / Primeira-Secretária"
+        }
+      ]
+    },
+    {
+      "codigo": "C053",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "Anexo em PDF com conteúdo já presente no texto do site (atomizado a partir do site); PDF usado só na conferência.",
+      "evidencia": [
+        "OS_2017_N_00008_ANEXO_01_PDF_SITE.pdf"
+      ]
+    },
+    {
+      "codigo": "C014",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "5 trecho(s) do PDF sem correspondente no texto do site.",
+      "evidencia": [
+        {
+          "trecho_pdf": "CONSIDERANDO a prerrogativa estabelecida ao Cofen no art. 8º, IV, da Lei nº 5.905/73, de baixar provimentos e expedir instruções, para uniformidade de procedimento e bom funcionamento do Cofen e dos Conselhos Regionais de Enfermagem:",
+          "similaridade": 49.3,
+          "cobertura_vocabulario": 0.312,
+          "arquivo": "OS_2017_N_00008_ANEXO_01_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "contratação de produtos e serviços, em face da Recomendação nº 04 constante do Relatório de Auditoria CGU nº 823119;",
+          "similaridade": 54.4,
+          "cobertura_vocabulario": 0.444,
+          "arquivo": "OS_2017_N_00008_ANEXO_01_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "CONSIDERANDO tudo o mais que consta dos autos do Processo Administrativo nº 648/2020, bem como a deliberação do Plenário do Cofen em sua 534º Reunião Ordinária,",
+          "similaridade": 57.6,
+          "cobertura_vocabulario": 0.467,
+          "arquivo": "OS_2017_N_00008_ANEXO_01_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Art. 2º O art. 1º da Ordem de Serviço Cofen nº 008/2017 fica acrescido do inciso II que terá a seguinte redação:",
+          "similaridade": 59.1,
+          "cobertura_vocabulario": 0.7,
+          "arquivo": "OS_2017_N_00008_ANEXO_01_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "BETÂNIA Mº P. DOS SANTOS SIL MARIA N DADE COREN-PB Nº 42725 COREN-RO Nº 92597 Presidente Primeira-Secretária ../ASSLEGIS",
+          "similaridade": 54.3,
+          "cobertura_vocabulario": 0.5,
+          "arquivo": "OS_2017_N_00008_ANEXO_01_PDF_SITE.pdf"
+        }
+      ]
+    },
+    {
+      "codigo": "C012",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+    },
+    {
+      "codigo": "C030",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+      "evidencia": [
+        "Incisos sob BR_FED_COFEN_OS_2017_N_00008_ART_001_PAR_01: [1, 2, 2, 3]"
+      ]
+    }
+  ],
+  "conferencia_por_dispositivo": [
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00008_EPIGRAFE_001",
+      "tipo": "epigrafe",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 72.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00008_PREAMBULO_001",
+      "tipo": "preambulo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00008_CONSIDERANDO_001",
+      "tipo": "considerando",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00008_CONSIDERANDO_002",
+      "tipo": "considerando",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00008_CONSIDERANDO_003",
+      "tipo": "considerando",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00008_CONSIDERANDO_004",
+      "tipo": "considerando",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00008_CONSIDERANDO_005",
+      "tipo": "considerando",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00008_CONSIDERANDO_006",
+      "tipo": "considerando",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00008_FORMULA_DECISORIA_001",
+      "tipo": "formula_decisoria",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00008_ART_001",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00008_ART_001_PAR_01",
+      "tipo": "paragrafo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00008_ART_001_PAR_01_INC_I",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00008_ART_001_PAR_01_INC_II",
+      "tipo": "inciso",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 95.9
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00008_ART_001_PAR_01_INC_II_2",
+      "tipo": "inciso",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 95.4
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00008_ART_001_PAR_01_INC_III",
+      "tipo": "inciso",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 89.8
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00008_ART_002",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00008_ART_003",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00008_LOCAL_DATA_001",
+      "tipo": "local_data",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 86.7
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00008_ASSINATURA_001",
+      "tipo": "assinatura",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 54.2
+    }
+  ],
+  "data_verificacao": "2026-10-10",
+  "responsavel": "Triagem automatizada - requer validação humana"
+}

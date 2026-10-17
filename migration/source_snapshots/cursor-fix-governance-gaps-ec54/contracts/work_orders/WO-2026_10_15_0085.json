@@ -1,0 +1,21 @@
+{
+  "id": "WO-2026_10_15_0085",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "task_id": "TAREFA-OBTER",
+  "task_version": "1.0.0",
+  "task_type": "obter",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "parametros": {
+    "lote": "cofen_port_50mb",
+    "alternativa": "zip passa de 50 MB; fracionar depois do validar; zero atomos"
+  },
+  "entradas": [
+    {
+      "id_origem": "13DMCK2bQSPCMzSGjH8glOVmXRoT3Vpvn",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/PORT/PORT_LOTE4_2021-2023_ATOS_PARTE1.zip",
+      "classe": "REFERENCIA"
+    }
+  ]
+}

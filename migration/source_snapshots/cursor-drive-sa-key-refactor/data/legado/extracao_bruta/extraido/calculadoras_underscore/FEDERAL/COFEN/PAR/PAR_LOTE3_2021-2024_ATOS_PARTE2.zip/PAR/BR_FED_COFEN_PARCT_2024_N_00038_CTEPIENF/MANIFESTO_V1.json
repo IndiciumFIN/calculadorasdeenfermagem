@@ -1,0 +1,53 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-38-2024-cofen-camtec-ctepienf/ (API WordPress post 140743); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2024_N_00038_CTEPIENF_ATOMOS_V1.jsonl",
+      "sha256": "14d8378c7a6b9bed9d71dc943f7cb45f1de1444822567957275f12f47486ecde",
+      "tamanho": 32579
+    },
+    {
+      "nome": "PARCT_2024_N_00038_CTEPIENF_CONTEUDO_SITE_API.json",
+      "sha256": "31e830dbc30ffa264c9430f6a7d8bc6fe0851d0e70f167f95b14c4bbec3e9731",
+      "tamanho": 8274
+    },
+    {
+      "nome": "PARCT_2024_N_00038_CTEPIENF_NORMA_V1.json",
+      "sha256": "f52d7540ede17584847b90c98a8c851b77600dff5f01c7963e22e30a60c6e1f6",
+      "tamanho": 5032
+    },
+    {
+      "nome": "PARCT_2024_N_00038_CTEPIENF_PAGINA_SITE.html",
+      "sha256": "2181550615ace58ccc7502df37c7f35156ea88ea7764aa4782bc254a443fedd1",
+      "tamanho": 448173
+    },
+    {
+      "nome": "PARCT_2024_N_00038_CTEPIENF_PDF_SITE.pdf",
+      "sha256": "b905bc2f0931eb7f4a5732853d80c57977baaa50b3432a0c277a43f6d4a7889c",
+      "tamanho": 206000
+    },
+    {
+      "nome": "PARCT_2024_N_00038_CTEPIENF_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "f9c8fa2ffbadf91593dccc9e59a790a9508b17f01296a1af661b4fd4b5cf8596",
+      "tamanho": 7654
+    },
+    {
+      "nome": "PARCT_2024_N_00038_CTEPIENF_TEXTO_FONTE_V1.txt",
+      "sha256": "b2cefff5f8e9e357c944adfaad9ca382a6eb5f96817ecd6f3915bb1e9bc44cfe",
+      "tamanho": 6358
+    },
+    {
+      "nome": "PARCT_2024_N_00038_CTEPIENF_VALIDACAO_V1.json",
+      "sha256": "11224ab2e4ef7b853d18eac0b596e5015a1c702db62de410e2a592d9eff852ff",
+      "tamanho": 9423
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

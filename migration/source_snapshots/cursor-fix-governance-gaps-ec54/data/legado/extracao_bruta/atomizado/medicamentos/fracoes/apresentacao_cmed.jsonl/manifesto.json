@@ -1,0 +1,25 @@
+{
+  "algoritmo": "concatenacao-bytes-sha256",
+  "id_origem": "1S9KrJFUlnxTPx-OeVKBdmVeOJBJKuUrm",
+  "arquivo": "apresentacao_cmed.jsonl",
+  "caminho_obter": "atomizado/medicamentos/apresentacao_cmed.jsonl",
+  "bytes": 60737486,
+  "sha256": "3f158c141200caae51cc2b3ea7d309f8a52db2b2a4b7136278df612b8f1e37b6",
+  "tamanho_parte": 40000000,
+  "partes": [
+    {
+      "nome": "part-000",
+      "ordem": 0,
+      "offset": 0,
+      "bytes": 40000000,
+      "sha256": "0b5ea50a28b829f30943cae0fb2588f42f0d82f72f8c844664761a7ffd3cf287"
+    },
+    {
+      "nome": "part-001",
+      "ordem": 1,
+      "offset": 40000000,
+      "bytes": 20737486,
+      "sha256": "2f35e2246951c8e5fe223fb9856a37777494db941733d5af5af47ed7f22d3214"
+    }
+  ]
+}

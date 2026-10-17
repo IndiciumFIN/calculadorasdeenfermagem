@@ -1,0 +1,142 @@
+{
+  "identificador": "BR_FED_COFEN_PORT_2022_N_01104",
+  "tipo": "Portaria",
+  "codigo_tipo": "PORT",
+  "categoria_site": "Portarias",
+  "numero": 1104,
+  "numero_original": "PORTARIA COFEN Nº 1104 DE 1 DE AGOSTO DE 2022",
+  "ano": 2022,
+  "emissor": "Conselho Federal de Enfermagem",
+  "unidade_emissora": "Presidência",
+  "data_ato": "2022-06-30",
+  "data_ato_fonte": "Brasília, 30 de junho de 2022",
+  "ementa": null,
+  "titulo_site": "PORTARIA COFEN Nº 1104 DE 1 DE AGOSTO DE 2022",
+  "publicacao": {
+    "veiculo": "Portal do Cofen (cofen.gov.br)",
+    "url": "https://www.cofen.gov.br/portaria-cofen-no-1104-de-1-de-agosto-de-2022/",
+    "wp_post_id": 101239,
+    "data_publicacao_site": "2022-08-02",
+    "data_modificacao_site": "2022-08-02",
+    "pdfs": [
+      {
+        "url": "https://www.cofen.gov.br/wp-content/uploads/2022/08/PORT.-1104-2022.pdf",
+        "rotulo_site": "Portaria Cofen nº 1104-2022",
+        "origem_link": "bloco_anexos_pagina",
+        "arquivo": "PORT_2022_N_01104_PDF_SITE.pdf",
+        "papel": "PRINCIPAL",
+        "ocr": true,
+        "paginas": 1,
+        "arquivo_texto": "PORT_2022_N_01104_PDF_SITE_TEXTO_OCR_V1.txt",
+        "pagina_dou": false
+      },
+      {
+        "url": "https://www.cofen.gov.br/wp-content/uploads/2022/08/Portaria-Cofen-no-1104-2022.pdf",
+        "rotulo_site": "Portaria Cofen nº 1104-2022 - Publicação no DOU",
+        "origem_link": "bloco_anexos_pagina",
+        "arquivo": "PORT_2022_N_01104_ANEXO_01_PDF_SITE.pdf",
+        "papel": "ANEXO",
+        "ocr": false,
+        "paginas": 1,
+        "arquivo_texto": "PORT_2022_N_01104_ANEXO_01_PDF_SITE_TEXTO_V1.txt",
+        "pagina_dou": true,
+        "cobertura_no_texto_do_site": 0.29,
+        "tratamento": "ATOMIZADO_A_PARTIR_DO_PDF"
+      }
+    ],
+    "sei": {
+      "documento_sei": null,
+      "codigo_verificador": null,
+      "codigo_crc": null,
+      "assinaturas_eletronicas": []
+    },
+    "dou": {
+      "citado_no_texto": true,
+      "trechos": [
+        "comissionada de Assistente IV, nível FC-4, da Coordenadoria de Governança e Gestão. Art. 2º Este ato será publicado no Diário Oficial da União, com efeitos a partir de 18 de julho de 2022. A Presidente do Conselho Federal de Enfermagem - Cofen, no uso de suas at",
+        ", nos termos do item 17 do Edital de Concurso Público nº 001/2019, conforme homologação de resultado final publicado no Diário Oficial da União na data de 11.09.2019, para assumir o respectivo cargo a partir de 01 de agosto de 2022. A PRESIDENTE DO TRIBUNAL REGIO"
+      ],
+      "registros_de_publicacao": [
+        "publicado no Diário Oficial da União, com efeitos a partir de 18 de julho de 2022.",
+        "publicado no Diário Oficial da União na data de 11.09.2019, para assumir o respectivo cargo a partir de 01 de agosto de 2022."
+      ],
+      "codigos_autenticidade": [
+        "05292022080200059"
+      ],
+      "verificado_online_in_gov_br": false,
+      "observacao": "Menções ao DOU registradas a partir do texto; nenhuma consulta ao in.gov.br foi feita neste lote.",
+      "fac_simile_dou_no_site": [
+        {
+          "arquivo": "PORT_2022_N_01104_ANEXO_01_PDF_SITE.pdf",
+          "edicao": "145",
+          "data": "2022-08-02",
+          "pagina": null,
+          "secao": "Seção 2",
+          "observacao": "PDF publicado no site do Cofen é fac-símile de página do DOU (contém outros atos). Dados extraídos do cabeçalho do PDF; não houve consulta ao in.gov.br."
+        }
+      ]
+    }
+  },
+  "vigencia": {
+    "clausula": "2º Esta Portaria entra em vigor na data de 2 de agosto de 2022.",
+    "situacao": "NAO_VERIFICADA_ATOS_POSTERIORES"
+  },
+  "normas_relacionadas": [
+    {
+      "ato": "Lei 5.905/1973",
+      "relacao": "CITADA",
+      "verificacao": "EXTRAIDO_AUTOMATICO_DO_TEXTO",
+      "contexto": "nselho Federal de Enfermagem – Cofen, no uso de suas atribuições legais e regimentais conferidas na Lei nº 5.905 de 12 de julho de 1973, bem como pelo Regimento Interno da Autarquia, aprovado pel"
+    },
+    {
+      "ato": "Resolução Cofen 421/2012",
+      "relacao": "CITADA",
+      "verificacao": "EXTRAIDO_AUTOMATICO_DO_TEXTO",
+      "contexto": "na Lei nº 5.905 de 12 de julho de 1973, bem como pelo Regimento Interno da Autarquia, aprovado pela Resolução Cofen nº. 421, de 15 de fevereiro de 2012; CONSIDERANDO os termos da Decisão Cofen nº 072/2021; CONSI"
+    },
+    {
+      "ato": "Decisão Cofen 072/2021",
+      "relacao": "ALTERACAO_MENCIONADA",
+      "verificacao": "EXTRAIDO_AUTOMATICO_DO_TEXTO",
+      "contexto": "rquia, aprovado pela Resolução Cofen nº. 421, de 15 de fevereiro de 2012; CONSIDERANDO os termos da Decisão Cofen nº 072/2021; CONSIDERANDO a Resolução Cofen nº 698/2022, que altera e a"
+    },
+    {
+      "ato": "Resolução Cofen 698/2022",
+      "relacao": "ALTERACAO_MENCIONADA",
+      "verificacao": "EXTRAIDO_AUTOMATICO_DO_TEXTO",
+      "contexto": "21, de 15 de fevereiro de 2012; CONSIDERANDO os termos da Decisão Cofen nº 072/2021; CONSIDERANDO a Resolução Cofen nº 698/2022, que altera e atualiza o Organograma e o Caderno de Atribui"
+    }
+  ],
+  "assinaturas": [
+    "BETÂNIA Mª P. DOS SANTOS / COREN-PB Nº 42725 / Presidente",
+    "MARIA DO PERPETUO SOCORRO WANDERLEY DE / DIRETORIA-GERAL"
+  ],
+  "licenca_uso": {
+    "fundamento": "Lei 9.610/1998, art. 8, IV",
+    "texto_ato_oficial": "NAO_PROTEGIDO_POR_DIREITOS_AUTORAIS",
+    "uso_texto_normativo": "ELEGIVEL_PARA_REPRODUCAO_COM_PROVENIENCIA",
+    "materiais_terceiros": "ANALISE_ESPECIFICA_SE_HOUVER"
+  },
+  "contagem_dispositivos": {
+    "epigrafe": 10,
+    "preambulo": 1,
+    "considerando": 6,
+    "artigo": 3,
+    "local_data": 1,
+    "assinatura": 2,
+    "anexo": 1,
+    "paragrafo_texto": 28,
+    "secao": 20,
+    "artigo_transcrito": 10,
+    "inciso": 2
+  },
+  "anexos": {
+    "referencias_no_texto": [],
+    "resultado": "PRESENTE_E_ATOMIZADO",
+    "anexos_no_texto": [
+      "BR_FED_COFEN_PORT_2022_N_01104_ANEXO_PDF_01"
+    ]
+  },
+  "observacoes": [],
+  "situacao": "ATOMIZADO_PENDENTE_REVISAO"
+}

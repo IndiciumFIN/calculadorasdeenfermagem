@@ -1,0 +1,49 @@
+{
+  "work_order": "WO-2026_10_15_0054",
+  "checker_id": "kernel-validar",
+  "authorized_by": "IndiciumFIN",
+  "itens": [
+    {
+      "id_origem": "1TXR8PKTzlSx9arROxaQfxHrVUB0Dhf5M",
+      "caminho": "medicamentos/anvisa_cmed_precos_medicamentos.csv",
+      "sha256": "c397d619fb15c7709b413fe2adaf82f1489f44f06613da89e60feead04fd8937",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1oaZGdYfyi4y_t3lvB-6ZGT2abcmUf-p1",
+      "caminho": "medicamentos/anvisa_medicamentos_registrados.csv",
+      "sha256": "476b9cfec70945d7ba8a163571fd6cf48033b7a9e8f990fbc53577931745fb3b",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "16aJHou1uEY_yMxSBVAzKt8onkbPTgbWJ",
+      "caminho": "medicamentos/fda_ndc_produtos.csv",
+      "sha256": "3e8b5c33184f8dd4a0139158e9cb3e947eb6455a261f6d2862029061352fd7fd",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1ko9doZkUtPsl8ZQ1aqqlxlPBx23XVnZW",
+      "caminho": "medicamentos/fda_desabastecimento.csv",
+      "sha256": "1f468406d134e2bf5cde33403c14ba165aad2c56b0ab10cf74c844d055a13941",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1EXiObJW-6ANm9MQXNLY6_oSUy47_wLBP",
+      "caminho": "medicamentos/anvisa_medicamentos_registrados.json.zip",
+      "sha256": "4fa160eed1c0ad74f8e3e3b94961e9577c27dd31483c7414d61c653afd5d554a",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "16pK1HPQuz5h7cWmC4A6hZ0bJKlTY0ETH",
+      "caminho": "medicamentos/fda_desabastecimento.json",
+      "sha256": "448d6168a3884242eed9898cedb3bb501e92f5291c5a7b640cb43af036bc075c",
+      "resultado": "PASS",
+      "atomos": 0
+    }
+  ]
+}

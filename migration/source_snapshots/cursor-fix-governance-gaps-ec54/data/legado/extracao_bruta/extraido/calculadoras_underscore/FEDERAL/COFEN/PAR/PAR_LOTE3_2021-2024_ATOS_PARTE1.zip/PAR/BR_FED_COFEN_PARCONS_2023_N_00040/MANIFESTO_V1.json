@@ -1,0 +1,54 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-conselheiro-federal-no-40-2023-cofen/ (API WordPress post 109324); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCONS_2023_N_00040_ATOMOS_V1.jsonl",
+      "sha256": "6800307d9d9d4a676ccee04f35b85860c911548f9b6e564af32346673a21c25d",
+      "tamanho": 82487
+    },
+    {
+      "nome": "PARCONS_2023_N_00040_CONTEUDO_SITE_API.json",
+      "sha256": "a9d69d77f1202718afbc64682c374ec491e78293658ce6f684b7062aed566c6b",
+      "tamanho": 30524
+    },
+    {
+      "nome": "PARCONS_2023_N_00040_NORMA_V1.json",
+      "sha256": "629563196bc12ced7ae0de9a48b01f05e4e252dd6a2ca3d79f5b73ac6bade6d8",
+      "tamanho": 7209
+    },
+    {
+      "nome": "PARCONS_2023_N_00040_PAGINA_SITE.html",
+      "sha256": "13ea8761c837ddf2377ed6929c8c9bffa2f087e2ed42239c8d4259f15292a12f",
+      "tamanho": 467473
+    },
+    {
+      "nome": "PARCONS_2023_N_00040_PDF_SITE.pdf",
+      "sha256": "57beb15756f32991cef88d8e4e10d8a864144f5e60a3b0fa2b1abd9130f6a4f5",
+      "tamanho": 286753
+    },
+    {
+      "nome": "PARCONS_2023_N_00040_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "f1c4d433b0baad28afa23ccd5b61c369e315a97a991817fe32fa23793b9da74b",
+      "tamanho": 6643
+    },
+    {
+      "nome": "PARCONS_2023_N_00040_TEXTO_FONTE_V1.txt",
+      "sha256": "f4bf6195cd89b01a51d2bcb5ef427c4a3e7cd6525374fbcb5a0c3d22553ddfc6",
+      "tamanho": 22908
+    },
+    {
+      "nome": "PARCONS_2023_N_00040_VALIDACAO_V1.json",
+      "sha256": "29f83c02ba33c789f7169845e0ce4c46282841dc342b7168e26769e91d6e06cd",
+      "tamanho": 17018
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 arquivo(s) vinculado(s) à página não puderam ser baixados; conteúdo não conferido.",
+    "O PDF anexado à página não corresponde ao ato (documento diferente); não há PDF do próprio ato.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir."
+  ]
+}

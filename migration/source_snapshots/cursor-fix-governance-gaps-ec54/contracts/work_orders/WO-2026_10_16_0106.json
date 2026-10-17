@@ -1,0 +1,25 @@
+{
+  "id": "WO-2026_10_16_0106",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "checker_id": "kernel-inventory-checker",
+  "task_id": "TAREFA-AUDITAR-INVENTARIO",
+  "task_version": "1.0.0",
+  "task_type": "auditar-inventario",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "entradas": [
+    {
+      "id_origem": "DRIVE-METADATA-WAVE2-20261016",
+      "caminho": "data/grc/drive_inventory_20261016_wave2.json",
+      "classe": "DOCUMENTO",
+      "sha256": "07f0bd638173b6b3f5e023054d3f7e43510549418e38d8be37556d3ee41d953c"
+    }
+  ],
+  "parametros": {
+    "lote": "DRIVE-M02-20261016",
+    "fase": "metadata_extended_direct_children",
+    "exclusao": "PROIBIDA",
+    "publicacao": "PROIBIDA"
+  }
+}

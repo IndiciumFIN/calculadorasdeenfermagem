@@ -1,0 +1,14 @@
+{
+  "versao": "1.0.0",
+  "regra": "Config declarativa de providers de LLM. NENHUM segredo neste arquivo: apenas endpoints pinados e nomes de variáveis de ambiente. A chave real do DeepSeek vive exclusivamente como secret da Edge Function no Supabase (DEEPSEEK_API_KEY); o runner local/CI só precisa do token do projeto Supabase via variável de ambiente.",
+  "providers": {
+    "deepseek_via_supabase": {
+      "tipo": "supabase_edge_function",
+      "gateway_url": "https://aevqrmkdhffmursdtcmo.supabase.co/functions/v1/cko-deepseek-gateway",
+      "env_auth": "CE_SUPABASE_ANON_KEY",
+      "modelos_suportados": ["deepseek-chat", "deepseek-reasoner"],
+      "timeout_s": 120,
+      "nota": "O gateway cko-deepseek-gateway roda no Supabase com verify_jwt=true e repassa a chamada para api.deepseek.com usando o secret DEEPSEEK_API_KEY configurado nas Edge Functions. Sem esse secret o gateway responde 503 deepseek_secret_missing e o runner falha fechado (exit 2)."
+    }
+  }
+}

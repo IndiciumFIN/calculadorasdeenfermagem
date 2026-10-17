@@ -1,0 +1,58 @@
+{
+  "id": "WO-2026_10_15_0025",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "task_type": "obter",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "parametros": {
+    "pasta_drive": "1l519_P-9o6bnQcItydKvEEDpEYeE8R8s",
+    "pasta_vacinal_brasil": "1zEoA1LWrFUzr6ZDJByDbXPKB02bbR3cb",
+    "pasta_raw_fora": "1qtEEe-LzF5N_18d2nYthX92G_4Hnk_1A",
+    "lote": "vacinal_brasil"
+  },
+  "entradas": [
+    {
+      "id_origem": "1kigeUQOrHyZmEifXVdECdB000WrGq5NJ",
+      "caminho": "vacinal_brasil/esavi_eventos_adversos_vacinacao_amostra.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1cdHPk3ADQLwM_xE8TkilIsvxI0HBgE3t",
+      "caminho": "vacinal_brasil/sies_insumos_estrategicos_amostra.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1jilFoIwWWU_sT3u-idHrKLujRI3P-2Uf",
+      "caminho": "vacinal_brasil/pni_doses_aplicadas_2026_amostra.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1disptl2bFXg4Q9t-Fm3UHgZ8GeTmqrNa",
+      "caminho": "vacinal_brasil/sesai_cobertura_vacinal_indigena.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1Ycij5EOJPCY_D7VVKjeL_5BEa-b_TMTL",
+      "caminho": "vacinal_brasil/pni_doses_aplicadas_2026_amostra.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1Qj5qOB5dp2DS7TTGAo8mdNfrkGEYI6pe",
+      "caminho": "vacinal_brasil/esavi_eventos_adversos_vacinacao_amostra.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1KxO3wN3gQ9mFHMBj7oxi3B_UfogjDjcc",
+      "caminho": "vacinal_brasil/sies_insumos_estrategicos_amostra.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1Grc-0ylcm5A1tdYjkauXkbXitFqrsfSH",
+      "caminho": "vacinal_brasil/sesai_cobertura_vacinal_indigena.json",
+      "classe": "REFERENCIA"
+    }
+  ],
+  "task_id": "TAREFA-OBTER",
+  "task_version": "1.0.0"
+}

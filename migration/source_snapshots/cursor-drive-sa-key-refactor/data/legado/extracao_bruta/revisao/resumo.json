@@ -1,0 +1,40 @@
+{
+ "resumo": {
+  "SOFA": {
+   "confere": 32,
+   "diverge": 0,
+   "nao_localizado": 2
+  },
+  "qSOFA": {
+   "confere": 5,
+   "diverge": 0,
+   "nao_localizado": 1
+  },
+  "definicoes_sepsis3": {
+   "confere": 7,
+   "diverge": 1,
+   "nao_localizado": 0
+  },
+  "NEWS2_pontos": {
+   "confere": 36,
+   "diverge": 0,
+   "nao_localizado": 0
+  },
+  "NEWS2_risco": {
+   "confere": 4,
+   "diverge": 0,
+   "nao_localizado": 0
+  },
+  "PA_DBHA2020": {
+   "confere": 25,
+   "diverge": 1,
+   "nao_localizado": 0
+  }
+ },
+ "fontes": {
+  "Sepsis3_Singer2016_JAMA_VoR_via_AmsterdamUMC.pdf": "597217c81b2e30e520ab1d209f183630ac4c6d939336e6119a33b29a38bdd833",
+  "NEWS2_RCP2017_Chart1_scoring_system.pdf": "62425a54bd29d5c64c175991fb532b776afb0f8fba4445328c94e9af67ddc53d",
+  "NEWS2_RCP2017_Chart2_thresholds_triggers.pdf": "069ab296933c5e8e3b65731df1f92bb11bc0482f8ed58ec0ddce06651922c523",
+  "DBHA2020_ArqBrasCardiol_116-3_516-658.pdf": "b62921e259f1c41e384fff56f3bcb0b8ed4686fad670607a2e2f09ead153ee0d"
+ }
+}

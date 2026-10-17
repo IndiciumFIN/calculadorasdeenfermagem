@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/lei-n-749886-de-25-de-junho-de-1986/ (API WordPress post 4161); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "LEI_1986_N_07498_ATOMOS_V1.jsonl",
+      "sha256": "740b560aeb5647e0cb1604705ae5e44d99ef3df251c3457a1361a3602fa81886",
+      "tamanho": 85084
+    },
+    {
+      "nome": "LEI_1986_N_07498_CONTEUDO_SITE_API.json",
+      "sha256": "4230d16b5287afa144d994aac146b25dbd13c17e180bc618bbfffa2c61dc0ce3",
+      "tamanho": 15846
+    },
+    {
+      "nome": "LEI_1986_N_07498_NORMA_V1.json",
+      "sha256": "b3a679c6b77ed0465e10fa8369e433ff25dd740b09c75d3b4f4dd1b503692596",
+      "tamanho": 5399
+    },
+    {
+      "nome": "LEI_1986_N_07498_PAGINA_SITE.html",
+      "sha256": "526614c469a35fa82f4f258e773e28a9be9306046f8721b9d83d8f7eddc93016",
+      "tamanho": 451349
+    },
+    {
+      "nome": "LEI_1986_N_07498_TEXTO_FONTE_V1.txt",
+      "sha256": "ef6d9da6057458b85b2538b5495bcbc21a08efab78335303b03a2e5d7091cb0a",
+      "tamanho": 12175
+    },
+    {
+      "nome": "LEI_1986_N_07498_VALIDACAO_V1.json",
+      "sha256": "9977dc21a839e87496528b5d902c49314e59aca3425dde640df1e9e8424c9ef9",
+      "tamanho": 3016
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência."
+  ]
+}

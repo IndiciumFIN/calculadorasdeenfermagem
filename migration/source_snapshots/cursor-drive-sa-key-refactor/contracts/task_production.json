@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Contrato de Tarefa de Produção",
+  "type": "object",
+  "required": ["id", "produto", "designSystem", "fontes", "criterios"],
+  "properties": {
+    "id": { "type": "string" },
+    "produto": { "type": "string" },
+    "designSystem": { "const": "ce_canonical" },
+    "fontes": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "camadas_permitidas": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "criterios": {
+      "type": "object",
+      "properties": {
+        "texto_validado": { "type": "boolean" },
+        "referencias_rastreaveis": { "type": "boolean" },
+        "contraste_aprovado": { "type": "boolean" }
+      }
+    }
+  }
+}

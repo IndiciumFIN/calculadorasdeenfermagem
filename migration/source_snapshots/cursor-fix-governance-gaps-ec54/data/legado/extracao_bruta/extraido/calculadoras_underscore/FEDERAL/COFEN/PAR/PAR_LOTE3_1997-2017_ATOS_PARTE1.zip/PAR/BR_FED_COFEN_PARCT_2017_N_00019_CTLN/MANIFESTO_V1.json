@@ -1,0 +1,54 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-n-19-2017-cofen-ctln/ (API WordPress post 60935); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2017_N_00019_CTLN_ATOMOS_V1.jsonl",
+      "sha256": "632ca5d18f7ddc769a27afd14d93bf0f2da07ea4bdd3d7dd1405be4d98f3de33",
+      "tamanho": 60160
+    },
+    {
+      "nome": "PARCT_2017_N_00019_CTLN_CONTEUDO_SITE_API.json",
+      "sha256": "ac48227bafb2f3a08984f5e63d091107a44e22b10654921e21eb396f2ccffa71",
+      "tamanho": 16103
+    },
+    {
+      "nome": "PARCT_2017_N_00019_CTLN_NORMA_V1.json",
+      "sha256": "78f11654668a3e04960501f8af3b2254b9c6e15b577e2858eb3894cb99c55e18",
+      "tamanho": 3739
+    },
+    {
+      "nome": "PARCT_2017_N_00019_CTLN_PAGINA_SITE.html",
+      "sha256": "89883ac9f6b47588f71d133b36cfbcdb417055a42436b68b0257ec6295c0a99d",
+      "tamanho": 455554
+    },
+    {
+      "nome": "PARCT_2017_N_00019_CTLN_PDF_SITE.pdf",
+      "sha256": "8a6863454998ff7f8d5f3862d6d60a86d27c92e1f82c5c82be44b36861960003",
+      "tamanho": 2028528
+    },
+    {
+      "nome": "PARCT_2017_N_00019_CTLN_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "d25b1f7a4f869d71a3b00aac6a1b715757a250b496097a08805ca49ede92ff1c",
+      "tamanho": 8818
+    },
+    {
+      "nome": "PARCT_2017_N_00019_CTLN_TEXTO_FONTE_V1.txt",
+      "sha256": "4152dd0b243d1487cac2e319159b166f35fa4aeba78be5cfcf8a94f00174e886",
+      "tamanho": 8956
+    },
+    {
+      "nome": "PARCT_2017_N_00019_CTLN_VALIDACAO_V1.json",
+      "sha256": "37bb65d2e2fdac5dbee64439a60a51f18adca3e93c66f32e8885bc4b8d0219b0",
+      "tamanho": 15184
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "2 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "1 trecho(s) do PDF sem correspondente no texto do site.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir."
+  ]
+}

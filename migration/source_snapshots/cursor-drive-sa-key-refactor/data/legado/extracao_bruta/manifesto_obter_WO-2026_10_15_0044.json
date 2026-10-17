@@ -1,0 +1,34 @@
+{
+  "work_order": "WO-2026_10_15_0044",
+  "policy_version": "1.0.0",
+  "itens": [
+    {
+      "id_origem": "1iMy28m66UZDPagasCDXnXmu1fr1cHU6L",
+      "caminho": "mesh/mesh_descritores.csv",
+      "classe": "REFERENCIA",
+      "sha256": "94c6e58a1cbee4d951f129d70f0a9764bf6011cb0c754ca42cfb8537035adab6",
+      "bytes": 14859597
+    },
+    {
+      "id_origem": "1pjdy6m38sVuHeWyx-2kvns_lB5V7c8MI",
+      "caminho": "mesh/mesh_doencas_categoria_C.csv",
+      "classe": "REFERENCIA",
+      "sha256": "81289a95f5a6abc713e531233b5ac534bfd5dde114984bc9c7a6771ed29b3f24",
+      "bytes": 3174494
+    },
+    {
+      "id_origem": "1VaGYdrH4Otmvk4VVkLkwLDGnF3KrEo5s",
+      "caminho": "mesh/mesh_descritores.json",
+      "classe": "REFERENCIA",
+      "sha256": "93c876e1303005ac1829a7b0cd7078edb24c5181d6b47b7a9a3395789820a25a",
+      "bytes": 21732253
+    },
+    {
+      "id_origem": "114EU2ekgI_PeoSvqNp24CCNxptP9O5qu",
+      "caminho": "mesh/mesh_doencas_categoria_C.json",
+      "classe": "REFERENCIA",
+      "sha256": "3c0983fcb5858b583e65b2f08e41dca461d7d4e19a91225f561486b07897ed8d",
+      "bytes": 4380509
+    }
+  ]
+}

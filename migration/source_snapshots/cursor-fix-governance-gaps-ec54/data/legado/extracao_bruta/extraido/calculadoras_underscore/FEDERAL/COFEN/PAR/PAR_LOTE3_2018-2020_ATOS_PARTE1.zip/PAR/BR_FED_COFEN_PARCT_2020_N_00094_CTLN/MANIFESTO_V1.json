@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-conjunto-no-0094-2020-ctln-ctab-cofen/ (API WordPress post 83743); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2020_N_00094_CTLN_ATOMOS_V1.jsonl",
+      "sha256": "91e146ece4b982be746f7a8829bb87be4c589091c0ae56b44a83ee21638d9c5e",
+      "tamanho": 46208
+    },
+    {
+      "nome": "PARCT_2020_N_00094_CTLN_CONTEUDO_SITE_API.json",
+      "sha256": "3bc83f547baed1df780fe4e2deb9d26fabd7481fbd5d6d8567c7d9ca7f7c1a17",
+      "tamanho": 10931
+    },
+    {
+      "nome": "PARCT_2020_N_00094_CTLN_NORMA_V1.json",
+      "sha256": "4d91d7aa135ace87427e325b6c926832f17d395991e73c576a7e986206b48ae1",
+      "tamanho": 2420
+    },
+    {
+      "nome": "PARCT_2020_N_00094_CTLN_PAGINA_SITE.html",
+      "sha256": "ab96847a39bb3c4025571fc5726ec8bb368af4f534e415a45f41dd9fc93498f2",
+      "tamanho": 450838
+    },
+    {
+      "nome": "PARCT_2020_N_00094_CTLN_TEXTO_FONTE_V1.txt",
+      "sha256": "1ca96f0e5ac5f52cc360a14f09a1f6c2608f78cb69b3f468cd404de27620d0e3",
+      "tamanho": 9962
+    },
+    {
+      "nome": "PARCT_2020_N_00094_CTLN_VALIDACAO_V1.json",
+      "sha256": "f2a27cf9c9752681c24833db28228b359eb787dbe3c5834e49118007625cdacc",
+      "tamanho": 2923
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Anexo referenciado no texto não está presente no site nem em PDF."
+  ]
+}

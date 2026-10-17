@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-camara-tecnica-no-43-2021-ctep-cofen-revisado/ (API WordPress post 103327); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2021_N_00043_CTEP_P103327_ATOMOS_V1.jsonl",
+      "sha256": "e44585b801713ac00f41b115876917721458d5a9106a3ef5762ff90f9329534a",
+      "tamanho": 40241
+    },
+    {
+      "nome": "PARCT_2021_N_00043_CTEP_P103327_CONTEUDO_SITE_API.json",
+      "sha256": "0790112be6c3195d4d6029d8ed0d7277cc897bf100358083c4668100ffd583ba",
+      "tamanho": 34388
+    },
+    {
+      "nome": "PARCT_2021_N_00043_CTEP_P103327_NORMA_V1.json",
+      "sha256": "705075b3701beeb675de5cd4dfc3eef309c3a199842579fa7ce259161fb1f037",
+      "tamanho": 5832
+    },
+    {
+      "nome": "PARCT_2021_N_00043_CTEP_P103327_PAGINA_SITE.html",
+      "sha256": "e802c137ea43c5e3f88055a822074edada248bbc1189d913e8c6a4a1954661b9",
+      "tamanho": 471755
+    },
+    {
+      "nome": "PARCT_2021_N_00043_CTEP_P103327_TEXTO_FONTE_V1.txt",
+      "sha256": "4beeaa75b7515758e9720192fc150e025df4dd05cac7c61a05f31fd039f35411",
+      "tamanho": 10486
+    },
+    {
+      "nome": "PARCT_2021_N_00043_CTEP_P103327_VALIDACAO_V1.json",
+      "sha256": "26b97f0505406669a56c4451288c274962ba2a66e1320c4714036067808b35dd",
+      "tamanho": 2689
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

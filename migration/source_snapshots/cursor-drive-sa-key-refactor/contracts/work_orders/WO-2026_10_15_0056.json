@@ -1,0 +1,42 @@
+{
+  "id": "WO-2026_10_15_0056",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "task_id": "TAREFA-OBTER",
+  "task_version": "1.0.0",
+  "task_type": "obter",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "parametros": {
+    "lote": "arquivos_grandes",
+    "decisao_volume": "fracionar em partes de 40000000 bytes e conferir o sha256 original",
+    "listagem": "metadado de cada titulo confirmado em 2026-10-15"
+  },
+  "entradas": [
+    {
+      "id_origem": "1YidMR-L1ovUfyxz4-jxUtfgr_5o3Kn1c",
+      "caminho": "medicamentos/inteiros/anvisa_cmed_precos_medicamentos.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1Vzm6B5HqowgiXuHBDJSJ1ktJdpZ3CWin",
+      "caminho": "medicamentos/inteiros/fda_ndc_produtos.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1l9ojaxlDhAORdPWlAT1tr-1jf5q935cz",
+      "caminho": "nutricao/inteiros/usda_sr_legacy_nutrientes.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1l3dgZs_IeTvV_yJj5aFGB1h034GtZWhA",
+      "caminho": "dispositivos/inteiros/anvisa_produtos_saude_registrados.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1MmOEsNfDfpnimOb5rHNYzJtXtqGWfDJx",
+      "caminho": "suprimentos/inteiros/catmat_itens_classes_6510_6515_6530_6532.json",
+      "classe": "REFERENCIA"
+    }
+  ]
+}

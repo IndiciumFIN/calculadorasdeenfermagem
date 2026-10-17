@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-1968-de-19-de-dezembro-de-2019/ (API WordPress post 76598); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2019_N_01968_ATOMOS_V1.jsonl",
+      "sha256": "3132489a3024c4345c24eeebc235622e5d4a0dea69a1104e2f401752a79a6e8d",
+      "tamanho": 8911
+    },
+    {
+      "nome": "PORT_2019_N_01968_CONTEUDO_SITE_API.json",
+      "sha256": "b9acbf56eb1a9797ede05d4bf0e36e18058149f724c3bcd85b5a74259385fc2c",
+      "tamanho": 1798
+    },
+    {
+      "nome": "PORT_2019_N_01968_NORMA_V1.json",
+      "sha256": "d79615b99a3cc3e177d02896bed6f9545a07d01bb952ad9c488877479b9b8470",
+      "tamanho": 4846
+    },
+    {
+      "nome": "PORT_2019_N_01968_PAGINA_SITE.html",
+      "sha256": "ec39a05128efb251000f44836f77ccea3128135c08fee50cb3cbcd1c8dc1d621",
+      "tamanho": 441740
+    },
+    {
+      "nome": "PORT_2019_N_01968_PDF_SITE.pdf",
+      "sha256": "69c8bc7c0d11e66a1a9c44d53934fa748aa9889d2029b5acf7f8b84ba2bff28f",
+      "tamanho": 182732
+    },
+    {
+      "nome": "PORT_2019_N_01968_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "70553ca0d0cdf0b228d9e3ff6036c11fd887779b6bc4f8b7f964c41f0e9066ab",
+      "tamanho": 10558
+    },
+    {
+      "nome": "PORT_2019_N_01968_TEXTO_FONTE_V1.txt",
+      "sha256": "93688f0ec6a2ad1fc9ed6b320a73261ef0cc010dc869fdcdf5eca16e6609fd25",
+      "tamanho": 1106
+    },
+    {
+      "nome": "PORT_2019_N_01968_VALIDACAO_V1.json",
+      "sha256": "2d264e82c0768471dc8b9c8eb231f7c7fa567d4a215172ecef51950e72bbc4d0",
+      "tamanho": 5259
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "2 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo."
+  ]
+}

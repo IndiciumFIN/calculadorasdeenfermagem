@@ -1,0 +1,50 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-355-de-19-de-fevereiro-de-2025/ (API WordPress post 140608); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2025_N_00355_ATOMOS_V1.jsonl",
+      "sha256": "7db80fc2f7707eed1f208b612ff33ae4e63f95e781f9496dacc28325efb7cf14",
+      "tamanho": 9691
+    },
+    {
+      "nome": "PORT_2025_N_00355_CONTEUDO_SITE_API.json",
+      "sha256": "836100df21e6205dedb0fd72a041ccf2a253b925db955b501a0fe24ddca70805",
+      "tamanho": 3013
+    },
+    {
+      "nome": "PORT_2025_N_00355_NORMA_V1.json",
+      "sha256": "d6037549c850c961db481d5391e6a12998310111ccdbe87081ec3adae606f46e",
+      "tamanho": 4043
+    },
+    {
+      "nome": "PORT_2025_N_00355_PAGINA_SITE.html",
+      "sha256": "1d4614d54d843289041ff998dc76e57908043dbc6a50ea94aade21b7c55e9cf5",
+      "tamanho": 442879
+    },
+    {
+      "nome": "PORT_2025_N_00355_PDF_SITE.pdf",
+      "sha256": "a18cad6d93bde2c88b992e829c37c3ff7541371de8ff6ede2e23475e646c8dab",
+      "tamanho": 109278
+    },
+    {
+      "nome": "PORT_2025_N_00355_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "587296dd94f2d90abb9c68a2495d9ef5d74175fcc0852a7d4939c05443785264",
+      "tamanho": 2626
+    },
+    {
+      "nome": "PORT_2025_N_00355_TEXTO_FONTE_V1.txt",
+      "sha256": "66c1d5821ba339b6a89da0b517f381367aa73d8fb660ca0b97a786b8e6ccee84",
+      "tamanho": 1964
+    },
+    {
+      "nome": "PORT_2025_N_00355_VALIDACAO_V1.json",
+      "sha256": "142251382d88961eb6b0f30bcad50cd4b98a2fc3bc3d15fa1fc9ef64ab15d950",
+      "tamanho": 4079
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada."
+  ]
+}

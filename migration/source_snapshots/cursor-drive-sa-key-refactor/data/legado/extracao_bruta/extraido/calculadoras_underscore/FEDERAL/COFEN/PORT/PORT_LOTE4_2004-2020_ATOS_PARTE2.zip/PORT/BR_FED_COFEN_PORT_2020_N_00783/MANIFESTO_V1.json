@@ -1,0 +1,55 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-783-de-4-de-dezembro-de-2020/ (API WordPress post 85566); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2020_N_00783_ATOMOS_V1.jsonl",
+      "sha256": "96ceeb74f7da92e7a3a8ca4f1fa2e9df006b5232e6ef4836310709041df0adc9",
+      "tamanho": 12467
+    },
+    {
+      "nome": "PORT_2020_N_00783_CONTEUDO_SITE_API.json",
+      "sha256": "aef31dcd3c0e4b15302caf166377614e6075aebf05f7b7cb18927f46c31a3508",
+      "tamanho": 2110
+    },
+    {
+      "nome": "PORT_2020_N_00783_NORMA_V1.json",
+      "sha256": "b8d7230b44f6b4ceafc6340db156f8fb69d3b8afb02cac11b6cdf5e64cf4be4c",
+      "tamanho": 4049
+    },
+    {
+      "nome": "PORT_2020_N_00783_PAGINA_SITE.html",
+      "sha256": "11dce1ae2579fe55bacc25646fa9776cf67edf25666bd48361cb8b9d3f76fc3b",
+      "tamanho": 442407
+    },
+    {
+      "nome": "PORT_2020_N_00783_PDF_SITE.pdf",
+      "sha256": "b5f57b1d6cda94f5e014240baaa53075e3c9e9fe1f485871da67f0df721afe60",
+      "tamanho": 6493682
+    },
+    {
+      "nome": "PORT_2020_N_00783_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "7cee80c3a6f005eca619460fd166c03b93ef5053be6b8e844d46f704514d5137",
+      "tamanho": 13837
+    },
+    {
+      "nome": "PORT_2020_N_00783_TEXTO_FONTE_V1.txt",
+      "sha256": "0a396267f2833acfeb2a39fa07b0ca1622fc77c749b940870e450dafa75a4413",
+      "tamanho": 1389
+    },
+    {
+      "nome": "PORT_2020_N_00783_VALIDACAO_V1.json",
+      "sha256": "07d4bd92965d9d43672ab80300438e64b54688203f2da93886863419edc4ebf7",
+      "tamanho": 19009
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "53 trecho(s) do PDF sem correspondente no texto do site.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir.",
+    "Anexo presente mas sem conteúdo atomizado."
+  ]
+}

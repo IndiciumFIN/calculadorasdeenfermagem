@@ -1,0 +1,51 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/decreto-no-5-622-de-19-de-dezembro-de-2005/ (API WordPress post 36775); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "DECR_2005_N_05622_ATOMOS_V1.jsonl",
+      "sha256": "996e7d50429b0bba03adb9c0b13beb9f04b6117e0a580873fd750fdab810d947",
+      "tamanho": 131644
+    },
+    {
+      "nome": "DECR_2005_N_05622_CONTEUDO_SITE_API.json",
+      "sha256": "02cd4e42f40ef9d9e6b6fa2fa66f5c2db00249fa1136076ac439930b723bb4ff",
+      "tamanho": 474
+    },
+    {
+      "nome": "DECR_2005_N_05622_NORMA_V1.json",
+      "sha256": "23874b492ab0c491c1c7665b7ff8f808b6eae999be36e58850fa2dd7cb474344",
+      "tamanho": 4140
+    },
+    {
+      "nome": "DECR_2005_N_05622_PAGINA_SITE.html",
+      "sha256": "c599f04a829887e8e45b2c5859fb2b9e87bad0a35c7fef2a9cf8fa498052b035",
+      "tamanho": 439036
+    },
+    {
+      "nome": "DECR_2005_N_05622_PDF_SITE.pdf",
+      "sha256": "ce24b914813ec5a1bc1b00e8e854b08d79e9cf71cf582ba2d956deb302e96783",
+      "tamanho": 136051
+    },
+    {
+      "nome": "DECR_2005_N_05622_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "ab7b5787c3e0d3b288ba909b98d463f00c71c5073678a2e831fbbb2d7bb8686b",
+      "tamanho": 25810
+    },
+    {
+      "nome": "DECR_2005_N_05622_TEXTO_FONTE_V1.txt",
+      "sha256": "ab7b5787c3e0d3b288ba909b98d463f00c71c5073678a2e831fbbb2d7bb8686b",
+      "tamanho": 25810
+    },
+    {
+      "nome": "DECR_2005_N_05622_VALIDACAO_V1.json",
+      "sha256": "6a5d2e64521003052998e410d93a50a37cb36b6fbd43c0a8c3e88b1d120f3c82",
+      "tamanho": 2497
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Texto do ato disponível apenas no PDF (o site traz só título/resumo); atomização feita a partir da camada de texto do PDF."
+  ]
+}

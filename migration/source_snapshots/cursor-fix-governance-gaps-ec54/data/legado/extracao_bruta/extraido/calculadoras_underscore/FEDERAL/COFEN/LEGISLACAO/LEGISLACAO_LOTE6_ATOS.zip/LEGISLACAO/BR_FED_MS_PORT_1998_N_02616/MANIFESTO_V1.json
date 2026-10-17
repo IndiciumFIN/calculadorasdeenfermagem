@@ -1,0 +1,54 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-2616-de-1998ms-prevencao-de-infeccao-hospitalar-d-o-n-89-quarta-feira-13-maio-1998/ (API WordPress post 51487); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_1998_N_02616_ATOMOS_V1.jsonl",
+      "sha256": "f2114cfb4f5c44d34ac5f7cba1ed67f35e2b8d8dac53d3e6ff28e36547bb272f",
+      "tamanho": 142097
+    },
+    {
+      "nome": "PORT_1998_N_02616_CONTEUDO_SITE_API.json",
+      "sha256": "c51b956c74f7bf1b4e63e38f86dad50c685b6272a642b78dc5ee04c86f312bdf",
+      "tamanho": 559
+    },
+    {
+      "nome": "PORT_1998_N_02616_NORMA_V1.json",
+      "sha256": "6ef48e1fa6811280e42d496e9024714e984b299c4d63110b266fe73d4bcf0e66",
+      "tamanho": 6414
+    },
+    {
+      "nome": "PORT_1998_N_02616_PAGINA_SITE.html",
+      "sha256": "7dac48cfd1de28dfe1ab78b07960e448811f4f95a379348cc0e8cebd38438f87",
+      "tamanho": 437170
+    },
+    {
+      "nome": "PORT_1998_N_02616_PDF_SITE.pdf",
+      "sha256": "585a53ffca174b161a2149888915d6056825ab6c4be25cae6d9ac517b678f88f",
+      "tamanho": 701285
+    },
+    {
+      "nome": "PORT_1998_N_02616_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "56e362ecb792577e424d845b4001842e6f4571b40672c8bdee1e64bde717b857",
+      "tamanho": 34190
+    },
+    {
+      "nome": "PORT_1998_N_02616_TEXTO_FONTE_V1.txt",
+      "sha256": "12b1278bec3c89e2129f12fef349c962b05ec5609060f60a792fd9c9e9c7678b",
+      "tamanho": 34253
+    },
+    {
+      "nome": "PORT_1998_N_02616_VALIDACAO_V1.json",
+      "sha256": "5b53d451b6bfc809dc0df1b6b24461498c1aab622e1a85e88c09d167f7da2cb3",
+      "tamanho": 6100
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Texto do ato disponível apenas no PDF (o site traz só título/resumo); atomização feita a partir da camada de texto do PDF.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

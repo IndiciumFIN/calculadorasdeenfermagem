@@ -1,0 +1,81 @@
+{
+  "id": "WO-2026_10_15_0088",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "task_id": "TAREFA-OBTER",
+  "task_version": "1.0.0",
+  "task_type": "obter",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "parametros": {
+    "lote": "esteira_binarios",
+    "alternativa": "raiz somente do dono; se o download publico falhar, registrar bloqueio"
+  },
+  "entradas": [
+    {
+      "id_origem": "1XCNCXsDx-psoYTOjPRAGkIaegL7A7BdJ",
+      "caminho": "esteira_cofen/RESUMO_20261014_1341.md",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1i-72bX6BZ1KE7G3wWa6Sxev-Gr-2AOX8",
+      "caminho": "esteira_cofen/DUPLICATAS_20261014_1341.csv",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "16EINv75PwcmxThdB_akdoUju5GkDBeoB",
+      "caminho": "esteira_cofen/CRUZAMENTO_ATOS_DRIVE_20261014_1341__16EINv75.csv",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1PcS2NSmNnzizDqFrbNCuWOrECsbF1e24",
+      "caminho": "esteira_cofen/INVENTARIO_DRIVE_20261014_1341.csv",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1HBS1XHh4gq0vjmJMTLEasA_0LPvaYvg-",
+      "caminho": "esteira_cofen/PASTAS_FORA_CONVENCAO_20261014_1341.csv",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "12RkEtoKdWLun7RGSpuTu-DaoxRhHbrTW",
+      "caminho": "esteira_cofen/ITENS_PUBLICOS_20261014_1341.csv",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1X9LFDknuW5rjH7p0-MgzL05sgaOTSw4i",
+      "caminho": "esteira_cofen/CRUZAMENTO_ATOS_DRIVE_20261014_1341__1X9LFDkn.csv",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1FTSS4azGv6PrvE9cMpwG_xcoVG05XFFW",
+      "caminho": "esteira_cofen/REGISTRO_AUTORIA_20261014_1332.csv",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1vEW4cdCq3yOHjGYW_vciIzoT5myifcDk",
+      "caminho": "esteira_cofen/PROPOSTA_EMENDA_AUTORIA_OBRIGATORIA.md",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1hRd13jkdfuvMr6r9Ofbt2sBCp-7BvF-i",
+      "caminho": "esteira_cofen/RESUMO_AUTORIA_20261014_1332.md",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "11LhsZRnI_L9jILumgw3ivMJmApLrhIK0",
+      "caminho": "esteira_cofen/INVENTARIO_DOWNLOADS_20261014_1310.csv",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1MoUZsQic_faKoflR84LzK42b9Sy_I8WB",
+      "caminho": "esteira_cofen/INVENTARIO_DOWNLOADS_20261014_1310_RESUMO.md",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1nwJcysG9sO5KxjKERfjhXTEgvmZzgd27",
+      "caminho": "esteira_cofen/MANIFESTO_BACKUP.json",
+      "classe": "DOCUMENTO"
+    }
+  ]
+}

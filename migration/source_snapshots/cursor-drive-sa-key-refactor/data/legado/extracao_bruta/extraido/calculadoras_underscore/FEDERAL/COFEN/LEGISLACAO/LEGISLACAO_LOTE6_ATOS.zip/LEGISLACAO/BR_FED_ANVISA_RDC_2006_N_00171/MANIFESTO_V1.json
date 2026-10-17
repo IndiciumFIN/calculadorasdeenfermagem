@@ -1,0 +1,54 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/rdc-171anvisa-2006-funcionamento-de-bancos-de-leite-humano-dou-no-171-terca-feira-5-de-setembro-de-2006/ (API WordPress post 51511); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "RDC_2006_N_00171_ATOMOS_V1.jsonl",
+      "sha256": "c010a801a0821fe0c70c1ad2ccdeb0dd79757d4461a580ad4c1249ca054ccd52",
+      "tamanho": 292608
+    },
+    {
+      "nome": "RDC_2006_N_00171_CONTEUDO_SITE_API.json",
+      "sha256": "842bc7111314d6c35a3498d839abef1d2dc31ee0c31fef07e8ec692737bbfb8b",
+      "tamanho": 565
+    },
+    {
+      "nome": "RDC_2006_N_00171_NORMA_V1.json",
+      "sha256": "e750546c8b3a55beb7ce801c6c770b8e595621862780cf0a6b660fb06806913d",
+      "tamanho": 13484
+    },
+    {
+      "nome": "RDC_2006_N_00171_PAGINA_SITE.html",
+      "sha256": "bd93459d575b883c3454371f0c014fde4e7d6e350741ca021c52ddc638961715",
+      "tamanho": 437404
+    },
+    {
+      "nome": "RDC_2006_N_00171_PDF_SITE.pdf",
+      "sha256": "26d1b34f0be786731fe8a0b6aaa7089be51ffdb00c1651389e69fd398c918f1d",
+      "tamanho": 190958
+    },
+    {
+      "nome": "RDC_2006_N_00171_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "0aa6ad4d2aa2bb8061ceb10ef2c161cc36792c0ed03a7337937b65acf041cee0",
+      "tamanho": 50299
+    },
+    {
+      "nome": "RDC_2006_N_00171_TEXTO_FONTE_V1.txt",
+      "sha256": "2b5da700f46a7594451c24969505ea9d05466b597c6c142fa3248ae34833a851",
+      "tamanho": 50362
+    },
+    {
+      "nome": "RDC_2006_N_00171_VALIDACAO_V1.json",
+      "sha256": "0b8bcf553fb46d9e7d3cff4f73fc61951714535fe40a7b8d67aba696c92dcb47",
+      "tamanho": 8418
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+    "Texto do ato disponível apenas no PDF (o site traz só título/resumo); atomização feita a partir da camada de texto do PDF.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir."
+  ]
+}

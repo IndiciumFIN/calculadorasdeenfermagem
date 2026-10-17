@@ -1,0 +1,51 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-1-2026-camaras-tecnicas-de-enfermagem/ (API WordPress post 182267); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2026_N_00001_CAMTEC_ATOMOS_V1.jsonl",
+      "sha256": "cd9ef865c18d0a359386a0772409cc8d45eeaca5c07204c8feb9d96024ae6432",
+      "tamanho": 70539
+    },
+    {
+      "nome": "PARCT_2026_N_00001_CAMTEC_CONTEUDO_SITE_API.json",
+      "sha256": "e3addb78b60c643f6589bfe81959bab48f88d2bed626ea99b4183b6b0adb78ab",
+      "tamanho": 19065
+    },
+    {
+      "nome": "PARCT_2026_N_00001_CAMTEC_NORMA_V1.json",
+      "sha256": "e1ddfa52fd83700b7e27804f8c4785a8839deede7efadd7d47452de98a690e30",
+      "tamanho": 9644
+    },
+    {
+      "nome": "PARCT_2026_N_00001_CAMTEC_PAGINA_SITE.html",
+      "sha256": "57bf9c00169ac9e73c643edf30036b23f864fa0625128c4092b8039a84039509",
+      "tamanho": 459420
+    },
+    {
+      "nome": "PARCT_2026_N_00001_CAMTEC_PDF_SITE.pdf",
+      "sha256": "c87b30e95478d9f8cc309ad03459786bdd00c00f1cbbccb91bea23ca62349903",
+      "tamanho": 244092
+    },
+    {
+      "nome": "PARCT_2026_N_00001_CAMTEC_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "bc76e687b721959d20042de6b5c1762b760a220c2186396833c90cfebd34e1ef",
+      "tamanho": 16059
+    },
+    {
+      "nome": "PARCT_2026_N_00001_CAMTEC_TEXTO_FONTE_V1.txt",
+      "sha256": "d7277a08f447c5be6738e8812a2ac933b78c45ca8b8231c35df73231ce944666",
+      "tamanho": 15427
+    },
+    {
+      "nome": "PARCT_2026_N_00001_CAMTEC_VALIDACAO_V1.json",
+      "sha256": "6764d1360dff14ab8e770f3d3a609061601ef0bf26ab5981177fa07bf7339a66",
+      "tamanho": 12701
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo."
+  ]
+}

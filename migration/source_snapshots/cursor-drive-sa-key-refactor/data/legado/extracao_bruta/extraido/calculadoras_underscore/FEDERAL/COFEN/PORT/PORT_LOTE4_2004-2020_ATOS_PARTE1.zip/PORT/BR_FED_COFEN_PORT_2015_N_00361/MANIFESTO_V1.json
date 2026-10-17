@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-361-de-27-de-marco-de-2015/ (API WordPress post 30449); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2015_N_00361_ATOMOS_V1.jsonl",
+      "sha256": "d02207174469a435792d40f3f6c8daa7a3397d8c9a963b8c59f3e229abc17a7e",
+      "tamanho": 6136
+    },
+    {
+      "nome": "PORT_2015_N_00361_CONTEUDO_SITE_API.json",
+      "sha256": "687787a6402d3204a64d9a7521f4bfc070df53a4d2370058b01c5860ff8d6c85",
+      "tamanho": 1490
+    },
+    {
+      "nome": "PORT_2015_N_00361_NORMA_V1.json",
+      "sha256": "9f4945b1405147887feae815ed4a0d7cd1b5dceef01be31620628067b1cfe85a",
+      "tamanho": 2743
+    },
+    {
+      "nome": "PORT_2015_N_00361_PAGINA_SITE.html",
+      "sha256": "983aa29f96f4ead76a0f3b026300ad741dbaf2c44349e519938e6c4fae348d4b",
+      "tamanho": 438759
+    },
+    {
+      "nome": "PORT_2015_N_00361_TEXTO_FONTE_V1.txt",
+      "sha256": "a9bcc853e92983e70148b682772cfe16dadd6c6cbeec360c61333e7029cde5a5",
+      "tamanho": 907
+    },
+    {
+      "nome": "PORT_2015_N_00361_VALIDACAO_V1.json",
+      "sha256": "c38e81a23675e2f24f952697cb9d5bb9ffddf396df46e569f0346d16baf4de62",
+      "tamanho": 2459
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

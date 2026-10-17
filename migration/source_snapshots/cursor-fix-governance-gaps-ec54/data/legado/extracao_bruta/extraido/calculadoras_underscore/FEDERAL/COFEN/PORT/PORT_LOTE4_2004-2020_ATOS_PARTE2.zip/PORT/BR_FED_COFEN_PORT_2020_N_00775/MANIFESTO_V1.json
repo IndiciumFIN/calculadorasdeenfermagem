@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-775-de-02-de-dezembro-de-2020/ (API WordPress post 83667); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2020_N_00775_ATOMOS_V1.jsonl",
+      "sha256": "667da1ee58296f31b522c5c165bc1a16c7d488de4001d308307420f376176b51",
+      "tamanho": 11214
+    },
+    {
+      "nome": "PORT_2020_N_00775_CONTEUDO_SITE_API.json",
+      "sha256": "7c2d69f2ee9db3d44942354bbfc4f7c3bb39139945715b687b1b8925cf0e043b",
+      "tamanho": 2342
+    },
+    {
+      "nome": "PORT_2020_N_00775_NORMA_V1.json",
+      "sha256": "a8c22280aff641d8f18669dd1e73acc589006b77dde2807939f3f7c6a8e1c27a",
+      "tamanho": 3463
+    },
+    {
+      "nome": "PORT_2020_N_00775_PAGINA_SITE.html",
+      "sha256": "2b8ee5e94743ac58393f721f43040d76b14b503cec380dcfd1e94787a28ce558",
+      "tamanho": 440601
+    },
+    {
+      "nome": "PORT_2020_N_00775_TEXTO_FONTE_V1.txt",
+      "sha256": "d4b0436d4e4a593ca1be304f2030bad183a72670998f9fa77f91c86b0e2526ac",
+      "tamanho": 1644
+    },
+    {
+      "nome": "PORT_2020_N_00775_VALIDACAO_V1.json",
+      "sha256": "9517815a0434875fae50d14eaffadb0352e66ff8b94995d80a65abbc33fba274",
+      "tamanho": 2461
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/ordem-de-servico-cofen-no-1-de-20-de-fevereiro-de-2026/ (API WordPress post 186090); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "OS_2026_N_00001_ANEXO_01_PDF_SITE.pdf",
+      "sha256": "10c60548e49d6b5df195e460b5f86e1ceff86ef81beb66df2b0cb456a8a1062c",
+      "tamanho": 560856
+    },
+    {
+      "nome": "OS_2026_N_00001_ANEXO_01_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "7579bc3d98017a7a0eed82a44b772e20209aa956eee935584ab4e2a92c241ee3",
+      "tamanho": 2432
+    },
+    {
+      "nome": "OS_2026_N_00001_ATOMOS_V1.jsonl",
+      "sha256": "79840a88988adaaba6d3a97c4dbb149b9917291bce298891ce1f42f6cfa8252c",
+      "tamanho": 88033
+    },
+    {
+      "nome": "OS_2026_N_00001_CONTEUDO_SITE_API.json",
+      "sha256": "bbc51d2348bc5031e371552a6d755acd6fe13596f3b0e5e30f8fa1a208881f95",
+      "tamanho": 15445
+    },
+    {
+      "nome": "OS_2026_N_00001_NORMA_V1.json",
+      "sha256": "984afa4f60e0118acff65961014db12ddf07c918ceb41d69033431cd6c4ed0a8",
+      "tamanho": 5008
+    },
+    {
+      "nome": "OS_2026_N_00001_PAGINA_SITE.html",
+      "sha256": "326227a3f96eea29e2539ebc75d90903fda64379b4ea75f7ef74fc95e75ea7b8",
+      "tamanho": 456005
+    },
+    {
+      "nome": "OS_2026_N_00001_PDF_SITE.pdf",
+      "sha256": "8e0787423976ac15fa2b56fdb1ec897ec3f79f8049b30e62e0ad504b30f5f9bb",
+      "tamanho": 194747
+    },
+    {
+      "nome": "OS_2026_N_00001_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "e38d467cce0d10b4c54626f80339f8b7e9e9c6e7df613f29743aff61eb2da2da",
+      "tamanho": 11523
+    },
+    {
+      "nome": "OS_2026_N_00001_TEXTO_FONTE_V1.txt",
+      "sha256": "46f5e146dec246a03f4caa8180cd78656f8c289a7c35e0e4faa2903d4805f846",
+      "tamanho": 9768
+    },
+    {
+      "nome": "OS_2026_N_00001_VALIDACAO_V1.json",
+      "sha256": "243e5be5b47830945f0431588aaf0e737ab4b127be73b8599a3f79def501a56e",
+      "tamanho": 15649
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada."
+  ]
+}

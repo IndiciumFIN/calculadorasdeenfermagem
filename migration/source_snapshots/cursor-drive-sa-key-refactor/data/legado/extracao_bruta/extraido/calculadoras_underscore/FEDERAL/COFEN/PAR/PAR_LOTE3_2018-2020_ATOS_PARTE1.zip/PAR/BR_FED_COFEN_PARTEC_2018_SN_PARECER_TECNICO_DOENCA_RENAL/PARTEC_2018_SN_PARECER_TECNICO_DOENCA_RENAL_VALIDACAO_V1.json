@@ -1,0 +1,436 @@
+{
+  "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL",
+  "resultado_processo": "PENDENTE",
+  "rotulo": "Pendente de verificação",
+  "controles": [
+    {
+      "nome": "Identificação do ato e emissor",
+      "resultado": "PASS_COM_RESSALVA",
+      "evidencia": "PARECER TÉCNICO S/N – DOENÇA RENAL CRÔNICA"
+    },
+    {
+      "nome": "Conferência site HTML × PDF oficial, dispositivo a dispositivo",
+      "resultado": "FAIL",
+      "status": "EXECUTADA_VIA_OCR",
+      "evidencia": {
+        "dispositivos_comparados": 53,
+        "por_resultado": {
+          "AUSENTE_NO_PDF": 1,
+          "DIVERGENTE": 2,
+          "EQUIVALENTE_OCR": 27,
+          "IDENTICO_NORMALIZADO": 23
+        },
+        "trechos_pdf_ausentes_no_site": 0,
+        "pdf": "PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_PDF_SITE.pdf"
+      }
+    },
+    {
+      "nome": "Publicação no DOU (registro, sem verificação online)",
+      "resultado": "NAO_CITADO",
+      "evidencia": null
+    },
+    {
+      "nome": "Anexos referenciados presentes e atomizados",
+      "resultado": "NAO_APLICAVEL",
+      "status": "SEM_ANEXO_REFERENCIADO",
+      "referencias": []
+    },
+    {
+      "nome": "Numeração contígua (seções, itens, alíneas)",
+      "resultado": "PASS",
+      "evidencia": null
+    },
+    {
+      "nome": "Conferência humana da literalidade",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Pesquisa de alterações posteriores",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Direitos autorais do texto do ato oficial",
+      "resultado": "PASS",
+      "fundamento": "Lei 9.610/1998, art. 8, IV"
+    }
+  ],
+  "fechamento": {
+    "apto": false,
+    "status": "PENDENCIAS",
+    "justificativa": "Aguardando revisão humana da atomização e pesquisa de atos posteriores. Há achados bloqueantes adicionais."
+  },
+  "achados": [
+    {
+      "codigo": "C001",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Atomização automática; requer conferência humana da segmentação e da literalidade."
+    },
+    {
+      "codigo": "C002",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada."
+    },
+    {
+      "codigo": "C011",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "3 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+      "evidencia": [
+        {
+          "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_PARAGRAFO_TEXTO_020",
+          "resultado": "DIVERGENTE",
+          "similaridade": 82.8,
+          "trecho": "Ainda de acordo com esta Resolução, 33% (trinta e três por cento) dos profissionais devem ser enfermeiros, chegando ao número de 25 (vinte e cinco) profissionai"
+        },
+        {
+          "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_PARAGRAFO_TEXTO_035",
+          "resultado": "DIVERGENTE",
+          "similaridade": 81.4,
+          "trecho": "De acordo com essa Resolução 33% (trinta e três por cento) dos profissionais devem ser enfermeiros, chegando ao número de 8 (oito) profissionais e 66% (sessenta"
+        },
+        {
+          "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_ASSINATURA_001",
+          "resultado": "AUSENTE_NO_PDF",
+          "similaridade": 59.1,
+          "trecho": "Dra. Edwa Maria Bucuvic / Enfa. Doutora, Mestre e Especialista em Nefrologia / Coren-SP 129184"
+        }
+      ]
+    },
+    {
+      "codigo": "C012",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+    },
+    {
+      "codigo": "C040",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "Ato sem número no site; identificador formado por slug."
+    }
+  ],
+  "conferencia_por_dispositivo": [
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_SECAO_001",
+      "tipo": "secao",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 72.5
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_IDENTIFICACAO_PROCESSO_001",
+      "tipo": "identificacao_processo",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 98.5
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_EPIGRAFE_001",
+      "tipo": "epigrafe",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_SECAO_002",
+      "tipo": "secao",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 91.7
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_PARAGRAFO_TEXTO_001",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 98.9
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_SECAO_003",
+      "tipo": "secao",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 91.7
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_PARAGRAFO_TEXTO_002",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 99.1
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_ART_001",
+      "tipo": "artigo",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 98.4
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_ARTIGO_TRANSCRITO_001",
+      "tipo": "artigo_transcrito",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_INCISO_001",
+      "tipo": "inciso",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 98.6
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_INCISO_002",
+      "tipo": "inciso",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 97.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_INCISO_003",
+      "tipo": "inciso",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 99.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_PARAGRAFO_TEXTO_004",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_PARAGRAFO_TEXTO_005",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_PARAGRAFO_TEXTO_006",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 99.5
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_PARAGRAFO_TEXTO_007",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 93.5
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_PARAGRAFO_TEXTO_008",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 86.9
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_SECAO_004",
+      "tipo": "secao",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 77.6
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_PARAGRAFO_TEXTO_009",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 96.6
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_PARAGRAFO_TEXTO_010",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 73.3
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_PARAGRAFO_TEXTO_011",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 94.1
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_PARAGRAFO_TEXTO_012",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_PARAGRAFO_TEXTO_013",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_PARAGRAFO_TEXTO_014",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_PARAGRAFO_TEXTO_015",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_PARAGRAFO_TEXTO_016",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 96.2
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_PARAGRAFO_TEXTO_017",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_PARAGRAFO_TEXTO_018",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_PARAGRAFO_TEXTO_019",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_PARAGRAFO_TEXTO_020",
+      "tipo": "paragrafo_texto",
+      "resultado": "DIVERGENTE",
+      "similaridade": 82.8
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_PARAGRAFO_TEXTO_021",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 91.8
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_PARAGRAFO_TEXTO_022",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 88.4
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_PARAGRAFO_TEXTO_023",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 95.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_SECAO_005",
+      "tipo": "secao",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 77.6
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_PARAGRAFO_TEXTO_024",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 96.6
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_PARAGRAFO_TEXTO_025",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 73.3
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_PARAGRAFO_TEXTO_026",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 94.1
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_PARAGRAFO_TEXTO_027",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_PARAGRAFO_TEXTO_028",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_PARAGRAFO_TEXTO_029",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_PARAGRAFO_TEXTO_030",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_PARAGRAFO_TEXTO_031",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 96.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_PARAGRAFO_TEXTO_032",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_PARAGRAFO_TEXTO_033",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_PARAGRAFO_TEXTO_034",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_PARAGRAFO_TEXTO_035",
+      "tipo": "paragrafo_texto",
+      "resultado": "DIVERGENTE",
+      "similaridade": 81.4
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_PARAGRAFO_TEXTO_036",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 92.6
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_PARAGRAFO_TEXTO_037",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_SECAO_006",
+      "tipo": "secao",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_PARAGRAFO_TEXTO_038",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_PARAGRAFO_TEXTO_039",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_LOCAL_DATA_001",
+      "tipo": "local_data",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARTEC_2018_SN_PARECER_TECNICO_DOENCA_RENAL_ASSINATURA_001",
+      "tipo": "assinatura",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 59.1
+    }
+  ],
+  "data_verificacao": "2026-10-10",
+  "responsavel": "Triagem automatizada - requer validação humana"
+}

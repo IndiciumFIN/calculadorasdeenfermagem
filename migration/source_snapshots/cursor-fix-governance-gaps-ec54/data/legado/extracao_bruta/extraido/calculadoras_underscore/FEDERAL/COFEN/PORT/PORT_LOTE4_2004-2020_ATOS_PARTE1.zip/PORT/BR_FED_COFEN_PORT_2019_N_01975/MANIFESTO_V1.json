@@ -1,0 +1,51 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-1975-de-20-de-dezembro-de-2019/ (API WordPress post 76631); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2019_N_01975_ATOMOS_V1.jsonl",
+      "sha256": "beae548cd46aec1e2c116f6e7cec364769ed8619286dce53a75a92fa483d65e0",
+      "tamanho": 10917
+    },
+    {
+      "nome": "PORT_2019_N_01975_CONTEUDO_SITE_API.json",
+      "sha256": "62d83e2b5e6b4bccd749285a599d19ebc76de896c06130c9cfbc745f339e24a7",
+      "tamanho": 2462
+    },
+    {
+      "nome": "PORT_2019_N_01975_NORMA_V1.json",
+      "sha256": "16f1390d7c10c84ed16fe371e5af8d9569315085d129810dcb6d617891b537d7",
+      "tamanho": 3321
+    },
+    {
+      "nome": "PORT_2019_N_01975_PAGINA_SITE.html",
+      "sha256": "34a630f117739fb4205d28f30c99e4f986edca47e05fd57f2883e5503aeab213",
+      "tamanho": 442387
+    },
+    {
+      "nome": "PORT_2019_N_01975_PDF_SITE.pdf",
+      "sha256": "50b09bc5b1fff799e8180d66667b3de4f0ff6d92bfd696affcb55b92f936cbce",
+      "tamanho": 78799
+    },
+    {
+      "nome": "PORT_2019_N_01975_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "ed06e79d7855a192a0c9d27e4541eb644184bedacb1c91f24d7d9c99dd2db1e8",
+      "tamanho": 1971
+    },
+    {
+      "nome": "PORT_2019_N_01975_TEXTO_FONTE_V1.txt",
+      "sha256": "a152b78f5739a15802066903fcba6db9679da85ca6061f42a995a1c4dbd828e1",
+      "tamanho": 1737
+    },
+    {
+      "nome": "PORT_2019_N_01975_VALIDACAO_V1.json",
+      "sha256": "fd1e4ac24d1416da8b63054cf9bbc8840e01928b28f892573c4406bef30fd93e",
+      "tamanho": 4652
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-da-assessoria-de-relacoes-institucionais-%e2%84%96-008-2021-ari-cofen/ (API WordPress post 99644); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARASS_2021_N_00008_ARI_P99644_ATOMOS_V1.jsonl",
+      "sha256": "b3033f5bad9871006b63b9c9665927e7faa7582d475f35d1e95e5624ddd7480b",
+      "tamanho": 21590
+    },
+    {
+      "nome": "PARASS_2021_N_00008_ARI_P99644_CONTEUDO_SITE_API.json",
+      "sha256": "6b47558cf35dd2f485329853b15f9981eca31283cf80dbbae8e456ab3c21cb78",
+      "tamanho": 5090
+    },
+    {
+      "nome": "PARASS_2021_N_00008_ARI_P99644_NORMA_V1.json",
+      "sha256": "c99dffd0cce748c3d0e082d70ccf2786ddb68810cea4275e2cfd16a8c0ede476",
+      "tamanho": 2224
+    },
+    {
+      "nome": "PARASS_2021_N_00008_ARI_P99644_PAGINA_SITE.html",
+      "sha256": "61b00c99b4db9cf0c6a46405e74e2b9d987aa28e64b1caad52941a68987caf90",
+      "tamanho": 443466
+    },
+    {
+      "nome": "PARASS_2021_N_00008_ARI_P99644_TEXTO_FONTE_V1.txt",
+      "sha256": "faf6e73db89c2badc75e44ef8f43724bccd90a1a0167c4e9bd08a2eb71585f57",
+      "tamanho": 3895
+    },
+    {
+      "nome": "PARASS_2021_N_00008_ARI_P99644_VALIDACAO_V1.json",
+      "sha256": "5515277d306d075846410497242ddbf2552120a48a4392a7060810f298411f77",
+      "tamanho": 2495
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

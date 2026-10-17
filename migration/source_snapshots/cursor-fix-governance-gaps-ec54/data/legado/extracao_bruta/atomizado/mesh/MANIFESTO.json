@@ -1,0 +1,93 @@
+{
+ "arquivos": [
+  {
+   "arquivo": "descritor_mesh.jsonl",
+   "atomos": 31110,
+   "bytes": 40798270,
+   "sha256": "606bb9d27e7ceb531b38a4507ba3fbe0ab1a89d803763e19abc92e393569acf4",
+   "tipo_entidade": "descritor_mesh"
+  }
+ ],
+ "atomos_por_tipo_entidade": {
+  "descritor_mesh": 31110
+ },
+ "conferencia_contagens": [
+  {
+   "arquivo_entrada": "mesh/mesh_descritores.csv",
+   "atomos": 31110,
+   "confere": true,
+   "explicacao": "",
+   "linhas_csv": 31110
+  },
+  {
+   "arquivo_entrada": "mesh/mesh_doencas_categoria_C.csv",
+   "atomos": 0,
+   "confere": false,
+   "explicacao": "Subconjunto de mesh_descritores (os 5069 descritores com árvore C = doenças, registros idênticos); já estão nos átomos 'descritor_mesh' (campo categorias contém C). Não gera átomos novos para não duplicar.",
+   "linhas_csv": 5069
+  }
+ ],
+ "entradas": [
+  {
+   "arquivo": "mesh/mesh_descritores.json",
+   "linhas_csv": 31110,
+   "registros_json": 31110,
+   "sha256_csv": "94c6e58a1cbee4d951f129d70f0a9764bf6011cb0c754ca42cfb8537035adab6",
+   "sha256_json": "93c876e1303005ac1829a7b0cd7078edb24c5181d6b47b7a9a3395789820a25a"
+  },
+  {
+   "arquivo": "mesh/mesh_doencas_categoria_C.json",
+   "linhas_csv": 5069,
+   "registros_json": 5069,
+   "sha256_csv": "81289a95f5a6abc713e531233b5ac534bfd5dde114984bc9c7a6771ed29b3f24",
+   "sha256_json": "3c0983fcb5858b583e65b2f08e41dca461d7d4e19a91225f561486b07897ed8d"
+  }
+ ],
+ "fontes": [
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "NLM - MeSH Descriptors 2026 (desc2026.gz)",
+   "fonte_url": "https://nlmpubs.nlm.nih.gov/projects/mesh/MESH_FILES/xmlmesh/desc2026.gz",
+   "fonte_versao": "MeSH 2026 (desc2026.gz baixado em 2026-10-10)"
+  }
+ ],
+ "regras": {
+  "atom_id": "<tema>:<codigo>; codigo = chave local, com prefixo de subfonte quando o tema tem mais de uma fonte",
+  "data_extracao": "fixa por fonte (2026-10-10), não é a data da execução",
+  "descricao_literal": "renderização literal 'campo: valor' de todos os registros de origem da entidade (nada resumido)",
+  "ordenacao": "um arquivo por tipo_entidade, linhas ordenadas por atom_id, partes <= 90.000.000 bytes",
+  "sha256_atomo": "SHA-256 do JSON canônico (sort_keys, ensure_ascii=False, separators=(',',':')) do átomo sem o campo sha256"
+ },
+ "sobreposicao_matriz": {
+  "conflitos_ou_ambiguidades": [],
+  "decisoes": [
+   "Matriz (TEMA|mesh, parcial): Calculadoras-de-Enfermagem só cita SRC-DECS (DeCS/BIREME, sem blocos úteis). DeCS (PT) x MeSH (EN) são vocabulários relacionados, não idênticos. Recomendação: canônica A para MeSH; DeCS complementar.",
+   "Sem mapeamento item a item (a matriz não lista descritores). referencias_cruzadas.medlineplus = atom_ids dos tópicos MedlinePlus que citam o descritor no próprio campo mesh (regra reversa determinística)."
+  ],
+  "linha_do_tema_literal": {
+   "a_existe": "sim",
+   "a_local": "extracao bruta Grok Bot Danadao/mesh https://drive.google.com/drive/folders/1JIhcSyNCqcIAuhozk7kK6l2qF1TVDJlz",
+   "calc_enf_existe": "parcial",
+   "calc_enf_local": "https://drive.google.com/drive/folders/1ykOJ14s_tzQHa6pqGH0uDA5z_Vht6OGW",
+   "calc_enf_status": "parcial: corpus v1.0.0 cita SRC-DECS (DeCS BIREME, sem blocos uteis)",
+   "chave": "TEMA|mesh",
+   "debby_existe": "nao",
+   "debby_local": "",
+   "debby_n_atomos": "",
+   "debby_status": "",
+   "descricao": "MeSH 31.110",
+   "diferencas": "DeCS (PT, BIREME) x MeSH (EN, NLM): vocabularios relacionados, nao identicos",
+   "recomendacao": "Canonica: A para MeSH; DeCS e complementar (traducao PT).",
+   "sobreposicao": "parcial",
+   "tipo_registro": "dados (A)"
+  },
+  "mapeamentos_itens_calculadoras_enfermagem": [],
+  "matriz_arquivo": "MATRIZ_CRUZAMENTO_NORMATIVOS_DADOS_2026-10-10.csv",
+  "matriz_drive_file_id": "1eJETouIY0YwoZ0qUg-ObYRmPLeKgcEy_",
+  "matriz_sha256": "72968b5dfb5a68b53df4ab8a9e9268b6d631de9c687629ef951527e0323548a2",
+  "regra": "Nenhum átomo foi removido por sobreposição (a matriz não manda remover átomos). Mapeamentos item a item só quando a linha da matriz cita literalmente o arquivo de origem do átomo (a_local) e, se a matriz traz prefixo de sha256, ele confere com o arquivo local; o resto fica registrado aqui no nível do tema. referencias_cruzadas mantém só as 4 chaves do spec (cid10, cid11, mesh, medlineplus)."
+ },
+ "tema": "mesh",
+ "total_atomos": 31110,
+ "versao_gerador": "atomizar.py 1.1.0"
+}

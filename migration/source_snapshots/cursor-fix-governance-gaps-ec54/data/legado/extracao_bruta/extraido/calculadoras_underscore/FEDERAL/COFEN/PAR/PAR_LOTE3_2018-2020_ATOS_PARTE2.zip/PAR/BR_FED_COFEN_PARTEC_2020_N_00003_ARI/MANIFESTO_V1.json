@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-tecnico-no-003-2020-ari-cofen/ (API WordPress post 86541); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARTEC_2020_N_00003_ARI_ATOMOS_V1.jsonl",
+      "sha256": "948d1f107c9411c17bedb43c7a8f868a18cfeca6ca0cdc7f905ff6e24e893a8b",
+      "tamanho": 38600
+    },
+    {
+      "nome": "PARTEC_2020_N_00003_ARI_CONTEUDO_SITE_API.json",
+      "sha256": "66719a0792dad383a530e5e1abcca333435d80dcfc1e5c399c3b1bf25398ca51",
+      "tamanho": 11666
+    },
+    {
+      "nome": "PARTEC_2020_N_00003_ARI_NORMA_V1.json",
+      "sha256": "ced89157d7fc0ff13d12fbb388c93dbdf5507cbfa99cc559d98fb4a147ba5d3f",
+      "tamanho": 3949
+    },
+    {
+      "nome": "PARTEC_2020_N_00003_ARI_PAGINA_SITE.html",
+      "sha256": "b2d1225262eb2b5d32582f1c9303115d052cc442cdf28acfa03039736007629b",
+      "tamanho": 448694
+    },
+    {
+      "nome": "PARTEC_2020_N_00003_ARI_TEXTO_FONTE_V1.txt",
+      "sha256": "0a7e1e2a9fbfb068f765d57b70266d669c1eee9adfd83a1028ab9b559efa8608",
+      "tamanho": 10224
+    },
+    {
+      "nome": "PARTEC_2020_N_00003_ARI_VALIDACAO_V1.json",
+      "sha256": "998e3cf779fd2a98b30468833b472ef3751e8a37882d052f0cf835bb8901149b",
+      "tamanho": 2807
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência."
+  ]
+}

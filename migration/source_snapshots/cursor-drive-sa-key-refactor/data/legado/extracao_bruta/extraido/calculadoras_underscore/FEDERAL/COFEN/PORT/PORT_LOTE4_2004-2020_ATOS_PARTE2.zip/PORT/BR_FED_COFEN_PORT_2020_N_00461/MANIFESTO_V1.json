@@ -1,0 +1,55 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-461-de-10-de-setembro-de-2020/ (API WordPress post 82142); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2020_N_00461_ATOMOS_V1.jsonl",
+      "sha256": "855bf7d4a14ffb9fd878a845f4c7b0b5b425135743f8ec0ca70564de44a6b332",
+      "tamanho": 214680
+    },
+    {
+      "nome": "PORT_2020_N_00461_CONTEUDO_SITE_API.json",
+      "sha256": "368fe28aae5248371411f9896aef6f559245e7c549d658cacce81d952b232e94",
+      "tamanho": 48245
+    },
+    {
+      "nome": "PORT_2020_N_00461_NORMA_V1.json",
+      "sha256": "5be7223cd46013609a93f90b1ffcd8c618dd09388fd246ccec86cb464878efc0",
+      "tamanho": 5296
+    },
+    {
+      "nome": "PORT_2020_N_00461_PAGINA_SITE.html",
+      "sha256": "c761fb0cda9825996a788942d6cb8746fc2cd56fef1e80a87f7b88bad06fa733",
+      "tamanho": 485401
+    },
+    {
+      "nome": "PORT_2020_N_00461_PDF_SITE.pdf",
+      "sha256": "f352914fdbad09034b7ecfe2bf0d0603787205976f34a1642b1901e4153765d2",
+      "tamanho": 6312665
+    },
+    {
+      "nome": "PORT_2020_N_00461_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "345b4497fdef6713873ed492de6445dbf7b50366fb5b4cf58614efa53134fcd4",
+      "tamanho": 13475
+    },
+    {
+      "nome": "PORT_2020_N_00461_TEXTO_FONTE_V1.txt",
+      "sha256": "e3c6ba39f8164d0a0e3e121b177f5f9abad3cfc6bf65ad5b6bb671cc2867faff",
+      "tamanho": 28948
+    },
+    {
+      "nome": "PORT_2020_N_00461_VALIDACAO_V1.json",
+      "sha256": "9463e1ab093a7b79c3d11f78f59d451aec01398a956cc03cb35e31179bc6d2cc",
+      "tamanho": 60974
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "88 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir.",
+    "Anexo presente mas sem conteúdo atomizado."
+  ]
+}

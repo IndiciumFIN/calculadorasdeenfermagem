@@ -1,0 +1,103 @@
+{
+  "id": "WO-2026_10_15_0064",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "task_id": "TAREFA-OBTER",
+  "task_version": "1.0.0",
+  "task_type": "obter",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "parametros": {
+    "lote": "raizes_autorizadas",
+    "listagem_dispositivos": "arquivos nao pasta fechados; pagina seguinte vazia",
+    "listagem_revisao": "raiz fechada; tabelas clinicas transcritas ficam de fora",
+    "listagem_atomizado": "somente os oito arquivos da raiz; filhos derivados ficam de fora"
+  },
+  "entradas": [
+    {
+      "id_origem": "19DcedcGg9SjBYX93peoPtHkg0ghgShCn",
+      "caminho": "dispositivos/fda_classificacao_dispositivos.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1WAtrnFgoKLyWtZEDq8AGFhkIEJZBxxnj",
+      "caminho": "dispositivos/anvisa_produtos_saude_registrados.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1Ol_LydTOEcSRMq383_EocGxnWoRF4oSt",
+      "caminho": "dispositivos/fda_classificacao_dispositivos.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "10iCL4OyCdG-iyoMbqMtCKnScPOuU2Hay",
+      "caminho": "atomizado/NOTA_CORRECAO_2026-10-10.md",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1YPgMKA8WMHPVu-QoSSnRrswM8cc3d9qJ",
+      "caminho": "atomizado/atomizar_v1.2.0.py",
+      "classe": "SCRIPT"
+    },
+    {
+      "id_origem": "1wmQ8iwPcEhvz7SUjKkMLF6xtdx1yUj5z",
+      "caminho": "atomizado/README_ATOMIZADO_v1.1.0.md",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1zWduqu8PlJckIGfJ0McmjQV_JnGkAVrF",
+      "caminho": "atomizado/verificar_v1.1.0.py",
+      "classe": "SCRIPT"
+    },
+    {
+      "id_origem": "1JO4UgXTWBXEFaQfayKs10DRuwUlMel4S",
+      "caminho": "atomizado/atomizar_v1.1.0.py",
+      "classe": "SCRIPT"
+    },
+    {
+      "id_origem": "1vHnIGyI_YKBN3YBF6tABYCoviAy7WuHc",
+      "caminho": "atomizado/README_ATOMIZADO.md",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1qOLwGOX2vgTZoh4s5-F8HWhLLUns0YD0",
+      "caminho": "atomizado/verificar.py",
+      "classe": "SCRIPT"
+    },
+    {
+      "id_origem": "1C1rxVw2j8gnTmT6utu8i8tYMJ35BHfLk",
+      "caminho": "atomizado/atomizar.py",
+      "classe": "SCRIPT"
+    },
+    {
+      "id_origem": "1omCfXJroBkbuz6MuwwgJx8emTstu4Z4S",
+      "caminho": "revisao/VERIFICAR_V2_2026-10-10_execucao2.txt",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1413pOdLB0lDcGO4PCbTLHwR4Rzq-1dgY",
+      "caminho": "revisao/README_REVISAO.md",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1lbkZGxCWt7OZ2ksAvwKO5NG-R_rmhPX7",
+      "caminho": "revisao/RECONFERENCIA_CORRECOES_2026-10-10.json",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1F0Aa383gXYukui-Uc0GeHHYtLtJAZmyn",
+      "caminho": "revisao/resumo.json",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1ynmJZz5tOyyBNxkkgs6QjlTdvH6sf9-h",
+      "caminho": "revisao/SHA256SUMS.txt",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1y6g6rSrhj7-GAEcFKv6yd23ZgjF5a_8R",
+      "caminho": "revisao/revisar.py",
+      "classe": "SCRIPT"
+    }
+  ]
+}

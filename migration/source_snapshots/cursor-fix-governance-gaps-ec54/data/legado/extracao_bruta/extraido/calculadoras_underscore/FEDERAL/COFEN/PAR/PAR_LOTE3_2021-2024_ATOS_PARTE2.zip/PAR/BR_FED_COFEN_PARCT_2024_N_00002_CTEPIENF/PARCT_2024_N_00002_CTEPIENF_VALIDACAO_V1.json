@@ -1,0 +1,355 @@
+{
+  "identificador": "BR_FED_COFEN_PARCT_2024_N_00002_CTEPIENF",
+  "resultado_processo": "PENDENTE",
+  "rotulo": "Pendente de verificação",
+  "controles": [
+    {
+      "nome": "Identificação do ato e emissor",
+      "resultado": "PASS",
+      "evidencia": "PARECER Nº 2/2024/COFEN/CAMTEC/CTEPIENF"
+    },
+    {
+      "nome": "Conferência site HTML × PDF oficial, dispositivo a dispositivo",
+      "resultado": "FAIL",
+      "status": "EXECUTADA_TEXTO_PDF",
+      "evidencia": {
+        "dispositivos_comparados": 31,
+        "por_resultado": {
+          "AUSENTE_NO_PDF": 1,
+          "DIFERENCA_MENOR": 5,
+          "DIVERGENTE": 8,
+          "EQUIVALENTE_ORDEM_OU_QUEBRA_DIFERENTE": 5,
+          "IDENTICO_NORMALIZADO": 12
+        },
+        "trechos_pdf_ausentes_no_site": 3,
+        "pdf": "PARCT_2024_N_00002_CTEPIENF_PDF_SITE.pdf"
+      }
+    },
+    {
+      "nome": "Publicação no DOU (registro, sem verificação online)",
+      "resultado": "NAO_CITADO",
+      "evidencia": null
+    },
+    {
+      "nome": "Anexos referenciados presentes e atomizados",
+      "resultado": "NAO_APLICAVEL",
+      "status": "SEM_ANEXO_REFERENCIADO",
+      "referencias": []
+    },
+    {
+      "nome": "Numeração contígua (seções, itens, alíneas)",
+      "resultado": "PASS",
+      "evidencia": null
+    },
+    {
+      "nome": "Conferência humana da literalidade",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Pesquisa de alterações posteriores",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Direitos autorais do texto do ato oficial",
+      "resultado": "PASS",
+      "fundamento": "Lei 9.610/1998, art. 8, IV"
+    }
+  ],
+  "fechamento": {
+    "apto": false,
+    "status": "PENDENCIAS",
+    "justificativa": "Aguardando revisão humana da atomização e pesquisa de atos posteriores. Há achados bloqueantes adicionais."
+  },
+  "achados": [
+    {
+      "codigo": "C001",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Atomização automática; requer conferência humana da segmentação e da literalidade."
+    },
+    {
+      "codigo": "C002",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada."
+    },
+    {
+      "codigo": "C011",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "9 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+      "evidencia": [
+        {
+          "identificador": "BR_FED_COFEN_PARCT_2024_N_00002_CTEPIENF_PARAGRAFO_TEXTO_003",
+          "resultado": "DIVERGENTE",
+          "similaridade": 84.1,
+          "trecho": "Trata o presente da apreciação da Câmara Técnica de Educação, Pesquisa e Inovação – CTEPi/Cofen da análise da solicitação do Presidente do Conselho Regional de "
+        },
+        {
+          "identificador": "BR_FED_COFEN_PARCT_2024_N_00002_CTEPIENF_PARAGRAFO_TEXTO_004",
+          "resultado": "DIVERGENTE",
+          "similaridade": 94.4,
+          "trecho": "Diante do exposto, com base no Processo SEI nº 00196.03444/2024-32, instada esta CTEPi/Cofen passa a se manifestar sobre a matéria, com base na análise que se s"
+        },
+        {
+          "identificador": "BR_FED_COFEN_PARCT_2024_N_00002_CTEPIENF_PARAGRAFO_TEXTO_006",
+          "resultado": "DIVERGENTE",
+          "similaridade": 86.3,
+          "trecho": "Consta nos autos deste processo a questão da possibilidade ou não do Coren-PE efetivar o registro da especialização em “Saúde Pública” emitido pela Faculdade Me"
+        },
+        {
+          "identificador": "BR_FED_COFEN_PARCT_2024_N_00002_CTEPIENF_PARAGRAFO_TEXTO_009",
+          "resultado": "DIVERGENTE",
+          "similaridade": 84.6,
+          "trecho": "PARECER CNE/CES Nº: 96/2007 afirma que: “A colação de grau é um ato formal, cuja programação pela Instituição leva em conta interesses de natureza não acadêmica"
+        },
+        {
+          "identificador": "BR_FED_COFEN_PARCT_2024_N_00002_CTEPIENF_PARAGRAFO_TEXTO_010",
+          "resultado": "DIVERGENTE",
+          "similaridade": 86.7,
+          "trecho": "Quanto ao mérito, a CTEPi compreende que o profissional requerente preenche os requisitos da Resolução Cofen nº 581/2018 considerando que apresentou a documenta"
+        },
+        {
+          "identificador": "BR_FED_COFEN_PARCT_2024_N_00002_CTEPIENF_PARAGRAFO_TEXTO_012",
+          "resultado": "DIVERGENTE",
+          "similaridade": 84.5,
+          "trecho": "Considerando a Resolução Cofen nº 581/2018 que trata dos procedimentos para Registro de Títulos de Pós – Graduação Lato e Stricto Sensu concedido a Enfermeiros "
+        },
+        {
+          "identificador": "BR_FED_COFEN_PARCT_2024_N_00002_CTEPIENF_PARAGRAFO_TEXTO_013",
+          "resultado": "DIVERGENTE",
+          "similaridade": 88.1,
+          "trecho": "Considerando que compete ao Cofen manter atualizado o registro cadastral de seus profissionais inscritos, e que tais assentamentos devem retratar o perfil da po"
+        },
+        {
+          "identificador": "BR_FED_COFEN_PARCT_2024_N_00002_CTEPIENF_PARAGRAFO_TEXTO_014",
+          "resultado": "DIVERGENTE",
+          "similaridade": 86.7,
+          "trecho": "Sugere esta Câmara Técnica ao Egrégio Plenário do Conselho Federal de Enfermagem, que neste caso, dê apreciação favorável ao registro do requerimento do profiss"
+        },
+        {
+          "identificador": "BR_FED_COFEN_PARCT_2024_N_00002_CTEPIENF_REFERENCIA_008",
+          "resultado": "AUSENTE_NO_PDF",
+          "similaridade": 63.8,
+          "trecho": "Parecer da Câmara Técnica de Educação, Pesquisa e Inovação em Enfermagem – CTEPIENF/Cofen, aprovado na 571ª Reunião Ordinária de Plenário (ROP) em 21 de novembr"
+        }
+      ]
+    },
+    {
+      "codigo": "C014",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "3 trecho(s) do PDF sem correspondente no texto do site.",
+      "evidencia": [
+        {
+          "trecho_pdf": "Para fundamentar a análise do que fora requerido a esta CTEPi/Cofen, buscou-se sustentação na norma jurídica, notadamente, na Lei do Exercício 7.498 de 1986 e na Lei nº 9.394 de 20 de dezembro de 1996 que estabelece as Diretrizes e Bases da Educação Nacional (LDBE), bem como nas bases legais relacio",
+          "similaridade": 88.4,
+          "cobertura_vocabulario": 0.969,
+          "arquivo": "PARCT_2024_N_00002_CTEPIENF_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Consta nos autos deste processo a questão da possibilidade ou não do Coren-PE efetivar o registro da especialização em “Saúde Pública” emitido p São Paulo- FAMESP, tendo em vista que a especialização ocorreu no período de 28 de janeiro de 2022 a 12 de agosto de 2022 e o profissional requerente havia",
+          "similaridade": 87.1,
+          "cobertura_vocabulario": 0.953,
+          "arquivo": "PARCT_2024_N_00002_CTEPIENF_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Considerando que compete ao Cofen manter atualizado o registro cadastral de seus profissionais inscritos, e que tais assentamentos deve de Enfermeiros a fim de estabelecer políticas de qualificação para o exercício profissional (Cofen, 2018).",
+          "similaridade": 86.5,
+          "cobertura_vocabulario": 0.955,
+          "arquivo": "PARCT_2024_N_00002_CTEPIENF_PDF_SITE.pdf"
+        }
+      ]
+    }
+  ],
+  "conferencia_por_dispositivo": [
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00002_CTEPIENF_EPIGRAFE_001",
+      "tipo": "epigrafe",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00002_CTEPIENF_IDENTIFICACAO_PROCESSO_001",
+      "tipo": "identificacao_processo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00002_CTEPIENF_PARAGRAFO_TEXTO_001",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00002_CTEPIENF_PARAGRAFO_TEXTO_002",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00002_CTEPIENF_SECAO_001",
+      "tipo": "secao",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00002_CTEPIENF_PARAGRAFO_TEXTO_003",
+      "tipo": "paragrafo_texto",
+      "resultado": "DIVERGENTE",
+      "similaridade": 84.1
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00002_CTEPIENF_PARAGRAFO_TEXTO_004",
+      "tipo": "paragrafo_texto",
+      "resultado": "DIVERGENTE",
+      "similaridade": 94.4
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00002_CTEPIENF_SECAO_002",
+      "tipo": "secao",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00002_CTEPIENF_PARAGRAFO_TEXTO_005",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_ORDEM_OU_QUEBRA_DIFERENTE",
+      "similaridade": 85.4
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00002_CTEPIENF_PARAGRAFO_TEXTO_006",
+      "tipo": "paragrafo_texto",
+      "resultado": "DIVERGENTE",
+      "similaridade": 86.3
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00002_CTEPIENF_PARAGRAFO_TEXTO_007",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_ORDEM_OU_QUEBRA_DIFERENTE",
+      "similaridade": 86.3
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00002_CTEPIENF_PARAGRAFO_TEXTO_008",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_ORDEM_OU_QUEBRA_DIFERENTE",
+      "similaridade": 88.5
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00002_CTEPIENF_PARAGRAFO_TEXTO_009",
+      "tipo": "paragrafo_texto",
+      "resultado": "DIVERGENTE",
+      "similaridade": 84.6
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00002_CTEPIENF_PARAGRAFO_TEXTO_010",
+      "tipo": "paragrafo_texto",
+      "resultado": "DIVERGENTE",
+      "similaridade": 86.7
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00002_CTEPIENF_SECAO_003",
+      "tipo": "secao",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00002_CTEPIENF_PARAGRAFO_TEXTO_011",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00002_CTEPIENF_PARAGRAFO_TEXTO_012",
+      "tipo": "paragrafo_texto",
+      "resultado": "DIVERGENTE",
+      "similaridade": 84.5
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00002_CTEPIENF_PARAGRAFO_TEXTO_013",
+      "tipo": "paragrafo_texto",
+      "resultado": "DIVERGENTE",
+      "similaridade": 88.1
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00002_CTEPIENF_PARAGRAFO_TEXTO_014",
+      "tipo": "paragrafo_texto",
+      "resultado": "DIVERGENTE",
+      "similaridade": 86.7
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00002_CTEPIENF_PARAGRAFO_TEXTO_015",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00002_CTEPIENF_PARAGRAFO_TEXTO_016",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_ORDEM_OU_QUEBRA_DIFERENTE",
+      "similaridade": 86.3
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00002_CTEPIENF_LOCAL_DATA_001",
+      "tipo": "local_data",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00002_CTEPIENF_SECAO_004",
+      "tipo": "secao",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00002_CTEPIENF_REFERENCIA_001",
+      "tipo": "referencia",
+      "resultado": "EQUIVALENTE_ORDEM_OU_QUEBRA_DIFERENTE",
+      "similaridade": 89.3
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00002_CTEPIENF_REFERENCIA_002",
+      "tipo": "referencia",
+      "resultado": "DIFERENCA_MENOR",
+      "similaridade": 98.1
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00002_CTEPIENF_REFERENCIA_003",
+      "tipo": "referencia",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00002_CTEPIENF_REFERENCIA_004",
+      "tipo": "referencia",
+      "resultado": "DIFERENCA_MENOR",
+      "similaridade": 99.2
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00002_CTEPIENF_REFERENCIA_005",
+      "tipo": "referencia",
+      "resultado": "DIFERENCA_MENOR",
+      "similaridade": 98.4
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00002_CTEPIENF_REFERENCIA_006",
+      "tipo": "referencia",
+      "resultado": "DIFERENCA_MENOR",
+      "similaridade": 98.5
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00002_CTEPIENF_REFERENCIA_007",
+      "tipo": "referencia",
+      "resultado": "DIFERENCA_MENOR",
+      "similaridade": 98.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00002_CTEPIENF_REFERENCIA_008",
+      "tipo": "referencia",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 63.8
+    }
+  ],
+  "data_verificacao": "2026-10-10",
+  "responsavel": "Triagem automatizada - requer validação humana"
+}

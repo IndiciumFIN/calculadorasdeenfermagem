@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/despacho-asslegis-cofen-no-015-2018/ (API WordPress post 63483); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "DESP_2018_N_00015_ANEXO_01_PDF_SITE.pdf",
+      "sha256": "c0ab1f36750e8d30421034a3fad1f4a9da41cbd00bcbf32a165ad0ac6835d425",
+      "tamanho": 1960619
+    },
+    {
+      "nome": "DESP_2018_N_00015_ANEXO_01_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "2fb8cc6172e14db78d727fd6e9ae646964de6f506a56e9fec5495af25f03513d",
+      "tamanho": 7305
+    },
+    {
+      "nome": "DESP_2018_N_00015_ATOMOS_V1.jsonl",
+      "sha256": "b62212f9893a45620827adf0f3e1da1059d1e96ebd64370b9f3d49ee8bc87675",
+      "tamanho": 25425
+    },
+    {
+      "nome": "DESP_2018_N_00015_CONTEUDO_SITE_API.json",
+      "sha256": "879320da42b68218153706e87dd52fc89170198180298ab29c32a7d226eff5d1",
+      "tamanho": 17945
+    },
+    {
+      "nome": "DESP_2018_N_00015_NORMA_V1.json",
+      "sha256": "d1562c21a85c22698dd7ffc8a8382a432a3420dd7221bf1137b4507b73e6a63f",
+      "tamanho": 5185
+    },
+    {
+      "nome": "DESP_2018_N_00015_PAGINA_SITE.html",
+      "sha256": "6881c81bf55e4909fccc6adb6d950a4dd931aea62288c25a2b59bee9fbf96e59",
+      "tamanho": 455241
+    },
+    {
+      "nome": "DESP_2018_N_00015_TEXTO_FONTE_V1.txt",
+      "sha256": "10e9296c206a4ffb9dd79338c71c734a4020b3ea7cff8318e8460d2999244587",
+      "tamanho": 6766
+    },
+    {
+      "nome": "DESP_2018_N_00015_VALIDACAO_V1.json",
+      "sha256": "37da074dcef60faf020d326a9b7ee9722dd9692a8a4f27cc9f4ca925fbb3b51b",
+      "tamanho": 2767
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Anexo em PDF com conteúdo já presente no texto do site (atomizado a partir do site); PDF usado só na conferência."
+  ]
+}

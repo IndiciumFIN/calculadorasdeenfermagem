@@ -1,0 +1,43 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-529ms-2013-programa-nacional-de-seguranca-do-paciente-dou-no-62-terca-feira-2-de-abril-de-2013/ (API WordPress post 51477); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2013_N_00529_ATOMOS_V1.jsonl",
+      "sha256": "a5434d42e142329a1d6c40a16e6a586ece9bc994c230d71284375880c771f611",
+      "tamanho": 676
+    },
+    {
+      "nome": "PORT_2013_N_00529_CONTEUDO_SITE_API.json",
+      "sha256": "ea39d31ed4f342eec3dba500d76af6855382831ab21c2ab8d9b9698b1c68fda8",
+      "tamanho": 424
+    },
+    {
+      "nome": "PORT_2013_N_00529_NORMA_V1.json",
+      "sha256": "52bd65e03bac4fb71c7b0dfd77c8756aed87b867965106e0cf4b0a46c1484566",
+      "tamanho": 1999
+    },
+    {
+      "nome": "PORT_2013_N_00529_PAGINA_SITE.html",
+      "sha256": "f7605bafc6993b608b9ecc0be2dd5ee299b0a17104d7bd7572e0322869762914",
+      "tamanho": 436830
+    },
+    {
+      "nome": "PORT_2013_N_00529_TEXTO_FONTE_V1.txt",
+      "sha256": "e1054e46220de4c3476caae036b63e9706974a35f33dc2b6e4a8eb3cab175790",
+      "tamanho": 78
+    },
+    {
+      "nome": "PORT_2013_N_00529_VALIDACAO_V1.json",
+      "sha256": "c8599e4f2a3b994066c15986a52b04bc482bc02ef83f64a7c804382e11cdfda0",
+      "tamanho": 2918
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Página do site quase sem texto (0 caracteres) e sem PDF do ato; conteúdo do ato não disponível.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

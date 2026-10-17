@@ -1,0 +1,53 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-n-042017cofenctas/ (API WordPress post 50448); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2017_N_00004_CTAS_ATOMOS_V1.jsonl",
+      "sha256": "8b00f62567ca4df998b05a5eefcdca756b90494909525f7101fa9eadd4088041",
+      "tamanho": 27183
+    },
+    {
+      "nome": "PARCT_2017_N_00004_CTAS_CONTEUDO_SITE_API.json",
+      "sha256": "d148aeaffa60655ed45be6a774784b3d220a6fae2e90f817e299f3ca52e66445",
+      "tamanho": 6379
+    },
+    {
+      "nome": "PARCT_2017_N_00004_CTAS_NORMA_V1.json",
+      "sha256": "73164adee38e24f1d65f44b676ed04d88d5ba98cf28cab3c8986ddbc17ddb569",
+      "tamanho": 4204
+    },
+    {
+      "nome": "PARCT_2017_N_00004_CTAS_PAGINA_SITE.html",
+      "sha256": "88d7af05aba9789da22fd644c1abc70e4b1c502cf070554d3a794d51cb02138d",
+      "tamanho": 444883
+    },
+    {
+      "nome": "PARCT_2017_N_00004_CTAS_PDF_SITE.pdf",
+      "sha256": "d9afa10a59d3c70fe48ba40780d6227a3a859a88cacc68204448f4854a4c4eb9",
+      "tamanho": 1523232
+    },
+    {
+      "nome": "PARCT_2017_N_00004_CTAS_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "5855cf82e8a0ee75a9919b9f4048d4765027ccd373a3b6cff8b800014a04a712",
+      "tamanho": 7050
+    },
+    {
+      "nome": "PARCT_2017_N_00004_CTAS_TEXTO_FONTE_V1.txt",
+      "sha256": "5361e14b59f88153670361e358129b6cd4763789682e536cca72ba597b6f352d",
+      "tamanho": 5529
+    },
+    {
+      "nome": "PARCT_2017_N_00004_CTAS_VALIDACAO_V1.json",
+      "sha256": "1dfd52fc017c3c578cb6b2cc770bd62fb8c2587b01aca33984b67108df2aa271",
+      "tamanho": 8403
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 trecho(s) do PDF sem correspondente no texto do site.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência."
+  ]
+}

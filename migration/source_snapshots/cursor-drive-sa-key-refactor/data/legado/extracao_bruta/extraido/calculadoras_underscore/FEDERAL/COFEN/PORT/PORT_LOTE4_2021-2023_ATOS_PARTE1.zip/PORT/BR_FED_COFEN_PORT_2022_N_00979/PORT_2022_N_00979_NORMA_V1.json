@@ -1,0 +1,136 @@
+{
+  "identificador": "BR_FED_COFEN_PORT_2022_N_00979",
+  "tipo": "Portaria",
+  "codigo_tipo": "PORT",
+  "categoria_site": "Portarias",
+  "numero": 979,
+  "numero_original": "PORTARIA COFEN Nº 979 DE 5 DE JULHO DE 2022",
+  "ano": 2022,
+  "emissor": "Conselho Federal de Enfermagem",
+  "unidade_emissora": "Presidência",
+  "data_ato": "2022-07-05",
+  "data_ato_fonte": "Brasília, 5 de julho de 2022",
+  "ementa": "O Vice-Presidente do Conselho Federal de Enfermagem – Cofen, no uso de suas atribuições legais e regimentais conferidas na Lei nº 5.905, de 12 de julho de 1973, bem como pelo Regimento Interno da Autarquia, aprovado pela Resolução Cofen nº 421, de 15 de fevereiro de 2012;",
+  "titulo_site": "PORTARIA COFEN Nº 979 DE 5 DE JULHO DE 2022",
+  "publicacao": {
+    "veiculo": "Portal do Cofen (cofen.gov.br)",
+    "url": "https://www.cofen.gov.br/portaria-cofen-no-979-de-5-de-julho-de-2022/",
+    "wp_post_id": 101588,
+    "data_publicacao_site": "2022-08-16",
+    "data_modificacao_site": "2022-08-16",
+    "pdfs": [
+      {
+        "url": "https://www.cofen.gov.br/wp-content/uploads/2022/08/PORT.-0979-2022.pdf",
+        "rotulo_site": "Portaria Cofen nº 979-2022",
+        "origem_link": "bloco_anexos_pagina",
+        "arquivo": "PORT_2022_N_00979_PDF_SITE.pdf",
+        "papel": "PRINCIPAL",
+        "ocr": true,
+        "paginas": 1,
+        "arquivo_texto": "PORT_2022_N_00979_PDF_SITE_TEXTO_OCR_V1.txt",
+        "pagina_dou": false
+      },
+      {
+        "url": "https://www.cofen.gov.br/wp-content/uploads/2022/08/Portaria-Cofen-no-979-2022.pdf",
+        "rotulo_site": "Portaria Cofen nº 979-2022 - Publicação no DOU",
+        "origem_link": "bloco_anexos_pagina",
+        "arquivo": "PORT_2022_N_00979_ANEXO_01_PDF_SITE.pdf",
+        "papel": "ANEXO",
+        "ocr": false,
+        "paginas": 1,
+        "arquivo_texto": "PORT_2022_N_00979_ANEXO_01_PDF_SITE_TEXTO_V1.txt",
+        "pagina_dou": true,
+        "cobertura_no_texto_do_site": 0.576,
+        "tratamento": "ATOMIZADO_A_PARTIR_DO_PDF"
+      }
+    ],
+    "sei": {
+      "documento_sei": null,
+      "codigo_verificador": null,
+      "codigo_crc": null,
+      "assinaturas_eletronicas": []
+    },
+    "dou": {
+      "citado_no_texto": true,
+      "trechos": [
+        "Administrativo nº 2882/2022 deste Tribunal e a publicação da PORTARIA GP nº 600, de 06/07/2022 - TRT da 14ª Região, no Diário Oficial da União de 07 de julho de 2022, em cumprimento ao acórdão proferido nos autos do Processo nº CSJT-PP-3651-78.2021.5.90.0000, qu"
+      ],
+      "registros_de_publicacao": [],
+      "codigos_autenticidade": [
+        "05292022071100080"
+      ],
+      "verificado_online_in_gov_br": false,
+      "observacao": "Menções ao DOU registradas a partir do texto; nenhuma consulta ao in.gov.br foi feita neste lote.",
+      "fac_simile_dou_no_site": [
+        {
+          "arquivo": "PORT_2022_N_00979_ANEXO_01_PDF_SITE.pdf",
+          "edicao": "129",
+          "data": "2022-07-11",
+          "pagina": null,
+          "secao": "Seção 2",
+          "observacao": "PDF publicado no site do Cofen é fac-símile de página do DOU (contém outros atos). Dados extraídos do cabeçalho do PDF; não houve consulta ao in.gov.br."
+        }
+      ]
+    }
+  },
+  "vigencia": {
+    "clausula": "2º Esta Portaria entra em vigor na data de sua assinatura.",
+    "situacao": "NAO_VERIFICADA_ATOS_POSTERIORES"
+  },
+  "normas_relacionadas": [
+    {
+      "ato": "Lei 5.905/1973",
+      "relacao": "CITADA",
+      "verificacao": "EXTRAIDO_AUTOMATICO_DO_TEXTO",
+      "contexto": "nselho Federal de Enfermagem – Cofen, no uso de suas atribuições legais e regimentais conferidas na Lei nº 5.905, de 12 de julho de 1973, bem como pelo Regimento Interno da Autarquia, aprovado pel"
+    },
+    {
+      "ato": "Resolução Cofen 421/2012",
+      "relacao": "CITADA",
+      "verificacao": "EXTRAIDO_AUTOMATICO_DO_TEXTO",
+      "contexto": "a Lei nº 5.905, de 12 de julho de 1973, bem como pelo Regimento Interno da Autarquia, aprovado pela Resolução Cofen nº 421, de 15 de fevereiro de 2012; CONSIDERANDO os termos da Decisão Cofen nº 072/2021; CONSI"
+    },
+    {
+      "ato": "Decisão Cofen 072/2021",
+      "relacao": "ALTERACAO_MENCIONADA",
+      "verificacao": "EXTRAIDO_AUTOMATICO_DO_TEXTO",
+      "contexto": "arquia, aprovado pela Resolução Cofen nº 421, de 15 de fevereiro de 2012; CONSIDERANDO os termos da Decisão Cofen nº 072/2021; CONSIDERANDO a Resolução Cofen nº 698/2022, que altera e a"
+    },
+    {
+      "ato": "Resolução Cofen 698/2022",
+      "relacao": "ALTERACAO_MENCIONADA",
+      "verificacao": "EXTRAIDO_AUTOMATICO_DO_TEXTO",
+      "contexto": "21, de 15 de fevereiro de 2012; CONSIDERANDO os termos da Decisão Cofen nº 072/2021; CONSIDERANDO a Resolução Cofen nº 698/2022, que altera e atualiza o Organograma e o Caderno de Atribui"
+    }
+  ],
+  "assinaturas": [
+    "ANTÔNIO MARCOS F. GOMES / COREN-PA Nº 56302 / Vice-Presidente"
+  ],
+  "licenca_uso": {
+    "fundamento": "Lei 9.610/1998, art. 8, IV",
+    "texto_ato_oficial": "NAO_PROTEGIDO_POR_DIREITOS_AUTORAIS",
+    "uso_texto_normativo": "ELEGIVEL_PARA_REPRODUCAO_COM_PROVENIENCIA",
+    "materiais_terceiros": "ANALISE_ESPECIFICA_SE_HOUVER"
+  },
+  "contagem_dispositivos": {
+    "epigrafe": 9,
+    "ementa": 1,
+    "considerando": 16,
+    "artigo": 3,
+    "local_data": 1,
+    "assinatura": 1,
+    "anexo": 1,
+    "paragrafo_texto": 27,
+    "secao": 13,
+    "artigo_transcrito": 14
+  },
+  "anexos": {
+    "referencias_no_texto": [],
+    "resultado": "PRESENTE_E_ATOMIZADO",
+    "anexos_no_texto": [
+      "BR_FED_COFEN_PORT_2022_N_00979_ANEXO_PDF_01"
+    ]
+  },
+  "observacoes": [],
+  "situacao": "ATOMIZADO_PENDENTE_REVISAO"
+}

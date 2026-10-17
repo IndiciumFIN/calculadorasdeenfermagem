@@ -1,0 +1,160 @@
+{
+ "arquivos": [
+  {
+   "arquivo": "capitulo.jsonl",
+   "atomos": 22,
+   "bytes": 17713,
+   "sha256": "da3a540d800207f394fc5f119c08a164ea5f4dc0453986fac835e66671455fdf",
+   "tipo_entidade": "capitulo"
+  },
+  {
+   "arquivo": "categoria.jsonl",
+   "atomos": 2045,
+   "bytes": 1740799,
+   "sha256": "ee61d4260657965067cf1569b54a15b30824d23df8475fbaf270365fbd04de10",
+   "tipo_entidade": "categoria"
+  },
+  {
+   "arquivo": "cido_categoria.jsonl",
+   "atomos": 816,
+   "bytes": 510820,
+   "sha256": "a23603ea207ffaea4064853ea4285516be30aacab4889d7da4809856c7da2b49",
+   "tipo_entidade": "cido_categoria"
+  },
+  {
+   "arquivo": "cido_grupo.jsonl",
+   "atomos": 61,
+   "bytes": 39637,
+   "sha256": "f868f3a6a7fd1acfee9eb44887a21a28a8d9ab832cc4fe523988fac1ecc0094f",
+   "tipo_entidade": "cido_grupo"
+  },
+  {
+   "arquivo": "grupo.jsonl",
+   "atomos": 275,
+   "bytes": 206425,
+   "sha256": "4992ca890a72b68842406c8f9c2bf655eec7b693afce7a4820558e43cafc7116",
+   "tipo_entidade": "grupo"
+  },
+  {
+   "arquivo": "subcategoria.jsonl",
+   "atomos": 12188,
+   "bytes": 12598690,
+   "sha256": "e6e214bb0753a14143045eef6f738a7e7ee2be542f2ca38f37636715c33c6cb9",
+   "tipo_entidade": "subcategoria"
+  }
+ ],
+ "atomos_por_tipo_entidade": {
+  "capitulo": 22,
+  "categoria": 2045,
+  "cido_categoria": 816,
+  "cido_grupo": 61,
+  "grupo": 275,
+  "subcategoria": 12188
+ },
+ "conferencia_contagens": [
+  {
+   "arquivo_entrada": "cid10/capitulos.csv",
+   "atomos": 22,
+   "confere": true,
+   "explicacao": "",
+   "linhas_csv": 22
+  },
+  {
+   "arquivo_entrada": "cid10/grupos.csv",
+   "atomos": 275,
+   "confere": true,
+   "explicacao": "",
+   "linhas_csv": 275
+  },
+  {
+   "arquivo_entrada": "cid10/categorias.csv",
+   "atomos": 2045,
+   "confere": true,
+   "explicacao": "",
+   "linhas_csv": 2045
+  },
+  {
+   "arquivo_entrada": "cid10/subcategorias.csv",
+   "atomos": 12188,
+   "confere": false,
+   "explicacao": "263 linhas do arquivo de subcategorias do DATASUS são categorias sem subdivisão (código de 3 caracteres, ex.: A09), idênticas à categoria; foram anexadas ao átomo 'categoria' correspondente (seção '## subcategorias' em descricao_literal) em vez de gerar átomo duplicado.",
+   "linhas_csv": 12451
+  },
+  {
+   "arquivo_entrada": "cid10/cid_o_categorias.csv",
+   "atomos": 816,
+   "confere": true,
+   "explicacao": "",
+   "linhas_csv": 816
+  },
+  {
+   "arquivo_entrada": "cid10/cid_o_grupos.csv",
+   "atomos": 61,
+   "confere": false,
+   "explicacao": "Na fonte, as faixas M959-M959 e M980-M980 aparecem duas vezes cada, com descrições diferentes; cada faixa virou 1 átomo (título = 1ª descrição na ordem da fonte, a outra em sinonimos, os dois registros em descricao_literal).",
+   "linhas_csv": 63
+  }
+ ],
+ "entradas": [
+  {
+   "arquivo": "cid10/capitulos.json",
+   "linhas_csv": 22,
+   "registros_json": 22,
+   "sha256_csv": "f762f7b72d16cad535b6765d7f4b4e72fb96691f1052cbffa2e1bfb6ed9b195a",
+   "sha256_json": "a096dc297a77f9b24a6150f907648c2473b499b2576d2b10d7ed7408426542f2"
+  },
+  {
+   "arquivo": "cid10/grupos.json",
+   "linhas_csv": 275,
+   "registros_json": 275,
+   "sha256_csv": "471883b9fc85e8dc9c98a051236a7a39626d440244bcf90fffc5aaec0a5760b4",
+   "sha256_json": "fc007406c8ffc12bcaa9f26412ef3b436dc13fd7420478b5565007c63919bb47"
+  },
+  {
+   "arquivo": "cid10/categorias.json",
+   "linhas_csv": 2045,
+   "registros_json": 2045,
+   "sha256_csv": "e11584b518dc13e64b78d7949f4b43055b1203f367f3b1613fccb27a3fb52712",
+   "sha256_json": "b75cfea362f1a61d126f133e5e9bee134e5ad2d6292a273e0c60c2ef1e90b71a"
+  },
+  {
+   "arquivo": "cid10/subcategorias.json",
+   "linhas_csv": 12451,
+   "registros_json": 12451,
+   "sha256_csv": "873d844abb2fe35cfbbc61de6579eaa2b7cab4524e6649b53e557359a8505055",
+   "sha256_json": "21c599f9a93a68345e9e2a82133cadba71b8ea76dfd13a4a2de35d159aaf0afc"
+  },
+  {
+   "arquivo": "cid10/cid_o_categorias.json",
+   "linhas_csv": 816,
+   "registros_json": 816,
+   "sha256_csv": "69fc782c257746da2c770cc269babb05dbcfbb3c209d7f9706652c8c1f1dfb0a",
+   "sha256_json": "fe8ef7a606282a8099e4b88dfc95947533701d885cf95ec9f1c717074b00c592"
+  },
+  {
+   "arquivo": "cid10/cid_o_grupos.json",
+   "linhas_csv": 63,
+   "registros_json": 63,
+   "sha256_csv": "ee605b7be92c0163053c20bd09d279453463e5e37902c9512f0ddcd685b2e39b",
+   "sha256_json": "4188cbbbbe2a51c7c2ff10cccf848d0a8b1f2a810fbfa08efc5d9e05d34fb2e8"
+  }
+ ],
+ "fontes": [
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "DATASUS - CID-10 em português (CID10CSV.zip, cópia do Internet Archive)",
+   "fonte_url": "http://www2.datasus.gov.br/cid10/V2008/downloads/CID10CSV.zip",
+   "fonte_versao": "CID-10 DATASUS V2008"
+  }
+ ],
+ "regras": {
+  "atom_id": "<tema>:<codigo>; codigo = chave local, com prefixo de subfonte quando o tema tem mais de uma fonte",
+  "data_extracao": "fixa por fonte (2026-10-10), não é a data da execução",
+  "descricao_literal": "renderização literal 'campo: valor' de todos os registros de origem da entidade (nada resumido)",
+  "ordenacao": "um arquivo por tipo_entidade, linhas ordenadas por atom_id, partes <= 90.000.000 bytes",
+  "sha256_atomo": "SHA-256 do JSON canônico (sort_keys, ensure_ascii=False, separators=(',',':')) do átomo sem o campo sha256"
+ },
+ "tema": "cid10",
+ "total_atomos": 15407,
+ "versao_gerador": "atomizar.py 1.0.0"
+}

@@ -1,0 +1,94 @@
+{
+  "id": "WO-2026_10_15_0033",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "task_type": "obter",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "parametros": {
+    "pasta_drive": "1l519_P-9o6bnQcItydKvEEDpEYeE8R8s",
+    "pasta_nutricao": "1C61L-Mz3xCucxTXAK2FUtna3O7EJntgb",
+    "pasta_raw_fora": "1ZvTgzezK-f2HRhKp-c2oLBS6b4RjYOKQ",
+    "arquivo_acima_de_50mb_fora": "1l9ojaxlDhAORdPWlAT1tr-1jf5q935cz",
+    "lote": "nutricao"
+  },
+  "entradas": [
+    {
+      "id_origem": "1bPkNWkimu5mC_d_0a49FcZzvoUv3BpAm",
+      "caminho": "nutricao/usda_sr_legacy_nutrientes.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1ppkFkjxqmxd5u4hwkv_As9a0W0OwaPD4",
+      "caminho": "nutricao/usda_sr_legacy_alimentos.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1z0jgL0IDigCKYuYu9NeUo-3rQ7DGSrFv",
+      "caminho": "nutricao/taco_composicao.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1CpzHP2vwKAjkoLEw0_6R9BywKc7VIQen",
+      "caminho": "nutricao/taco_acidos_graxos.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1HvRo11SREZfNjd4MR14z6nRT1Ue3hHo0",
+      "caminho": "nutricao/taco_aminoacidos.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "16Tjd-RpfpwRt27SRhJXTQcVYbZYTiKg4",
+      "caminho": "nutricao/usda_foundation_alimentos.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1SmgOyWUp-DYG2ze3iCjatUvWYbUnI4K-",
+      "caminho": "nutricao/usda_foundation_nutrientes.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1eI8i8ngywFkvilBOchGlRuYkBFIOa462",
+      "caminho": "nutricao/pof_medidas_caseiras.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1I7c_isOmz6OptCAavFzdC4ikfXDiSAas",
+      "caminho": "nutricao/usda_sr_legacy_alimentos.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1KcJsa5_OlgEmgNkVpvt5VaRZjBvY_89l",
+      "caminho": "nutricao/usda_foundation_nutrientes.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1bqVCwuKF07wD1AdO3M1gwUpBhcpRhv0f",
+      "caminho": "nutricao/usda_foundation_alimentos.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1CQ8ekEeKO-CgpRdrl4xdYWylBosj84cU",
+      "caminho": "nutricao/pof_medidas_caseiras.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1IkV59vNBVMalrbywk-SpEH6ugyFAmFJR",
+      "caminho": "nutricao/taco_aminoacidos.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1vla7IGX_wG14Kq4T0ZNmRznD1NOC22lI",
+      "caminho": "nutricao/taco_acidos_graxos.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "18O9-x1hiZrwgzRzHTz5RlEeMWGpMP69s",
+      "caminho": "nutricao/taco_composicao.json",
+      "classe": "REFERENCIA"
+    }
+  ],
+  "task_id": "TAREFA-OBTER",
+  "task_version": "1.0.0"
+}

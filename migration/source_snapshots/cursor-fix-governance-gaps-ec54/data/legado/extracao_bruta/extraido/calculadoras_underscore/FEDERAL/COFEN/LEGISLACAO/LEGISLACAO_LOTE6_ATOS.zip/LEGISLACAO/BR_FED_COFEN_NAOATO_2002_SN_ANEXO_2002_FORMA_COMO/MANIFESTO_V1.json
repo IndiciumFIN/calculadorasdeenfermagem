@@ -1,0 +1,44 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/anexo-com-o-pl-252002-na-forma-como-ficou-aps-emendas-na-ccj/ (API WordPress post 4216); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "NAOATO_2002_SN_ANEXO_2002_FORMA_COMO_ATOMOS_V1.jsonl",
+      "sha256": "63e5489719037dafc40614e677383ff1a17da5a7ce643b3c72b2683e626f6667",
+      "tamanho": 12364
+    },
+    {
+      "nome": "NAOATO_2002_SN_ANEXO_2002_FORMA_COMO_CONTEUDO_SITE_API.json",
+      "sha256": "2cd5d5669b075fecffed9440b090559af70efba6a6b0cb1b28e79d13cbb60b1d",
+      "tamanho": 2949
+    },
+    {
+      "nome": "NAOATO_2002_SN_ANEXO_2002_FORMA_COMO_NORMA_V1.json",
+      "sha256": "f3ec179242cad4f4a6599de04c1e2727326654016a805089ce97dd75a6095d85",
+      "tamanho": 2208
+    },
+    {
+      "nome": "NAOATO_2002_SN_ANEXO_2002_FORMA_COMO_PAGINA_SITE.html",
+      "sha256": "2858c6c37d2726803bc34148c1bc50f5d8e3536a905b585a15e600988405add1",
+      "tamanho": 438812
+    },
+    {
+      "nome": "NAOATO_2002_SN_ANEXO_2002_FORMA_COMO_TEXTO_FONTE_V1.txt",
+      "sha256": "ccd01c24be01ae99e8a76f8e4d467b57461d340efe9723d9b92b80a505d84eb5",
+      "tamanho": 2508
+    },
+    {
+      "nome": "NAOATO_2002_SN_ANEXO_2002_FORMA_COMO_VALIDACAO_V1.json",
+      "sha256": "216fe3182f2ef108f440e70112caeb4d28e53dbeed1b29bba841d66032e1970b",
+      "tamanho": 3169
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Ato sem número no site; identificador formado por slug.",
+    "TIPO: listado em categoria de Legislação, mas o título não identifica um ato (\"ANEXO COM O PL 25/2002 NA FORMA COMO FICOU APÓS EMENDAS NA CCJ\").",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

@@ -1,0 +1,274 @@
+{
+ "arquivos": [
+  {
+   "arquivo": "agravo_notificacao_compulsoria.jsonl",
+   "atomos": 81,
+   "bytes": 80393,
+   "sha256": "a8679098244fc6376ceed6be45d0db70a2871efe6e480cbe160ec7f27b235a91",
+   "tipo_entidade": "agravo_notificacao_compulsoria"
+  },
+  {
+   "arquivo": "caso_febre_amarela_humano_primata.jsonl",
+   "atomos": 2913,
+   "bytes": 2963984,
+   "sha256": "a164f2a87444b1fdc093ce758dd30a6c6944e041b96e8b605a8db5674f5eb4c5",
+   "tipo_entidade": "caso_febre_amarela_humano_primata"
+  },
+  {
+   "arquivo": "epizootia_febre_amarela.jsonl",
+   "atomos": 2637,
+   "bytes": 2392120,
+   "sha256": "c44216eda28eaac391fb25a8842f672ba3bc0c8bd7db1d7446f6b6093290b9e4",
+   "tipo_entidade": "epizootia_febre_amarela"
+  },
+  {
+   "arquivo": "notificacao_mpox.jsonl",
+   "atomos": 5000,
+   "bytes": 7146720,
+   "sha256": "36b35c37643db97f945236feeebc251c951b1d43ddf6c290641d1ca446b63cd1",
+   "tipo_entidade": "notificacao_mpox"
+  },
+  {
+   "arquivo": "notificacao_sinan_chikungunya.jsonl",
+   "atomos": 3000,
+   "bytes": 7768769,
+   "sha256": "44ab6d81e458d71792b384e09037e0377c73b3ec4280fc82be01cebef203382b",
+   "tipo_entidade": "notificacao_sinan_chikungunya"
+  },
+  {
+   "arquivo": "notificacao_sinan_dengue.jsonl",
+   "atomos": 5000,
+   "bytes": 12693774,
+   "sha256": "1c74862d40ade00508a34f2b358b751cdd8689cf86619f29d524be2a58de91c9",
+   "tipo_entidade": "notificacao_sinan_dengue"
+  },
+  {
+   "arquivo": "notificacao_sinan_zika.jsonl",
+   "atomos": 3000,
+   "bytes": 3981858,
+   "sha256": "3ad6f61cb22bcf4d8997d7af6c26d4c3c72285f02a337f0f1894fb1ce2705c17",
+   "tipo_entidade": "notificacao_sinan_zika"
+  },
+  {
+   "arquivo": "notificacao_srag.jsonl",
+   "atomos": 5000,
+   "bytes": 9298802,
+   "sha256": "947e194d135dc58f008ae8d8ac2189f6ad924f197d9642984679926d76220991",
+   "tipo_entidade": "notificacao_srag"
+  },
+  {
+   "arquivo": "obito_sim.jsonl",
+   "atomos": 5000,
+   "bytes": 6973662,
+   "sha256": "68fdfa8878b5f926404ce12520e747cbea919fca79ea890e974c451f27610f10",
+   "tipo_entidade": "obito_sim"
+  }
+ ],
+ "atomos_por_tipo_entidade": {
+  "agravo_notificacao_compulsoria": 81,
+  "caso_febre_amarela_humano_primata": 2913,
+  "epizootia_febre_amarela": 2637,
+  "notificacao_mpox": 5000,
+  "notificacao_sinan_chikungunya": 3000,
+  "notificacao_sinan_dengue": 5000,
+  "notificacao_sinan_zika": 3000,
+  "notificacao_srag": 5000,
+  "obito_sim": 5000
+ },
+ "conferencia_contagens": [
+  {
+   "arquivo_entrada": "epidemiologico/lista_notificacao_compulsoria_2026.csv",
+   "atomos": 81,
+   "confere": true,
+   "explicacao": "",
+   "linhas_csv": 81
+  },
+  {
+   "arquivo_entrada": "epidemiologico/sinan_dengue_2026_amostra.csv",
+   "atomos": 5000,
+   "confere": true,
+   "explicacao": "Sem identificador de notificação na fonte: código = 16 primeiros hex do SHA-256 do registro canônico; 1 linhas idênticas a outra receberam sufixo -2, -3... (ordem de ocorrência) para não perder registros.",
+   "linhas_csv": 5000
+  },
+  {
+   "arquivo_entrada": "epidemiologico/sinan_chikungunya_2026_amostra.csv",
+   "atomos": 3000,
+   "confere": true,
+   "explicacao": "Sem identificador de notificação na fonte: código = 16 primeiros hex do SHA-256 do registro canônico; 2 linhas idênticas a outra receberam sufixo -2, -3... (ordem de ocorrência) para não perder registros.",
+   "linhas_csv": 3000
+  },
+  {
+   "arquivo_entrada": "epidemiologico/sinan_zika_2026_amostra.csv",
+   "atomos": 3000,
+   "confere": true,
+   "explicacao": "Sem identificador de notificação na fonte: código = 16 primeiros hex do SHA-256 do registro canônico; 2 linhas idênticas a outra receberam sufixo -2, -3... (ordem de ocorrência) para não perder registros.",
+   "linhas_csv": 3000
+  },
+  {
+   "arquivo_entrada": "epidemiologico/sim_mortalidade_amostra.csv",
+   "atomos": 5000,
+   "confere": true,
+   "explicacao": "",
+   "linhas_csv": 5000
+  },
+  {
+   "arquivo_entrada": "epidemiologico/srag_2019_2026_amostra.csv",
+   "atomos": 5000,
+   "confere": true,
+   "explicacao": "",
+   "linhas_csv": 5000
+  },
+  {
+   "arquivo_entrada": "epidemiologico/mpox_amostra.csv",
+   "atomos": 5000,
+   "confere": true,
+   "explicacao": "Sem identificador de notificação na fonte: código = 16 primeiros hex do SHA-256 do registro canônico; 6 linhas idênticas a outra receberam sufixo -2, -3... (ordem de ocorrência) para não perder registros.",
+   "linhas_csv": 5000
+  },
+  {
+   "arquivo_entrada": "epidemiologico/febre_amarela_epizootias.csv",
+   "atomos": 2637,
+   "confere": true,
+   "explicacao": "Sem identificador de notificação na fonte: código = 16 primeiros hex do SHA-256 do registro canônico; 609 linhas idênticas a outra receberam sufixo -2, -3... (ordem de ocorrência) para não perder registros.",
+   "linhas_csv": 2637
+  },
+  {
+   "arquivo_entrada": "epidemiologico/febre_amarela_humanos_primatas.csv",
+   "atomos": 2913,
+   "confere": true,
+   "explicacao": "Sem identificador de notificação na fonte: código = 16 primeiros hex do SHA-256 do registro canônico; 32 linhas idênticas a outra receberam sufixo -2, -3... (ordem de ocorrência) para não perder registros.",
+   "linhas_csv": 2913
+  }
+ ],
+ "entradas": [
+  {
+   "arquivo": "epidemiologico/lista_notificacao_compulsoria_2026.json",
+   "linhas_csv": 81,
+   "registros_json": 81,
+   "sha256_csv": "f093b662d9cfff8ad33c6dfb1fb6faaca0ca90fceb2249bd0cece161b8a140ba",
+   "sha256_json": "0cb6da60c795d75fcd7f827d50aa2b266639a5c0bb525031efc82bff1b8c26ab"
+  },
+  {
+   "arquivo": "epidemiologico/sinan_dengue_2026_amostra.json",
+   "linhas_csv": 5000,
+   "registros_json": 5000,
+   "sha256_csv": "8f0cb3c1b156d919d60ee9543bfc50d01b11c573d6b8782d12bde44754e70a15",
+   "sha256_json": "f02c151b866ad2f0fe7f696efaafd75cc8b7b6e2cdd501127f0414e62b66cad7"
+  },
+  {
+   "arquivo": "epidemiologico/sinan_chikungunya_2026_amostra.json",
+   "linhas_csv": 3000,
+   "registros_json": 3000,
+   "sha256_csv": "42216b449fb9313edd881c8fab628cfec5f41b05dc6441403fdf772d30e8b5e1",
+   "sha256_json": "62895996fbbd959a91dfab923348366021937d3950a5b9d9fb83c87d48b7b41a"
+  },
+  {
+   "arquivo": "epidemiologico/sinan_zika_2026_amostra.json",
+   "linhas_csv": 3000,
+   "registros_json": 3000,
+   "sha256_csv": "1f1ce418dbc9510b850eb59838028a08f6d99f6bae73177a1ec7498f732addac",
+   "sha256_json": "572b9c6d67e41860acf55f5bd3bb4da9dcbae9290792ab054566dcb0584219f8"
+  },
+  {
+   "arquivo": "epidemiologico/sim_mortalidade_amostra.json",
+   "linhas_csv": 5000,
+   "registros_json": 5000,
+   "sha256_csv": "89aaa0c3086239b8836667893e47a486e7e0803b46c1addf17c9add53e478f46",
+   "sha256_json": "2e7aa77348fd2e132239d9ffc29743efa6452c638d3650135af3991e107c2618"
+  },
+  {
+   "arquivo": "epidemiologico/srag_2019_2026_amostra.json",
+   "linhas_csv": 5000,
+   "registros_json": 5000,
+   "sha256_csv": "c5d275fc6707b6d961736b11026962c63667959ab30767ffef67342ecd0e938d",
+   "sha256_json": "a776d1b99e26e08f6eb2c62937c0d1b872d5791cead4f312384d7e76aa6a9ace"
+  },
+  {
+   "arquivo": "epidemiologico/mpox_amostra.json",
+   "linhas_csv": 5000,
+   "registros_json": 5000,
+   "sha256_csv": "8769a7fe2fc3319244a5882062460cd988eb2661d0b75c40df59e68fad45f878",
+   "sha256_json": "1961ab3f208144bb8d821a3669c8a9c874a4ab570eac4819008c795f2bd55aef"
+  },
+  {
+   "arquivo": "epidemiologico/febre_amarela_epizootias.json",
+   "linhas_csv": 2637,
+   "registros_json": 2637,
+   "sha256_csv": "fda1e83561ff6fd016012ee3103b1b344256341778ea676b0f6656ce607dcfad",
+   "sha256_json": "373dd2d044b7767197c35aecd91fad43dfde516270abfd448b29d499ed88fa5b"
+  },
+  {
+   "arquivo": "epidemiologico/febre_amarela_humanos_primatas.json",
+   "linhas_csv": 2913,
+   "registros_json": 2913,
+   "sha256_csv": "20670f0fe007cf6b45a28dae8411528201a7c863444a87bfc77d7c9a9b0b529e",
+   "sha256_json": "6c75fc974d323b66c6966998775702767536f63f3224fca0dc6884a85d8198d3"
+  }
+ ],
+ "fontes": [
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "Ministério da Saúde - API de Dados Abertos (arboviroses/chikungunya)",
+   "fonte_url": "https://apidadosabertos.saude.gov.br/arboviroses/chikungunya?nu_ano=2026",
+   "fonte_versao": "amostra: primeiros 3000 registros devolvidos pela API em 2026-10-10"
+  },
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "Ministério da Saúde - API de Dados Abertos (arboviroses/dengue)",
+   "fonte_url": "https://apidadosabertos.saude.gov.br/arboviroses/dengue?nu_ano=2026",
+   "fonte_versao": "amostra: primeiros 5000 registros devolvidos pela API em 2026-10-10"
+  },
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "Ministério da Saúde - API de Dados Abertos (arboviroses/febre-amarela-epzootias)",
+   "fonte_url": "https://apidadosabertos.saude.gov.br/arboviroses/febre-amarela-epzootias",
+   "fonte_versao": "todos os registros devolvidos pela API em 2026-10-10"
+  },
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "Ministério da Saúde - API de Dados Abertos (arboviroses/febre-amarela-humanos-primatas-nao-humanos)",
+   "fonte_url": "https://apidadosabertos.saude.gov.br/arboviroses/febre-amarela-humanos-primatas-nao-humanos",
+   "fonte_versao": "todos os registros devolvidos pela API em 2026-10-10"
+  },
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "Ministério da Saúde - API de Dados Abertos (arboviroses/zikavirus)",
+   "fonte_url": "https://apidadosabertos.saude.gov.br/arboviroses/zikavirus?nu_ano=2026",
+   "fonte_versao": "amostra: primeiros 3000 registros devolvidos pela API em 2026-10-10"
+  },
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "Ministério da Saúde - API de Dados Abertos (vigilancia-e-meio-ambiente/mpox)",
+   "fonte_url": "https://apidadosabertos.saude.gov.br/vigilancia-e-meio-ambiente/mpox",
+   "fonte_versao": "amostra: primeiros 5000 registros devolvidos pela API em 2026-10-10"
+  },
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "Ministério da Saúde - API de Dados Abertos (vigilancia-e-meio-ambiente/sistema-de-informacao-sobre-mortalidade)",
+   "fonte_url": "https://apidadosabertos.saude.gov.br/vigilancia-e-meio-ambiente/sistema-de-informacao-sobre-mortalidade",
+   "fonte_versao": "amostra: primeiros 5000 registros devolvidos pela API em 2026-10-10"
+  },
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "Ministério da Saúde - API de Dados Abertos (vigilancia-e-meio-ambiente/srag-2019-2026)",
+   "fonte_url": "https://apidadosabertos.saude.gov.br/vigilancia-e-meio-ambiente/srag-2019-2026",
+   "fonte_versao": "amostra: primeiros 5000 registros devolvidos pela API em 2026-10-10"
+  },
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "Ministério da Saúde - Portaria GM/MS nº 11.211/2026, Anexo I (lista nacional de notificação compulsória)",
+   "fonte_url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html",
+   "fonte_versao": "Portaria GM/MS nº 11.211, de 13/05/2026"
+  }
+ ],
+ "regras": {
+  "atom_id": "<tema>:<codigo>; codigo = chave local, com prefixo de subfonte quando o tema tem mais de uma fonte",
+  "data_extracao": "fixa por fonte (2026-10-10), não é a data da execução",
+  "descricao_literal": "renderização literal 'campo: valor' de todos os registros de origem da entidade (nada resumido)",
+  "ordenacao": "um arquivo por tipo_entidade, linhas ordenadas por atom_id, partes <= 90.000.000 bytes",
+  "sha256_atomo": "SHA-256 do JSON canônico (sort_keys, ensure_ascii=False, separators=(',',':')) do átomo sem o campo sha256"
+ },
+ "tema": "epidemiologico",
+ "total_atomos": 31631,
+ "versao_gerador": "atomizar.py 1.0.0"
+}

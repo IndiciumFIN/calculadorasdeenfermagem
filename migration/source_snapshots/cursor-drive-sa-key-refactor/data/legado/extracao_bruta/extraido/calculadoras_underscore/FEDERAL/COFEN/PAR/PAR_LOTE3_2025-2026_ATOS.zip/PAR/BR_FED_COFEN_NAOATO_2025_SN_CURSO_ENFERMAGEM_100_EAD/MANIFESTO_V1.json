@@ -1,0 +1,54 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/curso-de-enfermagem-100-ead-compromete-qualidade-do-atendimento/ (API WordPress post 140512); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "IMAGENS_SITE/Post-para-instagram-atencao-simples-amarelo.png",
+      "sha256": "b2778a0dd93c6ecd610c643221657aaab26102cef827383c3a94594ede5d7738",
+      "tamanho": 1248849
+    },
+    {
+      "nome": "IMAGENS_SITE/woman-taking-e-learning-courses.jpg",
+      "sha256": "f7dec05ba861101ad560b3c69337e2ab8ebf4ef812af4d63db9e8704e7be3348",
+      "tamanho": 16310574
+    },
+    {
+      "nome": "NAOATO_2025_SN_CURSO_ENFERMAGEM_100_EAD_ATOMOS_V1.jsonl",
+      "sha256": "2704c16e0fb5e4f518bc3008da71a3c6c019d888bf9fb3152e6ffbb37dd6e997",
+      "tamanho": 15187
+    },
+    {
+      "nome": "NAOATO_2025_SN_CURSO_ENFERMAGEM_100_EAD_CONTEUDO_SITE_API.json",
+      "sha256": "831ff669821ab908c51f65f278bb8527b6c948bf5519d5bb797b4bc6bb94e1a8",
+      "tamanho": 5801
+    },
+    {
+      "nome": "NAOATO_2025_SN_CURSO_ENFERMAGEM_100_EAD_NORMA_V1.json",
+      "sha256": "8523b4f52c39a1a4e53d9b9c53c17acaa152c568a705752f17f6f02a1804ebd8",
+      "tamanho": 2711
+    },
+    {
+      "nome": "NAOATO_2025_SN_CURSO_ENFERMAGEM_100_EAD_PAGINA_SITE.html",
+      "sha256": "0680d4c1f5d0aebb8e4b20dd9425feb0b7742f17145dc6515b4375fc7ea4dd73",
+      "tamanho": 447521
+    },
+    {
+      "nome": "NAOATO_2025_SN_CURSO_ENFERMAGEM_100_EAD_TEXTO_FONTE_V1.txt",
+      "sha256": "3f8850a8bb013a2a69091d54730e36c640c10db8bf9a7d990fd5241c1991b098",
+      "tamanho": 3975
+    },
+    {
+      "nome": "NAOATO_2025_SN_CURSO_ENFERMAGEM_100_EAD_VALIDACAO_V1.json",
+      "sha256": "b5c896dc63a41b28301d98cd8c67917de130b8c636b83fae8cd552b789885fd0",
+      "tamanho": 3195
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Ato sem número no site; identificador formado por slug.",
+    "TIPO: listado na categoria Pareceres, mas o título não identifica um parecer (\"Curso de Enfermagem “100% EaD” compromete qualidade do atendimento\").",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

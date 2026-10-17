@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-n-384-de-21-de-novembro-de-2008/ (API WordPress post 4200); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2008_N_00384_ATOMOS_V1.jsonl",
+      "sha256": "7a941dcbc8309132a0041c7e62ffa29268e8ef1fdde2b7b78264b90db7f86b15",
+      "tamanho": 8174
+    },
+    {
+      "nome": "PORT_2008_N_00384_CONTEUDO_SITE_API.json",
+      "sha256": "49f28c363ddb40a53f71641105a0a76d947d08943621f428d0625061ab90baf5",
+      "tamanho": 2210
+    },
+    {
+      "nome": "PORT_2008_N_00384_NORMA_V1.json",
+      "sha256": "9b58597886e6a16f6b29a50361d58a45aca80a4aba79dcc5a940724339c61e5d",
+      "tamanho": 2779
+    },
+    {
+      "nome": "PORT_2008_N_00384_PAGINA_SITE.html",
+      "sha256": "cb5d33ac912fb55e6aabd59f21eb31fe86763904375020a720a0ce7284c4df2a",
+      "tamanho": 440532
+    },
+    {
+      "nome": "PORT_2008_N_00384_TEXTO_FONTE_V1.txt",
+      "sha256": "abb0238ca421259588c509a570034a8832fdb0ab695b4cddfa5587e52c4ae73d",
+      "tamanho": 1803
+    },
+    {
+      "nome": "PORT_2008_N_00384_VALIDACAO_V1.json",
+      "sha256": "806954c904d383a2f0cc407d09e572450420f7ffb6620125bf33b43932a3ed24",
+      "tamanho": 2462
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

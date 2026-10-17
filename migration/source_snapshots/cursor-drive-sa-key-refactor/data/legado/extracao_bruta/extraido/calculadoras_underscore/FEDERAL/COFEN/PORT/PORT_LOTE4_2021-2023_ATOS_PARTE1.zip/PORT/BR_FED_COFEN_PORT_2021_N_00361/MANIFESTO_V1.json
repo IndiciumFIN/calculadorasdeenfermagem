@@ -1,0 +1,51 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-361-de-30-de-abril-de-2021/ (API WordPress post 86742); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2021_N_00361_ATOMOS_V1.jsonl",
+      "sha256": "18e73075be63494a37b0c83ddabb86206312336f97b97a60ff0e3a45d86e66ba",
+      "tamanho": 7824
+    },
+    {
+      "nome": "PORT_2021_N_00361_CONTEUDO_SITE_API.json",
+      "sha256": "ce2ce2b06b6f4cf6d75b70a788b3661a5c0e68aad5f71f6d9a30f2ac32eb62b6",
+      "tamanho": 1433
+    },
+    {
+      "nome": "PORT_2021_N_00361_NORMA_V1.json",
+      "sha256": "7408cf43595c76254409590d19fd0a89b1d0451b4c45160a06cf9575994ae7c1",
+      "tamanho": 3653
+    },
+    {
+      "nome": "PORT_2021_N_00361_PAGINA_SITE.html",
+      "sha256": "193f1b0ec8731a55e34fa8991ad1c1ac31cf4746ea72a212854b68827627bd59",
+      "tamanho": 441230
+    },
+    {
+      "nome": "PORT_2021_N_00361_PDF_SITE.pdf",
+      "sha256": "003812becbf79fc0290039de5d23eeac6b74cbe5f2da1133c589fb0860c02d2f",
+      "tamanho": 53581
+    },
+    {
+      "nome": "PORT_2021_N_00361_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "51c34835f1867584607c08002ed345bb769de2befeb32a795e9e878de754dbb1",
+      "tamanho": 1084
+    },
+    {
+      "nome": "PORT_2021_N_00361_TEXTO_FONTE_V1.txt",
+      "sha256": "9aaace64296ab44248cd12e87a1edb2c9fbdae2afc30b1b897ad1fba12944e70",
+      "tamanho": 859
+    },
+    {
+      "nome": "PORT_2021_N_00361_VALIDACAO_V1.json",
+      "sha256": "e9f408fed1a8e84bd69636c1557af6f42d2ce9207126705781b80d3e4425c036",
+      "tamanho": 4148
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+  ]
+}

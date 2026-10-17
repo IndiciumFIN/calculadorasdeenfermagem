@@ -1,0 +1,29 @@
+{
+  "id": "WO-2026_10_16_0236",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "checker_id": "drive-move-independent-checker",
+  "task_id": "TAREFA-MOVER-DRIVE",
+  "task_version": "1.0.0",
+  "task_type": "mover-drive",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "entradas": [
+    {
+      "id_origem": "1MMeqDJef7myG0Fo-O8XsyRMg_ELSxn-P",
+      "caminho": "data/legado/extracao_bruta/TYPE_MOVE_WAVE14/ESPECIFICACAO_PIPELINE_DETERMINISTICO_COFEN_V1.md",
+      "classe": "REFERENCIA",
+      "sha256": "3030fe1758a9e2e1896fafe800d811b2ba6297225842c17b53f3eb2a5d80d71f"
+    }
+  ],
+  "parametros": {
+    "source_parent_id": "1c9vErI_It3XwzAcAFOnbxw9V0Mn6xfB9",
+    "target_parent_id": "1HtmOws6k6c-jQ6x6FwScxh4n0djK9_mz",
+    "file_type": "MD",
+    "expected_title": "ESPECIFICACAO_PIPELINE_DETERMINISTICO_COFEN_V1.md",
+    "expected_mime": "text/markdown",
+    "expected_bytes": "12126",
+    "pilot_lote": "TYPE-MOVE-WAVE14",
+    "source_preservation": "SAME_DRIVE_ID"
+  }
+}

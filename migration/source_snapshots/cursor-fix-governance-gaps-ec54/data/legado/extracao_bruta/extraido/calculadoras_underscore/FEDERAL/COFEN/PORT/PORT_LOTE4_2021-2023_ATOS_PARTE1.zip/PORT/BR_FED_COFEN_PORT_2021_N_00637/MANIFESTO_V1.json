@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-637-de-28-de-junho-de-2021/ (API WordPress post 88262); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2021_N_00637_ATOMOS_V1.jsonl",
+      "sha256": "70f241790b04e6cc7e2d08173d8ddc99527cb80175c5005ed3dbf1accb7a576f",
+      "tamanho": 6173
+    },
+    {
+      "nome": "PORT_2021_N_00637_CONTEUDO_SITE_API.json",
+      "sha256": "44f1ae3579816029ef1493a0a9c40346914e0b21d671e7183a9ca1d93240285a",
+      "tamanho": 1544
+    },
+    {
+      "nome": "PORT_2021_N_00637_NORMA_V1.json",
+      "sha256": "d6e473a0b05f03a345bbd5df513ff4f36f7b38ef80faeec8d02d4b22bebfe64d",
+      "tamanho": 3049
+    },
+    {
+      "nome": "PORT_2021_N_00637_PAGINA_SITE.html",
+      "sha256": "c18d0af23141c2e5999573d20fc2c28e6d92afd2b8c7a8bc06717a9a687a2a23",
+      "tamanho": 439421
+    },
+    {
+      "nome": "PORT_2021_N_00637_TEXTO_FONTE_V1.txt",
+      "sha256": "44001fde2a4d5043c5a2de47d5d6640d7f0201f69ec57c938dfdfcf014450d52",
+      "tamanho": 950
+    },
+    {
+      "nome": "PORT_2021_N_00637_VALIDACAO_V1.json",
+      "sha256": "eccaab4871e8c5d90151b8ba73adb63bf0f85370c2dd81464449f94c9c3c4e66",
+      "tamanho": 2458
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

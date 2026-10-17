@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-789-de-6-de-setembro-de-2013/ (API WordPress post 21489); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2013_N_00789_ATOMOS_V1.jsonl",
+      "sha256": "901646483970596b056aa38893c0d0558f453735a076ed08c85d85fa1fa77376",
+      "tamanho": 9824
+    },
+    {
+      "nome": "PORT_2013_N_00789_CONTEUDO_SITE_API.json",
+      "sha256": "8265723906af66cf7e458228d50399af06c598ebf6d94123824ce24baad7d887",
+      "tamanho": 2139
+    },
+    {
+      "nome": "PORT_2013_N_00789_NORMA_V1.json",
+      "sha256": "2aadc76885d72555062de72a9a49a1ece9db0784d1f358c026a16acc251e054c",
+      "tamanho": 3596
+    },
+    {
+      "nome": "PORT_2013_N_00789_PAGINA_SITE.html",
+      "sha256": "85644fdbe05474b48213fe1a8369055697175c1ba7cb6effc0c6ed1afc541bd5",
+      "tamanho": 439513
+    },
+    {
+      "nome": "PORT_2013_N_00789_TEXTO_FONTE_V1.txt",
+      "sha256": "8d15f43df549e03b6d0c1f90d39de9a7891d7392e337131f03ec50618faf10c7",
+      "tamanho": 1376
+    },
+    {
+      "nome": "PORT_2013_N_00789_VALIDACAO_V1.json",
+      "sha256": "2a85eabfb4ebc70ff4c0afd5ebe0b94e14704f17f7e89bf9140273f1c934f84e",
+      "tamanho": 2460
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

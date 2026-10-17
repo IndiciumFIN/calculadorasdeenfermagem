@@ -1,0 +1,43 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-camara-tecnica-no-0055-2022-conue-ctln-cofen/ (API WordPress post 105679); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2022_N_00055_CONUE_ATOMOS_V1.jsonl",
+      "sha256": "5b36781e7de9af0524eababc6a69a848a1a3809c274fdf26821bb5c03e337420",
+      "tamanho": 59365
+    },
+    {
+      "nome": "PARCT_2022_N_00055_CONUE_CONTEUDO_SITE_API.json",
+      "sha256": "70cec1ea9eca22228cf9da1179977c13fc4e7ab9dedec5e6bed6a078819066ca",
+      "tamanho": 13484
+    },
+    {
+      "nome": "PARCT_2022_N_00055_CONUE_NORMA_V1.json",
+      "sha256": "1ded20eb3e38389167e5da44e35ddba7d02cd3f848bde661b3f36c9a4339aa12",
+      "tamanho": 4291
+    },
+    {
+      "nome": "PARCT_2022_N_00055_CONUE_PAGINA_SITE.html",
+      "sha256": "fa6bd4ea2634ce3b79e387149399b5a07123f8b8e8d5437077a41d1d80b959bb",
+      "tamanho": 451318
+    },
+    {
+      "nome": "PARCT_2022_N_00055_CONUE_TEXTO_FONTE_V1.txt",
+      "sha256": "3dddc2029f91c9f60573e096938129fddd4220c813f2ddfad007c08d0c2c9245",
+      "tamanho": 11779
+    },
+    {
+      "nome": "PARCT_2022_N_00055_CONUE_VALIDACAO_V1.json",
+      "sha256": "fe54e767c325c4b466f4f91468705c45987cd7f1b3ce69dcd63f33688533620d",
+      "tamanho": 3229
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir."
+  ]
+}

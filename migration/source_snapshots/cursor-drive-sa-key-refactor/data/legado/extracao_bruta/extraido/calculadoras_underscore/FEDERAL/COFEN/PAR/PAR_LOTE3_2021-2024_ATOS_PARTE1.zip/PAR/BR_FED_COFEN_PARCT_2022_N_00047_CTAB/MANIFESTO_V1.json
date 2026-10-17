@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-camara-tecnica-n-047-2022-ctab-cofen/ (API WordPress post 104028); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2022_N_00047_CTAB_ATOMOS_V1.jsonl",
+      "sha256": "dbdf448385b824374db42cd0c22c250bf21ac0de901e4a1c5d68b28d89a0d926",
+      "tamanho": 47322
+    },
+    {
+      "nome": "PARCT_2022_N_00047_CTAB_CONTEUDO_SITE_API.json",
+      "sha256": "a6c2ed339581780bef899428ec253d1bfd640aeb5e4ac26670f76e43376f98e7",
+      "tamanho": 15605
+    },
+    {
+      "nome": "PARCT_2022_N_00047_CTAB_NORMA_V1.json",
+      "sha256": "843eb8d8a89a5a537bc9287f0261ab2a5dd33eb55030e387c51b717939658aa9",
+      "tamanho": 5828
+    },
+    {
+      "nome": "PARCT_2022_N_00047_CTAB_PAGINA_SITE.html",
+      "sha256": "2bfcbe2ba9c9a33df9ad2d48a00b3cda9f3b2ec94ae5b7cb7530d847860193f2",
+      "tamanho": 453174
+    },
+    {
+      "nome": "PARCT_2022_N_00047_CTAB_TEXTO_FONTE_V1.txt",
+      "sha256": "d47dba013bd76e34cf337257260d938ee437eddd15cb5996e21dde8dbcecffd9",
+      "tamanho": 13514
+    },
+    {
+      "nome": "PARCT_2022_N_00047_CTAB_VALIDACAO_V1.json",
+      "sha256": "d6177d532a265e17951ba5435e8ec476ebba01856d23a4f1867fa8a0bbfbe32a",
+      "tamanho": 2882
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir."
+  ]
+}

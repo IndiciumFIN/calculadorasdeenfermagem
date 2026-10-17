@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Composição do Builder",
+  "type": "object",
+  "required": ["id", "version", "canvas", "designSystem", "layers"],
+  "properties": {
+    "id": { "type": "string" },
+    "version": { "type": "string" },
+    "canvas": {
+      "type": "object",
+      "properties": {
+        "width": { "type": "integer" },
+        "height": { "type": "integer" }
+      }
+    },
+    "designSystem": { "const": "ce_canonical" },
+    "layers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "type"],
+        "properties": {
+          "id": { "type": "string" },
+          "type": { "enum": ["shape", "text", "image", "component"] },
+          "variant": { "type": "string" },
+          "locked": { "type": "boolean" },
+          "editable": { "type": "boolean" },
+          "optional": { "type": "boolean" }
+        }
+      }
+    }
+  }
+}

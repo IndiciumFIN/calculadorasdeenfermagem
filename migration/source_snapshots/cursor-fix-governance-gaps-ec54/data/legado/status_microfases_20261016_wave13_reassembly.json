@@ -1,0 +1,24 @@
+{
+  "schema": "CE-WAVE13-VDC-REASSEMBLY-1.0.0",
+  "date": "2026-10-16",
+  "source_manifest_sha256": "74e9b64a7e94a4001e23c643f0f53b04737db6b9c6b9cae319cdd014faa299b6",
+  "source_WOs": [
+    "WO-2026_10_16_0228",
+    "WO-2026_10_16_0229",
+    "WO-2026_10_16_0230",
+    "WO-2026_10_16_0231"
+  ],
+  "assembly_wo": "WO-2026_10_16_0232",
+  "member_audit_wo": "WO-2026_10_16_0233",
+  "result": "REASSEMBLED_INTEGRITY_PASS",
+  "assembled_sha256": "98291b0432233002000f5d2be7a18a60e6ae950da26454be56cc008608556d6d",
+  "assembled_bytes": 213962740,
+  "archive_total_members": 973,
+  "regular_members_hashed": 854,
+  "structural_findings": 0,
+  "content_homologated": false,
+  "independent_durable_backup": false,
+  "source_files_deleted": 0,
+  "publication_authorized": false,
+  "note": "Reconstructed and scanned in private Kernel staging; binary and member names not committed."
+}

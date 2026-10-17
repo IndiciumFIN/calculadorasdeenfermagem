@@ -1,0 +1,753 @@
+{
+  "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB",
+  "resultado_processo": "PENDENTE",
+  "rotulo": "Pendente de verificação",
+  "controles": [
+    {
+      "nome": "Identificação do ato e emissor",
+      "resultado": "PASS",
+      "evidencia": "PARECER DE CÂMARA TÉCNICA Nº 002/2018/CTAB/COFEN"
+    },
+    {
+      "nome": "Conferência site HTML × PDF oficial, dispositivo a dispositivo",
+      "resultado": "FAIL",
+      "status": "EXECUTADA_VIA_OCR",
+      "evidencia": {
+        "dispositivos_comparados": 44,
+        "por_resultado": {
+          "AUSENTE_NO_PDF": 11,
+          "DIVERGENTE": 12,
+          "EQUIVALENTE_OCR": 19,
+          "IDENTICO_NORMALIZADO": 2
+        },
+        "trechos_pdf_ausentes_no_site": 163,
+        "pdf": "PARCT_2018_N_00002_CTAB_PDF_SITE.pdf"
+      }
+    },
+    {
+      "nome": "Publicação no DOU (registro, sem verificação online)",
+      "resultado": "NAO_CITADO",
+      "evidencia": null
+    },
+    {
+      "nome": "Anexos referenciados presentes e atomizados",
+      "resultado": "NAO_APLICAVEL",
+      "status": "SEM_ANEXO_REFERENCIADO",
+      "referencias": []
+    },
+    {
+      "nome": "Numeração contígua (seções, itens, alíneas)",
+      "resultado": "PASS",
+      "evidencia": null
+    },
+    {
+      "nome": "Conferência humana da literalidade",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Pesquisa de alterações posteriores",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Direitos autorais do texto do ato oficial",
+      "resultado": "PASS",
+      "fundamento": "Lei 9.610/1998, art. 8, IV"
+    }
+  ],
+  "fechamento": {
+    "apto": false,
+    "status": "PENDENCIAS",
+    "justificativa": "Aguardando revisão humana da atomização e pesquisa de atos posteriores. Há achados bloqueantes adicionais."
+  },
+  "achados": [
+    {
+      "codigo": "C001",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Atomização automática; requer conferência humana da segmentação e da literalidade."
+    },
+    {
+      "codigo": "C002",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada."
+    },
+    {
+      "codigo": "C019",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "1 anexo(s) em formato não PDF (doc/xls/odt) baixado(s) mas não atomizado(s).",
+      "evidencia": [
+        "https://www.cofen.gov.br/wp-content/uploads/2018/10/PARECER-002-2018-CTAB.docx"
+      ]
+    },
+    {
+      "codigo": "C011",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "23 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+      "evidencia": [
+        {
+          "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_EPIGRAFE_001",
+          "resultado": "DIVERGENTE",
+          "similaridade": 54.2,
+          "trecho": "PARECER DE CÂMARA TÉCNICA Nº 002/2018/CTAB/COFEN"
+        },
+        {
+          "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_IDENTIFICACAO_PROCESSO_001",
+          "resultado": "AUSENTE_NO_PDF",
+          "similaridade": 64.7,
+          "trecho": "INTERESSADO: COFEN"
+        },
+        {
+          "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_SECAO_001",
+          "resultado": "DIVERGENTE",
+          "similaridade": 60.0,
+          "trecho": "REFERÊNCIA: PAD-COFEN 0932/ 2018"
+        },
+        {
+          "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_PARAGRAFO_TEXTO_002",
+          "resultado": "DIVERGENTE",
+          "similaridade": 53.6,
+          "trecho": "Trata-se atender ao conteúdo do PAD Cofen nº 0932 /2018 solicitado pelo presidente do Cofen, Dr. Manoel Carlos Neri da Silva (folha nº 01) para estudo e emissão"
+        },
+        {
+          "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_PARAGRAFO_TEXTO_003",
+          "resultado": "DIVERGENTE",
+          "similaridade": 48.1,
+          "trecho": "Compõem os autos processuais os seguintes documentos: a) Memorando 001/2018 – Da Comissão para Criação de Modelo de Protocolos em Nível Nacional para o presiden"
+        },
+        {
+          "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_PARAGRAFO_TEXTO_004",
+          "resultado": "DIVERGENTE",
+          "similaridade": 54.6,
+          "trecho": "No Brasil, a Atenção Básica à Saúde (ABS), apresenta um crescimento significativo e uma importante trajetória de ampla expansão e desenvolvimento. Compõe-se por"
+        },
+        {
+          "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_PARAGRAFO_TEXTO_006",
+          "resultado": "DIVERGENTE",
+          "similaridade": 58.1,
+          "trecho": "Os diversos instrumentos criados pelo Ministério da Saúde, como apoio a organização dos processos de trabalho, tais como, as normas, diretrizes e os cadernos de"
+        },
+        {
+          "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_PARAGRAFO_TEXTO_007",
+          "resultado": "DIVERGENTE",
+          "similaridade": 56.5,
+          "trecho": "A elaboração de protocolos de enfermagem na Atenção Básica à Saúde tem como objetivo permitir aos profissionais de enfermagem uma assistência de qualidade, segu"
+        },
+        {
+          "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_PARAGRAFO_TEXTO_011",
+          "resultado": "DIVERGENTE",
+          "similaridade": 59.1,
+          "trecho": "Deve considerar a Lei do Exercício Profissional nº 7.498/86 a Consulta de Enfermagem é privativa do enfermeiro e deve ser realizada em todos os níveis de assist"
+        },
+        {
+          "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_INCISO_001",
+          "resultado": "DIVERGENTE",
+          "similaridade": 56.4,
+          "trecho": "I- Coleta de dados ou Histórico de Enfermagem – tem por finalidade a obtenção de informações sobre a pessoa, família ou coletividade humana e sobre suas respost"
+        },
+        {
+          "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_INCISO_002",
+          "resultado": "DIVERGENTE",
+          "similaridade": 55.8,
+          "trecho": "II- Diagnóstico de Enfermagem – Processo de interpretação e agrupamento dos dados coletados na primeira etapa e que irá de encontro com as necessidades de cada "
+        },
+        {
+          "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_INCISO_003",
+          "resultado": "AUSENTE_NO_PDF",
+          "similaridade": 52.6,
+          "trecho": "III- Planejamento de Enfermagem – Determinação dos resultados que se espera alcançar, das ações e intervenções de enfermagem que serão realizadas face a respost"
+        },
+        {
+          "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_INCISO_004",
+          "resultado": "DIVERGENTE",
+          "similaridade": 58.1,
+          "trecho": "IV- Implementação – Realização das ações ou intervenções determinadas na etapa de planejamento de enfermagem."
+        },
+        {
+          "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_INCISO_005",
+          "resultado": "AUSENTE_NO_PDF",
+          "similaridade": 51.6,
+          "trecho": "V- Avaliação de Enfermagem – processo deliberado, sistemático e contínuo de verificação de mudanças nas respostas da pessoa, família ou coletividade humana em u"
+        },
+        {
+          "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_PARAGRAFO_TEXTO_013",
+          "resultado": "DIVERGENTE",
+          "similaridade": 58.6,
+          "trecho": "Ressaltamos que o Documento final, apresentado pela Comissão para Criação de Modelo de Protocolo em Nível Nacional, referente as DIRETRIZES PARA ELABORAÇÃO DE P"
+        },
+        {
+          "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_PARAGRAFO_TEXTO_014",
+          "resultado": "AUSENTE_NO_PDF",
+          "similaridade": 59.7,
+          "trecho": "Portanto, recomendamos a aprovação por este conceituado Plenário do Cofen."
+        },
+        {
+          "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_PARAGRAFO_TEXTO_015",
+          "resultado": "AUSENTE_NO_PDF",
+          "similaridade": 60.0,
+          "trecho": "Este é o parecer, salvo melhor juízo."
+        },
+        {
+          "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_LOCAL_DATA_001",
+          "resultado": "AUSENTE_NO_PDF",
+          "similaridade": 58.6,
+          "trecho": "Brasília, 29 de agosto de 2018."
+        },
+        {
+          "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_PARAGRAFO_TEXTO_016",
+          "resultado": "AUSENTE_NO_PDF",
+          "similaridade": 49.7,
+          "trecho": "Parecer elaborado por: Dra. Fátima Virgínia Siqueira de Menezes Silva – COREN RJ nº 46.076, Dr. Ricardo Costa de Siqueira- COREN-CE nº 65.918, Dra. Silvia Maria"
+        },
+        {
+          "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_ASSINATURA_001",
+          "resultado": "AUSENTE_NO_PDF",
+          "similaridade": 58.6,
+          "trecho": "Dra. Silvia Maria Neri Piedade / Coordenadora – CTAB"
+        },
+        {
+          "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_PARAGRAFO_TEXTO_017",
+          "resultado": "AUSENTE_NO_PDF",
+          "similaridade": 70.6,
+          "trecho": "COREN- RO nº 92597"
+        },
+        {
+          "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_SECAO_005",
+          "resultado": "AUSENTE_NO_PDF",
+          "similaridade": 65.5,
+          "trecho": "IV- REFERÊNCIAS BIBLIOGRÁFICAS"
+        },
+        {
+          "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_SECAO_006",
+          "resultado": "AUSENTE_NO_PDF",
+          "similaridade": 66.7,
+          "trecho": "ANEXOS:"
+        }
+      ]
+    },
+    {
+      "codigo": "C014",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "163 trecho(s) do PDF sem correspondente no texto do site.",
+      "evidencia": [
+        {
+          "trecho_pdf": "Carlos Leonardo Figueiredo Cunha — UFPA/Cofen Edson Alves de Menezes — Ministério da Saúde/SMS/RJ/Cofen Elizimara Ferreira Siqueira — Coren/SC",
+          "similaridade": 55.1,
+          "cobertura_vocabulario": 0.688,
+          "arquivo": "PARCT_2018_N_00002_CTAB_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Gilmara Lucia Dos Santos — Ministério da Saúde/Cofen Helga Regina Bresciani — Coren/SC",
+          "similaridade": 58.5,
+          "cobertura_vocabulario": 0.4,
+          "arquivo": "PARCT_2018_N_00002_CTAB_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Luana Cássia Miranda Ribeiro — UFG/Coren/GO/Cofen Marcleide Correia E Sá Cavalcante — Coren/PE Mariana Rodrigues — Ministério da Saúde",
+          "similaridade": 52.3,
+          "cobertura_vocabulario": 0.429,
+          "arquivo": "PARCT_2018_N_00002_CTAB_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "No Brasil, a Atenção Primária à Saúde (APS) ou Atenção Básica (AB) possui uma trajetória de ampla expansão e desenvolvimento em busca de sua consolidação, alcançando inclusive uma concepção de equivalência entre esses dois termos (BRASIL, 2017). Neste processo, a Enfermagem ocupa uma histórica e imp",
+          "similaridade": 56.0,
+          "cobertura_vocabulario": 0.6,
+          "arquivo": "PARCT_2018_N_00002_CTAB_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "cuidado prestado por seus profissionais, obtida não somente pelas vias de uma",
+          "similaridade": 59.2,
+          "cobertura_vocabulario": 0.25,
+          "arquivo": "PARCT_2018_N_00002_CTAB_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "formação de qualidade, mas com a adoção de tecnologias e instrumentos que estabeleçam diretrizes que possam nortear e qualificar as suas práticas, como exemplo, os protocolos.",
+          "similaridade": 56.7,
+          "cobertura_vocabulario": 0.6,
+          "arquivo": "PARCT_2018_N_00002_CTAB_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Na estruturação de um protocolo, alguns aspectos devem ser observados, tais como: finalidade, público-alvo, as linhas de cuidado prioritárias, evidências científicas e os princípios éticos e legais que o norteiam.",
+          "similaridade": 50.5,
+          "cobertura_vocabulario": 0.4,
+          "arquivo": "PARCT_2018_N_00002_CTAB_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "O Ministério da Saúde emite um vasto número de normas, diretrizes, manuais, dentre eles, os Cadernos de Atenção Básica, no intuito de orientar o processo de trabalho e o cuidado em saúde, no entanto se faz necessário determinar condutas específicas para cada categoria profissional. Somado a isto, a ",
+          "similaridade": 52.2,
+          "cobertura_vocabulario": 0.466,
+          "arquivo": "PARCT_2018_N_00002_CTAB_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Na APS, qualquer que seja o modelo assistencial, o enfermeiro, em conjunto com os demais profissionais, desenvolve atividades gerenciais, clínico-assistenciais, educacionais e de pesquisas, conforme suas atribuições dispostas na Política Nacional de Atenção Básica (PNAB), em consonância com o arcabo",
+          "similaridade": 50.6,
+          "cobertura_vocabulario": 0.464,
+          "arquivo": "PARCT_2018_N_00002_CTAB_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Outro ponto de destaque a ser contemplado na elaboração do protocolo é a Sistematização da Assistência de Enfermagem (SAE) com implementação do",
+          "similaridade": 66.0,
+          "cobertura_vocabulario": 0.6,
+          "arquivo": "PARCT_2018_N_00002_CTAB_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Processo de Enfermagem que deve ser realizado em todo cuidado profissional de Enfermagem de forma transversal. Esse deve ser baseado em um suporte teórico organizado em cinco etapas inter-relacionadas, interdependentes e recorrentes, quais sejam: 1. Histórico de Enfermagem (coleta de dados); 2. Diag",
+          "similaridade": 53.8,
+          "cobertura_vocabulario": 0.703,
+          "arquivo": "PARCT_2018_N_00002_CTAB_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "A SAE pressupõe a realização de um cuidado sustentado pela ciência, considerando a organização de protocolos, procedimentos e rotinas, que deve pautar-se no uso das melhores evidências em saúde.",
+          "similaridade": 52.6,
+          "cobertura_vocabulario": 0.5,
+          "arquivo": "PARCT_2018_N_00002_CTAB_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Os registros da assistência de Enfermagem prestada na APS devem ser realizado no prontuário do paciente e outros documentos inerentes à profissão, contendo todas as informações de forma clara, completa e fidedigna, a fim de garantir a comunicação assistencial entre a equipe, o que proporciona a cont",
+          "similaridade": 51.6,
+          "cobertura_vocabulario": 0.517,
+          "arquivo": "PARCT_2018_N_00002_CTAB_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Neste contexto, este documento recomenda as Diretrizes a seguir:",
+          "similaridade": 58.1,
+          "cobertura_vocabulario": 0.571,
+          "arquivo": "PARCT_2018_N_00002_CTAB_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Os principais elementos que devem ser abordados na elaboração dos protocolos são: envolvimento de profissionais com experiência e conhecimento técnico (grupo de trabalho); perfil epidemiológico local, especificidades locorregionais; delineamento dos objetivos, público-alvo e ações de enfermagem, obs",
+          "similaridade": 50.8,
+          "cobertura_vocabulario": 0.316,
+          "arquivo": "PARCT_2018_N_00002_CTAB_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Após a elaboração do protocolo é de extrema importância a revisão do",
+          "similaridade": 69.1,
+          "cobertura_vocabulario": 0.667,
+          "arquivo": "PARCT_2018_N_00002_CTAB_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "material com posterior validação e treinamento das equipes de enfermagem.",
+          "similaridade": 59.7,
+          "cobertura_vocabulario": 0.333,
+          "arquivo": "PARCT_2018_N_00002_CTAB_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "O que preciso saber sobre a legislação para elaborar um Protocolo de Enfermagem?",
+          "similaridade": 72.2,
+          "cobertura_vocabulario": 0.5,
+          "arquivo": "PARCT_2018_N_00002_CTAB_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Para subsidiar e amparar a atuação do enfermeiro na APS, o protocolo deverá considerar o embasamento ético-legal:",
+          "similaridade": 54.1,
+          "cobertura_vocabulario": 0.545,
+          "arquivo": "PARCT_2018_N_00002_CTAB_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "- Lei nº 7.498, de 25 de junho de 1986, que dispõe sobre a regulamentação do exercício da Enfermagem, no que diz respeito à profissão e sua integração na equipe de Saúde, na participação, na elaboração, execução e avaliação dos planos assistenciais de saúde. Essa norma regulamenta todas as ações da ",
+          "similaridade": 54.2,
+          "cobertura_vocabulario": 0.704,
+          "arquivo": "PARCT_2018_N_00002_CTAB_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "- Resolução Cofen nº 195/1997, que dispõe sobre a solicitação de exames de rotinas e complementares por Enfermeiros.",
+          "similaridade": 60.7,
+          "cobertura_vocabulario": 0.5,
+          "arquivo": "PARCT_2018_N_00002_CTAB_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "- Resolução Cofen nº 509/2016 que atualiza a norma técnica para Anotação de Responsabilidade técnica pelo serviço de Enfermagem e define as atribuições do enfermeiro responsável Técnico.",
+          "similaridade": 54.1,
+          "cobertura_vocabulario": 0.611,
+          "arquivo": "PARCT_2018_N_00002_CTAB_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "- Resolução Cofen nº 514/2016 que aprova o guia de recomendações para o registro de Enfermagem no prontuário do paciente, com a finalidade de nortear os profissionais de Enfermagem.",
+          "similaridade": 55.9,
+          "cobertura_vocabulario": 0.733,
+          "arquivo": "PARCT_2018_N_00002_CTAB_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "- Resolução Cofen nº 543/2017 que atualiza e estabelece parâmetros para o dimensionamento do quadro de profissionais de Enfermagem nos serviços/locais em que são realizadas atividades de Enfermagem.",
+          "similaridade": 54.4,
+          "cobertura_vocabulario": 0.625,
+          "arquivo": "PARCT_2018_N_00002_CTAB_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "- Resolução Cofen nº 564/2017 que aprova o Código de Ética dos",
+          "similaridade": 61.7,
+          "cobertura_vocabulario": 0.667,
+          "arquivo": "PARCT_2018_N_00002_CTAB_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Profissionais de Enfermagem. Esse profissional deve ter sua conduta amparada nos",
+          "similaridade": 63.3,
+          "cobertura_vocabulario": 0.571,
+          "arquivo": "PARCT_2018_N_00002_CTAB_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "conceitos éticos e legais da profissão e tem como obrigação conhecer o presente código para atuar de forma segura e legal com vista a garantia de uma assistência de Enfermagem livre da possibilidade de riscos.",
+          "similaridade": 51.9,
+          "cobertura_vocabulario": 0.381,
+          "arquivo": "PARCT_2018_N_00002_CTAB_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "- Demais Resoluções específicas emitidas pelo Cofen que norteiam condutas inseridas nos protocolos.",
+          "similaridade": 56.2,
+          "cobertura_vocabulario": 0.6,
+          "arquivo": "PARCT_2018_N_00002_CTAB_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "- Lei nº 8.080 de 19 de setembro de 1990, que dispõe sobre as condições para a promoção, proteção e recuperação da saúde, a organização e o funcionamento dos serviços correspondentes e dá outras providências.",
+          "similaridade": 53.5,
+          "cobertura_vocabulario": 0.688,
+          "arquivo": "PARCT_2018_N_00002_CTAB_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "As evidências são as informações cientificamente fundamentadas que justificam as ações propostas. Segundo Oliveira (2010) o profissional deve associar esse conhecimento a sua experiência, devendo levar em conta valores, crenças e preferências do paciente, além da organização da rede de Atenção à Saú",
+          "similaridade": 52.4,
+          "cobertura_vocabulario": 0.464,
+          "arquivo": "PARCT_2018_N_00002_CTAB_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Desta forma, ao elaborá-lo, deve-se incluir: a descrição das estratégias de buscas da evidência (revisão da literatura), a descrição de níveis de gradação, a força da recomendação, a identificação do percentual da recomendação, considerações sobre segurança das ações, práticas não efetivas e mau uso",
+          "similaridade": 50.5,
+          "cobertura_vocabulario": 0.333,
+          "arquivo": "PARCT_2018_N_00002_CTAB_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "A prática da Enfermagem no âmbito da APS deve estar fundamentada na Lei do Exercício Profissional, Lei nº 7.498/1986 e Decreto nº 94.406/1987. Cabe ressaltar que essa prática, deve ser respeitada em todas as suas dimensões e os graus de habilitação: enfermeiro, técnico de enfermagem e auxiliar de en",
+          "similaridade": 57.1,
+          "cobertura_vocabulario": 0.593,
+          "arquivo": "PARCT_2018_N_00002_CTAB_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "A seguir encontram-se as atribuições da equipe de Enfermagem previstas na",
+          "similaridade": 65.8,
+          "cobertura_vocabulario": 0.667,
+          "arquivo": "PARCT_2018_N_00002_CTAB_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Lei do Exercício da Profissão de Enfermagem e sua regulamentação:",
+          "similaridade": 71.9,
+          "cobertura_vocabulario": 0.5,
+          "arquivo": "PARCT_2018_N_00002_CTAB_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "ATRIBUIÇÕES Lei 7.498/1986 Decreto 94.406/1987 Art. 11 - | - Privativamente: Art. 8- | - Privativamente: a) Direção do órgão dela) Direção do órgão de Enfermagem integrante da | Enfermagem integrante da",
+          "similaridade": 48.6,
+          "cobertura_vocabulario": 0.4,
+          "arquivo": "PARCT_2018_N_00002_CTAB_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "estrutura básica da instituição de | estrutura básica da instituição de saúde, pública ou privada, e chefia | saúde, pública ou privada, e chefia de serviço e de unidade de | de serviço e de unidade de Enfermagem; Enfermagem;",
+          "similaridade": 52.6,
+          "cobertura_vocabulario": 0.4,
+          "arquivo": "PARCT_2018_N_00002_CTAB_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "b) Organização e direção dos | b) Organização e direção dos serviços de Enfermagem e de suas | serviços de Enfermagem e de suas atividades técnicas e auxiliares nas | atividades técnicas e auxiliares nas empresas prestadoras desses | empresas prestadoras desses",
+          "similaridade": 52.2,
+          "cobertura_vocabulario": 0.364,
+          "arquivo": "PARCT_2018_N_00002_CTAB_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "c) Planejamento, organização, |c) Planejamento, organização, coordenação, execução e | coordenação, execução e avaliação avaliação dos serviços da|dos serviços da assistência de assistência de Enfermagem; Enfermagem;",
+          "similaridade": 52.2,
+          "cobertura_vocabulario": 0.625,
+          "arquivo": "PARCT_2018_N_00002_CTAB_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "h) Consultoria, auditoria e emissão | d) Consultoria, auditoria e emissão de parecer sobre matéria de | de parecer sobre matéria de",
+          "similaridade": 55.3,
+          "cobertura_vocabulario": 0.5,
+          "arquivo": "PARCT_2018_N_00002_CTAB_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "j)) Prescrição da assistência de | f) Prescrição da assistência de Enfermagem; Enfermagem;",
+          "similaridade": 63.9,
+          "cobertura_vocabulario": 0.667,
+          "arquivo": "PARCT_2018_N_00002_CTAB_PDF_SITE.pdf"
+        }
+      ]
+    },
+    {
+      "codigo": "C012",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+    }
+  ],
+  "conferencia_por_dispositivo": [
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_EPIGRAFE_001",
+      "tipo": "epigrafe",
+      "resultado": "DIVERGENTE",
+      "similaridade": 54.2
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_IDENTIFICACAO_PROCESSO_001",
+      "tipo": "identificacao_processo",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 64.7
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_SECAO_001",
+      "tipo": "secao",
+      "resultado": "DIVERGENTE",
+      "similaridade": 60.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_PARAGRAFO_TEXTO_001",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_SECAO_002",
+      "tipo": "secao",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 84.6
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_PARAGRAFO_TEXTO_002",
+      "tipo": "paragrafo_texto",
+      "resultado": "DIVERGENTE",
+      "similaridade": 53.6
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_PARAGRAFO_TEXTO_003",
+      "tipo": "paragrafo_texto",
+      "resultado": "DIVERGENTE",
+      "similaridade": 48.1
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_SECAO_003",
+      "tipo": "secao",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 66.7
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_PARAGRAFO_TEXTO_004",
+      "tipo": "paragrafo_texto",
+      "resultado": "DIVERGENTE",
+      "similaridade": 54.6
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_PARAGRAFO_TEXTO_005",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 56.4
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_PARAGRAFO_TEXTO_006",
+      "tipo": "paragrafo_texto",
+      "resultado": "DIVERGENTE",
+      "similaridade": 58.1
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_PARAGRAFO_TEXTO_007",
+      "tipo": "paragrafo_texto",
+      "resultado": "DIVERGENTE",
+      "similaridade": 56.5
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_PARAGRAFO_TEXTO_008",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 97.4
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_PARAGRAFO_TEXTO_009",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 95.8
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_PARAGRAFO_TEXTO_010",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 75.3
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_PARAGRAFO_TEXTO_011",
+      "tipo": "paragrafo_texto",
+      "resultado": "DIVERGENTE",
+      "similaridade": 59.1
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_INCISO_001",
+      "tipo": "inciso",
+      "resultado": "DIVERGENTE",
+      "similaridade": 56.4
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_INCISO_002",
+      "tipo": "inciso",
+      "resultado": "DIVERGENTE",
+      "similaridade": 55.8
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_INCISO_003",
+      "tipo": "inciso",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 52.6
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_INCISO_004",
+      "tipo": "inciso",
+      "resultado": "DIVERGENTE",
+      "similaridade": 58.1
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_INCISO_005",
+      "tipo": "inciso",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 51.6
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_SECAO_004",
+      "tipo": "secao",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 71.4
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_PARAGRAFO_TEXTO_012",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 59.3
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_PARAGRAFO_TEXTO_013",
+      "tipo": "paragrafo_texto",
+      "resultado": "DIVERGENTE",
+      "similaridade": 58.6
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_PARAGRAFO_TEXTO_014",
+      "tipo": "paragrafo_texto",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 59.7
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_PARAGRAFO_TEXTO_015",
+      "tipo": "paragrafo_texto",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 60.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_LOCAL_DATA_001",
+      "tipo": "local_data",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 58.6
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_PARAGRAFO_TEXTO_016",
+      "tipo": "paragrafo_texto",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 49.7
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_ASSINATURA_001",
+      "tipo": "assinatura",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 58.6
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_PARAGRAFO_TEXTO_017",
+      "tipo": "paragrafo_texto",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 70.6
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_SECAO_005",
+      "tipo": "secao",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 65.5
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_ITEM_001",
+      "tipo": "item",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 99.7
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_ITEM_002",
+      "tipo": "item",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 62.4
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_ITEM_003",
+      "tipo": "item",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 99.4
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_ITEM_004",
+      "tipo": "item",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 99.3
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_PARAGRAFO_TEXTO_018",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_ITEM_005",
+      "tipo": "item",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 98.7
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_ITEM_006",
+      "tipo": "item",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 99.1
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_ITEM_007",
+      "tipo": "item",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 99.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_ITEM_008",
+      "tipo": "item",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 99.4
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_ITEM_009",
+      "tipo": "item",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 99.6
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_SECAO_006",
+      "tipo": "secao",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 66.7
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_PARAGRAFO_TEXTO_019",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 93.4
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2018_N_00002_CTAB_PARAGRAFO_TEXTO_020",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 89.2
+    }
+  ],
+  "data_verificacao": "2026-10-10",
+  "responsavel": "Triagem automatizada - requer validação humana"
+}

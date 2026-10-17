@@ -1,0 +1,43 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-272-ms-1998-requisitos-minimos-para-terapia-de-nutricao-parenteral/ (API WordPress post 51471); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_1998_N_00272_ATOMOS_V1.jsonl",
+      "sha256": "9001110bc0b2bdb3533e384168b01cfd946935b095426164026881b5c0407ed1",
+      "tamanho": 681
+    },
+    {
+      "nome": "PORT_1998_N_00272_CONTEUDO_SITE_API.json",
+      "sha256": "f2d9b13a16552f37e586502d3b65757ed36fca92647f10f5c5f2aa50877af534",
+      "tamanho": 401
+    },
+    {
+      "nome": "PORT_1998_N_00272_NORMA_V1.json",
+      "sha256": "7ad48123afe70cb512a2edd6aa294ae0e18a77fc6f7f72bf4bd60e2975e37fb0",
+      "tamanho": 1981
+    },
+    {
+      "nome": "PORT_1998_N_00272_PAGINA_SITE.html",
+      "sha256": "d91359d76164c87bda09f33071924bf79848e6bf0a5fd210176a21ec63c9280d",
+      "tamanho": 436176
+    },
+    {
+      "nome": "PORT_1998_N_00272_TEXTO_FONTE_V1.txt",
+      "sha256": "da925131919f3d2f6da59a2c9891f81b1471b4d2e5f75e19b9929dd159f66200",
+      "tamanho": 83
+    },
+    {
+      "nome": "PORT_1998_N_00272_VALIDACAO_V1.json",
+      "sha256": "e51613f5c91f7619b70f89015ba59b557ee5dc25d971eab21e0403ccb7f04c8e",
+      "tamanho": 2923
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Página do site quase sem texto (0 caracteres) e sem PDF do ato; conteúdo do ato não disponível.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

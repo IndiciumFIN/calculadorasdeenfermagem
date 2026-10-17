@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-asslegis-no-138-2018/ (API WordPress post 68332); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARASS_2018_N_00138_ATOMOS_V1.jsonl",
+      "sha256": "3499af6c5965e97defa8d754022b500b1359818e40707970e29d5727d7bbacf6",
+      "tamanho": 20904
+    },
+    {
+      "nome": "PARASS_2018_N_00138_CONTEUDO_SITE_API.json",
+      "sha256": "b16909eb4862cb1c045a22bf43022912cfa269c5f9279058c6016d2b066434c4",
+      "tamanho": 4438
+    },
+    {
+      "nome": "PARASS_2018_N_00138_NORMA_V1.json",
+      "sha256": "a46d169c29081ac646a5714dc78cc98a930752bb727cbe554fb30d7c7b8e2892",
+      "tamanho": 2646
+    },
+    {
+      "nome": "PARASS_2018_N_00138_PAGINA_SITE.html",
+      "sha256": "a40c1e78e63f62ec47a4231a1988cee68f2714cff6f70ab52d5f0103434f02c0",
+      "tamanho": 441285
+    },
+    {
+      "nome": "PARASS_2018_N_00138_TEXTO_FONTE_V1.txt",
+      "sha256": "9a57c96e626003154670cf2bb64f73f711a00c5868fae31dbc2d43290f68c883",
+      "tamanho": 3609
+    },
+    {
+      "nome": "PARASS_2018_N_00138_VALIDACAO_V1.json",
+      "sha256": "83580e2783f0b123ada73561e564ce5e079dcb4c2aa601d5c1864eac26ee8964",
+      "tamanho": 2450
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

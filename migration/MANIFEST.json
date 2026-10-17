@@ -1,0 +1,81 @@
+{
+  "schema": "CE-GIT-DIRECTORY-MIGRATION-MANIFEST-1.0.0",
+  "work_order": "CE-WO-GITHUB-FULL-DIRECTORY-20261017",
+  "authority_status": "WO_DOCUMENTED_GIT_NOT_KERNEL_ADMITTED",
+  "user_request": "Revisar novamente.... na sequencia executar a migracao completa do diretorio",
+  "scope": "All non-main branch Git directory snapshots; migration within repository, not source Drive ingestion",
+  "destination": "migration/source_snapshots/",
+  "destination_branch": "migration/full-directory-20261017",
+  "main_baseline_commit": "7534911881fc942f7ac0f73238dbc4b7a209d5ab",
+  "main_baseline_file_count": 161,
+  "snapshot_mode": "LOSSLESS_TREE_REFERENCE",
+  "snapshots": [
+    {
+      "name": "cursor-drive-sa-key-refactor",
+      "branch": "cursor/drive-sa-key-refactor",
+      "commit": "fc857df8306b81915f191d3f0744f7a322047b21",
+      "root_tree": "fd5818f42c6a6f716996d8c9418ba87a079d0c59",
+      "files": 9366
+    },
+    {
+      "name": "cursor-fix-governance-gaps-ec54",
+      "branch": "cursor/fix-governance-gaps-ec54",
+      "commit": "5f1c03d5ed2f2d4ed583431fc50adced2daba21b",
+      "root_tree": "1fe3a5ded9e543dcbcc6ba833afbd1931a1b76e1",
+      "files": 9363
+    },
+    {
+      "name": "cursor-wf-gdrive-sakey",
+      "branch": "cursor/wf-gdrive-sakey",
+      "commit": "4e3d4979e3da82c9fc7ff71beaf87fba73aa8702",
+      "root_tree": "16548d1bc7e08033d5ea21f5742ce0cfe6b4bac2",
+      "files": 78
+    },
+    {
+      "name": "cursor-wf-v3",
+      "branch": "cursor/wf-v3",
+      "commit": "8056d08a35cfb7932933fa330d8c902e5a465710",
+      "root_tree": "2c74e968365835b2154a3a2e9abdaff165272040",
+      "files": 69
+    },
+    {
+      "name": "staging-wo-kernel-normativos-cli-20261016",
+      "branch": "staging/wo-kernel-normativos-cli-20261016",
+      "commit": "c54d416b7f4c8a465798ccbebad9973799dd07ab",
+      "root_tree": "9ec730337f7069825e76a76f7a0ff90275e3d8eb",
+      "files": 79
+    }
+  ],
+  "main_vs_drive": {
+    "unique_drive_paths": 9293,
+    "unique_main_paths": 88,
+    "same_path_different_git_sha1": 21,
+    "same_path_equal_git_sha1": 52,
+    "unique_drive_data_paths": 9026,
+    "observed_git_blob_size_bytes_in_drive_tree": 4669072294,
+    "sha1_collision_or_duplicate_groups_not_discarded": true
+  },
+  "controls": {
+    "main_tree_overwritten": false,
+    "source_branches_modified": false,
+    "source_branches_deleted": false,
+    "source_blobs_modified": false,
+    "source_git_tree_comparison": "CHECK_SNAPSHOT_ROOT_TREE_SHA_MATCH",
+    "content_sha256_rehash_complete": false,
+    "physical_drive_archives_verified_in_full": false,
+    "license_review_complete": false,
+    "clinical_validation_complete": false,
+    "normative_vigency_approved": false,
+    "dedup_authorized": false,
+    "can_merge_operational_corpus": false
+  },
+  "status": "MIGRATION_SNAPSHOT_STAGED_NOT_CANONICAL",
+  "hold_human": [
+    "21 path version conflicts",
+    "16 missing parsers for current main source contracts",
+    "9 unimplemented validator stubs",
+    "large raw corpus licensing and clinical provenance",
+    "Drive ZIP member verification",
+    "repository checkout size/performance"
+  ]
+}

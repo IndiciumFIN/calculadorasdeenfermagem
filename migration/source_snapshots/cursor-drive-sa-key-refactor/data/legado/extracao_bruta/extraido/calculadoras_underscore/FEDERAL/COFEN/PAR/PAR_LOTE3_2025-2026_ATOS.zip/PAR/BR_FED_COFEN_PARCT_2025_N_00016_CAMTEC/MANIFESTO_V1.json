@@ -1,0 +1,56 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-16-2025-camaras-tecnicas-de-enfermagem/ (API WordPress post 145349); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "IMAGENS_SITE/Captura-de-Tela-317.png",
+      "sha256": "24a10fbe9fba1ac6ee7ea74beedd3081a3b0f447cea32f784c24ebca6deb8c59",
+      "tamanho": 26506
+    },
+    {
+      "nome": "PARCT_2025_N_00016_CAMTEC_ATOMOS_V1.jsonl",
+      "sha256": "1204b03930eb7da9b599d4470d80f1be3c9389b2bc27d0f7644f39885d2d2f32",
+      "tamanho": 68326
+    },
+    {
+      "nome": "PARCT_2025_N_00016_CAMTEC_CONTEUDO_SITE_API.json",
+      "sha256": "a0eb00bc841f99bfe0ec902482154a78dbaea1ad1b31538c269c90759d8b097b",
+      "tamanho": 15518
+    },
+    {
+      "nome": "PARCT_2025_N_00016_CAMTEC_NORMA_V1.json",
+      "sha256": "41e239f16dd8f8ed0644add939d70adff772445da8d14dc4f685303afa9dded3",
+      "tamanho": 7274
+    },
+    {
+      "nome": "PARCT_2025_N_00016_CAMTEC_PAGINA_SITE.html",
+      "sha256": "d227b68c6e28041f14eab6dfe8b90231aaae467fe1856e194f7898363b40bca6",
+      "tamanho": 456026
+    },
+    {
+      "nome": "PARCT_2025_N_00016_CAMTEC_PDF_SITE.pdf",
+      "sha256": "c8b6de4896f5905a239858ca8f5c2480730d577e3dc71763e6d15ecffe16f0f4",
+      "tamanho": 247021
+    },
+    {
+      "nome": "PARCT_2025_N_00016_CAMTEC_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "3ea53c23f9a99420f2a0fd0fc6e31daa493b9ab8d7c9eeafab62008354eb5d3f",
+      "tamanho": 14198
+    },
+    {
+      "nome": "PARCT_2025_N_00016_CAMTEC_TEXTO_FONTE_V1.txt",
+      "sha256": "9561dab71824bbd854ba7aec843f708f8485d93932bc4a74803409479e4eca6d",
+      "tamanho": 12577
+    },
+    {
+      "nome": "PARCT_2025_N_00016_CAMTEC_VALIDACAO_V1.json",
+      "sha256": "e981a7b2a45df5f99ea98cf6ca955984e53bc402c1cf7e91899712c80353fd5c",
+      "tamanho": 14456
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo."
+  ]
+}

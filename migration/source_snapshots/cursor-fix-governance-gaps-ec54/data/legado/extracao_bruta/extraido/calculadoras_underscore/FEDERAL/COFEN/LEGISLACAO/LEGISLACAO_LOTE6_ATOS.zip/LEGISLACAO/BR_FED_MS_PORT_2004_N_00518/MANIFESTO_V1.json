@@ -1,0 +1,54 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-518ms-2004-qualidade-da-agua-para-consumo-humano-e-potabilidade-dou-no-59-sexta-feira-26-de-marco-de-2004/ (API WordPress post 51483); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2004_N_00518_ATOMOS_V1.jsonl",
+      "sha256": "336b704227afbf81d678658766a0490b8c5caecb19264889594b8f82dc80a385",
+      "tamanho": 313141
+    },
+    {
+      "nome": "PORT_2004_N_00518_CONTEUDO_SITE_API.json",
+      "sha256": "f766040f30c3e477c3c67981cd7971e9c1cdbef288cdff693bf27f71adca5909",
+      "tamanho": 548
+    },
+    {
+      "nome": "PORT_2004_N_00518_NORMA_V1.json",
+      "sha256": "ca57cd50eb24fac383a81cc72575226d6f6cda6551ade3830015c9aa9b46da26",
+      "tamanho": 7985
+    },
+    {
+      "nome": "PORT_2004_N_00518_PAGINA_SITE.html",
+      "sha256": "c47414d4ca9a251f229f101ea77661941f2f2a9f689e174e68304a610c4ea1b2",
+      "tamanho": 437507
+    },
+    {
+      "nome": "PORT_2004_N_00518_PDF_SITE.pdf",
+      "sha256": "60d9b99081d40d82f3dda3239f997faecff681fe7ae22b1c0e7759e80ea6a8f7",
+      "tamanho": 228959
+    },
+    {
+      "nome": "PORT_2004_N_00518_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "b2716b0af7aca37aec400391fe994e839795beab6313f63c1b3b7b82e7d8cca0",
+      "tamanho": 60593
+    },
+    {
+      "nome": "PORT_2004_N_00518_TEXTO_FONTE_V1.txt",
+      "sha256": "f1408f18c48ba04385897f03eae81f24dd46e2c48a0848e4ddcd1fdecbc428e0",
+      "tamanho": 60662
+    },
+    {
+      "nome": "PORT_2004_N_00518_VALIDACAO_V1.json",
+      "sha256": "f418903802ed98a29e3bc7d29a23fbd64264830717002992a89fca24ff44404f",
+      "tamanho": 6383
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+    "Texto do ato disponível apenas no PDF (o site traz só título/resumo); atomização feita a partir da camada de texto do PDF.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

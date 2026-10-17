@@ -1,0 +1,153 @@
+{
+  "identificador": "BR_FED_COFEN_PORT_2022_N_00446",
+  "resultado_processo": "PENDENTE",
+  "rotulo": "Pendente de verificação",
+  "controles": [
+    {
+      "nome": "Identificação do ato e emissor",
+      "resultado": "PASS",
+      "evidencia": "PORTARIA COFEN Nº 446 DE 5 DE ABRIL DE 2022"
+    },
+    {
+      "nome": "Conferência site HTML × PDF oficial, dispositivo a dispositivo",
+      "resultado": "FAIL",
+      "status": "EXECUTADA_VIA_OCR",
+      "evidencia": {
+        "dispositivos_comparados": 9,
+        "por_resultado": {
+          "DIVERGENTE": 1,
+          "EQUIVALENTE_OCR": 6,
+          "IDENTICO_NORMALIZADO": 2
+        },
+        "trechos_pdf_ausentes_no_site": 0,
+        "pdf": "PORT_2022_N_00446_PDF_SITE.pdf"
+      }
+    },
+    {
+      "nome": "Publicação no DOU (registro, sem verificação online)",
+      "resultado": "NAO_CITADO",
+      "evidencia": null
+    },
+    {
+      "nome": "Anexos referenciados presentes e atomizados",
+      "resultado": "NAO_APLICAVEL",
+      "status": "SEM_ANEXO_REFERENCIADO",
+      "referencias": []
+    },
+    {
+      "nome": "Numeração contígua (seções, itens, alíneas)",
+      "resultado": "PASS",
+      "evidencia": null
+    },
+    {
+      "nome": "Conferência humana da literalidade",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Pesquisa de alterações posteriores",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Direitos autorais do texto do ato oficial",
+      "resultado": "PASS",
+      "fundamento": "Lei 9.610/1998, art. 8, IV"
+    }
+  ],
+  "fechamento": {
+    "apto": false,
+    "status": "PENDENCIAS",
+    "justificativa": "Aguardando revisão humana da atomização e pesquisa de atos posteriores. Há achados bloqueantes adicionais."
+  },
+  "achados": [
+    {
+      "codigo": "C001",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Atomização automática; requer conferência humana da segmentação e da literalidade."
+    },
+    {
+      "codigo": "C002",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada."
+    },
+    {
+      "codigo": "C011",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "1 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+      "evidencia": [
+        {
+          "identificador": "BR_FED_COFEN_PORT_2022_N_00446_CONSIDERANDO_001",
+          "resultado": "DIVERGENTE",
+          "similaridade": 84.3,
+          "trecho": "CONSIDERANDO os termos da Decisão Cofen nº 072/2021;"
+        }
+      ]
+    },
+    {
+      "codigo": "C012",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+    }
+  ],
+  "conferencia_por_dispositivo": [
+    {
+      "identificador": "BR_FED_COFEN_PORT_2022_N_00446_EPIGRAFE_001",
+      "tipo": "epigrafe",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 69.8
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2022_N_00446_PREAMBULO_001",
+      "tipo": "preambulo",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 96.5
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2022_N_00446_CONSIDERANDO_001",
+      "tipo": "considerando",
+      "resultado": "DIVERGENTE",
+      "similaridade": 84.3
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2022_N_00446_CONSIDERANDO_002",
+      "tipo": "considerando",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 97.6
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2022_N_00446_ART_001",
+      "tipo": "artigo",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 97.5
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2022_N_00446_ART_002",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2022_N_00446_ART_003",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2022_N_00446_LOCAL_DATA_001",
+      "tipo": "local_data",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 96.4
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2022_N_00446_ASSINATURA_001",
+      "tipo": "assinatura",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 94.1
+    }
+  ],
+  "data_verificacao": "2026-10-10",
+  "responsavel": "Triagem automatizada - requer validação humana"
+}

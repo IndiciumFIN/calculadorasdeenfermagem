@@ -1,0 +1,51 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-da-assessoria-institucional-no-001-2020-rai-cofen/ (API WordPress post 85058); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARASS_2020_N_00006_RAI_ATOMOS_V1.jsonl",
+      "sha256": "a21066b78c165cde8759099285624e103ddfa89f77a52ce990d108eb68e669e3",
+      "tamanho": 55940
+    },
+    {
+      "nome": "PARASS_2020_N_00006_RAI_CONTEUDO_SITE_API.json",
+      "sha256": "fcd1068fb3136c5d959184e2d3d05de3ac7f10f2bd202d248b0d677287650280",
+      "tamanho": 14129
+    },
+    {
+      "nome": "PARASS_2020_N_00006_RAI_NORMA_V1.json",
+      "sha256": "f21493a68a9f676610b12cb5ae4a14df2178e09fcd2781bf1f2b5dd78aff9c8b",
+      "tamanho": 3830
+    },
+    {
+      "nome": "PARASS_2020_N_00006_RAI_PAGINA_SITE.html",
+      "sha256": "94d76617dfcaab8b24be604ff27c24e5725a6af566f9f7038e7c0b7003090563",
+      "tamanho": 452123
+    },
+    {
+      "nome": "PARASS_2020_N_00006_RAI_PDF_SITE.pdf",
+      "sha256": "d906f1dad67b8ed0a07e93445d259ff0f291a6e9f901e7e51852d83e34b64d9b",
+      "tamanho": 739998
+    },
+    {
+      "nome": "PARASS_2020_N_00006_RAI_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "5fcb36d95655b53e161995c9542d11fe10a5c4c1591d7cba8deceee2c0a86aec",
+      "tamanho": 38269
+    },
+    {
+      "nome": "PARASS_2020_N_00006_RAI_TEXTO_FONTE_V1.txt",
+      "sha256": "dfda058c69470a50df6ee27099a2892f7803ba51982ab58aa1768b4f340bf001",
+      "tamanho": 12027
+    },
+    {
+      "nome": "PARASS_2020_N_00006_RAI_VALIDACAO_V1.json",
+      "sha256": "51c0159ba97d2f06b7775e8ede10e081d4f2b4da90a423cffaa3cfa40d65a365",
+      "tamanho": 12442
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "O PDF anexado à página não corresponde ao ato (documento diferente); não há PDF do próprio ato."
+  ]
+}
