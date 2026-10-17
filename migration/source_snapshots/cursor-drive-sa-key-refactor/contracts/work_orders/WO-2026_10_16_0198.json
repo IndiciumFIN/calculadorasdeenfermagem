@@ -1,0 +1,25 @@
+{
+  "id": "WO-2026_10_16_0198",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "task_id": "TAREFA-IMPORTAR-DRIVE",
+  "task_type": "importar-drive",
+  "task_version": "1.0.0",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "entradas": [
+    {
+      "id_origem": "1BlJcgdqn93-JyVkPTw9-QmHnpjTpUH0x",
+      "caminho": "data/legado/extracao_bruta/CONTEUDOS_CE_WAVE10/IMAGEM_INSTITUCIONAL/1BlJcgdqn93-JyVkPTw9-QmHnpjTpUH0x/logotipo-calculadoras-de-enfermagem.webp",
+      "classe": "REFERENCIA",
+      "sha256": "4f74760fdb8a61236d752159a92a5f5fd264186641da32aedb49a28ca55d6ac3"
+    }
+  ],
+  "parametros": {
+    "source_provider": "google_drive",
+    "source_mount": "logotipo-calculadoras-de-enfermagem.webp",
+    "lote": "WAVE10-CONTENT-BROADENED",
+    "publicacao": "BLOQUEADA",
+    "exclusao": "BLOQUEADA"
+  }
+}

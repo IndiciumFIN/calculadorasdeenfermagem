@@ -1,0 +1,63 @@
+{
+  "work_order": "WO-2026_10_15_0093",
+  "checker_id": "kernel-validar",
+  "authorized_by": "IndiciumFIN",
+  "itens": [
+    {
+      "id_origem": "1r6OLEYIUbm7cvfGHfEk6ot7tvh2CLB6b",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/PORT/PORT_LOTE4_2024-2026_ATOS.zip",
+      "sha256": "9654300fa6a3c9f33b4234eb5e62c6f3882e802d43ed79ffb1543bb572e6347c",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1-Nbcny8pEyBS9XOj0INxhNiDJGTAkGN2",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/PORT/PORT_LOTE4_2004-2020_ATOS_PARTE2.zip",
+      "sha256": "6ed21fd699b8c626ab6b6d3973c3c92f5fcc4a8e458a078b9ebce237a32821d3",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1rtfR3GvJxBsODz-qiDwHfLfPuuAfq8MU",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/PORT/PORT_LOTE4_2004-2020_ATOS_PARTE1.zip",
+      "sha256": "5669891bf0450d2e2ffcff924c8085055389101eebd7361363ea0bbef14461ac",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1Nb7juaHoXbkYYxKcSpHsNbYIjIpfamiQ",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/PORT/PORT_LOTE4_2021-2023_ATOS_PARTE2.zip",
+      "sha256": "07ccd392d82f51fd4a639eac6d604e64c37f64be599427ac3f980b0673bd7620",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1-ZUJggFmVFX2hKUbWTwSXNlPizTWAlst",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/PORT/PORT_LOTE5_ATOS.zip",
+      "sha256": "05b28b3c5473a0163f9f649e61ca44bd33e3e50d5c0415df1524652273092682",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1TDCQT6S1hPLdGexv8LK4146QwfLTY7Wl",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/LEGISLACAO/LEGISLACAO_LOTE6_ATOS.zip",
+      "sha256": "5ad384fc0ae4a30d4c78a44048d45e7a6a2c978712bfe9e66b1d7eb0c78cd3a7",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1FvYgWADv5_6qhV8ZoJekLqooM_sc4WK-",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/OUTROS/OUTROS_LOTE5_ATOS.zip",
+      "sha256": "6aab8c67bea46a84775736a2a35e684fa5a461966464d1074dd71c4a76759e94",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "10rWy28QdQavqZNZ1XMfMhr3_6xrb4oRO",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/EDITAL/EDITAL_LOTE5_ATOS.zip",
+      "sha256": "078f28fff0ce75e03bbf5e97321668f4e150b5dd3879c44be3598b80887d6efa",
+      "resultado": "PASS",
+      "atomos": 0
+    }
+  ]
+}

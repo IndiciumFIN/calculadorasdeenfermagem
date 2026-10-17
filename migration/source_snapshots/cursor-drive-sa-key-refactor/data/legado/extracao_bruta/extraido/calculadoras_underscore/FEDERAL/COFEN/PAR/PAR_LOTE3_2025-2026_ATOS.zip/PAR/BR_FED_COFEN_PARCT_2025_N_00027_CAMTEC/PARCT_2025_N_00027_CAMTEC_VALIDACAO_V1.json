@@ -1,0 +1,408 @@
+{
+  "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC",
+  "resultado_processo": "PASS",
+  "rotulo": "Validado com apontamentos",
+  "controles": [
+    {
+      "nome": "Identificação do ato e emissor",
+      "resultado": "PASS",
+      "evidencia": "PARECER Nº 27/2025/CÂMARAS TÉCNICAS DE ENFERMAGEM"
+    },
+    {
+      "nome": "Conferência site HTML × PDF oficial, dispositivo a dispositivo",
+      "resultado": "PASS",
+      "status": "EXECUTADA_TEXTO_PDF",
+      "evidencia": {
+        "dispositivos_comparados": 55,
+        "por_resultado": {
+          "DIFERENCA_MENOR": 6,
+          "IDENTICO_NORMALIZADO": 49
+        },
+        "trechos_pdf_ausentes_no_site": 0,
+        "pdf": "PARCT_2025_N_00027_CAMTEC_PDF_SITE.pdf"
+      }
+    },
+    {
+      "nome": "Publicação no DOU (registro, sem verificação online)",
+      "resultado": "NAO_CITADO",
+      "evidencia": null
+    },
+    {
+      "nome": "Anexos referenciados presentes e atomizados",
+      "resultado": "NAO_APLICAVEL",
+      "status": "SEM_ANEXO_REFERENCIADO",
+      "referencias": []
+    },
+    {
+      "nome": "Numeração contígua (seções, itens, alíneas)",
+      "resultado": "PASS",
+      "evidencia": null
+    },
+    {
+      "nome": "Conferência humana da literalidade",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Pesquisa de alterações posteriores",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Direitos autorais do texto do ato oficial",
+      "resultado": "PASS",
+      "fundamento": "Lei 9.610/1998, art. 8, IV"
+    }
+  ],
+  "fechamento": {
+    "apto": false,
+    "status": "PENDENCIAS",
+    "justificativa": "Aguardando revisão humana da atomização e pesquisa de atos posteriores."
+  },
+  "achados": [
+    {
+      "codigo": "C001",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Atomização automática; requer conferência humana da segmentação e da literalidade."
+    },
+    {
+      "codigo": "C002",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada."
+    }
+  ],
+  "conferencia_por_dispositivo": [
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_EPIGRAFE_001",
+      "tipo": "epigrafe",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_IDENTIFICACAO_PROCESSO_001",
+      "tipo": "identificacao_processo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_SECAO_001",
+      "tipo": "secao",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_ASSUNTO_001",
+      "tipo": "assunto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_SECAO_002",
+      "tipo": "secao",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_ITEM_001",
+      "tipo": "item",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_SECAO_003",
+      "tipo": "secao",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_ITEM_002",
+      "tipo": "item",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_SECAO_004",
+      "tipo": "secao",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_ITEM_003",
+      "tipo": "item",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_ITEM_004",
+      "tipo": "item",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_ART_001",
+      "tipo": "artigo_transcrito",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_ART_001_INC_I",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_ART_001_INC_II",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_ITEM_005",
+      "tipo": "item",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_ART_002",
+      "tipo": "artigo_transcrito",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_ART_002_INC_I",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_ART_002_INC_II",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_ART_002_INC_III",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_SECAO_005",
+      "tipo": "secao",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_ART_001_2",
+      "tipo": "artigo_transcrito",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_ITEM_006",
+      "tipo": "item",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_ITEM_LISTA_001",
+      "tipo": "item_lista",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_ITEM_LISTA_002",
+      "tipo": "item_lista",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_ITEM_LISTA_003",
+      "tipo": "item_lista",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_ITEM_007",
+      "tipo": "item",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_ITEM_008",
+      "tipo": "item",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_ART_018",
+      "tipo": "artigo_transcrito",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_ITEM_009",
+      "tipo": "item",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_ART_035",
+      "tipo": "artigo_transcrito",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_ITEM_010",
+      "tipo": "item",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_ART_049",
+      "tipo": "artigo_transcrito",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_ITEM_011",
+      "tipo": "item",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_SECAO_006",
+      "tipo": "secao",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_ITEM_012",
+      "tipo": "item",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_ITEM_013",
+      "tipo": "item",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_ITEM_014",
+      "tipo": "item",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_ITEM_015",
+      "tipo": "item",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_ITEM_016",
+      "tipo": "item",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_ITEM_017",
+      "tipo": "item",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_ITEM_018",
+      "tipo": "item",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_SECAO_007",
+      "tipo": "secao",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_REFERENCIA_001",
+      "tipo": "referencia",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_REFERENCIA_002",
+      "tipo": "referencia",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_REFERENCIA_003",
+      "tipo": "referencia",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_REFERENCIA_004",
+      "tipo": "referencia",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_REFERENCIA_005",
+      "tipo": "referencia",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_REFERENCIA_006",
+      "tipo": "referencia",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_REFERENCIA_007",
+      "tipo": "referencia",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_REFERENCIA_008",
+      "tipo": "referencia",
+      "resultado": "DIFERENCA_MENOR",
+      "similaridade": 98.3
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_REFERENCIA_009",
+      "tipo": "referencia",
+      "resultado": "DIFERENCA_MENOR",
+      "similaridade": 98.1
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_REFERENCIA_010",
+      "tipo": "referencia",
+      "resultado": "DIFERENCA_MENOR",
+      "similaridade": 98.2
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_REFERENCIA_011",
+      "tipo": "referencia",
+      "resultado": "DIFERENCA_MENOR",
+      "similaridade": 97.2
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_REFERENCIA_012",
+      "tipo": "referencia",
+      "resultado": "DIFERENCA_MENOR",
+      "similaridade": 98.5
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2025_N_00027_CAMTEC_REFERENCIA_013",
+      "tipo": "referencia",
+      "resultado": "DIFERENCA_MENOR",
+      "similaridade": 99.1
+    }
+  ],
+  "data_verificacao": "2026-10-10",
+  "responsavel": "Triagem automatizada - requer validação humana"
+}

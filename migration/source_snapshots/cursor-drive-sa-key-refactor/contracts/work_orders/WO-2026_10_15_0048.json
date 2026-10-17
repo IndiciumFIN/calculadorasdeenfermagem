@@ -1,0 +1,40 @@
+{
+  "id": "WO-2026_10_15_0048",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "task_id": "TAREFA-OBTER",
+  "task_version": "1.0.0",
+  "task_type": "obter",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "parametros": {
+    "pasta_drive": "1l519_P-9o6bnQcItydKvEEDpEYeE8R8s",
+    "pasta_icd11": "1uce28Tl5MKmLNm8mdQkl9YckbckusEPT",
+    "pasta_raw_fora": "1Ld8cBUABNE2aoRE93UiDvGTzgYqgUbQ-",
+    "lote": "icd11",
+    "licenca": "CC BY-ND; copia sem alteracao",
+    "listagem": "pagina seguinte vazia; cada titulo exato fechou sem nextPageToken"
+  },
+  "entradas": [
+    {
+      "id_origem": "1UW0D9tYELJoEBzL0qwzV9DqveIly6nqS",
+      "caminho": "icd11/cid11_mms_completa.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "17CeVSphd5BfMj5Jp3uc-pgCyxiJ0jhfR",
+      "caminho": "icd11/cid11_mms_categorias_com_codigo.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1gB9hDNM4jZPn9wFm58sYsQbT1ioLReUI",
+      "caminho": "icd11/cid11_mms_categorias_com_codigo.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1ctTZPLzGovMDXHiWFEE1ldnwtReoN6xr",
+      "caminho": "icd11/cid11_mms_completa.json",
+      "classe": "REFERENCIA"
+    }
+  ]
+}

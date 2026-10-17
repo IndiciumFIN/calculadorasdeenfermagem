@@ -1,0 +1,44 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/anexo-da-notcia-do-projeto-de-lei-0252002-2/ (API WordPress post 4980); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "NAOATO_2002_SN_ANEXO_NOTICIA_PROJETO_LEI_ATOMOS_V1.jsonl",
+      "sha256": "f85551c03b757e561327d52d7db267e592806e686232a210cd80f8e2655e6c62",
+      "tamanho": 7424
+    },
+    {
+      "nome": "NAOATO_2002_SN_ANEXO_NOTICIA_PROJETO_LEI_CONTEUDO_SITE_API.json",
+      "sha256": "efaa75824456604e991213e1ac455f526ac11ef89ad4741c3f888289233519aa",
+      "tamanho": 2680
+    },
+    {
+      "nome": "NAOATO_2002_SN_ANEXO_NOTICIA_PROJETO_LEI_NORMA_V1.json",
+      "sha256": "bf38bb08aaa425d897de3ebbbb1ae1f5d2639f651edfd27f7c4f793133de3155",
+      "tamanho": 2030
+    },
+    {
+      "nome": "NAOATO_2002_SN_ANEXO_NOTICIA_PROJETO_LEI_PAGINA_SITE.html",
+      "sha256": "07e6b0c23caef7aff118662687310fd5c06186c23c012199e4e35614f4da8649",
+      "tamanho": 441453
+    },
+    {
+      "nome": "NAOATO_2002_SN_ANEXO_NOTICIA_PROJETO_LEI_TEXTO_FONTE_V1.txt",
+      "sha256": "82ae02f7323b86220b8f729e9ad240acfbe79f871799fd89c274456f16c92290",
+      "tamanho": 2284
+    },
+    {
+      "nome": "NAOATO_2002_SN_ANEXO_NOTICIA_PROJETO_LEI_VALIDACAO_V1.json",
+      "sha256": "fef20548b4b1830a25d657a202955c39a186c39fbc70e6c23a0ee54d56d8d454",
+      "tamanho": 3135
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Ato sem número no site; identificador formado por slug.",
+    "TIPO: listado em categoria de Legislação, mas o título não identifica um ato (\"ANEXO DA NOTÍCIA DO PROJETO DE LEI 025/2002\").",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

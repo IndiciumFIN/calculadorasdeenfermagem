@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-conjunto-de-camara-tecnica-no-12-2021-ctln-conue-cofen/ (API WordPress post 99594); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2021_N_00012_CTLN_ATOMOS_V1.jsonl",
+      "sha256": "96599897235a3b70042bd5fb69faa3d4254c14ba436a74b1d3d9409fed7d1b5e",
+      "tamanho": 33211
+    },
+    {
+      "nome": "PARCT_2021_N_00012_CTLN_CONTEUDO_SITE_API.json",
+      "sha256": "1eba27a3d6701086cfd24f681203162f3379a5df68029f65ad893c3f27daa0f0",
+      "tamanho": 8408
+    },
+    {
+      "nome": "PARCT_2021_N_00012_CTLN_NORMA_V1.json",
+      "sha256": "9b763988c0f1f4be9b4b2950faf57b6fbd575182f28d3511cc86a91ef33f728c",
+      "tamanho": 3382
+    },
+    {
+      "nome": "PARCT_2021_N_00012_CTLN_PAGINA_SITE.html",
+      "sha256": "c66763e6204df2f639f752a8d1df66f6d58967cdcb9310200c27f3dd268d8084",
+      "tamanho": 446588
+    },
+    {
+      "nome": "PARCT_2021_N_00012_CTLN_TEXTO_FONTE_V1.txt",
+      "sha256": "2b50e3c1e137ae5b88d5b3989e2e3b2fef13ac4cee6310d7f08bd41d70ccc5e4",
+      "tamanho": 6333
+    },
+    {
+      "nome": "PARCT_2021_N_00012_CTLN_VALIDACAO_V1.json",
+      "sha256": "093f3da6d46e33f3d5cf37b6e9ccd0805fabd6afbac3dec5d7de89f366f7d624",
+      "tamanho": 3595
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir."
+  ]
+}

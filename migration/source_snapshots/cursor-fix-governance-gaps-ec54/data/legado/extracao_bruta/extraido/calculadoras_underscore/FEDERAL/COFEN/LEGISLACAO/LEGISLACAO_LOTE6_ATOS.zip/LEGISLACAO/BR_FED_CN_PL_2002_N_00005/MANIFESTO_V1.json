@@ -1,0 +1,43 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/projeto-de-lei-n-052002/ (API WordPress post 4215); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PL_2002_N_00005_ATOMOS_V1.jsonl",
+      "sha256": "97cd6081e8c06d70ea2eca8fdb661c28b9a56c055e2cd4d9797c767ee5a1a28d",
+      "tamanho": 20523
+    },
+    {
+      "nome": "PL_2002_N_00005_CONTEUDO_SITE_API.json",
+      "sha256": "95df7d5d62dba4c3a524037b9adcc9bd048eaed688c6d82de54a652af99323dd",
+      "tamanho": 4799
+    },
+    {
+      "nome": "PL_2002_N_00005_NORMA_V1.json",
+      "sha256": "73cf0ac9218b5c93097c393e46260322a069d7da10e7ed293580161e25878761",
+      "tamanho": 2812
+    },
+    {
+      "nome": "PL_2002_N_00005_PAGINA_SITE.html",
+      "sha256": "138b3006beb0ffa4ea25fc506f9e4fb1b9a6954969f9f2b7d51f89a9d8fd1aca",
+      "tamanho": 442433
+    },
+    {
+      "nome": "PL_2002_N_00005_TEXTO_FONTE_V1.txt",
+      "sha256": "ab06f03d335e867516bade34e56e8f12418fee42961b99fb95c1f74d4c0cb023",
+      "tamanho": 4284
+    },
+    {
+      "nome": "PL_2002_N_00005_VALIDACAO_V1.json",
+      "sha256": "21f73eba0a5117b4c75d6db6ccb6cf5bbf5e80c149d19c66268f9f3427d18235",
+      "tamanho": 3095
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

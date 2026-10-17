@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/pl-n-22952000/ (API WordPress post 4212); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PL_2000_N_02295_ATOMOS_V1.jsonl",
+      "sha256": "a5b505ba6095d072cf284f4c02a41189408350103939d75792afbba3c4729d22",
+      "tamanho": 2257
+    },
+    {
+      "nome": "PL_2000_N_02295_CONTEUDO_SITE_API.json",
+      "sha256": "5ff47fe936f66c7d4f0b9ccc8601afc807ced59a7edd0c638238c05cb3086752",
+      "tamanho": 750
+    },
+    {
+      "nome": "PL_2000_N_02295_NORMA_V1.json",
+      "sha256": "39a6b63e473f19fe8468b22b8f1427df5cb8a8f97eb095f8775aedb8c31320cb",
+      "tamanho": 1804
+    },
+    {
+      "nome": "PL_2000_N_02295_PAGINA_SITE.html",
+      "sha256": "e4020829f0e79903f3194ea47c439d67ad90bbeaf82ed8c541d3f78735e9cac0",
+      "tamanho": 437761
+    },
+    {
+      "nome": "PL_2000_N_02295_TEXTO_FONTE_V1.txt",
+      "sha256": "5f1ea4b613b60d4faec363b1f99387f4de2f2c39610ac138585e03b774048bc3",
+      "tamanho": 481
+    },
+    {
+      "nome": "PL_2000_N_02295_VALIDACAO_V1.json",
+      "sha256": "19a9d4c793a87250682f9a0ffa8e43e85632b6e842fea85dc36912d4e4b23e35",
+      "tamanho": 2625
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

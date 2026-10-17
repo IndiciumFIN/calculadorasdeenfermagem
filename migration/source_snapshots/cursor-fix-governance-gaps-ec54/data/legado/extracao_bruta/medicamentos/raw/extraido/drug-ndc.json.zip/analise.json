@@ -1,0 +1,16 @@
+{
+  "algoritmo": "extracao-bytes-sha256",
+  "arquivo": "drug-ndc.json.zip",
+  "bytes": 28011943,
+  "sha256": "d1861731eeaa68d28adce6e33250b1b0061fa1ac94f67a6ad09cf814c168ee7a",
+  "membros": [
+    {
+      "nome": "drug-ndc-0001-of-0001.json",
+      "bytes": 245353596,
+      "sha256": "fb01c6c56311bdafd72ad98939b333eb08aca0c0246dbed7bff93fed23b2b0ab",
+      "disposicao": "FRACIONADO",
+      "caminho": "fracoes/drug-ndc-0001-of-0001.json",
+      "partes": 7
+    }
+  ]
+}

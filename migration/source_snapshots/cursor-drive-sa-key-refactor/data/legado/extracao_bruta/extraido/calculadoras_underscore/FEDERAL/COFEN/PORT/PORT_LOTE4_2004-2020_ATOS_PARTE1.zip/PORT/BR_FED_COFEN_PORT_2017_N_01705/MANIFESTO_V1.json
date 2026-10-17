@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-1705-de-12-de-dezembro-de-2017/ (API WordPress post 59266); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2017_N_01705_ATOMOS_V1.jsonl",
+      "sha256": "97ef2a00d58c8c4253c7c2f2f101200d60f40f11813be16cedb387494b185625",
+      "tamanho": 6982
+    },
+    {
+      "nome": "PORT_2017_N_01705_CONTEUDO_SITE_API.json",
+      "sha256": "f555b8610a6fdd5c69ce483d02509f6a0ea45693419b2296f2025f1cf27508a0",
+      "tamanho": 1835
+    },
+    {
+      "nome": "PORT_2017_N_01705_NORMA_V1.json",
+      "sha256": "08eaab0e4c6ac96f291900a82be3cc466b6b29993fbc6d2c822d58843492a4e1",
+      "tamanho": 3483
+    },
+    {
+      "nome": "PORT_2017_N_01705_PAGINA_SITE.html",
+      "sha256": "ca02f40ee2983c32f714edb90a17de75364938a403cc2430ef815b1868508976",
+      "tamanho": 440161
+    },
+    {
+      "nome": "PORT_2017_N_01705_TEXTO_FONTE_V1.txt",
+      "sha256": "3658c2f2af091a5d7ffffad0cc83beb0e41c1fa64c44a3c2e2bccea556386150",
+      "tamanho": 1161
+    },
+    {
+      "nome": "PORT_2017_N_01705_VALIDACAO_V1.json",
+      "sha256": "2db8773fcb671dc07bc7a4915edf3e5d2dc6f8fb09dbb2be5655b407616af365",
+      "tamanho": 2462
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

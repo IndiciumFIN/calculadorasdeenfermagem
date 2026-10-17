@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-1433-de-17-de-outubro-de-2022/ (API WordPress post 105283); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2022_N_01433_ATOMOS_V1.jsonl",
+      "sha256": "32b04e4fb362f52bad4a227a916a796962bca45815f313cfa9ba67dfdcdaaff0",
+      "tamanho": 7772
+    },
+    {
+      "nome": "PORT_2022_N_01433_CONTEUDO_SITE_API.json",
+      "sha256": "534cf41c6c37cec5abc67b5fdc22efd898591feaf3aeb9b1cd50abc0d13fabbd",
+      "tamanho": 2039
+    },
+    {
+      "nome": "PORT_2022_N_01433_NORMA_V1.json",
+      "sha256": "f57426034eb973af8a6514a322caaae36c37a11a56910cca404b8c72555d593d",
+      "tamanho": 3070
+    },
+    {
+      "nome": "PORT_2022_N_01433_PAGINA_SITE.html",
+      "sha256": "5045c5d30bfc4016514f58d38e3559ebc40ea8fde15d1936a62f38cc537fee5c",
+      "tamanho": 440361
+    },
+    {
+      "nome": "PORT_2022_N_01433_TEXTO_FONTE_V1.txt",
+      "sha256": "8ab8b97d8b994d7adc55d1c2a9f5919c33e4e3bf464756024956d4130f6f301d",
+      "tamanho": 1386
+    },
+    {
+      "nome": "PORT_2022_N_01433_VALIDACAO_V1.json",
+      "sha256": "67c3d7088548abcd14c0c5d417934cefa750bb662f7354e52f2459d3053394fb",
+      "tamanho": 2461
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

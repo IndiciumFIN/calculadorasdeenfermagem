@@ -1,0 +1,65 @@
+{
+  "schema": "CE-GITHUB-STAGING-MANIFEST-1.0.0",
+  "release": "CE-LOCAL-CLI-0.6.0",
+  "repository": "IndiciumFIN/calculadorasdeenfermagem",
+  "branch": "staging/wo-kernel-normativos-cli-20261016",
+  "repository_prefix": "staging/normativos-cli-v0.6.0/",
+  "source_files_total": 46,
+  "source_bytes_total": 316391,
+  "files_staged_count": 7,
+  "files_not_staged_count": 39,
+  "archive_sha256": "c488bee99257f9655a8f2bc5bd003128fcbe2ba5780d557f6c3d62c784a5dc8e",
+  "tests": {
+    "run": "python -m unittest discover -s tests -q",
+    "passed": 75,
+    "failed": 0,
+    "scope": "LOCAL_TESTS_ONLY"
+  },
+  "official_kernel_status": "NOT_SUBMITTED",
+  "remote_write_scope": "GITHUB_REVIEW_BRANCH_ONLY",
+  "no_source_delete": true,
+  "files": [
+    {
+      "path": "ce.py",
+      "sha256": "79f724c5215760d21c0edaf2e8f06692ab3cf896735faf965d9636a2aaea9d4e",
+      "git_blob_sha1": "51f87a09ba47d2e552b22c096e8b117bc484d72e",
+      "bytes": 924
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "a242b4ecf78d50d66c852962e106114fe82584df30ce739d3d38dbd1c95f55c7",
+      "git_blob_sha1": "26de752d1c38b7de04d632ec04e9d2e2ad4eaeec",
+      "bytes": 149
+    },
+    {
+      "path": "policies/file_standardization.json",
+      "sha256": "b3f93e82eaecd28fd53dc36d81356252fd9dfb40124a70d71b97ba19ec57b561",
+      "git_blob_sha1": "fa8c3b67b4c6d4dc63679eaed945f90e432d30db",
+      "bytes": 1800
+    },
+    {
+      "path": "policies/universal_normative_naming.json",
+      "sha256": "a1160b1b9cfda13dfde2f8d0f5c5ab920340c76decaae7aa4b4e6bdfb46ea7c1",
+      "git_blob_sha1": "da0bfbdae75f9e6d143786413ccf6fed5b708841",
+      "bytes": 2586
+    },
+    {
+      "path": "contracts/agent_registry.json",
+      "sha256": "a29cca887b1956dc78a932f4de18d3db2b2b5cb7b90fbd785e6e42bef8161ba4",
+      "git_blob_sha1": "9714962ff0c81066fc6d30faf58f233388e536f0",
+      "bytes": 3442
+    },
+    {
+      "path": "run_windows.ps1",
+      "sha256": "29583099d7696a8c7caabb2673916b81197cba78b2708e7c695d6ac942f31ca8",
+      "git_blob_sha1": "890df4678baf841505a7a9b156a84586a4d66bc1",
+      "bytes": 1390
+    },
+    {
+      "path": "docs/DECISION_REGISTER.md",
+      "sha256": "83ed81ce17b479cb33c9f825fe1e720f6095fe9f1804f280d2ca730ec5df621f",
+      "git_blob_sha1": "d7e924e6e26a505579caf3a3cee6749b7919dfb0",
+      "bytes": 1457
+    }
+  ]
+}

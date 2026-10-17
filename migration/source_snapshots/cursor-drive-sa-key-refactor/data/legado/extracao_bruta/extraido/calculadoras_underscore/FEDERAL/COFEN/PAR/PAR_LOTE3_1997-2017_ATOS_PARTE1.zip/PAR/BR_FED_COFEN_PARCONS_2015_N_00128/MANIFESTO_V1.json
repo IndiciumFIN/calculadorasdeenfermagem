@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-relator-no-128-2015/ (API WordPress post 32135); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCONS_2015_N_00128_ATOMOS_V1.jsonl",
+      "sha256": "666a60e006bc4531d23c7d332174cc6ff560ce5ec2fd6c17de7f71a385e4a6d4",
+      "tamanho": 61328
+    },
+    {
+      "nome": "PARCONS_2015_N_00128_CONTEUDO_SITE_API.json",
+      "sha256": "9acc3a3bea8b7ce2f338ac41d032d7dccc50fba518550033f33193fa40d54b13",
+      "tamanho": 21342
+    },
+    {
+      "nome": "PARCONS_2015_N_00128_NORMA_V1.json",
+      "sha256": "1734820ba322fba5ece5a8eff22af5c1f0e8b8058f201b38f7cee80228a5e859",
+      "tamanho": 4168
+    },
+    {
+      "nome": "PARCONS_2015_N_00128_PAGINA_SITE.html",
+      "sha256": "a9f90306ddedf78b21ceb22d4f5d049754d1a90e79e1c3db8dae89a89e489f3d",
+      "tamanho": 458133
+    },
+    {
+      "nome": "PARCONS_2015_N_00128_TEXTO_FONTE_V1.txt",
+      "sha256": "4d56b68c4294df40fb983995e3d9bb1f3e7d6deec3a6d0c1dbc4c5366f80156b",
+      "tamanho": 19752
+    },
+    {
+      "nome": "PARCONS_2015_N_00128_VALIDACAO_V1.json",
+      "sha256": "829a04dd802add361d9c75097c9a962aafe9b7a0606351c0ad135a3e207652ed",
+      "tamanho": 2466
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

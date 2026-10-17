@@ -1,0 +1,54 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/lei-8069-presidencia-13-07-1990-dispoe-sobre-o-estatuto-da-crianca-e-adolescente-dou-no-135-segunda-feira-16-de-julho-de-1990/ (API WordPress post 51446); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "LEI_1990_N_08069_ATOMOS_V1.jsonl",
+      "sha256": "8615b430d93cd9c371179e8ce24b85c53e14710763d3a707775f04240df158a6",
+      "tamanho": 544454
+    },
+    {
+      "nome": "LEI_1990_N_08069_CONTEUDO_SITE_API.json",
+      "sha256": "e7187839fc77807120129ce3af7e7984878848b307971650dec7a9c7e37aaf85",
+      "tamanho": 643
+    },
+    {
+      "nome": "LEI_1990_N_08069_NORMA_V1.json",
+      "sha256": "052b0ce9d8e27ee2936220f5f0b04be9463b47786d29d9805bcd1ea24bedd36a",
+      "tamanho": 3920
+    },
+    {
+      "nome": "LEI_1990_N_08069_PAGINA_SITE.html",
+      "sha256": "365297fd7d0b4d4d65c0e9048569179c599767f20fc46130a98dc7f3aae1826a",
+      "tamanho": 438850
+    },
+    {
+      "nome": "LEI_1990_N_08069_PDF_SITE.pdf",
+      "sha256": "2b2eb42edda9eb152effe79ade91c346882e68c40924f71da7b487c3face3de9",
+      "tamanho": 1880213
+    },
+    {
+      "nome": "LEI_1990_N_08069_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "ab76ce8bd7b2faa5fad12e41367a74c76c59ca379231bcb8a0462f4b213a62f5",
+      "tamanho": 119544
+    },
+    {
+      "nome": "LEI_1990_N_08069_TEXTO_FONTE_V1.txt",
+      "sha256": "f53b7e786b85649595901608325b747081ba2e5bc538c2a0453c1bed18ec2ee3",
+      "tamanho": 119445
+    },
+    {
+      "nome": "LEI_1990_N_08069_VALIDACAO_V1.json",
+      "sha256": "b92e0aeebea93bcf50dda306e55a8f0287db27a15a1474df735ed5ccbc5ea40b",
+      "tamanho": 3635
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Texto do ato disponível apenas no PDF (o site traz só título/resumo); atomização feita a partir da camada de texto do PDF.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

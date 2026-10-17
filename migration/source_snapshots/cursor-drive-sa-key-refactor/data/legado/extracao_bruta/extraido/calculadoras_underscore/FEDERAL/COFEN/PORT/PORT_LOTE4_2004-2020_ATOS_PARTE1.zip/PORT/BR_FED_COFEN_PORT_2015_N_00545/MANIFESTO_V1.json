@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-545-de-29-de-abril-de-2015/ (API WordPress post 31334); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2015_N_00545_ATOMOS_V1.jsonl",
+      "sha256": "2bb52ac2dca9ecdb7b1d3ecac74f2940e85be49bc2eb1ef1dea47e6d0441a0fd",
+      "tamanho": 5441
+    },
+    {
+      "nome": "PORT_2015_N_00545_CONTEUDO_SITE_API.json",
+      "sha256": "f96d109c61f7ab5007d557504c0e3d1b5e72bed0e25b3357140c44d3332df232",
+      "tamanho": 1316
+    },
+    {
+      "nome": "PORT_2015_N_00545_NORMA_V1.json",
+      "sha256": "6c679413dc5fda787c24596ec76f35682ba6c2f3750d15c6985263a8a515c1f2",
+      "tamanho": 2927
+    },
+    {
+      "nome": "PORT_2015_N_00545_PAGINA_SITE.html",
+      "sha256": "a6e4758de3d8e112b71626ee82572b73d7896f80a4143cd2185865b683afeed7",
+      "tamanho": 438666
+    },
+    {
+      "nome": "PORT_2015_N_00545_TEXTO_FONTE_V1.txt",
+      "sha256": "2ee35d7368fc1b136f2b01c7ed652a54a21bbe68b8f844d1136d6e022413d7b9",
+      "tamanho": 799
+    },
+    {
+      "nome": "PORT_2015_N_00545_VALIDACAO_V1.json",
+      "sha256": "c1bffb94330de682debb6b01c474c7d48f61768a478aba982d9a24a9ef2df38f",
+      "tamanho": 2458
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

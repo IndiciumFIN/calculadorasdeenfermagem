@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-comissao-no-008-2020-conue-cofen/ (API WordPress post 84834); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCOM_2020_N_00008_CONUE_ATOMOS_V1.jsonl",
+      "sha256": "04bee70ebe063abf496a8ab0f85acf16f2b186c36efe40ea5e8fc8487a77bb5e",
+      "tamanho": 47319
+    },
+    {
+      "nome": "PARCOM_2020_N_00008_CONUE_CONTEUDO_SITE_API.json",
+      "sha256": "9f88baa023eeb88fcb98552b76cfdacb4146e7e0fe234eac69747adfeee1a243",
+      "tamanho": 12976
+    },
+    {
+      "nome": "PARCOM_2020_N_00008_CONUE_NORMA_V1.json",
+      "sha256": "e9600535c00176f507df888fb0fea5933889ad0026c7ef91bf3bb0f9c9b56318",
+      "tamanho": 4601
+    },
+    {
+      "nome": "PARCOM_2020_N_00008_CONUE_PAGINA_SITE.html",
+      "sha256": "783730cc83bf14f864c30fa32421bf66a6f6a9bb38d5bf53767d0a34d06ae0c8",
+      "tamanho": 453680
+    },
+    {
+      "nome": "PARCOM_2020_N_00008_CONUE_TEXTO_FONTE_V1.txt",
+      "sha256": "72b7741eb034b69c71f166f9ba6ee8cd47381816d6e1fe7154279d7c405585a9",
+      "tamanho": 11309
+    },
+    {
+      "nome": "PARCOM_2020_N_00008_CONUE_VALIDACAO_V1.json",
+      "sha256": "12e98900185434fd1f875a6a6103b95970a615674ee49e8483f9ac719f5a34b8",
+      "tamanho": 2999
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Anexo referenciado no texto não está presente no site nem em PDF."
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-camara-tecnica-n-022-2022-ctep-cofen/ (API WordPress post 103340); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2022_N_00022_CTEP_ANEXO_01_PDF_SITE.pdf",
+      "sha256": "c4fdddf5ea49f61e7fa368f1d4ea7c46ba708262ab22008186f3941d25b9b64c",
+      "tamanho": 82800
+    },
+    {
+      "nome": "PARCT_2022_N_00022_CTEP_ANEXO_01_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "5d4a77cec13da966cdf933e1da2413291957483f1a479246dba01f8e18aac862",
+      "tamanho": 4820
+    },
+    {
+      "nome": "PARCT_2022_N_00022_CTEP_ATOMOS_V1.jsonl",
+      "sha256": "b815066403600d8ffdb2d5a30f438f700f277938750e00128e1baeebf0eb727a",
+      "tamanho": 166106
+    },
+    {
+      "nome": "PARCT_2022_N_00022_CTEP_CONTEUDO_SITE_API.json",
+      "sha256": "6cbbb6308136507da45ec5b350303d7a98bfded6ba0e35e9aab5d4a9c28ad836",
+      "tamanho": 13684
+    },
+    {
+      "nome": "PARCT_2022_N_00022_CTEP_NORMA_V1.json",
+      "sha256": "344a406b5c1544e07ef49c59208a2b8c5168421c3706fba708ee3992c58ca925",
+      "tamanho": 5314
+    },
+    {
+      "nome": "PARCT_2022_N_00022_CTEP_PAGINA_SITE.html",
+      "sha256": "ec85a1186c6c2b02ec5a0f42e32d35991fd9358aee4de7f92b2077b6d1a3c017",
+      "tamanho": 451243
+    },
+    {
+      "nome": "PARCT_2022_N_00022_CTEP_TEXTO_FONTE_V1.txt",
+      "sha256": "fc453b56b401b415694d75f9240e6ce58b1e224d162a4205b004d4c2bcc73f31",
+      "tamanho": 11147
+    },
+    {
+      "nome": "PARCT_2022_N_00022_CTEP_VALIDACAO_V1.json",
+      "sha256": "5b099a8d715416898a547f5428f4ceb2bd5cb15d6a68008eb56829a2d49236ea",
+      "tamanho": 2804
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência."
+  ]
+}

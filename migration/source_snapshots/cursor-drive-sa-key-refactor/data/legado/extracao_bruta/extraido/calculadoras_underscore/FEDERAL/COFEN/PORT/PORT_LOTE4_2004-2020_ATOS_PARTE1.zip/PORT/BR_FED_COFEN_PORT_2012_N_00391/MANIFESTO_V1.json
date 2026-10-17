@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-n-3912012/ (API WordPress post 9078); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2012_N_00391_ATOMOS_V1.jsonl",
+      "sha256": "efaa236beb87c84c6f4771df0cd41d02d814b6b0461eaf612daa45dae0583d12",
+      "tamanho": 5640
+    },
+    {
+      "nome": "PORT_2012_N_00391_CONTEUDO_SITE_API.json",
+      "sha256": "07563ec3ead3bc8a39966662763a00adebefec8287d8c4dc2f7e1bcc18d1e165",
+      "tamanho": 1805
+    },
+    {
+      "nome": "PORT_2012_N_00391_NORMA_V1.json",
+      "sha256": "0ebc4a8638e7b78815c3e0bf02d0dbfdb24006951058e356a9e689a125ca3b4b",
+      "tamanho": 2295
+    },
+    {
+      "nome": "PORT_2012_N_00391_PAGINA_SITE.html",
+      "sha256": "732a458ed527b4fdae3a6d8d07bd624860fb0f9e8115cebe754c73b89951e53e",
+      "tamanho": 437528
+    },
+    {
+      "nome": "PORT_2012_N_00391_TEXTO_FONTE_V1.txt",
+      "sha256": "6f391a2769298f3cfdb22b646b8535120f1739bc7343289b440cb8ea76ca3022",
+      "tamanho": 1006
+    },
+    {
+      "nome": "PORT_2012_N_00391_VALIDACAO_V1.json",
+      "sha256": "dfbace97e0c3b2aa54f4e0029c56ace6b1c404d8395741388fb9ddd830da8d34",
+      "tamanho": 2440
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

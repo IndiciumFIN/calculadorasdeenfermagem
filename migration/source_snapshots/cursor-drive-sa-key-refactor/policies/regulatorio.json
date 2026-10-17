@@ -1,0 +1,63 @@
+{
+  "versao": "1.0.0",
+  "regra": "PASS_LOCAL não homologa, não publica e não associa o candidato ao diário oficial. Estas políticas não entram nos procedimentos já qualificados.",
+  "politicas": [
+    {
+      "policy_id": "POL-REG-001",
+      "version": "1.0.0",
+      "status": "CANDIDATE_NOT_HOMOLOGATED",
+      "rule_key": "corpus_permanece_candidato",
+      "statement": "O acervo legado permanece Não verificado. O link_fonte é a planilha, não o ato publicado.",
+      "effect_on_violation": "HOLD",
+      "validador": "VAL-REG-001",
+      "authorization": false
+    },
+    {
+      "policy_id": "POL-REG-002",
+      "version": "1.0.0",
+      "status": "CANDIDATE_NOT_HOMOLOGATED",
+      "rule_key": "condicao_exige_fonte_oficial",
+      "statement": "Vigente, Alterado e Revogado exigem data de verificação e domínio oficial. Planilha não ocupa esse lugar.",
+      "effect_on_violation": "HOLD",
+      "validador": "VAL-REG-002",
+      "authorization": false
+    },
+    {
+      "policy_id": "POL-REG-003",
+      "version": "1.0.0",
+      "status": "CANDIDATE_NOT_HOMOLOGATED",
+      "rule_key": "parecer_nao_homologa",
+      "statement": "Parecer de modelo fica em raw. homologacao_juridica falsa. promotable não homologa.",
+      "effect_on_violation": "HOLD",
+      "validador": "VAL-REG-003",
+      "authorization": false
+    },
+    {
+      "policy_id": "POL-REG-004",
+      "version": "1.0.0",
+      "status": "CANDIDATE_NOT_HOMOLOGATED",
+      "rule_key": "publicacao_nao_e_status",
+      "statement": "Autorização de publicação é independente da condição normativa.",
+      "effect_on_violation": "HOLD",
+      "validador": "VAL-REG-004",
+      "authorization": false
+    },
+    {
+      "policy_id": "POL-REG-005",
+      "version": "1.0.0",
+      "status": "CANDIDATE_NOT_HOMOLOGATED",
+      "rule_key": "texto_integral",
+      "statement": "texto_regra conserva a linha de origem. Corte silencioso é HOLD.",
+      "effect_on_violation": "HOLD",
+      "validador": "VAL-REG-005",
+      "authorization": false
+    }
+  ],
+  "validadores": {
+    "VAL-REG-001": {"implementado": true, "funcao": "packages.cli.regulatorio.val_corpus"},
+    "VAL-REG-002": {"implementado": true, "funcao": "packages.cli.regulatorio.val_fonte_oficial"},
+    "VAL-REG-003": {"implementado": true, "funcao": "packages.cli.regulatorio.val_parecer_llm"},
+    "VAL-REG-004": {"implementado": true, "funcao": "packages.cli.regulatorio.val_publicacao"},
+    "VAL-REG-005": {"implementado": true, "funcao": "packages.cli.regulatorio.val_sem_truncamento"}
+  }
+}

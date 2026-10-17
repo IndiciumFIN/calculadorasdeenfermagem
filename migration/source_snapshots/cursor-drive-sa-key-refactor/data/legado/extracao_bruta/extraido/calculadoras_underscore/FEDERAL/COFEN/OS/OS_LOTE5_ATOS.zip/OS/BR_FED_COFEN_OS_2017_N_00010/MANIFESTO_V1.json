@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/ordem-de-servico-cofen-no-10-2017/ (API WordPress post 59683); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "OS_2017_N_00010_ATOMOS_V1.jsonl",
+      "sha256": "60cc6bb2b3d937e22c36be198c542cca6f814d6eb44fc08eedcfe5da44dd2aa5",
+      "tamanho": 14713
+    },
+    {
+      "nome": "OS_2017_N_00010_CONTEUDO_SITE_API.json",
+      "sha256": "5ad05aca139f0ab9ff04b8ac62904536626a2b74f64079b202e99afbc47e119b",
+      "tamanho": 3890
+    },
+    {
+      "nome": "OS_2017_N_00010_NORMA_V1.json",
+      "sha256": "ac0651b2ff1f91835d06afca0c2f0e054d4aefed7ff6f9ae6390549c5b809452",
+      "tamanho": 5050
+    },
+    {
+      "nome": "OS_2017_N_00010_PAGINA_SITE.html",
+      "sha256": "2682043d6bb571848b0f57a82d6651a0412d7ada25d55494f6a273eed65084c8",
+      "tamanho": 441954
+    },
+    {
+      "nome": "OS_2017_N_00010_PDF_SITE.pdf",
+      "sha256": "82e8c21cee8e922e7041ea0ceaba4c8dd7b4545b22d2bfdcd4bcdbbbc0ca5da2",
+      "tamanho": 770189
+    },
+    {
+      "nome": "OS_2017_N_00010_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "fe83121fb781fc7400df9c8ece4202b1aaeff1b2011ada1b7fefd435990c539e",
+      "tamanho": 3526
+    },
+    {
+      "nome": "OS_2017_N_00010_TEXTO_FONTE_V1.txt",
+      "sha256": "af5baf7b4d40a19a738065d423e1c8ec262e5d60c28a5fe8f14971f55ed23e46",
+      "tamanho": 3090
+    },
+    {
+      "nome": "OS_2017_N_00010_VALIDACAO_V1.json",
+      "sha256": "98afc2e2f6da9ff8877df3bf39f3bab621f8e4dfe3e9a5adcc4a88352eb7917c",
+      "tamanho": 5592
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+  ]
+}

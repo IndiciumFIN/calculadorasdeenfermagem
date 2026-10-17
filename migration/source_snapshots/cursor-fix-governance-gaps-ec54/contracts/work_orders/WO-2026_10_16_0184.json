@@ -1,0 +1,24 @@
+{
+  "id": "WO-2026_10_16_0184",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "task_id": "TAREFA-IMPORTAR-DRIVE",
+  "task_type": "importar-drive",
+  "task_version": "1.0.0",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "entradas": [
+    {
+      "id_origem": "1brhNay_AEzjAtQyfxv0VSsAnImODPaaH",
+      "caminho": "data/legado/extracao_bruta/CORPUS_CANONICO_INDIVIDUAL/08_AUDITORIA/NORMATIVE_HOLDING_MANIFEST_v0_1.csv",
+      "classe": "REFERENCIA",
+      "sha256": "2223ae3e6e37d0ff1f3d1ca6287d7b7116e4b345385c1a537c79dc92bf090998"
+    }
+  ],
+  "parametros": {
+    "lote": "CORPUS-INDIVIDUAL-W09-20261016",
+    "source_provider": "google_drive",
+    "source_mount": "NORMATIVE_HOLDING_MANIFEST_v0_1.csv",
+    "source_original_name": "NORMATIVE_HOLDING_MANIFEST_v0_1.csv"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "CE-DRIVE-OBS-1.0",
+  "status": "PARTIAL_METADATA_ONLY",
+  "branch": "cursor/fix-governance-gaps-ec54",
+  "wave05": {
+    "folders_queried": 4,
+    "items_returned": 40,
+    "sets": [
+      [
+        "PARNORM_2026_N_00001",
+        10
+      ],
+      [
+        "PARNORM_2025_N_00001",
+        10
+      ],
+      [
+        "NOTATEC_2026_N_00005",
+        10
+      ],
+      [
+        "NOTATEC_2025_N_00002",
+        10
+      ]
+    ]
+  },
+  "controls": {
+    "source_bytes_acquired": false,
+    "sha256_verified": false,
+    "zip_inspected": false,
+    "publication": "HOLD",
+    "deletion": "DENY"
+  },
+  "note": "Multiple representations are not duplicates without byte and semantic provenance comparison."
+}

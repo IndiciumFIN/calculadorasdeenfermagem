@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-1041-de-14-de-novembro-de-2013/ (API WordPress post 22760); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2013_N_01041_ATOMOS_V1.jsonl",
+      "sha256": "cfe69a271298a9282b30d10fc195cffd401a0d811816b9f96ee63be5ca336103",
+      "tamanho": 6259
+    },
+    {
+      "nome": "PORT_2013_N_01041_CONTEUDO_SITE_API.json",
+      "sha256": "4e97d23ea9a11329abee89cf50882ea4e114271949eea12bce4bfe1df3ebc8be",
+      "tamanho": 1727
+    },
+    {
+      "nome": "PORT_2013_N_01041_NORMA_V1.json",
+      "sha256": "e63145f5bb2e7422bb9aae8133f1618078b5f909fc60de89913ee513e4c67266",
+      "tamanho": 3159
+    },
+    {
+      "nome": "PORT_2013_N_01041_PAGINA_SITE.html",
+      "sha256": "de1e8d37064f2687ae926f4b33750ce3cee52d00844c752de28b54b2ba0259df",
+      "tamanho": 439337
+    },
+    {
+      "nome": "PORT_2013_N_01041_TEXTO_FONTE_V1.txt",
+      "sha256": "851b3e6b66224099a32de68def7677586b8781da82c89f1b98da391cc1c51208",
+      "tamanho": 1030
+    },
+    {
+      "nome": "PORT_2013_N_01041_VALIDACAO_V1.json",
+      "sha256": "576eacd62579c1e82874407f5bfdeaf9f3c06fb3f99d221390e444ace52bbbfd",
+      "tamanho": 2462
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "WO-2026_10_15_0001",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "task_type": "obter",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "parametros": {
+    "pasta_drive": "1l519_P-9o6bnQcItydKvEEDpEYeE8R8s",
+    "pasta_cid10": "1pnnVYNlg8CBszIsTeN529tcnPuxE6Rda",
+    "lote": "cid10-readme-fetch",
+    "id_anterior": "WO-OBTER-EXTRACAO-CID10-001"
+  },
+  "entradas": [
+    {
+      "id_origem": "1lhbVqocl6Yp0b__jBi9COATKHaXL-HzI",
+      "caminho": "README.md",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1ISyJyXKl0yaJuoDGOvdDCuhvZvFroVWj",
+      "caminho": "fetch.py",
+      "classe": "SCRIPT"
+    },
+    {
+      "id_origem": "1Gp9cB8fYN7CjNg286wesct-_6CGoW_tT",
+      "caminho": "cid10/capitulos.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "11IrSya_l28agJdVb5vxHtAL929E77w5n",
+      "caminho": "cid10/capitulos.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1UqOtV4-IIz71aLqMyiNkLbA_WqM5o8iv",
+      "caminho": "cid10/grupos.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1cWc_Efgv7v9ZTrn2PQ89wtyk1sRy2Xbr",
+      "caminho": "cid10/grupos.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1i6GiiIEfXThnujlmMLb1ok4YIXEiFKvS",
+      "caminho": "cid10/categorias.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "11OJreDtdS8i2T4SLWGT1MdZNbA8tSP5K",
+      "caminho": "cid10/categorias.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1uEiFAoW0eRE5nrCDO-KEyOucDLqQQRVs",
+      "caminho": "cid10/subcategorias.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1CUEx0IkHMPY1jWW_7RaNbVHQcfa1nAo0",
+      "caminho": "cid10/subcategorias.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1DXtIbR4Q66UdaOTHWCW39weuQT84y8iN",
+      "caminho": "cid10/cid_o_grupos.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "12XxKcxTa1yvAqmv2mo_AP2sBXnyjgCxk",
+      "caminho": "cid10/cid_o_grupos.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1Qahfk8grGPDSryXacJb8jWzR68i7EZD5",
+      "caminho": "cid10/cid_o_categorias.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1Nh1eZZopH0FfOJh5fVInGGxwDK_3sw1A",
+      "caminho": "cid10/cid_o_categorias.json",
+      "classe": "REFERENCIA"
+    }
+  ],
+  "task_id": "TAREFA-OBTER",
+  "task_version": "1.0.0"
+}

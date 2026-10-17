@@ -1,0 +1,47 @@
+{
+  "id": "WO-2026_10_15_0029",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "task_type": "obter",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "parametros": {
+    "pasta_drive": "1l519_P-9o6bnQcItydKvEEDpEYeE8R8s",
+    "pasta_medlineplus": "1NXKr32axZLHmOaWf0TfO9soKgfJ0WHuR",
+    "lote": "medlineplus"
+  },
+  "entradas": [
+    {
+      "id_origem": "1SrieLn7U9sf6tCVdfWLwD7JdcNvEtL-1",
+      "caminho": "medlineplus/health_topics_es.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1U_818JaGuZtizXjYFYdU8GsTJ5AxphAF",
+      "caminho": "medlineplus/health_topics_en.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1hrjo_TJCI3oy761mDEuhzy5HrZOBSqjd",
+      "caminho": "medlineplus/health_topics_todos.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "15q9abQLqAj4t70tistOHhORnlBhRKgQb",
+      "caminho": "medlineplus/health_topics_es.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1F30ds9hIoS_o003gWXzWz00hSciZZjdf",
+      "caminho": "medlineplus/health_topics_todos.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1jWqNrJ7wS5zGnotk9VJzcQMThmWzmQ_N",
+      "caminho": "medlineplus/health_topics_en.json",
+      "classe": "REFERENCIA"
+    }
+  ],
+  "task_id": "TAREFA-OBTER",
+  "task_version": "1.0.0"
+}

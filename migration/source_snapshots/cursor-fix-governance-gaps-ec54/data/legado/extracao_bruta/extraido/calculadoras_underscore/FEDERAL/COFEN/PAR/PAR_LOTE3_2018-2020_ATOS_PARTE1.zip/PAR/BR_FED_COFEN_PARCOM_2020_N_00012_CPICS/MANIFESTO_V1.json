@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-comissao-n%e2%81%b0012-2020-cpics-cofen/ (API WordPress post 85968); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCOM_2020_N_00012_CPICS_ATOMOS_V1.jsonl",
+      "sha256": "5fc422e7d502e5321d9e20a57186574b4c22488c7e3df83f3e6c907050f2618e",
+      "tamanho": 19790
+    },
+    {
+      "nome": "PARCOM_2020_N_00012_CPICS_CONTEUDO_SITE_API.json",
+      "sha256": "4edb394acdb3d29ba0c45d402f946d905f71246f04662e9a3a7e31f332e4d224",
+      "tamanho": 6155
+    },
+    {
+      "nome": "PARCOM_2020_N_00012_CPICS_NORMA_V1.json",
+      "sha256": "bdab2cfc09d97e4635a2c813dd26ce6f3bc158c18f7bead31145d842af82657c",
+      "tamanho": 2086
+    },
+    {
+      "nome": "PARCOM_2020_N_00012_CPICS_PAGINA_SITE.html",
+      "sha256": "1a575739a061c67e62a9e0899fb810ac4e86bbbee9e73146fe03c774490c2103",
+      "tamanho": 443697
+    },
+    {
+      "nome": "PARCOM_2020_N_00012_CPICS_TEXTO_FONTE_V1.txt",
+      "sha256": "c122de7c036a3c1e8fa945bb6c95568d02401522b063adb074707f1c0cb6c9d0",
+      "tamanho": 5413
+    },
+    {
+      "nome": "PARCOM_2020_N_00012_CPICS_VALIDACAO_V1.json",
+      "sha256": "36b35801df63f7ccfbafbde63bd827f0d8d0fdf31321acfd2a5f3c90f3c49e62",
+      "tamanho": 2665
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

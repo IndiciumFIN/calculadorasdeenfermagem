@@ -1,0 +1,13 @@
+{
+  "id": "WO-AUDITORIA-RES800-001",
+  "agent_id": "AGT-AUDITOR-001",
+  "task_type": "auditoria_camada_2",
+  "prompt_id": "auditor_v1",
+  "prompt_sha256": "510b28f35365ddd61012f3077d3af58daf9d10a8b20b13d7965e67987768c5c8",
+  "model_id": "deepseek:deepseek-chat",
+  "temperature": 0,
+  "input_file": "data/legado/piloto/entrada_res800.txt",
+  "input_sha256": "62090965690466e06d7827756a66edfe198651d41cc5eac661d69bb2e256f36c",
+  "authorized_by": "mantenedor — execução dos normativos em 15/10/2026",
+  "nota": "Piloto de auditoria camada 2: Art. 1º da Resolução COFEN 800/2025 confrontado com o texto do DOU (data/legado/piloto/RES_0800_DOU.pdf). Não promove vigência."
+}

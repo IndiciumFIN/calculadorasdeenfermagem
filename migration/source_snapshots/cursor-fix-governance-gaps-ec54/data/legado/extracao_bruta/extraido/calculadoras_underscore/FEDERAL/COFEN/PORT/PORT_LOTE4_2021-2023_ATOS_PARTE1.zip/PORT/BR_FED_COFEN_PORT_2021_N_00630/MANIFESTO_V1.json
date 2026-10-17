@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-630-de-25-de-junho-de-2021/ (API WordPress post 88151); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2021_N_00630_ATOMOS_V1.jsonl",
+      "sha256": "dccb61f7d49838fd37754109299973b8562951475acdfdd2bc8bec61bd777ef5",
+      "tamanho": 6136
+    },
+    {
+      "nome": "PORT_2021_N_00630_CONTEUDO_SITE_API.json",
+      "sha256": "ff31cc2fcf57b690a08c1a9b3631a59fc91f58cf948aa1f377d294142e9715f7",
+      "tamanho": 1507
+    },
+    {
+      "nome": "PORT_2021_N_00630_NORMA_V1.json",
+      "sha256": "d8ed473d865fa4370ccfaf7ce64aeb0a30a53c24c8e9ac445573b7afe4ffa488",
+      "tamanho": 3049
+    },
+    {
+      "nome": "PORT_2021_N_00630_PAGINA_SITE.html",
+      "sha256": "d593a5107a7a52effb77881db8c97aa3e5b39193f44f9b5fee576c8e49d91e4c",
+      "tamanho": 439173
+    },
+    {
+      "nome": "PORT_2021_N_00630_TEXTO_FONTE_V1.txt",
+      "sha256": "02ced7d7625c19552876bece09a65ec184d2ca8dfa0df9a668845569dd17ab8d",
+      "tamanho": 913
+    },
+    {
+      "nome": "PORT_2021_N_00630_VALIDACAO_V1.json",
+      "sha256": "187cc6c7aaf313442c3b30d294793e103a2789c53efcd12bf2006cfe1f68a924",
+      "tamanho": 2458
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

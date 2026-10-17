@@ -1,0 +1,357 @@
+{
+  "work_order": "WO-2026_10_15_0070",
+  "checker_id": "kernel-validar",
+  "authorized_by": "IndiciumFIN",
+  "itens": [
+    {
+      "id_origem": "1gM2_sQHivhuGKZA4FiMqIt6FyCI8NbdA",
+      "caminho": "nutricao/raw/taco_composicao.csv",
+      "sha256": "7dee98c4562c4faecc713712d5ae9f909a2a43a8fa4f10c81d3d52fc5cad6058",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1I8N7AfgOzvcF5WjrgiH8cLX0OfHnwh0-",
+      "caminho": "nutricao/raw/taco_aminoacidos.csv",
+      "sha256": "d396eaed98c9374e5452c3a240e8a3ddc2f03b87afbab29d7102e4c7a9e9be94",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "19NYY_s6m2bwNq1tWKwXj6MLaAAwiIILK",
+      "caminho": "nutricao/raw/pof_medidas_caseiras.csv",
+      "sha256": "baf300288eb153d94592ff3818e87641feeb996da23b3b8ed99fd5e5e2e65ff8",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1oIezq0r-uldlzXe3tLr-YzHi-KuUVxl1",
+      "caminho": "nutricao/raw/taco_acidos_graxos.csv",
+      "sha256": "3a389408e2d3dc234035d862f2d3c8039b5d76304b0ad061143861c5ee5913bd",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1YNmk7J8MFIsonctBzBifcPjO_gfOMm-e",
+      "caminho": "vacinal_brasil/raw/pni_doses_aplicadas_2026_amostra.json",
+      "sha256": "5330d9de6064625eb27419b69380599639a73df336b33c7ae6027d771d22dddc",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1VVLF5sJE-v18UbtKpS-zbmO8ZA7a3EWY",
+      "caminho": "vacinal_brasil/raw/sies_insumos_estrategicos_amostra.json",
+      "sha256": "5c38295f2c80a56d654d08f3617f10fb5a7e5e6ac26cb714bc27c037a71cba0f",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1ixYK-sscf3OgVtdKSGSnBqwAtTFL-8bo",
+      "caminho": "vacinal_brasil/raw/sesai_cobertura_vacinal_indigena.json",
+      "sha256": "a7517b17975fec33455fc5f198f971d484caa7a6f5adb6749b6bd622f8750302",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1GBQUfhGo_Y3Au9-IacaVbAqSstO6Hkog",
+      "caminho": "vacinal_brasil/raw/esavi_eventos_adversos_vacinacao_amostra.json",
+      "sha256": "28bfd25c5f822afdb90c6bf36aeded1683c70edb480e69ad22368c2b1e074372",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1XRzFrqhGQf3NPXpypf9jko3in9HiIzb7",
+      "caminho": "epidemiologico/raw/sinan_dengue_2026_amostra.json",
+      "sha256": "b307c77113bffa4a3e8631634f8f5c61e6069178385596cda6c7bc9382e13557",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1MUSUpZJfDicrSysyxvRkC8-grEbJh4S3",
+      "caminho": "epidemiologico/raw/sinan_chikungunya_2026_amostra.json",
+      "sha256": "838b674c15eb7987f740686b2a42feae584e0893fe4213be4e575dd77302544b",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1sBzOpDEM6w-py6WNbOHusKok-Rn9NS-P",
+      "caminho": "epidemiologico/raw/febre_amarela_humanos_primatas.json",
+      "sha256": "d414ffd9a8cbe56199a261a9661abeedb1bd8fe75c725dc0e43e09e1dfd12e5e",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1vh6jzrdbBh8keSZ_9rR_yhsS0mGn-S3I",
+      "caminho": "epidemiologico/raw/sinan_zika_2026_amostra.json",
+      "sha256": "8302ff76d655abb340a0689d9c87f2082a19b28c647f057eddd3b3520e05692f",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "15a31FnIzzmvDCHzNeYkU-4CJg6S43KAS",
+      "caminho": "epidemiologico/raw/srag_2019_2026_amostra.json",
+      "sha256": "1717921f7709a00b1be34da353eaa58a367583e03afadc1cd1d5e91a21f99628",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1d-4BX3q4xaBGPzPdVebF5GOTWEfyE3xy",
+      "caminho": "epidemiologico/raw/sim_mortalidade_amostra.json",
+      "sha256": "0b2965a9a6470ace90a521a714bd8e30a5dccdcb637a0ee559c6d8d0280501f4",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1WW_-OnxA8VHKiWuwaKKWYbUQ6LMdJhVX",
+      "caminho": "epidemiologico/raw/mpox_amostra.json",
+      "sha256": "90abc93272d48a4f7c7ef57721fd4729f4a5570c5b75ffdac680f823459a0df4",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1ut9N5W2_x_YgWZB740nX-fteqilSHH1S",
+      "caminho": "epidemiologico/raw/febre_amarela_epizootias.json",
+      "sha256": "5b08d65046866e6114bc9a38c9324f84498759a5e20ba9aae7059fd15f113032",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1NhdSaxR8U6B8oQ8PiHag09wFyHV9HIP5",
+      "caminho": "raw/cid10/CID-10-CAPITULOS.CSV",
+      "sha256": "23cee69acb227dbeeb99bf26ae2b9c40525795604e321cfe4d1b42ba04aeaf4c",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1A38SELA128MPZahYyarTCEK0vv6TK9_L",
+      "caminho": "raw/cid10/CID-10-SUBCATEGORIAS.CSV",
+      "sha256": "1a85bef8f2065ad3e95ab07b6441e6f03404c54ab35849ebd4edccc3ba234e60",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1-kUkQYiQMbT70_emdi-QYy3yGMmgM6zf",
+      "caminho": "raw/cid10/CID-O-CATEGORIAS.CSV",
+      "sha256": "29f5afd6a62ae189fb34e420907a82b8bc2402593ae18251d0ec0119fc57f2d8",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1u12z-VnAkb2tuo1jRnyVgDESX90gWVcz",
+      "caminho": "raw/cid10/CID-10-GRUPOS.CSV",
+      "sha256": "bbf1d465546cfa8907a951895140982cee2d759f826f9a9a048a440cc2f33e10",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1qnEgatkslUBnZ6AxvwTvc3--z4NdrQWe",
+      "caminho": "raw/cid10/CID-10-CATEGORIAS.CSV",
+      "sha256": "e372033b1c04f321a9a98aac8534f2bd4f22aa40c622525b619a2f616a3b6fc8",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "13XjLgP0Fq5-8UoiMda1G6g-zzLITkqJf",
+      "caminho": "raw/cid10/CID-O-GRUPOS.CSV",
+      "sha256": "e66d7490c00b4135498711cea4e04dabd30492276bb07d93430c284f09f53c57",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1kzd2CjIke1A63qx8A9aJhUx5vKznnyr9",
+      "caminho": "nutricao/raw/FoodData_Central_foundation_food_csv_2026-04-30.zip",
+      "sha256": "70457ee9d9342f43bda2010318c85f04210c689fdeb9cd2da4c513b0e8dbc655",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1vm5_U_zlxkk2FhuOC9hPVbQj3vrZOQdt",
+      "caminho": "nutricao/raw/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+      "sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1znYzpP4NzjACSKGtBwfvNY23-fJiljab",
+      "caminho": "epidemiologico/raw/portaria_gm_ms_11211_2026.html",
+      "sha256": "f55d931a166882974443a003ad16ce8b95bbbca8c1abd841c17dcf94ce52856e",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1uNJ5aIcevM8CV2EMIwaHRNLTgkIEiXZy",
+      "caminho": "vacinas/raw/cvx.txt",
+      "sha256": "efd2a6770f0f648ce76e10ac2889602b2ea8fa8ca4b63deb33ca883e7d0d7413",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1C4CpoBq9JEPcPazFziCtxB_7cPtVhurw",
+      "caminho": "vacinas/raw/supporting-data-4.65-508.zip",
+      "sha256": "741b8fd21c77887c4d2dc9ce1119a58d2659152007bda6791ffc57fdc098ce3d",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1ie7zBt9a7QUSFa0q1Pu6LXHXet3u3oXu",
+      "caminho": "medicamentos/raw/TA_PRECO_MEDICAMENTO.csv",
+      "sha256": "e843e1ba8cbe781692101282ac4e7dee10ae66ad262a620aa03abc781918c7cf",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1QANc6VZNRicGCkdO0rwfpJP7ZeDuxGDC",
+      "caminho": "medicamentos/raw/DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "sha256": "b71283bece2e11db95ffc48069fee0b4020c117ead18007fbc95c4f2082965ea",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1aNuM4zJ5QHkAtmbYMCpG9hlB3O8KBuFW",
+      "caminho": "medicamentos/raw/drug-shortages.json.zip",
+      "sha256": "da13db50b39d002144195ceae3d9068582d24c725ab394a2fa5cbaa810e05bf0",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1iy-12zaFSIWjQiVloq-W3QzOq64Nxpgo",
+      "caminho": "medicamentos/raw/drug-ndc.json.zip",
+      "sha256": "d1861731eeaa68d28adce6e33250b1b0061fa1ac94f67a6ad09cf814c168ee7a",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1NIlJmWM22xKQLZma7OwjDJgKA8aunoN_",
+      "caminho": "dispositivos/raw/TA_PRODUTO_SAUDE_SITE.csv",
+      "sha256": "6e4a94d9e7f7bc176e8f2ed50ea016cf0bded7ab3d42c6d90da785e6063ddcef",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1u-SO7w_Mrvmrm9GmOuOllNNduQzqHId8",
+      "caminho": "dispositivos/raw/device-classification.json.zip",
+      "sha256": "c1b65415257d0984e3cbadd34870ab4ef24c7af88cc7245945c3a5b5887f8a6e",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1EmKkhmEAakgJo35_1oUDx56N88pXyaH1",
+      "caminho": "mesh/raw/desc2026.gz",
+      "sha256": "ccd4d0d33bebfd4c836a59e7dd0c635b1d4e20c4f5a6abc55e2eb0ba4c8716dd",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1dqb2pWwcfCfB4fWBLXHRMGD32zQcARHH",
+      "caminho": "icd11/raw/SimpleTabulation-ICD-11-MMS-pt.zip",
+      "sha256": "ba9f9a79eea89e57319eaf59757af8638286545ad4b3ba8fa5cbce11d6857422",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1ulqgD6D-4NKo-jwySjc-re06l_xD8qjZ",
+      "caminho": "suprimentos/raw/catmat_classes_6510_6515_6530_6532.json",
+      "sha256": "d314ab1be679f50cbfe5646c071cd04e6b8addd9b6e9dd4c36000044b0330e1c",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1p-0sOjq9aUTwSQtlbDwLErcrNO3ZC_fB",
+      "caminho": "sinais_vitais/raw/bodyheight.profile.json",
+      "sha256": "b20ea7e6c046b149beee7085bb38ef628d8d16ac03f1bc310f37849c4773f591",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1Hd3TfVp13PvbIXeSOOftrlWYUklhYJoB",
+      "caminho": "sinais_vitais/raw/heartrate.profile.json",
+      "sha256": "700c3d1e082a72dcb3fbf2d7c2d31579cd45f7c07ec9ad5102172c84020141a5",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1faBmxjPbWodEv1xMtJMRk6AHtzLDEMwL",
+      "caminho": "sinais_vitais/raw/resprate.profile.json",
+      "sha256": "84def63e2aa5691e247bcddc7578e9ed4c1c5c6f5d68b750acfb877450fab777",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1fj3kMl2ssPUIl5pYeiejtqbMwNHqixmm",
+      "caminho": "sinais_vitais/raw/vitalspanel.profile.json",
+      "sha256": "b2c51dbe1c0fcdd44fb199db7742a164322540908494cb5d586cfd739bc5a0f2",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1X02pL7bXDEmeJQeuL7o0vaMJKww00YWD",
+      "caminho": "sinais_vitais/raw/bodyweight.profile.json",
+      "sha256": "30f9e6f27f46ce40d94d6ad543ceb66465306843413a1a646a6cda5d3d42ebe3",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "128tlK5NGu4OcrVCNPu2Fe8zMRhav-GFH",
+      "caminho": "sinais_vitais/raw/vitalsigns.profile.json",
+      "sha256": "68edb98807b704911308ab91a5e3c7ac365827cd7d4c141c245902f2dbbec302",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1XSIq0-XOOCbz7T6fJvlD5MIi33Uhexj_",
+      "caminho": "sinais_vitais/raw/bp.profile.json",
+      "sha256": "d4e8a936457662013a6941baf18a2b395f0e2f40a9c8079ce179d3073d0a8324",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1XnocODMjVObuSuaTWAa5fbUmhqOGhmup",
+      "caminho": "sinais_vitais/raw/oxygensat.profile.json",
+      "sha256": "173fff2535fb33523429243fc10eee2de2e5e18b2cee921f3776dd1124dc275f",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1v8kJG17gxpxDZ3nIJrRSkwe1akXguX0C",
+      "caminho": "sinais_vitais/raw/headcircum.profile.json",
+      "sha256": "3d5863c5bc54fd926c24166ababf28cc406945a95af48e92af3b478d7fcd52c8",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1WQYnYl4kR6vjvKUwdoQpQhyoLMm0Yrn8",
+      "caminho": "sinais_vitais/raw/bmi.profile.json",
+      "sha256": "26b550ae22882cb5dbcb3792b9154d5f0b41e48f1183861715ed2006e5b8988d",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1HJbgLTmvpe7xafjrrmyZB5LXUirD0kmt",
+      "caminho": "sinais_vitais/raw/bodytemp.profile.json",
+      "sha256": "b9860ea4b49b32309cdb0742dc484aefe459626f67ce4e20a3341bd3fe64202b",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "18E0nmDuaVFcCzKUFGSEEcDfXocRNKggg",
+      "caminho": "sinais_vitais/raw/valueset-observation-vitalsignresult.json",
+      "sha256": "ec1afc6e7d8421cf3e74dfa2e5602078468e7604307215a5816734a106951693",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1lxcRl5BgzbFwO3hIOIkZkHBoN_ywZc_B",
+      "caminho": "raw/mplus_topics_2026-10-10.xml",
+      "sha256": "ae1f946dc6a230c4b744293791e9164c6347cd8a453d677a1c1aff61bf88c536",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1PEzDf4oWIyChctfwu7mB_6luZIOCDzAe",
+      "caminho": "raw/CID10CSV.zip",
+      "sha256": "84f23809275575f751255048064bbb244b0de33fd5987ab98df0f98e5f5d2c95",
+      "resultado": "PASS",
+      "atomos": 0
+    }
+  ]
+}

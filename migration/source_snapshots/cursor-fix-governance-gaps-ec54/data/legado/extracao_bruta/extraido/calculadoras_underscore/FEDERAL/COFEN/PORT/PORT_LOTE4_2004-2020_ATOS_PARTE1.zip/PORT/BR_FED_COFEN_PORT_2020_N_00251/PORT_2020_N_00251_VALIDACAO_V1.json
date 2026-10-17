@@ -1,0 +1,333 @@
+{
+  "identificador": "BR_FED_COFEN_PORT_2020_N_00251",
+  "resultado_processo": "PENDENTE",
+  "rotulo": "Pendente de verificação",
+  "controles": [
+    {
+      "nome": "Identificação do ato e emissor",
+      "resultado": "PASS",
+      "evidencia": "PORTARIA COFEN Nº 251 DE 12 DE MARÇO DE 2020"
+    },
+    {
+      "nome": "Conferência site HTML × PDF oficial, dispositivo a dispositivo",
+      "resultado": "FAIL",
+      "status": "EXECUTADA_VIA_OCR",
+      "evidencia": {
+        "dispositivos_comparados": 39,
+        "por_resultado": {
+          "AUSENTE_NO_PDF": 1,
+          "EQUIVALENTE_OCR": 7,
+          "IDENTICO_NORMALIZADO": 31
+        },
+        "trechos_pdf_ausentes_no_site": 0,
+        "pdf": "PORT_2020_N_00251_PDF_SITE.pdf"
+      }
+    },
+    {
+      "nome": "Publicação no DOU (registro, sem verificação online)",
+      "resultado": "NAO_CITADO",
+      "evidencia": null
+    },
+    {
+      "nome": "Anexos referenciados presentes e atomizados",
+      "resultado": "NAO_APLICAVEL",
+      "status": "SEM_ANEXO_REFERENCIADO",
+      "referencias": []
+    },
+    {
+      "nome": "Numeração contígua (seções, itens, alíneas)",
+      "resultado": "PASS",
+      "evidencia": null
+    },
+    {
+      "nome": "Conferência humana da literalidade",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Pesquisa de alterações posteriores",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Direitos autorais do texto do ato oficial",
+      "resultado": "PASS",
+      "fundamento": "Lei 9.610/1998, art. 8, IV"
+    }
+  ],
+  "fechamento": {
+    "apto": false,
+    "status": "PENDENCIAS",
+    "justificativa": "Aguardando revisão humana da atomização e pesquisa de atos posteriores. Há achados bloqueantes adicionais."
+  },
+  "achados": [
+    {
+      "codigo": "C001",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Atomização automática; requer conferência humana da segmentação e da literalidade."
+    },
+    {
+      "codigo": "C002",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada."
+    },
+    {
+      "codigo": "C011",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "1 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+      "evidencia": [
+        {
+          "identificador": "BR_FED_COFEN_PORT_2020_N_00251_ASSINATURA_001",
+          "resultado": "AUSENTE_NO_PDF",
+          "similaridade": 59.3,
+          "trecho": "MANOEL CARLOS NERI DA SILVA / COREN-RO Nº 63592 / Presidente"
+        }
+      ]
+    },
+    {
+      "codigo": "C012",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+    }
+  ],
+  "conferencia_por_dispositivo": [
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00251_EPIGRAFE_001",
+      "tipo": "epigrafe",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00251_EMENTA",
+      "tipo": "ementa",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00251_PREAMBULO_001",
+      "tipo": "preambulo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00251_CONSIDERANDO_001",
+      "tipo": "considerando",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 98.3
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00251_CONSIDERANDO_002",
+      "tipo": "considerando",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00251_CONSIDERANDO_003",
+      "tipo": "considerando",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00251_CONSIDERANDO_004",
+      "tipo": "considerando",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00251_SECAO_001",
+      "tipo": "secao",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00251_ART_001",
+      "tipo": "artigo",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 99.8
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00251_ART_002",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00251_ART_002_INC_I",
+      "tipo": "inciso",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 96.3
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00251_ART_002_INC_II",
+      "tipo": "inciso",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 91.3
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00251_ART_002_INC_III",
+      "tipo": "inciso",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 96.7
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00251_ART_002_INC_IV",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00251_ART_002_INC_V",
+      "tipo": "inciso",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00251_ART_002_PAR_UNICO",
+      "tipo": "paragrafo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00251_ART_003",
+      "tipo": "artigo",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 99.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00251_ART_003_ALI_A",
+      "tipo": "alinea",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00251_ART_003_ALI_B",
+      "tipo": "alinea",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00251_ART_003_ALI_C",
+      "tipo": "alinea",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00251_ART_003_ALI_D",
+      "tipo": "alinea",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00251_ART_003_ALI_E",
+      "tipo": "alinea",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00251_ART_003_ALI_F",
+      "tipo": "alinea",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00251_ART_004",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00251_ART_004_ALI_A",
+      "tipo": "alinea",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00251_ART_004_ALI_B",
+      "tipo": "alinea",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00251_ART_004_ALI_C",
+      "tipo": "alinea",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00251_ART_004_ALI_D",
+      "tipo": "alinea",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00251_ART_004_PAR_UNICO",
+      "tipo": "paragrafo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00251_ART_005",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00251_ART_005_ALI_A",
+      "tipo": "alinea",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 77.8
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00251_ART_005_ALI_B",
+      "tipo": "alinea",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00251_ART_005_ALI_C",
+      "tipo": "alinea",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00251_ART_005_ALI_D",
+      "tipo": "alinea",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00251_ART_005_ALI_E",
+      "tipo": "alinea",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00251_ART_006",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00251_ART_007",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00251_LOCAL_DATA_001",
+      "tipo": "local_data",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00251_ASSINATURA_001",
+      "tipo": "assinatura",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 59.3
+    }
+  ],
+  "data_verificacao": "2026-10-10",
+  "responsavel": "Triagem automatizada - requer validação humana"
+}

@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-tecnico-de-camara-tecnica-n%e2%81%b0015-2020-cpics-cofen/ (API WordPress post 85963); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCOM_2020_N_00015_CPICS_ATOMOS_V1.jsonl",
+      "sha256": "0af80f53eb64336a522e1bbc65f00e6bbf9059e49a3dd361bed476d75e3e18c3",
+      "tamanho": 18906
+    },
+    {
+      "nome": "PARCOM_2020_N_00015_CPICS_CONTEUDO_SITE_API.json",
+      "sha256": "9765a296aec1132914072a7bac13881b075a08197df572c8e2559359ec76a8ed",
+      "tamanho": 5330
+    },
+    {
+      "nome": "PARCOM_2020_N_00015_CPICS_NORMA_V1.json",
+      "sha256": "1842cae481006141edcd310f2c0837ac164df5b6dc875f3e31bf8e15cc3e3905",
+      "tamanho": 2166
+    },
+    {
+      "nome": "PARCOM_2020_N_00015_CPICS_PAGINA_SITE.html",
+      "sha256": "6cf88cd1bcad2cf5f30c11737f9cf2c67fa12530e52fd9d602be7db0f9d89b86",
+      "tamanho": 443230
+    },
+    {
+      "nome": "PARCOM_2020_N_00015_CPICS_TEXTO_FONTE_V1.txt",
+      "sha256": "a704a6accc550941b12449cfd89af91a58e5d075d42ab8d7f058a596412a0aa2",
+      "tamanho": 4525
+    },
+    {
+      "nome": "PARCOM_2020_N_00015_CPICS_VALIDACAO_V1.json",
+      "sha256": "2c3a1edb88d9edae25abe0cffb43b75b5ae1d1588da3fd632fff781e64c3605f",
+      "tamanho": 2665
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

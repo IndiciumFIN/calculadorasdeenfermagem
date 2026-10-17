@@ -1,0 +1,44 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-544-de-07-de-outubro-de-2020/ (API WordPress post 82613); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2020_N_00544_ATOMOS_V1.jsonl",
+      "sha256": "bc1206fea7f43711d13fb944b5a65d1677154ff782be58cc569db79dbb875694",
+      "tamanho": 299969
+    },
+    {
+      "nome": "PORT_2020_N_00544_CONTEUDO_SITE_API.json",
+      "sha256": "b35f124d0081d819a9d255624e1c12b1f5894d0b89f53df89db887197c52b24c",
+      "tamanho": 65059
+    },
+    {
+      "nome": "PORT_2020_N_00544_NORMA_V1.json",
+      "sha256": "265506d8b3a6a4720e4db7a1fae0e9b7faaf5087d43fdd4ae4499111557fe5d8",
+      "tamanho": 4993
+    },
+    {
+      "nome": "PORT_2020_N_00544_PAGINA_SITE.html",
+      "sha256": "41ccf6dd71fc7c2e0f9e07e356d7bfbc5debce339b7f3718a2ac36bc619541bd",
+      "tamanho": 500514
+    },
+    {
+      "nome": "PORT_2020_N_00544_TEXTO_FONTE_V1.txt",
+      "sha256": "e7cf666112aa5b9c1fcc93af7892b83a3458bf5b02860361c2693ea3f9da7e42",
+      "tamanho": 34516
+    },
+    {
+      "nome": "PORT_2020_N_00544_VALIDACAO_V1.json",
+      "sha256": "62ee50a7514af07f2907f8ffced38abf710e34194f5f0a0850b8ea2f00c6e042",
+      "tamanho": 4395
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir.",
+    "Anexo presente mas sem conteúdo atomizado."
+  ]
+}

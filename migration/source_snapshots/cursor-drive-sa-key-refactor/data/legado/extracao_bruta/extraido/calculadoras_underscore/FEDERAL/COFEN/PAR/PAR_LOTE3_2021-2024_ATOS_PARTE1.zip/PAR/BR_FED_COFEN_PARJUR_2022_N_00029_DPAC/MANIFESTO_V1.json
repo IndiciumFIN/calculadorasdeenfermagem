@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-juridico-no-29-2022-dpac-proger-cofen/ (API WordPress post 111343); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARJUR_2022_N_00029_DPAC_ATOMOS_V1.jsonl",
+      "sha256": "329877b1800e23844023dfd573052207cf23670e8813e0a4eb886990cf074e52",
+      "tamanho": 184487
+    },
+    {
+      "nome": "PARJUR_2022_N_00029_DPAC_CONTEUDO_SITE_API.json",
+      "sha256": "8e5591cfbb3b5f29fa575cdcc35aa7240b1fe529ff6663f0ca2e7d27172d5e05",
+      "tamanho": 46714
+    },
+    {
+      "nome": "PARJUR_2022_N_00029_DPAC_NORMA_V1.json",
+      "sha256": "07457b11fd9b9f5181b9e15546e963ff852dd4f70088847347f21ca3bd71ffae",
+      "tamanho": 4297
+    },
+    {
+      "nome": "PARJUR_2022_N_00029_DPAC_PAGINA_SITE.html",
+      "sha256": "dfcaba31f98d432d17d817011bd4361ea8d30dc1ede256e802200caec463addd",
+      "tamanho": 483702
+    },
+    {
+      "nome": "PARJUR_2022_N_00029_DPAC_TEXTO_FONTE_V1.txt",
+      "sha256": "b5b61ced7c913317edf1ab09ebaf3232328358e6ee2905dfad9f59e2a081e122",
+      "tamanho": 44536
+    },
+    {
+      "nome": "PARJUR_2022_N_00029_DPAC_VALIDACAO_V1.json",
+      "sha256": "430fadc53d3da439947a461ca76a635384da3efd6005b867ee0ca7623c815fc1",
+      "tamanho": 2870
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir."
+  ]
+}

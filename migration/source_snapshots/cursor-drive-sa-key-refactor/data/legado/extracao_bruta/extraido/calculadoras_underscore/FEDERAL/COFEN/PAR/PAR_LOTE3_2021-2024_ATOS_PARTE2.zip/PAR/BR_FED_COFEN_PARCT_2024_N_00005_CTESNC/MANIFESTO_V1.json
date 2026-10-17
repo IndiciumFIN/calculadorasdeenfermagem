@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-5-2024-cofen-camtec-ctesnc/ (API WordPress post 137818); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2024_N_00005_CTESNC_ATOMOS_V1.jsonl",
+      "sha256": "f4291ffe16583552683d7015898e489a06cc222e48db5729fb6642851de62997",
+      "tamanho": 65246
+    },
+    {
+      "nome": "PARCT_2024_N_00005_CTESNC_CONTEUDO_SITE_API.json",
+      "sha256": "3e705dbd7466d51d8ec9bbfd806e9d9627a826f9d59f86b181e0fad5d8322e38",
+      "tamanho": 18516
+    },
+    {
+      "nome": "PARCT_2024_N_00005_CTESNC_NORMA_V1.json",
+      "sha256": "d27c05a2ef00366c377c4d2122cdb51a65a4ab8ecf2a5861f4563a34d4665d91",
+      "tamanho": 4596
+    },
+    {
+      "nome": "PARCT_2024_N_00005_CTESNC_PAGINA_SITE.html",
+      "sha256": "ea0c0a390ddc948be5aba82283bebc3e602a496f8993151246375009aa65c512",
+      "tamanho": 458459
+    },
+    {
+      "nome": "PARCT_2024_N_00005_CTESNC_PDF_SITE.pdf",
+      "sha256": "11826bfdb6f1c879b2b372f707dafb35f3c63af7ec44aeb9710b4b40b956b632",
+      "tamanho": 291361
+    },
+    {
+      "nome": "PARCT_2024_N_00005_CTESNC_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "3cba9be7fed5960fbcdbdc30d29d2f7cbcbdea8866e46f72f0eb1a6477f46128",
+      "tamanho": 15049
+    },
+    {
+      "nome": "PARCT_2024_N_00005_CTESNC_TEXTO_FONTE_V1.txt",
+      "sha256": "cd9e0add083a4ae084d470bdeb5be55114d61fcb90ff244baac98ef3ddaf08e5",
+      "tamanho": 13411
+    },
+    {
+      "nome": "PARCT_2024_N_00005_CTESNC_VALIDACAO_V1.json",
+      "sha256": "32fcb6c3dcd9e04699b5f7ae7bd82abc85e0fc54c397d4c16b6787880b28e4d8",
+      "tamanho": 15514
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir."
+  ]
+}

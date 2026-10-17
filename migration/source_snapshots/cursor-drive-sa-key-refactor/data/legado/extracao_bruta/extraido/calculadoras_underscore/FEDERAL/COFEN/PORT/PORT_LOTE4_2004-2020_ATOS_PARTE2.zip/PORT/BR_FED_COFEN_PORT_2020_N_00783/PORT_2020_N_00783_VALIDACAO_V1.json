@@ -1,0 +1,457 @@
+{
+  "identificador": "BR_FED_COFEN_PORT_2020_N_00783",
+  "resultado_processo": "PENDENTE",
+  "rotulo": "Pendente de verificação",
+  "controles": [
+    {
+      "nome": "Identificação do ato e emissor",
+      "resultado": "PASS",
+      "evidencia": "PORTARIA COFEN Nº 783 DE 4 DE DEZEMBRO DE 2020"
+    },
+    {
+      "nome": "Conferência site HTML × PDF oficial, dispositivo a dispositivo",
+      "resultado": "FAIL",
+      "status": "EXECUTADA_VIA_OCR",
+      "evidencia": {
+        "dispositivos_comparados": 14,
+        "por_resultado": {
+          "AUSENTE_NO_PDF": 1,
+          "EQUIVALENTE_OCR": 2,
+          "IDENTICO_NORMALIZADO": 11
+        },
+        "trechos_pdf_ausentes_no_site": 53,
+        "pdf": "PORT_2020_N_00783_PDF_SITE.pdf"
+      }
+    },
+    {
+      "nome": "Publicação no DOU (registro, sem verificação online)",
+      "resultado": "NAO_CITADO",
+      "evidencia": null
+    },
+    {
+      "nome": "Anexos referenciados presentes e atomizados",
+      "resultado": "FAIL",
+      "status": "PRESENTE_NAO_ATOMIZADO",
+      "referencias": [
+        "Anexo 1: Medidas administrativas;",
+        "Anexo 2: Condutas em relação aos casos suspeitos e confirmados da Covid-19 e seus con"
+      ]
+    },
+    {
+      "nome": "Numeração contígua (seções, itens, alíneas)",
+      "resultado": "PASS",
+      "evidencia": [
+        "Artigos em BR_FED_COFEN_PORT_2020_N_00783_ANEXO_005: começa em 2 (sequência [2, 3])"
+      ]
+    },
+    {
+      "nome": "Conferência humana da literalidade",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Pesquisa de alterações posteriores",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Direitos autorais do texto do ato oficial",
+      "resultado": "PASS",
+      "fundamento": "Lei 9.610/1998, art. 8, IV"
+    }
+  ],
+  "fechamento": {
+    "apto": false,
+    "status": "PENDENCIAS",
+    "justificativa": "Aguardando revisão humana da atomização e pesquisa de atos posteriores. Há achados bloqueantes adicionais."
+  },
+  "achados": [
+    {
+      "codigo": "C001",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Atomização automática; requer conferência humana da segmentação e da literalidade."
+    },
+    {
+      "codigo": "C002",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada."
+    },
+    {
+      "codigo": "C011",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "1 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+      "evidencia": [
+        {
+          "identificador": "BR_FED_COFEN_PORT_2020_N_00783_ANEXO_005_ASSINATURA_001",
+          "resultado": "AUSENTE_NO_PDF",
+          "similaridade": 54.2,
+          "trecho": "MANOEL CARLOS N. DA SILVA / COREN-RO Nº 63592 / Presidente"
+        }
+      ]
+    },
+    {
+      "codigo": "C014",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "53 trecho(s) do PDF sem correspondente no texto do site.",
+      "evidencia": [
+        {
+          "trecho_pdf": "1. Seguir todas as orientações contidas nessa Decisão Administrativa.",
+          "similaridade": 56.7,
+          "cobertura_vocabulario": 0.286,
+          "arquivo": "PORT_2020_N_00783_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "a) Manutenção do trabalho remoto para todos os profissionais pertencentes ao grupo de",
+          "similaridade": 51.2,
+          "cobertura_vocabulario": 0.375,
+          "arquivo": "PORT_2020_N_00783_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "risco, que já apresentaram laudo médico com as comorbidades para Covid-19.",
+          "similaridade": 50.0,
+          "cobertura_vocabulario": 0.429,
+          "arquivo": "PORT_2020_N_00783_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "a. Os casos de omissão serão encaminhados para o DGP para providências",
+          "similaridade": 50.7,
+          "cobertura_vocabulario": 0.429,
+          "arquivo": "PORT_2020_N_00783_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "3. A organização da jornada de trabalho deverá seguir conforme planejamento apresentado ao DADM, conforme resultado estabelecido no Anexo 3.",
+          "similaridade": 52.6,
+          "cobertura_vocabulario": 0.231,
+          "arquivo": "PORT_2020_N_00783_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "4. As atividades realizadas remotamente deverão ser comprovadas por meio de relatório, que deverá ser entregue ao Departamento Administrativo até o dia 10 do mês subsequente.",
+          "similaridade": 49.7,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "PORT_2020_N_00783_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "5. Os prestadores de serviço terceirizados administrativos deverão cumprir a jornada de trabalho conforme planejamento proposto por seus respectivos setores.",
+          "similaridade": 49.0,
+          "cobertura_vocabulario": 0.143,
+          "arquivo": "PORT_2020_N_00783_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "6. Fica proibida a visita de familiares: dos empregados públicos, colaboradores e prestadores nas dependências do Cofen.",
+          "similaridade": 49.1,
+          "cobertura_vocabulario": 0.1,
+          "arquivo": "PORT_2020_N_00783_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "7. É Obrigatório o uso contínuo de máscara conforme descrito no Anexo 5, itemle2.",
+          "similaridade": 50.0,
+          "cobertura_vocabulario": 0.143,
+          "arquivo": "PORT_2020_N_00783_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "8. Fica proibido encontro de colaboradores nas dependências do Cofen para confraternização e comemorações sociais (aniversários, despedidas entre outras).",
+          "similaridade": 51.0,
+          "cobertura_vocabulario": 0.143,
+          "arquivo": "PORT_2020_N_00783_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "9. Toda conversa nos corredores, quando necessária, deverá respeitar o distanciamento social de 1,5 (um e meio) metro evitando aglomerações.",
+          "similaridade": 49.3,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "PORT_2020_N_00783_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "10. O Atendimento aos visitantes deverá ser realizado no térreo, sempre que possível.",
+          "similaridade": 48.8,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "PORT_2020_N_00783_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "11. As ações de acompanhamento e controle desta Portaria ficarão sob a responsabilidade da",
+          "similaridade": 53.9,
+          "cobertura_vocabulario": 0.286,
+          "arquivo": "PORT_2020_N_00783_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "12. É obrigatório o preenchimento da Autodeclaração de Saúde quando apresentar um ou mais dos sinais ou sintomas a seguir: febre, dor de garganta, falta de ar, dores musculares, cansaço ou fadiga, congestão nasal, diarreia, perda do olfato /ou paladar.",
+          "similaridade": 49.0,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "PORT_2020_N_00783_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "a. Aos Conselheiros Federais que estão realizando atividades presenciais na Sede, aos Empregados, Terceirizados Administrativos e Estagiários o formulário eletrônico está disponível na Extranet;",
+          "similaridade": 48.4,
+          "cobertura_vocabulario": 0.062,
+          "arquivo": "PORT_2020_N_00783_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "b. As Reuniões das Câmaras Técnicas, Comissões e Grupos de Trabalho ESTARÃO SUSPENSAS a partir do dia 18 de dezembro de 2020; permanecerão as reuniões já agendadas até a presente data. Os colaboradores convocados deverão preencher a Autodeclaração de Saúde nos 7",
+          "similaridade": 47.3,
+          "cobertura_vocabulario": 0.182,
+          "arquivo": "PORT_2020_N_00783_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "(sete) dias que antecedem a atividade presencial na Sede do Cofen por meio do link:",
+          "similaridade": 51.2,
+          "cobertura_vocabulario": 0.222,
+          "arquivo": "PORT_2020_N_00783_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "https://bit.ly/3hd5aFij, caso apresentem um ou mais dos sinais e sintomas descritos no item",
+          "similaridade": 47.7,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "PORT_2020_N_00783_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "c. Os Terceirizados que não possuem acesso ao sistema informatizado devido a sua natureza de trabalho, deverão comunicar a sua Chefia quando apresentarem um ou mais dos sinais e sintomas descritos no item 11. A Chefia deverá seguir as orientações contidas no Anexo 2",
+          "similaridade": 47.9,
+          "cobertura_vocabulario": 0.125,
+          "arquivo": "PORT_2020_N_00783_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "A testagem será realizada quinzenalmente conforme escala a todos os Conselheiros Federais, Colaboradores, Empregados Públicos, Terceirizados Administrativos e Estagiários que não contraíram COVID-19 e estão realizando atividades presenciais na Sede do Cofen, conforme horários abaixo.",
+          "similaridade": 47.3,
+          "cobertura_vocabulario": 0.077,
+          "arquivo": "PORT_2020_N_00783_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Obs: Aqueles que já foram infectados pelo novo coronavírus (COVID-19), somente serão retestados caso voltem apresentar sinais ou sintomas de febre, dor de garganta, falta de ar,",
+          "similaridade": 50.6,
+          "cobertura_vocabulario": 0.222,
+          "arquivo": "PORT_2020_N_00783_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "dores musculares, cansaço ou fadiga, congestão nasal, diarreia, perda do olfato /ou paladar.",
+          "similaridade": 47.7,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "PORT_2020_N_00783_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "a. resultado de exame (RT-PCR ou Sorologia IgM/IgG), confirmando a COVID-19, de acordo com as orientações do Ministério da Saúde;",
+          "similaridade": 52.8,
+          "cobertura_vocabulario": 0.222,
+          "arquivo": "PORT_2020_N_00783_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "b. O Trabalhador DEVERÁ INFORMAR SUA CHEFIA E INICIAR O ISOLAMENTO!",
+          "similaridade": 47.7,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "PORT_2020_N_00783_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "2. Considera-se CONTATANTE DE CASO CONFIRMADO da COVID-19 o trabalhador",
+          "similaridade": 61.4,
+          "cobertura_vocabulario": 0.167,
+          "arquivo": "PORT_2020_N_00783_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "assintomático que teve contato com o caso confirmado da COVID-19, 02 (dois) dias antes",
+          "similaridade": 60.2,
+          "cobertura_vocabulario": 0.111,
+          "arquivo": "PORT_2020_N_00783_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "a. ter contato durante mais de 15 (quinze) minutos a menos de um metro de distância sem o uso de máscaras;",
+          "similaridade": 50.0,
+          "cobertura_vocabulario": 0.111,
+          "arquivo": "PORT_2020_N_00783_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "2.1 O Trabalhador DEVERÁ INFORMAR E AGUARDAR a orientação da sua chefia, NÃO DEVE SE DESLOCAR PARA O COFEN.",
+          "similaridade": 51.4,
+          "cobertura_vocabulario": 0.2,
+          "arquivo": "PORT_2020_N_00783_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "> TRABALHADOR: INFORMA IMEDIATAMENTE SUA CHEFIA, e aguarda orientação!",
+          "similaridade": 53.8,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "PORT_2020_N_00783_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "3. Considera-se CASO SUSPEITO o trabalhador que apresente quadro respiratório agudo com um ou mais dos sinais ou sintomas: febre, dor de garganta, falta de ar, dores musculares, cansaço ou",
+          "similaridade": 47.8,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "PORT_2020_N_00783_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "a. O trabalhador que estiver apresentando um ou mais sintomas acima citados DEVERÁ INFORMAR E AGUARDAR a orientação da sua chefia, ANTES DE SE DESLOCAR AO COFEN.",
+          "similaridade": 48.7,
+          "cobertura_vocabulario": 0.067,
+          "arquivo": "PORT_2020_N_00783_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "> TRABALHADOR: INFORMA IMEDIATAMENTE SUA CHEFIA, e aguarda orientação!",
+          "similaridade": 53.8,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "PORT_2020_N_00783_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "4. Considera-se CONTATANTE DE CASO SUSPEITO da COVID-19 o trabalhador assintomático",
+          "similaridade": 56.1,
+          "cobertura_vocabulario": 0.143,
+          "arquivo": "PORT_2020_N_00783_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "que teve contato com caso suspeito da COVID-19, até 02 (dois) dias antes, em uma das",
+          "similaridade": 58.8,
+          "cobertura_vocabulario": 0.125,
+          "arquivo": "PORT_2020_N_00783_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "a. ter contato durante mais de 15 (quinze) minutos a menos de um metro de distância sem o uso de máscaras;",
+          "similaridade": 50.0,
+          "cobertura_vocabulario": 0.111,
+          "arquivo": "PORT_2020_N_00783_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "b. compartilhar o mesmo ambiente domiciliar de casos suspeitos.",
+          "similaridade": 52.5,
+          "cobertura_vocabulario": 0.333,
+          "arquivo": "PORT_2020_N_00783_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "> TRABALHADOR: INFORMA IMEDIATAMENTE SUA CHEFIA, e AGUARDA orientação, ANTES DE SE DESLOCAR AO COFEN:",
+          "similaridade": 55.8,
+          "cobertura_vocabulario": 0.111,
+          "arquivo": "PORT_2020_N_00783_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "5. DEVERÃO PERMANECER EM ISOLAMENTO Jos conselheiros, comissionados,",
+          "similaridade": 50.8,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "PORT_2020_N_00783_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "colaboradores, empregados públicos, estagiários e prestadores de serviços, na seguinte situação:",
+          "similaridade": 50.0,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "PORT_2020_N_00783_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "6. DEVERÃO PERMANECER EM TRABALHO REMOTO, até a Avaliação e Triagem do CGC/Cofen, os conselheiros, comissionados, colaboradores, empregados públicos, estagiários e prestadores de serviços, nas seguintes situações:",
+          "similaridade": 49.0,
+          "cobertura_vocabulario": 0.176,
+          "arquivo": "PORT_2020_N_00783_PDF_SITE.pdf"
+        }
+      ]
+    },
+    {
+      "codigo": "C012",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+    },
+    {
+      "codigo": "C031",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir.",
+      "evidencia": [
+        "Artigos em BR_FED_COFEN_PORT_2020_N_00783_ANEXO_005: começa em 2 (sequência [2, 3])"
+      ]
+    },
+    {
+      "codigo": "C020",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Anexo presente mas sem conteúdo atomizado.",
+      "evidencia": [
+        "BR_FED_COFEN_PORT_2020_N_00783_ANEXO_001",
+        "BR_FED_COFEN_PORT_2020_N_00783_ANEXO_002",
+        "BR_FED_COFEN_PORT_2020_N_00783_ANEXO_003",
+        "BR_FED_COFEN_PORT_2020_N_00783_ANEXO_004"
+      ]
+    }
+  ],
+  "conferencia_por_dispositivo": [
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00783_EPIGRAFE_001",
+      "tipo": "epigrafe",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00783_PREAMBULO_001",
+      "tipo": "preambulo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00783_CONSIDERANDO_001",
+      "tipo": "considerando",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00783_CONSIDERANDO_002",
+      "tipo": "considerando",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 99.1
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00783_ART_001",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00783_ANEXO_001",
+      "tipo": "anexo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00783_ANEXO_002",
+      "tipo": "anexo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00783_ANEXO_003",
+      "tipo": "anexo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00783_ANEXO_004",
+      "tipo": "anexo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00783_ANEXO_005",
+      "tipo": "anexo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00783_ANEXO_005_ART_002",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00783_ANEXO_005_ART_003",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00783_ANEXO_005_LOCAL_DATA_001",
+      "tipo": "local_data",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 93.3
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2020_N_00783_ANEXO_005_ASSINATURA_001",
+      "tipo": "assinatura",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 54.2
+    }
+  ],
+  "data_verificacao": "2026-10-10",
+  "responsavel": "Triagem automatizada - requer validação humana"
+}

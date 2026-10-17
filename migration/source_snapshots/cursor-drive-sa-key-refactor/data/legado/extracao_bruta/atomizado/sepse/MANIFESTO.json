@@ -1,0 +1,233 @@
+{
+ "arquivos": [
+  {
+   "arquivo": "criterio_escore_transcrito_manualmente.jsonl",
+   "atomos": 33,
+   "bytes": 50510,
+   "sha256": "e07778e9b95cbcc30bbcae4095217f1f00d6bd404ee425dfe36a08dd4cd54081",
+   "tipo_entidade": "criterio_escore_transcrito_manualmente"
+  },
+  {
+   "arquivo": "definicao_transcrita_manualmente.jsonl",
+   "atomos": 2,
+   "bytes": 3182,
+   "sha256": "193d09a6070608b113b3895218eb6f2d365f33dd2bb07dc74451f8b1010bb859",
+   "tipo_entidade": "definicao_transcrita_manualmente"
+  },
+  {
+   "arquivo": "escore_transcrito_manualmente.jsonl",
+   "atomos": 2,
+   "bytes": 3664,
+   "sha256": "5bf84ee50ab45f8c73928ee9cd8714ddce17a283206231a4cd5ae88609aa5e8d",
+   "tipo_entidade": "escore_transcrito_manualmente"
+  },
+  {
+   "arquivo": "recorte_cid10.jsonl",
+   "atomos": 35,
+   "bytes": 33863,
+   "sha256": "a284d9ff8db01dd87041d3a9566f93f4e9e17b7adb4170b5b0286fba1b48c85a",
+   "tipo_entidade": "recorte_cid10"
+  },
+  {
+   "arquivo": "recorte_cid11.jsonl",
+   "atomos": 22,
+   "bytes": 24145,
+   "sha256": "256b7ffdadfe1f0ea4d45666ca0d68f9dee60f8278ed94e1037efd7eb96efe5f",
+   "tipo_entidade": "recorte_cid11"
+  },
+  {
+   "arquivo": "recorte_medlineplus.jsonl",
+   "atomos": 6,
+   "bytes": 44699,
+   "sha256": "6805b19897bc97bea78adb48e936685ed1c16e40e551c1fef33fa7f972ada1fd",
+   "tipo_entidade": "recorte_medlineplus"
+  },
+  {
+   "arquivo": "recorte_mesh.jsonl",
+   "atomos": 8,
+   "bytes": 11955,
+   "sha256": "c46ebeb2ccd3cd70b35b0b54f951dc0e60370c0611695865b5b7ab43b142e717",
+   "tipo_entidade": "recorte_mesh"
+  }
+ ],
+ "atomos_por_tipo_entidade": {
+  "criterio_escore_transcrito_manualmente": 33,
+  "definicao_transcrita_manualmente": 2,
+  "escore_transcrito_manualmente": 2,
+  "recorte_cid10": 35,
+  "recorte_cid11": 22,
+  "recorte_medlineplus": 6,
+  "recorte_mesh": 8
+ },
+ "conferencia_contagens": [
+  {
+   "arquivo_entrada": "sepse/sepse_cid10.csv",
+   "atomos": 35,
+   "confere": true,
+   "explicacao": "",
+   "linhas_csv": 35
+  },
+  {
+   "arquivo_entrada": "sepse/sepse_cid11.csv",
+   "atomos": 22,
+   "confere": true,
+   "explicacao": "",
+   "linhas_csv": 22
+  },
+  {
+   "arquivo_entrada": "sepse/sepse_mesh.csv",
+   "atomos": 8,
+   "confere": true,
+   "explicacao": "",
+   "linhas_csv": 8
+  },
+  {
+   "arquivo_entrada": "sepse/sepse_medlineplus.csv",
+   "atomos": 6,
+   "confere": true,
+   "explicacao": "",
+   "linhas_csv": 6
+  },
+  {
+   "arquivo_entrada": "sepse/criterios_sepsis3.json",
+   "atomos": 4,
+   "confere": false,
+   "explicacao": "JSON aninhado transcrito à mão, sem CSV equivalente. Geram átomos novos só as 2 definições (sepse, choque séptico) e as 2 descrições de escore (qSOFA, SOFA); os 33 itens de pontuação do JSON são os mesmos registros de criterios_sofa_qsofa.csv e viram átomos a partir dele (não duplicados).",
+   "linhas_csv": 37
+  },
+  {
+   "arquivo_entrada": "sepse/criterios_sofa_qsofa.csv",
+   "atomos": 33,
+   "confere": true,
+   "explicacao": "",
+   "linhas_csv": 33
+  }
+ ],
+ "entradas": [
+  {
+   "arquivo": "sepse/sepse_cid10.json",
+   "linhas_csv": 35,
+   "registros_json": 35,
+   "sha256_csv": "97a3692f3955406f5642dacc95eefa4aa4b81b32bea03092d23182e04657cc15",
+   "sha256_json": "888e1d23d09eabacb1e8631e6225b4e61e0189db2f514b5d66cebad814338aed"
+  },
+  {
+   "arquivo": "sepse/sepse_cid11.json",
+   "linhas_csv": 22,
+   "registros_json": 22,
+   "sha256_csv": "b344d7d368f5b5157e0c3d7ce8eac080bf148259c2559d56afd7d7054624bff1",
+   "sha256_json": "ff9228f149d5429e1773035e6a2881c95d99f2b9347fdcbebf0e44cf36675c6b"
+  },
+  {
+   "arquivo": "sepse/sepse_mesh.json",
+   "linhas_csv": 8,
+   "registros_json": 8,
+   "sha256_csv": "489ae70c3f31891257b5e7ee970736253648e004bd56cb8ba6b52749217014d9",
+   "sha256_json": "93b0b06439ea146c26c4aca219683e61665af027922c06d92643748f8494811c"
+  },
+  {
+   "arquivo": "sepse/sepse_medlineplus.json",
+   "linhas_csv": 6,
+   "registros_json": 6,
+   "sha256_csv": "716f254fcb46c719537ee34bdbe1ff1d2203f13c41e2673324e378e4a851992b",
+   "sha256_json": "4aa2029f74a7b9b62c90c669bd7193a5c90fff0669ccdb0c1dd65b4beba20d9e"
+  },
+  {
+   "arquivo": "sepse/criterios_sepsis3.json",
+   "linhas_csv": null,
+   "registros_json": 37,
+   "sha256_csv": null,
+   "sha256_json": "8a2e032ee51508e86f3ab213a73478ded8458f53e02a51f2213c13c47aef4d6d"
+  },
+  {
+   "arquivo": "sepse/criterios_sofa_qsofa.json",
+   "linhas_csv": 33,
+   "registros_json": 33,
+   "sha256_csv": "b620741114c3b0931e38e379b7eb1bf50e520e9df68b02a3107ee7306d63e2a3",
+   "sha256_json": "f6c94f3318917f2e286306dd2d579b23d1b129111683cc9dd7ca83e162ec4461"
+  }
+ ],
+ "fontes": [
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "DATASUS - CID-10 em português (CID10CSV.zip, cópia do Internet Archive)",
+   "fonte_url": "http://www2.datasus.gov.br/cid10/V2008/downloads/CID10CSV.zip",
+   "fonte_versao": "CID-10 DATASUS V2008"
+  },
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "NLM - MeSH Descriptors 2026 (desc2026.gz)",
+   "fonte_url": "https://nlmpubs.nlm.nih.gov/projects/mesh/MESH_FILES/xmlmesh/desc2026.gz",
+   "fonte_versao": "MeSH 2026 (desc2026.gz baixado em 2026-10-10)"
+  },
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "NLM/NIH - MedlinePlus Health Topics XML",
+   "fonte_url": "https://medlineplus.gov/xml/mplus_topics_2026-10-10.xml",
+   "fonte_versao": "mplus_topics_2026-10-10.xml"
+  },
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "OMS - CID-11 MMS Simple Tabulation (pt)",
+   "fonte_url": "https://icdcdn.who.int/static/releasefiles/2026-01/SimpleTabulation-ICD-11-MMS-pt.zip",
+   "fonte_versao": "ICD-11 MMS release 2026-01"
+  },
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "[TRANSCRITO MANUALMENTE] Singer M, et al. Sepsis-3. JAMA. 2016;315(8):801-810",
+   "fonte_url": "https://doi.org/10.1001/jama.2016.0287",
+   "fonte_versao": "transcrição manual digitada pelo Grok Bot em 2026-10-10 a partir da publicação citada (não é extração automática; conferir no documento original antes de uso clínico)"
+  },
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "[TRANSCRITO MANUALMENTE] Vincent JL, et al. The SOFA score. Intensive Care Med. 1996;22(7):707-710",
+   "fonte_url": "https://doi.org/10.1007/BF01709751",
+   "fonte_versao": "transcrição manual digitada pelo Grok Bot em 2026-10-10 a partir da publicação citada (não é extração automática; conferir no documento original antes de uso clínico)"
+  }
+ ],
+ "marcacao_transcricao_manual": {
+  "fonte_url": "DOI/URL da publicação citada no próprio arquivo transcrito (SOFA -> Vincent 1996; definições e qSOFA -> Singer 2016; NEWS2 -> RCP 2017; PA -> DBHA 2020).",
+  "regra": "Tabelas transcritas à mão (critérios Sepsis-3/SOFA/qSOFA, NEWS2, classificação da PA DBHA 2020) levam a marca em 4 lugares: (1) tipo_entidade termina em '_transcrito_manualmente' ou '_transcrita_manualmente'; (2) fonte_nome começa com '[TRANSCRITO MANUALMENTE]'; (3) fonte_versao diz que é transcrição manual digitada pelo Grok Bot em 2026-10-10, não extração automática; (4) descricao_literal termina com a seção '## aviso (...)' copiada literalmente do arquivo de origem."
+ },
+ "regras": {
+  "atom_id": "<tema>:<codigo>; codigo = chave local, com prefixo de subfonte quando o tema tem mais de uma fonte",
+  "data_extracao": "fixa por fonte (2026-10-10), não é a data da execução",
+  "descricao_literal": "renderização literal 'campo: valor' de todos os registros de origem da entidade (nada resumido)",
+  "ordenacao": "um arquivo por tipo_entidade, linhas ordenadas por atom_id, partes <= 90.000.000 bytes",
+  "sha256_atomo": "SHA-256 do JSON canônico (sort_keys, ensure_ascii=False, separators=(',',':')) do átomo sem o campo sha256"
+ },
+ "sobreposicao_matriz": {
+  "conflitos_ou_ambiguidades": [
+   "A matriz recomenda tratar o corpus Sepsis-3 como canônico e 'conferir a transcrição do A'; isso é uma verificação humana pendente, não instrução de remover átomos. Nada removido."
+  ],
+  "decisoes": [
+   "Recortes (cid10, cid11, mesh, medlineplus) são registros idênticos aos dos temas canônicos cid10/icd11/mesh/medlineplus; mantidos como átomos do tema sepse (tipo 'recorte_*') com referencias_cruzadas apontando para o código canônico (cid10 = código; cid11 = código, vazio em blocos sem código; mesh = UI; medlineplus = atom_id do tópico no tema medlineplus + o do outro idioma).",
+   "Matriz (TEMA|sepse, sobreposicao=parcial): Calculadoras-de-Enfermagem tem template 16 + corpus SRC-SEPSIS3-2016/SRC-SSC-2026/SRC-ILAS-2026; recomenda conferir a transcrição do A contra a fonte primária (Sepsis-3). Átomos transcritos mantidos, marcados como transcritos e pendentes dessa conferência humana."
+  ],
+  "linha_do_tema_literal": {
+   "a_existe": "sim",
+   "a_local": "extracao bruta Grok Bot Danadao/sepse https://drive.google.com/drive/folders/1Ca_H3hsH_dLLq6C9ZdZKWA4I7moaBctD",
+   "calc_enf_existe": "parcial",
+   "calc_enf_local": "https://drive.google.com/drive/folders/1USNLs3KgY2TErtMtVzwmOczCRijnoMAG",
+   "calc_enf_status": "parcial: 16_CONTEUDO_NORMATIVO_WAVE01_TEMPLATE_SEPSE_v1.0.0 + corpus SRC-SEPSIS3-2016, SRC-SSC-2026, SRC-ILAS-2026",
+   "chave": "TEMA|sepse",
+   "debby_existe": "nao",
+   "debby_local": "",
+   "debby_n_atomos": "",
+   "debby_status": "",
+   "descricao": "Sepsis-3, SOFA/qSOFA transcritos + CID/MeSH/MedlinePlus",
+   "diferencas": "Calc: documentos-fonte com blocos de evidencia (artigo Sepsis-3 271 blocos) + template; A: criterios transcritos manualmente",
+   "recomendacao": "Canonica: fonte primaria do corpus (Sepsis-3); conferir a transcricao do A contra ela; template 16 e o destino de conteudo.",
+   "sobreposicao": "parcial",
+   "tipo_registro": "dados (A)"
+  },
+  "mapeamentos_itens_calculadoras_enfermagem": [],
+  "matriz_arquivo": "MATRIZ_CRUZAMENTO_NORMATIVOS_DADOS_2026-10-10.csv",
+  "matriz_drive_file_id": "1eJETouIY0YwoZ0qUg-ObYRmPLeKgcEy_",
+  "matriz_sha256": "72968b5dfb5a68b53df4ab8a9e9268b6d631de9c687629ef951527e0323548a2",
+  "regra": "Nenhum átomo foi removido por sobreposição (a matriz não manda remover átomos). Mapeamentos item a item só quando a linha da matriz cita literalmente o arquivo de origem do átomo (a_local) e, se a matriz traz prefixo de sha256, ele confere com o arquivo local; o resto fica registrado aqui no nível do tema. referencias_cruzadas mantém só as 4 chaves do spec (cid10, cid11, mesh, medlineplus)."
+ },
+ "tema": "sepse",
+ "total_atomos": 108,
+ "versao_gerador": "atomizar.py 1.1.0"
+}

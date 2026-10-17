@@ -1,0 +1,25 @@
+{
+  "algoritmo": "concatenacao-bytes-sha256",
+  "id_origem": "1MmOEsNfDfpnimOb5rHNYzJtXtqGWfDJx",
+  "arquivo": "catmat_itens_classes_6510_6515_6530_6532.json",
+  "caminho_obter": "suprimentos/inteiros/catmat_itens_classes_6510_6515_6530_6532.json",
+  "bytes": 51223636,
+  "sha256": "3d8267b74c603ce1f4515f6639705010ac367a598dcc5478a5535adb992b2485",
+  "tamanho_parte": 40000000,
+  "partes": [
+    {
+      "nome": "part-000",
+      "ordem": 0,
+      "offset": 0,
+      "bytes": 40000000,
+      "sha256": "c793935c0eeb6bbc9cf29a4bfec5392c1968091838bac2514e0b093249ef8a1f"
+    },
+    {
+      "nome": "part-001",
+      "ordem": 1,
+      "offset": 40000000,
+      "bytes": 11223636,
+      "sha256": "5ae47a28c997776dd563ad253f9e7c43b05b30de8011d50c6bdaf57f8f42982a"
+    }
+  ]
+}

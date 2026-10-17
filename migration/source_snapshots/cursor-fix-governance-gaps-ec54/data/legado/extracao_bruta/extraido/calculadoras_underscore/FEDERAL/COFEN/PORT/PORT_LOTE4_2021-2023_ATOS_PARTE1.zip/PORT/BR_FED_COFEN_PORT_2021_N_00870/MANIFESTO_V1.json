@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-870-de-6-de-agosto-de-2021/ (API WordPress post 89579); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2021_N_00870_ATOMOS_V1.jsonl",
+      "sha256": "9dab399bf720aa55cdee36137e5dbad533894f78a66b70b04eca84ce8bf95f6c",
+      "tamanho": 7912
+    },
+    {
+      "nome": "PORT_2021_N_00870_CONTEUDO_SITE_API.json",
+      "sha256": "a7a6eaa324a04b9d2ff52f7d8e246d8021a7eaf95ef8f1b0069032b5f74ff32e",
+      "tamanho": 2178
+    },
+    {
+      "nome": "PORT_2021_N_00870_NORMA_V1.json",
+      "sha256": "92e16440abb1b8adc511a8b8c408f1d6b9df61c6097ce7a60148072cfc229ad1",
+      "tamanho": 3908
+    },
+    {
+      "nome": "PORT_2021_N_00870_PAGINA_SITE.html",
+      "sha256": "37dd88c03f3eccb41118cf39074cde32184f1731b69ebd0165836ee0b938e3c1",
+      "tamanho": 443727
+    },
+    {
+      "nome": "PORT_2021_N_00870_TEXTO_FONTE_V1.txt",
+      "sha256": "dff28be84a69e7b224fdbe085cb7067e9ae6d0ec243b9da4daa637c7deb9a3e2",
+      "tamanho": 1526
+    },
+    {
+      "nome": "PORT_2021_N_00870_VALIDACAO_V1.json",
+      "sha256": "c2cc8aae5d66764faf5f1950f7ee81616a0b673c39ff85f442169d47ebabea1d",
+      "tamanho": 2458
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

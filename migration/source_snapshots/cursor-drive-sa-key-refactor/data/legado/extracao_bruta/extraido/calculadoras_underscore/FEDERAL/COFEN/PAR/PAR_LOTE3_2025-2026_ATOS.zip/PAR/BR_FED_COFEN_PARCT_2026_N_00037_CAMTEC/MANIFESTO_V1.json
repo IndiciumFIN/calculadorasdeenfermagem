@@ -1,0 +1,53 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-37-2026-camaras-tecnicas-de-enfermagem/ (API WordPress post 192610); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2026_N_00037_CAMTEC_ATOMOS_V1.jsonl",
+      "sha256": "012657ad72d9bc8ad644d9cf638b69a062ef384bae17427971e8ec5abda80763",
+      "tamanho": 85968
+    },
+    {
+      "nome": "PARCT_2026_N_00037_CAMTEC_CONTEUDO_SITE_API.json",
+      "sha256": "ecc941c90f483b0e48c7637be0e2d504b7b6c062ec28228110d3b761564999c4",
+      "tamanho": 22657
+    },
+    {
+      "nome": "PARCT_2026_N_00037_CAMTEC_NORMA_V1.json",
+      "sha256": "7d7bbb83ef57e04dd65263a6215719c52ec3760ec6ab1383252d0427ff7dce44",
+      "tamanho": 8532
+    },
+    {
+      "nome": "PARCT_2026_N_00037_CAMTEC_PAGINA_SITE.html",
+      "sha256": "43f04f920d61ef197c46846310270f4380d90a3ab041a26f55e7891a08eb3ba4",
+      "tamanho": 462847
+    },
+    {
+      "nome": "PARCT_2026_N_00037_CAMTEC_PDF_SITE.pdf",
+      "sha256": "7e9e2b27a5c04f342e78cd3756545d78c8c7e0801eabe1a69d5902a870529ead",
+      "tamanho": 4291137
+    },
+    {
+      "nome": "PARCT_2026_N_00037_CAMTEC_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "8de0a8122c61bcaddbe2610580c1e1be4b272f4fb205db13968391504fd5617e",
+      "tamanho": 17351
+    },
+    {
+      "nome": "PARCT_2026_N_00037_CAMTEC_TEXTO_FONTE_V1.txt",
+      "sha256": "c6e85604bee7df760e9884b5aa1fdb922ed4dfb03a4db8f247224ec0d3d9a580",
+      "tamanho": 17238
+    },
+    {
+      "nome": "PARCT_2026_N_00037_CAMTEC_VALIDACAO_V1.json",
+      "sha256": "17b4cd1ec51aa6e5ec3a61c964b62a7adb01ac128db78710f7543797f6998f9a",
+      "tamanho": 17409
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência."
+  ]
+}

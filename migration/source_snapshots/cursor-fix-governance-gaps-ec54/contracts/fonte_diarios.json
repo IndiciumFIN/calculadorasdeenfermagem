@@ -1,0 +1,19 @@
+{
+  "regra": "Sempre consultar o diário oficial da esfera correta",
+  "esferas": {
+    "federal": {
+      "nome": "Diário Oficial da União",
+      "url_base": "https://in.gov.br",
+      "adapter": "packages/cli/adapters/dou.py"
+    },
+    "estadual": {
+      "nome": "Diário Oficial do Estado",
+      "observacao": "Cada estado tem o seu. Consulta obrigatória."
+    },
+    "municipal": {
+      "nome": "Diário Oficial do Município",
+      "observacao": "Cada município tem o seu (quando existe). Consulta obrigatória."
+    }
+  },
+  "divergencia": "Registrar ambas as versões e marcar status 'divergencia'. Revisão humana obrigatória."
+}

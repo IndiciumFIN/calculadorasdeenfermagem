@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-tecnico-no-009-2021-rai-cofen/ (API WordPress post 85471); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARTEC_2021_N_00009_ARI_ATOMOS_V1.jsonl",
+      "sha256": "a30ce67a4c6f14e4a2ecea8b5a88db63c416a26e6cb91a59d7b75dc7f358d399",
+      "tamanho": 20919
+    },
+    {
+      "nome": "PARTEC_2021_N_00009_ARI_CONTEUDO_SITE_API.json",
+      "sha256": "6cfdd2046f2503b2323b8e34d251203a8d23ede7df302b8b9730fc9a1fc44613",
+      "tamanho": 5211
+    },
+    {
+      "nome": "PARTEC_2021_N_00009_ARI_NORMA_V1.json",
+      "sha256": "3e5bde0650d79fb4fff9f8918926d5257ff3bac6bc38d72da3a831cc047dd40a",
+      "tamanho": 3196
+    },
+    {
+      "nome": "PARTEC_2021_N_00009_ARI_PAGINA_SITE.html",
+      "sha256": "929080f441525ed5bc425ed318f7895852b775f9ba151ddd04d71a698bb66ae6",
+      "tamanho": 442133
+    },
+    {
+      "nome": "PARTEC_2021_N_00009_ARI_TEXTO_FONTE_V1.txt",
+      "sha256": "a0c6901f944268a66f43e2f06d0d8e6c4197a053a97351cba054fdb829116d4f",
+      "tamanho": 3937
+    },
+    {
+      "nome": "PARTEC_2021_N_00009_ARI_VALIDACAO_V1.json",
+      "sha256": "93898472abcfe75b8e24fee63935958ec1a9a523619012bf7c7a798c8f852696",
+      "tamanho": 2458
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

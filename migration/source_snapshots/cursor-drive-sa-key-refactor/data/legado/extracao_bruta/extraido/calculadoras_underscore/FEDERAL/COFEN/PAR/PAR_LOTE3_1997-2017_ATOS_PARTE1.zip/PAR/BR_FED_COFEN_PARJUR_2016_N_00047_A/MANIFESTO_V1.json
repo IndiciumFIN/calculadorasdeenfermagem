@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-juridico-n-0472016-a/ (API WordPress post 48471); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARJUR_2016_N_00047_A_ATOMOS_V1.jsonl",
+      "sha256": "1068c753a503799e3dcc277f9d3e3384d54b7e04fb8811e6dc8816ef0c47e41b",
+      "tamanho": 59124
+    },
+    {
+      "nome": "PARJUR_2016_N_00047_A_CONTEUDO_SITE_API.json",
+      "sha256": "31804f5837402aa41e866abbf7c32594a6e1d18c736e4ee740eaf99f0dae001f",
+      "tamanho": 12284
+    },
+    {
+      "nome": "PARJUR_2016_N_00047_A_NORMA_V1.json",
+      "sha256": "4d1a699488186712b605c50b5b3c0b9cad1d1d7c4ba85f00c0b7ebfbc08adf57",
+      "tamanho": 4001
+    },
+    {
+      "nome": "PARJUR_2016_N_00047_A_PAGINA_SITE.html",
+      "sha256": "fa052ba119e2b7c532d99fbd9eb819019fe6f743572737bc690a61bff1cc8c20",
+      "tamanho": 452254
+    },
+    {
+      "nome": "PARJUR_2016_N_00047_A_PDF_SITE.pdf",
+      "sha256": "402e3e5e18a7c43e4639d51937d11d1d6352818e0a0eb5581592c87fcae03c9e",
+      "tamanho": 2790825
+    },
+    {
+      "nome": "PARJUR_2016_N_00047_A_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "3f02bb074a0ed87a3b928efaa2dad0ab08d378cd27eb3e039dd47737ce571b36",
+      "tamanho": 11939
+    },
+    {
+      "nome": "PARJUR_2016_N_00047_A_TEXTO_FONTE_V1.txt",
+      "sha256": "8b864fd3d26f1dbcfe8f3b0cfeaad9a03cac1c55bd384fec6e1a6585730ef857",
+      "tamanho": 10918
+    },
+    {
+      "nome": "PARJUR_2016_N_00047_A_VALIDACAO_V1.json",
+      "sha256": "ab23884fe81a2d03e3fd92b1515bb8dde53a77e81222edcc196bab732617184b",
+      "tamanho": 13928
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+  ]
+}

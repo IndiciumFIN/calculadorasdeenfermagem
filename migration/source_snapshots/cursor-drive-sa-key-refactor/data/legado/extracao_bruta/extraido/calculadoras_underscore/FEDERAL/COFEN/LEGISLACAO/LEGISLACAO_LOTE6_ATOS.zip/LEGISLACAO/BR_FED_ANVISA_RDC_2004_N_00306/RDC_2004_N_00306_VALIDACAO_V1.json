@@ -1,0 +1,165 @@
+{
+  "identificador": "BR_FED_ANVISA_RDC_2004_N_00306",
+  "resultado_processo": "PENDENTE",
+  "rotulo": "Pendente de verificação",
+  "controles": [
+    {
+      "nome": "Identificação do ato e emissor",
+      "resultado": "PASS",
+      "evidencia": "RDC 306 |ANVISA| 2004 | Gerenciamento de Resíduos de Serviços de Saúde| Dispõe sobre o Regulamento Técnico para o gerenciamento de resíduos de serviços de saúde"
+    },
+    {
+      "nome": "Conferência site HTML × PDF oficial, dispositivo a dispositivo",
+      "resultado": "NAO_EXECUTADO",
+      "status": "NAO_APLICAVEL_TEXTO_SO_NO_PDF",
+      "evidencia": {
+        "dispositivos_comparados": 0,
+        "por_resultado": {},
+        "trechos_pdf_ausentes_no_site": 0,
+        "pdf": "RDC_2004_N_00306_PDF_SITE.pdf"
+      }
+    },
+    {
+      "nome": "Publicação no DOU (registro, sem verificação online)",
+      "resultado": "REGISTRADO",
+      "evidencia": null
+    },
+    {
+      "nome": "Anexos referenciados presentes e atomizados",
+      "resultado": "PASS",
+      "status": "PRESENTE_E_ATOMIZADO",
+      "referencias": [
+        ". 5º Todos os serviços em funcionamento, abrangidos pelo Regulamento Técnico em anexo, têm prazo máximo de 180 dias para se adequarem aos requisitos nele contidos. A",
+        "Regulamento Técnico para o Gerencia- mento de Resíduos de Serviços de Saúde, em Anexo a esta Re- solução, a ser observado em todo o território nacional, na área públ",
+        "denados pela Comissão Permanente de Revisão da Farmacopéia Brasileira, conforme anexo.",
+        "gistro de Pro- duto Biológico,de Produtos farmacêuticos, conforme na relação em anexo."
+      ]
+    },
+    {
+      "nome": "Numeração contígua (seções, itens, alíneas)",
+      "resultado": "FAIL",
+      "evidencia": [
+        "Itens 1.x: [1, 2, 6, 3, 8, 4, 5]",
+        "Itens 2.x: [7, 8, 2, 3, 4, 5, 6]",
+        "Itens 4.2.x: [1, 2, 4]",
+        "Itens 11.x: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 21]",
+        "Itens 13.2.x: [3, 3]",
+        "Itens 13.x: [3, 2]",
+        "Itens 12.x: [3, 2]",
+        "Itens 12.3.x: [2, 4, 5, 6, 7, 8, 9, 10, 11]",
+        "Itens 1.5.x: começa em 6 (sequência [6])",
+        "Itens 2.x: começa em 7 (sequência [7, 8, 2, 3, 4, 5, 6])",
+        "Itens 4.1.x: começa em 2 (sequência [2, 3, 4, 5, 6, 7, 8, 9])",
+        "Itens 5.4.x: começa em 5 (sequência [5, 6])",
+        "Itens 5.x: começa em 2 (sequência [2, 3, 4])",
+        "Itens 11.x: começa em 2 (sequência [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 21])",
+        "Itens 13.2.x: começa em 3 (sequência [3, 3])",
+        "Itens 13.x: começa em 3 (sequência [3, 2])",
+        "Itens 12.x: começa em 3 (sequência [3, 2])",
+        "Itens 13.3.x: começa em 2 (sequência [2, 3])",
+        "Itens 12.3.x: começa em 2 (sequência [2, 4, 5, 6, 7, 8, 9, 10, 11])",
+        "Itens 14.x: começa em 2 (sequência [2, 3, 4, 5, 6, 7])",
+        "Itens 14.7.x: começa em 2 (sequência [2, 3, 4])",
+        "Itens 13.1.x: começa em 2 (sequência [2])",
+        "Itens 12.2.x: começa em 2 (sequência [2, 3, 4])",
+        "Itens 15.x: começa em 2 (sequência [2, 3, 4, 5, 6, 7, 8, 9, 10])"
+      ]
+    },
+    {
+      "nome": "Conferência humana da literalidade",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Pesquisa de alterações posteriores",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Direitos autorais do texto do ato oficial",
+      "resultado": "PASS",
+      "fundamento": "Lei 9.610/1998, art. 8, IV"
+    }
+  ],
+  "fechamento": {
+    "apto": false,
+    "status": "PENDENCIAS",
+    "justificativa": "Aguardando revisão humana da atomização e pesquisa de atos posteriores. Há achados bloqueantes adicionais."
+  },
+  "achados": [
+    {
+      "codigo": "C001",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Atomização automática; requer conferência humana da segmentação e da literalidade."
+    },
+    {
+      "codigo": "C002",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada."
+    },
+    {
+      "codigo": "C052",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+      "evidencia": [
+        "RDC_2004_N_00306_PDF_SITE.pdf"
+      ]
+    },
+    {
+      "codigo": "C016",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "Texto do ato disponível apenas no PDF (o site traz só título/resumo); atomização feita a partir da camada de texto do PDF."
+    },
+    {
+      "codigo": "C030",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+      "evidencia": [
+        "Itens 1.x: [1, 2, 6, 3, 8, 4, 5]",
+        "Itens 2.x: [7, 8, 2, 3, 4, 5, 6]",
+        "Itens 4.2.x: [1, 2, 4]",
+        "Itens 11.x: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 21]",
+        "Itens 13.2.x: [3, 3]",
+        "Itens 13.x: [3, 2]",
+        "Itens 12.x: [3, 2]",
+        "Itens 12.3.x: [2, 4, 5, 6, 7, 8, 9, 10, 11]"
+      ]
+    },
+    {
+      "codigo": "C031",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir.",
+      "evidencia": [
+        "Itens 1.5.x: começa em 6 (sequência [6])",
+        "Itens 2.x: começa em 7 (sequência [7, 8, 2, 3, 4, 5, 6])",
+        "Itens 4.1.x: começa em 2 (sequência [2, 3, 4, 5, 6, 7, 8, 9])",
+        "Itens 5.4.x: começa em 5 (sequência [5, 6])",
+        "Itens 5.x: começa em 2 (sequência [2, 3, 4])",
+        "Itens 11.x: começa em 2 (sequência [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 21])",
+        "Itens 13.2.x: começa em 3 (sequência [3, 3])",
+        "Itens 13.x: começa em 3 (sequência [3, 2])",
+        "Itens 12.x: começa em 3 (sequência [3, 2])",
+        "Itens 13.3.x: começa em 2 (sequência [2, 3])",
+        "Itens 12.3.x: começa em 2 (sequência [2, 4, 5, 6, 7, 8, 9, 10, 11])",
+        "Itens 14.x: começa em 2 (sequência [2, 3, 4, 5, 6, 7])",
+        "Itens 14.7.x: começa em 2 (sequência [2, 3, 4])",
+        "Itens 13.1.x: começa em 2 (sequência [2])",
+        "Itens 12.2.x: começa em 2 (sequência [2, 3, 4])",
+        "Itens 15.x: começa em 2 (sequência [2, 3, 4, 5, 6, 7, 8, 9, 10])"
+      ]
+    },
+    {
+      "codigo": "C051",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "Data do ato não identificada no texto; usada a data do post no site."
+    }
+  ],
+  "conferencia_por_dispositivo": [],
+  "data_verificacao": "2026-10-10",
+  "responsavel": "Triagem automatizada - requer validação humana"
+}

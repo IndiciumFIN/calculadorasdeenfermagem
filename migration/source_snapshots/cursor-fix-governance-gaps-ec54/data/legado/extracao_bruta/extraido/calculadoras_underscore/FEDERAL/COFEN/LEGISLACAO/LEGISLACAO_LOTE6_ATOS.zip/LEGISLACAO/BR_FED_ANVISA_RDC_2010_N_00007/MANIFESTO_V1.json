@@ -1,0 +1,43 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/rdc-07-anvisa-2010-funcionamento-de-unidades-de-terapia-intensiva-dou-no-37-quinta-feira-25-de-fevereiro-de-2010/ (API WordPress post 51489); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "RDC_2010_N_00007_ATOMOS_V1.jsonl",
+      "sha256": "2b17c2541e844666eb17fe81f011dbf7dcdd34c75840caeeb57851604550debf",
+      "tamanho": 673
+    },
+    {
+      "nome": "RDC_2010_N_00007_CONTEUDO_SITE_API.json",
+      "sha256": "d0a7a91dbe3595f127022864b31402b20c59789e83d714fe043e832b65f74325",
+      "tamanho": 425
+    },
+    {
+      "nome": "RDC_2010_N_00007_NORMA_V1.json",
+      "sha256": "7d1b436739a84bb1df2a768a72394906db476f4f39786229177bcc8e5a3617b7",
+      "tamanho": 2261
+    },
+    {
+      "nome": "RDC_2010_N_00007_PAGINA_SITE.html",
+      "sha256": "f546495d38f859bc04dedcf0750b816dc902d1e28d9cc5d1fd53a38116bf15bf",
+      "tamanho": 436918
+    },
+    {
+      "nome": "RDC_2010_N_00007_TEXTO_FONTE_V1.txt",
+      "sha256": "8f29936095b2f26c0ac018f9309bea80e557cc908094f2cdd0ab19418702733d",
+      "tamanho": 70
+    },
+    {
+      "nome": "RDC_2010_N_00007_VALIDACAO_V1.json",
+      "sha256": "3fecafb7fbf4b62deb35a76a7bf73d45b66ca1e5a357d98d26d01713ecb236b3",
+      "tamanho": 2913
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Página do site quase sem texto (0 caracteres) e sem PDF do ato; conteúdo do ato não disponível.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

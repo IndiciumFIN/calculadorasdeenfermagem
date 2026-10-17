@@ -1,0 +1,43 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-49-2026-camaras-tecnicas-de-enfermagem/ (API WordPress post 193168); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2026_N_00049_CAMTEC_ATOMOS_V1.jsonl",
+      "sha256": "b669d11c064c9dddf33dc593d61caecf130c66655be893693eba9440690f97ac",
+      "tamanho": 655
+    },
+    {
+      "nome": "PARCT_2026_N_00049_CAMTEC_CONTEUDO_SITE_API.json",
+      "sha256": "48270d3be3932d14cb27209835a64e230ff8db2b0b86b40304c602d3309d4dfd",
+      "tamanho": 353
+    },
+    {
+      "nome": "PARCT_2026_N_00049_CAMTEC_NORMA_V1.json",
+      "sha256": "e93ba8f393f514bf5cfbb6671b5aff316401fc74bd278d53f872f84b0f855526",
+      "tamanho": 1803
+    },
+    {
+      "nome": "PARCT_2026_N_00049_CAMTEC_PAGINA_SITE.html",
+      "sha256": "19e9429b52c3327ef15285df96697ad6bc75cc4358040acebe7e9a7ff82b3009",
+      "tamanho": 57087
+    },
+    {
+      "nome": "PARCT_2026_N_00049_CAMTEC_TEXTO_FONTE_V1.txt",
+      "sha256": "76a61e8b46b6fa972e098b9d71bdd4ce2066b386100650deb400fd9ebabe8508",
+      "tamanho": 53
+    },
+    {
+      "nome": "PARCT_2026_N_00049_CAMTEC_VALIDACAO_V1.json",
+      "sha256": "84e726f55004436ff1fdc361a6f94b50a8fff5a2da293ba56c20436507212c62",
+      "tamanho": 2904
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Página do site quase sem texto (0 caracteres) e sem PDF do ato; conteúdo do ato não disponível.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

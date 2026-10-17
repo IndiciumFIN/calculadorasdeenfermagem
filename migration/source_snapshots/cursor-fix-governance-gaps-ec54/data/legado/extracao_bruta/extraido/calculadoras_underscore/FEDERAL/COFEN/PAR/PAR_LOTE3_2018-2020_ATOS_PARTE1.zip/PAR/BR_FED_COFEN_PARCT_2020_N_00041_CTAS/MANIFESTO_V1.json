@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-041-2020-cofen-ctas/ (API WordPress post 81826); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2020_N_00041_CTAS_ATOMOS_V1.jsonl",
+      "sha256": "c86de0ea7fcf85b75d6715cb2d66c6a4e8afdffcd78cec271fe5a6d2df605f5c",
+      "tamanho": 54986
+    },
+    {
+      "nome": "PARCT_2020_N_00041_CTAS_CONTEUDO_SITE_API.json",
+      "sha256": "2102b48cba508beef5693378dad6748a1d60a87e0cf7fe8991b073e20b537863",
+      "tamanho": 14284
+    },
+    {
+      "nome": "PARCT_2020_N_00041_CTAS_NORMA_V1.json",
+      "sha256": "dff2ef65e2c09def13dfd43e3fd89840d47a6ae2abbfab04b467bf83678a07ea",
+      "tamanho": 5536
+    },
+    {
+      "nome": "PARCT_2020_N_00041_CTAS_PAGINA_SITE.html",
+      "sha256": "c2eb8c35b127260f2137586955154afa830dfb5d9b4498bad2d6306c7bec43c5",
+      "tamanho": 453222
+    },
+    {
+      "nome": "PARCT_2020_N_00041_CTAS_PDF_SITE.pdf",
+      "sha256": "d51b762443b9acdf30b8a871b3956c3f2f635e124ebb03c0a547f4100cda277e",
+      "tamanho": 2452580
+    },
+    {
+      "nome": "PARCT_2020_N_00041_CTAS_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "b4a491eec89f081b6bbab5f965ea0ceee5e922dea070b84ed24452a893d99280",
+      "tamanho": 14720
+    },
+    {
+      "nome": "PARCT_2020_N_00041_CTAS_TEXTO_FONTE_V1.txt",
+      "sha256": "2d39bcbb0ebe527a3d7053bbf03a2e54ea9cb399724a3fb6d7a80df269644253",
+      "tamanho": 12378
+    },
+    {
+      "nome": "PARCT_2020_N_00041_CTAS_VALIDACAO_V1.json",
+      "sha256": "b99642a80c7e65998c2786a854a99395ccbbb4ee55624cb0aa71a346752c7cd8",
+      "tamanho": 12149
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+  ]
+}

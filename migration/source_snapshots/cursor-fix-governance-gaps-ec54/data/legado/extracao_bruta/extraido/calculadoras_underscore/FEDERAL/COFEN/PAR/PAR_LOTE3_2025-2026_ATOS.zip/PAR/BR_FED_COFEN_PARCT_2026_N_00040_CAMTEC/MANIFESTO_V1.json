@@ -1,0 +1,51 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-40-2026-camaras-tecnicas-de-enfermagem/ (API WordPress post 192571); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2026_N_00040_CAMTEC_ATOMOS_V1.jsonl",
+      "sha256": "959708c07c66873ca49bc48e56302040e241da9b867e266bfa9f21b02a5289a9",
+      "tamanho": 107505
+    },
+    {
+      "nome": "PARCT_2026_N_00040_CAMTEC_CONTEUDO_SITE_API.json",
+      "sha256": "cbbbe2778109d03f3683b402a0201c9529844a3a85d97b4688f0bbd5cb24173f",
+      "tamanho": 28872
+    },
+    {
+      "nome": "PARCT_2026_N_00040_CAMTEC_NORMA_V1.json",
+      "sha256": "87ddd0b0bfc2ab6feda0a6b52a070815cbb738a320ede876fda956ea9b45fc57",
+      "tamanho": 7585
+    },
+    {
+      "nome": "PARCT_2026_N_00040_CAMTEC_PAGINA_SITE.html",
+      "sha256": "2f5b5f7480ab78e007577ed32a6277e9a5ffd618af7a1a26b7ea13dc279f19d7",
+      "tamanho": 469118
+    },
+    {
+      "nome": "PARCT_2026_N_00040_CAMTEC_PDF_SITE.pdf",
+      "sha256": "a135b2d9ac1278a5879fe678b661c72ef019b9093980f4870c7e9c867c9d301b",
+      "tamanho": 184120
+    },
+    {
+      "nome": "PARCT_2026_N_00040_CAMTEC_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "83a07db50d71751d774b7117c732f522b9d43228b7ec5b10df2fb652943a9809",
+      "tamanho": 22722
+    },
+    {
+      "nome": "PARCT_2026_N_00040_CAMTEC_TEXTO_FONTE_V1.txt",
+      "sha256": "352a75458f57e6443ded6bb5a829c711eeeb8e1539b3c88808de8b0880ff5629",
+      "tamanho": 22704
+    },
+    {
+      "nome": "PARCT_2026_N_00040_CAMTEC_VALIDACAO_V1.json",
+      "sha256": "e3506096e4a6b583b39f495a768414a81a39a88fd8166e441cb146d8eb012909",
+      "tamanho": 19668
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir."
+  ]
+}

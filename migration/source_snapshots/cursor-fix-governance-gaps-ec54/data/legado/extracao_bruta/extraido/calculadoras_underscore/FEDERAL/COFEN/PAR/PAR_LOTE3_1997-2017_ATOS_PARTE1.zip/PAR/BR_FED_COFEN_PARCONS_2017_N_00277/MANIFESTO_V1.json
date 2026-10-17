@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-conselheira-relatora-no-277-2017/ (API WordPress post 59667); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCONS_2017_N_00277_ATOMOS_V1.jsonl",
+      "sha256": "fcc17e687f06670827941a002ea78b2937403163112d1ee46600018041da2366",
+      "tamanho": 36059
+    },
+    {
+      "nome": "PARCONS_2017_N_00277_CONTEUDO_SITE_API.json",
+      "sha256": "a58762d709bd598d6ea9a54a9e72fa0df083cc88515f1eb93b898877bbd06db4",
+      "tamanho": 9950
+    },
+    {
+      "nome": "PARCONS_2017_N_00277_NORMA_V1.json",
+      "sha256": "1c707b67cbed8576311313eb6f1a54e13fb3ef9c9fca3b7fe9858f3f6b5ac160",
+      "tamanho": 3342
+    },
+    {
+      "nome": "PARCONS_2017_N_00277_PAGINA_SITE.html",
+      "sha256": "26ccd2d5caa469316b7a5f4743e34a2926873fb1a7e586b45ad51fd646a5d43a",
+      "tamanho": 447824
+    },
+    {
+      "nome": "PARCONS_2017_N_00277_PDF_SITE.pdf",
+      "sha256": "06e76a4cabde00cb3afffc4e1d9dfecc2fe63139be4feb8403e972adf208bf61",
+      "tamanho": 2730633
+    },
+    {
+      "nome": "PARCONS_2017_N_00277_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "944690ce9535fc3ccbde610fe90a08d9bdc6b0511806f7a7062dacd63bd9bde0",
+      "tamanho": 10054
+    },
+    {
+      "nome": "PARCONS_2017_N_00277_TEXTO_FONTE_V1.txt",
+      "sha256": "02507f9311e499b7e225dbf4b754d0ea0d76bc68e79a4e86ed1aee84616b0a39",
+      "tamanho": 8867
+    },
+    {
+      "nome": "PARCONS_2017_N_00277_VALIDACAO_V1.json",
+      "sha256": "42651e956dcf6bdda3438ff86114ffb9864013ae79b50e5e2757c8e4e082134c",
+      "tamanho": 8988
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir."
+  ]
+}

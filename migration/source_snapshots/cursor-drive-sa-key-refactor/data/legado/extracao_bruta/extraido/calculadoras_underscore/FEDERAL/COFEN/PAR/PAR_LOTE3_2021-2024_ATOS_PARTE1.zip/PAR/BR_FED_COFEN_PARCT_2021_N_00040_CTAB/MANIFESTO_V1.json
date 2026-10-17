@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-conjunto-de-camara-tecnica-no-0040-2021-ctab-ctln-cofen/ (API WordPress post 88979); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2021_N_00040_CTAB_ATOMOS_V1.jsonl",
+      "sha256": "7665d47602f550bd96c2de88119b48f323e6fe1e8265c1d2fc154b84cb3ee18a",
+      "tamanho": 39507
+    },
+    {
+      "nome": "PARCT_2021_N_00040_CTAB_CONTEUDO_SITE_API.json",
+      "sha256": "e8d4bc6b64c3bd2adee2ee81dcc6b6830adf670e32354f77522dbbba9df23ece",
+      "tamanho": 13997
+    },
+    {
+      "nome": "PARCT_2021_N_00040_CTAB_NORMA_V1.json",
+      "sha256": "ad6f3046b3728e0a04813c5ec120b04c489eaaf89cdc3ad51260a5a5449ea4bc",
+      "tamanho": 3413
+    },
+    {
+      "nome": "PARCT_2021_N_00040_CTAB_PAGINA_SITE.html",
+      "sha256": "4593de20b1abf67932216bb32aca8ae4e2786a1fa06d65092ac784f2654f8858",
+      "tamanho": 452205
+    },
+    {
+      "nome": "PARCT_2021_N_00040_CTAB_TEXTO_FONTE_V1.txt",
+      "sha256": "5247edf8c403e150ad71356ef9a6d132fad2c251d6c24c946d7b8a2f8e0e4d7f",
+      "tamanho": 12520
+    },
+    {
+      "nome": "PARCT_2021_N_00040_CTAB_VALIDACAO_V1.json",
+      "sha256": "64bb1d37ace037cc7892772bbbfe8469e782faf27dbdf35c6b3906568f7284e0",
+      "tamanho": 2485
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/rdc-63-anvisa-2000-terapia-de-nutricao-enteral-dou-no-130-e-sexta-feira-7-de-julho-de-2000/ (API WordPress post 51507); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "RDC_2000_N_00063_ATOMOS_V1.jsonl",
+      "sha256": "57f25bce0ec8f8d06d3412f1189ea930f7743a07902231ae411826840add3204",
+      "tamanho": 538881
+    },
+    {
+      "nome": "RDC_2000_N_00063_CONTEUDO_SITE_API.json",
+      "sha256": "9e03479f354f6c158c41b83e97c6fd6fb6fe5722c0907ca421c7c7db692804c8",
+      "tamanho": 577
+    },
+    {
+      "nome": "RDC_2000_N_00063_NORMA_V1.json",
+      "sha256": "996446655bffe7140eb6320ee92c4b60018889ca743edcd976a877e5eac9320c",
+      "tamanho": 12701
+    },
+    {
+      "nome": "RDC_2000_N_00063_PAGINA_SITE.html",
+      "sha256": "b70ef117bc112151555efd46490fb26977a542388a942ce2cd67cf7fdef9c604",
+      "tamanho": 437263
+    },
+    {
+      "nome": "RDC_2000_N_00063_PDF_SITE.pdf",
+      "sha256": "fec64b79f84ca86c190e2024da24a3ba3a15b3c65283ea4c858da1d44d61dc24",
+      "tamanho": 2813904
+    },
+    {
+      "nome": "RDC_2000_N_00063_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "1d45b901e0362fff3ba44f00f9ed3ffd909bdb005f83b343349cc6e5874d5a0b",
+      "tamanho": 123069
+    },
+    {
+      "nome": "RDC_2000_N_00063_TEXTO_FONTE_V1.txt",
+      "sha256": "a5bcb51239a3d87df18ef7e0e5640df0927730b614ed7529864f642109f9ecea",
+      "tamanho": 123111
+    },
+    {
+      "nome": "RDC_2000_N_00063_VALIDACAO_V1.json",
+      "sha256": "75919ffb847c258756f7b5eb3f208ffa387c37b3c2bd92c87acfa35446bb77af",
+      "tamanho": 10917
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+    "Texto do ato disponível apenas no PDF (o site traz só título/resumo); atomização feita a partir da camada de texto do PDF.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir."
+  ]
+}

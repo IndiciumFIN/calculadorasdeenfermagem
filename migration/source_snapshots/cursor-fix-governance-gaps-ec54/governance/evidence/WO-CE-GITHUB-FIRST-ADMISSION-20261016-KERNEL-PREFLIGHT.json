@@ -1,0 +1,65 @@
+{
+  "schema": "CE-KERNEL-PREFLIGHT-EVIDENCE-0.1.0",
+  "wo": "WO-CE-GITHUB-FIRST-ADMISSION-20261016-CANDIDATE",
+  "status": "PREFLIGHT_PARTIAL_OFFICIAL_KERNEL_NOT_IDENTIFIED",
+  "branch": "cursor/fix-governance-gaps-ec54",
+  "sources": [
+    {
+      "system": "GitHub",
+      "type": "branch_and_wo_readback",
+      "verified": true
+    },
+    {
+      "system": "Supabase Calculadoras-Smart",
+      "type": "ce_validation_hub.validation_rules",
+      "rules_count": 11,
+      "active_rules": [
+        "V01",
+        "V02",
+        "V03",
+        "V04",
+        "V05",
+        "V06",
+        "V07",
+        "V08",
+        "V09",
+        "V10",
+        "V11"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "V01",
+      "gate": "INVENTORY",
+      "result": "PARTIAL",
+      "reason": "WO identity and origin documented; no per-file binary hashes for first batches"
+    },
+    {
+      "id": "V10",
+      "gate": "PUBLICATION_HOLD",
+      "result": "PASS_POLICY_ONLY",
+      "reason": "WO explicitly blocks publication; runtime enforcement not tested"
+    },
+    {
+      "id": "V11",
+      "gate": "FROZEN_46_PROTECTION",
+      "result": "NOT_TESTED",
+      "reason": "No write to protected assets performed; full frozen-object crosswalk not retrieved"
+    }
+  ],
+  "restrictions": {
+    "no_publication": true,
+    "no_main_merge": true,
+    "no_source_deletion": true,
+    "no_frozen_asset_mutation": true,
+    "no_official_kernel_pass_claim": true
+  },
+  "missing": [
+    "Official Kernel authority, endpoint and WO contract",
+    "Full frozen 46 forms/230 assets register",
+    "First 25+25 file-level manifests",
+    "Kernel execution and signed decision"
+  ],
+  "execution": "READ_ONLY_DATABASE_AND_GITHUB_CHECKS; GITHUB_EVIDENCE_WRITE_ONLY"
+}

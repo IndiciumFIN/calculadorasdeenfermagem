@@ -1,0 +1,29 @@
+{
+  "id": "WO-2026_10_16_0234",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "checker_id": "drive-move-independent-checker",
+  "task_id": "TAREFA-MOVER-DRIVE",
+  "task_version": "1.0.0",
+  "task_type": "mover-drive",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "entradas": [
+    {
+      "id_origem": "1oonqLdMdQwwxyeSqgDX7kE4EfhrvYvNP",
+      "caminho": "data/legado/extracao_bruta/TYPE_MOVE_PILOT/CURRICULUM_EXTRACTION_WAVE3.md",
+      "classe": "REFERENCIA",
+      "sha256": "e6052871f37ae2f24ed42f43b4de6cec97ccaa81e6017419f2919053760bf20a"
+    }
+  ],
+  "parametros": {
+    "source_parent_id": "1c9vErI_It3XwzAcAFOnbxw9V0Mn6xfB9",
+    "target_parent_id": "1HtmOws6k6c-jQ6x6FwScxh4n0djK9_mz",
+    "file_type": "MD",
+    "expected_title": "CURRICULUM_EXTRACTION_WAVE3.md",
+    "expected_mime": "text/markdown",
+    "expected_bytes": "1636",
+    "pilot_lote": "TYPE-MOVE-WO-20261016",
+    "source_preservation": "SAME_DRIVE_ID"
+  }
+}

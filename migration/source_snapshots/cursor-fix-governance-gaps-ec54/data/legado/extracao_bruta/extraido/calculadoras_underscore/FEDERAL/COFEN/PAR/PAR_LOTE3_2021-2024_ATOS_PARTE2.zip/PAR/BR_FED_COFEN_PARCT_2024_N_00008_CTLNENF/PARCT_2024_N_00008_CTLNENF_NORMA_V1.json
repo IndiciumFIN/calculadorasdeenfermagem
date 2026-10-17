@@ -1,0 +1,113 @@
+{
+  "identificador": "BR_FED_COFEN_PARCT_2024_N_00008_CTLNENF",
+  "tipo": "Parecer de Câmara Técnica",
+  "codigo_tipo": "PARCT",
+  "categoria_site": "Pareceres",
+  "numero": 8,
+  "numero_original": "PARECER Nº 8/2024/COFEN/CAMTEC/CTLNENF",
+  "ano": 2024,
+  "emissor": "Conselho Federal de Enfermagem",
+  "unidade_emissora": "COFEN/CAMTEC/CTLNENF",
+  "data_ato": "2025-01-06",
+  "data_ato_fonte": "data do post no site",
+  "ementa": "Solicitação de Parecer Técnico referente ao uso de Termografia por Enfermeiros.",
+  "titulo_site": "PARECER Nº 8/2024/COFEN/CAMTEC/CTLNENF",
+  "publicacao": {
+    "veiculo": "Portal do Cofen (cofen.gov.br)",
+    "url": "https://www.cofen.gov.br/parecer-no-8-2024-cofen-camtec-ctlnenf/",
+    "wp_post_id": 138102,
+    "data_publicacao_site": "2025-01-06",
+    "data_modificacao_site": "2025-01-07",
+    "pdfs": [
+      {
+        "url": "https://www.cofen.gov.br/wp-content/uploads/2025/01/PARECER-08-2024-COFEN-CAMTEC-CTLNENF.pdf",
+        "rotulo_site": "PARECER 08-2024-COFEN-CAMTEC-CTLNENF",
+        "origem_link": "bloco_anexos_pagina",
+        "arquivo": "PARCT_2024_N_00008_CTLNENF_PDF_SITE.pdf",
+        "papel": "PRINCIPAL",
+        "ocr": false,
+        "paginas": 4,
+        "arquivo_texto": "PARCT_2024_N_00008_CTLNENF_PDF_SITE_TEXTO_V1.txt",
+        "pagina_dou": false
+      }
+    ],
+    "sei": {
+      "documento_sei": null,
+      "codigo_verificador": "0423990",
+      "codigo_crc": "2610BD3F",
+      "assinaturas_eletronicas": [
+        "ANTÔNIO FRANCISCO LUZ NETO - Coren-PI 313.978- ENF"
+      ]
+    },
+    "dou": {
+      "citado_no_texto": false,
+      "trechos": [],
+      "registros_de_publicacao": [],
+      "codigos_autenticidade": [],
+      "verificado_online_in_gov_br": false,
+      "observacao": "Nenhuma menção a publicação no DOU no texto do site nem no PDF.",
+      "fac_simile_dou_no_site": []
+    }
+  },
+  "vigencia": {
+    "clausula": null,
+    "situacao": "NAO_VERIFICADA_ATOS_POSTERIORES"
+  },
+  "normas_relacionadas": [
+    {
+      "ato": "Lei 7.498/1986",
+      "relacao": "CITADA",
+      "verificacao": "EXTRAIDO_AUTOMATICO_DO_TEXTO",
+      "contexto": "to físico. A Enfermagem segue regramento próprio, consubstanciado na Lei do Exercício Profissional (Lei nº7.498/1986), no seu Decreto regulamentador (Decreto nº 94.406/1987) e"
+    },
+    {
+      "ato": "Decreto 94.406/1987",
+      "relacao": "CITADA",
+      "verificacao": "EXTRAIDO_AUTOMATICO_DO_TEXTO",
+      "contexto": "consubstanciado na Lei do Exercício Profissional (Lei nº7.498/1986), no seu Decreto regulamentador (Decreto nº 94.406/1987) e no Código de Ética dos Profissionais de Enfermagem vigen"
+    },
+    {
+      "ato": "Resolução Cofen 564/2017",
+      "relacao": "CITADA",
+      "verificacao": "EXTRAIDO_AUTOMATICO_DO_TEXTO",
+      "contexto": "de individual e de grupos específicos, particularmente daqueles prioritários e de alto risco; […] A Resolução COFEN Nº 564/2017 que dispõe sobre o Código de Ética dos Profissionais de Enf"
+    },
+    {
+      "ato": "Resolução Cofen 736/2024",
+      "relacao": "CITADA",
+      "verificacao": "EXTRAIDO_AUTOMATICO_DO_TEXTO",
+      "contexto": "ça ao profissional, à pessoa, à família e à coletividade. […] Salientamos ainda que de acordo com a Resolução COFEN nº 736/2024 que dispõe sobre a implementação do Processo de Enfermagem"
+    }
+  ],
+  "assinaturas": [
+    "Dr. Josias Neves / Coordenador De Câmaras Técnicas e Comissões",
+    "Dr. Antonio Francisco Luz Neto / Coren-PI n. 313.978-ENF / Coordenador da CTLN"
+  ],
+  "licenca_uso": {
+    "fundamento": "Lei 9.610/1998, art. 8, IV",
+    "texto_ato_oficial": "NAO_PROTEGIDO_POR_DIREITOS_AUTORAIS",
+    "uso_texto_normativo": "ELEGIVEL_PARA_REPRODUCAO_COM_PROVENIENCIA",
+    "materiais_terceiros": "ANALISE_ESPECIFICA_SE_HOUVER"
+  },
+  "contagem_dispositivos": {
+    "epigrafe": 2,
+    "identificacao_processo": 1,
+    "assunto": 1,
+    "ementa": 1,
+    "paragrafo_texto": 37,
+    "assinatura": 2,
+    "secao": 2,
+    "artigo_transcrito": 11,
+    "inciso": 4,
+    "alinea": 2,
+    "paragrafo_transcrito": 1,
+    "autenticacao_sei": 1
+  },
+  "anexos": {
+    "referencias_no_texto": [],
+    "resultado": "SEM_ANEXO_REFERENCIADO",
+    "anexos_no_texto": []
+  },
+  "observacoes": [],
+  "situacao": "ATOMIZADO_PENDENTE_REVISAO"
+}

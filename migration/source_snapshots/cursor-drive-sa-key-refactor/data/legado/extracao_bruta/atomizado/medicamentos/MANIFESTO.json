@@ -1,0 +1,149 @@
+{
+ "arquivos": [
+  {
+   "arquivo": "apresentacao_cmed.jsonl",
+   "atomos": 26635,
+   "bytes": 60737486,
+   "sha256": "3f158c141200caae51cc2b3ea7d309f8a52db2b2a4b7136278df612b8f1e37b6",
+   "tipo_entidade": "apresentacao_cmed"
+  },
+  {
+   "arquivo": "desabastecimento_fda.jsonl",
+   "atomos": 1552,
+   "bytes": 1790974,
+   "sha256": "0f7ebcd8dd876e872de448e9e5d8e92a118f46c65348c964e32ac18649624f34",
+   "tipo_entidade": "desabastecimento_fda"
+  },
+  {
+   "arquivo": "produto_anvisa_sem_numero_registro.jsonl",
+   "atomos": 7430,
+   "bytes": 6933937,
+   "sha256": "fc592821341dfbb919b297166a8ba948ec7afd7ca955da7085c7a54198bb12e1",
+   "tipo_entidade": "produto_anvisa_sem_numero_registro"
+  },
+  {
+   "arquivo": "produto_fda_ndc.parte-0001.jsonl",
+   "atomos": 79401,
+   "bytes": 89999221,
+   "sha256": "ac8384d115c43434ceb36abcd1722ffd4054e018dc238e8ddbf9ac9b8dfeb9bf",
+   "tipo_entidade": "produto_fda_ndc"
+  },
+  {
+   "arquivo": "produto_fda_ndc.parte-0002.jsonl",
+   "atomos": 56492,
+   "bytes": 62444010,
+   "sha256": "f1e331a5e3de15eb7a5eef36369210e795f94efadce5f1f0e0768f5ddd5dea4c",
+   "tipo_entidade": "produto_fda_ndc"
+  },
+  {
+   "arquivo": "registro_anvisa_medicamento.jsonl",
+   "atomos": 32798,
+   "bytes": 35578046,
+   "sha256": "5adb436235b72b51156bbb7ee2b27d53cbcc3884c4ce0bc4f8dbf04d0f9660ed",
+   "tipo_entidade": "registro_anvisa_medicamento"
+  }
+ ],
+ "atomos_por_tipo_entidade": {
+  "apresentacao_cmed": 26635,
+  "desabastecimento_fda": 1552,
+  "produto_anvisa_sem_numero_registro": 7430,
+  "produto_fda_ndc": 135893,
+  "registro_anvisa_medicamento": 32798
+ },
+ "conferencia_contagens": [
+  {
+   "arquivo_entrada": "medicamentos/anvisa_medicamentos_registrados.csv",
+   "atomos": 40228,
+   "confere": false,
+   "explicacao": "Entidade = número de registro do produto (32798 registros). O arquivo da Anvisa repete a mesma linha muitas vezes (só 42652 linhas distintas em 228773); linhas idênticas viram 1 átomo, e as variantes de um mesmo registro (situação Ativo/Inativo) ficam todas em descricao_literal. 21493 linhas sem número de registro (notificados de baixo risco, dinamizados etc.) viraram 7430 átomos distintos, com código = 16 primeiros hex do SHA-256 do registro canônico.",
+   "linhas_csv": 228773
+  },
+  {
+   "arquivo_entrada": "medicamentos/anvisa_cmed_precos_medicamentos.csv",
+   "atomos": 26635,
+   "confere": true,
+   "explicacao": "",
+   "linhas_csv": 26635
+  },
+  {
+   "arquivo_entrada": "medicamentos/fda_ndc_produtos.csv",
+   "atomos": 135893,
+   "confere": false,
+   "explicacao": "Entidade = product_ndc. O openFDA traz alguns product_ndc em mais de um registro (listagens diferentes do mesmo NDC); foram agrupados num átomo com todos os registros literais.",
+   "linhas_csv": 138339
+  },
+  {
+   "arquivo_entrada": "medicamentos/fda_desabastecimento.csv",
+   "atomos": 1552,
+   "confere": false,
+   "explicacao": "Entidade = package_ndc em desabastecimento. Alguns NDC aparecem em mais de um registro (inclusive 1 linha duplicada idêntica); agrupados num átomo.",
+   "linhas_csv": 1582
+  }
+ ],
+ "entradas": [
+  {
+   "arquivo": "medicamentos/anvisa_medicamentos_registrados.json",
+   "linhas_csv": 228773,
+   "registros_json": 228773,
+   "sha256_csv": "476b9cfec70945d7ba8a163571fd6cf48033b7a9e8f990fbc53577931745fb3b",
+   "sha256_json": "285add02f9be153ef61c6970972a27bf7a7acb281d80750023cbb4a85a3755ed"
+  },
+  {
+   "arquivo": "medicamentos/anvisa_cmed_precos_medicamentos.json",
+   "linhas_csv": 26635,
+   "registros_json": 26635,
+   "sha256_csv": "c397d619fb15c7709b413fe2adaf82f1489f44f06613da89e60feead04fd8937",
+   "sha256_json": "1259f573cbcb84b9f6e7e9f7833dc5cddb016d64d736e1049d2ec54a9767ef54"
+  },
+  {
+   "arquivo": "medicamentos/fda_ndc_produtos.json",
+   "linhas_csv": 138339,
+   "registros_json": 138339,
+   "sha256_csv": "3e8b5c33184f8dd4a0139158e9cb3e947eb6455a261f6d2862029061352fd7fd",
+   "sha256_json": "5e25cf97c2788789fe2ee9e3d31b288cf97823eaf84eb108ab5a4b49fae1fc83"
+  },
+  {
+   "arquivo": "medicamentos/fda_desabastecimento.json",
+   "linhas_csv": 1582,
+   "registros_json": 1582,
+   "sha256_csv": "1f468406d134e2bf5cde33403c14ba165aad2c56b0ab10cf74c844d055a13941",
+   "sha256_json": "448d6168a3884242eed9898cedb3bb501e92f5291c5a7b640cb43af036bc075c"
+  }
+ ],
+ "fontes": [
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "Anvisa - Medicamentos registrados (DADOS_ABERTOS_MEDICAMENTOS.csv)",
+   "fonte_url": "https://dados.anvisa.gov.br/dados/DADOS_ABERTOS_MEDICAMENTOS.csv",
+   "fonte_versao": "arquivo baixado em 2026-10-10 (sem número de versão na fonte)"
+  },
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "Anvisa/CMED - Lista de preços de medicamentos (TA_PRECO_MEDICAMENTO.csv)",
+   "fonte_url": "https://dados.anvisa.gov.br/dados/TA_PRECO_MEDICAMENTO.csv",
+   "fonte_versao": "arquivo baixado em 2026-10-10 (sem número de versão na fonte)"
+  },
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "FDA/openFDA - Drug shortages",
+   "fonte_url": "https://download.open.fda.gov/drug/shortages/drug-shortages-0001-of-0001.json.zip",
+   "fonte_versao": "openFDA last_updated 2026-10-09"
+  },
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "FDA/openFDA - NDC Directory (produtos)",
+   "fonte_url": "https://download.open.fda.gov/drug/ndc/drug-ndc-0001-of-0001.json.zip",
+   "fonte_versao": "openFDA last_updated 2026-10-09"
+  }
+ ],
+ "regras": {
+  "atom_id": "<tema>:<codigo>; codigo = chave local, com prefixo de subfonte quando o tema tem mais de uma fonte",
+  "data_extracao": "fixa por fonte (2026-10-10), não é a data da execução",
+  "descricao_literal": "renderização literal 'campo: valor' de todos os registros de origem da entidade (nada resumido)",
+  "ordenacao": "um arquivo por tipo_entidade, linhas ordenadas por atom_id, partes <= 90.000.000 bytes",
+  "sha256_atomo": "SHA-256 do JSON canônico (sort_keys, ensure_ascii=False, separators=(',',':')) do átomo sem o campo sha256"
+ },
+ "tema": "medicamentos",
+ "total_atomos": 204308,
+ "versao_gerador": "atomizar.py 1.0.0"
+}

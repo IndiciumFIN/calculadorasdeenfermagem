@@ -1,0 +1,54 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/igc-calculo-mec/ (API WordPress post 36756); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "NAOATO_2015_SN_IGC_CALCULO_MEC_ATOMOS_V1.jsonl",
+      "sha256": "749141cc0f257b4b83071f0b05211bd8792f055c9594d6db6d7833440b993b63",
+      "tamanho": 49569
+    },
+    {
+      "nome": "NAOATO_2015_SN_IGC_CALCULO_MEC_CONTEUDO_SITE_API.json",
+      "sha256": "6bdb7cb0088d4f5a750b35a777dd4f139eac283a96e3a945decbc30dd3d4a663",
+      "tamanho": 290
+    },
+    {
+      "nome": "NAOATO_2015_SN_IGC_CALCULO_MEC_NORMA_V1.json",
+      "sha256": "2297d3e00d49be5c8f06b1475c3ff811bd52922d20542a742170c9e50ffa37d4",
+      "tamanho": 2555
+    },
+    {
+      "nome": "NAOATO_2015_SN_IGC_CALCULO_MEC_PAGINA_SITE.html",
+      "sha256": "fc74c676f6b9b67d409dcd61ad76eb7b95ba7279b06710f667a862bed012e810",
+      "tamanho": 436445
+    },
+    {
+      "nome": "NAOATO_2015_SN_IGC_CALCULO_MEC_PDF_SITE.pdf",
+      "sha256": "ec96f631b095bcf4208b0dd6e76ebb920c81effde62565f582e06c5f6d301860",
+      "tamanho": 22637
+    },
+    {
+      "nome": "NAOATO_2015_SN_IGC_CALCULO_MEC_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "baf728c188be33b98fb1bae2dfa144b6649e8764126656f5d6a988f381559449",
+      "tamanho": 4817
+    },
+    {
+      "nome": "NAOATO_2015_SN_IGC_CALCULO_MEC_TEXTO_FONTE_V1.txt",
+      "sha256": "92a4e6fb17aa05a9650be0c09a57ffc80da306527cf18267185b22f5d8395f7a",
+      "tamanho": 4803
+    },
+    {
+      "nome": "NAOATO_2015_SN_IGC_CALCULO_MEC_VALIDACAO_V1.json",
+      "sha256": "78f1f7b7fb6365a274703a3a40d7a1c40af1bb4d1a193fe27f714d4e3c0256c8",
+      "tamanho": 3245
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Texto do ato disponível apenas no PDF (o site traz só título/resumo); atomização feita a partir da camada de texto do PDF.",
+    "Ato sem número no site; identificador formado por slug.",
+    "TIPO: listado em categoria de Legislação, mas o título não identifica um ato (\"IGC – CÁLCULO MEC\"). ANO: ano do ato não consta do título; usado o ano do post (data de publicação no site, não do ato).",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

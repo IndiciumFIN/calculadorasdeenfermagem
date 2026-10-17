@@ -1,0 +1,51 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-208-2024-cofen-plen/ (API WordPress post 137799); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2024_N_00208_ATOMOS_V1.jsonl",
+      "sha256": "424b963dd2cebd1cea28f59b7339582ae456815f9397e7d27a6cc32971cee3b7",
+      "tamanho": 89948
+    },
+    {
+      "nome": "PARCT_2024_N_00208_CONTEUDO_SITE_API.json",
+      "sha256": "997c71e9f09ec0ab6cd28c72c3b76115fad0fba510ea1f38dac56dddc2692946",
+      "tamanho": 29092
+    },
+    {
+      "nome": "PARCT_2024_N_00208_NORMA_V1.json",
+      "sha256": "8cd6d4ac2bfddd54cf2b4bebf49fd551a699fcf70dbd52851461c6ebc963ffb0",
+      "tamanho": 7357
+    },
+    {
+      "nome": "PARCT_2024_N_00208_PAGINA_SITE.html",
+      "sha256": "8506581b4c9d1f29e13b594236b936908bb1bac147b41e0694819316bd949053",
+      "tamanho": 468366
+    },
+    {
+      "nome": "PARCT_2024_N_00208_PDF_SITE.pdf",
+      "sha256": "25071532e6b167046b9ec2f0021f7e045530c87be943ce56360b13a508b1146d",
+      "tamanho": 337300
+    },
+    {
+      "nome": "PARCT_2024_N_00208_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "d2ebf56bf5493c2b325c9f4f559e8c14098da64b01f315b3cc587a41a92b8805",
+      "tamanho": 20998
+    },
+    {
+      "nome": "PARCT_2024_N_00208_TEXTO_FONTE_V1.txt",
+      "sha256": "8f27ab5ca51e8734ab8972cf3b6f50555ded7542b620809070b07bafbed85f74",
+      "tamanho": 20741
+    },
+    {
+      "nome": "PARCT_2024_N_00208_VALIDACAO_V1.json",
+      "sha256": "d81c9235bac3532a8456b1a2a28660e0b7e652bc8ea564b8f09f9d84ef0b19cf",
+      "tamanho": 16847
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo."
+  ]
+}

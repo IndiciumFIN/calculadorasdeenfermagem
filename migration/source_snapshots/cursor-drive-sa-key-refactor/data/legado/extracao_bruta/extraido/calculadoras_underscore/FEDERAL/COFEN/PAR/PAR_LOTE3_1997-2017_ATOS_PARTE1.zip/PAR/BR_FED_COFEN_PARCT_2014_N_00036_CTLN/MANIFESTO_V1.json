@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-362014cofenctln-obrigatoriedade-da-presenca-de-um-enfermeiro-nas-unidades-de-urgencia/ (API WordPress post 35251); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2014_N_00036_CTLN_ATOMOS_V1.jsonl",
+      "sha256": "1cb5b2dab2104b677f90a33c409f6a81c3407f22cb9720ee9a25f27078a52008",
+      "tamanho": 29403
+    },
+    {
+      "nome": "PARCT_2014_N_00036_CTLN_CONTEUDO_SITE_API.json",
+      "sha256": "93340600417ea4472127398fbcc445c90636eb60b836a71fdc08803d04339e6b",
+      "tamanho": 8803
+    },
+    {
+      "nome": "PARCT_2014_N_00036_CTLN_NORMA_V1.json",
+      "sha256": "226905e2a309b2aee5a59cb8ef1b88de0649e849543e59b6fabda329b1246592",
+      "tamanho": 4908
+    },
+    {
+      "nome": "PARCT_2014_N_00036_CTLN_PAGINA_SITE.html",
+      "sha256": "d8c00e3462d16f6c597fda3a4e0917eef1cc9d4964c3cf5e7f8e579b41f7bcd0",
+      "tamanho": 448498
+    },
+    {
+      "nome": "PARCT_2014_N_00036_CTLN_TEXTO_FONTE_V1.txt",
+      "sha256": "da3377e3354bc7a7881567f7d1c08ade3539d9c2b4ad3dfbebc2fa6dca4b6ef2",
+      "tamanho": 7072
+    },
+    {
+      "nome": "PARCT_2014_N_00036_CTLN_VALIDACAO_V1.json",
+      "sha256": "6f2368e1e79d5795b02169b33f9f93c4bfb2170c13a05111c4bb210313930aa0",
+      "tamanho": 2880
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 arquivo(s) vinculado(s) à página não puderam ser baixados; conteúdo não conferido.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

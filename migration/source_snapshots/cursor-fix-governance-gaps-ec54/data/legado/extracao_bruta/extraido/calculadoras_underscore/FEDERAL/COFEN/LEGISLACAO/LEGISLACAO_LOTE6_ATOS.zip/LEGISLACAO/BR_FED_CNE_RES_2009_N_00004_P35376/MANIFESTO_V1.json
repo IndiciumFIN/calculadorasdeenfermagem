@@ -1,0 +1,51 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/resolucao-no-4-de-6-de-abril-de-2009-3/ (API WordPress post 35376); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "RES_2009_N_00004_P35376_ATOMOS_V1.jsonl",
+      "sha256": "ccebd0264ace6ef45271ddd20bb500da95291abf5a1554278b25d5f9ce43dbfa",
+      "tamanho": 1905
+    },
+    {
+      "nome": "RES_2009_N_00004_P35376_CONTEUDO_SITE_API.json",
+      "sha256": "2c249b9334f04903ba22a7bbc29a07f33256a17691e5c782955d919809da2baa",
+      "tamanho": 637
+    },
+    {
+      "nome": "RES_2009_N_00004_P35376_NORMA_V1.json",
+      "sha256": "b419af833c6a3606279d93913017100a2dc03d8c765264988308f924f67a50ae",
+      "tamanho": 4408
+    },
+    {
+      "nome": "RES_2009_N_00004_P35376_PAGINA_SITE.html",
+      "sha256": "b1089fd4fa7852c26f6318ca01aa0eed40422ccb3935913f95e76e0e500ca8aa",
+      "tamanho": 437924
+    },
+    {
+      "nome": "RES_2009_N_00004_P35376_PDF_SITE.pdf",
+      "sha256": "d97db92e21506834c099c8a93377398ec3eba09733a7fd133efa1a2aae8345e7",
+      "tamanho": 114415
+    },
+    {
+      "nome": "RES_2009_N_00004_P35376_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "fb78f0e5cffe4fd2c8344c4b83dbb71665d6a824bd1739a7828fb07e5755b19b",
+      "tamanho": 4589
+    },
+    {
+      "nome": "RES_2009_N_00004_P35376_TEXTO_FONTE_V1.txt",
+      "sha256": "6387e4fa0fcf14101a7cd73e0d946d885f13124b6b50e1a29fd77fad0e235468",
+      "tamanho": 348
+    },
+    {
+      "nome": "RES_2009_N_00004_P35376_VALIDACAO_V1.json",
+      "sha256": "d32ba30a5f2e2629b534c82dc4b30bc37f9341178964951b56bc667ca927a1e5",
+      "tamanho": 2987
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo."
+  ]
+}

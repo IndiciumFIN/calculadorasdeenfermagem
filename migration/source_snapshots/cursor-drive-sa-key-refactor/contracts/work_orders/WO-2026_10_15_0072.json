@@ -1,0 +1,661 @@
+{
+  "id": "WO-2026_10_15_0072",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "task_id": "TAREFA-OBTER",
+  "task_version": "1.0.0",
+  "task_type": "obter",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "parametros": {
+    "lote": "resto_grok",
+    "alternativa": "listagem fechada; jsonl em atomizado; PDF oficial como DOCUMENTO; PDF de editora fica; arquivo grande fraciona depois do parecer"
+  },
+  "entradas": [
+    {
+      "id_origem": "1a0Fb5ALbKlHLGrpwACGZOKD7IOYgnqGh",
+      "caminho": "revisao/REVISAO_TABELAS_TRANSCRITAS.xlsx",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1XvlU7qBILooUFFc9pcmzo-ensGqtpj7b",
+      "caminho": "revisao/revisao_qSOFA.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1PTtuKNOitjawEe6FzA1J2XnMrD85b2sV",
+      "caminho": "revisao/revisao_PA_DBHA2020.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1_hhZ0CnjYa2QZeDiMHiRelGBuGh-8kEl",
+      "caminho": "revisao/revisao_NEWS2_risco.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1_aWF3oT6MzjDcDvTBSQy4lWjltHYJdm2",
+      "caminho": "revisao/revisao_definicoes_sepsis3.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1OhBHZDGjPC_hy1xNJHQ5X9VuqagZYndj",
+      "caminho": "revisao/revisao_SOFA.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1wf4PoVv2aJRm_ehI4-krVBdShmtS9eQM",
+      "caminho": "revisao/revisao_NEWS2_pontos.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "11X4un3UKuw3D-wFq2QoE-AEipo-BjbKB",
+      "caminho": "protocolos_enfermagem/indice_protocolos.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1S3V29LPUmDTxTdBV85s0ZZPOqaHYpFz5",
+      "caminho": "protocolos_enfermagem/conitec_tecnologias_diretrizes.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1gHsu7CiD50uLszPhsboghn2S88LB2dPB",
+      "caminho": "protocolos_enfermagem/conitec_pcdt_situacao.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1T8YhQppUtEoTlB9ELBgRtA2rIgt-hobr",
+      "caminho": "protocolos_enfermagem/conitec_tecnologias_diretrizes.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "12VCC3Ukx0ZbtR7albdvfdfjhNPhbb8S3",
+      "caminho": "protocolos_enfermagem/conitec_pcdt_situacao.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1ZSyIaB54279pxbt978pQznrf3neRWLwu",
+      "caminho": "protocolos_enfermagem/indice_protocolos.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1fhlLt9lJTaTB_yvrDc0HaEhTPTsOOO8M",
+      "caminho": "protocolos_enfermagem/raw/conitec_pcdt_situacao.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1TZyIPpWjey-gydkIElB1jL_PPPYm50Yy",
+      "caminho": "protocolos_enfermagem/raw/conitec_tecnologias_diretrizes.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1R1xFb99ehGppHbfQEXeNCMEhkB2Kfboc",
+      "caminho": "protocolos_enfermagem/raw/pdfs/Guideline_for_Isolation_Precautions.pdf",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1qCRop-FZFBxxZQbbT2JUTWiUD8Hpqk2g",
+      "caminho": "protocolos_enfermagem/raw/pdfs/Instrucao_Normativa_do_Calendario_Nacional_de_Vacinacao_2026.pdf",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1Q9I0ymWNFJ-t-g8eMz7smFX_Jz30kc4e",
+      "caminho": "protocolos_enfermagem/raw/pdfs/Protocolo_para_Cirurgia_Segura_PNSP.pdf",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1DI93yP4vtohgcN68_RRE1ZQRBULh2ujA",
+      "caminho": "protocolos_enfermagem/raw/pdfs/Manual_de_Normas_e_Procedimentos_para_Vacinacao_2a_ed_rev.pdf",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1LalSePDqjgrpgN7PRUBDKlMCIiyRhOMK",
+      "caminho": "protocolos_enfermagem/raw/pdfs/Protocolos_da_Atencao_Basica_Saude_das_Mulheres.pdf",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1ej566oEMOi1hC0jmM23PwPd7NId6BSo7",
+      "caminho": "protocolos_enfermagem/raw/pdfs/Resolucao_Cofen_no_736_2024_Processo_de_Enfermagem.pdf",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1PhJcBnmXyMKESP4QC_BWp4kmtJdClvIS",
+      "caminho": "protocolos_enfermagem/raw/pdfs/Portaria_GM_MS_2_095_2013_com_anexos_Protocolo_de_Prevencao_de_Ulcera_por_Pressa.pdf",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1EWt9xFlf25imzyZaH27SWNUEg_VLZt-N",
+      "caminho": "protocolos_enfermagem/raw/pdfs/Protocolo_para_a_Pratica_de_Higiene_das_Maos_em_Servicos_de_Saude_PNSP.pdf",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1fGXDqeQI4JTs7M9aMew2S7_dFBcJYYzw",
+      "caminho": "protocolos_enfermagem/raw/pdfs/Protocolo_de_Identificacao_do_Paciente_PNSP.pdf",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "12C8riQd-JrPML1Q_7w_7Ck3w4bMHQc8C",
+      "caminho": "protocolos_enfermagem/raw/pdfs/Guidelines_for_the_Prevention_of_Intravascular_Catheter_Related_Infections.pdf",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1MWW8d24TeoOhiXWnTBD6ybX_KKfsWcEI",
+      "caminho": "revisao/cofen736/EVIDENCIA_COFEN_736_2024.md",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1E7osopWj82_wpiDC-LeDMVkvCo7DMeOz",
+      "caminho": "revisao/cofen736/dou_2024-01-23_s1_p74.txt",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "13c2ZH0fa5ZfI77VoJT3adOxtpKdO00-u",
+      "caminho": "revisao/cofen736/headers_cofen.txt",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1Pdz-GRWv_VNUJ92IUHRqYz_NR97b3bF8",
+      "caminho": "revisao/cofen736/oficial_cofen_Resolucao-736-2024.txt",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1SdN3_j5f6XOb7hjK3WXEFTb1W-xH6Wfb",
+      "caminho": "revisao/cofen736/headers_cofen_2.txt",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "17u2av6F_sLm8louoBmx6p-xv1_O9efeB",
+      "caminho": "revisao/cofen736/oficial_cofen_2_Resolucao-Cofen-no-736-2024-Dispoe.txt",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1rsLWfo1QNNhfZE5ox9JMERvEhQkE0tLP",
+      "caminho": "revisao/cofen736/diff_dou_x_sei.json",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1j-Oc5GJilKcbWkyiDHzgz69yJWO-eWCX",
+      "caminho": "revisao/cofen736/headers_dou.txt",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1Y7eFgSP02wYSxe81vBeZ0aFHftVejPuf",
+      "caminho": "revisao/cofen736/data_download_utc.txt",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "11jzESaG3WYXHf60LfILnRaDKhzBnbBuP",
+      "caminho": "revisao/cofen736/dou_2024-01-23_s1_p74.pdf",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "17262fugB2BERb_0CwWdzL-oEzE_dd_3a",
+      "caminho": "revisao/cofen736/oficial_cofen_2_Resolucao-Cofen-no-736-2024-Dispoe.pdf",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "19QYmIDCMIKMcjCgM76KAMbAsaPjtDbrq",
+      "caminho": "revisao/cofen736/EVIDENCIA_COFEN_736_2024.json",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1f6qWkOTcdgB02ZztomCZFIxaRV9NL0bc",
+      "caminho": "revisao/fontes/NEWS2_RCP2017_Chart1_scoring_system.pdf.headers.txt",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1cPNiJuCesP_tYYHPsLc1Bs8HwVL5vW3Z",
+      "caminho": "revisao/fontes/Sepsis3_Singer2016_JAMA_VoR_via_AmsterdamUMC.pdf.headers.txt",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1NeMIJ7yir4wVVFVpW48WsdwZ-FsV3qFM",
+      "caminho": "revisao/fontes/NEWS2_RCP2017_Final_report.pdf.headers.txt",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1j6wWiK076Qu78npOsL07iuvlTjhxyAAr",
+      "caminho": "revisao/fontes/NEWS2_RCP2017_Chart2_thresholds_triggers.pdf.headers.txt",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1KW8VWo_wvhBvSq2NUdzI7vKaKbZ-5LOz",
+      "caminho": "revisao/fontes/DBHA2020_ArqBrasCardiol_116-3_516-658.pdf.headers.txt",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "18b_csdHpKYdMXvGj7SioKMeRpi1Wp17f",
+      "caminho": "CKO_CURSOR_00_CONTROLE_v1_0_0.zip",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1Gvio35Z6BxIpfZ5dnfkbyR2kuD5HW5pJ",
+      "caminho": "atomizado/mesh/descritor_mesh.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1-65SxZCXaxEBbKOKobwXMXQS2CmvqlHv",
+      "caminho": "atomizado/mesh/MANIFESTO.json",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1xrXaCPpl0EehFytt3SaZLMTttHRm02Mg",
+      "caminho": "atomizado/cid10/grupo.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "16pxNuoWB7G--6EzFkrsrM9E5cH13ZUYo",
+      "caminho": "atomizado/cid10/capitulo.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1eWGS95r4tIM5a6FEDXixivpbhhyH7F94",
+      "caminho": "atomizado/cid10/MANIFESTO.json",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1aoyHl_db4xeApDIJyYX5alVNpaXbvMOz",
+      "caminho": "atomizado/cid10/categoria.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1dsx3I9i1nsPRg7Fy8O7c1XYdDBwFAIKR",
+      "caminho": "atomizado/cid10/subcategoria.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "11hOX3ctWJZC2A1t8743T4CWbBh-qRFT1",
+      "caminho": "atomizado/cid10/cido_grupo.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1GiCe9So0ps5NAY7A7cj8fggTzmqlA_fC",
+      "caminho": "atomizado/cid10/cido_categoria.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1V6lShVDnG2vgSOpkn-wWUw3jzCq7RB9g",
+      "caminho": "atomizado/vacinas/dose_esquema_cdsi_acip.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1U94wdcQgab-rM6a90eM33Q46ZWYKDf1W",
+      "caminho": "atomizado/vacinas/observacao_condicao_cdsi.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1156_196L_SBGoFJUjbcLG8NmFFNV-KKf",
+      "caminho": "atomizado/vacinas/codigo_cvx.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1SGQn2b3CN2vaNr9lNryxa4toSopVhHzM",
+      "caminho": "atomizado/vacinas/associacao_cvx_antigeno_cdsi.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1wLeUxXPqu5uJe-_oLx8LGXmszuUP1hGe",
+      "caminho": "atomizado/vacinas/MANIFESTO.json",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1BzpgjBboP-WnTGtx6h31ZAmUHbCVhoqq",
+      "caminho": "atomizado/epidemiologico/notificacao_mpox.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "16owgQjVxLaXqLnevFSeKurGRT29BnGy2",
+      "caminho": "atomizado/epidemiologico/obito_sim.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1m21NjM10nPI9TrjSZYPxCjFkACoROrEi",
+      "caminho": "atomizado/epidemiologico/MANIFESTO.json",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1HBKJ1PFREEVSvw58pqkozFF_IFh3k9H6",
+      "caminho": "atomizado/epidemiologico/epizootia_febre_amarela.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1iqCnXxs2Yy0Olrp95LfeUCmQo7fHr9eY",
+      "caminho": "atomizado/epidemiologico/notificacao_sinan_chikungunya.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1w56pn1deMxGFF4cZYqQ9DWfmOToJfmSj",
+      "caminho": "atomizado/epidemiologico/notificacao_srag.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1Nhwt0tJUPd_sE0VHweHgSuGcBRsaBmD-",
+      "caminho": "atomizado/epidemiologico/notificacao_sinan_zika.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1BNHpl3rqNncLXrrFxTmZnG9jL_gnjoCQ",
+      "caminho": "atomizado/epidemiologico/notificacao_sinan_dengue.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1SGGVODmWhh5gV6BokIBmLZE8Wv9MJ3QG",
+      "caminho": "atomizado/epidemiologico/caso_febre_amarela_humano_primata.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1fuNwc1OubL8UdvW5KQK2qsZ6BXrpAnys",
+      "caminho": "atomizado/epidemiologico/agravo_notificacao_compulsoria.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1KLWHvmkBBdE9-upJr4V-pLR_SezNZhJO",
+      "caminho": "atomizado/vacinal_brasil/dose_aplicada_pni.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "19zAGT894c91MqNrxhQ3zepz0UTZuL3Bp",
+      "caminho": "atomizado/vacinal_brasil/notificacao_esavi.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1fvirYL2ywWFYvjDd_nCcJLI3aOL9bI2Q",
+      "caminho": "atomizado/vacinal_brasil/cobertura_vacinal_polo_sesai.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1i3LejaC8MmhdSfMl6JpfM5OjTxBXqJmJ",
+      "caminho": "atomizado/vacinal_brasil/MANIFESTO.json",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1UT9IWqGwsX2s95FVnkIZWq0bQw2HSF3a",
+      "caminho": "atomizado/vacinal_brasil/movimento_insumo_sies.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1me5_9-nXNDXkfTI86YLyzm8Np15sH_VD",
+      "caminho": "atomizado/sinais_vitais/MANIFESTO_2026-10-10.json",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1ftJeCth0rcSWF4BQ18kzowny6Tj9Zoai",
+      "caminho": "atomizado/sinais_vitais/classificacao_pa_dbha2020_transcrita_manualmente_v2.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1Uyl6rdP249hmR5Bng3rIlcYTaNrKGgCb",
+      "caminho": "atomizado/sinais_vitais/MANIFESTO_v2.json",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1mOMdoYo6cUAsljlKvMaS-zO_5rJlgIty",
+      "caminho": "atomizado/sinais_vitais/risco_news2_transcrito_manualmente.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1s-ANBr-SU-IERu9QDl85-KvkbK25R7dC",
+      "caminho": "atomizado/sinais_vitais/pontuacao_news2_transcrita_manualmente.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1XuQdGPv-VuaaBqhrJr0qN-PrKKhMFf19",
+      "caminho": "atomizado/sinais_vitais/codigo_loinc_perfil_fhir.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1MkRprgzaunssjNvLc-909U_NZNOsgNvW",
+      "caminho": "atomizado/sinais_vitais/classificacao_pa_dbha2020_transcrita_manualmente.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1ifA3ddCOX8DqkVLApTG04h0wcQn9Ymsi",
+      "caminho": "atomizado/sinais_vitais/MANIFESTO.json",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1j3Evtv04DL4VA8OwTGOEjMsePZHf-tOp",
+      "caminho": "atomizado/protocolos_enfermagem/MANIFESTO.json",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1fILsfE4nT5ubUSksGnlHKvqnTTrh-Pjp",
+      "caminho": "atomizado/protocolos_enfermagem/pcdt_conitec_situacao.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1nryjNVcFEMjA9FVevxaDJ3dVUn-F0DZL",
+      "caminho": "atomizado/protocolos_enfermagem/documento_protocolo.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1OPxxqck7R-bq46kimyVrMS5C8MgoJf41",
+      "caminho": "atomizado/protocolos_enfermagem/tecnologia_diretriz_covid19_conitec.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1XV0fanEYJHbTPsVMZAlV-bncLp88wuZI",
+      "caminho": "atomizado/ferimentos/recorte_cid10.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1k5X4nrmL1c5gsrcjeL6J0VGBY3jtVnXX",
+      "caminho": "atomizado/ferimentos/recorte_cid11.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1v8qusbJFkwtJWTlKrsYzvlx2HBEOMyLa",
+      "caminho": "atomizado/ferimentos/recorte_mesh.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1TclpbMZwaU4DFy2gmOAjQy9cf1Jp1rOA",
+      "caminho": "atomizado/ferimentos/pdm_catmat_classe_6510.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1FO_hN0ple1pK29L3lNWl0XKzh6WYu_ve",
+      "caminho": "atomizado/ferimentos/MANIFESTO.json",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "142hBIMBzKsWRDNYajfnzPrZc402qHolQ",
+      "caminho": "atomizado/ferimentos/nome_tecnico_anvisa_curativo.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1reCkHWdWQZjiJ0MjiB_rxcRfyJdVIa33",
+      "caminho": "atomizado/sepse/MANIFESTO_v2.json",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1i5JAG-LmLDKgHMEziZrqt9oyU5Vx1MqQ",
+      "caminho": "atomizado/sepse/MANIFESTO_2026-10-10.json",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "12USrAv8967pGN_o0zHBp_r4ZXkLtt2tw",
+      "caminho": "atomizado/sepse/definicao_transcrita_manualmente_v2.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1mF00m0ltaBaLsGoAOQu8cnCT1VeK__yc",
+      "caminho": "atomizado/sepse/definicao_transcrita_manualmente.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1dde4NkFPCmwA8DxoSNxeJx_PfxoDuEh5",
+      "caminho": "atomizado/sepse/escore_transcrito_manualmente.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1meR7YCYGGJIXQAHjL0ScwlBT-w89Gcxx",
+      "caminho": "atomizado/sepse/recorte_mesh.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1Ezc42on63YcF2yGtvqpdsxrmysDBjASf",
+      "caminho": "atomizado/sepse/recorte_medlineplus.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1hz5wj7zojHLg8kE6kGydZseiX1oIPlLq",
+      "caminho": "atomizado/sepse/recorte_cid11.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1xH7tewPIXKt0p73FwkAz70_mUg48SG7j",
+      "caminho": "atomizado/sepse/recorte_cid10.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1KfzZFuGbk2YZlL9VJfJYKnK054LLPXxx",
+      "caminho": "atomizado/sepse/criterio_escore_transcrito_manualmente.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1lfJ-bPSXnrTZqsdIXo9mc2kWx97wYhNC",
+      "caminho": "atomizado/sepse/MANIFESTO.json",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1_zeyuWYYuNhhQ49dBhuM4NFn3vdExsTf",
+      "caminho": "atomizado/suprimentos/registro_anvisa_seringa_agulha_luva_curativo.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1bd4MlCxeeehR8bsPmoxBs4uxniIXkGA7",
+      "caminho": "atomizado/suprimentos/classificacao_fda_seringa_agulha_luva_curativo.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1KV9W6gXe8q6G6ZmouVpsdKVOsDy7c_j7",
+      "caminho": "atomizado/suprimentos/item_catmat.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1tA7Lt-E3UBJbGQB70T6PtjcTjezay9U6",
+      "caminho": "atomizado/suprimentos/item_catmat_seringa_agulha_luva_curativo.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1UsoXAQ6AMNcTlnb40IamSaSBwfpv3fy8",
+      "caminho": "atomizado/suprimentos/MANIFESTO.json",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1G3Nn3L4Ze3p27JWVRRyd_VuReNKuf7lg",
+      "caminho": "atomizado/nutricao/alimento_usda_sr_legacy.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1Na672Ul8VovjmC0aArUImCJASpOfF0Av",
+      "caminho": "atomizado/nutricao/MANIFESTO.json",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1aqSK3lrNt8hS4VcCbDK_uproyqsHyOE3",
+      "caminho": "atomizado/nutricao/medida_caseira_pof.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1Cj0ZK0JUSmWTpGYNVqYAvvtxid_YjLfv",
+      "caminho": "atomizado/nutricao/alimento_taco.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1tQRjgczSfuCO4SEuYYv2DOZKuXxuCkzD",
+      "caminho": "atomizado/nutricao/alimento_usda_foundation.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "145HPQZsZOEDYbrKANkFssqOAHdxafvFB",
+      "caminho": "atomizado/dispositivos/classificacao_fda_dispositivo.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1R_rRC04vWjNgM7AYYKMmqyqzX2pJVZwL",
+      "caminho": "atomizado/dispositivos/registro_anvisa_produto_saude.parte-0002.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1LWWFk_QuADCz5a9L2Xek5CuZaNi6FIjQ",
+      "caminho": "atomizado/dispositivos/registro_anvisa_produto_saude.parte-0001.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1OMRyAhpzp_xVeSzrMXkyTywN_rCpAF6p",
+      "caminho": "atomizado/dispositivos/MANIFESTO.json",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1YnDMU1hvoHGFYSpNEQh-teuVdHx6PWhn",
+      "caminho": "atomizado/medicamentos/desabastecimento_fda.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1upszrDc_kyL7emITACfuzsC0Y611Q9vH",
+      "caminho": "atomizado/medicamentos/MANIFESTO.json",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1pATK4LNcfKvN3AAiSMbJKSX5rJp4HGey",
+      "caminho": "atomizado/medicamentos/produto_fda_ndc.parte-0001.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1Ym9x4kE3CDvn1g7mYVIQLvXu_w2B_8qn",
+      "caminho": "atomizado/medicamentos/produto_fda_ndc.parte-0002.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1O5GDkgUOiLiXcd-2JiscAZc7qBY3qYPG",
+      "caminho": "atomizado/medicamentos/produto_anvisa_sem_numero_registro.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1S9KrJFUlnxTPx-OeVKBdmVeOJBJKuUrm",
+      "caminho": "atomizado/medicamentos/apresentacao_cmed.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1Fq9xo0CTJpJcyrpAzWUM3EOVfRIixvoz",
+      "caminho": "atomizado/medicamentos/registro_anvisa_medicamento.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1tJWoyOJg5HUuuXtG7gKhHw6eKY_ArJeC",
+      "caminho": "atomizado/medlineplus/topico_saude_es.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1A1eoGDNdxbJoOeDhS7PB7_ouEaVPjSJU",
+      "caminho": "atomizado/medlineplus/topico_saude_en.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1WbO5QW2pXc8UjTmToN0ss3UmYyx8phMx",
+      "caminho": "atomizado/medlineplus/MANIFESTO.json",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1uJYU67kzyEoQczGcr4HMaFGvMpiiNE1U",
+      "caminho": "atomizado/icd11/bloco.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1DegoeMIF2Uq5vXkE7kg-8_0qQnwK1R0t",
+      "caminho": "atomizado/icd11/capitulo.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "12NtEw66DS4enEIy2BNOtNS8jKugF14G4",
+      "caminho": "atomizado/icd11/categoria.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1O1u1lRhM0d-3lobriZ03IPf88ShqqUz-",
+      "caminho": "atomizado/icd11/MANIFESTO.json",
+      "classe": "DOCUMENTO"
+    }
+  ]
+}

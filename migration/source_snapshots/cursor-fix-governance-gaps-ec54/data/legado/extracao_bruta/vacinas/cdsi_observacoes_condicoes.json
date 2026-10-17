@@ -1,0 +1,2226 @@
+[
+ {
+  "codigo": "001",
+  "titulo": "Patient seeks protection",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons seeking protection.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "002",
+  "titulo": "Undergoing elective splenectomy",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who are undergoing elective splenectomy if they have not previously received the vaccine.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": "Vaccination 14 or more days before splenectomy is suggested"
+ },
+ {
+  "codigo": "003",
+  "titulo": "Immunocompromised",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient is immunocompromised.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "004",
+  "titulo": "Recipient of a hematopoietic stem cell transplant",
+  "grupo": "",
+  "texto_indicacao": "Administer to recipients of a hematopoietic stem cell transplant [HSCT] 6 to 12 months after a successful transplant, regardless of vaccination history.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "005",
+  "titulo": "Hepatitis C virus infection",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons with a hepatitis C virus infection.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "006",
+  "titulo": "Receives clotting factor concentrates",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who receive clotting factor concentrates.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "007",
+  "titulo": "Pregnant",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who are pregnant.",
+  "texto_contraindicacao": "Do not vaccinate if the patient is pregnant.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "008",
+  "titulo": "Travel to an area of active cholera transmission",
+  "grupo": "",
+  "texto_indicacao": "Administer to travelers from the United States traveling to an area of active cholera transmission.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": "An area of active cholera transmission is defined as a province, state, or other administrative subdivision within a country with endemic or epidemic cholera caused by toxigenic V. cholerae O1 and includes areas with cholera activity within the last year that are prone to recurrence of cholera epidemics; it does not include areas where only rare imported or sporadic cases have been reported."
+ },
+ {
+  "codigo": "009",
+  "titulo": "Breastfeeding",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient is breastfeeding.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "010",
+  "titulo": "Cerebrospinal fluid leaks",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who have cerebrospinal fluid leaks.",
+  "texto_contraindicacao": "Do not vaccinate if the patient has cerebrospinal fluid leaks.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "011",
+  "titulo": "Cochlear implants",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who have cochlear implants.",
+  "texto_contraindicacao": "Do not vaccinate if the patient has cochlear implants.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "012",
+  "titulo": "Family history of altered immunocompetence",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has a family history of altered immunocompetence",
+  "texto_esclarecimento": "Harmonizes with the vaccine-specific statements in accommodating infants and toddlers with occult heritable congenital immunodeficiencies."
+ },
+ {
+  "codigo": "013",
+  "titulo": "Severe Combined Immunodeficiency [SCID]",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has Severe Combined Immunodeficiency [SCID].",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "014",
+  "titulo": "Diabetes",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who have diabetes.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "015",
+  "titulo": "Chronic liver disease",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who have chronic liver disease.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": "Includes cirrhosis"
+ },
+ {
+  "codigo": "016",
+  "titulo": "Chronic heart disease",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who have chronic heart disease.",
+  "texto_contraindicacao": "Do not vaccinate persons who have chronic heart disease.",
+  "texto_esclarecimento": "e.g. congestive heart failure and cardiomyopathies, excluding hypertension"
+ },
+ {
+  "codigo": "017",
+  "titulo": "Chronic lung disease",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who have chronic lung disease.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": "e.g. chronic obstructive lung disease, emphysema but not asthma"
+ },
+ {
+  "codigo": "018",
+  "titulo": "Laboratory Evidence of Immunity or confirmation of Hepatitis A disease",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "019",
+  "titulo": "Laboratory Evidence of Immunity or confirmation of Hepatitis B disease",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "020",
+  "titulo": "Laboratory Evidence of Immunity for Measles",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "021",
+  "titulo": "Laboratory Evidence of Immunity for Mumps",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "022",
+  "titulo": "Laboratory Evidence of Immunity for Rubella",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "023",
+  "titulo": "Laboratory Evidence of Immunity or confirmation of Varicella disease",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "024",
+  "titulo": "Healthcare provider verified history of or diagnosis of Varicella",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "025",
+  "titulo": "Healthcare provider verified history or diagnosis of Herpes Zoster",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "026",
+  "titulo": "Persons with perinatal HIV infection who do not have evidence of severe immunosuppression and who were vaccinated with MMR before establishment of antiviral therapy [ART]",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons with perinatal HIV infection who do not have evidence of severe immunosuppression and who were vaccinated with MMR before establishment of antiviral therapy [ART].",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "027",
+  "titulo": "Asthma",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who have asthma.",
+  "texto_contraindicacao": "Do not vaccinate if the patient has asthma.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "028",
+  "titulo": "Intussusception",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has intussusception.",
+  "texto_esclarecimento": "Includes history of uncorrected congenital malformation of the gastrointestinal tract that would predispose the infant to intussusception or history of intussusception."
+ },
+ {
+  "codigo": "029",
+  "titulo": "Acute gastroenteritis",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has acute gastroenteritis.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "030",
+  "titulo": "Acute febrile illness",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has acute febrile illness.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "031",
+  "titulo": "Tuberculosis",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who have tuberculosis",
+  "texto_contraindicacao": "Do not vaccinate if the patient has active untreated tuberculosis.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "032",
+  "titulo": "Dialysis patient",
+  "grupo": "",
+  "texto_indicacao": "Administer to hemodialysis patients and predialysis, peritoneal dialysis, and home dialysis patients",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "033",
+  "titulo": "Taken influenza antiviral medications within the previous 48 hours",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has taken influenza antiviral medications  within the previous 48 hours.",
+  "texto_esclarecimento": "e.g. amantadine, rimantadine, zanamivir, or oseltamivir"
+ },
+ {
+  "codigo": "034",
+  "titulo": "Receiving long-term aspirin therapy",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient is receiving long-term aspirin therapy.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "035",
+  "titulo": "Antimicrobial or antimalarial taken within 72 hours",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient  has taken antimicrobial or antimalarial medications  within the previous 72 hours.",
+  "texto_esclarecimento": "A longer interval should be considered for long-acting antimicrobials [e.g., the antimalarial agents mefloquine and chloroquine and the combinations atovaquone/proguanil and pyrimethamine/sulfadoxine can, at doses used for prophylaxis, be administered together with the Ty21a vaccine; however, the manufacturer advises that other antimalarial agents only be administered at least 3 days after the last vaccine dose)."
+ },
+ {
+  "codigo": "036",
+  "titulo": "Men who have sex with men",
+  "grupo": "",
+  "texto_indicacao": "Administer to men who have sex with men.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "037",
+  "titulo": "Not in a long-term, mutually monogamous relationship",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons not in a long-term, mutually monogamous relationship.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": "e.g. persons with more than 1 sex partner during the previous 6 months"
+ },
+ {
+  "codigo": "038",
+  "titulo": "Sex partner of Hepatitis B surface antigen-positive persons",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who are a sex partner of a Hepatitis B surface antigen-positive person.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "039",
+  "titulo": "Receives treatment for STD",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who receive treatment for STD.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "040",
+  "titulo": "Illicit drug use",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who use illicit drugs.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": "Includes injection and noninjection illicit drugs"
+ },
+ {
+  "codigo": "041",
+  "titulo": "Illicit injection drug use",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who use illicit injection drugs.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "042",
+  "titulo": "Smoke cigarettes",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who smoke cigarettes.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "043",
+  "titulo": "Alcoholism",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who have alcoholism.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "044",
+  "titulo": "Anticipate close personal contact with international adoptee",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who anticipate close personal contact with an international adoptee during the first 60 days.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": "e.g., household or regular babysitting\nApplies when adoptee is from a country with high or intermediate endemicity"
+ },
+ {
+  "codigo": "045",
+  "titulo": "Travel to country with a Yellow Fever vaccination entry requirement",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who travel to a country with a Yellow Fever vaccination entry requirement.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": "A list of country-specific requirements is available at https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/yellow-fever.html"
+ },
+ {
+  "codigo": "046",
+  "titulo": "College students living in residence halls",
+  "grupo": "",
+  "texto_indicacao": "Administer to college students living in residence halls.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "047",
+  "titulo": "Resident of area at risk for exposure to the disease",
+  "grupo": "",
+  "texto_indicacao": "Administer to residents of an area at risk for exposure to the disease.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "048",
+  "titulo": "Travelling Internationally",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who will be travelling internationally.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "049",
+  "titulo": "Working with Hepatitis A virus in research setting",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who work with Hepatitis A virus in a research setting.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": "Includes working with HAV-infected primates or with HAV in a research laboratory setting"
+ },
+ {
+  "codigo": "050",
+  "titulo": "Microbiologists routinely exposed to Neisseria meningitidis",
+  "grupo": "",
+  "texto_indicacao": "Administer to microbiologists routinely exposed to isolates of Neisseria meningitidis.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "051",
+  "titulo": "Microbiology laboratorians who work frequently with S. typhi",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who are microbiology laboratorians who work frequently with S. typhi.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "052",
+  "titulo": "Laboratory personnel who might be exposed to YFV",
+  "grupo": "",
+  "texto_indicacao": "Administer to laboratory personnel who might be exposed to virulent YFV or to concentrated preparations of YF vaccine virus strains by direct or indirect contact or by aerosols.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "053",
+  "titulo": "Rabies researchers",
+  "grupo": "",
+  "texto_indicacao": "Administer to Rabies researchers.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "054",
+  "titulo": "Laboratory workers who handle specimens that might contain polioviruses",
+  "grupo": "",
+  "texto_indicacao": "Administer to laboratory workers who handle specimens that might contain polioviruses.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "055",
+  "titulo": "Health care personnel",
+  "grupo": "",
+  "texto_indicacao": "Administer to healthcare personnel without evidence of immunity.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": "A general definition of health care personnel is given in the National Healthcare Safety Network [NHSN] manual [https://www.cdc.gov/nhsn/pdfs/hps-manual/hps_manual-exp-plus-flu-portfolio.pdf] in the definitions section."
+ },
+ {
+  "codigo": "056",
+  "titulo": "Health-care workers who have close contact with patients who might be excreting wild polioviruses",
+  "grupo": "",
+  "texto_indicacao": "Administer to health-care workers who have close contact with patients who might be excreting wild polioviruses.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "057",
+  "titulo": "Public safety worker exposed to blood or infection body fluids",
+  "grupo": "",
+  "texto_indicacao": "Administer to public safety workers exposed to blood or infection body fluids",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "058",
+  "titulo": "Staff of institution for persons with developmental disabilities",
+  "grupo": "",
+  "texto_indicacao": "Administer to staff of institution for persons with developmental disabilities",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "059",
+  "titulo": "Occupational exposure for Hepatitis A",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who have an occupational exposure for Hepatitis A",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": "Consideration may be given to vaccination of employees who work in areas where state and local health authorities or private employers determine that such vaccination is appropriate."
+ },
+ {
+  "codigo": "060",
+  "titulo": "Veterinarians and their staff",
+  "grupo": "",
+  "texto_indicacao": "Administer to veterinarians and their staff.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "061",
+  "titulo": "Animal handlers",
+  "grupo": "",
+  "texto_indicacao": "Administer to animal handlers.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "062",
+  "titulo": "Persons whose activities bring them into frequent contact with rabies virus or potentially rabid animals",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons whose activities bring them into frequent contact with rabies virus or potentially rabid animals.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": "Occupational or recreational activities that typically involve contact with animals include 1) veterinarians, technicians, animal control officers, and their students or trainees; 2) persons who handle wildlife reservoir species (e.g., wildlife biologists, rehabilitators, and trappers); and 3) spelunkers"
+ },
+ {
+  "codigo": "063",
+  "titulo": "Post secondary student",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who are students in a postsecondary educational institution.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "064",
+  "titulo": "Military recruits",
+  "grupo": "",
+  "texto_indicacao": "Administer to military recruits.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "065",
+  "titulo": "Client of institution for persons with developmental disabilities",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who are a client of institution for persons with developmental disabilities.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "066",
+  "titulo": "Chronic renal failure",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons with chronic renal failure.",
+  "texto_contraindicacao": "Do not vaccinate if the patient has chronic renal failure.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "068",
+  "titulo": "In drug abuse treatment and prevention facility",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who are in a drug abuse treatment and prevention facility.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "069",
+  "titulo": "In correctional facility",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who are in a correctional facility.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "070",
+  "titulo": "Persons at risk during an outbreak",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons identified as at increased risk during a community outbreak attributable to a vaccine serogroup.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "071",
+  "titulo": "Household contact with hepatitis B surface antigen-positive persons",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who have household contact with hepatitis B surface antigen-positive persons.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "072",
+  "titulo": "Intimate exposure to a documented S. typhi carrier",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who have intimate exposure to a documented S. typhi carrier.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": "e.g., household contact"
+ },
+ {
+  "codigo": "073",
+  "titulo": "Household and close contacts of immunocompromised persons",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who are household and close contacts of immunocompromised persons.",
+  "texto_contraindicacao": "Do not vaccinate if potential vaccinee has a household contact who is immunocompromised. Household contacts include persons with prolonged intimate contact with the potential vaccinee (e.g., sexual contacts) and others who might have direct contact with the vaccination site or with potentially contaminated materials (e.g., dressings or clothing).",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "074",
+  "titulo": "Negative serological screening for varicella",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who are serologically negative for varicella.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "075",
+  "titulo": "Transgender person",
+  "grupo": "",
+  "texto_indicacao": "Administer to transgender persons.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "076",
+  "titulo": "Progressive neurologic disorder",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has progressive neurologic disorder until a treatment regimen has been\nestablished and the condition has stabilized.",
+  "texto_esclarecimento": "Includes infantile spasms, uncontrolled epilepsy, or progressive encephalopathy for the administration of any pertussis-containing\nvaccine"
+ },
+ {
+  "codigo": "077",
+  "titulo": "Received inactivated or unknown measles vaccine between 1963-1967",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who received inactivated or unknown measles vaccine between 1963-1967.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "078",
+  "titulo": "Received killed or unknown Mumps vaccine before 1979",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who received killed or unknown Mumps vaccine before 1979.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "079",
+  "titulo": "Encephalopathy not attributable to another identifiable cause within 7 days of administration of a previous dose of Tdap, DTP, or DTaP vaccine",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had encephalopathy not attributable to another identifiable cause within 7 days of administration of a previous dose of Tdap, DTP, or DTaP vaccine.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "080",
+  "titulo": "Adverse reaction to vaccine component",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had an adverse reaction to a vaccine component.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "081",
+  "titulo": "Severe allergic reaction after previous dose of Polio",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Polio vaccine.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "082",
+  "titulo": "Severe allergic reaction after previous dose of Japanese Encephalitis",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Japanese Encephalitis vaccine.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "083",
+  "titulo": "Severe allergic reaction after previous dose of Rotavirus",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Rotavirus vaccine.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "084",
+  "titulo": "Severe allergic reaction after previous dose of Typhoid",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Typhoid vaccine.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "085",
+  "titulo": "Severe allergic reaction after previous dose of Influenza",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Influenza vaccine.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "086",
+  "titulo": "Severe allergic reaction after previous dose of Pertussis",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Pertussis vaccine.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "087",
+  "titulo": "Severe allergic reaction after previous dose of Diphtheria",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Diphtheria vaccine.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "088",
+  "titulo": "Severe allergic reaction after previous dose of Tetanus",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Tetanus vaccine.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "089",
+  "titulo": "Severe allergic reaction after previous dose of Varicella",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Varicella vaccine.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "090",
+  "titulo": "Severe allergic reaction after previous dose of HPV",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of HPV vaccine.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "091",
+  "titulo": "Severe allergic reaction after previous dose of Measles",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Measles vaccine.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "092",
+  "titulo": "Severe allergic reaction after previous dose of Mumps",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Mumps vaccine.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "093",
+  "titulo": "Severe allergic reaction after previous dose of Rubella",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Rubella vaccine.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "094",
+  "titulo": "Severe allergic reaction after previous dose of Pneumococcal",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Pneumococcal vaccine.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "095",
+  "titulo": "Severe allergic reaction after previous dose of Meningococcal",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Meningococcal vaccine.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "096",
+  "titulo": "Severe allergic reaction after previous dose of Hepatitis A",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Hepatitis A vaccine.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "097",
+  "titulo": "Severe allergic reaction after previous dose of Hepatitis B",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Hepatitis B vaccine.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "098",
+  "titulo": "Severe allergic reaction after previous dose of Hib",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Hib vaccine.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "099",
+  "titulo": "Severe allergic reaction after previous dose of Yellow Fever",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Yellow Fever vaccine.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "100",
+  "titulo": "Severe allergic reaction after previous dose of live zoster",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of live zoster vaccine.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "101",
+  "titulo": "Allergic reaction to egg protein",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has a history of egg allergy.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "102",
+  "titulo": "Severe allergic reaction to gelatin",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had a severe allergic reaction to gelatin.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "103",
+  "titulo": "Severe allergic reaction to arginine",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had a severe allergic reaction to arginine.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "104",
+  "titulo": "Allergic reaction to latex",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has an allergy to latex.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "105",
+  "titulo": "Severe allergic reaction to chicken protein",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had a severe allergic reaction to chicken protein.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "106",
+  "titulo": "Severe allergic reaction to gentamicin",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had a severe allergic reaction to gentamicin.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "107",
+  "titulo": "Severe allergic reaction to neomycin",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had a severe allergic reaction to neomycin.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "108",
+  "titulo": "Severe allergic reaction to streptomycin",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had a severe allergic reaction to streptomycin.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "109",
+  "titulo": "Severe allergic reaction to polymyxin B",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had a severe allergic reaction to polymyxin B.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "110",
+  "titulo": "Hypersensitivity to yeast",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has a hypersensitivity to yeast.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "111",
+  "titulo": "Hypersensitivity to the preservative 2-phenoxyethanol",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has a hypersensitivity to the preservative 2-phenoxyethanol.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "112",
+  "titulo": "Hypersensitivity to alum",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has a hypersensitivity to alum.",
+  "texto_esclarecimento": "AKA potassium aluminum sulfate"
+ },
+ {
+  "codigo": "113",
+  "titulo": "Severe allergic reaction after previous dose of Rabies",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Rabies vaccine.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "114",
+  "titulo": "End stage renal disease",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who have end stage renal disease.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": "includes dialysis patients"
+ },
+ {
+  "codigo": "115",
+  "titulo": "Severe allergic reaction to protamine sulfate",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had a severe allergic reaction to protamine sulfate.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "116",
+  "titulo": "Severe allergic reaction after previous dose of Meningococcal B",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Meningococcal B vaccine.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "117",
+  "titulo": "Severe allergic reaction to diphtheria toxoid",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had a severe allergic reaction to diphtheria toxoid.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "118",
+  "titulo": "Severe allergic reaction to tetanus toxoid",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had a severe allergic reaction to tetanus toxoid.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "119",
+  "titulo": "Severe allergic reaction after previous dose of cholera",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of cholera vaccine.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "120",
+  "titulo": "Begin Date of antiviral therapy [ART]",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "121",
+  "titulo": "Homelessness",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who are experiencing homelessness.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "122",
+  "titulo": "Severe allergic reaction after previous dose of COVID-19",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of COVID-19 vaccine.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "123",
+  "titulo": "Severe allergic reaction after previous dose of Ebola",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Ebola vaccine.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "124",
+  "titulo": "Severe allergic reaction to rice protein",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had a severe allergic reaction to rice protein.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "125",
+  "titulo": "Tetanus IG administration",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had Tetanus IG administered in the previous 3 months.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "126",
+  "titulo": "Hep A IG administration",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had Hepatitis A IG administered in the previous 6 months.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "127",
+  "titulo": "Hep B IG administration",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had Hepatitis B IG administered in the previous 3 months.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "128",
+  "titulo": "Rabies IG administration",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had Rabies IG administered in the previous 4 months.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "129",
+  "titulo": "Varicella IG administration",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had Varicella IG administered in the previous 5 months.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "130",
+  "titulo": "Measles prophylaxis IG administration - Standard",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had Measles IG at a standard dose [0.25 mL/kg] administered in the previous 5 months.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "131",
+  "titulo": "Measles prophylaxis IG administration - Immunocompromised Contact",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had Measles IG at an immunocompromised dose [0.5 mL/kg] administered in the previous 6 months.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "132",
+  "titulo": "RBC [adenine-saline added] blood transfusion",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has received a blood transfusion of adenine-saline added RBCs in the previous 3 months.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "133",
+  "titulo": "Packed RBC blood transfusion",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has received a blood transfusion of packed RBCs in the previous 6 months.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "134",
+  "titulo": "Whole blood transfusion",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has received a whole blood transfusion in the previous 6 months.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "135",
+  "titulo": "Plasma/platelet products blood transfusion",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has received a blood transfusion of plasma or platelet product in the previous 7 months.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "136",
+  "titulo": "Cytomegalovirus IGIV",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has received Cytomegalovirus IGIV in the previous 6 months.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "137",
+  "titulo": "IGIV - Replacement therapy for immune deficiencies",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has received IGIV [Replacement therapy for immune deficiencies] in the previous 8 months.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "138",
+  "titulo": "IGIV - Immune thrombocytopenic purpura treatment",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has received IGIV [Immune thrombocytopenic purpura treatment [400 mg/kg IV]] in the previous 8 months.",
+  "texto_esclarecimento": "400 mg/kg IV"
+ },
+ {
+  "codigo": "139",
+  "titulo": "IGIV - Postexposure varicella prophylaxis",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has received IGIV [Postexposure varicella prophylaxis] in the previous 8 months.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "140",
+  "titulo": "IGIV - Immune thrombocytopenic purpura treatment",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has received IGIV [Immune thrombocytopenic purpura treatment [1000 mg/kg IV]] in the previous 10 months.",
+  "texto_esclarecimento": "1000 mg/kg IV"
+ },
+ {
+  "codigo": "141",
+  "titulo": "IGIV - Kawasaki disease",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has received IGIV [Kawasaki disease] in the previous 11 months.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "142",
+  "titulo": "Travel to or working in countries that have high or intermediate endemicity of Hepatitis A",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons traveling to or working in countries that have high or intermediate endemicity of Hepatitis A.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "143",
+  "titulo": "Travel to areas or countries where polio is epidemic or endemic",
+  "grupo": "",
+  "texto_indicacao": "Administer to travelers to areas or countries where polio is epidemic or endemic.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "144",
+  "titulo": "International travel with possible contact with animals in areas where rabies is enzootic and immediate access to appropriate medical care might be limited",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons with plans for international travel with possible contact with animals in areas where rabies is enzootic and immediate access to appropriate medical care might be limited.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": "PrEP considerations include whether the travelers 1) will be performing occupational or recreational activities that increase risk for exposure to potentially rabid animals (particularly dogs) and 2) might have difficulty getting prompt access to safe PEP (e.g., rural part of a country or far from closest PEP clinic)"
+ },
+ {
+  "codigo": "145",
+  "titulo": "B-lymphocyte [humoral] - Severe antibody deficiencies",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who have severe B-lymphocyte [humoral] - antibody deficiencies [e.g., X-linked agammaglobulinemia and common variable immunodeficiency].",
+  "texto_contraindicacao": "Do not vaccinate if the patient has severe B-lymphocyte [humoral] - antibody deficiencies [e.g., X-linked agammaglobulinemia and common variable immunodeficiency].",
+  "texto_esclarecimento": "e.g., X-linked agammaglobulinemia and common variable immunodeficiency"
+ },
+ {
+  "codigo": "146",
+  "titulo": "B-lymphocyte [humoral] - Less severe antibody deficiencies",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who have less severe B-lymphocyte [humoral] - antibody deficiencies [e.g., selective IgA deficiency and IgG subclass deficiency].",
+  "texto_contraindicacao": "Do not vaccinate if the patient has less severe B-lymphocyte [humoral] - antibody deficiencies [e.g., selective IgA deficiency and IgG subclass deficiency].",
+  "texto_esclarecimento": "e.g., selective IgA deficiency and IgG subclass deficiency"
+ },
+ {
+  "codigo": "147",
+  "titulo": "T-lymphocyte [cell-mediated and humoral] - Complete defects",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who have complete cell-mediated or humoral T-lymphocyte defects [e.g., severe combined immunodeficiency [SCID] disease, complete DiGeorge syndrome].",
+  "texto_contraindicacao": "Do not vaccinate if the patient has complete cell-mediated or humoral T-lymphocyte defects [e.g., severe combined immunodeficiency [SCID] disease, complete DiGeorge syndrome].",
+  "texto_esclarecimento": "e.g., severe combined immunodeficiency [SCID] disease, complete DiGeorge syndrome"
+ },
+ {
+  "codigo": "148",
+  "titulo": "T-lymphocyte [cell-mediated and humoral] - Partial defects",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who have partial cell-mediated or humoral T-lymphocyte defects [e.g., most patients with DiGeorge syndrome, Wiskott-Aldrich syndrome, ataxia- telangiectasia].",
+  "texto_contraindicacao": "Do not vaccinate if the patient has partial cell-mediated or humoral T-lymphocyte defects [e.g., most patients with DiGeorge syndrome, Wiskott-Aldrich syndrome, ataxia- telangiectasia].",
+  "texto_esclarecimento": "e.g., most patients with DiGeorge syndrome, Wiskott-Aldrich syndrome, ataxia- telangiectasia"
+ },
+ {
+  "codigo": "149",
+  "titulo": "T-lymphocyte [cell-mediated and humoral] - interferon-gamma/Interleukin 12 axis deficiencies",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who have T-lymphocyte [cell-mediated and humoral] - interferon-gamma or interferon-alpha.",
+  "texto_contraindicacao": "Do not vaccinate with live attenuated typhoid virus [Ty21a] if the patient has T-lymphocyte [cell-mediated and humoral] - interferon-gamma/Interleukin 12 axis deficiencies.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "150",
+  "titulo": "T-lymphocyte [cell-mediated and humoral] - interferon-gamma or interferon-alpha deficiencies",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who have T-lymphocyte [cell-mediated and humoral] - interferon-gamma or interferon-alpha deficiencies.",
+  "texto_contraindicacao": "Do not vaccinate if the patient has cell-mediated or humoral T-lymphocyte defects related to interferon-gamma or interferon-alpha deficiencies.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "151",
+  "titulo": "Persistent complement, properdin, or factor B deficiency",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who have persistent complement component deficiencies, including inherited or chronic deficiencies in C3, C5-9, properdin, factor D, factor H, or who are taking eculizumab [Soliris].",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "152",
+  "titulo": "Phagocytic function - Chronic granulomatous disease",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who have chronic granulomatous disease.",
+  "texto_contraindicacao": "Do not vaccinate if the patient has phagocytic function - chronic granulomatous disease.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "153",
+  "titulo": "Phagocytic function - Leukocyte adhesion defect, and myeloperoxidase deficiency",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who have a phagocytic function defect [e.g. leukocyte adhesion defect and myeloperoxidase deficiency].",
+  "texto_contraindicacao": "Do not vaccinate if the patient has a phagocytic function defect [e.g. leukocyte adhesion defect and myeloperoxidase deficiency].",
+  "texto_esclarecimento": "Phagocytic deficiencies that are undefined or accompanied by defects in T-cell and NK cell dysfunction (such as a Chediak-Higashi syndrome, Leukocyte Adhesion Deficiency [LAD], and myeloperoxidase deficiency)"
+ },
+ {
+  "codigo": "154",
+  "titulo": "HIV/AIDS - severely immunocompromised",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who have HIV/AIDS and are severely immunocompromised [See the CDC general recommendations for a definition of \"severely immunocompromised\"].",
+  "texto_contraindicacao": "Do not vaccinate if the patient has HIV/AIDS and is severely immunocompromised [See the CDC general recommendations for a definition of \"severely immunocompromised\"].",
+  "texto_esclarecimento": "See CDC general recommendations for guidance on defining \"severely immunocompromised\""
+ },
+ {
+  "codigo": "155",
+  "titulo": "HIV/AIDS - not severely immunocompromised",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who have HIV/AIDS and are not severely immunocompromised [See the CDC general recommendations for a definition of \"severely immunocompromised\"].",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": "See CDC general recommendations for guidance on defining \"not severely immunocompromised\""
+ },
+ {
+  "codigo": "156",
+  "titulo": "Generalized malignant neoplasm",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who have generalized malignant neoplasm.",
+  "texto_contraindicacao": "Do not vaccinate if the patient has generalized malignant neoplasm.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "157",
+  "titulo": "Solid organ transplantation",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who have received a solid organ transplant.",
+  "texto_contraindicacao": "Do not vaccinate if the patient received a solid organ transplant.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "158",
+  "titulo": "Immunosuppressive therapy",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who are undergoing immunosuppressive therapy. Immunosuppressive medications include those given to prevent solid organ transplant rejection, human immune mediators like interleukins and colony-stimulating factors, immune modulators like levamisol and BCG bladder-tumor therapy, and medicines like tumor necrosis factor alpha inhibitors and anti-B cell antibodies.",
+  "texto_contraindicacao": "Do not vaccinate if the patient is undergoing immunosuppressive therapy. Immunosuppressive medications include those given to prevent solid organ transplant rejection, human immune mediators like interleukins and colony-stimulating factors, immune modulators like levamisol and BCG bladder-tumor therapy, and medicines like tumor necrosis factor alpha inhibitors and anti-B cell antibodies.",
+  "texto_esclarecimento": "Immunosuppressive medications include those given to prevent solid organ transplant rejection, human immune mediators like interleukins and colony-stimulating factors, immune modulators like levamisol and BCG bladder-tumor therapy, and medicines like tumor necrosis factor alpha inhibitors and anti-B cell antibodies."
+ },
+ {
+  "codigo": "159",
+  "titulo": "Radiation therapy",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who are undergoing radiation therapy.",
+  "texto_contraindicacao": "Do not vaccinate if the patient is undergoing radiation therapy.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "160",
+  "titulo": "Anatomical or functional asplenia",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons with anatomic or functional asplenia, including sickle cell disease.",
+  "texto_contraindicacao": "Do not vaccinate if the patient has anatomical or functional asplenia.",
+  "texto_esclarecimento": "e.g. Sickle cell disease, congenital or acquired asplenia, splenic dysfunction, and splenectomy"
+ },
+ {
+  "codigo": "161",
+  "titulo": "Chronic kidney disease",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons with chronic kidney disease.",
+  "texto_contraindicacao": "Do not vaccinate if the patient has chronic kidney disease.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "162",
+  "titulo": "Travel to areas at risk for Yellow Fever transmission",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who travel to areas at risk for Yellow Fever transmission.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": "Given that changes in the designation of endemic regions can occur, travelers and health-care providers should obtain updated information from CDC, available at https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/yellow-fever.html"
+ },
+ {
+  "codigo": "163",
+  "titulo": "Travel to areas in which there is a recognized risk of exposure to S. typhi",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who travel to areas in which there is a recognized risk of exposure to S. typhi.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "164",
+  "titulo": "Travel to or are residents of countries in which meningococcal disease is hyperendemic or epidemic",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who travel to or are residents of countries in which meningococcal disease is hyperendemic or epidemic.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "165",
+  "titulo": "Longer-term (e.g., 1 month or more) travel to a JE-endemic area",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who plan for longer-term (e.g., 1 month or more) travel to JE-endemic areas.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": "Endemic Area and transmission season is determined by country.  Refer to the yellow book for a definition of the transmission season: https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/japanese-encephalitis.html"
+ },
+ {
+  "codigo": "166",
+  "titulo": "Travel to countries with high or intermediate prevalence of chronic HBV infection",
+  "grupo": "",
+  "texto_indicacao": "Administered to persons who travel to countries with high or intermediate prevalence of chronic HBV infection.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "167",
+  "titulo": "Nephrotic Syndrome",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons with nephrotic syndrome.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "168",
+  "titulo": "Chemotherapy",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who are undergoing chemotherapy.",
+  "texto_contraindicacao": "Do not vaccinate if the patient is undergoing chemotherapy, including 14 days before the start of therapy and 3 months after the completion of therapy.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "169",
+  "titulo": "History of sexual abuse or assault",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who have a history of sexual abuse or assault.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": "Includes children and youth who are suspected or confirmed victims of sexual abuse or assault."
+ },
+ {
+  "codigo": "170",
+  "titulo": "Onset of pregnancy",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "171",
+  "titulo": "Date of hematopoietic stem cell transplant",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "172",
+  "titulo": "Severe allergic reaction after previous dose of recombinant zoster",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of recombinant zoster vaccine.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "173",
+  "titulo": "Moving to JE-endemic country to take up residence",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who plan to move to JE-endemic countries to take up residence.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": "Endemic Area and transmission season is determined by country.  Refer to the yellow book for a definition of the transmission season: https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/japanese-encephalitis.html"
+ },
+ {
+  "codigo": "174",
+  "titulo": "Frequent travel to JE-endemic areas",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who frequently travel to JE-endemic areas.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": "Endemic Area and transmission season is determined by country.  Refer to the yellow book for a definition of the transmission season: https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/japanese-encephalitis.html"
+ },
+ {
+  "codigo": "175",
+  "titulo": "Patient seeks Hepatitis A protection",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons seeking protection from Hepatitis A.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "176",
+  "titulo": "Patient seeks Hepatitis B protection",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons seeking protection from Hepatitis B.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "177",
+  "titulo": "Patient seeks Meningococcal B protection",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons seeking protection from Meningococcal B.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "178",
+  "titulo": "Leukemia",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons with leukemia.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "179",
+  "titulo": "Lymphoma",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons with lymphoma.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "180",
+  "titulo": "Hodgkin's disease",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons with Hodgkin's disease.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "181",
+  "titulo": "Multiple myeloma",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons with multiple myeloma.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "182",
+  "titulo": "Ebola virus outbreak response",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons responding to an outbreak of Ebola Virus Disease.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "183",
+  "titulo": "Health care personnel at federally designated Ebola treatment center in U.S.",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons working as health care personnel at federally designated Ebola treatment centers in the United States",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "184",
+  "titulo": "Laboratorians or other staff at biosafety level 4 facilities in U.S.",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons working as Laboratorians or other staff at biosafety level 4 facilities in U.S.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "185",
+  "titulo": "Persons in settings that provide services to adults with high proportion of those persons have risk factors for HAV infection",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons in settings that provider services to adults with high proportion of those persons have risk factors HAV infection",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "186",
+  "titulo": "HIV Infection",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons with HIV Infection",
+  "texto_contraindicacao": "Do not vaccinate if the patient has an HIV Infection.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "187",
+  "titulo": "Allergic reaction to polysorbate 80",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had an immediate allergic reaction of any severity to polysorbate 80.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "188",
+  "titulo": "Known allergy to Polyethylene glycol [PEG]",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has known allergy to Polyethylene glycol [PEG].",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "189",
+  "titulo": "Active treatment for solid tumors",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons receiving active treatment for solid tumors",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "190",
+  "titulo": "Active treatment for hematologic malignancies",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons receiving active treatment for hematologic malignancies",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "191",
+  "titulo": "Receipt of CAR-T-cell therapy",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons receiving CAR-T-cell therapy",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "192",
+  "titulo": "Severe allergic reaction after previous dose of any egg-based IIV or LAIV influenza vaccine",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate with any egg-based IIV or LAIV influenza vaccine if the patient has had a severe allergic reaction after a previous dose of an egg-based IIV or LAIV influenza vaccine.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "193",
+  "titulo": "Severe allergic reaction after previous dose of any ccIIV influenza vaccine",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate with any ccIIV or egg-based IIV or LAIV influenza vaccine if the patient has had a severe allergic reaction after a previous dose of a ccIIV influenza vaccine.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "194",
+  "titulo": "Severe allergic reaction after previous dose of any RIV influenza vaccine",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate with any RIV or egg-based IIV or LAIV influenza vaccine if the patient has had a severe allergic reaction after a previous dose of an RIV influenza vaccine.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "195",
+  "titulo": "Occupations at increased risk for COVID-19 exposure and transmission",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons at increased occupational risk for COVID-19 exposure and transmission.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": "Occupations at increased risk for COVID-19 exposure and transmission and may get a booster shot based on their individual benefits and risks"
+ },
+ {
+  "codigo": "196",
+  "titulo": "Residing in an institutional setting at increased risk for COVID-19 exposure and transmission",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons residing in institutional settings at increased risk for COVID-19 exposure and transmission.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": "Institutional settings such as health care, schools, correctional facilities, and homeless shelters at increased risk for COVID-19 exposure and transmission and may get a booster shot based on their individual benefits and risks including"
+ },
+ {
+  "codigo": "197",
+  "titulo": "Resident of a long term care facility",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons residing in a long term care facility",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "198",
+  "titulo": "Cancer",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons with cancer",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "199",
+  "titulo": "Interstitial lung disease",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons with interstitial lung disease",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": "Having damaged or scarred lung tissue such as interstitial lung disease"
+ },
+ {
+  "codigo": "200",
+  "titulo": "Cystic fibrosis",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons with cystic fibrosis",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "201",
+  "titulo": "Pulmonary hypertension",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons with hypertension",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "202",
+  "titulo": "Dementia",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons with dementia",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "203",
+  "titulo": "Down syndrome",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons with down syndrome",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "204",
+  "titulo": "Obesity",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons with obesity",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": "includes BMIs categories of overweight, obese, and severely obese"
+ },
+ {
+  "codigo": "205",
+  "titulo": "Thalassemia",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons with thalassemia",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "206",
+  "titulo": "Cerebrovascular disease",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons with cerebrovascular disease such as having a stroke",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "207",
+  "titulo": "Substance use disorder",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons with substance use disorders (e.g., alcohol, opioid, cocaine)",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "208",
+  "titulo": "Mental Health conditions",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons with mental health conditions",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": "Includes mood disorders, depression, and schizophrenia spectrum disorders."
+ },
+ {
+  "codigo": "209",
+  "titulo": "History of thrombosis with thrombocytopenia following the Janssen COVID-19 Vaccine or any other adenovirus-vectored COVID-19 vaccines",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not administer the Janssen COVID-19 vaccine to individuals with a history of thrombosis with thrombocytopenia following the Janssen COVID-19 vaccine or any other adenovirus-vectored COVID-19 vaccines (e.g., AstraZeneca's COVID-19 vaccine which is not authorized or approved in the United States)",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "210",
+  "titulo": "Severe allergic reaction after previous dose of Dengue vaccine",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Dengue vaccine.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "211",
+  "titulo": "Evidence of previous dengue infection and living in areas where dengue is endemic",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons with evidence of previous dengue infection and living in areas where dengue is endemic.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "212",
+  "titulo": "Health care personnel involved in the care and transport of patients with suspected or confirmed Ebola virus disease at Special Pathogen Treatment Centers",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons working as Health care personnel involved in the care and transport of patients with suspected or confirmed Ebola virus disease at Special Pathogen Treatment Centers.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "213",
+  "titulo": "Laboratorians and support staff members at Laboratory Response Network (LRN) facilities that handle specimens that might contain replication-competent Ebola virus in the United States",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons working as Laboratorians and support staff members at Laboratory Response Network (LRN) facilities that handle specimens that might contain replication-competent Ebola virus in the United States.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "214",
+  "titulo": "Chronic obstructive pulmonary disease",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons with chronic obstructive pulmonary disease",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "215",
+  "titulo": "Emphysema",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons with emphysema",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "216",
+  "titulo": "Iatrogenic Immunosuppression",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons with iatrogenic Immunosuppression",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": "Diseases requiring treatment with immunosuppressive drugs, including long-term systemic corticosteroids and radiation therapy"
+ },
+ {
+  "codigo": "217",
+  "titulo": "Persons working in rabies vaccine production facilities",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons working in rabies vaccine production facilities",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "218",
+  "titulo": "Persons performing testing for rabies in diagnostic laboratories",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons performing testing for rabies in diagnostic laboratories",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "219",
+  "titulo": "Persons who frequently handle bats",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who frequently handle bats.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "220",
+  "titulo": "Persons who frequently have contact with bats",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who frequently have contact with bats.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "221",
+  "titulo": "Persons who frequently enter high-density bat environments",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who frequently enter high-density bat environments.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "222",
+  "titulo": "Persons who frequently perform animal necropsies",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who frequently perform animal necropsies.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": "For example, biologists who frequently enter bat roosts or who collect suspected rabies samples."
+ },
+ {
+  "codigo": "223",
+  "titulo": "Severe allergic reaction after previous dose of orthopoxvirus vaccine",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of vaccinia vaccine.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "224",
+  "titulo": "History or presence of atopic dermatitis",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has history or presence of atopic dermatitis.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "225",
+  "titulo": "Household contact with history or presence of atopic dermatitis",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if potential vaccinee has a household contact with history or presence of atopic dermatitis. Household contacts include persons with prolonged intimate contact with the potential vaccinee (e.g., sexual contacts) and others who might have direct contact with the vaccination site or with potentially contaminated materials (e.g., dressings or clothing).",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "226",
+  "titulo": "Active exfoliative skin conditions",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has active exfoliative skin conditions.",
+  "texto_esclarecimento": "Conditions include eczema, burns, impetigo, varicella-zoster, herpes, severe acne, severe diaper dermatitis with extensive areas of denuded skin, psoriasis, or Darier disease (keratosis follicularis)."
+ },
+ {
+  "codigo": "227",
+  "titulo": "Household contact with active exfoliative skin conditions",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if potential vaccinee has a household contact with active exfoliative skin conditions. Household contacts include persons with prolonged intimate contact with the potential vaccinee (e.g., sexual contacts) and others who might have direct contact with the vaccination site or with potentially contaminated materials (e.g., dressings or clothing).",
+  "texto_esclarecimento": "Conditions include eczema, burns, impetigo, varicella-zoster, herpes, severe acne, severe diaper dermatitis with extensive areas of denuded skin, psoriasis, or Darier disease (keratosis follicularis)."
+ },
+ {
+  "codigo": "228",
+  "titulo": "Household contact is pregnant",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if potential vaccinee has a household contact who is pregnant. Household contacts include persons with prolonged intimate contact with the potential vaccinee (e.g., sexual contacts) and others who might have direct contact with the vaccination site or with potentially contaminated materials (e.g., dressings or clothing).",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "229",
+  "titulo": "Age is less than 1 year",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient age is less than 1 year.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "230",
+  "titulo": "Household contact who is less than 1 year of age",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if potential vaccinee has a household contact who is less than 1 year of age. Household contacts include persons with prolonged contact with the potential vaccinee and others who might have direct contact with the vaccination site or with potentially contaminated materials (e.g., dressings or clothing).",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "231",
+  "titulo": "3 or more known major cardiac risk factors",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has 3 or more known major cardiac risk factors.",
+  "texto_esclarecimento": "Major cardiac risk factors include hypertension, diabetes, hypercholesterolemia, heart disease at age ?50 years in a first-degree relative, and smoking."
+ },
+ {
+  "codigo": "232",
+  "titulo": "Research laboratory personnel working with more virulent orthopoxviruses (e.g., Variola virus or mpox virus)",
+  "grupo": "",
+  "texto_indicacao": "Administer to research laboratory personnel working with more virulent orthopoxviruses (e.g., Variola virus or mpox virus)",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "233",
+  "titulo": "Clinical laboratory personnel performing diagnostic testing for more virulent orthopoxviruses (e.g., Variola virus or mpox virus)",
+  "grupo": "",
+  "texto_indicacao": "Administer to clinical laboratory personnel performing diagnostic testing for more virulent orthopoxviruses (e.g., Variola virus or mpox virus)",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "234",
+  "titulo": "Designated response team members working with more virulent orthopoxviruses (e.g., Variola virus or mpox virus)",
+  "grupo": "",
+  "texto_indicacao": "Administer to designated response team members working with more virulent orthopoxviruses (e.g., Variola virus or mpox virus)",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "235",
+  "titulo": "Healthcare personnel who care for patients infected with more virulent orthopoxviruses (e.g., Variola virus or mpox virus)",
+  "grupo": "",
+  "texto_indicacao": "Administer to healthcare personnel who care for patients infected with more virulent orthopoxviruses (e.g., Variola virus or mpox virus)",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "236",
+  "titulo": "Research laboratory personnel working with less virulent orthopoxviruses (e.g., Vaccinia virus or Cowpox virus)",
+  "grupo": "",
+  "texto_indicacao": "Administer to research laboratory personnel working with less virulent orthopoxviruses (e.g., Vaccinia virus or Cowpox virus)",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "237",
+  "titulo": "Clinical laboratory personnel performing diagnostic testing for less virulent orthopoxviruses (e.g., Vaccinia virus or Cowpox virus)",
+  "grupo": "",
+  "texto_indicacao": "Administer to clinical laboratory personnel performing diagnostic testing for less virulent orthopoxviruses (e.g., Vaccinia virus or Cowpox virus)",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "238",
+  "titulo": "Designated response team members working with less virulent orthopoxviruses (e.g., Vaccinia virus or Cowpox virus)",
+  "grupo": "",
+  "texto_indicacao": "Administer to designated response team members working with less virulent orthopoxviruses (e.g., Vaccinia virus or Cowpox virus)",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "239",
+  "titulo": "Healthcare personnel who administer ACAM2000",
+  "grupo": "",
+  "texto_indicacao": "Administer to healthcare personnel who administer ACAM2000",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "240",
+  "titulo": "Healthcare personnel who care for patients infected with less virulent orthopoxviruses (e.g., Vaccinia virus or Cowpox virus)",
+  "grupo": "",
+  "texto_indicacao": "Administer to healthcare personnel who care for patients infected with less virulent orthopoxviruses (e.g., Vaccinia virus or Cowpox virus)",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "241",
+  "titulo": "Known exposure to mpox",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who are known contacts to someone with mpox who are identified by public health authorities",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": "People who are known contacts to someone with mpox who are identified by public health authorities, for example via case investigation, contact tracing, or risk exposure assessment"
+ },
+ {
+  "codigo": "242",
+  "titulo": "Presumed exposure to mpox",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who have presumed exposure to mpox",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": "People who are aware that a recent sex partner within the  past 14 days was diagnosed with mpox. Certain gay, bisexual, or other men who have sex with men, or transgender people who have had any of following within the past 14 days: sex with multiple partners (or group sex); sex at a commercial sex venue; or sex in association with an event, venue, or defined geographic area where mpox transmission is occurring."
+ },
+ {
+  "codigo": "243",
+  "titulo": "Lack of laboratory confirmation of a previous Dengue infection",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient lacks laboratory confirmation of a previous Dengue infection.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "244",
+  "titulo": "Severe allergic reaction after previous dose of RSV vaccine",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of RSV vaccine.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "245",
+  "titulo": "American Indian or Alaskan Native",
+  "grupo": "",
+  "texto_indicacao": "Administer to American Indian or Alaskan Native children",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "246",
+  "titulo": "Severe immunocompromise",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons with severe immunocompromise.",
+  "texto_contraindicacao": "Do not vaccinate persons with severe immunocompromise.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "247",
+  "titulo": "Gay, bisexual, or other man who has sex with men (MSM), or a person who has sex with gay, bisexual, or other MSM who in the past 6 months have had one of the following: \n1) A new diagnosis of ≥ 1 sexually transmitted disease\n2)  More than one sex partner\n3)  Sex at a commercial sex venue\n4)  Sex in association with a large public event in a geographic area where mpox transmission is occurring",
+  "grupo": "",
+  "texto_indicacao": "Administer to gay, bisexual, or other man who has sex with men (MSM), or a person who has sex with gay, bisexual, or other MSM who in the past 6 months have had one of the following: \n1) A new diagnosis of ≥ 1 sexually transmitted disease\n2)  More than one sex partner\n3)  Sex at a commercial sex venue\n4)  Sex in association with a large public event in a geographic area where mpox transmission is occurring.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": "Includes persons who anticipate experiencing any of the risk factors."
+ },
+ {
+  "codigo": "248",
+  "titulo": "Sexual partners of gay, bisexual, or other man who has sex with men (MSM), or a person who has sex with gay, bisexual, or other MSM who in the past 6 months have had one of the following: \n1) A new diagnosis of ≥ 1 sexually transmitted disease\n2)  More than one sex partner\n3)  Sex at a commercial sex venue\n4)  Sex in association with a large public event in a geographic area where mpox transmission is occurring",
+  "grupo": "",
+  "texto_indicacao": "Administer to sexual partners of gay, bisexual, or other man who has sex with men (MSM), or a person who has sex with gay, bisexual, or other MSM who in the past 6 months have had one of the following: \n1) A new diagnosis of ≥ 1 sexually transmitted disease\n2)  More than one sex partner\n3)  Sex at a commercial sex venue\n4)  Sex in association with a large public event in a geographic area where mpox transmission is occurring.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": "Includes persons who anticipate experiencing any of the risk factors."
+ },
+ {
+  "codigo": "249",
+  "titulo": "Moving or traveling to an area where TBE is endemic and will have extensive exposure to ticks because of their planned outdoor activities and itinerary",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons moving or traveling to an area where TBE is endemic and will have extensive exposure to ticks because of their planned outdoor activities and itinerary",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": "Endemic Area and transmission season is determined by country.  Refer to the yellow book for a definition of the transmission season: https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/tick-borne-encephalitis.html"
+ },
+ {
+  "codigo": "250",
+  "titulo": "Moving or traveling to an area where TBE is endemic who might engage in outdoor activities in areas where ticks are likely to be found",
+  "grupo": "",
+  "texto_indicacao": "TBE vaccine may be considered for persons moving or traveling to an area where TBE is endemic who might engage in outdoor activities in areas where ticks are likely to be found",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": "Endemic Area and transmission season is determined by country.  Refer to the yellow book for a definition of the transmission season: https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/tick-borne-encephalitis.html"
+ },
+ {
+  "codigo": "251",
+  "titulo": "Laboratory workers with a potential for exposure to TBE virus",
+  "grupo": "",
+  "texto_indicacao": "Administer to laboratory workers with a potential for exposure to TBE virus",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "252",
+  "titulo": "Severe allergic reaction after previous dose of Tick-borne Encephalitis vaccine",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Tick-borne Encephalitis vaccine.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "253",
+  "titulo": "Moderate persistent or severe persistent asthma",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who have Moderate persistent or severe persistent asthma.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "254",
+  "titulo": "Chronic cardiovascular disease",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons with chronic cardiovascular disease.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": "Includes heart failure, coronary artery disease, congenital heart disease, excluding isolated hypertension"
+ },
+ {
+  "codigo": "256",
+  "titulo": "Diabetes mellitus complicated by chronic kidney disease",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons with diabetes mellitus complicated by chronic kidney disease",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "257",
+  "titulo": "Severe obesity",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons with severe obesity",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "258",
+  "titulo": "Chronic hematologic disorders",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons with chronic hematologic disorders.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": "Includes sickle cell disease and thalassemia."
+ },
+ {
+  "codigo": "259",
+  "titulo": "Sickle cell disease",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons with sickle cell disease.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "260",
+  "titulo": "Neurologic or neuromuscular conditions causing impaired airway clearance or respiratory muscle weakness",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons with neurologic or neuromuscular conditions causing impaired airway clearance or respiratory muscle weakness",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": "Includes poststroke dysphagia, amyotrophic lateral sclerosis, muscular dystrophy; excluding history of stroke without impaired airway clearance"
+ },
+ {
+  "codigo": "261",
+  "titulo": "Resident of a nursing home",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who reside in a nursing home",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "262",
+  "titulo": "Frailty",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who are frail",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "263",
+  "titulo": "Diabetes mellitus complicated by neuropathy",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons with diabetes mellitus complicated by neuropathy",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "264",
+  "titulo": "Diabetes mellitus complicated by retinopathy",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons with diabetes mellitus complicated by retinopathy",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "265",
+  "titulo": "Diabetes mellitus complicated by end-organ damage",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons with diabetes mellitus complicated by end-organ damage",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "266",
+  "titulo": "Diabetes requiring treatment with insulin",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons with diabetes requiring treatment with insulin",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "267",
+  "titulo": "Diabetes requiring treatment with sodium-glucose cotransporter-2 (SGLT2) inhibitor",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons with diabetes requiring treatment with sodium-glucose cotransporter-2 (SGLT2) inhibitor",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "268",
+  "titulo": "Islet Transplantation",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who received an islet transplant",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "269",
+  "titulo": "Transplantation",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who received a transplant",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "270",
+  "titulo": "Severe allergic reaction after previous dose of Chikungunya vaccine",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient has had a severe allergic reaction after previous dose of Chikungunya vaccine",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "271",
+  "titulo": "Traveling to a country or territory where there is a chikungunya outbreak",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons traveling to a country or territory where there is a chikungunya outbreak",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "272",
+  "titulo": "Traveling or moving to a country or territory without an outbreak but with elevated chikungunya risk for U.S. travelers if planning to stay for an extended period of time [e.g., 6 months or more]",
+  "grupo": "",
+  "texto_indicacao": "Persons traveling or moving to a country or territory without an outbreak but with elevated chikungunya risk for U.S. travelers if planning to stay for an extended period of time [e.g., 6 months or more] may consider vaccination",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "273",
+  "titulo": "Immunoglobulin deficiency",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons with an immunoglobulin deficiency",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "274",
+  "titulo": "Early component complement inhibitor use",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons using an early component complement inhibitor",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "275",
+  "titulo": "Persons at risk during a measles outbreak",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons identified as at increased risk during a community measles outbreak.",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "276",
+  "titulo": "Age is 60 years or older",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the patient age is 60 years or older.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "277",
+  "titulo": "Laboratory worker with potential for exposure to chikungunya virus",
+  "grupo": "",
+  "texto_indicacao": "Administer to laboratory workers with potential for exposure to chikungunya virus",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "278",
+  "titulo": "Birth mother received RSV vaccine during pregnancy",
+  "grupo": "",
+  "texto_indicacao": "",
+  "texto_contraindicacao": "Do not vaccinate if the birth mother received RSV vaccine during pregnancy",
+  "texto_esclarecimento": "The infant should not receive nirsevimab younger than 8 months unless the pregnant mother received an RSV vaccine and encountered one of the following issues. The dose was administered in the incorrect route/site, was of lower than recommended volume, was administered before 24 weeks gestation, was administered less than 14 days before birth, was not the Pfizer/Abrysvo or Moderna/Mresvia product, had preparation errors prior to administration, or had storage issues."
+ },
+ {
+  "codigo": "279",
+  "titulo": "Hemoglobinopathy disorder",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons with a hemoglobinopathy disorder",
+  "texto_contraindicacao": "Do not vaccinate if the patient has a hemoglobinopathy disorder.",
+  "texto_esclarecimento": ""
+ },
+ {
+  "codigo": "280",
+  "titulo": "Chronic lung disease of prematurity",
+  "grupo": "",
+  "texto_indicacao": "Administer to persons who have chronic lung disease of prematurity",
+  "texto_contraindicacao": "",
+  "texto_esclarecimento": "e.g. chronic corticosteroid therapy, diuretic therapy, or supplemental oxygen"
+ }
+]

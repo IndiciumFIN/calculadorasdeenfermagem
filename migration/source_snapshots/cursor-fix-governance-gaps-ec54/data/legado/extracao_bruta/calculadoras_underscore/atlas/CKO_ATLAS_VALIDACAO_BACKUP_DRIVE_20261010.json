@@ -1,0 +1,20 @@
+{
+  "project": "CKO Atlas Anatomico 3D",
+  "date": "2026-10-10",
+  "drive_folder_id": "1FDBAMQ3-WT-8l6xU0664u7QjABd0FbEH",
+  "drive_folder_url": "https://drive.google.com/drive/folders/1FDBAMQ3-WT-8l6xU0664u7QjABd0FbEH",
+  "owner_only_in_parent_metadata": true,
+  "public_anyone_permissions_in_parent": false,
+  "uploaded_parts": 24,
+  "remote_list_count": 24,
+  "remote_size_sum": 490681784,
+  "downloaded_roundtrip_parts": 24,
+  "downloaded_parts_sha256_match": 24,
+  "combined_remote_sha256": "e4ccdb6b49e1589a878e6c558c769da722ebfdedd5a598d1be65ed8f3d552e9b",
+  "original_sha256": "e4ccdb6b49e1589a878e6c558c769da722ebfdedd5a598d1be65ed8f3d552e9b",
+  "full_roundtrip_pass": true,
+  "originals_mutated": false,
+  "production_mutated": false,
+  "file_encryption": "Google Drive managed encryption at rest, without additional archive password",
+  "notes": "All 24 parts round-trip read through the connected Google Drive mount. SHA-256 verified, including concatenated ZIP. Restricted folder with owner-only permissions. Files must all remain in the same folder to reconstruct. No deletion, sharing expansion or overwriting existing items."
+}

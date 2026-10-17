@@ -1,0 +1,216 @@
+{
+  "work_order": "WO-2026_10_15_0076",
+  "policy_version": "1.0.0",
+  "itens": [
+    {
+      "id_origem": "1-UWhEDid1Em0jctcD6J5D8Xp9srJHKny",
+      "caminho": "calculadoras_underscore/atlas/CKO_ATLAS_STATUS_20261010.md",
+      "classe": "DOCUMENTO",
+      "sha256": "3c0d5b1a35eb6a4ba4d26ca04929f37fdeb8d6b50a57b9dac2b1727ff118c214",
+      "bytes": 7492
+    },
+    {
+      "id_origem": "1mg7wIT_UtQQgWIYOA-SF00ruFpztrUGQ",
+      "caminho": "calculadoras_underscore/atlas/CKO_ATLAS_VALIDACAO_BACKUP_DRIVE_20261010.json",
+      "classe": "DOCUMENTO",
+      "sha256": "14a857927855962f160a7d22fa622344fe30f6bd5b0ca84bd29bcaa16e09bd1d",
+      "bytes": 1143
+    },
+    {
+      "id_origem": "1hk9QL8ImLZZlY_I5UXjphy6vNDIkIldx",
+      "caminho": "calculadoras_underscore/atlas/RECONSTRUIR_ATLAS.cmd",
+      "classe": "SCRIPT",
+      "sha256": "7dd3a8160bfa125ead8087aa79ca9c30bcfe0846d5e8a357704775edc838b7c7",
+      "bytes": 115
+    },
+    {
+      "id_origem": "1-Pk2whIYCvKG0T2os64M5wjiQKzdpGZx",
+      "caminho": "calculadoras_underscore/atlas/RECONSTRUIR_ATLAS.ps1",
+      "classe": "SCRIPT",
+      "sha256": "d3caa11ff82ac70d9a3b7f5b88143a62bbc63a2f0fb6fb5e04682e6447c3420f",
+      "bytes": 2014
+    },
+    {
+      "id_origem": "1svS8PxonDAbEFXHQ6DxDGUryctKMVViP",
+      "caminho": "calculadoras_underscore/atlas/MANIFESTO_DRIVE_PARTES_SHA256.json",
+      "classe": "DOCUMENTO",
+      "sha256": "786e4cc352255caea4ca8f52d1bd7e61bf0d4237e13f20652a7b4683ab51c686",
+      "bytes": 5890
+    },
+    {
+      "id_origem": "1TOfK_JQQ38Fq_Ek1SL7Y0tRtJEYnmYog",
+      "caminho": "calculadoras_underscore/atlas/CKO_ATLAS_MANIFESTO_SHA256_20261010.json",
+      "classe": "DOCUMENTO",
+      "sha256": "959f79c66e1f860525a8ae8abe4445e18715d741794486b755cb9228e2145a1f",
+      "bytes": 12896
+    },
+    {
+      "id_origem": "1zUtmrim2DZLrPLOdnufKt1AWf7EFzwW2",
+      "caminho": "calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part001",
+      "classe": "REFERENCIA",
+      "sha256": "42ab4235182dc9d1afdb75eaa26b18d1d0d6b3f472c2bc839137a78df7867ddd",
+      "bytes": 20971520
+    },
+    {
+      "id_origem": "1E4t2XdNOu_L5xzukYUkfGHfsTM7lWjAx",
+      "caminho": "calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part002",
+      "classe": "REFERENCIA",
+      "sha256": "425c9a7a932445dae098187ae876af4a43d07c77e3efcc4bf866e98ee9404eb9",
+      "bytes": 20971520
+    },
+    {
+      "id_origem": "1bTmPZ2TGKE0ZPq0JlsK7XgDCAMo1fVQm",
+      "caminho": "calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part003",
+      "classe": "REFERENCIA",
+      "sha256": "df3f9a3085724cd48a48cab88452ed7a0a71eed72e6687bf0da5b913c7fb69f0",
+      "bytes": 20971520
+    },
+    {
+      "id_origem": "1v8SxCmBEe1yusCrAGdeT3FsZpRuG9rTX",
+      "caminho": "calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part004",
+      "classe": "REFERENCIA",
+      "sha256": "791d64087e501010133401134b6ae1ab68edb9c16eab20f93c8db04f0cb08cf7",
+      "bytes": 20971520
+    },
+    {
+      "id_origem": "1Tf_Rnf_ic6nHoQitdaD0kNBKxW_V7d5H",
+      "caminho": "calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part005",
+      "classe": "REFERENCIA",
+      "sha256": "96d0a10cd4a18fecf4012574362ddea9e5bbc11096878f918a8fa2d1f44b2f8d",
+      "bytes": 20971520
+    },
+    {
+      "id_origem": "1J2M5i4j8SpFT5u1n8Sw0GigCalJz_6jk",
+      "caminho": "calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part006",
+      "classe": "REFERENCIA",
+      "sha256": "369d61e08b5a185448c7d9150302f4205176c08bde6254db421329ea6bda754e",
+      "bytes": 20971520
+    },
+    {
+      "id_origem": "1B4382Bc3V-_LCvUlar5dGsdTeU4BDWGd",
+      "caminho": "calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part007",
+      "classe": "REFERENCIA",
+      "sha256": "ad2a5dd80998485a6cb9a3a45671d58999ee9ebd49d3c0e19bdae3a1dba91bc1",
+      "bytes": 20971520
+    },
+    {
+      "id_origem": "1yGpmiw_jM5yoVCrpdgXlsgHSBMqoayD1",
+      "caminho": "calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part008",
+      "classe": "REFERENCIA",
+      "sha256": "ed11ce91e39052ace7c71e29c83cf301e1c594bafce00647711704186e6cb5f5",
+      "bytes": 20971520
+    },
+    {
+      "id_origem": "1Jqc1nOOdoIbAuAdwXluyaBcIfnl3iV-5",
+      "caminho": "calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part009",
+      "classe": "REFERENCIA",
+      "sha256": "a440b29a6000bf78127e67db19636d44296d71a187d39b9273271a7c99094c21",
+      "bytes": 20971520
+    },
+    {
+      "id_origem": "1FgaFxZLsRQ4ZOjiGohTt1ub3QK98-qkI",
+      "caminho": "calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part010",
+      "classe": "REFERENCIA",
+      "sha256": "65156eaa3fe3b99b242250ac8685e074773bd79ebe175a0a56453cf2736f2343",
+      "bytes": 20971520
+    },
+    {
+      "id_origem": "1A1hpXGNhR6j_lDmDnya_gEMQnXaf25zZ",
+      "caminho": "calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part011",
+      "classe": "REFERENCIA",
+      "sha256": "79807bd9f7c29da9d9e5dde64695b43d59ddf9717cdfae7e9243d5661574814e",
+      "bytes": 20971520
+    },
+    {
+      "id_origem": "1rdNZgaR7ekTSsMF-20yA7eHcpFXupFY5",
+      "caminho": "calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part012",
+      "classe": "REFERENCIA",
+      "sha256": "87679b2f2f4c72b528609e85d6038260ce19a14e21d2433ac1115e3576dd981e",
+      "bytes": 20971520
+    },
+    {
+      "id_origem": "1wb0B-TuEV18YF6Ngag8fx-aDRQ-C1lAJ",
+      "caminho": "calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part013",
+      "classe": "REFERENCIA",
+      "sha256": "09a035bdca14cb26b58c5586068b9b3c91a358df60593f2014e20e2113c0aa84",
+      "bytes": 20971520
+    },
+    {
+      "id_origem": "17xtT3tPrVwKKAPijBNUSrmtxSElmz-U_",
+      "caminho": "calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part014",
+      "classe": "REFERENCIA",
+      "sha256": "a1fd25745bb3bbf55ec85338f7d01b4ff9a352affc44f32c21c506c6978556d6",
+      "bytes": 20971520
+    },
+    {
+      "id_origem": "1dnPUnVMjG--9ZyQ6AFGujBsxkyKOdP1E",
+      "caminho": "calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part015",
+      "classe": "REFERENCIA",
+      "sha256": "38d2de1a98a8a7fcf549e14d1104f0d50e6c536d44badacdc0afe0477aad3e7b",
+      "bytes": 20971520
+    },
+    {
+      "id_origem": "1IQb-PREqdYHsQVmi6yUQcCs8lbPjJA7q",
+      "caminho": "calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part016",
+      "classe": "REFERENCIA",
+      "sha256": "a7b00e908f803faac928e1030aacd84ef9fbf67f9ae06c1abc57cfa4ea153c1c",
+      "bytes": 20971520
+    },
+    {
+      "id_origem": "1O2sHdtrAHCvhIAi8NTI4eAH1tWaTayIL",
+      "caminho": "calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part017",
+      "classe": "REFERENCIA",
+      "sha256": "dffeeb677b9874be7d20fd93e098750d0639f0d006194898ded2a69556f6493a",
+      "bytes": 20971520
+    },
+    {
+      "id_origem": "1vnYq5ya8xsgcVDNrDsma0E5yh6t4tVhM",
+      "caminho": "calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part018",
+      "classe": "REFERENCIA",
+      "sha256": "de772dc36fa05e489b74c3067cb173e3dbf83a786232ee79828f4f656b84b5e7",
+      "bytes": 20971520
+    },
+    {
+      "id_origem": "1UvXQ8Z3TWomco5AOii7uCRBg56xaDSP5",
+      "caminho": "calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part019",
+      "classe": "REFERENCIA",
+      "sha256": "8f1a551ccd811abbdd1a8c976f15505c0912e1667a62d33355b6b035eaaa905f",
+      "bytes": 20971520
+    },
+    {
+      "id_origem": "1co-TQj1hfKTFv4wY33_nwLCcz5MiTCp-",
+      "caminho": "calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part020",
+      "classe": "REFERENCIA",
+      "sha256": "e2aecb8b6530f5c5c5a828fee78a80b1b6a35a01f1a231d90cfb40f522c7bc33",
+      "bytes": 20971520
+    },
+    {
+      "id_origem": "1HjetOJJ27kyDpnj1YC7qbgvRPpld1m4h",
+      "caminho": "calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part021",
+      "classe": "REFERENCIA",
+      "sha256": "93b1e184f35401195494561e8ec70232648654fa12411d758c56e579b466dc9c",
+      "bytes": 20971520
+    },
+    {
+      "id_origem": "1u-_MdpLZkkrQgDxYp1fGYcavLEMe0SfT",
+      "caminho": "calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part022",
+      "classe": "REFERENCIA",
+      "sha256": "b7c07c37400dc5ea8a9679b7ba1b34ca68510d479b46eeef920b78c6e28b184d",
+      "bytes": 20971520
+    },
+    {
+      "id_origem": "18bfa-SiYZr1YCRYsUPPPFpyoIKKyRRlk",
+      "caminho": "calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part023",
+      "classe": "REFERENCIA",
+      "sha256": "425fcf124a22e8601b63b9f355b3ad85f8deb70eeffbc00a95628b7bab20c0eb",
+      "bytes": 20971520
+    },
+    {
+      "id_origem": "1lkPzuH0hFTS7kdrqWokP93X3VWEpu4__",
+      "caminho": "calculadoras_underscore/atlas/CKO_ATLAS_TRANSFERENCIA_UNICA_TOTAL_20261010.zip.part024",
+      "classe": "REFERENCIA",
+      "sha256": "ad07f2e387ea1e50dd87f509a4b353190ac42a1be93e6a51b13558766f24a6ef",
+      "bytes": 8336824
+    }
+  ]
+}

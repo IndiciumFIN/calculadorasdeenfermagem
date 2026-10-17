@@ -1,0 +1,138 @@
+{
+  "identificador": "BR_FED_COFEN_OS_2024_N_00002",
+  "tipo": "Ordem de Serviço",
+  "codigo_tipo": "OS",
+  "categoria_site": "Legislação / Ordens de Serviço",
+  "numero": 2,
+  "numero_original": "ORDEM DE SERVIÇO COFEN Nº 2 DE 02 DE DEZEMBRO DE 2024",
+  "ano": 2024,
+  "emissor": "Conselho Federal de Enfermagem",
+  "unidade_emissora": "Presidência",
+  "data_ato": "2024-12-02",
+  "data_ato_fonte": "epígrafe/título: DE 02 DE DEZEMBRO DE 2024",
+  "ementa": "Estabelece procedimentos de solicitação, aprovação e participação de agentes públicos do Conselho de Enfermagem em ações de capacitação externas.",
+  "titulo_site": "ORDEM DE SERVIÇO COFEN Nº 2 DE 02 DE DEZEMBRO DE 2024",
+  "publicacao": {
+    "veiculo": "Portal do Cofen (cofen.gov.br)",
+    "url": "https://www.cofen.gov.br/ordem-de-servico-cofen-no-2-de-02-de-dezembro-de-2024/",
+    "wp_post_id": 136693,
+    "data_publicacao_site": "2024-12-03",
+    "data_modificacao_site": "2024-12-03",
+    "pdfs": [
+      {
+        "url": "https://www.cofen.gov.br/wp-content/uploads/2024/12/Ordem-de-Servico-no-2-2024.pdf",
+        "rotulo_site": "Ordem de Serviço Cofen nº 02-2024",
+        "origem_link": "bloco_anexos_pagina",
+        "arquivo": "OS_2024_N_00002_PDF_SITE.pdf",
+        "papel": "PRINCIPAL",
+        "ocr": false,
+        "paginas": 4,
+        "arquivo_texto": "OS_2024_N_00002_PDF_SITE_TEXTO_V1.txt",
+        "pagina_dou": false
+      },
+      {
+        "url": "https://www.cofen.gov.br/wp-content/uploads/2024/12/Ordem-de-Servico-no-2-2024-Anexo-I.pdf",
+        "rotulo_site": "Ordem de Serviço Cofen nº 02-2024 - Anexo I",
+        "origem_link": "bloco_anexos_pagina",
+        "arquivo": "OS_2024_N_00002_ANEXO_01_PDF_SITE.pdf",
+        "papel": "ANEXO",
+        "ocr": false,
+        "paginas": 1,
+        "arquivo_texto": "OS_2024_N_00002_ANEXO_01_PDF_SITE_TEXTO_V1.txt",
+        "pagina_dou": false,
+        "cobertura_no_texto_do_site": 0.298,
+        "tratamento": "ATOMIZADO_A_PARTIR_DO_PDF"
+      },
+      {
+        "url": "https://www.cofen.gov.br/wp-content/uploads/2024/12/Ordem-de-Servico-no-2-2024-Anexo-II.pdf",
+        "rotulo_site": "Ordem de Serviço Cofen nº 02-2024 - Anexo II",
+        "origem_link": "bloco_anexos_pagina",
+        "arquivo": "OS_2024_N_00002_ANEXO_02_PDF_SITE.pdf",
+        "papel": "ANEXO",
+        "ocr": false,
+        "paginas": 1,
+        "arquivo_texto": "OS_2024_N_00002_ANEXO_02_PDF_SITE_TEXTO_V1.txt",
+        "pagina_dou": false,
+        "cobertura_no_texto_do_site": 0.423,
+        "tratamento": "ATOMIZADO_A_PARTIR_DO_PDF"
+      }
+    ],
+    "sei": {
+      "documento_sei": null,
+      "codigo_verificador": "0490569",
+      "codigo_crc": "5354978F",
+      "assinaturas_eletronicas": [
+        "MANOEL CARLOS NERI DA SILVA - Coren-RO 63.592-ENF- IR",
+        "VENCELAU JACKSON DA CONCEIÇÃO PANTOJA - Coren-AP 75.956-ENF"
+      ]
+    },
+    "dou": {
+      "citado_no_texto": false,
+      "trechos": [],
+      "registros_de_publicacao": [],
+      "codigos_autenticidade": [],
+      "verificado_online_in_gov_br": false,
+      "observacao": "Nenhuma menção a publicação no DOU no texto do site nem no PDF.",
+      "fac_simile_dou_no_site": []
+    }
+  },
+  "vigencia": {
+    "clausula": "12 Esta Ordem de Serviço entra em vigor na data de sua assinatura.",
+    "situacao": "NAO_VERIFICADA_ATOS_POSTERIORES"
+  },
+  "normas_relacionadas": [
+    {
+      "ato": "Lei 5.905/1973",
+      "relacao": "CITADA",
+      "verificacao": "EXTRAIDO_AUTOMATICO_DO_TEXTO",
+      "contexto": "o Primeiro-Secretário da Autarquia, no uso de suas atribuições legais e regimentais conferidas pela Lei nº 5.905 de 12 de julho de 1973, bem como pelo Regimento Interno da Autarquia, aprovado pel"
+    },
+    {
+      "ato": "Resolução 726/2023",
+      "relacao": "CITADA",
+      "verificacao": "EXTRAIDO_AUTOMATICO_DO_TEXTO",
+      "contexto": "la Lei nº 5.905 de 12 de julho de 1973, bem como pelo Regimento Interno da Autarquia, aprovado pela Resolução nº 726, de 15 de setembro de 2023; e nos termos da Decisão nº 60/2024; CONSIDERANDO a necessi"
+    },
+    {
+      "ato": "Decisão 60/2024",
+      "relacao": "CITADA",
+      "verificacao": "EXTRAIDO_AUTOMATICO_DO_TEXTO",
+      "contexto": "to Interno da Autarquia, aprovado pela Resolução nº 726, de 15 de setembro de 2023; e nos termos da Decisão nº 60/2024; CONSIDERANDO a necessidade de estabelecer procedimentos e"
+    }
+  ],
+  "assinaturas": [
+    "MANOEL CARLOS NERI DA SILVA / Coren-RO 63.592-ENF-IR / Presidente / VENCELAU JACKSON DA CONCEIÇÃO PANTOJA / Coren-AP 75.956-ENF / Primeiro-Secretário"
+  ],
+  "licenca_uso": {
+    "fundamento": "Lei 9.610/1998, art. 8, IV",
+    "texto_ato_oficial": "NAO_PROTEGIDO_POR_DIREITOS_AUTORAIS",
+    "uso_texto_normativo": "ELEGIVEL_PARA_REPRODUCAO_COM_PROVENIENCIA",
+    "materiais_terceiros": "ANALISE_ESPECIFICA_SE_HOUVER"
+  },
+  "contagem_dispositivos": {
+    "epigrafe": 1,
+    "ementa": 1,
+    "preambulo": 1,
+    "considerando": 3,
+    "secao": 72,
+    "artigo": 12,
+    "paragrafo": 8,
+    "inciso": 21,
+    "assinatura": 1,
+    "anexo": 2,
+    "paragrafo_texto": 131,
+    "item_lista": 25
+  },
+  "anexos": {
+    "referencias_no_texto": [
+      "a deliberação da Diretoria do COFEN e, se aprovado, seguirá o fluxo indicado no ANEXO I, passando pelos setores competentes para análise, assegurando transparência e"
+    ],
+    "resultado": "PRESENTE_E_ATOMIZADO",
+    "anexos_no_texto": [
+      "BR_FED_COFEN_OS_2024_N_00002_ANEXO_PDF_01",
+      "BR_FED_COFEN_OS_2024_N_00002_ANEXO_PDF_02"
+    ]
+  },
+  "observacoes": [],
+  "situacao": "ATOMIZADO_PENDENTE_REVISAO"
+}

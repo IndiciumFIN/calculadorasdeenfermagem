@@ -1,0 +1,102 @@
+{
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "entradas": [
+    {
+      "id_origem": "1lhbVqocl6Yp0b__jBi9COATKHaXL-HzI",
+      "caminho": "README.md",
+      "classe": "DOCUMENTO",
+      "sha256": "4169b0204b34fe6bd7e1958ea041f7c85a383f1e6c5509cca07a0073a0578fe5"
+    },
+    {
+      "id_origem": "1ISyJyXKl0yaJuoDGOvdDCuhvZvFroVWj",
+      "caminho": "fetch.py",
+      "classe": "SCRIPT",
+      "sha256": "bc9db08e0bf31772252b463ed39c72968cb4cf08afa6255ae1c94d48bdd7b3fa"
+    },
+    {
+      "id_origem": "1Gp9cB8fYN7CjNg286wesct-_6CGoW_tT",
+      "caminho": "cid10/capitulos.csv",
+      "classe": "REFERENCIA",
+      "sha256": "f762f7b72d16cad535b6765d7f4b4e72fb96691f1052cbffa2e1bfb6ed9b195a"
+    },
+    {
+      "id_origem": "11IrSya_l28agJdVb5vxHtAL929E77w5n",
+      "caminho": "cid10/capitulos.json",
+      "classe": "REFERENCIA",
+      "sha256": "a096dc297a77f9b24a6150f907648c2473b499b2576d2b10d7ed7408426542f2"
+    },
+    {
+      "id_origem": "1UqOtV4-IIz71aLqMyiNkLbA_WqM5o8iv",
+      "caminho": "cid10/grupos.csv",
+      "classe": "REFERENCIA",
+      "sha256": "471883b9fc85e8dc9c98a051236a7a39626d440244bcf90fffc5aaec0a5760b4"
+    },
+    {
+      "id_origem": "1cWc_Efgv7v9ZTrn2PQ89wtyk1sRy2Xbr",
+      "caminho": "cid10/grupos.json",
+      "classe": "REFERENCIA",
+      "sha256": "fc007406c8ffc12bcaa9f26412ef3b436dc13fd7420478b5565007c63919bb47"
+    },
+    {
+      "id_origem": "1i6GiiIEfXThnujlmMLb1ok4YIXEiFKvS",
+      "caminho": "cid10/categorias.csv",
+      "classe": "REFERENCIA",
+      "sha256": "e11584b518dc13e64b78d7949f4b43055b1203f367f3b1613fccb27a3fb52712"
+    },
+    {
+      "id_origem": "11OJreDtdS8i2T4SLWGT1MdZNbA8tSP5K",
+      "caminho": "cid10/categorias.json",
+      "classe": "REFERENCIA",
+      "sha256": "b75cfea362f1a61d126f133e5e9bee134e5ad2d6292a273e0c60c2ef1e90b71a"
+    },
+    {
+      "id_origem": "1uEiFAoW0eRE5nrCDO-KEyOucDLqQQRVs",
+      "caminho": "cid10/subcategorias.csv",
+      "classe": "REFERENCIA",
+      "sha256": "873d844abb2fe35cfbbc61de6579eaa2b7cab4524e6649b53e557359a8505055"
+    },
+    {
+      "id_origem": "1CUEx0IkHMPY1jWW_7RaNbVHQcfa1nAo0",
+      "caminho": "cid10/subcategorias.json",
+      "classe": "REFERENCIA",
+      "sha256": "21c599f9a93a68345e9e2a82133cadba71b8ea76dfd13a4a2de35d159aaf0afc"
+    },
+    {
+      "id_origem": "1DXtIbR4Q66UdaOTHWCW39weuQT84y8iN",
+      "caminho": "cid10/cid_o_grupos.csv",
+      "classe": "REFERENCIA",
+      "sha256": "ee605b7be92c0163053c20bd09d279453463e5e37902c9512f0ddcd685b2e39b"
+    },
+    {
+      "id_origem": "12XxKcxTa1yvAqmv2mo_AP2sBXnyjgCxk",
+      "caminho": "cid10/cid_o_grupos.json",
+      "classe": "REFERENCIA",
+      "sha256": "4188cbbbbe2a51c7c2ff10cccf848d0a8b1f2a810fbfa08efc5d9e05d34fb2e8"
+    },
+    {
+      "id_origem": "1Qahfk8grGPDSryXacJb8jWzR68i7EZD5",
+      "caminho": "cid10/cid_o_categorias.csv",
+      "classe": "REFERENCIA",
+      "sha256": "69fc782c257746da2c770cc269babb05dbcfbb3c209d7f9706652c8c1f1dfb0a"
+    },
+    {
+      "id_origem": "1Nh1eZZopH0FfOJh5fVInGGxwDK_3sw1A",
+      "caminho": "cid10/cid_o_categorias.json",
+      "classe": "REFERENCIA",
+      "sha256": "fe8ef7a606282a8099e4b88dfc95947533701d885cf95ec9f1c717074b00c592"
+    }
+  ],
+  "id": "WO-2026_10_15_0004",
+  "task_type": "retirar",
+  "checker_id": "kernel-validar",
+  "parametros": {
+    "lote": "cid10-readme-fetch",
+    "parecer_work_order": "WO-2026_10_15_0003",
+    "id_anterior": "WO-RETIRAR-EXTRACAO-CID10-001"
+  },
+  "task_id": "TAREFA-RETIRAR",
+  "task_version": "1.0.0"
+}

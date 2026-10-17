@@ -1,0 +1,43 @@
+{
+  "id": "WO-2026_10_16_0232",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "checker_id": "kernel-independent-split-validator",
+  "task_id": "TAREFA-RECONSTRUIR-PARTES",
+  "task_version": "1.0.0",
+  "task_type": "reconstituir-partes",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "entradas": [
+    {
+      "id_origem": "1h6M7tlhT_Og6EgtZvTR6kXXmjfW2Tw8n",
+      "caminho": "data/legado/extracao_bruta/CONTEUDOS_CE_WAVE13/VILA_DO_CUIDADO/1h6M7tlhT_Og6EgtZvTR6kXXmjfW2Tw8n/DRIVE_SPLIT_MANIFEST.json",
+      "classe": "REFERENCIA",
+      "sha256": "74e9b64a7e94a4001e23c643f0f53b04737db6b9c6b9cae319cdd014faa299b6"
+    },
+    {
+      "id_origem": "14L8UfeHbhvNUjFHb6lrMtbdITRSBfoCV",
+      "caminho": "data/legado/extracao_bruta/CONTEUDOS_CE_WAVE13/VILA_DO_CUIDADO/14L8UfeHbhvNUjFHb6lrMtbdITRSBfoCV/Vila_do_Cuidado_CONSOLIDADO_MASTER_LOCAL_2026-08-26.zip.part-00",
+      "classe": "REFERENCIA",
+      "sha256": "49a6a14a8f3da9eb59cf287edf09b6dd64bb4f8f51bbe458cc7fbb4f910ac3c7"
+    },
+    {
+      "id_origem": "1rTK9cPXObQtahQXR0rZQxD2FeA2NlwOK",
+      "caminho": "data/legado/extracao_bruta/CONTEUDOS_CE_WAVE13/VILA_DO_CUIDADO/1rTK9cPXObQtahQXR0rZQxD2FeA2NlwOK/Vila_do_Cuidado_CONSOLIDADO_MASTER_LOCAL_2026-08-26.zip.part-01",
+      "classe": "REFERENCIA",
+      "sha256": "d8443521ea08a0ee1f8b83eb572dabc9740707a0e77d00919f35ac5760640580"
+    },
+    {
+      "id_origem": "1MjPlNOPVC118iwiPo8uHZd3mYMhJ8JgP",
+      "caminho": "data/legado/extracao_bruta/CONTEUDOS_CE_WAVE13/VILA_DO_CUIDADO/1MjPlNOPVC118iwiPo8uHZd3mYMhJ8JgP/Vila_do_Cuidado_CONSOLIDADO_MASTER_LOCAL_2026-08-26.zip.part-02",
+      "classe": "REFERENCIA",
+      "sha256": "e7e8edf62cf0c8f83ea269d09a064bd54379cb3f63f186bd2f80fa5594771ad9"
+    }
+  ],
+  "parametros": {
+    "lote": "VDC-SPLIT-W13",
+    "output_path": "data/legado/extracao_bruta/CONTEUDOS_CE_WAVE13/VILA_DO_CUIDADO/reassembled/Vila_do_Cuidado_CONSOLIDADO_MASTER_LOCAL_2026-08-26.zip",
+    "publicacao": "BLOQUEADA",
+    "exclusao": "BLOQUEADA"
+  }
+}

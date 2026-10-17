@@ -1,0 +1,46 @@
+{
+ "data": "2026-10-10",
+ "choque_septico": {
+  "resolvido": true,
+  "checagens": {
+   "trecho_no_atomo": true,
+   "trecho_identico_ao_pdf": true,
+   "hipotensao_persistente_na_definicao": true,
+   "persisting_hypotension_no_trecho": true,
+   "numeros_definicao": [
+    "65",
+    "2",
+    "18"
+   ],
+   "numeros_trecho": [
+    "65",
+    "2",
+    "18"
+   ],
+   "numeros_conferem": true
+  }
+ },
+ "pa_notas_quadro_3_4": {
+  "resolvido": true,
+  "checagens": {
+   "sinais_vitais:pa-dbha2020:ha-estagio-1|nota_asterisco_1": true,
+   "sinais_vitais:pa-dbha2020:ha-estagio-1|nota_asterisco_2": true,
+   "sinais_vitais:pa-dbha2020:ha-estagio-1|nota_asterisco_3": true,
+   "sinais_vitais:pa-dbha2020:ha-estagio-2|nota_asterisco_1": true,
+   "sinais_vitais:pa-dbha2020:ha-estagio-2|nota_asterisco_2": true,
+   "sinais_vitais:pa-dbha2020:ha-estagio-2|nota_asterisco_3": true,
+   "sinais_vitais:pa-dbha2020:ha-estagio-3|nota_asterisco_1": true,
+   "sinais_vitais:pa-dbha2020:ha-estagio-3|nota_asterisco_2": true,
+   "sinais_vitais:pa-dbha2020:ha-estagio-3|nota_asterisco_3": true,
+   "sinais_vitais:pa-dbha2020:pa-normal|nota_asterisco_1": true,
+   "sinais_vitais:pa-dbha2020:pa-normal|nota_asterisco_2": true,
+   "sinais_vitais:pa-dbha2020:pa-normal|nota_asterisco_3": true,
+   "sinais_vitais:pa-dbha2020:pa-otima|nota_asterisco_1": true,
+   "sinais_vitais:pa-dbha2020:pa-otima|nota_asterisco_2": true,
+   "sinais_vitais:pa-dbha2020:pa-otima|nota_asterisco_3": true,
+   "sinais_vitais:pa-dbha2020:pre-hipertensao|nota_asterisco_1": true,
+   "sinais_vitais:pa-dbha2020:pre-hipertensao|nota_asterisco_2": true,
+   "sinais_vitais:pa-dbha2020:pre-hipertensao|nota_asterisco_3": true
+  }
+ }
+}

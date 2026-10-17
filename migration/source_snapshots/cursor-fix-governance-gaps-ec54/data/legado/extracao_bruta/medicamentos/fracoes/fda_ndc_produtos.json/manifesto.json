@@ -1,0 +1,32 @@
+{
+  "algoritmo": "concatenacao-bytes-sha256",
+  "id_origem": "1Vzm6B5HqowgiXuHBDJSJ1ktJdpZ3CWin",
+  "arquivo": "fda_ndc_produtos.json",
+  "caminho_obter": "medicamentos/inteiros/fda_ndc_produtos.json",
+  "bytes": 93709852,
+  "sha256": "5e25cf97c2788789fe2ee9e3d31b288cf97823eaf84eb108ab5a4b49fae1fc83",
+  "tamanho_parte": 40000000,
+  "partes": [
+    {
+      "nome": "part-000",
+      "ordem": 0,
+      "offset": 0,
+      "bytes": 40000000,
+      "sha256": "e51cbc02513b8f94b265d6d48107215180a756cd6605d59866ae931ba3b68d69"
+    },
+    {
+      "nome": "part-001",
+      "ordem": 1,
+      "offset": 40000000,
+      "bytes": 40000000,
+      "sha256": "6d48d479865051298f21fd9396242628d14c1ba0095e5e4b76a0c456b41eeec1"
+    },
+    {
+      "nome": "part-002",
+      "ordem": 2,
+      "offset": 80000000,
+      "bytes": 13709852,
+      "sha256": "fcb3395cc3c4ebec910249252807e2129753d5b3a16031f96a2bea4c1589f11f"
+    }
+  ]
+}

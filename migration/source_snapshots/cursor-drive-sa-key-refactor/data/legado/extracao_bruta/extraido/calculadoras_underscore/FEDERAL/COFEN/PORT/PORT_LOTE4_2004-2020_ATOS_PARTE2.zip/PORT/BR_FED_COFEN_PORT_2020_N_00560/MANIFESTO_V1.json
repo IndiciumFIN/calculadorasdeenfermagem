@@ -1,0 +1,51 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-560-de-13-de-outubro-de-2020/ (API WordPress post 82666); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2020_N_00560_ATOMOS_V1.jsonl",
+      "sha256": "b03122ab912547be5f6085dd502410cc4724b311f427d7911e87068ae8327c37",
+      "tamanho": 10670
+    },
+    {
+      "nome": "PORT_2020_N_00560_CONTEUDO_SITE_API.json",
+      "sha256": "ba19a96477be99a2f10a0c9456345e0c0abd39e04977c13336b05ffca9360b24",
+      "tamanho": 1974
+    },
+    {
+      "nome": "PORT_2020_N_00560_NORMA_V1.json",
+      "sha256": "37861c3de2f560c2bb34fa6695772e36efcd560ebd37a7e1c8c6ab7081b7eba5",
+      "tamanho": 3108
+    },
+    {
+      "nome": "PORT_2020_N_00560_PAGINA_SITE.html",
+      "sha256": "cd41f5e3ebb189170161973605d87be78f2b4fb78b8e4cbea053a70a744eb3fb",
+      "tamanho": 440571
+    },
+    {
+      "nome": "PORT_2020_N_00560_PDF_SITE.pdf",
+      "sha256": "c9ddd784a9736c1454c348758de1937f84af5aef94bb38775053758e4e336160",
+      "tamanho": 62382
+    },
+    {
+      "nome": "PORT_2020_N_00560_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "8356e07353333caa0535792118bc05dac56f96cf099dcab7eb71e3394e4df623",
+      "tamanho": 1522
+    },
+    {
+      "nome": "PORT_2020_N_00560_TEXTO_FONTE_V1.txt",
+      "sha256": "8510b5803cc6dee23a3db91a9564dc781514c47ef72dfcb0b0a8cc950fd168c6",
+      "tamanho": 1302
+    },
+    {
+      "nome": "PORT_2020_N_00560_VALIDACAO_V1.json",
+      "sha256": "94c32f8cd7f764c3db6a276815b4cb09bd1c9b7228be87e9d4a4e5f78abaa8e7",
+      "tamanho": 4683
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+  ]
+}

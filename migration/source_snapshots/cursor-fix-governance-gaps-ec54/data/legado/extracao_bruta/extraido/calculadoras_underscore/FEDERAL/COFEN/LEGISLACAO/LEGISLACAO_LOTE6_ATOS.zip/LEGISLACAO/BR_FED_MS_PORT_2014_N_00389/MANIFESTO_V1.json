@@ -1,0 +1,55 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-389-ms-2014-linha-de-cuidado-do-paciente-renal-cronico/ (API WordPress post 51474); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2014_N_00389_ATOMOS_V1.jsonl",
+      "sha256": "8dbf60433cd0eda6e7afb8a305097d62562d175fca5cd64e141314481a53221e",
+      "tamanho": 239343
+    },
+    {
+      "nome": "PORT_2014_N_00389_CONTEUDO_SITE_API.json",
+      "sha256": "0cf0a9fb56c5495c3e0731f57d6d6550815e3bc6e442afa737f2e4745152bb57",
+      "tamanho": 496
+    },
+    {
+      "nome": "PORT_2014_N_00389_NORMA_V1.json",
+      "sha256": "3cd77a301c9d4c7222e25e767c234b99022395e903e2e54fa4db542ac65dc292",
+      "tamanho": 10233
+    },
+    {
+      "nome": "PORT_2014_N_00389_PAGINA_SITE.html",
+      "sha256": "1c3adbfa6e38003d28793abdc0aaf765ba64efd538687bb6be3d04c1414b888f",
+      "tamanho": 436017
+    },
+    {
+      "nome": "PORT_2014_N_00389_PDF_SITE.pdf",
+      "sha256": "d9d945e19dc23383b27b1a767aeb9fbf36a1b1f51a15e1b8d60b0968e770387b",
+      "tamanho": 76642
+    },
+    {
+      "nome": "PORT_2014_N_00389_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "a85da414ce4849bf4ae97777130afe480004a332f9818156137a3b8304863708",
+      "tamanho": 55226
+    },
+    {
+      "nome": "PORT_2014_N_00389_TEXTO_FONTE_V1.txt",
+      "sha256": "3bbccaf4d2b39f02fa8f64d1270f4d792e20ad3889c3ed33d54db3ebfcfe240f",
+      "tamanho": 55287
+    },
+    {
+      "nome": "PORT_2014_N_00389_VALIDACAO_V1.json",
+      "sha256": "6b5ba464b953d149517051aebb972a89b56d1157a0be7e5cde62fdca9f40e5b5",
+      "tamanho": 7539
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+    "Texto do ato disponível apenas no PDF (o site traz só título/resumo); atomização feita a partir da camada de texto do PDF.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

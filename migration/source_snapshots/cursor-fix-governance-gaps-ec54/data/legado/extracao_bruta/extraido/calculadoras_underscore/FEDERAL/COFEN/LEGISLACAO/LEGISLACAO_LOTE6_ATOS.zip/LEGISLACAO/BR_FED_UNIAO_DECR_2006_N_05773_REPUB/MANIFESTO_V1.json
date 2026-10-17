@@ -1,0 +1,54 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/decreto-5773/ (API WordPress post 41577); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "DECR_2006_N_05773_REPUB_ATOMOS_V1.jsonl",
+      "sha256": "9eb0d50a6a40bcba729c690a95597a21ca0148730a3bc39e838923c7bd8cbc52",
+      "tamanho": 349001
+    },
+    {
+      "nome": "DECR_2006_N_05773_REPUB_CONTEUDO_SITE_API.json",
+      "sha256": "2241df4765dcc949b7d1764625bdfea0efef5f8141426df50ee87c40858ce6fc",
+      "tamanho": 486
+    },
+    {
+      "nome": "DECR_2006_N_05773_REPUB_NORMA_V1.json",
+      "sha256": "2e7fa973f53c5415eaa5eb59a3eeec917f80077ee9829e68abb7a08bbcef7d1a",
+      "tamanho": 8164
+    },
+    {
+      "nome": "DECR_2006_N_05773_REPUB_PAGINA_SITE.html",
+      "sha256": "6500acfe9448d4ef35ef295770f3fb795bf673dd7e2fd9a02c95426aa7356643",
+      "tamanho": 438260
+    },
+    {
+      "nome": "DECR_2006_N_05773_REPUB_PDF_SITE.pdf",
+      "sha256": "e5a75b7907711c6ea80fa384d2061da85ecb98e750c3f2acd531e028e3b4309f",
+      "tamanho": 826970
+    },
+    {
+      "nome": "DECR_2006_N_05773_REPUB_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "11ea9abead2111f82adbb77d43f7e86206b51bd37cf9a6fa7ee57d1c47598a68",
+      "tamanho": 80175
+    },
+    {
+      "nome": "DECR_2006_N_05773_REPUB_TEXTO_FONTE_V1.txt",
+      "sha256": "11ea9abead2111f82adbb77d43f7e86206b51bd37cf9a6fa7ee57d1c47598a68",
+      "tamanho": 80175
+    },
+    {
+      "nome": "DECR_2006_N_05773_REPUB_VALIDACAO_V1.json",
+      "sha256": "c1fe3b552a1bc32c48c5e5eca5b4a773c4b77210081a9e66c7b003fc8ca71c81",
+      "tamanho": 6546
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Texto do ato disponível apenas no PDF (o site traz só título/resumo); atomização feita a partir da camada de texto do PDF.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir.",
+    "DUPLICADA: nova publicação no site do mesmo ato (post 41577, 2016-06-15); a primeira é o post 36784 (2015-12-09). Similaridade 92."
+  ]
+}

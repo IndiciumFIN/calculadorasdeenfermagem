@@ -1,0 +1,53 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/diretrizes-curriculares-nacionais-para-a-educacao-das-relacoes-etnico-raciais-e-para-o-ensino-de-historia-e-cultura-afro-brasileira-e-africana/ (API WordPress post 36768); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_ATOMOS_V1.jsonl",
+      "sha256": "20eda4264fbd2a0d2a56eef34ca7d221fc35f0dca7bc9ee4da54d8f2db545fa1",
+      "tamanho": 2309
+    },
+    {
+      "nome": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_CONTEUDO_SITE_API.json",
+      "sha256": "c6f2e69b011510130b44454d75b0f2a66f35dde3605c66953b8f59f1434dbeee",
+      "tamanho": 877
+    },
+    {
+      "nome": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_NORMA_V1.json",
+      "sha256": "d6e273a27da782fd21b7db6441c5525fc93e384c66b3c7060bb33c16cc65af5b",
+      "tamanho": 4170
+    },
+    {
+      "nome": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PAGINA_SITE.html",
+      "sha256": "ea18d0d6b0580e9bfcd326ff6347a7e26da6c9bd648498068cf48ad3cdd52341",
+      "tamanho": 445815
+    },
+    {
+      "nome": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PDF_SITE.pdf",
+      "sha256": "1fc014b114b736a96e4e997ef1394b867427ec814841c7df68f7117abcec2f69",
+      "tamanho": 196706
+    },
+    {
+      "nome": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "eca95f24076b22de4d8f7768a6a7145845df8a6574e0c46e122ebc09e940810a",
+      "tamanho": 83315
+    },
+    {
+      "nome": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_TEXTO_FONTE_V1.txt",
+      "sha256": "16dfe31fbdcbba8d848a44bea97d926825ce3ab5ba2496d09156115d60b2b200",
+      "tamanho": 477
+    },
+    {
+      "nome": "NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_VALIDACAO_V1.json",
+      "sha256": "8f074dd2b1ee4c9febc1b3bff91b70f2614547f9880190872fbe0620706fdff4",
+      "tamanho": 23314
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "245 trecho(s) do PDF sem correspondente no texto do site.",
+    "Ato sem número no site; identificador formado por slug.",
+    "TIPO: listado em categoria de Legislação, mas o título não identifica um ato (\"Diretrizes Curriculares Nacionais para a Educação das Relações Étnico-Raciais e para o Ensino de His\"). ANO: ano do ato não consta do título; usado o ano do post (data de publicação no site, não do ato)."
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-24-2026-camatas-tecnicas-de-enfermagem/ (API WordPress post 186069); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2026_N_00024_CAMATAS_ATOMOS_V1.jsonl",
+      "sha256": "ff36cdd3eaaf082de102437f19a84611f1c30bf7da9cccdcd269a5f857155b5e",
+      "tamanho": 32010
+    },
+    {
+      "nome": "PARCT_2026_N_00024_CAMATAS_CONTEUDO_SITE_API.json",
+      "sha256": "45608d54018758a19f3afbceb3a3f10e1c1870656f18f9cae5761629819cd3e1",
+      "tamanho": 8129
+    },
+    {
+      "nome": "PARCT_2026_N_00024_CAMATAS_NORMA_V1.json",
+      "sha256": "ea535e30d315433b6d62516906eecdb532f5ccdf753ab3dd5e797f878cc29ade",
+      "tamanho": 3415
+    },
+    {
+      "nome": "PARCT_2026_N_00024_CAMATAS_PAGINA_SITE.html",
+      "sha256": "ebc75322e7cf11225a5eda60d8b8f243780993d5bae1a1b60bc524b82166de1e",
+      "tamanho": 448691
+    },
+    {
+      "nome": "PARCT_2026_N_00024_CAMATAS_PDF_SITE.pdf",
+      "sha256": "3f968077428c22e2ea1e7413d962f16f5dd903fb220529865d8ddd35f90623ad",
+      "tamanho": 143775
+    },
+    {
+      "nome": "PARCT_2026_N_00024_CAMATAS_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "0661edd37d5f1a95318df783710c7abe5796aaf780bab37d196b1bb741be8046",
+      "tamanho": 6731
+    },
+    {
+      "nome": "PARCT_2026_N_00024_CAMATAS_TEXTO_FONTE_V1.txt",
+      "sha256": "be69e267d57080ede1e4fbef40a4100683e0a46dc1666872d09bbfb31850dbcc",
+      "tamanho": 6278
+    },
+    {
+      "nome": "PARCT_2026_N_00024_CAMATAS_VALIDACAO_V1.json",
+      "sha256": "553380bb14b00b1f09848bd858a46ee8f48c9886c850a0388c75172931da32cb",
+      "tamanho": 7984
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência."
+  ]
+}

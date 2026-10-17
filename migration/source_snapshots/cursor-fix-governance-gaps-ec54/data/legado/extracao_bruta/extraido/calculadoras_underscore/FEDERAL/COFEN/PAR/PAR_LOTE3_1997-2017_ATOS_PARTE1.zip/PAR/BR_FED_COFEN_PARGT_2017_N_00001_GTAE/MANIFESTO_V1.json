@@ -1,0 +1,51 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-gtae-no-0012017/ (API WordPress post 51036); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARGT_2017_N_00001_GTAE_ATOMOS_V1.jsonl",
+      "sha256": "3762d85207c96eed3ff56406354ff469d4c612893fc588d2651b37a19552997a",
+      "tamanho": 18325
+    },
+    {
+      "nome": "PARGT_2017_N_00001_GTAE_CONTEUDO_SITE_API.json",
+      "sha256": "3be349a5b8bbb3b90210a94553fafbd9bca56fdb863596666474a6e33b49870a",
+      "tamanho": 4007
+    },
+    {
+      "nome": "PARGT_2017_N_00001_GTAE_NORMA_V1.json",
+      "sha256": "47834d67f90c1274095c1894e39699b8cf19969a21efb972a641279ede1cba30",
+      "tamanho": 3377
+    },
+    {
+      "nome": "PARGT_2017_N_00001_GTAE_PAGINA_SITE.html",
+      "sha256": "a513d402ae84425db73d2431aa5220d3de4b996dae3478941e999fb9d5c59891",
+      "tamanho": 441835
+    },
+    {
+      "nome": "PARGT_2017_N_00001_GTAE_PDF_SITE.pdf",
+      "sha256": "9a97cf8604f8c28426ebbf729228801911772e6130d992d80cf7d6880b328cad",
+      "tamanho": 249524
+    },
+    {
+      "nome": "PARGT_2017_N_00001_GTAE_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "6af4d8caca22d1462689c63ee41ba89f83517d0bb07b4c84679468d6f4041e02",
+      "tamanho": 3224
+    },
+    {
+      "nome": "PARGT_2017_N_00001_GTAE_TEXTO_FONTE_V1.txt",
+      "sha256": "2cf3b8455b58aa69a976705a6c5dfdb0e859d6092cdabca74a1070fff0168e40",
+      "tamanho": 3227
+    },
+    {
+      "nome": "PARGT_2017_N_00001_GTAE_VALIDACAO_V1.json",
+      "sha256": "addfca77374d07e9c9b305cffdf076134b76cf0941cfb7a6bc6eb9587fb988ac",
+      "tamanho": 6419
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 dispositivo(s) do site divergente(s) ou ausente(s) no PDF."
+  ]
+}

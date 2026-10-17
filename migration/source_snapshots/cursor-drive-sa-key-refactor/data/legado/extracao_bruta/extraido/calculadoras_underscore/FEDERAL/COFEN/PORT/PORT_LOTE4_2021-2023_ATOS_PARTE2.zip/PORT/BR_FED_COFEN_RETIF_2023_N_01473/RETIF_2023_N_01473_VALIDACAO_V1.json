@@ -1,0 +1,134 @@
+{
+  "identificador": "BR_FED_COFEN_RETIF_2023_N_01473",
+  "resultado_processo": "PENDENTE",
+  "rotulo": "Pendente de verificação",
+  "controles": [
+    {
+      "nome": "Identificação do ato e emissor",
+      "resultado": "PASS_COM_RESSALVA",
+      "evidencia": "Retificação da Portaria Cofen nº 1473/2023 – Comissão Eleitoral do Cofen"
+    },
+    {
+      "nome": "Conferência site HTML × PDF oficial, dispositivo a dispositivo",
+      "resultado": "FAIL",
+      "status": "EXECUTADA_TEXTO_PDF_CONTRA_FAC_SIMILE_DOU",
+      "evidencia": {
+        "dispositivos_comparados": 4,
+        "por_resultado": {
+          "AUSENTE_NO_PDF": 1,
+          "DIFERENCA_MENOR": 2,
+          "EQUIVALENTE_ORDEM_OU_QUEBRA_DIFERENTE": 1
+        },
+        "trechos_pdf_ausentes_no_site": 0,
+        "pdf": "RETIF_2023_N_01473_PDF_SITE.pdf"
+      }
+    },
+    {
+      "nome": "Publicação no DOU (registro, sem verificação online)",
+      "resultado": "REGISTRADO",
+      "evidencia": [
+        "05292023103100086"
+      ]
+    },
+    {
+      "nome": "Anexos referenciados presentes e atomizados",
+      "resultado": "NAO_APLICAVEL",
+      "status": "SEM_ANEXO_REFERENCIADO",
+      "referencias": []
+    },
+    {
+      "nome": "Numeração contígua (seções, itens, alíneas)",
+      "resultado": "PASS",
+      "evidencia": null
+    },
+    {
+      "nome": "Conferência humana da literalidade",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Pesquisa de alterações posteriores",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Direitos autorais do texto do ato oficial",
+      "resultado": "PASS",
+      "fundamento": "Lei 9.610/1998, art. 8, IV"
+    }
+  ],
+  "fechamento": {
+    "apto": false,
+    "status": "PENDENCIAS",
+    "justificativa": "Aguardando revisão humana da atomização e pesquisa de atos posteriores. Há achados bloqueantes adicionais."
+  },
+  "achados": [
+    {
+      "codigo": "C001",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Atomização automática; requer conferência humana da segmentação e da literalidade."
+    },
+    {
+      "codigo": "C002",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada."
+    },
+    {
+      "codigo": "C011",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "1 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+      "evidencia": [
+        {
+          "identificador": "BR_FED_COFEN_RETIF_2023_N_01473_LOCAL_DATA_001",
+          "resultado": "AUSENTE_NO_PDF",
+          "similaridade": 78.8,
+          "trecho": "Brasília-DF, 30 de outubro de 2023"
+        }
+      ]
+    },
+    {
+      "codigo": "C052",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+      "evidencia": [
+        "RETIF_2023_N_01473_PDF_SITE.pdf"
+      ]
+    },
+    {
+      "codigo": "C041",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "TIPO: retificação de Portaria (ato acessório)."
+    }
+  ],
+  "conferencia_por_dispositivo": [
+    {
+      "identificador": "BR_FED_COFEN_RETIF_2023_N_01473_EPIGRAFE_001",
+      "tipo": "epigrafe",
+      "resultado": "DIFERENCA_MENOR",
+      "similaridade": 67.1
+    },
+    {
+      "identificador": "BR_FED_COFEN_RETIF_2023_N_01473_PREAMBULO_001",
+      "tipo": "preambulo",
+      "resultado": "EQUIVALENTE_ORDEM_OU_QUEBRA_DIFERENTE",
+      "similaridade": 88.1
+    },
+    {
+      "identificador": "BR_FED_COFEN_RETIF_2023_N_01473_LOCAL_DATA_001",
+      "tipo": "local_data",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 78.8
+    },
+    {
+      "identificador": "BR_FED_COFEN_RETIF_2023_N_01473_ASSINATURA_001",
+      "tipo": "assinatura",
+      "resultado": "DIFERENCA_MENOR",
+      "similaridade": 62.5
+    }
+  ],
+  "data_verificacao": "2026-10-10",
+  "responsavel": "Triagem automatizada - requer validação humana"
+}

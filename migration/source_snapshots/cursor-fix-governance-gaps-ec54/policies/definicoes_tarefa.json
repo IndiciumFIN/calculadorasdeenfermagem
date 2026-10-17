@@ -1,0 +1,452 @@
+{
+  "versao": "1.0.0",
+  "regra": "A definição é o procedimento homologado. A Work Order pede permissão para executá-lo e não o reescreve. Qualificação, autorização e resultado da execução são registros distintos.",
+  "definicoes": {
+    "TAREFA-OBTER": {
+      "id": "TAREFA-OBTER",
+      "versao": "1.0.0",
+      "qualificacao": "QUALIFICADA",
+      "procedimento": "obter",
+      "sha256_entrada": "proibido",
+      "exige_checker": false,
+      "validadores": [
+        "VAL-WO-ESTRUTURA",
+        "VAL-DEFINICAO",
+        "VAL-CAMINHO",
+        "VAL-CLASSE",
+        "VAL-SHA-ENTRADA",
+        "VAL-HTML"
+      ],
+      "erros": [
+        "WO_AUSENTE",
+        "SHA_DECLARADO",
+        "HTML",
+        "HTTP"
+      ]
+    },
+    "TAREFA-ATOMIZAR": {
+      "id": "TAREFA-ATOMIZAR",
+      "versao": "1.0.0",
+      "qualificacao": "QUALIFICADA",
+      "procedimento": "atomizar",
+      "sha256_entrada": "obrigatorio",
+      "exige_checker": false,
+      "validadores": [
+        "VAL-WO-ESTRUTURA",
+        "VAL-DEFINICAO",
+        "VAL-CAMINHO",
+        "VAL-CLASSE",
+        "VAL-SHA-ENTRADA",
+        "VAL-HASH-ARQUIVO",
+        "VAL-CLASSE-ATOMO"
+      ],
+      "erros": [
+        "SHA_DIVERGENTE",
+        "ATO_SEM_EXTRATOR",
+        "ARQUIVO_AUSENTE"
+      ]
+    },
+    "TAREFA-VALIDAR": {
+      "id": "TAREFA-VALIDAR",
+      "versao": "1.0.0",
+      "qualificacao": "QUALIFICADA",
+      "procedimento": "validar",
+      "sha256_entrada": "obrigatorio",
+      "exige_checker": true,
+      "validadores": [
+        "VAL-WO-ESTRUTURA",
+        "VAL-DEFINICAO",
+        "VAL-CAMINHO",
+        "VAL-CLASSE",
+        "VAL-SHA-ENTRADA",
+        "VAL-CHECKER-TEXTUAL",
+        "VAL-HASH-ARQUIVO",
+        "VAL-CLASSE-ATOMO"
+      ],
+      "erros": [
+        "CHECKER_IGUAL",
+        "SEM_MANIFESTO",
+        "SHA_DIVERGENTE",
+        "RESULTADO_INESPERADO"
+      ]
+    },
+    "TAREFA-RETIRAR": {
+      "id": "TAREFA-RETIRAR",
+      "versao": "1.0.0",
+      "qualificacao": "QUALIFICADA",
+      "procedimento": "retirar",
+      "sha256_entrada": "obrigatorio",
+      "exige_checker": true,
+      "validadores": [
+        "VAL-WO-ESTRUTURA",
+        "VAL-DEFINICAO",
+        "VAL-CAMINHO",
+        "VAL-CLASSE",
+        "VAL-SHA-ENTRADA",
+        "VAL-CHECKER-TEXTUAL",
+        "VAL-HASH-ARQUIVO",
+        "VAL-PARECER"
+      ],
+      "erros": [
+        "SEM_PARECER",
+        "SEM_PASS",
+        "SHA_DIVERGENTE"
+      ]
+    },
+    "TAREFA-T01": {
+      "id": "TAREFA-T01",
+      "versao": "0.0.0",
+      "qualificacao": "NAO_QUALIFICADA",
+      "procedimento": "ingest",
+      "motivo": "Comando existente em packages.cli.main. Sem definição homologada: o comando ainda corre fora do kernel."
+    },
+    "TAREFA-T02": {
+      "id": "TAREFA-T02",
+      "versao": "0.0.0",
+      "qualificacao": "NAO_QUALIFICADA",
+      "procedimento": "process",
+      "motivo": "O processador corta texto e não está ligado a esta definição."
+    },
+    "TAREFA-T03": {
+      "id": "TAREFA-T03",
+      "versao": "0.0.0",
+      "qualificacao": "NAO_QUALIFICADA",
+      "procedimento": "validate",
+      "motivo": "A validação de invariantes existe e não está registrada como procedimento deste kernel."
+    },
+    "TAREFA-T04": {
+      "id": "TAREFA-T04",
+      "versao": "0.0.0",
+      "qualificacao": "NAO_QUALIFICADA",
+      "procedimento": "pipeline",
+      "motivo": "O pipeline corre sem Work Order."
+    },
+    "TAREFA-T07": {
+      "id": "TAREFA-T07",
+      "versao": "0.0.0",
+      "qualificacao": "NAO_QUALIFICADA",
+      "procedimento": "set-status",
+      "motivo": "registry.py altera status sem Work Order. A máquina dele não é a de docs/REGISTRY.md. O kernel não executa esta transição."
+    },
+    "TAREFA-LLM-RUN": {
+      "id": "TAREFA-LLM-RUN",
+      "versao": "0.0.0",
+      "qualificacao": "NAO_QUALIFICADA",
+      "procedimento": "llm_runner",
+      "motivo": "O contrato de Work Order do modelo está em contracts/work_order.schema.json e não foi unificado a esta definição."
+    },
+    "TAREFA-FIND-REGISTRAR": {
+      "id": "TAREFA-FIND-REGISTRAR",
+      "versao": "1.0.0",
+      "qualificacao": "QUALIFICADA",
+      "procedimento": "registrar-find",
+      "sha256_entrada": "proibido",
+      "entradas_minimas": 0,
+      "exige_checker": false,
+      "exige_agente": true,
+      "parametros_obrigatorios": [
+        "codigo",
+        "objeto",
+        "severidade",
+        "descricao",
+        "impacto",
+        "quando"
+      ],
+      "validadores": [
+        "VAL-WO-ESTRUTURA",
+        "VAL-DEFINICAO",
+        "VAL-FIND-CAMPOS",
+        "VAL-FIND-SEVERIDADE",
+        "VAL-FIND-DEDUP",
+        "VAL-FIND-HISTORICO"
+      ],
+      "erros": [
+        "SEVERIDADE",
+        "CAMPO_CURTO"
+      ]
+    },
+    "TAREFA-FIND-VINCULAR": {
+      "id": "TAREFA-FIND-VINCULAR",
+      "versao": "1.0.0",
+      "qualificacao": "QUALIFICADA",
+      "procedimento": "vincular-find",
+      "sha256_entrada": "proibido",
+      "entradas_minimas": 0,
+      "exige_checker": false,
+      "parametros_obrigatorios": [
+        "find_id",
+        "work_order_ref",
+        "run_caminho",
+        "quando"
+      ],
+      "validadores": [
+        "VAL-WO-ESTRUTURA",
+        "VAL-DEFINICAO",
+        "VAL-FIND-CAMPOS",
+        "VAL-FIND-HISTORICO"
+      ],
+      "erros": [
+        "FIND_AUSENTE",
+        "FIND_FECHADO"
+      ]
+    },
+    "TAREFA-FIND-ENCERRAR": {
+      "id": "TAREFA-FIND-ENCERRAR",
+      "versao": "1.0.0",
+      "qualificacao": "QUALIFICADA",
+      "procedimento": "encerrar-find",
+      "sha256_entrada": "proibido",
+      "entradas_minimas": 0,
+      "exige_checker": true,
+      "parametros_obrigatorios": [
+        "find_id",
+        "evidencia_caminho",
+        "evidencia_sha256",
+        "quando"
+      ],
+      "validadores": [
+        "VAL-WO-ESTRUTURA",
+        "VAL-DEFINICAO",
+        "VAL-CHECKER-TEXTUAL",
+        "VAL-FIND-CAMPOS",
+        "VAL-FIND-EVIDENCIA",
+        "VAL-HASH-ARQUIVO"
+      ],
+      "erros": [
+        "SEM_PASS",
+        "SHA_DIVERGENTE",
+        "CHECKER_IGUAL"
+      ]
+    },
+    "TAREFA-FIND-ANALISAR": {
+      "id": "TAREFA-FIND-ANALISAR",
+      "versao": "1.0.0",
+      "qualificacao": "QUALIFICADA",
+      "procedimento": "analisar-find",
+      "sha256_entrada": "proibido",
+      "entradas_minimas": 0,
+      "exige_checker": false,
+      "exige_agente": true,
+      "parametros_obrigatorios": [
+        "find_id",
+        "analise",
+        "quando"
+      ],
+      "validadores": [
+        "VAL-WO-ESTRUTURA",
+        "VAL-DEFINICAO",
+        "VAL-FIND-CAMPOS",
+        "VAL-FIND-AGENTE",
+        "VAL-FIND-HISTORICO"
+      ],
+      "erros": [
+        "MESMO_AGENTE",
+        "FIND_FECHADO"
+      ]
+    },
+    "TAREFA-FIND-CORRIGIR": {
+      "id": "TAREFA-FIND-CORRIGIR",
+      "versao": "1.0.0",
+      "qualificacao": "QUALIFICADA",
+      "procedimento": "corrigir-find",
+      "sha256_entrada": "proibido",
+      "entradas_minimas": 0,
+      "exige_checker": false,
+      "exige_agente": true,
+      "parametros_obrigatorios": [
+        "find_id",
+        "correcao_caminho",
+        "correcao_sha256",
+        "quando"
+      ],
+      "validadores": [
+        "VAL-WO-ESTRUTURA",
+        "VAL-DEFINICAO",
+        "VAL-FIND-CAMPOS",
+        "VAL-FIND-AGENTE",
+        "VAL-FIND-EVIDENCIA",
+        "VAL-HASH-ARQUIVO",
+        "VAL-FIND-HISTORICO"
+      ],
+      "erros": [
+        "MESMO_AGENTE",
+        "SEM_ANALISE",
+        "SHA_DIVERGENTE"
+      ]
+    },
+    "TAREFA-AUDITAR-INVENTARIO": {
+      "id": "TAREFA-AUDITAR-INVENTARIO",
+      "versao": "1.0.0",
+      "qualificacao": "QUALIFICADA",
+      "procedimento": "auditar-inventario",
+      "sha256_entrada": "obrigatorio",
+      "entradas_minimas": 1,
+      "exige_checker": true,
+      "validadores": [
+        "VAL-WO-ESTRUTURA",
+        "VAL-DEFINICAO",
+        "VAL-CAMINHO",
+        "VAL-CLASSE",
+        "VAL-SHA-ENTRADA",
+        "VAL-HASH-ARQUIVO",
+        "VAL-INVENTARIO-RAIZES",
+        "VAL-INVENTARIO-COMPLETUDE"
+      ],
+      "erros": [
+        "INVENTARIO_AUSENTE",
+        "HASH_DIVERGENTE",
+        "RAIZES_INVALIDAS",
+        "INVENTARIO_PARCIAL",
+        "DUPLICATA_POTENCIAL"
+      ],
+      "restricoes": [
+        "SOMENTE_LEITURA_FONTE",
+        "SEM_DEDUP_AUTOMATICA",
+        "SEM_EXCLUSAO",
+        "SEM_PUBLICACAO"
+      ]
+    },
+    "TAREFA-AUDITAR-ZIP": {
+      "id": "TAREFA-AUDITAR-ZIP",
+      "versao": "1.0.0",
+      "qualificacao": "QUALIFICADA",
+      "procedimento": "auditar-zip",
+      "sha256_entrada": "obrigatorio",
+      "entradas_minimas": 1,
+      "exige_checker": true,
+      "validadores": [
+        "VAL-WO-ESTRUTURA",
+        "VAL-DEFINICAO",
+        "VAL-CAMINHO",
+        "VAL-CLASSE",
+        "VAL-SHA-ENTRADA",
+        "VAL-HASH-ARQUIVO",
+        "VAL-ZIP-ESTRUTURA",
+        "VAL-ZIP-RISCOS"
+      ],
+      "erros": [
+        "HASH_DIVERGENTE",
+        "ZIP_INVALIDO",
+        "MEMBRO_INSEGURO",
+        "ZIP_BOMB",
+        "ARQUIVO_AUSENTE"
+      ],
+      "restricoes": [
+        "SOMENTE_LEITURA_FONTE",
+        "SEM_EXTRACAO_EM_DISCO",
+        "SEM_DEDUP_AUTOMATICA",
+        "SEM_EXCLUSAO",
+        "SEM_PUBLICACAO"
+      ]
+    },
+    "TAREFA-IMPORTAR-DRIVE": {
+      "id": "TAREFA-IMPORTAR-DRIVE",
+      "versao": "1.0.0",
+      "qualificacao": "QUALIFICADA",
+      "procedimento": "importar-drive",
+      "sha256_entrada": "obrigatorio",
+      "entradas_minimas": 1,
+      "exige_checker": false,
+      "parametros_obrigatorios": [
+        "source_mount",
+        "source_provider"
+      ],
+      "validadores": [
+        "VAL-WO-ESTRUTURA",
+        "VAL-DEFINICAO",
+        "VAL-CAMINHO",
+        "VAL-CLASSE",
+        "VAL-SHA-ENTRADA",
+        "VAL-ORIGEM-MONTADA",
+        "VAL-HASH-ARQUIVO"
+      ],
+      "erros": [
+        "SEM_WO",
+        "FONTE_AUSENTE",
+        "MONTAGEM_INSEGURA",
+        "SHA_DIVERGENTE",
+        "DESTINO_DIVERGENTE"
+      ],
+      "restricoes": [
+        "SOMENTE_ESTAGIO_PRIVADO",
+        "SEM_EXCLUSAO_DA_ORIGEM",
+        "SEM_PUBLICACAO",
+        "SEM_COMMIT_DE_BINARIO"
+      ]
+    },
+    "TAREFA-RECONSTRUIR-PARTES": {
+      "id": "TAREFA-RECONSTRUIR-PARTES",
+      "versao": "1.0.0",
+      "qualificacao": "QUALIFICADA",
+      "procedimento": "reconstituir-partes",
+      "sha256_entrada": "obrigatorio",
+      "entradas_minimas": 3,
+      "exige_checker": true,
+      "parametros_obrigatorios": [
+        "output_path"
+      ],
+      "validadores": [
+        "VAL-WO-ESTRUTURA",
+        "VAL-DEFINICAO",
+        "VAL-CAMINHO",
+        "VAL-CLASSE",
+        "VAL-SHA-ENTRADA",
+        "VAL-HASH-ARQUIVO",
+        "VAL-PARTES-MANIFEST",
+        "VAL-PARTES-ROUNDTRIP"
+      ],
+      "erros": [
+        "PARTES_DIVERGENTES",
+        "ORDEM_INVALIDA",
+        "SHA_TOTAL_DIVERGENTE",
+        "MANIFESTO_INVALIDO"
+      ],
+      "restricoes": [
+        "SOMENTE_ESTAGIO_PRIVADO",
+        "SEM_EXTRACAO",
+        "SEM_EXECUCAO",
+        "SEM_PUBLICACAO",
+        "SEM_EXCLUSAO"
+      ]
+    },
+    "TAREFA-MOVER-DRIVE": {
+      "id": "TAREFA-MOVER-DRIVE",
+      "versao": "1.0.0",
+      "qualificacao": "QUALIFICADA",
+      "procedimento": "mover-drive",
+      "sha256_entrada": "obrigatorio",
+      "entradas_minimas": 1,
+      "exige_checker": true,
+      "parametros_obrigatorios": [
+        "source_parent_id",
+        "target_parent_id",
+        "file_type",
+        "expected_title",
+        "expected_mime",
+        "expected_bytes"
+      ],
+      "validadores": [
+        "VAL-WO-ESTRUTURA",
+        "VAL-DEFINICAO",
+        "VAL-CAMINHO",
+        "VAL-CLASSE",
+        "VAL-SHA-ENTRADA",
+        "VAL-HASH-ARQUIVO",
+        "VAL-DRIVE-MOVE-PARENT",
+        "VAL-DRIVE-MOVE-READBACK"
+      ],
+      "erros": [
+        "HASH_DIVERGENTE",
+        "DRIVE_PARENT_DIVERGENTE",
+        "MIME_DIVERGENTE",
+        "READBACK_AUSENTE"
+      ],
+      "restricoes": [
+        "MOVER_SEM_COPIAR",
+        "MANTER_FILE_ID",
+        "SEM_EXCLUSAO",
+        "ROLLBACK_PARENTS"
+      ]
+    }
+  }
+}

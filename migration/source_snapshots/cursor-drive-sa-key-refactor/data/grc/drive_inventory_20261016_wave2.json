@@ -1,0 +1,4523 @@
+{
+  "audit_date": "2026-10-16",
+  "mode": "metadata_only_no_delete",
+  "scope": "four_registered_roots_direct_children",
+  "acquisition": {
+    "provider": "Google Drive",
+    "method": "list_folder",
+    "top_k": 1000,
+    "filter": "direct children",
+    "hash_of_remote_bytes": "NOT_AVAILABLE"
+  },
+  "conclusion": "partial; nested folder recursion pending",
+  "roots": [
+    {
+      "label": "CE_MASTER",
+      "id": "1FDBAMQ3-WT-8l6xU0664u7QjABd0FbEH",
+      "scanned": 3,
+      "files": 1,
+      "folders": 2,
+      "may_be_partial": false,
+      "duplicate_candidate_names": [],
+      "duplicate_candidate_groups": [],
+      "zip_candidates": [],
+      "subfolders": [
+        {
+          "id": "16V5vILqgBLnKKuLSu9cYvKN_DN88ui5I",
+          "name": "NORMATIVOS"
+        },
+        {
+          "id": "1XKNmVvGJDfg3HVsDdXRnvUyGsz6Ib5Iq",
+          "name": "FEDERAL"
+        }
+      ],
+      "items": [
+        {
+          "id": "1vi129pgXWMZPFddxlMd5YemMEohumxqk714yCoGCVOg",
+          "name": "CORPUS & KNOWLEDGE PMO — Calculadoras de Enfermagem",
+          "mime_type": "application/vnd.google-apps.spreadsheet",
+          "size_bytes": 248385,
+          "kind": "file",
+          "modified_time": "2026-10-14T22:15:01.628Z"
+        },
+        {
+          "id": "16V5vILqgBLnKKuLSu9cYvKN_DN88ui5I",
+          "name": "NORMATIVOS",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-10-10T19:27:14.700Z"
+        },
+        {
+          "id": "1XKNmVvGJDfg3HVsDdXRnvUyGsz6Ib5Iq",
+          "name": "FEDERAL",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-10-10T18:00:56.674Z"
+        }
+      ]
+    },
+    {
+      "label": "ESTEIRA",
+      "id": "1xhNiG35r_1_Cb211b3oz5IvcCE_Ql0K7",
+      "scanned": 26,
+      "files": 25,
+      "folders": 1,
+      "may_be_partial": false,
+      "duplicate_candidate_names": [
+        "CRUZAMENTO_ATOS_DRIVE_20261014_1341.csv"
+      ],
+      "duplicate_candidate_groups": [
+        {
+          "name": "CRUZAMENTO_ATOS_DRIVE_20261014_1341.csv",
+          "size_bytes": 465696,
+          "ids": [
+            "16EINv75PwcmxThdB_akdoUju5GkDBeoB",
+            "1X9LFDknuW5rjH7p0-MgzL05sgaOTSw4i"
+          ]
+        }
+      ],
+      "zip_candidates": [
+        {
+          "id": "1dm2BhCOBn0BjRwySVW-_wKD2wm2q-zVC",
+          "name": "STAGING_AGENTES_2_esteira-lotes-staging.zip",
+          "size_bytes": 62335586
+        },
+        {
+          "id": "1C0cCyE26UlYUDeXJ2d2Fo8M4mnsMHfOV",
+          "name": "STAGING_AGENTES_1_esteira-agentes.zip",
+          "size_bytes": 49175085
+        },
+        {
+          "id": "1e_gD9C-61NwpGK0FrYWQMBivVwZbF_Q9",
+          "name": "PIPELINE_STAGE.zip",
+          "size_bytes": 69425822
+        },
+        {
+          "id": "138rkC77GZCK5f2pFC0slbiVtMs7shJ5m",
+          "name": "REGISTROS_KERNEL.zip",
+          "size_bytes": 11270120
+        },
+        {
+          "id": "1Nmh-EbIyHT-UjH6bKrC_QAEDiGrhp_3d",
+          "name": "CODIGO_TRABALHO.zip",
+          "size_bytes": 578191
+        },
+        {
+          "id": "1FTupZkoW1SEUo2VrevcTZRna8ydltLWP",
+          "name": "KANBAN.zip",
+          "size_bytes": 422224
+        },
+        {
+          "id": "1WiBOeUY9KitXEcC1AnrbpeRQgyL4SWdw",
+          "name": "EDUCACAO.zip",
+          "size_bytes": 136056
+        }
+      ],
+      "subfolders": [
+        {
+          "id": "1DxO1VhPCx3UihT6oUCDX3ov2iLW8PJmt",
+          "name": "KANBAN"
+        }
+      ],
+      "items": [
+        {
+          "id": "1i-72bX6BZ1KE7G3wWa6Sxev-Gr-2AOX8",
+          "name": "DUPLICATAS_20261014_1341.csv",
+          "mime_type": "text/csv",
+          "size_bytes": 215887,
+          "kind": "file",
+          "modified_time": "2026-10-14T16:42:39.296Z"
+        },
+        {
+          "id": "16EINv75PwcmxThdB_akdoUju5GkDBeoB",
+          "name": "CRUZAMENTO_ATOS_DRIVE_20261014_1341.csv",
+          "mime_type": "text/csv",
+          "size_bytes": 465696,
+          "kind": "file",
+          "modified_time": "2026-10-14T16:42:38.915Z"
+        },
+        {
+          "id": "1PcS2NSmNnzizDqFrbNCuWOrECsbF1e24",
+          "name": "INVENTARIO_DRIVE_20261014_1341.csv",
+          "mime_type": "text/csv",
+          "size_bytes": 16145594,
+          "kind": "file",
+          "modified_time": "2026-10-14T16:42:12.399Z"
+        },
+        {
+          "id": "1HBS1XHh4gq0vjmJMTLEasA_0LPvaYvg-",
+          "name": "PASTAS_FORA_CONVENCAO_20261014_1341.csv",
+          "mime_type": "text/csv",
+          "size_bytes": 8765,
+          "kind": "file",
+          "modified_time": "2026-10-14T16:42:12.394Z"
+        },
+        {
+          "id": "12RkEtoKdWLun7RGSpuTu-DaoxRhHbrTW",
+          "name": "ITENS_PUBLICOS_20261014_1341.csv",
+          "mime_type": "text/csv",
+          "size_bytes": 859057,
+          "kind": "file",
+          "modified_time": "2026-10-14T16:42:12.338Z"
+        },
+        {
+          "id": "1X9LFDknuW5rjH7p0-MgzL05sgaOTSw4i",
+          "name": "CRUZAMENTO_ATOS_DRIVE_20261014_1341.csv",
+          "mime_type": "text/csv",
+          "size_bytes": 465696,
+          "kind": "file",
+          "modified_time": "2026-10-14T16:42:10.592Z"
+        },
+        {
+          "id": "1XCNCXsDx-psoYTOjPRAGkIaegL7A7BdJ",
+          "name": "RESUMO_20261014_1341.md",
+          "mime_type": "text/markdown",
+          "size_bytes": 7883,
+          "kind": "file",
+          "modified_time": "2026-10-14T16:42:10.464Z"
+        },
+        {
+          "id": "1FTSS4azGv6PrvE9cMpwG_xcoVG05XFFW",
+          "name": "REGISTRO_AUTORIA_20261014_1332.csv",
+          "mime_type": "text/csv",
+          "size_bytes": 14572355,
+          "kind": "file",
+          "modified_time": "2026-10-14T16:32:39.595Z"
+        },
+        {
+          "id": "1vEW4cdCq3yOHjGYW_vciIzoT5myifcDk",
+          "name": "PROPOSTA_EMENDA_AUTORIA_OBRIGATORIA.md",
+          "mime_type": "text/markdown",
+          "size_bytes": 2088,
+          "kind": "file",
+          "modified_time": "2026-10-14T16:32:38.594Z"
+        },
+        {
+          "id": "1hRd13jkdfuvMr6r9Ofbt2sBCp-7BvF-i",
+          "name": "RESUMO_AUTORIA_20261014_1332.md",
+          "mime_type": "text/markdown",
+          "size_bytes": 42568,
+          "kind": "file",
+          "modified_time": "2026-10-14T16:32:38.369Z"
+        },
+        {
+          "id": "11LhsZRnI_L9jILumgw3ivMJmApLrhIK0",
+          "name": "INVENTARIO_DOWNLOADS_20261014_1310.csv",
+          "mime_type": "text/csv",
+          "size_bytes": 1306439,
+          "kind": "file",
+          "modified_time": "2026-10-14T16:10:41.982Z"
+        },
+        {
+          "id": "1MoUZsQic_faKoflR84LzK42b9Sy_I8WB",
+          "name": "INVENTARIO_DOWNLOADS_20261014_1310_RESUMO.md",
+          "mime_type": "text/markdown",
+          "size_bytes": 5457,
+          "kind": "file",
+          "modified_time": "2026-10-14T16:10:41.913Z"
+        },
+        {
+          "id": "1nwJcysG9sO5KxjKERfjhXTEgvmZzgd27",
+          "name": "MANIFESTO_BACKUP.json",
+          "mime_type": "application/json",
+          "size_bytes": 12140615,
+          "kind": "file",
+          "modified_time": "2026-10-10T20:20:26.168Z"
+        },
+        {
+          "id": "1OYcdAlH6cF0XLo2eHCJs9X4lW-NPVOMNqq3kMlCzQmw",
+          "name": "HANDOFF_SEQUENCIA_ESTEIRA_COFEN",
+          "mime_type": "application/vnd.google-apps.document",
+          "size_bytes": 20469,
+          "kind": "file",
+          "modified_time": "2026-10-10T20:20:25.690Z"
+        },
+        {
+          "id": "1WtZnWKhP85V9Fq77UlenokxnlBTVvFEN",
+          "name": "HANDOFF_SEQUENCIA_ESTEIRA_COFEN.md",
+          "mime_type": "text/markdown",
+          "size_bytes": 44436,
+          "kind": "file",
+          "modified_time": "2026-10-10T20:20:23.207Z"
+        },
+        {
+          "id": "1dm2BhCOBn0BjRwySVW-_wKD2wm2q-zVC",
+          "name": "STAGING_AGENTES_2_esteira-lotes-staging.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 62335586,
+          "kind": "file",
+          "modified_time": "2026-10-10T20:20:18.594Z"
+        },
+        {
+          "id": "1C0cCyE26UlYUDeXJ2d2Fo8M4mnsMHfOV",
+          "name": "STAGING_AGENTES_1_esteira-agentes.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 49175085,
+          "kind": "file",
+          "modified_time": "2026-10-10T20:20:12.653Z"
+        },
+        {
+          "id": "1rEo1XEGUQ3dlQY2OTn76SkW63fRHgL5E",
+          "name": "HANDOFF_SEQUENCIA_ESTEIRA_COFEN_SUPERADO_pre-divisao.md",
+          "mime_type": "text/markdown",
+          "size_bytes": 44182,
+          "kind": "file",
+          "modified_time": "2026-10-10T20:20:08.419Z"
+        },
+        {
+          "id": "1XqZ_BiT_90z_kZC-8v0cB9vVKl1B22Z3",
+          "name": "MANIFESTO_BACKUP_SUPERADO_pre-divisao.json",
+          "mime_type": "application/json",
+          "size_bytes": 12038464,
+          "kind": "file",
+          "modified_time": "2026-10-10T20:20:08.397Z"
+        },
+        {
+          "id": "1e_gD9C-61NwpGK0FrYWQMBivVwZbF_Q9",
+          "name": "PIPELINE_STAGE.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 69425822,
+          "kind": "file",
+          "modified_time": "2026-10-10T20:19:39.577Z"
+        },
+        {
+          "id": "138rkC77GZCK5f2pFC0slbiVtMs7shJ5m",
+          "name": "REGISTROS_KERNEL.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 11270120,
+          "kind": "file",
+          "modified_time": "2026-10-10T20:19:38.608Z"
+        },
+        {
+          "id": "1LgwOG4N2PgqSeeUFMmh3vXgjBOsKLhW6",
+          "name": "STATUS_COLUNAS.html",
+          "mime_type": "text/html",
+          "size_bytes": 10531,
+          "kind": "file",
+          "modified_time": "2026-10-10T20:19:34.326Z"
+        },
+        {
+          "id": "1Nmh-EbIyHT-UjH6bKrC_QAEDiGrhp_3d",
+          "name": "CODIGO_TRABALHO.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 578191,
+          "kind": "file",
+          "modified_time": "2026-10-10T20:19:34.282Z"
+        },
+        {
+          "id": "1FTupZkoW1SEUo2VrevcTZRna8ydltLWP",
+          "name": "KANBAN.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 422224,
+          "kind": "file",
+          "modified_time": "2026-10-10T20:19:34.161Z"
+        },
+        {
+          "id": "1WiBOeUY9KitXEcC1AnrbpeRQgyL4SWdw",
+          "name": "EDUCACAO.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 136056,
+          "kind": "file",
+          "modified_time": "2026-10-10T20:19:33.652Z"
+        },
+        {
+          "id": "1DxO1VhPCx3UihT6oUCDX3ov2iLW8PJmt",
+          "name": "KANBAN",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-10-10T20:17:55.831Z"
+        }
+      ]
+    },
+    {
+      "label": "GROK",
+      "id": "1l519_P-9o6bnQcItydKvEEDpEYeE8R8s",
+      "scanned": 1,
+      "files": 0,
+      "folders": 1,
+      "may_be_partial": false,
+      "duplicate_candidate_names": [],
+      "duplicate_candidate_groups": [],
+      "zip_candidates": [],
+      "subfolders": [
+        {
+          "id": "1YctWAPptjz1HUTm0B8HMA31-ScVBXXkU",
+          "name": "revisao"
+        }
+      ],
+      "items": [
+        {
+          "id": "1YctWAPptjz1HUTm0B8HMA31-ScVBXXkU",
+          "name": "revisao",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-10-10T19:46:31.586Z"
+        }
+      ]
+    },
+    {
+      "label": "CE_SITE",
+      "id": "1c9vErI_It3XwzAcAFOnbxw9V0Mn6xfB9",
+      "scanned": 402,
+      "files": 334,
+      "folders": 68,
+      "may_be_partial": false,
+      "duplicate_candidate_names": [],
+      "duplicate_candidate_groups": [],
+      "zip_candidates": [
+        {
+          "id": "1qUS1W9_Vncj-gfxRH4c6dggaQefCiBQw",
+          "name": "CANONICAL_RECONCILIATION_v0_2.zip",
+          "size_bytes": 2850
+        },
+        {
+          "id": "12JndUska2SoLGv_S7xjOIPvsTq1VFFw-",
+          "name": "CANONICAL_CANDIDATE_PILOT_v0_1.zip",
+          "size_bytes": 28324318
+        },
+        {
+          "id": "1apK3oOMvcW3beYZP-pAV7O12FPhpV35q",
+          "name": "backup_final.zip",
+          "size_bytes": 26294501
+        },
+        {
+          "id": "1v0O41umK80gVO7Rh7IFGUU1z6UFewoM-",
+          "name": "Calculadoras_de_Enfermagem_Insulina_Completo_v0.1.0.zip",
+          "size_bytes": 25766524
+        },
+        {
+          "id": "11RsHrvEDi0EvGUVqm6iiaN4OOPU-kQTG",
+          "name": "Calculadoras_de_Enfermagem_Gotejamento_Completo_v0.7.0.zip",
+          "size_bytes": 17485044
+        },
+        {
+          "id": "1lvxyeEyTu0aNVNYifeJQhWqcvpgiJNjq",
+          "name": "CKO_NORMATIVE_F1_ARCH_DATA_GOV_NUMERIC_R88F_V4_EXECUTED_20260911.zip",
+          "size_bytes": 2472854
+        },
+        {
+          "id": "1Kf223iZkqhGI1ZBLGQ1fEXoa2V60uXxq",
+          "name": "Cópia de CKO-CONSOLIDATED-GOVERNED-ECOSYSTEM-v1.1.0-AGENT-PRECISION.zip",
+          "size_bytes": 7603550
+        },
+        {
+          "id": "16HURBHxVwtbmRoa4LjYNFlreyvXZqrq7",
+          "name": "CKO-HANDOFF-CAL-TOOLS-CONSOLIDATION-v1.2.0.zip",
+          "size_bytes": 29705
+        },
+        {
+          "id": "1gEYwyG1-eHiFclIchHNda8HXSl24bV66",
+          "name": "CKO-CAL-TOOLS-NEW-FILES-RECONCILIATION-v0.1.0.zip",
+          "size_bytes": 16823
+        },
+        {
+          "id": "12YgfrSwWGxoPs8jqhKmg1pMOA9KjrjAh",
+          "name": "CKO-LABOR-FERIAS-19J-SOURCE-ACQUISITION-v0.1.0.zip",
+          "size_bytes": 12173
+        },
+        {
+          "id": "1vAJ9T2VsArOla0HH7jOoRGV5vdBcTQW0",
+          "name": "CKO-LABOR-FERIAS-19J-SOURCE-DISCOVERY-v0.1.0.zip",
+          "size_bytes": 10750
+        },
+        {
+          "id": "1o6go8-BNKsRrS37NQ3qr-4Ya0_hILkP0",
+          "name": "CKO-VERTICAL-LINEAGE-GOLDEN-CLOSURE-v0.3.0-FINAL.zip",
+          "size_bytes": 20241
+        },
+        {
+          "id": "1axsjjkYlnTaBPzBp9s8HeJ3e1aZKBgR4",
+          "name": "CKO-PAGE-INSTITUTIONAL-WAVE2-v0.2.0.zip",
+          "size_bytes": 83292
+        },
+        {
+          "id": "1HnNaiYK1eAn_Ff48Vprkrt_eNQ61T9Ri",
+          "name": "CKO-LABOR-19-LOCALE-JURISDICTION-PLAN-v0.1.0.zip",
+          "size_bytes": 8356
+        },
+        {
+          "id": "1b4nULnofmEYl3v1hQy9Nr7Pb8KNZJQtu",
+          "name": "CKO-LABOR-TOOL-UNIVERSE-v0.1.0.zip",
+          "size_bytes": 4739
+        },
+        {
+          "id": "1TOp70WpoxvZN0rbda0rQfmXPVfMOio5u",
+          "name": "CKO-VERTICAL-LINEAGE-GOLDEN-v0.1.0.zip",
+          "size_bytes": 10215
+        },
+        {
+          "id": "1PJCExW7zVGs278QNKgjOj4O8RTsZnxrr",
+          "name": "PEWS-SCL-001-documentation-final-v0.1.0.zip",
+          "size_bytes": 17009
+        },
+        {
+          "id": "152IY4XKp82RcFk7sbCBHaiS3_6rKhcFL",
+          "name": "FLACC-SCL-001-successor-v0.1.0.zip",
+          "size_bytes": 1424257
+        },
+        {
+          "id": "1Kbok400fP5p16Za_gD-9eA8rAzwBp_n4",
+          "name": "CKO-PAGE-INSTITUTIONAL-WAVE1-v0.1.0.zip",
+          "size_bytes": 87616
+        },
+        {
+          "id": "1sptufmXTXOemvHDjj8nItJjkbCJMsiKd",
+          "name": "CRIES-SCL-001-successor-v0.1.0.zip",
+          "size_bytes": 1054675
+        },
+        {
+          "id": "1gtOnAIwJiyoYmT9l0XpYX8Bc5KCkEg7S",
+          "name": "PEWS-SCL-001-successor-v0.1.0.zip",
+          "size_bytes": 1766467
+        },
+        {
+          "id": "1lWMUUxjTZ_xuOQl9O0R0NyV6muEJvbKk",
+          "name": "NIPS-SCL-001-successor-v0.1.0.zip",
+          "size_bytes": 957169
+        },
+        {
+          "id": "1qt9f0UxhMGSahFOgaNxTn8MOwA2hWIO6",
+          "name": "DOWNES-SCL-001-successor-v0.1.0-FINAL.zip",
+          "size_bytes": 866503
+        },
+        {
+          "id": "18LvG6i4_8PaBdz9rzILvLOWpwPt1reT9",
+          "name": "SILVERMAN-SCL-001-successor-v0.1.0.zip",
+          "size_bytes": 1057703
+        },
+        {
+          "id": "1ldcbSJ0LssBkBLEPTPNWGH8JUJdK0fdj",
+          "name": "BALLARD-SCL-001-successor-v0.1.0.zip",
+          "size_bytes": 1339730
+        },
+        {
+          "id": "1JQNsXH4ahsKdCxOB4B5FBfKQQFLTFJ71",
+          "name": "CAPURRO-SCL-001-successor-v0.1.0-r1.zip",
+          "size_bytes": 1284593
+        },
+        {
+          "id": "14voPApC5eutP91Pr763apioORSf0AH8U",
+          "name": "CAPURRO-SCL-001-successor-v0.1.0.zip",
+          "size_bytes": 1283638
+        },
+        {
+          "id": "1G5DFhca04yzCPSGjFSR9bGEJ7VeUQnOk",
+          "name": "APGAR-SCL-001-successor-v0.2.0.zip",
+          "size_bytes": 1090184
+        },
+        {
+          "id": "1VV3e7yyAqH0fPfTHxRQ0yXZbqIOl_9um",
+          "name": "SCL-001-ALDRETE-AUDIT360-20260902-v1.0.0.zip",
+          "size_bytes": 16495
+        },
+        {
+          "id": "1YSkh-x9RfHRshppfcVpChUnInh4hNYfG",
+          "name": "CKO-CALENF-FULL-MATERIALIZED-BACKUP-20260902.zip",
+          "size_bytes": 38322276
+        },
+        {
+          "id": "1Q7uCk_YbrcZ6IRntL9R3GA5MJw8glTLJ",
+          "name": "SCL-001-ALDRETE-technical-closure-20260902.zip",
+          "size_bytes": 367394
+        },
+        {
+          "id": "1GRmpXzz9zRRRe36IUzW12FqlJ87i869a",
+          "name": "AuditAgenticIA-v0.3.0.zip",
+          "size_bytes": 18283
+        },
+        {
+          "id": "1lAE8kf28TGV-rWlPMVCwo3A8YCZVZ-Eo",
+          "name": "AuditAgenticIA-v0.2.0.zip",
+          "size_bytes": 27554
+        },
+        {
+          "id": "1hZfeUguT_QXUatzmzawgyxeHuppkueYu",
+          "name": "AuditAgenticIA-v0.1.0.zip",
+          "size_bytes": 7745
+        },
+        {
+          "id": "1uuEak4IxlG7r8ENZwbfj9QZJIrL3K0j7",
+          "name": "cko-seed-adjustments-20260830.zip",
+          "size_bytes": 11947
+        },
+        {
+          "id": "1SSwgjJmNNNsHbgpjwb4ji3ugtdgoSOFh",
+          "name": "CKO-F1-FOUNDATION-EVIDENCE-TECHNICAL-RECONCILIATION-v1.0.1.zip",
+          "size_bytes": 66362
+        },
+        {
+          "id": "1fs_EbQdsQiiwziyZZ_rcuhZ2yDrOXfWI",
+          "name": "CKO-F1-FOUNDATION-EVIDENCE-TECHNICAL-RECONCILIATION-v1.0.0.zip",
+          "size_bytes": 64655
+        },
+        {
+          "id": "1pRG_7dmsllcp3wzMe5CQmhTW3QrjcvL5",
+          "name": "cko-platform-adjustments-20260830-v2.zip",
+          "size_bytes": 14704
+        },
+        {
+          "id": "1BMO4hODi_EPN2R8Hfw0KChoNg_sSHbOP",
+          "name": "cko-platform-adjustments-20260830.zip",
+          "size_bytes": 11220
+        },
+        {
+          "id": "1DLD8kl8DMq6IzmDf0FQioAULNALDnQN4",
+          "name": "CKO-5-Macrofront-Handoffs-v1.0.0.zip",
+          "size_bytes": 10330
+        },
+        {
+          "id": "1FRbPO67cn7W2fZNRY7xILauKYpuvd6wA",
+          "name": "CKO_DS_CANON_HEALTH_BRANDING_2026-08-30_v0.1.0.zip",
+          "size_bytes": 15946
+        },
+        {
+          "id": "1Nezgag9Q4VmliQzX-AesrkEZDwfrWbyW",
+          "name": "CKO-RUN-FIELD-UNIVERSE-RECONCILIATION-v1.0.0.zip",
+          "size_bytes": 85224
+        },
+        {
+          "id": "1gfPYXnqgkQFyRsOTpHq35ug_4CJ3Vxc6",
+          "name": "CKO-HANDOFF-LIBRARY-CONTENT-SUPABASE-DRIVE-v1.0.0.zip",
+          "size_bytes": 7312
+        },
+        {
+          "id": "1pAeTcnRNL6Lfc19Fp804xbGgvQ9-mJxx",
+          "name": "CKO-Library-Content-Factory-v1.0.0.zip",
+          "size_bytes": 4029998
+        },
+        {
+          "id": "1G2uPLziWS8XcocVyz43iIZdbeafG0RSn",
+          "name": "CKO-Library-Content-Phase-04-v1.0.0.zip",
+          "size_bytes": 2608
+        },
+        {
+          "id": "1ffoRBXYGNQaZ0YbHFffiy4-2RjTAbJJS",
+          "name": "CKO-Library-Content-Phase-03-v1.0.0.zip",
+          "size_bytes": 980228
+        },
+        {
+          "id": "11p_SOfrAQlp2eaBlGgVmEg6_WY_45A1b",
+          "name": "CKO-Library-Content-Phase-02-v1.0.0.zip",
+          "size_bytes": 1078184
+        },
+        {
+          "id": "1OAkBJCuDJxBhmg2x1boW8rX0bewVuRBz",
+          "name": "CKO-Library-Content-Phase-01-v1.0.0.zip",
+          "size_bytes": 1583448
+        },
+        {
+          "id": "1X0RUxWftBqQsvblWZJ7_tAXvzjvZ7gT-",
+          "name": "CKO_REG_FRAMEWORK_EXTRACTION_AGENTS_v1.0.1_PROGRESS.zip",
+          "size_bytes": 7307
+        },
+        {
+          "id": "1WRltl4atrawGa5P2RsmiaRlOrt0dLm_x",
+          "name": "CKO_REG_FRAMEWORK_EXTRACTION_AGENTS_v1.zip",
+          "size_bytes": 4147
+        },
+        {
+          "id": "1AOCnTqUt9izeJxAX4k3XV-QpMx7tgSnX",
+          "name": "CKO-All-Tools-Content-Program-FINAL-CLOSURE-v1.0.0.zip",
+          "size_bytes": 17247165
+        },
+        {
+          "id": "1-0A22UHjRcmscIr4MHVmXcKXGwxy4U54",
+          "name": "CKO-Content-Phase-10-CLOSURE-v1.0.0.zip",
+          "size_bytes": 799340
+        },
+        {
+          "id": "193hEoWXA8xbxl30xApTlinw2S4yVWUAu",
+          "name": "CKO-Content-Phase-09-CLOSURE-v1.0.0.zip",
+          "size_bytes": 2816519
+        },
+        {
+          "id": "1jiu6Paomy7qDuY6M3-WCwFRH1uIap2YJ",
+          "name": "CKO-Content-Phase-08-CLOSURE-v1.0.0.zip",
+          "size_bytes": 2023058
+        },
+        {
+          "id": "1nZN21EfPacBadjeR8r8MMKZ687dvRdHA",
+          "name": "CKO-Content-Phase-07-CLOSURE-v1.0.0.zip",
+          "size_bytes": 1510431
+        },
+        {
+          "id": "1Zhu1KMlAlvTpaOx3P7H3tZTtk1lwcnFe",
+          "name": "CKO-Content-Phase-06-CLOSURE-v1.0.0.zip",
+          "size_bytes": 1933055
+        },
+        {
+          "id": "1dXlc2u-gLP1Ulhs-ytUhfJF9ywyK_LDf",
+          "name": "CKO-Content-Phase-05-CLOSURE-v1.0.0.zip",
+          "size_bytes": 2149009
+        },
+        {
+          "id": "1k2WsxvJvHYWq5wRQ8SFYYEqOgT5snsvS",
+          "name": "CKO-Content-Phase-04-CLOSURE-v1.0.0.zip",
+          "size_bytes": 2143163
+        },
+        {
+          "id": "10k9rU9jtQeK6o2ABYI_bbik-otR-r3Wy",
+          "name": "CKO-Content-Phase-03-CLOSURE-v1.0.0.zip",
+          "size_bytes": 1730212
+        },
+        {
+          "id": "1QgTZcvxuF95QJepxcLA-Ub7QXNKYV8ro",
+          "name": "CKO-Content-Phase-02-Neurology-Consciousness-AVC-CLOSURE-v1.0.0.zip",
+          "size_bytes": 3290489
+        },
+        {
+          "id": "1VonBvsG7lZHnenzvJq8RIPW7Dvq90DPg",
+          "name": "CKO-Content-Phase-01-Clinical-Calculations-CLOSURE-v1.0.0.zip",
+          "size_bytes": 1662321
+        },
+        {
+          "id": "1dADfn5GaagSfUwORAR5u5dMTuPHrmltn",
+          "name": "CKO-Content-Phase-01-Clinical-Calculations-READY-v1.1.0.zip",
+          "size_bytes": 104200
+        },
+        {
+          "id": "1Qd7yhYG2NN00ICjj6JIPqHWbu7M7zidB",
+          "name": "CKO-All-Remaining-Tools-Content-Program-v1.1.0.zip",
+          "size_bytes": 1663069
+        },
+        {
+          "id": "1eEtSH3HIoGoOvzZYTY5nYTyeylTlzGSJ",
+          "name": "CKO-Content-Phase-10-Labor-Calculations-READY-v1.0.0.zip",
+          "size_bytes": 65701
+        },
+        {
+          "id": "1uctFAlaykf6DfjPmXlJOrJoRCjAhl0Tk",
+          "name": "CKO-Content-Phase-09-Simulations-Study-Career-READY-v1.0.0.zip",
+          "size_bytes": 212296
+        },
+        {
+          "id": "1DqdbESeihQASuFBEaU39nZ29Exk3rQbE",
+          "name": "CKO-Content-Phase-08-Occupational-Psychosocial-Risk-READY-v1.0.0.zip",
+          "size_bytes": 147775
+        },
+        {
+          "id": "1mklJU7P_x5WpQ7Uj-gAbBoSmxQDCl_oq",
+          "name": "CKO-Content-Phase-07-ICU-Sepsis-Deterioration-Triage-READY-v1.0.0.zip",
+          "size_bytes": 170562
+        },
+        {
+          "id": "1pQ118Qt1nK0T9nivcZAhZtFTwGcCiqGj",
+          "name": "CKO-Content-Phase-06-Geriatrics-Cognition-Mental-Health-READY-v1.0.0.zip",
+          "size_bytes": 175466
+        },
+        {
+          "id": "1esjdPTn8BN3O_XufcEeOyxUbmPGq-98I",
+          "name": "CKO-Content-Phase-05-Neonatal-Pediatric-Obstetric-READY-v1.0.0.zip",
+          "size_bytes": 229030
+        },
+        {
+          "id": "1tEH7tuId1BkfndlNoYljIz5zsuDWcCmP",
+          "name": "CKO-Content-Phase-04-Pain-Pressure-Injuries-Wounds-READY-v1.0.0.zip",
+          "size_bytes": 183888
+        },
+        {
+          "id": "1S9O2csPXlehtcBHuxdBfUcAXENToO7Aa",
+          "name": "CKO-Content-Phase-03-Falls-Balance-Mobility-READY-v1.0.0.zip",
+          "size_bytes": 156757
+        },
+        {
+          "id": "17TWAUcmAzmi9sHDfa9OqTrznWvpVJbWa",
+          "name": "CKO-Content-Phase-02-Neurology-Consciousness-AVC-READY-v1.0.0.zip",
+          "size_bytes": 192748
+        },
+        {
+          "id": "1-tkSzG8jEX7GE9PHWOj82J7-4uzJ2Sao",
+          "name": "CKO-Content-Phase-01-Clinical-Calculations-READY-v1.0.0.zip",
+          "size_bytes": 145289
+        },
+        {
+          "id": "1xJmZfXvtFLqoWFu32kAIjCSXsjNjeErQ",
+          "name": "CKO-All-Remaining-Tools-Content-Program-v1.0.0.zip",
+          "size_bytes": 1704495
+        },
+        {
+          "id": "19aQTm5dvFhPJ5mkK1T-QNhh-tYmvk7C1",
+          "name": "CKO-Backup-Fugulin-Calculadoras-2026-08-29-v1.0.0.zip",
+          "size_bytes": 36173520
+        },
+        {
+          "id": "1Wk1lM6LZSa-9JxymyvdOhwucqARwcfjF",
+          "name": "CKO_PACOTE_COMPLETO_AGENTIC_MD_REG_PUBLICATION_2026-08-29.zip",
+          "size_bytes": 121632
+        },
+        {
+          "id": "15bJtoYm77_kPPUrxzZkTjty4zzW5Smtj",
+          "name": "CKO-Fugulin-Consolidado-W1-W8-v1.0.0.zip",
+          "size_bytes": 24867768
+        },
+        {
+          "id": "168EZdQaXsbLMuL1boEP1NWSy7h5wQLwv",
+          "name": "CKO-COREN-Projeto-Completo-v2.zip",
+          "size_bytes": 2890533
+        },
+        {
+          "id": "1dNr-w0Iuip7dDWhhbyeP59l4xNx03iis",
+          "name": "Vila_do_Cuidado_backup_2026-08-26_0105.zip",
+          "size_bytes": 211827531
+        },
+        {
+          "id": "1VwvSeqaQiIdNoCqCJv_btKDX7zq2eXzK",
+          "name": "Vila_do_Cuidado_backup_2026-08-25_2256.zip",
+          "size_bytes": 99473307
+        },
+        {
+          "id": "152MrVMQHG76G8nVN0wMMqedvTpHzfEB-",
+          "name": "Dicionario clinico.zip",
+          "size_bytes": 3062527
+        },
+        {
+          "id": "1gWNHhFjAx9qyBvlcHmdH6Sjw09cLIPHL",
+          "name": "CKO_Vila_do_Cuidado_Drive_Parte_01D_Documentacao_Design_e_Apoio.zip",
+          "size_bytes": 34774688
+        },
+        {
+          "id": "1UQvFryW2VbPi4JCxKmzp48M84QKNaox1",
+          "name": "CKO_Vila_do_Cuidado_Drive_Parte_01C_Versoes_Anteriores.zip",
+          "size_bytes": 88328906
+        },
+        {
+          "id": "1gb77cMqt3GnMc6emlAaC13vLyer_ft_4",
+          "name": "CKO_Vila_do_Cuidado_Drive_Parte_01B_Web_Modular_e_Completo.zip",
+          "size_bytes": 88054796
+        },
+        {
+          "id": "1ulo-kKQuQ7s6qBiyHP-H4_TyJULaww7B",
+          "name": "CKO_Vila_do_Cuidado_Drive_Parte_01A_Base_Core.zip",
+          "size_bytes": 81412807
+        },
+        {
+          "id": "1oYSXmBX7PxX8y4VNcqnS9Dt6RvgfulwE",
+          "name": "CKO_Vila_do_Cuidado_Drive_Parte_02_Conteudo_e_Decisao.zip",
+          "size_bytes": 221624359
+        },
+        {
+          "id": "1wEACW4MQdXx8UHHMgr1gg67zQIWjAGRV",
+          "name": "CKO_Vila_do_Cuidado_Drive_Parte_03_Visuais_e_Conteudo_Expandido.zip",
+          "size_bytes": 51452400
+        },
+        {
+          "id": "1_go7VdEzwvrwHtD6qwAe_CvyD1Xqp_jO",
+          "name": "Vila-do-Cuidado-FINAL-preview.zip",
+          "size_bytes": 2711228
+        },
+        {
+          "id": "1QDFOae9hlU_GjqsbS0BLR48lUKh-66eQ",
+          "name": "vila-do-cuidado-jogos-com-animacoes.zip",
+          "size_bytes": 2709276
+        },
+        {
+          "id": "1T9LOLpTDeRJ8hwhwlud9irfsmKq2cHTn",
+          "name": "vila-do-cuidado-completo-jogos-colorir.zip",
+          "size_bytes": 2707539
+        },
+        {
+          "id": "1szVVVNJGyvrsQNtK0MaW2VTNFbcRclwW",
+          "name": "vila-do-cuidado-jogos-colorir-agents.zip",
+          "size_bytes": 1592224
+        },
+        {
+          "id": "1QGdvsnUhKSr2XTQ03sJzWowKp8lQUxZf",
+          "name": "site-shell-calculadoras-enfermagem-completo.zip",
+          "size_bytes": 296119
+        },
+        {
+          "id": "1HEOd0k5i_iBtereT_ob_T1q8qI9MzKKU",
+          "name": "site-shell-calculadoras-enfermagem.zip",
+          "size_bytes": 82453
+        },
+        {
+          "id": "1-vzOLHqERzQ1xyO3ZIQ3pXWHROsQor7L",
+          "name": "ABELHA_RAINHA_Database_Copy_v1.zip",
+          "size_bytes": 42521619
+        },
+        {
+          "id": "1LmEcVDsi2-MTUObRr7SIsSLgWWXeftEO",
+          "name": "locales.zip",
+          "size_bytes": 30341
+        },
+        {
+          "id": "1tJ-AEv3_KpEQxNa3lMuY7A80skFtw4IK",
+          "name": "pages_full.zip",
+          "size_bytes": 9141800
+        },
+        {
+          "id": "1uEwfManbUqMMlI6BWiCxBQW1sFEc0VJF",
+          "name": "Templates-funcionais-bibliotecas.zip",
+          "size_bytes": 328862
+        },
+        {
+          "id": "1E9OB0AKR0m2Hbeknf43Htwo-fXob6cP9",
+          "name": "CKO_Vacinas_Calculadoras_Propostas_v1_0.zip",
+          "size_bytes": 65109
+        },
+        {
+          "id": "1JJGJ1vpqFaRj93vFDHgszqM1vrAmMJyX",
+          "name": "aldrete.zip",
+          "size_bytes": 440202
+        },
+        {
+          "id": "1jaHoxB5jhnB1so6C_jTqp41EjB2TAoWt",
+          "name": "Cópia de CALENF-NKD.zip",
+          "size_bytes": 276964874
+        },
+        {
+          "id": "1j9F0FmcCRCmP1HxGKlWp1fE16eAFSWOI",
+          "name": "Cópia de nkos-site-i18n-completo-v1.zip",
+          "size_bytes": 823089831
+        },
+        {
+          "id": "1JmiD4RuQ9was5X5Vdzr8Al56OjPo5VfJ",
+          "name": "CKO-Regulatory-Canonical-Delta-v0.26.6.zip",
+          "size_bytes": 5101
+        },
+        {
+          "id": "1UWs7ubswbEKzyfw19OdN4iydvb00TFiq",
+          "name": "CKO-Integration-Evidence-Delta-v0.26.5.zip",
+          "size_bytes": 5196
+        },
+        {
+          "id": "1_VslktaQqULlfKXAL1wln_qn_vPaKn8R",
+          "name": "CKO-Federal-API-First-Patch-v0.26.4.zip",
+          "size_bytes": 19643
+        },
+        {
+          "id": "1hWSl_SuY2RGa_ML2k5OYUa5WbQbHlasX",
+          "name": "CKO-Official-Machine-Acquisition-Patch-v0.26.3.zip",
+          "size_bytes": 28576
+        },
+        {
+          "id": "1trKwnonT4t6Mf-gN-y7lojTJGeF6XwYX",
+          "name": "CKO-Project-Final-v1.0 (4).zip",
+          "size_bytes": 7730014
+        },
+        {
+          "id": "1Td6zHAC2KcrnTMLF0QYtlW7WAjVMmA_y",
+          "name": "CKO-Regulatory-Core-Integrated-v1 (1).zip",
+          "size_bytes": 2874359
+        },
+        {
+          "id": "1cz0HnXVWwa1hQHtpsgJYEFEpHuzwe4dq",
+          "name": "CKO-Concurso-Content-Engine-Final-Consolidated-v1 (2).zip",
+          "size_bytes": 2075724
+        },
+        {
+          "id": "1Bzz_u5atZUsgNf3c6XLMsT0gyEi--CBu",
+          "name": "cko_regulatory_multiscale_authority_v3.zip",
+          "size_bytes": 2752829
+        },
+        {
+          "id": "1MGRv32sDV4te7qWNgCtuxyiNQPR2qQ7g",
+          "name": "cko_regulatory_360_inverse_review_v4.zip",
+          "size_bytes": 39488446
+        },
+        {
+          "id": "1mQFqd51vPpcrhNKUqaxb75G_lxCQ4Ev_",
+          "name": "CKO-Concurso-Content-Engine-Final-Consolidated-v1.zip",
+          "size_bytes": 2075724
+        },
+        {
+          "id": "1L3Ip2nMzqb1tWz_BrrAde5lGbb6mgEA-",
+          "name": "concurso-santos-enfermeiro-2026-hub.zip",
+          "size_bytes": 1110629
+        },
+        {
+          "id": "1O1kwZSBfhYi__CMNJhOFyvlsF4l1m2hP",
+          "name": "CKO_PATCH_ONLY_v6_5_0_ARCHITECTURE_EVIDENCE_CLOSURE.zip",
+          "size_bytes": 967771
+        },
+        {
+          "id": "1qvHE3QNQ9aQB29pel5-V7e3c-Iral6zo",
+          "name": "CKO_STATIC_PROJECT_COMPLETE_NURSE_PALM_RC_v6_5_0.zip",
+          "size_bytes": 93327652
+        },
+        {
+          "id": "1RlS84qZ4VuwcAU2mGy93GoNa6z33tId5",
+          "name": "CKO_PATCH_ONLY_v6_5_0_VALIDATOR_V632_HYGIENE.zip",
+          "size_bytes": 4667
+        },
+        {
+          "id": "1oy52O9goFHjRh2yuDMCVRx_E7g7wGPax",
+          "name": "vaccine_json_schema_package.zip",
+          "size_bytes": 13645356
+        },
+        {
+          "id": "1Y0eHjId1AC_-IbGtA4-BDurYnFNIpNep",
+          "name": "CKO_FUNCTIONAL_PARTIAL_SITE_V2_4_0.zip",
+          "size_bytes": 6400041
+        },
+        {
+          "id": "1qClsR-Lgsvj42Ho5oQb6H5xCDL6FuJTT",
+          "name": "CKO_PROJECT_CONTROL_CENTER_V2_3_0.zip",
+          "size_bytes": 9627713
+        },
+        {
+          "id": "1a2O42gmgKwqw7GgmSViNnRJTSshjjRGZ",
+          "name": "CKO_LOCAL_REVIEW_KIT_V2_3_1.zip",
+          "size_bytes": 8012
+        },
+        {
+          "id": "1VL0V9siNe_bu1XbEXrq-4WyqV5wuapRf",
+          "name": "auditoria_referencias.zip",
+          "size_bytes": 1052683
+        },
+        {
+          "id": "1wp49LZuADdTLZNOStWWyeANFdTNZRjFy",
+          "name": "cko-projeto.zip",
+          "size_bytes": 188129
+        },
+        {
+          "id": "1t5ogkHP7WGjUqxBgPXfY3JgwPX8ZL-kb",
+          "name": "seringa.zip",
+          "size_bytes": 30099
+        },
+        {
+          "id": "1rRi8VsnWx3vJxVfBBKTvUji0spjOaeNV",
+          "name": "Infográficos de curativos padronizados.zip",
+          "size_bytes": 3772933
+        },
+        {
+          "id": "1x8oT2HwrvqxQLcre0sDbfLEvb3t15Oiz",
+          "name": "c6cd0eab6_nkos-website-final-v5.zip",
+          "size_bytes": 36131571
+        },
+        {
+          "id": "1djKfq-2VZImF2pFB-L6JdXvAadA0t96G",
+          "name": "Pagina inicial.zip",
+          "size_bytes": 36966712
+        },
+        {
+          "id": "1s1ru_GEAb77frZ6kxzWZxidMgemvRHL6",
+          "name": "icones_enfermagem.zip",
+          "size_bytes": 255572
+        },
+        {
+          "id": "10FD7B0OTohVb9CCEHMOwyb669JrQsTvo",
+          "name": "CALENF-NKD.zip",
+          "size_bytes": 276964874
+        },
+        {
+          "id": "1OmmEpSDK3K3nx5zphbX-xRd7HWClvdxs",
+          "name": "CalculadorasNewVersion.zip",
+          "size_bytes": 76019668
+        },
+        {
+          "id": "1h4Lu0dDFoNNwJ-Q0e3FUCUYOksUhvIli",
+          "name": "recuperado_insulina_consolidado.zip",
+          "size_bytes": 7486
+        },
+        {
+          "id": "1Iucn9BiW9HQNOnyn5zpxyx5dSFupu-TR",
+          "name": "recuperado_insulina_package.zip",
+          "size_bytes": 5338
+        }
+      ],
+      "subfolders": [
+        {
+          "id": "1sLYmRbkif6Cvt1T6LyFDsJU08wrXxxA_",
+          "name": "REGISTERS_ESTEIRA"
+        },
+        {
+          "id": "1sPNYlbAzKtyS0RNJoDpCEc3xgXR2JJma",
+          "name": "PILOTO_PIPELINE_DETERMINISTICO_COFEN_2026-10-10"
+        },
+        {
+          "id": "194ppG1qi_umpSocRyToxIbocpGlEzGw0",
+          "name": "FEDERAL"
+        },
+        {
+          "id": "1hORSMSQiYaxSZeoZ4ILVKbjCwyMPVtt8",
+          "name": "coren"
+        },
+        {
+          "id": "1Hkzkhakni4Gid-rTQvneB_9xqe1ksyBZ",
+          "name": "cofen"
+        },
+        {
+          "id": "111JwLAznsc62GGU8NJ98CBB65UgZMyk1",
+          "name": "PADRAO_DOCUMENTAL_CE_V1"
+        },
+        {
+          "id": "1un0Hr4fiakzSpd58EQ7HMfYLg_StcYeR",
+          "name": "PADRAO_DOCUMENTAL_CE_V0"
+        },
+        {
+          "id": "1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+          "name": "CORPUS_CANONICO_INDIVIDUAL"
+        },
+        {
+          "id": "1k28gN245X7u4EDgIIJO9wUL915AR4hb7",
+          "name": "EXTRACAO_VERIFICAVEL_v0_3"
+        },
+        {
+          "id": "1UkCPBjTMiqirzVE79bsR7wLhm57hQ7Uo",
+          "name": "00_ARQUIVOS_SOLTOS_CLASSIFICADOS"
+        },
+        {
+          "id": "1UbPlp0RMgOsw3Ey2V-lwpZvcGKfMcEy0",
+          "name": "Corpus_Canonico_2026-10-03"
+        },
+        {
+          "id": "1eMFQI4FGAZaKaxnQNh0bcNoLLSatu8DN",
+          "name": "91_DUPLICATES_QUARANTINE"
+        },
+        {
+          "id": "1LT5ztD2GzfLPxCZpkQtdpZdvo5-jJeP0",
+          "name": "90_HISTORY_SUPERSEDED"
+        },
+        {
+          "id": "1H93zHUQRgGF5IUC41lnE92wWKkwVoKzD",
+          "name": "18_CONTENT_PUBLICATION_FORMS_HARMONIZATION_v1.0.0"
+        },
+        {
+          "id": "1lzRTTU3bkzDMiBMnRLAb8AePKATugF5m",
+          "name": "17_PE_RELATED_NORMATIVE_CONTENT_PATCH_v1.0.0"
+        },
+        {
+          "id": "1USNLs3KgY2TErtMtVzwmOczCRijnoMAG",
+          "name": "16_CONTEUDO_NORMATIVO_WAVE01_TEMPLATE_SEPSE_v1.0.0"
+        },
+        {
+          "id": "1h49ZyyK7ZblWRFFDqtXPz69zi03HzFO9",
+          "name": "15_MT10_ACCEPTANCE_PATCH_v0.1.1"
+        },
+        {
+          "id": "1W_Zta-2xxvViRTg6h4vSRRlwE3B-xzjL",
+          "name": "14_API_LOCALSTORAGE_ACQUISITION_v1.0.0"
+        },
+        {
+          "id": "1CYisegAt5QYBPmN06xKzBISUFjpyV22M",
+          "name": "13_NON_API_LOCALSTORAGE_ACQUISITION_v1.0.0"
+        },
+        {
+          "id": "1cXZN09_lY1PNR7WIHQxctWG2fOn3wSP2",
+          "name": "12_MT10_ACCEPTANCE_ACQUISITION_v0.1.0"
+        },
+        {
+          "id": "1ykOJ14s_tzQHa6pqGH0uDA5z_Vht6OGW",
+          "name": "11_CANONICAL_CORPUS_v1.0.0"
+        },
+        {
+          "id": "1D9PbPA7qcfsMIo8VGcNMV0QcwIid0Zl4",
+          "name": "10_CORPUS_FULL_EXTRACTION_v1.7.7"
+        },
+        {
+          "id": "1GnSu8tjqvlwaotcai8UKy-3VE0Jhgxgh",
+          "name": "09_SOURCE_INTERFACE_DOCUMENTATION"
+        },
+        {
+          "id": "1HXZK2GP36Nh2nohTR2JHg4noA9UD86QK",
+          "name": "08_OFFICIAL_CORPUS_ACQUISITION"
+        },
+        {
+          "id": "17abcowwt0M0Qqn6N-1k6SEmougl1ySOJ",
+          "name": "07_MT08_AUTHORITY_COVERAGE_AUDIT"
+        },
+        {
+          "id": "1Q15qVli45c7IMiCLWgUxQxvZrZpSkXGp",
+          "name": "06_SOURCE_AUTHORITY_UNIVERSE"
+        },
+        {
+          "id": "1NGh2-DDakUREIStVzEDMH0fDkVM_MxMg",
+          "name": "05_REPORTS_REGISTRIES_LOOSE"
+        },
+        {
+          "id": "1QTvr4bsUAK6PQvakxh-9jpNNzInvaZi9",
+          "name": "04_UNIFIED_FOUNDATION"
+        },
+        {
+          "id": "1QjuTTkHVJ8AVjr7JTa_xNNbFNLH48JfQ",
+          "name": "03_DOMAIN_CORPORA"
+        },
+        {
+          "id": "1vl0nUeff5pe1M1hkwEHT7JPGizoyfqIZ",
+          "name": "02_CANONICAL_CONTENT_MODEL"
+        },
+        {
+          "id": "14stj3zygXRpqt0qJV-ZTI6X13JrJezxc",
+          "name": "01_ORIGINAIS_USUARIO"
+        },
+        {
+          "id": "15v8Nm6H7UxEinHp5W7FRVzZZ2Hi4Ds8S",
+          "name": "00_HANDOFF"
+        },
+        {
+          "id": "1rB1dBvzg6cXWRpIvdHf6hTcQM9Gqe8xe",
+          "name": "CKO Regulatory Project Finals - CLEAN v1.4.0 (CHAT BUNDLES)"
+        },
+        {
+          "id": "1ig-CJLv9DbD6-vQ97UKWXVjLWpRv-MeS",
+          "name": "CKO Regulatory Project Finals - CLEAN v1.4.1 VERIFIED (OPENABLE)"
+        },
+        {
+          "id": "1M3DFFeYwIT0OjHUQMXHtWu2C1ROoV4yB",
+          "name": "CKO WAVE2 STABLE v1.0.0 - FIX OPENABLE"
+        },
+        {
+          "id": "1UFwnrl8LGkPGvh90dnlc_0CrIKGkWmXv",
+          "name": "CKO Regulatory Project Finals - CLEAN v1.4.0 FINAL VALIDATED - CONTROL"
+        },
+        {
+          "id": "1sBMRH8AuVCxXJNh71zo4VmXHq0vR5C5G",
+          "name": "CKO Regulatory Project Finals - CLEAN v1.4.0 FINAL VALIDATED"
+        },
+        {
+          "id": "1knfLaAhBvcjjRyBR_MsnvaaESG5n_ekS",
+          "name": "CKO Regulatory Project Finals - CLEAN v1.4.0 FINAL"
+        },
+        {
+          "id": "1qJsyn4V3YoBcIK56J73Nel4_zItY9zfJ",
+          "name": "CKO_v1.4.0_WORKING_TOOLS"
+        },
+        {
+          "id": "11S0ryNXZyANkR3bqgtvDArHVj9K4oDEm",
+          "name": "CKO_v1.4.0_CMD_AND_AUDIT"
+        },
+        {
+          "id": "1-h6hL4RNakqcVcP1adUfD3w9PfQayuMx",
+          "name": "CKO Regulatory Project Finals - CLEAN v1.4.0 (OPENABLE)"
+        },
+        {
+          "id": "11VdC9di0R3kU0vl2u6lFYrlFwwZdQYaj",
+          "name": "CKO_NORMATIVE_F1_ARCH_DATA_GOV_NUMERIC_R88F"
+        },
+        {
+          "id": "1QfCYnEGmiLB2zd42FV0hGXUTnEN1rfAf",
+          "name": "Technical Library Waves"
+        },
+        {
+          "id": "1IIGACfverBbGeE18aQCqjb8yLinPX41G",
+          "name": "Technical Library Waves 016-022 — 2026-09-06"
+        },
+        {
+          "id": "1p4wnw98c9GkLlVDHtNKC_WZ4pKNhIbB4",
+          "name": "90_FINAL_CONTROLLED"
+        },
+        {
+          "id": "1T11VHd9fn0lwwaYkOvF5kMv0dJVyCoss",
+          "name": "CKO-Hero-System"
+        },
+        {
+          "id": "1htnxWm76N2iiOlbOFMrfJcGm_EUwf3Cq",
+          "name": "CKO-Accounting-Regulatory-Agent-Cells-v0.2.1"
+        },
+        {
+          "id": "1lux5cbHu-Njy5q4J39MC0qK6zF-dc0Xw",
+          "name": "CKO-TCU-Regulatory-Agent-Cells-v0.2.0"
+        },
+        {
+          "id": "1T3F-vF1_lHF7nqYqQTkwEMa32BpLyjsa",
+          "name": "CKO-AUDIT-RUNS-2026-08-29"
+        },
+        {
+          "id": "1-h2dLv_aHoje7aV-W6ahzgl6_kcokRYi",
+          "name": "CKO_BACKUP_2026-08-28"
+        },
+        {
+          "id": "1nr78x7i1vg8InQl7XIjayYx2tupajy18",
+          "name": "ATUAL"
+        },
+        {
+          "id": "1W_-PUyhJfggNlisklVBzLa60NASAUJ4S",
+          "name": "MEMORIA_E_GOVERNANCA"
+        },
+        {
+          "id": "1uJjcP_aqvp0KIzeTob3vUB5eRhnGjCl6",
+          "name": "VERSOES"
+        },
+        {
+          "id": "114L2qvFdppY1_ID-Z2xiIjWGDvfydqD9",
+          "name": "Vila_do_Cuidado_CONSOLIDADO_2026-08-26"
+        },
+        {
+          "id": "1MJ8Jv5O_3X99pP3f0ogzLZ1ddllNzxbh",
+          "name": "Vila_do_Cuidado_Plataforma_2026-08-25"
+        },
+        {
+          "id": "1abkGcvnwbybFUv6wZK6DOOZg8eBWNp7U",
+          "name": "CKO Backups"
+        },
+        {
+          "id": "13qNk8N3UikcjMjwVVV65vxd1Zmwfg8a8",
+          "name": "CKO-Wave0-Foundation-Recovery-2026-08-24-v1.0.2"
+        },
+        {
+          "id": "1roJm2Zc5EUUAqrA2I9P2fZ51_NSj6NwN",
+          "name": "CKO-Platform-Closure-v2.1.0-20260824"
+        },
+        {
+          "id": "1kXzCYAj2TecZVQFIBHfhA6N-JEsaVHgH",
+          "name": "CKO-Unified-Content-Publication-v2.0-20260824"
+        },
+        {
+          "id": "1WB_yFs7pb3M4sBZl80bsT9nlYNWX-5QO",
+          "name": "CKO-21-Camadas-Governanca-2026-08-24"
+        },
+        {
+          "id": "10qdgBq4I8SZn6Nq8fsJk1gu_dW76M_5M",
+          "name": "CKO-Retention-Gate"
+        },
+        {
+          "id": "1GRoNBScNVf4UsnHL0YSY17J6jsGLAyJW",
+          "name": "og-cards"
+        },
+        {
+          "id": "1b0ORWmyAaYk6b_bW112RVcuARtWwRd0T",
+          "name": "Auditoria-Menu-MetaDados-04-08"
+        },
+        {
+          "id": "1dbC8M3TOAivaa9iwWRg0O6gI8ryKr0Qs",
+          "name": "Passarinho-Vai-Lá (pergunta) kk"
+        },
+        {
+          "id": "1yK9ygoAi_blq27J-aZFSseZnoVLxHG5g",
+          "name": "Concurso Santos"
+        },
+        {
+          "id": "1tIblIS7XyQxtPvW5g_VLTss1XjoqTNE2",
+          "name": "nkos-site-i18n-completo-v1"
+        },
+        {
+          "id": "1H7iKj-CGx7SKTvrrmzzDlDmm_kYdvGO4",
+          "name": ".git"
+        },
+        {
+          "id": "1Txb-RQmj4HehVdyIydsYfbdy6ursDZjp",
+          "name": "assets"
+        }
+      ],
+      "items": [
+        {
+          "id": "1sLYmRbkif6Cvt1T6LyFDsJU08wrXxxA_",
+          "name": "REGISTERS_ESTEIRA",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-10-10T20:00:50.419Z"
+        },
+        {
+          "id": "1MMeqDJef7myG0Fo-O8XsyRMg_ELSxn-P",
+          "name": "ESPECIFICACAO_PIPELINE_DETERMINISTICO_COFEN_V1.md",
+          "mime_type": "text/markdown",
+          "size_bytes": 12126,
+          "kind": "file",
+          "modified_time": "2026-10-10T19:12:21.788Z"
+        },
+        {
+          "id": "1sPNYlbAzKtyS0RNJoDpCEc3xgXR2JJma",
+          "name": "PILOTO_PIPELINE_DETERMINISTICO_COFEN_2026-10-10",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-10-10T19:12:21.714Z"
+        },
+        {
+          "id": "1eJETouIY0YwoZ0qUg-ObYRmPLeKgcEy_",
+          "name": "MATRIZ_CRUZAMENTO_NORMATIVOS_DADOS_2026-10-10.csv",
+          "mime_type": "text/csv",
+          "size_bytes": 55056,
+          "kind": "file",
+          "modified_time": "2026-10-10T19:09:51.513Z"
+        },
+        {
+          "id": "194ppG1qi_umpSocRyToxIbocpGlEzGw0",
+          "name": "FEDERAL",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-10-09T12:37:36.794Z"
+        },
+        {
+          "id": "1hORSMSQiYaxSZeoZ4ILVKbjCwyMPVtt8",
+          "name": "coren",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-10-09T12:24:36.470Z"
+        },
+        {
+          "id": "1Hkzkhakni4Gid-rTQvneB_9xqe1ksyBZ",
+          "name": "cofen",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-10-09T12:24:34.142Z"
+        },
+        {
+          "id": "111JwLAznsc62GGU8NJ98CBB65UgZMyk1",
+          "name": "PADRAO_DOCUMENTAL_CE_V1",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-10-09T11:47:44.070Z"
+        },
+        {
+          "id": "1un0Hr4fiakzSpd58EQ7HMfYLg_StcYeR",
+          "name": "PADRAO_DOCUMENTAL_CE_V0",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-10-09T11:38:36.649Z"
+        },
+        {
+          "id": "1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+          "name": "CORPUS_CANONICO_INDIVIDUAL",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-10-09T10:32:07.484Z"
+        },
+        {
+          "id": "1k28gN245X7u4EDgIIJO9wUL915AR4hb7",
+          "name": "EXTRACAO_VERIFICAVEL_v0_3",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-10-09T09:52:52.037Z"
+        },
+        {
+          "id": "1UkCPBjTMiqirzVE79bsR7wLhm57hQ7Uo",
+          "name": "00_ARQUIVOS_SOLTOS_CLASSIFICADOS",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-10-09T09:45:58.437Z"
+        },
+        {
+          "id": "1qUS1W9_Vncj-gfxRH4c6dggaQefCiBQw",
+          "name": "CANONICAL_RECONCILIATION_v0_2.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 2850,
+          "kind": "file",
+          "modified_time": "2026-10-09T09:39:56.765Z"
+        },
+        {
+          "id": "12JndUska2SoLGv_S7xjOIPvsTq1VFFw-",
+          "name": "CANONICAL_CANDIDATE_PILOT_v0_1.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 28324318,
+          "kind": "file",
+          "modified_time": "2026-10-09T09:32:37.842Z"
+        },
+        {
+          "id": "1UbPlp0RMgOsw3Ey2V-lwpZvcGKfMcEy0",
+          "name": "Corpus_Canonico_2026-10-03",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-10-04T06:31:05.146Z"
+        },
+        {
+          "id": "1eMFQI4FGAZaKaxnQNh0bcNoLLSatu8DN",
+          "name": "91_DUPLICATES_QUARANTINE",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-10-04T06:30:39.443Z"
+        },
+        {
+          "id": "1LT5ztD2GzfLPxCZpkQtdpZdvo5-jJeP0",
+          "name": "90_HISTORY_SUPERSEDED",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-10-04T06:30:37.519Z"
+        },
+        {
+          "id": "1H93zHUQRgGF5IUC41lnE92wWKkwVoKzD",
+          "name": "18_CONTENT_PUBLICATION_FORMS_HARMONIZATION_v1.0.0",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-10-04T06:30:00.667Z"
+        },
+        {
+          "id": "1lzRTTU3bkzDMiBMnRLAb8AePKATugF5m",
+          "name": "17_PE_RELATED_NORMATIVE_CONTENT_PATCH_v1.0.0",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-10-04T03:59:14.911Z"
+        },
+        {
+          "id": "1USNLs3KgY2TErtMtVzwmOczCRijnoMAG",
+          "name": "16_CONTEUDO_NORMATIVO_WAVE01_TEMPLATE_SEPSE_v1.0.0",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-10-04T01:50:42.375Z"
+        },
+        {
+          "id": "1h49ZyyK7ZblWRFFDqtXPz69zi03HzFO9",
+          "name": "15_MT10_ACCEPTANCE_PATCH_v0.1.1",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-10-04T01:18:32.545Z"
+        },
+        {
+          "id": "1W_Zta-2xxvViRTg6h4vSRRlwE3B-xzjL",
+          "name": "14_API_LOCALSTORAGE_ACQUISITION_v1.0.0",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-10-04T00:39:31.978Z"
+        },
+        {
+          "id": "1CYisegAt5QYBPmN06xKzBISUFjpyV22M",
+          "name": "13_NON_API_LOCALSTORAGE_ACQUISITION_v1.0.0",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-10-04T00:29:28.150Z"
+        },
+        {
+          "id": "1cXZN09_lY1PNR7WIHQxctWG2fOn3wSP2",
+          "name": "12_MT10_ACCEPTANCE_ACQUISITION_v0.1.0",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-10-03T23:15:56.895Z"
+        },
+        {
+          "id": "1m57MRi5fDUmMr8P4qmxZTSXK7tx3E-28",
+          "name": "locales_corrigidos.json",
+          "mime_type": "application/json",
+          "size_bytes": 868381,
+          "kind": "file",
+          "modified_time": "2026-10-03T23:15:08.442Z"
+        },
+        {
+          "id": "1apK3oOMvcW3beYZP-pAV7O12FPhpV35q",
+          "name": "backup_final.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 26294501,
+          "kind": "file",
+          "modified_time": "2026-10-03T23:04:32.550Z"
+        },
+        {
+          "id": "1ykOJ14s_tzQHa6pqGH0uDA5z_Vht6OGW",
+          "name": "11_CANONICAL_CORPUS_v1.0.0",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-10-03T21:18:38.615Z"
+        },
+        {
+          "id": "1D9PbPA7qcfsMIo8VGcNMV0QcwIid0Zl4",
+          "name": "10_CORPUS_FULL_EXTRACTION_v1.7.7",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-10-03T20:59:57.439Z"
+        },
+        {
+          "id": "1GnSu8tjqvlwaotcai8UKy-3VE0Jhgxgh",
+          "name": "09_SOURCE_INTERFACE_DOCUMENTATION",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-10-03T20:45:38.285Z"
+        },
+        {
+          "id": "1HXZK2GP36Nh2nohTR2JHg4noA9UD86QK",
+          "name": "08_OFFICIAL_CORPUS_ACQUISITION",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-10-03T19:19:12.189Z"
+        },
+        {
+          "id": "17abcowwt0M0Qqn6N-1k6SEmougl1ySOJ",
+          "name": "07_MT08_AUTHORITY_COVERAGE_AUDIT",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-10-03T18:53:48.045Z"
+        },
+        {
+          "id": "1dPsi-5sYnUyiqqFLUJNJza2Yp550j37U",
+          "name": "ACQUISITION_ENGINE_V1.7.md",
+          "mime_type": "text/markdown",
+          "size_bytes": 1134,
+          "kind": "file",
+          "modified_time": "2026-10-03T18:22:40.753Z"
+        },
+        {
+          "id": "1DQZabyTrDSIltwydrdHV9EKYjEcKXdcJ",
+          "name": "P0_EXECUTION_PLAN.csv",
+          "mime_type": "text/csv",
+          "size_bytes": 1186,
+          "kind": "file",
+          "modified_time": "2026-10-03T18:22:36.700Z"
+        },
+        {
+          "id": "12xle8nIFiy3jRA0dO9cvJg0TUGRmPqei",
+          "name": "search_query_registry.csv",
+          "mime_type": "text/csv",
+          "size_bytes": 129585,
+          "kind": "file",
+          "modified_time": "2026-10-03T18:22:28.235Z"
+        },
+        {
+          "id": "1RVcPYOD0AawEROkDQ6EOKOpPVHO-DvFj",
+          "name": "topic_acquisition_profiles.csv",
+          "mime_type": "text/csv",
+          "size_bytes": 21655,
+          "kind": "file",
+          "modified_time": "2026-10-03T18:22:23.440Z"
+        },
+        {
+          "id": "1aAeRG0Sxr24BYByMpOZ-ctnNhh9n_tK2",
+          "name": "microtopic_parent_links.csv",
+          "mime_type": "text/csv",
+          "size_bytes": 73874,
+          "kind": "file",
+          "modified_time": "2026-10-03T18:22:19.416Z"
+        },
+        {
+          "id": "1Tr17u5GHdRjnXWrp4r7B44ARI7Ll9VVP",
+          "name": "microtopic_registry.csv",
+          "mime_type": "text/csv",
+          "size_bytes": 322801,
+          "kind": "file",
+          "modified_time": "2026-10-03T18:22:15.303Z"
+        },
+        {
+          "id": "1R83sHPMAv4HXB1uLVqUWtu-uXWb9Mos3",
+          "name": "current_state.json",
+          "mime_type": "application/json",
+          "size_bytes": 2452,
+          "kind": "file",
+          "modified_time": "2026-10-03T18:21:45.391Z"
+        },
+        {
+          "id": "1Qxsr3Bjz28T5xF0AeAZ1hlZ065hHvVgz",
+          "name": "rights_preflight_P0.csv",
+          "mime_type": "text/csv",
+          "size_bytes": 509832,
+          "kind": "file",
+          "modified_time": "2026-10-03T18:21:41.515Z"
+        },
+        {
+          "id": "1vivAcWaa78TzzlspqNRcULiHNYIdtsw-",
+          "name": "topic_evidence_acquisition_queue.csv",
+          "mime_type": "text/csv",
+          "size_bytes": 210940,
+          "kind": "file",
+          "modified_time": "2026-10-03T18:21:36.907Z"
+        },
+        {
+          "id": "1Vq6QcYisMPV-3HXX1B1Nbp4-y-TAIfvO",
+          "name": "foundation_validation_v1.6.0.json",
+          "mime_type": "application/json",
+          "size_bytes": 3925,
+          "kind": "file",
+          "modified_time": "2026-10-03T18:21:32.105Z"
+        },
+        {
+          "id": "1eyIjPaI7y-GYY5lK5ssW5rJpp6PDE0nk",
+          "name": "program_public_detail_resolution.csv",
+          "mime_type": "text/csv",
+          "size_bytes": 12479,
+          "kind": "file",
+          "modified_time": "2026-10-03T18:21:27.599Z"
+        },
+        {
+          "id": "1oonqLdMdQwwxyeSqgDX7kE4EfhrvYvNP",
+          "name": "CURRICULUM_EXTRACTION_WAVE3.md",
+          "mime_type": "text/markdown",
+          "size_bytes": 1636,
+          "kind": "file",
+          "modified_time": "2026-10-03T18:20:43.981Z"
+        },
+        {
+          "id": "1ksKbXjRVgHccjw2v-yN-yN6SkrEXnPuq",
+          "name": "pending_curriculum_deep_extraction.csv",
+          "mime_type": "text/csv",
+          "size_bytes": 10330,
+          "kind": "file",
+          "modified_time": "2026-10-03T18:20:23.314Z"
+        },
+        {
+          "id": "1sUC3sfiw-Az1PjgJZDX7LhmLWY6LyJSa",
+          "name": "program_scope_corrections_wave3.csv",
+          "mime_type": "text/csv",
+          "size_bytes": 705,
+          "kind": "file",
+          "modified_time": "2026-10-03T18:20:12.778Z"
+        },
+        {
+          "id": "15akt5CKQmfP5iZcGnDnhMiS5WgNnzfSm",
+          "name": "mapping_quality_audit_wave3_removed_false_positives.csv",
+          "mime_type": "text/csv",
+          "size_bytes": 8056,
+          "kind": "file",
+          "modified_time": "2026-10-03T18:20:08.587Z"
+        },
+        {
+          "id": "1KTZRMNyXoYbbWzwgunU1szh121ZzjYa5",
+          "name": "curriculum_source_extraction_coverage.csv",
+          "mime_type": "text/csv",
+          "size_bytes": 25471,
+          "kind": "file",
+          "modified_time": "2026-10-03T18:19:54.671Z"
+        },
+        {
+          "id": "1NIGNgWHVa7CTaz7RI7IS1jQkqUd3XoXU",
+          "name": "cross_institution_topic_recurrence.csv",
+          "mime_type": "text/csv",
+          "size_bytes": 49167,
+          "kind": "file",
+          "modified_time": "2026-10-03T18:19:50.449Z"
+        },
+        {
+          "id": "1iq7t-xdgUlSV0HPWz7i7-12ha9PtFP80",
+          "name": "curriculum_item_topic_mappings.csv",
+          "mime_type": "text/csv",
+          "size_bytes": 89612,
+          "kind": "file",
+          "modified_time": "2026-10-03T18:19:43.324Z"
+        },
+        {
+          "id": "1rA4umzFllj2o7w48ULgpPQR_4EzcooUV",
+          "name": "canonical_curriculum_topic_registry.csv",
+          "mime_type": "text/csv",
+          "size_bytes": 48727,
+          "kind": "file",
+          "modified_time": "2026-10-03T18:19:38.859Z"
+        },
+        {
+          "id": "1Nx2Bw3e5jPX0odU0TFWxHF9AStXjp6rN",
+          "name": "curriculum_item_registry.csv",
+          "mime_type": "text/csv",
+          "size_bytes": 147172,
+          "kind": "file",
+          "modified_time": "2026-10-03T18:19:34.141Z"
+        },
+        {
+          "id": "1c6PMplAm2ePb015fudXAPYhmNQObJTqC",
+          "name": "RIGHTS_RETRIEVAL_POLICY.md",
+          "mime_type": "text/markdown",
+          "size_bytes": 1740,
+          "kind": "file",
+          "modified_time": "2026-10-03T18:18:51.290Z"
+        },
+        {
+          "id": "1jmipVsSpu7RsoHViCO7iHoqYXGcSF9mv",
+          "name": "DEFINITION_OF_DONE.md",
+          "mime_type": "text/markdown",
+          "size_bytes": 2147,
+          "kind": "file",
+          "modified_time": "2026-10-03T18:18:46.882Z"
+        },
+        {
+          "id": "1pPe-VBwGJbf3peIdbu7eQld2DE_MJ5VV",
+          "name": "SOURCE_ACQUISITION_STRATEGY.md",
+          "mime_type": "text/markdown",
+          "size_bytes": 3255,
+          "kind": "file",
+          "modified_time": "2026-10-03T18:18:43.034Z"
+        },
+        {
+          "id": "1_OUvfwn_fqUagiHtuCF2gTeIHPD6Midr",
+          "name": "institutional_curriculum_sources.csv",
+          "mime_type": "text/csv",
+          "size_bytes": 6989,
+          "kind": "file",
+          "modified_time": "2026-10-03T18:18:02.964Z"
+        },
+        {
+          "id": "1JUYntJo78Y6vaO8n-Tts7zcK2indEMzf",
+          "name": "specialty_resource_relationships.csv",
+          "mime_type": "text/csv",
+          "size_bytes": 2506212,
+          "kind": "file",
+          "modified_time": "2026-10-03T18:17:58.857Z"
+        },
+        {
+          "id": "15fimFS4ZhwxwpbH9G1QFvNjIyqttis7G",
+          "name": "granular_content_candidates.csv",
+          "mime_type": "text/csv",
+          "size_bytes": 6733506,
+          "kind": "file",
+          "modified_time": "2026-10-03T18:17:50.307Z"
+        },
+        {
+          "id": "1BqgMhv38HrDPY4X0zmDfXiohEs10GFFv",
+          "name": "README.md",
+          "mime_type": "text/markdown",
+          "size_bytes": 3293,
+          "kind": "file",
+          "modified_time": "2026-10-03T18:17:24.034Z"
+        },
+        {
+          "id": "1Q15qVli45c7IMiCLWgUxQxvZrZpSkXGp",
+          "name": "06_SOURCE_AUTHORITY_UNIVERSE",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-10-03T18:16:34.104Z"
+        },
+        {
+          "id": "1NGh2-DDakUREIStVzEDMH0fDkVM_MxMg",
+          "name": "05_REPORTS_REGISTRIES_LOOSE",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-10-03T18:16:33.001Z"
+        },
+        {
+          "id": "1QTvr4bsUAK6PQvakxh-9jpNNzInvaZi9",
+          "name": "04_UNIFIED_FOUNDATION",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-10-03T18:16:31.842Z"
+        },
+        {
+          "id": "1QjuTTkHVJ8AVjr7JTa_xNNbFNLH48JfQ",
+          "name": "03_DOMAIN_CORPORA",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-10-03T18:16:30.622Z"
+        },
+        {
+          "id": "1vl0nUeff5pe1M1hkwEHT7JPGizoyfqIZ",
+          "name": "02_CANONICAL_CONTENT_MODEL",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-10-03T18:16:29.472Z"
+        },
+        {
+          "id": "14stj3zygXRpqt0qJV-ZTI6X13JrJezxc",
+          "name": "01_ORIGINAIS_USUARIO",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-10-03T18:16:28.331Z"
+        },
+        {
+          "id": "15v8Nm6H7UxEinHp5W7FRVzZZ2Hi4Ds8S",
+          "name": "00_HANDOFF",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-10-03T18:16:27.155Z"
+        },
+        {
+          "id": "1v0O41umK80gVO7Rh7IFGUU1z6UFewoM-",
+          "name": "Calculadoras_de_Enfermagem_Insulina_Completo_v0.1.0.zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 25766524,
+          "kind": "file",
+          "modified_time": "2026-10-03T05:21:10.138Z"
+        },
+        {
+          "id": "11RsHrvEDi0EvGUVqm6iiaN4OOPU-kQTG",
+          "name": "Calculadoras_de_Enfermagem_Gotejamento_Completo_v0.7.0.zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 17485044,
+          "kind": "file",
+          "modified_time": "2026-10-03T04:54:50.037Z"
+        },
+        {
+          "id": "1rB1dBvzg6cXWRpIvdHf6hTcQM9Gqe8xe",
+          "name": "CKO Regulatory Project Finals - CLEAN v1.4.0 (CHAT BUNDLES)",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-09-19T07:51:32.011Z"
+        },
+        {
+          "id": "1ig-CJLv9DbD6-vQ97UKWXVjLWpRv-MeS",
+          "name": "CKO Regulatory Project Finals - CLEAN v1.4.1 VERIFIED (OPENABLE)",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-09-19T07:22:59.327Z"
+        },
+        {
+          "id": "1M3DFFeYwIT0OjHUQMXHtWu2C1ROoV4yB",
+          "name": "CKO WAVE2 STABLE v1.0.0 - FIX OPENABLE",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-09-19T06:15:19.948Z"
+        },
+        {
+          "id": "1UFwnrl8LGkPGvh90dnlc_0CrIKGkWmXv",
+          "name": "CKO Regulatory Project Finals - CLEAN v1.4.0 FINAL VALIDATED - CONTROL",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-09-19T06:08:33.962Z"
+        },
+        {
+          "id": "1sBMRH8AuVCxXJNh71zo4VmXHq0vR5C5G",
+          "name": "CKO Regulatory Project Finals - CLEAN v1.4.0 FINAL VALIDATED",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-09-19T06:08:21.133Z"
+        },
+        {
+          "id": "1EPncu7ICTB33va_v3ohySMu6fE2sEhUO",
+          "name": "CKO_FINAL_VALIDATE_v1.4.0_v2.py",
+          "mime_type": "text/x-python",
+          "size_bytes": 8368,
+          "kind": "file",
+          "modified_time": "2026-09-19T05:41:35.296Z"
+        },
+        {
+          "id": "15eYTV7QnthlcAAL3JflbnIYt0zRAgsKK",
+          "name": "CKO_FINAL_VALIDATE_v1.4.0_v2.cmd",
+          "mime_type": "application/octet-stream",
+          "size_bytes": 1396,
+          "kind": "file",
+          "modified_time": "2026-09-19T05:41:00.998Z"
+        },
+        {
+          "id": "1Fdq_rrpe8pTLPQRLjAlLuAkG4PC20-e1",
+          "name": "BR-FED-COFEN-RES-0814--ISSUER-OFFICIAL-ATTACHMENT--ATT-01--01a0b617-7f97-7f58-9639-97b45638f615.pdf",
+          "mime_type": "application/pdf",
+          "size_bytes": 184504,
+          "kind": "file",
+          "modified_time": "2026-09-19T03:05:07.207Z"
+        },
+        {
+          "id": "1XvYJopounPcMfEZ68CkyoYBWyfCbA97T",
+          "name": "BR-FED-COFEN-RES-0813--ISSUER-OFFICIAL-ATTACHMENT--ATT-01--01a0b617-7f3e-79fe-a71d-b23b83d586fb.pdf",
+          "mime_type": "application/pdf",
+          "size_bytes": 205366,
+          "kind": "file",
+          "modified_time": "2026-09-19T03:04:47.611Z"
+        },
+        {
+          "id": "1VQPiZNK-nzHKYD8eucU_YBLt8fQHFZyA",
+          "name": "BR-FED-COFEN-RES-0812--ISSUER-OFFICIAL-ATTACHMENT--ATT-02--01a0b617-7efe-7705-b1f7-8c88ea741e1f.pdf",
+          "mime_type": "application/pdf",
+          "size_bytes": 152349,
+          "kind": "file",
+          "modified_time": "2026-09-19T03:04:06.526Z"
+        },
+        {
+          "id": "1MBOu16dfsU8mA-AsymT0AYsfm-qFTKoJ",
+          "name": "BR-FED-COFEN-RES-0810--ISSUER-OFFICIAL-ATTACHMENT--ATT-01--01a0b617-7e62-71dd-8696-d1623c4ad372.pdf",
+          "mime_type": "application/pdf",
+          "size_bytes": 228437,
+          "kind": "file",
+          "modified_time": "2026-09-19T03:02:52.968Z"
+        },
+        {
+          "id": "1PONS4d_cIFp3r5IepoRwuh36J4W2Pbly",
+          "name": "BR-FED-COFEN-RES-0811--ISSUER-OFFICIAL-ATTACHMENT--ATT-01--01a0b617-7ebd-7e30-95c2-338a066f8cbe.pdf",
+          "mime_type": "application/pdf",
+          "size_bytes": 150571,
+          "kind": "file",
+          "modified_time": "2026-09-19T03:02:50.892Z"
+        },
+        {
+          "id": "1knfLaAhBvcjjRyBR_MsnvaaESG5n_ekS",
+          "name": "CKO Regulatory Project Finals - CLEAN v1.4.0 FINAL",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-09-19T00:13:09.307Z"
+        },
+        {
+          "id": "1qJsyn4V3YoBcIK56J73Nel4_zItY9zfJ",
+          "name": "CKO_v1.4.0_WORKING_TOOLS",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-09-18T22:15:11.275Z"
+        },
+        {
+          "id": "11S0ryNXZyANkR3bqgtvDArHVj9K4oDEm",
+          "name": "CKO_v1.4.0_CMD_AND_AUDIT",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-09-18T22:13:41.083Z"
+        },
+        {
+          "id": "1-h6hL4RNakqcVcP1adUfD3w9PfQayuMx",
+          "name": "CKO Regulatory Project Finals - CLEAN v1.4.0 (OPENABLE)",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-09-18T21:39:15.623Z"
+        },
+        {
+          "id": "1PYltTmsIqfmWURem-N01qM5FkImAW-8V",
+          "name": "CKO Regulatory Project Finals - CLEAN v1.4.0.zip.sha256",
+          "mime_type": "application/octet-stream",
+          "size_bytes": 113,
+          "kind": "file",
+          "modified_time": "2026-09-18T21:15:51.232Z"
+        },
+        {
+          "id": "16gh1aMFOmuSYileAYF8yKG6LbVboKdqk",
+          "name": "CKO_NORMATIVE_F1_ARCH_DATA_GOV_NUMERIC_R88F_V4_EXECUTED_20260911.zip.sha256",
+          "mime_type": "text/plain",
+          "size_bytes": 135,
+          "kind": "file",
+          "modified_time": "2026-09-11T09:31:19.303Z"
+        },
+        {
+          "id": "1lvxyeEyTu0aNVNYifeJQhWqcvpgiJNjq",
+          "name": "CKO_NORMATIVE_F1_ARCH_DATA_GOV_NUMERIC_R88F_V4_EXECUTED_20260911.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 2472854,
+          "kind": "file",
+          "modified_time": "2026-09-11T09:31:17.999Z"
+        },
+        {
+          "id": "11VdC9di0R3kU0vl2u6lFYrlFwwZdQYaj",
+          "name": "CKO_NORMATIVE_F1_ARCH_DATA_GOV_NUMERIC_R88F",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-09-11T07:37:38.876Z"
+        },
+        {
+          "id": "18n1WADvQU4GUPboOZgaIF7BFl46quUT_IfoQcABSXfM",
+          "name": "CKO-BB-INTL-PROVIDER-PRESENCE-RECON-20260830-1022Z",
+          "mime_type": "application/vnd.google-apps.document",
+          "size_bytes": 19784,
+          "kind": "file",
+          "modified_time": "2026-09-10T16:51:02.950Z"
+        },
+        {
+          "id": "1xtQKJ34432WhHucLPxA591Cq3p2QKAobmamGvHltYKI",
+          "name": "CKO — Monitoramento de Reputação Pública — 2026-09-07",
+          "mime_type": "application/vnd.google-apps.document",
+          "size_bytes": 4494,
+          "kind": "file",
+          "modified_time": "2026-09-07T22:02:31.405Z"
+        },
+        {
+          "id": "1QfCYnEGmiLB2zd42FV0hGXUTnEN1rfAf",
+          "name": "Technical Library Waves",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-09-07T21:58:57.385Z"
+        },
+        {
+          "id": "1Kf223iZkqhGI1ZBLGQ1fEXoa2V60uXxq",
+          "name": "Cópia de CKO-CONSOLIDATED-GOVERNED-ECOSYSTEM-v1.1.0-AGENT-PRECISION.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 7603550,
+          "kind": "file",
+          "modified_time": "2026-09-06T14:33:24.737Z"
+        },
+        {
+          "id": "1IIGACfverBbGeE18aQCqjb8yLinPX41G",
+          "name": "Technical Library Waves 016-022 — 2026-09-06",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-09-06T08:43:24.237Z"
+        },
+        {
+          "id": "1dTzObgqj08RG6IoT3cm7pzqvfi6tcUuT",
+          "name": "CKO-HANDOFF-CAL-TOOLS-CONSOLIDATION-v1.2.0-state.json",
+          "mime_type": "application/json",
+          "size_bytes": 15126,
+          "kind": "file",
+          "modified_time": "2026-09-02T10:50:53.802Z"
+        },
+        {
+          "id": "1bnPOHgwvjmcsv6pklH4jkTo0kMH-FvKw",
+          "name": "CKO-HANDOFF-CAL-TOOLS-CONSOLIDATION-v1.2.0.md",
+          "mime_type": "text/markdown",
+          "size_bytes": 13444,
+          "kind": "file",
+          "modified_time": "2026-09-02T10:50:48.299Z"
+        },
+        {
+          "id": "16HURBHxVwtbmRoa4LjYNFlreyvXZqrq7",
+          "name": "CKO-HANDOFF-CAL-TOOLS-CONSOLIDATION-v1.2.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 29705,
+          "kind": "file",
+          "modified_time": "2026-09-02T10:50:42.458Z"
+        },
+        {
+          "id": "17ycE9q-e7WYkDmUapjaPzsPGFi0Mgy6B",
+          "name": "CKO-CAL-TOOLS-NEW-FILES-RECONCILIATION-v0.1.0.md",
+          "mime_type": "text/markdown",
+          "size_bytes": 2540,
+          "kind": "file",
+          "modified_time": "2026-09-02T10:43:07.598Z"
+        },
+        {
+          "id": "1gEYwyG1-eHiFclIchHNda8HXSl24bV66",
+          "name": "CKO-CAL-TOOLS-NEW-FILES-RECONCILIATION-v0.1.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 16823,
+          "kind": "file",
+          "modified_time": "2026-09-02T10:42:59.273Z"
+        },
+        {
+          "id": "1p4wnw98c9GkLlVDHtNKC_WZ4pKNhIbB4",
+          "name": "90_FINAL_CONTROLLED",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-09-02T08:42:24.778Z"
+        },
+        {
+          "id": "12YgfrSwWGxoPs8jqhKmg1pMOA9KjrjAh",
+          "name": "CKO-LABOR-FERIAS-19J-SOURCE-ACQUISITION-v0.1.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 12173,
+          "kind": "file",
+          "modified_time": "2026-09-02T08:23:46.487Z"
+        },
+        {
+          "id": "1vAJ9T2VsArOla0HH7jOoRGV5vdBcTQW0",
+          "name": "CKO-LABOR-FERIAS-19J-SOURCE-DISCOVERY-v0.1.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 10750,
+          "kind": "file",
+          "modified_time": "2026-09-02T08:18:43.628Z"
+        },
+        {
+          "id": "1o6go8-BNKsRrS37NQ3qr-4Ya0_hILkP0",
+          "name": "CKO-VERTICAL-LINEAGE-GOLDEN-CLOSURE-v0.3.0-FINAL.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 20241,
+          "kind": "file",
+          "modified_time": "2026-09-02T08:18:00.420Z"
+        },
+        {
+          "id": "1axsjjkYlnTaBPzBp9s8HeJ3e1aZKBgR4",
+          "name": "CKO-PAGE-INSTITUTIONAL-WAVE2-v0.2.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 83292,
+          "kind": "file",
+          "modified_time": "2026-09-02T08:07:33.802Z"
+        },
+        {
+          "id": "1HnNaiYK1eAn_Ff48Vprkrt_eNQ61T9Ri",
+          "name": "CKO-LABOR-19-LOCALE-JURISDICTION-PLAN-v0.1.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 8356,
+          "kind": "file",
+          "modified_time": "2026-09-02T08:01:54.558Z"
+        },
+        {
+          "id": "1b4nULnofmEYl3v1hQy9Nr7Pb8KNZJQtu",
+          "name": "CKO-LABOR-TOOL-UNIVERSE-v0.1.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 4739,
+          "kind": "file",
+          "modified_time": "2026-09-02T07:55:29.388Z"
+        },
+        {
+          "id": "1TOp70WpoxvZN0rbda0rQfmXPVfMOio5u",
+          "name": "CKO-VERTICAL-LINEAGE-GOLDEN-v0.1.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 10215,
+          "kind": "file",
+          "modified_time": "2026-09-02T07:45:40.596Z"
+        },
+        {
+          "id": "1PJCExW7zVGs278QNKgjOj4O8RTsZnxrr",
+          "name": "PEWS-SCL-001-documentation-final-v0.1.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 17009,
+          "kind": "file",
+          "modified_time": "2026-09-02T07:30:38.567Z"
+        },
+        {
+          "id": "1boX2zmmCsVvstVVXvju3hKGahFcNtSsO",
+          "name": "CKO-PAGE-INSTITUTIONAL-WAVE1-v0.1.0-AUDIT.md",
+          "mime_type": "text/markdown",
+          "size_bytes": 2557,
+          "kind": "file",
+          "modified_time": "2026-09-02T07:28:19.319Z"
+        },
+        {
+          "id": "152IY4XKp82RcFk7sbCBHaiS3_6rKhcFL",
+          "name": "FLACC-SCL-001-successor-v0.1.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 1424257,
+          "kind": "file",
+          "modified_time": "2026-09-02T07:27:04.848Z"
+        },
+        {
+          "id": "145FmuXDjUf3O9Gt28hqllketIkgKQMdH",
+          "name": "CKO-PAGE-MISSION-CANDIDATE-v0.1.0-AUDIT-20260902",
+          "mime_type": "text/plain",
+          "size_bytes": 2255,
+          "kind": "file",
+          "modified_time": "2026-09-02T07:26:13.200Z"
+        },
+        {
+          "id": "1QRFHY7N3qxKY3cWrQOKlvd7yvvNt7hdE",
+          "name": "CKO-PAGE-MISSION-CANDIDATE-v0.1.0-20260902",
+          "mime_type": "text/html",
+          "size_bytes": 23822,
+          "kind": "file",
+          "modified_time": "2026-09-02T07:25:55.584Z"
+        },
+        {
+          "id": "1Kbok400fP5p16Za_gD-9eA8rAzwBp_n4",
+          "name": "CKO-PAGE-INSTITUTIONAL-WAVE1-v0.1.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 87616,
+          "kind": "file",
+          "modified_time": "2026-09-02T07:24:06.124Z"
+        },
+        {
+          "id": "1sptufmXTXOemvHDjj8nItJjkbCJMsiKd",
+          "name": "CRIES-SCL-001-successor-v0.1.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 1054675,
+          "kind": "file",
+          "modified_time": "2026-09-02T07:10:46.460Z"
+        },
+        {
+          "id": "1gtOnAIwJiyoYmT9l0XpYX8Bc5KCkEg7S",
+          "name": "PEWS-SCL-001-successor-v0.1.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 1766467,
+          "kind": "file",
+          "modified_time": "2026-09-02T07:10:21.308Z"
+        },
+        {
+          "id": "1lWMUUxjTZ_xuOQl9O0R0NyV6muEJvbKk",
+          "name": "NIPS-SCL-001-successor-v0.1.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 957169,
+          "kind": "file",
+          "modified_time": "2026-09-02T06:49:52.864Z"
+        },
+        {
+          "id": "1qt9f0UxhMGSahFOgaNxTn8MOwA2hWIO6",
+          "name": "DOWNES-SCL-001-successor-v0.1.0-FINAL.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 866503,
+          "kind": "file",
+          "modified_time": "2026-09-02T06:34:18.046Z"
+        },
+        {
+          "id": "18LvG6i4_8PaBdz9rzILvLOWpwPt1reT9",
+          "name": "SILVERMAN-SCL-001-successor-v0.1.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 1057703,
+          "kind": "file",
+          "modified_time": "2026-09-02T06:15:23.774Z"
+        },
+        {
+          "id": "1ldcbSJ0LssBkBLEPTPNWGH8JUJdK0fdj",
+          "name": "BALLARD-SCL-001-successor-v0.1.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 1339730,
+          "kind": "file",
+          "modified_time": "2026-09-02T05:52:21.954Z"
+        },
+        {
+          "id": "1JQNsXH4ahsKdCxOB4B5FBfKQQFLTFJ71",
+          "name": "CAPURRO-SCL-001-successor-v0.1.0-r1.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 1284593,
+          "kind": "file",
+          "modified_time": "2026-09-02T05:27:55.325Z"
+        },
+        {
+          "id": "14voPApC5eutP91Pr763apioORSf0AH8U",
+          "name": "CAPURRO-SCL-001-successor-v0.1.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 1283638,
+          "kind": "file",
+          "modified_time": "2026-09-02T05:26:03.969Z"
+        },
+        {
+          "id": "1G5DFhca04yzCPSGjFSR9bGEJ7VeUQnOk",
+          "name": "APGAR-SCL-001-successor-v0.2.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 1090184,
+          "kind": "file",
+          "modified_time": "2026-09-02T04:52:22.325Z"
+        },
+        {
+          "id": "1VV3e7yyAqH0fPfTHxRQ0yXZbqIOl_9um",
+          "name": "SCL-001-ALDRETE-AUDIT360-20260902-v1.0.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 16495,
+          "kind": "file",
+          "modified_time": "2026-09-02T04:29:24.102Z"
+        },
+        {
+          "id": "1rV6Hbqkz2EkMSJby-ib7ng32i-ABkTxI",
+          "name": "HANDOFF-SCL-001-ALDRETE-20260902.json",
+          "mime_type": "application/json",
+          "size_bytes": 5077,
+          "kind": "file",
+          "modified_time": "2026-09-02T04:04:45.870Z"
+        },
+        {
+          "id": "1YSkh-x9RfHRshppfcVpChUnInh4hNYfG",
+          "name": "CKO-CALENF-FULL-MATERIALIZED-BACKUP-20260902.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 38322276,
+          "kind": "file",
+          "modified_time": "2026-09-02T04:04:26.670Z"
+        },
+        {
+          "id": "1OYUbj6RcxlR_Xgv2tW56xgtyatjmxLuf",
+          "name": "SCL-001-ALDRETE-closure-manifest-20260902.json",
+          "mime_type": "application/json",
+          "size_bytes": 2583,
+          "kind": "file",
+          "modified_time": "2026-09-02T03:35:22.368Z"
+        },
+        {
+          "id": "1Q7uCk_YbrcZ6IRntL9R3GA5MJw8glTLJ",
+          "name": "SCL-001-ALDRETE-technical-closure-20260902.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 367394,
+          "kind": "file",
+          "modified_time": "2026-09-02T03:35:08.540Z"
+        },
+        {
+          "id": "1SzwM49gRi5Ku2U5IiWoUhkBZiiCFFGU_ktyteguQcsU",
+          "name": "CKO — REG APGAR Candidate Reconciliation Packet v0.1.0 — 2026-09-01",
+          "mime_type": "application/vnd.google-apps.document",
+          "size_bytes": 3093,
+          "kind": "file",
+          "modified_time": "2026-09-01T22:35:02.329Z"
+        },
+        {
+          "id": "15GbUz-vnS-8_o4dkuH6F_EgJjUHFvnPycIU9RPB9kS4",
+          "name": "CKO — APGAR E2E Candidate Patch v0.1.0 — 2026-09-01",
+          "mime_type": "application/vnd.google-apps.document",
+          "size_bytes": 4312,
+          "kind": "file",
+          "modified_time": "2026-09-01T22:30:53.815Z"
+        },
+        {
+          "id": "1GRmpXzz9zRRRe36IUzW12FqlJ87i869a",
+          "name": "AuditAgenticIA-v0.3.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 18283,
+          "kind": "file",
+          "modified_time": "2026-08-30T10:05:00.535Z"
+        },
+        {
+          "id": "1lAE8kf28TGV-rWlPMVCwo3A8YCZVZ-Eo",
+          "name": "AuditAgenticIA-v0.2.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 27554,
+          "kind": "file",
+          "modified_time": "2026-08-30T10:02:16.931Z"
+        },
+        {
+          "id": "1hZfeUguT_QXUatzmzawgyxeHuppkueYu",
+          "name": "AuditAgenticIA-v0.1.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 7745,
+          "kind": "file",
+          "modified_time": "2026-08-30T10:00:04.656Z"
+        },
+        {
+          "id": "16ogBG6KkTJ2smhh4eGdJWaNkokBVvS1u",
+          "name": "CKO-BB-XAI-ORCH-DIAGNOSTIC-20260830-001.md",
+          "mime_type": "text/plain",
+          "size_bytes": 472,
+          "kind": "file",
+          "modified_time": "2026-08-30T09:56:48.272Z"
+        },
+        {
+          "id": "1VPu7Gr7iUnQ2KOyrVfw0saLqWW4GhO6R",
+          "name": "CKO-DIAGNOSTIC-VALIDATION-v1.0.0.md",
+          "mime_type": "text/plain",
+          "size_bytes": 6021,
+          "kind": "file",
+          "modified_time": "2026-08-30T09:56:46.928Z"
+        },
+        {
+          "id": "1TYqCF0NjWQSCp_u5Wb9WpSIaRJdyH-yKXRVFX1Hp5EA",
+          "name": "CKO-F5-LEARNING-CANDIDATES-17-OPEN-FINDINGS-v0.1-20260830",
+          "mime_type": "application/vnd.google-apps.document",
+          "size_bytes": 6439,
+          "kind": "file",
+          "modified_time": "2026-08-30T09:41:56.279Z"
+        },
+        {
+          "id": "175wKmoanqTV7FGcQRrSA0paln_Vq_DyMtNQsAXWpU0c",
+          "name": "CKO-F5-44-LAYER-FANIN-MATRIX-v0.2-20260830",
+          "mime_type": "application/vnd.google-apps.document",
+          "size_bytes": 4255,
+          "kind": "file",
+          "modified_time": "2026-08-30T09:38:27.785Z"
+        },
+        {
+          "id": "1BHfH3SEkln4ajijZ5Swe_rrY0k_zwoqRjbzno5vAsd8",
+          "name": "CKO-F5-FINAL-HUMAN-REVIEW-REGISTER-v0.1-20260830",
+          "mime_type": "application/vnd.google-apps.document",
+          "size_bytes": 2703,
+          "kind": "file",
+          "modified_time": "2026-08-30T09:34:21.246Z"
+        },
+        {
+          "id": "1LE7sfw-Fv8m9-mmWmFBNecjZpYqNbmiSQmA_qNxY2mo",
+          "name": "CKO-LIBRARY-41-TO-38-CROSSWALK-ROW-ADDRESSABLE-v1.0.0",
+          "mime_type": "application/vnd.google-apps.document",
+          "size_bytes": 4741,
+          "kind": "file",
+          "modified_time": "2026-08-30T09:32:20.911Z"
+        },
+        {
+          "id": "1yissH38AktvOy0clgJttlUXVZ2Ot-JpC",
+          "name": "CKO-BB-XAI-ORCH-MSG-20260830-004.md",
+          "mime_type": "text/plain",
+          "size_bytes": 1868,
+          "kind": "file",
+          "modified_time": "2026-08-30T09:27:33.224Z"
+        },
+        {
+          "id": "1WGOzDIlhNJuCTVY1DtSFw5XYQqF0FLmc",
+          "name": "CKO-BB-XAI-ORCH-AUDIT-SEED-20260830-001.md",
+          "mime_type": "text/plain",
+          "size_bytes": 1050,
+          "kind": "file",
+          "modified_time": "2026-08-30T09:24:36.907Z"
+        },
+        {
+          "id": "17sePGosvIK_z9YUtqFxNQPzr_xgWqBSm",
+          "name": "XAI_OAI_DIFFERENTIAL_MATRIX_44_v2.md",
+          "mime_type": "text/plain",
+          "size_bytes": 7048,
+          "kind": "file",
+          "modified_time": "2026-08-30T09:24:35.406Z"
+        },
+        {
+          "id": "1uuEak4IxlG7r8ENZwbfj9QZJIrL3K0j7",
+          "name": "cko-seed-adjustments-20260830.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 11947,
+          "kind": "file",
+          "modified_time": "2026-08-30T09:24:34.506Z"
+        },
+        {
+          "id": "1heW_M-PMi40EZKHdRXkcp3Lk0BczkmapKJhHW4SlAgk",
+          "name": "CKO-F3-Experience-Publication-Technical-Closure-v1.0.0-20260830",
+          "mime_type": "application/vnd.google-apps.document",
+          "size_bytes": 6417,
+          "kind": "file",
+          "modified_time": "2026-08-30T09:20:45.688Z"
+        },
+        {
+          "id": "1gGatFtBQjQi9Enyy11rWlQbB_RZr0hGjfWGBCZ_RLt8",
+          "name": "CKO-F4-Runtime-Assurance-Technical-Closure-v1.0.0-20260830",
+          "mime_type": "application/vnd.google-apps.document",
+          "size_bytes": 6659,
+          "kind": "file",
+          "modified_time": "2026-08-30T09:19:29.131Z"
+        },
+        {
+          "id": "13QAza68UN-PAy_alcTcnE1WtEc-XeJ3gEGxJEA5pXDo",
+          "name": "CKO-BB-F5-CONTROL-TOWER-PREWORK-20260830-001",
+          "mime_type": "application/vnd.google-apps.document",
+          "size_bytes": 4637,
+          "kind": "file",
+          "modified_time": "2026-08-30T09:17:57.348Z"
+        },
+        {
+          "id": "1NR6Or5jY87IreGJC6ar9r7tETdRQTBzyfMMx00_tnMQ",
+          "name": "CKO-BB-OAI-XAI-COUNTERCHALLENGE-RESPONSE-002",
+          "mime_type": "application/vnd.google-apps.document",
+          "size_bytes": 4608,
+          "kind": "file",
+          "modified_time": "2026-08-30T09:16:31.908Z"
+        },
+        {
+          "id": "1gMR-x4hMe9Tutxs0xjE4NFDeLRGH5Ihx",
+          "name": "CKO-F1-FOUNDATION-EVIDENCE-TECHNICAL-RECONCILIATION-v1.0.1.md",
+          "mime_type": "text/markdown",
+          "size_bytes": 2315,
+          "kind": "file",
+          "modified_time": "2026-08-30T09:15:57.435Z"
+        },
+        {
+          "id": "1SSwgjJmNNNsHbgpjwb4ji3ugtdgoSOFh",
+          "name": "CKO-F1-FOUNDATION-EVIDENCE-TECHNICAL-RECONCILIATION-v1.0.1.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 66362,
+          "kind": "file",
+          "modified_time": "2026-08-30T09:15:52.617Z"
+        },
+        {
+          "id": "1RV6R6n-N1-HpnXope5VyQfgB4SxGB5wGMkkNgbEI_yg",
+          "name": "CKO-LAYER-CATALOG-44-CURRENT-20260830",
+          "mime_type": "application/vnd.google-apps.document",
+          "size_bytes": 2887,
+          "kind": "file",
+          "modified_time": "2026-08-30T09:15:22.560Z"
+        },
+        {
+          "id": "1Yo_KAidQZCQgjbjmeE_r4SCZK4nzjC7SU0bjRWQCGIo",
+          "name": "CKO — F2 Clinical & Knowledge — Final Technical Checkpoint v1.0.0 — 2026-08-30",
+          "mime_type": "application/vnd.google-apps.document",
+          "size_bytes": 4916,
+          "kind": "file",
+          "modified_time": "2026-08-30T09:14:28.046Z"
+        },
+        {
+          "id": "1tamN-mFDzyvNHsrzZSV501fv-JKKjhKg",
+          "name": "CKO-BB-XAI-ORCH-TRANSMITTAL-20260830-001.md",
+          "mime_type": "text/plain",
+          "size_bytes": 3122,
+          "kind": "file",
+          "modified_time": "2026-08-30T09:12:42.404Z"
+        },
+        {
+          "id": "1nm2-e_HDovIa_Ut1ffV4mVzPCXqdflmU",
+          "name": "CKO-F1-FOUNDATION-EVIDENCE-TECHNICAL-RECONCILIATION-v1.0.0.md",
+          "mime_type": "text/markdown",
+          "size_bytes": 1859,
+          "kind": "file",
+          "modified_time": "2026-08-30T09:11:45.015Z"
+        },
+        {
+          "id": "1fs_EbQdsQiiwziyZZ_rcuhZ2yDrOXfWI",
+          "name": "CKO-F1-FOUNDATION-EVIDENCE-TECHNICAL-RECONCILIATION-v1.0.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 64655,
+          "kind": "file",
+          "modified_time": "2026-08-30T09:11:39.304Z"
+        },
+        {
+          "id": "1KpERm8tvN2h3X5-zYBhr6vliHcQHUbw7",
+          "name": "CKO-BB-XAI-ORCH-FOLLOW-20260830-003.md",
+          "mime_type": "text/plain",
+          "size_bytes": 594,
+          "kind": "file",
+          "modified_time": "2026-08-30T09:09:50.494Z"
+        },
+        {
+          "id": "1pRG_7dmsllcp3wzMe5CQmhTW3QrjcvL5",
+          "name": "cko-platform-adjustments-20260830-v2.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 14704,
+          "kind": "file",
+          "modified_time": "2026-08-30T09:09:49.185Z"
+        },
+        {
+          "id": "1osZvWsxRRrvHfSlToWYdlCPfse20LPCM",
+          "name": "CKO-BB-XAI-ORCH-PLATFORM-FIX-20260830-001.md",
+          "mime_type": "text/plain",
+          "size_bytes": 590,
+          "kind": "file",
+          "modified_time": "2026-08-30T09:02:54.969Z"
+        },
+        {
+          "id": "1BMO4hODi_EPN2R8Hfw0KChoNg_sSHbOP",
+          "name": "cko-platform-adjustments-20260830.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 11220,
+          "kind": "file",
+          "modified_time": "2026-08-30T09:02:53.477Z"
+        },
+        {
+          "id": "1EQU6Ltrxgk9N-iK_kSJuNiW88uAksPCo",
+          "name": "CKO-BB-XAI-ORCH-AUTH-REQUEST-20260830-001.md",
+          "mime_type": "text/plain",
+          "size_bytes": 1939,
+          "kind": "file",
+          "modified_time": "2026-08-30T08:59:43.041Z"
+        },
+        {
+          "id": "1yAGH4AiDx8imKuqi4CELYG3Ev4JBx_v3",
+          "name": "CKO-BB-XAI-ORCH-CC-EVENT-20260830-001.md",
+          "mime_type": "text/plain",
+          "size_bytes": 861,
+          "kind": "file",
+          "modified_time": "2026-08-30T08:57:31.782Z"
+        },
+        {
+          "id": "1E96mh5xgKCnl0C3OekzvQaw319HHp-jI",
+          "name": "CKO-BB-XAI-OAI-CONVERGENCE-MATRIX-v1.md",
+          "mime_type": "text/plain",
+          "size_bytes": 3961,
+          "kind": "file",
+          "modified_time": "2026-08-30T08:57:30.245Z"
+        },
+        {
+          "id": "1mbSh6k4S8AtISZoU-yB3B6d1zwd1P-1I",
+          "name": "CKO-BB-XAI-COUNTERCHALLENGE-RESPONSE-001.md",
+          "mime_type": "text/plain",
+          "size_bytes": 7560,
+          "kind": "file",
+          "modified_time": "2026-08-30T08:57:29.210Z"
+        },
+        {
+          "id": "1RCWcQVagHi1YeS3QmI6C0OJmFmcoRS5rlQ-FhjuSR0g",
+          "name": "CKO-BB-OAI-XAI-COUNTERCHALLENGE-20260830-001",
+          "mime_type": "application/vnd.google-apps.document",
+          "size_bytes": 5664,
+          "kind": "file",
+          "modified_time": "2026-08-30T08:46:17.952Z"
+        },
+        {
+          "id": "1cs0Ck7TjpofkQc8Sf1eP3qfb5RzPUjw01cMEib29xmk",
+          "name": "CKO-BB-OPENAI-XAI-COUNTERREVIEW-20260830-001",
+          "mime_type": "application/vnd.google-apps.document",
+          "size_bytes": 5396,
+          "kind": "file",
+          "modified_time": "2026-08-30T08:45:56.018Z"
+        },
+        {
+          "id": "18VX8TY4AiL6uyf2IR_x2bFAF_6ie0XB5EstYcC2xS94",
+          "name": "CKO-BB-OPENAI-XAI-COUNTERREVIEW-CONVERGENCE-20260830-001",
+          "mime_type": "application/vnd.google-apps.document",
+          "size_bytes": 5072,
+          "kind": "file",
+          "modified_time": "2026-08-30T08:45:02.162Z"
+        },
+        {
+          "id": "1MJxz11PlVAAmOVH02RCm8FPnitBZGJKDmYvPIy-ummc",
+          "name": "CKO-BB-INTL-PROVIDER-PRESENCE-RECON-20260830-0833Z",
+          "mime_type": "application/vnd.google-apps.document",
+          "size_bytes": 3414,
+          "kind": "file",
+          "modified_time": "2026-08-30T08:36:53.454Z"
+        },
+        {
+          "id": "1ZMni-mKedNW-qcQKLe2Z9U3uv2ghuwx_",
+          "name": "CKO-BB-XAI-ORCH-L2L5-EVENT-20260830-001.md",
+          "mime_type": "text/plain",
+          "size_bytes": 641,
+          "kind": "file",
+          "modified_time": "2026-08-30T08:33:09.049Z"
+        },
+        {
+          "id": "1Rq8VkCktNU5hyGiR5RizZc0rs5IOBFtX",
+          "name": "CKO-BB-XAI-F1-L5-PILOTS-20260830-001.md",
+          "mime_type": "text/plain",
+          "size_bytes": 3986,
+          "kind": "file",
+          "modified_time": "2026-08-30T08:33:07.835Z"
+        },
+        {
+          "id": "1jNERNYDPXXdfEOkuuLq_8lzP3w6mZOXr",
+          "name": "CKO-BB-XAI-F1-L4-ORCH-TOOLING-20260830-001.md",
+          "mime_type": "text/plain",
+          "size_bytes": 4153,
+          "kind": "file",
+          "modified_time": "2026-08-30T08:33:06.526Z"
+        },
+        {
+          "id": "18l3JqPKL-43u3qJfFMOSKUt8pCqihJXs",
+          "name": "CKO-BB-XAI-F1-L3-CORRECTIONS-20260830-001.md",
+          "mime_type": "text/plain",
+          "size_bytes": 5071,
+          "kind": "file",
+          "modified_time": "2026-08-30T08:33:05.321Z"
+        },
+        {
+          "id": "1OOFV5C8oHHb_zbD686SNQptUAY0wW5CW",
+          "name": "CKO-BB-XAI-F1-L2-LEARNING-20260830-001.md",
+          "mime_type": "text/plain",
+          "size_bytes": 3480,
+          "kind": "file",
+          "modified_time": "2026-08-30T08:33:03.640Z"
+        },
+        {
+          "id": "1R5sKRg_de-QddmEbFOVP0AogELZv5Q4k",
+          "name": "CKO-HANDOFF-XAI-100-PERCENT-INDEPENDENT-REVIEW-v1.0.0.md",
+          "mime_type": "text/markdown",
+          "size_bytes": 5668,
+          "kind": "file",
+          "modified_time": "2026-08-30T08:25:01.678Z"
+        },
+        {
+          "id": "1kUTy2yPcoV-bxv9OkLfHDveAPub5KRoM",
+          "name": "CKO-BB-XAI-ORCH-F1-EVENT-20260830-001.md",
+          "mime_type": "text/plain",
+          "size_bytes": 619,
+          "kind": "file",
+          "modified_time": "2026-08-30T08:24:17.799Z"
+        },
+        {
+          "id": "1RhEVnohAIgKG-2VyCwM4b1rXfS9GdK8j",
+          "name": "CKO-BB-XAI-F1-CHALLENGE-20260830-001.md",
+          "mime_type": "text/plain",
+          "size_bytes": 10960,
+          "kind": "file",
+          "modified_time": "2026-08-30T08:24:00.303Z"
+        },
+        {
+          "id": "18yR2MHQeNRDDliURkYqnTQj8cyT1TX8R",
+          "name": "CKO-HANDOFF-XAI-F1-CHALLENGE-v1.0.0.sha256",
+          "mime_type": "application/octet-stream",
+          "size_bytes": 105,
+          "kind": "file",
+          "modified_time": "2026-08-30T08:19:38.246Z"
+        },
+        {
+          "id": "1veGTvt0vNiNfNyZOM1VV7tHbEB75Anzh",
+          "name": "CKO-HANDOFF-XAI-F1-CHALLENGE-v1.0.0.md",
+          "mime_type": "text/markdown",
+          "size_bytes": 2855,
+          "kind": "file",
+          "modified_time": "2026-08-30T08:19:33.526Z"
+        },
+        {
+          "id": "19iTgtS2sCFsBT6TcpCE9IG5JVOJX7uKd",
+          "name": "CKO-HANDOFF-F5-v1.0.0.md",
+          "mime_type": "text/markdown",
+          "size_bytes": 3131,
+          "kind": "file",
+          "modified_time": "2026-08-30T08:14:55.583Z"
+        },
+        {
+          "id": "18lVjYRwT0f7AZv2d5o1vwghM7VGk7-Cq",
+          "name": "CKO-HANDOFF-F4-v1.0.0.md",
+          "mime_type": "text/markdown",
+          "size_bytes": 3243,
+          "kind": "file",
+          "modified_time": "2026-08-30T08:14:50.649Z"
+        },
+        {
+          "id": "1oqWrqC8idoc25tS5xlnI8h5RyMcblCqv",
+          "name": "CKO-HANDOFF-F3-v1.0.0.md",
+          "mime_type": "text/markdown",
+          "size_bytes": 3144,
+          "kind": "file",
+          "modified_time": "2026-08-30T08:14:45.797Z"
+        },
+        {
+          "id": "1xmnGpCUQSPpdTTmDJlq9cLeh99DK_PDS",
+          "name": "CKO-HANDOFF-F2-v1.0.0.md",
+          "mime_type": "text/markdown",
+          "size_bytes": 3156,
+          "kind": "file",
+          "modified_time": "2026-08-30T08:14:41.390Z"
+        },
+        {
+          "id": "1aB8Oe8a2mm9HWlsyHhMO0grkpCVMY26d",
+          "name": "CKO-HANDOFF-F1-v1.0.0.md",
+          "mime_type": "text/markdown",
+          "size_bytes": 3194,
+          "kind": "file",
+          "modified_time": "2026-08-30T08:14:36.412Z"
+        },
+        {
+          "id": "1DLD8kl8DMq6IzmDf0FQioAULNALDnQN4",
+          "name": "CKO-5-Macrofront-Handoffs-v1.0.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 10330,
+          "kind": "file",
+          "modified_time": "2026-08-30T08:14:31.714Z"
+        },
+        {
+          "id": "1W9DmTPxVvSM2dvTgZlnNcKQhDqaRmxvR",
+          "name": "CKO-BB-XAI-ORCH-STATUS-20260830-001.md",
+          "mime_type": "text/plain",
+          "size_bytes": 1823,
+          "kind": "file",
+          "modified_time": "2026-08-30T07:56:39.314Z"
+        },
+        {
+          "id": "1uU0I8VTBCzoTKicr0Eocgc_MQAoMCOeg",
+          "name": "CKO-BB-XAI-ORCH-COMMS-LIMIT-20260830-001.md",
+          "mime_type": "text/plain",
+          "size_bytes": 4878,
+          "kind": "file",
+          "modified_time": "2026-08-30T07:46:15.614Z"
+        },
+        {
+          "id": "1JUacBTkpkijioNJJWuT-MrpOfaQxz70SQRKOzmjZXq4",
+          "name": "CKO — Executor Coordination Delegation v1.0.0 — 2026-08-30",
+          "mime_type": "application/vnd.google-apps.document",
+          "size_bytes": 2936,
+          "kind": "file",
+          "modified_time": "2026-08-30T07:29:58.485Z"
+        },
+        {
+          "id": "1K6N3LCxaRWy3HztlRa809d0M68EKvdKK",
+          "name": "CKO-BB-XAI-W0-CHALLENGE-20260830-001.md",
+          "mime_type": "text/plain",
+          "size_bytes": 21438,
+          "kind": "file",
+          "modified_time": "2026-08-30T07:22:51.587Z"
+        },
+        {
+          "id": "1eYIs87UlcytUHgnnupO3x0E0GOk5nQzVeuteds1HdR0",
+          "name": "CKO-BB-ANTHROPIC-ORCH-ASSIGN-20260830-001",
+          "mime_type": "application/vnd.google-apps.document",
+          "size_bytes": 3141,
+          "kind": "file",
+          "modified_time": "2026-08-30T07:16:57.405Z"
+        },
+        {
+          "id": "1Z366roQ7icflniYjQj6tTUkbIlcirp6pzf0JvgXfmUI",
+          "name": "CKO-BB-XAI-ORCH-ASSIGN-20260830-003",
+          "mime_type": "application/vnd.google-apps.document",
+          "size_bytes": 3325,
+          "kind": "file",
+          "modified_time": "2026-08-30T07:16:35.511Z"
+        },
+        {
+          "id": "1zbi8YXftIDiy4-oUJtZrnzEq0A62w04nWNk38J2mNcQ",
+          "name": "CKO — H11 Accessibility Closure Backup v1.0.0 — 2026-08-30",
+          "mime_type": "application/vnd.google-apps.document",
+          "size_bytes": 2375,
+          "kind": "file",
+          "modified_time": "2026-08-30T06:49:07.709Z"
+        },
+        {
+          "id": "1pajzOJmFjSk3zlz4ZdedVJAhWR66P9m8u7dOknvt9F4",
+          "name": "CKO — Bootstrap DeepSeek API Worker v1.0.0 — 2026-08-30",
+          "mime_type": "application/vnd.google-apps.document",
+          "size_bytes": 7276,
+          "kind": "file",
+          "modified_time": "2026-08-30T06:39:38.889Z"
+        },
+        {
+          "id": "1uvM8QlWoy2_0WNx1UTg2gysNMAFQEQMj",
+          "name": "CKO-BB-XAI-ORCH-FOLLOWUP-20260830-002.md",
+          "mime_type": "text/plain",
+          "size_bytes": 4986,
+          "kind": "file",
+          "modified_time": "2026-08-30T06:32:57.973Z"
+        },
+        {
+          "id": "1-KT-Mj-ymfmIkq7jyqYksHenNwYOeczr",
+          "name": "CKO-BB-XAI-ORCH-FOLLOWUP-20260830-001.md",
+          "mime_type": "text/plain",
+          "size_bytes": 5711,
+          "kind": "file",
+          "modified_time": "2026-08-30T06:24:22.240Z"
+        },
+        {
+          "id": "1L12rQY89Z-4Mne-rzlHEvfBYGpWyzJ6S",
+          "name": "CKO-START-HERE-MULTIAGENT-v1.0.1.md",
+          "mime_type": "text/plain",
+          "size_bytes": 8800,
+          "kind": "file",
+          "modified_time": "2026-08-30T06:18:19.073Z"
+        },
+        {
+          "id": "1lP3kdZNeYk0RFFJbH36er2Dvb9UB-Wk_b5u_PBarUDc",
+          "name": "CKO — Parallel Front Status & Orchestrator Instructions v1.0.0 — 2026-08-30",
+          "mime_type": "application/vnd.google-apps.document",
+          "size_bytes": 4326,
+          "kind": "file",
+          "modified_time": "2026-08-30T06:05:43.556Z"
+        },
+        {
+          "id": "1TjFBRbguG2hFtg2uIKhFCdrJolbB3fyB95Oyg92tiaw",
+          "name": "CKO — START HERE Multiagent Shared Blackboard v1.0.1 — 2026-08-30",
+          "mime_type": "application/vnd.google-apps.document",
+          "size_bytes": 6386,
+          "kind": "file",
+          "modified_time": "2026-08-30T06:01:45.817Z"
+        },
+        {
+          "id": "10tK7IMYwmvxxQl9Jp22CVOzfogaIHeMbvIS-TeVWfNU",
+          "name": "CKO — START HERE Multiagent Shared Blackboard v1.0.0 — 2026-08-30",
+          "mime_type": "application/vnd.google-apps.document",
+          "size_bytes": 6386,
+          "kind": "file",
+          "modified_time": "2026-08-30T06:00:16.500Z"
+        },
+        {
+          "id": "17zFLkAtT2paoDmrFhpH4C5arsFdneEOyXuPfa0twjt4",
+          "name": "CKO — PMO Multiagente Design System + Shared Blackboard Orchestration v1.4.0 — 2026-08-30",
+          "mime_type": "application/vnd.google-apps.document",
+          "size_bytes": 18884,
+          "kind": "file",
+          "modified_time": "2026-08-30T05:46:06.351Z"
+        },
+        {
+          "id": "1K4jBnYfmaxiCNxHdFFbFUqjdrHGocunegbRuC0Mup7U",
+          "name": "CKO — PMO Multiagente Design System + External AI Bridge v1.2.0 — 2026-08-30",
+          "mime_type": "application/vnd.google-apps.document",
+          "size_bytes": 15071,
+          "kind": "file",
+          "modified_time": "2026-08-30T05:26:00.579Z"
+        },
+        {
+          "id": "1CPgcQqliavUohQSK3mNm09lW3D_SR6mz",
+          "name": "CKO_DS_CANON_HEALTH_BRANDING_2026-08-30_v0.1.0.sha256",
+          "mime_type": "text/plain",
+          "size_bytes": 117,
+          "kind": "file",
+          "modified_time": "2026-08-30T05:06:28.632Z"
+        },
+        {
+          "id": "1FRbPO67cn7W2fZNRY7xILauKYpuvd6wA",
+          "name": "CKO_DS_CANON_HEALTH_BRANDING_2026-08-30_v0.1.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 15946,
+          "kind": "file",
+          "modified_time": "2026-08-30T05:06:20.087Z"
+        },
+        {
+          "id": "1FSFvGtjuRth-tACF48lhX6noDYM53-QjC2ZU2eE4Ik0",
+          "name": "CKO — Design System Canonicalization + Health Branding Cell v0.1.0 — 2026-08-30",
+          "mime_type": "application/vnd.google-apps.document",
+          "size_bytes": 4884,
+          "kind": "file",
+          "modified_time": "2026-08-30T05:06:09.011Z"
+        },
+        {
+          "id": "1Nezgag9Q4VmliQzX-AesrkEZDwfrWbyW",
+          "name": "CKO-RUN-FIELD-UNIVERSE-RECONCILIATION-v1.0.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 85224,
+          "kind": "file",
+          "modified_time": "2026-08-30T04:47:40.053Z"
+        },
+        {
+          "id": "1T11VHd9fn0lwwaYkOvF5kMv0dJVyCoss",
+          "name": "CKO-Hero-System",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-08-30T04:37:10.509Z"
+        },
+        {
+          "id": "1E86T50QIjB2_xVw2tbsshMqThZJV0PM2I8Dwq1_yk4Q",
+          "name": "CKO-VDC-Image-Specialist-Agents-v1.0.0-20260830",
+          "mime_type": "application/vnd.google-apps.document",
+          "size_bytes": 5244,
+          "kind": "file",
+          "modified_time": "2026-08-30T03:24:15.714Z"
+        },
+        {
+          "id": "1gfPYXnqgkQFyRsOTpHq35ug_4CJ3Vxc6",
+          "name": "CKO-HANDOFF-LIBRARY-CONTENT-SUPABASE-DRIVE-v1.0.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 7312,
+          "kind": "file",
+          "modified_time": "2026-08-30T03:23:03.357Z"
+        },
+        {
+          "id": "1IeaT1LTkpWxfFy45mpFaeQ4DP6gPMIT9",
+          "name": "CKO-HANDOFF-LIBRARY-CONTENT-SUPABASE-DRIVE-v1.0.0.md",
+          "mime_type": "text/markdown",
+          "size_bytes": 12503,
+          "kind": "file",
+          "modified_time": "2026-08-30T03:22:58.424Z"
+        },
+        {
+          "id": "1pAeTcnRNL6Lfc19Fp804xbGgvQ9-mJxx",
+          "name": "CKO-Library-Content-Factory-v1.0.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 4029998,
+          "kind": "file",
+          "modified_time": "2026-08-30T01:07:28.159Z"
+        },
+        {
+          "id": "1G2uPLziWS8XcocVyz43iIZdbeafG0RSn",
+          "name": "CKO-Library-Content-Phase-04-v1.0.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 2608,
+          "kind": "file",
+          "modified_time": "2026-08-30T01:07:22.113Z"
+        },
+        {
+          "id": "1ffoRBXYGNQaZ0YbHFffiy4-2RjTAbJJS",
+          "name": "CKO-Library-Content-Phase-03-v1.0.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 980228,
+          "kind": "file",
+          "modified_time": "2026-08-30T01:07:16.679Z"
+        },
+        {
+          "id": "11p_SOfrAQlp2eaBlGgVmEg6_WY_45A1b",
+          "name": "CKO-Library-Content-Phase-02-v1.0.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 1078184,
+          "kind": "file",
+          "modified_time": "2026-08-30T01:07:09.328Z"
+        },
+        {
+          "id": "1OAkBJCuDJxBhmg2x1boW8rX0bewVuRBz",
+          "name": "CKO-Library-Content-Phase-01-v1.0.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 1583448,
+          "kind": "file",
+          "modified_time": "2026-08-30T01:07:01.049Z"
+        },
+        {
+          "id": "1htnxWm76N2iiOlbOFMrfJcGm_EUwf3Cq",
+          "name": "CKO-Accounting-Regulatory-Agent-Cells-v0.2.1",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-08-29T21:45:11.483Z"
+        },
+        {
+          "id": "1lux5cbHu-Njy5q4J39MC0qK6zF-dc0Xw",
+          "name": "CKO-TCU-Regulatory-Agent-Cells-v0.2.0",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-08-29T21:38:11.664Z"
+        },
+        {
+          "id": "1U-d6MSyrgfJPSLNXvtx09KUFZI1UZk0n",
+          "name": "CKO_REG_FRAMEWORK_EXTRACTION_PROGRESS_EVOLUTION.json",
+          "mime_type": "application/json",
+          "size_bytes": 4076,
+          "kind": "file",
+          "modified_time": "2026-08-29T21:05:51.015Z"
+        },
+        {
+          "id": "1mis7s2QC6cyN4WPi494X7sS6oiqmH_ah",
+          "name": "CKO_REG_FRAMEWORK_EXTRACTION_PROGRESS_DASHBOARD.html",
+          "mime_type": "text/html",
+          "size_bytes": 3282,
+          "kind": "file",
+          "modified_time": "2026-08-29T21:05:46.139Z"
+        },
+        {
+          "id": "1X0RUxWftBqQsvblWZJ7_tAXvzjvZ7gT-",
+          "name": "CKO_REG_FRAMEWORK_EXTRACTION_AGENTS_v1.0.1_PROGRESS.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 7307,
+          "kind": "file",
+          "modified_time": "2026-08-29T21:05:40.557Z"
+        },
+        {
+          "id": "1WRltl4atrawGa5P2RsmiaRlOrt0dLm_x",
+          "name": "CKO_REG_FRAMEWORK_EXTRACTION_AGENTS_v1.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 4147,
+          "kind": "file",
+          "modified_time": "2026-08-29T21:03:55.772Z"
+        },
+        {
+          "id": "1T3F-vF1_lHF7nqYqQTkwEMa32BpLyjsa",
+          "name": "CKO-AUDIT-RUNS-2026-08-29",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-08-29T20:50:25.261Z"
+        },
+        {
+          "id": "1AOCnTqUt9izeJxAX4k3XV-QpMx7tgSnX",
+          "name": "CKO-All-Tools-Content-Program-FINAL-CLOSURE-v1.0.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 17247165,
+          "kind": "file",
+          "modified_time": "2026-08-29T20:44:33.678Z"
+        },
+        {
+          "id": "1-0A22UHjRcmscIr4MHVmXcKXGwxy4U54",
+          "name": "CKO-Content-Phase-10-CLOSURE-v1.0.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 799340,
+          "kind": "file",
+          "modified_time": "2026-08-29T20:43:20.388Z"
+        },
+        {
+          "id": "193hEoWXA8xbxl30xApTlinw2S4yVWUAu",
+          "name": "CKO-Content-Phase-09-CLOSURE-v1.0.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 2816519,
+          "kind": "file",
+          "modified_time": "2026-08-29T20:43:15.070Z"
+        },
+        {
+          "id": "1jiu6Paomy7qDuY6M3-WCwFRH1uIap2YJ",
+          "name": "CKO-Content-Phase-08-CLOSURE-v1.0.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 2023058,
+          "kind": "file",
+          "modified_time": "2026-08-29T20:43:08.652Z"
+        },
+        {
+          "id": "1nZN21EfPacBadjeR8r8MMKZ687dvRdHA",
+          "name": "CKO-Content-Phase-07-CLOSURE-v1.0.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 1510431,
+          "kind": "file",
+          "modified_time": "2026-08-29T20:43:03.303Z"
+        },
+        {
+          "id": "1Zhu1KMlAlvTpaOx3P7H3tZTtk1lwcnFe",
+          "name": "CKO-Content-Phase-06-CLOSURE-v1.0.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 1933055,
+          "kind": "file",
+          "modified_time": "2026-08-29T20:42:56.826Z"
+        },
+        {
+          "id": "1dXlc2u-gLP1Ulhs-ytUhfJF9ywyK_LDf",
+          "name": "CKO-Content-Phase-05-CLOSURE-v1.0.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 2149009,
+          "kind": "file",
+          "modified_time": "2026-08-29T20:42:51.246Z"
+        },
+        {
+          "id": "1k2WsxvJvHYWq5wRQ8SFYYEqOgT5snsvS",
+          "name": "CKO-Content-Phase-04-CLOSURE-v1.0.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 2143163,
+          "kind": "file",
+          "modified_time": "2026-08-29T20:42:45.324Z"
+        },
+        {
+          "id": "10k9rU9jtQeK6o2ABYI_bbik-otR-r3Wy",
+          "name": "CKO-Content-Phase-03-CLOSURE-v1.0.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 1730212,
+          "kind": "file",
+          "modified_time": "2026-08-29T20:42:38.739Z"
+        },
+        {
+          "id": "1QgTZcvxuF95QJepxcLA-Ub7QXNKYV8ro",
+          "name": "CKO-Content-Phase-02-Neurology-Consciousness-AVC-CLOSURE-v1.0.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 3290489,
+          "kind": "file",
+          "modified_time": "2026-08-29T20:32:09.307Z"
+        },
+        {
+          "id": "1VonBvsG7lZHnenzvJq8RIPW7Dvq90DPg",
+          "name": "CKO-Content-Phase-01-Clinical-Calculations-CLOSURE-v1.0.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 1662321,
+          "kind": "file",
+          "modified_time": "2026-08-29T20:23:19.682Z"
+        },
+        {
+          "id": "1dADfn5GaagSfUwORAR5u5dMTuPHrmltn",
+          "name": "CKO-Content-Phase-01-Clinical-Calculations-READY-v1.1.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 104200,
+          "kind": "file",
+          "modified_time": "2026-08-29T20:19:12.725Z"
+        },
+        {
+          "id": "1Qd7yhYG2NN00ICjj6JIPqHWbu7M7zidB",
+          "name": "CKO-All-Remaining-Tools-Content-Program-v1.1.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 1663069,
+          "kind": "file",
+          "modified_time": "2026-08-29T20:19:07.223Z"
+        },
+        {
+          "id": "1eEtSH3HIoGoOvzZYTY5nYTyeylTlzGSJ",
+          "name": "CKO-Content-Phase-10-Labor-Calculations-READY-v1.0.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 65701,
+          "kind": "file",
+          "modified_time": "2026-08-29T20:12:02.709Z"
+        },
+        {
+          "id": "1uctFAlaykf6DfjPmXlJOrJoRCjAhl0Tk",
+          "name": "CKO-Content-Phase-09-Simulations-Study-Career-READY-v1.0.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 212296,
+          "kind": "file",
+          "modified_time": "2026-08-29T20:11:57.660Z"
+        },
+        {
+          "id": "1DqdbESeihQASuFBEaU39nZ29Exk3rQbE",
+          "name": "CKO-Content-Phase-08-Occupational-Psychosocial-Risk-READY-v1.0.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 147775,
+          "kind": "file",
+          "modified_time": "2026-08-29T20:11:52.141Z"
+        },
+        {
+          "id": "1mklJU7P_x5WpQ7Uj-gAbBoSmxQDCl_oq",
+          "name": "CKO-Content-Phase-07-ICU-Sepsis-Deterioration-Triage-READY-v1.0.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 170562,
+          "kind": "file",
+          "modified_time": "2026-08-29T20:11:46.499Z"
+        },
+        {
+          "id": "1pQ118Qt1nK0T9nivcZAhZtFTwGcCiqGj",
+          "name": "CKO-Content-Phase-06-Geriatrics-Cognition-Mental-Health-READY-v1.0.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 175466,
+          "kind": "file",
+          "modified_time": "2026-08-29T20:11:41.026Z"
+        },
+        {
+          "id": "1esjdPTn8BN3O_XufcEeOyxUbmPGq-98I",
+          "name": "CKO-Content-Phase-05-Neonatal-Pediatric-Obstetric-READY-v1.0.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 229030,
+          "kind": "file",
+          "modified_time": "2026-08-29T20:11:35.839Z"
+        },
+        {
+          "id": "1tEH7tuId1BkfndlNoYljIz5zsuDWcCmP",
+          "name": "CKO-Content-Phase-04-Pain-Pressure-Injuries-Wounds-READY-v1.0.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 183888,
+          "kind": "file",
+          "modified_time": "2026-08-29T20:11:30.056Z"
+        },
+        {
+          "id": "1S9O2csPXlehtcBHuxdBfUcAXENToO7Aa",
+          "name": "CKO-Content-Phase-03-Falls-Balance-Mobility-READY-v1.0.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 156757,
+          "kind": "file",
+          "modified_time": "2026-08-29T20:11:24.697Z"
+        },
+        {
+          "id": "17TWAUcmAzmi9sHDfa9OqTrznWvpVJbWa",
+          "name": "CKO-Content-Phase-02-Neurology-Consciousness-AVC-READY-v1.0.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 192748,
+          "kind": "file",
+          "modified_time": "2026-08-29T20:11:19.281Z"
+        },
+        {
+          "id": "1-tkSzG8jEX7GE9PHWOj82J7-4uzJ2Sao",
+          "name": "CKO-Content-Phase-01-Clinical-Calculations-READY-v1.0.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 145289,
+          "kind": "file",
+          "modified_time": "2026-08-29T20:11:14.209Z"
+        },
+        {
+          "id": "1xJmZfXvtFLqoWFu32kAIjCSXsjNjeErQ",
+          "name": "CKO-All-Remaining-Tools-Content-Program-v1.0.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 1704495,
+          "kind": "file",
+          "modified_time": "2026-08-29T20:11:08.622Z"
+        },
+        {
+          "id": "19aQTm5dvFhPJ5mkK1T-QNhh-tYmvk7C1",
+          "name": "CKO-Backup-Fugulin-Calculadoras-2026-08-29-v1.0.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 36173520,
+          "kind": "file",
+          "modified_time": "2026-08-29T19:16:07.095Z"
+        },
+        {
+          "id": "1Wk1lM6LZSa-9JxymyvdOhwucqARwcfjF",
+          "name": "CKO_PACOTE_COMPLETO_AGENTIC_MD_REG_PUBLICATION_2026-08-29.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 121632,
+          "kind": "file",
+          "modified_time": "2026-08-29T17:36:18.195Z"
+        },
+        {
+          "id": "15bJtoYm77_kPPUrxzZkTjty4zzW5Smtj",
+          "name": "CKO-Fugulin-Consolidado-W1-W8-v1.0.0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 24867768,
+          "kind": "file",
+          "modified_time": "2026-08-29T17:32:08.480Z"
+        },
+        {
+          "id": "1-h2dLv_aHoje7aV-W6ahzgl6_kcokRYi",
+          "name": "CKO_BACKUP_2026-08-28",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-08-28T19:25:44.783Z"
+        },
+        {
+          "id": "168EZdQaXsbLMuL1boEP1NWSy7h5wQLwv",
+          "name": "CKO-COREN-Projeto-Completo-v2.zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 2890533,
+          "kind": "file",
+          "modified_time": "2026-08-28T00:22:25.292Z"
+        },
+        {
+          "id": "1nr78x7i1vg8InQl7XIjayYx2tupajy18",
+          "name": "ATUAL",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-08-28T00:04:05.840Z"
+        },
+        {
+          "id": "1W_-PUyhJfggNlisklVBzLa60NASAUJ4S",
+          "name": "MEMORIA_E_GOVERNANCA",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-08-28T00:04:00.286Z"
+        },
+        {
+          "id": "1uJjcP_aqvp0KIzeTob3vUB5eRhnGjCl6",
+          "name": "VERSOES",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-08-28T00:03:54.277Z"
+        },
+        {
+          "id": "1MwPDt5a_6o8lFNTzJcAFANE1Gk3h8e2-9Ohd0gdFduw",
+          "name": "CKO-COREN-Auditoria-360-Matriz-v2",
+          "mime_type": "application/vnd.google-apps.spreadsheet",
+          "size_bytes": 13942,
+          "kind": "file",
+          "modified_time": "2026-08-27T22:48:02.940Z"
+        },
+        {
+          "id": "1VkHgxmMXIjVATDOb8GVCHRFIdGNphYqMQFtNKFxCecU",
+          "name": "CKO-COREN-Auditoria-360-Relatorio-v2.md",
+          "mime_type": "application/vnd.google-apps.document",
+          "size_bytes": 7109,
+          "kind": "file",
+          "modified_time": "2026-08-27T22:47:56.009Z"
+        },
+        {
+          "id": "114L2qvFdppY1_ID-Z2xiIjWGDvfydqD9",
+          "name": "Vila_do_Cuidado_CONSOLIDADO_2026-08-26",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-08-26T11:58:07.353Z"
+        },
+        {
+          "id": "1dNr-w0Iuip7dDWhhbyeP59l4xNx03iis",
+          "name": "Vila_do_Cuidado_backup_2026-08-26_0105.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 211827531,
+          "kind": "file",
+          "modified_time": "2026-08-26T04:04:36.473Z"
+        },
+        {
+          "id": "1i3XRWRGOfdZuJR7NjjaA-AUUsyGFxiJp",
+          "name": "AUDITORIA_Vila_2026-08-26.md",
+          "mime_type": "text/plain",
+          "size_bytes": 2337,
+          "kind": "file",
+          "modified_time": "2026-08-26T04:04:32.886Z"
+        },
+        {
+          "id": "1-c4blT3g4Q7NJMVMIZz090gUnTmI3UrV",
+          "name": "Vila_do_Cuidado_backup_2026-08-26_0105.sha256.txt",
+          "mime_type": "text/plain",
+          "size_bytes": 109,
+          "kind": "file",
+          "modified_time": "2026-08-26T04:04:31.810Z"
+        },
+        {
+          "id": "1VwvSeqaQiIdNoCqCJv_btKDX7zq2eXzK",
+          "name": "Vila_do_Cuidado_backup_2026-08-25_2256.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 99473307,
+          "kind": "file",
+          "modified_time": "2026-08-26T01:57:25.056Z"
+        },
+        {
+          "id": "1haVZKuLwapPCF-hiVaLDtr74EvRqpHa6",
+          "name": "Vila_do_Cuidado_backup_2026-08-25_2256.zip.sha256",
+          "mime_type": "application/octet-stream",
+          "size_bytes": 109,
+          "kind": "file",
+          "modified_time": "2026-08-26T01:57:22.902Z"
+        },
+        {
+          "id": "1MJ8Jv5O_3X99pP3f0ogzLZ1ddllNzxbh",
+          "name": "Vila_do_Cuidado_Plataforma_2026-08-25",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-08-25T22:43:35.198Z"
+        },
+        {
+          "id": "1abkGcvnwbybFUv6wZK6DOOZg8eBWNp7U",
+          "name": "CKO Backups",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-08-25T21:58:17.869Z"
+        },
+        {
+          "id": "152MrVMQHG76G8nVN0wMMqedvTpHzfEB-",
+          "name": "Dicionario clinico.zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 3062527,
+          "kind": "file",
+          "modified_time": "2026-08-25T21:14:13.000Z"
+        },
+        {
+          "id": "1gWNHhFjAx9qyBvlcHmdH6Sjw09cLIPHL",
+          "name": "CKO_Vila_do_Cuidado_Drive_Parte_01D_Documentacao_Design_e_Apoio.zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 34774688,
+          "kind": "file",
+          "modified_time": "2026-08-25T19:05:14.000Z"
+        },
+        {
+          "id": "1i2jqOeL1yxHmjezPZldfyWxv9iAfmCck",
+          "name": "PARTE_01_FRACIONADA_MANIFEST.json",
+          "mime_type": "application/json",
+          "size_bytes": 3143,
+          "kind": "file",
+          "modified_time": "2026-08-25T19:05:12.000Z"
+        },
+        {
+          "id": "10f3JKpsgDmMA6xp3R1dBKzgxJfThDEfA",
+          "name": "LEIA-ME_PARTE_01_FRACIONADA.txt",
+          "mime_type": "text/plain",
+          "size_bytes": 242,
+          "kind": "file",
+          "modified_time": "2026-08-25T19:05:09.000Z"
+        },
+        {
+          "id": "1UQvFryW2VbPi4JCxKmzp48M84QKNaox1",
+          "name": "CKO_Vila_do_Cuidado_Drive_Parte_01C_Versoes_Anteriores.zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 88328906,
+          "kind": "file",
+          "modified_time": "2026-08-25T19:04:56.000Z"
+        },
+        {
+          "id": "1gb77cMqt3GnMc6emlAaC13vLyer_ft_4",
+          "name": "CKO_Vila_do_Cuidado_Drive_Parte_01B_Web_Modular_e_Completo.zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 88054796,
+          "kind": "file",
+          "modified_time": "2026-08-25T19:04:48.000Z"
+        },
+        {
+          "id": "1ulo-kKQuQ7s6qBiyHP-H4_TyJULaww7B",
+          "name": "CKO_Vila_do_Cuidado_Drive_Parte_01A_Base_Core.zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 81412807,
+          "kind": "file",
+          "modified_time": "2026-08-25T19:04:46.000Z"
+        },
+        {
+          "id": "1_A955iIX68Dpm4ZlaTaGUtCscxb29bd0",
+          "name": "LEIA-ME_TRANSFERENCIA.txt",
+          "mime_type": "text/plain",
+          "size_bytes": 757,
+          "kind": "file",
+          "modified_time": "2026-08-25T18:50:13.000Z"
+        },
+        {
+          "id": "12V0ZXMXb8HqFccqePMlSzWGXTHG6nA8I",
+          "name": "TRANSFER_MANIFEST.json",
+          "mime_type": "application/json",
+          "size_bytes": 1148,
+          "kind": "file",
+          "modified_time": "2026-08-25T18:50:09.000Z"
+        },
+        {
+          "id": "1oYSXmBX7PxX8y4VNcqnS9Dt6RvgfulwE",
+          "name": "CKO_Vila_do_Cuidado_Drive_Parte_02_Conteudo_e_Decisao.zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 221624359,
+          "kind": "file",
+          "modified_time": "2026-08-25T18:49:46.000Z"
+        },
+        {
+          "id": "1wEACW4MQdXx8UHHMgr1gg67zQIWjAGRV",
+          "name": "CKO_Vila_do_Cuidado_Drive_Parte_03_Visuais_e_Conteudo_Expandido.zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 51452400,
+          "kind": "file",
+          "modified_time": "2026-08-25T18:49:34.000Z"
+        },
+        {
+          "id": "1_go7VdEzwvrwHtD6qwAe_CvyD1Xqp_jO",
+          "name": "Vila-do-Cuidado-FINAL-preview.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 2711228,
+          "kind": "file",
+          "modified_time": "2026-08-25T17:26:41.285Z"
+        },
+        {
+          "id": "1QDFOae9hlU_GjqsbS0BLR48lUKh-66eQ",
+          "name": "vila-do-cuidado-jogos-com-animacoes.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 2709276,
+          "kind": "file",
+          "modified_time": "2026-08-25T08:31:04.881Z"
+        },
+        {
+          "id": "1T9LOLpTDeRJ8hwhwlud9irfsmKq2cHTn",
+          "name": "vila-do-cuidado-completo-jogos-colorir.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 2707539,
+          "kind": "file",
+          "modified_time": "2026-08-25T08:28:59.468Z"
+        },
+        {
+          "id": "1szVVVNJGyvrsQNtK0MaW2VTNFbcRclwW",
+          "name": "vila-do-cuidado-jogos-colorir-agents.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 1592224,
+          "kind": "file",
+          "modified_time": "2026-08-25T08:20:19.329Z"
+        },
+        {
+          "id": "1HE3rC6C4lLhtB-rKQDax_1gomreylq28",
+          "name": "BIBLE-VISUAL-Vila-do-Cuidado-v1.3.md",
+          "mime_type": "text/plain",
+          "size_bytes": 22077,
+          "kind": "file",
+          "modified_time": "2026-08-25T07:59:21.662Z"
+        },
+        {
+          "id": "1_u4X90fJqOh062WiPmwnBgSk9_uavLBL",
+          "name": "BIBLE-VISUAL-Vila-do-Cuidado-v1.2.md",
+          "mime_type": "text/plain",
+          "size_bytes": 22077,
+          "kind": "file",
+          "modified_time": "2026-08-25T07:55:47.493Z"
+        },
+        {
+          "id": "1vZ2hg4fOmN8kzWePRvSC0-BSesFOao8c",
+          "name": "BIBLE-VISUAL-Vila-do-Cuidado-v1.md",
+          "mime_type": "text/plain",
+          "size_bytes": 16465,
+          "kind": "file",
+          "modified_time": "2026-08-25T07:52:11.214Z"
+        },
+        {
+          "id": "1QGdvsnUhKSr2XTQ03sJzWowKp8lQUxZf",
+          "name": "site-shell-calculadoras-enfermagem-completo.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 296119,
+          "kind": "file",
+          "modified_time": "2026-08-25T07:29:12.867Z"
+        },
+        {
+          "id": "1HEOd0k5i_iBtereT_ob_T1q8qI9MzKKU",
+          "name": "site-shell-calculadoras-enfermagem.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 82453,
+          "kind": "file",
+          "modified_time": "2026-08-25T07:23:26.751Z"
+        },
+        {
+          "id": "1-vzOLHqERzQ1xyO3ZIQ3pXWHROsQor7L",
+          "name": "ABELHA_RAINHA_Database_Copy_v1.zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 42521619,
+          "kind": "file",
+          "modified_time": "2026-08-25T04:16:34.000Z"
+        },
+        {
+          "id": "13qNk8N3UikcjMjwVVV65vxd1Zmwfg8a8",
+          "name": "CKO-Wave0-Foundation-Recovery-2026-08-24-v1.0.2",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-08-25T02:13:38.765Z"
+        },
+        {
+          "id": "1roJm2Zc5EUUAqrA2I9P2fZ51_NSj6NwN",
+          "name": "CKO-Platform-Closure-v2.1.0-20260824",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-08-24T15:13:50.954Z"
+        },
+        {
+          "id": "1kXzCYAj2TecZVQFIBHfhA6N-JEsaVHgH",
+          "name": "CKO-Unified-Content-Publication-v2.0-20260824",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-08-24T15:03:58.737Z"
+        },
+        {
+          "id": "1WB_yFs7pb3M4sBZl80bsT9nlYNWX-5QO",
+          "name": "CKO-21-Camadas-Governanca-2026-08-24",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-08-24T13:57:01.848Z"
+        },
+        {
+          "id": "10qdgBq4I8SZn6Nq8fsJk1gu_dW76M_5M",
+          "name": "CKO-Retention-Gate",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-08-22T18:18:56.376Z"
+        },
+        {
+          "id": "1LmEcVDsi2-MTUObRr7SIsSLgWWXeftEO",
+          "name": "locales.zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 30341,
+          "kind": "file",
+          "modified_time": "2026-08-22T12:58:46.000Z"
+        },
+        {
+          "id": "1tJ-AEv3_KpEQxNa3lMuY7A80skFtw4IK",
+          "name": "pages_full.zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 9141800,
+          "kind": "file",
+          "modified_time": "2026-08-22T12:30:33.000Z"
+        },
+        {
+          "id": "1uEwfManbUqMMlI6BWiCxBQW1sFEc0VJF",
+          "name": "Templates-funcionais-bibliotecas.zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 328862,
+          "kind": "file",
+          "modified_time": "2026-08-22T02:13:11.707Z"
+        },
+        {
+          "id": "1E9OB0AKR0m2Hbeknf43Htwo-fXob6cP9",
+          "name": "CKO_Vacinas_Calculadoras_Propostas_v1_0.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 65109,
+          "kind": "file",
+          "modified_time": "2026-08-22T02:12:30.707Z"
+        },
+        {
+          "id": "1GRoNBScNVf4UsnHL0YSY17J6jsGLAyJW",
+          "name": "og-cards",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-08-22T02:11:44.113Z"
+        },
+        {
+          "id": "1b0ORWmyAaYk6b_bW112RVcuARtWwRd0T",
+          "name": "Auditoria-Menu-MetaDados-04-08",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-08-22T02:11:28.536Z"
+        },
+        {
+          "id": "1JJGJ1vpqFaRj93vFDHgszqM1vrAmMJyX",
+          "name": "aldrete.zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 440202,
+          "kind": "file",
+          "modified_time": "2026-08-22T01:55:09.399Z"
+        },
+        {
+          "id": "1dbC8M3TOAivaa9iwWRg0O6gI8ryKr0Qs",
+          "name": "Passarinho-Vai-Lá (pergunta) kk",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-08-22T00:46:22.530Z"
+        },
+        {
+          "id": "1jaHoxB5jhnB1so6C_jTqp41EjB2TAoWt",
+          "name": "Cópia de CALENF-NKD.zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 276964874,
+          "kind": "file",
+          "modified_time": "2026-08-22T00:45:29.278Z"
+        },
+        {
+          "id": "1j9F0FmcCRCmP1HxGKlWp1fE16eAFSWOI",
+          "name": "Cópia de nkos-site-i18n-completo-v1.zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 823089831,
+          "kind": "file",
+          "modified_time": "2026-08-22T00:44:57.546Z"
+        },
+        {
+          "id": "1JmiD4RuQ9was5X5Vdzr8Al56OjPo5VfJ",
+          "name": "CKO-Regulatory-Canonical-Delta-v0.26.6.zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 5101,
+          "kind": "file",
+          "modified_time": "2026-08-21T22:27:45.000Z"
+        },
+        {
+          "id": "1UWs7ubswbEKzyfw19OdN4iydvb00TFiq",
+          "name": "CKO-Integration-Evidence-Delta-v0.26.5.zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 5196,
+          "kind": "file",
+          "modified_time": "2026-08-21T21:59:08.000Z"
+        },
+        {
+          "id": "1-vAuYiqHa25rsgweLb0TiV-q3neIVziS",
+          "name": "cko_multi_agent.py",
+          "mime_type": "text/x-python",
+          "size_bytes": 52008,
+          "kind": "file",
+          "modified_time": "2026-08-21T21:54:49.000Z"
+        },
+        {
+          "id": "1_VslktaQqULlfKXAL1wln_qn_vPaKn8R",
+          "name": "CKO-Federal-API-First-Patch-v0.26.4.zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 19643,
+          "kind": "file",
+          "modified_time": "2026-08-21T21:34:37.000Z"
+        },
+        {
+          "id": "1hWSl_SuY2RGa_ML2k5OYUa5WbQbHlasX",
+          "name": "CKO-Official-Machine-Acquisition-Patch-v0.26.3.zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 28576,
+          "kind": "file",
+          "modified_time": "2026-08-21T21:26:22.000Z"
+        },
+        {
+          "id": "1trKwnonT4t6Mf-gN-y7lojTJGeF6XwYX",
+          "name": "CKO-Project-Final-v1.0 (4).zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 7730014,
+          "kind": "file",
+          "modified_time": "2026-08-21T21:14:06.000Z"
+        },
+        {
+          "id": "1Td6zHAC2KcrnTMLF0QYtlW7WAjVMmA_y",
+          "name": "CKO-Regulatory-Core-Integrated-v1 (1).zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 2874359,
+          "kind": "file",
+          "modified_time": "2026-08-21T10:46:12.000Z"
+        },
+        {
+          "id": "1cz0HnXVWwa1hQHtpsgJYEFEpHuzwe4dq",
+          "name": "CKO-Concurso-Content-Engine-Final-Consolidated-v1 (2).zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 2075724,
+          "kind": "file",
+          "modified_time": "2026-08-21T10:45:48.000Z"
+        },
+        {
+          "id": "1bnPMLtXj0QWAOVv_CHvJHBS6AYjvy5kF",
+          "name": "CKO-Governanca-End-to-End-v1 (1).docx",
+          "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "size_bytes": 53747,
+          "kind": "file",
+          "modified_time": "2026-08-21T10:45:05.000Z"
+        },
+        {
+          "id": "1Fz4zwkVlhzo_2qGzPIA67_iXsP8bHch9",
+          "name": "CKO-Audit-Manual-v1.0 (1).docx",
+          "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "size_bytes": 109729,
+          "kind": "file",
+          "modified_time": "2026-08-21T10:45:01.000Z"
+        },
+        {
+          "id": "1603vIyRJieihKB-mpYp0HLi4tx-YwpJ7",
+          "name": "CKO-Regulatory-Intelligence-Execution-Report-v1.0 (1).docx",
+          "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "size_bytes": 56255,
+          "kind": "file",
+          "modified_time": "2026-08-21T10:44:49.000Z"
+        },
+        {
+          "id": "1q2Qj8cb2jGkPUCMp-xmYOavt9zZ88w71",
+          "name": "CKO-Governanca-Agentes-Regulatorios-v1.0-corrigido.md",
+          "mime_type": "text/markdown",
+          "size_bytes": 19079,
+          "kind": "file",
+          "modified_time": "2026-08-21T10:30:30.000Z"
+        },
+        {
+          "id": "1OUlaOO-hvxKk7IHoiBoKWuJRg26hP3uC",
+          "name": "CKO-MasterData-Parecer-360-v1.0.md",
+          "mime_type": "text/markdown",
+          "size_bytes": 14581,
+          "kind": "file",
+          "modified_time": "2026-08-21T10:30:26.000Z"
+        },
+        {
+          "id": "17566_w2fAyAdk1Zw4y9Aj_SUJBNhvV6R",
+          "name": "CKO-Relatorio-Reconciliacao-Tarefas-v1.0.md",
+          "mime_type": "text/markdown",
+          "size_bytes": 5149,
+          "kind": "file",
+          "modified_time": "2026-08-21T10:30:23.000Z"
+        },
+        {
+          "id": "1ylO4sEubIPytJJWNwCCQcRgGK1EBEyIf",
+          "name": "CKO_DESIGN_SYSTEM_MASTER_MAP_2026-08-08_v1_1_CONSOLIDADO.xlsx",
+          "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "size_bytes": 123645,
+          "kind": "file",
+          "modified_time": "2026-08-21T08:45:55.000Z"
+        },
+        {
+          "id": "1Bzz_u5atZUsgNf3c6XLMsT0gyEi--CBu",
+          "name": "cko_regulatory_multiscale_authority_v3.zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 2752829,
+          "kind": "file",
+          "modified_time": "2026-08-21T08:40:32.000Z"
+        },
+        {
+          "id": "1MGRv32sDV4te7qWNgCtuxyiNQPR2qQ7g",
+          "name": "cko_regulatory_360_inverse_review_v4.zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 39488446,
+          "kind": "file",
+          "modified_time": "2026-08-21T08:40:27.000Z"
+        },
+        {
+          "id": "1mQFqd51vPpcrhNKUqaxb75G_lxCQ4Ev_",
+          "name": "CKO-Concurso-Content-Engine-Final-Consolidated-v1.zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 2075724,
+          "kind": "file",
+          "modified_time": "2026-08-16T01:40:36.231Z"
+        },
+        {
+          "id": "1L3Ip2nMzqb1tWz_BrrAde5lGbb6mgEA-",
+          "name": "concurso-santos-enfermeiro-2026-hub.zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 1110629,
+          "kind": "file",
+          "modified_time": "2026-08-15T10:01:09.816Z"
+        },
+        {
+          "id": "1O1kwZSBfhYi__CMNJhOFyvlsF4l1m2hP",
+          "name": "CKO_PATCH_ONLY_v6_5_0_ARCHITECTURE_EVIDENCE_CLOSURE.zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 967771,
+          "kind": "file",
+          "modified_time": "2026-08-14T19:05:45.926Z"
+        },
+        {
+          "id": "1qvHE3QNQ9aQB29pel5-V7e3c-Iral6zo",
+          "name": "CKO_STATIC_PROJECT_COMPLETE_NURSE_PALM_RC_v6_5_0.zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 93327652,
+          "kind": "file",
+          "modified_time": "2026-08-14T19:05:31.638Z"
+        },
+        {
+          "id": "1RlS84qZ4VuwcAU2mGy93GoNa6z33tId5",
+          "name": "CKO_PATCH_ONLY_v6_5_0_VALIDATOR_V632_HYGIENE.zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 4667,
+          "kind": "file",
+          "modified_time": "2026-08-14T17:41:11.000Z"
+        },
+        {
+          "id": "1oy52O9goFHjRh2yuDMCVRx_E7g7wGPax",
+          "name": "vaccine_json_schema_package.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 13645356,
+          "kind": "file",
+          "modified_time": "2026-08-09T16:30:36.750Z"
+        },
+        {
+          "id": "1Y0eHjId1AC_-IbGtA4-BDurYnFNIpNep",
+          "name": "CKO_FUNCTIONAL_PARTIAL_SITE_V2_4_0.zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 6400041,
+          "kind": "file",
+          "modified_time": "2026-08-05T23:42:13.637Z"
+        },
+        {
+          "id": "1qClsR-Lgsvj42Ho5oQb6H5xCDL6FuJTT",
+          "name": "CKO_PROJECT_CONTROL_CENTER_V2_3_0.zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 9627713,
+          "kind": "file",
+          "modified_time": "2026-08-05T22:47:34.000Z"
+        },
+        {
+          "id": "1a2O42gmgKwqw7GgmSViNnRJTSshjjRGZ",
+          "name": "CKO_LOCAL_REVIEW_KIT_V2_3_1.zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 8012,
+          "kind": "file",
+          "modified_time": "2026-08-05T22:45:24.000Z"
+        },
+        {
+          "id": "1VL0V9siNe_bu1XbEXrq-4WyqV5wuapRf",
+          "name": "auditoria_referencias.zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 1052683,
+          "kind": "file",
+          "modified_time": "2026-08-04T12:13:12.351Z"
+        },
+        {
+          "id": "1mOk00N6TdjyIi6ja6kCu2U7idblq-GJG",
+          "name": "2017_Conselho_Federal_de_Enfermagem_Codigo_de_Etica_dos_Profissionais_de_Enfermagem.pdf",
+          "mime_type": "application/pdf",
+          "size_bytes": 7012724,
+          "kind": "file",
+          "modified_time": "2026-08-04T02:37:17.260Z"
+        },
+        {
+          "id": "1yK9ygoAi_blq27J-aZFSseZnoVLxHG5g",
+          "name": "Concurso Santos",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-08-01T09:37:50.750Z"
+        },
+        {
+          "id": "1wp49LZuADdTLZNOStWWyeANFdTNZRjFy",
+          "name": "cko-projeto.zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 188129,
+          "kind": "file",
+          "modified_time": "2026-07-26T16:39:08.589Z"
+        },
+        {
+          "id": "1t5ogkHP7WGjUqxBgPXfY3JgwPX8ZL-kb",
+          "name": "seringa.zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 30099,
+          "kind": "file",
+          "modified_time": "2026-07-26T08:33:35.308Z"
+        },
+        {
+          "id": "1rRi8VsnWx3vJxVfBBKTvUji0spjOaeNV",
+          "name": "Infográficos de curativos padronizados.zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 3772933,
+          "kind": "file",
+          "modified_time": "2026-07-19T04:14:17.820Z"
+        },
+        {
+          "id": "1tIblIS7XyQxtPvW5g_VLTss1XjoqTNE2",
+          "name": "nkos-site-i18n-completo-v1",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-07-06T20:09:51.143Z"
+        },
+        {
+          "id": "1x8oT2HwrvqxQLcre0sDbfLEvb3t15Oiz",
+          "name": "c6cd0eab6_nkos-website-final-v5.zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 36131571,
+          "kind": "file",
+          "modified_time": "2026-07-05T22:15:18.041Z"
+        },
+        {
+          "id": "1djKfq-2VZImF2pFB-L6JdXvAadA0t96G",
+          "name": "Pagina inicial.zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 36966712,
+          "kind": "file",
+          "modified_time": "2026-07-05T17:35:33.522Z"
+        },
+        {
+          "id": "1s1ru_GEAb77frZ6kxzWZxidMgemvRHL6",
+          "name": "icones_enfermagem.zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 255572,
+          "kind": "file",
+          "modified_time": "2026-07-03T22:45:39.343Z"
+        },
+        {
+          "id": "10FD7B0OTohVb9CCEHMOwyb669JrQsTvo",
+          "name": "CALENF-NKD.zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 276964874,
+          "kind": "file",
+          "modified_time": "2026-06-21T23:26:22.130Z"
+        },
+        {
+          "id": "1OmmEpSDK3K3nx5zphbX-xRd7HWClvdxs",
+          "name": "CalculadorasNewVersion.zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 76019668,
+          "kind": "file",
+          "modified_time": "2026-06-21T16:59:51.351Z"
+        },
+        {
+          "id": "1h4Lu0dDFoNNwJ-Q0e3FUCUYOksUhvIli",
+          "name": "recuperado_insulina_consolidado.zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 7486,
+          "kind": "file",
+          "modified_time": "2026-02-02T00:48:15.000Z"
+        },
+        {
+          "id": "1Iucn9BiW9HQNOnyn5zpxyx5dSFupu-TR",
+          "name": "recuperado_insulina_package.zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 5338,
+          "kind": "file",
+          "modified_time": "2026-02-02T00:31:18.000Z"
+        },
+        {
+          "id": "1H7iKj-CGx7SKTvrrmzzDlDmm_kYdvGO4",
+          "name": ".git",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-01-24T21:58:54.675Z"
+        },
+        {
+          "id": "1Txb-RQmj4HehVdyIydsYfbdy6ursDZjp",
+          "name": "assets",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size_bytes": null,
+          "kind": "folder",
+          "modified_time": "2026-01-24T21:58:54.671Z"
+        },
+        {
+          "id": "1IA4JEXQIW-VQa5suoFQ-u9fk73kGEMZs",
+          "name": "balancohidrico.html",
+          "mime_type": "text/html",
+          "size_bytes": 47907,
+          "kind": "file",
+          "modified_time": "2026-01-24T20:43:51.000Z"
+        },
+        {
+          "id": "1QsVr8UrpktVwQHKWdz0Rut3h3-_l06sz",
+          "name": "insulina.html",
+          "mime_type": "text/html",
+          "size_bytes": 40797,
+          "kind": "file",
+          "modified_time": "2026-01-24T20:20:03.000Z"
+        },
+        {
+          "id": "1VXlG2JMPHgnTxZspuyFOSGimISD6WEN5",
+          "name": "heparina.html",
+          "mime_type": "text/html",
+          "size_bytes": 38790,
+          "kind": "file",
+          "modified_time": "2026-01-24T20:02:49.000Z"
+        },
+        {
+          "id": "19dmF-a-COcDTFbjtPKbjpxaBpKLKcTkr",
+          "name": "rescisao.html",
+          "mime_type": "text/html",
+          "size_bytes": 43404,
+          "kind": "file",
+          "modified_time": "2026-01-24T14:56:50.000Z"
+        },
+        {
+          "id": "1X33JEH9rz2izlatfKwYWybu6zUwz8LLy",
+          "name": "salario-liquido.html",
+          "mime_type": "text/html",
+          "size_bytes": 38875,
+          "kind": "file",
+          "modified_time": "2026-01-24T14:38:33.000Z"
+        },
+        {
+          "id": "1FQUKr8PFi7pT7_1JB67VlvlJjEgIqD-Y",
+          "name": "ferias.html",
+          "mime_type": "text/html",
+          "size_bytes": 43827,
+          "kind": "file",
+          "modified_time": "2026-01-24T14:28:23.000Z"
+        },
+        {
+          "id": "1j93S-O0BWFb9VC5XVh_o0kLKL1lAR9bc",
+          "name": "termos.html",
+          "mime_type": "text/html",
+          "size_bytes": 24866,
+          "kind": "file",
+          "modified_time": "2026-01-24T07:23:52.000Z"
+        },
+        {
+          "id": "1xTpzgKnoNAZdIbvfqgU5ltBKZ19MBYkR",
+          "name": "tecnologiaverde.html",
+          "mime_type": "text/html",
+          "size_bytes": 24152,
+          "kind": "file",
+          "modified_time": "2026-01-24T07:15:22.000Z"
+        },
+        {
+          "id": "1rS8ZoSRSdNFSwAN43uA6mGUZ9B3BenjS",
+          "name": "recursos-assistivos.html",
+          "mime_type": "text/html",
+          "size_bytes": 27010,
+          "kind": "file",
+          "modified_time": "2026-01-24T06:44:28.000Z"
+        },
+        {
+          "id": "1dyI9uu1znMSYElemmME5tnI72h47MFoG",
+          "name": "politicadeacessibilidade.html",
+          "mime_type": "text/html",
+          "size_bytes": 27068,
+          "kind": "file",
+          "modified_time": "2026-01-24T06:41:47.000Z"
+        },
+        {
+          "id": "1yb7BtN6v7pE6-MxPxCg8933r5aAy2-b_",
+          "name": "politica.html",
+          "mime_type": "text/html",
+          "size_bytes": 26959,
+          "kind": "file",
+          "modified_time": "2026-01-24T06:37:51.000Z"
+        },
+        {
+          "id": "1zbhQIqM9POqROF9iMuQsA6ni8GS_Y0-5",
+          "name": "notificacoes-legais.html",
+          "mime_type": "text/html",
+          "size_bytes": 27217,
+          "kind": "file",
+          "modified_time": "2026-01-24T06:29:40.000Z"
+        },
+        {
+          "id": "1Ve9TUhb9V6VDyivIAi3pIMIENjI2vXOb",
+          "name": "nossocompromisso.html",
+          "mime_type": "text/html",
+          "size_bytes": 27143,
+          "kind": "file",
+          "modified_time": "2026-01-24T06:17:46.000Z"
+        },
+        {
+          "id": "1CD1rW66QpSG-dmNu27PJj-cysZ9sG56Q",
+          "name": "mapa-do-site.html",
+          "mime_type": "text/html",
+          "size_bytes": 27338,
+          "kind": "file",
+          "modified_time": "2026-01-24T06:00:34.000Z"
+        },
+        {
+          "id": "1s1tG3DYpC6fO8yFzrCU9pUjYTuOEoTa7",
+          "name": "impactodigital.html",
+          "mime_type": "text/html",
+          "size_bytes": 27835,
+          "kind": "file",
+          "modified_time": "2026-01-24T05:55:25.000Z"
+        },
+        {
+          "id": "10Mz9UxWhhCuCYyRjpGgX0Rm74NxiVwSX",
+          "name": "fale.html",
+          "mime_type": "text/html",
+          "size_bytes": 26879,
+          "kind": "file",
+          "modified_time": "2026-01-24T05:50:41.000Z"
+        },
+        {
+          "id": "1H--UfgTMVOgEvBjuwEOsG-V1rKInGhBY",
+          "name": "missao.html",
+          "mime_type": "text/html",
+          "size_bytes": 28273,
+          "kind": "file",
+          "modified_time": "2026-01-24T05:49:43.000Z"
+        },
+        {
+          "id": "1JbjMpMtbbVbtkW22Q9liHox8XekFp2Lp",
+          "name": "objetivo.html",
+          "mime_type": "text/html",
+          "size_bytes": 28305,
+          "kind": "file",
+          "modified_time": "2026-01-24T05:37:01.000Z"
+        },
+        {
+          "id": "1uySuNHvW2i41BaX7lK_wBNdDtTxxW78Z",
+          "name": "template-pagina-institucional.html",
+          "mime_type": "text/html",
+          "size_bytes": 6668,
+          "kind": "file",
+          "modified_time": "2026-01-21T05:03:55.000Z"
+        },
+        {
+          "id": "1jZDwdVHBghs31chSZuUM3a_2-u-08-Xd",
+          "name": "apache.html",
+          "mime_type": "text/html",
+          "size_bytes": 46532,
+          "kind": "file",
+          "modified_time": "2026-01-21T04:11:51.000Z"
+        },
+        {
+          "id": "1Uoj2AMXx1ojaBkwOnHeXR6z4W0tTYo8r",
+          "name": "teste11.html",
+          "mime_type": "text/html",
+          "size_bytes": 36825,
+          "kind": "file",
+          "modified_time": "2026-01-21T04:11:04.000Z"
+        },
+        {
+          "id": "1VYDenV5pkXUaZ6B60Q3ycw60I-kl0h4P",
+          "name": "teste9.html",
+          "mime_type": "text/html",
+          "size_bytes": 13360,
+          "kind": "file",
+          "modified_time": "2026-01-18T05:11:57.000Z"
+        },
+        {
+          "id": "1evxwXbsrlEevaKxU4Wlp_tGvTnM2WA5B",
+          "name": "teste10.html",
+          "mime_type": "text/html",
+          "size_bytes": 13660,
+          "kind": "file",
+          "modified_time": "2026-01-18T05:11:28.000Z"
+        },
+        {
+          "id": "1ZuvDHFSnyl637vGWfFApFX8MD73brECP",
+          "name": "teste8.html",
+          "mime_type": "text/html",
+          "size_bytes": 17946,
+          "kind": "file",
+          "modified_time": "2026-01-17T04:15:01.000Z"
+        },
+        {
+          "id": "1R8PvDUvMWr_rh0qM6w-eeIrUEHghsmjR",
+          "name": "medicamentos.html",
+          "mime_type": "text/html",
+          "size_bytes": 39038,
+          "kind": "file",
+          "modified_time": "2026-01-16T22:52:43.000Z"
+        },
+        {
+          "id": "1adZKL--JtWcxj7jGn4BqZELjb_FYoNNX",
+          "name": "imc.html",
+          "mime_type": "text/html",
+          "size_bytes": 37982,
+          "kind": "file",
+          "modified_time": "2026-01-16T22:49:33.000Z"
+        },
+        {
+          "id": "1TebukwLQnHybb6L97ekWKl-9kKx5ymnD",
+          "name": "hora-extra.html",
+          "mime_type": "text/html",
+          "size_bytes": 19311,
+          "kind": "file",
+          "modified_time": "2026-01-16T22:49:10.000Z"
+        },
+        {
+          "id": "15V1zC26L2Hr8yvaVe8QKH3fFB-KQIxxu",
+          "name": "gotejamento.html",
+          "mime_type": "text/html",
+          "size_bytes": 39621,
+          "kind": "file",
+          "modified_time": "2026-01-16T22:48:32.000Z"
+        },
+        {
+          "id": "1A70s2Og_9OrL6C9bdpEg0xKeo1p2r_JK",
+          "name": "gestacional.html",
+          "mime_type": "text/html",
+          "size_bytes": 37169,
+          "kind": "file",
+          "modified_time": "2026-01-16T22:48:21.000Z"
+        },
+        {
+          "id": "1cLAylE3V7PHrw2laPBw8bwZZpo4s62h6",
+          "name": "gasometria.html",
+          "mime_type": "text/html",
+          "size_bytes": 40553,
+          "kind": "file",
+          "modified_time": "2026-01-16T22:47:17.000Z"
+        },
+        {
+          "id": "1GsOBa2MOPPpn8BqEFTeNPKvrgtAPhC03",
+          "name": "doacoes.html",
+          "mime_type": "text/html",
+          "size_bytes": 26258,
+          "kind": "file",
+          "modified_time": "2026-01-16T22:45:43.000Z"
+        },
+        {
+          "id": "1T7UbpufVTnbOY9cyGoeRPnElOLve3TdX",
+          "name": "dimensionamento.html",
+          "mime_type": "text/html",
+          "size_bytes": 42274,
+          "kind": "file",
+          "modified_time": "2026-01-16T22:44:14.000Z"
+        },
+        {
+          "id": "1GbJN80J_93Dzcz-KuciO6Wha6gLETpy3",
+          "name": "diagnosticosnanda.html",
+          "mime_type": "text/html",
+          "size_bytes": 38506,
+          "kind": "file",
+          "modified_time": "2026-01-16T22:43:44.000Z"
+        },
+        {
+          "id": "1aWWu0RsIk4nzRdZ5bVO7uVYOsPTz3WoN",
+          "name": "calendariovacinalprematuros.html",
+          "mime_type": "text/html",
+          "size_bytes": 20242,
+          "kind": "file",
+          "modified_time": "2026-01-16T22:42:41.000Z"
+        },
+        {
+          "id": "1lyQjWcPJVD7uXfVzdK-EbfNtnSOUn7LX",
+          "name": "calendariovacinalocupacional.html",
+          "mime_type": "text/html",
+          "size_bytes": 25643,
+          "kind": "file",
+          "modified_time": "2026-01-16T22:42:26.000Z"
+        },
+        {
+          "id": "1CvG50u7qxwSkzmDSXx5Lozfa5N3AEdvK",
+          "name": "calendariovacinalidosos.html",
+          "mime_type": "text/html",
+          "size_bytes": 27167,
+          "kind": "file",
+          "modified_time": "2026-01-16T22:41:55.000Z"
+        },
+        {
+          "id": "1rdm6kpoV9HTdtQ94bGCkdowoqNdO9zj6",
+          "name": "calendariovacinalgestantes.html",
+          "mime_type": "text/html",
+          "size_bytes": 23479,
+          "kind": "file",
+          "modified_time": "2026-01-16T22:41:38.000Z"
+        },
+        {
+          "id": "1RC4H3idtiqJcmRwk67s0cIdR00CNZ5XQ",
+          "name": "calendariovacinalespeciais.html",
+          "mime_type": "text/html",
+          "size_bytes": 31278,
+          "kind": "file",
+          "modified_time": "2026-01-16T22:40:56.000Z"
+        },
+        {
+          "id": "1yDadFKZ0TA_om0jveTxc-Kw-645mTyC8",
+          "name": "calendariovacinalcriancas.html",
+          "mime_type": "text/html",
+          "size_bytes": 22788,
+          "kind": "file",
+          "modified_time": "2026-01-16T22:40:41.000Z"
+        },
+        {
+          "id": "15t45BgCFHXyUzHcAHtjOvH7gMUqff7VB",
+          "name": "calendariovacinaladultos.html",
+          "mime_type": "text/html",
+          "size_bytes": 26264,
+          "kind": "file",
+          "modified_time": "2026-01-16T22:40:19.000Z"
+        },
+        {
+          "id": "1Ddnw_LNHDtSQ5P4VUHIJFZQ_kzpZXkVJ",
+          "name": "calendariovacinaladolescentes.html",
+          "mime_type": "text/html",
+          "size_bytes": 27300,
+          "kind": "file",
+          "modified_time": "2026-01-16T22:39:54.000Z"
+        },
+        {
+          "id": "1JQEfMVlnlN1llmbAnvJOUb4WTs5U9skw",
+          "name": "braden.html",
+          "mime_type": "text/html",
+          "size_bytes": 28276,
+          "kind": "file",
+          "modified_time": "2026-01-16T22:32:57.000Z"
+        },
+        {
+          "id": "1L_K3bAkKnsa6CUQZhRIGkrTmGzv62GK_",
+          "name": "bps.html",
+          "mime_type": "text/html",
+          "size_bytes": 29125,
+          "kind": "file",
+          "modified_time": "2026-01-16T22:32:29.000Z"
+        },
+        {
+          "id": "1to8nHqQ2aa0Pu9HV1TmNILtuEkGeCcK9",
+          "name": "bishop.html",
+          "mime_type": "text/html",
+          "size_bytes": 27064,
+          "kind": "file",
+          "modified_time": "2026-01-16T22:32:15.000Z"
+        },
+        {
+          "id": "1aUJ8fjHk3cFrc693SQBleBA5--dfzEzL",
+          "name": "berg.html",
+          "mime_type": "text/html",
+          "size_bytes": 31715,
+          "kind": "file",
+          "modified_time": "2026-01-16T22:32:04.000Z"
+        },
+        {
+          "id": "12dFTHspfENpjLDVMSmeLUV2IlBF-Mr4e",
+          "name": "barthel.html",
+          "mime_type": "text/html",
+          "size_bytes": 36110,
+          "kind": "file",
+          "modified_time": "2026-01-16T22:31:19.000Z"
+        },
+        {
+          "id": "19h2XjUonW33yOsXQ8KCI0kIha8IuEwmz",
+          "name": "ballard.html",
+          "mime_type": "text/html",
+          "size_bytes": 40692,
+          "kind": "file",
+          "modified_time": "2026-01-16T22:31:08.000Z"
+        },
+        {
+          "id": "1SQv1moHBaqlHlaYK9aPc5uTSKc11CR-N",
+          "name": "asa.html",
+          "mime_type": "text/html",
+          "size_bytes": 34949,
+          "kind": "file",
+          "modified_time": "2026-01-16T22:30:46.000Z"
+        },
+        {
+          "id": "1P75TIUE7_RfRCu9f5p-cURgniw2HyXSj",
+          "name": "apgar.html",
+          "mime_type": "text/html",
+          "size_bytes": 37774,
+          "kind": "file",
+          "modified_time": "2026-01-16T22:30:38.000Z"
+        },
+        {
+          "id": "1k22zym-wA0PKvr9vDbhmo2DaIe5YSmPx",
+          "name": "aldrete.html",
+          "mime_type": "text/html",
+          "size_bytes": 35348,
+          "kind": "file",
+          "modified_time": "2026-01-16T22:30:00.000Z"
+        },
+        {
+          "id": "18Tw0sgIg90IjSWYV0z0puePsLQ0GOrJY",
+          "name": "adicional-noturno.html",
+          "mime_type": "text/html",
+          "size_bytes": 18592,
+          "kind": "file",
+          "modified_time": "2026-01-16T22:29:57.000Z"
+        },
+        {
+          "id": "1EbOT1trxUZKiEnxqeybT2m7EUtpm4n5t",
+          "name": "index.html",
+          "mime_type": "text/html",
+          "size_bytes": 15492,
+          "kind": "file",
+          "modified_time": "2026-01-16T22:22:17.000Z"
+        },
+        {
+          "id": "1pGzt6ZfStCqSxbpx2AHMxAKNpbmU_08x",
+          "name": "teste-4.html",
+          "mime_type": "text/html",
+          "size_bytes": 5571,
+          "kind": "file",
+          "modified_time": "2026-01-16T22:22:07.000Z"
+        },
+        {
+          "id": "1dGa9xeAyHuhXa4jOE09ajbL0z1C7n9s4",
+          "name": "teste5.html",
+          "mime_type": "text/html",
+          "size_bytes": 16238,
+          "kind": "file",
+          "modified_time": "2026-01-16T22:22:03.000Z"
+        },
+        {
+          "id": "1mN-sEdoMQRt8Fy8gDDHMngPLr0041iQa",
+          "name": "teste7.html",
+          "mime_type": "text/html",
+          "size_bytes": 17350,
+          "kind": "file",
+          "modified_time": "2026-01-16T15:34:40.000Z"
+        },
+        {
+          "id": "1C7G3zK2qY6fimlKopioBKA40nF6Hwpwm",
+          "name": "teste6.html",
+          "mime_type": "text/html",
+          "size_bytes": 9674,
+          "kind": "file",
+          "modified_time": "2026-01-16T10:27:53.000Z"
+        },
+        {
+          "id": "1FCOEIHgl5bH6-lcu6PXRoFYOTaYJ9F6S",
+          "name": "teste-3;html",
+          "mime_type": "text/html",
+          "size_bytes": 5553,
+          "kind": "file",
+          "modified_time": "2026-01-10T15:19:23.000Z"
+        },
+        {
+          "id": "1TahiGBHDGLochuBBIi_rQez3kYgIQYeB",
+          "name": "teste-2.html",
+          "mime_type": "text/html",
+          "size_bytes": 5862,
+          "kind": "file",
+          "modified_time": "2026-01-10T15:06:04.000Z"
+        },
+        {
+          "id": "1XZdZmTRVIhNGnfk_lEuOv-GDsQAUmikO",
+          "name": "teste.html",
+          "mime_type": "text/html",
+          "size_bytes": 10708,
+          "kind": "file",
+          "modified_time": "2026-01-10T11:33:39.000Z"
+        },
+        {
+          "id": "15mtdWKhHByJiG_IzamevgOlIOJlxLMS0",
+          "name": "inde1.html",
+          "mime_type": "text/html",
+          "size_bytes": 17619,
+          "kind": "file",
+          "modified_time": "2025-12-31T05:00:15.000Z"
+        },
+        {
+          "id": "1--voI03bsdxtBG8M-fuuI7MS7jjeXfd8",
+          "name": "index-local.html",
+          "mime_type": "text/html",
+          "size_bytes": 14488,
+          "kind": "file",
+          "modified_time": "2025-12-30T07:37:29.000Z"
+        },
+        {
+          "id": "1vjUn7re3hLfZtTkE3b3Y1hWFOFoxZnWA",
+          "name": "slide1.html",
+          "mime_type": "text/html",
+          "size_bytes": 34646,
+          "kind": "file",
+          "modified_time": "2025-12-27T16:17:13.000Z"
+        },
+        {
+          "id": "1-fQOqBLXeX9cHcst-ZBqpSNaxC00X2IX",
+          "name": "notificacao-compulsoria.html",
+          "mime_type": "text/html",
+          "size_bytes": 65569,
+          "kind": "file",
+          "modified_time": "2025-12-24T02:42:07.000Z"
+        },
+        {
+          "id": "178jDr5ajUPrWe0YY5CDWcRjVp3xVJpSw",
+          "name": "cronometro.html",
+          "mime_type": "text/html",
+          "size_bytes": 16602,
+          "kind": "file",
+          "modified_time": "2025-12-19T20:59:56.000Z"
+        },
+        {
+          "id": "1iDrPzQoHSWSgOVSCmrlGWBAxgenJpY-7",
+          "name": "clt-pj.html",
+          "mime_type": "text/html",
+          "size_bytes": 18238,
+          "kind": "file",
+          "modified_time": "2025-12-19T20:48:26.000Z"
+        },
+        {
+          "id": "1x23VFT91aa5PBtPN58k24M0ykkhL3kms",
+          "name": "salario-hora.html",
+          "mime_type": "text/html",
+          "size_bytes": 17269,
+          "kind": "file",
+          "modified_time": "2025-12-19T20:47:00.000Z"
+        },
+        {
+          "id": "1WnA0A6KaLDNPPkaPnMTICVTdc5Zio08b",
+          "name": ".gitattributes",
+          "mime_type": "application/octet-stream",
+          "size_bytes": 68,
+          "kind": "file",
+          "modified_time": "2025-12-19T00:08:30.000Z"
+        }
+      ]
+    }
+  ],
+  "policy": {
+    "deduplication": "SHA-256 of complete bytes only",
+    "zip": "member_manifest + CRC32 + SHA-256 + safe path + decompression caps",
+    "deletion": "blocked",
+    "publication": "blocked"
+  }
+}

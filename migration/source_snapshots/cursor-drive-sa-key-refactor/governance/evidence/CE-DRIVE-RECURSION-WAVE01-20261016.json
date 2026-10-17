@@ -1,0 +1,48 @@
+{
+  "schema": "CE-DRIVE-RECURSION-OBSERVATION-1.0.0",
+  "status": "PARTIAL_DIRECT_CHILDREN_NOT_COMPLETE",
+  "mode": "connector_read_only",
+  "branch": "cursor/fix-governance-gaps-ec54",
+  "roots_direct": {
+    "CE_MASTER": 3,
+    "ESTEIRA": 26,
+    "GROK": 0,
+    "CE_SITE": 403
+  },
+  "subfolders_direct": {
+    "CE_MASTER": 2,
+    "ESTEIRA": 1,
+    "GROK": 0,
+    "CE_SITE": 69
+  },
+  "wave01": [
+    {
+      "id": "16V5vILqgBLnKKuLSu9cYvKN_DN88ui5I",
+      "label": "NORMATIVOS",
+      "observed_children": 6,
+      "observed_subfolders": 6
+    },
+    {
+      "id": "1XKNmVvGJDfg3HVsDdXRnvUyGsz6Ib5Iq",
+      "label": "FEDERAL",
+      "observed_children": 1,
+      "observed_subfolders": 1
+    },
+    {
+      "id": "1sLYmRbkif6Cvt1T6LyFDsJU08wrXxxA_",
+      "label": "REGISTERS_ESTEIRA",
+      "observed_children": 11,
+      "observed_subfolders": 0
+    }
+  ],
+  "limitations": [
+    "Metadata connector does not provide SHA256 of source bytes",
+    "Nested folder traversal incomplete",
+    "Root GROK returned zero direct children; do not infer empty corpus",
+    "ESTEIRA is also listed under CE_SITE; avoid double count",
+    "ZIP contents not inspected",
+    "No GitHub Actions run evidence"
+  ],
+  "publication": "HOLD",
+  "source_deletion": "DENY"
+}

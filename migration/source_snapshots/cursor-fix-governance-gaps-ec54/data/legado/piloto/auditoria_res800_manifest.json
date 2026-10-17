@@ -1,0 +1,31 @@
+{
+  "work_order_id": "WO-AUDITORIA-RES800-001",
+  "agent_id": "AGT-AUDITOR-001",
+  "task_type": "auditoria_camada_2",
+  "model_id": "deepseek:deepseek-chat",
+  "provider": "deepseek_via_supabase",
+  "temperature": 0,
+  "prompt_id": "auditor_v1",
+  "prompt_sha256": "510b28f35365ddd61012f3077d3af58daf9d10a8b20b13d7965e67987768c5c8",
+  "input_sha256": "62090965690466e06d7827756a66edfe198651d41cc5eac661d69bb2e256f36c",
+  "output_sha256": "586cf91f186725c9b9e23392faea2e967b6d4911457b84a66dcab6f3f4dfb84f",
+  "authorized_by": "mantenedor — execução dos normativos em 15/10/2026",
+  "estagio": "raw",
+  "promotable": true,
+  "provider_meta": {
+    "gateway_url": "https://aevqrmkdhffmursdtcmo.supabase.co/functions/v1/cko-deepseek-gateway",
+    "modelo_retornado": "deepseek-chat",
+    "deepseek_request_id": "2e42a8af-0ded-424b-81d9-bf6433ff62e1",
+    "usage": {
+      "prompt_tokens": 456,
+      "completion_tokens": 45,
+      "total_tokens": 501,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 456
+    }
+  },
+  "executado_em": "2026-10-15T00:29:53.034292+00:00"
+}

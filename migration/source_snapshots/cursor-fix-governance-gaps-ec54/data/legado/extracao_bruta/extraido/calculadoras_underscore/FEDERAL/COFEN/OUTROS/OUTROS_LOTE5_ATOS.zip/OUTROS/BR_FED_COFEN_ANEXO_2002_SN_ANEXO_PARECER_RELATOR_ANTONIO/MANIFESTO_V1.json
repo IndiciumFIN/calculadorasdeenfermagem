@@ -1,0 +1,44 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/anexo-do-parecer-do-relator-antonio-carlos-junior-sobre-o-projeto-de-lei-n-0252002/ (API WordPress post 4979); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "ANEXO_2002_SN_ANEXO_PARECER_RELATOR_ANTONIO_ATOMOS_V1.jsonl",
+      "sha256": "013e95bf65e14572b71b80873bbf9ebc3844182be102f51aa7dc5ff8140b8ecc",
+      "tamanho": 54582
+    },
+    {
+      "nome": "ANEXO_2002_SN_ANEXO_PARECER_RELATOR_ANTONIO_CONTEUDO_SITE_API.json",
+      "sha256": "a05995784fb8813a7af3ca29d81d3d0e14e7d91617372be657747645614aa4ea",
+      "tamanho": 15845
+    },
+    {
+      "nome": "ANEXO_2002_SN_ANEXO_PARECER_RELATOR_ANTONIO_NORMA_V1.json",
+      "sha256": "50c43d1d37307725b303283dc43d5ebc89221df2b587749f32a2ba97d60d141f",
+      "tamanho": 2611
+    },
+    {
+      "nome": "ANEXO_2002_SN_ANEXO_PARECER_RELATOR_ANTONIO_PAGINA_SITE.html",
+      "sha256": "dab7dbc7d1a4e6b44b8ae145c8dc0d38692df1b90d2751d6be44d418d2e06ea3",
+      "tamanho": 454738
+    },
+    {
+      "nome": "ANEXO_2002_SN_ANEXO_PARECER_RELATOR_ANTONIO_TEXTO_FONTE_V1.txt",
+      "sha256": "4c75437a5234d3d9e039ff7316b3a998ff9968dee24dce15a17faf8f1e80427e",
+      "tamanho": 14692
+    },
+    {
+      "nome": "ANEXO_2002_SN_ANEXO_PARECER_RELATOR_ANTONIO_VALIDACAO_V1.json",
+      "sha256": "332082e3ae280f7083d92d115b45af88ad4e659f93b7ed8ec7e875857d3ca5b5",
+      "tamanho": 3152
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Ato sem número no site; identificador formado por slug.",
+    "TIPO: anexo publicado como post autônomo na categoria Anexos; vínculo com o ato principal a confirmar.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

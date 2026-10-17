@@ -1,0 +1,77 @@
+Ministério da Educação
+Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira
+Cálculo do Índice Geral de Cursos
+Nota Técnica O Índice Geral de Cursos (IGC) é uma média ponderada dos conceitos dos cursos de graduação e pós-graduação da instituição. Para ponderar os conceitos, utiliza-se a distribuição dos alunos da IES entre os diferentes níveis de ensino (graduação, mestrado e doutorado). O IGC será utilizado, entre outros elementos e instrumentos, como referencial orientador das comissões de avaliação institucional. O conceito da graduação é calculado com base nos Conceitos Preliminares de Cursos (CPC) e o conceito da pós-graduação é calculado a partir de uma conversão dos conceitos fixados pela CAPES. Vale dizer que nas instituições sem cursos ou programas de pós-graduação avaliados pela CAPES, o IGC é simplesmente a média ponderada dos cursos de graduação. Para esta primeira divulgação do IGC, foram utilizados os CPC’s referentes aos ENADE’s de 2005 a 2007 e a nota CAPES referente à avaliação do triênio 2004-2006. Para a ponderação das matrículas da graduação, foram utilizados os dados dos Censos da Educação Superior de 2005 e de 2006. A idéia é que o IGC seja calculado todo ano, seguindo a divulgação do Enade e do CPC dos cursos de graduação. Abaixo é explicitado o cálculo do IGC. Cálculo do IGC O conceito médio da graduação denominada ‘G’ é uma média ponderada dos conceitos preliminares dos cursos, isto é:
+n
+i i CPC G
+∑
+i
+1 φ (1)
+= =
+i CPC = conceito preliminar do curso i da IES;
+n = φ ;
+i i T
+G
+1
+Ministério da Educação
+Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira
+in = número total de matrículas no curso de graduação i da IES;
+G T = número total de matrículas de graduação na IES. É importante esclarecer que in considera apenas as matrículas dos cursos de graduação para os quais foi possível calcular o CPC. Para a pós-graduação, definiu-se o conceito médio do mestrado e o conceito médio do doutorado da IES. O conceito médio do mestrado, denominado M, é obtido a partir da equação (2).
+m
+i i M M
+∑
+i
+1 θ (2)
+= =
+i M = nota dos alunos de mestrado do programa de pós-graduação i da IES;
+m = θ ;
+i i T
+M
+i m = número de matrículas de mestrado no programa de pós-graduação i da IES;
+M T = número total de matrículas de mestrado nos programas de pós-graduação da IES. Sendo i C o conceito obtido pelo programa na CAPES, a nota dos alunos de mestrado do programa de pós-graduação i é dada por i i C M = caso 5 ≤ i C e 5 = i M caso 5 > i C . Consideram-se apenas programas de pós-graduação que obtiveram conceito CAPES 3 ≥. A nota do doutorado, denominada D, é obtida a partir da equação (3).
+h
+i i D D
+∑
+i
+1 γ (3)
+= =
+i D = nota dos alunos de doutorado do programa de pós-graduação i da IES;
+h = γ ;
+i i T
+D
+ih = número de matrículas de doutorado no programa de pós-graduação i da IES;
+2
+Ministério da Educação
+Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira
+D T = número total de matrículas de doutorado nos programas de pós-graduação da IES. A nota dos alunos de doutorado do programa de pós-graduação i é dada por:
+.2 − = i i C D Novamente, consideram-se apenas programas de pós-graduação que obtiveram conceito CAPES 3 ≥. O Índice Geral de Cursos da IES é obtido a partir da equação (4).
+) 10 ( 3 ) 1 )( 1( ) 5 ( 2 ) 1( + − − + + − + = D M G I β α β α α (4)
+Sendo:
+T
+G
+ME
+T e T T T
+T T
++ = + + = β α
+DE ME G
+DE ME
+I Em (4), ME T é o número de mestrandos, em termos de graduando equivalente e
+DE T é o número de doutorandos, em termos de graduando equivalente, onde:
+5
+5
+Dj DE Mj ME j T T e j T T
+j j
+3
+1 ) 2 (
+∑ ∑ = = = − =
+Mj T = Número de alunos de mestrado matriculados em programas de pós-
+graduação com nota j M .
+Dj T = Número de alunos de doutorado matriculados em programas de pós-
+graduação com nota j D . De acordo com a definição de ME T um aluno de mestrado de um programa de pós- graduação nota 3 é equivalente a um aluno de graduação; um aluno de mestrado de um programa nota 4 é equivalente a dois alunos de graduação; e, por fim, um aluno de mestrado de um programa nota 5 é equivalente a três alunos de graduação. Raciocínio análogo pode ser feito para o termo DE T referente às matrículas de doutorado.
+3
+Ministério da Educação
+Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira
+O indicador será divulgado numa escala contínua de 0 a 500 e também por faixas. Para transformar a variável contínua em faixas siga a tabela abaixo:
+Índice Geral de Cursos da IES
+IGC - Faixas IGC - Contínuo 1 0,0 a 94 2 95 a 194 3 195 a 294 4 295 a 394 5 + 395
+4

@@ -1,0 +1,60 @@
+{
+  "verificado_em": "2026-10-15T14:44:02Z",
+  "barra_autorizada": {
+    "nome": "Extração bruta, listagem fechada, entrada autorizada",
+    "feitos": 144,
+    "total": 144,
+    "percentual": 100.0,
+    "desenho": "[████████████████████]",
+    "nota": "Cem por cento deste recorte antigo. Não é cem por cento do Drive."
+  },
+  "pasta_grok": {
+    "id": "1l519_P-9o6bnQcItydKvEEDpEYeE8R8s",
+    "listagem": "fechada",
+    "filho_restante": "revisao",
+    "resto": "revisao/fontes contém cinco PDFs de editora. O texto de página não entra no Git e a única cópia não foi para a lixeira.",
+    "pdfs_editora": [
+      "NEWS2_RCP2017_Final_report.pdf",
+      "NEWS2_RCP2017_Chart1_scoring_system.pdf",
+      "NEWS2_RCP2017_Chart2_thresholds_triggers.pdf",
+      "Sepsis3_Singer2016_JAMA_VoR_via_AmsterdamUMC.pdf",
+      "DBHA2020_ArqBrasCardiol_116-3_516-658.pdf"
+    ]
+  },
+  "pastas_da_raiz": [
+    {"titulo": "cid10", "considerada": true, "arquivos": "implantados", "permanece": "pasta na lixeira"},
+    {"titulo": "ferimentos", "considerada": true, "arquivos": "implantados", "permanece": "pasta na lixeira"},
+    {"titulo": "medlineplus", "considerada": true, "arquivos": "implantados", "permanece": "pasta na lixeira"},
+    {"titulo": "sepse", "considerada": true, "arquivos": "implantados", "permanece": "pasta na lixeira"},
+    {"titulo": "epidemiologico", "considerada": true, "arquivos": "implantados e raw", "permanece": "pasta na lixeira"},
+    {"titulo": "icd11", "considerada": true, "arquivos": "implantados e raw", "permanece": "pasta na lixeira"},
+    {"titulo": "medicamentos", "considerada": true, "arquivos": "implantados, frações e raw", "permanece": "pasta na lixeira"},
+    {"titulo": "mesh", "considerada": true, "arquivos": "implantados e raw", "permanece": "pasta na lixeira"},
+    {"titulo": "nutricao", "considerada": true, "arquivos": "implantados, fração e raw", "permanece": "pasta na lixeira"},
+    {"titulo": "sinais_vitais", "considerada": true, "arquivos": "implantados e raw", "permanece": "pasta na lixeira"},
+    {"titulo": "suprimentos", "considerada": true, "arquivos": "implantados, fração e raw", "permanece": "pasta na lixeira"},
+    {"titulo": "vacinas", "considerada": true, "arquivos": "implantados e raw", "permanece": "pasta na lixeira"},
+    {"titulo": "vacinal_brasil", "considerada": true, "arquivos": "implantados e raw", "permanece": "pasta na lixeira"},
+    {"titulo": "dispositivos", "considerada": true, "arquivos": "quatro implantados, um fracionado, e raw", "permanece": "pasta na lixeira"},
+    {"titulo": "revisao", "considerada": true, "arquivos": "documentos, tabelas, cofen736 e cabeçalhos", "permanece": "a pasta fontes, com cinco PDFs de editora"},
+    {"titulo": "atomizado", "considerada": true, "arquivos": "raiz e 86 jsonl ou manifestos, seis fracionados", "permanece": "pasta na lixeira"},
+    {"titulo": "protocolos_enfermagem", "considerada": true, "arquivos": "índices, raw e dez PDFs oficiais", "permanece": "pasta na lixeira"},
+    {"titulo": "raw", "considerada": true, "arquivos": "50 copiados em */raw/ pelas WO 0068 a 0071", "permanece": "pasta na lixeira"}
+  ],
+  "arquivo_na_raiz": {
+    "titulo": "CKO_CURSOR_00_CONTROLE_v1_0_0.zip",
+    "considerado": true,
+    "disposicao": "copiado, extraído em bytes e enviado à lixeira"
+  },
+  "outras_raizes": [
+    "Calculadoras_de_Enfermagem: atlas, PAR, OS, PORT, legislação, edital, outros e onze resoluções implantados. DEC, PARNORM, NOTATEC e a árvore NORMATIVOS seguem com página aberta.",
+    "ESTEIRA_COFEN_BACKUP: download público devolveu HTML (WO 0088 BLOQUEADO); listagem ainda tem página",
+    "Calculadoras-de-Enfermagem: listagem passou de 105 itens e ainda tinha página seguinte"
+  ],
+  "alternativas_para_o_drive_inteiro": [
+    "A pasta Grok não está vazia: restam cinco PDFs de editora em revisao/fontes.",
+    "Fracionar o que passar de 50 MB. A concatenação precisa repetir o SHA-256.",
+    "Fechar a listagem das outras três raízes antes de atribuir percentual a elas.",
+    "Esvaziar a lixeira está bloqueado e somente uma pessoa pode fazer isso."
+  ]
+}

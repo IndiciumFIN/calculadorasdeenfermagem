@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-16-2024-cofen-camtec-ctepienf/ (API WordPress post 143042); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2024_N_00016_CTEPIENF_ATOMOS_V1.jsonl",
+      "sha256": "a64cdf35591a5fa161f6f240d4a100f24544d7fa7f3d9214096beec48fecebfc",
+      "tamanho": 31658
+    },
+    {
+      "nome": "PARCT_2024_N_00016_CTEPIENF_CONTEUDO_SITE_API.json",
+      "sha256": "f49461e1c001f70511521b1749c5d348803f3827852df243e210ba31702e1c7e",
+      "tamanho": 9348
+    },
+    {
+      "nome": "PARCT_2024_N_00016_CTEPIENF_NORMA_V1.json",
+      "sha256": "fdae996e60e49d40e4810f00f3864d6e0b6327346049950b44639c5de6daa422",
+      "tamanho": 2910
+    },
+    {
+      "nome": "PARCT_2024_N_00016_CTEPIENF_PAGINA_SITE.html",
+      "sha256": "e96ff0bd16220c7813387012a0a58cadf95fc2f36971d752428773e3a650a4dc",
+      "tamanho": 448778
+    },
+    {
+      "nome": "PARCT_2024_N_00016_CTEPIENF_TEXTO_FONTE_V1.txt",
+      "sha256": "a08a26493b0dbc9563f31010e210ec8fd9d95ae0204096cccf9c9acf5b7e0047",
+      "tamanho": 6664
+    },
+    {
+      "nome": "PARCT_2024_N_00016_CTEPIENF_VALIDACAO_V1.json",
+      "sha256": "875fd3bd964e0c5fa3a754aa3a6d28b2e182011727bd391151bff2012990f396",
+      "tamanho": 2665
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

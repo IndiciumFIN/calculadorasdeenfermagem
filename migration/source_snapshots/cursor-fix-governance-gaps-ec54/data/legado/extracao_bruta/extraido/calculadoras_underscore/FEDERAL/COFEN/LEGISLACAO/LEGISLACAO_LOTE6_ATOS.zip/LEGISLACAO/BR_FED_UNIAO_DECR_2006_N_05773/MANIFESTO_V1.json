@@ -1,0 +1,53 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/decreto-no-5-773-de-9-de-maio-de-2006/ (API WordPress post 36784); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "DECR_2006_N_05773_ATOMOS_V1.jsonl",
+      "sha256": "6c3195668c0975c01f674abfbb09fb45b10b2ae19b4b33c316fd4a67ba71f5f2",
+      "tamanho": 273242
+    },
+    {
+      "nome": "DECR_2006_N_05773_CONTEUDO_SITE_API.json",
+      "sha256": "47daa85cf7592933b11dd82d322ef7ad8f21516b54b16ad2fe2647e43c63a96d",
+      "tamanho": 549
+    },
+    {
+      "nome": "DECR_2006_N_05773_NORMA_V1.json",
+      "sha256": "3b6994992482abae95741ae33cc582ea9332cbd8c8cf5559bc06acb882082a7c",
+      "tamanho": 5613
+    },
+    {
+      "nome": "DECR_2006_N_05773_PAGINA_SITE.html",
+      "sha256": "99e11ec05e463d9ae74e2441aed485b7ee5b769ee5db0ee69271d3b87240f5dc",
+      "tamanho": 439641
+    },
+    {
+      "nome": "DECR_2006_N_05773_PDF_SITE.pdf",
+      "sha256": "9ced31fd0a434d6d63bed3be909bed78c0b05c453e30f9705fa9625a9020310d",
+      "tamanho": 208388
+    },
+    {
+      "nome": "DECR_2006_N_05773_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "b52a2b7b6da07bcbbaf42e6fdc189e6c35780c53e7acdbef5fe3daab4bb192bd",
+      "tamanho": 54201
+    },
+    {
+      "nome": "DECR_2006_N_05773_TEXTO_FONTE_V1.txt",
+      "sha256": "b52a2b7b6da07bcbbaf42e6fdc189e6c35780c53e7acdbef5fe3daab4bb192bd",
+      "tamanho": 54201
+    },
+    {
+      "nome": "DECR_2006_N_05773_VALIDACAO_V1.json",
+      "sha256": "d72804b1d0cf011f985944315f20c0f7ac7ee83ae520b2ca81ffd7bd9dbeacfd",
+      "tamanho": 5599
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Texto do ato disponível apenas no PDF (o site traz só título/resumo); atomização feita a partir da camada de texto do PDF.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir."
+  ]
+}

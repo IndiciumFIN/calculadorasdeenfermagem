@@ -1,0 +1,37 @@
+escore,parametro,faixa,pontos
+NEWS2,Frequência respiratória (irpm),<=8,3
+NEWS2,Frequência respiratória (irpm),9-11,1
+NEWS2,Frequência respiratória (irpm),12-20,0
+NEWS2,Frequência respiratória (irpm),21-24,2
+NEWS2,Frequência respiratória (irpm),>=25,3
+NEWS2,SpO2 escala 1 (%),<=91,3
+NEWS2,SpO2 escala 1 (%),92-93,2
+NEWS2,SpO2 escala 1 (%),94-95,1
+NEWS2,SpO2 escala 1 (%),>=96,0
+NEWS2,SpO2 escala 2 (%) - hipercapnia,<=83,3
+NEWS2,SpO2 escala 2 (%) - hipercapnia,84-85,2
+NEWS2,SpO2 escala 2 (%) - hipercapnia,86-87,1
+NEWS2,SpO2 escala 2 (%) - hipercapnia,88-92 ou >=93 em ar ambiente,0
+NEWS2,SpO2 escala 2 (%) - hipercapnia,93-94 com O2,1
+NEWS2,SpO2 escala 2 (%) - hipercapnia,95-96 com O2,2
+NEWS2,SpO2 escala 2 (%) - hipercapnia,>=97 com O2,3
+NEWS2,Ar ambiente ou oxigênio,Oxigênio,2
+NEWS2,Ar ambiente ou oxigênio,Ar ambiente,0
+NEWS2,Pressão arterial sistólica (mmHg),<=90,3
+NEWS2,Pressão arterial sistólica (mmHg),91-100,2
+NEWS2,Pressão arterial sistólica (mmHg),101-110,1
+NEWS2,Pressão arterial sistólica (mmHg),111-219,0
+NEWS2,Pressão arterial sistólica (mmHg),>=220,3
+NEWS2,Frequência cardíaca (bpm),<=40,3
+NEWS2,Frequência cardíaca (bpm),41-50,1
+NEWS2,Frequência cardíaca (bpm),51-90,0
+NEWS2,Frequência cardíaca (bpm),91-110,1
+NEWS2,Frequência cardíaca (bpm),111-130,2
+NEWS2,Frequência cardíaca (bpm),>=131,3
+NEWS2,Consciência (ACVPU),Alerta,0
+NEWS2,Consciência (ACVPU),"Confusão nova, V, P ou U",3
+NEWS2,Temperatura (°C),<=35.0,3
+NEWS2,Temperatura (°C),35.1-36.0,1
+NEWS2,Temperatura (°C),36.1-38.0,0
+NEWS2,Temperatura (°C),38.1-39.0,1
+NEWS2,Temperatura (°C),>=39.1,2

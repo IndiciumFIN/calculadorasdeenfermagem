@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-camara-tecnica-no-0081-2021-ctln-cofen/ (API WordPress post 110238); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCONS_2022_N_00022_ATOMOS_V1.jsonl",
+      "sha256": "5a2803309f9453a0fe72cf2cd8c3c490e25184f51718223a52b472d9da4e7227",
+      "tamanho": 89748
+    },
+    {
+      "nome": "PARCONS_2022_N_00022_CONTEUDO_SITE_API.json",
+      "sha256": "2abb0fd9032d66ed6737843adf3665c70b863b044a998a4208359ded22387d98",
+      "tamanho": 25836
+    },
+    {
+      "nome": "PARCONS_2022_N_00022_NORMA_V1.json",
+      "sha256": "5e4fdeedcbfcf611c2cefb2cf497a709928aad66a8b03b3b6469b89185a91c7e",
+      "tamanho": 6287
+    },
+    {
+      "nome": "PARCONS_2022_N_00022_PAGINA_SITE.html",
+      "sha256": "40f86da9dec2f112ae78cafaa3f8309f671e28cde15f7dd628a295f3f47ec7df",
+      "tamanho": 463097
+    },
+    {
+      "nome": "PARCONS_2022_N_00022_TEXTO_FONTE_V1.txt",
+      "sha256": "c7475696b53996499f4a1f4d6ecb796abfdeea397fd32d5fef0c63cd96e30590",
+      "tamanho": 24519
+    },
+    {
+      "nome": "PARCONS_2022_N_00022_VALIDACAO_V1.json",
+      "sha256": "7af2b933461a6b7c1e2f7f5dc061acb271e1166e4b7857d988946f02fea3fdad",
+      "tamanho": 2465
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

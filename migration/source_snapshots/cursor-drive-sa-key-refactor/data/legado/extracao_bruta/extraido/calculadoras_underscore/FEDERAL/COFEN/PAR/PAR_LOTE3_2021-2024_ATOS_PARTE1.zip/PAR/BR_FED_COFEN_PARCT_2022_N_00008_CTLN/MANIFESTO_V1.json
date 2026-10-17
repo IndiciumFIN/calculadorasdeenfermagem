@@ -1,0 +1,53 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-camara-tecnica-no-0008-2022-ctln-cofen/ (API WordPress post 98295); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2022_N_00008_CTLN_ATOMOS_V1.jsonl",
+      "sha256": "4a816690777049341cc32ea47bc5121d149824bf213cf50dc4b5b61cae376007",
+      "tamanho": 51379
+    },
+    {
+      "nome": "PARCT_2022_N_00008_CTLN_CONTEUDO_SITE_API.json",
+      "sha256": "b2e29d5ee5cd80f7c9937d072040c792c238e7ccb19ea991eb8e498743a00060",
+      "tamanho": 8121
+    },
+    {
+      "nome": "PARCT_2022_N_00008_CTLN_NORMA_V1.json",
+      "sha256": "c11bfa13e1c25805396c83f9826de1a060904d371347b65e1b0d67b39bb38ac7",
+      "tamanho": 4609
+    },
+    {
+      "nome": "PARCT_2022_N_00008_CTLN_PAGINA_SITE.html",
+      "sha256": "632f9387aeca564b04437feb7d1621a24e54cd3b42e9f05c6856d13170a5c1e2",
+      "tamanho": 445772
+    },
+    {
+      "nome": "PARCT_2022_N_00008_CTLN_PDF_SITE.pdf",
+      "sha256": "28ab8c89eb9cbc1e393cbf94493cf3640761aa7579890907277a9064505cf67d",
+      "tamanho": 1575854
+    },
+    {
+      "nome": "PARCT_2022_N_00008_CTLN_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "2baca3f5cecb0cd5c607a2f0f14e49ecda4fa0c818a3d57382a3f1804c245e59",
+      "tamanho": 38388
+    },
+    {
+      "nome": "PARCT_2022_N_00008_CTLN_TEXTO_FONTE_V1.txt",
+      "sha256": "bb6b35e14125fafcdc5a0e87a37ee085f23f0b76cadf983075728d20cd6e9f5f",
+      "tamanho": 6010
+    },
+    {
+      "nome": "PARCT_2022_N_00008_CTLN_VALIDACAO_V1.json",
+      "sha256": "318f642cf5a261549c43851a940dedbf66c4d288471155b15040f1c2b80a8b0a",
+      "tamanho": 30185
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "24 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "336 trecho(s) do PDF sem correspondente no texto do site.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir."
+  ]
+}

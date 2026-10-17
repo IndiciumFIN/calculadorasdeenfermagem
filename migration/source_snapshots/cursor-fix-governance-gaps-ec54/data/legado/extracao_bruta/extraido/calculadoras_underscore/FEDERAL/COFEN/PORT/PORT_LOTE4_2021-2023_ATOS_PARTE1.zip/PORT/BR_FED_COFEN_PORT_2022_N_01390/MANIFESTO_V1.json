@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-1390-de-5-de-outubro-de-2022/ (API WordPress post 105287); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2022_N_01390_ATOMOS_V1.jsonl",
+      "sha256": "a5999d34fd61472e31d7620e53117d8607af8f7cfa02f998e74f2229f6559e4e",
+      "tamanho": 7620
+    },
+    {
+      "nome": "PORT_2022_N_01390_CONTEUDO_SITE_API.json",
+      "sha256": "98e8669b1afcd8ca92c28c4269f5d7ad1c242eb7849337cc5a3fffbf9ac739e2",
+      "tamanho": 1850
+    },
+    {
+      "nome": "PORT_2022_N_01390_NORMA_V1.json",
+      "sha256": "296504025f0c794c9e70cb2ac0440ccdea95bfd547f1f389dbd647830b0c5ead",
+      "tamanho": 3054
+    },
+    {
+      "nome": "PORT_2022_N_01390_PAGINA_SITE.html",
+      "sha256": "31528337e31f1d1e4a6952de7fbcf28f826470cfd077aed0dfdbf6a9f1d3e25f",
+      "tamanho": 439879
+    },
+    {
+      "nome": "PORT_2022_N_01390_TEXTO_FONTE_V1.txt",
+      "sha256": "783028bc1aa96a712e150ba34dbb74b10cfb9dcea088f48b8ae419f8e4718d92",
+      "tamanho": 1234
+    },
+    {
+      "nome": "PORT_2022_N_01390_VALIDACAO_V1.json",
+      "sha256": "599df38b088ac82134a5fabeb17feea1974e16ed0057c1c325f14917d20f7af2",
+      "tamanho": 2460
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

@@ -1,0 +1,383 @@
+{
+  "identificador": "BR_FED_COFEN_PARCONS_2018_N_00050",
+  "resultado_processo": "PENDENTE",
+  "rotulo": "Pendente de verificação",
+  "controles": [
+    {
+      "nome": "Identificação do ato e emissor",
+      "resultado": "PASS",
+      "evidencia": "PARECER DE CONSELHEIRO FEDERAL Nº 050/2018/COFEN"
+    },
+    {
+      "nome": "Conferência site HTML × PDF oficial, dispositivo a dispositivo",
+      "resultado": "FAIL",
+      "status": "EXECUTADA_VIA_OCR",
+      "evidencia": {
+        "dispositivos_comparados": 5,
+        "por_resultado": {
+          "AUSENTE_NO_PDF": 1,
+          "DIFERENCA_MENOR": 1,
+          "IDENTICO_NORMALIZADO": 3
+        },
+        "trechos_pdf_ausentes_no_site": 111,
+        "pdf": "PARCONS_2018_N_00050_PDF_SITE.pdf"
+      }
+    },
+    {
+      "nome": "Publicação no DOU (registro, sem verificação online)",
+      "resultado": "NAO_CITADO",
+      "evidencia": null
+    },
+    {
+      "nome": "Anexos referenciados presentes e atomizados",
+      "resultado": "NAO_APLICAVEL",
+      "status": "SEM_ANEXO_REFERENCIADO",
+      "referencias": []
+    },
+    {
+      "nome": "Numeração contígua (seções, itens, alíneas)",
+      "resultado": "PASS",
+      "evidencia": null
+    },
+    {
+      "nome": "Conferência humana da literalidade",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Pesquisa de alterações posteriores",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Direitos autorais do texto do ato oficial",
+      "resultado": "PASS",
+      "fundamento": "Lei 9.610/1998, art. 8, IV"
+    }
+  ],
+  "fechamento": {
+    "apto": false,
+    "status": "PENDENCIAS",
+    "justificativa": "Aguardando revisão humana da atomização e pesquisa de atos posteriores. Há achados bloqueantes adicionais."
+  },
+  "achados": [
+    {
+      "codigo": "C001",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Atomização automática; requer conferência humana da segmentação e da literalidade."
+    },
+    {
+      "codigo": "C002",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada."
+    },
+    {
+      "codigo": "C011",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "1 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+      "evidencia": [
+        {
+          "identificador": "BR_FED_COFEN_PARCONS_2018_N_00050_PARAGRAFO_TEXTO_002",
+          "resultado": "AUSENTE_NO_PDF",
+          "similaridade": 51.8,
+          "trecho": "Observação: Considerando que o referido parecer contém tabelas, a íntegra está em anexo."
+        }
+      ]
+    },
+    {
+      "codigo": "C014",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "111 trecho(s) do PDF sem correspondente no texto do site.",
+      "evidencia": [
+        {
+          "trecho_pdf": "Em cumprimento ao expresso na Portaria Cofen Nº 1734 de 2017, recebi da lavra do Excelentíssima Vice-Presidente do Conselho Federal Enfermagem, em vistas, o",
+          "similaridade": 51.0,
+          "cobertura_vocabulario": 0.267,
+          "arquivo": "PARCONS_2018_N_00050_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Processo Administrativo 714/2017 para análise e emissão de parecer.",
+          "similaridade": 68.2,
+          "cobertura_vocabulario": 0.571,
+          "arquivo": "PARCONS_2018_N_00050_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Trata-se de documento emanado da Ouvidoria do Cofen no qual a Enfermeira Lélia Povoa traz questionamentos sobre as atividades desenvolvidas pela equipe de",
+          "similaridade": 45.0,
+          "cobertura_vocabulario": 0.062,
+          "arquivo": "PARCONS_2018_N_00050_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "enfermagem nos serviços de endoscopia, sob comando verbal do médico endoscopista.",
+          "similaridade": 72.2,
+          "cobertura_vocabulario": 0.286,
+          "arquivo": "PARCONS_2018_N_00050_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Através de despacho a Sra. Vice-Presidente, solicita parecer técnico a Câmara Técnica de Legislação e Normas — CTLN, que em parecer Nº 23/2017 conclui “que a",
+          "similaridade": 47.0,
+          "cobertura_vocabulario": 0.2,
+          "arquivo": "PARCONS_2018_N_00050_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "realização de biopsia endoscópica, incluindo o procedimento de forma integral com",
+          "similaridade": 51.2,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "PARCONS_2018_N_00050_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "abertura e fechamento de pinças, é de competência médica pelos riscos e ;/ )",
+          "similaridade": 54.3,
+          "cobertura_vocabulario": 0.143,
+          "arquivo": "PARCONS_2018_N_00050_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "responsabilidades envolvidas no exame diagnóstico, não cabendo ao profissional de V/",
+          "similaridade": 52.4,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "PARCONS_2018_N_00050_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Sérvido enfermagem de nível médio (Técnico e Auxiliar de Enfermagem) a realização deste?” Ed Ratificado pela Conselheira Relatora que estende a proibição das atividades",
+          "similaridade": 50.0,
+          "cobertura_vocabulario": 0.25,
+          "arquivo": "PARCONS_2018_N_00050_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "endoscópicas ao Profissional Enfermeiro no Parecer de Relator 273/2017.",
+          "similaridade": 58.6,
+          "cobertura_vocabulario": 0.333,
+          "arquivo": "PARCONS_2018_N_00050_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Apreciada na 496º ROP Cofen, após discussões acerca da matéria, com diversas",
+          "similaridade": 47.3,
+          "cobertura_vocabulario": 0.125,
+          "arquivo": "PARCONS_2018_N_00050_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "controvérsias, foi concedida vista a Conselheira Federal Nadia Mattos Ramalho.",
+          "similaridade": 67.1,
+          "cobertura_vocabulario": 0.625,
+          "arquivo": "PARCONS_2018_N_00050_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Bastante explorada pelos Pereceres CTAS (Parecer 030/2017- PAD 274 /2017) e CTLN (Parecer Nº 23/2017) ,que analisaram Pareceres Técnicos emitidos pelos Corens BA e SP. Convém ressaltar que o Coren- MG através do Parecer Técnico 03/2017 considera legitima a participação dos profissionais de enfermage",
+          "similaridade": 54.3,
+          "cobertura_vocabulario": 0.27,
+          "arquivo": "PARCONS_2018_N_00050_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "respeitando os aspectos éticos e legais da profissão . 3- Da ANALISE",
+          "similaridade": 52.3,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "PARCONS_2018_N_00050_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Os procedimentos endoscópicos com fins diagnósticos e de tratamento fazem parte da realidade dos serviços de saúde já há muitas décadas. A necessidade de um meio que iluminasse o interior dos órgãos intestinais para a avaliação de doenças do trato gastrointestinal remonta desde o tempo de Hipócrates",
+          "similaridade": 46.3,
+          "cobertura_vocabulario": 0.013,
+          "arquivo": "PARCONS_2018_N_00050_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Em 1941, foi fundada a Sociedade Americana de Endoscopia Gastrointestinal como área especializada. A partir desta década com a evolução dos procedimentos e equipamentos, foram necessárias mudanças na prática e na capacitação das A enfermeiras, que passaram a atuar ativamente nos serviços de endoscop",
+          "similaridade": 43.8,
+          "cobertura_vocabulario": 0.037,
+          "arquivo": "PARCONS_2018_N_00050_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "a DN” | Os enfermeiros e enfermeiras que trabalham em Endoscopia estão organizados",
+          "similaridade": 57.0,
+          "cobertura_vocabulario": 0.167,
+          "arquivo": "PARCONS_2018_N_00050_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "em associações nos vários continentes. No Brasil a Sociedade Brasileira de Enfermagem",
+          "similaridade": 50.0,
+          "cobertura_vocabulario": 0.143,
+          "arquivo": "PARCONS_2018_N_00050_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "em Endoscopia Gastrointestinal (SOBEEG) foi fundada durante o Congresso Brasileiro de",
+          "similaridade": 50.6,
+          "cobertura_vocabulario": 0.143,
+          "arquivo": "PARCONS_2018_N_00050_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Endoscopia Digestiva em 1998, Salvador — Bahia, sob a coordenação da enfermeira leda",
+          "similaridade": 46.2,
+          "cobertura_vocabulario": 0.125,
+          "arquivo": "PARCONS_2018_N_00050_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Paz Nery, com a participação de cem enfermeiros de diversos estados, com a",
+          "similaridade": 50.0,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "PARCONS_2018_N_00050_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "responsabilidade e o objetivo de treinar, capacitar e especializar profissionais de",
+          "similaridade": 50.0,
+          "cobertura_vocabulario": 0.167,
+          "arquivo": "PARCONS_2018_N_00050_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "enfermagem em endoscopia. A padronização da técnica de limpeza e desinfecção de",
+          "similaridade": 56.4,
+          "cobertura_vocabulario": 0.333,
+          "arquivo": "PARCONS_2018_N_00050_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "endoscópios foi à primeira meta da SOBEEG e levou a implantação de melhores práticas",
+          "similaridade": 46.4,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "PARCONS_2018_N_00050_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "serem aplicadas nos serviços, visando um aprimoramento nos atendimentos",
+          "similaridade": 48.6,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "PARCONS_2018_N_00050_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "assistenciais, além de uma melhoria na qualidade e segurança no reprocessamento dos",
+          "similaridade": 46.3,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "PARCONS_2018_N_00050_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "A Endoscopia Digestiva Alta consiste em um procedimento invasivo para inspeção de órgãos e cavidades do corpo, por meio de um endoscópio, capaz de gerar um grau de incômodo, de acordo com a tolerância da pessoa. Tem finalidades diagnósticas e terapêuticas. A realização desse exame é uma prerrogativa",
+          "similaridade": 46.3,
+          "cobertura_vocabulario": 0.041,
+          "arquivo": "PARCONS_2018_N_00050_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "realização do exame e das práticas de educação em saúde e em serviço.",
+          "similaridade": 52.9,
+          "cobertura_vocabulario": 0.167,
+          "arquivo": "PARCONS_2018_N_00050_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Na atualidade, todo serviço de endoscopia existente no Brasil, é normatizado pelos protocolos da Agência Nacional de Vigilância Sanitária (RDC Nº 6/2013 - ANVISA) que orientam o perfil do serviço, materiais e equipamentos e os processos de limpeza e desinfecção dos aparelhos endoscópicos e materiais",
+          "similaridade": 45.6,
+          "cobertura_vocabulario": 0.086,
+          "arquivo": "PARCONS_2018_N_00050_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "inerentes aos profissionais de enfermagem que atuam nesta área.",
+          "similaridade": 64.5,
+          "cobertura_vocabulario": 0.333,
+          "arquivo": "PARCONS_2018_N_00050_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Com vistas à qualidade da atenção nos serviços de endoscopia, assim como em",
+          "similaridade": 59.5,
+          "cobertura_vocabulario": 0.143,
+          "arquivo": "PARCONS_2018_N_00050_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "outras áreas, tem se desenvolvido e utilizado protocolos que orientem o trabalho desj ar",
+          "similaridade": 47.1,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "PARCONS_2018_N_00050_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Nos serviços de endoscopia, observa-se que os protocolos de enfermagem envolvendo o usuário de saúde submetido à Endoscopia e seu acompanhante é uma das formas de padronizar as atividades assistenciais e gerenciais que a enfermeira e sua equipe deveriam executar no período pré, trans e pós-exame de ",
+          "similaridade": 45.3,
+          "cobertura_vocabulario": 0.156,
+          "arquivo": "PARCONS_2018_N_00050_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Um protocolo de atendimento é entendido como um conjunto de dados, que permite direcionar o trabalho e registrar oficialmente os cuidados executados para a resolução ou prevenção de um problema. Por meio dos protocolos, os procedimentos feitos pela equipe de enfermagem são padronizados e repercute n",
+          "similaridade": 46.6,
+          "cobertura_vocabulario": 0.038,
+          "arquivo": "PARCONS_2018_N_00050_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Como podemos observar no Protocolo de acolhimento e atenção para usuários submetidos a endoscopia digestiva alta e seus acompanhantes — Rev. Bras. Enferm. 2014",
+          "similaridade": 45.5,
+          "cobertura_vocabulario": 0.059,
+          "arquivo": "PARCONS_2018_N_00050_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Quadro 1 = Protocolo do poríedo quo antecede o oxame de Endascapia Digestiva Alta",
+          "similaridade": 48.1,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "PARCONS_2018_N_00050_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Periodo gue antecude o exame de Endoscopia Dizestiva Alta; Corpesende o acolhimento es cuidados de eriermagem dispensados 30 usário pempanhante no serviço a partir de qrenento da sua inclusão alia seu prepato pata o exairme",
+          "similaridade": 46.7,
+          "cobertura_vocabulario": 0.095,
+          "arquivo": "PARCONS_2018_N_00050_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "É Erdermetro do Centro Endoscópia chama o usuário e seu acompanhante seguindo os entérios de atendimento, para o consultório de enfermagem onde sera realizada a consulta de enfermagem.",
+          "similaridade": 50.0,
+          "cobertura_vocabulario": 0.176,
+          "arquivo": "PARCONS_2018_N_00050_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "2 Enteseiro procedeça: e Cordene çessenca do acormpanhante ese o usgánic edá 12 haras de serum, Caso não freercuraprido o tempo de jeium, será irtormado ao médico endoscopista que se responsabilizará pela decisão da Handerência ca não da data do exame Caso indicado será peonentado sobre a necessidad",
+          "similaridade": 46.9,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "PARCONS_2018_N_00050_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "* Solicitar que ao usuário que “aca a leitura, preencha e ascine o termo de consentimento 2 para nualização da exame Protisstonal apto Caso ele declare não ter condições para tal solicitará que o acompanhante (aça 3 leitura ou ele próprio Cará este papel",
+          "similaridade": 47.2,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "PARCONS_2018_N_00050_PDF_SITE.pdf"
+        }
+      ]
+    },
+    {
+      "codigo": "C012",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+    },
+    {
+      "codigo": "C051",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "Data do ato não identificada no texto; usada a data do post no site."
+    }
+  ],
+  "conferencia_por_dispositivo": [
+    {
+      "identificador": "BR_FED_COFEN_PARCONS_2018_N_00050_EPIGRAFE_001",
+      "tipo": "epigrafe",
+      "resultado": "DIFERENCA_MENOR",
+      "similaridade": 62.5
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCONS_2018_N_00050_IDENTIFICACAO_PROCESSO_001",
+      "tipo": "identificacao_processo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCONS_2018_N_00050_IDENTIFICACAO_PROCESSO_002",
+      "tipo": "identificacao_processo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCONS_2018_N_00050_PARAGRAFO_TEXTO_001",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCONS_2018_N_00050_PARAGRAFO_TEXTO_002",
+      "tipo": "paragrafo_texto",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 51.8
+    }
+  ],
+  "data_verificacao": "2026-10-10",
+  "responsavel": "Triagem automatizada - requer validação humana"
+}

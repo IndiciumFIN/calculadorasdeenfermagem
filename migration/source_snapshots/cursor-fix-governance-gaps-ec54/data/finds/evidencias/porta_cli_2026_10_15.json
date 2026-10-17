@@ -1,0 +1,26 @@
+{
+  "codigo": "PORTA-CLI-001",
+  "efeito": "ESCRITA_RECUSADA",
+  "autorizacao": false,
+  "homologacao_juridica": false,
+  "comandos": [
+    "ingest",
+    "process",
+    "pipeline run",
+    "registry add",
+    "registry set-status"
+  ],
+  "tarefas_nao_qualificadas": [
+    "TAREFA-T01",
+    "TAREFA-T02",
+    "TAREFA-T04",
+    "TAREFA-T07"
+  ],
+  "modulos": {
+    "packages/cli/porta.py": "75e75cc37455c2e8814c9009fd4385b1d4539a10b43460943bb2608725e40a97",
+    "packages/cli/main.py": "fb1295694c322c02ad20b352522bb765068168a63405ab83e8f9447639812f0b",
+    "packages/cli/registry.py": "801900a67124365c5c87d7fa9c5cdf574403d61c3fd7a6ecd903385732820dca",
+    "packages/cli/pipeline.py": "a454919d62bc92b11a4274bae926613f7e95009ed2732da2f32b0c52ecda2efa"
+  },
+  "nota": "O comando recusa antes de gravar. A heurística e a máquina de estados permanecem como funções de regressão. authorized_by continua textual."
+}

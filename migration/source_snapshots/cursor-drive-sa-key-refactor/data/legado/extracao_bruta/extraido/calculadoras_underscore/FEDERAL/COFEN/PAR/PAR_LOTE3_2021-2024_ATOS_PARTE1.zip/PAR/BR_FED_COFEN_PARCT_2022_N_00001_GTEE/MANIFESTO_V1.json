@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-camara-tecnica-no-001-2022-gtee-cofen/ (API WordPress post 104444); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2022_N_00001_GTEE_ATOMOS_V1.jsonl",
+      "sha256": "c4b9ec9118fadf4cf23d781c25fa256382a17e1bc1564c81d39b566c180fb2ad",
+      "tamanho": 70982
+    },
+    {
+      "nome": "PARCT_2022_N_00001_GTEE_CONTEUDO_SITE_API.json",
+      "sha256": "27a9ccdc0fa281d26bfdb342e39ac2f5fe75c0717265f70b6e9bac4283272ce2",
+      "tamanho": 15527
+    },
+    {
+      "nome": "PARCT_2022_N_00001_GTEE_NORMA_V1.json",
+      "sha256": "12c521094b0d45bede5536bc61166c97aeae3b42e91dd0bb510874979f37f68b",
+      "tamanho": 7459
+    },
+    {
+      "nome": "PARCT_2022_N_00001_GTEE_PAGINA_SITE.html",
+      "sha256": "0a72757d221f097f409c55b076adfc0988032c8efb682b248ee6df6254637d93",
+      "tamanho": 452975
+    },
+    {
+      "nome": "PARCT_2022_N_00001_GTEE_TEXTO_FONTE_V1.txt",
+      "sha256": "a8b1db9d455ef85d30fad7da91653399db1261c5ed0373ef5c72a2af117c7b5e",
+      "tamanho": 13547
+    },
+    {
+      "nome": "PARCT_2022_N_00001_GTEE_VALIDACAO_V1.json",
+      "sha256": "c29867e03cd37be772244b7363912e0eebf8267a7374a7a66e0b9b10583beaf3",
+      "tamanho": 2470
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

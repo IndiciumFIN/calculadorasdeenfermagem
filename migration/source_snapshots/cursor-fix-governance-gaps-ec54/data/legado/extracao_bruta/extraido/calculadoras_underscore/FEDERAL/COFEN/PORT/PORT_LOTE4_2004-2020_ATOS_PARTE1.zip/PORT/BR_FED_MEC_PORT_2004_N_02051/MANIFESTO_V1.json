@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-n-2051-de-9-de-julho-de-2004/ (API WordPress post 4198); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2004_N_02051_ATOMOS_V1.jsonl",
+      "sha256": "5c493d58ceda8532db965aaff949416bcae191158a7250dcf9d71c5c54e69057",
+      "tamanho": 90341
+    },
+    {
+      "nome": "PORT_2004_N_02051_CONTEUDO_SITE_API.json",
+      "sha256": "199483d25b6da1841350a88ffdbdb82a01ec96102ae54d7ab1c5d4cd04aed3c2",
+      "tamanho": 20683
+    },
+    {
+      "nome": "PORT_2004_N_02051_NORMA_V1.json",
+      "sha256": "3c9430f0825a1c8f4c2fb09f90e8400e231b2e416f86975fcdfa1f01b2836789",
+      "tamanho": 3134
+    },
+    {
+      "nome": "PORT_2004_N_02051_PAGINA_SITE.html",
+      "sha256": "f74d9ae4dac126b51d052a69a90f351fb7ab9d3723ec0b01b86c941bcf3ab730",
+      "tamanho": 456163
+    },
+    {
+      "nome": "PORT_2004_N_02051_TEXTO_FONTE_V1.txt",
+      "sha256": "76c05731f1da89c0fb49448585f5e7f9165776d7702d671278a9e61f16fa997c",
+      "tamanho": 19106
+    },
+    {
+      "nome": "PORT_2004_N_02051_VALIDACAO_V1.json",
+      "sha256": "65fdf7f4a0186e358cc4fae6a65d6e88fed825a5609e982ccf582dba1758f988",
+      "tamanho": 2899
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência."
+  ]
+}

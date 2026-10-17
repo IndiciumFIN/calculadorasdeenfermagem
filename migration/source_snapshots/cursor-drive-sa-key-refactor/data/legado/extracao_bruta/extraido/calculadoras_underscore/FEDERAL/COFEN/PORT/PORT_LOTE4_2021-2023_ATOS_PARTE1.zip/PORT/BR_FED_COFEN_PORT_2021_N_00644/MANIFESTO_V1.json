@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-644-de-29-de-junho-de-2021/ (API WordPress post 88266); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2021_N_00644_ATOMOS_V1.jsonl",
+      "sha256": "82247ac53e91f89c0f09275f79fc8ee85434cf5bb07ab8459226376f9938190c",
+      "tamanho": 6213
+    },
+    {
+      "nome": "PORT_2021_N_00644_CONTEUDO_SITE_API.json",
+      "sha256": "2d35b6b61b8d299aa423cdf2adf084026a001f84da88c151050d8921b6c29d5b",
+      "tamanho": 1589
+    },
+    {
+      "nome": "PORT_2021_N_00644_NORMA_V1.json",
+      "sha256": "e0769d463ca06612cfe092d30c3a9d5287ac9c782f3b8b25ad5939fe0b9e9389",
+      "tamanho": 3048
+    },
+    {
+      "nome": "PORT_2021_N_00644_PAGINA_SITE.html",
+      "sha256": "9d1c44d1e2739f7f8e21342cc606647f2bdccc727c504afd24d1056f4a518490",
+      "tamanho": 439224
+    },
+    {
+      "nome": "PORT_2021_N_00644_TEXTO_FONTE_V1.txt",
+      "sha256": "84f651303c7f9c041f8c509e9b9db7cc8b8b02b812c48ed34816d2a0e2f5ba94",
+      "tamanho": 990
+    },
+    {
+      "nome": "PORT_2021_N_00644_VALIDACAO_V1.json",
+      "sha256": "68690b08db0fdc69b5816f9b78af5fc202bf8839de8b5a582cae33999bfffec0",
+      "tamanho": 2458
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

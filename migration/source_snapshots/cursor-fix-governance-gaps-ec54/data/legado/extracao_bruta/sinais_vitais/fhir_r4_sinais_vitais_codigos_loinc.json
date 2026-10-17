@@ -1,0 +1,122 @@
+[
+ {
+  "perfil_fhir": "vitalspanel",
+  "titulo": "Observation Vital Signs Panel Profile",
+  "elemento": "Observation.code.coding:VitalsPanelCode.code",
+  "sistema": "http://loinc.org",
+  "codigo": "85353-1",
+  "unidades_ucum_perfil": "",
+  "descricao": "FHIR Vital Signs Panel Profile",
+  "url_perfil": "http://hl7.org/fhir/StructureDefinition/vitalspanel"
+ },
+ {
+  "perfil_fhir": "resprate",
+  "titulo": "Observation Respiratory Rate Profile",
+  "elemento": "Observation.code.coding:RespRateCode.code",
+  "sistema": "http://loinc.org",
+  "codigo": "9279-1",
+  "unidades_ucum_perfil": "/min",
+  "descricao": "FHIR Respiratory Rate Profile",
+  "url_perfil": "http://hl7.org/fhir/StructureDefinition/resprate"
+ },
+ {
+  "perfil_fhir": "heartrate",
+  "titulo": "Observation Heart Rate Profile",
+  "elemento": "Observation.code.coding:HeartRateCode.code",
+  "sistema": "http://loinc.org",
+  "codigo": "8867-4",
+  "unidades_ucum_perfil": "/min",
+  "descricao": "FHIR Heart Rate Profile",
+  "url_perfil": "http://hl7.org/fhir/StructureDefinition/heartrate"
+ },
+ {
+  "perfil_fhir": "oxygensat",
+  "titulo": "Observation Oxygen Saturation Profile",
+  "elemento": "Observation.code.coding:OxygenSatCode.code",
+  "sistema": "http://loinc.org",
+  "codigo": "2708-6",
+  "unidades_ucum_perfil": "%",
+  "descricao": "FHIR Oxygen Saturation Profile",
+  "url_perfil": "http://hl7.org/fhir/StructureDefinition/oxygensat"
+ },
+ {
+  "perfil_fhir": "bodytemp",
+  "titulo": "Observation Body Temperature Profile",
+  "elemento": "Observation.code.coding:BodyTempCode.code",
+  "sistema": "http://loinc.org",
+  "codigo": "8310-5",
+  "unidades_ucum_perfil": "",
+  "descricao": "FHIR Body Temperature Profile",
+  "url_perfil": "http://hl7.org/fhir/StructureDefinition/bodytemp"
+ },
+ {
+  "perfil_fhir": "bodyheight",
+  "titulo": "Observation Body Height Profile",
+  "elemento": "Observation.code.coding:BodyHeightCode.code",
+  "sistema": "http://loinc.org",
+  "codigo": "8302-2",
+  "unidades_ucum_perfil": "",
+  "descricao": "FHIR Body Height Profile",
+  "url_perfil": "http://hl7.org/fhir/StructureDefinition/bodyheight"
+ },
+ {
+  "perfil_fhir": "headcircum",
+  "titulo": "Observation Head Circumference Profile",
+  "elemento": "Observation.code.coding:HeadCircumCode.code",
+  "sistema": "http://loinc.org",
+  "codigo": "9843-4",
+  "unidades_ucum_perfil": "",
+  "descricao": "FHIR Head Circumference Profile",
+  "url_perfil": "http://hl7.org/fhir/StructureDefinition/headcircum"
+ },
+ {
+  "perfil_fhir": "bodyweight",
+  "titulo": "Observation Body Weight Profile",
+  "elemento": "Observation.code.coding:BodyWeightCode.code",
+  "sistema": "http://loinc.org",
+  "codigo": "29463-7",
+  "unidades_ucum_perfil": "",
+  "descricao": "FHIR Body Weight Profile",
+  "url_perfil": "http://hl7.org/fhir/StructureDefinition/bodyweight"
+ },
+ {
+  "perfil_fhir": "bmi",
+  "titulo": "Observation Body Mass Index Profile",
+  "elemento": "Observation.code.coding:BMICode.code",
+  "sistema": "http://loinc.org",
+  "codigo": "39156-5",
+  "unidades_ucum_perfil": "kg/m2",
+  "descricao": "FHIR Body Mass Index (BMI) Profile",
+  "url_perfil": "http://hl7.org/fhir/StructureDefinition/bmi"
+ },
+ {
+  "perfil_fhir": "bp",
+  "titulo": "Observation Blood Pressure Profile",
+  "elemento": "Observation.code.coding:BPCode.code",
+  "sistema": "http://loinc.org",
+  "codigo": "85354-9",
+  "unidades_ucum_perfil": "",
+  "descricao": "FHIR Blood Pressure Profile",
+  "url_perfil": "http://hl7.org/fhir/StructureDefinition/bp"
+ },
+ {
+  "perfil_fhir": "bp",
+  "titulo": "Observation Blood Pressure Profile",
+  "elemento": "Observation.component:SystolicBP.code.coding:SBPCode.code",
+  "sistema": "http://loinc.org",
+  "codigo": "8480-6",
+  "unidades_ucum_perfil": "",
+  "descricao": "FHIR Blood Pressure Profile",
+  "url_perfil": "http://hl7.org/fhir/StructureDefinition/bp"
+ },
+ {
+  "perfil_fhir": "bp",
+  "titulo": "Observation Blood Pressure Profile",
+  "elemento": "Observation.component:DiastolicBP.code.coding:DBPCode.code",
+  "sistema": "http://loinc.org",
+  "codigo": "8462-4",
+  "unidades_ucum_perfil": "",
+  "descricao": "FHIR Blood Pressure Profile",
+  "url_perfil": "http://hl7.org/fhir/StructureDefinition/bp"
+ }
+]

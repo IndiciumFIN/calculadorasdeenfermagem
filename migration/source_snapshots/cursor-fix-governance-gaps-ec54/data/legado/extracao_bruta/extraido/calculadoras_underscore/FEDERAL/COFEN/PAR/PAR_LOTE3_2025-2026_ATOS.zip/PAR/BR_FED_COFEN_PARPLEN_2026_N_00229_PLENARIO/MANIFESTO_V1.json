@@ -1,0 +1,53 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-229-2026-plenario/ (API WordPress post 193282); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARPLEN_2026_N_00229_PLENARIO_ATOMOS_V1.jsonl",
+      "sha256": "118a09af7b0cd53f5c80e20fa97fa71d4e159066c926b716e0259049e2ff0a68",
+      "tamanho": 150907
+    },
+    {
+      "nome": "PARPLEN_2026_N_00229_PLENARIO_CONTEUDO_SITE_API.json",
+      "sha256": "6b77ae280387720efd703e74888e39ca282c86d0d9d29c2e3848fae5ec6c7e52",
+      "tamanho": 40131
+    },
+    {
+      "nome": "PARPLEN_2026_N_00229_PLENARIO_NORMA_V1.json",
+      "sha256": "6d29441b6891c86c38d076f51bcd03fc40d17cbfd33d49acb345f3ab9b337f6b",
+      "tamanho": 9022
+    },
+    {
+      "nome": "PARPLEN_2026_N_00229_PLENARIO_PAGINA_SITE.html",
+      "sha256": "86e7aea6b7d8d050b4e1570b8bb6cb5b2a8b82a69b57a1f6c22a80f7d3ad20fd",
+      "tamanho": 479319
+    },
+    {
+      "nome": "PARPLEN_2026_N_00229_PLENARIO_PDF_SITE.pdf",
+      "sha256": "763941c27b2fad393d34a6c63df5989e53b2f2c9f989325ac537c67add5c7849",
+      "tamanho": 270298
+    },
+    {
+      "nome": "PARPLEN_2026_N_00229_PLENARIO_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "bae5b7e9bfc291a2d29094f60884f9e299a0037047de28728831b1a2f4fda4c7",
+      "tamanho": 33771
+    },
+    {
+      "nome": "PARPLEN_2026_N_00229_PLENARIO_TEXTO_FONTE_V1.txt",
+      "sha256": "1ea44e1ba7143d31a867748c8d564e0b9d636e83c16e71c64208ee456b040384",
+      "tamanho": 33562
+    },
+    {
+      "nome": "PARPLEN_2026_N_00229_PLENARIO_VALIDACAO_V1.json",
+      "sha256": "a40cfe53ca18809405a1a04296e02d8441e5ed93cd5022beb73a8f6125e1aef0",
+      "tamanho": 30195
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência."
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-1562-de-14-de-novembro-de-2017/ (API WordPress post 58646); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2017_N_01562_ATOMOS_V1.jsonl",
+      "sha256": "7d46e71c08651b8cbac1f1b72677c3ee48556b21b34d89b6bc5e64393f1cd202",
+      "tamanho": 9896
+    },
+    {
+      "nome": "PORT_2017_N_01562_CONTEUDO_SITE_API.json",
+      "sha256": "48fab847b5d0975e7d85b58dc082e4fe1160ba3b2a8b490d2470b0ab2b8fb451",
+      "tamanho": 2361
+    },
+    {
+      "nome": "PORT_2017_N_01562_NORMA_V1.json",
+      "sha256": "1807559682032175cfa34958f7eba7b1d7ba6b9fa731ff63bc2d88ede3317ff4",
+      "tamanho": 3986
+    },
+    {
+      "nome": "PORT_2017_N_01562_PAGINA_SITE.html",
+      "sha256": "a24455ea7de8360b3a2a787f3fe88d540993ec62f1bfd848025aa4b9167d801d",
+      "tamanho": 440271
+    },
+    {
+      "nome": "PORT_2017_N_01562_TEXTO_FONTE_V1.txt",
+      "sha256": "58ff7cb296ab701819a60a033e7d9c0d0e1ae8e4e074263418fd14210a2b0fe2",
+      "tamanho": 1539
+    },
+    {
+      "nome": "PORT_2017_N_01562_VALIDACAO_V1.json",
+      "sha256": "2608ab1282c6526691f976212456b355ed6dcc3b5943a6f42020b113ce8fb7be",
+      "tamanho": 2462
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

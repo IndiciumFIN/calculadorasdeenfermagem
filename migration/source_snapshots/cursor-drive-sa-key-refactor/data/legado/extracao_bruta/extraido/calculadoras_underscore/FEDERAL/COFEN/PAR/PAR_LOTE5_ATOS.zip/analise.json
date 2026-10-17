@@ -1,0 +1,687 @@
+{
+  "algoritmo": "extracao-bytes-sha256",
+  "arquivo": "PAR_LOTE5_ATOS.zip",
+  "bytes": 2546981,
+  "sha256": "7bd470f8b2853f9cc0ae66329a7b5d36e9a48610d40dd899c6ec421b69cb4259",
+  "membros": [
+    {
+      "nome": "PAR/BR_FED_COFEN_PARCT_2025_N_00031_CAMTEC/MANIFESTO_V1.json",
+      "bytes": 2006,
+      "sha256": "b4718b9df5492fb425cff4eb6c8422819673e7a1620faa84e2fd283b8b168cbf",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARCT_2025_N_00031_CAMTEC/MANIFESTO_V1.json"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARCT_2025_N_00031_CAMTEC/PARCT_2025_N_00031_CAMTEC_ATOMOS_V1.jsonl",
+      "bytes": 76277,
+      "sha256": "b87de4a96c66332e8b5ec1f4e3bf7ce0a0fb77581ed12bb506cb2f47a9848802",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARCT_2025_N_00031_CAMTEC/PARCT_2025_N_00031_CAMTEC_ATOMOS_V1.jsonl"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARCT_2025_N_00031_CAMTEC/PARCT_2025_N_00031_CAMTEC_CONTEUDO_SITE_API.json",
+      "bytes": 20434,
+      "sha256": "a5a8e0b9d6596a85af5f85467bc6bc624205ea0d83fa5f9d66759ae3f04bc745",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARCT_2025_N_00031_CAMTEC/PARCT_2025_N_00031_CAMTEC_CONTEUDO_SITE_API.json"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARCT_2025_N_00031_CAMTEC/PARCT_2025_N_00031_CAMTEC_NORMA_V1.json",
+      "bytes": 5292,
+      "sha256": "3704896e18970b525bf5a631b47385a36dd606e757d25a9a836712d747f63d7f",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARCT_2025_N_00031_CAMTEC/PARCT_2025_N_00031_CAMTEC_NORMA_V1.json"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARCT_2025_N_00031_CAMTEC/PARCT_2025_N_00031_CAMTEC_PAGINA_SITE.html",
+      "bytes": 460660,
+      "sha256": "7a55c1beda8e510fac95062cf89cb776e5662ee3db78ad0b8020475ab982e1e4",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARCT_2025_N_00031_CAMTEC/PARCT_2025_N_00031_CAMTEC_PAGINA_SITE.html"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARCT_2025_N_00031_CAMTEC/PARCT_2025_N_00031_CAMTEC_PDF_SITE.pdf",
+      "bytes": 215997,
+      "sha256": "6e6f68e7c77c9f20025d53c84b6bc8868df8d610ad6c692d420e02e78176f63b",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARCT_2025_N_00031_CAMTEC/PARCT_2025_N_00031_CAMTEC_PDF_SITE.pdf"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARCT_2025_N_00031_CAMTEC/PARCT_2025_N_00031_CAMTEC_PDF_SITE_TEXTO_V1.txt",
+      "bytes": 17898,
+      "sha256": "9c45bd44208fa7709201bc73f9cb304c45a4bb672186d29da458e8a9ec49610d",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARCT_2025_N_00031_CAMTEC/PARCT_2025_N_00031_CAMTEC_PDF_SITE_TEXTO_V1.txt"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARCT_2025_N_00031_CAMTEC/PARCT_2025_N_00031_CAMTEC_TEXTO_FONTE_V1.txt",
+      "bytes": 16083,
+      "sha256": "27b2f69742bc78b549609ec6d56442fd311130be5ac5b86c381873f62c9d30ef",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARCT_2025_N_00031_CAMTEC/PARCT_2025_N_00031_CAMTEC_TEXTO_FONTE_V1.txt"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARCT_2025_N_00031_CAMTEC/PARCT_2025_N_00031_CAMTEC_VALIDACAO_V1.json",
+      "bytes": 16070,
+      "sha256": "f9631013ae0f3fddda5e694db2069e5c55e48c600d7d55536be8cd674732966e",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARCT_2025_N_00031_CAMTEC/PARCT_2025_N_00031_CAMTEC_VALIDACAO_V1.json"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00002_GTAE/MANIFESTO_V1.json",
+      "bytes": 1910,
+      "sha256": "89dd7708cb13e0f4dbfc65ef885fb814719e5df7046cdf1cbc56ca5e72d8c364",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00002_GTAE/MANIFESTO_V1.json"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00002_GTAE/PARGT_2026_N_00002_GTAE_ATOMOS_V1.jsonl",
+      "bytes": 30800,
+      "sha256": "940b72bdbc7044a96af8a16ce8d576d09d4d3751423490e8988bceefd8d9f508",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00002_GTAE/PARGT_2026_N_00002_GTAE_ATOMOS_V1.jsonl"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00002_GTAE/PARGT_2026_N_00002_GTAE_CONTEUDO_SITE_API.json",
+      "bytes": 9712,
+      "sha256": "53dd8f6ffe9499a45ac7b05ea7b5a2bf757baf066587bf35387ae57ea3401bab",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00002_GTAE/PARGT_2026_N_00002_GTAE_CONTEUDO_SITE_API.json"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00002_GTAE/PARGT_2026_N_00002_GTAE_NORMA_V1.json",
+      "bytes": 3635,
+      "sha256": "d49993cf9fddff565f2d7fc731eaf4e2238ffda3701fc9ee8db9186398b1edb2",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00002_GTAE/PARGT_2026_N_00002_GTAE_NORMA_V1.json"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00002_GTAE/PARGT_2026_N_00002_GTAE_PAGINA_SITE.html",
+      "bytes": 451513,
+      "sha256": "b382813bf66002a436494c514f1d90452a5a0c476d2e62e0fcb4f9d0b2862905",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00002_GTAE/PARGT_2026_N_00002_GTAE_PAGINA_SITE.html"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00002_GTAE/PARGT_2026_N_00002_GTAE_PDF_SITE.pdf",
+      "bytes": 170099,
+      "sha256": "4183b6b26bf716c3cdae66108f57c14755e08d0e4d8c8fafe871c43e22a85059",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00002_GTAE/PARGT_2026_N_00002_GTAE_PDF_SITE.pdf"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00002_GTAE/PARGT_2026_N_00002_GTAE_PDF_SITE_TEXTO_V1.txt",
+      "bytes": 8778,
+      "sha256": "e897069109f9d4f905b03ffa5144f993960d59434aa218eea5da7e4076b99d5a",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00002_GTAE/PARGT_2026_N_00002_GTAE_PDF_SITE_TEXTO_V1.txt"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00002_GTAE/PARGT_2026_N_00002_GTAE_TEXTO_FONTE_V1.txt",
+      "bytes": 7465,
+      "sha256": "464981dac8e3a87bfe86b3483e88ec66cfd0df94c9f0dc3d21353a9f943ec8a0",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00002_GTAE/PARGT_2026_N_00002_GTAE_TEXTO_FONTE_V1.txt"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00002_GTAE/PARGT_2026_N_00002_GTAE_VALIDACAO_V1.json",
+      "bytes": 7312,
+      "sha256": "a3686eff4cda393cdbaaf1dba0f09d6d13ef952dbc1be4007fcdd6dc0db9604a",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00002_GTAE/PARGT_2026_N_00002_GTAE_VALIDACAO_V1.json"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00003_GTAE/MANIFESTO_V1.json",
+      "bytes": 1986,
+      "sha256": "0afcc00df24d92e7eb4f30a8ca3c89b08cfa2f81b2a81c498e85ca90491403af",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00003_GTAE/MANIFESTO_V1.json"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00003_GTAE/PARGT_2026_N_00003_GTAE_ATOMOS_V1.jsonl",
+      "bytes": 24455,
+      "sha256": "5da370e99a1f9affae3f5e77e5609414fc90a0efeb729e6e498356b179b3af22",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00003_GTAE/PARGT_2026_N_00003_GTAE_ATOMOS_V1.jsonl"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00003_GTAE/PARGT_2026_N_00003_GTAE_CONTEUDO_SITE_API.json",
+      "bytes": 8626,
+      "sha256": "e2e0de599e48613a6ac332721f9a0fe38640baf66bdd283027ec803aec6c521a",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00003_GTAE/PARGT_2026_N_00003_GTAE_CONTEUDO_SITE_API.json"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00003_GTAE/PARGT_2026_N_00003_GTAE_NORMA_V1.json",
+      "bytes": 3414,
+      "sha256": "514b52fba361fa0a2851a5ac6fdf650673e73ddbbf9762ed7848cfb290b9f1eb",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00003_GTAE/PARGT_2026_N_00003_GTAE_NORMA_V1.json"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00003_GTAE/PARGT_2026_N_00003_GTAE_PAGINA_SITE.html",
+      "bytes": 450226,
+      "sha256": "92b9d319df8a6606257b048828bfb8fe19f693a01e1412a679993d53bb4d58ec",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00003_GTAE/PARGT_2026_N_00003_GTAE_PAGINA_SITE.html"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00003_GTAE/PARGT_2026_N_00003_GTAE_PDF_SITE.pdf",
+      "bytes": 160928,
+      "sha256": "84b1771f581c1942d9401fc656700cebdfc99ef89bd7326977973955163bfc7b",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00003_GTAE/PARGT_2026_N_00003_GTAE_PDF_SITE.pdf"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00003_GTAE/PARGT_2026_N_00003_GTAE_PDF_SITE_TEXTO_V1.txt",
+      "bytes": 8210,
+      "sha256": "10f5d6a7fe9f092c34e69c69cfe75d0f19c9eb4f856882e75d9c68a3bfd72b0a",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00003_GTAE/PARGT_2026_N_00003_GTAE_PDF_SITE_TEXTO_V1.txt"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00003_GTAE/PARGT_2026_N_00003_GTAE_TEXTO_FONTE_V1.txt",
+      "bytes": 6864,
+      "sha256": "564721704b073b331e3355b49a23f763850ce714075417edf36303e8e39ff396",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00003_GTAE/PARGT_2026_N_00003_GTAE_TEXTO_FONTE_V1.txt"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00003_GTAE/PARGT_2026_N_00003_GTAE_VALIDACAO_V1.json",
+      "bytes": 6392,
+      "sha256": "05bca3001549a13e720c18341f29eaab7a577fa5d496a897f10bf38e4d789d34",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00003_GTAE/PARGT_2026_N_00003_GTAE_VALIDACAO_V1.json"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00005_GTAE/MANIFESTO_V1.json",
+      "bytes": 1951,
+      "sha256": "428d29f565638f6e64154cfc7ba399396648213abe63eb99a9408201a35e5b78",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00005_GTAE/MANIFESTO_V1.json"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00005_GTAE/PARGT_2026_N_00005_GTAE_ATOMOS_V1.jsonl",
+      "bytes": 64572,
+      "sha256": "4286e9290136c53f656ab267a614eec89fe778369828b6f973e2720b26e3c8dd",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00005_GTAE/PARGT_2026_N_00005_GTAE_ATOMOS_V1.jsonl"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00005_GTAE/PARGT_2026_N_00005_GTAE_CONTEUDO_SITE_API.json",
+      "bytes": 21429,
+      "sha256": "c2aa093ff0433497eaa8337546d80aaee8046963d880f5362c1cc56a2a05ff09",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00005_GTAE/PARGT_2026_N_00005_GTAE_CONTEUDO_SITE_API.json"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00005_GTAE/PARGT_2026_N_00005_GTAE_NORMA_V1.json",
+      "bytes": 3554,
+      "sha256": "4d981dcde4af1ff2fa75f35f2e517007dfcd4a7a887490eba77cfb594ed5526d",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00005_GTAE/PARGT_2026_N_00005_GTAE_NORMA_V1.json"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00005_GTAE/PARGT_2026_N_00005_GTAE_PAGINA_SITE.html",
+      "bytes": 462724,
+      "sha256": "c1ed39d096f3270da5c373275f1584bed6d8cfb183c2b24c403b39ea1c9f4622",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00005_GTAE/PARGT_2026_N_00005_GTAE_PAGINA_SITE.html"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00005_GTAE/PARGT_2026_N_00005_GTAE_TEXTO_FONTE_V1.txt",
+      "bytes": 17461,
+      "sha256": "1ef2599b6e4f3717dd716fcb9dce151a1509450af990b4619ee971759700d2d2",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00005_GTAE/PARGT_2026_N_00005_GTAE_TEXTO_FONTE_V1.txt"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00005_GTAE/PARGT_2026_N_00005_GTAE_VALIDACAO_V1.json",
+      "bytes": 3561,
+      "sha256": "5eee98b6321515ddb2c8ced726adc83e1e18ba1bd489109f1930a810cfc656f9",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00005_GTAE/PARGT_2026_N_00005_GTAE_VALIDACAO_V1.json"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00006_GTAE/MANIFESTO_V1.json",
+      "bytes": 2110,
+      "sha256": "820c7d02cb556f3ce408c0cc26153a3e12672b98097f9487ddb8e7a216871c92",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00006_GTAE/MANIFESTO_V1.json"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00006_GTAE/PARGT_2026_N_00006_GTAE_ATOMOS_V1.jsonl",
+      "bytes": 68294,
+      "sha256": "34ad0599093ed16a325a6b600d3fb5ee2d14ef16ab7ffda5be9711ff5e55d191",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00006_GTAE/PARGT_2026_N_00006_GTAE_ATOMOS_V1.jsonl"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00006_GTAE/PARGT_2026_N_00006_GTAE_CONTEUDO_SITE_API.json",
+      "bytes": 15050,
+      "sha256": "6caffd09cac56ff7edba4d3a33e000151f68fbd4854417999011df23c0ff0613",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00006_GTAE/PARGT_2026_N_00006_GTAE_CONTEUDO_SITE_API.json"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00006_GTAE/PARGT_2026_N_00006_GTAE_NORMA_V1.json",
+      "bytes": 3939,
+      "sha256": "d5dcf6712149d356001f9427356ab74721b5ee299fa1ababa7cd465f44335a7f",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00006_GTAE/PARGT_2026_N_00006_GTAE_NORMA_V1.json"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00006_GTAE/PARGT_2026_N_00006_GTAE_PAGINA_SITE.html",
+      "bytes": 456559,
+      "sha256": "025e6d53d9e1dc2db4d9fd633e2b01fae2cf64c8814e7f18cf662cece2aececb",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00006_GTAE/PARGT_2026_N_00006_GTAE_PAGINA_SITE.html"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00006_GTAE/PARGT_2026_N_00006_GTAE_PDF_SITE.pdf",
+      "bytes": 169406,
+      "sha256": "c3571b3a57e7089edfcd0c4dd1ae93f5f9c2b6a6d8f9cf28ca40b88852df3a07",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00006_GTAE/PARGT_2026_N_00006_GTAE_PDF_SITE.pdf"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00006_GTAE/PARGT_2026_N_00006_GTAE_PDF_SITE_TEXTO_V1.txt",
+      "bytes": 12358,
+      "sha256": "06f15b53556e12ec5c237a58e2120ae3183ed32a2c1e4925a22ae6b9d2c11d16",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00006_GTAE/PARGT_2026_N_00006_GTAE_PDF_SITE_TEXTO_V1.txt"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00006_GTAE/PARGT_2026_N_00006_GTAE_TEXTO_FONTE_V1.txt",
+      "bytes": 10685,
+      "sha256": "b39affae821ec386c2dca504a97c6edd443147b7c6e98e3e6113095fbbb04dc6",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00006_GTAE/PARGT_2026_N_00006_GTAE_TEXTO_FONTE_V1.txt"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00006_GTAE/PARGT_2026_N_00006_GTAE_VALIDACAO_V1.json",
+      "bytes": 15579,
+      "sha256": "f23a236e281a12ea16e7cd14a3b4e5b41aa6c9083d4ead91d878c56761e2f52f",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00006_GTAE/PARGT_2026_N_00006_GTAE_VALIDACAO_V1.json"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00008_GTAE/MANIFESTO_V1.json",
+      "bytes": 1991,
+      "sha256": "bda39ba449919c71416d31a08771adde12345f4fbde89dfac090beb11ff3aadc",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00008_GTAE/MANIFESTO_V1.json"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00008_GTAE/PARGT_2026_N_00008_GTAE_ATOMOS_V1.jsonl",
+      "bytes": 65506,
+      "sha256": "0b1638f40a112f3f8f52eeca9af8e8226f81fce44e9f6ddcbf67e63166e88767",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00008_GTAE/PARGT_2026_N_00008_GTAE_ATOMOS_V1.jsonl"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00008_GTAE/PARGT_2026_N_00008_GTAE_CONTEUDO_SITE_API.json",
+      "bytes": 15850,
+      "sha256": "2cb7ac513e14a9694a558b831a4e2928619d830f12615cc662cb44bfe5c87424",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00008_GTAE/PARGT_2026_N_00008_GTAE_CONTEUDO_SITE_API.json"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00008_GTAE/PARGT_2026_N_00008_GTAE_NORMA_V1.json",
+      "bytes": 3539,
+      "sha256": "3005fb91ab30014436965d9e0a4a12c376ebe83b81c1b9cbebd830a6cbc6b8f6",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00008_GTAE/PARGT_2026_N_00008_GTAE_NORMA_V1.json"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00008_GTAE/PARGT_2026_N_00008_GTAE_PAGINA_SITE.html",
+      "bytes": 457211,
+      "sha256": "a1a2d22b7feaa80afd8bd4cb7772e3d7ed58fdcfd58df500bee295da02907d2b",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00008_GTAE/PARGT_2026_N_00008_GTAE_PAGINA_SITE.html"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00008_GTAE/PARGT_2026_N_00008_GTAE_PDF_SITE.pdf",
+      "bytes": 166293,
+      "sha256": "024c6aeea4d86c899a6b3451dcaf9bd3c1af308abd3b3eb168f9785d5638f821",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00008_GTAE/PARGT_2026_N_00008_GTAE_PDF_SITE.pdf"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00008_GTAE/PARGT_2026_N_00008_GTAE_PDF_SITE_TEXTO_V1.txt",
+      "bytes": 13846,
+      "sha256": "88bfa3115def0793b338c81b28a031285b8149be8c5f92d22dbb283daa5e83eb",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00008_GTAE/PARGT_2026_N_00008_GTAE_PDF_SITE_TEXTO_V1.txt"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00008_GTAE/PARGT_2026_N_00008_GTAE_TEXTO_FONTE_V1.txt",
+      "bytes": 11978,
+      "sha256": "de1666800b445b26d451bb7d20a9727af61702c07d8a1ef233ade591a3568307",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00008_GTAE/PARGT_2026_N_00008_GTAE_TEXTO_FONTE_V1.txt"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00008_GTAE/PARGT_2026_N_00008_GTAE_VALIDACAO_V1.json",
+      "bytes": 14246,
+      "sha256": "01ee957d44a4888ed058cc923a2d59a0e5528882fc97df16716691d41b55521b",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00008_GTAE/PARGT_2026_N_00008_GTAE_VALIDACAO_V1.json"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00010_GTAE/MANIFESTO_V1.json",
+      "bytes": 1988,
+      "sha256": "50bd226148d9834f95de551e9af85e732173fd6c8560924c085a8dfbf3dc2f33",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00010_GTAE/MANIFESTO_V1.json"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00010_GTAE/PARGT_2026_N_00010_GTAE_ATOMOS_V1.jsonl",
+      "bytes": 20321,
+      "sha256": "456b6113cae66de24063e2c31124b7c3b8775c6a5d87b227027dfd388d11938c",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00010_GTAE/PARGT_2026_N_00010_GTAE_ATOMOS_V1.jsonl"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00010_GTAE/PARGT_2026_N_00010_GTAE_CONTEUDO_SITE_API.json",
+      "bytes": 5612,
+      "sha256": "5614f28b9b9c5a67f59da7ce602580075f9648d309d50e8a9209a8f05c2c47bf",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00010_GTAE/PARGT_2026_N_00010_GTAE_CONTEUDO_SITE_API.json"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00010_GTAE/PARGT_2026_N_00010_GTAE_NORMA_V1.json",
+      "bytes": 3591,
+      "sha256": "c8e4058db7f1c55277a294ef2c879c632d4284d919d6ffe66b45c3466fe4586f",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00010_GTAE/PARGT_2026_N_00010_GTAE_NORMA_V1.json"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00010_GTAE/PARGT_2026_N_00010_GTAE_PAGINA_SITE.html",
+      "bytes": 447011,
+      "sha256": "fa7ca2c03c39f6f98e2570e43389610e792585a91a50f47e20465caef0388b70",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00010_GTAE/PARGT_2026_N_00010_GTAE_PAGINA_SITE.html"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00010_GTAE/PARGT_2026_N_00010_GTAE_PDF_SITE.pdf",
+      "bytes": 133858,
+      "sha256": "4dbb6017fdcec9cea0cdd830a6785f678c9a962c9debebb8e9a2df55fa38b854",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00010_GTAE/PARGT_2026_N_00010_GTAE_PDF_SITE.pdf"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00010_GTAE/PARGT_2026_N_00010_GTAE_PDF_SITE_TEXTO_V1.txt",
+      "bytes": 5017,
+      "sha256": "89e7b2c40d681eaf7f62432a959acec8f5d363dd957422afa12b4ae4b2e97089",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00010_GTAE/PARGT_2026_N_00010_GTAE_PDF_SITE_TEXTO_V1.txt"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00010_GTAE/PARGT_2026_N_00010_GTAE_TEXTO_FONTE_V1.txt",
+      "bytes": 3763,
+      "sha256": "a7c46705416ed673759ec174d5e55e7ba024e8b96307e29cfd959fd40f53209f",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00010_GTAE/PARGT_2026_N_00010_GTAE_TEXTO_FONTE_V1.txt"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00010_GTAE/PARGT_2026_N_00010_GTAE_VALIDACAO_V1.json",
+      "bytes": 6217,
+      "sha256": "25aaf760df0faf78ad355dafb1f7589f35af35a4aa04221ff7912eea80b6984a",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00010_GTAE/PARGT_2026_N_00010_GTAE_VALIDACAO_V1.json"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00014_GTAE/MANIFESTO_V1.json",
+      "bytes": 2108,
+      "sha256": "b7527fbfb1d9c11cbffabf56f739c7872608a723452bc927578f77492f8578f7",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00014_GTAE/MANIFESTO_V1.json"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00014_GTAE/PARGT_2026_N_00014_GTAE_ATOMOS_V1.jsonl",
+      "bytes": 39538,
+      "sha256": "01a6973092fee7748c2c1ac2a025f62868d632a1cc4e7d69519066ccf6218676",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00014_GTAE/PARGT_2026_N_00014_GTAE_ATOMOS_V1.jsonl"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00014_GTAE/PARGT_2026_N_00014_GTAE_CONTEUDO_SITE_API.json",
+      "bytes": 9513,
+      "sha256": "68cf8205aa578fac2a049af15b7cc4365c495d610241cdbae14f7c5fd93cccef",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00014_GTAE/PARGT_2026_N_00014_GTAE_CONTEUDO_SITE_API.json"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00014_GTAE/PARGT_2026_N_00014_GTAE_NORMA_V1.json",
+      "bytes": 3511,
+      "sha256": "2445c41f1fe8e58ee10e524b608bcad18d1b984ec2afbb5a1f3f630cd5a12107",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00014_GTAE/PARGT_2026_N_00014_GTAE_NORMA_V1.json"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00014_GTAE/PARGT_2026_N_00014_GTAE_PAGINA_SITE.html",
+      "bytes": 450952,
+      "sha256": "5bf43a3df68f003b42ac952817a71bd4ea8547832d41178fa059abc8e0945738",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00014_GTAE/PARGT_2026_N_00014_GTAE_PAGINA_SITE.html"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00014_GTAE/PARGT_2026_N_00014_GTAE_PDF_SITE.pdf",
+      "bytes": 120217,
+      "sha256": "c4b8d0a6202b4b23573563b762d1c17c4a20e8137b4e6f9e07793a6ac3a7f7c8",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00014_GTAE/PARGT_2026_N_00014_GTAE_PDF_SITE.pdf"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00014_GTAE/PARGT_2026_N_00014_GTAE_PDF_SITE_TEXTO_V1.txt",
+      "bytes": 7783,
+      "sha256": "03abd7ff41fee9f9047abbed074505ec87aed867c1df853cb2141daf5df49d2b",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00014_GTAE/PARGT_2026_N_00014_GTAE_PDF_SITE_TEXTO_V1.txt"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00014_GTAE/PARGT_2026_N_00014_GTAE_TEXTO_FONTE_V1.txt",
+      "bytes": 7186,
+      "sha256": "30a6c530f693f60720a5f403e10d394d73da90970df29b7e9318809e25fbcee0",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00014_GTAE/PARGT_2026_N_00014_GTAE_TEXTO_FONTE_V1.txt"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00014_GTAE/PARGT_2026_N_00014_GTAE_VALIDACAO_V1.json",
+      "bytes": 10155,
+      "sha256": "1c38d30493aff158d174d76ad8e827e6022f2b15bedb06e6d901844f4c9ffee9",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00014_GTAE/PARGT_2026_N_00014_GTAE_VALIDACAO_V1.json"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00016_GTAE/MANIFESTO_V1.json",
+      "bytes": 1988,
+      "sha256": "7513f9b33cffc73207a6d16fded12c69d0cdea8c7ee0cebbf948bd1e9e3a7e91",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00016_GTAE/MANIFESTO_V1.json"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00016_GTAE/PARGT_2026_N_00016_GTAE_ATOMOS_V1.jsonl",
+      "bytes": 18403,
+      "sha256": "2b98b03d02058ce028a73e2e87f58ed6c7ec7b47e9ed4b0d93789f15f51afafd",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00016_GTAE/PARGT_2026_N_00016_GTAE_ATOMOS_V1.jsonl"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00016_GTAE/PARGT_2026_N_00016_GTAE_CONTEUDO_SITE_API.json",
+      "bytes": 5049,
+      "sha256": "699274c21820fffa86853fd164e1aee35086353fdbfe6c2dee95a35402479544",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00016_GTAE/PARGT_2026_N_00016_GTAE_CONTEUDO_SITE_API.json"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00016_GTAE/PARGT_2026_N_00016_GTAE_NORMA_V1.json",
+      "bytes": 3788,
+      "sha256": "4b3e8e32bad8542af648ecc942a09eac1445ff554062ed952b9791f36a89aa1e",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00016_GTAE/PARGT_2026_N_00016_GTAE_NORMA_V1.json"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00016_GTAE/PARGT_2026_N_00016_GTAE_PAGINA_SITE.html",
+      "bytes": 446238,
+      "sha256": "46ff06516d358e054ce519f6482bdbe50b323d021dd2b9ce49158f6973d9aa7f",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00016_GTAE/PARGT_2026_N_00016_GTAE_PAGINA_SITE.html"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00016_GTAE/PARGT_2026_N_00016_GTAE_PDF_SITE.pdf",
+      "bytes": 133174,
+      "sha256": "a3d6ba1e6ca2563655c7f156c985441ae4f95ef16dc2611dddcd3b76f0869026",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00016_GTAE/PARGT_2026_N_00016_GTAE_PDF_SITE.pdf"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00016_GTAE/PARGT_2026_N_00016_GTAE_PDF_SITE_TEXTO_V1.txt",
+      "bytes": 4302,
+      "sha256": "07b260544ed89e724addae6b0eb3371cd3145121bea43aa5edc68f7adb50469b",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00016_GTAE/PARGT_2026_N_00016_GTAE_PDF_SITE_TEXTO_V1.txt"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00016_GTAE/PARGT_2026_N_00016_GTAE_TEXTO_FONTE_V1.txt",
+      "bytes": 3491,
+      "sha256": "058294f0527c399dddc6d88c1739ad80fbe7081d0e23cd13022f3315543c3d58",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00016_GTAE/PARGT_2026_N_00016_GTAE_TEXTO_FONTE_V1.txt"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00016_GTAE/PARGT_2026_N_00016_GTAE_VALIDACAO_V1.json",
+      "bytes": 6017,
+      "sha256": "54ff4a74e00169c2f5240667a43de07eeb2242796b67556283861468cba974a7",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00016_GTAE/PARGT_2026_N_00016_GTAE_VALIDACAO_V1.json"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00039_GTAE/MANIFESTO_V1.json",
+      "bytes": 1988,
+      "sha256": "226c62600ea01c2b611a0204a7217ad371aa86481d1bf75434f356775d7b00a2",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00039_GTAE/MANIFESTO_V1.json"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00039_GTAE/PARGT_2026_N_00039_GTAE_ATOMOS_V1.jsonl",
+      "bytes": 26776,
+      "sha256": "83644cfe396ee249aee345c8ec390b608dc1fcd66b2d11b0beb4ef70ad14b6e3",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00039_GTAE/PARGT_2026_N_00039_GTAE_ATOMOS_V1.jsonl"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00039_GTAE/PARGT_2026_N_00039_GTAE_CONTEUDO_SITE_API.json",
+      "bytes": 7007,
+      "sha256": "c6c2d648853c404704a79bfa563d5b39ccf262921a7724659605afa1e0f1e816",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00039_GTAE/PARGT_2026_N_00039_GTAE_CONTEUDO_SITE_API.json"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00039_GTAE/PARGT_2026_N_00039_GTAE_NORMA_V1.json",
+      "bytes": 4410,
+      "sha256": "7409775d2e8cd75f707dd5aa9b1888f4be80c3839d31132b80a67c3a0cdfec3d",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00039_GTAE/PARGT_2026_N_00039_GTAE_NORMA_V1.json"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00039_GTAE/PARGT_2026_N_00039_GTAE_PAGINA_SITE.html",
+      "bytes": 448558,
+      "sha256": "67d8bd6536dc0eabd40535eabd5cb5c23b4dd0bde13c28a5299be39a2b621349",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00039_GTAE/PARGT_2026_N_00039_GTAE_PAGINA_SITE.html"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00039_GTAE/PARGT_2026_N_00039_GTAE_PDF_SITE.pdf",
+      "bytes": 146039,
+      "sha256": "eff1bf75d08fbb71d234ddd21acc394f84fb1c68ebfb2588dd22eeef24ef24c8",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00039_GTAE/PARGT_2026_N_00039_GTAE_PDF_SITE.pdf"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00039_GTAE/PARGT_2026_N_00039_GTAE_PDF_SITE_TEXTO_V1.txt",
+      "bytes": 6769,
+      "sha256": "7606dc254beb2270c6e1282b4e441bcaac06cbbf4af0326ece9b463971ce345c",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00039_GTAE/PARGT_2026_N_00039_GTAE_PDF_SITE_TEXTO_V1.txt"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00039_GTAE/PARGT_2026_N_00039_GTAE_TEXTO_FONTE_V1.txt",
+      "bytes": 5096,
+      "sha256": "777c49d16121bc77c1e8bc33b607be34d5bc91c6f1930690fd8d81dde191cfa7",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00039_GTAE/PARGT_2026_N_00039_GTAE_TEXTO_FONTE_V1.txt"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00039_GTAE/PARGT_2026_N_00039_GTAE_VALIDACAO_V1.json",
+      "bytes": 7523,
+      "sha256": "5204212fe87639891902d94cfd8d44cd1bae69db1fec5c62ed6c85ce0bfde400",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00039_GTAE/PARGT_2026_N_00039_GTAE_VALIDACAO_V1.json"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00042_GTAE/MANIFESTO_V1.json",
+      "bytes": 1988,
+      "sha256": "a39420bd21476d62cda3d4a4619ad34a4afe14567d7794bd9df00275c0579edb",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00042_GTAE/MANIFESTO_V1.json"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00042_GTAE/PARGT_2026_N_00042_GTAE_ATOMOS_V1.jsonl",
+      "bytes": 21491,
+      "sha256": "60e5deb338a719f7cbac0b4d1bef8cb1ca1911673c88f307eae01a8af837caf2",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00042_GTAE/PARGT_2026_N_00042_GTAE_ATOMOS_V1.jsonl"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00042_GTAE/PARGT_2026_N_00042_GTAE_CONTEUDO_SITE_API.json",
+      "bytes": 6018,
+      "sha256": "d8fd0e9c4288d3005e3c255b225d4f0949497714170b5648d04f90ffa9b178df",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00042_GTAE/PARGT_2026_N_00042_GTAE_CONTEUDO_SITE_API.json"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00042_GTAE/PARGT_2026_N_00042_GTAE_NORMA_V1.json",
+      "bytes": 4161,
+      "sha256": "907182d10b93cea890781f42f5ecefd3095b5b25db8a32f9e5f79a8c68eb110f",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00042_GTAE/PARGT_2026_N_00042_GTAE_NORMA_V1.json"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00042_GTAE/PARGT_2026_N_00042_GTAE_PAGINA_SITE.html",
+      "bytes": 447487,
+      "sha256": "f746ab9ef69c5f0a4844f106d1372ee04ebba0adfaf84323563f7732fa611990",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00042_GTAE/PARGT_2026_N_00042_GTAE_PAGINA_SITE.html"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00042_GTAE/PARGT_2026_N_00042_GTAE_PDF_SITE.pdf",
+      "bytes": 138214,
+      "sha256": "8d6ff3f06ad700890abb6e608496255794468624c5d3d46b8876853c75bf8c26",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00042_GTAE/PARGT_2026_N_00042_GTAE_PDF_SITE.pdf"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00042_GTAE/PARGT_2026_N_00042_GTAE_PDF_SITE_TEXTO_V1.txt",
+      "bytes": 5194,
+      "sha256": "c5f5e54d4566b299dc22e245d79738deb45168f02cf4381aa72ec4cc9a0ed9a8",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00042_GTAE/PARGT_2026_N_00042_GTAE_PDF_SITE_TEXTO_V1.txt"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00042_GTAE/PARGT_2026_N_00042_GTAE_TEXTO_FONTE_V1.txt",
+      "bytes": 4190,
+      "sha256": "d465651499d98ae037447257c5999b9c4ab3f3d3f1ff6e219460e68fd8836075",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00042_GTAE/PARGT_2026_N_00042_GTAE_TEXTO_FONTE_V1.txt"
+    },
+    {
+      "nome": "PAR/BR_FED_COFEN_PARGT_2026_N_00042_GTAE/PARGT_2026_N_00042_GTAE_VALIDACAO_V1.json",
+      "bytes": 6397,
+      "sha256": "a82a5d7e7a2b966a8e27863a1952fca29bf6589e32b8bce7b3d9bfb1d4834b30",
+      "disposicao": "GRAVADO",
+      "caminho": "PAR/BR_FED_COFEN_PARGT_2026_N_00042_GTAE/PARGT_2026_N_00042_GTAE_VALIDACAO_V1.json"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/termo-de-colaborao-firmado-entre-cofen-e-mec/ (API WordPress post 6499); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "TERMO_2011_SN_TERMO_COLABORACAO_FIRMADO_ENTRE_ANEXO_01_PDF_SITE.pdf",
+      "sha256": "f36f67c3a439aeb818dfe0bb4c55d8d08d3f8de32da004701c5d919c5dcda3ed",
+      "tamanho": 216234
+    },
+    {
+      "nome": "TERMO_2011_SN_TERMO_COLABORACAO_FIRMADO_ENTRE_ANEXO_01_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "18ce6b638bf3492daa78a1d2b1a6f0b3734200704c359d24d4241d281ad01b18",
+      "tamanho": 7533
+    },
+    {
+      "nome": "TERMO_2011_SN_TERMO_COLABORACAO_FIRMADO_ENTRE_ATOMOS_V1.jsonl",
+      "sha256": "d73649cc05b47e0c57ffbfb520627788450ec8d7d7ac3e565f07cea150d1569d",
+      "tamanho": 56156
+    },
+    {
+      "nome": "TERMO_2011_SN_TERMO_COLABORACAO_FIRMADO_ENTRE_CONTEUDO_SITE_API.json",
+      "sha256": "9d55b3396f0ab2af9728ba609533ae1f566bce4b41772e985011e6bf3e097d01",
+      "tamanho": 1165
+    },
+    {
+      "nome": "TERMO_2011_SN_TERMO_COLABORACAO_FIRMADO_ENTRE_NORMA_V1.json",
+      "sha256": "cff7069c19e6b739d55105bed4974ac567dbeb814bfc96093da4e84fd18121f1",
+      "tamanho": 3992
+    },
+    {
+      "nome": "TERMO_2011_SN_TERMO_COLABORACAO_FIRMADO_ENTRE_PAGINA_SITE.html",
+      "sha256": "26413c3ad3f0a32d4505cb9c0d90f013a4932db1842855f9772beb82df2f8efb",
+      "tamanho": 437399
+    },
+    {
+      "nome": "TERMO_2011_SN_TERMO_COLABORACAO_FIRMADO_ENTRE_TEXTO_FONTE_V1.txt",
+      "sha256": "898d94a79c869ef72d2cfaf41c9d29ba048b8d51b861b96c74c85391bae789f1",
+      "tamanho": 386
+    },
+    {
+      "nome": "TERMO_2011_SN_TERMO_COLABORACAO_FIRMADO_ENTRE_VALIDACAO_V1.json",
+      "sha256": "097883c78d2667503fb69a794e1df443ce61041dfa3a85b226f52b409044e097",
+      "tamanho": 4253
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir.",
+    "Ato sem número no site; identificador formado por slug.",
+    "TIPO: listado na categoria Portarias, mas é termo de colaboração (\"TERMO DE COLABORAÇÃO FIRMADO ENTRE COFEN E MEC\").",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

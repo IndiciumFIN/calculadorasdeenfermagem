@@ -1,0 +1,44 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/anexo-com-a-proposta-do-cfm-para-o-pl-252002/ (API WordPress post 4217); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "NAOATO_2002_SN_ANEXO_PROPOSTA_CFM_2002_ATOMOS_V1.jsonl",
+      "sha256": "a69b14ae4b76fd519a51f8df8c2decbaa515c0d80069d74293900994be284d0f",
+      "tamanho": 13262
+    },
+    {
+      "nome": "NAOATO_2002_SN_ANEXO_PROPOSTA_CFM_2002_CONTEUDO_SITE_API.json",
+      "sha256": "380f9855e3ab4b2e8d406d3d62fbf324685f3284f4bac50a73c46de1b88dfcbb",
+      "tamanho": 3039
+    },
+    {
+      "nome": "NAOATO_2002_SN_ANEXO_PROPOSTA_CFM_2002_NORMA_V1.json",
+      "sha256": "cfa1510f73bde0ac7549470534816e9cc6e985bcc102c3493b5340dfe120cf7b",
+      "tamanho": 2158
+    },
+    {
+      "nome": "NAOATO_2002_SN_ANEXO_PROPOSTA_CFM_2002_PAGINA_SITE.html",
+      "sha256": "4baeb134862b607d2fa4fe8d29b6f2d0c6de0aa9a29dc75ec5f0f20c7d0299af",
+      "tamanho": 437872
+    },
+    {
+      "nome": "NAOATO_2002_SN_ANEXO_PROPOSTA_CFM_2002_TEXTO_FONTE_V1.txt",
+      "sha256": "0172c8460f2be863c9f8ee213da8e3a17b2801d24f654545c69a2009f82e8fac",
+      "tamanho": 2590
+    },
+    {
+      "nome": "NAOATO_2002_SN_ANEXO_PROPOSTA_CFM_2002_VALIDACAO_V1.json",
+      "sha256": "70b913de2f3a8c87c9c244eea67009655742a984aabb8fbc1a9d192e0fd451cd",
+      "tamanho": 3135
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Ato sem número no site; identificador formado por slug.",
+    "TIPO: listado em categoria de Legislação, mas o título não identifica um ato (\"ANEXO COM A PROPOSTA DO CFM PARA O PL 25/2002\").",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

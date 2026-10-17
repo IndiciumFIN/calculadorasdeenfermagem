@@ -1,0 +1,54 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-002-2018-ctab-cofen/ (API WordPress post 66327); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2018_N_00002_CTAB_ATOMOS_V1.jsonl",
+      "sha256": "11a22d084f3d826321036abe5a48633e1fde2561816663d25df1706cdcf67adf",
+      "tamanho": 47009
+    },
+    {
+      "nome": "PARCT_2018_N_00002_CTAB_CONTEUDO_SITE_API.json",
+      "sha256": "7ce9a026a72a1cd5f9c700b6ee9dec58e83df013c84decc15f5cb7c61ad5b2cb",
+      "tamanho": 11816
+    },
+    {
+      "nome": "PARCT_2018_N_00002_CTAB_NORMA_V1.json",
+      "sha256": "80e9fcf86885327aeddacbcf1bf18132b5f548877137a39831344bbe19a66c2a",
+      "tamanho": 6350
+    },
+    {
+      "nome": "PARCT_2018_N_00002_CTAB_PAGINA_SITE.html",
+      "sha256": "56866d8e1c3eeebddb05a2ad77eea123b2ce4003455f8c6ba4a0e1b7f372fa07",
+      "tamanho": 449771
+    },
+    {
+      "nome": "PARCT_2018_N_00002_CTAB_PDF_SITE.pdf",
+      "sha256": "e0e582a22d5305083cdaed580e72b78edb725065031cb83626ea73a74ab176a0",
+      "tamanho": 8473947
+    },
+    {
+      "nome": "PARCT_2018_N_00002_CTAB_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "85802aba9b8565c698d003b42774537910c8474985a6682496bfb540ae5cde0f",
+      "tamanho": 36408
+    },
+    {
+      "nome": "PARCT_2018_N_00002_CTAB_TEXTO_FONTE_V1.txt",
+      "sha256": "04e50e093b8f6a4d05da19e5b5833d860b3d0eb13d2175ff96ff6d65b280e51d",
+      "tamanho": 10555
+    },
+    {
+      "nome": "PARCT_2018_N_00002_CTAB_VALIDACAO_V1.json",
+      "sha256": "0307adbdf508d7b8dc92ae4eb9ffda407f79d3127fa93bccb44be999b3307a47",
+      "tamanho": 33268
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 anexo(s) em formato não PDF (doc/xls/odt) baixado(s) mas não atomizado(s).",
+    "23 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "163 trecho(s) do PDF sem correspondente no texto do site.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+  ]
+}

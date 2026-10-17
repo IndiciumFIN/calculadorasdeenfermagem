@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/edital-eleitoral-no-01/ (API WordPress post 119103); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "EDITAL_2023_N_00001_ANEXO_01_PDF_SITE.pdf",
+      "sha256": "3b923c9b10768c7d710d35ae6d56dc8abcd2c3d25012e4cde7d1ae3a12b72fc5",
+      "tamanho": 1263011
+    },
+    {
+      "nome": "EDITAL_2023_N_00001_ANEXO_01_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "747033fba8d0dd0325a8980b510ad5b42c5ed133847d9b31bf7c16eba6399e65",
+      "tamanho": 14343
+    },
+    {
+      "nome": "EDITAL_2023_N_00001_ATOMOS_V1.jsonl",
+      "sha256": "8a825107b0aa355cd060bd6f42f17b7e0ea239efd43e90b60c6caada472907a6",
+      "tamanho": 62231
+    },
+    {
+      "nome": "EDITAL_2023_N_00001_CONTEUDO_SITE_API.json",
+      "sha256": "1a1a521055383e8d97041103da4fe50b9253fcc16f71c9a13e7a1999cfad08bd",
+      "tamanho": 3734
+    },
+    {
+      "nome": "EDITAL_2023_N_00001_NORMA_V1.json",
+      "sha256": "032b27e8bc4dd67fc713d0a23bdc15096b9d26c5daeeb3797e095daeecda5471",
+      "tamanho": 4135
+    },
+    {
+      "nome": "EDITAL_2023_N_00001_PAGINA_SITE.html",
+      "sha256": "8b8fe73fd5aca035f8e01bcb01f8a97addf15e820deceb3cd4ec32176f51370a",
+      "tamanho": 443179
+    },
+    {
+      "nome": "EDITAL_2023_N_00001_TEXTO_FONTE_V1.txt",
+      "sha256": "a60e96b35ce14abd323c06b746c5f82af38b5a5417d29cb720da61cc8b0d17c3",
+      "tamanho": 2597
+    },
+    {
+      "nome": "EDITAL_2023_N_00001_VALIDACAO_V1.json",
+      "sha256": "9554c5d3ddb8464b6c6b52f984d00df1ce629381d89edf9c2df62b6b1d0ceba6",
+      "tamanho": 2799
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo."
+  ]
+}

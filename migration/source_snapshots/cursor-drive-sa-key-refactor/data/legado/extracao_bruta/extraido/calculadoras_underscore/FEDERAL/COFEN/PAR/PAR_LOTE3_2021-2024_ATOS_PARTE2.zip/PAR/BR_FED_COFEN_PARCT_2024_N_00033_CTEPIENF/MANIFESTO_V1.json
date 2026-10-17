@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-33-2024-cofen-camtec-ctepienf/ (API WordPress post 140985); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2024_N_00033_CTEPIENF_ATOMOS_V1.jsonl",
+      "sha256": "e5ffa981cc5e6e0e7e51b9ed3bd65459ec6670953efedbd435ba683dcbcaac73",
+      "tamanho": 45162
+    },
+    {
+      "nome": "PARCT_2024_N_00033_CTEPIENF_CONTEUDO_SITE_API.json",
+      "sha256": "e5cc0e9332ae4cdadda2fcb99af98bad9f846e90e14e4ccc19001c8ebdecc340",
+      "tamanho": 12884
+    },
+    {
+      "nome": "PARCT_2024_N_00033_CTEPIENF_NORMA_V1.json",
+      "sha256": "24c036871f0f1a0466897ff76da450f7e3b021d45a41b895ba94e9ca59feabed",
+      "tamanho": 3948
+    },
+    {
+      "nome": "PARCT_2024_N_00033_CTEPIENF_PAGINA_SITE.html",
+      "sha256": "e94b891d372a0faeffa070728af8694f0360aa67c1d6f6f4a1aa7433ba484c76",
+      "tamanho": 452829
+    },
+    {
+      "nome": "PARCT_2024_N_00033_CTEPIENF_PDF_SITE.pdf",
+      "sha256": "43cca550a23ca7962c5315d704c3ac74f8dbdc564aff5e9cc9a8da3bfb313f31",
+      "tamanho": 195850
+    },
+    {
+      "nome": "PARCT_2024_N_00033_CTEPIENF_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "ea27af1e8e91ad9fc7ae4ee45fbd9b4e15e8233cf0842bee54f1588a1b3ac87e",
+      "tamanho": 12322
+    },
+    {
+      "nome": "PARCT_2024_N_00033_CTEPIENF_TEXTO_FONTE_V1.txt",
+      "sha256": "70e32cfbf766770af36417e6b77449cb9bcb0c0e249582526522a836be51bb90",
+      "tamanho": 10210
+    },
+    {
+      "nome": "PARCT_2024_N_00033_CTEPIENF_VALIDACAO_V1.json",
+      "sha256": "225a45efdc0ba816810abd1eeb26c37c47582d45e033937bf13aed100e7affab",
+      "tamanho": 11085
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/ordem-de-servico-cofen-no-007-2017/ (API WordPress post 59716); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "OS_2017_N_00007_ATOMOS_V1.jsonl",
+      "sha256": "5e1c80ac001f7bdb7078c37091558af6ac02af7b08e993e404d4a48f89390b8e",
+      "tamanho": 6083
+    },
+    {
+      "nome": "OS_2017_N_00007_CONTEUDO_SITE_API.json",
+      "sha256": "68d62f5b43d3d86dfe99f1c7eeca72afab7eb45edf74ec989b40ec92f119995c",
+      "tamanho": 1236
+    },
+    {
+      "nome": "OS_2017_N_00007_NORMA_V1.json",
+      "sha256": "53cff0fb71d6b7e7365400c248365953ceab37f3e716fe8f8df66b377e4913c0",
+      "tamanho": 3371
+    },
+    {
+      "nome": "OS_2017_N_00007_PAGINA_SITE.html",
+      "sha256": "23e325c3bd72866b8515ff358b3663fb807de698cb5fb747fd0f57bb16b85903",
+      "tamanho": 438460
+    },
+    {
+      "nome": "OS_2017_N_00007_PDF_SITE.pdf",
+      "sha256": "924fd213b01082c2d0091cf2d94412fdfa290181c51d1d708acd4bab206292f5",
+      "tamanho": 263102
+    },
+    {
+      "nome": "OS_2017_N_00007_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "a29bc664cf3f0a71a7a0aba1b35ec0b2f603403a827c33e0f1cbefe795bad9af",
+      "tamanho": 839
+    },
+    {
+      "nome": "OS_2017_N_00007_TEXTO_FONTE_V1.txt",
+      "sha256": "1e01a5ef6e8dec40878abb1acf1fcb1b31462a2469793da586636fcccbf40c4c",
+      "tamanho": 672
+    },
+    {
+      "nome": "OS_2017_N_00007_VALIDACAO_V1.json",
+      "sha256": "d8971327da848fd2a033c02f347636eefd4799384696c591b466affb2db12826",
+      "tamanho": 3770
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+  ]
+}

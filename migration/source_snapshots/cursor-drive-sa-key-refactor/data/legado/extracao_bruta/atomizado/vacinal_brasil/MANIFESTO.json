@@ -1,0 +1,163 @@
+{
+ "arquivos": [
+  {
+   "arquivo": "cobertura_vacinal_polo_sesai.jsonl",
+   "atomos": 377,
+   "bytes": 386151,
+   "sha256": "0d24bac84b0ffb970531e26ba871fab3bbbaf35a37b4453400b9b1b218294e19",
+   "tipo_entidade": "cobertura_vacinal_polo_sesai"
+  },
+  {
+   "arquivo": "dose_aplicada_pni.jsonl",
+   "atomos": 5000,
+   "bytes": 11999560,
+   "sha256": "28dd0e1eddd67e291fe71c149fc6400374bb68715daa1ef8d4353199b71a774c",
+   "tipo_entidade": "dose_aplicada_pni"
+  },
+  {
+   "arquivo": "movimento_insumo_sies.jsonl",
+   "atomos": 5000,
+   "bytes": 4553211,
+   "sha256": "91e0a3b66c5db8162255c99def77e45d36c6cdbecdaee5820a34661100de3be5",
+   "tipo_entidade": "movimento_insumo_sies"
+  },
+  {
+   "arquivo": "notificacao_esavi.jsonl",
+   "atomos": 5000,
+   "bytes": 14751436,
+   "sha256": "57db980f98e6e5f39b832c2b1e9f4327a067423502f58dfb0e90671ba3f8c514",
+   "tipo_entidade": "notificacao_esavi"
+  }
+ ],
+ "atomos_por_tipo_entidade": {
+  "cobertura_vacinal_polo_sesai": 377,
+  "dose_aplicada_pni": 5000,
+  "movimento_insumo_sies": 5000,
+  "notificacao_esavi": 5000
+ },
+ "conferencia_contagens": [
+  {
+   "arquivo_entrada": "vacinal_brasil/pni_doses_aplicadas_2026_amostra.csv",
+   "atomos": 5000,
+   "confere": true,
+   "explicacao": "",
+   "linhas_csv": 5000
+  },
+  {
+   "arquivo_entrada": "vacinal_brasil/esavi_eventos_adversos_vacinacao_amostra.csv",
+   "atomos": 5000,
+   "confere": true,
+   "explicacao": "",
+   "linhas_csv": 5000
+  },
+  {
+   "arquivo_entrada": "vacinal_brasil/sies_insumos_estrategicos_amostra.csv",
+   "atomos": 5000,
+   "confere": true,
+   "explicacao": "Sem identificador na fonte: código = 16 primeiros hex do SHA-256 do registro canônico.",
+   "linhas_csv": 5000
+  },
+  {
+   "arquivo_entrada": "vacinal_brasil/sesai_cobertura_vacinal_indigena.csv",
+   "atomos": 377,
+   "confere": true,
+   "explicacao": "Sem identificador na fonte: código = 16 primeiros hex do SHA-256 do registro canônico. (Não há chave natural única: ano+uf+dsei+polo se repete em 1 caso, 2022/AM-RR/YANOMAMI/DEMINI, com valores diferentes; por isso o hash.)",
+   "linhas_csv": 377
+  }
+ ],
+ "entradas": [
+  {
+   "arquivo": "vacinal_brasil/pni_doses_aplicadas_2026_amostra.json",
+   "linhas_csv": 5000,
+   "registros_json": 5000,
+   "sha256_csv": "b14af23bf97c283409b67f778ff62ba4f6268009425d18a76c35f64f8a35f5cf",
+   "sha256_json": "98f950f6ee5b9baf557e3b02f28eed430f47216ee80ed986b35fef0683989b4e"
+  },
+  {
+   "arquivo": "vacinal_brasil/esavi_eventos_adversos_vacinacao_amostra.json",
+   "linhas_csv": 5000,
+   "registros_json": 5000,
+   "sha256_csv": "5c3e0caf1fd95f8adfe4da07d2c471285ffd7bf9b509ad7d114a98c130b9b014",
+   "sha256_json": "90cfc09e47d6a51d21cc1486ed00db5d529d46dc5715f85d9b1bc4b0762a4d93"
+  },
+  {
+   "arquivo": "vacinal_brasil/sies_insumos_estrategicos_amostra.json",
+   "linhas_csv": 5000,
+   "registros_json": 5000,
+   "sha256_csv": "f00c2f34f3ba8db8d3490b4266890d6e9cb9e6376e2d9d4135cd3c218ad26a49",
+   "sha256_json": "4e09bac2a220e5649544faad2df63967722577411dd8eca0b672104c5fa44caa"
+  },
+  {
+   "arquivo": "vacinal_brasil/sesai_cobertura_vacinal_indigena.json",
+   "linhas_csv": 377,
+   "registros_json": 377,
+   "sha256_csv": "009655a8087f60e4645dc7af8c4690ceefb2e07cbe94c3c75ac1a16f659cd2e1",
+   "sha256_json": "c791a7a4fc7b199d90d15232376e805300cff273e6b27e8a26038dc71501e803"
+  }
+ ],
+ "fontes": [
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "Ministério da Saúde - API de Dados Abertos (saude-indigena/sesai-cobertura-vacinal)",
+   "fonte_url": "https://apidadosabertos.saude.gov.br/saude-indigena/sesai-cobertura-vacinal",
+   "fonte_versao": "todos os registros devolvidos pela API em 2026-10-10"
+  },
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "Ministério da Saúde - API de Dados Abertos (vacinacao/doses-aplicadas-pni-2026)",
+   "fonte_url": "https://apidadosabertos.saude.gov.br/vacinacao/doses-aplicadas-pni-2026",
+   "fonte_versao": "amostra: primeiros 5000 registros devolvidos pela API em 2026-10-10"
+  },
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "Ministério da Saúde - API de Dados Abertos (vacinacao/esavi)",
+   "fonte_url": "https://apidadosabertos.saude.gov.br/vacinacao/esavi",
+   "fonte_versao": "amostra: primeiros 5000 registros devolvidos pela API em 2026-10-10"
+  },
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "Ministério da Saúde - API de Dados Abertos (vacinacao/sistema-de-informacao-de-insumos-estrategicos)",
+   "fonte_url": "https://apidadosabertos.saude.gov.br/vacinacao/sistema-de-informacao-de-insumos-estrategicos",
+   "fonte_versao": "amostra: primeiros 5000 registros devolvidos pela API em 2026-10-10"
+  }
+ ],
+ "regras": {
+  "atom_id": "<tema>:<codigo>; codigo = chave local, com prefixo de subfonte quando o tema tem mais de uma fonte",
+  "data_extracao": "fixa por fonte (2026-10-10), não é a data da execução",
+  "descricao_literal": "renderização literal 'campo: valor' de todos os registros de origem da entidade (nada resumido)",
+  "ordenacao": "um arquivo por tipo_entidade, linhas ordenadas por atom_id, partes <= 90.000.000 bytes",
+  "sha256_atomo": "SHA-256 do JSON canônico (sort_keys, ensure_ascii=False, separators=(',',':')) do átomo sem o campo sha256"
+ },
+ "sobreposicao_matriz": {
+  "conflitos_ou_ambiguidades": [],
+  "decisoes": [
+   "Matriz (TEMA|vacinal_brasil, parcial): Calculadoras-de-Enfermagem só tem 8 calendariovacinal*.html na raiz (calendário = regra), enquanto o A tem dados de aplicação (amostras first-N). Canônica de calendário segundo a matriz: Instrução Normativa 2026 (PDF em protocolos_enfermagem, átomo protocolos_enfermagem:protocolo:instrucao-normativa-do-calendario-nacional-de-vacinacao-2026).",
+   "Escopos diferentes (calendário x microdados): nenhum átomo removido, nenhum mapeamento item a item."
+  ],
+  "linha_do_tema_literal": {
+   "a_existe": "sim",
+   "a_local": "extracao bruta Grok Bot Danadao/vacinal_brasil https://drive.google.com/drive/folders/1zEoA1LWrFUzr6ZDJByDbXPKB02bbR3cb",
+   "calc_enf_existe": "parcial",
+   "calc_enf_local": "https://drive.google.com/drive/folders/1c9vErI_It3XwzAcAFOnbxw9V0Mn6xfB9",
+   "calc_enf_status": "parcial: 8 calendariovacinal*.html na raiz (calendario, nao microdados)",
+   "chave": "TEMA|vacinal_brasil",
+   "debby_existe": "nao",
+   "debby_local": "",
+   "debby_n_atomos": "",
+   "debby_status": "",
+   "descricao": "PNI doses, ESAVI, SESAI, SIES (amostras MS)",
+   "diferencas": "Calendario (regra) x dados de aplicacao (amostras first-N)",
+   "recomendacao": "Canonica de calendario: Instrucao Normativa 2026 (PDF no protocolos_enfermagem do A); html da raiz sao redundantes entre si (8 versoes).",
+   "sobreposicao": "parcial",
+   "tipo_registro": "dados (A)"
+  },
+  "mapeamentos_itens_calculadoras_enfermagem": [],
+  "matriz_arquivo": "MATRIZ_CRUZAMENTO_NORMATIVOS_DADOS_2026-10-10.csv",
+  "matriz_drive_file_id": "1eJETouIY0YwoZ0qUg-ObYRmPLeKgcEy_",
+  "matriz_sha256": "72968b5dfb5a68b53df4ab8a9e9268b6d631de9c687629ef951527e0323548a2",
+  "regra": "Nenhum átomo foi removido por sobreposição (a matriz não manda remover átomos). Mapeamentos item a item só quando a linha da matriz cita literalmente o arquivo de origem do átomo (a_local) e, se a matriz traz prefixo de sha256, ele confere com o arquivo local; o resto fica registrado aqui no nível do tema. referencias_cruzadas mantém só as 4 chaves do spec (cid10, cid11, mesh, medlineplus)."
+ },
+ "tema": "vacinal_brasil",
+ "total_atomos": 15377,
+ "versao_gerador": "atomizar.py 1.1.0"
+}

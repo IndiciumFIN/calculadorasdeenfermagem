@@ -1,0 +1,53 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-gtae-no-0062017/ (API WordPress post 53528); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARGT_2017_N_00006_GTAE_ATOMOS_V1.jsonl",
+      "sha256": "f54c60d1087d0fe3195bfb8166a3534b20d1c4a5fb12e0e5d41959951da66ab9",
+      "tamanho": 17468
+    },
+    {
+      "nome": "PARGT_2017_N_00006_GTAE_CONTEUDO_SITE_API.json",
+      "sha256": "1cd49f9c8c31ca6be442192c3ae935205e0fe27a3565835ceb4ba9eb62f3b43f",
+      "tamanho": 3344
+    },
+    {
+      "nome": "PARGT_2017_N_00006_GTAE_NORMA_V1.json",
+      "sha256": "76048a9ceef6c506f4649198d9e99489717a336c2d26d60894db872fa96c90e8",
+      "tamanho": 3090
+    },
+    {
+      "nome": "PARGT_2017_N_00006_GTAE_PAGINA_SITE.html",
+      "sha256": "2c6024320c4eb8d11cfe655884f052e4756c3fcf76e9c4a92bb34cf9cc1896fa",
+      "tamanho": 440543
+    },
+    {
+      "nome": "PARGT_2017_N_00006_GTAE_PDF_SITE.pdf",
+      "sha256": "14eb438f60a8dc444edd65844a294e31c666d8cdafd6f59fd62ee2812ff62f50",
+      "tamanho": 688397
+    },
+    {
+      "nome": "PARGT_2017_N_00006_GTAE_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "5688938d490c07041668c3ea086fce5ce9943fff6e41c9f999d2ce94e68f78f8",
+      "tamanho": 2540
+    },
+    {
+      "nome": "PARGT_2017_N_00006_GTAE_TEXTO_FONTE_V1.txt",
+      "sha256": "389d5431f3f4ed1e8ca57509165605252d4eb7609f0d31343e935b77725b0b1f",
+      "tamanho": 2480
+    },
+    {
+      "nome": "PARGT_2017_N_00006_GTAE_VALIDACAO_V1.json",
+      "sha256": "dbdf6356bf052c5952d01e5488325e77c0d29a928812961fdee12813979f0899",
+      "tamanho": 6967
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "1 trecho(s) do PDF sem correspondente no texto do site.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+  ]
+}

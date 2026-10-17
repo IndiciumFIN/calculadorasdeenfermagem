@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/resoluo-cne-ces-n-3-de-7-de-novembro-de-2001-diretrizes-nacionais-curso-graduaao-enfermagem/ (API WordPress post 6933); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "RES_2001_N_00003_ATOMOS_V1.jsonl",
+      "sha256": "4f2262fcea203a1af37748906bb9eb86b994d2b8752cc31b4e09185a28cab1bf",
+      "tamanho": 677
+    },
+    {
+      "nome": "RES_2001_N_00003_CONTEUDO_SITE_API.json",
+      "sha256": "66d913d4e17e448a2f295a73bee900b61bc993542344f5e1f06ae153dab46dc0",
+      "tamanho": 442
+    },
+    {
+      "nome": "RES_2001_N_00003_NORMA_V1.json",
+      "sha256": "82d72c66d8e1d2d569a41ef21feb8ed93784fce76806c9c438dc4bf2c42e029a",
+      "tamanho": 2053
+    },
+    {
+      "nome": "RES_2001_N_00003_PAGINA_SITE.html",
+      "sha256": "af87c24d13b55b5429d4c60d896d5b571a71c23e6289d45d8b518e2c7cdf2001",
+      "tamanho": 436802
+    },
+    {
+      "nome": "RES_2001_N_00003_TEXTO_FONTE_V1.txt",
+      "sha256": "21aec48d27272e01dfcc5c03c9f3173e2a36347148a135f03b03556697cab388",
+      "tamanho": 106
+    },
+    {
+      "nome": "RES_2001_N_00003_VALIDACAO_V1.json",
+      "sha256": "0a541beaa22228e284162dc16f97efdbe8cacdd9160ccc2c49e12e4e61d49e8b",
+      "tamanho": 2745
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Página do site quase sem texto (0 caracteres) e sem PDF do ato; conteúdo do ato não disponível."
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-28-2014-ctln-inscricao-de-auxiliares-responsaveis-tecnicas-medicina-do-trabalho/ (API WordPress post 29085); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2014_N_00028_CTLN_ATOMOS_V1.jsonl",
+      "sha256": "66376513a70cd8ef5e3e93c84ba43577e7cec043abd48e26e45362cad7297d96",
+      "tamanho": 59928
+    },
+    {
+      "nome": "PARCT_2014_N_00028_CTLN_CONTEUDO_SITE_API.json",
+      "sha256": "04ecd0610fe63d41843a4a6a175a34cfe55ad6566c59bbf926a4fb4e880adc92",
+      "tamanho": 10630
+    },
+    {
+      "nome": "PARCT_2014_N_00028_CTLN_NORMA_V1.json",
+      "sha256": "ed430e3372b4ef4c29f9fac955181b6aa33a39ff7fb4c2bc2e5816218a0694a3",
+      "tamanho": 4025
+    },
+    {
+      "nome": "PARCT_2014_N_00028_CTLN_PAGINA_SITE.html",
+      "sha256": "84bcc9501b675e66e2405d6eaaf3a3b1572518394eb457c23eab8ebf82bb4bcb",
+      "tamanho": 449793
+    },
+    {
+      "nome": "PARCT_2014_N_00028_CTLN_PDF_SITE.pdf",
+      "sha256": "2f639c0c4c24017bd934b77b18b2bbe9896b69d2b4cfe5e1dec78eb3075f9a5d",
+      "tamanho": 1908882
+    },
+    {
+      "nome": "PARCT_2014_N_00028_CTLN_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "53cc4444b5a28b1861c1d8c728d9c30fb16d0fa27adcfdd1d1274a9768d7736a",
+      "tamanho": 9219
+    },
+    {
+      "nome": "PARCT_2014_N_00028_CTLN_TEXTO_FONTE_V1.txt",
+      "sha256": "33c9615c0884f6e0c528db1879a49fee9c8c7d7b0c39cf3074dddbd22b8fef1b",
+      "tamanho": 9204
+    },
+    {
+      "nome": "PARCT_2014_N_00028_CTLN_VALIDACAO_V1.json",
+      "sha256": "d0551f2491eda87347e0497be65a88b569a52f39da35556ad92ac716d0546a9d",
+      "tamanho": 13641
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+  ]
+}

@@ -1,0 +1,32 @@
+# Gate de sincronização Git <-> Supabase (GAP-04).
+# Execução manual (workflow_dispatch) até os secrets SUPABASE_URL e
+# SUPABASE_ANON_KEY serem configurados; o script é fail-closed e reprova
+# quando os secrets estão ausentes — nunca finge sucesso.
+name: Sync Check Git-Supabase
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Setup Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: pip install -r packages/cli/requirements.txt
+
+      - name: Verificar drift entre corpus Git e Supabase
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+        run: PYTHONPATH=. python -m packages.cli.sync_gate run

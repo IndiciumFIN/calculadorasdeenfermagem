@@ -1,0 +1,53 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-n-34-2020-ctln-cofen/ (API WordPress post 82024); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2020_N_00034_CTLN_ATOMOS_V1.jsonl",
+      "sha256": "16ac547fa54cf6d592258e7f9d208e0b3aa2399980ebb10b09762fdae6ce7fdc",
+      "tamanho": 45214
+    },
+    {
+      "nome": "PARCT_2020_N_00034_CTLN_CONTEUDO_SITE_API.json",
+      "sha256": "994c9bd40f62f846c6fcb1d8dfba858fd60eaf7411cfb1366ce59579d070e14a",
+      "tamanho": 9986
+    },
+    {
+      "nome": "PARCT_2020_N_00034_CTLN_NORMA_V1.json",
+      "sha256": "b1e41859cc573adc574fe1044efbf10e8c24b841d24bdb373ce7da0ae5fa067a",
+      "tamanho": 4716
+    },
+    {
+      "nome": "PARCT_2020_N_00034_CTLN_PAGINA_SITE.html",
+      "sha256": "17edb6fb35d2fc88dae09a4897b28d7b92b7277fd74be9ec135107aaccf974d6",
+      "tamanho": 450120
+    },
+    {
+      "nome": "PARCT_2020_N_00034_CTLN_PDF_SITE.pdf",
+      "sha256": "161671f673faae66da299c67d9c515a6af503f95c451722e6204f76a55213d3e",
+      "tamanho": 211257
+    },
+    {
+      "nome": "PARCT_2020_N_00034_CTLN_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "a15c1248b7c0b36127adeeb3ca01b6cc5a00a3a3b2645948aaf8b44367a3f122",
+      "tamanho": 8440
+    },
+    {
+      "nome": "PARCT_2020_N_00034_CTLN_TEXTO_FONTE_V1.txt",
+      "sha256": "a0ef756eb3cdd6c7ddb5f5a5e863d006e67ade1b446d8f17c064d14cbf5ff35e",
+      "tamanho": 8191
+    },
+    {
+      "nome": "PARCT_2020_N_00034_CTLN_VALIDACAO_V1.json",
+      "sha256": "6f0abe6d0ed739fd5f817d8c771139cbff757572dfa611cc7f2d3b429462fd81",
+      "tamanho": 11329
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "1 trecho(s) do PDF sem correspondente no texto do site.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-conselheira-relatora-n-145-2018/ (API WordPress post 63578); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCONS_2018_N_00145_ATOMOS_V1.jsonl",
+      "sha256": "9befbb729383f46961f6ff69c8458641b0dbbc6cb7fa59761e4fdaa3802ac6c7",
+      "tamanho": 51820
+    },
+    {
+      "nome": "PARCONS_2018_N_00145_CONTEUDO_SITE_API.json",
+      "sha256": "96210c6323a71547a374dfcc3c8f236ab060752856c1e6e072f332f5a4642add",
+      "tamanho": 17935
+    },
+    {
+      "nome": "PARCONS_2018_N_00145_NORMA_V1.json",
+      "sha256": "57cb7070c8e823c40e838c66f50a1069e5a8979338828207f390353af34c78b4",
+      "tamanho": 4493
+    },
+    {
+      "nome": "PARCONS_2018_N_00145_PAGINA_SITE.html",
+      "sha256": "83df78f4e6fc2fc466b001190447066b6b7f79ac5eb2c180d33e4fdb8568351f",
+      "tamanho": 455786
+    },
+    {
+      "nome": "PARCONS_2018_N_00145_TEXTO_FONTE_V1.txt",
+      "sha256": "a357b19e5bf6d6faa8bfd46f6fd0d3215fb839be288467a978f4007e3fe2e713",
+      "tamanho": 15409
+    },
+    {
+      "nome": "PARCONS_2018_N_00145_VALIDACAO_V1.json",
+      "sha256": "d5aefdee80722521278346257eadf7b7a75238bba0acc643064a959c62f1808f",
+      "tamanho": 2865
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir."
+  ]
+}

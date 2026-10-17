@@ -1,0 +1,31 @@
+{
+  "id": "WO-2026_10_15_0091",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "task_id": "TAREFA-OBTER",
+  "task_version": "1.0.0",
+  "task_type": "obter",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "parametros": {
+    "lote": "cofen_dec_50mb",
+    "alternativa": "tres zips passam de 50 MB; fracionar depois do validar"
+  },
+  "entradas": [
+    {
+      "id_origem": "1wr3ndfyil-OXwEn3k0P0MPkC4Z_IU-_c",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/DEC/DEC_2024_ATOS.zip",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1PU4yczJnWOQRxtKs-BbVQnZLEyKAsmM7",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/DEC/DEC_2023_ATOS_PARTE1.zip",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "10Lr1WLxBDgnQi3YMxPOidbQw9fqOO8fZ",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/DEC/DEC_2017_ATOS_PARTE1.zip",
+      "classe": "REFERENCIA"
+    }
+  ]
+}

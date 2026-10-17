@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-conselheira-federal-no-2292016/ (API WordPress post 47785); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCONS_2016_N_00229_ATOMOS_V1.jsonl",
+      "sha256": "0435d3f82633b2051092d5260ca8ff27ee2b3670bbb35dae08b04016944c765f",
+      "tamanho": 69616
+    },
+    {
+      "nome": "PARCONS_2016_N_00229_CONTEUDO_SITE_API.json",
+      "sha256": "19771552ef2b7d736ffcf8515970c40857b512487219418afa7b3cc3cc5b424e",
+      "tamanho": 16400
+    },
+    {
+      "nome": "PARCONS_2016_N_00229_NORMA_V1.json",
+      "sha256": "df6521dbe2f9bf4363effd6090a19c90c28f4ce6e8e97ef346db01eb0994e4c4",
+      "tamanho": 5331
+    },
+    {
+      "nome": "PARCONS_2016_N_00229_PAGINA_SITE.html",
+      "sha256": "ac798dfd9291a5e9dfffbacc2ed7171ace7149f73c6a4cbd751a7f208dd5d328",
+      "tamanho": 454891
+    },
+    {
+      "nome": "PARCONS_2016_N_00229_TEXTO_FONTE_V1.txt",
+      "sha256": "51f138b438b218d70409a6fe91df4807920d0736cdb95d3bca10bc8c6cd53feb",
+      "tamanho": 14676
+    },
+    {
+      "nome": "PARCONS_2016_N_00229_VALIDACAO_V1.json",
+      "sha256": "6120437343fbf4fe0e4cc380a4348ccf8e9e5ea0ac23bc142a407a7de6db9516",
+      "tamanho": 2835
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 anexo(s) em formato não PDF (doc/xls/odt) baixado(s) mas não atomizado(s).",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

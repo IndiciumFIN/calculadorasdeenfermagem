@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-162016cofenctln/ (API WordPress post 46694); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2016_N_00016_CTLN_ATOMOS_V1.jsonl",
+      "sha256": "42d7137cb8dbbc274f092fe942b03a3ce1ca43b52ce179e191d8cfeeb6da6afd",
+      "tamanho": 21660
+    },
+    {
+      "nome": "PARCT_2016_N_00016_CTLN_CONTEUDO_SITE_API.json",
+      "sha256": "2a5dbdc66527486e7cc08ae89e1b47562c409d5bf89955680a823ced07c48ddf",
+      "tamanho": 5006
+    },
+    {
+      "nome": "PARCT_2016_N_00016_CTLN_NORMA_V1.json",
+      "sha256": "2d07264d0fd82d5f2ba8e766002d956da4835c44ef596d44cfdc47fc16049512",
+      "tamanho": 2551
+    },
+    {
+      "nome": "PARCT_2016_N_00016_CTLN_PAGINA_SITE.html",
+      "sha256": "3f231b07d289f737cd9a390c858e510f4b881ca39dc29901562815fe30a67bde",
+      "tamanho": 444210
+    },
+    {
+      "nome": "PARCT_2016_N_00016_CTLN_TEXTO_FONTE_V1.txt",
+      "sha256": "9070c2a4b0a0fbf75a8b2610332a0f7af153fb14dc981389e81a4d34852a5ce9",
+      "tamanho": 4051
+    },
+    {
+      "nome": "PARCT_2016_N_00016_CTLN_VALIDACAO_V1.json",
+      "sha256": "9624a8710fc77aab708e7c58917d48b0d8798bb1eecf6552baec789d165c4a02",
+      "tamanho": 2469
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-30-2025-camaras-tecnicas-de-enfermagem/ (API WordPress post 149608); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2025_N_00030_CAMTEC_ATOMOS_V1.jsonl",
+      "sha256": "4db94cbe0e86f816e3f3f15fd900024383ed37f0fbb4a3bcd4918e1a1939a22b",
+      "tamanho": 32381
+    },
+    {
+      "nome": "PARCT_2025_N_00030_CAMTEC_CONTEUDO_SITE_API.json",
+      "sha256": "92f0efb96de1dbe60f36e8c82dac76519716ad6e40f2d66a06cf033698838e10",
+      "tamanho": 9452
+    },
+    {
+      "nome": "PARCT_2025_N_00030_CAMTEC_NORMA_V1.json",
+      "sha256": "273cdc0f0e0452e58541657c775782163e0af3ce88eb20b3eb5ca58ad7d5319e",
+      "tamanho": 4940
+    },
+    {
+      "nome": "PARCT_2025_N_00030_CAMTEC_PAGINA_SITE.html",
+      "sha256": "dfa7d7f34c7b4b43ba1c83804e5db91edbd1ff161ffeb02d327e532dd6bbcaa1",
+      "tamanho": 449758
+    },
+    {
+      "nome": "PARCT_2025_N_00030_CAMTEC_PDF_SITE.pdf",
+      "sha256": "6eda3c4886b9f04396eeb1a450f45e615cbf16faf9d867f52a216116876d22e1",
+      "tamanho": 186655
+    },
+    {
+      "nome": "PARCT_2025_N_00030_CAMTEC_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "83b2dbb812c87b4754d740c6914427b655a0ad919bb97888d354859082d642d8",
+      "tamanho": 9165
+    },
+    {
+      "nome": "PARCT_2025_N_00030_CAMTEC_TEXTO_FONTE_V1.txt",
+      "sha256": "66b9715c95dc57a262d07054fb3d8d0d3f48ac1c276f01a469b819e7ba65f372",
+      "tamanho": 7367
+    },
+    {
+      "nome": "PARCT_2025_N_00030_CAMTEC_VALIDACAO_V1.json",
+      "sha256": "32ef702c471f439d4bb2d51c7968486280ff31ea14ec3e5376f01b2b19c6e7a9",
+      "tamanho": 8779
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "2 dispositivo(s) do site divergente(s) ou ausente(s) no PDF."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-23-2014-ctln-esclarecimento-carga-horaria-enfermeiro-do-trabalho/ (API WordPress post 29106); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2014_N_00023_CTLN_REPUB_ATOMOS_V1.jsonl",
+      "sha256": "fcfa3a4fa7c88e5dcedde735389ade52d56fcd31a031ad2858056d8fe0e4050a",
+      "tamanho": 40989
+    },
+    {
+      "nome": "PARCT_2014_N_00023_CTLN_REPUB_CONTEUDO_SITE_API.json",
+      "sha256": "f0143644f1316d9c52bb2279457b3b9ae85c76ef3c420bb20379da09c876d1a3",
+      "tamanho": 7925
+    },
+    {
+      "nome": "PARCT_2014_N_00023_CTLN_REPUB_NORMA_V1.json",
+      "sha256": "d0185c1ef74be1d1cdcc2a35a670c7ee071a96555590811f9b83fbeb722092e0",
+      "tamanho": 4103
+    },
+    {
+      "nome": "PARCT_2014_N_00023_CTLN_REPUB_PAGINA_SITE.html",
+      "sha256": "f3996a4ede11239b9eb8f0a8732361999476124bf8090502f5a1513168af8602",
+      "tamanho": 446116
+    },
+    {
+      "nome": "PARCT_2014_N_00023_CTLN_REPUB_TEXTO_FONTE_V1.txt",
+      "sha256": "cb5d6dea732e1b4859e3d18fb85f4da6eb7807c90034fbd3206be825457ec2ea",
+      "tamanho": 6512
+    },
+    {
+      "nome": "PARCT_2014_N_00023_CTLN_REPUB_VALIDACAO_V1.json",
+      "sha256": "85c62608ecb8345f42e6fcd55925e520538e831514f2078523a688ca773f66a6",
+      "tamanho": 2740
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "DUPLICADA: nova publicação no site do mesmo ato (post 29106, 2015-01-21); a primeira é o post 28213 (2014-08-22). Similaridade 98."
+  ]
+}

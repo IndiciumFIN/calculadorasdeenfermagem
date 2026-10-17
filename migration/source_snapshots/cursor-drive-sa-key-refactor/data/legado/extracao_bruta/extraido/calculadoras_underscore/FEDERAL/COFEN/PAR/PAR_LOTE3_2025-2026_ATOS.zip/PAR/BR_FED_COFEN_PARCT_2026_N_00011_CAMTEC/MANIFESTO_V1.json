@@ -1,0 +1,53 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-11-2026-camaras-tecnicas-de-enfermagem/ (API WordPress post 185528); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2026_N_00011_CAMTEC_ATOMOS_V1.jsonl",
+      "sha256": "a96b256de207f7d0def31aa4ca10ba151780e842080f2d7bf1b566ec750834da",
+      "tamanho": 108319
+    },
+    {
+      "nome": "PARCT_2026_N_00011_CAMTEC_CONTEUDO_SITE_API.json",
+      "sha256": "1c39e3bee78a2ae9c816000bdbca930d01f2de054401040a4dce65a7206903b8",
+      "tamanho": 36695
+    },
+    {
+      "nome": "PARCT_2026_N_00011_CAMTEC_NORMA_V1.json",
+      "sha256": "b262fdf08cef4baf4d456f6aa3965af2810bfda10ae6d08edcdf0163bc628e48",
+      "tamanho": 10270
+    },
+    {
+      "nome": "PARCT_2026_N_00011_CAMTEC_PAGINA_SITE.html",
+      "sha256": "b5fab16e796a97bf441d73add0f3056924a085ce90ece998280c6ce2350c6fb4",
+      "tamanho": 476857
+    },
+    {
+      "nome": "PARCT_2026_N_00011_CAMTEC_PDF_SITE.pdf",
+      "sha256": "f7bd69f66109f9bd3059ce32decba264309385ee29afef783751d548d0cf3a74",
+      "tamanho": 221823
+    },
+    {
+      "nome": "PARCT_2026_N_00011_CAMTEC_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "3b09c188545d83aa90e44fe56846b45489c6dda066ab8fe7b96b1ad7d729af05",
+      "tamanho": 32931
+    },
+    {
+      "nome": "PARCT_2026_N_00011_CAMTEC_TEXTO_FONTE_V1.txt",
+      "sha256": "bd348205ecfb082019a4363ed63620553a98787f69b2e4f8133f643a226e6568",
+      "tamanho": 31988
+    },
+    {
+      "nome": "PARCT_2026_N_00011_CAMTEC_VALIDACAO_V1.json",
+      "sha256": "fd1203c85d2fe13b1e4ce792077902f8ad406f8782f454f2f4070c48bbfbb4e9",
+      "tamanho": 19334
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir."
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "identificador": "BR_FED_COFEN_PORT_2024_N_00617",
+  "tipo": "Portaria",
+  "codigo_tipo": "PORT",
+  "categoria_site": "Portarias",
+  "numero": 617,
+  "numero_original": "PORTARIA COFEN Nº 617 DE 11 DE ABRIL DE 2024",
+  "ano": 2024,
+  "emissor": "Conselho Federal de Enfermagem",
+  "unidade_emissora": "Presidência",
+  "data_ato": "2024-04-11",
+  "data_ato_fonte": "epígrafe/título: DE 11 DE ABRIL DE 2024",
+  "ementa": null,
+  "titulo_site": "PORTARIA COFEN Nº 617 DE 11 DE ABRIL DE 2024",
+  "publicacao": {
+    "veiculo": "Portal do Cofen (cofen.gov.br)",
+    "url": "https://www.cofen.gov.br/portaria-cofen-no-617-de-11-de-abril-de-2024/",
+    "wp_post_id": 124626,
+    "data_publicacao_site": "2024-04-15",
+    "data_modificacao_site": "2024-04-15",
+    "pdfs": [
+      {
+        "url": "https://www.cofen.gov.br/wp-content/uploads/2024/04/Port.-0617-2024-Exonerar-a-Sra.-Luciana-Chaves-de-Melo-Gauna-matricula-no-288-do-Cargo-de-Chefe-da-Divisao-de-Orcamento-e-Empenho.pdf",
+        "rotulo_site": "Port. 0617-2024 - Exonerar a Sra. Luciana Chaves de Melo Gaúna do Cargo de Chefe da Divisão de Orçamento e Empenho",
+        "origem_link": "bloco_anexos_pagina",
+        "arquivo": "PORT_2024_N_00617_PDF_SITE.pdf",
+        "papel": "PRINCIPAL",
+        "ocr": false,
+        "paginas": 1,
+        "arquivo_texto": "PORT_2024_N_00617_PDF_SITE_TEXTO_V1.txt",
+        "pagina_dou": false
+      },
+      {
+        "url": "https://www.cofen.gov.br/wp-content/uploads/2024/04/Port.-0617-2024.pdf",
+        "rotulo_site": "Publicação Diário Oficial Port. 0617-2024",
+        "origem_link": "bloco_anexos_pagina",
+        "arquivo": "PORT_2024_N_00617_ANEXO_01_PDF_SITE.pdf",
+        "papel": "ANEXO",
+        "ocr": false,
+        "paginas": 1,
+        "arquivo_texto": "PORT_2024_N_00617_ANEXO_01_PDF_SITE_TEXTO_V1.txt",
+        "pagina_dou": true,
+        "cobertura_no_texto_do_site": 0.314,
+        "tratamento": "ATOMIZADO_A_PARTIR_DO_PDF"
+      }
+    ],
+    "sei": {
+      "documento_sei": "0264660",
+      "codigo_verificador": "0264660",
+      "codigo_crc": "933076B0",
+      "assinaturas_eletronicas": [
+        "BETÂNIA MARIA PEREIRA DOS SANTOS - Coren-PB 42.725-ENF-IR"
+      ]
+    },
+    "dou": {
+      "citado_no_texto": false,
+      "trechos": [],
+      "registros_de_publicacao": [],
+      "codigos_autenticidade": [
+        "05292024041500078"
+      ],
+      "verificado_online_in_gov_br": false,
+      "observacao": "Nenhuma menção a publicação no DOU no texto do site nem no PDF.",
+      "fac_simile_dou_no_site": [
+        {
+          "arquivo": "PORT_2024_N_00617_ANEXO_01_PDF_SITE.pdf",
+          "edicao": "72",
+          "data": "2024-04-15",
+          "pagina": null,
+          "secao": "Seção 2",
+          "observacao": "PDF publicado no site do Cofen é fac-símile de página do DOU (contém outros atos). Dados extraídos do cabeçalho do PDF; não houve consulta ao in.gov.br."
+        }
+      ]
+    }
+  },
+  "vigencia": {
+    "clausula": "2º Esta Portaria entra em vigor na data de sua assinatura, com efeitos a partir do dia 11 de abril de 2024.",
+    "situacao": "NAO_VERIFICADA_ATOS_POSTERIORES"
+  },
+  "normas_relacionadas": [
+    {
+      "ato": "Lei 5.905/1973",
+      "relacao": "CITADA",
+      "verificacao": "EXTRAIDO_AUTOMATICO_DO_TEXTO",
+      "contexto": "nselho Federal de Enfermagem – COFEN, no uso de suas atribuições legais e regimentais conferidas na Lei nº 5.905 de 12 de julho de 1973, bem como pelo Regimento Interno da Autarquia, aprovado pel"
+    },
+    {
+      "ato": "Resolução Cofen 726/2023",
+      "relacao": "CITADA",
+      "verificacao": "EXTRAIDO_AUTOMATICO_DO_TEXTO",
+      "contexto": "na Lei nº 5.905 de 12 de julho de 1973, bem como pelo Regimento Interno da Autarquia, aprovado pela Resolução Cofen nº 726, de 15 de setembro de 2023; e termos da Decisão Cofen nº 003/2024; CONSIDERANDO o Proc"
+    },
+    {
+      "ato": "Decisão Cofen 003/2024",
+      "relacao": "CITADA",
+      "verificacao": "EXTRAIDO_AUTOMATICO_DO_TEXTO",
+      "contexto": "Interno da Autarquia, aprovado pela Resolução Cofen nº 726, de 15 de setembro de 2023; e termos da Decisão Cofen nº 003/2024; CONSIDERANDO o Processo SEI nº 00196.002638/2024-11; CONSI"
+    }
+  ],
+  "assinaturas": [
+    "BETÂNIA MARIA PEREIRA DOS SANTOS / Coren-PB 42.725-ENF-IR / Presidente"
+  ],
+  "licenca_uso": {
+    "fundamento": "Lei 9.610/1998, art. 8, IV",
+    "texto_ato_oficial": "NAO_PROTEGIDO_POR_DIREITOS_AUTORAIS",
+    "uso_texto_normativo": "ELEGIVEL_PARA_REPRODUCAO_COM_PROVENIENCIA",
+    "materiais_terceiros": "ANALISE_ESPECIFICA_SE_HOUVER"
+  },
+  "contagem_dispositivos": {
+    "epigrafe": 10,
+    "preambulo": 1,
+    "considerando": 11,
+    "artigo": 3,
+    "assinatura": 1,
+    "anexo": 1,
+    "paragrafo_texto": 21,
+    "secao": 15,
+    "artigo_transcrito": 10,
+    "inciso": 1
+  },
+  "anexos": {
+    "referencias_no_texto": [],
+    "resultado": "PRESENTE_E_ATOMIZADO",
+    "anexos_no_texto": [
+      "BR_FED_COFEN_PORT_2024_N_00617_ANEXO_PDF_01"
+    ]
+  },
+  "observacoes": [],
+  "situacao": "ATOMIZADO_PENDENTE_REVISAO"
+}

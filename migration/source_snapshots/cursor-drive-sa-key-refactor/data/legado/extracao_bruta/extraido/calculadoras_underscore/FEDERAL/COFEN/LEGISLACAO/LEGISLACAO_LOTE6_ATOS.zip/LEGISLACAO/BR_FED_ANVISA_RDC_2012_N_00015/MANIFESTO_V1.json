@@ -1,0 +1,53 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/rdc-15-anvisa-2012-processamento-de-produtos-para-saude-dou-no-54-segunda-feira-19-de-marco-de-2012/ (API WordPress post 51493); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "RDC_2012_N_00015_ATOMOS_V1.jsonl",
+      "sha256": "8e8499957ecea446d2e9e634b6d9454c620c20db84224d7590614e8acbdfa0ba",
+      "tamanho": 315100
+    },
+    {
+      "nome": "RDC_2012_N_00015_CONTEUDO_SITE_API.json",
+      "sha256": "8473eb987dad3c6812b06597779631874ee4cfa53e819e3d13157ca87e1b9a31",
+      "tamanho": 558
+    },
+    {
+      "nome": "RDC_2012_N_00015_NORMA_V1.json",
+      "sha256": "20417034b76e5c424b5d728470ce10c06b5238d741f45820319a2245cb28a4bd",
+      "tamanho": 9696
+    },
+    {
+      "nome": "RDC_2012_N_00015_PAGINA_SITE.html",
+      "sha256": "6facde30162de392c82302f413afbf5756469c1e92dd17061b3c104b98a228c0",
+      "tamanho": 437287
+    },
+    {
+      "nome": "RDC_2012_N_00015_PDF_SITE.pdf",
+      "sha256": "76833c205278ed7a284197374814354ae348ba8b3be7c2ec0d08647cd6c4be48",
+      "tamanho": 186060
+    },
+    {
+      "nome": "RDC_2012_N_00015_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "f9c4239815e2ba4fa360d65c371b35cc020e4a917854fbfca3f9393196fc4c4c",
+      "tamanho": 60964
+    },
+    {
+      "nome": "RDC_2012_N_00015_TEXTO_FONTE_V1.txt",
+      "sha256": "66551b2ae3cab257deb0e5aba0205221f5fba0c00a4d303c131c2eedc8b5c558",
+      "tamanho": 61018
+    },
+    {
+      "nome": "RDC_2012_N_00015_VALIDACAO_V1.json",
+      "sha256": "f77989c002cb152107c1e5d3db7bdf2786deb2ad44432c600c68abf4723388fd",
+      "tamanho": 4028
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+    "Texto do ato disponível apenas no PDF (o site traz só título/resumo); atomização feita a partir da camada de texto do PDF.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}
