@@ -1,0 +1,81 @@
+{
+  "schema": "CE04-RECON-MATRIX-INDEX-CANDIDATE-1.0",
+  "date": "2026-10-17",
+  "branch": "audit/ce04-reconciliation-tasks-20261017",
+  "wo_id": "WO-CE04-RECON-20261017",
+  "wo_status": "DRAFT_NOT_ADMITTED",
+  "task_ids": [
+    "TASK-CE04-004",
+    "TASK-CE04-013",
+    "TASK-CE04-027"
+  ],
+  "status": "PERSISTED_METADATA_ONLY_NOT_HOMOLOGATED",
+  "population": 65,
+  "supabase_project_id": "pgsybzggewhinaniybiy",
+  "records_metadata_persisted": 65,
+  "records_actual_bytes_verified_in_this_session": 0,
+  "previous_handoff_raw_hash_sample_count": 3,
+  "independent_audit": "NOT_PERFORMED",
+  "kernel_admission": "NOT_VERIFIED",
+  "complete_tasks": 0,
+  "issues_from_handoff": {
+    "missing_exact_paths": 6,
+    "divergent_git_paths": 22,
+    "unverified_lineages": 61,
+    "human_holds": 9,
+    "pending_outbox": 303
+  },
+  "matrix_rows": [
+    {
+      "path": "docs/reconciliation/CE04_MATRIX_BATCH_01_CID10_20261017.candidate.json",
+      "blob_sha1": "9098848318767c77966845b3e89e1bfa3d0df1bf",
+      "count": 6,
+      "expected_count": 6,
+      "readback_reverified": true
+    },
+    {
+      "path": "docs/reconciliation/CE04_MATRIX_BATCH_02_20261017.candidate.json",
+      "blob_sha1": "8e3fee59501b7cc5dc65d21714a06cda925deb62",
+      "count": 10,
+      "expected_count": 10,
+      "readback_reverified": true
+    },
+    {
+      "path": "docs/reconciliation/CE04_MATRIX_BATCH_03_20261017.candidate.json",
+      "blob_sha1": "7363f05f05c1283c14fc4323aea043c6094cba0b",
+      "count": 10,
+      "expected_count": 10,
+      "readback_reverified": true
+    },
+    {
+      "path": "docs/reconciliation/CE04_MATRIX_BATCH_04_20261017.candidate.json",
+      "blob_sha1": "993610ab4df133bb687b68e69272fc20966d2f2f",
+      "count": 10,
+      "expected_count": 10,
+      "readback_reverified": true
+    },
+    {
+      "path": "docs/reconciliation/CE04_MATRIX_BATCH_05_20261017.candidate.json",
+      "blob_sha1": "19f8df95fd1e8c569f7d3216ae2e8ac62edfeecf",
+      "count": 10,
+      "expected_count": 10,
+      "readback_reverified": true
+    },
+    {
+      "path": "docs/reconciliation/CE04_MATRIX_BATCH_06_20261017.candidate.json",
+      "blob_sha1": "0ae874facc72947179ba1f8c41a80037cc5f96b0",
+      "count": 10,
+      "expected_count": 10,
+      "readback_reverified": true
+    },
+    {
+      "path": "docs/reconciliation/CE04_MATRIX_BATCH_07_20261017.candidate.json",
+      "blob_sha1": "9be77fa2255585500ee1a71ff50bdc5c10ca086b",
+      "count": 9,
+      "expected_count": 9,
+      "readback_reverified": true
+    }
+  ],
+  "integrity_gate": "ALL_SEVEN_GIT_READBACKS_MATCHED",
+  "next_action": "Reconcile Git tree exact paths, SHA256 actual bytes and manifest versions. Do not close tasks before admission, independent evidence and audit."
+}
