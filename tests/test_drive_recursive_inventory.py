@@ -74,3 +74,22 @@ def test_metadata_never_claims_sha256():
     assert result["items"][0]["hash_status"] == "BYTES_NOT_ACQUIRED"
     assert result["status"] == "COLLECTED_NOT_KERNEL_APPROVED"
     assert "NO_PUBLICATION" in result["restrictions"]
+
+
+def test_duplicate_registered_roots_fail_closed():
+    with pytest.raises(ValueError, match="roots must be nonempty and unique"):
+        crawl([{"id": "root"}, {"id": "root"}], "dummy", fetch=lambda *args: {"files": []})
+
+
+def test_unexpected_cycle_fails_closed():
+    def fetch(folder, token, page_token=None):
+        return {"files": [{"id": "root", "name": "Back", "mimeType": FOLDER}]}
+    with pytest.raises(ValueError, match="unexpected folder cycle/overlap"):
+        crawl([{"id": "root"}], "dummy", fetch=fetch)
+
+
+def test_overlap_requires_provenance_reconciliation():
+    def fetch(folder, token, page_token=None):
+        return {"files": [{"id": "child", "name": "Child", "mimeType": FOLDER}]} if folder == "parent" else {"files": []}
+    result = crawl([{"id": "parent"}, {"id": "child"}], "dummy", fetch=fetch)
+    assert result["root_membership_status"] == "HOLD_OVERLAP_RECONCILIATION"
