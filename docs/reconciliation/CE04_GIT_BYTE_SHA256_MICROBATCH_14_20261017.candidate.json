@@ -1,0 +1,23 @@
+{
+  "schema": "CE04-SHA256-STREAMING-UTF8-GIT-BLOB-CANDIDATE-1.0",
+  "wo": "WO-CE04-RECON-20261017",
+  "wo_admission": "DRAFT_NOT_ADMITTED",
+  "tests": {
+    "sha256_abc": "PASS",
+    "sha256_million_a": "PASS",
+    "sha256_utf8_multibyte": "PASS"
+  },
+  "source": "GitHub blob by pinned source tree SHA1; streaming hash over decoded UTF8",
+  "record": {
+    "name": "dispositivos/registro_anvisa_produto_saude.parte-0002.jsonl",
+    "git_blob_sha1": "4a199c9e858c9bf6aef82dad2baf776ee4836692",
+    "actual_sha256": "5a14e78e5cde50a2e39bebb0a0df08bbe4dbfc7dec323ca3caf4dbf44095f8ec",
+    "expected_sha256": "5a14e78e5cde50a2e39bebb0a0df08bbe4dbfc7dec323ca3caf4dbf44095f8ec",
+    "actual_bytes": 34124626,
+    "expected_bytes": 34124626,
+    "hash_match": true,
+    "size_match": true
+  },
+  "clinical_audit": "PENDING",
+  "release_allowed": false
+}
