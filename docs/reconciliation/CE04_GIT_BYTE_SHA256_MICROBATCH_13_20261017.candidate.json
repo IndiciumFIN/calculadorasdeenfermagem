@@ -1,0 +1,32 @@
+{
+  "schema": "CE04-SHA256-BLOB-MICROBATCH-CANDIDATE-1.0",
+  "wo": "WO-CE04-RECON-20261017",
+  "kernel_admitted": false,
+  "source": "GitHub pinned historical blob SHAs",
+  "sha256_selftest": {
+    "abc": "PASS",
+    "million_a": "PASS"
+  },
+  "tasks_closed": 0,
+  "release_allowed": false,
+  "rows": [
+    {
+      "name": "suprimentos/item_catmat_seringa_agulha_luva_curativo.jsonl",
+      "git_blob_sha1": "0cfed392763821bcfe20d12a924812d886a060c9",
+      "bytes": 13138703,
+      "bytes_expected": 13138703,
+      "sha256": "04d8edc3251299954833b6d3bff3be93099c93bc482bd4be64a44752bd78a472",
+      "sha256_expected": "04d8edc3251299954833b6d3bff3be93099c93bc482bd4be64a44752bd78a472",
+      "pass": true
+    },
+    {
+      "name": "vacinal_brasil/notificacao_esavi.jsonl",
+      "git_blob_sha1": "908452770678d50d82e688b0ce4334d0d31223ad",
+      "bytes": 14751436,
+      "bytes_expected": 14751436,
+      "sha256": "57db980f98e6e5f39b832c2b1e9f4327a067423502f58dfb0e90671ba3f8c514",
+      "sha256_expected": "57db980f98e6e5f39b832c2b1e9f4327a067423502f58dfb0e90671ba3f8c514",
+      "pass": true
+    }
+  ]
+}
