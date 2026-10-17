@@ -42,3 +42,29 @@ def test_limits_fail_closed():
 def test_overlap_fails_closed():
     with pytest.raises(ValueError, match="visited twice"):
         crawl([{"id": "root"}, {"id": "root"}], "dummy", fetch=lambda *args: {"files": []})
+
+
+def test_missing_files_collection_fails_closed():
+    with pytest.raises(ValueError, match="missing files list"):
+        crawl([{"id": "root"}], "dummy", fetch=lambda *args: {})
+
+
+def test_folder_limit_fails_closed():
+    with pytest.raises(ValueError, match="folder limit exceeded"):
+        crawl([{"id": "root"}], "dummy", fetch=lambda *args: {"files": []}, max_folders=0)
+
+
+def test_path_traversal_like_filename_fails_closed():
+    with pytest.raises(ValueError, match="ambiguous Drive filename"):
+        crawl([{"id": "root"}], "dummy", fetch=lambda *args: {
+            "files": [{"id": "bad", "name": "../file", "mimeType": "text/plain"}]})
+
+
+def test_metadata_never_claims_sha256():
+    result = crawl([{"id": "root"}], "dummy", fetch=lambda *args: {
+        "files": [{"id": "doc", "name": "source.json", "mimeType": "application/json",
+                   "md5Checksum": "0123456789abcdef0123456789abcdef"}]})
+    assert result["items"][0]["sha256"] is None
+    assert result["items"][0]["hash_status"] == "BYTES_NOT_ACQUIRED"
+    assert result["status"] == "COLLECTED_NOT_KERNEL_APPROVED"
+    assert "NO_PUBLICATION" in result["restrictions"]
