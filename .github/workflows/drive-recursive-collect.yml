@@ -1,13 +1,12 @@
-# Acquisition only. No canonical admission without a separate qualified Kernel WO.
 name: Drive recursive metadata candidate
 on:
   push:
-    branches: [cursor/fix-governance-gaps-ec54]
+    branches: [cursor/fix-governance-gaps-ec54, cursor/drive-sa-key-refactor]
     paths:
-      - 'packages/cli/drive_recursive_inventory.py'
-      - 'config/drive_inventory_roots_20261016.json'
-      - 'tests/test_drive_recursive_inventory.py'
-      - '.github/workflows/drive-recursive-collect.yml'
+      - packages/cli/drive_recursive_inventory.py
+      - config/drive_inventory_roots_20261016.json
+      - tests/test_drive_recursive_inventory.py
+      - .github/workflows/drive-recursive-collect.yml
   workflow_dispatch:
 permissions:
   contents: read
@@ -16,37 +15,44 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
-      - name: Checkout authorized branch
-        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Checkout
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
         with:
-          ref: cursor/fix-governance-gaps-ec54
+          ref: cursor/drive-sa-key-refactor
       - name: Python
-        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
         with:
-          python-version: '3.11'
-      - name: Offline regression tests
+          python-version: 3.11
+      - name: Tests
         run: |
           python -m pip install pytest
           PYTHONPATH=. python -m pytest tests/test_drive_recursive_inventory.py -q
-      - name: Compile deterministic collector
+      - name: Compile
         run: python -m py_compile packages/cli/drive_recursive_inventory.py tests/test_drive_recursive_inventory.py
-      - name: Require scoped read-only credential
+      - name: Require credential
         env:
+          GDRIVE_SA_KEY: ${{ secrets.GDRIVE_SA_KEY }}
           DRIVE_ACCESS_TOKEN: ${{ secrets.DRIVE_ACCESS_TOKEN }}
         run: |
-          if [ -z "$DRIVE_ACCESS_TOKEN" ]; then
-            echo "::error::DRIVE_ACCESS_TOKEN is not configured; fail closed"
+          if [ -z "$GDRIVE_SA_KEY" ] && [ -z "$DRIVE_ACCESS_TOKEN" ]; then
+            echo "::error::Neither GDRIVE_SA_KEY nor DRIVE_ACCESS_TOKEN is configured; fail closed"
             exit 2
           fi
-      - name: Collect metadata (not Kernel-approved)
+      - name: Install SA deps
         env:
+          GDRIVE_SA_KEY: ${{ secrets.GDRIVE_SA_KEY }}
+        run: |
+          if [ -n "$GDRIVE_SA_KEY" ]; then
+            python -m pip install -r packages/cli/requirements.txt
+          fi
+      - name: Collect
+        env:
+          GDRIVE_SA_KEY: ${{ secrets.GDRIVE_SA_KEY }}
           DRIVE_ACCESS_TOKEN: ${{ secrets.DRIVE_ACCESS_TOKEN }}
         run: |
-          python -m packages.cli.drive_recursive_inventory \
-            --roots config/drive_inventory_roots_20261016.json \
-            --output data/grc/evidencias/drive_recursive_candidate.json
-      - name: Upload non-promotable candidate evidence
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+          python -m packages.cli.drive_recursive_inventory --roots config/drive_inventory_roots_20261016.json --output data/grc/evidencias/drive_recursive_candidate.json
+      - name: Upload
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
           name: drive-recursive-candidate
           path: data/grc/evidencias/drive_recursive_candidate.json
