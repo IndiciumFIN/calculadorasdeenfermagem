@@ -1,0 +1,53 @@
+{
+  "schema": "CE04-CHUNK-REASSEMBLY-SHA256-CANDIDATE-1.0",
+  "wo": "WO-CE04-RECON-20261017",
+  "kernel_admitted": false,
+  "task_ids": [
+    "TASK-CE04-006",
+    "TASK-CE04-007"
+  ],
+  "file": "medicamentos/produto_fda_ndc.parte-0001.jsonl",
+  "source_git_ref": "cursor/drive-sa-key-refactor",
+  "algorithm": "incremental SHA256 of UTF8 decoded pinned Git chunks in manifest order",
+  "parts": [
+    {
+      "name": "part-000",
+      "sha1": "fbd9f5fa3adeb7b5b29947444e0a16ca095032bb",
+      "expected": "698863f5567703a0aff80e177c38b3edc85fdf2c1a647cd1a520bb8f920de309",
+      "computed": "698863f5567703a0aff80e177c38b3edc85fdf2c1a647cd1a520bb8f920de309",
+      "expected_bytes": 40000000,
+      "computed_bytes": 40000000,
+      "pass": true,
+      "unicode_replacement": false
+    },
+    {
+      "name": "part-001",
+      "sha1": "e2f173efa21f6e38bc7f5e655fc099006591a880",
+      "expected": "6f4addb173be1bc41ed064746bd6182509bd0a271b23a768acbbbc5586ba1040",
+      "computed": "6f4addb173be1bc41ed064746bd6182509bd0a271b23a768acbbbc5586ba1040",
+      "expected_bytes": 40000000,
+      "computed_bytes": 40000000,
+      "pass": true,
+      "unicode_replacement": false
+    },
+    {
+      "name": "part-002",
+      "sha1": "4f6f8df0ac83610e22e8775f7d9764b8f0eccab7",
+      "expected": "036a7d512bb00debd6f35f80018dbb64dcbc1889530b1564da911e0c8af3544f",
+      "computed": "036a7d512bb00debd6f35f80018dbb64dcbc1889530b1564da911e0c8af3544f",
+      "expected_bytes": 9999221,
+      "computed_bytes": 9999221,
+      "pass": true,
+      "unicode_replacement": false
+    }
+  ],
+  "parent": {
+    "expected_sha256": "ac8384d115c43434ceb36abcd1722ffd4054e018dc238e8ddbf9ac9b8dfeb9bf",
+    "computed_sha256": "ac8384d115c43434ceb36abcd1722ffd4054e018dc238e8ddbf9ac9b8dfeb9bf",
+    "expected_bytes": 89999221,
+    "computed_bytes": 89999221,
+    "pass": true
+  },
+  "no_source_mutation": true,
+  "release_allowed": false
+}
