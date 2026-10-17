@@ -25,9 +25,9 @@ from packages.cli.adapters.dou import fetch_dou_federal
 from packages.cli.adapters.secundaria import fetch_secundaria
 
 # Kernel subcommands
-from kernel.core import Kernel, Decision
-from kernel.policy_registry import get_policy, list_policies
-from validators.registry import list_validators
+from packages.cli.kernel.core import Kernel, Decision
+from packages.cli.kernel.policy_registry import get_policy, list_policies
+from packages.cli.validators.registry import list_validators
 
 app = typer.Typer(help="CLI canônica e blindada — Calculadoras de Enfermagem")
 kernel_app = typer.Typer(help="Kernel — executor de políticas determinísticas")
@@ -232,7 +232,7 @@ def kernel_list_validators() -> None:
 @kernel_app.command("test-validators")
 def kernel_test_validators() -> None:
     """Executa test_suite de todos os validadores."""
-    from validators.registry import VALIDATORS
+    from packages.cli.validators.registry import VALIDATORS
     failures = []
     for name, validator in sorted(VALIDATORS.items()):
         if hasattr(validator, "run_tests") and callable(validator.run_tests):

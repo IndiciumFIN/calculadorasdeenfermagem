@@ -1,8 +1,8 @@
 """Validador cid10_validator — Valida codigos CID-10 (capitulo + categoria + subcategoria)."""
 from __future__ import annotations
 from typing import Any
-from validators.base import BaseValidator
-from validators.registry import register
+from packages.cli.validators.base import BaseValidator
+from packages.cli.validators.registry import register
 
 @register
 class CLASS_cid10_validator(BaseValidator):
