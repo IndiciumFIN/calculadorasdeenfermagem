@@ -1,0 +1,110 @@
+{
+  "schema": "CE-DRIVE-INVENTORY-1.0.0",
+  "source": "CE-02 external agent audit",
+  "archive": "CE02_FECHAMENTO_INVENTARIO_HISTORICO_20261017.zip",
+  "archive_sha256": "8cd86e620593a5525fd041a8cd7f50b1e94482e731e91af37095b6c781d086af",
+  "snapshot_cutoff": "2026-10-14T13:41:00-03:00",
+  "audit_date": "2026-10-17",
+  "roots": {
+    "1c9vErI_It3XwzAcAFOnbxw9V0Mn6xfB9": {
+      "label": "CE_SITE",
+      "entries": 9370
+    },
+    "1FDBAMQ3-WT-8l6xU0664u7QjABd0FbEH": {
+      "label": "CE_MASTER",
+      "entries": 1212
+    }
+  },
+  "totals": {
+    "entries": 10582,
+    "folders": 2265,
+    "files": 8317,
+    "union": 10591
+  },
+  "extra_files": [
+    {
+      "id": "1w6liciPR2UnUyQCMbSFsDswni7kPE_nm",
+      "path": "/Calculadoras-de-Enfermagem/DBHA2020_ArqBrasCardiol_116-3_516-658.pdf",
+      "size": "3972880",
+      "sha256": "b62921e259f1c41e384fff56f3bcb0b8ed4686fad670607a2e2f09ead153ee0d",
+      "class": "DEMAIS_CONTEUDOS"
+    },
+    {
+      "id": "16EINv75PwcmxThdB_akdoUju5GkDBeoB",
+      "path": "/Calculadoras-de-Enfermagem/ESTEIRA_COFEN_BACKUP_20261010_1715/CRUZAMENTO_ATOS_DRIVE_20261014_1341.csv",
+      "size": "465696",
+      "sha256": "5478fc8d81183010cb425cfec957c13a4cd14b2e381c4ba9957613402eddeefd",
+      "class": "NORMATIVOS"
+    },
+    {
+      "id": "1i-72bX6BZ1KE7G3wWa6Sxev-Gr-2AOX8",
+      "path": "/Calculadoras-de-Enfermagem/ESTEIRA_COFEN_BACKUP_20261010_1715/DUPLICATAS_20261014_1341.csv",
+      "size": "215887",
+      "sha256": "7394207e8a1df68839e2b458f817340cb57fa14662ee4311bdc70d43b587ef8c",
+      "class": "NORMATIVOS"
+    },
+    {
+      "id": "1PcS2NSmNnzizDqFrbNCuWOrECsbF1e24",
+      "path": "/Calculadoras-de-Enfermagem/ESTEIRA_COFEN_BACKUP_20261010_1715/INVENTARIO_DRIVE_20261014_1341.csv",
+      "size": "16145594",
+      "sha256": "d447ba37fd6c8e4edb56aed66c614306dbc47d1d7a008755df58126e0dee7ed6",
+      "class": "NORMATIVOS"
+    },
+    {
+      "id": "1HBS1XHh4gq0vjmJMTLEasA_0LPvaYvg-",
+      "path": "/Calculadoras-de-Enfermagem/ESTEIRA_COFEN_BACKUP_20261010_1715/PASTAS_FORA_CONVENCAO_20261014_1341.csv",
+      "size": "8765",
+      "sha256": "a8ffd20320043ef61dddb1376a9ca7b1722b65b40304a6fd2a788eca355f9c73",
+      "class": "NORMATIVOS"
+    },
+    {
+      "id": "1-HRRL7_TA5H3XPPNkHSuQcKv3FuqhOxl",
+      "path": "/Calculadoras-de-Enfermagem/NEWS2_RCP2017_Chart1_scoring_system.pdf",
+      "size": "176840",
+      "sha256": "62425a54bd29d5c64c175991fb532b776afb0f8fba4445328c94e9af67ddc53d",
+      "class": "DEMAIS_CONTEUDOS"
+    },
+    {
+      "id": "1dzlUqtbITsXh4stneIfe8m37FS9wGv5-",
+      "path": "/Calculadoras-de-Enfermagem/NEWS2_RCP2017_Chart2_thresholds_triggers.pdf",
+      "size": "100309",
+      "sha256": "069ab296933c5e8e3b65731df1f92bb11bc0482f8ed58ec0ddce06651922c523",
+      "class": "DEMAIS_CONTEUDOS"
+    },
+    {
+      "id": "1qg8T2d9AJC_5swaoxwFODgiDeObw7_3y",
+      "path": "/Calculadoras-de-Enfermagem/NEWS2_RCP2017_Final_report.pdf",
+      "size": "2588875",
+      "sha256": "c5dad854ccf0d210142d71434317b3407b8601416c9613b9c528f7cbec24de18",
+      "class": "DEMAIS_CONTEUDOS"
+    },
+    {
+      "id": "1IEGv7rYtw2PAemaajdilBQmOWRLPzxPj",
+      "path": "/Calculadoras-de-Enfermagem/Sepsis3_Singer2016_JAMA_VoR_via_AmsterdamUMC.pdf",
+      "size": "509717",
+      "sha256": "597217c81b2e30e520ab1d209f183630ac4c6d939336e6119a33b29a38bdd833",
+      "class": "DEMAIS_CONTEUDOS"
+    }
+  ],
+  "mime_distribution": {
+    "application/json": 2284,
+    "application/vnd.google-apps.folder": 2265,
+    "text/markdown": 1385,
+    "application/octet-stream": 834,
+    "text/html": 812,
+    "application/zip": 604,
+    "text/csv": 452,
+    "image/png": 447,
+    "text/plain": 331,
+    "application/jsonl": 221,
+    "image/webp": 190,
+    "text/x-python": 178,
+    "application/pdf": 160,
+    "application/x-zip-compressed": 102,
+    "text/javascript": 71
+  },
+  "audit_result": "PASS — structural integrity confirmed",
+  "gate": "CE-MIG-G02",
+  "package_note": "SHA256 of CE02_AUDIT_PACKAGE_20261017.zip (derived package)",
+  "original_source_sha256": "4cc3d955bf827a5923c16eebda73631e5fe0cb6a6960d773dfb75b83bd3e0a90"
+}
