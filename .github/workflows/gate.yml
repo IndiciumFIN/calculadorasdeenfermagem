@@ -1,0 +1,168 @@
+name: Gate Agregador
+
+on:
+  # PROTEGE main: executa em push direto E em PR para main
+  push:
+    branches: [main]
+
+  pull_request:
+    branches: [main]
+    types: [opened, synchronize, reopened, ready_for_review]
+
+  # Também executa periodicamente para verificar saúde do corpus
+  schedule:
+    - cron: "0 6 * * 1"  # Toda segunda às 6h UTC
+
+  # Permite disparo manual
+  workflow_dispatch:
+    inputs:
+      gates:
+        description: "Gates a executar (default: todos)"
+        required: false
+        default: "G1,G2,G3,G4,G5,G6-auto"
+
+jobs:
+  # ─── Gates Automáticos (G1-G5) ───────────────────────────────────────────
+  gates-automaticos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Em PR: checkout do HEAD do PR
+          # Em push: checkout do commit atual
+          fetch-depth: 1
+
+      # ─── G1: SHA256 do Atomizado ───────────────────────────────────────
+      - name: G1 — SHA256 atomizado
+        id: g1
+        run: |
+          echo "::notice title=G1:: Verificando integridade SHA256 dos atomizados..."
+          SCRIPT="data/legado/extracao_bruta/atomizado/verificar_v1.1.0.py"
+          if [[ -f "$SCRIPT" ]]; then
+            python "$SCRIPT"
+            echo "g1_result=pass" >> "$GITHUB_OUTPUT"
+          else
+            echo "::warning title=G1::$SCRIPT não encontrado — pulando"
+            echo "g1_result=skip" >> "$GITHUB_OUTPUT"
+          fi
+
+      # ─── G2: Corpus Canonical Não Vazio ─────────────────────────────────
+      - name: G2 — Corpus canônico
+        id: g2
+        run: |
+          echo "::notice title=G2:: Verificando corpus canônico..."
+          python gates/gate_corpus_nonempty.py
+          echo "g2_result=$?" >> "$GITHUB_OUTPUT"
+
+      # ─── G3: Quarentena Consistente ─────────────────────────────────────
+      - name: G3 — Quarentena
+        id: g3
+        run: |
+          echo "::notice title=G3:: Verificando Quarentena..."
+          python gates/gate_quarentena.py
+          echo "g3_result=$?" >> "$GITHUB_OUTPUT"
+
+      # ─── G4: WOs PREAUTHORIZED Executados ───────────────────────────────
+      - name: G4 — WOs pendentes
+        id: g4
+        run: |
+          echo "::notice title=G4:: Verificando estado das WOs..."
+          python gates/gate_wos_pendentes.py
+          echo "g4_result=$?" >> "$GITHUB_OUTPUT"
+
+      # ─── G5: Limpeza Não Removeu Canônicos ──────────────────────────────
+      - name: G5 — Limpeza segura
+        id: g5
+        run: |
+          echo "::notice title=G5:: Verificando integridade da limpeza..."
+          python gates/gate_limpeza_segura.py
+          echo "g5_result=$?" >> "$GITHUB_OUTPUT"
+
+      # ─── Resumo dos Gates ──────────────────────────────────────────────
+      - name: Resumo dos Gates
+        run: |
+          echo ""
+          echo "## 🛡️ Gate Results"
+          echo "| Gate | Resultado |"
+          echo "|------|----------|"
+          g1=\${g1_result:-skip}
+          g2=\${g2_result:-?}
+          g3=\${g3_result:-?}
+          g4=\${g4_result:-?}
+          g5=\${g5_result:-?}
+          echo "| G1 SHA256 | \${g1^^} |"
+          echo "| G2 Corpus | \${g2} (0=OK,2=FAIL) |"
+          echo "| G3 Quarentena | \${g3} (0=OK,2=FAIL) |"
+          echo "| G4 WOs | \${g4} (0=OK,2=FAIL) |"
+          echo "| G5 Limpeza | \${g5} (0=OK,2=FAIL) |"
+
+          if [[ "\${g2}" != "0" ]] || [[ "\${g3}" != "0" ]] || [[ "\${g4}" != "0" ]] || [[ "\${g5}" != "0" ]]; then
+            echo ""
+            echo "::error:: Um ou mais gates falharam. Commit bloqueado."
+            exit 2
+          fi
+          echo ""
+          echo "✅ Todos os gates automáticos passaram."
+
+  # ─── G6-Auto: Verificação Assistida (não é gate de aprovação) ──────────
+  g6-auto:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: G6-auto — amostragem SHA256
+        run: |
+          echo "::notice title=G6-auto:: Verificação assistida de SHA256..."
+          python gates/g6_auto.py \
+            --repo . \
+            --sample-size 10 \
+            --commit-sha "\${{ github.event.pull_request.head.sha || github.sha }}" \
+            --output g6_verification_report.json
+
+          echo ""
+          echo "## 🔍 G6-Auto Report"
+          echo "Verificação assistida completa. Revisor humano deve analisar:"
+          echo "- \`g6_verification_report.json\`"
+          echo "- Divergências de SHA256 (se houver)"
+          echo "- Átomos sem texto (requerem fonte manual)"
+          echo ""
+          echo "⚠️ G6-auto é verificação assistida — revisão humana manual ainda é obrigatória."
+          echo "   Commit message deve conter: \`Reviewed-by: Nome <email>\`"
+
+      - name: Upload relatório G6
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: g6-verification-report
+          path: g6_verification_report.json
+          retention-days: 30
+
+  # ─── Gate Agregador Final ───────────────────────────────────────────────
+  gate-aggregator:
+    needs: [gates-automaticos, g6-auto]
+    runs-on: ubuntu-latest
+    # Só roda em PR — em push direto跳过
+    if: github.event_name == 'pull_request'
+    steps:
+      - name: Veredicto Final
+        run: |
+          echo ""
+          echo "## 🛡️ Gate Agregador — Veredicto"
+          echo ""
+          echo "| Gate | Status |"
+          echo "|------|--------|"
+          echo "| G1 SHA256 | ✅ Automático (executado no job gates-automaticos) |"
+          echo "| G2 Corpus | ✅ Automático |"
+          echo "| G3 Quarentena | ✅ Automático |"
+          echo "| G4 WOs | ✅ Automático |"
+          echo "| G5 Limpeza | ✅ Automático |"
+          echo "| G6 Humano | ⏳ MANUAL — requer Reviewed-by: no commit |"
+          echo ""
+          echo "**Pré-requisitos para merge:**"
+          echo "1. Todos os gates automáticos (G1-G5) passaram"
+          echo "2. PR contém \`Reviewed-by: Nome <email>\`"
+          echo "3. Revisor humano validou relatório G6-auto (artifact: g6-verification-report)"
+          echo ""
+          echo "✅ PR aprovado para review humano."gate.yml
