@@ -1,0 +1,67 @@
+{
+  "schema": "CE04-GIT-BYTE-SHA256-EVIDENCE-CANDIDATE-1.0",
+  "wo": "WO-CE04-RECON-20261017",
+  "wo_status": "DRAFT_NOT_ADMITTED",
+  "source_ref": "cursor/drive-sa-key-refactor",
+  "tests": [
+    "SHA256 one-million-a known-answer test PASS",
+    "Git blob SHA readback PASS",
+    "SHA256 byte match PASS",
+    "byte length PASS"
+  ],
+  "total": 5,
+  "all_pass": true,
+  "release_allowed": false,
+  "rows": [
+    {
+      "path": "data/legado/extracao_bruta/atomizado/cid10/capitulo.jsonl",
+      "sha1_blob": "924ed3ac187a0132121fbba7e596d566c0f01c4a",
+      "blob_expected": "924ed3ac187a0132121fbba7e596d566c0f01c4a",
+      "sha256": "da3a540d800207f394fc5f119c08a164ea5f4dc0453986fac835e66671455fdf",
+      "sha256_expected": "da3a540d800207f394fc5f119c08a164ea5f4dc0453986fac835e66671455fdf",
+      "bytes": 17713,
+      "bytes_expected": 17713,
+      "pass": true
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/suprimentos/classificacao_fda_seringa_agulha_luva_curativo.jsonl",
+      "sha1_blob": "e602d1be3b20b96617e1c9d2d977a5bb4add91a7",
+      "blob_expected": "e602d1be3b20b96617e1c9d2d977a5bb4add91a7",
+      "sha256": "db7e6f42db30a9d25b1cda24000908dc8c27680d9aa95ec4a4b268bb079b9caf",
+      "sha256_expected": "db7e6f42db30a9d25b1cda24000908dc8c27680d9aa95ec4a4b268bb079b9caf",
+      "bytes": 175177,
+      "bytes_expected": 175177,
+      "pass": true
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/cid10/cido_categoria.jsonl",
+      "sha1_blob": "1d9d25078eb333b10961c1514d4fac044445a1d5",
+      "blob_expected": "1d9d25078eb333b10961c1514d4fac044445a1d5",
+      "sha256": "a23603ea207ffaea4064853ea4285516be30aacab4889d7da4809856c7da2b49",
+      "sha256_expected": "a23603ea207ffaea4064853ea4285516be30aacab4889d7da4809856c7da2b49",
+      "bytes": 510820,
+      "bytes_expected": 510820,
+      "pass": true
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/vacinas/dose_esquema_cdsi_acip.jsonl",
+      "sha1_blob": "c8bfd74b462dc2d22ee42743ac7f63fc59b4e646",
+      "blob_expected": "c8bfd74b462dc2d22ee42743ac7f63fc59b4e646",
+      "sha256": "5ddb28d208a9d679948336b4b80ef59483778b2f2f3b19a243e8d6429fdb3217",
+      "sha256_expected": "5ddb28d208a9d679948336b4b80ef59483778b2f2f3b19a243e8d6429fdb3217",
+      "bytes": 684353,
+      "bytes_expected": 684353,
+      "pass": true
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/ferimentos/recorte_cid11.jsonl",
+      "sha1_blob": "3e37d951602cacb34adb731e2004ec0fbe5a5077",
+      "blob_expected": "3e37d951602cacb34adb731e2004ec0fbe5a5077",
+      "sha256": "7958f8a5af3829229522734023d7e2be667e607fb152f12a128d697a1c511fc3",
+      "sha256_expected": "7958f8a5af3829229522734023d7e2be667e607fb152f12a128d697a1c511fc3",
+      "bytes": 848959,
+      "bytes_expected": 848959,
+      "pass": true
+    }
+  ]
+}
