@@ -1,0 +1,28 @@
+{
+  "schema": "CE04-CHUNK-SHA256-EVIDENCE-CANDIDATE-1.0",
+  "wo": "WO-CE04-RECON-20261017",
+  "admission": "DRAFT_NOT_ADMITTED",
+  "task_ids": [
+    "TASK-CE04-006",
+    "TASK-CE04-007"
+  ],
+  "kernel_release": false,
+  "source_git_ref": "cursor/drive-sa-key-refactor",
+  "result": {
+    "source_file": "medicamentos/produto_fda_ndc.parte-0001.jsonl",
+    "chunk": "part-002",
+    "git_blob_sha1": "4f6f8df0ac83610e22e8775f7d9764b8f0eccab7",
+    "sha256_declared": "036a7d512bb00debd6f35f80018dbb64dcbc1889530b1564da911e0c8af3544f",
+    "sha256_computed": "036a7d512bb00debd6f35f80018dbb64dcbc1889530b1564da911e0c8af3544f",
+    "bytes_declared": 9999221,
+    "bytes_computed": 9999221,
+    "replacement_character": false,
+    "sha256_match": true,
+    "bytes_match": true,
+    "whole_file_sha256_verified": false
+  },
+  "limitations": [
+    "One fragment only; parent file remains unverified",
+    "No mutation to source or Supabase"
+  ]
+}
