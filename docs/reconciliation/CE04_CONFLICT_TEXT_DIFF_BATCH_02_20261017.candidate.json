@@ -1,0 +1,105 @@
+{
+  "schema": "CE04-GIT-CONFLICT-TEXT-METADATA-CANDIDATE-1.0",
+  "wo": "WO-CE04-RECON-20261017",
+  "scope": "Five more source-text comparisons with SHAs verified",
+  "task": "TASK-CE04-003",
+  "items": [
+    {
+      "path": "docs/GOVERNANCE.md",
+      "main_blob": "347f0c221ced42e516cd77f5121b941d9d23b10c",
+      "historical_blob": "f5ad6908d6aaf51b72833b94f50e657a517eddc4",
+      "size_main": 698,
+      "size_historical": 2841,
+      "sha_verification": "PASS",
+      "text_identical": false,
+      "change_summary": {
+        "historical_lines": 76,
+        "main_lines": 27,
+        "historical_only_count": 50,
+        "main_only_count": 1,
+        "method": "multiset line comparison; not semantic or ordered patch"
+      },
+      "disposition": "KEEP_BOTH_HOLD_POLICY_AUDIT",
+      "independent_audit": "PENDING",
+      "released": false
+    },
+    {
+      "path": "docs/INVENTORY_INITIAL.md",
+      "main_blob": "78fe4e40beb594984318bd6b268f60a8acb1a94d",
+      "historical_blob": "17a8a9dfc445a6116b18b1b494598a9b195598b0",
+      "size_main": 1823,
+      "size_historical": 2428,
+      "sha_verification": "PASS",
+      "text_identical": false,
+      "change_summary": {
+        "historical_lines": 38,
+        "main_lines": 36,
+        "historical_only_count": 3,
+        "main_only_count": 1,
+        "method": "multiset line comparison; not semantic or ordered patch"
+      },
+      "disposition": "KEEP_BOTH_HOLD_POLICY_AUDIT",
+      "independent_audit": "PENDING",
+      "released": false
+    },
+    {
+      "path": "docs/KERNEL.md",
+      "main_blob": "241e66da56f5e1093cbaa4e19aa40f99af2aca7f",
+      "historical_blob": "7ee3442ed0b065961b59b5e11db5e1c90daee80e",
+      "size_main": 702,
+      "size_historical": 878,
+      "sha_verification": "PASS",
+      "text_identical": false,
+      "change_summary": {
+        "historical_lines": 22,
+        "main_lines": 21,
+        "historical_only_count": 1,
+        "main_only_count": 0,
+        "method": "multiset line comparison; not semantic or ordered patch"
+      },
+      "disposition": "KEEP_BOTH_HOLD_POLICY_AUDIT",
+      "independent_audit": "PENDING",
+      "released": false
+    },
+    {
+      "path": "docs/PIPELINE.md",
+      "main_blob": "857a4473c288620bf3c7162105cc1204812ac64d",
+      "historical_blob": "16aad9bdfda5f54b9206b7ccbddc449ac4155394",
+      "size_main": 860,
+      "size_historical": 2056,
+      "sha_verification": "PASS",
+      "text_identical": false,
+      "change_summary": {
+        "historical_lines": 38,
+        "main_lines": 26,
+        "historical_only_count": 26,
+        "main_only_count": 14,
+        "method": "multiset line comparison; not semantic or ordered patch"
+      },
+      "disposition": "KEEP_BOTH_HOLD_POLICY_AUDIT",
+      "independent_audit": "PENDING",
+      "released": false
+    },
+    {
+      "path": "docs/REGISTRY.md",
+      "main_blob": "bad374ee31e99576a03a91d0ef0eaedab98a0abc",
+      "historical_blob": "7ad59cc563cdd5d130da0a973fe2b2e5845abea6",
+      "size_main": 1085,
+      "size_historical": 1303,
+      "sha_verification": "PASS",
+      "text_identical": false,
+      "change_summary": {
+        "historical_lines": 35,
+        "main_lines": 33,
+        "historical_only_count": 2,
+        "main_only_count": 0,
+        "method": "multiset line comparison; not semantic or ordered patch"
+      },
+      "disposition": "KEEP_BOTH_HOLD_POLICY_AUDIT",
+      "independent_audit": "PENDING",
+      "released": false
+    }
+  ],
+  "review_type": "METADATA_AND_LINE_MULTISETS_ONLY",
+  "status": "READBACK_CANDIDATE_NOT_APPROVED"
+}
