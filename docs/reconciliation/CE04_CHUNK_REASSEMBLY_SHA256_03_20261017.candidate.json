@@ -1,0 +1,40 @@
+{
+  "schema": "CE04-CHUNK-REASSEMBLY-SHA256-1.0-CANDIDATE",
+  "wo": "WO-CE04-RECON-20261017",
+  "wo_status": "DRAFT_NOT_ADMITTED",
+  "parent": "suprimentos/item_catmat.jsonl",
+  "source_manifest": "data/legado/extracao_bruta/atomizado/suprimentos/fracoes/item_catmat.jsonl/manifesto.json",
+  "expected_parent_sha256": "aa764c1951eb28e1966af4b8f28dc41f34643acbe09a48329be7300b97e51a19",
+  "actual_parent_sha256": "aa764c1951eb28e1966af4b8f28dc41f34643acbe09a48329be7300b97e51a19",
+  "expected_parent_bytes": 72026196,
+  "actual_parent_bytes": 72026196,
+  "all_parts_pass": true,
+  "parent_pass": true,
+  "parts": [
+    {
+      "name": "part-000",
+      "offset": 0,
+      "git_blob_sha1": "cbd4745f157b15ca4044021371bfddfa2ff354f5",
+      "bytes": 40000000,
+      "expected_bytes": 40000000,
+      "sha256": "a00d959c4d134baf4e0d0f9cf1fadbdf753d0c5438262fa69f12182594de7a98",
+      "expected_sha256": "a00d959c4d134baf4e0d0f9cf1fadbdf753d0c5438262fa69f12182594de7a98",
+      "utf8_replacements": 0,
+      "pass": true
+    },
+    {
+      "name": "part-001",
+      "offset": 40000000,
+      "git_blob_sha1": "a90994b492ed092875fd141a2e6deab89cd91be2",
+      "bytes": 32026196,
+      "expected_bytes": 32026196,
+      "sha256": "6ff90a960ef4855dcafea5ce2f2908e495520aa63b47eee533a2e7f006b0f39e",
+      "expected_sha256": "6ff90a960ef4855dcafea5ce2f2908e495520aa63b47eee533a2e7f006b0f39e",
+      "utf8_replacements": 0,
+      "pass": true
+    }
+  ],
+  "method": "pinned Git blob UTF8 bytes fed sequentially to incremental SHA256",
+  "clinical_audit": "PENDING",
+  "release_allowed": false
+}
