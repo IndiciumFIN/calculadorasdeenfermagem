@@ -3,7 +3,7 @@
   "id": "KERNEL-POLICY-019",
   "name": "Portarias MS",
   "description": "Valida portarias ministeriais do DOU Federal",
-  "source_contract": "contracts/fonts/019.json",
+  "source_contract": "contracts/fontes/ms_portarias.json",
   "validators": [
     "atomo_schema_validator",
     "norm_atom_id_validator",

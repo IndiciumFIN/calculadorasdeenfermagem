@@ -3,7 +3,7 @@
   "id": "KERNEL-POLICY-012",
   "name": "PNI Vacinal",
   "description": "Valida dados do Programa Nacional de Imunizações",
-  "source_contract": "contracts/fonts/012.json",
+  "source_contract": "contracts/fontes/pni.json",
   "validators": [
     "schema_validator"
   ],

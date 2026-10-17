@@ -3,7 +3,7 @@
   "id": "KERNEL-POLICY-010",
   "name": "Tabela TACO Nutricional",
   "description": "Valida alimentos e nutrientes da TACO UNICAMP",
-  "source_contract": "contracts/fonts/010.json",
+  "source_contract": "contracts/fontes/taco.json",
   "validators": [
     "schema_validator"
   ],

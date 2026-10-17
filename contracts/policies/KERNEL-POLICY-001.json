@@ -3,7 +3,7 @@
   "id": "KERNEL-POLICY-001",
   "name": "Normativo COFEN",
   "description": "Valida átomos de resoluções COFEN do DOU Federal",
-  "source_contract": "contracts/fonts/001.json",
+  "source_contract": "contracts/fontes/cofen_dou.json",
   "validators": [
     "atomo_schema_validator",
     "norm_atom_id_validator",

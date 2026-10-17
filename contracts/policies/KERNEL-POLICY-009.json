@@ -3,7 +3,7 @@
   "id": "KERNEL-POLICY-009",
   "name": "Dispositivos ANVISA",
   "description": "Valida registros de dispositivos médicos da ANVISA",
-  "source_contract": "contracts/fonts/009.json",
+  "source_contract": "contracts/fontes/anvisa_dev.json",
   "validators": [
     "schema_validator"
   ],

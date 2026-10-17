@@ -3,7 +3,7 @@
   "id": "KERNEL-POLICY-002",
   "name": "Normativo ANVISA",
   "description": "Valida átomos de RDCs/INs/Portarias da ANVISA",
-  "source_contract": "contracts/fonts/002.json",
+  "source_contract": "contracts/fontes/anvisa_dou.json",
   "validators": [
     "atomo_schema_validator",
     "norm_atom_id_validator",

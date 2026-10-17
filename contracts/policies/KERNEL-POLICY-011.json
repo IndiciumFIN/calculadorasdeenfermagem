@@ -3,7 +3,7 @@
   "id": "KERNEL-POLICY-011",
   "name": "SINAN Epidemiologia",
   "description": "Valida notificações SINAN de agravos compulsórios",
-  "source_contract": "contracts/fonts/011.json",
+  "source_contract": "contracts/fontes/sinan.json",
   "validators": [
     "schema_validator"
   ],

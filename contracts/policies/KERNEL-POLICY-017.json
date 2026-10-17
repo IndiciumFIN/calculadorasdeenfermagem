@@ -3,7 +3,7 @@
   "id": "KERNEL-POLICY-017",
   "name": "Atlas BodyParts3D",
   "description": "Valida mapeamentos anatômicos do Atlas BodyParts3D",
-  "source_contract": "contracts/fonts/017.json",
+  "source_contract": "contracts/fontes/atlas.json",
   "validators": [
     "schema_validator"
   ],

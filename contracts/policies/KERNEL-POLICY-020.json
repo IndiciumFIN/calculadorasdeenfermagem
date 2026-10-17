@@ -3,7 +3,7 @@
   "id": "KERNEL-POLICY-020",
   "name": "Leis Federais",
   "description": "Valida leis federais do Palácio do Planalto",
-  "source_contract": "contracts/fonts/020.json",
+  "source_contract": "contracts/fontes/lei_federal.json",
   "validators": [
     "atomo_schema_validator",
     "norm_atom_id_validator",

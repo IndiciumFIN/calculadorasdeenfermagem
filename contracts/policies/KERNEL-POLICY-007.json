@@ -3,7 +3,7 @@
   "id": "KERNEL-POLICY-007",
   "name": "Vacinas CDC CVX",
   "description": "Valida códigos CVX de vacinas do CDC",
-  "source_contract": "contracts/fonts/007.json",
+  "source_contract": "contracts/fontes/vacinas_cdc.json",
   "validators": [
     "cvx_validator",
     "schema_validator"

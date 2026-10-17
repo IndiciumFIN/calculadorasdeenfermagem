@@ -1,0 +1,17 @@
+{
+  "schema": "CE-FONTE-CONTRATO-1.0.0",
+  "fonte_slug": "mesh",
+  "fonte_oficial": "NLM/NIH",
+  "tipo": "TERMINOLOGIA",
+  "parser": "packages/cli/parsers/mesh.py",
+  "parser_version": "1.0.0",
+  "update_policy": {
+    "trigger": "SCHEDULE",
+    "last_update": "2026-10-17"
+  },
+  "kernel_policy_id": "KERNEL-POLICY-005",
+  "validators": "mesh_validator",
+  "kernel_policy_required": true,
+  "description": "Fonte oficial: NLM/NIH",
+  "source_contract": "contracts/fontes/mesh.json"
+}

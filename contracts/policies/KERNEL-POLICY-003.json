@@ -3,7 +3,7 @@
   "id": "KERNEL-POLICY-003",
   "name": "CID-10 Classificação",
   "description": "Valida códigos CID-10 do DATASUS",
-  "source_contract": "contracts/fonts/003.json",
+  "source_contract": "contracts/fontes/cid10.json",
   "validators": [
     "cid10_validator",
     "schema_validator"

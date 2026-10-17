@@ -3,7 +3,7 @@
   "id": "KERNEL-POLICY-018",
   "name": "CDSI Calendário Brasil",
   "description": "Valida esquemas vacinais do CDSI/MS",
-  "source_contract": "contracts/fonts/018.json",
+  "source_contract": "contracts/fontes/cdsi.json",
   "validators": [
     "schema_validator"
   ],

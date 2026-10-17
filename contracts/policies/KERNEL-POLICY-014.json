@@ -3,7 +3,7 @@
   "id": "KERNEL-POLICY-014",
   "name": "ESAVI Eventos Adversos",
   "description": "Valida notificações de ESAVI da ANVISA",
-  "source_contract": "contracts/fonts/014.json",
+  "source_contract": "contracts/fontes/esavi.json",
   "validators": [
     "schema_validator"
   ],

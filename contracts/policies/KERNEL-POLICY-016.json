@@ -3,7 +3,7 @@
   "id": "KERNEL-POLICY-016",
   "name": "SIES Insumos Estratégicos",
   "description": "Valida dados de insumos estratégicos do SIES/MS",
-  "source_contract": "contracts/fonts/016.json",
+  "source_contract": "contracts/fontes/sies.json",
   "validators": [
     "schema_validator"
   ],

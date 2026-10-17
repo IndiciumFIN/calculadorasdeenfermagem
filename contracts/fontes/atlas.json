@@ -1,0 +1,19 @@
+{
+  "schema": "CE-FONTE-CONTRATO-1.0.0",
+  "fonte_slug": "atlas",
+  "fonte_oficial": "Corpus público",
+  "tipo": "OUTRO",
+  "parser": "packages/cli/parsers/atlas.py",
+  "parser_version": "1.0.0",
+  "update_policy": {
+    "trigger": "MANUAL",
+    "last_update": "2026-10-17"
+  },
+  "kernel_policy_id": "KERNEL-POLICY-017",
+  "validators": [
+    "schema_validator"
+  ],
+  "kernel_policy_required": true,
+  "description": "Fonte oficial: Corpus público",
+  "source_contract": "contracts/fontes/atlas.json"
+}

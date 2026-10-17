@@ -3,7 +3,7 @@
   "id": "KERNEL-POLICY-015",
   "name": "MedlinePlus Educativo",
   "description": "Valida tópicos de saúde do MedlinePlus",
-  "source_contract": "contracts/fonts/015.json",
+  "source_contract": "contracts/fontes/medlineplus.json",
   "validators": [
     "schema_validator"
   ],

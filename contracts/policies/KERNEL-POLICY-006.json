@@ -3,7 +3,7 @@
   "id": "KERNEL-POLICY-006",
   "name": "Medicamentos ANVISA",
   "description": "Valida registros de medicamentos da ANVISA",
-  "source_contract": "contracts/fonts/006.json",
+  "source_contract": "contracts/fontes/anvisa_med.json",
   "validators": [
     "schema_validator",
     "ncm_validator"

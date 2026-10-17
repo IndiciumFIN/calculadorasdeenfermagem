@@ -3,7 +3,7 @@
   "id": "KERNEL-POLICY-004",
   "name": "CID-11 Classificação",
   "description": "Valida códigos CID-11 da OMS",
-  "source_contract": "contracts/fonts/004.json",
+  "source_contract": "contracts/fontes/cid11.json",
   "validators": [
     "cid11_validator",
     "schema_validator"

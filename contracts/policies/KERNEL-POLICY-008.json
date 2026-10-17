@@ -3,7 +3,7 @@
   "id": "KERNEL-POLICY-008",
   "name": "Sinais Vitais FHIR",
   "description": "Valida perfis FHIR R4 de sinais vitais (LOINC)",
-  "source_contract": "contracts/fonts/008.json",
+  "source_contract": "contracts/fontes/fhir_vitais.json",
   "validators": [
     "schema_validator",
     "loinc_validator"

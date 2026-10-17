@@ -1,10 +1,16 @@
 {
+  "schema": "CE-ATOMO-CANONICO-1.0.0",
   "id_atomo": "NORM-2026-001",
-  "texto_regra": "Exemplo de regra atômica extraída de normativo.",
-  "dispositivo_legal": "Art. 1º, § 2º",
-  "norma_origem": "Resolução COFEN nº 736/2024",
-  "link_fonte": "https://www.cofen.gov.br",
-  "status": "Vigente",
-  "data_verificacao": "2026-10-11",
-  "versao_contrato": "1.0.0"
+  "texto_regra": "Exemplo de regra atomica extraida de normativo — o enfermeiro pode prescrever medicamentos mediante protocolo institucional.",
+  "dispositivo_legal": "Art. 1o, paragrafo unico",
+  "norma_origem": "BR_FED_COFEN_RES_2026_N_00801",
+  "link_fonte": "https://www.in.gov.br/web/dou/-/resolucao-cofen-n-801/2026",
+  "status": "NAO_VERIFICADO",
+  "data_verificacao": "2026-10-17",
+  "versao_contrato": "1.2.0",
+  "fonte_slug": "cofen_dou",
+  "sha256_texto": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "sha256_original": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "hash_status": "PENDENTE",
+  "idioma": "pt-BR"
 }
