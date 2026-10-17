@@ -1,0 +1,90 @@
+{
+  "schema": "CE04-GIT-BYTE-HASH-EVIDENCE-CANDIDATE-1.0",
+  "wo_id": "WO-CE04-RECON-20261017",
+  "admission": "DRAFT_NOT_ADMITTED",
+  "task": "TASK-CE04-004",
+  "source_branch": "cursor/drive-sa-key-refactor",
+  "hash_scope": "UTF8 payload returned by GitHub connector, verified against Git tree and Supabase/manifest",
+  "sha256_known_answer_tests": {
+    "empty": "PASS",
+    "abc": "PASS"
+  },
+  "batch_count": 6,
+  "all_hashes_pass": true,
+  "clinical_approval": false,
+  "release_pass": false,
+  "rows": [
+    {
+      "path": "data/legado/extracao_bruta/atomizado/vacinas/associacao_cvx_antigeno_cdsi.jsonl",
+      "source_blob_sha1": "376deb96225ef66ad2619f9e851bd0e52ddc6840",
+      "expected_blob_sha1": "376deb96225ef66ad2619f9e851bd0e52ddc6840",
+      "byte_length": 217369,
+      "expected_byte_length": 217369,
+      "sha256_computed": "532d00a702a1f809dfaaea31652cf7e76b10f74de56287f62ae56bc75551112c",
+      "sha256_expected": "532d00a702a1f809dfaaea31652cf7e76b10f74de56287f62ae56bc75551112c",
+      "blob_sha1_pass": true,
+      "sha256_pass": true,
+      "size_pass": true
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/vacinas/observacao_condicao_cdsi.jsonl",
+      "source_blob_sha1": "d7e0c1bb9ba654bf346416507cd77e94b660e5b1",
+      "expected_blob_sha1": "d7e0c1bb9ba654bf346416507cd77e94b660e5b1",
+      "byte_length": 240017,
+      "expected_byte_length": 240017,
+      "sha256_computed": "667e03746b0123712792db7092983c867bb43972f851dafbbceee9c6bbd7303c",
+      "sha256_expected": "667e03746b0123712792db7092983c867bb43972f851dafbbceee9c6bbd7303c",
+      "blob_sha1_pass": true,
+      "sha256_pass": true,
+      "size_pass": true
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/vacinas/codigo_cvx.jsonl",
+      "source_blob_sha1": "03a229bd85a16582d782c6f7ce5e4fd7a672d388",
+      "expected_blob_sha1": "03a229bd85a16582d782c6f7ce5e4fd7a672d388",
+      "byte_length": 265089,
+      "expected_byte_length": 265089,
+      "sha256_computed": "51ba29464a9e975c96411cd42acf3a17e46ac82fe674f9aecaaae7d1a304b325",
+      "sha256_expected": "51ba29464a9e975c96411cd42acf3a17e46ac82fe674f9aecaaae7d1a304b325",
+      "blob_sha1_pass": true,
+      "sha256_pass": true,
+      "size_pass": true
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/vacinal_brasil/cobertura_vacinal_polo_sesai.jsonl",
+      "source_blob_sha1": "2d643bbd4d7e10360883722b85b9aea8bd6303d5",
+      "expected_blob_sha1": "2d643bbd4d7e10360883722b85b9aea8bd6303d5",
+      "byte_length": 386151,
+      "expected_byte_length": 386151,
+      "sha256_computed": "0d24bac84b0ffb970531e26ba871fab3bbbaf35a37b4453400b9b1b218294e19",
+      "sha256_expected": "0d24bac84b0ffb970531e26ba871fab3bbbaf35a37b4453400b9b1b218294e19",
+      "blob_sha1_pass": true,
+      "sha256_pass": true,
+      "size_pass": true
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/ferimentos/recorte_mesh.jsonl",
+      "source_blob_sha1": "786885c7cc5472e3de1cd393812af5238228ca4e",
+      "expected_blob_sha1": "786885c7cc5472e3de1cd393812af5238228ca4e",
+      "byte_length": 458390,
+      "expected_byte_length": 458390,
+      "sha256_computed": "5695c99c139fe4ae0cbcf2a87528b103045d0f668d36c9932b13c02bb7987ba9",
+      "sha256_expected": "5695c99c139fe4ae0cbcf2a87528b103045d0f668d36c9932b13c02bb7987ba9",
+      "blob_sha1_pass": true,
+      "sha256_pass": true,
+      "size_pass": true
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/ferimentos/recorte_cid10.jsonl",
+      "source_blob_sha1": "4d66b7499a82bf43c3abc9fd09948866e758cb7c",
+      "expected_blob_sha1": "4d66b7499a82bf43c3abc9fd09948866e758cb7c",
+      "byte_length": 504692,
+      "expected_byte_length": 504692,
+      "sha256_computed": "5891b30874ee7497f8b1dad92cb44230d04cdf0162bb00856618b30994ec811e",
+      "sha256_expected": "5891b30874ee7497f8b1dad92cb44230d04cdf0162bb00856618b30994ec811e",
+      "blob_sha1_pass": true,
+      "sha256_pass": true,
+      "size_pass": true
+    }
+  ]
+}
