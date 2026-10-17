@@ -1,0 +1,48 @@
+# Diagnóstico da integração; não promove conteúdo sem aprovação clínica/Kernel.
+name: Canonical repository invariants
+on:
+  push:
+    branches: [integration/canonical-main-20261017]
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+
+jobs:
+  structural:
+    name: Canonical contracts and CLI smoke
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout exact event revision
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - name: Python 3.11
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.11'
+      - name: Install packages
+        run: python -m pip install -r packages/cli/requirements.txt
+      - name: Compile imports, code and tests
+        run: python -m compileall -q packages/cli packages/schemas scripts tests
+      - name: Run deterministic negative tests
+        run: python -m unittest discover -s tests -p 'test_repository_integrity.py' -v
+      - name: Verify canonical source and policy references
+        run: python scripts/verify_repository_integrity.py --output /tmp/canonical-structural.json
+      - name: CLI import smoke
+        run: python -m packages.cli.main --help
+      - name: Kernel policy registry smoke
+        run: python -m packages.cli.main kernel list-policies
+
+  strict-admission:
+    name: Full admission blockers (fail closed)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout exact event revision
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - name: Python 3.11
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.11'
+      - name: Reject unresolved parser or import dependencies
+        run: python scripts/verify_repository_integrity.py --strict --output /tmp/canonical-strict.json
