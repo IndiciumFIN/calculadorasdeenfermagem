@@ -18,7 +18,7 @@ class CLASS_cid10_validator(BaseValidator):
         return self.VERSION
 
     def validate(self, item: dict[str, Any]) -> tuple[bool, str | None]:
-        return True, None
+        return False, "NOT_IMPLEMENTED: cid10_validator; HOLD_HUMAN"
 
     def validate_batch(self, items: list[dict[str, Any]]) -> list[tuple[dict, bool, str | None]]:
         return [(item, *self.validate(item)) for item in items]

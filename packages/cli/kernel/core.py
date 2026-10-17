@@ -17,29 +17,14 @@ import typer
 
 from packages.schemas.invariantes import AtomoBlindado
 
-# Import tardio para evitar circular — cada validador se auto-registra
-def _lazy_import_validators():
-    from packages.cli.validators import (
-        Sha256Validator, NormAtomIdValidator, TextoLengthValidator,
-        UrlValidator, AtomoSchemaValidator,
-        cid10_validator, cid11_validator, mesh_validator,
-        cvx_validator, schema_validator, loinc_validator,
-        ncm_validator, catmat_validator, human_review_validator,
-    )
-    return locals()
+# Um registry canônico de INSTÂNCIAS; decorators de módulos específicos registram classes.
+from packages.cli import validators as _validator_modules  # noqa: F401
+from packages.cli.validators.registry import VALIDATORS
 
-VALIDATORS: dict[str, Any] = {}
-_validator_imported = False
 
 def _ensure_validators():
-    global _validator_imported, VALIDATORS
-    if not _validator_imported:
-        ctx = _lazy_import_validators()
-        # Extrai validadores concretos (não classes, instâncias)
-        for k, v in ctx.items():
-            if k.endswith("_validator") and hasattr(v, "validate"):
-                VALIDATORS[k] = v
-        _validator_imported = True
+    if not VALIDATORS:
+        raise RuntimeError("Nenhum validador registrado. Fail-closed.")
 
 from packages.cli.kernel.policy_registry import get_policy, PolicyRegistry
 
@@ -243,12 +228,9 @@ class Kernel:
             else:
                 typer.secho(f"  ⚠️  {vname}: sem test_suite (stub)", fg=typer.colors.YELLOW)
 
-        output_dir = Path(policy.atoms_output)
-        if not output_dir.exists():
-            typer.secho(f"⚠️  Criando diretório de saída: {output_dir}", fg=typer.colors.YELLOW)
-            output_dir.mkdir(parents=True, exist_ok=True)
+        # Gate de leitura: NÃO cria diretorio de dados nem implica publicacao.
 
-        typer.secho(f"✅ Gate {policy_id}: TODOS OS VALIDADORES APROVADOS", fg=typer.colors.GREEN)
+        typer.secho(f"✅ Gate {policy_id}: testes dos validadores aprovados (sem admissão clínica)", fg=typer.colors.GREEN)
         return 0
 
     def list_policies(self) -> None:

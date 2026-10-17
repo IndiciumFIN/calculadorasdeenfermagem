@@ -18,7 +18,7 @@ class CLASS_human_review_validator(BaseValidator):
         return self.VERSION
 
     def validate(self, item: dict[str, Any]) -> tuple[bool, str | None]:
-        return True, None
+        return False, "HUMAN_REVIEW_REQUIRED: sem comprovante de aprovação; HOLD_HUMAN"
 
     def validate_batch(self, items: list[dict[str, Any]]) -> list[tuple[dict, bool, str | None]]:
         return [(item, *self.validate(item)) for item in items]
