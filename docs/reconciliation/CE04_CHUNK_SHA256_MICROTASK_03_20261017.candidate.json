@@ -1,0 +1,23 @@
+{
+  "schema": "CE04-CHUNK-SHA256-CANDIDATE-1.0",
+  "wo": "WO-CE04-RECON-20261017",
+  "kernel_admission": "NOT_ADMITTED",
+  "task_ids": [
+    "TASK-CE04-006",
+    "TASK-CE04-007"
+  ],
+  "result": {
+    "file": "medicamentos/apresentacao_cmed.jsonl",
+    "chunk": "part-001",
+    "git_blob_sha1": "6944a832ae23ba69ae03fc6677f6cb68af98b4fb",
+    "declared_sha256": "2f35e2246951c8e5fe223fb9856a37777494db941733d5af5af47ed7f22d3214",
+    "computed_sha256": "2f35e2246951c8e5fe223fb9856a37777494db941733d5af5af47ed7f22d3214",
+    "declared_size": 20737486,
+    "actual_size": 20737486,
+    "sha256_pass": true,
+    "size_pass": true,
+    "unicode_replacement": false
+  },
+  "whole_file_validated": false,
+  "release_allowed": false
+}
