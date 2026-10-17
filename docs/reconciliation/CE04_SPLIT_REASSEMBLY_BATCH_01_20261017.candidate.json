@@ -1,0 +1,41 @@
+{
+  "schema": "CE04-GIT-REASSEMBLY-SHA256-CANDIDATE-1.0",
+  "wo": "WO-CE04-RECON-20261017",
+  "wo_admission": "DRAFT_NOT_ADMITTED",
+  "file": "medicamentos/apresentacao_cmed.jsonl",
+  "source_gap_report_blob": "94f46a9aa68f3878f219baad0880259801854e60",
+  "part_tests": [
+    {
+      "name": "part-000",
+      "source_blob_sha1": "0656a6c2d6303a58c1ef2a35b2f293ffc910230d",
+      "declared_bytes": 40000000,
+      "observed_bytes": 40000000,
+      "declared_sha256": "0b5ea50a28b829f30943cae0fb2588f42f0d82f72f8c844664761a7ffd3cf287",
+      "observed_sha256": "0b5ea50a28b829f30943cae0fb2588f42f0d82f72f8c844664761a7ffd3cf287",
+      "byte_match": true,
+      "sha256_match": true
+    },
+    {
+      "name": "part-001",
+      "source_blob_sha1": "6944a832ae23ba69ae03fc6677f6cb68af98b4fb",
+      "declared_bytes": 20737486,
+      "observed_bytes": 20737486,
+      "declared_sha256": "2f35e2246951c8e5fe223fb9856a37777494db941733d5af5af47ed7f22d3214",
+      "observed_sha256": "2f35e2246951c8e5fe223fb9856a37777494db941733d5af5af47ed7f22d3214",
+      "byte_match": true,
+      "sha256_match": true
+    }
+  ],
+  "manifest_total_bytes": 60737486,
+  "manifest_parent_sha256": "3f158c141200caae51cc2b3ea7d309f8a52db2b2a4b7136278df612b8f1e37b6",
+  "parent_reassembled_observed": {
+    "bytes": 60737486,
+    "sha256": "3f158c141200caae51cc2b3ea7d309f8a52db2b2a4b7136278df612b8f1e37b6"
+  },
+  "parent_sha256_match": true,
+  "status": "REASSEMBLED_BYTES_VERIFIED_GIT_ONLY",
+  "clinical_validation": false,
+  "rights_validation": false,
+  "release_allowed": false,
+  "method": "Concatenate UTF8 byte streams returned from pinned Git blob reads, with per-part SHA and byte-size gates"
+}
