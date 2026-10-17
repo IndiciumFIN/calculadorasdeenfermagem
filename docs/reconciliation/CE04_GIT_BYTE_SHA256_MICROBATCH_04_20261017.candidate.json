@@ -1,0 +1,90 @@
+{
+  "schema": "CE04-GIT-BYTE-HASH-EVIDENCE-CANDIDATE-1.0",
+  "wo_id": "WO-CE04-RECON-20261017",
+  "admission": "DRAFT_NOT_ADMITTED",
+  "task": "TASK-CE04-004",
+  "source_branch": "cursor/drive-sa-key-refactor",
+  "hash_scope": "UTF8 payload returned by GitHub connector, verified against Git tree and Supabase/manifest",
+  "sha256_known_answer_tests": {
+    "empty": "PASS",
+    "abc": "PASS"
+  },
+  "batch_count": 6,
+  "all_hashes_pass": true,
+  "clinical_approval": false,
+  "release_pass": false,
+  "rows": [
+    {
+      "path": "data/legado/extracao_bruta/atomizado/sinais_vitais/pontuacao_news2_transcrita_manualmente.jsonl",
+      "source_blob_sha1": "0a661e9692cd3e680188a8b5ce39e7f590f43295",
+      "expected_blob_sha1": "0a661e9692cd3e680188a8b5ce39e7f590f43295",
+      "byte_length": 50074,
+      "expected_byte_length": 50074,
+      "sha256_computed": "94303acd7d6aa0e45149803cb0f323dcf68f3bf6dfa637f300d2f1ad2bade0f1",
+      "sha256_expected": "94303acd7d6aa0e45149803cb0f323dcf68f3bf6dfa637f300d2f1ad2bade0f1",
+      "blob_sha1_pass": true,
+      "sha256_pass": true,
+      "size_pass": true
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/sepse/criterio_escore_transcrito_manualmente.jsonl",
+      "source_blob_sha1": "f7901579450ba8040ac79a0efe601f10c683edd4",
+      "expected_blob_sha1": "f7901579450ba8040ac79a0efe601f10c683edd4",
+      "byte_length": 50510,
+      "expected_byte_length": 50510,
+      "sha256_computed": "e07778e9b95cbcc30bbcae4095217f1f00d6bd404ee425dfe36a08dd4cd54081",
+      "sha256_expected": "e07778e9b95cbcc30bbcae4095217f1f00d6bd404ee425dfe36a08dd4cd54081",
+      "blob_sha1_pass": true,
+      "sha256_pass": true,
+      "size_pass": true
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/ferimentos/pdm_catmat_classe_6510.jsonl",
+      "source_blob_sha1": "83a9309b9d08712c9804b0105d0ec12cbfa7e89b",
+      "expected_blob_sha1": "83a9309b9d08712c9804b0105d0ec12cbfa7e89b",
+      "byte_length": 51940,
+      "expected_byte_length": 51940,
+      "sha256_computed": "d5276953e1e24475e80fb503eced43c9ce61f1f6e8faad80c0158a112c23d9e7",
+      "sha256_expected": "d5276953e1e24475e80fb503eced43c9ce61f1f6e8faad80c0158a112c23d9e7",
+      "blob_sha1_pass": true,
+      "sha256_pass": true,
+      "size_pass": true
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/protocolos_enfermagem/pcdt_conitec_situacao.jsonl",
+      "source_blob_sha1": "5326a3af853889591e77ae1bc32136be462f7b98",
+      "expected_blob_sha1": "5326a3af853889591e77ae1bc32136be462f7b98",
+      "byte_length": 68554,
+      "expected_byte_length": 68554,
+      "sha256_computed": "18d85689e33950c76d325707439084e6f4a87ff1902e29c8cd8a3a2aa28c32b1",
+      "sha256_expected": "18d85689e33950c76d325707439084e6f4a87ff1902e29c8cd8a3a2aa28c32b1",
+      "blob_sha1_pass": true,
+      "sha256_pass": true,
+      "size_pass": true
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/epidemiologico/agravo_notificacao_compulsoria.jsonl",
+      "source_blob_sha1": "26c1ea1a90d471751e4a3511dcc55a202d6fc8ed",
+      "expected_blob_sha1": "26c1ea1a90d471751e4a3511dcc55a202d6fc8ed",
+      "byte_length": 80393,
+      "expected_byte_length": 80393,
+      "sha256_computed": "a8679098244fc6376ceed6be45d0db70a2871efe6e480cbe160ec7f27b235a91",
+      "sha256_expected": "a8679098244fc6376ceed6be45d0db70a2871efe6e480cbe160ec7f27b235a91",
+      "blob_sha1_pass": true,
+      "sha256_pass": true,
+      "size_pass": true
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/cid10/grupo.jsonl",
+      "source_blob_sha1": "5c25cc1ebd1722bd2c43e709acc773eaab821f9f",
+      "expected_blob_sha1": "5c25cc1ebd1722bd2c43e709acc773eaab821f9f",
+      "byte_length": 206425,
+      "expected_byte_length": 206425,
+      "sha256_computed": "4992ca890a72b68842406c8f9c2bf655eec7b693afce7a4820558e43cafc7116",
+      "sha256_expected": "4992ca890a72b68842406c8f9c2bf655eec7b693afce7a4820558e43cafc7116",
+      "blob_sha1_pass": true,
+      "sha256_pass": true,
+      "size_pass": true
+    }
+  ]
+}
