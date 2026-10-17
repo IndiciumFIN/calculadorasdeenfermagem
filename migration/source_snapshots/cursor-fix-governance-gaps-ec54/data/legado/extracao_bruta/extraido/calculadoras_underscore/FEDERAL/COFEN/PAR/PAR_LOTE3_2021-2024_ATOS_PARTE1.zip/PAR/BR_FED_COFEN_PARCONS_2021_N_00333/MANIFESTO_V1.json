@@ -1,0 +1,43 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-conselheira-federal-no-333-2021-cofen/ (API WordPress post 95495); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCONS_2021_N_00333_ATOMOS_V1.jsonl",
+      "sha256": "a3eed76b46928df49c0fbce9aa824b2b1090c6997faf9865a6b27d9d1cb88710",
+      "tamanho": 74668
+    },
+    {
+      "nome": "PARCONS_2021_N_00333_CONTEUDO_SITE_API.json",
+      "sha256": "927ec2d1082b1db8c7fb7d386d42d76aa5f7ff4f7b5b98f3dc866e4e464b04ed",
+      "tamanho": 24939
+    },
+    {
+      "nome": "PARCONS_2021_N_00333_NORMA_V1.json",
+      "sha256": "23baf2f1a6096c2d96ebb59301a23835ac1831be5e5a44c661829453f7770ef6",
+      "tamanho": 3793
+    },
+    {
+      "nome": "PARCONS_2021_N_00333_PAGINA_SITE.html",
+      "sha256": "2042a653160f560ec429eb43e29667f49c4af29bc71288c2b4ee9c59b424ea14",
+      "tamanho": 462357
+    },
+    {
+      "nome": "PARCONS_2021_N_00333_TEXTO_FONTE_V1.txt",
+      "sha256": "adc4b650d1d361d2c85411942409a43041cb9b935175d701d070a27d60351692",
+      "tamanho": 23346
+    },
+    {
+      "nome": "PARCONS_2021_N_00333_VALIDACAO_V1.json",
+      "sha256": "a5893bbd40d2dd792d0bc3d4802dce5ecd35d63d6b08d42293ea3a1ee3899e65",
+      "tamanho": 3404
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir."
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-conselheiro-no-412017/ (API WordPress post 49320); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCONS_2017_N_00041_ATOMOS_V1.jsonl",
+      "sha256": "9ee6ca48a946bd822481d71d549ee3ceb02987dafec723f4e016f041264a1bfb",
+      "tamanho": 14726
+    },
+    {
+      "nome": "PARCONS_2017_N_00041_CONTEUDO_SITE_API.json",
+      "sha256": "2739702bc195b7c6a067754756aee546fdd2b83aba344bb59d9709914e85a0a8",
+      "tamanho": 2824
+    },
+    {
+      "nome": "PARCONS_2017_N_00041_NORMA_V1.json",
+      "sha256": "f113c7efe3af9848e2966353da1b6bd94bd616b110c3fd88d8d99b8800862bcd",
+      "tamanho": 2528
+    },
+    {
+      "nome": "PARCONS_2017_N_00041_PAGINA_SITE.html",
+      "sha256": "14b6e15c8a9194935eff0294650d98e9128a0567bdc23df4e111027028712cce",
+      "tamanho": 440722
+    },
+    {
+      "nome": "PARCONS_2017_N_00041_PDF_SITE.pdf",
+      "sha256": "21bb4c457ab33583799eeaf362a82e53db6ca3f77f422bd8dd74d715b96d9bd1",
+      "tamanho": 607100
+    },
+    {
+      "nome": "PARCONS_2017_N_00041_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "e6d7efdeb8cfa7480add9f0cdfa4da45a055afbda0aad617cd238fd359d46487",
+      "tamanho": 1803
+    },
+    {
+      "nome": "PARCONS_2017_N_00041_TEXTO_FONTE_V1.txt",
+      "sha256": "1b0856d25749f3c3165b864294481a622835004769038763e2dc33b87ef72a4d",
+      "tamanho": 1757
+    },
+    {
+      "nome": "PARCONS_2017_N_00041_VALIDACAO_V1.json",
+      "sha256": "13dc2e555c785e98d37c9dcd9866080341ec9cc68dd1276cb76d72873ed26392",
+      "tamanho": 5580
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+  ]
+}

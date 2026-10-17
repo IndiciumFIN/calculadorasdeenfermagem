@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-8-2025-camaras-tecnicas-de-enfermagem/ (API WordPress post 145703); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2025_N_00008_CAMTEC_ATOMOS_V1.jsonl",
+      "sha256": "0d82caa41c1ad92e230bfb49f59a7153f8adfb6f9f5f11a5bcbe5cc3af081061",
+      "tamanho": 46401
+    },
+    {
+      "nome": "PARCT_2025_N_00008_CAMTEC_CONTEUDO_SITE_API.json",
+      "sha256": "137207b2889d08930111ffcffc95beb9ef9db115429604224ff92c90c9b8329e",
+      "tamanho": 13122
+    },
+    {
+      "nome": "PARCT_2025_N_00008_CAMTEC_NORMA_V1.json",
+      "sha256": "17199f6bef758325abfe7619f01a66c46eb7cd652e18517de8cae155448bace9",
+      "tamanho": 7533
+    },
+    {
+      "nome": "PARCT_2025_N_00008_CAMTEC_PAGINA_SITE.html",
+      "sha256": "e48de69c6cadeabe7abca16af5b454c7aa1af45fded45ceecd399a061940549a",
+      "tamanho": 453134
+    },
+    {
+      "nome": "PARCT_2025_N_00008_CAMTEC_PDF_SITE.pdf",
+      "sha256": "73dca667bc704cf0d9144bbf3f7c0cf8bd6ae0a2380af5562a10af2e561ca932",
+      "tamanho": 162188
+    },
+    {
+      "nome": "PARCT_2025_N_00008_CAMTEC_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "2d33ca82d6e34c4e4658f1fa7029545d489cf6ee3c5ea9b6cdae071a936ba866",
+      "tamanho": 11818
+    },
+    {
+      "nome": "PARCT_2025_N_00008_CAMTEC_TEXTO_FONTE_V1.txt",
+      "sha256": "ad964d0c80b8337f27a619d89ea73a892a8683f8f43c855c661ae123d3a9bb34",
+      "tamanho": 10399
+    },
+    {
+      "nome": "PARCT_2025_N_00008_CAMTEC_VALIDACAO_V1.json",
+      "sha256": "f63e93ea1d3efc484f854804b7597a4a9c820d501d5fa5ad0e37d05dcd337849",
+      "tamanho": 11486
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "2 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo."
+  ]
+}

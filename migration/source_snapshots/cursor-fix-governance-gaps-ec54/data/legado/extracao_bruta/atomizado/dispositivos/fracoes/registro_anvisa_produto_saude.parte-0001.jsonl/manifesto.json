@@ -1,0 +1,32 @@
+{
+  "algoritmo": "concatenacao-bytes-sha256",
+  "id_origem": "1LWWFk_QuADCz5a9L2Xek5CuZaNi6FIjQ",
+  "arquivo": "registro_anvisa_produto_saude.parte-0001.jsonl",
+  "caminho_obter": "atomizado/dispositivos/registro_anvisa_produto_saude.parte-0001.jsonl",
+  "bytes": 89998991,
+  "sha256": "7966ab61d11d8697eaf4a4b68d79f551cc7971e4bfd0861a877ebe2ed3c605f1",
+  "tamanho_parte": 40000000,
+  "partes": [
+    {
+      "nome": "part-000",
+      "ordem": 0,
+      "offset": 0,
+      "bytes": 40000000,
+      "sha256": "38f6b5189d382b60ab0be841e3a407a07c4bf131c1b1b8fb14ae0b91eeea7649"
+    },
+    {
+      "nome": "part-001",
+      "ordem": 1,
+      "offset": 40000000,
+      "bytes": 40000000,
+      "sha256": "a2a562506b6276af33368eda1790ebbadb84b8e59844ba90a803cf9ea4da17c0"
+    },
+    {
+      "nome": "part-002",
+      "ordem": 2,
+      "offset": 80000000,
+      "bytes": 9998991,
+      "sha256": "a243e70ca40af7bb69e0842efef4fb02439d00052ff810fe99216e61f609ced2"
+    }
+  ]
+}

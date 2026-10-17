@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-333-de-16-de-marco-de-2022/ (API WordPress post 105217); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2022_N_00333_ATOMOS_V1.jsonl",
+      "sha256": "a3ead2eaa210d631c8db9ffd7f239763e11c73202b9bcd3b14de63cfc91cbc1e",
+      "tamanho": 7847
+    },
+    {
+      "nome": "PORT_2022_N_00333_CONTEUDO_SITE_API.json",
+      "sha256": "66435b03719002d711dfe7d1d61dc2f969e93f41bb8521a9e96bd5581eeace86",
+      "tamanho": 1493
+    },
+    {
+      "nome": "PORT_2022_N_00333_NORMA_V1.json",
+      "sha256": "0f117a43e85bc2a2137c9cfad9dc0c7d6fcb0f6dc4d4411e972e48e92d25921a",
+      "tamanho": 3924
+    },
+    {
+      "nome": "PORT_2022_N_00333_PAGINA_SITE.html",
+      "sha256": "d5d77853472593b9767bf396074c3cfe0d542d10ffbcf1dccaf91c90c06aa5de",
+      "tamanho": 439097
+    },
+    {
+      "nome": "PORT_2022_N_00333_PDF_SITE.pdf",
+      "sha256": "0015c45acc3fcb50317a3d78a2e297b6f31a5f23da2be5fb04c3b7a949c276d6",
+      "tamanho": 58622
+    },
+    {
+      "nome": "PORT_2022_N_00333_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "dd2c84105808aa99ec23d1da30aed1092efb67046936935e4a5b65b01bbfcd28",
+      "tamanho": 1063
+    },
+    {
+      "nome": "PORT_2022_N_00333_TEXTO_FONTE_V1.txt",
+      "sha256": "375f258f020eac2a9b3f61c8b94d75072e1ee4382e3a9113918516db15800418",
+      "tamanho": 931
+    },
+    {
+      "nome": "PORT_2022_N_00333_VALIDACAO_V1.json",
+      "sha256": "1005d91ce336c24e795738cfc75d3e23ecfc761759238dc6b97f3e44a092ee6a",
+      "tamanho": 4615
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+  ]
+}

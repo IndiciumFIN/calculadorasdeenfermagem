@@ -1,0 +1,53 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-43-2025-camaras-tecnicas-de-enfermagem/ (API WordPress post 153273); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2025_N_00043_CAMTEC_ATOMOS_V1.jsonl",
+      "sha256": "af5e90cf8f6cdbc519e9ded7f930eda7b48cb8b480944ac6abcc873ccec199ab",
+      "tamanho": 47803
+    },
+    {
+      "nome": "PARCT_2025_N_00043_CAMTEC_CONTEUDO_SITE_API.json",
+      "sha256": "3b3a5b471399dc2fd9af5eae275beac1e8300cb57ea60a34573615d6c3b73592",
+      "tamanho": 11822
+    },
+    {
+      "nome": "PARCT_2025_N_00043_CAMTEC_NORMA_V1.json",
+      "sha256": "22349d058ccb47dc8545944b0831cd3610cafeabe9778a432a30839af0a0e38e",
+      "tamanho": 6644
+    },
+    {
+      "nome": "PARCT_2025_N_00043_CAMTEC_PAGINA_SITE.html",
+      "sha256": "6f7ecbacfafc3060d9f2518c2ecd31d1d9ccf48356daf0df9e4dae1ed2313cad",
+      "tamanho": 452137
+    },
+    {
+      "nome": "PARCT_2025_N_00043_CAMTEC_PDF_SITE.pdf",
+      "sha256": "d32c49b81da026b5f963730c6797c2e34ff70b475fbf24e3bb88ae858f4bb245",
+      "tamanho": 196667
+    },
+    {
+      "nome": "PARCT_2025_N_00043_CAMTEC_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "eae1279b3dbbd25082606c73c404496f6eca3b10f85888231aedc6191709065d",
+      "tamanho": 9998
+    },
+    {
+      "nome": "PARCT_2025_N_00043_CAMTEC_TEXTO_FONTE_V1.txt",
+      "sha256": "5629d5bef23b6bc101776f07d7e6bfb53de7d907a4b03d7b170ca7c0e791b1ca",
+      "tamanho": 8443
+    },
+    {
+      "nome": "PARCT_2025_N_00043_CAMTEC_VALIDACAO_V1.json",
+      "sha256": "34b629cbe79d5cbc72fd8b46b11d2c96c7ac86b2e0a91f61305354ef21ae23a8",
+      "tamanho": 12225
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência."
+  ]
+}

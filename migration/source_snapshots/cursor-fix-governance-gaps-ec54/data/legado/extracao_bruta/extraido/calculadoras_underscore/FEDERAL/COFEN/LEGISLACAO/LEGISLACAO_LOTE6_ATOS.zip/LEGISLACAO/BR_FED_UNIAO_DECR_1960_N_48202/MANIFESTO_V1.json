@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/decreto-n-48202-de-120560/ (API WordPress post 4171); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "DECR_1960_N_48202_ATOMOS_V1.jsonl",
+      "sha256": "fd9cf48820d7559544a5bd52817d70b517085b684e875e39ada960a3d0e03a7d",
+      "tamanho": 6809
+    },
+    {
+      "nome": "DECR_1960_N_48202_CONTEUDO_SITE_API.json",
+      "sha256": "a89a1493a380f8531e4da928e617d86f7cf096ae35c9b1bd3cc97fbf0f5781c5",
+      "tamanho": 1333
+    },
+    {
+      "nome": "DECR_1960_N_48202_NORMA_V1.json",
+      "sha256": "9b98a99f7904d1820cc08ba1243a522018a02b72c86ee55e864f164ed8547cec",
+      "tamanho": 1980
+    },
+    {
+      "nome": "DECR_1960_N_48202_PAGINA_SITE.html",
+      "sha256": "d66b69e31ac33924e508cf0f20918922762fbe454127125d5ad99d94735d02a0",
+      "tamanho": 435202
+    },
+    {
+      "nome": "DECR_1960_N_48202_TEXTO_FONTE_V1.txt",
+      "sha256": "4223e81fe1055a6bf15e4a3afeb9b73e9dab0711a9463725daa9dad3fe965806",
+      "tamanho": 975
+    },
+    {
+      "nome": "DECR_1960_N_48202_VALIDACAO_V1.json",
+      "sha256": "775e84d3c3899a20bbb1d8848f4bcc317ab7729c277a60f718bf977f631489c4",
+      "tamanho": 2442
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-conselheira-federal-no-184-2021-cofen/ (API WordPress post 90504); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCONS_2021_N_00184_ATOMOS_V1.jsonl",
+      "sha256": "d4ca8fe13101085f4fae672da99aa51147ffa06e98b12dcd822c7e21855d65ea",
+      "tamanho": 22729
+    },
+    {
+      "nome": "PARCONS_2021_N_00184_CONTEUDO_SITE_API.json",
+      "sha256": "4dfcfd8a5d9c83915f7cb12e9c179f0edd51444503e2247ed319ff8f1649b842",
+      "tamanho": 6248
+    },
+    {
+      "nome": "PARCONS_2021_N_00184_NORMA_V1.json",
+      "sha256": "e504b16f08174e70f6c8a5b8c4f827267cba7adc448d5416de63758c68dd5369",
+      "tamanho": 3132
+    },
+    {
+      "nome": "PARCONS_2021_N_00184_PAGINA_SITE.html",
+      "sha256": "ed0d2983565849baa1c8b6bb6f986019fd8391a7769fdf121fce19c2ca44a42b",
+      "tamanho": 443613
+    },
+    {
+      "nome": "PARCONS_2021_N_00184_TEXTO_FONTE_V1.txt",
+      "sha256": "269ea1ad7bc258f082c304738f5000f9f1bba995ac351c98979d1b7e38184109",
+      "tamanho": 5158
+    },
+    {
+      "nome": "PARCONS_2021_N_00184_VALIDACAO_V1.json",
+      "sha256": "b746ac7874fbc84f1bfe218b42c151455d3b19f2d33f00ec6ee0e1ab28bf39df",
+      "tamanho": 2465
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

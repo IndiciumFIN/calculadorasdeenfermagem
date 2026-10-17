@@ -1,0 +1,54 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-relator-no-50-2018/ (API WordPress post 61044); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCONS_2018_N_00050_ATOMOS_V1.jsonl",
+      "sha256": "bad185c680dfb0b3f812a7b308ee4dd50387028e5b4db916b9431aaa6d7e2f2f",
+      "tamanho": 4371
+    },
+    {
+      "nome": "PARCONS_2018_N_00050_CONTEUDO_SITE_API.json",
+      "sha256": "e566037ac1aad0844458b8c6d2f4cf3184c4767afe0c421fbc961fa0a5b03aed",
+      "tamanho": 788
+    },
+    {
+      "nome": "PARCONS_2018_N_00050_NORMA_V1.json",
+      "sha256": "484766efaa9dda2fef4d0407a6ca32d6d71b8445d0f4f7bdea45b5d525924862",
+      "tamanho": 2417
+    },
+    {
+      "nome": "PARCONS_2018_N_00050_PAGINA_SITE.html",
+      "sha256": "315039ea9567862293a1ae1cec3eed52a89656b2114103ef962b972451398950",
+      "tamanho": 438351
+    },
+    {
+      "nome": "PARCONS_2018_N_00050_PDF_SITE.pdf",
+      "sha256": "315e1183c0e03886dd8e65e9fe68f894b659d02153ba73ee53f698c966cc6d0d",
+      "tamanho": 3354432
+    },
+    {
+      "nome": "PARCONS_2018_N_00050_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "90dc7f37faaa37d7788cc6c1e85cb08e7bf73254dea8d2cb357283a92759b8ad",
+      "tamanho": 22074
+    },
+    {
+      "nome": "PARCONS_2018_N_00050_TEXTO_FONTE_V1.txt",
+      "sha256": "9a7a1bf02ab7d82d13ea424cde6671046fc2f8ec537ca3ee69a743ae2a311d4d",
+      "tamanho": 296
+    },
+    {
+      "nome": "PARCONS_2018_N_00050_VALIDACAO_V1.json",
+      "sha256": "512844ac17b044da3135946736057112c783def7f3e5a4f5787e47435afbcb8d",
+      "tamanho": 17594
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "111 trecho(s) do PDF sem correspondente no texto do site.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

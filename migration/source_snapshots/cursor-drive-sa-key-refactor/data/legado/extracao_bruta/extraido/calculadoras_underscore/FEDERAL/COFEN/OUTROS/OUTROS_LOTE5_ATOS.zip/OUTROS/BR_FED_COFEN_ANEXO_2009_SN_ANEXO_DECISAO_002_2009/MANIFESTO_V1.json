@@ -1,0 +1,50 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/anexo-deciso-cofen-0022009/ (API WordPress post 4975); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "ANEXO_2009_SN_ANEXO_DECISAO_002_2009_ATOMOS_V1.jsonl",
+      "sha256": "0a2883a17157903349370f66cd8b95cfb19c5e9ce14fa0ceebc09c578b39dc28",
+      "tamanho": 1684
+    },
+    {
+      "nome": "ANEXO_2009_SN_ANEXO_DECISAO_002_2009_CONTEUDO_SITE_API.json",
+      "sha256": "5b55440f201aa9b9c4d751eef0073f2588641753818d082ae32de1421621b324",
+      "tamanho": 438
+    },
+    {
+      "nome": "ANEXO_2009_SN_ANEXO_DECISAO_002_2009_NORMA_V1.json",
+      "sha256": "5057bc8c36888016b0cf342222aaba8747639d1ee4b8e377a60f60d8a47c0173",
+      "tamanho": 1921
+    },
+    {
+      "nome": "ANEXO_2009_SN_ANEXO_DECISAO_002_2009_PAGINA_SITE.html",
+      "sha256": "26f7be453bc54e5de6c00f82ac29a194481fe7758121436fae6064f0d4df5a6e",
+      "tamanho": 433708
+    },
+    {
+      "nome": "ANEXO_2009_SN_ANEXO_DECISAO_002_2009_TEXTO_FONTE_V1.txt",
+      "sha256": "dc78f60ebfff46a371a94bdde5f042ce1e4b8c88bd94fe09c796743b8793842a",
+      "tamanho": 77
+    },
+    {
+      "nome": "ANEXO_2009_SN_ANEXO_DECISAO_002_2009_VALIDACAO_V1.json",
+      "sha256": "0de83bcf64ba60ae41b7ddc958ee60093d213058f8910fbe307efaf3382a7d4c",
+      "tamanho": 3318
+    },
+    {
+      "nome": "IMAGENS_SITE/20091002_estruturaorganizacional.jpg",
+      "sha256": "0f0b1a95ae654349fe457f64b0f94ba7194edbafcbb1d731ee8b1155eac0fc53",
+      "tamanho": 22325
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Página do site quase sem texto (0 caracteres) e sem PDF do ato; conteúdo do ato não disponível.",
+    "Ato sem número no site; identificador formado por slug.",
+    "TIPO: anexo publicado como post autônomo na categoria Anexos; vínculo com o ato principal a confirmar.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

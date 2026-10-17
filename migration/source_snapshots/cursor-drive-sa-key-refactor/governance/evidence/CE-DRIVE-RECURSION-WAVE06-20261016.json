@@ -1,0 +1,41 @@
+{
+  "schema": "CE-DRIVE-OBS-1.0",
+  "status": "PARTIAL_METADATA_ONLY",
+  "branch": "cursor/fix-governance-gaps-ec54",
+  "workers_used": 2,
+  "sets": [
+    {
+      "id": "1_2-pNxgYi_3P3N9kZ00keZOKSEInpYPd",
+      "label": "PARNORM_2021_N_00003",
+      "items": 10
+    },
+    {
+      "id": "1u5mTodWHlRBc_UB9DZvYZFCfqw52HqDV",
+      "label": "PARNORM_2021_N_00002",
+      "items": 10
+    },
+    {
+      "id": "1e2CbGd7GYwREh1kK9uHu1rw7hHSbXqGe",
+      "label": "PARNORM_2020_N_00001",
+      "items": 10
+    },
+    {
+      "id": "1WLjBdBLEaYsQsFWP3AKAPAYk-izXn0GY",
+      "label": "PARNORM_2018_N_00001",
+      "items": 10
+    }
+  ],
+  "totals": {
+    "folders_queried": 4,
+    "metadata_records": 40
+  },
+  "observations": [
+    "Each document set includes a manifesto and atoms JSONL",
+    "PDF, OCR, source text, HTML and JSON are separate representations",
+    "No byte acquisition, hashes, Kernel admission or migration"
+  ],
+  "gates": {
+    "deletion": "DENY",
+    "publication": "HOLD"
+  }
+}

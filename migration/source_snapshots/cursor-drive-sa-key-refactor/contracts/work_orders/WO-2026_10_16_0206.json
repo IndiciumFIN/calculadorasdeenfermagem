@@ -1,0 +1,23 @@
+{
+  "id": "WO-2026_10_16_0206",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "checker_id": "kernel-zip-checker",
+  "task_id": "TAREFA-AUDITAR-ZIP",
+  "task_type": "auditar-zip",
+  "task_version": "1.0.0",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "entradas": [
+    {
+      "id_origem": "1hEus3zsvx0as-oHShwmlbNVoL91mHVab",
+      "caminho": "data/legado/extracao_bruta/CONTEUDOS_CE_WAVE10/FERRAMENTA_I18N/1hEus3zsvx0as-oHShwmlbNVoL91mHVab/CALENF-LOCALE-TOOL-CLOSURE-v0.6.1.zip",
+      "classe": "REFERENCIA",
+      "sha256": "58a45e71fd63a639756c23e80dc00bdb89bac38b0b3b8b5cea89b37795de2cfe"
+    }
+  ],
+  "parametros": {
+    "lote": "WAVE10-CONTENT-BROADENED",
+    "exclusao": "PROIBIDA"
+  }
+}

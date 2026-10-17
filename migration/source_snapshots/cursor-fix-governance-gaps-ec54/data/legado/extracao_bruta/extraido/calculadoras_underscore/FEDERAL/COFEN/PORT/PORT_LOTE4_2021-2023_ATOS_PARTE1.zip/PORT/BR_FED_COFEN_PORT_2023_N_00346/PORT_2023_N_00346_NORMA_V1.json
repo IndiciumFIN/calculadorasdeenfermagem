@@ -1,0 +1,138 @@
+{
+  "identificador": "BR_FED_COFEN_PORT_2023_N_00346",
+  "tipo": "Portaria",
+  "codigo_tipo": "PORT",
+  "categoria_site": "Portarias",
+  "numero": 346,
+  "numero_original": "PORTARIA COFEN Nº 346 DE 09 DE MARÇO DE 2023",
+  "ano": 2023,
+  "emissor": "Conselho Federal de Enfermagem",
+  "unidade_emissora": "Presidência",
+  "data_ato": "2023-03-09",
+  "data_ato_fonte": "epígrafe/título: DE 09 DE MARÇO DE 2023",
+  "ementa": null,
+  "titulo_site": "PORTARIA COFEN Nº 346 DE 09 DE MARÇO DE 2023",
+  "publicacao": {
+    "veiculo": "Portal do Cofen (cofen.gov.br)",
+    "url": "https://www.cofen.gov.br/portaria-cofen-no-346-de-09-de-marco-de-2023/",
+    "wp_post_id": 106703,
+    "data_publicacao_site": "2023-03-10",
+    "data_modificacao_site": "2023-03-10",
+    "pdfs": [
+      {
+        "url": "https://www.cofen.gov.br/wp-content/uploads/2023/03/Port.-0346-2023-DESIGNA-SR.-WILLIAM-COMO-ADM.-INTERINO-DO-COFEN.pdf",
+        "rotulo_site": "Portaria Cofen nº 0346-2023",
+        "origem_link": "bloco_anexos_pagina",
+        "arquivo": "PORT_2023_N_00346_PDF_SITE.pdf",
+        "papel": "PRINCIPAL",
+        "ocr": false,
+        "paginas": 1,
+        "arquivo_texto": "PORT_2023_N_00346_PDF_SITE_TEXTO_V1.txt",
+        "pagina_dou": false
+      },
+      {
+        "url": "https://www.cofen.gov.br/wp-content/uploads/2023/03/Portaria-346-2023.pdf",
+        "rotulo_site": "Portaria Cofen nº 0346-2023 - Publicação no DOU",
+        "origem_link": "bloco_anexos_pagina",
+        "arquivo": "PORT_2023_N_00346_ANEXO_01_PDF_SITE.pdf",
+        "papel": "ANEXO",
+        "ocr": false,
+        "paginas": 1,
+        "arquivo_texto": "PORT_2023_N_00346_ANEXO_01_PDF_SITE_TEXTO_V1.txt",
+        "pagina_dou": true,
+        "cobertura_no_texto_do_site": 0.391,
+        "tratamento": "ATOMIZADO_A_PARTIR_DO_PDF"
+      }
+    ],
+    "sei": {
+      "documento_sei": "0079738",
+      "codigo_verificador": "0079738",
+      "codigo_crc": "FF0691B0",
+      "assinaturas_eletronicas": [
+        "BETÂNIA MARIA PEREIRA DOS SANTOS - Coren-PB 42.725-ENF-IR"
+      ]
+    },
+    "dou": {
+      "citado_no_texto": false,
+      "trechos": [],
+      "registros_de_publicacao": [],
+      "codigos_autenticidade": [
+        "05292023031000083"
+      ],
+      "verificado_online_in_gov_br": false,
+      "observacao": "Nenhuma menção a publicação no DOU no texto do site nem no PDF.",
+      "fac_simile_dou_no_site": [
+        {
+          "arquivo": "PORT_2023_N_00346_ANEXO_01_PDF_SITE.pdf",
+          "edicao": "48",
+          "data": "2023-03-10",
+          "pagina": null,
+          "secao": "Seção 2",
+          "observacao": "PDF publicado no site do Cofen é fac-símile de página do DOU (contém outros atos). Dados extraídos do cabeçalho do PDF; não houve consulta ao in.gov.br."
+        }
+      ]
+    }
+  },
+  "vigencia": {
+    "clausula": "2º Esta Portaria entra em vigor na data de sua assinatura.",
+    "situacao": "NAO_VERIFICADA_ATOS_POSTERIORES"
+  },
+  "normas_relacionadas": [
+    {
+      "ato": "Lei 5.905/1973",
+      "relacao": "CITADA",
+      "verificacao": "EXTRAIDO_AUTOMATICO_DO_TEXTO",
+      "contexto": "nselho Federal de Enfermagem – COFEN, no uso de suas atribuições legais e regimentais conferidas na Lei nº 5.905 de 12 de julho de 1973, bem como pelo Regimento Interno da Autarquia, aprovado pel"
+    },
+    {
+      "ato": "Resolução Cofen 421/2012",
+      "relacao": "CITADA",
+      "verificacao": "EXTRAIDO_AUTOMATICO_DO_TEXTO",
+      "contexto": "na Lei nº 5.905 de 12 de julho de 1973, bem como pelo Regimento Interno da Autarquia, aprovado pela Resolução Cofen nº 421, de 15 de fevereiro de 2012; e termos da Decisão Cofen nº 72/2021; CONSIDERANDO o Proce"
+    },
+    {
+      "ato": "Decisão Cofen 72/2021",
+      "relacao": "CITADA",
+      "verificacao": "EXTRAIDO_AUTOMATICO_DO_TEXTO",
+      "contexto": "Interno da Autarquia, aprovado pela Resolução Cofen nº 421, de 15 de fevereiro de 2012; e termos da Decisão Cofen nº 72/2021; CONSIDERANDO o Processo SEI nº 00196.001595/2023-75; CONSI"
+    },
+    {
+      "ato": "Resolução Cofen 698/2022",
+      "relacao": "ALTERACAO_MENCIONADA",
+      "verificacao": "EXTRAIDO_AUTOMATICO_DO_TEXTO",
+      "contexto": "os da Decisão Cofen nº 72/2021; CONSIDERANDO o Processo SEI nº 00196.001595/2023-75; CONSIDERANDO a Resolução Cofen nº 698/2022, que altera e atualiza o Organograma e o Caderno de Atribui"
+    }
+  ],
+  "assinaturas": [
+    "BETÂNIA MARIA PEREIRA DOS SANTOS / Coren-PB 42.725-ENF-IR / Presidente",
+    "CONRADO MARQUES DE SOUZA NETO / Presidente do Conselho / DIEGO RAFAEL DA SILVA BORGES / Secretário CONSELHO REGIONAL DE FISIOTERAPIA E TERAPIA OCUPACIONAL",
+    "DEUSDEDE FERNANDES DA SILVA / Secretário do COREN-MA / LEONARDO MARCONI CAVALCANTI DE OLIVEIRA"
+  ],
+  "licenca_uso": {
+    "fundamento": "Lei 9.610/1998, art. 8, IV",
+    "texto_ato_oficial": "NAO_PROTEGIDO_POR_DIREITOS_AUTORAIS",
+    "uso_texto_normativo": "ELEGIVEL_PARA_REPRODUCAO_COM_PROVENIENCIA",
+    "materiais_terceiros": "ANALISE_ESPECIFICA_SE_HOUVER"
+  },
+  "contagem_dispositivos": {
+    "epigrafe": 10,
+    "preambulo": 1,
+    "considerando": 12,
+    "artigo": 3,
+    "assinatura": 3,
+    "anexo": 1,
+    "paragrafo_texto": 19,
+    "secao": 12,
+    "artigo_transcrito": 17,
+    "item": 1
+  },
+  "anexos": {
+    "referencias_no_texto": [],
+    "resultado": "PRESENTE_E_ATOMIZADO",
+    "anexos_no_texto": [
+      "BR_FED_COFEN_PORT_2023_N_00346_ANEXO_PDF_01"
+    ]
+  },
+  "observacoes": [],
+  "situacao": "ATOMIZADO_PENDENTE_REVISAO"
+}

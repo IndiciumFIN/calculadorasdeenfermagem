@@ -1,0 +1,185 @@
+{
+  "identificador": "BR_FED_ANVISA_RDC_2006_N_00171",
+  "resultado_processo": "PENDENTE",
+  "rotulo": "Pendente de verificação",
+  "controles": [
+    {
+      "nome": "Identificação do ato e emissor",
+      "resultado": "PASS",
+      "evidencia": "RDC 171|ANVISA| 2006 | Funcionamento de Bancos de Leite Humano"
+    },
+    {
+      "nome": "Conferência site HTML × PDF oficial, dispositivo a dispositivo",
+      "resultado": "NAO_EXECUTADO",
+      "status": "NAO_APLICAVEL_TEXTO_SO_NO_PDF",
+      "evidencia": {
+        "dispositivos_comparados": 0,
+        "por_resultado": {},
+        "trechos_pdf_ausentes_no_site": 0,
+        "pdf": "RDC_2006_N_00171_PDF_SITE.pdf"
+      }
+    },
+    {
+      "nome": "Publicação no DOU (registro, sem verificação online)",
+      "resultado": "REGISTRADO",
+      "evidencia": null
+    },
+    {
+      "nome": "Anexos referenciados presentes e atomizados",
+      "resultado": "PASS",
+      "status": "PRESENTE_E_ATOMIZADO",
+      "referencias": [
+        "ico que define normas de funcionamento para os Bancos de Leite Humano (BLH), em anexo.",
+        "Art. 8º Revogar o subitem “d” do item 25 (Alimentos Na- turais) do anexo I (Padrões Microbiológicos Sanitários Para Ali- mentos) do Regulamento Técnico"
+      ]
+    },
+    {
+      "nome": "Numeração contígua (seções, itens, alíneas)",
+      "resultado": "FAIL",
+      "evidencia": [
+        "Itens 4.x: [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 2, 35, 3, 36, 37, 4, 38, 5, 39, 6, 7, 13]",
+        "Itens 4.13.x: [1, 2, 2]",
+        "Itens 4.13.x: [1, 4, 5, 6, 8, 10]",
+        "Itens 5.x: [5, 2, 6, 3, 4]",
+        "Itens 5.3.1.x: [1, 4, 2]",
+        "Itens 5.13.x: [2, 6, 9, 12]",
+        "Itens 6.x: [2, 13, 3, 4, 9, 5, 10, 6, 7, 11, 12]",
+        "Itens 6.8.1.x: [5, 2, 3, 4]",
+        "Itens 9.x: [2, 3, 8]",
+        "Itens 10.x: [2, 3, 4, 5, 6, 11]",
+        "Artigos: [1, 2, 4, 5, 6, 7, 8]",
+        "Itens 4.x: começa em 8 (sequência [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 2, 35, 3, 36, 37, 4, 38, 5, 39, 6, 7, 13])",
+        "Itens 5.1.x: começa em 2 (sequência [2, 3, 4, 5, 6, 7, 8, 9, 10])",
+        "Itens 5.4.x: começa em 2 (sequência [2])",
+        "Itens 5.x: começa em 5 (sequência [5, 2, 6, 3, 4])",
+        "Itens 5.5.x: começa em 2 (sequência [2, 3])",
+        "Itens 5.3.1.x: começa em 3 (sequência [3])",
+        "Itens 5.2.x: começa em 2 (sequência [2, 3, 4, 5])",
+        "Itens 5.6.x: começa em 2 (sequência [2])",
+        "Itens 6.1.x: começa em 2 (sequência [2, 3, 4])",
+        "Itens 5.13.x: começa em 2 (sequência [2, 6, 9, 12])",
+        "Itens 6.x: começa em 2 (sequência [2, 13, 3, 4, 9, 5, 10, 6, 7, 11, 12])",
+        "Itens 6.2.x: começa em 2 (sequência [2, 3, 4])",
+        "Itens 6.8.1.x: começa em 5 (sequência [5, 2, 3, 4])",
+        "Itens 6.8.x: começa em 2 (sequência [2, 3])",
+        "Itens 6.13.x: começa em 2 (sequência [2])",
+        "Itens 6.8.2.x: começa em 2 (sequência [2])",
+        "Itens 6.3.x: começa em 2 (sequência [2, 3, 4])",
+        "Itens 6.8.3.x: começa em 2 (sequência [2, 3, 4])",
+        "Itens 7.x: começa em 2 (sequência [2, 3, 4, 5])",
+        "Itens 6.5.x: começa em 2 (sequência [2, 3, 4])",
+        "Itens 6.9.x: começa em 2 (sequência [2, 3, 4])",
+        "Itens 6.10.x: começa em 2 (sequência [2, 3, 4, 5, 6, 7, 8, 9])",
+        "Itens 6.6.x: começa em 3 (sequência [3])",
+        "Itens 8.x: começa em 3 (sequência [3])",
+        "Itens 6.7.x: começa em 2 (sequência [2, 3])",
+        "Itens 9.x: começa em 2 (sequência [2, 3, 8])",
+        "Itens 10.x: começa em 2 (sequência [2, 3, 4, 5, 6, 11])"
+      ]
+    },
+    {
+      "nome": "Conferência humana da literalidade",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Pesquisa de alterações posteriores",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Direitos autorais do texto do ato oficial",
+      "resultado": "PASS",
+      "fundamento": "Lei 9.610/1998, art. 8, IV"
+    }
+  ],
+  "fechamento": {
+    "apto": false,
+    "status": "PENDENCIAS",
+    "justificativa": "Aguardando revisão humana da atomização e pesquisa de atos posteriores. Há achados bloqueantes adicionais."
+  },
+  "achados": [
+    {
+      "codigo": "C001",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Atomização automática; requer conferência humana da segmentação e da literalidade."
+    },
+    {
+      "codigo": "C002",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada."
+    },
+    {
+      "codigo": "C052",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+      "evidencia": [
+        "RDC_2006_N_00171_PDF_SITE.pdf"
+      ]
+    },
+    {
+      "codigo": "C016",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "Texto do ato disponível apenas no PDF (o site traz só título/resumo); atomização feita a partir da camada de texto do PDF."
+    },
+    {
+      "codigo": "C030",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+      "evidencia": [
+        "Itens 4.x: [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 2, 35, 3, 36, 37, 4, 38, 5, 39, 6, 7, 13]",
+        "Itens 4.13.x: [1, 2, 2]",
+        "Itens 4.13.x: [1, 4, 5, 6, 8, 10]",
+        "Itens 5.x: [5, 2, 6, 3, 4]",
+        "Itens 5.3.1.x: [1, 4, 2]",
+        "Itens 5.13.x: [2, 6, 9, 12]",
+        "Itens 6.x: [2, 13, 3, 4, 9, 5, 10, 6, 7, 11, 12]",
+        "Itens 6.8.1.x: [5, 2, 3, 4]",
+        "Itens 9.x: [2, 3, 8]",
+        "Itens 10.x: [2, 3, 4, 5, 6, 11]",
+        "Artigos: [1, 2, 4, 5, 6, 7, 8]"
+      ]
+    },
+    {
+      "codigo": "C031",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir.",
+      "evidencia": [
+        "Itens 4.x: começa em 8 (sequência [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 2, 35, 3, 36, 37, 4, 38, 5, 39, 6, 7, 13])",
+        "Itens 5.1.x: começa em 2 (sequência [2, 3, 4, 5, 6, 7, 8, 9, 10])",
+        "Itens 5.4.x: começa em 2 (sequência [2])",
+        "Itens 5.x: começa em 5 (sequência [5, 2, 6, 3, 4])",
+        "Itens 5.5.x: começa em 2 (sequência [2, 3])",
+        "Itens 5.3.1.x: começa em 3 (sequência [3])",
+        "Itens 5.2.x: começa em 2 (sequência [2, 3, 4, 5])",
+        "Itens 5.6.x: começa em 2 (sequência [2])",
+        "Itens 6.1.x: começa em 2 (sequência [2, 3, 4])",
+        "Itens 5.13.x: começa em 2 (sequência [2, 6, 9, 12])",
+        "Itens 6.x: começa em 2 (sequência [2, 13, 3, 4, 9, 5, 10, 6, 7, 11, 12])",
+        "Itens 6.2.x: começa em 2 (sequência [2, 3, 4])",
+        "Itens 6.8.1.x: começa em 5 (sequência [5, 2, 3, 4])",
+        "Itens 6.8.x: começa em 2 (sequência [2, 3])",
+        "Itens 6.13.x: começa em 2 (sequência [2])",
+        "Itens 6.8.2.x: começa em 2 (sequência [2])",
+        "Itens 6.3.x: começa em 2 (sequência [2, 3, 4])",
+        "Itens 6.8.3.x: começa em 2 (sequência [2, 3, 4])",
+        "Itens 7.x: começa em 2 (sequência [2, 3, 4, 5])",
+        "Itens 6.5.x: começa em 2 (sequência [2, 3, 4])",
+        "Itens 6.9.x: começa em 2 (sequência [2, 3, 4])",
+        "Itens 6.10.x: começa em 2 (sequência [2, 3, 4, 5, 6, 7, 8, 9])",
+        "Itens 6.6.x: começa em 3 (sequência [3])",
+        "Itens 8.x: começa em 3 (sequência [3])",
+        "Itens 6.7.x: começa em 2 (sequência [2, 3])",
+        "Itens 9.x: começa em 2 (sequência [2, 3, 8])",
+        "Itens 10.x: começa em 2 (sequência [2, 3, 4, 5, 6, 11])"
+      ]
+    }
+  ],
+  "conferencia_por_dispositivo": [],
+  "data_verificacao": "2026-10-10",
+  "responsavel": "Triagem automatizada - requer validação humana"
+}

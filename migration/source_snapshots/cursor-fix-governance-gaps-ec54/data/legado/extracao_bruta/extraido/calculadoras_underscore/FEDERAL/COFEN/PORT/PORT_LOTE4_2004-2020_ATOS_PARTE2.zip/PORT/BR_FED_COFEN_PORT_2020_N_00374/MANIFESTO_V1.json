@@ -1,0 +1,51 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-374-de-27-de-julho-de-2020/ (API WordPress post 81532); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2020_N_00374_ATOMOS_V1.jsonl",
+      "sha256": "0364218e726030990bc1c364594997f85979adff400af2706c5e41791e4751c6",
+      "tamanho": 12904
+    },
+    {
+      "nome": "PORT_2020_N_00374_CONTEUDO_SITE_API.json",
+      "sha256": "55c1705c75aff2794ede24b39efc2867f1a6f20eb49919ecaea8a4988f7a481f",
+      "tamanho": 1852
+    },
+    {
+      "nome": "PORT_2020_N_00374_NORMA_V1.json",
+      "sha256": "330b944ba9fc70f4f8bedc197b218ec409408a20e2ad6013a1a01f98100bb1aa",
+      "tamanho": 3991
+    },
+    {
+      "nome": "PORT_2020_N_00374_PAGINA_SITE.html",
+      "sha256": "f7bd74f06a2d7622750e37c208d7948035b6f44f675cd523956b114545552001",
+      "tamanho": 440049
+    },
+    {
+      "nome": "PORT_2020_N_00374_PDF_SITE.pdf",
+      "sha256": "5dde133365869a555e5e4dff6d7088559e4628f796a3ac95ea46904ac83a35b3",
+      "tamanho": 60539
+    },
+    {
+      "nome": "PORT_2020_N_00374_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "347c8cd5985fcab9db775458ba6ba52c7a5bef817ae2fd11d9048b8254032327",
+      "tamanho": 1451
+    },
+    {
+      "nome": "PORT_2020_N_00374_TEXTO_FONTE_V1.txt",
+      "sha256": "a34dd6123c13145a90a21762d5fbd3a5d75672bf7dac96299d1bca3301e3dbba",
+      "tamanho": 1207
+    },
+    {
+      "nome": "PORT_2020_N_00374_VALIDACAO_V1.json",
+      "sha256": "30636ba493f5e01b0a177e91e19bd46512b0ef2803e96883f29d119eddc9543f",
+      "tamanho": 5220
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+  ]
+}

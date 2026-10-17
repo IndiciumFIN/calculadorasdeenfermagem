@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/lei-n-10507-de-10-de-julho-de-2002/ (API WordPress post 4165); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "LEI_2002_N_10507_ATOMOS_V1.jsonl",
+      "sha256": "9c5aa49f149148ca7e2d82dc374c324d0fa8f45be2236a9669140f3fda968310",
+      "tamanho": 13863
+    },
+    {
+      "nome": "LEI_2002_N_10507_CONTEUDO_SITE_API.json",
+      "sha256": "355c15f5a6937279207b85095215fa47ecdd7d819fe6d245e30ac0f9ab433789",
+      "tamanho": 2494
+    },
+    {
+      "nome": "LEI_2002_N_10507_NORMA_V1.json",
+      "sha256": "8a34a69f61efc1a027fbf9c16b551206442dcef51bedb00964d9f54be116d842",
+      "tamanho": 2090
+    },
+    {
+      "nome": "LEI_2002_N_10507_PAGINA_SITE.html",
+      "sha256": "939258de5dd4940dfbd058685a70259c31bb5e571a49a1990103dddb98cb5d2c",
+      "tamanho": 439136
+    },
+    {
+      "nome": "LEI_2002_N_10507_TEXTO_FONTE_V1.txt",
+      "sha256": "de0ff99d6f3a1780db3d8759d2d61f4b869925d457e80fba2a457da647d12c25",
+      "tamanho": 2034
+    },
+    {
+      "nome": "LEI_2002_N_10507_VALIDACAO_V1.json",
+      "sha256": "a2b22c30d829350d228435a966c319121748570a060f0a4e7372be8c998131ea",
+      "tamanho": 2450
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

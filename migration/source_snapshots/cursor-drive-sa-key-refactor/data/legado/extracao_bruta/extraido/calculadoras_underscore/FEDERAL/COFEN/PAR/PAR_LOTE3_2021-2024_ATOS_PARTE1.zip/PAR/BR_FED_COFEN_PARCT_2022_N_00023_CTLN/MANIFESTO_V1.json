@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-camara-tecnica-no-00023-2022-ctln-cofen/ (API WordPress post 100721); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2022_N_00023_CTLN_ATOMOS_V1.jsonl",
+      "sha256": "86edbae528e41a38f3cc393710c42243db66aee11e351e5ef03465ab235caae7",
+      "tamanho": 28921
+    },
+    {
+      "nome": "PARCT_2022_N_00023_CTLN_CONTEUDO_SITE_API.json",
+      "sha256": "a6b8cd5f91018fbd771e34c37f254a17ed3bcc5f404c79e66f82b0a63603e0d7",
+      "tamanho": 9234
+    },
+    {
+      "nome": "PARCT_2022_N_00023_CTLN_NORMA_V1.json",
+      "sha256": "9703f1c30487815136c34b3f01387985084af911f20f3162382a4c7f0bf61103",
+      "tamanho": 2707
+    },
+    {
+      "nome": "PARCT_2022_N_00023_CTLN_PAGINA_SITE.html",
+      "sha256": "d02cfdc850dbaa06419d67595f31d8a158888ce89891b075efbf99cf822eb024",
+      "tamanho": 447117
+    },
+    {
+      "nome": "PARCT_2022_N_00023_CTLN_TEXTO_FONTE_V1.txt",
+      "sha256": "ee9d7b66d5da06eddcf32615ecb3f8542d49e70b0b72d1d56cbd8f625256e2f5",
+      "tamanho": 8113
+    },
+    {
+      "nome": "PARCT_2022_N_00023_CTLN_VALIDACAO_V1.json",
+      "sha256": "bfd30b79db1ba87d12873577dd8a5f293f0117825d31ecf229d1b68dd3389741",
+      "tamanho": 2474
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

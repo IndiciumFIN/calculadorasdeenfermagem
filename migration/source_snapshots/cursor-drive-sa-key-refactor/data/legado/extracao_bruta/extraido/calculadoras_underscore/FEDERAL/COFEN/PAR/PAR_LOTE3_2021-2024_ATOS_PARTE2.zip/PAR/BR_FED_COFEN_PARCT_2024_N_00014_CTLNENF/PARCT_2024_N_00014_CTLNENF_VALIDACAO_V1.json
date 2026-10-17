@@ -1,0 +1,355 @@
+{
+  "identificador": "BR_FED_COFEN_PARCT_2024_N_00014_CTLNENF",
+  "resultado_processo": "PENDENTE",
+  "rotulo": "Pendente de verificação",
+  "controles": [
+    {
+      "nome": "Identificação do ato e emissor",
+      "resultado": "PASS",
+      "evidencia": "PARECER Nº 14/2024/COFEN/CAMTEC/CTLNENF"
+    },
+    {
+      "nome": "Conferência site HTML × PDF oficial, dispositivo a dispositivo",
+      "resultado": "FAIL",
+      "status": "EXECUTADA_TEXTO_PDF_CONTRA_FAC_SIMILE_DOU",
+      "evidencia": {
+        "dispositivos_comparados": 41,
+        "por_resultado": {
+          "AUSENTE_NO_PDF": 1,
+          "DIFERENCA_MENOR": 6,
+          "EQUIVALENTE_ORDEM_OU_QUEBRA_DIFERENTE": 3,
+          "IDENTICO_NORMALIZADO": 31
+        },
+        "trechos_pdf_ausentes_no_site": 0,
+        "pdf": "PARCT_2024_N_00014_CTLNENF_PDF_SITE.pdf"
+      }
+    },
+    {
+      "nome": "Publicação no DOU (registro, sem verificação online)",
+      "resultado": "REGISTRADO",
+      "evidencia": null
+    },
+    {
+      "nome": "Anexos referenciados presentes e atomizados",
+      "resultado": "NAO_APLICAVEL",
+      "status": "SEM_ANEXO_REFERENCIADO",
+      "referencias": []
+    },
+    {
+      "nome": "Numeração contígua (seções, itens, alíneas)",
+      "resultado": "PASS",
+      "evidencia": null
+    },
+    {
+      "nome": "Conferência humana da literalidade",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Pesquisa de alterações posteriores",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Direitos autorais do texto do ato oficial",
+      "resultado": "PASS",
+      "fundamento": "Lei 9.610/1998, art. 8, IV"
+    }
+  ],
+  "fechamento": {
+    "apto": false,
+    "status": "PENDENCIAS",
+    "justificativa": "Aguardando revisão humana da atomização e pesquisa de atos posteriores. Há achados bloqueantes adicionais."
+  },
+  "achados": [
+    {
+      "codigo": "C001",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Atomização automática; requer conferência humana da segmentação e da literalidade."
+    },
+    {
+      "codigo": "C002",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada."
+    },
+    {
+      "codigo": "C011",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "1 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+      "evidencia": [
+        {
+          "identificador": "BR_FED_COFEN_PARCT_2024_N_00014_CTLNENF_REFERENCIA_012",
+          "resultado": "AUSENTE_NO_PDF",
+          "similaridade": 55.4,
+          "trecho": "Parecer aprovado na 573ª Reunião Ordinária de Plenário (ROP), em 24 de janeiro de 2025."
+        }
+      ]
+    },
+    {
+      "codigo": "C052",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+      "evidencia": [
+        "PARCT_2024_N_00014_CTLNENF_PDF_SITE.pdf"
+      ]
+    },
+    {
+      "codigo": "C051",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "Data do ato não identificada no texto; usada a data do post no site."
+    }
+  ],
+  "conferencia_por_dispositivo": [
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00014_CTLNENF_EPIGRAFE_001",
+      "tipo": "epigrafe",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00014_CTLNENF_IDENTIFICACAO_PROCESSO_001",
+      "tipo": "identificacao_processo",
+      "resultado": "EQUIVALENTE_ORDEM_OU_QUEBRA_DIFERENTE",
+      "similaridade": 88.9
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00014_CTLNENF_ASSUNTO_001",
+      "tipo": "assunto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00014_CTLNENF_EMENTA",
+      "tipo": "ementa",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00014_CTLNENF_PARAGRAFO_TEXTO_001",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00014_CTLNENF_SECAO_001",
+      "tipo": "secao",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00014_CTLNENF_PARAGRAFO_TEXTO_002",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00014_CTLNENF_PARAGRAFO_TEXTO_003",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00014_CTLNENF_SECAO_002",
+      "tipo": "secao",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00014_CTLNENF_PARAGRAFO_TEXTO_004",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00014_CTLNENF_PARAGRAFO_TEXTO_005",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00014_CTLNENF_SECAO_003",
+      "tipo": "secao",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00014_CTLNENF_PARAGRAFO_TEXTO_006",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_ORDEM_OU_QUEBRA_DIFERENTE",
+      "similaridade": 91.2
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00014_CTLNENF_PARAGRAFO_TEXTO_007",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00014_CTLNENF_PARAGRAFO_TEXTO_008",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00014_CTLNENF_PARAGRAFO_TEXTO_009",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00014_CTLNENF_PARAGRAFO_TEXTO_010",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00014_CTLNENF_SECAO_004",
+      "tipo": "secao",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00014_CTLNENF_PARAGRAFO_TEXTO_011",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00014_CTLNENF_PARAGRAFO_TEXTO_012",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00014_CTLNENF_PARAGRAFO_TEXTO_013",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00014_CTLNENF_PARAGRAFO_TEXTO_014",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00014_CTLNENF_PARAGRAFO_TEXTO_015",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00014_CTLNENF_SECAO_005",
+      "tipo": "secao",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00014_CTLNENF_PARAGRAFO_TEXTO_016",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00014_CTLNENF_PARAGRAFO_TEXTO_017",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00014_CTLNENF_PARAGRAFO_TEXTO_018",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00014_CTLNENF_PARAGRAFO_TEXTO_019",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00014_CTLNENF_SECAO_006",
+      "tipo": "secao",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00014_CTLNENF_REFERENCIA_001",
+      "tipo": "referencia",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00014_CTLNENF_REFERENCIA_002",
+      "tipo": "referencia",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00014_CTLNENF_REFERENCIA_003",
+      "tipo": "referencia",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00014_CTLNENF_REFERENCIA_004",
+      "tipo": "referencia",
+      "resultado": "EQUIVALENTE_ORDEM_OU_QUEBRA_DIFERENTE",
+      "similaridade": 73.7
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00014_CTLNENF_REFERENCIA_005",
+      "tipo": "referencia",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00014_CTLNENF_REFERENCIA_006",
+      "tipo": "referencia",
+      "resultado": "DIFERENCA_MENOR",
+      "similaridade": 99.2
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00014_CTLNENF_REFERENCIA_007",
+      "tipo": "referencia",
+      "resultado": "DIFERENCA_MENOR",
+      "similaridade": 98.4
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00014_CTLNENF_REFERENCIA_008",
+      "tipo": "referencia",
+      "resultado": "DIFERENCA_MENOR",
+      "similaridade": 99.2
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00014_CTLNENF_REFERENCIA_009",
+      "tipo": "referencia",
+      "resultado": "DIFERENCA_MENOR",
+      "similaridade": 99.2
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00014_CTLNENF_REFERENCIA_010",
+      "tipo": "referencia",
+      "resultado": "DIFERENCA_MENOR",
+      "similaridade": 99.3
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00014_CTLNENF_REFERENCIA_011",
+      "tipo": "referencia",
+      "resultado": "DIFERENCA_MENOR",
+      "similaridade": 98.1
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARCT_2024_N_00014_CTLNENF_REFERENCIA_012",
+      "tipo": "referencia",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 55.4
+    }
+  ],
+  "data_verificacao": "2026-10-10",
+  "responsavel": "Triagem automatizada - requer validação humana"
+}

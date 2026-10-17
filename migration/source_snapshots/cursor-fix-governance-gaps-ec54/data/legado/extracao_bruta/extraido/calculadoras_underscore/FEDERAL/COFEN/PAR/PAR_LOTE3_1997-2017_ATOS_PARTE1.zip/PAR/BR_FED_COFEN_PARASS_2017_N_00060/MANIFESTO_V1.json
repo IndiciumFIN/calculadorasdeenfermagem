@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-asslegis-no-0602017/ (API WordPress post 57565); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARASS_2017_N_00060_ATOMOS_V1.jsonl",
+      "sha256": "840ed3844c700c310af459895cdbe68f30c5d57aaf667902076296d60567799e",
+      "tamanho": 25332
+    },
+    {
+      "nome": "PARASS_2017_N_00060_CONTEUDO_SITE_API.json",
+      "sha256": "7fcde454822c7b2bba78c50f1f82922f08a6043ba03871d6f3c1aff3f59c11d3",
+      "tamanho": 4956
+    },
+    {
+      "nome": "PARASS_2017_N_00060_NORMA_V1.json",
+      "sha256": "1d0fc201eaf5d665052614e6e6c8ac287e89b129d0176020e26aa483977d76db",
+      "tamanho": 3290
+    },
+    {
+      "nome": "PARASS_2017_N_00060_PAGINA_SITE.html",
+      "sha256": "68a6de1a7473fbd68785d0d9177cb381da37abab6ae93896b138c2dc4d8e1cc5",
+      "tamanho": 442517
+    },
+    {
+      "nome": "PARASS_2017_N_00060_PDF_SITE.pdf",
+      "sha256": "32474fcdbc20b4266c6d033fe579534e80fb0d2770500804c6a03884e11cb596",
+      "tamanho": 1139093
+    },
+    {
+      "nome": "PARASS_2017_N_00060_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "e790c126ae3d2d960dfa1c57886f5fd8542aa7e85029bf264967a0a1274e1298",
+      "tamanho": 4142
+    },
+    {
+      "nome": "PARASS_2017_N_00060_TEXTO_FONTE_V1.txt",
+      "sha256": "eff1930b4b321d3245e0ce07918f82ddf7d27fad58e0fc25a4cddb8f6be1b33c",
+      "tamanho": 3977
+    },
+    {
+      "nome": "PARASS_2017_N_00060_VALIDACAO_V1.json",
+      "sha256": "7d5a34a583aab4efddba7af43d7a0bdbd117a56d3d9a487e417abe1543335771",
+      "tamanho": 8039
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 trecho(s) do PDF sem correspondente no texto do site.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+  ]
+}

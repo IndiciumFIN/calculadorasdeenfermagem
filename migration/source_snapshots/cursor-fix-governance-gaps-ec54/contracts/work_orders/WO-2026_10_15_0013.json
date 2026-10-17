@@ -1,0 +1,68 @@
+{
+  "id": "WO-2026_10_15_0013",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "task_type": "obter",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "parametros": {
+    "pasta_drive": "1l519_P-9o6bnQcItydKvEEDpEYeE8R8s",
+    "pasta_sinais_vitais": "1dTV3qa2fccSje0ag-2J3MKoRC1ITDXCu",
+    "pasta_raw_fora": "13yctKJWgNVowNbVaHrc8kk6Kt-PLaSsI",
+    "lote": "sinais_vitais"
+  },
+  "entradas": [
+    {
+      "id_origem": "1CGOzAzRqdH_kifUcLWj6PVoQZJ9gvfdj",
+      "caminho": "sinais_vitais/classificacao_pressao_arterial_dbha2020_transcrita_v2.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1_Gm_NmBPrlTaWm60grqk9gN-02y67MyY",
+      "caminho": "sinais_vitais/classificacao_pressao_arterial_dbha2020_transcrita.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1LVQE1bpbfyjwIZGtNe4Udquprak-1RRC",
+      "caminho": "sinais_vitais/fhir_r4_sinais_vitais_codigos_loinc.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1haLA_pbmYHPR5fZEYaIvBbpkwHoaD5qn",
+      "caminho": "sinais_vitais/news2_pontuacao_transcrita.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1UFph_IwllzYY9FXN7nwyL988FnEh8Ez3",
+      "caminho": "sinais_vitais/referencias_sinais_vitais_transcritas_v2.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1ZATLzUunHuQN22hGohxmdESmJmxo4lSU",
+      "caminho": "sinais_vitais/classificacao_pressao_arterial_dbha2020_transcrita_v2.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1roiRgnrNlLbZ39WhW2Ql5Kt_Rl6x8fsG",
+      "caminho": "sinais_vitais/referencias_sinais_vitais_transcritas.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1Xg-9NKkFSkrd6SZi_FtCOGyzKKKMl7pB",
+      "caminho": "sinais_vitais/news2_pontuacao_transcrita.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1IuJ9tUWn7DX0e6z63-Cs9FDBhqpuk1bH",
+      "caminho": "sinais_vitais/classificacao_pressao_arterial_dbha2020_transcrita.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "16yXD3n8Rhy2qtn2OnpJy8Obz-ph8w9EN",
+      "caminho": "sinais_vitais/fhir_r4_sinais_vitais_codigos_loinc.json",
+      "classe": "REFERENCIA"
+    }
+  ],
+  "task_id": "TAREFA-OBTER",
+  "task_version": "1.0.0"
+}

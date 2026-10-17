@@ -1,0 +1,54 @@
+{
+  "id": "WO-2026_10_15_0060",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "task_id": "TAREFA-OBTER",
+  "task_version": "1.0.0",
+  "task_type": "obter",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "parametros": {
+    "lote": "suprimentos",
+    "pasta_suprimentos": "1TFwocqDkH78AyX9UsbzCSFTcIEXyKZFO",
+    "pasta_raw_fora": "1E_K_f2k9fKR7U6LJcgjA626A5QX3NcAW",
+    "arquivo_acima_de_50mb_fora": "1MmOEsNfDfpnimOb5rHNYzJtXtqGWfDJx",
+    "listagem": "segunda pagina com arquivos e sem nextPageToken"
+  },
+  "entradas": [
+    {
+      "id_origem": "1B01q4W3zCMbpI9RVFIJlQeJel5dsYNpj",
+      "caminho": "suprimentos/fda_classificacao_seringas_agulhas_luvas_curativos.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1Nap8JhoMn2OF2x6h1_9IV5Uqc7nwbqwj",
+      "caminho": "suprimentos/catmat_itens_classes_6510_6515_6530_6532.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "16Bl9wdpgTY0ShO5UWWioEh8yqviKKPFi",
+      "caminho": "suprimentos/catmat_seringas_agulhas_luvas_curativos.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1CDW5Jn8hoZUBfZk_m2KyB4w8qB28teTf",
+      "caminho": "suprimentos/anvisa_registros_seringas_agulhas_luvas_curativos.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1safrPF_eILlgdAWLoNWHl8AvXttZivXd",
+      "caminho": "suprimentos/fda_classificacao_seringas_agulhas_luvas_curativos.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1ZnXX1yPK2thakHi3dUBVqwMl79wn6wjr",
+      "caminho": "suprimentos/catmat_seringas_agulhas_luvas_curativos.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "14ufxeFBWZbEiS5X8DxoiAiWbxqFJ1Qpk",
+      "caminho": "suprimentos/anvisa_registros_seringas_agulhas_luvas_curativos.json",
+      "classe": "REFERENCIA"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+# Standard library suffices for inventory, hash, ZIP and textual corpus.
+# Optional for text-bearing PDF and DOCX:
+pypdf>=5.0,<7
+python-docx>=1.0,<2

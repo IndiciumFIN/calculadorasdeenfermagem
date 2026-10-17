@@ -1,0 +1,39 @@
+{
+  "schema": "CE-DRIVE-RECURSION-OBSERVATION-1.0.0",
+  "status": "PARTIAL_DIRECT_CHILDREN_NOT_COMPLETE",
+  "mode": "connector_read_only",
+  "branch": "cursor/fix-governance-gaps-ec54",
+  "wave02": [
+    {
+      "id": "1oip_lLi_G0jF3mriQCd6XLjNVuQIR29U",
+      "label": "NORMATIVOS/FEDERAL",
+      "observed_children": 1,
+      "observed_subfolders": 1
+    },
+    {
+      "id": "1CuNVo6TSwMcEyHabRhCVnBJ8W4dRfo7R",
+      "label": "FEDERAL/COFEN",
+      "observed_children": 7,
+      "observed_subfolders": 7
+    },
+    {
+      "id": "1EvE7O3fteP_am5FdW8PivfUjWZswWe_s",
+      "label": "NORMATIVOS/_PIPELINE",
+      "observed_children": 4,
+      "observed_subfolders": 0
+    },
+    {
+      "id": "1109FYF82nhwSgLOzRAGIjrQn-qRzPjw0",
+      "label": "NORMATIVOS/_EVIDENCIAS",
+      "observed_children": 6,
+      "observed_subfolders": 6
+    }
+  ],
+  "controls": {
+    "no_deletion": true,
+    "no_publication": true,
+    "no_sha256_claim": true,
+    "overlap_not_deduplicated": true,
+    "full_recursion": false
+  }
+}

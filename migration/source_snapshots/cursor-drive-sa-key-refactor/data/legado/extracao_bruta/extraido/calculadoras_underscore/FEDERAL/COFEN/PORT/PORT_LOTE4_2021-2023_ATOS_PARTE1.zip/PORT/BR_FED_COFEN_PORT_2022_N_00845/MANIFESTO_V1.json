@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-845-de-15-de-junho-de-2022/ (API WordPress post 99971); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2022_N_00845_ATOMOS_V1.jsonl",
+      "sha256": "a1bb6dd834d7cb2a03368b61dde181e8acace4470732c96b67d2bff88fe70506",
+      "tamanho": 5991
+    },
+    {
+      "nome": "PORT_2022_N_00845_CONTEUDO_SITE_API.json",
+      "sha256": "dbed81008c0c2e7b1510a9c164f89bb8c15d79bd1675fde8ff469c3205f96b09",
+      "tamanho": 1343
+    },
+    {
+      "nome": "PORT_2022_N_00845_NORMA_V1.json",
+      "sha256": "12dce4b015d57e61b1c4472cddd426c6eaf56e804d6963e6b58f6869246557d1",
+      "tamanho": 3050
+    },
+    {
+      "nome": "PORT_2022_N_00845_PAGINA_SITE.html",
+      "sha256": "954be845b3a27ea751eae753b636210c72846a77814010afa6cf7ce2c4a02812",
+      "tamanho": 439023
+    },
+    {
+      "nome": "PORT_2022_N_00845_TEXTO_FONTE_V1.txt",
+      "sha256": "fea7fb27779b00133c63eec0f0e4b83c6c3395d1b22a439b92a040333e1afa3f",
+      "tamanho": 768
+    },
+    {
+      "nome": "PORT_2022_N_00845_VALIDACAO_V1.json",
+      "sha256": "2684c0704ddd35ee3fa2900a0d7b66d8bc3c60f816718927c73e837d75fb7b00",
+      "tamanho": 2458
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

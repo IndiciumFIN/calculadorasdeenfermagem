@@ -1,0 +1,398 @@
+{
+  "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI",
+  "resultado_processo": "PENDENTE",
+  "rotulo": "Pendente de verificação",
+  "controles": [
+    {
+      "nome": "Identificação do ato e emissor",
+      "resultado": "PASS",
+      "evidencia": "PARECER DA ASSESSORIA DE RELAÇÕES INSTITUCIONAIS Nº 006/2020/RAI/COFEN"
+    },
+    {
+      "nome": "Conferência site HTML × PDF oficial, dispositivo a dispositivo",
+      "resultado": "FAIL",
+      "status": "PDF_NAO_CORRESPONDE_AO_TEXTO_DO_SITE",
+      "evidencia": {
+        "dispositivos_comparados": 52,
+        "por_resultado": {
+          "AUSENTE_NO_PDF": 44,
+          "DIVERGENTE": 3,
+          "EQUIVALENTE_ORDEM_OU_QUEBRA_DIFERENTE": 5
+        },
+        "trechos_pdf_ausentes_no_site": 153,
+        "pdf": "PARASS_2020_N_00006_RAI_PDF_SITE.pdf"
+      }
+    },
+    {
+      "nome": "Publicação no DOU (registro, sem verificação online)",
+      "resultado": "NAO_CITADO",
+      "evidencia": null
+    },
+    {
+      "nome": "Anexos referenciados presentes e atomizados",
+      "resultado": "NAO_APLICAVEL",
+      "status": "SEM_ANEXO_REFERENCIADO",
+      "referencias": []
+    },
+    {
+      "nome": "Numeração contígua (seções, itens, alíneas)",
+      "resultado": "PASS",
+      "evidencia": null
+    },
+    {
+      "nome": "Conferência humana da literalidade",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Pesquisa de alterações posteriores",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Direitos autorais do texto do ato oficial",
+      "resultado": "PASS",
+      "fundamento": "Lei 9.610/1998, art. 8, IV"
+    }
+  ],
+  "fechamento": {
+    "apto": false,
+    "status": "PENDENCIAS",
+    "justificativa": "Aguardando revisão humana da atomização e pesquisa de atos posteriores. Há achados bloqueantes adicionais."
+  },
+  "achados": [
+    {
+      "codigo": "C001",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Atomização automática; requer conferência humana da segmentação e da literalidade."
+    },
+    {
+      "codigo": "C002",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada."
+    },
+    {
+      "codigo": "C013",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "O PDF anexado à página não corresponde ao ato (documento diferente); não há PDF do próprio ato.",
+      "evidencia": "PARASS_2020_N_00006_RAI_PDF_SITE.pdf"
+    }
+  ],
+  "conferencia_por_dispositivo": [
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_EPIGRAFE_001",
+      "tipo": "epigrafe",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 65.2
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_EMENTA",
+      "tipo": "ementa",
+      "resultado": "EQUIVALENTE_ORDEM_OU_QUEBRA_DIFERENTE",
+      "similaridade": 72.5
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_IDENTIFICACAO_PROCESSO_001",
+      "tipo": "identificacao_processo",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 75.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_PARAGRAFO_TEXTO_001",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_ORDEM_OU_QUEBRA_DIFERENTE",
+      "similaridade": 67.7
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_IDENTIFICACAO_PROCESSO_002",
+      "tipo": "identificacao_processo",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 68.8
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_SECAO_001",
+      "tipo": "secao",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 66.7
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_PARAGRAFO_TEXTO_002",
+      "tipo": "paragrafo_texto",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 56.6
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_PARAGRAFO_TEXTO_003",
+      "tipo": "paragrafo_texto",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 52.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_ITEM_LISTA_001",
+      "tipo": "item_lista",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 58.1
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_ITEM_LISTA_002",
+      "tipo": "item_lista",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 65.2
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_ITEM_LISTA_003",
+      "tipo": "item_lista",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 53.2
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_ITEM_LISTA_004",
+      "tipo": "item_lista",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 53.4
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_EPIGRAFE_002",
+      "tipo": "epigrafe",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 50.7
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_ITEM_LISTA_005",
+      "tipo": "item_lista",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 51.6
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_SECAO_002",
+      "tipo": "secao",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 72.4
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_PARAGRAFO_TEXTO_004",
+      "tipo": "paragrafo_texto",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 49.5
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_PARAGRAFO_TEXTO_005",
+      "tipo": "paragrafo_texto",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 52.1
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_PARAGRAFO_TEXTO_006",
+      "tipo": "paragrafo_texto",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 54.3
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_ITEM_LISTA_006",
+      "tipo": "item_lista",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 48.4
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_ITEM_LISTA_007",
+      "tipo": "item_lista",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 51.5
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_ITEM_LISTA_008",
+      "tipo": "item_lista",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 51.9
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_ITEM_LISTA_009",
+      "tipo": "item_lista",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 59.9
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_ITEM_LISTA_010",
+      "tipo": "item_lista",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 58.6
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_ITEM_LISTA_011",
+      "tipo": "item_lista",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 59.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_INCISO_001",
+      "tipo": "inciso",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 57.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_INCISO_002",
+      "tipo": "inciso",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 69.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_INCISO_003",
+      "tipo": "inciso",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 56.1
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_INCISO_004",
+      "tipo": "inciso",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 56.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_INCISO_005",
+      "tipo": "inciso",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 57.6
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_INCISO_006",
+      "tipo": "inciso",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 59.5
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_INCISO_007",
+      "tipo": "inciso",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 59.1
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_INCISO_008",
+      "tipo": "inciso",
+      "resultado": "DIVERGENTE",
+      "similaridade": 59.9
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_INCISO_009",
+      "tipo": "inciso",
+      "resultado": "EQUIVALENTE_ORDEM_OU_QUEBRA_DIFERENTE",
+      "similaridade": 67.8
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_INCISO_010",
+      "tipo": "inciso",
+      "resultado": "DIVERGENTE",
+      "similaridade": 56.4
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_INCISO_011",
+      "tipo": "inciso",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 50.4
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_ITEM_LISTA_012",
+      "tipo": "item_lista",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 52.7
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_ITEM_LISTA_013",
+      "tipo": "item_lista",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 51.1
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_PARAGRAFO_TEXTO_007",
+      "tipo": "paragrafo_texto",
+      "resultado": "DIVERGENTE",
+      "similaridade": 65.4
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_PARAGRAFO_TEXTO_008",
+      "tipo": "paragrafo_texto",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 53.3
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_PARAGRAFO_TEXTO_009",
+      "tipo": "paragrafo_texto",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 55.2
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_PARAGRAFO_TEXTO_010",
+      "tipo": "paragrafo_texto",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 60.7
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_PARAGRAFO_TEXTO_011",
+      "tipo": "paragrafo_texto",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 51.5
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_PARAGRAFO_TEXTO_012",
+      "tipo": "paragrafo_texto",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 56.2
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_PARAGRAFO_TEXTO_013",
+      "tipo": "paragrafo_texto",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 56.5
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_PARAGRAFO_TEXTO_014",
+      "tipo": "paragrafo_texto",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 51.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_SECAO_003",
+      "tipo": "secao",
+      "resultado": "EQUIVALENTE_ORDEM_OU_QUEBRA_DIFERENTE",
+      "similaridade": 76.9
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_PARAGRAFO_TEXTO_015",
+      "tipo": "paragrafo_texto",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 51.4
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_PARAGRAFO_TEXTO_016",
+      "tipo": "paragrafo_texto",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 52.6
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_PARAGRAFO_TEXTO_017",
+      "tipo": "paragrafo_texto",
+      "resultado": "EQUIVALENTE_ORDEM_OU_QUEBRA_DIFERENTE",
+      "similaridade": 68.2
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_LOCAL_DATA_001",
+      "tipo": "local_data",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 61.8
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_ASSINATURA_001",
+      "tipo": "assinatura",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 58.6
+    },
+    {
+      "identificador": "BR_FED_COFEN_PARASS_2020_N_00006_RAI_PARAGRAFO_TEXTO_018",
+      "tipo": "paragrafo_texto",
+      "resultado": "AUSENTE_NO_PDF",
+      "similaridade": 61.1
+    }
+  ],
+  "data_verificacao": "2026-10-10",
+  "responsavel": "Triagem automatizada - requer validação humana"
+}

@@ -1,0 +1,43 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-conselheiro-federal-n-177-2022-cofen/ (API WordPress post 102016); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCONS_2022_N_00177_ATOMOS_V1.jsonl",
+      "sha256": "c30aa5571cea793cf05ece8ac6245019fa58405d1e1aaab3295ffe52889021df",
+      "tamanho": 29715
+    },
+    {
+      "nome": "PARCONS_2022_N_00177_CONTEUDO_SITE_API.json",
+      "sha256": "4957c50f0ffea3502e61780cacfed9d28e3aa530a06ab265c2d034d40e1c74f6",
+      "tamanho": 11097
+    },
+    {
+      "nome": "PARCONS_2022_N_00177_NORMA_V1.json",
+      "sha256": "73b5ce096a08ac86f1f96ca3299b85f700db2f3ed6dc1448ef797e16dd0e6954",
+      "tamanho": 3047
+    },
+    {
+      "nome": "PARCONS_2022_N_00177_PAGINA_SITE.html",
+      "sha256": "9f3f88058aec01ee7ed9136dc184bd8cfda239fe5b0851b61390ac2ec99360ae",
+      "tamanho": 448847
+    },
+    {
+      "nome": "PARCONS_2022_N_00177_TEXTO_FONTE_V1.txt",
+      "sha256": "797dfdc6b5ad5814f1bf3559d14c3861aa74f209079487536ca3d553eb734d83",
+      "tamanho": 9405
+    },
+    {
+      "nome": "PARCONS_2022_N_00177_VALIDACAO_V1.json",
+      "sha256": "0842da7b1d1c030f56e2a5504024503d8fb053a4d9af7be5490aac728918597c",
+      "tamanho": 3072
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

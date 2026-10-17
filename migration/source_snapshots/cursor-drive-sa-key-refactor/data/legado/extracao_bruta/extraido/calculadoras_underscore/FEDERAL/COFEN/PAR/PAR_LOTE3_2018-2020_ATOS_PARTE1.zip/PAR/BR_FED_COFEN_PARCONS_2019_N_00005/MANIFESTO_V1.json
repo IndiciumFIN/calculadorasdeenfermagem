@@ -1,0 +1,43 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-relator-no-005-2019/ (API WordPress post 68490); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCONS_2019_N_00005_ATOMOS_V1.jsonl",
+      "sha256": "ac7bef0fd192275eab727995d4fec554a655f270dd108de8d65cfbd1d6c3195e",
+      "tamanho": 58433
+    },
+    {
+      "nome": "PARCONS_2019_N_00005_CONTEUDO_SITE_API.json",
+      "sha256": "2cd63092fcecb6841b19ca757df92203691dc826194d6d3127193e1b57cecbe8",
+      "tamanho": 12476
+    },
+    {
+      "nome": "PARCONS_2019_N_00005_NORMA_V1.json",
+      "sha256": "9cef6110fad0d06a3cef4fa8b81313add3abdcde495df58d010b9d208da7f936",
+      "tamanho": 2618
+    },
+    {
+      "nome": "PARCONS_2019_N_00005_PAGINA_SITE.html",
+      "sha256": "a2dd8445cce158af3e486924c2957919173e15c9910ec3f918296c421ca0eace",
+      "tamanho": 449344
+    },
+    {
+      "nome": "PARCONS_2019_N_00005_TEXTO_FONTE_V1.txt",
+      "sha256": "54bba0cffe3d2e731f14e1e5d3693890fe1afb381ec1159857298603f6481cb0",
+      "tamanho": 10908
+    },
+    {
+      "nome": "PARCONS_2019_N_00005_VALIDACAO_V1.json",
+      "sha256": "b22901edde26e99fdd6a29cc6643b4ad4b41271e1d2c0e9711d93c6f05f405ba",
+      "tamanho": 3003
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

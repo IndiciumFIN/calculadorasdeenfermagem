@@ -1,0 +1,96 @@
+{
+  "work_order": "WO-2026_10_15_0014",
+  "policy_version": "1.0.0",
+  "itens": [
+    {
+      "id_origem": "1CGOzAzRqdH_kifUcLWj6PVoQZJ9gvfdj",
+      "caminho": "sinais_vitais/classificacao_pressao_arterial_dbha2020_transcrita_v2.csv",
+      "classe": "REFERENCIA",
+      "sha256": "65785cbf764fee9bc5c03f1a845e8f81ac6f115b0587a1af2f3bcf5f4a0d3d20",
+      "atomos": [],
+      "resultado": "NAO_APLICAVEL",
+      "motivo": "Tabela de referência não é ato normativo. O contrato AtomoBlindado não recebe linha de CID, medicamento, vacina ou amostra."
+    },
+    {
+      "id_origem": "1_Gm_NmBPrlTaWm60grqk9gN-02y67MyY",
+      "caminho": "sinais_vitais/classificacao_pressao_arterial_dbha2020_transcrita.csv",
+      "classe": "REFERENCIA",
+      "sha256": "978dc48f442438fe9efd23634b6766af49ec9d677f6c1838b02f1019eb220dce",
+      "atomos": [],
+      "resultado": "NAO_APLICAVEL",
+      "motivo": "Tabela de referência não é ato normativo. O contrato AtomoBlindado não recebe linha de CID, medicamento, vacina ou amostra."
+    },
+    {
+      "id_origem": "1LVQE1bpbfyjwIZGtNe4Udquprak-1RRC",
+      "caminho": "sinais_vitais/fhir_r4_sinais_vitais_codigos_loinc.csv",
+      "classe": "REFERENCIA",
+      "sha256": "810ea174598ef3dc45de38fb245ebbe23afcacf8c49484ac29cb13ccfba1990a",
+      "atomos": [],
+      "resultado": "NAO_APLICAVEL",
+      "motivo": "Tabela de referência não é ato normativo. O contrato AtomoBlindado não recebe linha de CID, medicamento, vacina ou amostra."
+    },
+    {
+      "id_origem": "1haLA_pbmYHPR5fZEYaIvBbpkwHoaD5qn",
+      "caminho": "sinais_vitais/news2_pontuacao_transcrita.csv",
+      "classe": "REFERENCIA",
+      "sha256": "138187b4ca2d41ff29254af4f165a5964fe5134386c1c0024ae8566187fe29b8",
+      "atomos": [],
+      "resultado": "NAO_APLICAVEL",
+      "motivo": "Tabela de referência não é ato normativo. O contrato AtomoBlindado não recebe linha de CID, medicamento, vacina ou amostra."
+    },
+    {
+      "id_origem": "1UFph_IwllzYY9FXN7nwyL988FnEh8Ez3",
+      "caminho": "sinais_vitais/referencias_sinais_vitais_transcritas_v2.json",
+      "classe": "REFERENCIA",
+      "sha256": "6f472b7020852cfa0a50894a7d7b2afcb10d9de4592eea0e78d4b44b769f5bce",
+      "atomos": [],
+      "resultado": "NAO_APLICAVEL",
+      "motivo": "Tabela de referência não é ato normativo. O contrato AtomoBlindado não recebe linha de CID, medicamento, vacina ou amostra."
+    },
+    {
+      "id_origem": "1ZATLzUunHuQN22hGohxmdESmJmxo4lSU",
+      "caminho": "sinais_vitais/classificacao_pressao_arterial_dbha2020_transcrita_v2.json",
+      "classe": "REFERENCIA",
+      "sha256": "461d462478cd96f3d48820ffe82499e82551c91e41a310c4b556a91569ac2cc6",
+      "atomos": [],
+      "resultado": "NAO_APLICAVEL",
+      "motivo": "Tabela de referência não é ato normativo. O contrato AtomoBlindado não recebe linha de CID, medicamento, vacina ou amostra."
+    },
+    {
+      "id_origem": "1roiRgnrNlLbZ39WhW2Ql5Kt_Rl6x8fsG",
+      "caminho": "sinais_vitais/referencias_sinais_vitais_transcritas.json",
+      "classe": "REFERENCIA",
+      "sha256": "db566a8b56bf10d0b808179b060bd7a074ab064c10ecdfb6e86f6d3b0ab73790",
+      "atomos": [],
+      "resultado": "NAO_APLICAVEL",
+      "motivo": "Tabela de referência não é ato normativo. O contrato AtomoBlindado não recebe linha de CID, medicamento, vacina ou amostra."
+    },
+    {
+      "id_origem": "1Xg-9NKkFSkrd6SZi_FtCOGyzKKKMl7pB",
+      "caminho": "sinais_vitais/news2_pontuacao_transcrita.json",
+      "classe": "REFERENCIA",
+      "sha256": "6fcbd401c656f7292ec4fb43321217c4617739c943f130f57657f4fc01523254",
+      "atomos": [],
+      "resultado": "NAO_APLICAVEL",
+      "motivo": "Tabela de referência não é ato normativo. O contrato AtomoBlindado não recebe linha de CID, medicamento, vacina ou amostra."
+    },
+    {
+      "id_origem": "1IuJ9tUWn7DX0e6z63-Cs9FDBhqpuk1bH",
+      "caminho": "sinais_vitais/classificacao_pressao_arterial_dbha2020_transcrita.json",
+      "classe": "REFERENCIA",
+      "sha256": "e51d83822b2cea28291b6a56c6964b9fc68a2fbfbda4c054a6824129b67e163c",
+      "atomos": [],
+      "resultado": "NAO_APLICAVEL",
+      "motivo": "Tabela de referência não é ato normativo. O contrato AtomoBlindado não recebe linha de CID, medicamento, vacina ou amostra."
+    },
+    {
+      "id_origem": "16yXD3n8Rhy2qtn2OnpJy8Obz-ph8w9EN",
+      "caminho": "sinais_vitais/fhir_r4_sinais_vitais_codigos_loinc.json",
+      "classe": "REFERENCIA",
+      "sha256": "827c5cce26d9401354de138702b241efdb7d9f822a1cb524686054931d06a6db",
+      "atomos": [],
+      "resultado": "NAO_APLICAVEL",
+      "motivo": "Tabela de referência não é ato normativo. O contrato AtomoBlindado não recebe linha de CID, medicamento, vacina ou amostra."
+    }
+  ]
+}

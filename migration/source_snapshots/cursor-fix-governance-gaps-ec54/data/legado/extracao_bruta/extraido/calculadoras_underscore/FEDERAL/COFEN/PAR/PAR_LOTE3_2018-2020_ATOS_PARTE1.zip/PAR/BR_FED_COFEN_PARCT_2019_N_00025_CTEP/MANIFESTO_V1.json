@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-025-2019-ctep-dgep-cofen/ (API WordPress post 71536); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2019_N_00025_CTEP_ATOMOS_V1.jsonl",
+      "sha256": "523d5e69b10f9cbcc6d67f165551e8a2e6c71243ca20854c5f6f4794bc190638",
+      "tamanho": 28758
+    },
+    {
+      "nome": "PARCT_2019_N_00025_CTEP_CONTEUDO_SITE_API.json",
+      "sha256": "a26d5d410655bbeadb7d8c8ba505f60704ae7f60132c66303db7edf219a51dd3",
+      "tamanho": 9041
+    },
+    {
+      "nome": "PARCT_2019_N_00025_CTEP_NORMA_V1.json",
+      "sha256": "9507c331eafba14e75003db7483d75bcefa2991dbb331359c5c147539db701e6",
+      "tamanho": 3790
+    },
+    {
+      "nome": "PARCT_2019_N_00025_CTEP_PAGINA_SITE.html",
+      "sha256": "21e3cb8a285b9dc023212dcc7e1a60735250e74e7a2c3413a3a7ac0421bb35f9",
+      "tamanho": 446435
+    },
+    {
+      "nome": "PARCT_2019_N_00025_CTEP_TEXTO_FONTE_V1.txt",
+      "sha256": "dba817e417a8b9cb39e9a0378567ac45a7f18aad7c767321b0d2feddd60dc957",
+      "tamanho": 7208
+    },
+    {
+      "nome": "PARCT_2019_N_00025_CTEP_VALIDACAO_V1.json",
+      "sha256": "a8bcc0af62950e6ae2be89fef38884e0e0edf742227c9ae8f7c553cf60e06fb8",
+      "tamanho": 2470
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

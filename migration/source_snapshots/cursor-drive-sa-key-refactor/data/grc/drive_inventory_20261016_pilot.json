@@ -1,0 +1,304 @@
+{
+  "audit_date": "2026-10-16",
+  "mode": "metadata_only_no_delete",
+  "scope": "four_registered_roots",
+  "conclusion": "partial; nested folders and pagination remain",
+  "roots": [
+    {
+      "label": "CE_MASTER",
+      "id": "1FDBAMQ3-WT-8l6xU0664u7QjABd0FbEH",
+      "scanned": 3,
+      "may_be_partial": false,
+      "folders": 2,
+      "files": 1,
+      "zip_candidates": [],
+      "duplicate_candidate_names": []
+    },
+    {
+      "label": "ESTEIRA",
+      "id": "1xhNiG35r_1_Cb211b3oz5IvcCE_Ql0K7",
+      "scanned": 26,
+      "may_be_partial": false,
+      "folders": 1,
+      "files": 25,
+      "zip_candidates": [
+        {
+          "id": "1dm2BhCOBn0BjRwySVW-_wKD2wm2q-zVC",
+          "name": "STAGING_AGENTES_2_esteira-lotes-staging.zip",
+          "size_bytes": 62335586
+        },
+        {
+          "id": "1C0cCyE26UlYUDeXJ2d2Fo8M4mnsMHfOV",
+          "name": "STAGING_AGENTES_1_esteira-agentes.zip",
+          "size_bytes": 49175085
+        },
+        {
+          "id": "1e_gD9C-61NwpGK0FrYWQMBivVwZbF_Q9",
+          "name": "PIPELINE_STAGE.zip",
+          "size_bytes": 69425822
+        },
+        {
+          "id": "138rkC77GZCK5f2pFC0slbiVtMs7shJ5m",
+          "name": "REGISTROS_KERNEL.zip",
+          "size_bytes": 11270120
+        },
+        {
+          "id": "1Nmh-EbIyHT-UjH6bKrC_QAEDiGrhp_3d",
+          "name": "CODIGO_TRABALHO.zip",
+          "size_bytes": 578191
+        },
+        {
+          "id": "1FTupZkoW1SEUo2VrevcTZRna8ydltLWP",
+          "name": "KANBAN.zip",
+          "size_bytes": 422224
+        },
+        {
+          "id": "1WiBOeUY9KitXEcC1AnrbpeRQgyL4SWdw",
+          "name": "EDUCACAO.zip",
+          "size_bytes": 136056
+        }
+      ],
+      "duplicate_candidate_names": [
+        "CRUZAMENTO_ATOS_DRIVE_20261014_1341.csv"
+      ]
+    },
+    {
+      "label": "GROK",
+      "id": "1l519_P-9o6bnQcItydKvEEDpEYeE8R8s",
+      "scanned": 1,
+      "may_be_partial": false,
+      "folders": 1,
+      "files": 0,
+      "zip_candidates": [],
+      "duplicate_candidate_names": []
+    },
+    {
+      "label": "CE_SITE",
+      "id": "1c9vErI_It3XwzAcAFOnbxw9V0Mn6xfB9",
+      "scanned": 200,
+      "may_be_partial": true,
+      "folders": 46,
+      "files": 154,
+      "zip_candidates": [
+        {
+          "id": "1qUS1W9_Vncj-gfxRH4c6dggaQefCiBQw",
+          "name": "CANONICAL_RECONCILIATION_v0_2.zip",
+          "size_bytes": 2850
+        },
+        {
+          "id": "12JndUska2SoLGv_S7xjOIPvsTq1VFFw-",
+          "name": "CANONICAL_CANDIDATE_PILOT_v0_1.zip",
+          "size_bytes": 28324318
+        },
+        {
+          "id": "1apK3oOMvcW3beYZP-pAV7O12FPhpV35q",
+          "name": "backup_final.zip",
+          "size_bytes": 26294501
+        },
+        {
+          "id": "1v0O41umK80gVO7Rh7IFGUU1z6UFewoM-",
+          "name": "Calculadoras_de_Enfermagem_Insulina_Completo_v0.1.0.zip",
+          "size_bytes": 25766524
+        },
+        {
+          "id": "11RsHrvEDi0EvGUVqm6iiaN4OOPU-kQTG",
+          "name": "Calculadoras_de_Enfermagem_Gotejamento_Completo_v0.7.0.zip",
+          "size_bytes": 17485044
+        },
+        {
+          "id": "1lvxyeEyTu0aNVNYifeJQhWqcvpgiJNjq",
+          "name": "CKO_NORMATIVE_F1_ARCH_DATA_GOV_NUMERIC_R88F_V4_EXECUTED_20260911.zip",
+          "size_bytes": 2472854
+        },
+        {
+          "id": "1Kf223iZkqhGI1ZBLGQ1fEXoa2V60uXxq",
+          "name": "Cópia de CKO-CONSOLIDATED-GOVERNED-ECOSYSTEM-v1.1.0-AGENT-PRECISION.zip",
+          "size_bytes": 7603550
+        },
+        {
+          "id": "16HURBHxVwtbmRoa4LjYNFlreyvXZqrq7",
+          "name": "CKO-HANDOFF-CAL-TOOLS-CONSOLIDATION-v1.2.0.zip",
+          "size_bytes": 29705
+        },
+        {
+          "id": "1gEYwyG1-eHiFclIchHNda8HXSl24bV66",
+          "name": "CKO-CAL-TOOLS-NEW-FILES-RECONCILIATION-v0.1.0.zip",
+          "size_bytes": 16823
+        },
+        {
+          "id": "12YgfrSwWGxoPs8jqhKmg1pMOA9KjrjAh",
+          "name": "CKO-LABOR-FERIAS-19J-SOURCE-ACQUISITION-v0.1.0.zip",
+          "size_bytes": 12173
+        },
+        {
+          "id": "1vAJ9T2VsArOla0HH7jOoRGV5vdBcTQW0",
+          "name": "CKO-LABOR-FERIAS-19J-SOURCE-DISCOVERY-v0.1.0.zip",
+          "size_bytes": 10750
+        },
+        {
+          "id": "1o6go8-BNKsRrS37NQ3qr-4Ya0_hILkP0",
+          "name": "CKO-VERTICAL-LINEAGE-GOLDEN-CLOSURE-v0.3.0-FINAL.zip",
+          "size_bytes": 20241
+        },
+        {
+          "id": "1axsjjkYlnTaBPzBp9s8HeJ3e1aZKBgR4",
+          "name": "CKO-PAGE-INSTITUTIONAL-WAVE2-v0.2.0.zip",
+          "size_bytes": 83292
+        },
+        {
+          "id": "1HnNaiYK1eAn_Ff48Vprkrt_eNQ61T9Ri",
+          "name": "CKO-LABOR-19-LOCALE-JURISDICTION-PLAN-v0.1.0.zip",
+          "size_bytes": 8356
+        },
+        {
+          "id": "1b4nULnofmEYl3v1hQy9Nr7Pb8KNZJQtu",
+          "name": "CKO-LABOR-TOOL-UNIVERSE-v0.1.0.zip",
+          "size_bytes": 4739
+        },
+        {
+          "id": "1TOp70WpoxvZN0rbda0rQfmXPVfMOio5u",
+          "name": "CKO-VERTICAL-LINEAGE-GOLDEN-v0.1.0.zip",
+          "size_bytes": 10215
+        },
+        {
+          "id": "1PJCExW7zVGs278QNKgjOj4O8RTsZnxrr",
+          "name": "PEWS-SCL-001-documentation-final-v0.1.0.zip",
+          "size_bytes": 17009
+        },
+        {
+          "id": "152IY4XKp82RcFk7sbCBHaiS3_6rKhcFL",
+          "name": "FLACC-SCL-001-successor-v0.1.0.zip",
+          "size_bytes": 1424257
+        },
+        {
+          "id": "1Kbok400fP5p16Za_gD-9eA8rAzwBp_n4",
+          "name": "CKO-PAGE-INSTITUTIONAL-WAVE1-v0.1.0.zip",
+          "size_bytes": 87616
+        },
+        {
+          "id": "1sptufmXTXOemvHDjj8nItJjkbCJMsiKd",
+          "name": "CRIES-SCL-001-successor-v0.1.0.zip",
+          "size_bytes": 1054675
+        },
+        {
+          "id": "1gtOnAIwJiyoYmT9l0XpYX8Bc5KCkEg7S",
+          "name": "PEWS-SCL-001-successor-v0.1.0.zip",
+          "size_bytes": 1766467
+        },
+        {
+          "id": "1lWMUUxjTZ_xuOQl9O0R0NyV6muEJvbKk",
+          "name": "NIPS-SCL-001-successor-v0.1.0.zip",
+          "size_bytes": 957169
+        },
+        {
+          "id": "1qt9f0UxhMGSahFOgaNxTn8MOwA2hWIO6",
+          "name": "DOWNES-SCL-001-successor-v0.1.0-FINAL.zip",
+          "size_bytes": 866503
+        },
+        {
+          "id": "18LvG6i4_8PaBdz9rzILvLOWpwPt1reT9",
+          "name": "SILVERMAN-SCL-001-successor-v0.1.0.zip",
+          "size_bytes": 1057703
+        },
+        {
+          "id": "1ldcbSJ0LssBkBLEPTPNWGH8JUJdK0fdj",
+          "name": "BALLARD-SCL-001-successor-v0.1.0.zip",
+          "size_bytes": 1339730
+        },
+        {
+          "id": "1JQNsXH4ahsKdCxOB4B5FBfKQQFLTFJ71",
+          "name": "CAPURRO-SCL-001-successor-v0.1.0-r1.zip",
+          "size_bytes": 1284593
+        },
+        {
+          "id": "14voPApC5eutP91Pr763apioORSf0AH8U",
+          "name": "CAPURRO-SCL-001-successor-v0.1.0.zip",
+          "size_bytes": 1283638
+        },
+        {
+          "id": "1G5DFhca04yzCPSGjFSR9bGEJ7VeUQnOk",
+          "name": "APGAR-SCL-001-successor-v0.2.0.zip",
+          "size_bytes": 1090184
+        },
+        {
+          "id": "1VV3e7yyAqH0fPfTHxRQ0yXZbqIOl_9um",
+          "name": "SCL-001-ALDRETE-AUDIT360-20260902-v1.0.0.zip",
+          "size_bytes": 16495
+        },
+        {
+          "id": "1YSkh-x9RfHRshppfcVpChUnInh4hNYfG",
+          "name": "CKO-CALENF-FULL-MATERIALIZED-BACKUP-20260902.zip",
+          "size_bytes": 38322276
+        },
+        {
+          "id": "1Q7uCk_YbrcZ6IRntL9R3GA5MJw8glTLJ",
+          "name": "SCL-001-ALDRETE-technical-closure-20260902.zip",
+          "size_bytes": 367394
+        },
+        {
+          "id": "1GRmpXzz9zRRRe36IUzW12FqlJ87i869a",
+          "name": "AuditAgenticIA-v0.3.0.zip",
+          "size_bytes": 18283
+        },
+        {
+          "id": "1lAE8kf28TGV-rWlPMVCwo3A8YCZVZ-Eo",
+          "name": "AuditAgenticIA-v0.2.0.zip",
+          "size_bytes": 27554
+        },
+        {
+          "id": "1hZfeUguT_QXUatzmzawgyxeHuppkueYu",
+          "name": "AuditAgenticIA-v0.1.0.zip",
+          "size_bytes": 7745
+        },
+        {
+          "id": "1uuEak4IxlG7r8ENZwbfj9QZJIrL3K0j7",
+          "name": "cko-seed-adjustments-20260830.zip",
+          "size_bytes": 11947
+        },
+        {
+          "id": "1SSwgjJmNNNsHbgpjwb4ji3ugtdgoSOFh",
+          "name": "CKO-F1-FOUNDATION-EVIDENCE-TECHNICAL-RECONCILIATION-v1.0.1.zip",
+          "size_bytes": 66362
+        },
+        {
+          "id": "1fs_EbQdsQiiwziyZZ_rcuhZ2yDrOXfWI",
+          "name": "CKO-F1-FOUNDATION-EVIDENCE-TECHNICAL-RECONCILIATION-v1.0.0.zip",
+          "size_bytes": 64655
+        },
+        {
+          "id": "1pRG_7dmsllcp3wzMe5CQmhTW3QrjcvL5",
+          "name": "cko-platform-adjustments-20260830-v2.zip",
+          "size_bytes": 14704
+        },
+        {
+          "id": "1BMO4hODi_EPN2R8Hfw0KChoNg_sSHbOP",
+          "name": "cko-platform-adjustments-20260830.zip",
+          "size_bytes": 11220
+        },
+        {
+          "id": "1DLD8kl8DMq6IzmDf0FQioAULNALDnQN4",
+          "name": "CKO-5-Macrofront-Handoffs-v1.0.0.zip",
+          "size_bytes": 10330
+        },
+        {
+          "id": "1FRbPO67cn7W2fZNRY7xILauKYpuvd6wA",
+          "name": "CKO_DS_CANON_HEALTH_BRANDING_2026-08-30_v0.1.0.zip",
+          "size_bytes": 15946
+        },
+        {
+          "id": "1Nezgag9Q4VmliQzX-AesrkEZDwfrWbyW",
+          "name": "CKO-RUN-FIELD-UNIVERSE-RECONCILIATION-v1.0.0.zip",
+          "size_bytes": 85224
+        }
+      ],
+      "duplicate_candidate_names": []
+    }
+  ],
+  "policy": {
+    "deduplication": "SHA-256 of complete bytes only",
+    "zip": "member_manifest + crc32 + sha256 + path_safety + ratio check",
+    "deletion": "blocked; requires independent review",
+    "large_files": "streamed and resumable transfer; chunk bounded memory",
+    "publication": "no publish before source rights and clinical validation"
+  }
+}

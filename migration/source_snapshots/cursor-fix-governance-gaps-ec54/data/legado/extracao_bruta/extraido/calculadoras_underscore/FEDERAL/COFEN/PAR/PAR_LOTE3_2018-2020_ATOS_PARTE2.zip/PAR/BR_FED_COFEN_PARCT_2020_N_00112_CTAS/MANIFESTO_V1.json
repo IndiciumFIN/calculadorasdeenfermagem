@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-camara-tecnica-no-0112-2020-ctas-cofen/ (API WordPress post 86685); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2020_N_00112_CTAS_ATOMOS_V1.jsonl",
+      "sha256": "5685cce5217f74533d3aa203dc6106f145d7adfb7689afc8f4a92fad75dfb80e",
+      "tamanho": 74054
+    },
+    {
+      "nome": "PARCT_2020_N_00112_CTAS_CONTEUDO_SITE_API.json",
+      "sha256": "41e169f83f410e67e92309f56e3b873bd632de673388d7c0786ee0d6ec2f17c5",
+      "tamanho": 21457
+    },
+    {
+      "nome": "PARCT_2020_N_00112_CTAS_NORMA_V1.json",
+      "sha256": "86403c4d1030ad7b2317a75325396f26f28aaab5d93615b9d0bfc1a15c8130dc",
+      "tamanho": 4589
+    },
+    {
+      "nome": "PARCT_2020_N_00112_CTAS_PAGINA_SITE.html",
+      "sha256": "b4145d28bddd3c084ad52f9a2f2c7c588a3ae48077741bdfe13bef62f77530a8",
+      "tamanho": 458449
+    },
+    {
+      "nome": "PARCT_2020_N_00112_CTAS_TEXTO_FONTE_V1.txt",
+      "sha256": "5ebb18e7f241117c78217d405f9198746bc32f1e5ac69e72b70562a8cecbc159",
+      "tamanho": 19200
+    },
+    {
+      "nome": "PARCT_2020_N_00112_CTAS_VALIDACAO_V1.json",
+      "sha256": "2369d337440d7810d799f0a63764cdfb005d6a763071fb9607f8ecce16c37f9c",
+      "tamanho": 2808
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência."
+  ]
+}

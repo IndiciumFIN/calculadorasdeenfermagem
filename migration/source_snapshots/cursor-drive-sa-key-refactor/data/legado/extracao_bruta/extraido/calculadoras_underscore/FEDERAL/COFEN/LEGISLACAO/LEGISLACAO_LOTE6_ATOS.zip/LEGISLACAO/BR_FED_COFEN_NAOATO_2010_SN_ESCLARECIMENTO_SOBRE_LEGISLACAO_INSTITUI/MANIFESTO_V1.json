@@ -1,0 +1,44 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/esclarecimentos-sobre-a-autarquia-cofencorens/ (API WordPress post 4164); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "NAOATO_2010_SN_ESCLARECIMENTO_SOBRE_LEGISLACAO_INSTITUI_ATOMOS_V1.jsonl",
+      "sha256": "f9a8faa36b2f3a62bc9b447418de2d29e936455d8f8933f9e776d19aa05bd9da",
+      "tamanho": 101818
+    },
+    {
+      "nome": "NAOATO_2010_SN_ESCLARECIMENTO_SOBRE_LEGISLACAO_INSTITUI_CONTEUDO_SITE_API.json",
+      "sha256": "d615f6ef04e2980026ba0f34efa4596d7d1aba2803e96cb1b1235fcab0b97950",
+      "tamanho": 25930
+    },
+    {
+      "nome": "NAOATO_2010_SN_ESCLARECIMENTO_SOBRE_LEGISLACAO_INSTITUI_NORMA_V1.json",
+      "sha256": "78bb674f0d8f1fb4caeb4b3abebf853b20b56c44376824b5f1608070b032de29",
+      "tamanho": 5486
+    },
+    {
+      "nome": "NAOATO_2010_SN_ESCLARECIMENTO_SOBRE_LEGISLACAO_INSTITUI_PAGINA_SITE.html",
+      "sha256": "ab11aed3ec37fdaa56c6ec493a74b30bd9f061e75d13db5b8e87f44367fd11d6",
+      "tamanho": 462081
+    },
+    {
+      "nome": "NAOATO_2010_SN_ESCLARECIMENTO_SOBRE_LEGISLACAO_INSTITUI_TEXTO_FONTE_V1.txt",
+      "sha256": "6ad64cad5fae9d936c3cc9c034538eac1ecf458d76dc6e47ed907fc763d23c96",
+      "tamanho": 24673
+    },
+    {
+      "nome": "NAOATO_2010_SN_ESCLARECIMENTO_SOBRE_LEGISLACAO_INSTITUI_VALIDACAO_V1.json",
+      "sha256": "f9186ab60927ed8a4181bed0f7ad8bea325fdfbfa32b08275c98c9c38ea79d90",
+      "tamanho": 3346
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Ato sem número no site; identificador formado por slug.",
+    "TIPO: listado em categoria de Legislação, mas o título não identifica um ato (\"Esclarecimento sobre a legislação que institui o Sistema Cofen/Conselhos Regionais\"). ANO: ano do ato não consta do título; usado o ano do post (data de publicação no site, não do ato).",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

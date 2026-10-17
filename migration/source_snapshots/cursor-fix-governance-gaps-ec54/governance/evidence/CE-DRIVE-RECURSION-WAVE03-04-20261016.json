@@ -1,0 +1,20 @@
+{
+  "schema": "CE-DRIVE-OBS-1.0",
+  "status": "PARTIAL_NOT_KERNEL_APPROVED",
+  "branch": "cursor/fix-governance-gaps-ec54",
+  "wave03": {
+    "folders_queried": 4,
+    "items_returned": 43
+  },
+  "wave04": {
+    "folders_queried": 5,
+    "items_returned": 30
+  },
+  "controls": {
+    "no_delete": true,
+    "no_publication": true,
+    "no_sha256_claim": true,
+    "overlap_provenance_hold": true
+  },
+  "note": "Metadata-only counts from connector, not unique files, no complete recursion claim."
+}

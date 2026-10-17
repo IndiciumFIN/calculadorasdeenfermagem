@@ -1,0 +1,44 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/regulamentao-do-sistema-de-avaliao-da-educao-superior/ (API WordPress post 4226); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "OUTRO_2010_SN_REGULAMENTACAO_SISTEMA_AVALIACAO_EDUCACAO_ATOMOS_V1.jsonl",
+      "sha256": "672a7c4b808d166fd85b5aaf2316ca4a5d482c625c0ac32b177ca2abf0232c82",
+      "tamanho": 50163
+    },
+    {
+      "nome": "OUTRO_2010_SN_REGULAMENTACAO_SISTEMA_AVALIACAO_EDUCACAO_CONTEUDO_SITE_API.json",
+      "sha256": "1b05b1b9c836858c3c4478bbdf78ab0a401bd664d66e3c8782ceb966233e4836",
+      "tamanho": 14583
+    },
+    {
+      "nome": "OUTRO_2010_SN_REGULAMENTACAO_SISTEMA_AVALIACAO_EDUCACAO_NORMA_V1.json",
+      "sha256": "49f3084c0d202e5a1056e01e5f97791cb057ad7acbe4be3eefa8f87dea59dd24",
+      "tamanho": 3782
+    },
+    {
+      "nome": "OUTRO_2010_SN_REGULAMENTACAO_SISTEMA_AVALIACAO_EDUCACAO_PAGINA_SITE.html",
+      "sha256": "71e6b1f1fb7ad599cf19dff13cfa10a0bf8b51383d17d15e90acb26281fa1d79",
+      "tamanho": 453381
+    },
+    {
+      "nome": "OUTRO_2010_SN_REGULAMENTACAO_SISTEMA_AVALIACAO_EDUCACAO_TEXTO_FONTE_V1.txt",
+      "sha256": "c136adbb440b36c8c06fe95f681eab2791af8b53f3abc57b15e264c7275977d3",
+      "tamanho": 13768
+    },
+    {
+      "nome": "OUTRO_2010_SN_REGULAMENTACAO_SISTEMA_AVALIACAO_EDUCACAO_VALIDACAO_V1.json",
+      "sha256": "5bf2d0e81a94cfa7e63d8cbc0ceee7d1bdffea3d0d9c0f7d89292f5f3c64f9b7",
+      "tamanho": 3334
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir.",
+    "Ato sem número no site; identificador formado por slug.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

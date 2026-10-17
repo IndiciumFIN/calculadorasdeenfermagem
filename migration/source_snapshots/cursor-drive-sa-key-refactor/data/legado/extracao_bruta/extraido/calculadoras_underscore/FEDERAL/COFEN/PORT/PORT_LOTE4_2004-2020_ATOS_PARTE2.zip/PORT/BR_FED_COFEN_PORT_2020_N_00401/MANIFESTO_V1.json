@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-401-de-11-de-agosto-de-2020/ (API WordPress post 81713); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2020_N_00401_ATOMOS_V1.jsonl",
+      "sha256": "ed28d626a23dad9bedb4fc57309fe7394153414c09e36a0992a3acf9d245ea40",
+      "tamanho": 6093
+    },
+    {
+      "nome": "PORT_2020_N_00401_CONTEUDO_SITE_API.json",
+      "sha256": "57574d7a39765e0d63b674ec6cff33b3406daa908182ab6174a6ab721ae6ab1c",
+      "tamanho": 1446
+    },
+    {
+      "nome": "PORT_2020_N_00401_NORMA_V1.json",
+      "sha256": "4922ca8040d0eafcb7241dc3b6cc87ab068e841fca086bd26cd1905266b00def",
+      "tamanho": 3054
+    },
+    {
+      "nome": "PORT_2020_N_00401_PAGINA_SITE.html",
+      "sha256": "055429948cb96eb4057b2cb1989eae19acd722334ff9b7c900d36d723c143464",
+      "tamanho": 440078
+    },
+    {
+      "nome": "PORT_2020_N_00401_TEXTO_FONTE_V1.txt",
+      "sha256": "f38af88858f26de07711e37164dacead682f9f504c77afb2bdae2ba56661348b",
+      "tamanho": 870
+    },
+    {
+      "nome": "PORT_2020_N_00401_VALIDACAO_V1.json",
+      "sha256": "37aa226120e2a21029317608b4457cf6674dd7baa69aa179c855f33a1bbdaaa3",
+      "tamanho": 2459
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

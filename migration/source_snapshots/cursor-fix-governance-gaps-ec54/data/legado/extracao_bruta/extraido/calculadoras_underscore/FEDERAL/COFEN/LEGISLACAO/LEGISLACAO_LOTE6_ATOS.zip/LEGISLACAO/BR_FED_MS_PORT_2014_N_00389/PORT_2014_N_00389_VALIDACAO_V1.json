@@ -1,0 +1,145 @@
+{
+  "identificador": "BR_FED_MS_PORT_2014_N_00389",
+  "resultado_processo": "PENDENTE",
+  "rotulo": "Pendente de verificação",
+  "controles": [
+    {
+      "nome": "Identificação do ato e emissor",
+      "resultado": "PASS",
+      "evidencia": "Portaria 389| MS| 2014 | Linha de Cuidado do Paciente Renal Crônico"
+    },
+    {
+      "nome": "Conferência site HTML × PDF oficial, dispositivo a dispositivo",
+      "resultado": "NAO_EXECUTADO",
+      "status": "NAO_APLICAVEL_TEXTO_SO_NO_PDF",
+      "evidencia": {
+        "dispositivos_comparados": 0,
+        "por_resultado": {},
+        "trechos_pdf_ausentes_no_site": 0,
+        "pdf": "PORT_2014_N_00389_PDF_SITE.pdf"
+      }
+    },
+    {
+      "nome": "Publicação no DOU (registro, sem verificação online)",
+      "resultado": "NAO_CITADO",
+      "evidencia": null
+    },
+    {
+      "nome": "Anexos referenciados presentes e atomizados",
+      "resultado": "PASS",
+      "status": "PRESENTE_E_ATOMIZADO",
+      "referencias": [
+        "nceiro no com- ponente Serviço Ambulatorial (SA) dos procedimentos descritos no Anexo IV e nas porcentagens estabelecidas no Anexo III.",
+        "tipologia da Unidade Especializada em DRC com TRS/Diálise, conforme descrito no Anexo III.",
+        "em diálise/TRS no respectivo estabelecimento de saúde, conforme preconizado no Anexo III, poderá ocorrer a reclassificação ou extinção das habi- litações das Unidad",
+        "006-0 - acompanhamento multiprofissional em DRC estágio 5 pré-diálise, conforme Anexo I.",
+        "tenção à Doença Renal Crônica com as respectivas classificações e CBO, conforme Anexo V.",
+        "put\" varia con- forme a quantidade de pacientes em DRC estágio 4 ou 5, conforme Anexo III, sendo repassado fundo a fundo no teto financeiro do g e s t o r.",
+        "roduzir as informações para atender aos indica- dores de qualidade definidos no Anexo I e se comprometer com as metas estabelecidas.",
+        "ANEXO I",
+        "ANEXO II",
+        "ANEXO III"
+      ]
+    },
+    {
+      "nome": "Numeração contígua (seções, itens, alíneas)",
+      "resultado": "FAIL",
+      "evidencia": [
+        "Seções numeradas: [1, 130]",
+        "Seções numeradas: [14, 3]",
+        "Seções numeradas: começa em 14 (sequência [14, 3])",
+        "Alíneas sob BR_FED_MS_PORT_2014_N_00389_PARAGRAFO_TEXTO_002: começa em g (sequência [7]) [alíneas: provável transcrição parcial de outra norma]",
+        "Alíneas sob BR_FED_MS_PORT_2014_N_00389_SECAO_001: começa em h (sequência [8]) [alíneas: provável transcrição parcial de outra norma]",
+        "Alíneas sob BR_FED_MS_PORT_2014_N_00389_ANEXO_002_PARAGRAFO_TEXTO_039: começa em b (sequência [2]) [alíneas: provável transcrição parcial de outra norma]",
+        "Alíneas sob BR_FED_MS_PORT_2014_N_00389_ANEXO_002_PARAGRAFO_TEXTO_040: começa em b (sequência [2]) [alíneas: provável transcrição parcial de outra norma]",
+        "Alíneas sob BR_FED_MS_PORT_2014_N_00389_ANEXO_002_SECAO_005: [1, 2, 2] [alíneas: provável transcrição parcial de outra norma]",
+        "Alíneas sob BR_FED_MS_PORT_2014_N_00389_ANEXO_003_PARAGRAFO_TEXTO_048: começa em b (sequência [2]) [alíneas: provável transcrição parcial de outra norma]",
+        "Alíneas sob BR_FED_MS_PORT_2014_N_00389_ANEXO_003_PARAGRAFO_TEXTO_050: começa em b (sequência [2]) [alíneas: provável transcrição parcial de outra norma]",
+        "Alíneas sob BR_FED_MS_PORT_2014_N_00389_ANEXO_005_SECAO_006: começa em b (sequência [2]) [alíneas: provável transcrição parcial de outra norma]"
+      ]
+    },
+    {
+      "nome": "Conferência humana da literalidade",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Pesquisa de alterações posteriores",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Direitos autorais do texto do ato oficial",
+      "resultado": "PASS",
+      "fundamento": "Lei 9.610/1998, art. 8, IV"
+    }
+  ],
+  "fechamento": {
+    "apto": false,
+    "status": "PENDENCIAS",
+    "justificativa": "Aguardando revisão humana da atomização e pesquisa de atos posteriores. Há achados bloqueantes adicionais."
+  },
+  "achados": [
+    {
+      "codigo": "C001",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Atomização automática; requer conferência humana da segmentação e da literalidade."
+    },
+    {
+      "codigo": "C002",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada."
+    },
+    {
+      "codigo": "C052",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+      "evidencia": [
+        "PORT_2014_N_00389_PDF_SITE.pdf"
+      ]
+    },
+    {
+      "codigo": "C016",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "Texto do ato disponível apenas no PDF (o site traz só título/resumo); atomização feita a partir da camada de texto do PDF."
+    },
+    {
+      "codigo": "C030",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+      "evidencia": [
+        "Seções numeradas: [1, 130]",
+        "Seções numeradas: [14, 3]"
+      ]
+    },
+    {
+      "codigo": "C031",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir.",
+      "evidencia": [
+        "Seções numeradas: começa em 14 (sequência [14, 3])",
+        "Alíneas sob BR_FED_MS_PORT_2014_N_00389_PARAGRAFO_TEXTO_002: começa em g (sequência [7]) [alíneas: provável transcrição parcial de outra norma]",
+        "Alíneas sob BR_FED_MS_PORT_2014_N_00389_SECAO_001: começa em h (sequência [8]) [alíneas: provável transcrição parcial de outra norma]",
+        "Alíneas sob BR_FED_MS_PORT_2014_N_00389_ANEXO_002_PARAGRAFO_TEXTO_039: começa em b (sequência [2]) [alíneas: provável transcrição parcial de outra norma]",
+        "Alíneas sob BR_FED_MS_PORT_2014_N_00389_ANEXO_002_PARAGRAFO_TEXTO_040: começa em b (sequência [2]) [alíneas: provável transcrição parcial de outra norma]",
+        "Alíneas sob BR_FED_MS_PORT_2014_N_00389_ANEXO_002_SECAO_005: [1, 2, 2] [alíneas: provável transcrição parcial de outra norma]",
+        "Alíneas sob BR_FED_MS_PORT_2014_N_00389_ANEXO_003_PARAGRAFO_TEXTO_048: começa em b (sequência [2]) [alíneas: provável transcrição parcial de outra norma]",
+        "Alíneas sob BR_FED_MS_PORT_2014_N_00389_ANEXO_003_PARAGRAFO_TEXTO_050: começa em b (sequência [2]) [alíneas: provável transcrição parcial de outra norma]",
+        "Alíneas sob BR_FED_MS_PORT_2014_N_00389_ANEXO_005_SECAO_006: começa em b (sequência [2]) [alíneas: provável transcrição parcial de outra norma]"
+      ]
+    },
+    {
+      "codigo": "C051",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "Data do ato não identificada no texto; usada a data do post no site."
+    }
+  ],
+  "conferencia_por_dispositivo": [],
+  "data_verificacao": "2026-10-10",
+  "responsavel": "Triagem automatizada - requer validação humana"
+}

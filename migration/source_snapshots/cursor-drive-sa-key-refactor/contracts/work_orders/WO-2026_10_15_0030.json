@@ -1,0 +1,52 @@
+{
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "entradas": [
+    {
+      "id_origem": "1SrieLn7U9sf6tCVdfWLwD7JdcNvEtL-1",
+      "caminho": "medlineplus/health_topics_es.csv",
+      "classe": "REFERENCIA",
+      "sha256": "3a95c2f1d9c5ce6fc08f4a88be9eae6d6a1bd5142dd7b5448c264b610b4d8ca4"
+    },
+    {
+      "id_origem": "1U_818JaGuZtizXjYFYdU8GsTJ5AxphAF",
+      "caminho": "medlineplus/health_topics_en.csv",
+      "classe": "REFERENCIA",
+      "sha256": "0edfe1992b6a1d9bf58b6d5b1a51235128d65e6e16188aeaa2db213d270f6d2d"
+    },
+    {
+      "id_origem": "1hrjo_TJCI3oy761mDEuhzy5HrZOBSqjd",
+      "caminho": "medlineplus/health_topics_todos.csv",
+      "classe": "REFERENCIA",
+      "sha256": "08fd6e47bb5b43d1d43e3520ea01ff97a947691d7ce00f36d19ef7a6cdbd5cab"
+    },
+    {
+      "id_origem": "15q9abQLqAj4t70tistOHhORnlBhRKgQb",
+      "caminho": "medlineplus/health_topics_es.json",
+      "classe": "REFERENCIA",
+      "sha256": "20bbefb3b0c39b3f86b330ade3c790855e0a1c51f47ad2efc09d94c91a22448b"
+    },
+    {
+      "id_origem": "1F30ds9hIoS_o003gWXzWz00hSciZZjdf",
+      "caminho": "medlineplus/health_topics_todos.json",
+      "classe": "REFERENCIA",
+      "sha256": "d1ea77b552398d213223738145e32de40f28da07d3cf3c902c7427e02ace4afd"
+    },
+    {
+      "id_origem": "1jWqNrJ7wS5zGnotk9VJzcQMThmWzmQ_N",
+      "caminho": "medlineplus/health_topics_en.json",
+      "classe": "REFERENCIA",
+      "sha256": "a3adc1c3a7c067302719dafaded3c4966093e97bec9c4abb1914f5be4ae339c5"
+    }
+  ],
+  "task_version": "1.0.0",
+  "id": "WO-2026_10_15_0030",
+  "task_type": "atomizar",
+  "parametros": {
+    "lote": "medlineplus",
+    "origem_work_order": "WO-2026_10_15_0029"
+  },
+  "task_id": "TAREFA-ATOMIZAR"
+}

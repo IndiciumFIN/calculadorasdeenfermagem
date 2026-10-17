@@ -1,0 +1,51 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-1081-de-26-de-julho-de-2022/ (API WordPress post 101073); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2022_N_01081_ATOMOS_V1.jsonl",
+      "sha256": "a63cb14452199f9d728cb90ca2a890233b8011cf3d281279f1daa2b605990377",
+      "tamanho": 8723
+    },
+    {
+      "nome": "PORT_2022_N_01081_CONTEUDO_SITE_API.json",
+      "sha256": "81fc77d379e71664890468b7e20cca4447bb437090c1d120490bb0d79b672913",
+      "tamanho": 1668
+    },
+    {
+      "nome": "PORT_2022_N_01081_NORMA_V1.json",
+      "sha256": "105f48dee86812a40eee11e338b1a91c4c937481de2700a32e003c2467371867",
+      "tamanho": 3998
+    },
+    {
+      "nome": "PORT_2022_N_01081_PAGINA_SITE.html",
+      "sha256": "ed076f968fe6debb285134ec6cfde74cdf8788da8c935f88632e88a4b8b88bc6",
+      "tamanho": 441506
+    },
+    {
+      "nome": "PORT_2022_N_01081_PDF_SITE.pdf",
+      "sha256": "f2fb13e43f563ce24eef1f3df919b363ce15ec00434669fe8b8cc9c4073279b2",
+      "tamanho": 471523
+    },
+    {
+      "nome": "PORT_2022_N_01081_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "1dbc4fa7f2f0f0c1ecc56513ad96e9e8d544ea3017ea1adc73f757ee2204029e",
+      "tamanho": 1219
+    },
+    {
+      "nome": "PORT_2022_N_01081_TEXTO_FONTE_V1.txt",
+      "sha256": "8bc374c18989f296d0b828b9a249a2bc2febca15c04c235c498e34f55c6190b6",
+      "tamanho": 1054
+    },
+    {
+      "nome": "PORT_2022_N_01081_VALIDACAO_V1.json",
+      "sha256": "44c3ec8f9a8db17811afe447d5ef0e71382ce29a77e289157e8346d444e25096",
+      "tamanho": 4318
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+  ]
+}

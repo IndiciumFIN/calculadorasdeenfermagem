@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-452-de-23-de-marco-de-2023/ (API WordPress post 107022); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2023_N_00452_ATOMOS_V1.jsonl",
+      "sha256": "a9de2faf5bef6c872060f988bf9a8a0f053431987bf7b0b4262e677a07673c19",
+      "tamanho": 8032
+    },
+    {
+      "nome": "PORT_2023_N_00452_CONTEUDO_SITE_API.json",
+      "sha256": "e7b1eb1891c04fe7a5aaf5710f0edb55bc101b0acb26ef3763448428c9d012f8",
+      "tamanho": 2681
+    },
+    {
+      "nome": "PORT_2023_N_00452_NORMA_V1.json",
+      "sha256": "fc66fc8f8c5329fc20cfdbad2205c73102a9f00c428737d5c1bb4148c61aff95",
+      "tamanho": 7527
+    },
+    {
+      "nome": "PORT_2023_N_00452_PAGINA_SITE.html",
+      "sha256": "7c898b461a6e9b823613e7f39d6ddac59030a7dfe2c1c17021aa4e88b3a69a18",
+      "tamanho": 441243
+    },
+    {
+      "nome": "PORT_2023_N_00452_PDF_SITE.pdf",
+      "sha256": "0d69de3823348ce9093423f45a34dfa71b38beb9dd2f953dc47c763da26ac184",
+      "tamanho": 438112
+    },
+    {
+      "nome": "PORT_2023_N_00452_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "035d7e870d7f5ae2c9f992a9bf0a4c2d3af7e883318f29f157cc3546615fce99",
+      "tamanho": 14836
+    },
+    {
+      "nome": "PORT_2023_N_00452_TEXTO_FONTE_V1.txt",
+      "sha256": "2a618497df1d37beb5acf913d3be84cbde4177273e3e6e0b074bf265bb5aa657",
+      "tamanho": 1016
+    },
+    {
+      "nome": "PORT_2023_N_00452_VALIDACAO_V1.json",
+      "sha256": "735afdafc1990a00dabd2011c4fd448d27f44543ee7186806e066238fc8738c6",
+      "tamanho": 4799
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo."
+  ]
+}

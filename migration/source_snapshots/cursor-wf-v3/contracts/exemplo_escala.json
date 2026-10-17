@@ -1,0 +1,12 @@
+{
+  "id_escala": "ESC-2026-001",
+  "nome": "Escala de Braden",
+  "descricao": "Avaliação de risco de lesão por pressão",
+  "fonte_normativa": "NORM-XXXX",
+  "parametros": [
+    { "nome": "percepcao_sensorial", "tipo": "select", "opcoes": ["1", "2", "3", "4"], "peso": 1 },
+    { "nome": "umidade", "tipo": "select", "opcoes": ["1", "2", "3", "4"], "peso": 1 }
+  ],
+  "formula": "soma dos parâmetros",
+  "versao_contrato": "1.0.0"
+}

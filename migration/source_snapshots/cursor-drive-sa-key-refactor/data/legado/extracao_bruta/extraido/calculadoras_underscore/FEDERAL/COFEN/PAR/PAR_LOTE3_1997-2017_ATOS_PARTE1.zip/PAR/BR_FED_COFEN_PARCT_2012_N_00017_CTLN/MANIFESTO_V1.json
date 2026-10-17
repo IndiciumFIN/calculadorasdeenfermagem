@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-camara-tecnica-no-17-2012-ctln-cofen/ (API WordPress post 87512); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2012_N_00017_CTLN_ATOMOS_V1.jsonl",
+      "sha256": "76597e536c265b79ecc34a355ae4100ca9540344571bcca7e4d88222370d008b",
+      "tamanho": 23938
+    },
+    {
+      "nome": "PARCT_2012_N_00017_CTLN_CONTEUDO_SITE_API.json",
+      "sha256": "7677cbe2787e88be87dc55991de7b1d2bee19469704541b7f693cc5a30c479d0",
+      "tamanho": 9374
+    },
+    {
+      "nome": "PARCT_2012_N_00017_CTLN_NORMA_V1.json",
+      "sha256": "aa3d17f5bc0b78ccd17c961ad0da5605396d36b37a26441611ff13253765b411",
+      "tamanho": 2463
+    },
+    {
+      "nome": "PARCT_2012_N_00017_CTLN_PAGINA_SITE.html",
+      "sha256": "f607204ca417552a79a2c438810c210c37ec8a0e65f30c5bccd1a06bdadc4836",
+      "tamanho": 446999
+    },
+    {
+      "nome": "PARCT_2012_N_00017_CTLN_TEXTO_FONTE_V1.txt",
+      "sha256": "1b31e58bcc8158c987569194bd274e7077b4ecf25a31fbaf0217042684d92c37",
+      "tamanho": 7083
+    },
+    {
+      "nome": "PARCT_2012_N_00017_CTLN_VALIDACAO_V1.json",
+      "sha256": "71842cd14004c24932f83d5c010a3f38b50c18e9875e4bd0532e082333033577",
+      "tamanho": 2470
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

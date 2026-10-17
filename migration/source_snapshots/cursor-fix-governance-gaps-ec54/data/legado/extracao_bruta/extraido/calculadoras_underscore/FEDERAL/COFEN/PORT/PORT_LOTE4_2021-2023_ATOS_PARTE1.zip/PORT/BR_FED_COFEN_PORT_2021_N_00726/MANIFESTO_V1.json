@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-726-de-15-de-julho-de-2021/ (API WordPress post 88832); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2021_N_00726_ATOMOS_V1.jsonl",
+      "sha256": "3cd71e8896599414c88cca416e1291cc76fc027c0aee4d133dc8f8b8e1d9a0fb",
+      "tamanho": 7759
+    },
+    {
+      "nome": "PORT_2021_N_00726_CONTEUDO_SITE_API.json",
+      "sha256": "1dcb69ae7a7febafeca673fd5deb594a07075a4e4e8b25bafa7cd8971473c907",
+      "tamanho": 2005
+    },
+    {
+      "nome": "PORT_2021_N_00726_NORMA_V1.json",
+      "sha256": "11e3f43936ad1dd0c4a848f825e9e27a8418d841c6500c961a4991c75c19baf4",
+      "tamanho": 3042
+    },
+    {
+      "nome": "PORT_2021_N_00726_PAGINA_SITE.html",
+      "sha256": "0ec3191581fcfdf3d71e1bcb2adc4c5cb64df3a3cf80e10821b5e366adb4f765",
+      "tamanho": 441765
+    },
+    {
+      "nome": "PORT_2021_N_00726_TEXTO_FONTE_V1.txt",
+      "sha256": "d3810d140b588099c72806935f4eeff2e63bf4364ece696119a2a23898cae4d0",
+      "tamanho": 1352
+    },
+    {
+      "nome": "PORT_2021_N_00726_VALIDACAO_V1.json",
+      "sha256": "e15c48a4d1954e2c28b189813634706b955fdfbc14a0a1165ae2bca0123bffe3",
+      "tamanho": 2458
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

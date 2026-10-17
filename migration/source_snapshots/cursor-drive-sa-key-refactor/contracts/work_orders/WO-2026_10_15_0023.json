@@ -1,0 +1,65 @@
+{
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "entradas": [
+    {
+      "id_origem": "1cIHdDi6Q5-Db1yYhbI_nJATCUsmnl9bD",
+      "caminho": "vacinas/cdsi_esquemas_doses_acip.csv",
+      "classe": "REFERENCIA",
+      "sha256": "e9c830c74949ac4d860d3f959585ab6530807df33518c2cc2b77b4351b4c5a34"
+    },
+    {
+      "id_origem": "1CzgnyQvWMNCWZJX-gXcRWcIK6dJjUJJK",
+      "caminho": "vacinas/cdsi_cvx_para_antigeno.csv",
+      "classe": "REFERENCIA",
+      "sha256": "23ba6014bd4976534f934cd963c0a5c1fab4968c06a536ad9ed25a49793bb288"
+    },
+    {
+      "id_origem": "13STGIUK3NlCXqGYPMaikki0trif6-_eN",
+      "caminho": "vacinas/cdsi_observacoes_condicoes.csv",
+      "classe": "REFERENCIA",
+      "sha256": "fa4772667b9b4dffab97cbf11d7234053086b462a7c816498fd81406ca570298"
+    },
+    {
+      "id_origem": "1H6AKUMovFr6qbVdrtaaxX-uvoawt1GgG",
+      "caminho": "vacinas/cdc_cvx_codigos_vacinas.csv",
+      "classe": "REFERENCIA",
+      "sha256": "f6d74621a8e397d06e42c3c32df27451a8aeb5a8de35c130a413e86cdbbff7d4"
+    },
+    {
+      "id_origem": "1mu-R46oQG4g2Svuh9tW3-k3su05Hrkpb",
+      "caminho": "vacinas/cdsi_observacoes_condicoes.json",
+      "classe": "REFERENCIA",
+      "sha256": "5f2eae41dc1f4d4b618fa816eb73063c2fffffb74f5ea808233614e71a5d1ab5"
+    },
+    {
+      "id_origem": "1VtjwRQ_yUH72t3nDg8Uy5tN9Wi0BWaKM",
+      "caminho": "vacinas/cdsi_esquemas_doses_acip.json",
+      "classe": "REFERENCIA",
+      "sha256": "4979c9a595a4eb5ac5365c77fb610a68a6367df663c7ddb29824b8c21e0f78c2"
+    },
+    {
+      "id_origem": "14cdnYSmLSE3Cw0Dp59wY-5CBoHIUz7b8",
+      "caminho": "vacinas/cdsi_cvx_para_antigeno.json",
+      "classe": "REFERENCIA",
+      "sha256": "ba9ab30c569dabe0f1c2bef9999e05c47255f2b5e281c0d5761ee160001959b1"
+    },
+    {
+      "id_origem": "1kSZpD7LSQ6ZYEJTSiTWEfMG1CMCdTqEt",
+      "caminho": "vacinas/cdc_cvx_codigos_vacinas.json",
+      "classe": "REFERENCIA",
+      "sha256": "e6c6ddfb885eff28603b1aa5486b9aa168317cbd99e801a5c1169b5adc1b6f3c"
+    }
+  ],
+  "task_version": "1.0.0",
+  "id": "WO-2026_10_15_0023",
+  "task_type": "validar",
+  "parametros": {
+    "lote": "vacinas",
+    "atomizar_work_order": "WO-2026_10_15_0022"
+  },
+  "task_id": "TAREFA-VALIDAR",
+  "checker_id": "kernel-validar"
+}

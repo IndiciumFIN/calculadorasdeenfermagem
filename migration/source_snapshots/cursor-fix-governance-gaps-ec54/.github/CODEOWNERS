@@ -1,0 +1,16 @@
+# CODEOWNERS — caminhos de governança exigem revisão humana (GAP-03).
+# Só tem efeito pleno com branch protection exigindo review de code owner
+# (ação manual documentada em docs/GAP_REMEDIATION.md).
+# O próprio .github/ está coberto: um PR não pode alterar o gate que o valida
+# sem revisão humana.
+
+*                   @IndiciumFIN
+
+/.github/           @IndiciumFIN
+/.github/CODEOWNERS @IndiciumFIN
+/gates/             @IndiciumFIN
+/contracts/         @IndiciumFIN
+/packages/schemas/  @IndiciumFIN
+/agents/            @IndiciumFIN
+/prompts/           @IndiciumFIN
+/supabase/          @IndiciumFIN

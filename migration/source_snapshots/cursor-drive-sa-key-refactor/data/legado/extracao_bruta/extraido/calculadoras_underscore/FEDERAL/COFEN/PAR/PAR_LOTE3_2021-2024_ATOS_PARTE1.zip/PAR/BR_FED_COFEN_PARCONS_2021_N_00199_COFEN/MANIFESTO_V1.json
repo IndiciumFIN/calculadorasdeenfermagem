@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-conselheira-federal-no-199-2021-cofen/ (API WordPress post 95195); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCONS_2021_N_00199_COFEN_ATOMOS_V1.jsonl",
+      "sha256": "da629ce9d07ca19afcab21b74e9f7d64654e93a33131864fa206c99004d5d884",
+      "tamanho": 65871
+    },
+    {
+      "nome": "PARCONS_2021_N_00199_COFEN_CONTEUDO_SITE_API.json",
+      "sha256": "0f0b5f9c82a41bcaf67260b7c54e0bbe3c038ef8313ddaf56792606ca7c28b03",
+      "tamanho": 19415
+    },
+    {
+      "nome": "PARCONS_2021_N_00199_COFEN_NORMA_V1.json",
+      "sha256": "bea5f942beb9c796c8540f15e28e074b9458ddb06e97bd69e4a29b9338cf9055",
+      "tamanho": 5051
+    },
+    {
+      "nome": "PARCONS_2021_N_00199_COFEN_PAGINA_SITE.html",
+      "sha256": "f4d45bbd48ff44b338d83ae976fd6f6a8811902f7035520ae6eb9590defd9d0e",
+      "tamanho": 456773
+    },
+    {
+      "nome": "PARCONS_2021_N_00199_COFEN_TEXTO_FONTE_V1.txt",
+      "sha256": "252e179d8d5ddd7f0aad8935ae0dbefcea6466436eed7febc90df5789005c299",
+      "tamanho": 17289
+    },
+    {
+      "nome": "PARCONS_2021_N_00199_COFEN_VALIDACAO_V1.json",
+      "sha256": "3a33fdb90a0b72e8a672f74651b80199ef4c4ba26bf7582c39744013dd0352b4",
+      "tamanho": 2472
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

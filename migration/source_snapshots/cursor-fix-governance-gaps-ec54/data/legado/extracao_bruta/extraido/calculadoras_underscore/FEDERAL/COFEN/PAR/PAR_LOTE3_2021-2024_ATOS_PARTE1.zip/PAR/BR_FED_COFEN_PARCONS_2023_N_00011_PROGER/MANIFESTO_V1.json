@@ -1,0 +1,43 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-conselheira-federal-no-11-2023-proger-dpac-spc-cofen/ (API WordPress post 119505); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCONS_2023_N_00011_PROGER_ATOMOS_V1.jsonl",
+      "sha256": "42a1bff3f41fe74cb46f1054b9a04739557c4f81d957fdd5b0bc66fa8cab254a",
+      "tamanho": 145392
+    },
+    {
+      "nome": "PARCONS_2023_N_00011_PROGER_CONTEUDO_SITE_API.json",
+      "sha256": "8e2b217e6c775f4b2d2a2c101136ca6f086c191342c3ae553fb2062300864687",
+      "tamanho": 37475
+    },
+    {
+      "nome": "PARCONS_2023_N_00011_PROGER_NORMA_V1.json",
+      "sha256": "f1a735eac1880c00cab4761880222be66b4e0bf1df572e6df5471c6d12b0105e",
+      "tamanho": 6542
+    },
+    {
+      "nome": "PARCONS_2023_N_00011_PROGER_PAGINA_SITE.html",
+      "sha256": "e2be59fe59cb6d6d4e21c8362c0ecfe6abd9962f8e529a80bb530591695eaaba",
+      "tamanho": 478698
+    },
+    {
+      "nome": "PARCONS_2023_N_00011_PROGER_TEXTO_FONTE_V1.txt",
+      "sha256": "d8bc22b6699c18716ff75d30faf9881599a19593767c06e2625dd0b71124dfcd",
+      "tamanho": 34334
+    },
+    {
+      "nome": "PARCONS_2023_N_00011_PROGER_VALIDACAO_V1.json",
+      "sha256": "2831c054e0c9f73786c106a692ddd22fe005bfb3c7e90abcc38e3708eb64f362",
+      "tamanho": 3470
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir."
+  ]
+}

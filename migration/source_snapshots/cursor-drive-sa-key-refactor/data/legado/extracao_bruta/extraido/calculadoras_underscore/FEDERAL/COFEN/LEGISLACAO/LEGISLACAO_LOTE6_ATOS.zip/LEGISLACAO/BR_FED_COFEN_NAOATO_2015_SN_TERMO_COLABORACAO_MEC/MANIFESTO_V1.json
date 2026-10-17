@@ -1,0 +1,56 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/termo-de-colaboracao-do-mec/ (API WordPress post 35429); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "NAOATO_2015_SN_TERMO_COLABORACAO_MEC_ATOMOS_V1.jsonl",
+      "sha256": "02d341ecce2c466270af408fa0acc74f6642f50043f29e3c39e2cbbc2759779b",
+      "tamanho": 45906
+    },
+    {
+      "nome": "NAOATO_2015_SN_TERMO_COLABORACAO_MEC_CONTEUDO_SITE_API.json",
+      "sha256": "4a65c1e884e0715b7e3009422d300c90df449b2e948ddd14644903d87c0fdad5",
+      "tamanho": 527
+    },
+    {
+      "nome": "NAOATO_2015_SN_TERMO_COLABORACAO_MEC_NORMA_V1.json",
+      "sha256": "d645e9bdd43f07009559905641f8194994ecb1a0d784aac82693e0dcb1056fe8",
+      "tamanho": 6051
+    },
+    {
+      "nome": "NAOATO_2015_SN_TERMO_COLABORACAO_MEC_PAGINA_SITE.html",
+      "sha256": "74d6640c9dbc656e6843d42cbd6b40b8d0d6c77bbf55ad6675e6394cd17b01a0",
+      "tamanho": 436507
+    },
+    {
+      "nome": "NAOATO_2015_SN_TERMO_COLABORACAO_MEC_PDF_SITE.pdf",
+      "sha256": "64f3e7a732161dc9f30f6d4f8674bce88b57bf579985529a9be6501e88848b10",
+      "tamanho": 220185
+    },
+    {
+      "nome": "NAOATO_2015_SN_TERMO_COLABORACAO_MEC_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "18ce6b638bf3492daa78a1d2b1a6f0b3734200704c359d24d4241d281ad01b18",
+      "tamanho": 7533
+    },
+    {
+      "nome": "NAOATO_2015_SN_TERMO_COLABORACAO_MEC_TEXTO_FONTE_V1.txt",
+      "sha256": "7d995e26aade641ec34645031db093c408df4489e6493090310d6ab1613a692e",
+      "tamanho": 7563
+    },
+    {
+      "nome": "NAOATO_2015_SN_TERMO_COLABORACAO_MEC_VALIDACAO_V1.json",
+      "sha256": "515f452c2b019a2ca6871cfaa255d63cd89c8e43d18fd1b6e8582327e24f15b0",
+      "tamanho": 4315
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal.",
+    "Texto do ato disponível apenas no PDF digitalizado; transcrição por OCR, não literal. Revisão humana obrigatória.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir.",
+    "Ato sem número no site; identificador formado por slug.",
+    "TIPO: listado em categoria de Legislação, mas o título não identifica um ato (\"Termo de Colaboração do MEC\"). ANO: ano do ato não consta do título; usado o ano do post (data de publicação no site, não do ato)."
+  ]
+}

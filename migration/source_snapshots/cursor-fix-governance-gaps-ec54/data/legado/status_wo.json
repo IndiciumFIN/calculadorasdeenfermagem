@@ -1,0 +1,839 @@
+{
+  "verificado_em": "2026-10-15T15:01:24Z",
+  "nota": "Cada Work Order deste ciclo. BLOQUEADO não copiou o original e a campanha seguiu. PREAUTHORIZED está emitida e ainda não rodou no kernel.",
+  "work_orders": [
+    {
+      "id": "WO-2026_10_15_0001",
+      "tarefa": "obter",
+      "lote": "cid10-readme-fetch",
+      "entradas": 14,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0002",
+      "tarefa": "atomizar",
+      "lote": "cid10-readme-fetch",
+      "entradas": 14,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0003",
+      "tarefa": "validar",
+      "lote": "cid10-readme-fetch",
+      "entradas": 14,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0004",
+      "tarefa": "retirar",
+      "lote": "cid10-readme-fetch",
+      "entradas": 14,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0005",
+      "tarefa": "obter",
+      "lote": "sepse",
+      "entradas": 12,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0006",
+      "tarefa": "atomizar",
+      "lote": "sepse",
+      "entradas": 12,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0007",
+      "tarefa": "validar",
+      "lote": "sepse",
+      "entradas": 12,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0008",
+      "tarefa": "retirar",
+      "lote": "sepse",
+      "entradas": 12,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0009",
+      "tarefa": "obter",
+      "lote": "ferimentos",
+      "entradas": 10,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0010",
+      "tarefa": "atomizar",
+      "lote": "ferimentos",
+      "entradas": 10,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0011",
+      "tarefa": "validar",
+      "lote": "ferimentos",
+      "entradas": 10,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0012",
+      "tarefa": "retirar",
+      "lote": "ferimentos",
+      "entradas": 10,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0013",
+      "tarefa": "obter",
+      "lote": "sinais_vitais",
+      "entradas": 10,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0014",
+      "tarefa": "atomizar",
+      "lote": "sinais_vitais",
+      "entradas": 10,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0015",
+      "tarefa": "validar",
+      "lote": "sinais_vitais",
+      "entradas": 10,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0016",
+      "tarefa": "retirar",
+      "lote": "sinais_vitais",
+      "entradas": 10,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0017",
+      "tarefa": "obter",
+      "lote": "epidemiologico",
+      "entradas": 18,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0018",
+      "tarefa": "atomizar",
+      "lote": "epidemiologico",
+      "entradas": 18,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0019",
+      "tarefa": "validar",
+      "lote": "epidemiologico",
+      "entradas": 18,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0020",
+      "tarefa": "retirar",
+      "lote": "epidemiologico",
+      "entradas": 18,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0021",
+      "tarefa": "obter",
+      "lote": "vacinas",
+      "entradas": 8,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0022",
+      "tarefa": "atomizar",
+      "lote": "vacinas",
+      "entradas": 8,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0023",
+      "tarefa": "validar",
+      "lote": "vacinas",
+      "entradas": 8,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0024",
+      "tarefa": "retirar",
+      "lote": "vacinas",
+      "entradas": 8,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0025",
+      "tarefa": "obter",
+      "lote": "vacinal_brasil",
+      "entradas": 8,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0026",
+      "tarefa": "atomizar",
+      "lote": "vacinal_brasil",
+      "entradas": 8,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0027",
+      "tarefa": "validar",
+      "lote": "vacinal_brasil",
+      "entradas": 8,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0028",
+      "tarefa": "retirar",
+      "lote": "vacinal_brasil",
+      "entradas": 8,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0029",
+      "tarefa": "obter",
+      "lote": "medlineplus",
+      "entradas": 6,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0030",
+      "tarefa": "atomizar",
+      "lote": "medlineplus",
+      "entradas": 6,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0031",
+      "tarefa": "validar",
+      "lote": "medlineplus",
+      "entradas": 6,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0032",
+      "tarefa": "retirar",
+      "lote": "medlineplus",
+      "entradas": 6,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0033",
+      "tarefa": "obter",
+      "lote": "nutricao",
+      "entradas": 15,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0034",
+      "tarefa": "atomizar",
+      "lote": "nutricao",
+      "entradas": 15,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0035",
+      "tarefa": "validar",
+      "lote": "nutricao",
+      "entradas": 15,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0036",
+      "tarefa": "retirar",
+      "lote": "nutricao",
+      "entradas": 15,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0037",
+      "tarefa": "registrar-find",
+      "lote": "",
+      "entradas": 0,
+      "estado": "PASS",
+      "motivo": "evento em data/finds/registro.json; FIND-0001 e FIND-0002 permanecem ABERTO"
+    },
+    {
+      "id": "WO-2026_10_15_0038",
+      "tarefa": "analisar-find",
+      "lote": "",
+      "entradas": 0,
+      "estado": "PASS",
+      "motivo": "evento em data/finds/registro.json; FIND-0001 e FIND-0002 permanecem ABERTO"
+    },
+    {
+      "id": "WO-2026_10_15_0039",
+      "tarefa": "corrigir-find",
+      "lote": "",
+      "entradas": 0,
+      "estado": "PASS",
+      "motivo": "evento em data/finds/registro.json; FIND-0001 e FIND-0002 permanecem ABERTO"
+    },
+    {
+      "id": "WO-2026_10_15_0040",
+      "tarefa": "registrar-find",
+      "lote": "",
+      "entradas": 0,
+      "estado": "PASS",
+      "motivo": "evento em data/finds/registro.json; FIND-0001 e FIND-0002 permanecem ABERTO"
+    },
+    {
+      "id": "WO-2026_10_15_0042",
+      "tarefa": "analisar-find",
+      "lote": "",
+      "entradas": 0,
+      "estado": "PASS",
+      "motivo": "evento em data/finds/registro.json; FIND-0001 e FIND-0002 permanecem ABERTO"
+    },
+    {
+      "id": "WO-2026_10_15_0043",
+      "tarefa": "corrigir-find",
+      "lote": "",
+      "entradas": 0,
+      "estado": "PASS",
+      "motivo": "evento em data/finds/registro.json; FIND-0001 e FIND-0002 permanecem ABERTO"
+    },
+    {
+      "id": "WO-2026_10_15_0044",
+      "tarefa": "obter",
+      "lote": "mesh",
+      "entradas": 4,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0045",
+      "tarefa": "atomizar",
+      "lote": "mesh",
+      "entradas": 4,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0046",
+      "tarefa": "validar",
+      "lote": "mesh",
+      "entradas": 4,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0047",
+      "tarefa": "retirar",
+      "lote": "mesh",
+      "entradas": 4,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0048",
+      "tarefa": "obter",
+      "lote": "icd11",
+      "entradas": 4,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0049",
+      "tarefa": "atomizar",
+      "lote": "icd11",
+      "entradas": 4,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0050",
+      "tarefa": "validar",
+      "lote": "icd11",
+      "entradas": 4,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0051",
+      "tarefa": "retirar",
+      "lote": "icd11",
+      "entradas": 4,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0052",
+      "tarefa": "obter",
+      "lote": "medicamentos",
+      "entradas": 6,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0053",
+      "tarefa": "atomizar",
+      "lote": "medicamentos",
+      "entradas": 6,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0054",
+      "tarefa": "validar",
+      "lote": "medicamentos",
+      "entradas": 6,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0055",
+      "tarefa": "retirar",
+      "lote": "medicamentos",
+      "entradas": 6,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0056",
+      "tarefa": "obter",
+      "lote": "arquivos_grandes",
+      "entradas": 5,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0057",
+      "tarefa": "atomizar",
+      "lote": "arquivos_grandes",
+      "entradas": 17,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0058",
+      "tarefa": "validar",
+      "lote": "arquivos_grandes",
+      "entradas": 17,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0059",
+      "tarefa": "retirar",
+      "lote": "arquivos_grandes",
+      "entradas": 17,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0060",
+      "tarefa": "obter",
+      "lote": "suprimentos",
+      "entradas": 7,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0061",
+      "tarefa": "atomizar",
+      "lote": "suprimentos",
+      "entradas": 7,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0062",
+      "tarefa": "validar",
+      "lote": "suprimentos",
+      "entradas": 7,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0063",
+      "tarefa": "retirar",
+      "lote": "suprimentos",
+      "entradas": 7,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0064",
+      "tarefa": "obter",
+      "lote": "raizes_autorizadas",
+      "entradas": 17,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0065",
+      "tarefa": "atomizar",
+      "lote": "raizes_autorizadas",
+      "entradas": 17,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0066",
+      "tarefa": "validar",
+      "lote": "raizes_autorizadas",
+      "entradas": 17,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0067",
+      "tarefa": "retirar",
+      "lote": "raizes_autorizadas",
+      "entradas": 17,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0068",
+      "tarefa": "obter",
+      "lote": "raw_distinto",
+      "entradas": 50,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0069",
+      "tarefa": "atomizar",
+      "lote": "raw_distinto",
+      "entradas": 50,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0070",
+      "tarefa": "validar",
+      "lote": "raw_distinto",
+      "entradas": 50,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0071",
+      "tarefa": "retirar",
+      "lote": "raw_distinto",
+      "entradas": 50,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0072",
+      "tarefa": "obter",
+      "lote": "resto_grok",
+      "entradas": 129,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0073",
+      "tarefa": "atomizar",
+      "lote": "resto_grok",
+      "entradas": 129,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0074",
+      "tarefa": "validar",
+      "lote": "resto_grok",
+      "entradas": 129,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0075",
+      "tarefa": "retirar",
+      "lote": "resto_grok",
+      "entradas": 129,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0076",
+      "tarefa": "obter",
+      "lote": "atlas_partes",
+      "entradas": 30,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0077",
+      "tarefa": "atomizar",
+      "lote": "atlas_partes",
+      "entradas": 30,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0078",
+      "tarefa": "validar",
+      "lote": "atlas_partes",
+      "entradas": 30,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0079",
+      "tarefa": "retirar",
+      "lote": "atlas_partes",
+      "entradas": 30,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0080",
+      "tarefa": "obter",
+      "lote": "cofen_par_os",
+      "entradas": 16,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0081",
+      "tarefa": "atomizar",
+      "lote": "cofen_par_os",
+      "entradas": 16,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0082",
+      "tarefa": "validar",
+      "lote": "cofen_par_os",
+      "entradas": 16,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0083",
+      "tarefa": "retirar",
+      "lote": "cofen_par_os",
+      "entradas": 16,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0084",
+      "tarefa": "obter",
+      "lote": "cofen_port_e_lotes",
+      "entradas": 8,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0085",
+      "tarefa": "obter",
+      "lote": "cofen_port_50mb",
+      "entradas": 1,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0086",
+      "tarefa": "obter",
+      "lote": "cofen_atos_fechados",
+      "entradas": 36,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0087",
+      "tarefa": "obter",
+      "lote": "nativos_google",
+      "entradas": 7,
+      "estado": "BLOQUEADO",
+      "motivo": "Download público da planilha nativa 1vi129pgXWMZPFddxlMd5YemMEohumxqk714yCoGCVOg respondeu 500 após as repetições. Os outros seis ids da ordem não foram alcançados. Nenhum arquivo foi gravado."
+    },
+    {
+      "id": "WO-2026_10_15_0088",
+      "tarefa": "obter",
+      "lote": "esteira_binarios",
+      "entradas": 13,
+      "estado": "BLOQUEADO",
+      "motivo": "Download público do primeiro arquivo da ESTEIRA devolveu HTML, não o arquivo. A raiz é somente do dono. Os outros ids da ordem não foram alcançados. Nenhum arquivo foi gravado."
+    },
+    {
+      "id": "WO-2026_10_15_0089",
+      "tarefa": "obter",
+      "lote": "cofen_atos_lote2",
+      "entradas": 30,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0090",
+      "tarefa": "obter",
+      "lote": "cofen_dec_abaixo_50",
+      "entradas": 12,
+      "estado": "PREAUTHORIZED",
+      "motivo": "emitida e ainda não executada"
+    },
+    {
+      "id": "WO-2026_10_15_0091",
+      "tarefa": "obter",
+      "lote": "cofen_dec_50mb",
+      "entradas": 3,
+      "estado": "PREAUTHORIZED",
+      "motivo": "emitida e ainda não executada"
+    },
+    {
+      "id": "WO-2026_10_15_0092",
+      "tarefa": "atomizar",
+      "lote": "cofen_port_e_lotes",
+      "entradas": 8,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0093",
+      "tarefa": "validar",
+      "lote": "cofen_port_e_lotes",
+      "entradas": 8,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0094",
+      "tarefa": "retirar",
+      "lote": "cofen_port_e_lotes",
+      "entradas": 8,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0095",
+      "tarefa": "atomizar",
+      "lote": "cofen_atos_fechados",
+      "entradas": 36,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0096",
+      "tarefa": "validar",
+      "lote": "cofen_atos_fechados",
+      "entradas": 36,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0097",
+      "tarefa": "retirar",
+      "lote": "cofen_atos_fechados",
+      "entradas": 36,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0098",
+      "tarefa": "atomizar",
+      "lote": "cofen_atos_lote2",
+      "entradas": 30,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0099",
+      "tarefa": "validar",
+      "lote": "cofen_atos_lote2",
+      "entradas": 30,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0100",
+      "tarefa": "retirar",
+      "lote": "cofen_atos_lote2",
+      "entradas": 30,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0101",
+      "tarefa": "atomizar",
+      "lote": "cofen_port_50mb",
+      "entradas": 1,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0102",
+      "tarefa": "validar",
+      "lote": "cofen_port_50mb",
+      "entradas": 1,
+      "estado": "PASS",
+      "motivo": ""
+    },
+    {
+      "id": "WO-2026_10_15_0103",
+      "tarefa": "retirar",
+      "lote": "cofen_port_50mb",
+      "entradas": 1,
+      "estado": "PASS",
+      "motivo": ""
+    }
+  ],
+  "sem_ordem_de_obter": [
+    {
+      "item": "cinco PDFs de editora em revisao/fontes",
+      "estado": "BLOQUEADO",
+      "motivo": "direito autoral do texto de página; cabeçalhos já copiados; originais permanecem no Drive"
+    }
+  ],
+  "listagens_abertas": [
+    "Calculadoras-de-Enfermagem ainda tem página",
+    "ESTEIRA_COFEN_BACKUP ainda tem página",
+    "FEDERAL/COFEN/DEC ainda tem página além dos zips já nomeados nas WO 0090 e 0091",
+    "FEDERAL/COFEN/PARNORM, NOTATEC e REGISTROS ainda têm página",
+    "NORMATIVOS/FEDERAL/COFEN ainda tem página",
+    "atos 801, 804 e 805 ainda têm página",
+    "as quatro pastas-raiz não vão para a lixeira",
+    "esvaziar a lixeira continua bloqueado e só uma pessoa pode fazer isso"
+  ]
+}

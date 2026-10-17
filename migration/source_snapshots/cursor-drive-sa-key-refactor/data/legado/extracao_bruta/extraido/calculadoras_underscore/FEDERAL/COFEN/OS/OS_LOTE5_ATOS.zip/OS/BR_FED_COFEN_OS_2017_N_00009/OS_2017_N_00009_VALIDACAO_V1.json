@@ -1,0 +1,296 @@
+{
+  "identificador": "BR_FED_COFEN_OS_2017_N_00009",
+  "resultado_processo": "PASS",
+  "rotulo": "Validado com apontamentos",
+  "controles": [
+    {
+      "nome": "Identificação do ato e emissor",
+      "resultado": "PASS",
+      "evidencia": "ORDEM DE SERVIÇO COFEN Nº 009/2017"
+    },
+    {
+      "nome": "Conferência site HTML × PDF oficial, dispositivo a dispositivo",
+      "resultado": "PASS",
+      "status": "EXECUTADA_VIA_OCR",
+      "evidencia": {
+        "dispositivos_comparados": 33,
+        "por_resultado": {
+          "DIFERENCA_MENOR": 1,
+          "EQUIVALENTE_OCR": 5,
+          "IDENTICO_NORMALIZADO": 27
+        },
+        "trechos_pdf_ausentes_no_site": 0,
+        "pdf": "OS_2017_N_00009_PDF_SITE.pdf"
+      }
+    },
+    {
+      "nome": "Publicação no DOU (registro, sem verificação online)",
+      "resultado": "NAO_CITADO",
+      "evidencia": null
+    },
+    {
+      "nome": "Anexos referenciados presentes e atomizados",
+      "resultado": "NAO_APLICAVEL",
+      "status": "SEM_ANEXO_REFERENCIADO",
+      "referencias": []
+    },
+    {
+      "nome": "Numeração contígua (seções, itens, alíneas)",
+      "resultado": "PASS",
+      "evidencia": [
+        "Incisos sob BR_FED_COFEN_OS_2017_N_00009_ART_011: começa em II (sequência [2])",
+        "Incisos sob BR_FED_COFEN_OS_2017_N_00009_ART_015: começa em III (sequência [3])"
+      ]
+    },
+    {
+      "nome": "Conferência humana da literalidade",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Pesquisa de alterações posteriores",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Direitos autorais do texto do ato oficial",
+      "resultado": "PASS",
+      "fundamento": "Lei 9.610/1998, art. 8, IV"
+    }
+  ],
+  "fechamento": {
+    "apto": false,
+    "status": "PENDENCIAS",
+    "justificativa": "Aguardando revisão humana da atomização e pesquisa de atos posteriores."
+  },
+  "achados": [
+    {
+      "codigo": "C001",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Atomização automática; requer conferência humana da segmentação e da literalidade."
+    },
+    {
+      "codigo": "C002",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada."
+    },
+    {
+      "codigo": "C012",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+    },
+    {
+      "codigo": "C031",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir.",
+      "evidencia": [
+        "Incisos sob BR_FED_COFEN_OS_2017_N_00009_ART_011: começa em II (sequência [2])",
+        "Incisos sob BR_FED_COFEN_OS_2017_N_00009_ART_015: começa em III (sequência [3])"
+      ]
+    }
+  ],
+  "conferencia_por_dispositivo": [
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00009_EPIGRAFE_001",
+      "tipo": "epigrafe",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 67.6
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00009_CONSIDERANDO_001",
+      "tipo": "considerando",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00009_CONSIDERANDO_002",
+      "tipo": "considerando",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00009_CONSIDERANDO_003",
+      "tipo": "considerando",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00009_CONSIDERANDO_004",
+      "tipo": "considerando",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00009_FORMULA_DECISORIA_001",
+      "tipo": "formula_decisoria",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00009_SECAO_001",
+      "tipo": "secao",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00009_ART_001",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00009_ART_002",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00009_ART_003",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00009_ART_004",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00009_ART_004_PAR_UNICO",
+      "tipo": "paragrafo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00009_ART_005",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00009_ART_006",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00009_ART_007",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00009_ART_008",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00009_ART_009",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00009_ART_010",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00009_ART_011",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00009_ART_011_INC_II",
+      "tipo": "inciso",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 97.1
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00009_ART_012",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00009_ART_013",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00009_ART_014",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00009_ART_015",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00009_ART_015_INC_III",
+      "tipo": "inciso",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 96.4
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00009_ART_016",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00009_ART_017",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00009_ART_017_PAR_UNICO",
+      "tipo": "paragrafo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00009_ART_018",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00009_ART_019",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00009_ART_020",
+      "tipo": "artigo",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 81.2
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00009_LOCAL_DATA_001",
+      "tipo": "local_data",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 73.3
+    },
+    {
+      "identificador": "BR_FED_COFEN_OS_2017_N_00009_ASSINATURA_001",
+      "tipo": "assinatura",
+      "resultado": "DIFERENCA_MENOR",
+      "similaridade": 54.2
+    }
+  ],
+  "data_verificacao": "2026-10-10",
+  "responsavel": "Triagem automatizada - requer validação humana"
+}

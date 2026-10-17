@@ -1,0 +1,51 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-14-2026-camaras-tecnicas-de-enfermagem/ (API WordPress post 185817); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2026_N_00014_CAMTEC_ATOMOS_V1.jsonl",
+      "sha256": "d97ea6613a4113b7eaebca47c35e2f9fa18e16b53c7c792852c09e962c6abec8",
+      "tamanho": 37155
+    },
+    {
+      "nome": "PARCT_2026_N_00014_CAMTEC_CONTEUDO_SITE_API.json",
+      "sha256": "24be2109515783ab4b648d3f02ac11c889af795b915b4039d05c2a215c77a374",
+      "tamanho": 11282
+    },
+    {
+      "nome": "PARCT_2026_N_00014_CAMTEC_NORMA_V1.json",
+      "sha256": "331562e3cc7a5720f44eecabb6f48c85c4bc80ef5fddb7c19066f66ebaec42fa",
+      "tamanho": 8129
+    },
+    {
+      "nome": "PARCT_2026_N_00014_CAMTEC_PAGINA_SITE.html",
+      "sha256": "95e5a18c987a64ee63932727f3df1a579671b3c3a80a967b4db1f3c5f5160ceb",
+      "tamanho": 451792
+    },
+    {
+      "nome": "PARCT_2026_N_00014_CAMTEC_PDF_SITE.pdf",
+      "sha256": "7dae89eda47eeda9565ad8bf6d84b04bb0e078c4709c5e9adbe751d8f9723225",
+      "tamanho": 174311
+    },
+    {
+      "nome": "PARCT_2026_N_00014_CAMTEC_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "fe39263e6b755142d3412ff41cc80e12a9850955c63166e5b787b061db2e7e23",
+      "tamanho": 9501
+    },
+    {
+      "nome": "PARCT_2026_N_00014_CAMTEC_TEXTO_FONTE_V1.txt",
+      "sha256": "2beebc0755ee3ced6bb51320a2d316481fab3b38e6c833c4c3fcd149d7bc418b",
+      "tamanho": 9075
+    },
+    {
+      "nome": "PARCT_2026_N_00014_CAMTEC_VALIDACAO_V1.json",
+      "sha256": "5604f5fb476c4b57d83b4c76631c6f2ed2cd8170a05f59188482a21b568d0ef6",
+      "tamanho": 7723
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo."
+  ]
+}

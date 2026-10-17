@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-365-de-16-de-abril-de-2014/ (API WordPress post 25433); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2014_N_00365_ATOMOS_V1.jsonl",
+      "sha256": "2262c2a7a60f0ce91d4462f4520e5b4a1e81d0d9615fff9cdc3e19686b9ff9e1",
+      "tamanho": 10815
+    },
+    {
+      "nome": "PORT_2014_N_00365_CONTEUDO_SITE_API.json",
+      "sha256": "4362add4176e6247045c0947ef30691ec245c9383afb8f9b1984e13503131f4e",
+      "tamanho": 3451
+    },
+    {
+      "nome": "PORT_2014_N_00365_NORMA_V1.json",
+      "sha256": "32d70e11298421ff4e8e8a089cbab6c16390ae2b238abb61a59ff62b56a6e2a4",
+      "tamanho": 3480
+    },
+    {
+      "nome": "PORT_2014_N_00365_PAGINA_SITE.html",
+      "sha256": "ccb3f7cdfbc5cd7245e016003d3a4ef86a9eced1dae7b2148f4b26d1245ffb60",
+      "tamanho": 441419
+    },
+    {
+      "nome": "PORT_2014_N_00365_TEXTO_FONTE_V1.txt",
+      "sha256": "07bc9547a3e88b05640da98129932ce2f3208fe62d4d13cc6f18949e8752a66f",
+      "tamanho": 2494
+    },
+    {
+      "nome": "PORT_2014_N_00365_VALIDACAO_V1.json",
+      "sha256": "c5959f1efd49d1d544a2646307d810f7b03a651117d07047e60fe401ab6be995",
+      "tamanho": 2458
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

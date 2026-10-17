@@ -1,0 +1,55 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/rdc-220anvisa-2004-funcionamento-de-servicos-de-terapia-antineoplasica-dou-no-184-quinta-feira-23-de-setembro-de-2004/ (API WordPress post 51513); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "RDC_2004_N_00220_ATOMOS_V1.jsonl",
+      "sha256": "17e85bf14ba21db9b5e073a199c80eee4bf62ef3e844586f4a2f5fb1378d69af",
+      "tamanho": 296145
+    },
+    {
+      "nome": "RDC_2004_N_00220_CONTEUDO_SITE_API.json",
+      "sha256": "1b08452cc13d7cb29632b7784c78f547c9ebd3a5ee75a84ea833aa7e278728c5",
+      "tamanho": 674
+    },
+    {
+      "nome": "RDC_2004_N_00220_NORMA_V1.json",
+      "sha256": "68d07a893c03e26655de74615add7422f99516a820a9a863079ce880f0e8f737",
+      "tamanho": 19589
+    },
+    {
+      "nome": "RDC_2004_N_00220_PAGINA_SITE.html",
+      "sha256": "4c569b3db2a534e924b2b6c4ceb0063ab18e14ad9c1297b90f51a4cde55cd615",
+      "tamanho": 438303
+    },
+    {
+      "nome": "RDC_2004_N_00220_PDF_SITE.pdf",
+      "sha256": "231e5efd5bff89cd8222a008a595dd3c964229c6eb1387bb2b683c004a601137",
+      "tamanho": 169818
+    },
+    {
+      "nome": "RDC_2004_N_00220_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "cd1fb99a8a6627e3d5f7e9ea7ff957d19071f4db7c8578851c3228c47467addf",
+      "tamanho": 50152
+    },
+    {
+      "nome": "RDC_2004_N_00220_TEXTO_FONTE_V1.txt",
+      "sha256": "527ade7bebdb77605dc74a55065525156bd60a3cb4c797b36eaae90f8499c2cd",
+      "tamanho": 50229
+    },
+    {
+      "nome": "RDC_2004_N_00220_VALIDACAO_V1.json",
+      "sha256": "d69c54af4dc42a54ccee66e0eb80c6205c172b3564c7ab1c8a15b4d3827dc496",
+      "tamanho": 8093
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+    "Texto do ato disponível apenas no PDF (o site traz só título/resumo); atomização feita a partir da camada de texto do PDF.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-229-de-25-de-marco-de-2021/ (API WordPress post 86056); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2021_N_00229_ATOMOS_V1.jsonl",
+      "sha256": "98938b3d8fab1dd6aa593d8dd5324ce642934c7b2ed9a3cb4af3d4dde0bdc818",
+      "tamanho": 16672
+    },
+    {
+      "nome": "PORT_2021_N_00229_CONTEUDO_SITE_API.json",
+      "sha256": "e8bd6df74317b558ee69cd5965fe941766e6b1865bff69e3eb6908edfefcf5a0",
+      "tamanho": 3700
+    },
+    {
+      "nome": "PORT_2021_N_00229_NORMA_V1.json",
+      "sha256": "80a322e0832255dc04fd451bdee5d241acc416704f6fce59b69c4cda67e5bc88",
+      "tamanho": 2738
+    },
+    {
+      "nome": "PORT_2021_N_00229_PAGINA_SITE.html",
+      "sha256": "b08dfb4afb7c7e835905cfc0b7519f65f683c313eb7519548ca5f394cd30f557",
+      "tamanho": 441463
+    },
+    {
+      "nome": "PORT_2021_N_00229_TEXTO_FONTE_V1.txt",
+      "sha256": "f0e6b763239d1dc12219b25e113a8ad6a7acdac789f420d19edd6f58fdecc2eb",
+      "tamanho": 2720
+    },
+    {
+      "nome": "PORT_2021_N_00229_VALIDACAO_V1.json",
+      "sha256": "84b785eb5793fb3551c1e85f67e40c405f86052d07d649ffe9f127452117b4b5",
+      "tamanho": 2459
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

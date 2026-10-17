@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/lei-2604-de-17091955/ (API WordPress post 4169); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "LEI_1955_N_02604_ATOMOS_V1.jsonl",
+      "sha256": "af4c9a12a428dacfbe45d9df2cfdff43b6b930ecd6fde34b72869d1613d4c696",
+      "tamanho": 30388
+    },
+    {
+      "nome": "LEI_1955_N_02604_CONTEUDO_SITE_API.json",
+      "sha256": "c7f7f01d56a4427922956c02bc61805034ca3f2f072a97207e6b71a3573eda33",
+      "tamanho": 6715
+    },
+    {
+      "nome": "LEI_1955_N_02604_NORMA_V1.json",
+      "sha256": "7fd0ed0f5ac0780a91702a95a6de745871446e63d3de05f1a92c1c6683e712e8",
+      "tamanho": 3470
+    },
+    {
+      "nome": "LEI_1955_N_02604_PAGINA_SITE.html",
+      "sha256": "2d118de82ec7b604b14f243a977d95ef1499b9d093a07f5e526888ccba551fed",
+      "tamanho": 444851
+    },
+    {
+      "nome": "LEI_1955_N_02604_TEXTO_FONTE_V1.txt",
+      "sha256": "bc342580077cc7c01be0cc3e04d5ab732dc8c3022fe093ab1b2f4cd6de03b5c0",
+      "tamanho": 6037
+    },
+    {
+      "nome": "LEI_1955_N_02604_VALIDACAO_V1.json",
+      "sha256": "ac04dcc4719e4732f27d53eea66c50179e5023fac630d2aec7b546e3c5bb55c0",
+      "tamanho": 3346
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir."
+  ]
+}

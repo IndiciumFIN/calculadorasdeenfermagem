@@ -1,0 +1,43 @@
+name: Inventario Drive via WO Kernel
+on:
+  push:
+    branches: [cursor/fix-governance-gaps-ec54]
+    paths:
+      - 'packages/cli/inventory.py'
+      - 'packages/cli/kernel.py'
+      - 'policies/definicoes_tarefa.json'
+      - 'policies/validadores.json'
+      - 'contracts/work_orders/WO-2026_10_16_0104.json'
+      - 'contracts/work_orders/WO-2026_10_16_0106.json'
+      - 'data/grc/drive_inventory_20261016_wave2.json'
+      - 'data/grc/drive_inventory_20261016_pilot.json'
+      - '.github/workflows/drive-inventory.yml'
+      - 'governance/evidence/WO-CE-DRIVE-INVENTORY-20261016-EXECUTION-GAP.json'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inventory:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Setup Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.11'
+      - name: Dependencias Python
+        run: pip install -r packages/cli/requirements.txt
+      - name: Executar WO via Kernel
+        run: PYTHONPATH=. python -m packages.cli.kernel auditar-inventario --work-order contracts/work_orders/WO-2026_10_16_0104.json
+      - name: Executar WO de inventario ampliado
+        run: PYTHONPATH=. python -m packages.cli.kernel auditar-inventario --work-order contracts/work_orders/WO-2026_10_16_0106.json
+      - name: Publicar evidencia nao-promovivel
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: drive-inventory-WO-2026_10_16_0104
+          path: |
+            data/grc/evidencias/auditar_inventario_WO-2026_10_16_0104.json
+            data/grc/evidencias/auditar_inventario_WO-2026_10_16_0106.json
+          if-no-files-found: error
+          retention-days: 90

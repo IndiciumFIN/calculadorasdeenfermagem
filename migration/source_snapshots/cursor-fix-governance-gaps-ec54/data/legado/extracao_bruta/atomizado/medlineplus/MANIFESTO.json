@@ -1,0 +1,86 @@
+{
+ "arquivos": [
+  {
+   "arquivo": "topico_saude_en.jsonl",
+   "atomos": 1017,
+   "bytes": 6320529,
+   "sha256": "f47bc45931cf576316eac265b480ea8eb606a20eb66eb7bbeaf76336e097cb3c",
+   "tipo_entidade": "topico_saude_en"
+  },
+  {
+   "arquivo": "topico_saude_es.jsonl",
+   "atomos": 1016,
+   "bytes": 7176316,
+   "sha256": "fe22d3f7c4eb9ef27419a07af8c33a3d99d94e74f451e4ed3bf4423af52623f8",
+   "tipo_entidade": "topico_saude_es"
+  }
+ ],
+ "atomos_por_tipo_entidade": {
+  "topico_saude_en": 1017,
+  "topico_saude_es": 1016
+ },
+ "conferencia_contagens": [
+  {
+   "arquivo_entrada": "medlineplus/health_topics_en.csv",
+   "atomos": 1017,
+   "confere": true,
+   "explicacao": "",
+   "linhas_csv": 1017
+  },
+  {
+   "arquivo_entrada": "medlineplus/health_topics_es.csv",
+   "atomos": 1016,
+   "confere": true,
+   "explicacao": "",
+   "linhas_csv": 1016
+  },
+  {
+   "arquivo_entrada": "medlineplus/health_topics_todos.csv",
+   "atomos": 0,
+   "confere": false,
+   "explicacao": "União de health_topics_en + health_topics_es (2033 = soma dos dois); não gera átomos novos para não duplicar.",
+   "linhas_csv": 2033
+  }
+ ],
+ "entradas": [
+  {
+   "arquivo": "medlineplus/health_topics_en.json",
+   "linhas_csv": 1017,
+   "registros_json": 1017,
+   "sha256_csv": "0edfe1992b6a1d9bf58b6d5b1a51235128d65e6e16188aeaa2db213d270f6d2d",
+   "sha256_json": "a3adc1c3a7c067302719dafaded3c4966093e97bec9c4abb1914f5be4ae339c5"
+  },
+  {
+   "arquivo": "medlineplus/health_topics_es.json",
+   "linhas_csv": 1016,
+   "registros_json": 1016,
+   "sha256_csv": "3a95c2f1d9c5ce6fc08f4a88be9eae6d6a1bd5142dd7b5448c264b610b4d8ca4",
+   "sha256_json": "20bbefb3b0c39b3f86b330ade3c790855e0a1c51f47ad2efc09d94c91a22448b"
+  },
+  {
+   "arquivo": "medlineplus/health_topics_todos.json",
+   "linhas_csv": 2033,
+   "registros_json": 2033,
+   "sha256_csv": "08fd6e47bb5b43d1d43e3520ea01ff97a947691d7ce00f36d19ef7a6cdbd5cab",
+   "sha256_json": "d1ea77b552398d213223738145e32de40f28da07d3cf3c902c7427e02ace4afd"
+  }
+ ],
+ "fontes": [
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "NLM/NIH - MedlinePlus Health Topics XML",
+   "fonte_url": "https://medlineplus.gov/xml/mplus_topics_2026-10-10.xml",
+   "fonte_versao": "mplus_topics_2026-10-10.xml"
+  }
+ ],
+ "regras": {
+  "atom_id": "<tema>:<codigo>; codigo = chave local, com prefixo de subfonte quando o tema tem mais de uma fonte",
+  "data_extracao": "fixa por fonte (2026-10-10), não é a data da execução",
+  "descricao_literal": "renderização literal 'campo: valor' de todos os registros de origem da entidade (nada resumido)",
+  "ordenacao": "um arquivo por tipo_entidade, linhas ordenadas por atom_id, partes <= 90.000.000 bytes",
+  "sha256_atomo": "SHA-256 do JSON canônico (sort_keys, ensure_ascii=False, separators=(',',':')) do átomo sem o campo sha256"
+ },
+ "tema": "medlineplus",
+ "total_atomos": 2033,
+ "versao_gerador": "atomizar.py 1.0.0"
+}

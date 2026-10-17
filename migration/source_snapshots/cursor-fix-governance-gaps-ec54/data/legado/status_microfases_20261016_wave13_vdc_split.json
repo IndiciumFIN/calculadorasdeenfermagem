@@ -1,0 +1,60 @@
+{
+  "schema": "CE-WAVE13-VDC-SPLIT-1.0.0",
+  "date": "2026-10-16",
+  "status": "PARTS_IMPORTED_PASS_REASSEMBLY_HOLD",
+  "records": [
+    {
+      "wo": "WO-2026_10_16_0228",
+      "kind": "MANIFEST",
+      "name": "DRIVE_SPLIT_MANIFEST.json",
+      "drive_file_id": "1h6M7tlhT_Og6EgtZvTR6kXXmjfW2Tw8n",
+      "sha256": "74e9b64a7e94a4001e23c643f0f53b04737db6b9c6b9cae319cdd014faa299b6",
+      "bytes": 1358,
+      "source_mount": "DRIVE_SPLIT_MANIFEST.json"
+    },
+    {
+      "wo": "WO-2026_10_16_0229",
+      "kind": "PART-00",
+      "name": "Vila_do_Cuidado_CONSOLIDADO_MASTER_LOCAL_2026-08-26.zip.part-00",
+      "drive_file_id": "14L8UfeHbhvNUjFHb6lrMtbdITRSBfoCV",
+      "sha256": "49a6a14a8f3da9eb59cf287edf09b6dd64bb4f8f51bbe458cc7fbb4f910ac3c7",
+      "bytes": 78643200,
+      "source_mount": "Vila_do_Cuidado_CONSOLIDADO_MASTER_LOCAL_2026-08-26.zip.part-00"
+    },
+    {
+      "wo": "WO-2026_10_16_0230",
+      "kind": "PART-01",
+      "name": "Vila_do_Cuidado_CONSOLIDADO_MASTER_LOCAL_2026-08-26.zip.part-01",
+      "drive_file_id": "1rTK9cPXObQtahQXR0rZQxD2FeA2NlwOK",
+      "sha256": "d8443521ea08a0ee1f8b83eb572dabc9740707a0e77d00919f35ac5760640580",
+      "bytes": 78643200,
+      "source_mount": "Vila_do_Cuidado_CONSOLIDADO_MASTER_LOCAL_2026-08-26.zip.part-01.bin"
+    },
+    {
+      "wo": "WO-2026_10_16_0231",
+      "kind": "PART-02",
+      "name": "Vila_do_Cuidado_CONSOLIDADO_MASTER_LOCAL_2026-08-26.zip.part-02",
+      "drive_file_id": "1MjPlNOPVC118iwiPo8uHZd3mYMhJ8JgP",
+      "sha256": "e7e8edf62cf0c8f83ea269d09a064bd54379cb3f63f186bd2f80fa5594771ad9",
+      "bytes": 56676340,
+      "source_mount": "Vila_do_Cuidado_CONSOLIDADO_MASTER_LOCAL_2026-08-26.zip.part-02.bin"
+    }
+  ],
+  "source_manifest_sha256": "74e9b64a7e94a4001e23c643f0f53b04737db6b9c6b9cae319cdd014faa299b6",
+  "expected_zip_sha256": "98291b0432233002000f5d2be7a18a60e6ae950da26454be56cc008608556d6d",
+  "expected_zip_bytes": 213962740,
+  "bytes_transferred": 213964098,
+  "parts_verified": true,
+  "zip_reassembled": false,
+  "durable_backup_verified": false,
+  "rights_approved": false,
+  "drive_deletions": 0,
+  "checkpoint_sha256": "d0c518c4cbc7cc8cd145554823dd9b9f5ee5d7c70d5422409bb69def5932874",
+  "large_archive_hold": {
+    "source": "i18n-pipeline.zip",
+    "drive_file_id": "1pyl9fQ3Q_y3J-TnaDF9xhl-21RbVGc_J",
+    "bytes": 350767548,
+    "reason": "Drive connector rejects >268435456 byte download (HTTP 413)",
+    "status": "HOLD_CONNECTOR_LIMIT"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "work_order": "WO-2026_10_15_0019",
+  "checker_id": "kernel-validar",
+  "authorized_by": "IndiciumFIN",
+  "itens": [
+    {
+      "id_origem": "13UjmLqnXuVfIAR-SCWC3HhJTjKn4UdV6",
+      "caminho": "epidemiologico/sinan_zika_2026_amostra.csv",
+      "sha256": "1f1ce418dbc9510b850eb59838028a08f6d99f6bae73177a1ec7498f732addac",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1xaw4U1_I3FFivnJiGRP0Or-PUYadB6Nb",
+      "caminho": "epidemiologico/febre_amarela_humanos_primatas.csv",
+      "sha256": "20670f0fe007cf6b45a28dae8411528201a7c863444a87bfc77d7c9a9b0b529e",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "18dSCoe5CcbFN0lmtQuAfUgwcXh4p_yIK",
+      "caminho": "epidemiologico/lista_notificacao_compulsoria_2026.csv",
+      "sha256": "f093b662d9cfff8ad33c6dfb1fb6faaca0ca90fceb2249bd0cece161b8a140ba",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1Bv_rlztmXUEkzch-YVVBamutKopoTUHr",
+      "caminho": "epidemiologico/sim_mortalidade_amostra.csv",
+      "sha256": "89aaa0c3086239b8836667893e47a486e7e0803b46c1addf17c9add53e478f46",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1aGCAchb_JicQqggSA_jyn9eEF4VsoJQq",
+      "caminho": "epidemiologico/srag_2019_2026_amostra.json",
+      "sha256": "a776d1b99e26e08f6eb2c62937c0d1b872d5791cead4f312384d7e76aa6a9ace",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1tyfgN1fqy_YOlhHWf0MkSixeWhbYCHjp",
+      "caminho": "epidemiologico/sinan_dengue_2026_amostra.json",
+      "sha256": "f02c151b866ad2f0fe7f696efaafd75cc8b7b6e2cdd501127f0414e62b66cad7",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1Cq1HE0FiQN3TuntG1RIgfhai4vA6MAlm",
+      "caminho": "epidemiologico/srag_2019_2026_amostra.csv",
+      "sha256": "c5d275fc6707b6d961736b11026962c63667959ab30767ffef67342ecd0e938d",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "14k6KprjLpTdAmRKoUMibJiZL0_0HMiXU",
+      "caminho": "epidemiologico/sim_mortalidade_amostra.json",
+      "sha256": "2e7aa77348fd2e132239d9ffc29743efa6452c638d3650135af3991e107c2618",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1fO4z2sl0gxzIr8t-u5qMIvspD6ovWIMD",
+      "caminho": "epidemiologico/sinan_zika_2026_amostra.json",
+      "sha256": "572b9c6d67e41860acf55f5bd3bb4da9dcbae9290792ab054566dcb0584219f8",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "150_ELPqkvDBVQSqtmkBXEFWOx8bhuGCD",
+      "caminho": "epidemiologico/sinan_chikungunya_2026_amostra.json",
+      "sha256": "62895996fbbd959a91dfab923348366021937d3950a5b9d9fb83c87d48b7b41a",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1vRIsrF7KbJq0_adgFUdiEVduouSNbsdd",
+      "caminho": "epidemiologico/sinan_dengue_2026_amostra.csv",
+      "sha256": "8f0cb3c1b156d919d60ee9543bfc50d01b11c573d6b8782d12bde44754e70a15",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1Kf4RAPomdfMPORJj5bYNM8-_3CAMyn4T",
+      "caminho": "epidemiologico/sinan_chikungunya_2026_amostra.csv",
+      "sha256": "42216b449fb9313edd881c8fab628cfec5f41b05dc6441403fdf772d30e8b5e1",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1oTTLMqfshSnw5ZzSHiIq4d95xlp_xmr_",
+      "caminho": "epidemiologico/mpox_amostra.json",
+      "sha256": "1961ab3f208144bb8d821a3669c8a9c874a4ab570eac4819008c795f2bd55aef",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1g8Wjt6F24PX4h0JaUuMagvcl8oMrYrCF",
+      "caminho": "epidemiologico/mpox_amostra.csv",
+      "sha256": "8769a7fe2fc3319244a5882062460cd988eb2661d0b75c40df59e68fad45f878",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1qntmhP2HayZW_MGtGbD9l8RvTFxDpjo8",
+      "caminho": "epidemiologico/lista_notificacao_compulsoria_2026.json",
+      "sha256": "0cb6da60c795d75fcd7f827d50aa2b266639a5c0bb525031efc82bff1b8c26ab",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1vRMu1CZZmjU2f4tydHtDRDg4z6JmVuUJ",
+      "caminho": "epidemiologico/febre_amarela_humanos_primatas.json",
+      "sha256": "6c75fc974d323b66c6966998775702767536f63f3224fca0dc6884a85d8198d3",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1hMxh4qHfOadABaPZ2VQqhO0ELjm431nv",
+      "caminho": "epidemiologico/febre_amarela_epizootias.json",
+      "sha256": "373dd2d044b7767197c35aecd91fad43dfde516270abfd448b29d499ed88fa5b",
+      "resultado": "PASS",
+      "atomos": 0
+    },
+    {
+      "id_origem": "1aCeVpq2lnRb0U03-ERgymqT0GF14vgaq",
+      "caminho": "epidemiologico/febre_amarela_epizootias.csv",
+      "sha256": "fda1e83561ff6fd016012ee3103b1b344256341778ea676b0f6656ce607dcfad",
+      "resultado": "PASS",
+      "atomos": 0
+    }
+  ]
+}

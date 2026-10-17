@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-1109-de-12de-agosto-de-2022/ (API WordPress post 101286); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2022_N_01109_ATOMOS_V1.jsonl",
+      "sha256": "4efff45926c6d0b495466894124b507f6965b12734ab97bc4428cd74c8523285",
+      "tamanho": 6819
+    },
+    {
+      "nome": "PORT_2022_N_01109_CONTEUDO_SITE_API.json",
+      "sha256": "3ed33693e50b8892651e45f0495b59a0128534dba03e0d70e3058045342aa717",
+      "tamanho": 1610
+    },
+    {
+      "nome": "PORT_2022_N_01109_NORMA_V1.json",
+      "sha256": "11f46c1b05eb2679130971913aa1497a4dc96ab02a130193bfb7c857ca6ad2ea",
+      "tamanho": 3434
+    },
+    {
+      "nome": "PORT_2022_N_01109_PAGINA_SITE.html",
+      "sha256": "e84e68dc7a9ceb13810c2da270e90acda35044331566fca0afdbf6f78b3505d9",
+      "tamanho": 439928
+    },
+    {
+      "nome": "PORT_2022_N_01109_TEXTO_FONTE_V1.txt",
+      "sha256": "f0c23690c4058d98515ad32173cf23b1b1360098f2a1151c27767a58b7fad180",
+      "tamanho": 1004
+    },
+    {
+      "nome": "PORT_2022_N_01109_VALIDACAO_V1.json",
+      "sha256": "72bb042e3e8237f9cd1c5f20dfa0783eaaae796160f98b50971ad1cc335393a9",
+      "tamanho": 2460
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

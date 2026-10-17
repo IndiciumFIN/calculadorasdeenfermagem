@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-tecnico-coren-pe-no-001-2020/ (API WordPress post 85700); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARTEC_2020_N_00001_ATOMOS_V1.jsonl",
+      "sha256": "a1a88ef79429e2fbf9bdb13f0b547ce202c0dc737d51381cea7a4709d06b683f",
+      "tamanho": 50723
+    },
+    {
+      "nome": "PARTEC_2020_N_00001_CONTEUDO_SITE_API.json",
+      "sha256": "9e6ee4f31879735d25956c582c5584643cd960b5966e861683b884b9cca19b72",
+      "tamanho": 10936
+    },
+    {
+      "nome": "PARTEC_2020_N_00001_NORMA_V1.json",
+      "sha256": "cd3fd34b44b2e0fc45f3efa114186197b7d96f6baae88c1b0c293e46a550227e",
+      "tamanho": 3583
+    },
+    {
+      "nome": "PARTEC_2020_N_00001_PAGINA_SITE.html",
+      "sha256": "1d2d205ae96649315226f4eb94866672463e1647cb03fd9d332d100f43eebadd",
+      "tamanho": 448099
+    },
+    {
+      "nome": "PARTEC_2020_N_00001_TEXTO_FONTE_V1.txt",
+      "sha256": "fc8dfb2730a15f4fa753a7e6fcc860e9fd479344017a6f91fc972ea5e1bcd2e8",
+      "tamanho": 10025
+    },
+    {
+      "nome": "PARTEC_2020_N_00001_VALIDACAO_V1.json",
+      "sha256": "691d02f244d360b0ae54daf1f24a2e67fa7d08ae1129a5864bda53739de43d4d",
+      "tamanho": 2456
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

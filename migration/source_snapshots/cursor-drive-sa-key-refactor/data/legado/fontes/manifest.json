@@ -1,0 +1,42 @@
+{
+  "versao": "1.0.0",
+  "origem": "Google Drive, pasta de átomos COFEN, exportado em 2026-10-15. Planilhas mantidas no Drive; esta cópia é a retirada governada.",
+  "regra": "Todo arquivo listado aqui entra na migração. Arquivo ausente ou drive_file_id vazio reprova (fail-closed). LOTE2 e LOTE3 foram exportados em xlsx porque o CSV ultrapassou o limite de exportação do Drive.",
+  "arquivos": [
+    {
+      "arquivo": "NORMATIVE_ATOMS_COFEN_V1.csv",
+      "titulo": "NORMATIVE_ATOMS_COFEN_V1",
+      "drive_file_id": "16jA3isbkQuZqvsrkqU2FoIfp-JL1B8lyffNcb2f0ego"
+    },
+    {
+      "arquivo": "NORMATIVE_ATOMS_COFEN_LOTE1_V1.csv",
+      "titulo": "NORMATIVE_ATOMS_COFEN_LOTE1_V1",
+      "drive_file_id": "1arlb-IIqpQJGrj8Suyj-VKeejczSqORBFZGS20BFq8s"
+    },
+    {
+      "arquivo": "NORMATIVE_ATOMS_COFEN_LOTE2_V1.xlsx",
+      "titulo": "NORMATIVE_ATOMS_COFEN_LOTE2_V1",
+      "drive_file_id": "13IoE-cxveJrjzkj-YNZRN6zQupiewGUv80pai1WACIE"
+    },
+    {
+      "arquivo": "NORMATIVE_ATOMS_COFEN_LOTE3_V1.xlsx",
+      "titulo": "NORMATIVE_ATOMS_COFEN_LOTE3_V1",
+      "drive_file_id": "1h9Y5ZKIZhyp2xmcYiFfp55NQvWeShry0o0nWWRQLhfI"
+    },
+    {
+      "arquivo": "NORMATIVE_ATOMS_COFEN_LOTE4_V1.csv",
+      "titulo": "NORMATIVE_ATOMS_COFEN_LOTE4_V1",
+      "drive_file_id": "1RRQpbi0QWfc6FKmVK9tyjycbJz8JGSbSRBcveTGpDoQ"
+    },
+    {
+      "arquivo": "NORMATIVE_ATOMS_COFEN_LOTE5_V1.csv",
+      "titulo": "NORMATIVE_ATOMS_COFEN_LOTE5_V1",
+      "drive_file_id": "1RnIiSt2X05M6Km3MO5oq-GXCiyYVv2xbZ3bD4M3hBlA"
+    },
+    {
+      "arquivo": "NORMATIVE_ATOMS_COFEN_LOTE6_V1.csv",
+      "titulo": "NORMATIVE_ATOMS_COFEN_LOTE6_V1",
+      "drive_file_id": "1U4yRZ3cv7jef1frPfOKhYNQD0eFU2J0tKw3Ax35qBcw"
+    }
+  ]
+}

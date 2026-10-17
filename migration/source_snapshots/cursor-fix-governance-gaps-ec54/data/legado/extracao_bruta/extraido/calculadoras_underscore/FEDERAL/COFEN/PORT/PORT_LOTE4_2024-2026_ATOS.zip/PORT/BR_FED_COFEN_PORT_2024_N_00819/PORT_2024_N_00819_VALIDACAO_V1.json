@@ -1,0 +1,432 @@
+{
+  "identificador": "BR_FED_COFEN_PORT_2024_N_00819",
+  "resultado_processo": "PASS",
+  "rotulo": "Validado com apontamentos",
+  "controles": [
+    {
+      "nome": "Identificação do ato e emissor",
+      "resultado": "PASS",
+      "evidencia": "PORTARIA COFEN Nº 819 DE 10 DE MAIO DE 2024"
+    },
+    {
+      "nome": "Conferência site HTML × PDF oficial, dispositivo a dispositivo",
+      "resultado": "PASS",
+      "status": "EXECUTADA_TEXTO_PDF_CONTRA_FAC_SIMILE_DOU",
+      "evidencia": {
+        "dispositivos_comparados": 57,
+        "por_resultado": {
+          "IDENTICO_NORMALIZADO": 57
+        },
+        "trechos_pdf_ausentes_no_site": 0,
+        "pdf": "PORT_2024_N_00819_PDF_SITE.pdf"
+      }
+    },
+    {
+      "nome": "Publicação no DOU (registro, sem verificação online)",
+      "resultado": "REGISTRADO",
+      "evidencia": [
+        "05292024051400061",
+        "05292024051400062"
+      ]
+    },
+    {
+      "nome": "Anexos referenciados presentes e atomizados",
+      "resultado": "PASS",
+      "status": "PRESENTE_E_ATOMIZADO",
+      "referencias": []
+    },
+    {
+      "nome": "Numeração contígua (seções, itens, alíneas)",
+      "resultado": "PASS",
+      "evidencia": null
+    },
+    {
+      "nome": "Conferência humana da literalidade",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Pesquisa de alterações posteriores",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Direitos autorais do texto do ato oficial",
+      "resultado": "PASS",
+      "fundamento": "Lei 9.610/1998, art. 8, IV"
+    }
+  ],
+  "fechamento": {
+    "apto": false,
+    "status": "PENDENCIAS",
+    "justificativa": "Aguardando revisão humana da atomização e pesquisa de atos posteriores."
+  },
+  "achados": [
+    {
+      "codigo": "C001",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Atomização automática; requer conferência humana da segmentação e da literalidade."
+    },
+    {
+      "codigo": "C002",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada."
+    },
+    {
+      "codigo": "C052",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+      "evidencia": [
+        "PORT_2024_N_00819_ANEXO_01_PDF_SITE.pdf",
+        "PORT_2024_N_00819_ANEXO_02_PDF_SITE.pdf"
+      ]
+    }
+  ],
+  "conferencia_por_dispositivo": [
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_EPIGRAFE_001",
+      "tipo": "epigrafe",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PREAMBULO_001",
+      "tipo": "preambulo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_CONSIDERANDO_001",
+      "tipo": "considerando",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_CONSIDERANDO_002",
+      "tipo": "considerando",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_ART_001",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_001",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_002",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_003",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_004",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_005",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_006",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_007",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_008",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_009",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_010",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_011",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_012",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_013",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_014",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_015",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_016",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_017",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_018",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_019",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_020",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_021",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_022",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_023",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_024",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_025",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_026",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_027",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_028",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_029",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_030",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_031",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_032",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_033",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_034",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_035",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_036",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_037",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_038",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_039",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_040",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_041",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_042",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_043",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_044",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_045",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_046",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_047",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_048",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_PARAGRAFO_TEXTO_049",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_ART_002",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_ART_003",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2024_N_00819_ASSINATURA_001",
+      "tipo": "assinatura",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    }
+  ],
+  "data_verificacao": "2026-10-10",
+  "responsavel": "Triagem automatizada - requer validação humana"
+}

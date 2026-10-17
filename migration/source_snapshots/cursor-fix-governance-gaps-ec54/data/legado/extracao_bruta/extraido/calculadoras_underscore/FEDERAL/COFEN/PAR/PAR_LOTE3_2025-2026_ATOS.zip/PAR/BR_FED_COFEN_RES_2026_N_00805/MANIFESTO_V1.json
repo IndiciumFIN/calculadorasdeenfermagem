@@ -1,0 +1,64 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/resolucao-cofen-no-805-de-24-de-marco-de-2026/ (API WordPress post 185283); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "RES_2026_N_00805_ANEXO_01_PDF_SITE.pdf",
+      "sha256": "4314fac9a5c5fbdff6838acd5b29ea5ab7d86b34a5c0cf8c90b4f7711c8536be",
+      "tamanho": 341171
+    },
+    {
+      "nome": "RES_2026_N_00805_ANEXO_01_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "c0dc11cee701ac9b1c31adbb5e20bc59cf7c03e89c01cc0867b033190dc3e9f2",
+      "tamanho": 29304
+    },
+    {
+      "nome": "RES_2026_N_00805_ATOMOS_V1.jsonl",
+      "sha256": "799794f1380b62c16b220cda1e332706fc15c92b9064a14394799317cdda3724",
+      "tamanho": 119005
+    },
+    {
+      "nome": "RES_2026_N_00805_CONTEUDO_SITE_API.json",
+      "sha256": "91ed776e2dbab075cdeb8f795331483028d738af1bf1ef603090108d08ddacfb",
+      "tamanho": 33615
+    },
+    {
+      "nome": "RES_2026_N_00805_NORMA_V1.json",
+      "sha256": "b96821a1a924906108484c3bdc59a3e86554deb5e6fa925c678fe66bf1abf03d",
+      "tamanho": 15713
+    },
+    {
+      "nome": "RES_2026_N_00805_PAGINA_SITE.html",
+      "sha256": "8d0011e8aec8a4d50a4f3c6686681b64c2c417d559fa8e786f6a8a5bfea2ab8e",
+      "tamanho": 473733
+    },
+    {
+      "nome": "RES_2026_N_00805_PDF_SITE.pdf",
+      "sha256": "4314fac9a5c5fbdff6838acd5b29ea5ab7d86b34a5c0cf8c90b4f7711c8536be",
+      "tamanho": 341171
+    },
+    {
+      "nome": "RES_2026_N_00805_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "c0dc11cee701ac9b1c31adbb5e20bc59cf7c03e89c01cc0867b033190dc3e9f2",
+      "tamanho": 29304
+    },
+    {
+      "nome": "RES_2026_N_00805_TEXTO_FONTE_V1.txt",
+      "sha256": "efdb7034438b384ab420e81c63929307309322d00fda629b099a0ee7a797adff",
+      "tamanho": 26965
+    },
+    {
+      "nome": "RES_2026_N_00805_VALIDACAO_V1.json",
+      "sha256": "ecd62ac6e7266ed4b1df126dc655938b4bfc7bee2ee72a5e27fc367b0687248a",
+      "tamanho": 26879
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "7 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+    "Anexo em PDF com conteúdo já presente no texto do site (atomizado a partir do site); PDF usado só na conferência.",
+    "TIPO: Resolução listada na categoria Pareceres; Resoluções estão fora do escopo deste corpus, processada apenas para registro."
+  ]
+}

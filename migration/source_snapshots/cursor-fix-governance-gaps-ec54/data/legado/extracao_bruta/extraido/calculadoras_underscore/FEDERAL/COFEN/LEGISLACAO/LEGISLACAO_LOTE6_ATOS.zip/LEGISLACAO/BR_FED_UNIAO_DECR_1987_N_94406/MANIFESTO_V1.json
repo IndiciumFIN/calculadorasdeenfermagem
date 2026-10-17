@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/decreto-n-9440687/ (API WordPress post 4173); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "DECR_1987_N_94406_ATOMOS_V1.jsonl",
+      "sha256": "ae970c81b832e11491236712ddcd1c73319138fd61f7713ccbe8236eced37bff",
+      "tamanho": 79176
+    },
+    {
+      "nome": "DECR_1987_N_94406_CONTEUDO_SITE_API.json",
+      "sha256": "1e04934cc8344a8945c9a8facdf0b9a04df2843ca8e905baed8b7b73c7ae325a",
+      "tamanho": 13345
+    },
+    {
+      "nome": "DECR_1987_N_94406_NORMA_V1.json",
+      "sha256": "8a6feb6b33109e6e76426aa316041145d090d57846fa5f576987b313f6169659",
+      "tamanho": 4495
+    },
+    {
+      "nome": "DECR_1987_N_94406_PAGINA_SITE.html",
+      "sha256": "3f29643e2467096e29b85665ff575ef9b294bab1435a62340ca7f0db3950363b",
+      "tamanho": 447538
+    },
+    {
+      "nome": "DECR_1987_N_94406_TEXTO_FONTE_V1.txt",
+      "sha256": "d46318f5729fc0db3ba06223db8a4faaef526e42fddfb20abed5b928dbd8ba82",
+      "tamanho": 11947
+    },
+    {
+      "nome": "DECR_1987_N_94406_VALIDACAO_V1.json",
+      "sha256": "9795766c7e7e88d0d020346c0ce990f17cdc2b64c7703046f1f124f14d59e918",
+      "tamanho": 3076
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir."
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-036-2018-ctep-cofen/ (API WordPress post 66613); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2018_N_00036_CTEP_ATOMOS_V1.jsonl",
+      "sha256": "0674bac8f50b5e05b771abe602bead08ff79ac832b8bf5c50140b57be2e18846",
+      "tamanho": 21111
+    },
+    {
+      "nome": "PARCT_2018_N_00036_CTEP_CONTEUDO_SITE_API.json",
+      "sha256": "701ed62847a3242852ed437c27b96cabe58d0c82670c9eb16a5d8452ef1af184",
+      "tamanho": 5198
+    },
+    {
+      "nome": "PARCT_2018_N_00036_CTEP_NORMA_V1.json",
+      "sha256": "951dfe017ac25e497dc38bb578ed209ad728bd2dbc05b8c731fa0daa9186f299",
+      "tamanho": 2747
+    },
+    {
+      "nome": "PARCT_2018_N_00036_CTEP_PAGINA_SITE.html",
+      "sha256": "e56d028844565ada369350db635ad9c9a183abe4d140d707c4d1c79ad4fd4ca4",
+      "tamanho": 442666
+    },
+    {
+      "nome": "PARCT_2018_N_00036_CTEP_TEXTO_FONTE_V1.txt",
+      "sha256": "f8d105bf57401e4cb0f1737be2e85ca8d85e0c3f6e0dbf47a42c0edcc499ecac",
+      "tamanho": 3693
+    },
+    {
+      "nome": "PARCT_2018_N_00036_CTEP_VALIDACAO_V1.json",
+      "sha256": "82eee65a13abde4ec740cb3475daeae08439cf6f414ae869d9337bb72d2ace2b",
+      "tamanho": 2470
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

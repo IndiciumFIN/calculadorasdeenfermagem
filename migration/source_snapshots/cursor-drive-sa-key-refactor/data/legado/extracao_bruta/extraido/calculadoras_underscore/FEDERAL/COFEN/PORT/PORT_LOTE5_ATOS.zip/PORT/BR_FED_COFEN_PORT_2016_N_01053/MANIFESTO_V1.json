@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-1053/ (API WordPress post 41581); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2016_N_01053_ATOMOS_V1.jsonl",
+      "sha256": "59ae03b15221ae0b4e33dfe7e14b71fd36ed374da3ebe3167ffaa1cb5c930224",
+      "tamanho": 9093
+    },
+    {
+      "nome": "PORT_2016_N_01053_CONTEUDO_SITE_API.json",
+      "sha256": "fa91eb80c5c10c39a7ef2061f88272c13bca10df4f075fe4f444dad68a6b7397",
+      "tamanho": 277
+    },
+    {
+      "nome": "PORT_2016_N_01053_NORMA_V1.json",
+      "sha256": "088d5aaff78dbba82eb96435ebde4721ef7417384fe02cda7ac1f9a53ba25985",
+      "tamanho": 4815
+    },
+    {
+      "nome": "PORT_2016_N_01053_PAGINA_SITE.html",
+      "sha256": "3df7fb563059d8af7a251252619e3f42bdc6285deb6694d34ae035839e33af55",
+      "tamanho": 436060
+    },
+    {
+      "nome": "PORT_2016_N_01053_PDF_SITE.pdf",
+      "sha256": "4a3359d0a11072e5efd9d8d250ee131b5214bad6c38d135f5b0b2a62d1d6933e",
+      "tamanho": 136984
+    },
+    {
+      "nome": "PORT_2016_N_01053_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "241a3d6e89a19b1e8335741b6aa6e77253aa5027e249b60dcd4ba72b0c33beb9",
+      "tamanho": 1639
+    },
+    {
+      "nome": "PORT_2016_N_01053_TEXTO_FONTE_V1.txt",
+      "sha256": "e247f24bee7bbd7f7c291af64a601ef5d987b08fcd8b8a0fb802bf6d95bbe25a",
+      "tamanho": 1579
+    },
+    {
+      "nome": "PORT_2016_N_01053_VALIDACAO_V1.json",
+      "sha256": "b61dcc02dab27497dbde4d856bd0728f121e160effe1c16fb4989841237fee4c",
+      "tamanho": 2709
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal.",
+    "Texto do ato disponível apenas no PDF digitalizado; transcrição por OCR, não literal. Revisão humana obrigatória."
+  ]
+}

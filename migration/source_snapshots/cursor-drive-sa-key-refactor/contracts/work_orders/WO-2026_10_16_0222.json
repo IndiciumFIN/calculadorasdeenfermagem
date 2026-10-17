@@ -1,0 +1,25 @@
+{
+  "id": "WO-2026_10_16_0222",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "task_id": "TAREFA-IMPORTAR-DRIVE",
+  "task_type": "importar-drive",
+  "task_version": "1.0.0",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "entradas": [
+    {
+      "id_origem": "1oLVQk76thFl1yFH4gBl-f6ZdlqKz36r_",
+      "caminho": "data/legado/extracao_bruta/CONTEUDOS_CE_WAVE12/site/data/1oLVQk76thFl1yFH4gBl-f6ZdlqKz36r_/glossario-v4.json",
+      "classe": "REFERENCIA",
+      "sha256": "4b055d572a96b03eda2ae5b35f907f097ddc49f76f47c883f17b58977f75567a"
+    }
+  ],
+  "parametros": {
+    "source_provider": "google_drive",
+    "source_mount": "glossario-v4.json",
+    "lote": "WAVE12-SITE-MODULAR",
+    "publicacao": "BLOQUEADA",
+    "exclusao": "BLOQUEADA"
+  }
+}

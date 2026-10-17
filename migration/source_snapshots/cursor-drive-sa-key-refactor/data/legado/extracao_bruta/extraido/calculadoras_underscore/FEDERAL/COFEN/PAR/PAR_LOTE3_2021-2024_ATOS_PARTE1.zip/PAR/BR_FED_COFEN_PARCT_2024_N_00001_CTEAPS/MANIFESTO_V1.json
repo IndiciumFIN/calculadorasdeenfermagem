@@ -1,0 +1,51 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-1-2024-cofen-camtec-cteaps/ (API WordPress post 137634); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2024_N_00001_CTEAPS_ATOMOS_V1.jsonl",
+      "sha256": "34ef9808911753e79c5d2776f8a12eb742274802c99316db398696fc183d52a8",
+      "tamanho": 28992
+    },
+    {
+      "nome": "PARCT_2024_N_00001_CTEAPS_CONTEUDO_SITE_API.json",
+      "sha256": "64908eb942c12ab778427042bd1558950fbd1434223c782893d665f02731e879",
+      "tamanho": 8076
+    },
+    {
+      "nome": "PARCT_2024_N_00001_CTEAPS_NORMA_V1.json",
+      "sha256": "95e0eaa65a70d22c2ed8f733eddfd34e7a2295bb9db0276edec689fb04a999a3",
+      "tamanho": 3580
+    },
+    {
+      "nome": "PARCT_2024_N_00001_CTEAPS_PAGINA_SITE.html",
+      "sha256": "cf5c37f0e7370ef3db665585279dbf7574f21d9533385013b9a548d1424a41ea",
+      "tamanho": 447784
+    },
+    {
+      "nome": "PARCT_2024_N_00001_CTEAPS_PDF_SITE.pdf",
+      "sha256": "c59c0a9ee5b3177379dc2dae75f63507a68392ceddc6b434bc9e1f821b5199d9",
+      "tamanho": 141964
+    },
+    {
+      "nome": "PARCT_2024_N_00001_CTEAPS_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "edf5993c6f65177190379ccd329dd0f8089c6197423040bb893e2aed558767f7",
+      "tamanho": 6941
+    },
+    {
+      "nome": "PARCT_2024_N_00001_CTEAPS_TEXTO_FONTE_V1.txt",
+      "sha256": "be29f992ee1775734b8b1e6d7cfe6670cea7bfb44d29bac8a774371ef265bfe9",
+      "tamanho": 6370
+    },
+    {
+      "nome": "PARCT_2024_N_00001_CTEAPS_VALIDACAO_V1.json",
+      "sha256": "dbe124bbe758c8db1d0e9b890e2492cab19953102ba493421ae891b488166223",
+      "tamanho": 8084
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 dispositivo(s) do site divergente(s) ou ausente(s) no PDF."
+  ]
+}

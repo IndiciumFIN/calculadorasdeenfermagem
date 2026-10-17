@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-533-de-29-de-abril-de-2015/ (API WordPress post 31314); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2015_N_00533_ATOMOS_V1.jsonl",
+      "sha256": "1b6a4b8366926b6ecf3cb511382f6f1f66d45efe2810347189845ef85dc51fc0",
+      "tamanho": 5497
+    },
+    {
+      "nome": "PORT_2015_N_00533_CONTEUDO_SITE_API.json",
+      "sha256": "16d3fc9c5acb2fe4e3e10d16f41cf475d9ff50c0a2a4c9045adcde69cfd94a7f",
+      "tamanho": 1357
+    },
+    {
+      "nome": "PORT_2015_N_00533_NORMA_V1.json",
+      "sha256": "3ea405645d23091e119c3db0806b04895fb60e31533825d241dded07cc783606",
+      "tamanho": 2927
+    },
+    {
+      "nome": "PORT_2015_N_00533_PAGINA_SITE.html",
+      "sha256": "c9fd1cb4e5fbef8a178100f48d9a3e2b4e1dcab1807564a68343926d4f70c20d",
+      "tamanho": 438917
+    },
+    {
+      "nome": "PORT_2015_N_00533_TEXTO_FONTE_V1.txt",
+      "sha256": "ce225ce2e341ebca2f015c9b7bf6634714d307c751b47be6f3c31d75246d2e73",
+      "tamanho": 855
+    },
+    {
+      "nome": "PORT_2015_N_00533_VALIDACAO_V1.json",
+      "sha256": "4d78dcb5f56acb00dd4d8094f2b4d34abf2fd6864c86722e5786b0f5a55c7c55",
+      "tamanho": 2458
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/rdc-11-anvisa-2014-funcionamento-de-servicos-de-dialise-dou-no-50-sexta-feira-14-de-marco-de-2014/ (API WordPress post 51491); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "RDC_2014_N_00011_ATOMOS_V1.jsonl",
+      "sha256": "7a27b4403edc210c4f4e697f5ec389a63632da0a88773ddc9b1ca6ba98e07fe8",
+      "tamanho": 176048
+    },
+    {
+      "nome": "RDC_2014_N_00011_CONTEUDO_SITE_API.json",
+      "sha256": "14f6fb6295b236b184e34d41fef494ee98f40aaec49713c602f16fb7fe97a52e",
+      "tamanho": 554
+    },
+    {
+      "nome": "RDC_2014_N_00011_NORMA_V1.json",
+      "sha256": "36fe625db6ca2a3ff67c9ba2a150610285b4cdc59731b6df7f81b8c6c9706284",
+      "tamanho": 10972
+    },
+    {
+      "nome": "RDC_2014_N_00011_PAGINA_SITE.html",
+      "sha256": "7d7d75517e9d912fc99cad7f2d89152fe278ff6b84ae450bb31cb3d1a4fe549d",
+      "tamanho": 437227
+    },
+    {
+      "nome": "RDC_2014_N_00011_PDF_SITE.pdf",
+      "sha256": "c8c32a0b27e1609293850ddbc2d90f8ad0f41c6909c6b08c81e3b607a5fffe47",
+      "tamanho": 139770
+    },
+    {
+      "nome": "RDC_2014_N_00011_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "0b9e97e646e97afd4102622fd9ca370a8ae5efad877a3997ccbab1d1221c595b",
+      "tamanho": 38608
+    },
+    {
+      "nome": "RDC_2014_N_00011_TEXTO_FONTE_V1.txt",
+      "sha256": "d76300a715f67b2cbdda03bc687069b4d22384e35f96b760767d097b4896f09f",
+      "tamanho": 38602
+    },
+    {
+      "nome": "RDC_2014_N_00011_VALIDACAO_V1.json",
+      "sha256": "4eceb0551161c47a2f634b89738c531c1e8cb3d6c8d7a151c5cdb56273ba41aa",
+      "tamanho": 3889
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+    "Texto do ato disponível apenas no PDF (o site traz só título/resumo); atomização feita a partir da camada de texto do PDF.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

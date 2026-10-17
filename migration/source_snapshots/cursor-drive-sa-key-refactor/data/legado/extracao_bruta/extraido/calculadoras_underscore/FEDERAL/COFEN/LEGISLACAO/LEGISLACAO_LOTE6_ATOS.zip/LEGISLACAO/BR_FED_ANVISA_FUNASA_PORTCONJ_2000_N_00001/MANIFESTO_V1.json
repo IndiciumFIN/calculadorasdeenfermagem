@@ -1,0 +1,43 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-conjunta-01anvisafunasa-2000-funcionamento-de-estabelecimentos-de-vacinacao/ (API WordPress post 51468); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORTCONJ_2000_N_00001_ATOMOS_V1.jsonl",
+      "sha256": "06f099e8d69f53c0881d2693396316fc6724ea6fcc30ce603b783e9c6aa71ce1",
+      "tamanho": 724
+    },
+    {
+      "nome": "PORTCONJ_2000_N_00001_CONTEUDO_SITE_API.json",
+      "sha256": "73882575f369232f8fe26f6f162a07829f2a2250d73e0ee7222307dd28db75a3",
+      "tamanho": 419
+    },
+    {
+      "nome": "PORTCONJ_2000_N_00001_NORMA_V1.json",
+      "sha256": "8bcb586665eecbecc3ecc681c3f7101bcf0223f21f4adc2d514d280fbed98c2c",
+      "tamanho": 2026
+    },
+    {
+      "nome": "PORTCONJ_2000_N_00001_PAGINA_SITE.html",
+      "sha256": "e262fcd1b8217c0bbb3ccbfc8025a4d1110755a290c9987e524b5cdd6590fdb0",
+      "tamanho": 436575
+    },
+    {
+      "nome": "PORTCONJ_2000_N_00001_TEXTO_FONTE_V1.txt",
+      "sha256": "e09f6895e4d4c1ce7942f778e4c7c9539ace6e788f36fe86b45154f526fd5ad9",
+      "tamanho": 92
+    },
+    {
+      "nome": "PORTCONJ_2000_N_00001_VALIDACAO_V1.json",
+      "sha256": "a292dd6c195f37cc622052a1aad983aabf1671fc0449defd261913d8d24c1999",
+      "tamanho": 2947
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Página do site quase sem texto (0 caracteres) e sem PDF do ato; conteúdo do ato não disponível.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

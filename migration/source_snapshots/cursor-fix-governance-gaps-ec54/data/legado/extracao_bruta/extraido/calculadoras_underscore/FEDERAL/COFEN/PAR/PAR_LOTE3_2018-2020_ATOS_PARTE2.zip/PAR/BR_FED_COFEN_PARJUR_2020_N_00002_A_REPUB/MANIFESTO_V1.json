@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-juridico-no-02-2020-a-cofen-2/ (API WordPress post 85956); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARJUR_2020_N_00002_A_REPUB_ATOMOS_V1.jsonl",
+      "sha256": "761147b7a59c40f7c855e9da40d4679a46af6c312cee8c14015ba6888e2f2f94",
+      "tamanho": 41252
+    },
+    {
+      "nome": "PARJUR_2020_N_00002_A_REPUB_CONTEUDO_SITE_API.json",
+      "sha256": "3d63b92e29bf32baeeb9f08102ed60ea66e576849a242d0feab9138fb793e0cd",
+      "tamanho": 9538
+    },
+    {
+      "nome": "PARJUR_2020_N_00002_A_REPUB_NORMA_V1.json",
+      "sha256": "92ec475ebee5883fd24c5253016750ce861660a1cf9742f55e9a4523bac7271a",
+      "tamanho": 2147
+    },
+    {
+      "nome": "PARJUR_2020_N_00002_A_REPUB_PAGINA_SITE.html",
+      "sha256": "1e98ca02c6066287910e67522a349312fd93a4c55f874f41b08db49ac8db7630",
+      "tamanho": 446699
+    },
+    {
+      "nome": "PARJUR_2020_N_00002_A_REPUB_TEXTO_FONTE_V1.txt",
+      "sha256": "035765418af8faf6ac79f51ee259b67d0193e6cacaba9aee03b6b4ed5bc88659",
+      "tamanho": 8392
+    },
+    {
+      "nome": "PARJUR_2020_N_00002_A_REPUB_VALIDACAO_V1.json",
+      "sha256": "1ade12e59f4a141197a8be64a6319484c3588b4826bdb495a887deb47db798d4",
+      "tamanho": 2731
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "DUPLICADA: nova publicação no site do mesmo ato (post 85956, 2021-03-23); a primeira é o post 85580 (2021-02-23). Similaridade 100."
+  ]
+}

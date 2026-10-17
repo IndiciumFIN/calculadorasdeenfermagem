@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-1674-de-06-de-dezembro-de-2017/ (API WordPress post 59173); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2017_N_01674_ATOMOS_V1.jsonl",
+      "sha256": "ee85e3e68ca6cb28ca3498e5b2966223f183268133ddf9c0f7a537eb378cc65f",
+      "tamanho": 6862
+    },
+    {
+      "nome": "PORT_2017_N_01674_CONTEUDO_SITE_API.json",
+      "sha256": "8d7011d4253ab5185188819916848d5cd4836253ca011a3b5b0e139426daeb4e",
+      "tamanho": 1714
+    },
+    {
+      "nome": "PORT_2017_N_01674_NORMA_V1.json",
+      "sha256": "3827b7ec2a4e5ec6d6e8cbea6f70d80b6a02c443ae2cfa7b6394b7cbe1535080",
+      "tamanho": 3483
+    },
+    {
+      "nome": "PORT_2017_N_01674_PAGINA_SITE.html",
+      "sha256": "16a3504d2a8571efc59931d08ee614ef9889fc2c1d3a661985bbd7a5af60d47a",
+      "tamanho": 439567
+    },
+    {
+      "nome": "PORT_2017_N_01674_TEXTO_FONTE_V1.txt",
+      "sha256": "86cac17df645c99df43a19952d7b98edaca9a4a3eaf88f7185fa5e2751c45739",
+      "tamanho": 1041
+    },
+    {
+      "nome": "PORT_2017_N_01674_VALIDACAO_V1.json",
+      "sha256": "b74b622615077799d1248a0987bdd3e50bc97d577093836625dcc496e8da4957",
+      "tamanho": 2462
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

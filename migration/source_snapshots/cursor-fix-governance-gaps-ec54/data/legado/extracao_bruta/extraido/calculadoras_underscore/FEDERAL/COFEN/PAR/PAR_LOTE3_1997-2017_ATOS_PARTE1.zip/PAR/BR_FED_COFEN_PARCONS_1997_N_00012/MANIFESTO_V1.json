@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-relator-no-012/ (API WordPress post 4159); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCONS_1997_N_00012_ATOMOS_V1.jsonl",
+      "sha256": "ec0a836ad93d2ca22e6e08ec32c58bffd7326c157deecdc783c29c4debd37b6f",
+      "tamanho": 22984
+    },
+    {
+      "nome": "PARCONS_1997_N_00012_CONTEUDO_SITE_API.json",
+      "sha256": "438da3c1a8986e41ee7985efb14c00e6b25bb4192650d5f0289a3db58fe7c285",
+      "tamanho": 5176
+    },
+    {
+      "nome": "PARCONS_1997_N_00012_NORMA_V1.json",
+      "sha256": "6f4db91418475541c387a222e774a338dbc05229f2c62fc362380f7576fbedd8",
+      "tamanho": 2669
+    },
+    {
+      "nome": "PARCONS_1997_N_00012_PAGINA_SITE.html",
+      "sha256": "fe827f70654af2e4fc0b6ca795ae80e9b38f7fc96421ea6265ed83bf2895cd8c",
+      "tamanho": 442514
+    },
+    {
+      "nome": "PARCONS_1997_N_00012_TEXTO_FONTE_V1.txt",
+      "sha256": "93a6595a1621d37580bd6c16f1328d371c7cf95641fddeccfa7d28476b79ed4a",
+      "tamanho": 4505
+    },
+    {
+      "nome": "PARCONS_1997_N_00012_VALIDACAO_V1.json",
+      "sha256": "7256a305e1075a226914f1b41cc6558a1827cbc4768c145ae332ce7af442fd71",
+      "tamanho": 2464
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

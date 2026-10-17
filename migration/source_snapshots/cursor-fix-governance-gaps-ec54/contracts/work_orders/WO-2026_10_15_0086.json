@@ -1,0 +1,196 @@
+{
+  "id": "WO-2026_10_15_0086",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "task_id": "TAREFA-OBTER",
+  "task_version": "1.0.0",
+  "task_type": "obter",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "parametros": {
+    "lote": "cofen_atos_fechados",
+    "alternativa": "texto oficial e jsonl derivado; zero atomos"
+  },
+  "entradas": [
+    {
+      "id_origem": "1soLWxJoK97ZV3_89DnQxazXpaimvjs5p",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2025_N_00800/RES_2025_N_00800_TEXTO_DOU_V1.txt",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1OhW1SHoCaQuFM1OFmBjNBW88DLqQjEjp",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2025_N_00800/RES_2025_N_00800_DOU_FONTE.pdf",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1zeQMh3kKYGiOdo9nUuE0PoBgR45fbUkg",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2025_N_00800/RES_2025_N_00800_VALIDACAO_V1.json",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1Rw9TVYRD7aZH_PaS5zl-UVj5wiZFykDa",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2025_N_00800/RES_2025_N_00800_NORMA_V1.json",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "12ixtHSVKmrCLXRcBYsMAlm13VzIWmAu6",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2025_N_00800/RES_2025_N_00800_ATOMOS_V1.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "18Nw71-pLqwka5SdObM4u5do_pz0QkeqK",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2025_N_00800/MANIFESTO_V1.json",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1yzKvPGqUTqTNx16GhvGK0aPclteKS7ZJ",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00813/RES_2026_N_00813_TEXTO_DOU_V1.txt",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1zaEFG9rcjXdpYi_8T1i0RGAdwrZ_Reim",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00813/RES_2026_N_00813_DOU_FONTE.pdf",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1tr5ygcS5NRc4oYchO_5kpFk06mceZzol",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00813/RES_2026_N_00813_VALIDACAO_V1.json",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "19dThs6QP5r-EexXvPAK854uwUhD-CdnY",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00813/RES_2026_N_00813_ATOMOS_V1.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1A4BaDbm1cNfD19lEnWC9o7XXpnsXOr3I",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00813/MANIFESTO_V1.json",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "18zFKbVNXS0jTuC3RCrLB_B3DpDfCfVDh",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00813/RES_2026_N_00813_NORMA_V1.json",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1iH4DtCkKo9jiyK2wPasZc2hqaE2hgaQz",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00814/RES_2026_N_00814_TEXTO_DOU_V1.txt",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1L3tWQEuALyQZb3FoGtkjvIfL7QLaj-k7",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00814/RES_2026_N_00814_DOU_FONTE.pdf",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "12GWEIcfQwAw-NuHyi9NfLYrrVqSueVqV",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00814/MANIFESTO_V1.json",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "18C7BZjdl4a1G-LM-EqmcH7nuAuh_bwZj",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00814/RES_2026_N_00814_ATOMOS_V1.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1yoQKK3NSs6DVoBJoB3MZ3T2cdOxOIE7k",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00814/RES_2026_N_00814_VALIDACAO_V1.json",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1IPz2__ra5ak4VrBWZCXCcU12b1BvgQYj",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00814/RES_2026_N_00814_NORMA_V1.json",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1Tn6keWfq4FCkN4V6TULbEDABXckJeo-P",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00809/RES_2026_N_00809_TEXTO_DOU_V1.txt",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1THvkEfa_7Y6a78o7AJWJVFIRkr1weW0b",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00809/RES_2026_N_00809_DOU_FONTE.pdf",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1AX-HzWY5-vxsRRy1gyBtBRZq89I3z98K",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00809/RES_2026_N_00809_NORMA_V1.json",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1oZX54LuFl4ErdJK0csokrayOtsYr-B0W",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00809/MANIFESTO_V1.json",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1jjzEHENl7yi9AL5Enn-9cm1UKyOlVccB",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00809/RES_2026_N_00809_VALIDACAO_V1.json",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1MeqkvqRGNiCO40fC-vfdm75wMJeBpRpd",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00809/RES_2026_N_00809_ATOMOS_V1.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1BWK2ttlI2dFMtXjR5Y-v4cs77MpPcqdZ",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00806/RES_2026_N_00806_TEXTO_DOU_V1.txt",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1Grw8Z-fI69gP_cvd1n85nOsNgtN8hYEt",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00806/RES_2026_N_00806_DOU_FONTE.pdf",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1eIp-RFMURRx5NkSGBzWcqcsFLudzq8jA",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00806/RES_2026_N_00806_NORMA_V1.json",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1GeJHyt6SXeNdElEVVly1YDBux2xAjVrC",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00806/MANIFESTO_V1.json",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1BTjqX5-kW5p3eMhqLJyl6FwDhbnerVFi",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00806/RES_2026_N_00806_ATOMOS_V1.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1YcS-wZExSBXQVjx9eRFXoaSlF5Vuh7gg",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00806/RES_2026_N_00806_VALIDACAO_V1.json",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1Y-fiPjgDzcaEkcCzNYzf_JxkxFoTR6JA",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00802/RES_2026_N_00802_TEXTO_DOU_V1.txt",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1fbQ9pqiUWvJJzGnhlgwCrnNgSQbeBxBS",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00802/RES_2026_N_00802_DOU_FONTE.pdf",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1dDQp6ADTZUbdd-EN_6fDhO3fdSBxZw1B",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00802/RES_2026_N_00802_ATOMOS_V1.jsonl",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1CAD-yr1dKgjdgpvFp2OU4M8W3lo1DXXw",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00802/RES_2026_N_00802_NORMA_V1.json",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1zQmAMLhAVee7QqBnmTqE3IWcbrNm3owp",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00802/MANIFESTO_V1.json",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1ts4-BQjENpFtmejltQDy7q1PMoHeIfjr",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/BR_FED_COFEN_RES_2026_N_00802/RES_2026_N_00802_VALIDACAO_V1.json",
+      "classe": "DOCUMENTO"
+    }
+  ]
+}

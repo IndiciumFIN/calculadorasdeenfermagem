@@ -1,0 +1,152 @@
+{
+ "arquivos": [
+  {
+   "arquivo": "associacao_cvx_antigeno_cdsi.jsonl",
+   "atomos": 291,
+   "bytes": 217369,
+   "sha256": "532d00a702a1f809dfaaea31652cf7e76b10f74de56287f62ae56bc75551112c",
+   "tipo_entidade": "associacao_cvx_antigeno_cdsi"
+  },
+  {
+   "arquivo": "codigo_cvx.jsonl",
+   "atomos": 290,
+   "bytes": 265089,
+   "sha256": "51ba29464a9e975c96411cd42acf3a17e46ac82fe674f9aecaaae7d1a304b325",
+   "tipo_entidade": "codigo_cvx"
+  },
+  {
+   "arquivo": "dose_esquema_cdsi_acip.jsonl",
+   "atomos": 506,
+   "bytes": 684353,
+   "sha256": "5ddb28d208a9d679948336b4b80ef59483778b2f2f3b19a243e8d6429fdb3217",
+   "tipo_entidade": "dose_esquema_cdsi_acip"
+  },
+  {
+   "arquivo": "observacao_condicao_cdsi.jsonl",
+   "atomos": 278,
+   "bytes": 240017,
+   "sha256": "667e03746b0123712792db7092983c867bb43972f851dafbbceee9c6bbd7303c",
+   "tipo_entidade": "observacao_condicao_cdsi"
+  }
+ ],
+ "atomos_por_tipo_entidade": {
+  "associacao_cvx_antigeno_cdsi": 291,
+  "codigo_cvx": 290,
+  "dose_esquema_cdsi_acip": 506,
+  "observacao_condicao_cdsi": 278
+ },
+ "conferencia_contagens": [
+  {
+   "arquivo_entrada": "vacinas/cdc_cvx_codigos_vacinas.csv",
+   "atomos": 290,
+   "confere": true,
+   "explicacao": "",
+   "linhas_csv": 290
+  },
+  {
+   "arquivo_entrada": "vacinas/cdsi_cvx_para_antigeno.csv",
+   "atomos": 291,
+   "confere": true,
+   "explicacao": "",
+   "linhas_csv": 291
+  },
+  {
+   "arquivo_entrada": "vacinas/cdsi_esquemas_doses_acip.csv",
+   "atomos": 506,
+   "confere": true,
+   "explicacao": "",
+   "linhas_csv": 506
+  },
+  {
+   "arquivo_entrada": "vacinas/cdsi_observacoes_condicoes.csv",
+   "atomos": 278,
+   "confere": true,
+   "explicacao": "",
+   "linhas_csv": 278
+  }
+ ],
+ "entradas": [
+  {
+   "arquivo": "vacinas/cdc_cvx_codigos_vacinas.json",
+   "linhas_csv": 290,
+   "registros_json": 290,
+   "sha256_csv": "f6d74621a8e397d06e42c3c32df27451a8aeb5a8de35c130a413e86cdbbff7d4",
+   "sha256_json": "e6c6ddfb885eff28603b1aa5486b9aa168317cbd99e801a5c1169b5adc1b6f3c"
+  },
+  {
+   "arquivo": "vacinas/cdsi_cvx_para_antigeno.json",
+   "linhas_csv": 291,
+   "registros_json": 291,
+   "sha256_csv": "23ba6014bd4976534f934cd963c0a5c1fab4968c06a536ad9ed25a49793bb288",
+   "sha256_json": "ba9ab30c569dabe0f1c2bef9999e05c47255f2b5e281c0d5761ee160001959b1"
+  },
+  {
+   "arquivo": "vacinas/cdsi_esquemas_doses_acip.json",
+   "linhas_csv": 506,
+   "registros_json": 506,
+   "sha256_csv": "e9c830c74949ac4d860d3f959585ab6530807df33518c2cc2b77b4351b4c5a34",
+   "sha256_json": "4979c9a595a4eb5ac5365c77fb610a68a6367df663c7ddb29824b8c21e0f78c2"
+  },
+  {
+   "arquivo": "vacinas/cdsi_observacoes_condicoes.json",
+   "linhas_csv": 278,
+   "registros_json": 278,
+   "sha256_csv": "fa4772667b9b4dffab97cbf11d7234053086b462a7c816498fd81406ca570298",
+   "sha256_json": "5f2eae41dc1f4d4b618fa816eb73063c2fffffb74f5ea808233614e71a5d1ab5"
+  }
+ ],
+ "fontes": [
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "CDC - CDSi Supporting Data (regras ACIP, ScheduleSupportingData.xml / AntigenSupportingData)",
+   "fonte_url": "https://www.cdc.gov/iis/downloads/supporting-data-4.65-508.zip",
+   "fonte_versao": "CDSi Supporting Data v4.65"
+  },
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "CDC - CVX (códigos de vacinas administradas, cvx.txt)",
+   "fonte_url": "https://www2a.cdc.gov/vaccines/iis/iisstandards/downloads/cvx.txt",
+   "fonte_versao": "cvx.txt baixado em 2026-10-10 (sem número de versão na fonte)"
+  }
+ ],
+ "regras": {
+  "atom_id": "<tema>:<codigo>; codigo = chave local, com prefixo de subfonte quando o tema tem mais de uma fonte",
+  "data_extracao": "fixa por fonte (2026-10-10), não é a data da execução",
+  "descricao_literal": "renderização literal 'campo: valor' de todos os registros de origem da entidade (nada resumido)",
+  "ordenacao": "um arquivo por tipo_entidade, linhas ordenadas por atom_id, partes <= 90.000.000 bytes",
+  "sha256_atomo": "SHA-256 do JSON canônico (sort_keys, ensure_ascii=False, separators=(',',':')) do átomo sem o campo sha256"
+ },
+ "sobreposicao_matriz": {
+  "conflitos_ou_ambiguidades": [],
+  "decisoes": [
+   "Matriz (TEMA|vacinas, parcial): Calculadoras-de-Enfermagem tem EXTRAIDO_vaccine_json_schema_package_v0_3.zip e EXTRAIDO_CKO_Vacinas_Calculadoras_Propostas (conteúdo não aberto pela matriz). Recomendação: comparar o zip de schema com CVX antes de integrar; manter A como fonte bruta.",
+   "Sem mapeamento item a item possível: a matriz não lista itens CVX. Todos os átomos mantidos.",
+   "raw/: os dois zips CDSi (cdsi-supporting-data-4.65.zip e supporting-data-4.65-508.zip) são o mesmo download; não atomizados (os CSVs limpos derivam deles)."
+  ],
+  "linha_do_tema_literal": {
+   "a_existe": "sim",
+   "a_local": "extracao bruta Grok Bot Danadao/vacinas https://drive.google.com/drive/folders/1y1HVB-KxQRcSCiYr5Afol3QySkdxepkF",
+   "calc_enf_existe": "parcial",
+   "calc_enf_local": "https://drive.google.com/drive/folders/1k28gN245X7u4EDgIIJO9wUL915AR4hb7",
+   "calc_enf_status": "parcial: EXTRACAO_VERIFICAVEL_v0_3/EXTRAIDO_vaccine_json_schema_package_v0_3.zip e EXTRAIDO_CKO_Vacinas_Calculadoras_Propostas",
+   "chave": "TEMA|vacinas",
+   "debby_existe": "nao",
+   "debby_local": "",
+   "debby_n_atomos": "",
+   "debby_status": "",
+   "descricao": "CDC CVX/CDSi (EUA)",
+   "diferencas": "Calc: schema/pacote de vacinas das calculadoras (conteudo nao aberto); A: tabelas CDC brutas",
+   "recomendacao": "Comparar o zip de schema com CVX antes de integrar; manter A como fonte bruta.",
+   "sobreposicao": "parcial",
+   "tipo_registro": "dados (A)"
+  },
+  "mapeamentos_itens_calculadoras_enfermagem": [],
+  "matriz_arquivo": "MATRIZ_CRUZAMENTO_NORMATIVOS_DADOS_2026-10-10.csv",
+  "matriz_drive_file_id": "1eJETouIY0YwoZ0qUg-ObYRmPLeKgcEy_",
+  "matriz_sha256": "72968b5dfb5a68b53df4ab8a9e9268b6d631de9c687629ef951527e0323548a2",
+  "regra": "Nenhum átomo foi removido por sobreposição (a matriz não manda remover átomos). Mapeamentos item a item só quando a linha da matriz cita literalmente o arquivo de origem do átomo (a_local) e, se a matriz traz prefixo de sha256, ele confere com o arquivo local; o resto fica registrado aqui no nível do tema. referencias_cruzadas mantém só as 4 chaves do spec (cid10, cid11, mesh, medlineplus)."
+ },
+ "tema": "vacinas",
+ "total_atomos": 1365,
+ "versao_gerador": "atomizar.py 1.1.0"
+}

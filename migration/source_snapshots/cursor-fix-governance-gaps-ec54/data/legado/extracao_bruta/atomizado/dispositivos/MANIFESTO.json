@@ -1,0 +1,85 @@
+{
+ "arquivos": [
+  {
+   "arquivo": "classificacao_fda_dispositivo.jsonl",
+   "atomos": 7094,
+   "bytes": 7442573,
+   "sha256": "f6baf5aa6817b597076058b4ecf2c3107b9de9c139d1267f905881e2d4de169c",
+   "tipo_entidade": "classificacao_fda_dispositivo"
+  },
+  {
+   "arquivo": "registro_anvisa_produto_saude.parte-0001.jsonl",
+   "atomos": 72537,
+   "bytes": 89998991,
+   "sha256": "7966ab61d11d8697eaf4a4b68d79f551cc7971e4bfd0861a877ebe2ed3c605f1",
+   "tipo_entidade": "registro_anvisa_produto_saude"
+  },
+  {
+   "arquivo": "registro_anvisa_produto_saude.parte-0002.jsonl",
+   "atomos": 28161,
+   "bytes": 34124626,
+   "sha256": "5a14e78e5cde50a2e39bebb0a0df08bbe4dbfc7dec323ca3caf4dbf44095f8ec",
+   "tipo_entidade": "registro_anvisa_produto_saude"
+  }
+ ],
+ "atomos_por_tipo_entidade": {
+  "classificacao_fda_dispositivo": 7094,
+  "registro_anvisa_produto_saude": 100698
+ },
+ "conferencia_contagens": [
+  {
+   "arquivo_entrada": "dispositivos/anvisa_produtos_saude_registrados.csv",
+   "atomos": 100698,
+   "confere": false,
+   "explicacao": "Entidade = número de registro/cadastro Anvisa. A fonte repete o registro numa linha por fabricante/país de fabricação; essas linhas foram agrupadas num átomo (todas as linhas literais em descricao_literal).",
+   "linhas_csv": 116046
+  },
+  {
+   "arquivo_entrada": "dispositivos/fda_classificacao_dispositivos.csv",
+   "atomos": 7094,
+   "confere": true,
+   "explicacao": "",
+   "linhas_csv": 7094
+  }
+ ],
+ "entradas": [
+  {
+   "arquivo": "dispositivos/anvisa_produtos_saude_registrados.json",
+   "linhas_csv": 116046,
+   "registros_json": 116046,
+   "sha256_csv": "3bf39a9a601ad32453830f97bdf0ae1f203e62e17caf19a74fd1d49de418135f",
+   "sha256_json": "2a118eb0e39ecaa0107b03f13027d8c27a065844f13735d5b8509b2717286920"
+  },
+  {
+   "arquivo": "dispositivos/fda_classificacao_dispositivos.json",
+   "linhas_csv": 7094,
+   "registros_json": 7094,
+   "sha256_csv": "c45a71b1e6c24ef364457a444df44adbb47dfa8d8d5d9edda0e9570c06907a76",
+   "sha256_json": "9fa4b3301d164ac9973b7fedde14b3dd5d798e6670772564f365afa76e7058bb"
+  }
+ ],
+ "fontes": [
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "Anvisa - Produtos para saúde registrados (TA_PRODUTO_SAUDE_SITE.csv)",
+   "fonte_url": "https://dados.anvisa.gov.br/dados/TA_PRODUTO_SAUDE_SITE.csv",
+   "fonte_versao": "arquivo baixado em 2026-10-10 (sem número de versão na fonte)"
+  },
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "FDA/openFDA - Device classification",
+   "fonte_url": "https://download.open.fda.gov/device/classification/device-classification-0001-of-0001.json.zip",
+   "fonte_versao": "openFDA last_updated 2026-10-05"
+  }
+ ],
+ "regras": {
+  "atom_id": "<tema>:<codigo>; codigo = chave local, com prefixo de subfonte quando o tema tem mais de uma fonte",
+  "data_extracao": "fixa por fonte (2026-10-10), não é a data da execução",
+  "descricao_literal": "renderização literal 'campo: valor' de todos os registros de origem da entidade (nada resumido)",
+  "ordenacao": "um arquivo por tipo_entidade, linhas ordenadas por atom_id, partes <= 90.000.000 bytes",
+  "sha256_atomo": "SHA-256 do JSON canônico (sort_keys, ensure_ascii=False, separators=(',',':')) do átomo sem o campo sha256"
+ },
+ "tema": "dispositivos",
+ "total_atomos": 107792,
+ "versao_gerador": "atomizar.py 1.0.0"
+}

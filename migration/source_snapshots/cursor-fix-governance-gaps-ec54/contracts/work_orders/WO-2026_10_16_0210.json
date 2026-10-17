@@ -1,0 +1,25 @@
+{
+  "id": "WO-2026_10_16_0210",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "task_id": "TAREFA-IMPORTAR-DRIVE",
+  "task_type": "importar-drive",
+  "task_version": "1.0.0",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "entradas": [
+    {
+      "id_origem": "1gWlF6hbfjYvCqeND5TaN7pEjz1Om9KTe",
+      "caminho": "data/legado/extracao_bruta/CONTEUDOS_CE_WAVE11/ESCALA_FUGULIN_EDITORIAL/1gWlF6hbfjYvCqeND5TaN7pEjz1Om9KTe/Fugulin-W1-Editorial-Release-Candidate.html",
+      "classe": "REFERENCIA",
+      "sha256": "305d030e66e00b1c2981f2fcbe84fd0ad792f5e0b9c550f9c1e90f8897313424"
+    }
+  ],
+  "parametros": {
+    "source_provider": "google_drive",
+    "source_mount": "Fugulin-W1-Editorial-Release-Candidate.html",
+    "lote": "WAVE11-EDITORIAL-FORMS",
+    "publicacao": "BLOQUEADA",
+    "exclusao": "BLOQUEADA"
+  }
+}

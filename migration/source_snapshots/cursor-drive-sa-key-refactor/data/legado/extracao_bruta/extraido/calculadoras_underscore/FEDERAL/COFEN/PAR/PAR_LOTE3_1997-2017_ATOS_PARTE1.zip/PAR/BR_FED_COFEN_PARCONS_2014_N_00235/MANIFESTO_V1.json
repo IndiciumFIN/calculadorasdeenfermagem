@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-conselheiro-federal-cofen-no-235-2014/ (API WordPress post 87520); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCONS_2014_N_00235_ATOMOS_V1.jsonl",
+      "sha256": "e7ccd577c8b86976065b909b24c5d02811c1b416b4252efd4e3cfc9016b5dc0e",
+      "tamanho": 43297
+    },
+    {
+      "nome": "PARCONS_2014_N_00235_CONTEUDO_SITE_API.json",
+      "sha256": "764ac034c5a341a019cce25a8777cfe95857c25a7566ffdab0a9907bfba8662d",
+      "tamanho": 13823
+    },
+    {
+      "nome": "PARCONS_2014_N_00235_NORMA_V1.json",
+      "sha256": "578fc0e26c47eee4d738fac55318add205996cef8a67d4db0f4c8dd63a8e00bc",
+      "tamanho": 4426
+    },
+    {
+      "nome": "PARCONS_2014_N_00235_PAGINA_SITE.html",
+      "sha256": "6f1486f73553357b50468e18ec46bef90bd9f9288a82e129009866d846b2fac9",
+      "tamanho": 451358
+    },
+    {
+      "nome": "PARCONS_2014_N_00235_TEXTO_FONTE_V1.txt",
+      "sha256": "27d58c89a74c1ffc1338b526e2a2ab47db7a97c056723f99816e47f639d5a7fb",
+      "tamanho": 12365
+    },
+    {
+      "nome": "PARCONS_2014_N_00235_VALIDACAO_V1.json",
+      "sha256": "b0064f09d49440cb52237e9bef4d701f54de3c40284ddf0d710f784e6af954b3",
+      "tamanho": 2670
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "WO-2026_10_15_0037",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "agent_id": "AGT-EXTRATOR-001",
+  "task_id": "TAREFA-FIND-REGISTRAR",
+  "task_version": "1.0.0",
+  "task_type": "registrar-find",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "entradas": [],
+  "parametros": {
+    "codigo": "PORTA-CLI-001",
+    "objeto": "packages/cli/main.py",
+    "severidade": "CRITICA",
+    "descricao": "ingest, process, pipeline e registry gravam sem Work Order qualificada.",
+    "impacto": "O CLI antigo gera átomo e registro fora do kernel.",
+    "quando": "2026-10-15"
+  }
+}

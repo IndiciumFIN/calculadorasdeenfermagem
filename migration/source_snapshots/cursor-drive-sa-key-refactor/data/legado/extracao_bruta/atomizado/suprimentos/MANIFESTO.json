@@ -1,0 +1,128 @@
+{
+ "arquivos": [
+  {
+   "arquivo": "classificacao_fda_seringa_agulha_luva_curativo.jsonl",
+   "atomos": 157,
+   "bytes": 175177,
+   "sha256": "db7e6f42db30a9d25b1cda24000908dc8c27680d9aa95ec4a4b268bb079b9caf",
+   "tipo_entidade": "classificacao_fda_seringa_agulha_luva_curativo"
+  },
+  {
+   "arquivo": "item_catmat.jsonl",
+   "atomos": 59938,
+   "bytes": 72026196,
+   "sha256": "aa764c1951eb28e1966af4b8f28dc41f34643acbe09a48329be7300b97e51a19",
+   "tipo_entidade": "item_catmat"
+  },
+  {
+   "arquivo": "item_catmat_seringa_agulha_luva_curativo.jsonl",
+   "atomos": 10493,
+   "bytes": 13138703,
+   "sha256": "04d8edc3251299954833b6d3bff3be93099c93bc482bd4be64a44752bd78a472",
+   "tipo_entidade": "item_catmat_seringa_agulha_luva_curativo"
+  },
+  {
+   "arquivo": "registro_anvisa_seringa_agulha_luva_curativo.jsonl",
+   "atomos": 8781,
+   "bytes": 10629634,
+   "sha256": "c9c63067367b94f3fe457a4cd03627e6604fd544c15574c1fa84307ccff5f442",
+   "tipo_entidade": "registro_anvisa_seringa_agulha_luva_curativo"
+  }
+ ],
+ "atomos_por_tipo_entidade": {
+  "classificacao_fda_seringa_agulha_luva_curativo": 157,
+  "item_catmat": 59938,
+  "item_catmat_seringa_agulha_luva_curativo": 10493,
+  "registro_anvisa_seringa_agulha_luva_curativo": 8781
+ },
+ "conferencia_contagens": [
+  {
+   "arquivo_entrada": "suprimentos/catmat_itens_classes_6510_6515_6530_6532.csv",
+   "atomos": 70431,
+   "confere": true,
+   "explicacao": "",
+   "linhas_csv": 70431
+  },
+  {
+   "arquivo_entrada": "suprimentos/catmat_seringas_agulhas_luvas_curativos.csv",
+   "atomos": 0,
+   "confere": false,
+   "explicacao": "Subconjunto filtrado do arquivo completo: os 10493 itens já estão nos átomos e recebem tipo_entidade 'item_catmat_seringa_agulha_luva_curativo' (os demais: 'item_catmat').",
+   "linhas_csv": 10493
+  },
+  {
+   "arquivo_entrada": "suprimentos/anvisa_registros_seringas_agulhas_luvas_curativos.csv",
+   "atomos": 8781,
+   "confere": false,
+   "explicacao": "Entidade = número de registro Anvisa; linhas repetidas por fabricante/país foram agrupadas (mesma regra de dispositivos).",
+   "linhas_csv": 9401
+  },
+  {
+   "arquivo_entrada": "suprimentos/fda_classificacao_seringas_agulhas_luvas_curativos.csv",
+   "atomos": 157,
+   "confere": true,
+   "explicacao": "",
+   "linhas_csv": 157
+  }
+ ],
+ "entradas": [
+  {
+   "arquivo": "suprimentos/catmat_itens_classes_6510_6515_6530_6532.json",
+   "linhas_csv": 70431,
+   "registros_json": 70431,
+   "sha256_csv": "ddfa32b216710fa3694f61b743dd9fc7bba8e75dde489f2881f4d65ab476522e",
+   "sha256_json": "3d8267b74c603ce1f4515f6639705010ac367a598dcc5478a5535adb992b2485"
+  },
+  {
+   "arquivo": "suprimentos/catmat_seringas_agulhas_luvas_curativos.json",
+   "linhas_csv": 10493,
+   "registros_json": 10493,
+   "sha256_csv": "960f8ff42d7e88381745414f7a7f5792853a1b1ad5ec848523d73a9ae72342f6",
+   "sha256_json": "5fef6a79f1a286db98c4db0ff6193f48ec0eaba307a2e9886a68b9d50da1a1d4"
+  },
+  {
+   "arquivo": "suprimentos/anvisa_registros_seringas_agulhas_luvas_curativos.json",
+   "linhas_csv": 9401,
+   "registros_json": 9401,
+   "sha256_csv": "728cb6460f8c8387d748ab7eebb244846f19607684866e7e7b6fbc68f3f456af",
+   "sha256_json": "d1097b04b85b9ebc8ff4a0c6266702005a6b377b8f43524a3df29c1140a087c6"
+  },
+  {
+   "arquivo": "suprimentos/fda_classificacao_seringas_agulhas_luvas_curativos.json",
+   "linhas_csv": 157,
+   "registros_json": 157,
+   "sha256_csv": "a36a6d3f39a69e689a2912530dd1ee3cd322eb1e38e26fb0a2c45a9b8819a3e3",
+   "sha256_json": "306d201b2f279e1bff702ef15d38f7b28268019f67f78feafb341791df09dc9c"
+  }
+ ],
+ "fontes": [
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "Anvisa - Produtos para saúde registrados (TA_PRODUTO_SAUDE_SITE.csv)",
+   "fonte_url": "https://dados.anvisa.gov.br/dados/TA_PRODUTO_SAUDE_SITE.csv",
+   "fonte_versao": "arquivo baixado em 2026-10-10 (sem número de versão na fonte)"
+  },
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "Compras.gov.br - CATMAT (API dados abertos, módulo material), classes 6510/6515/6530/6532",
+   "fonte_url": "https://dadosabertos.compras.gov.br/modulo-material/4_consultarItemMaterial",
+   "fonte_versao": "consulta à API em 2026-10-10"
+  },
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "FDA/openFDA - Device classification",
+   "fonte_url": "https://download.open.fda.gov/device/classification/device-classification-0001-of-0001.json.zip",
+   "fonte_versao": "openFDA last_updated 2026-10-05"
+  }
+ ],
+ "regras": {
+  "atom_id": "<tema>:<codigo>; codigo = chave local, com prefixo de subfonte quando o tema tem mais de uma fonte",
+  "data_extracao": "fixa por fonte (2026-10-10), não é a data da execução",
+  "descricao_literal": "renderização literal 'campo: valor' de todos os registros de origem da entidade (nada resumido)",
+  "ordenacao": "um arquivo por tipo_entidade, linhas ordenadas por atom_id, partes <= 90.000.000 bytes",
+  "sha256_atomo": "SHA-256 do JSON canônico (sort_keys, ensure_ascii=False, separators=(',',':')) do átomo sem o campo sha256"
+ },
+ "tema": "suprimentos",
+ "total_atomos": 79369,
+ "versao_gerador": "atomizar.py 1.0.0"
+}

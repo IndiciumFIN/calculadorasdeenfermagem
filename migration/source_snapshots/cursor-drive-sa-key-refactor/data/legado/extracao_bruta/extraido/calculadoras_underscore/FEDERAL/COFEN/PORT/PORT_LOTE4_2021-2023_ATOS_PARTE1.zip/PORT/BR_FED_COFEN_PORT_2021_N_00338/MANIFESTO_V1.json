@@ -1,0 +1,51 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-338-de-28-de-abril-de-2021/ (API WordPress post 86713); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2021_N_00338_ATOMOS_V1.jsonl",
+      "sha256": "5b252a6482a2b4267ef0c21039a045b0ae2b4698c43beb92495239262f660d1e",
+      "tamanho": 14710
+    },
+    {
+      "nome": "PORT_2021_N_00338_CONTEUDO_SITE_API.json",
+      "sha256": "91e01d71e22775d5e9af2c6186f6dc8d7a95be7baf78b88e83800d9dfdf9bca8",
+      "tamanho": 1983
+    },
+    {
+      "nome": "PORT_2021_N_00338_NORMA_V1.json",
+      "sha256": "a746ce035e23209c88a6f5bd0c16a3ce6eab71474f42e217218fc0ee4b816243",
+      "tamanho": 3630
+    },
+    {
+      "nome": "PORT_2021_N_00338_PAGINA_SITE.html",
+      "sha256": "28fce4d457cb7967ff55ddbc1429752dcec544b2b2d35dc95d7495a7b3972c56",
+      "tamanho": 439984
+    },
+    {
+      "nome": "PORT_2021_N_00338_PDF_SITE.pdf",
+      "sha256": "e1f21ffc2e6e44c06e7b991de42e23bb47f36a34497110226167bc7bc0372228",
+      "tamanho": 288707
+    },
+    {
+      "nome": "PORT_2021_N_00338_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "e57bcf4879269be9d93ee22e93bcb513b276379c44f903a1cedc97d897b3f39f",
+      "tamanho": 1517
+    },
+    {
+      "nome": "PORT_2021_N_00338_TEXTO_FONTE_V1.txt",
+      "sha256": "98de57dcd77d772427d479de4471c518a43752d11c339894c31ce4f483f8fdf4",
+      "tamanho": 1280
+    },
+    {
+      "nome": "PORT_2021_N_00338_VALIDACAO_V1.json",
+      "sha256": "65bb4b9936bf46c2757b093b3e818cc7de503943a24b8b7e5c9906ab9721a726",
+      "tamanho": 5595
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+  ]
+}

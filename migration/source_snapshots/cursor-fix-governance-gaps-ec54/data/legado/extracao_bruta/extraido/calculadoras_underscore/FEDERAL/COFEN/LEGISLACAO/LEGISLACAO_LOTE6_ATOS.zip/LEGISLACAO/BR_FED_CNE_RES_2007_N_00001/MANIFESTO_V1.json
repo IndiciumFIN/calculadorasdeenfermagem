@@ -1,0 +1,53 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/resolucao-n-1-de-8-de-junho-de-2007/ (API WordPress post 35379); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "RES_2007_N_00001_ATOMOS_V1.jsonl",
+      "sha256": "10ea2adb4d3c7c9e0b1e33f08495b6d8b7f3ab4cf0a73089dbb1bcfb5db159a6",
+      "tamanho": 21690
+    },
+    {
+      "nome": "RES_2007_N_00001_CONTEUDO_SITE_API.json",
+      "sha256": "d50c7f1fa4f460ca5690a24d01fb2dc696ffb187776dfaa42242a1b916761ac4",
+      "tamanho": 438
+    },
+    {
+      "nome": "RES_2007_N_00001_NORMA_V1.json",
+      "sha256": "f843fe44a10797124d1ecd30a1a5544a60361d2ae9c00ae75b109b340511e0f4",
+      "tamanho": 4648
+    },
+    {
+      "nome": "RES_2007_N_00001_PAGINA_SITE.html",
+      "sha256": "d3c869983aaf113ece620ee811acee10c6aed13ec9948cf46537769fc28e9c23",
+      "tamanho": 435847
+    },
+    {
+      "nome": "RES_2007_N_00001_PDF_SITE.pdf",
+      "sha256": "dff07c683b9bb4540e3a6b3802cad6e6dad525b0734b6f6c1d5f7607d9b9c1b1",
+      "tamanho": 87692
+    },
+    {
+      "nome": "RES_2007_N_00001_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "7eb7b5476872406941ee89041d8a3cb80f539a33693cc7000a964974c1e52e89",
+      "tamanho": 5395
+    },
+    {
+      "nome": "RES_2007_N_00001_TEXTO_FONTE_V1.txt",
+      "sha256": "52801029a0e2d16b50d1de52e1035f0047682fc0a9a4cb5960d9f1e20cd0ae73",
+      "tamanho": 5436
+    },
+    {
+      "nome": "RES_2007_N_00001_VALIDACAO_V1.json",
+      "sha256": "12bbd8f14b513cea597a734954a69e3fe0162bb16f3ae916b7050275f5de2dd3",
+      "tamanho": 3260
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+    "Texto do ato disponível apenas no PDF (o site traz só título/resumo); atomização feita a partir da camada de texto do PDF.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência."
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-833-de-02-de-dezembro-de-2020/ (API WordPress post 84294); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2020_N_00833_ATOMOS_V1.jsonl",
+      "sha256": "ad139e9db82994c80fd9bcd7e15ad1d872f70adbf20ae7aa6eb6464227489051",
+      "tamanho": 7722
+    },
+    {
+      "nome": "PORT_2020_N_00833_CONTEUDO_SITE_API.json",
+      "sha256": "2050ece5b2da1ebcebc076aa53e6d9c9c88fbbae085051401bd95607fbb36637",
+      "tamanho": 1375
+    },
+    {
+      "nome": "PORT_2020_N_00833_NORMA_V1.json",
+      "sha256": "8dab3538f4fca31d783d91948a1a46847d8dea588f4c7b5164b270f15688aae9",
+      "tamanho": 4075
+    },
+    {
+      "nome": "PORT_2020_N_00833_PAGINA_SITE.html",
+      "sha256": "0e9d241238640e132e8aa2813a757c1488aeb7a8c92080e6ce852cbbec1301c1",
+      "tamanho": 439849
+    },
+    {
+      "nome": "PORT_2020_N_00833_PDF_SITE.pdf",
+      "sha256": "24af1730e49e091317ab970f0c35064088b34072fc825ec42da9f086adae2dca",
+      "tamanho": 181460
+    },
+    {
+      "nome": "PORT_2020_N_00833_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "4239861d086d4e9db69f0d13267aaa189e4c7f8c650f2ca9a5e25105bfcf53b6",
+      "tamanho": 12125
+    },
+    {
+      "nome": "PORT_2020_N_00833_TEXTO_FONTE_V1.txt",
+      "sha256": "8df7de38f28e22dda4434f089c7435d45cb2ad4dda16bfe7f0d3ed2671ae9cf3",
+      "tamanho": 795
+    },
+    {
+      "nome": "PORT_2020_N_00833_VALIDACAO_V1.json",
+      "sha256": "b1db0081a8bc9687476c106f9fee9cc54047d3924648c17e8227ac7f2a27dcdc",
+      "tamanho": 5055
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "2 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo."
+  ]
+}

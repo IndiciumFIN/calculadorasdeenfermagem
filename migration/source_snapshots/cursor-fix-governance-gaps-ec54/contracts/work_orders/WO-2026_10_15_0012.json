@@ -1,0 +1,77 @@
+{
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "entradas": [
+    {
+      "id_origem": "110HJsNy7HSiVLmi8JuknxdpFhS5w5k3N",
+      "caminho": "ferimentos/ferimentos_cid10.csv",
+      "classe": "REFERENCIA",
+      "sha256": "d131a3905a6c67b4e86602e0ad9b2ef297f99a4b015ac3a045bbd3a59bdc7877"
+    },
+    {
+      "id_origem": "1t3IA4MfcM7_nwdS25d6z58Hkg7AHaIVf",
+      "caminho": "ferimentos/ferimentos_cid11.csv",
+      "classe": "REFERENCIA",
+      "sha256": "b242d6613b860cf235c4bf6228d36d071fc95dba9603c21044e63860e6a4003b"
+    },
+    {
+      "id_origem": "1G3y_ifQERM0D2_SqYyMlz0QTkHDJdDvs",
+      "caminho": "ferimentos/tipos_curativos_catmat_pdm_classe_6510.csv",
+      "classe": "REFERENCIA",
+      "sha256": "bdb0d867fcf6fe5f88cfe36eb9ea0fc18174180b239aac899558ad227ad6c42a"
+    },
+    {
+      "id_origem": "1TAW63gtvlVhU2WiMhzE3hDhasn561AMv",
+      "caminho": "ferimentos/ferimentos_mesh.csv",
+      "classe": "REFERENCIA",
+      "sha256": "458e43bbc3834d391016664e19c51efad6ef146abda36b4feac27e5cb768a502"
+    },
+    {
+      "id_origem": "1x8hjIJtMavEObyezJBeKTyqBDHxsA2UA",
+      "caminho": "ferimentos/tipos_curativos_anvisa_nome_tecnico.csv",
+      "classe": "REFERENCIA",
+      "sha256": "4408493dd04445c25499f71ccfb632611157eea620dd72b370ec0ed050b54439"
+    },
+    {
+      "id_origem": "17UUvWPNcf61G4gmzzwmcO0BhnoyYDCn7",
+      "caminho": "ferimentos/tipos_curativos_anvisa_nome_tecnico.json",
+      "classe": "REFERENCIA",
+      "sha256": "5f849992288d3244368af3681a4cd4380617665cf6547507f8f4728dd938fe7c"
+    },
+    {
+      "id_origem": "1VnzPNoeyx9R-8WNr2JMoeUqJ3RBRV-KU",
+      "caminho": "ferimentos/tipos_curativos_catmat_pdm_classe_6510.json",
+      "classe": "REFERENCIA",
+      "sha256": "8093d15a71474971b4d2d38794f769a38111e94f8b14ffc30361075df5317efc"
+    },
+    {
+      "id_origem": "1cQoLJQjbRsT8_LNH1PSsdppAGZXmih-7",
+      "caminho": "ferimentos/ferimentos_mesh.json",
+      "classe": "REFERENCIA",
+      "sha256": "f9231e7cdba645525b052779d22e90a067d901bd47b5871dc5f5965c65d39a0e"
+    },
+    {
+      "id_origem": "1e9Tx4mk6x_T27I7AevJJS_zV86G6fsrs",
+      "caminho": "ferimentos/ferimentos_cid11.json",
+      "classe": "REFERENCIA",
+      "sha256": "b274010477bb07965b88d75a139cfdf057b751ca208ebda73dd2986c3e2dc170"
+    },
+    {
+      "id_origem": "1v48oRASO7Fn-RgXN-sRGhOVmYOENXeHY",
+      "caminho": "ferimentos/ferimentos_cid10.json",
+      "classe": "REFERENCIA",
+      "sha256": "1f99040d5e0c119a500098b18e2d3a5119469597eca5eb1e4dccf8cb341b0e8a"
+    }
+  ],
+  "task_version": "1.0.0",
+  "id": "WO-2026_10_15_0012",
+  "task_type": "retirar",
+  "checker_id": "kernel-validar",
+  "parametros": {
+    "lote": "ferimentos",
+    "parecer_work_order": "WO-2026_10_15_0011"
+  },
+  "task_id": "TAREFA-RETIRAR"
+}

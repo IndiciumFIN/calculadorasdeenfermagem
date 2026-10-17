@@ -1,0 +1,43 @@
+{
+  "algoritmo": "extracao-bytes-sha256",
+  "arquivo": "CKO_CURSOR_00_CONTROLE_v1_0_0.zip",
+  "bytes": 10652,
+  "sha256": "aa9c25a3c016b2fa2d43b816bba98c410f1e6a7d72c331f9f0aa6539bb41cc4e",
+  "membros": [
+    {
+      "nome": "README_CURSOR.md",
+      "bytes": 4163,
+      "sha256": "354e8c0f0542e76e15f50c30c2f0f5f715240173678bf21ca2c309e59110bee7",
+      "disposicao": "GRAVADO",
+      "caminho": "README_CURSOR.md"
+    },
+    {
+      "nome": "PROMPT_PARA_CURSOR.md",
+      "bytes": 1580,
+      "sha256": "f9a797722781804a3277649dfee0d00d46a9ac2af6ebcf4005f0bbfb6411edb3",
+      "disposicao": "GRAVADO",
+      "caminho": "PROMPT_PARA_CURSOR.md"
+    },
+    {
+      "nome": "INVENTARIO_E_QA.json",
+      "bytes": 9086,
+      "sha256": "71b48c966f0e67b0ee9187b12581e29a04ea90b2a5a299e07e325a36343c243c",
+      "disposicao": "GRAVADO",
+      "caminho": "INVENTARIO_E_QA.json"
+    },
+    {
+      "nome": "SHA256SUMS_ARCHIVES.txt",
+      "bytes": 1550,
+      "sha256": "33b9dafd2d7c5134b62a84e9a85558e47252d969d886f4e107cc576296e73220",
+      "disposicao": "GRAVADO",
+      "caminho": "SHA256SUMS_ARCHIVES.txt"
+    },
+    {
+      "nome": "fragmentar.py",
+      "bytes": 9625,
+      "sha256": "61818ef6c51947c130f024d7f047e6e8594c0dd1ad5c1247b20fdfaf20d3d1c7",
+      "disposicao": "GRAVADO",
+      "caminho": "fragmentar.py"
+    }
+  ]
+}

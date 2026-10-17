@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/rdc-02-anvisa-2010-gerenciamento-de-tecnologias-em-servicos-de-saude-dou-no-16-de-250110-secao-1-p-79/ (API WordPress post 51495); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "RDC_2010_N_00002_ATOMOS_V1.jsonl",
+      "sha256": "e2c926ac8270b13cff4f608ec75193f340d8c8596266573256f43492b6e3bcc4",
+      "tamanho": 22097
+    },
+    {
+      "nome": "RDC_2010_N_00002_CONTEUDO_SITE_API.json",
+      "sha256": "adfce6abbf6c357e678306e56aa23f416b5c0463a3a4f9c684b9bd021a2ca1f4",
+      "tamanho": 588
+    },
+    {
+      "nome": "RDC_2010_N_00002_NORMA_V1.json",
+      "sha256": "7eeb6b02e6c6fefa8120bce5ef9358da27f6b51ad3e3bc87fca0cd8ba2e1679e",
+      "tamanho": 5817
+    },
+    {
+      "nome": "RDC_2010_N_00002_PAGINA_SITE.html",
+      "sha256": "ba411ec74484e59f1d75cbff1e401fcbccfc9c3e7f69f00aa1c8989a02cae233",
+      "tamanho": 437759
+    },
+    {
+      "nome": "RDC_2010_N_00002_PDF_SITE.pdf",
+      "sha256": "ea8d19db2f981bc7bbe8b18db8d81dd0f5d720a425c1fd352be57411c7dfa78f",
+      "tamanho": 45036
+    },
+    {
+      "nome": "RDC_2010_N_00002_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "9c8eb09d174fd7b1c7c62342241a46152ca66ec931a9c8179cc8c38194c364a7",
+      "tamanho": 15326
+    },
+    {
+      "nome": "RDC_2010_N_00002_TEXTO_FONTE_V1.txt",
+      "sha256": "2c65fe8771679a683db29d76025f947d9648190899e31df0eff28bcfb4405fb3",
+      "tamanho": 15402
+    },
+    {
+      "nome": "RDC_2010_N_00002_VALIDACAO_V1.json",
+      "sha256": "e941efb2c1d39412a657c3df5c70f5fd3318176374a229cae50d48146a4b7309",
+      "tamanho": 2727
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Texto do ato disponível apenas no PDF (o site traz só título/resumo); atomização feita a partir da camada de texto do PDF.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

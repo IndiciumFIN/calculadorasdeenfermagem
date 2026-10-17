@@ -1,0 +1,51 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/lei-no-11-788-de-25-de-setembro-de-2008/ (API WordPress post 36759); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "LEI_2008_N_11788_ATOMOS_V1.jsonl",
+      "sha256": "5c3cc46634462cf8bfd3dfd7a097360175a2fafd55eed0cfd6266a78787386b6",
+      "tamanho": 19544
+    },
+    {
+      "nome": "LEI_2008_N_11788_CONTEUDO_SITE_API.json",
+      "sha256": "b6e473220935de3f14701751b6204315fc87171b25b4bb3a0212c83321180f0d",
+      "tamanho": 379
+    },
+    {
+      "nome": "LEI_2008_N_11788_NORMA_V1.json",
+      "sha256": "4e053814436b65cba326e80402f45b565735d9dd228f914555037924c54e2f63",
+      "tamanho": 3923
+    },
+    {
+      "nome": "LEI_2008_N_11788_PAGINA_SITE.html",
+      "sha256": "dbe98e67a7432c7a597207353563c93f93ea50f75062f7b8d4224d427d0eee94",
+      "tamanho": 438004
+    },
+    {
+      "nome": "LEI_2008_N_11788_PDF_SITE.pdf",
+      "sha256": "89d52d475734cdc484a30f3c72a2289d145505427746a8c81fe90377b278bf16",
+      "tamanho": 38687
+    },
+    {
+      "nome": "LEI_2008_N_11788_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "a0582299c96d205252a77df30677d2242d80127cf7e5787b457058f4c373b038",
+      "tamanho": 15975
+    },
+    {
+      "nome": "LEI_2008_N_11788_TEXTO_FONTE_V1.txt",
+      "sha256": "3a8a1de18f598a87d7160f480de2ac59a0ca23d770be5585004442acf72cada5",
+      "tamanho": 16018
+    },
+    {
+      "nome": "LEI_2008_N_11788_VALIDACAO_V1.json",
+      "sha256": "64ea75c88c22c6ded4591d6d6411b4bc5160c2982d68c2e6b7dff560035af17f",
+      "tamanho": 2492
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Texto do ato disponível apenas no PDF (o site traz só título/resumo); atomização feita a partir da camada de texto do PDF."
+  ]
+}

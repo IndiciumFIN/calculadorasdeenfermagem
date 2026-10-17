@@ -1,0 +1,264 @@
+{
+  "identificador": "BR_FED_COFEN_PORT_2022_N_00105",
+  "resultado_processo": "PENDENTE",
+  "rotulo": "Pendente de verificação",
+  "controles": [
+    {
+      "nome": "Identificação do ato e emissor",
+      "resultado": "PASS",
+      "evidencia": "PORTARIA COFEN Nº 105 DE 21 DE JANEIRO DE 2022"
+    },
+    {
+      "nome": "Conferência site HTML × PDF oficial, dispositivo a dispositivo",
+      "resultado": "PASS",
+      "status": "EXECUTADA_VIA_OCR",
+      "evidencia": {
+        "dispositivos_comparados": 25,
+        "por_resultado": {
+          "EQUIVALENTE_OCR": 4,
+          "IDENTICO_NORMALIZADO": 21
+        },
+        "trechos_pdf_ausentes_no_site": 0,
+        "pdf": "PORT_2022_N_00105_PDF_SITE.pdf"
+      }
+    },
+    {
+      "nome": "Publicação no DOU (registro, sem verificação online)",
+      "resultado": "NAO_CITADO",
+      "evidencia": null
+    },
+    {
+      "nome": "Anexos referenciados presentes e atomizados",
+      "resultado": "PASS",
+      "status": "PRESENTE_E_ATOMIZADO",
+      "referencias": [
+        "Anexo 1: Medidas administrativas;",
+        "Anexo 2: Conduta em relação aos casos suspeitos e confirmados da Covid-19 e seus cont"
+      ]
+    },
+    {
+      "nome": "Numeração contígua (seções, itens, alíneas)",
+      "resultado": "FAIL",
+      "evidencia": [
+        "Itens 1.x: [1, 2, 4]",
+        "Seções numeradas: [2, 3, 4, 5, 6, 7, 11, 12, 13, 14, 16, 17]",
+        "Itens 4.x: começa em 2 (sequência [2, 3])",
+        "Seções numeradas: começa em 2 (sequência [2, 3, 4, 5, 6, 7, 11, 12, 13, 14, 16, 17])",
+        "Artigos em BR_FED_COFEN_PORT_2022_N_00105_ANEXO_004: começa em 2 (sequência [2, 3, 4, 5, 6])"
+      ]
+    },
+    {
+      "nome": "Conferência humana da literalidade",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Pesquisa de alterações posteriores",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Direitos autorais do texto do ato oficial",
+      "resultado": "PASS",
+      "fundamento": "Lei 9.610/1998, art. 8, IV"
+    }
+  ],
+  "fechamento": {
+    "apto": false,
+    "status": "PENDENCIAS",
+    "justificativa": "Aguardando revisão humana da atomização e pesquisa de atos posteriores. Há achados bloqueantes adicionais."
+  },
+  "achados": [
+    {
+      "codigo": "C001",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Atomização automática; requer conferência humana da segmentação e da literalidade."
+    },
+    {
+      "codigo": "C002",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada."
+    },
+    {
+      "codigo": "C012",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+    },
+    {
+      "codigo": "C030",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+      "evidencia": [
+        "Itens 1.x: [1, 2, 4]",
+        "Seções numeradas: [2, 3, 4, 5, 6, 7, 11, 12, 13, 14, 16, 17]"
+      ]
+    },
+    {
+      "codigo": "C031",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir.",
+      "evidencia": [
+        "Itens 4.x: começa em 2 (sequência [2, 3])",
+        "Seções numeradas: começa em 2 (sequência [2, 3, 4, 5, 6, 7, 11, 12, 13, 14, 16, 17])",
+        "Artigos em BR_FED_COFEN_PORT_2022_N_00105_ANEXO_004: começa em 2 (sequência [2, 3, 4, 5, 6])"
+      ]
+    }
+  ],
+  "conferencia_por_dispositivo": [
+    {
+      "identificador": "BR_FED_COFEN_PORT_2022_N_00105_EPIGRAFE_001",
+      "tipo": "epigrafe",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2022_N_00105_EMENTA",
+      "tipo": "ementa",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 94.3
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2022_N_00105_PREAMBULO_001",
+      "tipo": "preambulo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2022_N_00105_CONSIDERANDO_001",
+      "tipo": "considerando",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 99.5
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2022_N_00105_CONSIDERANDO_002",
+      "tipo": "considerando",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2022_N_00105_CONSIDERANDO_003",
+      "tipo": "considerando",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 99.6
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2022_N_00105_CONSIDERANDO_004",
+      "tipo": "considerando",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2022_N_00105_CONSIDERANDO_005",
+      "tipo": "considerando",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2022_N_00105_CONSIDERANDO_006",
+      "tipo": "considerando",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2022_N_00105_CONSIDERANDO_007",
+      "tipo": "considerando",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2022_N_00105_CONSIDERANDO_008",
+      "tipo": "considerando",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2022_N_00105_CONSIDERANDO_009",
+      "tipo": "considerando",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2022_N_00105_ART_001",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2022_N_00105_ANEXO_001",
+      "tipo": "anexo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2022_N_00105_ANEXO_002",
+      "tipo": "anexo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2022_N_00105_ANEXO_003",
+      "tipo": "anexo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2022_N_00105_ANEXO_004",
+      "tipo": "anexo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2022_N_00105_ANEXO_004_ART_002",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2022_N_00105_ANEXO_004_ART_003",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2022_N_00105_ANEXO_004_ART_003_PAR_UNICO",
+      "tipo": "paragrafo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2022_N_00105_ANEXO_004_ART_004",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2022_N_00105_ANEXO_004_ART_005",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2022_N_00105_ANEXO_004_ART_006",
+      "tipo": "artigo",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2022_N_00105_ANEXO_004_LOCAL_DATA_001",
+      "tipo": "local_data",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_PORT_2022_N_00105_ANEXO_004_ASSINATURA_001",
+      "tipo": "assinatura",
+      "resultado": "EQUIVALENTE_OCR",
+      "similaridade": 72.7
+    }
+  ],
+  "data_verificacao": "2026-10-10",
+  "responsavel": "Triagem automatizada - requer validação humana"
+}

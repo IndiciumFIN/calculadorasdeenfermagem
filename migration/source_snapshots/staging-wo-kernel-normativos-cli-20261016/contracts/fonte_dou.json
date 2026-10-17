@@ -1,0 +1,13 @@
+{
+  "id": "FONTE-DOU-001",
+  "tipo": "primaria",
+  "nome": "Diário Oficial da União",
+  "url_base": "https://in.gov.br",
+  "regras": [
+    "Sempre registrar hash do texto extraído",
+    "Verificar existência de anexos",
+    "Cruzar com fonte secundária do órgão emissor",
+    "Divergência exige status 'divergencia' e revisão humana"
+  ],
+  "proibido": ["substituir por blog", "ignorar divergência", "publicar sem registry"]
+}

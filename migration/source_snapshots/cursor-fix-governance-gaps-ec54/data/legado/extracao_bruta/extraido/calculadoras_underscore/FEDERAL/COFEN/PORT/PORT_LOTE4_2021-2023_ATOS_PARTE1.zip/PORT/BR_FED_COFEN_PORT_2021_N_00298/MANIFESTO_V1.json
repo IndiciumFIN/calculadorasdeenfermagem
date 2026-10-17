@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-298-de-20-de-abril-de-2021/ (API WordPress post 86545); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2021_N_00298_ATOMOS_V1.jsonl",
+      "sha256": "503f2a154d78a4fef4577663905add28677558536a1bec3cf34842ea0c9c98b4",
+      "tamanho": 6024
+    },
+    {
+      "nome": "PORT_2021_N_00298_CONTEUDO_SITE_API.json",
+      "sha256": "3a30463984997a5adb8217a8ea8035743ad225148063b08d400d21dccc27abce",
+      "tamanho": 1375
+    },
+    {
+      "nome": "PORT_2021_N_00298_NORMA_V1.json",
+      "sha256": "d328dbe47ed201b69946675c9c0698fa40aa33b3ed5dfdd621ea7565c552c53e",
+      "tamanho": 2697
+    },
+    {
+      "nome": "PORT_2021_N_00298_PAGINA_SITE.html",
+      "sha256": "b405c24bc9f000c4fe46f75257840207be29c511f86cbd72b5604ed3e8a02431",
+      "tamanho": 438992
+    },
+    {
+      "nome": "PORT_2021_N_00298_TEXTO_FONTE_V1.txt",
+      "sha256": "ae0c7d10ee54d45542089c1a5627f723e408176b656ce1dd8176b1ee44ebda70",
+      "tamanho": 801
+    },
+    {
+      "nome": "PORT_2021_N_00298_VALIDACAO_V1.json",
+      "sha256": "8f36519024746797933aed8e2c71c2df2651b9da0fd2c26e6cfad5f3b696c48f",
+      "tamanho": 2458
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

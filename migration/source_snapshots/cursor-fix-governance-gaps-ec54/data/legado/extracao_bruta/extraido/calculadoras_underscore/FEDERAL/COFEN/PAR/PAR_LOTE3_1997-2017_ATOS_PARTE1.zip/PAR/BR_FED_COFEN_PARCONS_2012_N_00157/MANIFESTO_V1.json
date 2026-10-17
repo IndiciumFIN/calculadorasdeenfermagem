@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-relatora-no-1572012/ (API WordPress post 19246); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCONS_2012_N_00157_ATOMOS_V1.jsonl",
+      "sha256": "61b9d333dd67099b302cd6f1c83b00e14bfa2820ecd41f7dbf87276a0de6a26a",
+      "tamanho": 22912
+    },
+    {
+      "nome": "PARCONS_2012_N_00157_CONTEUDO_SITE_API.json",
+      "sha256": "5488636ea9ba94255f1471af77cf1178559a84e6dd6c9a8ef6f60d3bbd36e1d7",
+      "tamanho": 7055
+    },
+    {
+      "nome": "PARCONS_2012_N_00157_NORMA_V1.json",
+      "sha256": "c09d974f39e8e3d06a6c5d3c05ea23178e5864d2d8944972e27946e8e680b595",
+      "tamanho": 3379
+    },
+    {
+      "nome": "PARCONS_2012_N_00157_PAGINA_SITE.html",
+      "sha256": "a94f026e1f3f4375056fe052c401928ed1b7ee404f1e7c130e088eefa8668456",
+      "tamanho": 442587
+    },
+    {
+      "nome": "PARCONS_2012_N_00157_TEXTO_FONTE_V1.txt",
+      "sha256": "79efd2daece87e7469b2bd18586b9c556b399a3e4d76299cd3100e855b4bac6a",
+      "tamanho": 6430
+    },
+    {
+      "nome": "PARCONS_2012_N_00157_VALIDACAO_V1.json",
+      "sha256": "96bb84ac0bde5f49079826e06af893b626883246c1600afdc611a6469c24671e",
+      "tamanho": 2465
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

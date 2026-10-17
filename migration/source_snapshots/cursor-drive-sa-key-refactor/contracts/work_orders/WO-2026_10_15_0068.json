@@ -1,0 +1,266 @@
+{
+  "id": "WO-2026_10_15_0068",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "task_id": "TAREFA-OBTER",
+  "task_version": "1.0.0",
+  "task_type": "obter",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "parametros": {
+    "lote": "raw_distinto",
+    "alternativa": "caminho raw separado; a copia derivada permanece; zip entra fechado"
+  },
+  "entradas": [
+    {
+      "id_origem": "1gM2_sQHivhuGKZA4FiMqIt6FyCI8NbdA",
+      "caminho": "nutricao/raw/taco_composicao.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1I8N7AfgOzvcF5WjrgiH8cLX0OfHnwh0-",
+      "caminho": "nutricao/raw/taco_aminoacidos.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "19NYY_s6m2bwNq1tWKwXj6MLaAAwiIILK",
+      "caminho": "nutricao/raw/pof_medidas_caseiras.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1oIezq0r-uldlzXe3tLr-YzHi-KuUVxl1",
+      "caminho": "nutricao/raw/taco_acidos_graxos.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1YNmk7J8MFIsonctBzBifcPjO_gfOMm-e",
+      "caminho": "vacinal_brasil/raw/pni_doses_aplicadas_2026_amostra.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1VVLF5sJE-v18UbtKpS-zbmO8ZA7a3EWY",
+      "caminho": "vacinal_brasil/raw/sies_insumos_estrategicos_amostra.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1ixYK-sscf3OgVtdKSGSnBqwAtTFL-8bo",
+      "caminho": "vacinal_brasil/raw/sesai_cobertura_vacinal_indigena.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1GBQUfhGo_Y3Au9-IacaVbAqSstO6Hkog",
+      "caminho": "vacinal_brasil/raw/esavi_eventos_adversos_vacinacao_amostra.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1XRzFrqhGQf3NPXpypf9jko3in9HiIzb7",
+      "caminho": "epidemiologico/raw/sinan_dengue_2026_amostra.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1MUSUpZJfDicrSysyxvRkC8-grEbJh4S3",
+      "caminho": "epidemiologico/raw/sinan_chikungunya_2026_amostra.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1sBzOpDEM6w-py6WNbOHusKok-Rn9NS-P",
+      "caminho": "epidemiologico/raw/febre_amarela_humanos_primatas.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1vh6jzrdbBh8keSZ_9rR_yhsS0mGn-S3I",
+      "caminho": "epidemiologico/raw/sinan_zika_2026_amostra.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "15a31FnIzzmvDCHzNeYkU-4CJg6S43KAS",
+      "caminho": "epidemiologico/raw/srag_2019_2026_amostra.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1d-4BX3q4xaBGPzPdVebF5GOTWEfyE3xy",
+      "caminho": "epidemiologico/raw/sim_mortalidade_amostra.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1WW_-OnxA8VHKiWuwaKKWYbUQ6LMdJhVX",
+      "caminho": "epidemiologico/raw/mpox_amostra.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1ut9N5W2_x_YgWZB740nX-fteqilSHH1S",
+      "caminho": "epidemiologico/raw/febre_amarela_epizootias.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1NhdSaxR8U6B8oQ8PiHag09wFyHV9HIP5",
+      "caminho": "raw/cid10/CID-10-CAPITULOS.CSV",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1A38SELA128MPZahYyarTCEK0vv6TK9_L",
+      "caminho": "raw/cid10/CID-10-SUBCATEGORIAS.CSV",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1-kUkQYiQMbT70_emdi-QYy3yGMmgM6zf",
+      "caminho": "raw/cid10/CID-O-CATEGORIAS.CSV",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1u12z-VnAkb2tuo1jRnyVgDESX90gWVcz",
+      "caminho": "raw/cid10/CID-10-GRUPOS.CSV",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1qnEgatkslUBnZ6AxvwTvc3--z4NdrQWe",
+      "caminho": "raw/cid10/CID-10-CATEGORIAS.CSV",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "13XjLgP0Fq5-8UoiMda1G6g-zzLITkqJf",
+      "caminho": "raw/cid10/CID-O-GRUPOS.CSV",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1kzd2CjIke1A63qx8A9aJhUx5vKznnyr9",
+      "caminho": "nutricao/raw/FoodData_Central_foundation_food_csv_2026-04-30.zip",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1vm5_U_zlxkk2FhuOC9hPVbQj3vrZOQdt",
+      "caminho": "nutricao/raw/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1znYzpP4NzjACSKGtBwfvNY23-fJiljab",
+      "caminho": "epidemiologico/raw/portaria_gm_ms_11211_2026.html",
+      "classe": "DOCUMENTO"
+    },
+    {
+      "id_origem": "1uNJ5aIcevM8CV2EMIwaHRNLTgkIEiXZy",
+      "caminho": "vacinas/raw/cvx.txt",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1C4CpoBq9JEPcPazFziCtxB_7cPtVhurw",
+      "caminho": "vacinas/raw/supporting-data-4.65-508.zip",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1ie7zBt9a7QUSFa0q1Pu6LXHXet3u3oXu",
+      "caminho": "medicamentos/raw/TA_PRECO_MEDICAMENTO.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1QANc6VZNRicGCkdO0rwfpJP7ZeDuxGDC",
+      "caminho": "medicamentos/raw/DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1aNuM4zJ5QHkAtmbYMCpG9hlB3O8KBuFW",
+      "caminho": "medicamentos/raw/drug-shortages.json.zip",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1iy-12zaFSIWjQiVloq-W3QzOq64Nxpgo",
+      "caminho": "medicamentos/raw/drug-ndc.json.zip",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1NIlJmWM22xKQLZma7OwjDJgKA8aunoN_",
+      "caminho": "dispositivos/raw/TA_PRODUTO_SAUDE_SITE.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1u-SO7w_Mrvmrm9GmOuOllNNduQzqHId8",
+      "caminho": "dispositivos/raw/device-classification.json.zip",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1EmKkhmEAakgJo35_1oUDx56N88pXyaH1",
+      "caminho": "mesh/raw/desc2026.gz",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1dqb2pWwcfCfB4fWBLXHRMGD32zQcARHH",
+      "caminho": "icd11/raw/SimpleTabulation-ICD-11-MMS-pt.zip",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1ulqgD6D-4NKo-jwySjc-re06l_xD8qjZ",
+      "caminho": "suprimentos/raw/catmat_classes_6510_6515_6530_6532.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1p-0sOjq9aUTwSQtlbDwLErcrNO3ZC_fB",
+      "caminho": "sinais_vitais/raw/bodyheight.profile.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1Hd3TfVp13PvbIXeSOOftrlWYUklhYJoB",
+      "caminho": "sinais_vitais/raw/heartrate.profile.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1faBmxjPbWodEv1xMtJMRk6AHtzLDEMwL",
+      "caminho": "sinais_vitais/raw/resprate.profile.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1fj3kMl2ssPUIl5pYeiejtqbMwNHqixmm",
+      "caminho": "sinais_vitais/raw/vitalspanel.profile.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1X02pL7bXDEmeJQeuL7o0vaMJKww00YWD",
+      "caminho": "sinais_vitais/raw/bodyweight.profile.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "128tlK5NGu4OcrVCNPu2Fe8zMRhav-GFH",
+      "caminho": "sinais_vitais/raw/vitalsigns.profile.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1XSIq0-XOOCbz7T6fJvlD5MIi33Uhexj_",
+      "caminho": "sinais_vitais/raw/bp.profile.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1XnocODMjVObuSuaTWAa5fbUmhqOGhmup",
+      "caminho": "sinais_vitais/raw/oxygensat.profile.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1v8kJG17gxpxDZ3nIJrRSkwe1akXguX0C",
+      "caminho": "sinais_vitais/raw/headcircum.profile.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1WQYnYl4kR6vjvKUwdoQpQhyoLMm0Yrn8",
+      "caminho": "sinais_vitais/raw/bmi.profile.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1HJbgLTmvpe7xafjrrmyZB5LXUirD0kmt",
+      "caminho": "sinais_vitais/raw/bodytemp.profile.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "18E0nmDuaVFcCzKUFGSEEcDfXocRNKggg",
+      "caminho": "sinais_vitais/raw/valueset-observation-vitalsignresult.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1lxcRl5BgzbFwO3hIOIkZkHBoN_ywZc_B",
+      "caminho": "raw/mplus_topics_2026-10-10.xml",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1PEzDf4oWIyChctfwu7mB_6luZIOCDzAe",
+      "caminho": "raw/CID10CSV.zip",
+      "classe": "REFERENCIA"
+    }
+  ]
+}

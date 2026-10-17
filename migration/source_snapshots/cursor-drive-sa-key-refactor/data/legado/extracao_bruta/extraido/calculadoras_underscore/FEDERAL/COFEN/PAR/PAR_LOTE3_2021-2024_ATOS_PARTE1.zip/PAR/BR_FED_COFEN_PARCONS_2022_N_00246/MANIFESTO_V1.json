@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-conselheiro-federal-no-246-2022-cofen/ (API WordPress post 108841); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCONS_2022_N_00246_ATOMOS_V1.jsonl",
+      "sha256": "72df04a8ed3fd62f9e4b651ef8ec73214fd26350672a67daeec0f570800c5d14",
+      "tamanho": 26652
+    },
+    {
+      "nome": "PARCONS_2022_N_00246_CONTEUDO_SITE_API.json",
+      "sha256": "7d6ce270e239b7d8f05205a5cdd678337531087ce0e1b7b594f60ad9793c8ee5",
+      "tamanho": 9510
+    },
+    {
+      "nome": "PARCONS_2022_N_00246_NORMA_V1.json",
+      "sha256": "acd6ce9bed8ed64145214e2028269a339916c914008a74c211f6c0dd50657dd8",
+      "tamanho": 3004
+    },
+    {
+      "nome": "PARCONS_2022_N_00246_PAGINA_SITE.html",
+      "sha256": "aef8b57bce0d9a67b5f831ffd581991a6f3d449fb53fc2e25a9853b2b7593fe3",
+      "tamanho": 446832
+    },
+    {
+      "nome": "PARCONS_2022_N_00246_TEXTO_FONTE_V1.txt",
+      "sha256": "0688a2ef2ab3140a30084fbe1c8da28c190f7a84213cd8ced1397fa3cc5f9f74",
+      "tamanho": 8753
+    },
+    {
+      "nome": "PARCONS_2022_N_00246_VALIDACAO_V1.json",
+      "sha256": "8223d2625f131f0362a50e104878d8943fcdfcbe05f778108d0e7220fc90203b",
+      "tamanho": 2667
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

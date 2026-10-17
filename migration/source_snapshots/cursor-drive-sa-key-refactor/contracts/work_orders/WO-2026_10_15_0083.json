@@ -1,0 +1,113 @@
+{
+  "id": "WO-2026_10_15_0083",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "task_version": "1.0.0",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "task_id": "TAREFA-RETIRAR",
+  "task_type": "retirar",
+  "parametros": {
+    "lote": "cofen_par_os",
+    "parecer_work_order": "WO-2026_10_15_0082"
+  },
+  "entradas": [
+    {
+      "id_origem": "1el_2xMMzd19UHOONIVyPk4_ZUfmpt0kH",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/LEIA-ME_LOTE4.md",
+      "classe": "DOCUMENTO",
+      "sha256": "7de0b92f8bf0df710c91adfb39aed0f29d0016b558653acf050848cbc1b9f1bd"
+    },
+    {
+      "id_origem": "1F2YLci4Oj-0IaAQt2O7SCIlqOjzf51f8",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/LEIA-ME_LOTE5.md",
+      "classe": "DOCUMENTO",
+      "sha256": "b697ff002cfd59d02dd4be99d4a6b13345a1c5964a5c3ae6964ed604f6900f3b"
+    },
+    {
+      "id_origem": "1MVsJKI-awIZJuBNWPqGgpa7w3ee1Bkz5",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/LEIA-ME_LOTE3.md",
+      "classe": "DOCUMENTO",
+      "sha256": "6d87aabd97462e81c3c9e628e8de811f65c346cee632c8602f4aeab868769cd1"
+    },
+    {
+      "id_origem": "1YOTUQ0n9N2qEb_koX0-posd8iuThDnSQ",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/LEIA-ME_LOTE6.md",
+      "classe": "DOCUMENTO",
+      "sha256": "d9c182dd1cdc9a51d6f9ad941040f114d4fadeb95f19c462a013b3ccaa759dc6"
+    },
+    {
+      "id_origem": "1iqtPZPwShmX9UrG_QNpWWazIjcHE0VAQ",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/LEIA-ME_LOTE2.md",
+      "classe": "DOCUMENTO",
+      "sha256": "1c5bcd7949ee5b54560e492da50324ba6954f3470a4b10e33b341bd1a62f2faa"
+    },
+    {
+      "id_origem": "1rx3hZeEwqb275T3W6xLdM8h2dg2TZDxV",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/LEIA-ME_LOTE1.md",
+      "classe": "DOCUMENTO",
+      "sha256": "46b8bdb33e1f2da320d694588eec8a8b30655f93bc0dc49709497624893d8861"
+    },
+    {
+      "id_origem": "13iYKfKo_GU7Ycnku5ZB7Pione3sDJ8d2",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/LEIA-ME.md",
+      "classe": "DOCUMENTO",
+      "sha256": "a6ad2826d9753134234f718bd8a072d73d2ccd8b43936a6110b89ebfa308fc4e"
+    },
+    {
+      "id_origem": "1C5OkakB0ruiNdhVO8_d3noS4fD4HehBr",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/PAR/PAR_LOTE3_1997-2017_ATOS_PARTE1.zip",
+      "classe": "REFERENCIA",
+      "sha256": "689c80f7a86742c45680bff9a29f6daadb1a9debb64e135c7aecf1f520a1f899"
+    },
+    {
+      "id_origem": "1J3mh32e7Yftj7F3JoT1vY8_E7LmNR_lz",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/PAR/PAR_LOTE3_1997-2017_ATOS_PARTE2.zip",
+      "classe": "REFERENCIA",
+      "sha256": "c52b59133f204834c2340207924d575092fc8e1407cd8ebfa82838fb76595f7b"
+    },
+    {
+      "id_origem": "1SApKh8ttUO-OnSbaU_DN2s4dq9bX3Zx1",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/PAR/PAR_LOTE3_2021-2024_ATOS_PARTE2.zip",
+      "classe": "REFERENCIA",
+      "sha256": "51728d2fcdd7dfc505fa2608b341ba52983377a3065f370091ace506f4b3215d"
+    },
+    {
+      "id_origem": "1jJTtCr8ITFMZUcqRqdjZ661wHselXSTO",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/PAR/PAR_LOTE3_2018-2020_ATOS_PARTE1.zip",
+      "classe": "REFERENCIA",
+      "sha256": "2676a05062c968361a4b7f9a4e208eac9ea6fd8fda52749d29a5943c1e202409"
+    },
+    {
+      "id_origem": "14Z9lUIVXjNgDo5FkVUIyftVX6GD4FOwK",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/PAR/PAR_LOTE3_2018-2020_ATOS_PARTE2.zip",
+      "classe": "REFERENCIA",
+      "sha256": "a8cdbf0b34afe440e6eaf3680f29b0c860f4fbbab4705426017c6e5171dcd0c6"
+    },
+    {
+      "id_origem": "1tnZiLuoScx4vKTDxCGF35wLAnKaEvfJq",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/PAR/PAR_LOTE5_ATOS.zip",
+      "classe": "REFERENCIA",
+      "sha256": "7bd470f8b2853f9cc0ae66329a7b5d36e9a48610d40dd899c6ec421b69cb4259"
+    },
+    {
+      "id_origem": "1TpjBz440mBSUegmNDb9AH5qq_WMfkeMI",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/PAR/PAR_LOTE3_2025-2026_ATOS.zip",
+      "classe": "REFERENCIA",
+      "sha256": "2c1212741bab519ea7915aea604b292611a161905cb13500b5f7df05319cfe87"
+    },
+    {
+      "id_origem": "1cs9VswF71rWtiYfuHYdGFe1tXayuXPel",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/PAR/PAR_LOTE3_2021-2024_ATOS_PARTE1.zip",
+      "classe": "REFERENCIA",
+      "sha256": "1584997ea553b6c1d60be30683004d006cd40304355cde20bb2b0c76fc686fdc"
+    },
+    {
+      "id_origem": "1iF0j1ZMGAMUkiH7P57EtAYzIiTGmkcfS",
+      "caminho": "calculadoras_underscore/FEDERAL/COFEN/OS/OS_LOTE5_ATOS.zip",
+      "classe": "REFERENCIA",
+      "sha256": "dff6975fc8a31e85a4b64e964088db25f5195ea10cef309d236332132ddc7c01"
+    }
+  ],
+  "checker_id": "kernel-validar"
+}

@@ -1,0 +1,53 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/resolucao-cns/ (API WordPress post 41693); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "RES_2016_SN_RESOLUCAO_CNS_ATOMOS_V1.jsonl",
+      "sha256": "fa1a66fd30de0b94132a521be676c0345bf7a459018d9e859e5b32c7a620fd09",
+      "tamanho": 38830
+    },
+    {
+      "nome": "RES_2016_SN_RESOLUCAO_CNS_CONTEUDO_SITE_API.json",
+      "sha256": "d0a9025b4553ab1dcd4d7675c9654e68ca6e65a52aad2db1341281080c03b256",
+      "tamanho": 272
+    },
+    {
+      "nome": "RES_2016_SN_RESOLUCAO_CNS_NORMA_V1.json",
+      "sha256": "01b3521d2c629ef10dbb39da458768f7cf2a337a2d06ec36ffbe37a3f0329bbf",
+      "tamanho": 5743
+    },
+    {
+      "nome": "RES_2016_SN_RESOLUCAO_CNS_PAGINA_SITE.html",
+      "sha256": "03029dca0915d4961febbf7fa0230c7a45610f9394f65b565484750406dafc41",
+      "tamanho": 433514
+    },
+    {
+      "nome": "RES_2016_SN_RESOLUCAO_CNS_PDF_SITE.pdf",
+      "sha256": "b1a5ba35e45d940d36eb4a01b072aed00db9ed827f529f44a7a371fb054f6579",
+      "tamanho": 15165
+    },
+    {
+      "nome": "RES_2016_SN_RESOLUCAO_CNS_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "c1e9761c973dd67755f526d6b89bcf32d545e4870024d9c5cdba71b866910d54",
+      "tamanho": 5288
+    },
+    {
+      "nome": "RES_2016_SN_RESOLUCAO_CNS_TEXTO_FONTE_V1.txt",
+      "sha256": "c1e9761c973dd67755f526d6b89bcf32d545e4870024d9c5cdba71b866910d54",
+      "tamanho": 5288
+    },
+    {
+      "nome": "RES_2016_SN_RESOLUCAO_CNS_VALIDACAO_V1.json",
+      "sha256": "a530b3fa04090be24f4316cac74f8d8d4bb1d4c5236e42e88acc16c734f1b960",
+      "tamanho": 2883
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Texto do ato disponível apenas no PDF (o site traz só título/resumo); atomização feita a partir da camada de texto do PDF.",
+    "Ato sem número no site; identificador formado por slug.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

@@ -1,0 +1,43 @@
+name: Pipeline Determinístico
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  validate-pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r packages/cli/requirements.txt pydantic typer
+
+      - name: Compile check
+        run: python -m compileall packages/cli -q
+
+      - name: Run unit-style validation on sample
+        run: |
+          PYTHONPATH=. python packages/cli/main.py --help
+          echo "CLI help OK"
+
+      - name: Check for unregistered artifacts
+        run: |
+          if [ -f data/atomos.json ] && [ ! -f data/registry.json ]; then
+            echo "FAIL: atomos.json exists without registry.json"
+            exit 2
+          fi
+          echo "Registry check OK (or no atomos yet)"
+
+      - name: Enforce exit codes
+        run: |
+          # Qualquer falha anterior já teria saído com código != 0
+          echo "All gates checked"

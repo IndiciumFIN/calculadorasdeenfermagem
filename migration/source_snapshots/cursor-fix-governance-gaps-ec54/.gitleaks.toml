@@ -1,0 +1,9 @@
+[extend]
+useDefault = true
+
+# sha256_texto é o hash curto da evidência de extração nas planilhas legadas.
+# O detector generic-api-key confunde esse hash com credencial. Não é segredo.
+[[allowlists]]
+description = "Hash de evidência sha256_texto do acervo legado"
+regexTarget = "match"
+regexes = ['''sha256_texto=[0-9a-fA-F]{8,}''']

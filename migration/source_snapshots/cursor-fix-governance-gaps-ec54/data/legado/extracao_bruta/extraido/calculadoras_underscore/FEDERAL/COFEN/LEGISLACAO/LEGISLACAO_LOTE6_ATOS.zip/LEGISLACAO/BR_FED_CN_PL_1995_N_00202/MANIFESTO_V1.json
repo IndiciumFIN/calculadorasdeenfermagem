@@ -1,0 +1,43 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/projeto-de-lei-n-20295/ (API WordPress post 4223); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PL_1995_N_00202_ATOMOS_V1.jsonl",
+      "sha256": "dceb0f001d1c568f53d0dcce5ec0da6f43bce6f66af9aaa3de1ccbb42d7fe5a5",
+      "tamanho": 88819
+    },
+    {
+      "nome": "PL_1995_N_00202_CONTEUDO_SITE_API.json",
+      "sha256": "80574df8ebdb1c5053abda6f963ffbc57bdba7695273acf5a5c2ba46922446b1",
+      "tamanho": 19462
+    },
+    {
+      "nome": "PL_1995_N_00202_NORMA_V1.json",
+      "sha256": "713c6541d2c19e71b484546848806b7cc0a51a332d327098e3604bdc7f095c3d",
+      "tamanho": 3606
+    },
+    {
+      "nome": "PL_1995_N_00202_PAGINA_SITE.html",
+      "sha256": "8a6997fe04665bc51037c64e78aa3ff1840c4aae5d585551be89e17f473e75f8",
+      "tamanho": 453691
+    },
+    {
+      "nome": "PL_1995_N_00202_TEXTO_FONTE_V1.txt",
+      "sha256": "26c79ed50ca5618c5b2a8349a8180b6ca4f7a1bd407eafb0dd48710c890ee53b",
+      "tamanho": 17816
+    },
+    {
+      "nome": "PL_1995_N_00202_VALIDACAO_V1.json",
+      "sha256": "b1f9e9664c026ce2cc377c88cf47e0796a5e9794d66557461f7d811c1decc81a",
+      "tamanho": 3128
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

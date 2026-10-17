@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-377-de-29-de-julho-de-2020/ (API WordPress post 81521); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2020_N_00377_ATOMOS_V1.jsonl",
+      "sha256": "9b7cab2579de25acb4cc2fd211753178ad9c4339b9ef9a04e7cf7fab69eb59a9",
+      "tamanho": 6070
+    },
+    {
+      "nome": "PORT_2020_N_00377_CONTEUDO_SITE_API.json",
+      "sha256": "2320882d2b0e85f8421c305dd360118b805504a7bfa0b34876e02444e0d2fa30",
+      "tamanho": 1422
+    },
+    {
+      "nome": "PORT_2020_N_00377_NORMA_V1.json",
+      "sha256": "1fe50ca7ba343ee27afbca664481daa49818f0fa6fe5a29e7e4d8a9b97518dc3",
+      "tamanho": 3090
+    },
+    {
+      "nome": "PORT_2020_N_00377_PAGINA_SITE.html",
+      "sha256": "dd6ede6f6c03238c0ae80e745c347ea2591d26bf55e1944e54bc3e5c9f3db73c",
+      "tamanho": 439473
+    },
+    {
+      "nome": "PORT_2020_N_00377_TEXTO_FONTE_V1.txt",
+      "sha256": "bedb205f678fcd3509021f32e87d280ba5570d96de7c2af5a7d9c4f8447f7f91",
+      "tamanho": 847
+    },
+    {
+      "nome": "PORT_2020_N_00377_VALIDACAO_V1.json",
+      "sha256": "092da33d521aebd7ce9aa26a48b4162a8b1b96f0da6fa39a14075131f4712460",
+      "tamanho": 2458
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

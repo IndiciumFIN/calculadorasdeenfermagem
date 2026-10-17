@@ -1,0 +1,29 @@
+{
+  "id": "WO-2026_10_16_0235",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "checker_id": "drive-move-independent-checker",
+  "task_id": "TAREFA-MOVER-DRIVE",
+  "task_version": "1.0.0",
+  "task_type": "mover-drive",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "entradas": [
+    {
+      "id_origem": "1sUC3sfiw-Az1PjgJZDX7LhmLWY6LyJSa",
+      "caminho": "data/legado/extracao_bruta/TYPE_MOVE_PILOT/program_scope_corrections_wave3.csv",
+      "classe": "REFERENCIA",
+      "sha256": "a0621e18ec3b546b70705f0122211844e739a2637ed7f7b0f8605ffae2e8b40b"
+    }
+  ],
+  "parametros": {
+    "source_parent_id": "1c9vErI_It3XwzAcAFOnbxw9V0Mn6xfB9",
+    "target_parent_id": "1PYFS29kjrFQVkR7fLE_OzDT3-hHMX3lY",
+    "file_type": "CSV",
+    "expected_title": "program_scope_corrections_wave3.csv",
+    "expected_mime": "text/csv",
+    "expected_bytes": "705",
+    "pilot_lote": "TYPE-MOVE-WO-20261016",
+    "source_preservation": "SAME_DRIVE_ID"
+  }
+}

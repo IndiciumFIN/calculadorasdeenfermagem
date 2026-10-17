@@ -1,0 +1,125 @@
+{
+  "work_order": "WO-2026_10_15_0064",
+  "policy_version": "1.0.0",
+  "itens": [
+    {
+      "id_origem": "19DcedcGg9SjBYX93peoPtHkg0ghgShCn",
+      "caminho": "dispositivos/fda_classificacao_dispositivos.csv",
+      "classe": "REFERENCIA",
+      "sha256": "c45a71b1e6c24ef364457a444df44adbb47dfa8d8d5d9edda0e9570c06907a76",
+      "bytes": 1376934
+    },
+    {
+      "id_origem": "1WAtrnFgoKLyWtZEDq8AGFhkIEJZBxxnj",
+      "caminho": "dispositivos/anvisa_produtos_saude_registrados.csv",
+      "classe": "REFERENCIA",
+      "sha256": "3bf39a9a601ad32453830f97bdf0ae1f203e62e17caf19a74fd1d49de418135f",
+      "bytes": 28296752
+    },
+    {
+      "id_origem": "1Ol_LydTOEcSRMq383_EocGxnWoRF4oSt",
+      "caminho": "dispositivos/fda_classificacao_dispositivos.json",
+      "classe": "REFERENCIA",
+      "sha256": "9fa4b3301d164ac9973b7fedde14b3dd5d798e6670772564f365afa76e7058bb",
+      "bytes": 4156609
+    },
+    {
+      "id_origem": "10iCL4OyCdG-iyoMbqMtCKnScPOuU2Hay",
+      "caminho": "atomizado/NOTA_CORRECAO_2026-10-10.md",
+      "classe": "DOCUMENTO",
+      "sha256": "3f9e932e668be289aa4367d9a027980c858064ec0f74c9676d995850a75a9a7a",
+      "bytes": 2744
+    },
+    {
+      "id_origem": "1YPgMKA8WMHPVu-QoSSnRrswM8cc3d9qJ",
+      "caminho": "atomizado/atomizar_v1.2.0.py",
+      "classe": "SCRIPT",
+      "sha256": "305b769906be12c618587e8df729a86d9e1e3d5266db60a4ff520fd1b00cd725",
+      "bytes": 61290
+    },
+    {
+      "id_origem": "1wmQ8iwPcEhvz7SUjKkMLF6xtdx1yUj5z",
+      "caminho": "atomizado/README_ATOMIZADO_v1.1.0.md",
+      "classe": "DOCUMENTO",
+      "sha256": "ff578052206f845fe19d7578e23af2f10a594ff44a21393bc7d26d8e251806df",
+      "bytes": 10692
+    },
+    {
+      "id_origem": "1zWduqu8PlJckIGfJ0McmjQV_JnGkAVrF",
+      "caminho": "atomizado/verificar_v1.1.0.py",
+      "classe": "SCRIPT",
+      "sha256": "7bb87a121904fe1abea7ad625d3022fd603c20eb1fcc956dbe70faf6c6414a2d",
+      "bytes": 5197
+    },
+    {
+      "id_origem": "1JO4UgXTWBXEFaQfayKs10DRuwUlMel4S",
+      "caminho": "atomizado/atomizar_v1.1.0.py",
+      "classe": "SCRIPT",
+      "sha256": "46af867bef1ed82c2eeabe5846c04840feb3ad22fc5a5932e37296516a361ab5",
+      "bytes": 59640
+    },
+    {
+      "id_origem": "1vHnIGyI_YKBN3YBF6tABYCoviAy7WuHc",
+      "caminho": "atomizado/README_ATOMIZADO.md",
+      "classe": "DOCUMENTO",
+      "sha256": "c34da875b409580d9a12479dd8b6c28b2937681cad453298eebcc120b037ad92",
+      "bytes": 4339
+    },
+    {
+      "id_origem": "1qOLwGOX2vgTZoh4s5-F8HWhLLUns0YD0",
+      "caminho": "atomizado/verificar.py",
+      "classe": "SCRIPT",
+      "sha256": "c888fff80a9c80c34ca454f3f7f489c32cf815f22571852cc9f3dc524b8a6bf8",
+      "bytes": 3440
+    },
+    {
+      "id_origem": "1C1rxVw2j8gnTmT6utu8i8tYMJ35BHfLk",
+      "caminho": "atomizado/atomizar.py",
+      "classe": "SCRIPT",
+      "sha256": "40c5ac26c977b3b8d7ca97b528f31f954ae52d7522bfe6826082ba53d9029f3b",
+      "bytes": 29877
+    },
+    {
+      "id_origem": "1omCfXJroBkbuz6MuwwgJx8emTstu4Z4S",
+      "caminho": "revisao/VERIFICAR_V2_2026-10-10_execucao2.txt",
+      "classe": "DOCUMENTO",
+      "sha256": "a132ed015dfcf4da82e305d8a5abffe51eef49c16baf5307ce213efe62ca1061",
+      "bytes": 2327
+    },
+    {
+      "id_origem": "1413pOdLB0lDcGO4PCbTLHwR4Rzq-1dgY",
+      "caminho": "revisao/README_REVISAO.md",
+      "classe": "DOCUMENTO",
+      "sha256": "dbdf4b95b663a57cea516912a48fdf6f0831a4683eaf5b4844f2dfe646e6bb52",
+      "bytes": 7341
+    },
+    {
+      "id_origem": "1lbkZGxCWt7OZ2ksAvwKO5NG-R_rmhPX7",
+      "caminho": "revisao/RECONFERENCIA_CORRECOES_2026-10-10.json",
+      "classe": "DOCUMENTO",
+      "sha256": "6ab88a96c56de6a8c326bd800bd6d255a34c76be62bd4d2df399bf2e35305d16",
+      "bytes": 1677
+    },
+    {
+      "id_origem": "1F0Aa383gXYukui-Uc0GeHHYtLtJAZmyn",
+      "caminho": "revisao/resumo.json",
+      "classe": "DOCUMENTO",
+      "sha256": "c60bf355da1cc570a0ddf621783bfc17b2b7bc741ede475e7011a63d0c1fc079",
+      "bytes": 986
+    },
+    {
+      "id_origem": "1ynmJZz5tOyyBNxkkgs6QjlTdvH6sf9-h",
+      "caminho": "revisao/SHA256SUMS.txt",
+      "classe": "DOCUMENTO",
+      "sha256": "6202fd4df4fa615d9f97c53802ed8d667d78e6191dd606f916390fb140c723c4",
+      "bytes": 1848
+    },
+    {
+      "id_origem": "1y6g6rSrhj7-GAEcFKv6yd23ZgjF5a_8R",
+      "caminho": "revisao/revisar.py",
+      "classe": "SCRIPT",
+      "sha256": "4696d9377e5b2395ff6ff304fdbe5ec0632822338d46e424af0a2f2d69e3ea28",
+      "bytes": 23639
+    }
+  ]
+}
