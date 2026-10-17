@@ -1,0 +1,67 @@
+{
+  "schema": "CE-WO-DRAFT-1.0",
+  "id": "WO-G0-CORRECTIVE-20261017",
+  "status": "DRAFT_NOT_ADMITTED",
+  "scope": "G0 corrective remediation",
+  "finds": [
+    "FIND-G0-001",
+    "FIND-G0-002",
+    "FIND-G0-003",
+    "FIND-G0-004",
+    "FIND-G0-005",
+    "FIND-G0-006",
+    "FIND-G0-007",
+    "FIND-G0-008",
+    "FIND-G0-009",
+    "FIND-G0-010",
+    "FIND-G0-011"
+  ],
+  "policy_id": "CE-GOV-WO-ADMISSION-001",
+  "policy_status": "PROPOSED_NOT_HOMOLOGATED",
+  "validator": "governance/validator_v2.py (offline candidate, not installed in Kernel)",
+  "task_status": "PENDING_HOMOLOGATION",
+  "tasks": [
+    {
+      "id": "TASK-G0-A",
+      "goal": "Reconcile current policy, WO schema, Kernel admission interface and branch SHA",
+      "state": "PENDING"
+    },
+    {
+      "id": "TASK-G0-B",
+      "goal": "Fix validator registry and import wiring; run smoke and negative tests",
+      "state": "BLOCKED_ADMISSION"
+    },
+    {
+      "id": "TASK-G0-C",
+      "goal": "Replace permissive CID10/schema validators with evidence-based validators",
+      "state": "BLOCKED_ADMISSION"
+    },
+    {
+      "id": "TASK-G0-D",
+      "goal": "Enforce SHA256, human review and WO checks; no gate filesystem mutation",
+      "state": "BLOCKED_ADMISSION"
+    },
+    {
+      "id": "TASK-G0-E",
+      "goal": "Audit 11 FINDs, test all and close only with independent evidence",
+      "state": "BLOCKED_ADMISSION"
+    }
+  ],
+  "admission": {
+    "decision": "NOT_REQUESTED",
+    "kernel_evidence": null
+  },
+  "execution_allowed": false,
+  "acceptance_criteria": [
+    "All 11 FINDs closed with evidence",
+    "Kernel admission bound to GitHub WO blob",
+    "Real positive and negative tests PASS",
+    "Independent audit PASS",
+    "No G1 advance with any open FIND"
+  ],
+  "limitations": [
+    "No task homologation evidenced",
+    "Policy and validator not yet installed in Kernel",
+    "No production mutation authorized"
+  ]
+}
