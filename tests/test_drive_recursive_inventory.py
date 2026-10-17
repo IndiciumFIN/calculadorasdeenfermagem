@@ -92,4 +92,35 @@ def test_overlap_requires_provenance_reconciliation():
     def fetch(folder, token, page_token=None):
         return {"files": [{"id": "child", "name": "Child", "mimeType": FOLDER}]} if folder == "parent" else {"files": []}
     result = crawl([{"id": "parent"}, {"id": "child"}], "dummy", fetch=fetch)
-    assert result["root_membership_status"] == "HOLD_OVERLAP_RECONCILIATION"
+    assert result["root_membership_status"] == "RECONCILED_BY_ROOT_PATH"
+
+
+def test_shared_root_descendants_preserve_both_paths_and_fetch_once():
+    calls = []
+    def fetch(folder, token, page_token=None):
+        calls.append(folder)
+        if folder == "parent":
+            return {"files": [{"id": "child", "name": "Child", "mimeType": FOLDER}]}
+        if folder == "child":
+            return {"files": [{"id": "doc", "name": "data.json", "mimeType": "application/json"}]}
+        return {"files": []}
+    result = crawl([{"id": "parent"}, {"id": "child"}], "dummy", fetch=fetch)
+    paths = {(x["root_id"], x["path"]) for x in result["items"] if x["id"] == "doc"}
+    assert paths == {("parent", "Child/data.json"), ("child", "data.json")}
+    assert calls.count("child") == 1
+    assert result["unique_objects_count"] == 2
+    assert result["root_memberships"]["child"] == ["child", "parent"]
+
+
+def test_shared_nonroot_folder_is_not_mistaken_for_cycle():
+    def fetch(folder, token, page_token=None):
+        if folder == "root":
+            return {"files": [{"id": "a", "name": "A", "mimeType": FOLDER},
+                              {"id": "b", "name": "B", "mimeType": FOLDER}]}
+        if folder in ("a", "b"):
+            return {"files": [{"id": "shared", "name": "Shared", "mimeType": FOLDER}]}
+        return {"files": [{"id": "doc", "name": "data.txt", "mimeType": "text/plain"}]}
+    result = crawl([{"id": "root"}], "dummy", fetch=fetch)
+    paths = {x["path"] for x in result["items"] if x["id"] == "doc"}
+    assert paths == {"A/Shared/data.txt", "B/Shared/data.txt"}
+    assert result["folders_traversed"] == 4
