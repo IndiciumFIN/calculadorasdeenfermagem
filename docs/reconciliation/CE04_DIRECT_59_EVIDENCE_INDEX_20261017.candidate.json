@@ -1,0 +1,558 @@
+{
+  "schema": "CE04-DIRECT-GIT-BYTE-HASH-INDEX-CANDIDATE-1.0",
+  "wo": "WO-CE04-RECON-20261017",
+  "status": "READONLY_59_EVIDENCE_NORMALIZED_NOT_HOMOLOGATED",
+  "source": "17 existing SHA256 microlotes from GitHub",
+  "batch_counts": [
+    5,
+    3,
+    6,
+    6,
+    6,
+    5,
+    4,
+    4,
+    4,
+    4,
+    3,
+    3,
+    2,
+    1,
+    1,
+    1,
+    1
+  ],
+  "rows": [
+    {
+      "name": "cid10/capitulo.jsonl",
+      "sha256": "da3a540d800207f394fc5f119c08a164ea5f4dc0453986fac835e66671455fdf",
+      "expected_sha256": "da3a540d800207f394fc5f119c08a164ea5f4dc0453986fac835e66671455fdf",
+      "bytes": 17713,
+      "expected_bytes": 17713,
+      "blob": "924ed3ac187a0132121fbba7e596d566c0f01c4a",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_06_20261017.candidate.json"
+    },
+    {
+      "name": "cid10/categoria.jsonl",
+      "sha256": "ee61d4260657965067cf1569b54a15b30824d23df8475fbaf270365fbd04de10",
+      "expected_sha256": "ee61d4260657965067cf1569b54a15b30824d23df8475fbaf270365fbd04de10",
+      "bytes": 1740799,
+      "expected_bytes": 1740799,
+      "blob": "a629655db0798b124d077d36bcda3fb126d099f6",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_07_20261017.candidate.json"
+    },
+    {
+      "name": "cid10/cido_categoria.jsonl",
+      "sha256": "a23603ea207ffaea4064853ea4285516be30aacab4889d7da4809856c7da2b49",
+      "expected_sha256": "a23603ea207ffaea4064853ea4285516be30aacab4889d7da4809856c7da2b49",
+      "bytes": 510820,
+      "expected_bytes": 510820,
+      "blob": "1d9d25078eb333b10961c1514d4fac044445a1d5",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_06_20261017.candidate.json"
+    },
+    {
+      "name": "cid10/cido_grupo.jsonl",
+      "sha256": "f868f3a6a7fd1acfee9eb44887a21a28a8d9ab832cc4fe523988fac1ecc0094f",
+      "expected_sha256": "f868f3a6a7fd1acfee9eb44887a21a28a8d9ab832cc4fe523988fac1ecc0094f",
+      "bytes": 39637,
+      "expected_bytes": 39637,
+      "blob": "58d1c60e2d37acbb6f1a054e5999a4b4c6c22820",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_03_20261017.candidate.json"
+    },
+    {
+      "name": "cid10/grupo.jsonl",
+      "sha256": "4992ca890a72b68842406c8f9c2bf655eec7b693afce7a4820558e43cafc7116",
+      "expected_sha256": "4992ca890a72b68842406c8f9c2bf655eec7b693afce7a4820558e43cafc7116",
+      "bytes": 206425,
+      "expected_bytes": 206425,
+      "blob": "5c25cc1ebd1722bd2c43e709acc773eaab821f9f",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_04_20261017.candidate.json"
+    },
+    {
+      "name": "cid10/subcategoria.jsonl",
+      "sha256": "e6e214bb0753a14143045eef6f738a7e7ee2be542f2ca38f37636715c33c6cb9",
+      "expected_sha256": "e6e214bb0753a14143045eef6f738a7e7ee2be542f2ca38f37636715c33c6cb9",
+      "bytes": 12598690,
+      "expected_bytes": 12598690,
+      "blob": "69890ab0d2dd1a271d4a7d935a21d0d4d351ee14",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_12_20261017.candidate.json"
+    },
+    {
+      "name": "dispositivos/classificacao_fda_dispositivo.jsonl",
+      "sha256": "f6baf5aa6817b597076058b4ecf2c3107b9de9c139d1267f905881e2d4de169c",
+      "expected_sha256": "f6baf5aa6817b597076058b4ecf2c3107b9de9c139d1267f905881e2d4de169c",
+      "bytes": 7442573,
+      "expected_bytes": 7442573,
+      "blob": "05f702cf9efaa55be157139684b749ceee014a7b",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_10_20261017.candidate.json"
+    },
+    {
+      "name": "dispositivos/registro_anvisa_produto_saude.parte-0002.jsonl",
+      "sha256": "5a14e78e5cde50a2e39bebb0a0df08bbe4dbfc7dec323ca3caf4dbf44095f8ec",
+      "expected_sha256": "5a14e78e5cde50a2e39bebb0a0df08bbe4dbfc7dec323ca3caf4dbf44095f8ec",
+      "bytes": 34124626,
+      "expected_bytes": 34124626,
+      "blob": "4a199c9e858c9bf6aef82dad2baf776ee4836692",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_14_20261017.candidate.json"
+    },
+    {
+      "name": "epidemiologico/agravo_notificacao_compulsoria.jsonl",
+      "sha256": "a8679098244fc6376ceed6be45d0db70a2871efe6e480cbe160ec7f27b235a91",
+      "expected_sha256": "a8679098244fc6376ceed6be45d0db70a2871efe6e480cbe160ec7f27b235a91",
+      "bytes": 80393,
+      "expected_bytes": 80393,
+      "blob": "26c1ea1a90d471751e4a3511dcc55a202d6fc8ed",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_04_20261017.candidate.json"
+    },
+    {
+      "name": "epidemiologico/caso_febre_amarela_humano_primata.jsonl",
+      "sha256": "a164f2a87444b1fdc093ce758dd30a6c6944e041b96e8b605a8db5674f5eb4c5",
+      "expected_sha256": "a164f2a87444b1fdc093ce758dd30a6c6944e041b96e8b605a8db5674f5eb4c5",
+      "bytes": 2963984,
+      "expected_bytes": 2963984,
+      "blob": "9568b9a27c43fa2b616fb1908005f45bb4d62a5c",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_08_20261017.candidate.json"
+    },
+    {
+      "name": "epidemiologico/epizootia_febre_amarela.jsonl",
+      "sha256": "c44216eda28eaac391fb25a8842f672ba3bc0c8bd7db1d7446f6b6093290b9e4",
+      "expected_sha256": "c44216eda28eaac391fb25a8842f672ba3bc0c8bd7db1d7446f6b6093290b9e4",
+      "bytes": 2392120,
+      "expected_bytes": 2392120,
+      "blob": "359a46872ab395ce59b5eb5dad3b195b1aa6f757",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_08_20261017.candidate.json"
+    },
+    {
+      "name": "epidemiologico/notificacao_mpox.jsonl",
+      "sha256": "36b35c37643db97f945236feeebc251c951b1d43ddf6c290641d1ca446b63cd1",
+      "expected_sha256": "36b35c37643db97f945236feeebc251c951b1d43ddf6c290641d1ca446b63cd1",
+      "bytes": 7146720,
+      "expected_bytes": 7146720,
+      "blob": "49193bed61ac7c30d692e48a1ce3fc5cc83e3829",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_10_20261017.candidate.json"
+    },
+    {
+      "name": "epidemiologico/notificacao_sinan_chikungunya.jsonl",
+      "sha256": "44ab6d81e458d71792b384e09037e0377c73b3ec4280fc82be01cebef203382b",
+      "expected_sha256": "44ab6d81e458d71792b384e09037e0377c73b3ec4280fc82be01cebef203382b",
+      "bytes": 7768769,
+      "expected_bytes": 7768769,
+      "blob": "b48e53d74016bd6f7e54b604c6816a53db5ea04e",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_10_20261017.candidate.json"
+    },
+    {
+      "name": "epidemiologico/notificacao_sinan_dengue.jsonl",
+      "sha256": "1c74862d40ade00508a34f2b358b751cdd8689cf86619f29d524be2a58de91c9",
+      "expected_sha256": "1c74862d40ade00508a34f2b358b751cdd8689cf86619f29d524be2a58de91c9",
+      "bytes": 12693774,
+      "expected_bytes": 12693774,
+      "blob": "8a18b4052e19282d1e2f17938a538639c8bbcabd",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_12_20261017.candidate.json"
+    },
+    {
+      "name": "epidemiologico/notificacao_sinan_zika.jsonl",
+      "sha256": "3ad6f61cb22bcf4d8997d7af6c26d4c3c72285f02a337f0f1894fb1ce2705c17",
+      "expected_sha256": "3ad6f61cb22bcf4d8997d7af6c26d4c3c72285f02a337f0f1894fb1ce2705c17",
+      "bytes": 3981858,
+      "expected_bytes": 3981858,
+      "blob": "d9d933a8982ea6005b00dd32848da523577b4c38",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_08_20261017.candidate.json"
+    },
+    {
+      "name": "epidemiologico/notificacao_srag.jsonl",
+      "sha256": "947e194d135dc58f008ae8d8ac2189f6ad924f197d9642984679926d76220991",
+      "expected_sha256": "947e194d135dc58f008ae8d8ac2189f6ad924f197d9642984679926d76220991",
+      "bytes": 9298802,
+      "expected_bytes": 9298802,
+      "blob": "fedc5351eb57b843f4cef9a353e1b4c672d8c911",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_11_20261017.candidate.json"
+    },
+    {
+      "name": "epidemiologico/obito_sim.jsonl",
+      "sha256": "68fdfa8878b5f926404ce12520e747cbea919fca79ea890e974c451f27610f10",
+      "expected_sha256": "68fdfa8878b5f926404ce12520e747cbea919fca79ea890e974c451f27610f10",
+      "bytes": 6973662,
+      "expected_bytes": 6973662,
+      "blob": "a362cfda441fb315ab81199cde24c4362dcef699",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_09_20261017.candidate.json"
+    },
+    {
+      "name": "ferimentos/nome_tecnico_anvisa_curativo.jsonl",
+      "sha256": "46448513c89d6a3f1f13071acefaf9806c7d07e7fea2c5e63bf04e3ced44c078",
+      "expected_sha256": "46448513c89d6a3f1f13071acefaf9806c7d07e7fea2c5e63bf04e3ced44c078",
+      "bytes": 2216,
+      "expected_bytes": 2216,
+      "blob": "b21b42d4be96a211ec6a0eb81a93717fa72c730c",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_01_20261017.candidate.json"
+    },
+    {
+      "name": "ferimentos/pdm_catmat_classe_6510.jsonl",
+      "sha256": "d5276953e1e24475e80fb503eced43c9ce61f1f6e8faad80c0158a112c23d9e7",
+      "expected_sha256": "d5276953e1e24475e80fb503eced43c9ce61f1f6e8faad80c0158a112c23d9e7",
+      "bytes": 51940,
+      "expected_bytes": 51940,
+      "blob": "83a9309b9d08712c9804b0105d0ec12cbfa7e89b",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_04_20261017.candidate.json"
+    },
+    {
+      "name": "ferimentos/recorte_cid10.jsonl",
+      "sha256": "5891b30874ee7497f8b1dad92cb44230d04cdf0162bb00856618b30994ec811e",
+      "expected_sha256": "5891b30874ee7497f8b1dad92cb44230d04cdf0162bb00856618b30994ec811e",
+      "bytes": 504692,
+      "expected_bytes": 504692,
+      "blob": "4d66b7499a82bf43c3abc9fd09948866e758cb7c",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_05_20261017.candidate.json"
+    },
+    {
+      "name": "ferimentos/recorte_cid11.jsonl",
+      "sha256": "7958f8a5af3829229522734023d7e2be667e607fb152f12a128d697a1c511fc3",
+      "expected_sha256": "7958f8a5af3829229522734023d7e2be667e607fb152f12a128d697a1c511fc3",
+      "bytes": 848959,
+      "expected_bytes": 848959,
+      "blob": "3e37d951602cacb34adb731e2004ec0fbe5a5077",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_06_20261017.candidate.json"
+    },
+    {
+      "name": "ferimentos/recorte_mesh.jsonl",
+      "sha256": "5695c99c139fe4ae0cbcf2a87528b103045d0f668d36c9932b13c02bb7987ba9",
+      "expected_sha256": "5695c99c139fe4ae0cbcf2a87528b103045d0f668d36c9932b13c02bb7987ba9",
+      "bytes": 458390,
+      "expected_bytes": 458390,
+      "blob": "786885c7cc5472e3de1cd393812af5238228ca4e",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_05_20261017.candidate.json"
+    },
+    {
+      "name": "icd11/bloco.jsonl",
+      "sha256": "04968018ebd54a3cb1df1426e4d230f4381ee479a57f98b014ed224ff75a74f1",
+      "expected_sha256": "04968018ebd54a3cb1df1426e4d230f4381ee479a57f98b014ed224ff75a74f1",
+      "bytes": 1445790,
+      "expected_bytes": 1445790,
+      "blob": "683fd98ed5f8efd9a2e2308b3eff5a29b113bd78",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_07_20261017.candidate.json"
+    },
+    {
+      "name": "icd11/capitulo.jsonl",
+      "sha256": "9952e421e017da2f8659ae28f791e78a6804bf8d867a101ff413e68288358080",
+      "expected_sha256": "9952e421e017da2f8659ae28f791e78a6804bf8d867a101ff413e68288358080",
+      "bytes": 27735,
+      "expected_bytes": 27735,
+      "blob": "b66c69492107bf35c45363246b6e3b400894d8f8",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_03_20261017.candidate.json"
+    },
+    {
+      "name": "icd11/categoria.jsonl",
+      "sha256": "92cde37221b93f6d2d46ccb802b16de9a9b7b53e7b1c5e32ce128b3102b46c8d",
+      "expected_sha256": "92cde37221b93f6d2d46ccb802b16de9a9b7b53e7b1c5e32ce128b3102b46c8d",
+      "bytes": 37484555,
+      "expected_bytes": 37484555,
+      "blob": "9c8ed529b39236a88e9c997bc6e7ee49005fd1dc",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_16_20261017.candidate.json"
+    },
+    {
+      "name": "medicamentos/desabastecimento_fda.jsonl",
+      "sha256": "0f7ebcd8dd876e872de448e9e5d8e92a118f46c65348c964e32ac18649624f34",
+      "expected_sha256": "0f7ebcd8dd876e872de448e9e5d8e92a118f46c65348c964e32ac18649624f34",
+      "bytes": 1790974,
+      "expected_bytes": 1790974,
+      "blob": "89dfdd44bb3a432dd57cd5438d90b560f9acb77c",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_07_20261017.candidate.json"
+    },
+    {
+      "name": "medicamentos/produto_anvisa_sem_numero_registro.jsonl",
+      "sha256": "fc592821341dfbb919b297166a8ba948ec7afd7ca955da7085c7a54198bb12e1",
+      "expected_sha256": "fc592821341dfbb919b297166a8ba948ec7afd7ca955da7085c7a54198bb12e1",
+      "bytes": 6933937,
+      "expected_bytes": 6933937,
+      "blob": "99dae0571299db8eb1314d6c5b94cea929307a6b",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_09_20261017.candidate.json"
+    },
+    {
+      "name": "medicamentos/registro_anvisa_medicamento.jsonl",
+      "sha256": "5adb436235b72b51156bbb7ee2b27d53cbcc3884c4ce0bc4f8dbf04d0f9660ed",
+      "expected_sha256": "5adb436235b72b51156bbb7ee2b27d53cbcc3884c4ce0bc4f8dbf04d0f9660ed",
+      "bytes": 35578046,
+      "expected_bytes": 35578046,
+      "blob": "11984d6b417cb6181c3c20dab9a2430c9e46cdbd",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_15_20261017.candidate.json"
+    },
+    {
+      "name": "medlineplus/topico_saude_en.jsonl",
+      "sha256": "f47bc45931cf576316eac265b480ea8eb606a20eb66eb7bbeaf76336e097cb3c",
+      "expected_sha256": "f47bc45931cf576316eac265b480ea8eb606a20eb66eb7bbeaf76336e097cb3c",
+      "bytes": 6320529,
+      "expected_bytes": 6320529,
+      "blob": "1aa9a5915e6ea4f85fb0ef58c5a0f059bfe6dd1b",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_09_20261017.candidate.json"
+    },
+    {
+      "name": "medlineplus/topico_saude_es.jsonl",
+      "sha256": "fe22d3f7c4eb9ef27419a07af8c33a3d99d94e74f451e4ed3bf4423af52623f8",
+      "expected_sha256": "fe22d3f7c4eb9ef27419a07af8c33a3d99d94e74f451e4ed3bf4423af52623f8",
+      "bytes": 7176316,
+      "expected_bytes": 7176316,
+      "blob": "882828c0a6c9e41864b05f39cbfb0ea115a37941",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_10_20261017.candidate.json"
+    },
+    {
+      "name": "mesh/descritor_mesh.jsonl",
+      "sha256": "606bb9d27e7ceb531b38a4507ba3fbe0ab1a89d803763e19abc92e393569acf4",
+      "expected_sha256": "606bb9d27e7ceb531b38a4507ba3fbe0ab1a89d803763e19abc92e393569acf4",
+      "bytes": 40798270,
+      "expected_bytes": 40798270,
+      "blob": "785b89abc38e8f71f2d9947c8a62021219f718d9",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_17_20261017.candidate.json"
+    },
+    {
+      "name": "nutricao/alimento_taco.jsonl",
+      "sha256": "f60c6962858975fe54b4ee698a84674ead0b48f5d7f0fe132c8957e5ab866ab2",
+      "expected_sha256": "f60c6962858975fe54b4ee698a84674ead0b48f5d7f0fe132c8957e5ab866ab2",
+      "bytes": 1002862,
+      "expected_bytes": 1002862,
+      "blob": "d1815bf4c58d4861704b98cc47950e48d9cdc271",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_07_20261017.candidate.json"
+    },
+    {
+      "name": "nutricao/alimento_usda_foundation.jsonl",
+      "sha256": "30eb47897cbd66750507f69505e383b22d67c70248b9b3ac7bbffa282003cb44",
+      "expected_sha256": "30eb47897cbd66750507f69505e383b22d67c70248b9b3ac7bbffa282003cb44",
+      "bytes": 2122484,
+      "expected_bytes": 2122484,
+      "blob": "9ce0873a2206212a67d92012edff758e46c33d91",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_08_20261017.candidate.json"
+    },
+    {
+      "name": "nutricao/medida_caseira_pof.jsonl",
+      "sha256": "45c9a536e66641c74e04807d905717971a9dc97d9c20219f5052cce2428c6d62",
+      "expected_sha256": "45c9a536e66641c74e04807d905717971a9dc97d9c20219f5052cce2428c6d62",
+      "bytes": 11617666,
+      "expected_bytes": 11617666,
+      "blob": "a08c0e709e4d4e630aaaf7a87ebebbaf9ccaf974",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_11_20261017.candidate.json"
+    },
+    {
+      "name": "protocolos_enfermagem/documento_protocolo.jsonl",
+      "sha256": "5a10c15d2964b6b8eb916d5378b0aefc9f970d67325de78cc215d116d1a572fb",
+      "expected_sha256": "5a10c15d2964b6b8eb916d5378b0aefc9f970d67325de78cc215d116d1a572fb",
+      "bytes": 13856,
+      "expected_bytes": 13856,
+      "blob": "50442e1e0c92b6d61e495fa1604d2028759f9eab",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_02_20261017.candidate.json"
+    },
+    {
+      "name": "protocolos_enfermagem/pcdt_conitec_situacao.jsonl",
+      "sha256": "18d85689e33950c76d325707439084e6f4a87ff1902e29c8cd8a3a2aa28c32b1",
+      "expected_sha256": "18d85689e33950c76d325707439084e6f4a87ff1902e29c8cd8a3a2aa28c32b1",
+      "bytes": 68554,
+      "expected_bytes": 68554,
+      "blob": "5326a3af853889591e77ae1bc32136be462f7b98",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_04_20261017.candidate.json"
+    },
+    {
+      "name": "protocolos_enfermagem/tecnologia_diretriz_covid19_conitec.jsonl",
+      "sha256": "f772d31a24ad868a934befa259ad3fe24b2a128c6debf99a253107f2a3f69e21",
+      "expected_sha256": "f772d31a24ad868a934befa259ad3fe24b2a128c6debf99a253107f2a3f69e21",
+      "bytes": 18023,
+      "expected_bytes": 18023,
+      "blob": "a613cc6058670fd8c798dbdacb63a11f7000dfd2",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_03_20261017.candidate.json"
+    },
+    {
+      "name": "sepse/criterio_escore_transcrito_manualmente.jsonl",
+      "sha256": "e07778e9b95cbcc30bbcae4095217f1f00d6bd404ee425dfe36a08dd4cd54081",
+      "expected_sha256": "e07778e9b95cbcc30bbcae4095217f1f00d6bd404ee425dfe36a08dd4cd54081",
+      "bytes": 50510,
+      "expected_bytes": 50510,
+      "blob": "f7901579450ba8040ac79a0efe601f10c683edd4",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_04_20261017.candidate.json"
+    },
+    {
+      "name": "sepse/definicao_transcrita_manualmente_v2.jsonl",
+      "sha256": "694a071253aae0d8f2836276a2ca828564d278d01d7bc4ebab5f63341b43975f",
+      "expected_sha256": "694a071253aae0d8f2836276a2ca828564d278d01d7bc4ebab5f63341b43975f",
+      "bytes": 3785,
+      "expected_bytes": 3785,
+      "blob": "204842d3bb957a27709c35e37208f80f8630b29b",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_01_20261017.candidate.json"
+    },
+    {
+      "name": "sepse/escore_transcrito_manualmente.jsonl",
+      "sha256": "5bf84ee50ab45f8c73928ee9cd8714ddce17a283206231a4cd5ae88609aa5e8d",
+      "expected_sha256": "5bf84ee50ab45f8c73928ee9cd8714ddce17a283206231a4cd5ae88609aa5e8d",
+      "bytes": 3664,
+      "expected_bytes": 3664,
+      "blob": "8f248ce059da9c430baa5f4cc7976a52ad5c6787",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_01_20261017.candidate.json"
+    },
+    {
+      "name": "sepse/recorte_cid10.jsonl",
+      "sha256": "a284d9ff8db01dd87041d3a9566f93f4e9e17b7adb4170b5b0286fba1b48c85a",
+      "expected_sha256": "a284d9ff8db01dd87041d3a9566f93f4e9e17b7adb4170b5b0286fba1b48c85a",
+      "bytes": 33863,
+      "expected_bytes": 33863,
+      "blob": "a4fc61c54079bf57de97c1893aeb5cb75210b019",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_03_20261017.candidate.json"
+    },
+    {
+      "name": "sepse/recorte_cid11.jsonl",
+      "sha256": "256b7ffdadfe1f0ea4d45666ca0d68f9dee60f8278ed94e1037efd7eb96efe5f",
+      "expected_sha256": "256b7ffdadfe1f0ea4d45666ca0d68f9dee60f8278ed94e1037efd7eb96efe5f",
+      "bytes": 24145,
+      "expected_bytes": 24145,
+      "blob": "8d7c6d07022fcb326fa10e01c43e7437da371820",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_03_20261017.candidate.json"
+    },
+    {
+      "name": "sepse/recorte_medlineplus.jsonl",
+      "sha256": "6805b19897bc97bea78adb48e936685ed1c16e40e551c1fef33fa7f972ada1fd",
+      "expected_sha256": "6805b19897bc97bea78adb48e936685ed1c16e40e551c1fef33fa7f972ada1fd",
+      "bytes": 44699,
+      "expected_bytes": 44699,
+      "blob": "2de53c5162802b19ad7f463d3eb1fdcfd660f95a",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_03_20261017.candidate.json"
+    },
+    {
+      "name": "sepse/recorte_mesh.jsonl",
+      "sha256": "c46ebeb2ccd3cd70b35b0b54f951dc0e60370c0611695865b5b7ab43b142e717",
+      "expected_sha256": "c46ebeb2ccd3cd70b35b0b54f951dc0e60370c0611695865b5b7ab43b142e717",
+      "bytes": 11955,
+      "expected_bytes": 11955,
+      "blob": "12468fe5c2c450c0b042d82c0a6ce266fd6f00bf",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_02_20261017.candidate.json"
+    },
+    {
+      "name": "sinais_vitais/classificacao_pa_dbha2020_transcrita_manualmente_v2.jsonl",
+      "sha256": "427fdd11a4b6f7de5f48de47b1df37a7f389afe3147b0a5f53789c00cf408933",
+      "expected_sha256": "427fdd11a4b6f7de5f48de47b1df37a7f389afe3147b0a5f53789c00cf408933",
+      "bytes": 11598,
+      "expected_bytes": 11598,
+      "blob": "0d03660926f7b489f21b3da7b24d77826da680c7",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_02_20261017.candidate.json"
+    },
+    {
+      "name": "sinais_vitais/codigo_loinc_perfil_fhir.jsonl",
+      "sha256": "f95625f42b888d2b088b025b3c0c4546b58454c25f1d8ca13be2051197c15785",
+      "expected_sha256": "f95625f42b888d2b088b025b3c0c4546b58454c25f1d8ca13be2051197c15785",
+      "bytes": 10572,
+      "expected_bytes": 10572,
+      "blob": "582b409800354ea03195d0254c9a692fa35433b8",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_01_20261017.candidate.json"
+    },
+    {
+      "name": "sinais_vitais/pontuacao_news2_transcrita_manualmente.jsonl",
+      "sha256": "94303acd7d6aa0e45149803cb0f323dcf68f3bf6dfa637f300d2f1ad2bade0f1",
+      "expected_sha256": "94303acd7d6aa0e45149803cb0f323dcf68f3bf6dfa637f300d2f1ad2bade0f1",
+      "bytes": 50074,
+      "expected_bytes": 50074,
+      "blob": "0a661e9692cd3e680188a8b5ce39e7f590f43295",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_04_20261017.candidate.json"
+    },
+    {
+      "name": "sinais_vitais/risco_news2_transcrito_manualmente.jsonl",
+      "sha256": "b717da83d391cd25642d60b35b31f4eebc8edaf1875ab5d6be26c40651a99171",
+      "expected_sha256": "b717da83d391cd25642d60b35b31f4eebc8edaf1875ab5d6be26c40651a99171",
+      "bytes": 5132,
+      "expected_bytes": 5132,
+      "blob": "c776d5d81c114057d99443c9c1d93d2b1d27010f",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_01_20261017.candidate.json"
+    },
+    {
+      "name": "suprimentos/classificacao_fda_seringa_agulha_luva_curativo.jsonl",
+      "sha256": "db7e6f42db30a9d25b1cda24000908dc8c27680d9aa95ec4a4b268bb079b9caf",
+      "expected_sha256": "db7e6f42db30a9d25b1cda24000908dc8c27680d9aa95ec4a4b268bb079b9caf",
+      "bytes": 175177,
+      "expected_bytes": 175177,
+      "blob": "e602d1be3b20b96617e1c9d2d977a5bb4add91a7",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_06_20261017.candidate.json"
+    },
+    {
+      "name": "suprimentos/item_catmat_seringa_agulha_luva_curativo.jsonl",
+      "sha256": "04d8edc3251299954833b6d3bff3be93099c93bc482bd4be64a44752bd78a472",
+      "expected_sha256": "04d8edc3251299954833b6d3bff3be93099c93bc482bd4be64a44752bd78a472",
+      "bytes": 13138703,
+      "expected_bytes": 13138703,
+      "blob": "0cfed392763821bcfe20d12a924812d886a060c9",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_13_20261017.candidate.json"
+    },
+    {
+      "name": "suprimentos/registro_anvisa_seringa_agulha_luva_curativo.jsonl",
+      "sha256": "c9c63067367b94f3fe457a4cd03627e6604fd544c15574c1fa84307ccff5f442",
+      "expected_sha256": "c9c63067367b94f3fe457a4cd03627e6604fd544c15574c1fa84307ccff5f442",
+      "bytes": 10629634,
+      "expected_bytes": 10629634,
+      "blob": "7977e419d99f1050a5b7712fd7bd99fe28e409a0",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_11_20261017.candidate.json"
+    },
+    {
+      "name": "vacinal_brasil/cobertura_vacinal_polo_sesai.jsonl",
+      "sha256": "0d24bac84b0ffb970531e26ba871fab3bbbaf35a37b4453400b9b1b218294e19",
+      "expected_sha256": "0d24bac84b0ffb970531e26ba871fab3bbbaf35a37b4453400b9b1b218294e19",
+      "bytes": 386151,
+      "expected_bytes": 386151,
+      "blob": "2d643bbd4d7e10360883722b85b9aea8bd6303d5",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_05_20261017.candidate.json"
+    },
+    {
+      "name": "vacinal_brasil/dose_aplicada_pni.jsonl",
+      "sha256": "28dd0e1eddd67e291fe71c149fc6400374bb68715daa1ef8d4353199b71a774c",
+      "expected_sha256": "28dd0e1eddd67e291fe71c149fc6400374bb68715daa1ef8d4353199b71a774c",
+      "bytes": 11999560,
+      "expected_bytes": 11999560,
+      "blob": "8964a9f6c308dec427880b0d3059f77698c4f9bc",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_12_20261017.candidate.json"
+    },
+    {
+      "name": "vacinal_brasil/movimento_insumo_sies.jsonl",
+      "sha256": "91e0a3b66c5db8162255c99def77e45d36c6cdbecdaee5820a34661100de3be5",
+      "expected_sha256": "91e0a3b66c5db8162255c99def77e45d36c6cdbecdaee5820a34661100de3be5",
+      "bytes": 4553211,
+      "expected_bytes": 4553211,
+      "blob": "174af8c183681f398d418c7a1d22d4cf1f527829",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_09_20261017.candidate.json"
+    },
+    {
+      "name": "vacinal_brasil/notificacao_esavi.jsonl",
+      "sha256": "57db980f98e6e5f39b832c2b1e9f4327a067423502f58dfb0e90671ba3f8c514",
+      "expected_sha256": "57db980f98e6e5f39b832c2b1e9f4327a067423502f58dfb0e90671ba3f8c514",
+      "bytes": 14751436,
+      "expected_bytes": 14751436,
+      "blob": "908452770678d50d82e688b0ce4334d0d31223ad",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_13_20261017.candidate.json"
+    },
+    {
+      "name": "vacinas/associacao_cvx_antigeno_cdsi.jsonl",
+      "sha256": "532d00a702a1f809dfaaea31652cf7e76b10f74de56287f62ae56bc75551112c",
+      "expected_sha256": "532d00a702a1f809dfaaea31652cf7e76b10f74de56287f62ae56bc75551112c",
+      "bytes": 217369,
+      "expected_bytes": 217369,
+      "blob": "376deb96225ef66ad2619f9e851bd0e52ddc6840",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_05_20261017.candidate.json"
+    },
+    {
+      "name": "vacinas/codigo_cvx.jsonl",
+      "sha256": "51ba29464a9e975c96411cd42acf3a17e46ac82fe674f9aecaaae7d1a304b325",
+      "expected_sha256": "51ba29464a9e975c96411cd42acf3a17e46ac82fe674f9aecaaae7d1a304b325",
+      "bytes": 265089,
+      "expected_bytes": 265089,
+      "blob": "03a229bd85a16582d782c6f7ce5e4fd7a672d388",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_05_20261017.candidate.json"
+    },
+    {
+      "name": "vacinas/dose_esquema_cdsi_acip.jsonl",
+      "sha256": "5ddb28d208a9d679948336b4b80ef59483778b2f2f3b19a243e8d6429fdb3217",
+      "expected_sha256": "5ddb28d208a9d679948336b4b80ef59483778b2f2f3b19a243e8d6429fdb3217",
+      "bytes": 684353,
+      "expected_bytes": 684353,
+      "blob": "c8bfd74b462dc2d22ee42743ac7f63fc59b4e646",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_06_20261017.candidate.json"
+    },
+    {
+      "name": "vacinas/observacao_condicao_cdsi.jsonl",
+      "sha256": "667e03746b0123712792db7092983c867bb43972f851dafbbceee9c6bbd7303c",
+      "expected_sha256": "667e03746b0123712792db7092983c867bb43972f851dafbbceee9c6bbd7303c",
+      "bytes": 240017,
+      "expected_bytes": 240017,
+      "blob": "d7e0c1bb9ba654bf346416507cd77e94b660e5b1",
+      "evidence": "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_05_20261017.candidate.json"
+    }
+  ]
+}
