@@ -1,7 +1,7 @@
 {
   "schema": "CE-PROJECT-CONTINUATION-MANIFEST-1.0",
   "cutoff": "2026-10-17",
-  "status": "CANDIDATE_HANDOFF_STRUCTURAL_RECONCILIATION_PERSISTED_NOT_HOMOLOGATED",
+  "status": "CANDIDATE_RECONCILIATION_EVIDENCE_EXPANDED_NOT_HOMOLOGATED",
   "repository": "IndiciumFIN/calculadorasdeenfermagem",
   "authority": {
     "documents": "GitHub",
@@ -102,7 +102,39 @@
     "manifest_metadata_matches": 65,
     "gaps_report": "docs/reconciliation/CE04_GAPS_06_CHUNKS_20261017.candidate.json",
     "gaps_status": "FOUND_AS_GIT_CHUNKS_BYTE_REHASH_PENDING",
-    "structural_batch_count": 3
+    "structural_batch_count": 3,
+    "conflicts_inventory": 22,
+    "conflicts_text_compared": 22,
+    "conflicts_resolved": 0,
+    "sha256_new_checks_total": 8,
+    "sha256_new_checks_all_pass": true,
+    "sha256_total_distinct_rechecked_this_session": 8,
+    "sha256_remaining": 57,
+    "sha256_sample_files": [
+      "ferimentos/nome_tecnico_anvisa_curativo.jsonl",
+      "sepse/escore_transcrito_manualmente.jsonl",
+      "sepse/definicao_transcrita_manualmente_v2.jsonl",
+      "sinais_vitais/risco_news2_transcrito_manualmente.jsonl",
+      "sinais_vitais/codigo_loinc_perfil_fhir.jsonl",
+      "sinais_vitais/classificacao_pa_dbha2020_transcrita_manualmente_v2.jsonl",
+      "sepse/recorte_mesh.jsonl",
+      "protocolos_enfermagem/documento_protocolo.jsonl"
+    ],
+    "source_lineage_verified": 0,
+    "source_lineage_total": 61,
+    "holds": 9,
+    "outbox_replay_performed": false,
+    "new_evidence_paths": [
+      "docs/reconciliation/CE04_MAIN_VS_HISTORICAL_CONFLICTS_BATCH_01_20261017.candidate.json",
+      "docs/reconciliation/CE04_MAIN_VS_HISTORICAL_CONFLICTS_BATCH_02_20261017.candidate.json",
+      "docs/reconciliation/CE04_CONFLICT_TEXT_DIFF_BATCH_01_20261017.candidate.json",
+      "docs/reconciliation/CE04_CONFLICT_TEXT_DIFF_BATCH_02_20261017.candidate.json",
+      "docs/reconciliation/CE04_CONFLICT_TEXT_DIFF_BATCH_03_20261017.candidate.json",
+      "docs/reconciliation/CE04_CONFLICT_TEXT_DIFF_BATCH_04_20261017.candidate.json",
+      "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_01_20261017.candidate.json",
+      "docs/reconciliation/CE04_GIT_BYTE_SHA256_MICROBATCH_02_20261017.candidate.json",
+      "docs/reconciliation/CE04_SUPABASE_READONLY_STATUS_20261017.candidate.json"
+    ]
   },
   "wo": {
     "id": "WO-CE04-RECON-20261017",
