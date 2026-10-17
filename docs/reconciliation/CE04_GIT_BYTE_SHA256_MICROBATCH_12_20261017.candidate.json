@@ -1,0 +1,41 @@
+{
+  "schema": "CE04-SHA256-BLOB-MICROBATCH-CANDIDATE-1.0",
+  "wo": "WO-CE04-RECON-20261017",
+  "kernel_admitted": false,
+  "source": "GitHub pinned historical blob SHAs",
+  "sha256_selftest": {
+    "abc": "PASS",
+    "million_a": "PASS"
+  },
+  "tasks_closed": 0,
+  "release_allowed": false,
+  "rows": [
+    {
+      "name": "vacinal_brasil/dose_aplicada_pni.jsonl",
+      "git_blob_sha1": "8964a9f6c308dec427880b0d3059f77698c4f9bc",
+      "bytes": 11999560,
+      "bytes_expected": 11999560,
+      "sha256": "28dd0e1eddd67e291fe71c149fc6400374bb68715daa1ef8d4353199b71a774c",
+      "sha256_expected": "28dd0e1eddd67e291fe71c149fc6400374bb68715daa1ef8d4353199b71a774c",
+      "pass": true
+    },
+    {
+      "name": "cid10/subcategoria.jsonl",
+      "git_blob_sha1": "69890ab0d2dd1a271d4a7d935a21d0d4d351ee14",
+      "bytes": 12598690,
+      "bytes_expected": 12598690,
+      "sha256": "e6e214bb0753a14143045eef6f738a7e7ee2be542f2ca38f37636715c33c6cb9",
+      "sha256_expected": "e6e214bb0753a14143045eef6f738a7e7ee2be542f2ca38f37636715c33c6cb9",
+      "pass": true
+    },
+    {
+      "name": "epidemiologico/notificacao_sinan_dengue.jsonl",
+      "git_blob_sha1": "8a18b4052e19282d1e2f17938a538639c8bbcabd",
+      "bytes": 12693774,
+      "bytes_expected": 12693774,
+      "sha256": "1c74862d40ade00508a34f2b358b751cdd8689cf86619f29d524be2a58de91c9",
+      "sha256_expected": "1c74862d40ade00508a34f2b358b751cdd8689cf86619f29d524be2a58de91c9",
+      "pass": true
+    }
+  ]
+}
