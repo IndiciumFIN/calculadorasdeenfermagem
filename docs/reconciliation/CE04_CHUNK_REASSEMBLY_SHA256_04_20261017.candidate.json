@@ -1,0 +1,40 @@
+{
+  "schema": "CE04-CHUNK-REASSEMBLY-SHA256-1.0-CANDIDATE",
+  "wo": "WO-CE04-RECON-20261017",
+  "wo_status": "DRAFT_NOT_ADMITTED",
+  "parent": "nutricao/alimento_usda_sr_legacy.jsonl",
+  "source_manifest": "data/legado/extracao_bruta/atomizado/nutricao/fracoes/alimento_usda_sr_legacy.jsonl/manifesto.json",
+  "expected_parent_sha256": "0760203b0a9b54a0c95bbe0a031ceb36586f197c1085416a0e2a9aed58d828db",
+  "actual_parent_sha256": "0760203b0a9b54a0c95bbe0a031ceb36586f197c1085416a0e2a9aed58d828db",
+  "expected_parent_bytes": 73915846,
+  "actual_parent_bytes": 73915846,
+  "all_parts_pass": true,
+  "parent_pass": true,
+  "parts": [
+    {
+      "name": "part-000",
+      "offset": 0,
+      "git_blob_sha1": "30f259755b9902352ac2c083e4aac21f39de7737",
+      "bytes": 40000000,
+      "expected_bytes": 40000000,
+      "sha256": "718bcf806243e637557ee8811bd288d118ec7c1441ff0b4814f546b9da34d1e1",
+      "expected_sha256": "718bcf806243e637557ee8811bd288d118ec7c1441ff0b4814f546b9da34d1e1",
+      "utf8_replacements": 0,
+      "pass": true
+    },
+    {
+      "name": "part-001",
+      "offset": 40000000,
+      "git_blob_sha1": "4ed6f69a37bc88fe5728dc57cc2ee48818aa3c10",
+      "bytes": 33915846,
+      "expected_bytes": 33915846,
+      "sha256": "20e835754cdf386a510678c5a2cc0c4070c4c1495b91a3c9a258dd2527df0b9f",
+      "expected_sha256": "20e835754cdf386a510678c5a2cc0c4070c4c1495b91a3c9a258dd2527df0b9f",
+      "utf8_replacements": 0,
+      "pass": true
+    }
+  ],
+  "method": "pinned Git blob UTF8 bytes fed sequentially to incremental SHA256",
+  "clinical_audit": "PENDING",
+  "release_allowed": false
+}
