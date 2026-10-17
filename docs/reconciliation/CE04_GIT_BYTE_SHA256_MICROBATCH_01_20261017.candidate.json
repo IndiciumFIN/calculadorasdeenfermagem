@@ -1,0 +1,78 @@
+{
+  "schema": "CE04-RAW-UTF8-SHA256-1.0-CANDIDATE",
+  "wo": "WO-CE04-RECON-20261017",
+  "status": "INDEPENDENT_BYTES_COMPARISON_NO_KERNEL_HOMOLOGATION",
+  "algorithm": "SHA256 of UTF8 bytes from GitHub fetch_file (no newline transformation)",
+  "algorithm_known_answer_tests": {
+    "empty": true,
+    "abc": true
+  },
+  "all_pass": true,
+  "records": [
+    {
+      "path": "data/legado/extracao_bruta/atomizado/ferimentos/nome_tecnico_anvisa_curativo.jsonl",
+      "git_blob_sha1": "b21b42d4be96a211ec6a0eb81a93717fa72c730c",
+      "actual_byte_count": 2216,
+      "expected_byte_count": 2216,
+      "sha256_actual": "46448513c89d6a3f1f13071acefaf9806c7d07e7fea2c5e63bf04e3ced44c078",
+      "sha256_expected": "46448513c89d6a3f1f13071acefaf9806c7d07e7fea2c5e63bf04e3ced44c078",
+      "bytes_pass": true,
+      "sha256_pass": true,
+      "source_branch": "cursor/drive-sa-key-refactor",
+      "read_mode": "UTF8 text via GitHub fetch_file",
+      "scope": "EXACT_UTF8_BYTES_RETURNED_BY_GITHUB_CONNECTOR"
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/sepse/escore_transcrito_manualmente.jsonl",
+      "git_blob_sha1": "8f248ce059da9c430baa5f4cc7976a52ad5c6787",
+      "actual_byte_count": 3664,
+      "expected_byte_count": 3664,
+      "sha256_actual": "5bf84ee50ab45f8c73928ee9cd8714ddce17a283206231a4cd5ae88609aa5e8d",
+      "sha256_expected": "5bf84ee50ab45f8c73928ee9cd8714ddce17a283206231a4cd5ae88609aa5e8d",
+      "bytes_pass": true,
+      "sha256_pass": true,
+      "source_branch": "cursor/drive-sa-key-refactor",
+      "read_mode": "UTF8 text via GitHub fetch_file",
+      "scope": "EXACT_UTF8_BYTES_RETURNED_BY_GITHUB_CONNECTOR"
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/sepse/definicao_transcrita_manualmente_v2.jsonl",
+      "git_blob_sha1": "204842d3bb957a27709c35e37208f80f8630b29b",
+      "actual_byte_count": 3785,
+      "expected_byte_count": 3785,
+      "sha256_actual": "694a071253aae0d8f2836276a2ca828564d278d01d7bc4ebab5f63341b43975f",
+      "sha256_expected": "694a071253aae0d8f2836276a2ca828564d278d01d7bc4ebab5f63341b43975f",
+      "bytes_pass": true,
+      "sha256_pass": true,
+      "source_branch": "cursor/drive-sa-key-refactor",
+      "read_mode": "UTF8 text via GitHub fetch_file",
+      "scope": "EXACT_UTF8_BYTES_RETURNED_BY_GITHUB_CONNECTOR"
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/sinais_vitais/risco_news2_transcrito_manualmente.jsonl",
+      "git_blob_sha1": "c776d5d81c114057d99443c9c1d93d2b1d27010f",
+      "actual_byte_count": 5132,
+      "expected_byte_count": 5132,
+      "sha256_actual": "b717da83d391cd25642d60b35b31f4eebc8edaf1875ab5d6be26c40651a99171",
+      "sha256_expected": "b717da83d391cd25642d60b35b31f4eebc8edaf1875ab5d6be26c40651a99171",
+      "bytes_pass": true,
+      "sha256_pass": true,
+      "source_branch": "cursor/drive-sa-key-refactor",
+      "read_mode": "UTF8 text via GitHub fetch_file",
+      "scope": "EXACT_UTF8_BYTES_RETURNED_BY_GITHUB_CONNECTOR"
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/sinais_vitais/codigo_loinc_perfil_fhir.jsonl",
+      "git_blob_sha1": "582b409800354ea03195d0254c9a692fa35433b8",
+      "actual_byte_count": 10572,
+      "expected_byte_count": 10572,
+      "sha256_actual": "f95625f42b888d2b088b025b3c0c4546b58454c25f1d8ca13be2051197c15785",
+      "sha256_expected": "f95625f42b888d2b088b025b3c0c4546b58454c25f1d8ca13be2051197c15785",
+      "bytes_pass": true,
+      "sha256_pass": true,
+      "source_branch": "cursor/drive-sa-key-refactor",
+      "read_mode": "UTF8 text via GitHub fetch_file",
+      "scope": "EXACT_UTF8_BYTES_RETURNED_BY_GITHUB_CONNECTOR"
+    }
+  ]
+}
