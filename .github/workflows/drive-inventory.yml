@@ -12,6 +12,7 @@ on:
       - 'data/grc/drive_inventory_20261016_wave2.json'
       - 'data/grc/drive_inventory_20261016_pilot.json'
       - '.github/workflows/drive-inventory.yml'
+      - 'governance/evidence/WO-CE-DRIVE-INVENTORY-20261016-EXECUTION-GAP.json'
   workflow_dispatch:
 permissions:
   contents: read
