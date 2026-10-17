@@ -38,7 +38,8 @@
     "all_parts_account_for_original_lengths": true,
     "hashes_format_valid": true,
     "sample_size_rehash": true,
-    "conflicts_preserved": true
+    "conflicts_preserved": true,
+    "v2_manifest_anchor_correct": true
   },
   "records": [
     {
@@ -1015,7 +1016,7 @@
       "sha256_declared": "694a071253aae0d8f2836276a2ca828564d278d01d7bc4ebab5f63341b43975f",
       "bytes_declared": 3785,
       "atom_count": 2,
-      "original_source_manifest_git_sha1": "6408ae5a79d42c9e0885cb07e52da3d9a437eb4d",
+      "original_source_manifest_git_sha1": "8705b9f2cfad3c001bb9fecc4dddc6b490ee4cd3",
       "original_source_manifest_version": "MANIFESTO_v2.json",
       "representation": "DIRECT",
       "git_path": "data/legado/extracao_bruta/atomizado/sepse/definicao_transcrita_manualmente_v2.jsonl",
@@ -1141,7 +1142,7 @@
       "sha256_declared": "427fdd11a4b6f7de5f48de47b1df37a7f389afe3147b0a5f53789c00cf408933",
       "bytes_declared": 11598,
       "atom_count": 6,
-      "original_source_manifest_git_sha1": "0e36040ffec1cf468ed0dbcdd2217c1e217ffc2b",
+      "original_source_manifest_git_sha1": "3ce010cd3d9f7a5ccf85b6204529794b388da5d6",
       "original_source_manifest_version": "MANIFESTO_v2.json",
       "representation": "DIRECT",
       "git_path": "data/legado/extracao_bruta/atomizado/sinais_vitais/classificacao_pa_dbha2020_transcrita_manualmente_v2.jsonl",
@@ -1655,5 +1656,15 @@
     }
   ],
   "find_status": "CANDIDATE_OBSERVATIONS_NOT_ISSUED_BY_KERNEL",
-  "publication_permitted": false
+  "publication_permitted": false,
+  "review_notes": [
+    {
+      "issue": "V2 manifest anchors initially referenced older base manifests",
+      "detected_by": "Independent readback assertion",
+      "corrected": true,
+      "affected": 2,
+      "formal_find": "NOT_CREATED; Kernel-controlled lifecycle not admitted",
+      "evidence": "GitHub original MANIFESTO_v2.json Git blob SHA readback"
+    }
+  ]
 }
