@@ -39,7 +39,8 @@
     "hashes_format_valid": true,
     "sample_size_rehash": true,
     "conflicts_preserved": true,
-    "v2_manifest_anchor_correct": true
+    "v2_manifest_anchor_correct": true,
+    "no_premature_wo_admission": true
   },
   "records": [
     {
@@ -1653,6 +1654,11 @@
       "gate": "KERNEL",
       "count": null,
       "reason": "WO admission not independently demonstrated"
+    },
+    {
+      "gate": "FORMAL_WO_DOCUMENT",
+      "count": 1,
+      "reason": "Manifest references migration WO ID; dedicated versioned WO file was not found in inspected source tree. Create/locate only through governed WO process, no invented Kernel ID."
     }
   ],
   "find_status": "CANDIDATE_OBSERVATIONS_NOT_ISSUED_BY_KERNEL",
@@ -1666,5 +1672,15 @@
       "formal_find": "NOT_CREATED; Kernel-controlled lifecycle not admitted",
       "evidence": "GitHub original MANIFESTO_v2.json Git blob SHA readback"
     }
-  ]
+  ],
+  "work_order_independent_file_verified": false,
+  "work_order_reference_evidence": {
+    "manifest_path": "migration/MANIFEST.json",
+    "manifest_git_blob": "cca3f6521cb82e29932f2aa90eb67507a30f208f",
+    "id": "CE-WO-GITHUB-FULL-DIRECTORY-20261017",
+    "observed_standalone_wo_files_named_for_this_id": 0,
+    "scope_of_search": "Git tree of migration/candidate-f08 source snapshot at 018a9ff14ae56499d7b0e39709f5f3d9c6382ec4",
+    "decision": "HOLD_WO_FILE_AND_KERNEL_ADMISSION",
+    "candidate_policy_issue": "Available legacy contracts/work_order.schema.json appears scoped to agent execution (GAP-01); applicability to migration reconciliation not established"
+  }
 }
