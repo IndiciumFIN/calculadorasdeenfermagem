@@ -1,0 +1,611 @@
+{
+  "schema": "CE04-GIT-IMPORT-COLLISION-PREFLIGHT-CANDIDATE-1.0",
+  "wo": "WO-CE04-RECON-20261017",
+  "source_tree_sha1": "fd5818f42c6a6f716996d8c9418ba87a079d0c59",
+  "target_tree_sha1": "5f97a94c073eae0b487bdb4302289a3940eb884c",
+  "target_branch": "audit/ce04-reconciliation-tasks-20261017",
+  "source_ref": "cursor/drive-sa-key-refactor",
+  "status": "READ_ONLY_COLLISION_CHECK_NO_IMPORT",
+  "counts": {
+    "expected_files": 65,
+    "blob_paths": 73,
+    "source_present_and_sha_match": 73,
+    "source_missing_or_drift": 0,
+    "existing_target_paths": 0
+  },
+  "checks": [
+    {
+      "path": "data/legado/extracao_bruta/atomizado/cid10/capitulo.jsonl",
+      "expected_sha1": "924ed3ac187a0132121fbba7e596d566c0f01c4a",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/cid10/categoria.jsonl",
+      "expected_sha1": "a629655db0798b124d077d36bcda3fb126d099f6",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/cid10/cido_categoria.jsonl",
+      "expected_sha1": "1d9d25078eb333b10961c1514d4fac044445a1d5",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/cid10/cido_grupo.jsonl",
+      "expected_sha1": "58d1c60e2d37acbb6f1a054e5999a4b4c6c22820",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/cid10/grupo.jsonl",
+      "expected_sha1": "5c25cc1ebd1722bd2c43e709acc773eaab821f9f",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/cid10/subcategoria.jsonl",
+      "expected_sha1": "69890ab0d2dd1a271d4a7d935a21d0d4d351ee14",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/dispositivos/classificacao_fda_dispositivo.jsonl",
+      "expected_sha1": "05f702cf9efaa55be157139684b749ceee014a7b",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/dispositivos/fracoes/registro_anvisa_produto_saude.parte-0001.jsonl/part-000",
+      "expected_sha1": "f58018ac0e28a987279ce56030f5f8881de962e0",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/dispositivos/fracoes/registro_anvisa_produto_saude.parte-0001.jsonl/part-001",
+      "expected_sha1": "da21481f9c736157979684cbc8e2f9361e4737a0",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/dispositivos/fracoes/registro_anvisa_produto_saude.parte-0001.jsonl/part-002",
+      "expected_sha1": "5404eabaf3f314e2ea94766d5274aec7d8224d5b",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/dispositivos/registro_anvisa_produto_saude.parte-0002.jsonl",
+      "expected_sha1": "4a199c9e858c9bf6aef82dad2baf776ee4836692",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/epidemiologico/agravo_notificacao_compulsoria.jsonl",
+      "expected_sha1": "26c1ea1a90d471751e4a3511dcc55a202d6fc8ed",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/epidemiologico/caso_febre_amarela_humano_primata.jsonl",
+      "expected_sha1": "9568b9a27c43fa2b616fb1908005f45bb4d62a5c",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/epidemiologico/epizootia_febre_amarela.jsonl",
+      "expected_sha1": "359a46872ab395ce59b5eb5dad3b195b1aa6f757",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/epidemiologico/notificacao_mpox.jsonl",
+      "expected_sha1": "49193bed61ac7c30d692e48a1ce3fc5cc83e3829",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/epidemiologico/notificacao_sinan_chikungunya.jsonl",
+      "expected_sha1": "b48e53d74016bd6f7e54b604c6816a53db5ea04e",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/epidemiologico/notificacao_sinan_dengue.jsonl",
+      "expected_sha1": "8a18b4052e19282d1e2f17938a538639c8bbcabd",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/epidemiologico/notificacao_sinan_zika.jsonl",
+      "expected_sha1": "d9d933a8982ea6005b00dd32848da523577b4c38",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/epidemiologico/notificacao_srag.jsonl",
+      "expected_sha1": "fedc5351eb57b843f4cef9a353e1b4c672d8c911",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/epidemiologico/obito_sim.jsonl",
+      "expected_sha1": "a362cfda441fb315ab81199cde24c4362dcef699",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/ferimentos/nome_tecnico_anvisa_curativo.jsonl",
+      "expected_sha1": "b21b42d4be96a211ec6a0eb81a93717fa72c730c",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/ferimentos/pdm_catmat_classe_6510.jsonl",
+      "expected_sha1": "83a9309b9d08712c9804b0105d0ec12cbfa7e89b",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/ferimentos/recorte_cid10.jsonl",
+      "expected_sha1": "4d66b7499a82bf43c3abc9fd09948866e758cb7c",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/ferimentos/recorte_cid11.jsonl",
+      "expected_sha1": "3e37d951602cacb34adb731e2004ec0fbe5a5077",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/ferimentos/recorte_mesh.jsonl",
+      "expected_sha1": "786885c7cc5472e3de1cd393812af5238228ca4e",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/icd11/bloco.jsonl",
+      "expected_sha1": "683fd98ed5f8efd9a2e2308b3eff5a29b113bd78",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/icd11/capitulo.jsonl",
+      "expected_sha1": "b66c69492107bf35c45363246b6e3b400894d8f8",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/icd11/categoria.jsonl",
+      "expected_sha1": "9c8ed529b39236a88e9c997bc6e7ee49005fd1dc",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/medicamentos/fracoes/apresentacao_cmed.jsonl/part-000",
+      "expected_sha1": "0656a6c2d6303a58c1ef2a35b2f293ffc910230d",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/medicamentos/fracoes/apresentacao_cmed.jsonl/part-001",
+      "expected_sha1": "6944a832ae23ba69ae03fc6677f6cb68af98b4fb",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/medicamentos/desabastecimento_fda.jsonl",
+      "expected_sha1": "89dfdd44bb3a432dd57cd5438d90b560f9acb77c",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/medicamentos/produto_anvisa_sem_numero_registro.jsonl",
+      "expected_sha1": "99dae0571299db8eb1314d6c5b94cea929307a6b",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/medicamentos/fracoes/produto_fda_ndc.parte-0001.jsonl/part-000",
+      "expected_sha1": "fbd9f5fa3adeb7b5b29947444e0a16ca095032bb",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/medicamentos/fracoes/produto_fda_ndc.parte-0001.jsonl/part-001",
+      "expected_sha1": "e2f173efa21f6e38bc7f5e655fc099006591a880",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/medicamentos/fracoes/produto_fda_ndc.parte-0001.jsonl/part-002",
+      "expected_sha1": "4f6f8df0ac83610e22e8775f7d9764b8f0eccab7",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/medicamentos/fracoes/produto_fda_ndc.parte-0002.jsonl/part-000",
+      "expected_sha1": "d95fbae8056b055c98e636875744f38457d43429",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/medicamentos/fracoes/produto_fda_ndc.parte-0002.jsonl/part-001",
+      "expected_sha1": "f4f402a823e3538e5abc1f9a3df801361631180a",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/medicamentos/registro_anvisa_medicamento.jsonl",
+      "expected_sha1": "11984d6b417cb6181c3c20dab9a2430c9e46cdbd",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/medlineplus/topico_saude_en.jsonl",
+      "expected_sha1": "1aa9a5915e6ea4f85fb0ef58c5a0f059bfe6dd1b",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/medlineplus/topico_saude_es.jsonl",
+      "expected_sha1": "882828c0a6c9e41864b05f39cbfb0ea115a37941",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/mesh/descritor_mesh.jsonl",
+      "expected_sha1": "785b89abc38e8f71f2d9947c8a62021219f718d9",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/nutricao/alimento_taco.jsonl",
+      "expected_sha1": "d1815bf4c58d4861704b98cc47950e48d9cdc271",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/nutricao/alimento_usda_foundation.jsonl",
+      "expected_sha1": "9ce0873a2206212a67d92012edff758e46c33d91",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/nutricao/fracoes/alimento_usda_sr_legacy.jsonl/part-000",
+      "expected_sha1": "30f259755b9902352ac2c083e4aac21f39de7737",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/nutricao/fracoes/alimento_usda_sr_legacy.jsonl/part-001",
+      "expected_sha1": "4ed6f69a37bc88fe5728dc57cc2ee48818aa3c10",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/nutricao/medida_caseira_pof.jsonl",
+      "expected_sha1": "a08c0e709e4d4e630aaaf7a87ebebbaf9ccaf974",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/protocolos_enfermagem/documento_protocolo.jsonl",
+      "expected_sha1": "50442e1e0c92b6d61e495fa1604d2028759f9eab",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/protocolos_enfermagem/pcdt_conitec_situacao.jsonl",
+      "expected_sha1": "5326a3af853889591e77ae1bc32136be462f7b98",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/protocolos_enfermagem/tecnologia_diretriz_covid19_conitec.jsonl",
+      "expected_sha1": "a613cc6058670fd8c798dbdacb63a11f7000dfd2",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/sepse/criterio_escore_transcrito_manualmente.jsonl",
+      "expected_sha1": "f7901579450ba8040ac79a0efe601f10c683edd4",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/sepse/definicao_transcrita_manualmente_v2.jsonl",
+      "expected_sha1": "204842d3bb957a27709c35e37208f80f8630b29b",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/sepse/escore_transcrito_manualmente.jsonl",
+      "expected_sha1": "8f248ce059da9c430baa5f4cc7976a52ad5c6787",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/sepse/recorte_cid10.jsonl",
+      "expected_sha1": "a4fc61c54079bf57de97c1893aeb5cb75210b019",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/sepse/recorte_cid11.jsonl",
+      "expected_sha1": "8d7c6d07022fcb326fa10e01c43e7437da371820",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/sepse/recorte_medlineplus.jsonl",
+      "expected_sha1": "2de53c5162802b19ad7f463d3eb1fdcfd660f95a",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/sepse/recorte_mesh.jsonl",
+      "expected_sha1": "12468fe5c2c450c0b042d82c0a6ce266fd6f00bf",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/sinais_vitais/classificacao_pa_dbha2020_transcrita_manualmente_v2.jsonl",
+      "expected_sha1": "0d03660926f7b489f21b3da7b24d77826da680c7",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/sinais_vitais/codigo_loinc_perfil_fhir.jsonl",
+      "expected_sha1": "582b409800354ea03195d0254c9a692fa35433b8",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/sinais_vitais/pontuacao_news2_transcrita_manualmente.jsonl",
+      "expected_sha1": "0a661e9692cd3e680188a8b5ce39e7f590f43295",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/sinais_vitais/risco_news2_transcrito_manualmente.jsonl",
+      "expected_sha1": "c776d5d81c114057d99443c9c1d93d2b1d27010f",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/suprimentos/classificacao_fda_seringa_agulha_luva_curativo.jsonl",
+      "expected_sha1": "e602d1be3b20b96617e1c9d2d977a5bb4add91a7",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/suprimentos/item_catmat_seringa_agulha_luva_curativo.jsonl",
+      "expected_sha1": "0cfed392763821bcfe20d12a924812d886a060c9",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/suprimentos/fracoes/item_catmat.jsonl/part-000",
+      "expected_sha1": "cbd4745f157b15ca4044021371bfddfa2ff354f5",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/suprimentos/fracoes/item_catmat.jsonl/part-001",
+      "expected_sha1": "a90994b492ed092875fd141a2e6deab89cd91be2",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/suprimentos/registro_anvisa_seringa_agulha_luva_curativo.jsonl",
+      "expected_sha1": "7977e419d99f1050a5b7712fd7bd99fe28e409a0",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/vacinal_brasil/cobertura_vacinal_polo_sesai.jsonl",
+      "expected_sha1": "2d643bbd4d7e10360883722b85b9aea8bd6303d5",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/vacinal_brasil/dose_aplicada_pni.jsonl",
+      "expected_sha1": "8964a9f6c308dec427880b0d3059f77698c4f9bc",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/vacinal_brasil/movimento_insumo_sies.jsonl",
+      "expected_sha1": "174af8c183681f398d418c7a1d22d4cf1f527829",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/vacinal_brasil/notificacao_esavi.jsonl",
+      "expected_sha1": "908452770678d50d82e688b0ce4334d0d31223ad",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/vacinas/associacao_cvx_antigeno_cdsi.jsonl",
+      "expected_sha1": "376deb96225ef66ad2619f9e851bd0e52ddc6840",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/vacinas/codigo_cvx.jsonl",
+      "expected_sha1": "03a229bd85a16582d782c6f7ce5e4fd7a672d388",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/vacinas/dose_esquema_cdsi_acip.jsonl",
+      "expected_sha1": "c8bfd74b462dc2d22ee42743ac7f63fc59b4e646",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    },
+    {
+      "path": "data/legado/extracao_bruta/atomizado/vacinas/observacao_condicao_cdsi.jsonl",
+      "expected_sha1": "d7e0c1bb9ba654bf346416507cd77e94b660e5b1",
+      "source_present": true,
+      "source_sha_match": true,
+      "target_present": false,
+      "target_sha1": null
+    }
+  ],
+  "preconditions_for_write": [
+    "policy homologation",
+    "validator tests",
+    "WO Kernel admission",
+    "new HEAD readback immediately before import",
+    "isolated branch and CI",
+    "no main promotion"
+  ],
+  "write_performed": false
+}
