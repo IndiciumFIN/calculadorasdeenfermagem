@@ -1,0 +1,237 @@
+{
+  "schema": "CE-PATH-RECONCILIATION-1.0.0",
+  "source": "cursor/drive-sa-key-refactor@fc857df8306b81915f191d3f0744f7a322047b21",
+  "main_base": "7534911881fc942f7ac0f73238dbc4b7a209d5ab",
+  "mode": "READ_ONLY_CLASSIFICATION",
+  "total_source_files": 9366,
+  "conflicts": [
+    {
+      "path": ".gitignore",
+      "main_blob": "f6cf09f6171af3519e9fb489d99e87010222d56f",
+      "source_blob": "9c985a8eddb7e0a22fb543e5f18880435d9b6536",
+      "decision": "HOLD_HUMAN_RETAIN_BOTH"
+    },
+    {
+      "path": "contracts/exemplo_atomo.json",
+      "main_blob": "3d1cc8056c640da209e0c0b74f288804abdfb178",
+      "source_blob": "fcf5e9a8e73ab2d092954e6922e61cf76a0b5f78",
+      "decision": "HOLD_HUMAN_RETAIN_BOTH"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "main_blob": "bf119e9690ccc8a1018a15deab9f4675d7e88f5a",
+      "source_blob": "59d3cb4017a01caafdaf0253a3547f7cc19f439c",
+      "decision": "HOLD_HUMAN_RETAIN_BOTH"
+    },
+    {
+      "path": "docs/FIND_TEMPLATE.md",
+      "main_blob": "9f7a007db878ed429293fcff5e3c346e6274538e",
+      "source_blob": "9f478581e7078c0ff27dffca7a434964a43692a8",
+      "decision": "HOLD_HUMAN_RETAIN_BOTH"
+    },
+    {
+      "path": "docs/GOVERNANCE.md",
+      "main_blob": "347f0c221ced42e516cd77f5121b941d9d23b10c",
+      "source_blob": "f5ad6908d6aaf51b72833b94f50e657a517eddc4",
+      "decision": "HOLD_HUMAN_RETAIN_BOTH"
+    },
+    {
+      "path": "docs/INVENTORY_INITIAL.md",
+      "main_blob": "78fe4e40beb594984318bd6b268f60a8acb1a94d",
+      "source_blob": "17a8a9dfc445a6116b18b1b494598a9b195598b0",
+      "decision": "HOLD_HUMAN_RETAIN_BOTH"
+    },
+    {
+      "path": "docs/KERNEL.md",
+      "main_blob": "241e66da56f5e1093cbaa4e19aa40f99af2aca7f",
+      "source_blob": "7ee3442ed0b065961b59b5e11db5e1c90daee80e",
+      "decision": "HOLD_HUMAN_RETAIN_BOTH"
+    },
+    {
+      "path": "docs/PIPELINE.md",
+      "main_blob": "857a4473c288620bf3c7162105cc1204812ac64d",
+      "source_blob": "16aad9bdfda5f54b9206b7ccbddc449ac4155394",
+      "decision": "HOLD_HUMAN_RETAIN_BOTH"
+    },
+    {
+      "path": "docs/REGISTRY.md",
+      "main_blob": "bad374ee31e99576a03a91d0ef0eaedab98a0abc",
+      "source_blob": "7ad59cc563cdd5d130da0a973fe2b2e5845abea6",
+      "decision": "HOLD_HUMAN_RETAIN_BOTH"
+    },
+    {
+      "path": "docs/TASKS.md",
+      "main_blob": "8a56597e09704981ed347219236307f6f494c147",
+      "source_blob": "e26a4b05d4851e369f274ea0e709a599d2dbafde",
+      "decision": "HOLD_HUMAN_RETAIN_BOTH"
+    },
+    {
+      "path": "package.json",
+      "main_blob": "c34dea63000f29524e0e77d1b1f4c428236808e8",
+      "source_blob": "3cd718c127821b043d4df7a6cfc45fcbae28f321",
+      "decision": "HOLD_HUMAN_RETAIN_BOTH"
+    },
+    {
+      "path": "packages/cli/adapters/dou.py",
+      "main_blob": "c0cde62ae2e32d244c2257dd942f014b41e50cea",
+      "source_blob": "4991ec37bd915c21b5394d86f8962bff004f5f61",
+      "decision": "HOLD_HUMAN_RETAIN_BOTH"
+    },
+    {
+      "path": "packages/cli/adapters/secundaria.py",
+      "main_blob": "11638dbf2ff13a8a5ea1d0d6a74db31960021ab7",
+      "source_blob": "966ed3987a85b71a0ceb7f74ef1624d217f2fa11",
+      "decision": "HOLD_HUMAN_RETAIN_BOTH"
+    },
+    {
+      "path": "packages/cli/main.py",
+      "main_blob": "79fe358e7698c0eddf70357fac696daac0abc1e6",
+      "source_blob": "00d1d76ddf6e9446e296a8d303764f68fcdae5cf",
+      "decision": "HOLD_HUMAN_RETAIN_BOTH"
+    },
+    {
+      "path": "packages/cli/pipeline.py",
+      "main_blob": "a25b923730c7930bd3850b5e833ba1ceaa0c26a7",
+      "source_blob": "9dd09a54e2160a9b909a556ddae8f76a228ad0e8",
+      "decision": "HOLD_HUMAN_RETAIN_BOTH"
+    },
+    {
+      "path": "packages/cli/registry.py",
+      "main_blob": "cbaf477eeb3f2095e9e182a60238e36d638976cc",
+      "source_blob": "676e3d81ece0c7011177f66a71f18ec79d880a97",
+      "decision": "HOLD_HUMAN_RETAIN_BOTH"
+    },
+    {
+      "path": "packages/cli/requirements.txt",
+      "main_blob": "207950b50f385a8cd15d5ab851e68a82126a6009",
+      "source_blob": "f57ac51785cad6f459110fc7b1be0ac11e26ed68",
+      "decision": "HOLD_HUMAN_RETAIN_BOTH"
+    },
+    {
+      "path": "packages/cli/utils.py",
+      "main_blob": "f7a7dc644af29bb378dbca102df2de485b3f7d42",
+      "source_blob": "b9e6d284b8417807fb6ef7aefa0f694b6edd02f7",
+      "decision": "HOLD_HUMAN_RETAIN_BOTH"
+    },
+    {
+      "path": "packages/schemas/atomo.py",
+      "main_blob": "02fd7ddfe2ba2831a6f2618a5f6d7beb34bce053",
+      "source_blob": "07e54c6b8837188e0b8e29d284379bba2ea7cc4a",
+      "decision": "HOLD_HUMAN_RETAIN_BOTH"
+    },
+    {
+      "path": "packages/schemas/invariantes.py",
+      "main_blob": "f2cb16efbc30b2edc024fad4ed768dcc0964944f",
+      "source_blob": "a5c70dbdf059ed8039b318c3257d4aa11bfee4f9",
+      "decision": "HOLD_HUMAN_RETAIN_BOTH"
+    },
+    {
+      "path": "tsconfig.json",
+      "main_blob": "2aead53bd47286c1c87d4e092b10593a0c054a98",
+      "source_blob": "19c4c7686665e91eba0c9946173f9f90153f31df",
+      "decision": "HOLD_HUMAN_RETAIN_BOTH"
+    }
+  ],
+  "statistics": {
+    "spaces": 74,
+    "non_ascii": 0,
+    "len240": 39,
+    "embedded_zip_path": 8411,
+    "windows_reserved": 0,
+    "symlinks": 0,
+    "control_chars": 0,
+    "case_collisions": 0,
+    "trailing_space_or_dot": 0
+  },
+  "samples": {
+    "spaces": [
+      "data/legado/extracao_bruta/nutricao/raw/extraido/FoodData_Central_foundation_food_csv_2026-04-30.zip/FoodData_Central_foundation_food_csv_2026-04-30/Download API Field Descriptions.xlsx",
+      "data/legado/extracao_bruta/nutricao/raw/extraido/FoodData_Central_sr_legacy_food_csv_2018-04.zip/FoodData_Central_sr_legacy_food_csv_2018-04/Download & API Field Descriptions-2019-10-11-16-22.xlsx",
+      "data/legado/extracao_bruta/vacinas/raw/extraido/supporting-data-4.65-508.zip/Version 4.65 - 508/Excel/AntigenSupportingData- COVID-19-508.xlsx",
+      "data/legado/extracao_bruta/vacinas/raw/extraido/supporting-data-4.65-508.zip/Version 4.65 - 508/Excel/AntigenSupportingData- Chikungunya-508.xlsx",
+      "data/legado/extracao_bruta/vacinas/raw/extraido/supporting-data-4.65-508.zip/Version 4.65 - 508/Excel/AntigenSupportingData- Cholera-508.xlsx",
+      "data/legado/extracao_bruta/vacinas/raw/extraido/supporting-data-4.65-508.zip/Version 4.65 - 508/Excel/AntigenSupportingData- Dengue-508.xlsx",
+      "data/legado/extracao_bruta/vacinas/raw/extraido/supporting-data-4.65-508.zip/Version 4.65 - 508/Excel/AntigenSupportingData- Diphtheria-508.xlsx",
+      "data/legado/extracao_bruta/vacinas/raw/extraido/supporting-data-4.65-508.zip/Version 4.65 - 508/Excel/AntigenSupportingData- Ebola-508.xlsx",
+      "data/legado/extracao_bruta/vacinas/raw/extraido/supporting-data-4.65-508.zip/Version 4.65 - 508/Excel/AntigenSupportingData- HPV-508.xlsx",
+      "data/legado/extracao_bruta/vacinas/raw/extraido/supporting-data-4.65-508.zip/Version 4.65 - 508/Excel/AntigenSupportingData- HepA-508.xlsx",
+      "data/legado/extracao_bruta/vacinas/raw/extraido/supporting-data-4.65-508.zip/Version 4.65 - 508/Excel/AntigenSupportingData- HepB-508.xlsx",
+      "data/legado/extracao_bruta/vacinas/raw/extraido/supporting-data-4.65-508.zip/Version 4.65 - 508/Excel/AntigenSupportingData- Hib-508.xlsx",
+      "data/legado/extracao_bruta/vacinas/raw/extraido/supporting-data-4.65-508.zip/Version 4.65 - 508/Excel/AntigenSupportingData- Influenza-508.xlsx",
+      "data/legado/extracao_bruta/vacinas/raw/extraido/supporting-data-4.65-508.zip/Version 4.65 - 508/Excel/AntigenSupportingData- JE-508.xlsx",
+      "data/legado/extracao_bruta/vacinas/raw/extraido/supporting-data-4.65-508.zip/Version 4.65 - 508/Excel/AntigenSupportingData- Measles-508.xlsx",
+      "data/legado/extracao_bruta/vacinas/raw/extraido/supporting-data-4.65-508.zip/Version 4.65 - 508/Excel/AntigenSupportingData- Meningococcal B-508.xlsx",
+      "data/legado/extracao_bruta/vacinas/raw/extraido/supporting-data-4.65-508.zip/Version 4.65 - 508/Excel/AntigenSupportingData- Meningococcal-508.xlsx",
+      "data/legado/extracao_bruta/vacinas/raw/extraido/supporting-data-4.65-508.zip/Version 4.65 - 508/Excel/AntigenSupportingData- Mumps-508.xlsx",
+      "data/legado/extracao_bruta/vacinas/raw/extraido/supporting-data-4.65-508.zip/Version 4.65 - 508/Excel/AntigenSupportingData- Orthopoxvirus-508.xlsx",
+      "data/legado/extracao_bruta/vacinas/raw/extraido/supporting-data-4.65-508.zip/Version 4.65 - 508/Excel/AntigenSupportingData- Pertussis-508.xlsx",
+      "data/legado/extracao_bruta/vacinas/raw/extraido/supporting-data-4.65-508.zip/Version 4.65 - 508/Excel/AntigenSupportingData- Pneumococcal-508.xlsx",
+      "data/legado/extracao_bruta/vacinas/raw/extraido/supporting-data-4.65-508.zip/Version 4.65 - 508/Excel/AntigenSupportingData- Polio-508.xlsx",
+      "data/legado/extracao_bruta/vacinas/raw/extraido/supporting-data-4.65-508.zip/Version 4.65 - 508/Excel/AntigenSupportingData- RSV-508.xlsx",
+      "data/legado/extracao_bruta/vacinas/raw/extraido/supporting-data-4.65-508.zip/Version 4.65 - 508/Excel/AntigenSupportingData- Rabies-508.xlsx",
+      "data/legado/extracao_bruta/vacinas/raw/extraido/supporting-data-4.65-508.zip/Version 4.65 - 508/Excel/AntigenSupportingData- Rotavirus-508.xlsx"
+    ],
+    "non_ascii": [],
+    "len240": [
+      "data/legado/extracao_bruta/extraido/calculadoras_underscore/FEDERAL/COFEN/LEGISLACAO/LEGISLACAO_LOTE6_ATOS.zip/LEGISLACAO/BR_FED_COFEN_NAOATO_2000_SN_ANEXO_2295_2000_REQUERIMENTO/NAOATO_2000_SN_ANEXO_2295_2000_REQUERIMENTO_CONTEUDO_SITE_API.json",
+      "data/legado/extracao_bruta/extraido/calculadoras_underscore/FEDERAL/COFEN/LEGISLACAO/LEGISLACAO_LOTE6_ATOS.zip/LEGISLACAO/BR_FED_COFEN_NAOATO_2000_SN_ANEXO_2295_2000_REQUERIMENTO/NAOATO_2000_SN_ANEXO_2295_2000_REQUERIMENTO_TEXTO_FONTE_V1.txt",
+      "data/legado/extracao_bruta/extraido/calculadoras_underscore/FEDERAL/COFEN/LEGISLACAO/LEGISLACAO_LOTE6_ATOS.zip/LEGISLACAO/BR_FED_COFEN_NAOATO_2010_SN_CARTA_ENVIADA_AOS_PARLAMENTARES/NAOATO_2010_SN_CARTA_ENVIADA_AOS_PARLAMENTARES_ATOMOS_V1.jsonl",
+      "data/legado/extracao_bruta/extraido/calculadoras_underscore/FEDERAL/COFEN/LEGISLACAO/LEGISLACAO_LOTE6_ATOS.zip/LEGISLACAO/BR_FED_COFEN_NAOATO_2010_SN_CARTA_ENVIADA_AOS_PARLAMENTARES/NAOATO_2010_SN_CARTA_ENVIADA_AOS_PARLAMENTARES_CONTEUDO_SITE_API.json",
+      "data/legado/extracao_bruta/extraido/calculadoras_underscore/FEDERAL/COFEN/LEGISLACAO/LEGISLACAO_LOTE6_ATOS.zip/LEGISLACAO/BR_FED_COFEN_NAOATO_2010_SN_CARTA_ENVIADA_AOS_PARLAMENTARES/NAOATO_2010_SN_CARTA_ENVIADA_AOS_PARLAMENTARES_NORMA_V1.json",
+      "data/legado/extracao_bruta/extraido/calculadoras_underscore/FEDERAL/COFEN/LEGISLACAO/LEGISLACAO_LOTE6_ATOS.zip/LEGISLACAO/BR_FED_COFEN_NAOATO_2010_SN_CARTA_ENVIADA_AOS_PARLAMENTARES/NAOATO_2010_SN_CARTA_ENVIADA_AOS_PARLAMENTARES_PAGINA_SITE.html",
+      "data/legado/extracao_bruta/extraido/calculadoras_underscore/FEDERAL/COFEN/LEGISLACAO/LEGISLACAO_LOTE6_ATOS.zip/LEGISLACAO/BR_FED_COFEN_NAOATO_2010_SN_CARTA_ENVIADA_AOS_PARLAMENTARES/NAOATO_2010_SN_CARTA_ENVIADA_AOS_PARLAMENTARES_TEXTO_FONTE_V1.txt",
+      "data/legado/extracao_bruta/extraido/calculadoras_underscore/FEDERAL/COFEN/LEGISLACAO/LEGISLACAO_LOTE6_ATOS.zip/LEGISLACAO/BR_FED_COFEN_NAOATO_2010_SN_CARTA_ENVIADA_AOS_PARLAMENTARES/NAOATO_2010_SN_CARTA_ENVIADA_AOS_PARLAMENTARES_VALIDACAO_V1.json",
+      "data/legado/extracao_bruta/extraido/calculadoras_underscore/FEDERAL/COFEN/LEGISLACAO/LEGISLACAO_LOTE6_ATOS.zip/LEGISLACAO/BR_FED_COFEN_NAOATO_2010_SN_ESCLARECIMENTO_SOBRE_LEGISLACAO_INSTITUI/NAOATO_2010_SN_ESCLARECIMENTO_SOBRE_LEGISLACAO_INSTITUI_ATOMOS_V1.jsonl",
+      "data/legado/extracao_bruta/extraido/calculadoras_underscore/FEDERAL/COFEN/LEGISLACAO/LEGISLACAO_LOTE6_ATOS.zip/LEGISLACAO/BR_FED_COFEN_NAOATO_2010_SN_ESCLARECIMENTO_SOBRE_LEGISLACAO_INSTITUI/NAOATO_2010_SN_ESCLARECIMENTO_SOBRE_LEGISLACAO_INSTITUI_CONTEUDO_SITE_API.json",
+      "data/legado/extracao_bruta/extraido/calculadoras_underscore/FEDERAL/COFEN/LEGISLACAO/LEGISLACAO_LOTE6_ATOS.zip/LEGISLACAO/BR_FED_COFEN_NAOATO_2010_SN_ESCLARECIMENTO_SOBRE_LEGISLACAO_INSTITUI/NAOATO_2010_SN_ESCLARECIMENTO_SOBRE_LEGISLACAO_INSTITUI_NORMA_V1.json",
+      "data/legado/extracao_bruta/extraido/calculadoras_underscore/FEDERAL/COFEN/LEGISLACAO/LEGISLACAO_LOTE6_ATOS.zip/LEGISLACAO/BR_FED_COFEN_NAOATO_2010_SN_ESCLARECIMENTO_SOBRE_LEGISLACAO_INSTITUI/NAOATO_2010_SN_ESCLARECIMENTO_SOBRE_LEGISLACAO_INSTITUI_PAGINA_SITE.html",
+      "data/legado/extracao_bruta/extraido/calculadoras_underscore/FEDERAL/COFEN/LEGISLACAO/LEGISLACAO_LOTE6_ATOS.zip/LEGISLACAO/BR_FED_COFEN_NAOATO_2010_SN_ESCLARECIMENTO_SOBRE_LEGISLACAO_INSTITUI/NAOATO_2010_SN_ESCLARECIMENTO_SOBRE_LEGISLACAO_INSTITUI_TEXTO_FONTE_V1.txt",
+      "data/legado/extracao_bruta/extraido/calculadoras_underscore/FEDERAL/COFEN/LEGISLACAO/LEGISLACAO_LOTE6_ATOS.zip/LEGISLACAO/BR_FED_COFEN_NAOATO_2010_SN_ESCLARECIMENTO_SOBRE_LEGISLACAO_INSTITUI/NAOATO_2010_SN_ESCLARECIMENTO_SOBRE_LEGISLACAO_INSTITUI_VALIDACAO_V1.json",
+      "data/legado/extracao_bruta/extraido/calculadoras_underscore/FEDERAL/COFEN/LEGISLACAO/LEGISLACAO_LOTE6_ATOS.zip/LEGISLACAO/BR_FED_COFEN_NAOATO_2015_SN_DETERMINACAO_HORA_AULA_MEC/NAOATO_2015_SN_DETERMINACAO_HORA_AULA_MEC_CONTEUDO_SITE_API.json",
+      "data/legado/extracao_bruta/extraido/calculadoras_underscore/FEDERAL/COFEN/LEGISLACAO/LEGISLACAO_LOTE6_ATOS.zip/LEGISLACAO/BR_FED_COFEN_NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO/NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_ATOMOS_V1.jsonl",
+      "data/legado/extracao_bruta/extraido/calculadoras_underscore/FEDERAL/COFEN/LEGISLACAO/LEGISLACAO_LOTE6_ATOS.zip/LEGISLACAO/BR_FED_COFEN_NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO/NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_CONTEUDO_SITE_API.json",
+      "data/legado/extracao_bruta/extraido/calculadoras_underscore/FEDERAL/COFEN/LEGISLACAO/LEGISLACAO_LOTE6_ATOS.zip/LEGISLACAO/BR_FED_COFEN_NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO/NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_NORMA_V1.json",
+      "data/legado/extracao_bruta/extraido/calculadoras_underscore/FEDERAL/COFEN/LEGISLACAO/LEGISLACAO_LOTE6_ATOS.zip/LEGISLACAO/BR_FED_COFEN_NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO/NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PAGINA_SITE.html",
+      "data/legado/extracao_bruta/extraido/calculadoras_underscore/FEDERAL/COFEN/LEGISLACAO/LEGISLACAO_LOTE6_ATOS.zip/LEGISLACAO/BR_FED_COFEN_NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO/NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PDF_SITE.pdf",
+      "data/legado/extracao_bruta/extraido/calculadoras_underscore/FEDERAL/COFEN/LEGISLACAO/LEGISLACAO_LOTE6_ATOS.zip/LEGISLACAO/BR_FED_COFEN_NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO/NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_PDF_SITE_TEXTO_V1.txt",
+      "data/legado/extracao_bruta/extraido/calculadoras_underscore/FEDERAL/COFEN/LEGISLACAO/LEGISLACAO_LOTE6_ATOS.zip/LEGISLACAO/BR_FED_COFEN_NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO/NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_TEXTO_FONTE_V1.txt",
+      "data/legado/extracao_bruta/extraido/calculadoras_underscore/FEDERAL/COFEN/LEGISLACAO/LEGISLACAO_LOTE6_ATOS.zip/LEGISLACAO/BR_FED_COFEN_NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO/NAOATO_2015_SN_DIRETRIZES_CURRICULARES_NACIONAIS_EDUCACAO_VALIDACAO_V1.json",
+      "data/legado/extracao_bruta/extraido/calculadoras_underscore/FEDERAL/COFEN/LEGISLACAO/LEGISLACAO_LOTE6_ATOS.zip/LEGISLACAO/BR_FED_MEC_OUTRO_2010_SN_REGULAMENTACAO_SISTEMA_AVALIACAO_EDUCACAO/OUTRO_2010_SN_REGULAMENTACAO_SISTEMA_AVALIACAO_EDUCACAO_ATOMOS_V1.jsonl",
+      "data/legado/extracao_bruta/extraido/calculadoras_underscore/FEDERAL/COFEN/LEGISLACAO/LEGISLACAO_LOTE6_ATOS.zip/LEGISLACAO/BR_FED_MEC_OUTRO_2010_SN_REGULAMENTACAO_SISTEMA_AVALIACAO_EDUCACAO/OUTRO_2010_SN_REGULAMENTACAO_SISTEMA_AVALIACAO_EDUCACAO_CONTEUDO_SITE_API.json"
+    ],
+    "embedded_zip_path": [
+      "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/PORT/fracoes/PORT_LOTE4_2021-2023_ATOS_PARTE1.zip/manifesto.json",
+      "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/PORT/fracoes/PORT_LOTE4_2021-2023_ATOS_PARTE1.zip/part-000",
+      "data/legado/extracao_bruta/calculadoras_underscore/FEDERAL/COFEN/PORT/fracoes/PORT_LOTE4_2021-2023_ATOS_PARTE1.zip/part-001",
+      "data/legado/extracao_bruta/dispositivos/raw/extraido/device-classification.json.zip/analise.json",
+      "data/legado/extracao_bruta/dispositivos/raw/extraido/device-classification.json.zip/device-classification-0001-of-0001.json",
+      "data/legado/extracao_bruta/extraido/CKO_CURSOR_00_CONTROLE_v1_0_0.zip/INVENTARIO_E_QA.json",
+      "data/legado/extracao_bruta/extraido/CKO_CURSOR_00_CONTROLE_v1_0_0.zip/PROMPT_PARA_CURSOR.md",
+      "data/legado/extracao_bruta/extraido/CKO_CURSOR_00_CONTROLE_v1_0_0.zip/README_CURSOR.md",
+      "data/legado/extracao_bruta/extraido/CKO_CURSOR_00_CONTROLE_v1_0_0.zip/SHA256SUMS_ARCHIVES.txt",
+      "data/legado/extracao_bruta/extraido/CKO_CURSOR_00_CONTROLE_v1_0_0.zip/analise.json",
+      "data/legado/extracao_bruta/extraido/CKO_CURSOR_00_CONTROLE_v1_0_0.zip/fragmentar.py",
+      "data/legado/extracao_bruta/extraido/calculadoras_underscore/FEDERAL/COFEN/EDITAL/EDITAL_LOTE5_ATOS.zip/EDITAL/BR_FED_COFEN_EDITAL_2023_N_00001/EDITAL_2023_N_00001_ANEXO_01_PDF_SITE.pdf",
+      "data/legado/extracao_bruta/extraido/calculadoras_underscore/FEDERAL/COFEN/EDITAL/EDITAL_LOTE5_ATOS.zip/EDITAL/BR_FED_COFEN_EDITAL_2023_N_00001/EDITAL_2023_N_00001_ANEXO_01_PDF_SITE_TEXTO_V1.txt",
+      "data/legado/extracao_bruta/extraido/calculadoras_underscore/FEDERAL/COFEN/EDITAL/EDITAL_LOTE5_ATOS.zip/EDITAL/BR_FED_COFEN_EDITAL_2023_N_00001/EDITAL_2023_N_00001_ATOMOS_V1.jsonl",
+      "data/legado/extracao_bruta/extraido/calculadoras_underscore/FEDERAL/COFEN/EDITAL/EDITAL_LOTE5_ATOS.zip/EDITAL/BR_FED_COFEN_EDITAL_2023_N_00001/EDITAL_2023_N_00001_CONTEUDO_SITE_API.json",
+      "data/legado/extracao_bruta/extraido/calculadoras_underscore/FEDERAL/COFEN/EDITAL/EDITAL_LOTE5_ATOS.zip/EDITAL/BR_FED_COFEN_EDITAL_2023_N_00001/EDITAL_2023_N_00001_NORMA_V1.json",
+      "data/legado/extracao_bruta/extraido/calculadoras_underscore/FEDERAL/COFEN/EDITAL/EDITAL_LOTE5_ATOS.zip/EDITAL/BR_FED_COFEN_EDITAL_2023_N_00001/EDITAL_2023_N_00001_PAGINA_SITE.html",
+      "data/legado/extracao_bruta/extraido/calculadoras_underscore/FEDERAL/COFEN/EDITAL/EDITAL_LOTE5_ATOS.zip/EDITAL/BR_FED_COFEN_EDITAL_2023_N_00001/EDITAL_2023_N_00001_TEXTO_FONTE_V1.txt",
+      "data/legado/extracao_bruta/extraido/calculadoras_underscore/FEDERAL/COFEN/EDITAL/EDITAL_LOTE5_ATOS.zip/EDITAL/BR_FED_COFEN_EDITAL_2023_N_00001/EDITAL_2023_N_00001_VALIDACAO_V1.json",
+      "data/legado/extracao_bruta/extraido/calculadoras_underscore/FEDERAL/COFEN/EDITAL/EDITAL_LOTE5_ATOS.zip/EDITAL/BR_FED_COFEN_EDITAL_2023_N_00001/MANIFESTO_V1.json",
+      "data/legado/extracao_bruta/extraido/calculadoras_underscore/FEDERAL/COFEN/EDITAL/EDITAL_LOTE5_ATOS.zip/EDITAL/BR_FED_COFEN_EDITAL_2023_N_00002/EDITAL_2023_N_00002_ANEXO_01_PDF_SITE.pdf",
+      "data/legado/extracao_bruta/extraido/calculadoras_underscore/FEDERAL/COFEN/EDITAL/EDITAL_LOTE5_ATOS.zip/EDITAL/BR_FED_COFEN_EDITAL_2023_N_00002/EDITAL_2023_N_00002_ANEXO_01_PDF_SITE_TEXTO_V1.txt",
+      "data/legado/extracao_bruta/extraido/calculadoras_underscore/FEDERAL/COFEN/EDITAL/EDITAL_LOTE5_ATOS.zip/EDITAL/BR_FED_COFEN_EDITAL_2023_N_00002/EDITAL_2023_N_00002_ATOMOS_V1.jsonl",
+      "data/legado/extracao_bruta/extraido/calculadoras_underscore/FEDERAL/COFEN/EDITAL/EDITAL_LOTE5_ATOS.zip/EDITAL/BR_FED_COFEN_EDITAL_2023_N_00002/EDITAL_2023_N_00002_CONTEUDO_SITE_API.json",
+      "data/legado/extracao_bruta/extraido/calculadoras_underscore/FEDERAL/COFEN/EDITAL/EDITAL_LOTE5_ATOS.zip/EDITAL/BR_FED_COFEN_EDITAL_2023_N_00002/EDITAL_2023_N_00002_NORMA_V1.json"
+    ],
+    "windows_reserved": [],
+    "symlinks": [],
+    "control_chars": [],
+    "case_collisions": [],
+    "trailing_space_or_dot": []
+  },
+  "names_changed": false,
+  "warning": "Classifications are filename heuristics, not evidence to rename normative sources; preserve original paths until lineage and collision checks pass."
+}
