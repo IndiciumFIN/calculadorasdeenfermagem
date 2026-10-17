@@ -33,14 +33,17 @@ def list_page(folder_id, token, page_token=None):
 def crawl(roots, token, fetch=list_page, max_folders=100000, max_items=2000000):
     """Fail closed on API errors, loops, truncation, missing IDs or quota limits."""
     queue = deque((root["id"], root["id"], "") for root in roots)
-    visited = set()
+    visited = {}
+    overlaps = []
     items = []
     folders_seen = 0
     while queue:
         root_id, folder_id, relative = queue.popleft()
         if folder_id in visited:
-            raise ValueError("folder visited twice (cycle/overlap): " + folder_id)
-        visited.add(folder_id)
+            overlaps.append({"folder_id": folder_id, "first_root_id": visited[folder_id],
+                             "also_reached_from_root_id": root_id, "path": relative})
+            continue
+        visited[folder_id] = root_id
         folders_seen += 1
         if folders_seen > max_folders:
             raise ValueError("folder limit exceeded; inventory incomplete")
@@ -81,6 +84,7 @@ def crawl(roots, token, fetch=list_page, max_folders=100000, max_items=2000000):
             "status": "COLLECTED_NOT_KERNEL_APPROVED",
             "complete_pagination": True, "roots": roots,
             "folders_traversed": folders_seen, "items_count": len(items),
+            "overlapping_folder_references": overlaps,
             "items": sorted(items, key=lambda x: (x["root_id"], x["path"], x["id"])),
             "restrictions": ["NO_DELETE", "NO_PUBLICATION", "NO_DEDUP_WITHOUT_SHA256",
                              "ZIP_CONTENTS_NOT_INSPECTED", "RIGHTS_GATE_REQUIRED"]}
