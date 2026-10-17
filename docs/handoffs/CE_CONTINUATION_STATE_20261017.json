@@ -1,7 +1,7 @@
 {
   "schema": "CE-PROJECT-CONTINUATION-MANIFEST-1.0",
   "cutoff": "2026-10-17",
-  "status": "CRYPTO_65_OF_65_COMPLETE_GOVERNANCE_BLOCKED",
+  "status": "CRYPTO_65_OF_65_IMPORT_PREFLIGHT_73_OF_73_GOVERNANCE_BLOCKED",
   "repository": "IndiciumFIN/calculadorasdeenfermagem",
   "authority": {
     "documents": "GitHub",
@@ -162,7 +162,8 @@
       "docs/reconciliation/CE04_SHA256_FULL_COVERAGE_65_20261017.candidate.json",
       "docs/migration/CE04_GIT_BLOB_IMPORT_PLAN_65_20261017.candidate.json",
       "docs/tasks/CE04_TASK_EVIDENCE_CROSSWALK_38_20261017.candidate.json",
-      "docs/governance/CE04_WO_ADMISSION_BLOCKER_20261017.candidate.json"
+      "docs/governance/CE04_WO_ADMISSION_BLOCKER_20261017.candidate.json",
+      "docs/migration/CE04_IMPORT_COLLISION_PREFLIGHT_20261017.candidate.json"
     ],
     "hash_evidence_latest": "docs/reconciliation/CE04_SHA256_FULL_COVERAGE_65_20261017.candidate.json",
     "hash_evidence_readback_scope": "17 GitHub evidence microbatches compared to 65 Git structural manifest records; 59 distinct direct blobs verified; 6 chunked parents pending",
@@ -174,7 +175,11 @@
     "target_import_plan": "docs/migration/CE04_GIT_BLOB_IMPORT_PLAN_65_20261017.candidate.json",
     "target_import_plan_commit": "4091a7e527e021033bd3c2a7e937d933b9db0f6f",
     "files_imported_to_audit_branch": 0,
-    "files_already_in_historical_git_branch": 65
+    "files_already_in_historical_git_branch": 65,
+    "import_preflight_report": "docs/migration/CE04_IMPORT_COLLISION_PREFLIGHT_20261017.candidate.json",
+    "import_preflight_commit": "2f3b4903bf18f7b1b1fbb3df2d8f360d6a9625ed",
+    "import_source_paths_verified": 73,
+    "import_target_collisions_at_preflight": 0
   },
   "wo": {
     "id": "WO-CE04-RECON-20261017",
