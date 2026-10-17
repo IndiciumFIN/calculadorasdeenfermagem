@@ -1,0 +1,53 @@
+{
+  "schema": "CE04-CHUNK-REASSEMBLY-SHA256-CANDIDATE-1.0",
+  "wo": "WO-CE04-RECON-20261017",
+  "kernel_admitted": false,
+  "task_ids": [
+    "TASK-CE04-006",
+    "TASK-CE04-007"
+  ],
+  "file": "dispositivos/registro_anvisa_produto_saude.parte-0001.jsonl",
+  "source_git_ref": "cursor/drive-sa-key-refactor",
+  "algorithm": "incremental SHA256 of UTF8 decoded pinned Git chunks in manifest order",
+  "parts": [
+    {
+      "name": "part-000",
+      "sha1": "f58018ac0e28a987279ce56030f5f8881de962e0",
+      "expected": "38f6b5189d382b60ab0be841e3a407a07c4bf131c1b1b8fb14ae0b91eeea7649",
+      "computed": "38f6b5189d382b60ab0be841e3a407a07c4bf131c1b1b8fb14ae0b91eeea7649",
+      "expected_bytes": 40000000,
+      "computed_bytes": 40000000,
+      "pass": true,
+      "unicode_replacement": false
+    },
+    {
+      "name": "part-001",
+      "sha1": "da21481f9c736157979684cbc8e2f9361e4737a0",
+      "expected": "a2a562506b6276af33368eda1790ebbadb84b8e59844ba90a803cf9ea4da17c0",
+      "computed": "a2a562506b6276af33368eda1790ebbadb84b8e59844ba90a803cf9ea4da17c0",
+      "expected_bytes": 40000000,
+      "computed_bytes": 40000000,
+      "pass": true,
+      "unicode_replacement": false
+    },
+    {
+      "name": "part-002",
+      "sha1": "5404eabaf3f314e2ea94766d5274aec7d8224d5b",
+      "expected": "a243e70ca40af7bb69e0842efef4fb02439d00052ff810fe99216e61f609ced2",
+      "computed": "a243e70ca40af7bb69e0842efef4fb02439d00052ff810fe99216e61f609ced2",
+      "expected_bytes": 9998991,
+      "computed_bytes": 9998991,
+      "pass": true,
+      "unicode_replacement": false
+    }
+  ],
+  "parent": {
+    "expected_sha256": "7966ab61d11d8697eaf4a4b68d79f551cc7971e4bfd0861a877ebe2ed3c605f1",
+    "computed_sha256": "7966ab61d11d8697eaf4a4b68d79f551cc7971e4bfd0861a877ebe2ed3c605f1",
+    "expected_bytes": 89998991,
+    "computed_bytes": 89998991,
+    "pass": true
+  },
+  "no_source_mutation": true,
+  "release_allowed": false
+}
