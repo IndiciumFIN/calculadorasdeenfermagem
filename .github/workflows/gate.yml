@@ -1,14 +1,14 @@
 # Gate Agregador — único check que deve ser marcado como obrigatório no
-# branch protection da main (ver docs/GAP_REMEDIATION.md, ação manual).
+# branch protection da cursor/fix-governance-gaps-ec54 (ver docs/GAP_REMEDIATION.md, ação manual).
 # Substitui ci.yml e pipeline.yml, que mascaravam falhas com '|| echo' (GOV-002)
 # e não executavam a validação real (GOV-003).
 name: Gate Agregador
 
 on:
   push:
-    branches: [main]
+    branches: [cursor/fix-governance-gaps-ec54]
   pull_request:
-    branches: [main]
+    branches: [cursor/fix-governance-gaps-ec54]
 
 permissions:
   contents: read
