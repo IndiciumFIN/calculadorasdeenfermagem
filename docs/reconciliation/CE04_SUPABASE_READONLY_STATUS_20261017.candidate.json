@@ -1,0 +1,1671 @@
+{
+  "schema": "CE04-SUPABASE-STATUS-READONLY-CANDIDATE-1.0",
+  "project_id": "pgsybzggewhinaniybiy",
+  "branch": "audit/ce04-reconciliation-tasks-20261017",
+  "wo": "WO-CE04-RECON-20261017",
+  "no_mutation": true,
+  "no_replay": true,
+  "no_pii_or_event_payload": true,
+  "status": "UNVERIFIED_RISK_CLASSIFICATION",
+  "queries": [
+    {
+      "query": "SELECT status,aggregate_type,event_type,COUNT(*)::int AS n,MIN(created_at) AS oldest,MAX(created_at) AS newest,SUM(CASE WHEN attempts>0 THEN 1 ELSE 0 END)::int AS attempted FROM cko_orch.outbox_events GROUP BY status,aggregate_type,event_type ORDER BY status,aggregate_type,event_type",
+      "rows": [
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT",
+          "event_type": "ALDRETE_COMPLETE_CANDIDATE_V040",
+          "n": 1,
+          "oldest": "2026-09-02 01:52:58.779185+00",
+          "newest": "2026-09-02 01:52:58.779185+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT",
+          "event_type": "ALDRETE_CONTENT_SHA_RECOVERY_CHECKPOINT",
+          "n": 1,
+          "oldest": "2026-09-02 01:31:10.893552+00",
+          "newest": "2026-09-02 01:31:10.893552+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT",
+          "event_type": "CC01_ROW_LEVEL_CROSSWALK_EVIDENCE_AVAILABLE",
+          "n": 1,
+          "oldest": "2026-08-30 09:32:52.699207+00",
+          "newest": "2026-08-30 09:32:52.699207+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT",
+          "event_type": "F1_CROSSWALK_ROW_EVIDENCE_ADDED",
+          "n": 1,
+          "oldest": "2026-08-30 09:32:52.699207+00",
+          "newest": "2026-08-30 09:32:52.699207+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT",
+          "event_type": "F1_INDEPENDENT_AUDIT_REQUIRED",
+          "n": 1,
+          "oldest": "2026-08-30 09:29:04.655255+00",
+          "newest": "2026-08-30 09:29:04.655255+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT",
+          "event_type": "F1_INDEPENDENT_CHECK_REQUIRED",
+          "n": 1,
+          "oldest": "2026-08-30 09:29:04.655255+00",
+          "newest": "2026-08-30 09:29:04.655255+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT",
+          "event_type": "F4_INDEPENDENT_AUDIT_REQUIRED",
+          "n": 1,
+          "oldest": "2026-08-30 09:29:04.655255+00",
+          "newest": "2026-08-30 09:29:04.655255+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT",
+          "event_type": "F4_INDEPENDENT_CHECK_REQUIRED",
+          "n": 1,
+          "oldest": "2026-08-30 09:29:04.655255+00",
+          "newest": "2026-08-30 09:29:04.655255+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT",
+          "event_type": "F4_LEARNING_CANDIDATES_READY_FOR_ADOPTION",
+          "n": 1,
+          "oldest": "2026-08-30 09:42:28.684466+00",
+          "newest": "2026-08-30 09:42:28.684466+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT",
+          "event_type": "F4_LEARNING_CANDIDATES_VALIDATION_REQUESTED",
+          "n": 1,
+          "oldest": "2026-08-30 09:42:28.684466+00",
+          "newest": "2026-08-30 09:42:28.684466+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT",
+          "event_type": "F5_CROSS_LEARNING_CANDIDATES_VALIDATION_REQUESTED",
+          "n": 1,
+          "oldest": "2026-08-30 09:42:28.684466+00",
+          "newest": "2026-08-30 09:42:28.684466+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT",
+          "event_type": "F5_LEARNING_COVERAGE_AUDIT_REQUESTED",
+          "n": 1,
+          "oldest": "2026-08-30 09:42:28.684466+00",
+          "newest": "2026-08-30 09:42:28.684466+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT",
+          "event_type": "XAI_OAI_CONVERGENCE_LOOP_ACTIVATED",
+          "n": 1,
+          "oldest": "2026-08-30 08:48:35.13579+00",
+          "newest": "2026-08-30 08:48:35.13579+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT",
+          "event_type": "XAI_OAI_COUNTERCHALLENGE_ASSIGNED",
+          "n": 1,
+          "oldest": "2026-08-30 08:48:11.494501+00",
+          "newest": "2026-08-30 08:48:11.494501+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "AGENT_PRESENCE_LEASE_POLICY_ISSUED",
+          "n": 2,
+          "oldest": "2026-08-30 05:37:21.246991+00",
+          "newest": "2026-08-30 05:37:21.246991+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "ASYNC_NONBLOCKING_ORCHESTRATION_MODEL_PROPOSED",
+          "n": 1,
+          "oldest": "2026-08-30 07:51:14.87771+00",
+          "newest": "2026-08-30 07:51:14.87771+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "CROSS_F1_F4_PARALLEL_AUDIT_DISPATCHED",
+          "n": 1,
+          "oldest": "2026-08-30 08:08:04.459393+00",
+          "newest": "2026-08-30 08:08:04.459393+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "CROSS_F1_FOUNDATION_EVIDENCE_DISPATCHED",
+          "n": 1,
+          "oldest": "2026-08-30 08:08:04.459393+00",
+          "newest": "2026-08-30 08:08:04.459393+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "CROSS_F1_XAI_ACCELERATION_ASSIGNMENT_RECORDED",
+          "n": 1,
+          "oldest": "2026-08-30 08:18:29.479386+00",
+          "newest": "2026-08-30 08:18:29.479386+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "CROSS_F1_XAI_CHALLENGE_ASSIGNED",
+          "n": 1,
+          "oldest": "2026-08-30 08:18:29.479386+00",
+          "newest": "2026-08-30 08:18:29.479386+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "CROSS_F2_CLINICAL_KNOWLEDGE_DISPATCHED",
+          "n": 1,
+          "oldest": "2026-08-30 08:08:04.459393+00",
+          "newest": "2026-08-30 08:08:04.459393+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "CROSS_F3_EXPERIENCE_PUBLICATION_DISPATCHED",
+          "n": 1,
+          "oldest": "2026-08-30 08:08:04.459393+00",
+          "newest": "2026-08-30 08:08:04.459393+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "CROSS_F3_MATERIAL_CHECKPOINT",
+          "n": 1,
+          "oldest": "2026-08-30 09:09:32.668986+00",
+          "newest": "2026-08-30 09:09:32.668986+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "CROSS_F3_READY_FOR_BACKUP",
+          "n": 1,
+          "oldest": "2026-08-30 09:21:15.281944+00",
+          "newest": "2026-08-30 09:21:15.281944+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "CROSS_F4_RUNTIME_ASSURANCE_DISPATCHED",
+          "n": 1,
+          "oldest": "2026-08-30 08:08:04.459393+00",
+          "newest": "2026-08-30 08:08:04.459393+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "CROSS_FIVE_MACRO_MODEL_EXECUTION_STARTED",
+          "n": 1,
+          "oldest": "2026-08-30 08:08:04.459393+00",
+          "newest": "2026-08-30 08:08:04.459393+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "CROSS_LAYER_FIVE_MACRO_FRONT_CLOSURE_MODEL_ACTIVATED",
+          "n": 1,
+          "oldest": "2026-08-30 08:07:45.24102+00",
+          "newest": "2026-08-30 08:07:45.24102+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "CROSS_XAI_100_PERCENT_REVIEW_QUEUE_ASSIGNED",
+          "n": 1,
+          "oldest": "2026-08-30 08:23:12.169425+00",
+          "newest": "2026-08-30 08:23:12.169425+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "CROSS_XAI_FULL_PROGRAM_INDEPENDENT_OPINION_PLAN_RECORDED",
+          "n": 1,
+          "oldest": "2026-08-30 08:23:12.169425+00",
+          "newest": "2026-08-30 08:23:12.169425+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "DEEPSEEK_API_WORK_ASSIGNMENT_REQUIRED",
+          "n": 1,
+          "oldest": "2026-08-30 06:34:04.621748+00",
+          "newest": "2026-08-30 06:34:04.621748+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "DEEPSEEK_API_WORKER_BOOTSTRAP_PUBLISHED",
+          "n": 1,
+          "oldest": "2026-08-30 06:40:54.748347+00",
+          "newest": "2026-08-30 06:40:54.748347+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "DEEPSEEK_COMMUNICATION_LIMITATION_AND_GUIDANCE_REQUESTED",
+          "n": 1,
+          "oldest": "2026-08-30 07:40:33.849219+00",
+          "newest": "2026-08-30 07:40:33.849219+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "DEEPSEEK_WORKER_COMMUNICATION_CADENCE_REQUESTED",
+          "n": 1,
+          "oldest": "2026-08-30 07:37:18.716378+00",
+          "newest": "2026-08-30 07:37:18.716378+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "DEEPSEEK_WORKER_HEARTBEAT_AND_ASSIGNMENT_REQUESTED",
+          "n": 1,
+          "oldest": "2026-08-30 06:26:55.652512+00",
+          "newest": "2026-08-30 06:26:55.652512+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "DEEPSEEK_WORKER_HEARTBEAT_STATUS",
+          "n": 3,
+          "oldest": "2026-08-30 08:29:15.837424+00",
+          "newest": "2026-08-30 11:32:18.988699+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "DS_FRESH_CHECKPOINT_REQUIRED",
+          "n": 1,
+          "oldest": "2026-08-30 06:34:04.621748+00",
+          "newest": "2026-08-30 06:34:04.621748+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "DS_INTERNATIONAL_VISUAL_MARKET_FIT_PLANNING_REQUESTED",
+          "n": 1,
+          "oldest": "2026-08-30 06:09:32.363555+00",
+          "newest": "2026-08-30 06:09:32.363555+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "DS_START_HERE_MICROTASK_RECONCILIATION_INSTRUCTION",
+          "n": 1,
+          "oldest": "2026-08-30 06:03:40.904546+00",
+          "newest": "2026-08-30 06:03:40.904546+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "GLOBAL_COMPLETION_RECALCULATION_20260902",
+          "n": 1,
+          "oldest": "2026-09-02 03:04:58.911916+00",
+          "newest": "2026-09-02 03:04:58.911916+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "H11_BACKUP_GATE_ACK_DECISION",
+          "n": 1,
+          "oldest": "2026-08-30 06:03:40.904546+00",
+          "newest": "2026-08-30 06:03:40.904546+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "H11_BACKUP_GATE_ACK_RECEIVED",
+          "n": 1,
+          "oldest": "2026-08-30 06:05:42.518481+00",
+          "newest": "2026-08-30 06:05:42.518481+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "H11_CLOSURE_CONTINUITY_NUDGE",
+          "n": 1,
+          "oldest": "2026-08-30 06:34:04.621748+00",
+          "newest": "2026-08-30 06:34:04.621748+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "H11_COMMUNICATION_CADENCE_LIMITATION_AND_GUIDANCE_REQUESTED",
+          "n": 1,
+          "oldest": "2026-08-30 07:40:10.346267+00",
+          "newest": "2026-08-30 07:40:10.346267+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "H11_COMPLETE_STATE_BACKUP_HANDOFF",
+          "n": 1,
+          "oldest": "2026-09-02 01:25:28.750586+00",
+          "newest": "2026-09-02 01:25:28.750586+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "H11_ORCHESTRATOR_FOLLOWUP_REQUESTED",
+          "n": 1,
+          "oldest": "2026-08-30 07:34:13.091657+00",
+          "newest": "2026-08-30 07:34:13.091657+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "H11_ORCHESTRATOR_INSTRUCTIONS_REQUESTED",
+          "n": 1,
+          "oldest": "2026-08-30 05:50:26.558686+00",
+          "newest": "2026-08-30 05:50:26.558686+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "H11_PARALLEL_READY_FOR_BACKUP",
+          "n": 1,
+          "oldest": "2026-08-30 05:31:15.227095+00",
+          "newest": "2026-08-30 05:31:15.227095+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "H11_POST_COMPLETE_ORCHESTRATOR_SYNC_REQUESTED",
+          "n": 1,
+          "oldest": "2026-08-30 07:36:25.144405+00",
+          "newest": "2026-08-30 07:36:25.144405+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "H11_SHA256_REGISTRY_HANDOFF",
+          "n": 1,
+          "oldest": "2026-09-02 01:25:42.592363+00",
+          "newest": "2026-09-02 01:25:42.592363+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "H12_CONTROL_PRECEDENCE_RECONCILIATION_REQUESTED",
+          "n": 1,
+          "oldest": "2026-08-30 07:33:58.500318+00",
+          "newest": "2026-08-30 07:33:58.500318+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "H12_DATA_HANDOFF",
+          "n": 1,
+          "oldest": "2026-09-02 01:32:35.871896+00",
+          "newest": "2026-09-02 01:32:35.871896+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "H12_DATA_HANDOFF_SUMMARY_READY",
+          "n": 1,
+          "oldest": "2026-09-02 01:33:49.503779+00",
+          "newest": "2026-09-02 01:33:49.503779+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "H12_FRESH_STATUS_REQUIRED",
+          "n": 1,
+          "oldest": "2026-08-30 06:34:04.621748+00",
+          "newest": "2026-08-30 06:34:04.621748+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "H12_HEARTBEAT_STATUS",
+          "n": 1,
+          "oldest": "2026-08-30 07:36:51.906185+00",
+          "newest": "2026-08-30 07:36:51.906185+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "H12_PARALLEL_READY_FOR_BACKUP",
+          "n": 1,
+          "oldest": "2026-08-30 06:07:42.544024+00",
+          "newest": "2026-08-30 06:07:42.544024+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "H12_STATUS_RECONCILIATION_REQUESTED",
+          "n": 1,
+          "oldest": "2026-08-30 06:03:40.904546+00",
+          "newest": "2026-08-30 06:03:40.904546+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "INTL_150S_COMMUNICATION_LIMITATION_AND_ALTERNATIVE_INSTRUCTIONS_REQUESTED",
+          "n": 1,
+          "oldest": "2026-08-30 07:41:31.805161+00",
+          "newest": "2026-08-30 07:41:31.805161+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "INTL_150S_COMMUNICATION_TECHNICAL_ALTERNATIVE_CONFIRMED_AND_DECISION_REQUESTED",
+          "n": 1,
+          "oldest": "2026-08-30 07:42:37.643714+00",
+          "newest": "2026-08-30 07:42:37.643714+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "INTL_COLLABORATOR_CONTINUOUS_WORK_POLICY_ISSUED",
+          "n": 1,
+          "oldest": "2026-08-30 06:19:53.930958+00",
+          "newest": "2026-08-30 06:19:53.930958+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "INTL_CONTINUOUS_ORCHESTRATOR_COORDINATION_UNTIL_100_ISSUED",
+          "n": 1,
+          "oldest": "2026-08-30 06:28:05.756439+00",
+          "newest": "2026-08-30 06:28:05.756439+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "INTL_EXTERNAL_AI_COLLABORATION_ACTIVATION_REQUESTED",
+          "n": 1,
+          "oldest": "2026-08-30 06:19:53.930958+00",
+          "newest": "2026-08-30 06:19:53.930958+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "INTL_ORCHESTRATOR_MATERIAL_HEARTBEAT_AND_DIRECTION_REQUESTED",
+          "n": 1,
+          "oldest": "2026-08-30 07:35:10.494426+00",
+          "newest": "2026-08-30 07:35:10.494426+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "INTL_PROVIDER_PRESENCE_HOURLY_RECONCILIATION",
+          "n": 4,
+          "oldest": "2026-08-30 11:38:09.765512+00",
+          "newest": "2026-08-30 20:24:00.102962+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "INTL_PROVIDER_PRESENCE_RECONCILIATION_HOURLY",
+          "n": 1,
+          "oldest": "2026-08-30 22:36:58.180549+00",
+          "newest": "2026-08-30 22:36:58.180549+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "INTL_VISUAL_MARKET_FIT_ORCHESTRATOR_ACK_REQUESTED",
+          "n": 1,
+          "oldest": "2026-08-30 06:17:27.809622+00",
+          "newest": "2026-08-30 06:17:27.809622+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "LIBRARY_ADVERSARIAL_GAP_HUNT_REQUESTED",
+          "n": 1,
+          "oldest": "2026-08-30 07:59:11.401663+00",
+          "newest": "2026-08-30 07:59:11.401663+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "LIBRARY_CONTENT_CONTINUOUS_COORDINATION_REQUESTED",
+          "n": 1,
+          "oldest": "2026-08-30 06:28:33.800832+00",
+          "newest": "2026-08-30 06:28:33.800832+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "LIBRARY_CONTINUOUS_AUDIT_LEARNING_LOOP_ACTIVATED",
+          "n": 1,
+          "oldest": "2026-08-30 07:59:11.401663+00",
+          "newest": "2026-08-30 07:59:11.401663+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "LIBRARY_CONTINUOUS_REPERFORMANCE_AUDIT_DISPATCHED",
+          "n": 1,
+          "oldest": "2026-08-30 07:59:11.401663+00",
+          "newest": "2026-08-30 07:59:11.401663+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "LIBRARY_FINDING_TO_LEARNING_MAKER_DISPATCHED",
+          "n": 1,
+          "oldest": "2026-08-30 07:59:11.401663+00",
+          "newest": "2026-08-30 07:59:11.401663+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "LIBRARY_FRONT_COMMUNICATION_LIMITATIONS_AND_LOW_LATENCY_OPTIONS_REQUESTED",
+          "n": 1,
+          "oldest": "2026-08-30 07:44:11.317293+00",
+          "newest": "2026-08-30 07:44:11.317293+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "LIBRARY_INTERNAL_AGENT_FANOUT_DISPATCHED_AND_PROVIDER_GATE_ARMED",
+          "n": 1,
+          "oldest": "2026-08-30 07:55:38.289929+00",
+          "newest": "2026-08-30 07:55:38.289929+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "LIBRARY_LEARNING_CORRECTION_CHECKER_DISPATCHED",
+          "n": 1,
+          "oldest": "2026-08-30 07:59:11.401663+00",
+          "newest": "2026-08-30 07:59:11.401663+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "LIBRARY_P0_CHECKER_PREPARED",
+          "n": 1,
+          "oldest": "2026-08-30 07:55:38.289929+00",
+          "newest": "2026-08-30 07:55:38.289929+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "LIBRARY_P0_MAKER_DISPATCHED",
+          "n": 1,
+          "oldest": "2026-08-30 07:55:38.289929+00",
+          "newest": "2026-08-30 07:55:38.289929+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "LIBRARY_P0_P1_AUTHORIZATION_ACKNOWLEDGED",
+          "n": 1,
+          "oldest": "2026-08-30 07:35:28.773522+00",
+          "newest": "2026-08-30 07:35:28.773522+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "LIBRARY_P0_P1_PARALLEL_AUDIT_PREPARED",
+          "n": 1,
+          "oldest": "2026-08-30 07:55:38.289929+00",
+          "newest": "2026-08-30 07:55:38.289929+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "LIBRARY_P1_CHECKER_PREPARED",
+          "n": 1,
+          "oldest": "2026-08-30 07:55:38.289929+00",
+          "newest": "2026-08-30 07:55:38.289929+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "LIBRARY_P1_MAKER_PREWORK_DISPATCHED",
+          "n": 1,
+          "oldest": "2026-08-30 07:55:38.289929+00",
+          "newest": "2026-08-30 07:55:38.289929+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "ORCHESTRATOR_CONTINUITY_SWEEP_REQUIRED",
+          "n": 1,
+          "oldest": "2026-08-30 06:34:04.621748+00",
+          "newest": "2026-08-30 06:34:04.621748+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "PARALLEL_FRONT_STATUS_MANIFEST_PUBLISHED",
+          "n": 1,
+          "oldest": "2026-08-30 06:06:46.915102+00",
+          "newest": "2026-08-30 06:06:46.915102+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "PMO_CONTROL_COMMAND_ISSUED",
+          "n": 1,
+          "oldest": "2026-08-30 05:18:02.509311+00",
+          "newest": "2026-08-30 05:18:02.509311+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "POST_CLOSURE_360_POLICY_ISSUED",
+          "n": 2,
+          "oldest": "2026-08-30 05:25:46.658008+00",
+          "newest": "2026-08-30 05:25:46.658008+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "PROVIDER_PRESENCE_GRACE_STATUS_REFRESH_REQUESTED",
+          "n": 2,
+          "oldest": "2026-08-30 14:30:10.106799+00",
+          "newest": "2026-09-02 02:23:36.370502+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "RECOVERY_SHADOW_RECONCILE_BEFORE_RESUME",
+          "n": 1,
+          "oldest": "2026-08-30 06:03:40.904546+00",
+          "newest": "2026-08-30 06:03:40.904546+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "REFERENCE_EVIDENCE_HANDOFF_READY",
+          "n": 1,
+          "oldest": "2026-09-02 01:22:30.822501+00",
+          "newest": "2026-09-02 01:22:30.822501+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "SHARED_BLACKBOARD_PLAN_PUBLISHED",
+          "n": 1,
+          "oldest": "2026-08-30 05:46:58.892539+00",
+          "newest": "2026-08-30 05:46:58.892539+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "SITE_AUDIT_COMMUNICATION_LIMITATIONS_AND_LOW_LATENCY_INSTRUCTIONS_REQUESTED",
+          "n": 1,
+          "oldest": "2026-08-30 07:45:17.239439+00",
+          "newest": "2026-08-30 07:45:17.239439+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "SITE_AUDIT_PIPELINE_STATUS_AND_ASSIGNMENT_REQUESTED",
+          "n": 1,
+          "oldest": "2026-08-30 07:38:48.870226+00",
+          "newest": "2026-08-30 07:38:48.870226+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "TECHNICAL_LIBRARY_WAVE_014_PIVC_HANDOFF",
+          "n": 1,
+          "oldest": "2026-09-02 03:01:37.780304+00",
+          "newest": "2026-09-02 03:01:37.780304+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "TECHNICAL_LIBRARY_WAVE_015_PIVC_HANDOFF",
+          "n": 1,
+          "oldest": "2026-09-02 08:55:19.801594+00",
+          "newest": "2026-09-02 08:55:19.801594+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "TECHNICAL_LIBRARY_WAVE_016_PICC_HANDOFF",
+          "n": 1,
+          "oldest": "2026-09-02 15:03:27.236873+00",
+          "newest": "2026-09-02 15:03:27.236873+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "TECHNICAL_LIBRARY_WAVE_017_CVC_PORT_HANDOFF",
+          "n": 1,
+          "oldest": "2026-09-02 21:04:39.678599+00",
+          "newest": "2026-09-02 21:04:39.678599+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "TECHNICAL_LIBRARY_WAVE_018_HEMODIALYSIS_HANDOFF",
+          "n": 1,
+          "oldest": "2026-09-03 03:05:06.696056+00",
+          "newest": "2026-09-03 03:05:06.696056+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "TECHNICAL_LIBRARY_WAVE_019_NGNE_FOLEY_HANDOFF",
+          "n": 1,
+          "oldest": "2026-09-03 09:09:20.491027+00",
+          "newest": "2026-09-03 09:09:20.491027+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "TECHNICAL_LIBRARY_WAVE_020_SUCTION_CHEST_DRAIN_INFUSION_HANDOFF",
+          "n": 1,
+          "oldest": "2026-09-03 14:56:10.454609+00",
+          "newest": "2026-09-03 14:56:10.454609+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "TECHNICAL_LIBRARY_WAVES_HANDOFF_20260901",
+          "n": 1,
+          "oldest": "2026-09-02 01:24:26.512222+00",
+          "newest": "2026-09-02 01:24:26.512222+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "XAI_100_PERCENT_INDEPENDENT_ASSURANCE_PLAN_RECORDED",
+          "n": 1,
+          "oldest": "2026-08-30 08:24:05.080685+00",
+          "newest": "2026-08-30 08:24:05.080685+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "XAI_100_PERCENT_INDEPENDENT_REVIEW_SEQUENCE_QUEUED",
+          "n": 1,
+          "oldest": "2026-08-30 08:24:05.080685+00",
+          "newest": "2026-08-30 08:24:05.080685+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_WORK_ITEM",
+          "event_type": "CROSS_F2_READY_FOR_BACKUP_AND_FANIN",
+          "n": 1,
+          "oldest": "2026-08-30 09:15:37.905359+00",
+          "newest": "2026-08-30 09:15:37.905359+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_WORK_ITEM",
+          "event_type": "CROSS_F2_TECHNICAL_CLOSURE_READY_FOR_FANIN",
+          "n": 1,
+          "oldest": "2026-08-30 09:09:35.708689+00",
+          "newest": "2026-08-30 09:09:35.708689+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_WORK_ITEM",
+          "event_type": "DEEPSEEK_PROVIDER_CONFIGURATION_READY_FOR_SECRET",
+          "n": 1,
+          "oldest": "2026-08-30 06:53:03.54175+00",
+          "newest": "2026-08-30 06:53:03.54175+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_WORK_ITEM",
+          "event_type": "DS_BOUNDED_MICROTASKS_NOW_REQUIRED",
+          "n": 1,
+          "oldest": "2026-08-30 06:53:48.540503+00",
+          "newest": "2026-08-30 06:53:48.540503+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_WORK_ITEM",
+          "event_type": "DS_MICROTASK_ASSIGNED",
+          "n": 6,
+          "oldest": "2026-08-30 06:54:38.188025+00",
+          "newest": "2026-08-30 06:54:38.188025+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_WORK_ITEM",
+          "event_type": "H12_REMEDIATION_CHECK_REQUIRED",
+          "n": 1,
+          "oldest": "2026-08-30 06:48:07.62161+00",
+          "newest": "2026-08-30 06:48:07.62161+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_WORK_ITEM",
+          "event_type": "H12_REMEDIATION_INDEPENDENT_AUDIT_REQUIRED",
+          "n": 1,
+          "oldest": "2026-08-30 06:48:07.62161+00",
+          "newest": "2026-08-30 06:48:07.62161+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_WORK_ITEM",
+          "event_type": "H12_REMEDIATION_WORK_ASSIGNED",
+          "n": 1,
+          "oldest": "2026-08-30 06:48:07.62161+00",
+          "newest": "2026-08-30 06:48:07.62161+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_WORK_ITEM",
+          "event_type": "INTL_W0_ASSIGNED",
+          "n": 1,
+          "oldest": "2026-08-30 06:55:23.984155+00",
+          "newest": "2026-08-30 06:55:23.984155+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_WORK_ITEM",
+          "event_type": "INTL_W0_W1_EVIDENCE_WAVES_AUTHORIZED",
+          "n": 1,
+          "oldest": "2026-08-30 06:53:48.540503+00",
+          "newest": "2026-08-30 06:53:48.540503+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_WORK_ITEM",
+          "event_type": "INTL_W1_ASSIGNED",
+          "n": 1,
+          "oldest": "2026-08-30 06:55:23.984155+00",
+          "newest": "2026-08-30 06:55:23.984155+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "AGENT_WORK_ITEM",
+          "event_type": "LIBRARY_P0_P1_AUTHORIZED",
+          "n": 1,
+          "oldest": "2026-08-30 06:53:48.540503+00",
+          "newest": "2026-08-30 06:53:48.540503+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "CKO_B5_DIGITAL_TWIN",
+          "event_type": "B5_AUD8L_FINAL_TECHNICAL_CLOSURE_READY",
+          "n": 1,
+          "oldest": "2026-09-02 21:24:27.541891+00",
+          "newest": "2026-09-02 21:24:27.541891+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "DIVERGENCE",
+          "event_type": "DIVERGENCE_OPENED",
+          "n": 11,
+          "oldest": "2026-08-28 05:34:47.143015+00",
+          "newest": "2026-08-28 09:04:15.157104+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "DIVERGENCE",
+          "event_type": "DIVERGENCE_RESOLVED",
+          "n": 8,
+          "oldest": "2026-08-28 06:46:33.210073+00",
+          "newest": "2026-08-28 09:06:29.678189+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "FRONT_COORDINATION",
+          "event_type": "H11_BACKUP_AND_CLOSURE_INSTRUCTION",
+          "n": 1,
+          "oldest": "2026-08-30 06:03:40.904546+00",
+          "newest": "2026-08-30 06:03:40.904546+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "LOCK",
+          "event_type": "LOCK_ACTIVE",
+          "n": 20,
+          "oldest": "2026-08-28 06:07:39.805574+00",
+          "newest": "2026-08-28 09:05:53.337263+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "OPERATIONS_MAPPING",
+          "event_type": "OPERATIONS_MAPPING_REQUESTED",
+          "n": 1,
+          "oldest": "2026-10-11 12:18:28.952288+00",
+          "newest": "2026-10-11 12:18:28.952288+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "ORCHESTRATOR",
+          "event_type": "PROVIDER_PRESENCE_POLICY_ACTIVATED",
+          "n": 2,
+          "oldest": "2026-08-30 07:10:17.483792+00",
+          "newest": "2026-08-30 07:10:17.483792+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "PROPOSAL",
+          "event_type": "PROPOSAL_COMMITTED",
+          "n": 36,
+          "oldest": "2026-08-28 05:48:46.42679+00",
+          "newest": "2026-08-28 09:05:34.713659+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "PROPOSAL",
+          "event_type": "PROPOSAL_RECEIVED",
+          "n": 39,
+          "oldest": "2026-08-28 05:34:47.143015+00",
+          "newest": "2026-09-18 21:21:39.548879+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "PROVIDER_COORDINATION",
+          "event_type": "INTL_PROVIDER_PRESENCE_HOURLY_RECONCILIATION",
+          "n": 1,
+          "oldest": "2026-08-30 19:37:37.433663+00",
+          "newest": "2026-08-30 19:37:37.433663+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "PROVIDER_FRONT",
+          "event_type": "PROVIDER_FRONT_ACTIVATED",
+          "n": 2,
+          "oldest": "2026-08-30 07:24:24.221363+00",
+          "newest": "2026-08-30 07:24:24.221363+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "PROVIDER_FRONT",
+          "event_type": "PROVIDER_FRONT_STATUS_REQUESTED",
+          "n": 2,
+          "oldest": "2026-08-30 07:09:37.335768+00",
+          "newest": "2026-08-30 07:09:37.335768+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "WORK_ITEM",
+          "event_type": "AGENT_EXECUTION_SMOKE_DISPATCH",
+          "n": 2,
+          "oldest": "2026-09-18 20:37:20.974957+00",
+          "newest": "2026-09-18 20:37:20.974957+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "WORK_ITEM",
+          "event_type": "B1_AUD8L_FINAL_TECHNICAL_CLOSURE_CORRECTION",
+          "n": 1,
+          "oldest": "2026-09-02 17:33:52.706139+00",
+          "newest": "2026-09-02 17:33:52.706139+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "WORK_ITEM",
+          "event_type": "B1_AUD8L_FINAL_TECHNICAL_CLOSURE_READY",
+          "n": 1,
+          "oldest": "2026-09-02 17:30:15.098475+00",
+          "newest": "2026-09-02 17:30:15.098475+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "WORK_ITEM",
+          "event_type": "B10_COGNITIVE_RUNTIME_FINAL_FORMALIZATION",
+          "n": 1,
+          "oldest": "2026-09-02 22:41:21.951225+00",
+          "newest": "2026-09-02 22:41:21.951225+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "WORK_ITEM",
+          "event_type": "B2_AUD8L_FINAL_TECHNICAL_CLOSURE_READY",
+          "n": 1,
+          "oldest": "2026-09-02 18:12:07.010837+00",
+          "newest": "2026-09-02 18:12:07.010837+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "WORK_ITEM",
+          "event_type": "B3_AUD8L_FINAL_TECHNICAL_CLOSURE_READY",
+          "n": 1,
+          "oldest": "2026-09-02 18:40:29.028111+00",
+          "newest": "2026-09-02 18:40:29.028111+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "WORK_ITEM",
+          "event_type": "B4_AUD8L_FINAL_TECHNICAL_CLOSURE_READY",
+          "n": 1,
+          "oldest": "2026-09-02 19:05:37.661744+00",
+          "newest": "2026-09-02 19:05:37.661744+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "WORK_ITEM",
+          "event_type": "B6C_AUD8L_FINAL_TECHNICAL_CLOSURE",
+          "n": 1,
+          "oldest": "2026-09-02 21:44:45.877791+00",
+          "newest": "2026-09-02 21:44:45.877791+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "WORK_ITEM",
+          "event_type": "B6E_AUD8L_FINAL_TECHNICAL_CLOSURE",
+          "n": 1,
+          "oldest": "2026-09-02 22:13:38.006685+00",
+          "newest": "2026-09-02 22:13:38.006685+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "WORK_ITEM",
+          "event_type": "B6K_AUD8L_FINAL_TECHNICAL_CLOSURE",
+          "n": 1,
+          "oldest": "2026-09-02 22:09:10.397654+00",
+          "newest": "2026-09-02 22:09:10.397654+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "WORK_ITEM",
+          "event_type": "B6L_AUD8L_FINAL_TECHNICAL_CLOSURE",
+          "n": 1,
+          "oldest": "2026-09-02 22:18:11.024042+00",
+          "newest": "2026-09-02 22:18:11.024042+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "WORK_ITEM",
+          "event_type": "B7_AUD8L_FINAL_TECHNICAL_CLOSURE",
+          "n": 1,
+          "oldest": "2026-09-02 22:24:00.623857+00",
+          "newest": "2026-09-02 22:24:00.623857+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "WORK_ITEM",
+          "event_type": "B8_AUD8L_FINAL_TECHNICAL_CLOSURE",
+          "n": 1,
+          "oldest": "2026-09-02 22:30:29.740548+00",
+          "newest": "2026-09-02 22:30:29.740548+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "WORK_ITEM",
+          "event_type": "B9_RELEASE_FANIN_TECHNICAL_CLOSURE",
+          "n": 1,
+          "oldest": "2026-09-02 22:35:20.993218+00",
+          "newest": "2026-09-02 22:35:20.993218+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "WORK_ITEM",
+          "event_type": "F5_44_LAYER_FANIN_MATRIX_UPDATED",
+          "n": 1,
+          "oldest": "2026-08-30 09:38:55.22316+00",
+          "newest": "2026-08-30 09:38:55.22316+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "WORK_ITEM",
+          "event_type": "F5_CONTROL_TOWER_PREWORK_RECONCILED",
+          "n": 1,
+          "oldest": "2026-08-30 09:11:19.268871+00",
+          "newest": "2026-08-30 09:11:19.268871+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "WORK_ITEM",
+          "event_type": "F5_FANIN_INPUTS_REQUESTED",
+          "n": 1,
+          "oldest": "2026-08-30 09:11:58.84789+00",
+          "newest": "2026-08-30 09:11:58.84789+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "WORK_ITEM",
+          "event_type": "F5_PATH_CRITICAL_F1_F4_ASSURANCE_ESCALATED",
+          "n": 1,
+          "oldest": "2026-08-30 10:08:28.339402+00",
+          "newest": "2026-08-30 10:08:28.339402+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "WORK_ITEM",
+          "event_type": "F5_PREWORK_AUDIT_ASSIGNED",
+          "n": 1,
+          "oldest": "2026-08-30 09:11:58.84789+00",
+          "newest": "2026-08-30 09:11:58.84789+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "WORK_ITEM",
+          "event_type": "F5_PREWORK_CHECK_ASSIGNED",
+          "n": 1,
+          "oldest": "2026-08-30 09:11:58.84789+00",
+          "newest": "2026-08-30 09:11:58.84789+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "WORK_ITEM",
+          "event_type": "F5_XAI_MESSAGES_RECONCILED",
+          "n": 1,
+          "oldest": "2026-08-30 09:17:08.770254+00",
+          "newest": "2026-08-30 09:17:08.770254+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "WORK_ITEM",
+          "event_type": "GLOBAL_FANIN_44_LAYER_TECHNICAL_CLOSURE_READY",
+          "n": 1,
+          "oldest": "2026-09-02 14:57:28.38791+00",
+          "newest": "2026-09-02 14:57:28.38791+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "WORK_ITEM",
+          "event_type": "GLOBAL_FINAL_POST_B10_CLOSURE",
+          "n": 1,
+          "oldest": "2026-09-02 22:46:14.13442+00",
+          "newest": "2026-09-02 22:46:14.13442+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "WORK_ITEM",
+          "event_type": "HISTORICAL_WAVE5_RECOVERY_READY_FOR_B1_AUD8L",
+          "n": 1,
+          "oldest": "2026-09-02 16:07:58.420174+00",
+          "newest": "2026-09-02 16:07:58.420174+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "WORK_ITEM",
+          "event_type": "XAI_OAI_COUNTERCHALLENGE_RESPONSE_002_AVAILABLE",
+          "n": 1,
+          "oldest": "2026-08-30 09:17:08.770254+00",
+          "newest": "2026-08-30 09:17:08.770254+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "WORKFLOW",
+          "event_type": "COMMUNICATION_CADENCE_GUIDANCE_REQUESTED",
+          "n": 1,
+          "oldest": "2026-08-30 07:40:03.364583+00",
+          "newest": "2026-08-30 07:40:03.364583+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "WORKFLOW",
+          "event_type": "ORCHESTRATOR_FOLLOWUP_REQUESTED",
+          "n": 1,
+          "oldest": "2026-08-30 07:34:14.135795+00",
+          "newest": "2026-08-30 07:34:14.135795+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "WORKFLOW",
+          "event_type": "TRANSITION_ALLOW",
+          "n": 26,
+          "oldest": "2026-08-28 05:49:26.140827+00",
+          "newest": "2026-08-28 08:56:12.751042+00",
+          "attempted": 0
+        },
+        {
+          "status": "PENDING",
+          "aggregate_type": "WORKFLOW",
+          "event_type": "TRANSITION_DENY",
+          "n": 1,
+          "oldest": "2026-08-28 06:14:42.757157+00",
+          "newest": "2026-08-28 06:14:42.757157+00",
+          "attempted": 0
+        },
+        {
+          "status": "PUBLISHED",
+          "aggregate_type": "AGENT",
+          "event_type": "EXECUTOR_PRIORITY_QUEUE_UPDATED",
+          "n": 1,
+          "oldest": "2026-08-30 07:47:31.829765+00",
+          "newest": "2026-08-30 07:47:31.829765+00",
+          "attempted": 0
+        },
+        {
+          "status": "PUBLISHED",
+          "aggregate_type": "AGENT",
+          "event_type": "H12_REOPEN_AND_EXECUTE_REMEDIATION_AUTHORIZED",
+          "n": 1,
+          "oldest": "2026-08-30 07:47:31.829765+00",
+          "newest": "2026-08-30 07:47:31.829765+00",
+          "attempted": 0
+        },
+        {
+          "status": "PUBLISHED",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "INTERNAL_EXECUTOR_COORDINATION_ACTIVATED",
+          "n": 1,
+          "oldest": "2026-08-30 07:28:58.515635+00",
+          "newest": "2026-08-30 07:28:58.515635+00",
+          "attempted": 0
+        },
+        {
+          "status": "PUBLISHED",
+          "aggregate_type": "AGENT_COORDINATION",
+          "event_type": "PROVIDER_WORKER_LIAISON_ACTIVATED",
+          "n": 1,
+          "oldest": "2026-08-30 07:28:58.515635+00",
+          "newest": "2026-08-30 07:28:58.515635+00",
+          "attempted": 0
+        },
+        {
+          "status": "PUBLISHED",
+          "aggregate_type": "CONTROL",
+          "event_type": "ORCHESTRATION_COMMUNICATION_CHANNEL_DECIDED",
+          "n": 1,
+          "oldest": "2026-08-30 07:48:10.981875+00",
+          "newest": "2026-08-30 07:48:10.981875+00",
+          "attempted": 0
+        },
+        {
+          "status": "PUBLISHED",
+          "aggregate_type": "FRONT",
+          "event_type": "H11_POST_COMPLETE_DECISION",
+          "n": 1,
+          "oldest": "2026-08-30 07:48:10.981875+00",
+          "newest": "2026-08-30 07:48:10.981875+00",
+          "attempted": 0
+        },
+        {
+          "status": "PUBLISHED",
+          "aggregate_type": "FRONT",
+          "event_type": "H12_CONTROL_PRECEDENCE_DECISION",
+          "n": 1,
+          "oldest": "2026-08-30 07:48:10.981875+00",
+          "newest": "2026-08-30 07:48:10.981875+00",
+          "attempted": 0
+        },
+        {
+          "status": "PUBLISHED",
+          "aggregate_type": "FRONT",
+          "event_type": "INTL_COMMUNICATION_AND_NEXT_SEQUENCE_DECIDED",
+          "n": 1,
+          "oldest": "2026-08-30 07:48:10.981875+00",
+          "newest": "2026-08-30 07:48:10.981875+00",
+          "attempted": 0
+        },
+        {
+          "status": "PUBLISHED",
+          "aggregate_type": "FRONT",
+          "event_type": "LIBRARY_LOW_LATENCY_AND_EXECUTION_DECISION",
+          "n": 1,
+          "oldest": "2026-08-30 07:48:10.981875+00",
+          "newest": "2026-08-30 07:48:10.981875+00",
+          "attempted": 0
+        },
+        {
+          "status": "PUBLISHED",
+          "aggregate_type": "FRONT",
+          "event_type": "SITE_AUDIT_EXECUTION_AND_COMMUNICATION_DECISION",
+          "n": 1,
+          "oldest": "2026-08-30 07:48:10.981875+00",
+          "newest": "2026-08-30 07:48:10.981875+00",
+          "attempted": 0
+        },
+        {
+          "status": "PUBLISHED",
+          "aggregate_type": "PARALLEL_FRONT",
+          "event_type": "H11_FRONT_STOPPED",
+          "n": 1,
+          "oldest": "2026-08-30 06:50:33.967529+00",
+          "newest": "2026-08-30 06:50:33.967529+00",
+          "attempted": 0
+        },
+        {
+          "status": "PUBLISHED",
+          "aggregate_type": "PARALLEL_FRONT",
+          "event_type": "H11_PARALLEL_COMPLETE",
+          "n": 1,
+          "oldest": "2026-08-30 06:50:33.967529+00",
+          "newest": "2026-08-30 06:50:33.967529+00",
+          "attempted": 0
+        },
+        {
+          "status": "PUBLISHED",
+          "aggregate_type": "PROVIDER_ACTIVATION_WATCH",
+          "event_type": "PROVIDER_ACTIVATION_READINESS_WATCH_ENABLED",
+          "n": 1,
+          "oldest": "2026-08-30 07:18:26.918252+00",
+          "newest": "2026-08-30 07:18:26.918252+00",
+          "attempted": 0
+        },
+        {
+          "status": "PUBLISHED",
+          "aggregate_type": "PROVIDER_FRONT",
+          "event_type": "PROVIDER_FRONT_ACK_ACCEPTED",
+          "n": 2,
+          "oldest": "2026-08-30 07:14:57.795837+00",
+          "newest": "2026-08-30 07:14:57.795837+00",
+          "attempted": 0
+        }
+      ]
+    },
+    {
+      "query": "SELECT state,domain,affected_theme,COUNT(*)::int AS n FROM calculadoras_de_enfermagem.reconciliation_holds GROUP BY state,domain,affected_theme ORDER BY state,domain,affected_theme",
+      "rows": [
+        {
+          "state": "HOLD_HUMAN",
+          "domain": "CLINICAL",
+          "affected_theme": "sepse",
+          "n": 1
+        },
+        {
+          "state": "HOLD_HUMAN",
+          "domain": "CLINICAL",
+          "affected_theme": "sinais_vitais",
+          "n": 1
+        },
+        {
+          "state": "HOLD_HUMAN",
+          "domain": "CLINICAL",
+          "affected_theme": "vacinas",
+          "n": 1
+        },
+        {
+          "state": "HOLD_HUMAN",
+          "domain": "INTEGRATION",
+          "affected_theme": null,
+          "n": 1
+        },
+        {
+          "state": "HOLD_HUMAN",
+          "domain": "NORMATIVE",
+          "affected_theme": "protocolos_enfermagem",
+          "n": 1
+        },
+        {
+          "state": "HOLD_HUMAN",
+          "domain": "PRIVACY",
+          "affected_theme": "epidemiologico",
+          "n": 1
+        },
+        {
+          "state": "HOLD_HUMAN",
+          "domain": "PRIVACY",
+          "affected_theme": "vacinal_brasil",
+          "n": 1
+        },
+        {
+          "state": "HOLD_HUMAN",
+          "domain": "PRIVACY",
+          "affected_theme": null,
+          "n": 1
+        },
+        {
+          "state": "HOLD_HUMAN",
+          "domain": "RIGHTS",
+          "affected_theme": "icd11",
+          "n": 1
+        }
+      ]
+    },
+    {
+      "query": "SELECT theme,match_status,verified,COUNT(*)::int AS n FROM calculadoras_de_enfermagem.source_lineage GROUP BY theme,match_status,verified ORDER BY theme,match_status,verified",
+      "rows": [
+        {
+          "theme": "cid10",
+          "match_status": "NAO_AVALIADO",
+          "verified": false,
+          "n": 1
+        },
+        {
+          "theme": "dispositivos",
+          "match_status": "NAO_AVALIADO",
+          "verified": false,
+          "n": 2
+        },
+        {
+          "theme": "epidemiologico",
+          "match_status": "NAO_AVALIADO",
+          "verified": false,
+          "n": 9
+        },
+        {
+          "theme": "ferimentos",
+          "match_status": "NAO_AVALIADO",
+          "verified": false,
+          "n": 5
+        },
+        {
+          "theme": "icd11",
+          "match_status": "NAO_AVALIADO",
+          "verified": false,
+          "n": 1
+        },
+        {
+          "theme": "medicamentos",
+          "match_status": "NAO_AVALIADO",
+          "verified": false,
+          "n": 4
+        },
+        {
+          "theme": "medlineplus",
+          "match_status": "NAO_AVALIADO",
+          "verified": false,
+          "n": 1
+        },
+        {
+          "theme": "mesh",
+          "match_status": "NAO_AVALIADO",
+          "verified": false,
+          "n": 1
+        },
+        {
+          "theme": "nutricao",
+          "match_status": "NAO_AVALIADO",
+          "verified": false,
+          "n": 4
+        },
+        {
+          "theme": "protocolos_enfermagem",
+          "match_status": "MESMO_DOCUMENTO_CANDIDATO",
+          "verified": false,
+          "n": 1
+        },
+        {
+          "theme": "protocolos_enfermagem",
+          "match_status": "NAO_AVALIADO",
+          "verified": false,
+          "n": 13
+        },
+        {
+          "theme": "sepse",
+          "match_status": "NAO_AVALIADO",
+          "verified": false,
+          "n": 7
+        },
+        {
+          "theme": "sinais_vitais",
+          "match_status": "NAO_AVALIADO",
+          "verified": false,
+          "n": 3
+        },
+        {
+          "theme": "suprimentos",
+          "match_status": "NAO_AVALIADO",
+          "verified": false,
+          "n": 3
+        },
+        {
+          "theme": "vacinal_brasil",
+          "match_status": "NAO_AVALIADO",
+          "verified": false,
+          "n": 4
+        },
+        {
+          "theme": "vacinas",
+          "match_status": "NAO_AVALIADO",
+          "verified": false,
+          "n": 2
+        }
+      ]
+    }
+  ]
+}
