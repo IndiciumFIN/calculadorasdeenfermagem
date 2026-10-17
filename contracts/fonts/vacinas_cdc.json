@@ -1,0 +1,16 @@
+{
+  "schema": "CE-FONTE-CONTRATO-1.0.0",
+  "fonte_slug": "vacinas_cdc",
+  "fonte_oficial": "CDC",
+  "tipo": "OUTRO",
+  "parser": "packages/cli/parsers/vacinas.py",
+  "parser_version": "1.0.0",
+  "update_policy": {
+    "trigger": "SCHEDULE",
+    "last_update": "2026-10-17"
+  },
+  "kernel_policy_id": "KERNEL-POLICY-007",
+  "validators": "cvx_validator",
+  "kernel_policy_required": true,
+  "description": "Fonte oficial: CDC"
+}

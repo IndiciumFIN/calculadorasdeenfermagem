@@ -1,0 +1,16 @@
+{
+  "schema": "CE-FONTE-CONTRATO-1.0.0",
+  "fonte_slug": "cdsi",
+  "fonte_oficial": "MS/CGPNI",
+  "tipo": "OUTRO",
+  "parser": "packages/cli/parsers/cdsi.py",
+  "parser_version": "1.0.0",
+  "update_policy": {
+    "trigger": "SCHEDULE",
+    "last_update": "2026-10-17"
+  },
+  "kernel_policy_id": "KERNEL-POLICY-018",
+  "validators": "schema_validator",
+  "kernel_policy_required": true,
+  "description": "Fonte oficial: MS/CGPNI"
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "CE-KERNEL-POLICY-1.0.0",
+  "id": "KERNEL-POLICY-019",
+  "name": "Portarias MS",
+  "description": "Valida portarias ministeriais do DOU Federal",
+  "source_contract": "contracts/fonts/019.json",
+  "validators": [
+    "atomo_schema_validator",
+    "norm_atom_id_validator",
+    "texto_length_validator",
+    "url_validator"
+  ],
+  "atoms_output": "data/canonical/atoms/ms/",
+  "quarentena_output": "data/quarentena/ms/",
+  "sha256_required": true,
+  "fail_closed": true,
+  "requires_human_review": true,
+  "review_policy": {
+    "min_sample_size": 10,
+    "approval_required": "enfermeiro_registrado",
+    "reviewed_by_in_commit": true
+  },
+  "wo_required": true,
+  "wo_template": "data/legado/autorizacao_WO-{id}.json",
+  "version": "1.0.0",
+  "updated_at": "2026-10-17T00:00:00Z"
+}

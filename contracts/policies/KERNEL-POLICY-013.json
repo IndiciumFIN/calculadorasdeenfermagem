@@ -1,0 +1,25 @@
+{
+  "schema": "CE-KERNEL-POLICY-1.0.0",
+  "id": "KERNEL-POLICY-013",
+  "name": "CATMAT Suprimentos",
+  "description": "Valida itens CATMAT de compras públicas",
+  "source_contract": "contracts/fonts/013.json",
+  "validators": [
+    "schema_validator",
+    "catmat_validator"
+  ],
+  "atoms_output": "data/canonical/atoms/suprimentos/",
+  "quarentena_output": "data/quarentena/suprimentos/",
+  "sha256_required": false,
+  "fail_closed": true,
+  "requires_human_review": false,
+  "review_policy": {
+    "min_sample_size": 0,
+    "approval_required": null,
+    "reviewed_by_in_commit": false
+  },
+  "wo_required": false,
+  "wo_template": null,
+  "version": "1.0.0",
+  "updated_at": "2026-10-17T00:00:00Z"
+}

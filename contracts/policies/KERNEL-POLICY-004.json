@@ -1,0 +1,25 @@
+{
+  "schema": "CE-KERNEL-POLICY-1.0.0",
+  "id": "KERNEL-POLICY-004",
+  "name": "CID-11 Classificação",
+  "description": "Valida códigos CID-11 da OMS",
+  "source_contract": "contracts/fonts/004.json",
+  "validators": [
+    "cid11_validator",
+    "schema_validator"
+  ],
+  "atoms_output": "data/canonical/atoms/cid11/",
+  "quarentena_output": "data/quarentena/cid11/",
+  "sha256_required": false,
+  "fail_closed": true,
+  "requires_human_review": false,
+  "review_policy": {
+    "min_sample_size": 0,
+    "approval_required": null,
+    "reviewed_by_in_commit": false
+  },
+  "wo_required": false,
+  "wo_template": null,
+  "version": "1.0.0",
+  "updated_at": "2026-10-17T00:00:00Z"
+}

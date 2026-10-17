@@ -1,0 +1,24 @@
+{
+  "schema": "CE-KERNEL-POLICY-1.0.0",
+  "id": "KERNEL-POLICY-009",
+  "name": "Dispositivos ANVISA",
+  "description": "Valida registros de dispositivos médicos da ANVISA",
+  "source_contract": "contracts/fonts/009.json",
+  "validators": [
+    "schema_validator"
+  ],
+  "atoms_output": "data/canonical/atoms/dispositivos/",
+  "quarentena_output": "data/quarentena/dispositivos/",
+  "sha256_required": true,
+  "fail_closed": true,
+  "requires_human_review": true,
+  "review_policy": {
+    "min_sample_size": 10,
+    "approval_required": "enfermeiro_registrado",
+    "reviewed_by_in_commit": true
+  },
+  "wo_required": false,
+  "wo_template": null,
+  "version": "1.0.0",
+  "updated_at": "2026-10-17T00:00:00Z"
+}
