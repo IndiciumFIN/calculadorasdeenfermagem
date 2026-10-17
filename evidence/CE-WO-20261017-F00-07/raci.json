@@ -1,0 +1,30 @@
+{
+  "wo_id": "CE-WO-20261017-F00-07",
+  "timestamp": "2026-10-17T00:00:00Z",
+  "roles": {
+    "AGENT_EXECUTOR": "Mavis Agent — executes WOs via API",
+    "CHATGPT_AUDITOR": "External reviewer — validates evidence",
+    "HUMAN_APPROVER": "Required for F06 WOs and clinical validation",
+    "KERNEL": "packages/cli/kernel/core.py — fail-closed gate",
+    "GUARDIAN": "pipeline.py — refuses execution outside Kernel env"
+  },
+  "segregation_rules": [
+    "Executor cannot approve own changes",
+    "Clinical content requires enfermeiro registrado",
+    "Deletions require human approval + evidence"
+  ],
+  "designations": {
+    "AGENT_EXECUTOR": "Mavis (this session)",
+    "CHATGPT_AUDITOR": "Not yet designated — external auditor required",
+    "HUMAN_APPROVER": "Leivis (github_username designated per F06-08)",
+    "enfermeiro_registrado": "Not yet designated — licensed nursing professional required for GOV-009",
+    "note": "RACI F00-07 synced with F06-08 human_approver_designation.json on 2026-10-17"
+  },
+  "raci_sync_note": "F00-07 HUMAN_APPROVER updated from 'Not yet designated' to Leivis per F06-08. CHATGPT_AUDITOR and enfermeiro_registrado remain pending designation.",
+  "role_descriptions": {
+    "AGENT_EXECUTOR": "Executa microtarefas WO — esta sessão Mavis Agent",
+    "CHATGPT_AUDITOR": "Agente externo que audita segregação de duties — PRECISA ser designado",
+    "HUMAN_APPROVER": "Aprova promoção de átomos — Leivis designado para F06-01, F06-02",
+    "enfermeiro_registrado": "Valida normativos clínicos para status Vigente — PRECISA COREN ativo"
+  }
+}
