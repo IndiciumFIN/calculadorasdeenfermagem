@@ -1,0 +1,54 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-n-25-2018-cofen-ctln/ (API WordPress post 67418); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2018_N_00025_CTLN_ATOMOS_V1.jsonl",
+      "sha256": "8a6338e759861c61a7de4cd05a30f682187c4f28e9e21212dd210f33bfe0dd86",
+      "tamanho": 39257
+    },
+    {
+      "nome": "PARCT_2018_N_00025_CTLN_CONTEUDO_SITE_API.json",
+      "sha256": "f8105279286f40218eff5205a70b3baf2576195c8d14846de8de22dba14d680a",
+      "tamanho": 7212
+    },
+    {
+      "nome": "PARCT_2018_N_00025_CTLN_NORMA_V1.json",
+      "sha256": "0d3df865ebb4b4abcc8945b5905c3e35b22a0b7c58f769c653a12cadb4d1b118",
+      "tamanho": 4392
+    },
+    {
+      "nome": "PARCT_2018_N_00025_CTLN_PAGINA_SITE.html",
+      "sha256": "5d9cf8fb2e1e15f432acbe6078068d0f203d6216f24ecd0a79b9c561d1616258",
+      "tamanho": 447261
+    },
+    {
+      "nome": "PARCT_2018_N_00025_CTLN_PDF_SITE.pdf",
+      "sha256": "2de3ad3d44f3b2621ad67d1407918c64869eb49ee4facf639646a8a7ef6f0f5f",
+      "tamanho": 520909
+    },
+    {
+      "nome": "PARCT_2018_N_00025_CTLN_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "7fd13cf06fc11ad425a2444d692ac6db7474edb3e6a664f5d0cf2ea876e5a0e4",
+      "tamanho": 5986
+    },
+    {
+      "nome": "PARCT_2018_N_00025_CTLN_TEXTO_FONTE_V1.txt",
+      "sha256": "2a2c412c0d65395bb8db5f827142833db708e9fe22fb1431c3d426147b0a3215",
+      "tamanho": 5898
+    },
+    {
+      "nome": "PARCT_2018_N_00025_CTLN_VALIDACAO_V1.json",
+      "sha256": "29c74fef961b87cbb67dd41d444c0a995ead3df24fa2b6e91694518fbddd32cf",
+      "tamanho": 11087
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "3 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir."
+  ]
+}

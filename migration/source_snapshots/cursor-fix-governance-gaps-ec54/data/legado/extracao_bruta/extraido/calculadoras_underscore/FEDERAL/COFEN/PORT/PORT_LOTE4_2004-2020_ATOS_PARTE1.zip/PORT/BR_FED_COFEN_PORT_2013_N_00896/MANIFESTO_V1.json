@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-896-de-9-de-outubro-de-2013/ (API WordPress post 21971); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2013_N_00896_ATOMOS_V1.jsonl",
+      "sha256": "c170519c938c60bfcc52b27170d0a0c4f4a2d7fe880b274ffa1ca629c6c0b831",
+      "tamanho": 6242
+    },
+    {
+      "nome": "PORT_2013_N_00896_CONTEUDO_SITE_API.json",
+      "sha256": "a38f2aad6b731e023c23dde888ba90387a75bc2c5f5b6bd7e3e6833134e3311a",
+      "tamanho": 1702
+    },
+    {
+      "nome": "PORT_2013_N_00896_NORMA_V1.json",
+      "sha256": "23c0421297d2154aa2589ba9f6f52f62ea20a06346298d08fdac1a10b7e74aaa",
+      "tamanho": 3153
+    },
+    {
+      "nome": "PORT_2013_N_00896_PAGINA_SITE.html",
+      "sha256": "7216de5d813816f815bc2b8f54e1e4db49ff0243c4669b70f7f2c5fd4fc0ed5b",
+      "tamanho": 439482
+    },
+    {
+      "nome": "PORT_2013_N_00896_TEXTO_FONTE_V1.txt",
+      "sha256": "778bef8378e9622091d5a22ef20c38bc153c1b9e1c7a8755b67d67d8c8264a14",
+      "tamanho": 1013
+    },
+    {
+      "nome": "PORT_2013_N_00896_VALIDACAO_V1.json",
+      "sha256": "8e454631645ca5d8d5d92f401a806da48ca4b7651d4c4e20b8dfc8e5461531b8",
+      "tamanho": 2459
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

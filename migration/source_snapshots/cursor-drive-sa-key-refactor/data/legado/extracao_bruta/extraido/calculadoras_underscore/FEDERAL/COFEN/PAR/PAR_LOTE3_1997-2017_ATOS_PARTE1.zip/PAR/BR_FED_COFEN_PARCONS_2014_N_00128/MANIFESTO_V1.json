@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-conselheira-no-1282014/ (API WordPress post 50356); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCONS_2014_N_00128_ATOMOS_V1.jsonl",
+      "sha256": "ca4fb3996789471390be007acad76fab15e62f65f6a462b199f6ecb5249dab7b",
+      "tamanho": 13258
+    },
+    {
+      "nome": "PARCONS_2014_N_00128_CONTEUDO_SITE_API.json",
+      "sha256": "0523050515681ef7f138897bb0e3cc261d97e4155b9b2dd0764c9bb3fffe58e1",
+      "tamanho": 2925
+    },
+    {
+      "nome": "PARCONS_2014_N_00128_NORMA_V1.json",
+      "sha256": "029fb57bd43b19aa14107874ef479d2f3a75cd353bb4e92ce3d2cf88a9479607",
+      "tamanho": 2182
+    },
+    {
+      "nome": "PARCONS_2014_N_00128_PAGINA_SITE.html",
+      "sha256": "338e84032478201be23342bfeee2c294bf7399c3a8cb6ad4ce12fa39aeb4f777",
+      "tamanho": 440422
+    },
+    {
+      "nome": "PARCONS_2014_N_00128_TEXTO_FONTE_V1.txt",
+      "sha256": "6b43bbc15ba132e83919acc269f4453c7fddc71edcf7b1d7cf232ee37d61c00d",
+      "tamanho": 2234
+    },
+    {
+      "nome": "PARCONS_2014_N_00128_VALIDACAO_V1.json",
+      "sha256": "91246c37463be02b2facfadfe674a60ce04ba09a05dd33669b10d22fa30cfc30",
+      "tamanho": 2465
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

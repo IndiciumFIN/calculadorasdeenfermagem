@@ -1,0 +1,50 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-75-de-14-de-janeiro-de-2025/ (API WordPress post 138504); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2025_N_00075_ATOMOS_V1.jsonl",
+      "sha256": "c9c60a3b8f3ff10dc8f97ed945310a911a50ac3f3d2a851a6b7010f78fa622bb",
+      "tamanho": 7031
+    },
+    {
+      "nome": "PORT_2025_N_00075_CONTEUDO_SITE_API.json",
+      "sha256": "daaaabedfef1548259be97c65a59c9e002e327bab0f39e0ca778b9ffc8392497",
+      "tamanho": 1667
+    },
+    {
+      "nome": "PORT_2025_N_00075_NORMA_V1.json",
+      "sha256": "9ebbd7441a635d35e856ca8533c728109d48b9e1b4fbc3faea19156fe9a864ce",
+      "tamanho": 3772
+    },
+    {
+      "nome": "PORT_2025_N_00075_PAGINA_SITE.html",
+      "sha256": "975961e2f1c2a1bb361f67817f89a62b874be63d21b72717d42ed5243db1738b",
+      "tamanho": 441461
+    },
+    {
+      "nome": "PORT_2025_N_00075_PDF_SITE.pdf",
+      "sha256": "a667ba5e1d288da639854d23b15cdeb548c7a1cc17fe0be7bac7af7cc8c467ab",
+      "tamanho": 129903
+    },
+    {
+      "nome": "PORT_2025_N_00075_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "09decab8a099fa1488165e01659224c47c022d8a135d163d6435e60615b08b94",
+      "tamanho": 1731
+    },
+    {
+      "nome": "PORT_2025_N_00075_TEXTO_FONTE_V1.txt",
+      "sha256": "7f11dd5e8f6640af901e943aef69e585c28a785b08f1195eca63a5f120d123b8",
+      "tamanho": 857
+    },
+    {
+      "nome": "PORT_2025_N_00075_VALIDACAO_V1.json",
+      "sha256": "77d0fa8e1672722a5b828b63903a0d30dfa390043b99f51ee66888d4c6a33903",
+      "tamanho": 3708
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada."
+  ]
+}

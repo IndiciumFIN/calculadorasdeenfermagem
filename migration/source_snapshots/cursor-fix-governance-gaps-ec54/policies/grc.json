@@ -1,0 +1,435 @@
+{
+  "versao": "0.2.0",
+  "regra": "PASS_LOCAL não autoriza. Política em EXTERNAL_HOLD e validador não implementado permanecem HOLD. Estes validadores não entram nos procedimentos já qualificados.",
+  "politicas": [
+    {
+      "policy_id": "POL-GRC-001",
+      "version": "0.2.0",
+      "status": "CANDIDATE_NOT_HOMOLOGATED",
+      "origem": "PACOTE",
+      "rule_key": "deny_by_default",
+      "statement": "Sem tarefa qualificada e política validada, HOLD.",
+      "effect_on_violation": "HOLD",
+      "enforcement": "EXTERNAL_HOLD",
+      "validador": "VAL-GRC-014",
+      "authorization": false
+    },
+    {
+      "policy_id": "POL-GRC-002",
+      "version": "0.2.0",
+      "status": "CANDIDATE_NOT_HOMOLOGATED",
+      "origem": "PACOTE",
+      "rule_key": "agent_no_authority",
+      "statement": "Agentes somente leem snapshots e emitem candidatos; não autorizam WO nem escrevem estado.",
+      "effect_on_violation": "HOLD",
+      "enforcement": "LOCAL",
+      "validador": "VAL-GRC-002",
+      "authorization": false
+    },
+    {
+      "policy_id": "POL-GRC-003",
+      "version": "0.2.0",
+      "status": "CANDIDATE_NOT_HOMOLOGATED",
+      "origem": "PACOTE",
+      "rule_key": "task_wo_separation",
+      "statement": "Work Order é solicitação; nunca é definição de tarefa nem autorização.",
+      "effect_on_violation": "HOLD",
+      "enforcement": "LOCAL",
+      "validador": "VAL-GRC-004",
+      "authorization": false
+    },
+    {
+      "policy_id": "POL-GRC-004",
+      "version": "0.2.0",
+      "status": "CANDIDATE_NOT_HOMOLOGATED",
+      "origem": "PACOTE",
+      "rule_key": "find_not_closed",
+      "statement": "FIND pode ter candidato automático; fechamento exige decisão por Kernel com aprovação humana.",
+      "effect_on_violation": "HOLD",
+      "enforcement": "LOCAL",
+      "validador": "VAL-GRC-007",
+      "authorization": false
+    },
+    {
+      "policy_id": "POL-GRC-005",
+      "version": "0.2.0",
+      "status": "CANDIDATE_NOT_HOMOLOGATED",
+      "origem": "PACOTE",
+      "rule_key": "cycle_independent_retest",
+      "statement": "Ciclo de correção exige reteste independente e evidência.",
+      "effect_on_violation": "HOLD",
+      "enforcement": "LOCAL",
+      "validador": "VAL-GRC-008",
+      "authorization": false
+    },
+    {
+      "policy_id": "POL-GRC-006",
+      "version": "0.2.0",
+      "status": "CANDIDATE_NOT_HOMOLOGATED",
+      "origem": "PACOTE",
+      "rule_key": "models_are_not_effective",
+      "statement": "Controle-modelo, mesmo com evidência, não está automaticamente testado ou eficaz.",
+      "effect_on_violation": "HOLD",
+      "enforcement": "LOCAL",
+      "validador": "VAL-GRC-005",
+      "authorization": false
+    },
+    {
+      "policy_id": "POL-GRC-007",
+      "version": "0.2.0",
+      "status": "CANDIDATE_NOT_HOMOLOGATED",
+      "origem": "PACOTE",
+      "rule_key": "version_hash",
+      "statement": "Artefatos, decisões e entradas exigem versão e hash verificáveis.",
+      "effect_on_violation": "HOLD",
+      "enforcement": "LOCAL",
+      "validador": "VAL-GRC-011",
+      "authorization": false
+    },
+    {
+      "policy_id": "POL-GRC-008",
+      "version": "0.2.0",
+      "status": "CANDIDATE_NOT_HOMOLOGATED",
+      "origem": "PACOTE",
+      "rule_key": "no_remote_writes",
+      "statement": "Diagnóstico local não envia nem altera dados remotos.",
+      "effect_on_violation": "HOLD",
+      "enforcement": "LOCAL",
+      "validador": "VAL-GRC-018",
+      "authorization": false
+    },
+    {
+      "policy_id": "POL-GRC-009",
+      "version": "0.2.0",
+      "status": "CANDIDATE_NOT_HOMOLOGATED",
+      "origem": "PACOTE",
+      "rule_key": "evidence_truth",
+      "statement": "Digest declarado não comprova autenticidade; sem bytes verificáveis, o estado é não verificado.",
+      "effect_on_violation": "HOLD",
+      "enforcement": "LOCAL",
+      "validador": "VAL-GRC-006",
+      "authorization": false
+    },
+    {
+      "policy_id": "POL-GRC-010",
+      "version": "0.2.0",
+      "status": "CANDIDATE_NOT_HOMOLOGATED",
+      "origem": "PACOTE",
+      "rule_key": "official_source_license",
+      "statement": "Texto e prática proprietários não entram sem licença verificada.",
+      "effect_on_violation": "HOLD",
+      "enforcement": "EXTERNAL_HOLD",
+      "validador": "VAL-GRC-015",
+      "authorization": false
+    },
+    {
+      "policy_id": "POL-GRC-011",
+      "version": "0.2.0",
+      "status": "CANDIDATE_NOT_HOMOLOGATED",
+      "origem": "PACOTE",
+      "rule_key": "validator_registry",
+      "statement": "Toda política candidata aponta para um validador conhecido, e só o implementado entra no registro do kernel.",
+      "effect_on_violation": "HOLD",
+      "enforcement": "LOCAL",
+      "validador": "VAL-GRC-001",
+      "authorization": false
+    },
+    {
+      "policy_id": "POL-GRC-012",
+      "version": "0.2.0",
+      "status": "CANDIDATE_NOT_HOMOLOGATED",
+      "origem": "PACOTE",
+      "rule_key": "separation_of_duties",
+      "statement": "Quem corrige e quem retesta são pessoas ou agentes distintos.",
+      "effect_on_violation": "HOLD",
+      "enforcement": "LOCAL",
+      "validador": "VAL-GRC-012",
+      "authorization": false
+    },
+    {
+      "policy_id": "POL-GRC-013",
+      "version": "0.2.0",
+      "status": "CANDIDATE_NOT_HOMOLOGATED",
+      "origem": "PACOTE",
+      "rule_key": "no_promotion",
+      "statement": "Saída do diagnóstico não homologa, não promove e não publica.",
+      "effect_on_violation": "HOLD",
+      "enforcement": "LOCAL",
+      "validador": "VAL-GRC-019",
+      "authorization": false
+    },
+    {
+      "policy_id": "POL-GRC-014",
+      "version": "0.2.0",
+      "status": "CANDIDATE_NOT_HOMOLOGATED",
+      "origem": "PACOTE",
+      "rule_key": "append_only",
+      "statement": "Cada ciclo de correção preserva histórico sequencial e digest encadeado.",
+      "effect_on_violation": "HOLD",
+      "enforcement": "LOCAL",
+      "validador": "VAL-GRC-008",
+      "authorization": false
+    },
+    {
+      "policy_id": "POL-GRC-015",
+      "version": "0.2.0",
+      "status": "CANDIDATE_NOT_HOMOLOGATED",
+      "origem": "PACOTE",
+      "rule_key": "positive_negative_tests",
+      "statement": "Homologação depende de testes positivos, negativos, regressão e evidência independente.",
+      "effect_on_violation": "HOLD",
+      "enforcement": "EXTERNAL_HOLD",
+      "validador": "VAL-GRC-016",
+      "authorization": false
+    },
+    {
+      "policy_id": "POL-GRC-016",
+      "version": "0.2.0",
+      "status": "CANDIDATE_NOT_HOMOLOGATED",
+      "origem": "PACOTE",
+      "rule_key": "source_inventory",
+      "statement": "Preservar linhagem e integridade das fontes; exclusão só com hash conferido.",
+      "effect_on_violation": "HOLD",
+      "enforcement": "EXTERNAL_HOLD",
+      "validador": "VAL-GRC-017",
+      "authorization": false
+    }
+  ],
+  "adicionais": [
+    {
+      "policy_id": "POL-GRC-017",
+      "version": "0.2.0",
+      "status": "IDENTIFICADA",
+      "origem": "IDENTIFICADA",
+      "rule_key": "authenticated_authority",
+      "statement": "Autorização exige identidade verificável. O campo authorized_by, sozinho, não aprova.",
+      "effect_on_violation": "HOLD",
+      "enforcement": "EXTERNAL_HOLD",
+      "validador": "VAL-GRC-014",
+      "authorization": false
+    },
+    {
+      "policy_id": "POL-GRC-018",
+      "version": "0.2.0",
+      "status": "IDENTIFICADA",
+      "origem": "IDENTIFICADA",
+      "rule_key": "state_names_distinct",
+      "statement": "FIND_CANDIDATE não é ABERTO. CLOSURE_CANDIDATE não é FECHADO.",
+      "effect_on_violation": "HOLD",
+      "enforcement": "LOCAL",
+      "validador": "VAL-GRC-020",
+      "authorization": false
+    },
+    {
+      "policy_id": "POL-GRC-019",
+      "version": "0.2.0",
+      "status": "IDENTIFICADA",
+      "origem": "IDENTIFICADA",
+      "rule_key": "candidate_cannot_execute",
+      "statement": "Agente GRC com recertificação candidato não executa.",
+      "effect_on_violation": "HOLD",
+      "enforcement": "LOCAL",
+      "validador": "VAL-GRC-021",
+      "authorization": false
+    },
+    {
+      "policy_id": "POL-GRC-020",
+      "version": "0.2.0",
+      "status": "IDENTIFICADA",
+      "origem": "IDENTIFICADA",
+      "rule_key": "official_text_absent",
+      "statement": "A regra operacional permanece; o enunciado oficial não permanece na base.",
+      "effect_on_violation": "HOLD",
+      "enforcement": "LOCAL",
+      "validador": "VAL-GRC-022",
+      "authorization": false
+    },
+    {
+      "policy_id": "POL-GRC-021",
+      "version": "0.2.0",
+      "status": "IDENTIFICADA",
+      "origem": "IDENTIFICADA",
+      "rule_key": "public_download_rejects_html",
+      "statement": "Resposta HTML de login não é o arquivo obtido.",
+      "effect_on_violation": "HOLD",
+      "enforcement": "EXTERNAL_HOLD",
+      "validador": "VAL-GRC-023",
+      "authorization": false
+    },
+    {
+      "policy_id": "POL-GRC-022",
+      "version": "0.2.0",
+      "status": "IDENTIFICADA",
+      "origem": "IDENTIFICADA",
+      "rule_key": "volume_limit",
+      "statement": "Arquivo a partir de cerca de 50 MB permanece na origem até haver decisão de volume.",
+      "effect_on_violation": "HOLD",
+      "enforcement": "EXTERNAL_HOLD",
+      "validador": "VAL-GRC-024",
+      "authorization": false
+    },
+    {
+      "policy_id": "POL-GRC-023",
+      "version": "0.2.0",
+      "status": "IDENTIFICADA",
+      "origem": "IDENTIFICADA",
+      "rule_key": "name_size_not_identity",
+      "statement": "Nome e tamanho iguais não provam que dois arquivos são o mesmo.",
+      "effect_on_violation": "HOLD",
+      "enforcement": "EXTERNAL_HOLD",
+      "validador": "VAL-GRC-025",
+      "authorization": false
+    },
+    {
+      "policy_id": "POL-GRC-024",
+      "version": "0.2.0",
+      "status": "IDENTIFICADA",
+      "origem": "IDENTIFICADA",
+      "rule_key": "crosswalk_hypothesis",
+      "statement": "Cruzamento entre referenciais é hipótese. Não é mapeamento oficial.",
+      "effect_on_violation": "HOLD",
+      "enforcement": "LOCAL",
+      "validador": "VAL-GRC-009",
+      "authorization": false
+    },
+    {
+      "policy_id": "POL-GRC-025",
+      "version": "0.2.0",
+      "status": "IDENTIFICADA",
+      "origem": "IDENTIFICADA",
+      "rule_key": "legacy_not_effective",
+      "statement": "Relato antigo não converte modelo em testado ou eficaz.",
+      "effect_on_violation": "HOLD",
+      "enforcement": "LOCAL",
+      "validador": "VAL-GRC-013",
+      "authorization": false
+    }
+  ],
+  "validadores": {
+    "VAL-GRC-001": {
+      "implementado": true,
+      "funcao": "packages.cli.grc_politica.val_registro_validadores",
+      "regra": "Políticas e validadores do recorte apontam para código importável."
+    },
+    "VAL-GRC-002": {
+      "implementado": true,
+      "funcao": "packages.cli.grc_politica.val_agentes",
+      "regra": "Agente não tem efeito privilegiado nem autoridade de estado."
+    },
+    "VAL-GRC-003": {
+      "implementado": true,
+      "funcao": "packages.cli.grc_politica.val_definicao_tarefa",
+      "regra": "Definição candidata não se mistura com Work Order."
+    },
+    "VAL-GRC-004": {
+      "implementado": true,
+      "funcao": "packages.cli.grc_politica.val_pedido_wo",
+      "regra": "Pedido REQUESTED não é autorização."
+    },
+    "VAL-GRC-005": {
+      "implementado": true,
+      "funcao": "packages.cli.grc_politica.val_controle",
+      "regra": "Modelo permanece não verificado e não eficaz."
+    },
+    "VAL-GRC-006": {
+      "implementado": true,
+      "funcao": "packages.cli.grc_politica.val_evidencia",
+      "regra": "Hash só confere quando há bytes."
+    },
+    "VAL-GRC-007": {
+      "implementado": true,
+      "funcao": "packages.cli.grc_politica.val_find",
+      "regra": "Candidato de FIND não se fecha."
+    },
+    "VAL-GRC-008": {
+      "implementado": true,
+      "funcao": "packages.cli.grc_politica.val_ciclo",
+      "regra": "Eventos do ciclo têm ordem e hash encadeado."
+    },
+    "VAL-GRC-009": {
+      "implementado": true,
+      "funcao": "packages.cli.grc_politica.val_crosswalk",
+      "regra": "Cruzamento é hipótese e não mapeamento oficial."
+    },
+    "VAL-GRC-010": {
+      "implementado": true,
+      "funcao": "packages.cli.grc_politica.val_politica",
+      "regra": "Violação de política produz HOLD."
+    },
+    "VAL-GRC-011": {
+      "implementado": true,
+      "funcao": "packages.cli.grc_politica.val_hash_arquivo",
+      "regra": "Hash declarado confere com os bytes do caminho relativo."
+    },
+    "VAL-GRC-012": {
+      "implementado": true,
+      "funcao": "packages.cli.grc_politica.val_reteste",
+      "regra": "Quem corrige é diferente de quem retesta."
+    },
+    "VAL-GRC-013": {
+      "implementado": true,
+      "funcao": "packages.cli.grc_politica.val_relato_legado",
+      "regra": "Relato antigo não marca modelo como testado ou eficaz."
+    },
+    "VAL-GRC-014": {
+      "implementado": false,
+      "funcao": null,
+      "regra": "Identidade autenticada da autorização. Ainda não há provedor no kernel."
+    },
+    "VAL-GRC-015": {
+      "implementado": false,
+      "funcao": null,
+      "regra": "Licença verificada da fonte oficial. Ainda não há registro de licença."
+    },
+    "VAL-GRC-016": {
+      "implementado": false,
+      "funcao": null,
+      "regra": "Suíte positiva, negativa e de regressão para homologar. Ainda não é gate do kernel."
+    },
+    "VAL-GRC-017": {
+      "implementado": false,
+      "funcao": null,
+      "regra": "Censo completo das fontes antes de qualquer exclusão fora do ledger atual."
+    },
+    "VAL-GRC-018": {
+      "implementado": true,
+      "funcao": "packages.cli.grc_politica.val_sem_escrita_remota",
+      "regra": "Efeito pedido não inclui escrita remota nem publicação."
+    },
+    "VAL-GRC-019": {
+      "implementado": true,
+      "funcao": "packages.cli.grc_politica.val_sem_promocao",
+      "regra": "Saída permanece não aprovada e não eficaz."
+    },
+    "VAL-GRC-020": {
+      "implementado": true,
+      "funcao": "packages.cli.grc_politica.val_estados",
+      "regra": "Nome de estado candidato não é estado canônico."
+    },
+    "VAL-GRC-021": {
+      "implementado": true,
+      "funcao": "packages.cli.grc_politica.val_candidato_nao_executa",
+      "regra": "Agente AG- permanece candidato."
+    },
+    "VAL-GRC-022": {
+      "implementado": true,
+      "funcao": "packages.cli.grc_politica.val_enunciado_ausente",
+      "regra": "Base não contém o enunciado oficial marcado no pacote."
+    },
+    "VAL-GRC-023": {
+      "implementado": false,
+      "funcao": null,
+      "regra": "HTML de autenticação já é recusado por VAL-HTML na obtenção; falta política própria de sessão."
+    },
+    "VAL-GRC-024": {
+      "implementado": false,
+      "funcao": null,
+      "regra": "Limite de volume por arquivo ainda não é validador do kernel."
+    },
+    "VAL-GRC-025": {
+      "implementado": false,
+      "funcao": null,
+      "regra": "Comparação de identidade por SHA-256 entre duplicatas de mesmo nome e tamanho ainda não é validador."
+    }
+  }
+}

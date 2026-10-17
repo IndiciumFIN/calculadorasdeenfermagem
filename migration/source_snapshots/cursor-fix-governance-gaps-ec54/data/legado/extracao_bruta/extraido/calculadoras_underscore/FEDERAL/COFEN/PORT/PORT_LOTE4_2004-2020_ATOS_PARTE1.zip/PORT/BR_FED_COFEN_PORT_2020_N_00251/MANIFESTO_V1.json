@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-251-de-12-de-marco-de-2020/ (API WordPress post 77868); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2020_N_00251_ATOMOS_V1.jsonl",
+      "sha256": "b010c6380562d3b3bc91d4583925213c8ae7f2da280a95013c5cce049f242270",
+      "tamanho": 37119
+    },
+    {
+      "nome": "PORT_2020_N_00251_CONTEUDO_SITE_API.json",
+      "sha256": "27c47cde75023d55f6c6878dfcf3f3708fb56337e7c5b17318b51bc03bd804e2",
+      "tamanho": 7473
+    },
+    {
+      "nome": "PORT_2020_N_00251_NORMA_V1.json",
+      "sha256": "0cfca4d101cd46957c661aba712c80631c700e761ce7010f5370bdefab5aefd0",
+      "tamanho": 3717
+    },
+    {
+      "nome": "PORT_2020_N_00251_PAGINA_SITE.html",
+      "sha256": "e94c71119654e61b7c498818343c78a6b4ee994bd9ee8be325900c33e2e109c1",
+      "tamanho": 447972
+    },
+    {
+      "nome": "PORT_2020_N_00251_PDF_SITE.pdf",
+      "sha256": "e8f8d208912334a118324d38729f429fa1533aa4dbdeb55cf8c6322ae94352de",
+      "tamanho": 5221950
+    },
+    {
+      "nome": "PORT_2020_N_00251_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "96832ab588c48cdf819f9c84bb39f040acc4459588407c936d63e4a5194d8bc1",
+      "tamanho": 6775
+    },
+    {
+      "nome": "PORT_2020_N_00251_TEXTO_FONTE_V1.txt",
+      "sha256": "9b15937f64684cf0f7a15d297f84d74124cc3c2c960f98e88e74af9e4367af6b",
+      "tamanho": 6439
+    },
+    {
+      "nome": "PORT_2020_N_00251_VALIDACAO_V1.json",
+      "sha256": "391f41727a125ce351beb4853d1eb436740d1808b54b555ee2646753e180b7c2",
+      "tamanho": 10003
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+  ]
+}

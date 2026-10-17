@@ -1,0 +1,51 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-58-2026-camaras-tecnicas-de-enfermagem/ (API WordPress post 194514); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2026_N_00058_CAMTEC_ATOMOS_V1.jsonl",
+      "sha256": "8a86c9c8ba1fcbd89ec901a644fb143381a0d2d83e050cf0cb97cc2f4b9f5d2c",
+      "tamanho": 100673
+    },
+    {
+      "nome": "PARCT_2026_N_00058_CAMTEC_CONTEUDO_SITE_API.json",
+      "sha256": "e64026a9f5b02f7ae47b88bc0ab388d59a30ec546a86adf38847831646bd17c4",
+      "tamanho": 31273
+    },
+    {
+      "nome": "PARCT_2026_N_00058_CAMTEC_NORMA_V1.json",
+      "sha256": "fb622afbf7e33ac2bb0634283066ddc73f56e857a6d4ca7078276cb7d73e0900",
+      "tamanho": 6982
+    },
+    {
+      "nome": "PARCT_2026_N_00058_CAMTEC_PAGINA_SITE.html",
+      "sha256": "74beeed5381e5abfd70243fd6357a45991e737761172b2e8c3ece28a947165bd",
+      "tamanho": 471631
+    },
+    {
+      "nome": "PARCT_2026_N_00058_CAMTEC_PDF_SITE.pdf",
+      "sha256": "64e109575fc166457f3d31ac3a06f2c689cbd353961f81ba6e1221ecabd0b03a",
+      "tamanho": 195815
+    },
+    {
+      "nome": "PARCT_2026_N_00058_CAMTEC_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "0316da4bda20e82b0ccb8dc8e1680a7b521bd84231564ba3b2e85354ba798705",
+      "tamanho": 25447
+    },
+    {
+      "nome": "PARCT_2026_N_00058_CAMTEC_TEXTO_FONTE_V1.txt",
+      "sha256": "85b9ff623254ddba66ba8e757026f9805a44e9ad1710675541692eb35f8c69c8",
+      "tamanho": 25401
+    },
+    {
+      "nome": "PARCT_2026_N_00058_CAMTEC_VALIDACAO_V1.json",
+      "sha256": "f14c76765a5d552c420bfc2922474585819497c0e78d0052d50e3f1da22bc72d",
+      "tamanho": 17815
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo."
+  ]
+}

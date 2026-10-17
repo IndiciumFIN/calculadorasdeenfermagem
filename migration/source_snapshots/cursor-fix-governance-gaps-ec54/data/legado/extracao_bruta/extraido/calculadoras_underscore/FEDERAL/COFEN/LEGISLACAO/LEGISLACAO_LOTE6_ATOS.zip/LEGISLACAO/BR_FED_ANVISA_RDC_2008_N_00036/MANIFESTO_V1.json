@@ -1,0 +1,55 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/rdc-36-anvisa-2008-funcionamento-de-servicos-de-atencao-obstetrica-e-neonatal-dou-no-105-quarta-feira-4-de-junho-de-2008/ (API WordPress post 51501); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "RDC_2008_N_00036_ATOMOS_V1.jsonl",
+      "sha256": "89ba2f209d942a873a66e8d9d7e911d49d30246393cafb3fd9b9a7817b95d1ff",
+      "tamanho": 291607
+    },
+    {
+      "nome": "RDC_2008_N_00036_CONTEUDO_SITE_API.json",
+      "sha256": "d009d6d9c7614271383da3dd632a9e551fcb5e2d057eb762babf9e560a75c4b5",
+      "tamanho": 629
+    },
+    {
+      "nome": "RDC_2008_N_00036_NORMA_V1.json",
+      "sha256": "02704b4b88019afe88d7a62c2d070cc5d28f1d5a3fe42c0fc51c9b261da2061e",
+      "tamanho": 11318
+    },
+    {
+      "nome": "RDC_2008_N_00036_PAGINA_SITE.html",
+      "sha256": "f087d8c3c6e5d9878eb5f14a4e2a34be352c24a417e6cecc124c786014f3e516",
+      "tamanho": 438647
+    },
+    {
+      "nome": "RDC_2008_N_00036_PDF_SITE.pdf",
+      "sha256": "692f72cf588f5a7c97cb9929daedf358bcc8d18f8ecbb84869693472f58569e1",
+      "tamanho": 231068
+    },
+    {
+      "nome": "RDC_2008_N_00036_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "c2b0029569600b184c957eaa81d87c45fdcbaa0230ec51f1fa5087230551c1a9",
+      "tamanho": 55958
+    },
+    {
+      "nome": "RDC_2008_N_00036_TEXTO_FONTE_V1.txt",
+      "sha256": "eff6f0cbde17bf0a8d1cb68c252d141efc5963879abc43c12fe70c97643b69cc",
+      "tamanho": 56045
+    },
+    {
+      "nome": "RDC_2008_N_00036_VALIDACAO_V1.json",
+      "sha256": "362c6e88a156eb5e2bf81c99af0dacdef19c98677d238f6af5572413a287e7e1",
+      "tamanho": 10863
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+    "Texto do ato disponível apenas no PDF (o site traz só título/resumo); atomização feita a partir da camada de texto do PDF.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

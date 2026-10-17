@@ -1,0 +1,51 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-7-2026-camaras-tecnicas-de-enfermagem/ (API WordPress post 182846); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2026_N_00007_CAMTEC_ATOMOS_V1.jsonl",
+      "sha256": "32be1cbf45f4916d70c0bcd91a24a6a1ffb736d66a867e0bd68fbc37998974fe",
+      "tamanho": 74472
+    },
+    {
+      "nome": "PARCT_2026_N_00007_CAMTEC_CONTEUDO_SITE_API.json",
+      "sha256": "d37c25b669ea6a469fc6b872905a8e3bb6008113960a3166eaaf821b2d5bcc4e",
+      "tamanho": 19497
+    },
+    {
+      "nome": "PARCT_2026_N_00007_CAMTEC_NORMA_V1.json",
+      "sha256": "3fca57494b44b8a77aaae37e98e9933fd72a4d9b14d7526edf16bac99be82cbd",
+      "tamanho": 4845
+    },
+    {
+      "nome": "PARCT_2026_N_00007_CAMTEC_PAGINA_SITE.html",
+      "sha256": "d92707e3b68820f3cbb731be75322e222453202a4aa850f34fdd50096570e792",
+      "tamanho": 459862
+    },
+    {
+      "nome": "PARCT_2026_N_00007_CAMTEC_PDF_SITE.pdf",
+      "sha256": "4319d5574d399edf4e08c25d2cbe97dff7d26110ec3cbffd5f7a950fbdfe5560",
+      "tamanho": 226821
+    },
+    {
+      "nome": "PARCT_2026_N_00007_CAMTEC_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "e245a4a431c305e6ca70acc92af25ca7b5fbb9c9f30529865c6485aa480665ac",
+      "tamanho": 16948
+    },
+    {
+      "nome": "PARCT_2026_N_00007_CAMTEC_TEXTO_FONTE_V1.txt",
+      "sha256": "0a22de0afcdcb5a55276007250e0237c72914159451b0f2ac37fd3ea09a55b69",
+      "tamanho": 16311
+    },
+    {
+      "nome": "PARCT_2026_N_00007_CAMTEC_VALIDACAO_V1.json",
+      "sha256": "340ffc3bbe0f90fa98240baccdeccd8f172e12248fef08c51c0b3987e1e7de84",
+      "tamanho": 14271
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência."
+  ]
+}

@@ -1,0 +1,19 @@
+[
+  {
+    "id_atomo": "NORM-2026-004",
+    "texto_regra": "Art. 4º O prazo para recurso administrativo observará o regulamento aplicável do conselho.",
+    "dispositivo_legal": "Art. 4º",
+    "norma_origem": "Resolução COFEN 736/2024",
+    "link_fonte": "https://www.cofen.gov.br/resolucao-cofen-no-736-2024",
+    "status": "Não verificado",
+    "data_verificacao": null,
+    "versao_contrato": "1.2.0",
+    "fonte_tipo": "SECUNDARIA",
+    "_auditoria": {
+      "omissao_critica": true,
+      "numeros_omitidos": ["60 dias"],
+      "numeros_originais": ["60 dias"],
+      "numeros_no_atomo": []
+    }
+  }
+]

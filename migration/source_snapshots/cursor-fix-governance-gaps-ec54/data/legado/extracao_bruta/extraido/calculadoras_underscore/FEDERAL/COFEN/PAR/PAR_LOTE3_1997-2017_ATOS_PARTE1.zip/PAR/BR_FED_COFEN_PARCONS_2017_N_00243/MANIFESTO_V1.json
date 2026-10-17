@@ -1,0 +1,51 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-relator-cofen-no-2432017/ (API WordPress post 57604); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCONS_2017_N_00243_ATOMOS_V1.jsonl",
+      "sha256": "e271025bda3201798b009e6930446f58aa57e503fabd89d322d96ff1a6cb4f4f",
+      "tamanho": 49195
+    },
+    {
+      "nome": "PARCONS_2017_N_00243_CONTEUDO_SITE_API.json",
+      "sha256": "620c9371ae2a5476bea8cade3328e7e8213655b603054630c9e8b4221533f78f",
+      "tamanho": 12976
+    },
+    {
+      "nome": "PARCONS_2017_N_00243_NORMA_V1.json",
+      "sha256": "9864b2afaf9e72eed6e1ba2f1c1d00d52b830d518d03d3269c05b4783c65d706",
+      "tamanho": 4408
+    },
+    {
+      "nome": "PARCONS_2017_N_00243_PAGINA_SITE.html",
+      "sha256": "30d2a89eda65f86d4c3400ef8c17babc9c26a9b93b75c7f6b7a8812ddd8cf4e9",
+      "tamanho": 450452
+    },
+    {
+      "nome": "PARCONS_2017_N_00243_PDF_SITE.pdf",
+      "sha256": "6d7d8ea4a30e0dffd120b756989e76ad7cb251f08abc8dd5a3933aa8d7d37b3b",
+      "tamanho": 2668164
+    },
+    {
+      "nome": "PARCONS_2017_N_00243_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "b3059fcc06cffd7501714adfb9ccdea7b695903e1b40f1656217af704d30d262",
+      "tamanho": 11518
+    },
+    {
+      "nome": "PARCONS_2017_N_00243_TEXTO_FONTE_V1.txt",
+      "sha256": "a18db6dfdd8c7501c45b3d2e3e4967944668bae8f790e8a8d98634ad28f2480d",
+      "tamanho": 11415
+    },
+    {
+      "nome": "PARCONS_2017_N_00243_VALIDACAO_V1.json",
+      "sha256": "6bea6f90981750544996ea0b7f564d9329f040b512238891fd01f54a51758bce",
+      "tamanho": 11135
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+  ]
+}

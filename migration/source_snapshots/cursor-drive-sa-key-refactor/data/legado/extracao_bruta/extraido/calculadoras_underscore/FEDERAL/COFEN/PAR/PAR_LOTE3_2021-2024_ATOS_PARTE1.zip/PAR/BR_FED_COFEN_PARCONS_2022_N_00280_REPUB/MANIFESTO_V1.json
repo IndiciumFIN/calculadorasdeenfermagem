@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-conselheira-federal-no-280-2022-cofen/ (API WordPress post 109322); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCONS_2022_N_00280_REPUB_ATOMOS_V1.jsonl",
+      "sha256": "cd0eb06441d2d8c5908e1e23d36443a46d82a09f43a1e8ee3a7d95bf18f05929",
+      "tamanho": 29635
+    },
+    {
+      "nome": "PARCONS_2022_N_00280_REPUB_CONTEUDO_SITE_API.json",
+      "sha256": "cb8c2c0822d979cbb63b3ce310d5f8f9bb92c159db69051658b6a541aedfd238",
+      "tamanho": 7423
+    },
+    {
+      "nome": "PARCONS_2022_N_00280_REPUB_NORMA_V1.json",
+      "sha256": "83161c32c7923b9b9c0bcfb437a4661abb4b563f1c6dca73c324c599040e77b8",
+      "tamanho": 3366
+    },
+    {
+      "nome": "PARCONS_2022_N_00280_REPUB_PAGINA_SITE.html",
+      "sha256": "07e042798bb26534ed50393fc4886ab1e325e6635db94e7ecb994e6ccd4174a6",
+      "tamanho": 445019
+    },
+    {
+      "nome": "PARCONS_2022_N_00280_REPUB_TEXTO_FONTE_V1.txt",
+      "sha256": "fa1d1d607513664dd5e89c7604fb68a0e2b416aeecdc857eaf3f605b88ac7596",
+      "tamanho": 6660
+    },
+    {
+      "nome": "PARCONS_2022_N_00280_REPUB_VALIDACAO_V1.json",
+      "sha256": "2ffeedb7143bcadc4f38d95f48e0bfaa2f55c2265b48cc9b95bf3152ca0c2047",
+      "tamanho": 2738
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "DUPLICADA: nova publicação no site do mesmo ato (post 109322, 2023-06-15); a primeira é o post 107924 (2023-04-27). Similaridade 94."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "WO-2026_10_16_0196",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "task_id": "TAREFA-IMPORTAR-DRIVE",
+  "task_type": "importar-drive",
+  "task_version": "1.0.0",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "entradas": [
+    {
+      "id_origem": "1wXAxgecmz1JqlHg8RDHSZtvDsVT0EP0e",
+      "caminho": "data/legado/extracao_bruta/CONTEUDOS_CE_WAVE10/PAGINA/1wXAxgecmz1JqlHg8RDHSZtvDsVT0EP0e/recursos-assistivos.html",
+      "classe": "REFERENCIA",
+      "sha256": "3e137bc0694a7514ee7a828888b69e3699d058a42049b62dbb78c87b2a1a0bfa"
+    }
+  ],
+  "parametros": {
+    "source_provider": "google_drive",
+    "source_mount": "recursos-assistivos.html",
+    "lote": "WAVE10-CONTENT-BROADENED",
+    "publicacao": "BLOQUEADA",
+    "exclusao": "BLOQUEADA"
+  }
+}

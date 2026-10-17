@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/oficio-circular-n-01012016-gab-pres/ (API WordPress post 43893); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "OFC_2016_N_00101_ATOMOS_V1.jsonl",
+      "sha256": "ce8593bc737736a2098f824aabe758c98ad62354929f65dd1e2f26e8baf5172c",
+      "tamanho": 10306
+    },
+    {
+      "nome": "OFC_2016_N_00101_CONTEUDO_SITE_API.json",
+      "sha256": "bd3775930ef9376443761c7020694e4d9b8f419ca000453ae803e069635f37a2",
+      "tamanho": 1978
+    },
+    {
+      "nome": "OFC_2016_N_00101_NORMA_V1.json",
+      "sha256": "9c0e8bafce9faf5e6fdc7394df54a3ae45f0cb4e09ad0bf2fc1ea705420fe118",
+      "tamanho": 2521
+    },
+    {
+      "nome": "OFC_2016_N_00101_PAGINA_SITE.html",
+      "sha256": "cdf07dfc505009b95b993c20e6640fcca2f8ef427e58a1d61cf082a4bec5d56b",
+      "tamanho": 437790
+    },
+    {
+      "nome": "OFC_2016_N_00101_PDF_SITE.pdf",
+      "sha256": "f78a9b8ecfdbbf176889b3fc6a9ff86adb19502b2658cb49d4860eef08ab1877",
+      "tamanho": 360362
+    },
+    {
+      "nome": "OFC_2016_N_00101_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "3435069d1ef8651043767208079be89857ba2c71b8745a0c9533e1987e0ea05e",
+      "tamanho": 1537
+    },
+    {
+      "nome": "OFC_2016_N_00101_TEXTO_FONTE_V1.txt",
+      "sha256": "2fe85d3e514d6355e07e3a0e099eaa921f930afcdf5b552dd242e21ff8b1a834",
+      "tamanho": 1388
+    },
+    {
+      "nome": "OFC_2016_N_00101_VALIDACAO_V1.json",
+      "sha256": "62f47cbec6221c06e2eac53dd224537413ea9bd549fefb0a97ee393c8a2be0d2",
+      "tamanho": 5090
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+  ]
+}

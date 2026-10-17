@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-conselheiro-federal-no-68-2023-plen-cofen-2/ (API WordPress post 111341); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCONS_2023_N_00068_REPUB_ATOMOS_V1.jsonl",
+      "sha256": "67a355b2a240afab5e9feb0f76960abb52eb56d831a41daf82062b6f076980ca",
+      "tamanho": 25850
+    },
+    {
+      "nome": "PARCONS_2023_N_00068_REPUB_CONTEUDO_SITE_API.json",
+      "sha256": "0b00f14059a91f93b07ae6fd196bc405334ccd9c4277f74550293157de0a6f52",
+      "tamanho": 8447
+    },
+    {
+      "nome": "PARCONS_2023_N_00068_REPUB_NORMA_V1.json",
+      "sha256": "0fdae837939b6475eb874ca3fb61aae2f99bc01e112094da1ba94d3cdae26c3e",
+      "tamanho": 4975
+    },
+    {
+      "nome": "PARCONS_2023_N_00068_REPUB_PAGINA_SITE.html",
+      "sha256": "c10f8f6460d0fee5e445827ab1db918d36c65962e4157b8f47f9a49dfffed5d5",
+      "tamanho": 445906
+    },
+    {
+      "nome": "PARCONS_2023_N_00068_REPUB_TEXTO_FONTE_V1.txt",
+      "sha256": "ecd6c34b865d2eb698fd06fdd6a07b0a908633eb4d529ea3ee52a56576078e0f",
+      "tamanho": 6136
+    },
+    {
+      "nome": "PARCONS_2023_N_00068_REPUB_VALIDACAO_V1.json",
+      "sha256": "cb2d3e0e1f14bc006825af6276cf5ec8a6c141260e6c2fe5a3782f6f34513fd9",
+      "tamanho": 2743
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "DUPLICADA: nova publicação no site do mesmo ato (post 111341, 2023-08-31); a primeira é o post 110836 (2023-08-12). Similaridade 100."
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-9-2024-cofen-camtec-ctesnc/ (API WordPress post 140768); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2024_N_00009_CTESNC_ATOMOS_V1.jsonl",
+      "sha256": "ca50a126dc7840d92d23140228bce1b4290759c92ad05b5ed7888b7bc7a63acb",
+      "tamanho": 32805
+    },
+    {
+      "nome": "PARCT_2024_N_00009_CTESNC_CONTEUDO_SITE_API.json",
+      "sha256": "0d19f8a415dc7a415921208fafbf348cd20ce52a4132e14d2ac4c8bd3a5624b2",
+      "tamanho": 8674
+    },
+    {
+      "nome": "PARCT_2024_N_00009_CTESNC_NORMA_V1.json",
+      "sha256": "044c60905932825c443ca6b4076ec56301237e7574962ba3fe90619c0ccb62fb",
+      "tamanho": 4072
+    },
+    {
+      "nome": "PARCT_2024_N_00009_CTESNC_PAGINA_SITE.html",
+      "sha256": "358f739ecf4c53ed4b7c2adb259229216d4a21e363467984cb1ac916cb69fda2",
+      "tamanho": 448650
+    },
+    {
+      "nome": "PARCT_2024_N_00009_CTESNC_PDF_SITE.pdf",
+      "sha256": "9a7d57116f7ca659b6c1339b872c603756c903ce062e433a570546a06f721e6e",
+      "tamanho": 186554
+    },
+    {
+      "nome": "PARCT_2024_N_00009_CTESNC_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "d08170dd0b0d5612d8b7a1be4349e8426893c423ba952942cb645cb766b70249",
+      "tamanho": 7078
+    },
+    {
+      "nome": "PARCT_2024_N_00009_CTESNC_TEXTO_FONTE_V1.txt",
+      "sha256": "46c9fdd0116c9f94ed6aa402cfbaa94fc824a5cbeeb1dce673a18dc5afe7403a",
+      "tamanho": 6110
+    },
+    {
+      "nome": "PARCT_2024_N_00009_CTESNC_VALIDACAO_V1.json",
+      "sha256": "8d94d86b7bcbe7bea88a3e67b6c3d473674e86205a288301265a11e1b98719ce",
+      "tamanho": 9319
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "2 dispositivo(s) do site divergente(s) ou ausente(s) no PDF."
+  ]
+}

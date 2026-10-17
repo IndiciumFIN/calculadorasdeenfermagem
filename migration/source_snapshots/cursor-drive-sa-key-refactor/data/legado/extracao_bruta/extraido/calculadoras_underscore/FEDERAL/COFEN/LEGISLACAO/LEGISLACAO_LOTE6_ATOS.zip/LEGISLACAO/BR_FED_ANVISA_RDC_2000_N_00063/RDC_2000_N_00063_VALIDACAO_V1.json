@@ -1,0 +1,229 @@
+{
+  "identificador": "BR_FED_ANVISA_RDC_2000_N_00063",
+  "resultado_processo": "PENDENTE",
+  "rotulo": "Pendente de verificação",
+  "controles": [
+    {
+      "nome": "Identificação do ato e emissor",
+      "resultado": "PASS",
+      "evidencia": "RDC 63 |ANVISA| 2000| Terapia de Nutrição Enteral"
+    },
+    {
+      "nome": "Conferência site HTML × PDF oficial, dispositivo a dispositivo",
+      "resultado": "NAO_EXECUTADO",
+      "status": "NAO_APLICAVEL_TEXTO_SO_NO_PDF",
+      "evidencia": {
+        "dispositivos_comparados": 0,
+        "por_resultado": {},
+        "trechos_pdf_ausentes_no_site": 0,
+        "pdf": "RDC_2000_N_00063_PDF_SITE.pdf"
+      }
+    },
+    {
+      "nome": "Publicação no DOU (registro, sem verificação online)",
+      "resultado": "REGISTRADO",
+      "evidencia": null
+    },
+    {
+      "nome": "Anexos referenciados presentes e atomizados",
+      "resultado": "PASS",
+      "status": "PRESENTE_E_ATOMIZADO",
+      "referencias": [
+        "ndendo às exigências das Boas Práticas de Preparação de Nutrição Enteral-BPPNE (Anexo II). 3.10. Terapia de Nutrição Enteral (TNE): conjunto de pro- cedimentos terap",
+        "ecíficos para a preparação da NE, aten- dendo às exigências das BPPNE, conforme Anexo II. 3.13. Unidade Hospitalar (UH): estabelecimento de saúde destinado a prestar",
+        "em realizar procedimentos de TNE devem solicitar o seu cadastramento, conforme Anexo V, à autoridade sanitária local. 4.3. A complexidade da TNE exige o comprometim",
+        "tegorias a craeno das UI e ou EPBS. com as respectivas atribuições descritas no Anexo L 1 7 A UH. que não possui as condições previstas no item anterior, pode contra",
+        "forem previamente inspecionadas. 4 9 Ao médico. de acordo com as atribuições do Anexo 1, compete: indicar prescrever e acompanhar os pacientes submetidos à TNE. 4.10",
+        "Ao nutricionista. de acordo com as atribuições do Anexo I, compete. realizar todas a operações inerentes à prescrição dietética. compos",
+        "ição e preparação da NE. atendendo às recomendações das BPPNE. contorme Anexo II 4.11 Ao farmacêutico, de acordo com as atribuições do Anexo compete: a) adqu",
+        "sta h) participar do sistema tle garantia da qualidade referido no item 4.6. do Anexo II. respeitadas suas atribuições profissionais le- gais.",
+        "4.12. Ao enfermeiro, de acordo com as atribuições do Anexo 1, compete: administrar NE. observando as recomendaçOes das Boas Práticas de Ad",
+        "ministração de NE BPANE, conforme Anexo 111."
+      ]
+    },
+    {
+      "nome": "Numeração contígua (seções, itens, alíneas)",
+      "resultado": "FAIL",
+      "evidencia": [
+        "Itens 1.x: [1, 55]",
+        "Itens 2.x: [1, 3]",
+        "Itens 2.x: [1, 3]",
+        "Itens 2.x: [1, 3, 11, 33, 14, 23, 26]",
+        "Itens 4.x: [1, 12, 2, 3, 33, 23, 4, 5, 6]",
+        "Itens 4.x: [1, 4, 9, 15, 16, 17, 18, 2]",
+        "Itens 5.x: [10, 4, 11, 5, 6, 2, 7, 8, 9, 3, 2, 4]",
+        "Itens 7.x: [12, 16, 3, 6, 8, 9, 13]",
+        "Itens 3.x: [8, 9, 2, 9]",
+        "Itens 3.x: [1, 7, 9]",
+        "Itens 4.1.x: [1, 2, 3, 4, 2, 3, 4]",
+        "Itens 4.3.x: [2, 4]",
+        "Itens 4.6.x: [1, 5, 6]",
+        "Itens 4.6.2.x: [1, 8]",
+        "Itens 6.x: [1, 4, 5]",
+        "Itens 4.9.x: [1, 3]",
+        "Itens 8.x: [1, 3, 4]",
+        "Itens 9.x: [1, 4]",
+        "Itens 10.x: [1, 5]",
+        "Itens 2.13.x: [3, 5, 8]",
+        "Seções numeradas: [1, 2, 3, 8, 4, 3, 5, 6, 9, 7]",
+        "Seções numeradas: [1, 5, 2, 3, 6, 4]",
+        "Seções numeradas: [2, 4, 41]",
+        "Seções numeradas: [9, 6, 8, 9, 13, 15]",
+        "Seções numeradas: [1, 10, 11, 3, 4, 5, 6, 7]",
+        "Seções em romano: [1, 5]",
+        "Seções numeradas: [3, 25004]",
+        "Seções numeradas: [1, 2, 4]",
+        "Itens 1.5.x: começa em 5 (sequência [5])",
+        "Itens 5.x: começa em 10 (sequência [10, 4, 11, 5, 6, 2, 7, 8, 9, 3, 2, 4])",
+        "Itens 7.x: começa em 12 (sequência [12, 16, 3, 6, 8, 9, 13])",
+        "Itens 3.x: começa em 8 (sequência [8, 9, 2, 9])",
+        "Itens 4.1.4.x: começa em 6 (sequência [6])",
+        "Itens 4.2.3.x: começa em 2 (sequência [2, 3, 4, 5, 6, 7])",
+        "Itens 4.1.x: começa em 5 (sequência [5])",
+        "Itens 4.1.2.x: começa em 4 (sequência [4, 5])",
+        "Itens 4.3.x: começa em 2 (sequência [2, 4])",
+        "Itens 4.6.x: começa em 2 (sequência [2, 3, 4])",
+        "Itens 4.5.x: começa em 3 (sequência [3, 4, 5])",
+        "Itens 4.4.1.x: começa em 4 (sequência [4])",
+        "Itens 4.6.4.x: começa em 4 (sequência [4])",
+        "Itens 6.x: começa em 2 (sequência [2, 3, 4, 5, 6, 7, 8])",
+        "Itens 6.3.x: começa em 2 (sequência [2])",
+        "Itens 20.x: começa em 2 (sequência [2])",
+        "Itens 5.2.x: começa em 3 (sequência [3])",
+        "Itens 5.3.x: começa em 2 (sequência [2])",
+        "Itens 4.11.x: começa em 2 (sequência [2, 3])",
+        "Itens 12.x: começa em 3 (sequência [3])",
+        "Itens 19.x: começa em 12 (sequência [12])",
+        "Itens 2.8.x: começa em 2 (sequência [2])",
+        "Itens 2.13.x: começa em 3 (sequência [3, 5, 8])",
+        "Itens 12.13.x: começa em 10 (sequência [10])",
+        "Seções numeradas: começa em 2 (sequência [2, 4, 41])",
+        "Seções numeradas: começa em 9 (sequência [9, 6, 8, 9, 13, 15])",
+        "Seções numeradas: começa em 3 (sequência [3, 25004])",
+        "Alíneas sob BR_FED_ANVISA_RDC_2000_N_00063_ANEXO_005_PARAGRAFO_TEXTO_081: começa em b (sequência [2]) [alíneas: provável transcrição parcial de outra norma]"
+      ]
+    },
+    {
+      "nome": "Conferência humana da literalidade",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Pesquisa de alterações posteriores",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Direitos autorais do texto do ato oficial",
+      "resultado": "PASS",
+      "fundamento": "Lei 9.610/1998, art. 8, IV"
+    }
+  ],
+  "fechamento": {
+    "apto": false,
+    "status": "PENDENCIAS",
+    "justificativa": "Aguardando revisão humana da atomização e pesquisa de atos posteriores. Há achados bloqueantes adicionais."
+  },
+  "achados": [
+    {
+      "codigo": "C001",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Atomização automática; requer conferência humana da segmentação e da literalidade."
+    },
+    {
+      "codigo": "C002",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada."
+    },
+    {
+      "codigo": "C052",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+      "evidencia": [
+        "RDC_2000_N_00063_PDF_SITE.pdf"
+      ]
+    },
+    {
+      "codigo": "C016",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "Texto do ato disponível apenas no PDF (o site traz só título/resumo); atomização feita a partir da camada de texto do PDF."
+    },
+    {
+      "codigo": "C030",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+      "evidencia": [
+        "Itens 1.x: [1, 55]",
+        "Itens 2.x: [1, 3]",
+        "Itens 2.x: [1, 3]",
+        "Itens 2.x: [1, 3, 11, 33, 14, 23, 26]",
+        "Itens 4.x: [1, 12, 2, 3, 33, 23, 4, 5, 6]",
+        "Itens 4.x: [1, 4, 9, 15, 16, 17, 18, 2]",
+        "Itens 5.x: [10, 4, 11, 5, 6, 2, 7, 8, 9, 3, 2, 4]",
+        "Itens 7.x: [12, 16, 3, 6, 8, 9, 13]",
+        "Itens 3.x: [8, 9, 2, 9]",
+        "Itens 3.x: [1, 7, 9]",
+        "Itens 4.1.x: [1, 2, 3, 4, 2, 3, 4]",
+        "Itens 4.3.x: [2, 4]",
+        "Itens 4.6.x: [1, 5, 6]",
+        "Itens 4.6.2.x: [1, 8]",
+        "Itens 6.x: [1, 4, 5]",
+        "Itens 4.9.x: [1, 3]",
+        "Itens 8.x: [1, 3, 4]",
+        "Itens 9.x: [1, 4]",
+        "Itens 10.x: [1, 5]",
+        "Itens 2.13.x: [3, 5, 8]",
+        "Seções numeradas: [1, 2, 3, 8, 4, 3, 5, 6, 9, 7]",
+        "Seções numeradas: [1, 5, 2, 3, 6, 4]",
+        "Seções numeradas: [2, 4, 41]",
+        "Seções numeradas: [9, 6, 8, 9, 13, 15]",
+        "Seções numeradas: [1, 10, 11, 3, 4, 5, 6, 7]",
+        "Seções em romano: [1, 5]",
+        "Seções numeradas: [3, 25004]",
+        "Seções numeradas: [1, 2, 4]"
+      ]
+    },
+    {
+      "codigo": "C031",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir.",
+      "evidencia": [
+        "Itens 1.5.x: começa em 5 (sequência [5])",
+        "Itens 5.x: começa em 10 (sequência [10, 4, 11, 5, 6, 2, 7, 8, 9, 3, 2, 4])",
+        "Itens 7.x: começa em 12 (sequência [12, 16, 3, 6, 8, 9, 13])",
+        "Itens 3.x: começa em 8 (sequência [8, 9, 2, 9])",
+        "Itens 4.1.4.x: começa em 6 (sequência [6])",
+        "Itens 4.2.3.x: começa em 2 (sequência [2, 3, 4, 5, 6, 7])",
+        "Itens 4.1.x: começa em 5 (sequência [5])",
+        "Itens 4.1.2.x: começa em 4 (sequência [4, 5])",
+        "Itens 4.3.x: começa em 2 (sequência [2, 4])",
+        "Itens 4.6.x: começa em 2 (sequência [2, 3, 4])",
+        "Itens 4.5.x: começa em 3 (sequência [3, 4, 5])",
+        "Itens 4.4.1.x: começa em 4 (sequência [4])",
+        "Itens 4.6.4.x: começa em 4 (sequência [4])",
+        "Itens 6.x: começa em 2 (sequência [2, 3, 4, 5, 6, 7, 8])",
+        "Itens 6.3.x: começa em 2 (sequência [2])",
+        "Itens 20.x: começa em 2 (sequência [2])",
+        "Itens 5.2.x: começa em 3 (sequência [3])",
+        "Itens 5.3.x: começa em 2 (sequência [2])",
+        "Itens 4.11.x: começa em 2 (sequência [2, 3])",
+        "Itens 12.x: começa em 3 (sequência [3])",
+        "Itens 19.x: começa em 12 (sequência [12])",
+        "Itens 2.8.x: começa em 2 (sequência [2])",
+        "Itens 2.13.x: começa em 3 (sequência [3, 5, 8])",
+        "Itens 12.13.x: começa em 10 (sequência [10])",
+        "Seções numeradas: começa em 2 (sequência [2, 4, 41])",
+        "Seções numeradas: começa em 9 (sequência [9, 6, 8, 9, 13, 15])",
+        "Seções numeradas: começa em 3 (sequência [3, 25004])",
+        "Alíneas sob BR_FED_ANVISA_RDC_2000_N_00063_ANEXO_005_PARAGRAFO_TEXTO_081: começa em b (sequência [2]) [alíneas: provável transcrição parcial de outra norma]"
+      ]
+    }
+  ],
+  "conferencia_por_dispositivo": [],
+  "data_verificacao": "2026-10-10",
+  "responsavel": "Triagem automatizada - requer validação humana"
+}

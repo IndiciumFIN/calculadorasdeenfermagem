@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-788-de-6-de-setembro-de-2013/ (API WordPress post 21487); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2013_N_00788_ATOMOS_V1.jsonl",
+      "sha256": "6bc331b6955795f76a990859fc99605e4ff93bccd38962e429ee8958b0595f0c",
+      "tamanho": 10435
+    },
+    {
+      "nome": "PORT_2013_N_00788_CONTEUDO_SITE_API.json",
+      "sha256": "0f290529074fd6f6579ea0ffba31a3d9c6dfd672e21e3feb2cddbe0b45691b4f",
+      "tamanho": 2170
+    },
+    {
+      "nome": "PORT_2013_N_00788_NORMA_V1.json",
+      "sha256": "a3480107d4086bf9bf887457ab2f10ddc0d6b871f74357c1cb074ed31ce3a3b7",
+      "tamanho": 3897
+    },
+    {
+      "nome": "PORT_2013_N_00788_PAGINA_SITE.html",
+      "sha256": "82b4a6ae4c578428a150a4377ae26c877b3f9f916202c47f9406373bda45e696",
+      "tamanho": 439533
+    },
+    {
+      "nome": "PORT_2013_N_00788_TEXTO_FONTE_V1.txt",
+      "sha256": "76eb6b8c25faec6c26b64e6f0665c63c7aab3a7d33e05f3787180c84ed12e4a2",
+      "tamanho": 1395
+    },
+    {
+      "nome": "PORT_2013_N_00788_VALIDACAO_V1.json",
+      "sha256": "08680f07def9ef576ff680db0842969f09a2404b305d0c4a0c8b044592eca88c",
+      "tamanho": 2460
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

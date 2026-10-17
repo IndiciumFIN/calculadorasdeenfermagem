@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-conselheira-no-0303-2017/ (API WordPress post 60192); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCONS_2017_N_00303_ATOMOS_V1.jsonl",
+      "sha256": "c713b43d720d2d6800b0e20dc84eff201ce978fa045f76dc9fe54475fd7cc9c0",
+      "tamanho": 29067
+    },
+    {
+      "nome": "PARCONS_2017_N_00303_CONTEUDO_SITE_API.json",
+      "sha256": "5b027ed5a7ed88e8fab7559d73e19534f12c828424a7b47a7e31f524bd2221bd",
+      "tamanho": 10276
+    },
+    {
+      "nome": "PARCONS_2017_N_00303_NORMA_V1.json",
+      "sha256": "5e33eeb6ee7256abe5a2d9da22c0993f17efaa4ede2a3dc14e30fb56f9ef2545",
+      "tamanho": 2706
+    },
+    {
+      "nome": "PARCONS_2017_N_00303_PAGINA_SITE.html",
+      "sha256": "a7b4c09b49ff3504b4dc0175aba4e63ecddc50d94c8b3854384bb84305c8056b",
+      "tamanho": 447940
+    },
+    {
+      "nome": "PARCONS_2017_N_00303_TEXTO_FONTE_V1.txt",
+      "sha256": "68a8b698d6b5d217cad56005dda31c2cb47e90a91cdda6b866429f87c3f15d4a",
+      "tamanho": 9202
+    },
+    {
+      "nome": "PARCONS_2017_N_00303_VALIDACAO_V1.json",
+      "sha256": "1a489d4446be398ea833e1ba19cea8ce5f135c9d674247c1d180b3deaeee4015",
+      "tamanho": 2465
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

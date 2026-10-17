@@ -1,0 +1,17 @@
+{
+  "id": "WO-2026_10_15_0038",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "agent_id": "AGT-AUDITOR-001",
+  "task_id": "TAREFA-FIND-ANALISAR",
+  "task_version": "1.0.0",
+  "task_type": "analisar-find",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "entradas": [],
+  "parametros": {
+    "find_id": "FIND-0001",
+    "analise": "T01, T02, T04 e T07 seguem não qualificadas. Esses comandos passam a recusar antes de gravar.",
+    "quando": "2026-10-15"
+  }
+}

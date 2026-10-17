@@ -1,0 +1,41 @@
+{
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "task_version": "1.0.0",
+  "entradas": [
+    {
+      "id_origem": "1UW0D9tYELJoEBzL0qwzV9DqveIly6nqS",
+      "caminho": "icd11/cid11_mms_completa.csv",
+      "classe": "REFERENCIA",
+      "sha256": "61fb231473a02a0d4a2d8dfb3f33fff0cd2d39a434ceaf20b79233aa87da46b9"
+    },
+    {
+      "id_origem": "17CeVSphd5BfMj5Jp3uc-pgCyxiJ0jhfR",
+      "caminho": "icd11/cid11_mms_categorias_com_codigo.csv",
+      "classe": "REFERENCIA",
+      "sha256": "e31b88903b28ddc71bb00d44da7f55d164c92aad8f1e2dae460cfa03a9454541"
+    },
+    {
+      "id_origem": "1gB9hDNM4jZPn9wFm58sYsQbT1ioLReUI",
+      "caminho": "icd11/cid11_mms_categorias_com_codigo.json",
+      "classe": "REFERENCIA",
+      "sha256": "b49034ddefefe0266261bf8f905eb35c9eb6a829d7906eba867dd05e2a5ba19b"
+    },
+    {
+      "id_origem": "1ctTZPLzGovMDXHiWFEE1ldnwtReoN6xr",
+      "caminho": "icd11/cid11_mms_completa.json",
+      "classe": "REFERENCIA",
+      "sha256": "e02664e399936275b88bc2c409f7db657d607d36adbbaf0d4581ffc3eebcf8a9"
+    }
+  ],
+  "id": "WO-2026_10_15_0051",
+  "task_type": "retirar",
+  "task_id": "TAREFA-RETIRAR",
+  "parametros": {
+    "lote": "icd11",
+    "parecer_work_order": "WO-2026_10_15_0050"
+  },
+  "checker_id": "kernel-validar"
+}

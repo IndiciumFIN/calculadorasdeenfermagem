@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-1135-de-4-de-agosto-de-2022/ (API WordPress post 101366); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2022_N_01135_ATOMOS_V1.jsonl",
+      "sha256": "543d7b71ad0086a043c93551fa0b63fe684be88e2a51bb39d9d82e8e00a1a98c",
+      "tamanho": 6855
+    },
+    {
+      "nome": "PORT_2022_N_01135_CONTEUDO_SITE_API.json",
+      "sha256": "6730e72b00bbb0a1e9b4e17c5b80884dc1f56fe4af5e42544d16362788acdea9",
+      "tamanho": 1654
+    },
+    {
+      "nome": "PORT_2022_N_01135_NORMA_V1.json",
+      "sha256": "1bb5c775ada86e86a1525f6c9f8217a4fdc0bb4498c8087705a2a853d59479a4",
+      "tamanho": 3432
+    },
+    {
+      "nome": "PORT_2022_N_01135_PAGINA_SITE.html",
+      "sha256": "a1ed6873325dc7dfd8d76cd6f6a53e2d1f21d09317263d4b0a5fa4e02a62ee08",
+      "tamanho": 440281
+    },
+    {
+      "nome": "PORT_2022_N_01135_TEXTO_FONTE_V1.txt",
+      "sha256": "88dfa754cf1da8e94aaf56c7d74335e0030a0e5196ec33771369dc1d4da59a28",
+      "tamanho": 1040
+    },
+    {
+      "nome": "PORT_2022_N_01135_VALIDACAO_V1.json",
+      "sha256": "cd43ec63ca36a52fcc6fdea4a86289174b318ee8692b5581aba35ac3c4b717c7",
+      "tamanho": 2459
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-1913-de-27-de-novembro-de-2019/ (API WordPress post 76021); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2019_N_01913_ATOMOS_V1.jsonl",
+      "sha256": "ad279c1e324870fe63f0feff812a63e7da301e73e64aceec6c8d2414a47fe055",
+      "tamanho": 6874
+    },
+    {
+      "nome": "PORT_2019_N_01913_CONTEUDO_SITE_API.json",
+      "sha256": "c31b2440c97f06490d4358dcd98de8cb0ba2f410bdf422fe67d76d552d9cd1e2",
+      "tamanho": 1632
+    },
+    {
+      "nome": "PORT_2019_N_01913_NORMA_V1.json",
+      "sha256": "767d819edeab11d5228251f216a5b0a3b0fc6c544325e52baf052827d89dc393",
+      "tamanho": 3486
+    },
+    {
+      "nome": "PORT_2019_N_01913_PAGINA_SITE.html",
+      "sha256": "7648b9f6dd9b797b4b2488b50051d22b86ca6fbccc08ed934e13b9c17b024976",
+      "tamanho": 441294
+    },
+    {
+      "nome": "PORT_2019_N_01913_TEXTO_FONTE_V1.txt",
+      "sha256": "ea0e2f854ee5b38e5958cef460474d1722fc45a430db1bd1ece7fcc0c1ca0e79",
+      "tamanho": 1053
+    },
+    {
+      "nome": "PORT_2019_N_01913_VALIDACAO_V1.json",
+      "sha256": "33a2769660cca0eae0f9f1e88149cce3a9fc359e464daf1271a3fb00233789ed",
+      "tamanho": 2462
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

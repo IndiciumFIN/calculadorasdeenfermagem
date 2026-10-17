@@ -1,0 +1,26 @@
+{
+  "id": "WO-CE-DRIVE-ENDTOEND-20261016",
+  "status": "PLAN_CANDIDATE_NOT_EXECUTABLE_KERNEL_WO",
+  "deadline_local": "2026-10-16T23:59:00-03:00",
+  "branch": "cursor/fix-governance-gaps-ec54",
+  "phases": [
+    "GOVERNANCE",
+    "RECURSIVE_INVENTORY",
+    "ACQUISITION_HASH_ZIP",
+    "DRIVE_SUPABASE_GITHUB_RECONCILIATION",
+    "NORMATIVES_AND_OTHER_CONTENT_RIGHTS",
+    "BATCH_25_TWO_WORKERS",
+    "KERNEL_TESTS",
+    "CLOSURE_REPORT"
+  ],
+  "gates": {
+    "deletion": "DENY",
+    "publication": "DENY",
+    "main_merge": "DENY",
+    "automatic_promotion": "DENY"
+  },
+  "acceptance": "All sources reconciled with SHA256, rights, independent checker and Kernel-approved executable WOs; otherwise HOLD with residuals.",
+  "workers": 2,
+  "batch_size": 25,
+  "notes": "Planning record only; official executable WO must use contracts/work_orders schema. Deadline is target, not guarantee."
+}

@@ -1,0 +1,50 @@
+{
+  "algoritmo": "extracao-bytes-sha256",
+  "arquivo": "CID10CSV.zip",
+  "bytes": 306066,
+  "sha256": "84f23809275575f751255048064bbb244b0de33fd5987ab98df0f98e5f5d2c95",
+  "membros": [
+    {
+      "nome": "CID-10-CATEGORIAS.CSV",
+      "bytes": 197561,
+      "sha256": "e372033b1c04f321a9a98aac8534f2bd4f22aa40c622525b619a2f616a3b6fc8",
+      "disposicao": "IDENTICO_EXISTENTE",
+      "copia_existente": "raw/cid10/CID-10-CATEGORIAS.CSV"
+    },
+    {
+      "nome": "CID-10-CAPITULOS.CSV",
+      "bytes": 2594,
+      "sha256": "23cee69acb227dbeeb99bf26ae2b9c40525795604e321cfe4d1b42ba04aeaf4c",
+      "disposicao": "IDENTICO_EXISTENTE",
+      "copia_existente": "raw/cid10/CID-10-CAPITULOS.CSV"
+    },
+    {
+      "nome": "CID-10-GRUPOS.CSV",
+      "bytes": 27053,
+      "sha256": "bbf1d465546cfa8907a951895140982cee2d759f826f9a9a048a440cc2f33e10",
+      "disposicao": "IDENTICO_EXISTENTE",
+      "copia_existente": "raw/cid10/CID-10-GRUPOS.CSV"
+    },
+    {
+      "nome": "CID-10-SUBCATEGORIAS.CSV",
+      "bytes": 1352723,
+      "sha256": "1a85bef8f2065ad3e95ab07b6441e6f03404c54ab35849ebd4edccc3ba234e60",
+      "disposicao": "IDENTICO_EXISTENTE",
+      "copia_existente": "raw/cid10/CID-10-SUBCATEGORIAS.CSV"
+    },
+    {
+      "nome": "CID-O-CATEGORIAS.CSV",
+      "bytes": 34414,
+      "sha256": "29f5afd6a62ae189fb34e420907a82b8bc2402593ae18251d0ec0119fc57f2d8",
+      "disposicao": "IDENTICO_EXISTENTE",
+      "copia_existente": "raw/cid10/CID-O-CATEGORIAS.CSV"
+    },
+    {
+      "nome": "CID-O-GRUPOS.CSV",
+      "bytes": 2742,
+      "sha256": "e66d7490c00b4135498711cea4e04dabd30492276bb07d93430c284f09f53c57",
+      "disposicao": "IDENTICO_EXISTENTE",
+      "copia_existente": "raw/cid10/CID-O-GRUPOS.CSV"
+    }
+  ]
+}

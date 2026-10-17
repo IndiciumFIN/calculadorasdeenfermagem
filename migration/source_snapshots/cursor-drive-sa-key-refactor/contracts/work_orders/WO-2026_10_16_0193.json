@@ -1,0 +1,25 @@
+{
+  "id": "WO-2026_10_16_0193",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "task_id": "TAREFA-IMPORTAR-DRIVE",
+  "task_type": "importar-drive",
+  "task_version": "1.0.0",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "entradas": [
+    {
+      "id_origem": "1Wjz4DjQoTLfvLwO9_CngNNhY10C6F9m3",
+      "caminho": "data/legado/extracao_bruta/CONTEUDOS_CE_WAVE10/MODELO_CONTENT/1Wjz4DjQoTLfvLwO9_CngNNhY10C6F9m3/calculadoras_enfermagem_canonical_content_model_v0.3.2.zip",
+      "classe": "REFERENCIA",
+      "sha256": "ced13e9728eed912fc05e767fa80d5aeb3fea3d20b8744b7ec863af5925c19d8"
+    }
+  ],
+  "parametros": {
+    "source_provider": "google_drive",
+    "source_mount": "calculadoras_enfermagem_canonical_content_model_v0.3.2.zip",
+    "lote": "WAVE10-CONTENT-BROADENED",
+    "publicacao": "BLOQUEADA",
+    "exclusao": "BLOQUEADA"
+  }
+}

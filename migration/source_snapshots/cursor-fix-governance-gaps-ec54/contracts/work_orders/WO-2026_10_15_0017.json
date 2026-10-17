@@ -1,0 +1,108 @@
+{
+  "id": "WO-2026_10_15_0017",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "task_type": "obter",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "parametros": {
+    "pasta_drive": "1l519_P-9o6bnQcItydKvEEDpEYeE8R8s",
+    "pasta_epidemiologico": "139dzD_DmI8U70B3KZgK3l2uWRMNZ_qoI",
+    "pasta_raw_fora": "1CEooVgRWhH9pGT83w19S4jcfyRuVQlQ7",
+    "lote": "epidemiologico"
+  },
+  "entradas": [
+    {
+      "id_origem": "13UjmLqnXuVfIAR-SCWC3HhJTjKn4UdV6",
+      "caminho": "epidemiologico/sinan_zika_2026_amostra.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1xaw4U1_I3FFivnJiGRP0Or-PUYadB6Nb",
+      "caminho": "epidemiologico/febre_amarela_humanos_primatas.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "18dSCoe5CcbFN0lmtQuAfUgwcXh4p_yIK",
+      "caminho": "epidemiologico/lista_notificacao_compulsoria_2026.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1Bv_rlztmXUEkzch-YVVBamutKopoTUHr",
+      "caminho": "epidemiologico/sim_mortalidade_amostra.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1aGCAchb_JicQqggSA_jyn9eEF4VsoJQq",
+      "caminho": "epidemiologico/srag_2019_2026_amostra.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1tyfgN1fqy_YOlhHWf0MkSixeWhbYCHjp",
+      "caminho": "epidemiologico/sinan_dengue_2026_amostra.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1Cq1HE0FiQN3TuntG1RIgfhai4vA6MAlm",
+      "caminho": "epidemiologico/srag_2019_2026_amostra.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "14k6KprjLpTdAmRKoUMibJiZL0_0HMiXU",
+      "caminho": "epidemiologico/sim_mortalidade_amostra.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1fO4z2sl0gxzIr8t-u5qMIvspD6ovWIMD",
+      "caminho": "epidemiologico/sinan_zika_2026_amostra.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "150_ELPqkvDBVQSqtmkBXEFWOx8bhuGCD",
+      "caminho": "epidemiologico/sinan_chikungunya_2026_amostra.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1vRIsrF7KbJq0_adgFUdiEVduouSNbsdd",
+      "caminho": "epidemiologico/sinan_dengue_2026_amostra.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1Kf4RAPomdfMPORJj5bYNM8-_3CAMyn4T",
+      "caminho": "epidemiologico/sinan_chikungunya_2026_amostra.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1oTTLMqfshSnw5ZzSHiIq4d95xlp_xmr_",
+      "caminho": "epidemiologico/mpox_amostra.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1g8Wjt6F24PX4h0JaUuMagvcl8oMrYrCF",
+      "caminho": "epidemiologico/mpox_amostra.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1qntmhP2HayZW_MGtGbD9l8RvTFxDpjo8",
+      "caminho": "epidemiologico/lista_notificacao_compulsoria_2026.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1vRMu1CZZmjU2f4tydHtDRDg4z6JmVuUJ",
+      "caminho": "epidemiologico/febre_amarela_humanos_primatas.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1hMxh4qHfOadABaPZ2VQqhO0ELjm431nv",
+      "caminho": "epidemiologico/febre_amarela_epizootias.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1aCeVpq2lnRb0U03-ERgymqT0GF14vgaq",
+      "caminho": "epidemiologico/febre_amarela_epizootias.csv",
+      "classe": "REFERENCIA"
+    }
+  ],
+  "task_id": "TAREFA-OBTER",
+  "task_version": "1.0.0"
+}

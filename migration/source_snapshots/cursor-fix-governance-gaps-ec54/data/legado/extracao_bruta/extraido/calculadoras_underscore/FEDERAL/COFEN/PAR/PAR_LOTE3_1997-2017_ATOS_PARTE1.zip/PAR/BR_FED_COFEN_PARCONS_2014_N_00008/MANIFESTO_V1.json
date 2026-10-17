@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-relator-no-0082014/ (API WordPress post 32932); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCONS_2014_N_00008_ATOMOS_V1.jsonl",
+      "sha256": "2d0a875394a8d3bbe6aa5249ba2aadd0c1b2a9c5be34424befcc02bfe1ed002b",
+      "tamanho": 2031
+    },
+    {
+      "nome": "PARCONS_2014_N_00008_CONTEUDO_SITE_API.json",
+      "sha256": "ba83bd55be8afbcd0269cb85451d642441ee8fbf7e07e58f3dc7c86b6c297741",
+      "tamanho": 787
+    },
+    {
+      "nome": "PARCONS_2014_N_00008_NORMA_V1.json",
+      "sha256": "3f83f576fc416e8559d5690f082ec89598e0a3aac0cae95f7c24a77ee4d5b9f1",
+      "tamanho": 1877
+    },
+    {
+      "nome": "PARCONS_2014_N_00008_PAGINA_SITE.html",
+      "sha256": "6139385a930ef0b744886042ddf5afa0c34858da7859d340256a5e812bc152c7",
+      "tamanho": 437205
+    },
+    {
+      "nome": "PARCONS_2014_N_00008_TEXTO_FONTE_V1.txt",
+      "sha256": "49034b0259746c32988371ab755c0d67a176241f6b91184ecd383f63747fcff3",
+      "tamanho": 281
+    },
+    {
+      "nome": "PARCONS_2014_N_00008_VALIDACAO_V1.json",
+      "sha256": "282f247cdbe42b01423cb9253e327061d414a7d032a773fd05454c36f523e6ca",
+      "tamanho": 2708
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

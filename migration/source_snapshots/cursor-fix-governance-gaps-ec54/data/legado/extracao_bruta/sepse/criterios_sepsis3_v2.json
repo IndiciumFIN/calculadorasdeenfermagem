@@ -1,0 +1,208 @@
+{
+  "aviso": "Transcrito manualmente das publicações citadas (não veio de API). Confira na fonte original antes de usar em decisão clínica. Ferramenta de apoio, não substitui avaliação clínica nem protocolos institucionais.",
+  "fontes": [
+    "Singer M, et al. The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3). JAMA. 2016;315(8):801-810. doi:10.1001/jama.2016.0287",
+    "Vincent JL, et al. The SOFA (Sepsis-related Organ Failure Assessment) score to describe organ dysfunction/failure. Intensive Care Med. 1996;22(7):707-710. doi:10.1007/BF01709751"
+  ],
+  "definicoes": {
+    "sepse": "Disfunção orgânica com risco de vida causada por resposta desregulada do hospedeiro à infecção; operacionalmente, aumento agudo de 2 pontos ou mais no escore SOFA total atribuível à infecção (SOFA basal presumido 0 se não houver disfunção prévia conhecida).",
+    "choque_septico": "Subgrupo da sepse: hipotensão persistente com necessidade de vasopressor para manter PAM >= 65 mmHg E lactato sérico > 2 mmol/L (18 mg/dL), apesar de reposição volêmica adequada."
+  },
+  "qsofa": {
+    "descricao": "quick SOFA: 1 ponto por item; >= 2 pontos em paciente com suspeita de infecção indica maior risco de desfecho ruim (não é critério diagnóstico de sepse).",
+    "itens": [
+      {
+        "variavel": "frequencia_respiratoria",
+        "criterio": "Frequência respiratória >= 22 irpm"
+      },
+      {
+        "variavel": "nivel_consciencia",
+        "criterio": "Alteração do estado mental (Glasgow < 15)"
+      },
+      {
+        "variavel": "pressao_sistolica",
+        "criterio": "Pressão arterial sistólica <= 100 mmHg"
+      }
+    ]
+  },
+  "sofa": {
+    "descricao": "Soma de 6 sistemas, 0 a 4 pontos cada (total 0-24).",
+    "sistemas": [
+      {
+        "sistema": "Respiratório",
+        "variavel": "PaO2/FiO2 (mmHg)",
+        "pontuacao": [
+          {
+            "pontos": 0,
+            "criterio": ">= 400"
+          },
+          {
+            "pontos": 1,
+            "criterio": "< 400"
+          },
+          {
+            "pontos": 2,
+            "criterio": "< 300"
+          },
+          {
+            "pontos": 3,
+            "criterio": "< 200 com suporte ventilatório"
+          },
+          {
+            "pontos": 4,
+            "criterio": "< 100 com suporte ventilatório"
+          }
+        ]
+      },
+      {
+        "sistema": "Coagulação",
+        "variavel": "Plaquetas (x10^3/µL)",
+        "pontuacao": [
+          {
+            "pontos": 0,
+            "criterio": ">= 150"
+          },
+          {
+            "pontos": 1,
+            "criterio": "< 150"
+          },
+          {
+            "pontos": 2,
+            "criterio": "< 100"
+          },
+          {
+            "pontos": 3,
+            "criterio": "< 50"
+          },
+          {
+            "pontos": 4,
+            "criterio": "< 20"
+          }
+        ]
+      },
+      {
+        "sistema": "Hepático",
+        "variavel": "Bilirrubina (mg/dL [µmol/L])",
+        "pontuacao": [
+          {
+            "pontos": 0,
+            "criterio": "< 1,2 [< 20]"
+          },
+          {
+            "pontos": 1,
+            "criterio": "1,2-1,9 [20-32]"
+          },
+          {
+            "pontos": 2,
+            "criterio": "2,0-5,9 [33-101]"
+          },
+          {
+            "pontos": 3,
+            "criterio": "6,0-11,9 [102-204]"
+          },
+          {
+            "pontos": 4,
+            "criterio": "> 12,0 [> 204]"
+          }
+        ]
+      },
+      {
+        "sistema": "Cardiovascular",
+        "variavel": "PAM / vasopressores (µg/kg/min por >= 1 h)",
+        "pontuacao": [
+          {
+            "pontos": 0,
+            "criterio": "PAM >= 70 mmHg"
+          },
+          {
+            "pontos": 1,
+            "criterio": "PAM < 70 mmHg"
+          },
+          {
+            "pontos": 2,
+            "criterio": "Dopamina < 5 ou dobutamina (qualquer dose)"
+          },
+          {
+            "pontos": 3,
+            "criterio": "Dopamina 5,1-15 ou epinefrina <= 0,1 ou norepinefrina <= 0,1"
+          },
+          {
+            "pontos": 4,
+            "criterio": "Dopamina > 15 ou epinefrina > 0,1 ou norepinefrina > 0,1"
+          }
+        ]
+      },
+      {
+        "sistema": "Sistema nervoso central",
+        "variavel": "Escala de Coma de Glasgow",
+        "pontuacao": [
+          {
+            "pontos": 0,
+            "criterio": "15"
+          },
+          {
+            "pontos": 1,
+            "criterio": "13-14"
+          },
+          {
+            "pontos": 2,
+            "criterio": "10-12"
+          },
+          {
+            "pontos": 3,
+            "criterio": "6-9"
+          },
+          {
+            "pontos": 4,
+            "criterio": "< 6"
+          }
+        ]
+      },
+      {
+        "sistema": "Renal",
+        "variavel": "Creatinina (mg/dL [µmol/L]) ou diurese",
+        "pontuacao": [
+          {
+            "pontos": 0,
+            "criterio": "< 1,2 [< 110]"
+          },
+          {
+            "pontos": 1,
+            "criterio": "1,2-1,9 [110-170]"
+          },
+          {
+            "pontos": 2,
+            "criterio": "2,0-3,4 [171-299]"
+          },
+          {
+            "pontos": 3,
+            "criterio": "3,5-4,9 [300-440] ou diurese < 500 mL/dia"
+          },
+          {
+            "pontos": 4,
+            "criterio": "> 5,0 [> 440] ou diurese < 200 mL/dia"
+          }
+        ]
+      }
+    ]
+  },
+  "trechos_literais_fonte": {
+    "choque_septico": {
+      "trecho": "Patients with septic shock can be identified with a clinical construct of sepsis with persisting hypotension requiring vasopressors to maintain MAP ⱖ65 mm Hg and having a serum lactate level >2 mmol/L (18 mg/dL) despite adequate volume resuscitation.",
+      "local": "Box 3 (New Terms and Definitions), JAMA 2016;315(8) p.805 (PDF p.6)",
+      "arquivo_fonte": "Sepsis3_Singer2016_JAMA_VoR_via_AmsterdamUMC.pdf",
+      "sha256_fonte": "597217c81b2e30e520ab1d209f183630ac4c6d939336e6119a33b29a38bdd833",
+      "extracao": "pdftotext 25.03, recorte da coluna esquerda (Box 3); o glifo \"ⱖ\" é como o PDF codifica \"≥\""
+    }
+  },
+  "correcoes": [
+    {
+      "data": "2026-10-10",
+      "campo": "definicoes.choque_septico",
+      "antes": "Subgrupo da sepse: necessidade de vasopressor para manter PAM >= 65 mmHg E lactato sérico > 2 mmol/L (18 mg/dL), apesar de reposição volêmica adequada.",
+      "depois": "Subgrupo da sepse: hipotensão persistente com necessidade de vasopressor para manter PAM >= 65 mmHg E lactato sérico > 2 mmol/L (18 mg/dL), apesar de reposição volêmica adequada.",
+      "motivo": "omissão apontada na revisão (revisao_definicoes_sepsis3.csv linha 7): a fonte diz \"persisting hypotension requiring vasopressors\"",
+      "nota": "corrigido a partir da fonte em 2026-10-10; arquivo original criterios_sepsis3.json não foi alterado"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+ "ato": "BR_FED_COFEN_RES_2024_N_00736",
+ "norma": "Resolução Cofen nº 736, de 17 de janeiro de 2024 (DOU nº 16, 23/01/2024, Seção 1, p. 74)",
+ "data_verificacao_utc": "2026-10-10T19:40:11Z",
+ "ferramenta_texto": "pdftotext version 25.03.0",
+ "arquivos": [
+  {
+   "papel": "copia_local_biblioteca (= mapeada para Calculadoras-de-Enfermagem/cofen/BR_FED_COFEN_RES_2024_N_00736 pela matriz)",
+   "caminho": "/workspace/doencas/protocolos_enfermagem/raw/pdfs/Resolucao_Cofen_no_736_2024_Processo_de_Enfermagem.pdf",
+   "bytes": 718575,
+   "sha256": "3fb4e597f053aefeb1aadf9b50c1ace53c32ca687454c28184814741677d7a49"
+  },
+  {
+   "papel": "oficial_cofen_download_novo",
+   "url": "https://www.cofen.gov.br/wp-content/uploads/2024/01/Resolucao-736-2024.pdf",
+   "arquivo": "oficial_cofen_Resolucao-736-2024.pdf",
+   "bytes": 718575,
+   "sha256": "3fb4e597f053aefeb1aadf9b50c1ace53c32ca687454c28184814741677d7a49",
+   "http_headers": "HTTP/2 200 \ndate: Sat, 10 Oct 2026 19:40:10 GMT\ncontent-type: application/pdf\ncontent-length: 718575\nset-cookie: HWWAFSESID=6413273630c5a42ea7; path=/\nset-cookie: HWWAFSESTIME=1791661210954; path=/\nlast-modified: Tue, 23 Jan 2024 11:35:41 GMT\netag: \"65afa48d-af6ef\"\naccept-ranges: bytes\nserver: CW",
+   "paginas": 1,
+   "producer": "PDFium"
+  },
+  {
+   "papel": "oficial_dou_in_gov_br (pagina 74 da Secao 1 de 23/01/2024)",
+   "url": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=515&pagina=74&data=23/01/2024&captchafield=firstAccess",
+   "arquivo": "dou_2024-01-23_s1_p74.pdf",
+   "bytes": 736965,
+   "sha256": "f302110a6564257b782c6286908b5bdcb1897436c3c15998f138cabd8d8fd3a4",
+   "http_headers": "HTTP/2 200 \ndate: Sat, 10 Oct 2026 19:40:35 GMT\ncontent-type: application/pdf\ncontent-length: 736965\nvary: Accept-Encoding\nx-azion-request-id: e8d91e26dd1be430ba1db0f5b1821d2c\nx-azion-edge-location: SJC\ndebug: 4\nset-cookie: az_asm=WN/YIANmYeBWxpVA8YBKwjGjAfeiuQG3h6BHQH+oEfpk2T/y9IAcnRz4xjIIcaOpI8P+D2EWI293vL9c; Domain=pesquisa.in.gov.br; Path=/; Max-Age=86400; Secure; HttpOnly; SameSite=Lax\nset-cookie: az_botm=e8d91e26dd1be430ba1db0f5b1821d2c; Domain=pesquisa.in.gov.br; Path=/; Max-Age=86400; Secure; HttpOnly; SameSite=Lax\nexpires: Sat, 10 Oct 2026 19:40:35 GMT\ncache-control: max-age=0",
+   "paginas": 1,
+   "producer": "Adobe PDF Library 15.0.4; modified using iText 5.5.0",
+   "codigo_autenticidade_dou": "05152024012300074 (verificar em http://www.in.gov.br/autenticidade.html)"
+  },
+  {
+   "papel": "oficial_cofen_versao_SEI (impressao web do documento SEI 0208733, CRC F5190F43)",
+   "url": "https://www.cofen.gov.br/wp-content/uploads/2024/01/Resolucao-Cofen-no-736-2024-Dispoe-sobre-a-implementacao-do-Processo-de-Enfermagem-em-todo-contexto-socioambiental-onde-ocorre-o-cuidado-de-enfermagem.pdf",
+   "arquivo": "oficial_cofen_2_Resolucao-Cofen-no-736-2024-Dispoe.pdf",
+   "bytes": 183424,
+   "sha256": "8a8a9ecb5987a308f8e51fa2a291ea19c9284c9712300744f144c7ba48c3329e",
+   "http_headers": "HTTP/2 200 \ndate: Sat, 10 Oct 2026 19:40:33 GMT\ncontent-type: application/pdf\ncontent-length: 183424\nset-cookie: HWWAFSESID=ec0c673a1498d08c63; path=/\nset-cookie: HWWAFSESTIME=1791661233149; path=/\nlast-modified: Tue, 23 Jan 2024 11:33:45 GMT\netag: \"65afa419-2cc80\"\naccept-ranges: bytes\nserver: CW",
+   "paginas": 4,
+   "producer": "Skia/PDF m120 (Chrome)"
+  }
+ ],
+ "comparacoes": [
+  {
+   "a": "copia_local",
+   "b": "oficial_cofen_download_novo",
+   "sha256_igual": true,
+   "veredito": "IDENTICO (mesmos bytes)"
+  },
+  {
+   "a": "copia_local / oficial_cofen",
+   "b": "oficial_dou_in_gov_br",
+   "sha256_igual": false,
+   "texto": "pdftotext (modo -layout e modo padrão) produz texto IDÊNTICO byte a byte nos dois PDFs (sha256 do texto padrão 787d8d5e…, layout 6893f965…). O PDF do Cofen é a mesma página 74 do DOU regravada pelo PDFium (metadados e estrutura diferentes, conteúdo textual igual).",
+   "veredito": "MESMO CONTEUDO, BYTES DIFERENTES"
+  },
+  {
+   "a": "oficial_dou_in_gov_br (corpo da resolução)",
+   "b": "oficial_cofen_versao_SEI (corpo)",
+   "sha256_igual": false,
+   "texto": "Corpo da resolução: 1512 x 1519 tokens, similaridade 0,9957. Diferenças: (1) DOU 'Nº 736, DE' x SEI 'Nº 736 DE' (vírgula); (2) DOU 'resolve' x SEI 'RESOLVE' (caixa); (3) DOU 'interrelacionadas' x SEI 'inter-relacionadas'; (4) hífen x travessão (–) em várias alíneas; (5) cabeçalhos/rodapés do SEI (paginação 1/4, 2/4, URLs, código verificador). Assinaturas: DOU traz nomes impressos; SEI traz assinatura eletrônica. Nenhuma diferença de conteúdo normativo encontrada.",
+   "veredito": "MESMO CONTEUDO NORMATIVO, DIFERENCAS TIPOGRAFICAS (documento SEI, nao e a publicacao oficial)"
+  }
+ ],
+ "veredito_final": "IDENTICO: a cópia local (sha256 3fb4e597f053aefeb1aadf9b50c1ace53c32ca687454c28184814741677d7a49, 718575 bytes) é byte a byte igual ao PDF baixado agora de cofen.gov.br. Em relação à publicação oficial no DOU (in.gov.br), é MESMO CONTEÚDO COM BYTES DIFERENTES (texto extraído idêntico).",
+ "observacoes": [
+  "O prefixo 3fb4e597 citado na matriz (linha RES|736|2024) confere.",
+  "Conferência do código de autenticidade 05152024012300074 no site do DOU não feita (exige interação no formulário); o PDF foi obtido do servlet oficial pesquisa.in.gov.br.",
+  "NORMA_V2.json do pacote 736 (Calculadoras) registra conferencia_literal_dou = PENDENTE; esta evidência pode ser usada para fechá-la, após revisão humana."
+ ]
+}

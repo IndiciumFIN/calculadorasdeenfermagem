@@ -1,0 +1,250 @@
+{
+  "archives": [
+    {
+      "bytes": 3651646,
+      "file_count": 13,
+      "mode": "ANALISE",
+      "sha256": "1dc42b8f2f797e697afe7992a6a230e368e2a6bb29360cad90d37998ced122c8",
+      "slug": "VACINACAO_MANUAL",
+      "zip": "CKO_CURSOR_VACINACAO_MANUAL_ANALISE_VOL01of02_v1_0_0.zip"
+    },
+    {
+      "bytes": 7050680,
+      "file_count": 13,
+      "mode": "ANALISE",
+      "sha256": "814392cd78fc57e55230a8b9b08e7c1eff9a7f41c83efb37763908f9be286bf1",
+      "slug": "VACINACAO_MANUAL",
+      "zip": "CKO_CURSOR_VACINACAO_MANUAL_ANALISE_VOL02of02_v1_0_0.zip"
+    },
+    {
+      "bytes": 7315770,
+      "file_count": 3,
+      "mode": "RECONSTRUCAO_EXATA",
+      "sha256": "03fa6d6a038e079b2fd700becea6d6868bdeef2122545c1661c4b418a80b5101",
+      "slug": "VACINACAO_MANUAL",
+      "zip": "CKO_CURSOR_VACINACAO_MANUAL_RECONSTRUCAO_EXATA_v1_0_0.zip"
+    },
+    {
+      "bytes": 6682024,
+      "file_count": 21,
+      "mode": "ANALISE",
+      "sha256": "e49d7f01e3961191843debb9f4c3db93aa846aaa629592b2764bdfb77bc6e4b3",
+      "slug": "SAUDE_MULHER",
+      "zip": "CKO_CURSOR_SAUDE_MULHER_ANALISE_v1_0_0.zip"
+    },
+    {
+      "bytes": 3946273,
+      "file_count": 3,
+      "mode": "RECONSTRUCAO_EXATA",
+      "sha256": "4c68fb6f5784f59a518313337dffc14d116baf49be7732c8ba91ffe137c4f30d",
+      "slug": "SAUDE_MULHER",
+      "zip": "CKO_CURSOR_SAUDE_MULHER_RECONSTRUCAO_EXATA_v1_0_0.zip"
+    },
+    {
+      "bytes": 5340750,
+      "file_count": 19,
+      "mode": "ANALISE",
+      "sha256": "8565b7783b4630b1050b9b45675d1daed4561dfdd1a5b359ab4c605cb33828c5",
+      "slug": "ISOLAMENTO",
+      "zip": "CKO_CURSOR_ISOLAMENTO_ANALISE_v1_0_0.zip"
+    },
+    {
+      "bytes": 3751500,
+      "file_count": 3,
+      "mode": "RECONSTRUCAO_EXATA",
+      "sha256": "99ea0cb789892bf6687ff6825910ddb62c56d49f5e1f43a09b3851efe79081be",
+      "slug": "ISOLAMENTO",
+      "zip": "CKO_CURSOR_ISOLAMENTO_RECONSTRUCAO_EXATA_v1_0_0.zip"
+    },
+    {
+      "bytes": 4398067,
+      "file_count": 13,
+      "mode": "ANALISE",
+      "sha256": "e413c2b3675f51642be72e4441b4190484c208d15fca6d6ffd8e4a61a3978538",
+      "slug": "HIPERTENSAO",
+      "zip": "CKO_CURSOR_HIPERTENSAO_ANALISE_v1_0_0.zip"
+    },
+    {
+      "bytes": 3200714,
+      "file_count": 2,
+      "mode": "RECONSTRUCAO_EXATA",
+      "sha256": "11c39ab293a4e84e09d3c16f5608b41ff28c438f04a7748d88576c17d138d66f",
+      "slug": "HIPERTENSAO",
+      "zip": "CKO_CURSOR_HIPERTENSAO_RECONSTRUCAO_EXATA_v1_0_0.zip"
+    },
+    {
+      "bytes": 2983421,
+      "file_count": 9,
+      "mode": "ANALISE",
+      "sha256": "df70bc35d5c934012b96efca356209096523651e52693b3ba201860f2e7e9080",
+      "slug": "NEWS2",
+      "zip": "CKO_CURSOR_NEWS2_ANALISE_v1_0_0.zip"
+    },
+    {
+      "bytes": 2530035,
+      "file_count": 2,
+      "mode": "RECONSTRUCAO_EXATA",
+      "sha256": "692cdf8112023662ff753860b39dcdc91a9ab3f2e0e7e4f256918444e2114262",
+      "slug": "NEWS2",
+      "zip": "CKO_CURSOR_NEWS2_RECONSTRUCAO_EXATA_v1_0_0.zip"
+    },
+    {
+      "bytes": 2656540,
+      "file_count": 7,
+      "mode": "ANALISE",
+      "sha256": "8ba96a2d596386d430ebe52bc4d2ff10b55a6b11ae31c24351e726791f152308",
+      "slug": "CALENDARIO_VACINAL_2026",
+      "zip": "CKO_CURSOR_CALENDARIO_VACINAL_2026_ANALISE_v1_0_0.zip"
+    },
+    {
+      "bytes": 1348959,
+      "file_count": 2,
+      "mode": "RECONSTRUCAO_EXATA",
+      "sha256": "e6442c6f269928343df372385139e067acb38685a0c4daa677a02a793f7242bb",
+      "slug": "CALENDARIO_VACINAL_2026",
+      "zip": "CKO_CURSOR_CALENDARIO_VACINAL_2026_RECONSTRUCAO_EXATA_v1_0_0.zip"
+    }
+  ],
+  "classification": "OFFLINE_REVIEW_ARTIFACT",
+  "folder_name": "extracao bruta Grok Bot Danadão",
+  "folder_url": "https://drive.google.com/drive/folders/1l519_P-9o6bnQcItydKvEEDpEYeE8R8s",
+  "schema": "cko.cursor.fragmentation.control.v1",
+  "snapshot_date": "2026-10-15",
+  "sources": [
+    {
+      "analysis_pdf_parts": 12,
+      "drive_file_id": "1DI93yP4vtohgcN68_RRE1ZQRBULh2ujA",
+      "drive_url": "https://drive.google.com/file/d/1DI93yP4vtohgcN68_RRE1ZQRBULh2ujA/view",
+      "label": "Manual de Normas e Procedimentos para Vacinação (2ª ed.)",
+      "low_text_pages_lt100": [
+        296
+      ],
+      "qa": "PASS",
+      "raw_exact_parts": 2,
+      "review_status": "NOT_VALIDATED_NORMATIVELY",
+      "slug": "VACINACAO_MANUAL",
+      "source_bytes": 7995572,
+      "source_filename": "Manual_de_Normas_e_Procedimentos_para_Vacinacao_2a_ed_rev.pdf",
+      "source_folder": "protocolos_enfermagem/raw/pdfs",
+      "source_sha256": "f1b7d1a86193982b99ad4d7a68d54d359b77f3ad3ee8eea931ff6a266bef21a6",
+      "total_pages": 296,
+      "whitespace_only_pages": []
+    },
+    {
+      "analysis_pdf_parts": 10,
+      "drive_file_id": "1LalSePDqjgrpgN7PRUBDKlMCIiyRhOMK",
+      "drive_url": "https://drive.google.com/file/d/1LalSePDqjgrpgN7PRUBDKlMCIiyRhOMK/view",
+      "label": "Protocolos da Atenção Básica — Saúde das Mulheres",
+      "low_text_pages_lt100": [
+        2,
+        7,
+        11,
+        21,
+        151,
+        173,
+        197,
+        213
+      ],
+      "qa": "PASS",
+      "raw_exact_parts": 2,
+      "review_status": "NOT_VALIDATED_NORMATIVELY",
+      "slug": "SAUDE_MULHER",
+      "source_bytes": 4885085,
+      "source_filename": "Protocolos_da_Atencao_Basica_Saude_das_Mulheres.pdf",
+      "source_folder": "protocolos_enfermagem/raw/pdfs",
+      "source_sha256": "5d83345b49ee9fac862423e9534afe7c04f44c200f5f752738b782012c5a7680",
+      "total_pages": 231,
+      "whitespace_only_pages": []
+    },
+    {
+      "analysis_pdf_parts": 9,
+      "drive_file_id": "1R1xFb99ehGppHbfQEXeNCMEhkB2Kfboc",
+      "drive_url": "https://drive.google.com/file/d/1R1xFb99ehGppHbfQEXeNCMEhkB2Kfboc/view",
+      "label": "Guideline for Isolation Precautions",
+      "low_text_pages_lt100": [],
+      "qa": "PASS",
+      "raw_exact_parts": 2,
+      "review_status": "NOT_VALIDATED_NORMATIVELY",
+      "slug": "ISOLAMENTO",
+      "source_bytes": 4350707,
+      "source_filename": "Guideline_for_Isolation_Precautions.pdf",
+      "source_folder": "protocolos_enfermagem/raw/pdfs",
+      "source_sha256": "b613754256f54883345213c85c379bb7178c1f4d26d774915deaa91aa59c0508",
+      "total_pages": 211,
+      "whitespace_only_pages": []
+    },
+    {
+      "analysis_pdf_parts": 6,
+      "drive_file_id": "1w6liciPR2UnUyQCMbSFsDswni7kPE_nm",
+      "drive_url": "https://drive.google.com/file/d/1w6liciPR2UnUyQCMbSFsDswni7kPE_nm/view",
+      "label": "Diretrizes Brasileiras de Hipertensão Arterial 2020",
+      "low_text_pages_lt100": [],
+      "qa": "PASS_WITH_WHITESPACE_NOTE",
+      "raw_exact_parts": 1,
+      "review_status": "NOT_VALIDATED_NORMATIVELY",
+      "slug": "HIPERTENSAO",
+      "source_bytes": 3972880,
+      "source_filename": "DBHA2020_ArqBrasCardiol_116-3_516-658.pdf",
+      "source_folder": "revisao/fontes",
+      "source_sha256": "b62921e259f1c41e384fff56f3bcb0b8ed4686fad670607a2e2f09ead153ee0d",
+      "total_pages": 143,
+      "whitespace_only_pages": [
+        17,
+        18,
+        19,
+        23,
+        24,
+        41,
+        62
+      ]
+    },
+    {
+      "analysis_pdf_parts": 4,
+      "drive_file_id": "1qg8T2d9AJC_5swaoxwFODgiDeObw7_3y",
+      "drive_url": "https://drive.google.com/file/d/1qg8T2d9AJC_5swaoxwFODgiDeObw7_3y/view",
+      "label": "NEWS2 RCP Final Report 2017",
+      "low_text_pages_lt100": [],
+      "qa": "PASS",
+      "raw_exact_parts": 1,
+      "review_status": "NOT_VALIDATED_NORMATIVELY",
+      "slug": "NEWS2",
+      "source_bytes": 2588875,
+      "source_filename": "NEWS2_RCP2017_Final_report.pdf",
+      "source_folder": "revisao/fontes",
+      "source_sha256": "c5dad854ccf0d210142d71434317b3407b8601416c9613b9c528f7cbec24de18",
+      "total_pages": 77,
+      "whitespace_only_pages": []
+    },
+    {
+      "analysis_pdf_parts": 3,
+      "drive_file_id": "1qCRop-FZFBxxZQbbT2JUTWiUD8Hpqk2g",
+      "drive_url": "https://drive.google.com/file/d/1qCRop-FZFBxxZQbbT2JUTWiUD8Hpqk2g/view",
+      "label": "Instrução Normativa — Calendário Nacional de Vacinação 2026",
+      "low_text_pages_lt100": [],
+      "qa": "PASS",
+      "raw_exact_parts": 1,
+      "review_status": "NOT_VALIDATED_NORMATIVELY",
+      "slug": "CALENDARIO_VACINAL_2026",
+      "source_bytes": 1573688,
+      "source_filename": "Instrucao_Normativa_do_Calendario_Nacional_de_Vacinacao_2026.pdf",
+      "source_folder": "protocolos_enfermagem/raw/pdfs",
+      "source_sha256": "ff0a85fa4d81680b6b3c0c0ccb237c1475b2876214971228b7567e45d5d3d8c9",
+      "total_pages": 60,
+      "whitespace_only_pages": []
+    }
+  ],
+  "statement": "6 arquivos acessíveis selecionados por volume e/ou páginas; outras partes da pasta não foram copiadas. Nenhum arquivo do Drive foi modificado.",
+  "tests": {
+    "PDF_first_last_render_compared": "PASS",
+    "PDF_fragment_text_verified_page_by_page": "PASS",
+    "PDF_page_ranges_contiguous": "PASS",
+    "all_archive_members_CRC": "PASS",
+    "every_source_SHA256_original": "PASS",
+    "raw_exact_reassembly_sha256": "PASS"
+  },
+  "total_pages": 1018,
+  "total_pdf_chunks": 44,
+  "total_raw_parts": 9,
+  "total_sources": 6,
+  "version": "1.0.0"
+}

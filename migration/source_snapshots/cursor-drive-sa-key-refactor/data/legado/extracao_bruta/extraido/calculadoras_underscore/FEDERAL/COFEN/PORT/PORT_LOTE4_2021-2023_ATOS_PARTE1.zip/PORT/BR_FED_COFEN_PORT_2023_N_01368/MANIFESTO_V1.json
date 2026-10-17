@@ -1,0 +1,50 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-1368-de-31-de-agosto-de-2023/ (API WordPress post 111356); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2023_N_01368_ATOMOS_V1.jsonl",
+      "sha256": "7d5d9e6457ff5d54f773517af2aac1b6578d7bff9b449e1ad670f4cda49ce8b5",
+      "tamanho": 12384
+    },
+    {
+      "nome": "PORT_2023_N_01368_CONTEUDO_SITE_API.json",
+      "sha256": "3e5f482d7fe6a25a665f66926e087e8ea3a35b6e26f5f86a724e69a5cfdbe4cf",
+      "tamanho": 2878
+    },
+    {
+      "nome": "PORT_2023_N_01368_NORMA_V1.json",
+      "sha256": "02f665eb16f4870a84d6053b7aca99c1e3b48d17e801463ebe7049ad7ed17cb3",
+      "tamanho": 4230
+    },
+    {
+      "nome": "PORT_2023_N_01368_PAGINA_SITE.html",
+      "sha256": "f0e1c0c8fb6a5820349f0c6a184e245203089b72ad74b790ad21f06d00821c4d",
+      "tamanho": 440953
+    },
+    {
+      "nome": "PORT_2023_N_01368_PDF_SITE.pdf",
+      "sha256": "fc92a4b64594c603d5731b551ed593f5cfeeaac86b0b4dbe28f644181abfa92f",
+      "tamanho": 118676
+    },
+    {
+      "nome": "PORT_2023_N_01368_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "ba12eb7a68257a2e84c69da10b9caf56bb458318d743fa8ff99ff08e78e3d076",
+      "tamanho": 2554
+    },
+    {
+      "nome": "PORT_2023_N_01368_TEXTO_FONTE_V1.txt",
+      "sha256": "b241dadafb7cfd55bf5ee6036d3805e36023dc1582509aee1ffbe9a5d82ed888",
+      "tamanho": 1476
+    },
+    {
+      "nome": "PORT_2023_N_01368_VALIDACAO_V1.json",
+      "sha256": "9f3451c73b257e1cdcd676a788566a92abf688dadb267d831f371a96dabfc4a7",
+      "tamanho": 4848
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada."
+  ]
+}

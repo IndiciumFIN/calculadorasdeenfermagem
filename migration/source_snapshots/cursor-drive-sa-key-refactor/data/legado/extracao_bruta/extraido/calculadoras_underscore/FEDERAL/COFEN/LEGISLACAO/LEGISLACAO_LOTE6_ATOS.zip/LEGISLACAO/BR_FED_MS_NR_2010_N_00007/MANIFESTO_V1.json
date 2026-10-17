@@ -1,0 +1,43 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/norma-regulamentadora-nr-07-ms-2010-requisitos-minimos-para-funcionamento-de-unidades-de-terapia-intensiva-dou-no-37-quinta-feira-25-de-fevereiro-de-2010/ (API WordPress post 51461); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "NR_2010_N_00007_ATOMOS_V1.jsonl",
+      "sha256": "08f8cb16892e2b97c9d2291dd40a3e5cddf7559218b7b75f62813b87d189fef4",
+      "tamanho": 704
+    },
+    {
+      "nome": "NR_2010_N_00007_CONTEUDO_SITE_API.json",
+      "sha256": "a1b0d9c811b3d7af855ccc6d9d0e3e984e001aed115ea18e90ffbc54956f17ae",
+      "tamanho": 508
+    },
+    {
+      "nome": "NR_2010_N_00007_NORMA_V1.json",
+      "sha256": "c4a722fd2a49a98b0df92d5fc5e2e440d655dac5f30ddefdd4e9518131a81f78",
+      "tamanho": 2194
+    },
+    {
+      "nome": "NR_2010_N_00007_PAGINA_SITE.html",
+      "sha256": "ee212c84289dc2ba0a15e0cebeb89d9a20cef673bb76c8dbbb7c205a90f27f3c",
+      "tamanho": 438842
+    },
+    {
+      "nome": "NR_2010_N_00007_TEXTO_FONTE_V1.txt",
+      "sha256": "cf3f5231af48d275d71e702b8cf4b6c426d9b477b96e982fb746082872e50d8d",
+      "tamanho": 112
+    },
+    {
+      "nome": "NR_2010_N_00007_VALIDACAO_V1.json",
+      "sha256": "a470e794cf7c618c943a9ba6ac953031abf61916d147c2a4f1211452dd0a8f8e",
+      "tamanho": 2950
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Página do site quase sem texto (0 caracteres) e sem PDF do ato; conteúdo do ato não disponível.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

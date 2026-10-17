@@ -1,0 +1,51 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-390-de-06-de-maio-de-2021/ (API WordPress post 87012); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2021_N_00390_ATOMOS_V1.jsonl",
+      "sha256": "c7c3b6c8858fd16e4751f4b6a5be240ba6213ae31f14dbc45e458780bbbc3054",
+      "tamanho": 15736
+    },
+    {
+      "nome": "PORT_2021_N_00390_CONTEUDO_SITE_API.json",
+      "sha256": "d28ac7f8f0218b42db8dd53fcd2752352dc11827afb74c85698f5ed70e6a57f3",
+      "tamanho": 2221
+    },
+    {
+      "nome": "PORT_2021_N_00390_NORMA_V1.json",
+      "sha256": "11202a875bbbeb2d16e9b922078bfd9816021791217743f9b551ccb3c1411418",
+      "tamanho": 3645
+    },
+    {
+      "nome": "PORT_2021_N_00390_PAGINA_SITE.html",
+      "sha256": "c7e215797c4b7fb743ff4021e9253b0e4a5f4f6113a23c2bc95180b08ccf0c08",
+      "tamanho": 439963
+    },
+    {
+      "nome": "PORT_2021_N_00390_PDF_SITE.pdf",
+      "sha256": "71f3cb5b213d4a7a1aca354b909c4c6c3cebcb952cb347445b69dffd8114aa51",
+      "tamanho": 311566
+    },
+    {
+      "nome": "PORT_2021_N_00390_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "d810a98367b95e0063c873a5a2f020af4d1f86ad0eeba2dfe3a2c0e3fc2dd2e0",
+      "tamanho": 1740
+    },
+    {
+      "nome": "PORT_2021_N_00390_TEXTO_FONTE_V1.txt",
+      "sha256": "deb09cd20d4fb4585cc340b9ba7c6f9d3c033942630e0026ef754927f92f6dd8",
+      "tamanho": 1507
+    },
+    {
+      "nome": "PORT_2021_N_00390_VALIDACAO_V1.json",
+      "sha256": "bec248632a66abc99ed2fa667cefffc3157ae2f70c7abf6dddcd75bf7ba8dc8b",
+      "tamanho": 5762
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "WO-2026_10_15_0009",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "task_type": "obter",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "parametros": {
+    "pasta_drive": "1l519_P-9o6bnQcItydKvEEDpEYeE8R8s",
+    "pasta_ferimentos": "1vzBaCpcH_HPsoXbwc5uNkcZ2VSGh9si2",
+    "lote": "ferimentos"
+  },
+  "entradas": [
+    {
+      "id_origem": "110HJsNy7HSiVLmi8JuknxdpFhS5w5k3N",
+      "caminho": "ferimentos/ferimentos_cid10.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1t3IA4MfcM7_nwdS25d6z58Hkg7AHaIVf",
+      "caminho": "ferimentos/ferimentos_cid11.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1G3y_ifQERM0D2_SqYyMlz0QTkHDJdDvs",
+      "caminho": "ferimentos/tipos_curativos_catmat_pdm_classe_6510.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1TAW63gtvlVhU2WiMhzE3hDhasn561AMv",
+      "caminho": "ferimentos/ferimentos_mesh.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1x8hjIJtMavEObyezJBeKTyqBDHxsA2UA",
+      "caminho": "ferimentos/tipos_curativos_anvisa_nome_tecnico.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "17UUvWPNcf61G4gmzzwmcO0BhnoyYDCn7",
+      "caminho": "ferimentos/tipos_curativos_anvisa_nome_tecnico.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1VnzPNoeyx9R-8WNr2JMoeUqJ3RBRV-KU",
+      "caminho": "ferimentos/tipos_curativos_catmat_pdm_classe_6510.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1cQoLJQjbRsT8_LNH1PSsdppAGZXmih-7",
+      "caminho": "ferimentos/ferimentos_mesh.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1e9Tx4mk6x_T27I7AevJJS_zV86G6fsrs",
+      "caminho": "ferimentos/ferimentos_cid11.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1v48oRASO7Fn-RgXN-sRGhOVmYOENXeHY",
+      "caminho": "ferimentos/ferimentos_cid10.json",
+      "classe": "REFERENCIA"
+    }
+  ],
+  "task_id": "TAREFA-OBTER",
+  "task_version": "1.0.0"
+}

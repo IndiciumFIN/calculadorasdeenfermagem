@@ -1,0 +1,32 @@
+{
+  "algoritmo": "concatenacao-bytes-sha256",
+  "id_origem": "",
+  "arquivo": "anvisa_medicamentos_registrados.json",
+  "caminho_obter": "anvisa_medicamentos_registrados.json",
+  "bytes": 113538797,
+  "sha256": "285add02f9be153ef61c6970972a27bf7a7acb281d80750023cbb4a85a3755ed",
+  "tamanho_parte": 40000000,
+  "partes": [
+    {
+      "nome": "part-000",
+      "ordem": 0,
+      "offset": 0,
+      "bytes": 40000000,
+      "sha256": "32233516103ba2e5879b0af188c7411ecc06bd4ba357fb31f5d700848f5e8fbc"
+    },
+    {
+      "nome": "part-001",
+      "ordem": 1,
+      "offset": 40000000,
+      "bytes": 40000000,
+      "sha256": "83402723969a484ebdf42f1ead7322f388efc401703f0746ba242638c5a2ddc1"
+    },
+    {
+      "nome": "part-002",
+      "ordem": 2,
+      "offset": 80000000,
+      "bytes": 33538797,
+      "sha256": "922388c21fa0eb7e18cf78865f9a8a024a684e1cbf6993f87fcf71d4b18593aa"
+    }
+  ]
+}

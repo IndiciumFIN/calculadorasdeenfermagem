@@ -1,0 +1,54 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-453-ms-1998-protecao-radiologica-em-radiodiagnostico-dou-no-103-e-terca-feira-2-de-junho-de-1998-2/ (API WordPress post 51481); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_1998_N_00453_ATOMOS_V1.jsonl",
+      "sha256": "ec8b5a02b74586fc1fbc3373af30b9a35ec92a5c619c80a514dc8e223a19ce29",
+      "tamanho": 577700
+    },
+    {
+      "nome": "PORT_1998_N_00453_CONTEUDO_SITE_API.json",
+      "sha256": "579de4189c19ad36dcdc7a0009b21ead8684585e2b43f2ea557708b00e058ec4",
+      "tamanho": 546
+    },
+    {
+      "nome": "PORT_1998_N_00453_NORMA_V1.json",
+      "sha256": "ab3aa588600fd0c3798f1b25ce42b42b2166c7495510f3d7dda3522dcebfbe2c",
+      "tamanho": 9401
+    },
+    {
+      "nome": "PORT_1998_N_00453_PAGINA_SITE.html",
+      "sha256": "1b6743be5baa69b53ebc280ed4fc9313612dbd6e6d0727452627d810a1eefc75",
+      "tamanho": 437307
+    },
+    {
+      "nome": "PORT_1998_N_00453_PDF_SITE.pdf",
+      "sha256": "4063dbfa19a9a3521b437f8f7274e9ee15d27828b85f8f2e9b3e605b1a3563b7",
+      "tamanho": 3201711
+    },
+    {
+      "nome": "PORT_1998_N_00453_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "65145284f834179263660cd1803481b7c4c2f83e03e1f571b932141af4a9399f",
+      "tamanho": 153190
+    },
+    {
+      "nome": "PORT_1998_N_00453_TEXTO_FONTE_V1.txt",
+      "sha256": "8c8f65d3ff0009dceb7585c9c4597718f3ce9ea05d35ff82abf9d8d029f4664f",
+      "tamanho": 153249
+    },
+    {
+      "nome": "PORT_1998_N_00453_VALIDACAO_V1.json",
+      "sha256": "602b0ee151c3f89bfe942cc538b9f6d46b5806068a5d370f725713707eb65320",
+      "tamanho": 10401
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Texto do ato disponível apenas no PDF (o site traz só título/resumo); atomização feita a partir da camada de texto do PDF.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

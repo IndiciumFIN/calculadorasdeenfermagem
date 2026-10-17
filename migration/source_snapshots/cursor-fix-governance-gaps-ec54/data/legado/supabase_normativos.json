@@ -1,0 +1,108 @@
+{
+  "verificado_em": "2026-10-15T01:20:00Z",
+  "organizacao_id": "fuffdjignqrldlxlguti",
+  "leitura": "Os dois projetos foram consultados. O projeto simulados-para-enfermagem estava INACTIVE e foi restaurado nesta leitura; o banco só respondeu depois do status ACTIVE_HEALTHY. Nenhum objeto foi apagado.",
+  "projetos": [
+    {
+      "id": "aevqrmkdhffmursdtcmo",
+      "nome": "auditeduca's Project",
+      "regiao": "us-east-2",
+      "status_lido": "ACTIVE_HEALTHY",
+      "esquema_regulatory": true,
+      "contagens": {
+        "regulatory.schema_registry": 1,
+        "regulatory.instruments": 0,
+        "regulatory.provisions": 0,
+        "regulatory.versions": 0,
+        "regulatory.organizations": 0,
+        "regulatory.jurisdictions": 0,
+        "regulatory.source_snapshots": 0,
+        "cko_editorial.secoes_com_cofen": 0,
+        "public.questoes_com_cofen": 0
+      },
+      "contrato": {
+        "code": "CKO-REGULATORY",
+        "version": "1.0.0",
+        "status": "active"
+      },
+      "exclusao": "BLOQUEAR",
+      "motivo_bloqueio": "O contrato regulatório está ativo e não está copiado no Git. As tabelas de acervo existem com zero linhas. Anatomia, calculadoras, questões e o gateway DeepSeek não são sobra."
+    },
+    {
+      "id": "bsawvgyideporzailnys",
+      "nome": "simulados-para-enfermagem",
+      "regiao": "sa-east-1",
+      "status_antes": "INACTIVE",
+      "status_lido": "ACTIVE_HEALTHY",
+      "entidades": 45,
+      "topicos_que_nomeiam_norma": [
+        "TOPIC-SANTOS-74-2026-M01",
+        "TOPIC-SANTOS-74-2026-M02",
+        "TOPIC-SANTOS-74-2026-M03",
+        "TOPIC-SANTOS-74-2026-M04",
+        "TOPIC-SANTOS-74-2026-M05",
+        "TOPIC-SANTOS-74-2026-M06",
+        "TOPIC-SANTOS-74-2026-M07",
+        "TOPIC-SANTOS-74-2026-M08",
+        "TOPIC-SANTOS-74-2026-M09",
+        "TOPIC-SANTOS-74-2026-S01",
+        "TOPIC-SANTOS-74-2026-S02",
+        "TOPIC-SANTOS-74-2026-S03",
+        "TOPIC-SANTOS-74-2026-S04",
+        "TOPIC-SANTOS-74-2026-S05",
+        "TOPIC-SANTOS-74-2026-S06",
+        "TOPIC-SANTOS-74-2026-S07",
+        "TOPIC-SANTOS-74-2026-S08",
+        "TOPIC-SANTOS-74-2026-S09",
+        "TOPIC-SANTOS-74-2026-S10",
+        "TOPIC-SANTOS-74-2026-S11",
+        "TOPIC-SANTOS-74-2026-S12",
+        "TOPIC-SANTOS-74-2026-S13",
+        "CONTENT-SANTOS-74-2026-S04-7-9"
+      ],
+      "texto_integral_nas_tabelas": false,
+      "ocorrencias_da_string_cofen": 0,
+      "catalogo_pci_concursos": {
+        "itens": 183,
+        "categoria": "prova",
+        "titulos_com_lei_resolucao_ou_cofen": 0
+      },
+      "arquivos": [
+        {
+          "bucket": "source-documents",
+          "publico": false,
+          "caminho": "vercel/1ba01168-752a-4a2b-9469-26103fbbfd6f/lei4623.pdf",
+          "bytes": 179679,
+          "mime": "application/pdf",
+          "sha256": null
+        },
+        {
+          "bucket": "source-documents",
+          "publico": false,
+          "caminho": "vercel/5baf05a7-037b-41e6-9106-70b8ffdf26d5/lei4623.pdf",
+          "bytes": 179679,
+          "mime": "application/pdf",
+          "sha256": null
+        },
+        {
+          "bucket": "source-documents",
+          "publico": false,
+          "caminho": "vercel/8528aeee-39f9-491b-964c-621e34b2384f/lei4623.pdf",
+          "bytes": 179679,
+          "mime": "application/pdf",
+          "sha256": null
+        },
+        {
+          "bucket": "source-documents",
+          "publico": false,
+          "caminho": "vercel/efc387c9-b4c9-4c72-b4bb-e458cbddffd4/lei4623.pdf",
+          "bytes": 179679,
+          "mime": "application/pdf",
+          "sha256": null
+        }
+      ],
+      "exclusao": "BLOQUEAR",
+      "motivo_bloqueio": "Quatro PDFs da Lei 4.623/1984 têm o mesmo tamanho e o bucket é privado. O SHA-256 de cada objeto não foi conferido e não há cópia no Git. Os tópicos nomeiam a norma e não guardam o texto integral."
+    }
+  ]
+}

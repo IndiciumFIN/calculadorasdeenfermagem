@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-tecnico-da-assessoria-de-relacoes-institucionais-no-005-2021-ari-cofen/ (API WordPress post 87962); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARASS_2021_N_00005_ARI_ATOMOS_V1.jsonl",
+      "sha256": "7f4fa0ddc92ceb70b2156b0e6f4bac3433801fd3928b7eef6422b06e7f311f86",
+      "tamanho": 25301
+    },
+    {
+      "nome": "PARASS_2021_N_00005_ARI_CONTEUDO_SITE_API.json",
+      "sha256": "8ee312a9d1c5e997a587d4980eb5b3afc654d0055d5ee8d7be4d363c0e45626a",
+      "tamanho": 6713
+    },
+    {
+      "nome": "PARASS_2021_N_00005_ARI_NORMA_V1.json",
+      "sha256": "4894d6bc5af097fa534d71b55e5808e5cc2b9e765c1a87cfd7a31445091911a0",
+      "tamanho": 5037
+    },
+    {
+      "nome": "PARASS_2021_N_00005_ARI_PAGINA_SITE.html",
+      "sha256": "fb8ec01ca9979a000c1ef1b4d4bb624aa685916c980b4a07c98b1ac79d566018",
+      "tamanho": 445562
+    },
+    {
+      "nome": "PARASS_2021_N_00005_ARI_TEXTO_FONTE_V1.txt",
+      "sha256": "e9affee2537077938d538328e4874ff6c1bea3ae632123f32f9d59a909751dc2",
+      "tamanho": 5569
+    },
+    {
+      "nome": "PARASS_2021_N_00005_ARI_VALIDACAO_V1.json",
+      "sha256": "382587b3263b24b7ec5106b82eb70a419061ab75640d6d697f2e5e6039d1a401",
+      "tamanho": 2974
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir."
+  ]
+}

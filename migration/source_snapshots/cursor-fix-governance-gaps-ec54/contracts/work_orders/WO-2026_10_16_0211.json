@@ -1,0 +1,25 @@
+{
+  "id": "WO-2026_10_16_0211",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "task_id": "TAREFA-IMPORTAR-DRIVE",
+  "task_type": "importar-drive",
+  "task_version": "1.0.0",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "entradas": [
+    {
+      "id_origem": "1AojkL8Kth9Gwg3PMG_aXyY-DbCjJWYdU",
+      "caminho": "data/legado/extracao_bruta/CONTEUDOS_CE_WAVE11/ESCALA_ALDRETE_FORM/1AojkL8Kth9Gwg3PMG_aXyY-DbCjJWYdU/aldrete-ptBR-experience-candidate-v0.5.2.html",
+      "classe": "REFERENCIA",
+      "sha256": "bef59755425a62f7e41ce8a09a9086c6455c4aac3b6aaadb788e8b167a6b9a54"
+    }
+  ],
+  "parametros": {
+    "source_provider": "google_drive",
+    "source_mount": "aldrete-ptBR-experience-candidate-v0.5.2.html",
+    "lote": "WAVE11-EDITORIAL-FORMS",
+    "publicacao": "BLOQUEADA",
+    "exclusao": "BLOQUEADA"
+  }
+}

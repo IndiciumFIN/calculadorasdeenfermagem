@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-juridico-n-7-r-2021-dpac-proger-cofen/ (API WordPress post 86008); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARJUR_2021_N_00007_R_DPAC_ATOMOS_V1.jsonl",
+      "sha256": "3be8dc25b59fbe45ca418625fd22cfb88935b75c6016c0712bef25854afbbe59",
+      "tamanho": 63735
+    },
+    {
+      "nome": "PARJUR_2021_N_00007_R_DPAC_CONTEUDO_SITE_API.json",
+      "sha256": "c3f70a90dcd01ac80134d969e6e67258fa7c75b4860a63117e41d5da7da6c42a",
+      "tamanho": 15362
+    },
+    {
+      "nome": "PARJUR_2021_N_00007_R_DPAC_NORMA_V1.json",
+      "sha256": "e7b7ef754647786a7d7b182cc7f2c4004d1cfaab09a3e28f8f4974da97af4962",
+      "tamanho": 3382
+    },
+    {
+      "nome": "PARJUR_2021_N_00007_R_DPAC_PAGINA_SITE.html",
+      "sha256": "5d082f14d1c44799411a1be4c81dee7979beab80ac8892000c61c83f8e9ef9bb",
+      "tamanho": 452759
+    },
+    {
+      "nome": "PARJUR_2021_N_00007_R_DPAC_TEXTO_FONTE_V1.txt",
+      "sha256": "9f0c794b22b3d17cf0d858c2e2693ded63b5b416f0e8e19bc39214fb753cfc98",
+      "tamanho": 13707
+    },
+    {
+      "nome": "PARJUR_2021_N_00007_R_DPAC_VALIDACAO_V1.json",
+      "sha256": "49ae2c3869c374130ff616466650eae696b1da6ef24cfe094e04de1edf42dadb",
+      "tamanho": 2469
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

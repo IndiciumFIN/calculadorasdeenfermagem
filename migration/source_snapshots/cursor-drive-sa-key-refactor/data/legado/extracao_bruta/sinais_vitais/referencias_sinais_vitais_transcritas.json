@@ -1,0 +1,251 @@
+{
+ "AVISO": "CONTEÚDO TRANSCRITO MANUALMENTE (digitado pelo Grok Bot) a partir das fontes citadas. NÃO é extração automática. Confira no documento original antes de uso clínico.",
+ "news2": {
+  "fonte": "Royal College of Physicians. National Early Warning Score (NEWS) 2. London: RCP, 2017. https://www.rcp.ac.uk/improving-care/resources/national-early-warning-score-news-2/",
+  "parametros": [
+   {
+    "parametro": "Frequência respiratória (irpm)",
+    "faixas": [
+     {
+      "faixa": "<=8",
+      "pontos": 3
+     },
+     {
+      "faixa": "9-11",
+      "pontos": 1
+     },
+     {
+      "faixa": "12-20",
+      "pontos": 0
+     },
+     {
+      "faixa": "21-24",
+      "pontos": 2
+     },
+     {
+      "faixa": ">=25",
+      "pontos": 3
+     }
+    ]
+   },
+   {
+    "parametro": "SpO2 escala 1 (%)",
+    "faixas": [
+     {
+      "faixa": "<=91",
+      "pontos": 3
+     },
+     {
+      "faixa": "92-93",
+      "pontos": 2
+     },
+     {
+      "faixa": "94-95",
+      "pontos": 1
+     },
+     {
+      "faixa": ">=96",
+      "pontos": 0
+     }
+    ]
+   },
+   {
+    "parametro": "SpO2 escala 2 (%) - hipercapnia",
+    "faixas": [
+     {
+      "faixa": "<=83",
+      "pontos": 3
+     },
+     {
+      "faixa": "84-85",
+      "pontos": 2
+     },
+     {
+      "faixa": "86-87",
+      "pontos": 1
+     },
+     {
+      "faixa": "88-92 ou >=93 em ar ambiente",
+      "pontos": 0
+     },
+     {
+      "faixa": "93-94 com O2",
+      "pontos": 1
+     },
+     {
+      "faixa": "95-96 com O2",
+      "pontos": 2
+     },
+     {
+      "faixa": ">=97 com O2",
+      "pontos": 3
+     }
+    ]
+   },
+   {
+    "parametro": "Ar ambiente ou oxigênio",
+    "faixas": [
+     {
+      "faixa": "Oxigênio",
+      "pontos": 2
+     },
+     {
+      "faixa": "Ar ambiente",
+      "pontos": 0
+     }
+    ]
+   },
+   {
+    "parametro": "Pressão arterial sistólica (mmHg)",
+    "faixas": [
+     {
+      "faixa": "<=90",
+      "pontos": 3
+     },
+     {
+      "faixa": "91-100",
+      "pontos": 2
+     },
+     {
+      "faixa": "101-110",
+      "pontos": 1
+     },
+     {
+      "faixa": "111-219",
+      "pontos": 0
+     },
+     {
+      "faixa": ">=220",
+      "pontos": 3
+     }
+    ]
+   },
+   {
+    "parametro": "Frequência cardíaca (bpm)",
+    "faixas": [
+     {
+      "faixa": "<=40",
+      "pontos": 3
+     },
+     {
+      "faixa": "41-50",
+      "pontos": 1
+     },
+     {
+      "faixa": "51-90",
+      "pontos": 0
+     },
+     {
+      "faixa": "91-110",
+      "pontos": 1
+     },
+     {
+      "faixa": "111-130",
+      "pontos": 2
+     },
+     {
+      "faixa": ">=131",
+      "pontos": 3
+     }
+    ]
+   },
+   {
+    "parametro": "Consciência (ACVPU)",
+    "faixas": [
+     {
+      "faixa": "Alerta",
+      "pontos": 0
+     },
+     {
+      "faixa": "Confusão nova, V, P ou U",
+      "pontos": 3
+     }
+    ]
+   },
+   {
+    "parametro": "Temperatura (°C)",
+    "faixas": [
+     {
+      "faixa": "<=35.0",
+      "pontos": 3
+     },
+     {
+      "faixa": "35.1-36.0",
+      "pontos": 1
+     },
+     {
+      "faixa": "36.1-38.0",
+      "pontos": 0
+     },
+     {
+      "faixa": "38.1-39.0",
+      "pontos": 1
+     },
+     {
+      "faixa": ">=39.1",
+      "pontos": 2
+     }
+    ]
+   }
+  ],
+  "risco_clinico": [
+   {
+    "pontuacao": "0-4",
+    "risco": "baixo"
+   },
+   {
+    "pontuacao": "3 em um único parâmetro",
+    "risco": "baixo-médio"
+   },
+   {
+    "pontuacao": "5-6",
+    "risco": "médio"
+   },
+   {
+    "pontuacao": ">=7",
+    "risco": "alto"
+   }
+  ]
+ },
+ "pressao_arterial_brasil_2020": {
+  "fonte": "Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial - 2020. Arq Bras Cardiol. 2021;116(3):516-658. Tabela de classificação da PA no consultório (>=18 anos)",
+  "classificacao": [
+   {
+    "classificacao": "PA ótima",
+    "pas_mmHg": "<120",
+    "conector": "e",
+    "pad_mmHg": "<80"
+   },
+   {
+    "classificacao": "PA normal",
+    "pas_mmHg": "120-129",
+    "conector": "e/ou",
+    "pad_mmHg": "80-84"
+   },
+   {
+    "classificacao": "Pré-hipertensão",
+    "pas_mmHg": "130-139",
+    "conector": "e/ou",
+    "pad_mmHg": "85-89"
+   },
+   {
+    "classificacao": "HA estágio 1",
+    "pas_mmHg": "140-159",
+    "conector": "e/ou",
+    "pad_mmHg": "90-99"
+   },
+   {
+    "classificacao": "HA estágio 2",
+    "pas_mmHg": "160-179",
+    "conector": "e/ou",
+    "pad_mmHg": "100-109"
+   },
+   {
+    "classificacao": "HA estágio 3",
+    "pas_mmHg": ">=180",
+    "conector": "e/ou",
+    "pad_mmHg": ">=110"
+   }
+  ]
+ }
+}

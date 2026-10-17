@@ -1,0 +1,43 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-conselheira-federal-n-280-2022-cofen/ (API WordPress post 107924); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCONS_2022_N_00280_ATOMOS_V1.jsonl",
+      "sha256": "9ac1708514284e8c9223110d6b0e7d028c1eca10fb17ba0d8f76db758455797c",
+      "tamanho": 26117
+    },
+    {
+      "nome": "PARCONS_2022_N_00280_CONTEUDO_SITE_API.json",
+      "sha256": "c161587dac73b80eaf3890bd3137c0c8c4f9ad3a4ed61a32020dee3dd0df0841",
+      "tamanho": 8142
+    },
+    {
+      "nome": "PARCONS_2022_N_00280_NORMA_V1.json",
+      "sha256": "4100590cab736178a92a66067b5d6651682049049a079ff35270c9b336dd4e6c",
+      "tamanho": 3067
+    },
+    {
+      "nome": "PARCONS_2022_N_00280_PAGINA_SITE.html",
+      "sha256": "a9ea33e594e00c0353d7534ba9e28cbc90aaced82c74d912b0a3addfbb30f74e",
+      "tamanho": 445888
+    },
+    {
+      "nome": "PARCONS_2022_N_00280_TEXTO_FONTE_V1.txt",
+      "sha256": "fa3296072a3cfec764a108a958bb0e95ac01ef2d83935512f49b88e1101dcee5",
+      "tamanho": 6556
+    },
+    {
+      "nome": "PARCONS_2022_N_00280_VALIDACAO_V1.json",
+      "sha256": "684d3ada77950209583dc7aa0f650edadb7039fbfecbc39cb09f373d6dca06cd",
+      "tamanho": 3005
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

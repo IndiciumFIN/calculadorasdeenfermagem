@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-gtae-no-0042017/ (API WordPress post 52313); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARGT_2017_N_00004_GTAE_ATOMOS_V1.jsonl",
+      "sha256": "c91fb250701f547009233a9161297118476b80a5c1f3e1a3bbaa594a1ef4934e",
+      "tamanho": 64121
+    },
+    {
+      "nome": "PARGT_2017_N_00004_GTAE_CONTEUDO_SITE_API.json",
+      "sha256": "b8f7213e14bea8b5134227db63535b964434a9f70e75fdc6fcdce2d4108f0586",
+      "tamanho": 10362
+    },
+    {
+      "nome": "PARGT_2017_N_00004_GTAE_NORMA_V1.json",
+      "sha256": "739072a278e1a431c9ccf199cd53b9fe7a2a0207100d05d75cfe53de132c3efc",
+      "tamanho": 3154
+    },
+    {
+      "nome": "PARGT_2017_N_00004_GTAE_PAGINA_SITE.html",
+      "sha256": "b2a6344701fed3d9ece86d50ea8ecff4ec9694aacafb1ab65a647ff18e862fe3",
+      "tamanho": 447927
+    },
+    {
+      "nome": "PARGT_2017_N_00004_GTAE_TEXTO_FONTE_V1.txt",
+      "sha256": "2eace03c668d87530443698cec9a6ba2eb85c2e8fc186dbe2a457e4bda766121",
+      "tamanho": 8849
+    },
+    {
+      "nome": "PARGT_2017_N_00004_GTAE_VALIDACAO_V1.json",
+      "sha256": "4e5f60da986adcd3df6e344a7bb3ca5974c79e4aff917dbafd569bc9360342a4",
+      "tamanho": 2910
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência."
+  ]
+}

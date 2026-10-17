@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-37-2025-camaras-tecnicas-de-enfermagem/ (API WordPress post 150817); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2025_N_00037_CAMTEC_ATOMOS_V1.jsonl",
+      "sha256": "b9f96e4adf972f3bc29a3298f3c8bc9a63457ad797759e3a219b3d3c8cea55f1",
+      "tamanho": 133938
+    },
+    {
+      "nome": "PARCT_2025_N_00037_CAMTEC_CONTEUDO_SITE_API.json",
+      "sha256": "8d6826eb0f27d74e078d6f8cf17767f4b2b0aee59c03909c1832786f723cb233",
+      "tamanho": 30549
+    },
+    {
+      "nome": "PARCT_2025_N_00037_CAMTEC_NORMA_V1.json",
+      "sha256": "39ede6982832af4237e7ad768683421ec33bd713ff8f56f78b8edb4b1e721957",
+      "tamanho": 10350
+    },
+    {
+      "nome": "PARCT_2025_N_00037_CAMTEC_PAGINA_SITE.html",
+      "sha256": "64771aa9707e2b4638f96e998d5776c8487c52185ff22d4be378a19ef0a4e88f",
+      "tamanho": 470944
+    },
+    {
+      "nome": "PARCT_2025_N_00037_CAMTEC_PDF_SITE.pdf",
+      "sha256": "e3a0741c6ca42674da24effe56f981b29c4416b136e63be90a4d020b4bea7356",
+      "tamanho": 277433
+    },
+    {
+      "nome": "PARCT_2025_N_00037_CAMTEC_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "df48f9d61b31455128fc72b36cfd37a6c9f1e2e61d32a49272a1747cbd4ed96a",
+      "tamanho": 25617
+    },
+    {
+      "nome": "PARCT_2025_N_00037_CAMTEC_TEXTO_FONTE_V1.txt",
+      "sha256": "b2e0e48f7b131d0486951c121a1230361bd01aab3e326f82422b1fd2b7d694ce",
+      "tamanho": 24625
+    },
+    {
+      "nome": "PARCT_2025_N_00037_CAMTEC_VALIDACAO_V1.json",
+      "sha256": "d8dae71389dc2c35f5ca76b8e33564532fb038d87e4a76fef5b73e828c8e65ad",
+      "tamanho": 27046
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+    "Anexo referenciado no texto não está presente no site nem em PDF."
+  ]
+}

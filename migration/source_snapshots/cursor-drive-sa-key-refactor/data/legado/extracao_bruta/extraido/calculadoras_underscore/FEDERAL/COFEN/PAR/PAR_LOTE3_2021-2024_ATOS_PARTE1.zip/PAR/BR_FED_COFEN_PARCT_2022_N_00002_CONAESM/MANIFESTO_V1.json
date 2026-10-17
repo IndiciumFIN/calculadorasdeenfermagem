@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/arecer-de-camara-tecnica-no-002-2022-conaesm-cofen/ (API WordPress post 100754); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2022_N_00002_CONAESM_ATOMOS_V1.jsonl",
+      "sha256": "a754e933c4dc918d241aa22bbb193dfe7996049eb2601eb500dc146a17db551a",
+      "tamanho": 49596
+    },
+    {
+      "nome": "PARCT_2022_N_00002_CONAESM_CONTEUDO_SITE_API.json",
+      "sha256": "872efc51f1ff4bc2a515369f91120c997d05064b42bbe8cf2e05cc483ee9a0fe",
+      "tamanho": 12045
+    },
+    {
+      "nome": "PARCT_2022_N_00002_CONAESM_NORMA_V1.json",
+      "sha256": "e95270258ab2b5d0b610661cb735040fde693927eeb1eab85a365dc01cb21b44",
+      "tamanho": 6719
+    },
+    {
+      "nome": "PARCT_2022_N_00002_CONAESM_PAGINA_SITE.html",
+      "sha256": "fd8e260bda9fa3b9a10e9ef7d3b7b88f8586756ac49a966fcdc066138a4c9973",
+      "tamanho": 449394
+    },
+    {
+      "nome": "PARCT_2022_N_00002_CONAESM_TEXTO_FONTE_V1.txt",
+      "sha256": "05a6247bba46435014ca5fb821c2d53b1cd341a8d61110b9a1d07a52757fd16c",
+      "tamanho": 8885
+    },
+    {
+      "nome": "PARCT_2022_N_00002_CONAESM_VALIDACAO_V1.json",
+      "sha256": "40ae1d524196d6277c95f1325e50dea865735b7d9b0295996538c7a6e5d90127",
+      "tamanho": 3292
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir."
+  ]
+}

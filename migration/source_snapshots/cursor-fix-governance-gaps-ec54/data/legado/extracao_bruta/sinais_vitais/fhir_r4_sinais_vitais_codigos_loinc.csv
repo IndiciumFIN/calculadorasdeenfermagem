@@ -1,0 +1,13 @@
+perfil_fhir,titulo,elemento,sistema,codigo,unidades_ucum_perfil,descricao,url_perfil
+vitalspanel,Observation Vital Signs Panel Profile,Observation.code.coding:VitalsPanelCode.code,http://loinc.org,85353-1,,FHIR Vital Signs Panel Profile,http://hl7.org/fhir/StructureDefinition/vitalspanel
+resprate,Observation Respiratory Rate Profile,Observation.code.coding:RespRateCode.code,http://loinc.org,9279-1,/min,FHIR Respiratory Rate Profile,http://hl7.org/fhir/StructureDefinition/resprate
+heartrate,Observation Heart Rate Profile,Observation.code.coding:HeartRateCode.code,http://loinc.org,8867-4,/min,FHIR Heart Rate Profile,http://hl7.org/fhir/StructureDefinition/heartrate
+oxygensat,Observation Oxygen Saturation Profile,Observation.code.coding:OxygenSatCode.code,http://loinc.org,2708-6,%,FHIR Oxygen Saturation Profile,http://hl7.org/fhir/StructureDefinition/oxygensat
+bodytemp,Observation Body Temperature Profile,Observation.code.coding:BodyTempCode.code,http://loinc.org,8310-5,,FHIR Body Temperature Profile,http://hl7.org/fhir/StructureDefinition/bodytemp
+bodyheight,Observation Body Height Profile,Observation.code.coding:BodyHeightCode.code,http://loinc.org,8302-2,,FHIR Body Height Profile,http://hl7.org/fhir/StructureDefinition/bodyheight
+headcircum,Observation Head Circumference Profile,Observation.code.coding:HeadCircumCode.code,http://loinc.org,9843-4,,FHIR Head Circumference Profile,http://hl7.org/fhir/StructureDefinition/headcircum
+bodyweight,Observation Body Weight Profile,Observation.code.coding:BodyWeightCode.code,http://loinc.org,29463-7,,FHIR Body Weight Profile,http://hl7.org/fhir/StructureDefinition/bodyweight
+bmi,Observation Body Mass Index Profile,Observation.code.coding:BMICode.code,http://loinc.org,39156-5,kg/m2,FHIR Body Mass Index (BMI) Profile,http://hl7.org/fhir/StructureDefinition/bmi
+bp,Observation Blood Pressure Profile,Observation.code.coding:BPCode.code,http://loinc.org,85354-9,,FHIR Blood Pressure Profile,http://hl7.org/fhir/StructureDefinition/bp
+bp,Observation Blood Pressure Profile,Observation.component:SystolicBP.code.coding:SBPCode.code,http://loinc.org,8480-6,,FHIR Blood Pressure Profile,http://hl7.org/fhir/StructureDefinition/bp
+bp,Observation Blood Pressure Profile,Observation.component:DiastolicBP.code.coding:DBPCode.code,http://loinc.org,8462-4,,FHIR Blood Pressure Profile,http://hl7.org/fhir/StructureDefinition/bp

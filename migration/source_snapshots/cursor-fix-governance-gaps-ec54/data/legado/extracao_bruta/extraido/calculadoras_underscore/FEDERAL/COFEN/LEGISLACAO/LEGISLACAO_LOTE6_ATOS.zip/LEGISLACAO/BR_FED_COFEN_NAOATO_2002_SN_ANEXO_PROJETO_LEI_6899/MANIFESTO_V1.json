@@ -1,0 +1,44 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/anexo-do-projeto-de-lei-n-68992002/ (API WordPress post 4221); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "NAOATO_2002_SN_ANEXO_PROJETO_LEI_6899_ATOMOS_V1.jsonl",
+      "sha256": "daf750c393c96589557335b66e6369214d9c9e06461cb7cabfd7783bd5a858aa",
+      "tamanho": 16217
+    },
+    {
+      "nome": "NAOATO_2002_SN_ANEXO_PROJETO_LEI_6899_CONTEUDO_SITE_API.json",
+      "sha256": "76a5d0869e506f24eefbc50e035210563f9453e24c58eeb3a5c7b673910f8a66",
+      "tamanho": 3004
+    },
+    {
+      "nome": "NAOATO_2002_SN_ANEXO_PROJETO_LEI_6899_NORMA_V1.json",
+      "sha256": "0429efdcf7ed662c8cd6384d6a2536c80c417e8fda46803476dd5e5b5a006be3",
+      "tamanho": 2659
+    },
+    {
+      "nome": "NAOATO_2002_SN_ANEXO_PROJETO_LEI_6899_PAGINA_SITE.html",
+      "sha256": "288e4e9c87b5b6faa5f0a353732caa41bf246a5f9f7b4cd8d4c8ccbe8b4fa954",
+      "tamanho": 437360
+    },
+    {
+      "nome": "NAOATO_2002_SN_ANEXO_PROJETO_LEI_6899_TEXTO_FONTE_V1.txt",
+      "sha256": "84ac7dc4c01812b65692312adfa93f6272ef69427e34c22e5f6a240ab5f0ac87",
+      "tamanho": 2533
+    },
+    {
+      "nome": "NAOATO_2002_SN_ANEXO_PROJETO_LEI_6899_VALIDACAO_V1.json",
+      "sha256": "f3abb5e1288415462be444781627a3bd7ecbd505fe36ed175da55de4a7fe8d74",
+      "tamanho": 3129
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Ato sem número no site; identificador formado por slug.",
+    "TIPO: listado em categoria de Legislação, mas o título não identifica um ato (\"ANEXO DO PROJETO DE LEI Nº 6899/2002\").",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

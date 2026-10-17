@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-012015cofencomite-excelencia-renovacao-inovacao-e-seguranca-do-cuidar/ (API WordPress post 37797); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCOM_2015_N_00001_COMITE_ATOMOS_V1.jsonl",
+      "sha256": "4a7df60db6d231784b713d220715e498ec809f14e8e89a77550e316570e0a2a8",
+      "tamanho": 28686
+    },
+    {
+      "nome": "PARCOM_2015_N_00001_COMITE_CONTEUDO_SITE_API.json",
+      "sha256": "0633355851ade629c0043854b38b1859f3bafa38ae6ae46b95709cf45e5f99b6",
+      "tamanho": 7279
+    },
+    {
+      "nome": "PARCOM_2015_N_00001_COMITE_NORMA_V1.json",
+      "sha256": "66802a61ca38630689731fd70c74374c6fa5b891850cead7417efebdb7419003",
+      "tamanho": 3523
+    },
+    {
+      "nome": "PARCOM_2015_N_00001_COMITE_PAGINA_SITE.html",
+      "sha256": "c382ade5d18522adb32a2dd83e5de42da41d5ec345ded9600a2d7f627341d75a",
+      "tamanho": 450286
+    },
+    {
+      "nome": "PARCOM_2015_N_00001_COMITE_TEXTO_FONTE_V1.txt",
+      "sha256": "f56e5ae97afa705d67b7180b5406ece8a9451235b540149b9f548f10e68090c7",
+      "tamanho": 5923
+    },
+    {
+      "nome": "PARCOM_2015_N_00001_COMITE_VALIDACAO_V1.json",
+      "sha256": "bea0fe44e28b368486b4dab62f78af9c213985cde145062bd1f1135d6db5f750",
+      "tamanho": 2575
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

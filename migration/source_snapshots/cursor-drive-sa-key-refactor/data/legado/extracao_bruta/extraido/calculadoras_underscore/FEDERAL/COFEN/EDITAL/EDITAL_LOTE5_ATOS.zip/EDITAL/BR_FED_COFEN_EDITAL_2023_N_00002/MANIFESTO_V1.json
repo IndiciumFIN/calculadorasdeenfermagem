@@ -1,0 +1,53 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/edital-eleitoral-no-02/ (API WordPress post 120099); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "EDITAL_2023_N_00002_ANEXO_01_PDF_SITE.pdf",
+      "sha256": "1546eecb4ad76d5371e49e265831db16cde7aa91a901c69b9d201d283954bcec",
+      "tamanho": 320858
+    },
+    {
+      "nome": "EDITAL_2023_N_00002_ANEXO_01_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "60a1a893bbd77d4748b51d3cd9133b28e31a51bc5abbb2e47f6b8567877d0f91",
+      "tamanho": 29449
+    },
+    {
+      "nome": "EDITAL_2023_N_00002_ATOMOS_V1.jsonl",
+      "sha256": "0519368dbd267659918963b3126be42bf52d628270356bca45f20539728dfacc",
+      "tamanho": 148516
+    },
+    {
+      "nome": "EDITAL_2023_N_00002_CONTEUDO_SITE_API.json",
+      "sha256": "46abf535d0617a701051a8e54346fd272ce31d260620144fa77d526221374840",
+      "tamanho": 15670
+    },
+    {
+      "nome": "EDITAL_2023_N_00002_NORMA_V1.json",
+      "sha256": "1d9e21264b79309a27c6958f92865412e509f757e87a62c6396265aa73211f2c",
+      "tamanho": 5743
+    },
+    {
+      "nome": "EDITAL_2023_N_00002_PAGINA_SITE.html",
+      "sha256": "0bbfcbae967b4e5298a062fcac398c3a494771dc92ceda41b0fce2c05058baac",
+      "tamanho": 455356
+    },
+    {
+      "nome": "EDITAL_2023_N_00002_TEXTO_FONTE_V1.txt",
+      "sha256": "ac02020f9d88a9a7c07349aed01c77d96d638e2059f95c0e9849f4e79d61079b",
+      "tamanho": 12887
+    },
+    {
+      "nome": "EDITAL_2023_N_00002_VALIDACAO_V1.json",
+      "sha256": "67497fc2bcf3acd674aabbffce18931b33282b9b7e1966097dbdbb45c2e601d0",
+      "tamanho": 3029
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-conselheiro-n-2592016/ (API WordPress post 46252); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCONS_2016_N_00259_ATOMOS_V1.jsonl",
+      "sha256": "414b8f4177e2b4cf8fccb639984ac125a42cd5bc0039b1d591aa2b13d32baab0",
+      "tamanho": 73419
+    },
+    {
+      "nome": "PARCONS_2016_N_00259_CONTEUDO_SITE_API.json",
+      "sha256": "7a05aa9bdee544ececb5da5e64e87740b89eb39b1422655fcf182466ae33ab27",
+      "tamanho": 17250
+    },
+    {
+      "nome": "PARCONS_2016_N_00259_NORMA_V1.json",
+      "sha256": "ec161e5a41d40407a7152e43d0cf954b2f74f769fc6133c876898af8924461f6",
+      "tamanho": 5770
+    },
+    {
+      "nome": "PARCONS_2016_N_00259_PAGINA_SITE.html",
+      "sha256": "a50a143fca3d7293d4ff37d4c7b53be5d0998d324d1cec00c6bfa7a91887432f",
+      "tamanho": 454667
+    },
+    {
+      "nome": "PARCONS_2016_N_00259_TEXTO_FONTE_V1.txt",
+      "sha256": "16b3915cf3999b05f6ff5b7361a7aaff599a5a8e56250f761e978a5c4a1b6218",
+      "tamanho": 15054
+    },
+    {
+      "nome": "PARCONS_2016_N_00259_VALIDACAO_V1.json",
+      "sha256": "96aa0e247e3e1d9441db609f2b416376942b0db3335a291c02d4f5e5f5409a18",
+      "tamanho": 2465
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

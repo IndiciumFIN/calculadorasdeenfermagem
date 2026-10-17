@@ -1,0 +1,59 @@
+{
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "task_version": "1.0.0",
+  "entradas": [
+    {
+      "id_origem": "1B01q4W3zCMbpI9RVFIJlQeJel5dsYNpj",
+      "caminho": "suprimentos/fda_classificacao_seringas_agulhas_luvas_curativos.csv",
+      "classe": "REFERENCIA",
+      "sha256": "a36a6d3f39a69e689a2912530dd1ee3cd322eb1e38e26fb0a2c45a9b8819a3e3"
+    },
+    {
+      "id_origem": "1Nap8JhoMn2OF2x6h1_9IV5Uqc7nwbqwj",
+      "caminho": "suprimentos/catmat_itens_classes_6510_6515_6530_6532.csv",
+      "classe": "REFERENCIA",
+      "sha256": "ddfa32b216710fa3694f61b743dd9fc7bba8e75dde489f2881f4d65ab476522e"
+    },
+    {
+      "id_origem": "16Bl9wdpgTY0ShO5UWWioEh8yqviKKPFi",
+      "caminho": "suprimentos/catmat_seringas_agulhas_luvas_curativos.csv",
+      "classe": "REFERENCIA",
+      "sha256": "960f8ff42d7e88381745414f7a7f5792853a1b1ad5ec848523d73a9ae72342f6"
+    },
+    {
+      "id_origem": "1CDW5Jn8hoZUBfZk_m2KyB4w8qB28teTf",
+      "caminho": "suprimentos/anvisa_registros_seringas_agulhas_luvas_curativos.csv",
+      "classe": "REFERENCIA",
+      "sha256": "728cb6460f8c8387d748ab7eebb244846f19607684866e7e7b6fbc68f3f456af"
+    },
+    {
+      "id_origem": "1safrPF_eILlgdAWLoNWHl8AvXttZivXd",
+      "caminho": "suprimentos/fda_classificacao_seringas_agulhas_luvas_curativos.json",
+      "classe": "REFERENCIA",
+      "sha256": "306d201b2f279e1bff702ef15d38f7b28268019f67f78feafb341791df09dc9c"
+    },
+    {
+      "id_origem": "1ZnXX1yPK2thakHi3dUBVqwMl79wn6wjr",
+      "caminho": "suprimentos/catmat_seringas_agulhas_luvas_curativos.json",
+      "classe": "REFERENCIA",
+      "sha256": "5fef6a79f1a286db98c4db0ff6193f48ec0eaba307a2e9886a68b9d50da1a1d4"
+    },
+    {
+      "id_origem": "14ufxeFBWZbEiS5X8DxoiAiWbxqFJ1Qpk",
+      "caminho": "suprimentos/anvisa_registros_seringas_agulhas_luvas_curativos.json",
+      "classe": "REFERENCIA",
+      "sha256": "d1097b04b85b9ebc8ff4a0c6266702005a6b377b8f43524a3df29c1140a087c6"
+    }
+  ],
+  "id": "WO-2026_10_15_0062",
+  "task_type": "validar",
+  "task_id": "TAREFA-VALIDAR",
+  "parametros": {
+    "lote": "suprimentos",
+    "atomizar_work_order": "WO-2026_10_15_0061"
+  },
+  "checker_id": "kernel-validar"
+}

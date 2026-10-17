@@ -1,0 +1,164 @@
+{
+ "arquivos": [
+  {
+   "arquivo": "classificacao_pa_dbha2020_transcrita_manualmente.jsonl",
+   "atomos": 6,
+   "bytes": 7854,
+   "sha256": "7917a82bb69258ac8e7dcfaf75c80411a91c5a529f82b5ad642903fbb6bb2864",
+   "tipo_entidade": "classificacao_pa_dbha2020_transcrita_manualmente"
+  },
+  {
+   "arquivo": "codigo_loinc_perfil_fhir.jsonl",
+   "atomos": 12,
+   "bytes": 10572,
+   "sha256": "f95625f42b888d2b088b025b3c0c4546b58454c25f1d8ca13be2051197c15785",
+   "tipo_entidade": "codigo_loinc_perfil_fhir"
+  },
+  {
+   "arquivo": "pontuacao_news2_transcrita_manualmente.jsonl",
+   "atomos": 36,
+   "bytes": 50074,
+   "sha256": "94303acd7d6aa0e45149803cb0f323dcf68f3bf6dfa637f300d2f1ad2bade0f1",
+   "tipo_entidade": "pontuacao_news2_transcrita_manualmente"
+  },
+  {
+   "arquivo": "risco_news2_transcrito_manualmente.jsonl",
+   "atomos": 4,
+   "bytes": 5132,
+   "sha256": "b717da83d391cd25642d60b35b31f4eebc8edaf1875ab5d6be26c40651a99171",
+   "tipo_entidade": "risco_news2_transcrito_manualmente"
+  }
+ ],
+ "atomos_por_tipo_entidade": {
+  "classificacao_pa_dbha2020_transcrita_manualmente": 6,
+  "codigo_loinc_perfil_fhir": 12,
+  "pontuacao_news2_transcrita_manualmente": 36,
+  "risco_news2_transcrito_manualmente": 4
+ },
+ "conferencia_contagens": [
+  {
+   "arquivo_entrada": "sinais_vitais/fhir_r4_sinais_vitais_codigos_loinc.csv",
+   "atomos": 12,
+   "confere": true,
+   "explicacao": "",
+   "linhas_csv": 12
+  },
+  {
+   "arquivo_entrada": "sinais_vitais/referencias_sinais_vitais_transcritas.json",
+   "atomos": 4,
+   "confere": false,
+   "explicacao": "JSON aninhado transcrito à mão, sem CSV equivalente. Só as 4 faixas de risco clínico do NEWS2 geram átomos novos; as 36 faixas de pontuação NEWS2 e as 6 classes de PA são os mesmos registros de news2_pontuacao_transcrita.csv e classificacao_pressao_arterial_dbha2020_transcrita.csv e viram átomos a partir deles (não duplicados).",
+   "linhas_csv": 46
+  },
+  {
+   "arquivo_entrada": "sinais_vitais/news2_pontuacao_transcrita.csv",
+   "atomos": 36,
+   "confere": true,
+   "explicacao": "",
+   "linhas_csv": 36
+  },
+  {
+   "arquivo_entrada": "sinais_vitais/classificacao_pressao_arterial_dbha2020_transcrita.csv",
+   "atomos": 6,
+   "confere": true,
+   "explicacao": "",
+   "linhas_csv": 6
+  }
+ ],
+ "entradas": [
+  {
+   "arquivo": "sinais_vitais/fhir_r4_sinais_vitais_codigos_loinc.json",
+   "linhas_csv": 12,
+   "registros_json": 12,
+   "sha256_csv": "810ea174598ef3dc45de38fb245ebbe23afcacf8c49484ac29cb13ccfba1990a",
+   "sha256_json": "827c5cce26d9401354de138702b241efdb7d9f822a1cb524686054931d06a6db"
+  },
+  {
+   "arquivo": "sinais_vitais/referencias_sinais_vitais_transcritas.json",
+   "linhas_csv": null,
+   "registros_json": 46,
+   "sha256_csv": null,
+   "sha256_json": "db566a8b56bf10d0b808179b060bd7a074ab064c10ecdfb6e86f6d3b0ab73790"
+  },
+  {
+   "arquivo": "sinais_vitais/news2_pontuacao_transcrita.json",
+   "linhas_csv": 36,
+   "registros_json": 36,
+   "sha256_csv": "138187b4ca2d41ff29254af4f165a5964fe5134386c1c0024ae8566187fe29b8",
+   "sha256_json": "6fcbd401c656f7292ec4fb43321217c4617739c943f130f57657f4fc01523254"
+  },
+  {
+   "arquivo": "sinais_vitais/classificacao_pressao_arterial_dbha2020_transcrita.json",
+   "linhas_csv": 6,
+   "registros_json": 6,
+   "sha256_csv": "978dc48f442438fe9efd23634b6766af49ec9d677f6c1838b02f1019eb220dce",
+   "sha256_json": "e51d83822b2cea28291b6a56c6964b9fc68a2fbfbda4c054a6824129b67e163c"
+  }
+ ],
+ "fontes": [
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "HL7 FHIR R4 - perfis de sinais vitais (StructureDefinition *.profile.json)",
+   "fonte_url": "https://hl7.org/fhir/R4/vitalsigns.profile.json",
+   "fonte_versao": "FHIR R4 (4.0.1)"
+  },
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "[TRANSCRITO MANUALMENTE] Barroso WKS, et al. Diretrizes Brasileiras de Hipertensão Arterial - 2020. Arq Bras Cardiol. 2021;116(3):516-658",
+   "fonte_url": "https://doi.org/10.36660/abc.20201238",
+   "fonte_versao": "transcrição manual digitada pelo Grok Bot em 2026-10-10 a partir da publicação citada (não é extração automática; conferir no documento original antes de uso clínico)"
+  },
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "[TRANSCRITO MANUALMENTE] Royal College of Physicians. National Early Warning Score (NEWS) 2. London: RCP, 2017",
+   "fonte_url": "https://www.rcp.ac.uk/improving-care/resources/national-early-warning-score-news-2/",
+   "fonte_versao": "transcrição manual digitada pelo Grok Bot em 2026-10-10 a partir da publicação citada (não é extração automática; conferir no documento original antes de uso clínico)"
+  }
+ ],
+ "marcacao_transcricao_manual": {
+  "fonte_url": "DOI/URL da publicação citada no próprio arquivo transcrito (SOFA -> Vincent 1996; definições e qSOFA -> Singer 2016; NEWS2 -> RCP 2017; PA -> DBHA 2020).",
+  "regra": "Tabelas transcritas à mão (critérios Sepsis-3/SOFA/qSOFA, NEWS2, classificação da PA DBHA 2020) levam a marca em 4 lugares: (1) tipo_entidade termina em '_transcrito_manualmente' ou '_transcrita_manualmente'; (2) fonte_nome começa com '[TRANSCRITO MANUALMENTE]'; (3) fonte_versao diz que é transcrição manual digitada pelo Grok Bot em 2026-10-10, não extração automática; (4) descricao_literal termina com a seção '## aviso (...)' copiada literalmente do arquivo de origem."
+ },
+ "regras": {
+  "atom_id": "<tema>:<codigo>; codigo = chave local, com prefixo de subfonte quando o tema tem mais de uma fonte",
+  "data_extracao": "fixa por fonte (2026-10-10), não é a data da execução",
+  "descricao_literal": "renderização literal 'campo: valor' de todos os registros de origem da entidade (nada resumido)",
+  "ordenacao": "um arquivo por tipo_entidade, linhas ordenadas por atom_id, partes <= 90.000.000 bytes",
+  "sha256_atomo": "SHA-256 do JSON canônico (sort_keys, ensure_ascii=False, separators=(',',':')) do átomo sem o campo sha256"
+ },
+ "sobreposicao_matriz": {
+  "conflitos_ou_ambiguidades": [
+   "A matriz considera o documento RCP canônico para NEWS2; não manda remover a tabela transcrita. Nada removido; conferência humana pendente."
+  ],
+  "decisoes": [
+   "Matriz (TEMA|sinais_vitais, parcial): Calculadoras-de-Enfermagem tem o corpus SRC-RCP-NEWS2 (documento oficial RCP). Recomendação da matriz: canônico para NEWS2 = documento RCP; a tabela do A vale como derivada após conferência; LOINC e DBHA só existem no A.",
+   "Átomos NEWS2 mantidos (tipo *_transcrita_manualmente), registrados aqui como 'tabela derivada pendente de conferência contra o documento RCP'. LOINC/FHIR e PA DBHA 2020 sem sobreposição.",
+   "Perfis FHIR brutos (raw/*.profile.json, valueset) não são atomizados: o CSV limpo já traz os 12 códigos; o value set bruto inclui também 8478-0 (PA média), que não está no CSV limpo e por isso não vira átomo."
+  ],
+  "linha_do_tema_literal": {
+   "a_existe": "sim",
+   "a_local": "extracao bruta Grok Bot Danadao/sinais_vitais https://drive.google.com/drive/folders/1dTV3qa2fccSje0ag-2J3MKoRC1ITDXCu",
+   "calc_enf_existe": "parcial",
+   "calc_enf_local": "https://drive.google.com/drive/folders/1ykOJ14s_tzQHa6pqGH0uDA5z_Vht6OGW",
+   "calc_enf_status": "parcial: corpus SRC-RCP-NEWS2 (5 docs, ~1.680 blocos)",
+   "chave": "TEMA|sinais_vitais",
+   "debby_existe": "nao",
+   "debby_local": "",
+   "debby_n_atomos": "",
+   "debby_status": "",
+   "descricao": "LOINC FHIR, NEWS2 e PA DBHA2020 transcritos",
+   "diferencas": "NEWS2: documento oficial RCP no corpus x tabela transcrita no A",
+   "recomendacao": "Canonica para NEWS2: documento RCP (corpus); A vale como tabela derivada apos conferencia. LOINC/DBHA: so A.",
+   "sobreposicao": "parcial",
+   "tipo_registro": "dados (A)"
+  },
+  "mapeamentos_itens_calculadoras_enfermagem": [],
+  "matriz_arquivo": "MATRIZ_CRUZAMENTO_NORMATIVOS_DADOS_2026-10-10.csv",
+  "matriz_drive_file_id": "1eJETouIY0YwoZ0qUg-ObYRmPLeKgcEy_",
+  "matriz_sha256": "72968b5dfb5a68b53df4ab8a9e9268b6d631de9c687629ef951527e0323548a2",
+  "regra": "Nenhum átomo foi removido por sobreposição (a matriz não manda remover átomos). Mapeamentos item a item só quando a linha da matriz cita literalmente o arquivo de origem do átomo (a_local) e, se a matriz traz prefixo de sha256, ele confere com o arquivo local; o resto fica registrado aqui no nível do tema. referencias_cruzadas mantém só as 4 chaves do spec (cid10, cid11, mesh, medlineplus)."
+ },
+ "tema": "sinais_vitais",
+ "total_atomos": 58,
+ "versao_gerador": "atomizar.py 1.1.0"
+}

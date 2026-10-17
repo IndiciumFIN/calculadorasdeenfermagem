@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-camara-tecnica-no-3-2023-ctep-cofen/ (API WordPress post 109320); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2023_N_00003_CTEP_ATOMOS_V1.jsonl",
+      "sha256": "8842efcfe8d5c780b71cd0970b5280d3d36869d8af84595b1650ef66c029460a",
+      "tamanho": 33493
+    },
+    {
+      "nome": "PARCT_2023_N_00003_CTEP_CONTEUDO_SITE_API.json",
+      "sha256": "13191f9e90f9b14e5c9f7437b60b42cff6e2ae2e20037975c7a315796afca2db",
+      "tamanho": 11916
+    },
+    {
+      "nome": "PARCT_2023_N_00003_CTEP_NORMA_V1.json",
+      "sha256": "b4138f4ae4e9aec5a38fec39037a3bc1bee711b3bbefcd3c1660d4e4361804fd",
+      "tamanho": 3472
+    },
+    {
+      "nome": "PARCT_2023_N_00003_CTEP_PAGINA_SITE.html",
+      "sha256": "db7028dbfa3f78068f2d503c2cacca8c69737ae188c906eacb6ff22f868b37df",
+      "tamanho": 449223
+    },
+    {
+      "nome": "PARCT_2023_N_00003_CTEP_TEXTO_FONTE_V1.txt",
+      "sha256": "297f5121277eb595f4ec0dcaae6dad8ff6f2bbc2d39191710dbf64efd6ff2217",
+      "tamanho": 10012
+    },
+    {
+      "nome": "PARCT_2023_N_00003_CTEP_VALIDACAO_V1.json",
+      "sha256": "df27232ec0e04089e216dc958ad13372f2a0620e72e3bd3b1f7f79dd132c7182",
+      "tamanho": 2669
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

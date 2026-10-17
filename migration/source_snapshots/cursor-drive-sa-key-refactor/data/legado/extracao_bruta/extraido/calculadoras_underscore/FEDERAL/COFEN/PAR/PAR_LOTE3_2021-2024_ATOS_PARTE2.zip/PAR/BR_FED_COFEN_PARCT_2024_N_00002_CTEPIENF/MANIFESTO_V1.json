@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-2-2024-cofen-camtec-ctepienf/ (API WordPress post 137768); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2024_N_00002_CTEPIENF_ATOMOS_V1.jsonl",
+      "sha256": "06c9bda7e352ee22d2b3625e6490db46f82fed7635750269e77f2f9d0aa3437d",
+      "tamanho": 34344
+    },
+    {
+      "nome": "PARCT_2024_N_00002_CTEPIENF_CONTEUDO_SITE_API.json",
+      "sha256": "5ed774fdd60e2192885f44eceb2b45539fc1cf4f87c1fb8642c1296dcaf8ce5a",
+      "tamanho": 9204
+    },
+    {
+      "nome": "PARCT_2024_N_00002_CTEPIENF_NORMA_V1.json",
+      "sha256": "ffbc389b3c316ec6fe87c563a60f199a727e3dbef8c66ecca96f789b804e5777",
+      "tamanho": 3899
+    },
+    {
+      "nome": "PARCT_2024_N_00002_CTEPIENF_PAGINA_SITE.html",
+      "sha256": "9ee7436fd669e82b8833fa95c5d2352b3668613c04b66d22c8cfd74e50643be1",
+      "tamanho": 449257
+    },
+    {
+      "nome": "PARCT_2024_N_00002_CTEPIENF_PDF_SITE.pdf",
+      "sha256": "1088d480f236a556bd213959358fc856cf57ab577759fa388d937dc1bf603151",
+      "tamanho": 185664
+    },
+    {
+      "nome": "PARCT_2024_N_00002_CTEPIENF_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "12e9bd83a9077e8e155bc7e3e77bca8ed30f5ceae0b5a92fc0e3ea6974e439b2",
+      "tamanho": 7471
+    },
+    {
+      "nome": "PARCT_2024_N_00002_CTEPIENF_TEXTO_FONTE_V1.txt",
+      "sha256": "6d4c56efa2b31bbe3e9ea22e7eed1610f1ab5bea86c5c2b5d789b912a224ac6e",
+      "tamanho": 7189
+    },
+    {
+      "nome": "PARCT_2024_N_00002_CTEPIENF_VALIDACAO_V1.json",
+      "sha256": "da1c105bae9648241d011d98260890c85074790ae28c4a86686acdb1e292405a",
+      "tamanho": 13786
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "9 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "3 trecho(s) do PDF sem correspondente no texto do site."
+  ]
+}

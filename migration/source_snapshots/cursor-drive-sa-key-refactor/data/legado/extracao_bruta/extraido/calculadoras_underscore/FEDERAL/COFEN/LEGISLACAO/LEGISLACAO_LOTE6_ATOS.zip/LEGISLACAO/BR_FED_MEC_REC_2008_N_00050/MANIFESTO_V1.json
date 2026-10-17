@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/recomendacao-n-o-502008-mec-acessibilidade/ (API WordPress post 36778); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "REC_2008_N_00050_ATOMOS_V1.jsonl",
+      "sha256": "1456d649af86d55437ffc936ad500eb932754c32b68086a939b586b6516ba883",
+      "tamanho": 84269
+    },
+    {
+      "nome": "REC_2008_N_00050_CONTEUDO_SITE_API.json",
+      "sha256": "651f28deede22516fad8d86eca3a274e2496f3abf6438bfcfc3652ac62107636",
+      "tamanho": 355
+    },
+    {
+      "nome": "REC_2008_N_00050_NORMA_V1.json",
+      "sha256": "5d309dee8bf6b6b9af59014736468605e9d098a40fb3f49a71cd07bd451a4aab",
+      "tamanho": 5002
+    },
+    {
+      "nome": "REC_2008_N_00050_PAGINA_SITE.html",
+      "sha256": "c01b25177e9e14eaa9035a8b491692763ca5ba76a64112fdb6a8f416f871dd8c",
+      "tamanho": 437932
+    },
+    {
+      "nome": "REC_2008_N_00050_PDF_SITE.pdf",
+      "sha256": "c71d9fb42fb5ad275317d87418649dffe25714ee359ecbf097afc58b4911cae3",
+      "tamanho": 131802
+    },
+    {
+      "nome": "REC_2008_N_00050_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "cb466cdf3d33339af1643d75df6f413e2c9b32c230bc920f495a63d6dca70a0d",
+      "tamanho": 8506
+    },
+    {
+      "nome": "REC_2008_N_00050_TEXTO_FONTE_V1.txt",
+      "sha256": "92bfc7d69ee61f4f7b601c9cfeaf225911e6eaceb681a325be24f08fb2318e2b",
+      "tamanho": 8549
+    },
+    {
+      "nome": "REC_2008_N_00050_VALIDACAO_V1.json",
+      "sha256": "1c45db4953f882f07330e22ff4d728fb66a2a9ab5eb286c903715a98d45734e4",
+      "tamanho": 2703
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Texto do ato disponível apenas no PDF (o site traz só título/resumo); atomização feita a partir da camada de texto do PDF.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

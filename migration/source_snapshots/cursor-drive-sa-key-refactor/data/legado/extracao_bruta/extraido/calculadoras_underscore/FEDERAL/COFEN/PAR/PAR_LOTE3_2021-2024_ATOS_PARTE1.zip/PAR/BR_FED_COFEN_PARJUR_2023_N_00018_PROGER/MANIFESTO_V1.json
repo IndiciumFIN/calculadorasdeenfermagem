@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-juridico-no-18-2023-cofen-proger-dpac-spa/ (API WordPress post 118561); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARJUR_2023_N_00018_PROGER_ATOMOS_V1.jsonl",
+      "sha256": "5725abe02a8884dfd0cc37474ed4eedf85c8e3adba994bfb7d1f09faa3d14427",
+      "tamanho": 37893
+    },
+    {
+      "nome": "PARJUR_2023_N_00018_PROGER_CONTEUDO_SITE_API.json",
+      "sha256": "86e612684e82a540e5aa1749d48a07a1371a3c2c49d5dede104a11ec4c4f6271",
+      "tamanho": 11080
+    },
+    {
+      "nome": "PARJUR_2023_N_00018_PROGER_NORMA_V1.json",
+      "sha256": "01681c52118fdc2591e9fa47f0bdbbb718a51697da59ab40c24f331aacb061db",
+      "tamanho": 3874
+    },
+    {
+      "nome": "PARJUR_2023_N_00018_PROGER_PAGINA_SITE.html",
+      "sha256": "390f8cdc38766888fc992b23a16cc15f8e4bdf12025bae05fdaa3bfff06e8599",
+      "tamanho": 451371
+    },
+    {
+      "nome": "PARJUR_2023_N_00018_PROGER_TEXTO_FONTE_V1.txt",
+      "sha256": "f4ea5cf87eb78d664093f7921b3b85704f7f8efcd41cf2398f4715319e32ae3c",
+      "tamanho": 10212
+    },
+    {
+      "nome": "PARJUR_2023_N_00018_PROGER_VALIDACAO_V1.json",
+      "sha256": "898d9417967cef460da5a28c01a997d2b335cc78819aafc8e9af0557e6cad8ab",
+      "tamanho": 2473
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

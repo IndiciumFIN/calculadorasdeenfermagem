@@ -1,0 +1,53 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-relator-n-1902015/ (API WordPress post 48415); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCONS_2015_N_00190_ATOMOS_V1.jsonl",
+      "sha256": "896ca93e794393d323afbf3e4616e22d512afe876277e40d645afc5dc406b32f",
+      "tamanho": 34930
+    },
+    {
+      "nome": "PARCONS_2015_N_00190_CONTEUDO_SITE_API.json",
+      "sha256": "10c9b195dd3a36fbbf47232a7d9245d8a33454c232ef4d8b0df559fa2c4c1f3c",
+      "tamanho": 10062
+    },
+    {
+      "nome": "PARCONS_2015_N_00190_NORMA_V1.json",
+      "sha256": "0105deceb8490cbe877979b10b0da1127760c58ff7937bad918a0a07bab969de",
+      "tamanho": 4141
+    },
+    {
+      "nome": "PARCONS_2015_N_00190_PAGINA_SITE.html",
+      "sha256": "b8cfe332107bf5f573f2d6c5add2b42ebc13f9cca94cba5ee92a61944f469554",
+      "tamanho": 447636
+    },
+    {
+      "nome": "PARCONS_2015_N_00190_PDF_SITE.pdf",
+      "sha256": "88cb8987bee0bc45937e3889c71cc4002a69d563abf540c0a4721caef4ff5946",
+      "tamanho": 2905186
+    },
+    {
+      "nome": "PARCONS_2015_N_00190_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "fe1e8bacd31297a0ac01a8dcc2ddac952067c22eb2d793eaa435d7bfd48a656c",
+      "tamanho": 10685
+    },
+    {
+      "nome": "PARCONS_2015_N_00190_TEXTO_FONTE_V1.txt",
+      "sha256": "77762c4c29399c326d580c99aa60178ddd2f9070b6f8a6ed8f32913967622665",
+      "tamanho": 8934
+    },
+    {
+      "nome": "PARCONS_2015_N_00190_VALIDACAO_V1.json",
+      "sha256": "9a0010b9c9e0dc9f13d8bc7e56f580d02cca4fa98f45279c9bee7976a6d06197",
+      "tamanho": 9397
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir."
+  ]
+}

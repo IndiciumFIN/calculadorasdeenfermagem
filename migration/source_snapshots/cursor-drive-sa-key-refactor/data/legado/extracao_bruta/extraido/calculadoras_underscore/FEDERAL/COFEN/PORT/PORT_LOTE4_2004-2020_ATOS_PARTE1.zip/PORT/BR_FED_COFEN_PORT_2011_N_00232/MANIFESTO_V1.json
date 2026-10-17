@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-n-232-de-24-de-maro-de-2011/ (API WordPress post 6532); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2011_N_00232_ATOMOS_V1.jsonl",
+      "sha256": "8048a9a10b5c1ed51d7883cbcf35f34fc167c6d2629e3b387a837a1f57c4f39f",
+      "tamanho": 4966
+    },
+    {
+      "nome": "PORT_2011_N_00232_CONTEUDO_SITE_API.json",
+      "sha256": "01952de9844c0c617e740f967ef41deef577bc458253a53a5ea1a4dcf062e590",
+      "tamanho": 1273
+    },
+    {
+      "nome": "PORT_2011_N_00232_NORMA_V1.json",
+      "sha256": "69c6d6a2588ef378c81f9f19ebac9630db5cb8a5d3608acc7fdf6a704a67681d",
+      "tamanho": 3034
+    },
+    {
+      "nome": "PORT_2011_N_00232_PAGINA_SITE.html",
+      "sha256": "f875b4788a6a22071ad266dc0e711d685e9c7a9833a25e6f03eb81da12c9ded6",
+      "tamanho": 439517
+    },
+    {
+      "nome": "PORT_2011_N_00232_TEXTO_FONTE_V1.txt",
+      "sha256": "19a3aa6b8086eb4051c161c61fcf9b032cfb4a12230cf271679b323ff38514b4",
+      "tamanho": 868
+    },
+    {
+      "nome": "PORT_2011_N_00232_VALIDACAO_V1.json",
+      "sha256": "3f3375478b548493508b0339c7af3828226d9d20a026f6bd3e001df148139d0f",
+      "tamanho": 2459
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

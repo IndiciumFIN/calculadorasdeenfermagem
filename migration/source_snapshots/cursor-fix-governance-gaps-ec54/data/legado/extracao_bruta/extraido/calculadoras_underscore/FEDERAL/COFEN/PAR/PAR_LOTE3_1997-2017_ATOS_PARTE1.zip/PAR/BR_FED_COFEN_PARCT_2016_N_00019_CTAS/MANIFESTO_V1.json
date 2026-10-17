@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-192016ctas/ (API WordPress post 48724); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2016_N_00019_CTAS_ATOMOS_V1.jsonl",
+      "sha256": "b649a7830881a0726e777cdd302a660bce5c3f94e3d54adaa70bf92defe006a0",
+      "tamanho": 69450
+    },
+    {
+      "nome": "PARCT_2016_N_00019_CTAS_CONTEUDO_SITE_API.json",
+      "sha256": "ffe85a89f67bdd78d7def425db5a89478adb1e988258137c6260dd4083d34746",
+      "tamanho": 13435
+    },
+    {
+      "nome": "PARCT_2016_N_00019_CTAS_NORMA_V1.json",
+      "sha256": "6c19711de3302bb9d17a9d10da93653b7e2e608b0cf5179f17220095d747822d",
+      "tamanho": 5750
+    },
+    {
+      "nome": "PARCT_2016_N_00019_CTAS_PAGINA_SITE.html",
+      "sha256": "0697790cc6e4b32220b7e8ee5a1a4c0eed7c0b64bfe8a0e1a32fd35304be08af",
+      "tamanho": 451083
+    },
+    {
+      "nome": "PARCT_2016_N_00019_CTAS_PDF_SITE.pdf",
+      "sha256": "0c710bf269755572cae01f6360bfed26606b86e89f4226e8698bf16cc32137b1",
+      "tamanho": 3329140
+    },
+    {
+      "nome": "PARCT_2016_N_00019_CTAS_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "49566c7792e7fb2c9e59e73d10f62e8b406d6282e7c8b8b88a3069dcd69d685d",
+      "tamanho": 16178
+    },
+    {
+      "nome": "PARCT_2016_N_00019_CTAS_TEXTO_FONTE_V1.txt",
+      "sha256": "e47ed0380028d28589a056c6ea335b60afff6af0c4c56615d71b95a216956ac8",
+      "tamanho": 12073
+    },
+    {
+      "nome": "PARCT_2016_N_00019_CTAS_VALIDACAO_V1.json",
+      "sha256": "deefa321c19c9ca23ade8bf699c08ad193723ed08da0fcad84f625db6501dafc",
+      "tamanho": 15956
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 trecho(s) do PDF sem correspondente no texto do site.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+  ]
+}

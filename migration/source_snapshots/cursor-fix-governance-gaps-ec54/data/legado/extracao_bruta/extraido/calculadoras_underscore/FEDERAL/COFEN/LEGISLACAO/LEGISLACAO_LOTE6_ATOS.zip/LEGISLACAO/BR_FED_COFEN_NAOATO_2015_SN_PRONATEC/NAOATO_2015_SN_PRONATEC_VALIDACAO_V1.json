@@ -1,0 +1,349 @@
+{
+  "identificador": "BR_FED_COFEN_NAOATO_2015_SN_PRONATEC",
+  "resultado_processo": "PENDENTE",
+  "rotulo": "Pendente de verificação",
+  "controles": [
+    {
+      "nome": "Identificação do ato e emissor",
+      "resultado": "PASS_COM_RESSALVA",
+      "evidencia": "PRONATEC"
+    },
+    {
+      "nome": "Conferência site HTML × PDF oficial, dispositivo a dispositivo",
+      "resultado": "FAIL",
+      "status": "EXECUTADA_TEXTO_PDF",
+      "evidencia": {
+        "dispositivos_comparados": 2,
+        "por_resultado": {
+          "IDENTICO_NORMALIZADO": 2
+        },
+        "trechos_pdf_ausentes_no_site": 256,
+        "pdf": "NAOATO_2015_SN_PRONATEC_PDF_SITE.pdf"
+      }
+    },
+    {
+      "nome": "Publicação no DOU (registro, sem verificação online)",
+      "resultado": "REGISTRADO",
+      "evidencia": null
+    },
+    {
+      "nome": "Anexos referenciados presentes e atomizados",
+      "resultado": "NAO_APLICAVEL",
+      "status": "SEM_ANEXO_REFERENCIADO",
+      "referencias": []
+    },
+    {
+      "nome": "Numeração contígua (seções, itens, alíneas)",
+      "resultado": "PASS",
+      "evidencia": null
+    },
+    {
+      "nome": "Conferência humana da literalidade",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Pesquisa de alterações posteriores",
+      "resultado": "PENDENTE"
+    },
+    {
+      "nome": "Direitos autorais do texto do ato oficial",
+      "resultado": "PASS",
+      "fundamento": "Lei 9.610/1998, art. 8, IV"
+    }
+  ],
+  "fechamento": {
+    "apto": false,
+    "status": "PENDENCIAS",
+    "justificativa": "Aguardando revisão humana da atomização e pesquisa de atos posteriores. Há achados bloqueantes adicionais."
+  },
+  "achados": [
+    {
+      "codigo": "C001",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Atomização automática; requer conferência humana da segmentação e da literalidade."
+    },
+    {
+      "codigo": "C002",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada."
+    },
+    {
+      "codigo": "C014",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": true,
+      "descricao": "256 trecho(s) do PDF sem correspondente no texto do site.",
+      "evidencia": [
+        {
+          "trecho_pdf": "Casa Civil Subchefia para Assuntos Jurídicos",
+          "similaridade": 45.5,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "NAOATO_2015_SN_PRONATEC_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "A PRESIDENTA DA REPÚBLICA Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:",
+          "similaridade": 50.3,
+          "cobertura_vocabulario": 0.111,
+          "arquivo": "NAOATO_2015_SN_PRONATEC_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Art. 1o É instituído o Programa Nacional de Acesso ao Ensino Técnico e Emprego (Pronatec), a ser executado pela União, com a finalidade de ampliar a oferta de educação profissional e tecnológica, por meio de programas, projetos e ações de assistência técnica e financeira.",
+          "similaridade": 62.4,
+          "cobertura_vocabulario": 0.292,
+          "arquivo": "NAOATO_2015_SN_PRONATEC_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Parágrafo único. São objetivos do Pronatec:",
+          "similaridade": 51.2,
+          "cobertura_vocabulario": 0.25,
+          "arquivo": "NAOATO_2015_SN_PRONATEC_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "I - expandir, interiorizar e democratizar a oferta de cursos de educação profissional técnica de nível médio presencial e a distância e de cursos e programas de formação inicial e continuada ou qualificação profissional;",
+          "similaridade": 49.1,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "NAOATO_2015_SN_PRONATEC_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "II - fomentar e apoiar a expansão da rede física de atendimento da educação profissional e tecnológica;",
+          "similaridade": 48.9,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "NAOATO_2015_SN_PRONATEC_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "III - contribuir para a melhoria da qualidade do ensino médio público, por meio da articulação com a educação profissional;",
+          "similaridade": 46.4,
+          "cobertura_vocabulario": 0.091,
+          "arquivo": "NAOATO_2015_SN_PRONATEC_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "IV - ampliar as oportunidades educacionais dos trabalhadores, por meio do incremento da formação e qualificação profissional;",
+          "similaridade": 45.8,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "NAOATO_2015_SN_PRONATEC_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "V - estimular a difusão de recursos pedagógicos para apoiar a oferta de cursos de educação profissional e tecnológica.",
+          "similaridade": 47.0,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "NAOATO_2015_SN_PRONATEC_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "VI - estimular a articulação entre a política de educação profissional e tecnológica e as políticas de geração de trabalho, emprego e renda. (Incluído pela Lei nº 12.816, de 2013)",
+          "similaridade": 47.7,
+          "cobertura_vocabulario": 0.067,
+          "arquivo": "NAOATO_2015_SN_PRONATEC_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Art. 2o O Pronatec atenderá prioritariamente:",
+          "similaridade": 53.5,
+          "cobertura_vocabulario": 0.333,
+          "arquivo": "NAOATO_2015_SN_PRONATEC_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "I - estudantes do ensino médio da rede pública, inclusive da educação de jovens e adultos;",
+          "similaridade": 51.2,
+          "cobertura_vocabulario": 0.222,
+          "arquivo": "NAOATO_2015_SN_PRONATEC_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "III - beneficiários dos programas federais de transferência de renda; e",
+          "similaridade": 50.0,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "NAOATO_2015_SN_PRONATEC_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "IV - estudante que tenha cursado o ensino médio completo em escola da rede pública ou em instituições privadas na condição de bolsista integral, nos termos do regulamento.",
+          "similaridade": 51.9,
+          "cobertura_vocabulario": 0.125,
+          "arquivo": "NAOATO_2015_SN_PRONATEC_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "§ 1o Entre os trabalhadores a que se refere o inciso II, incluem-se os agricultores familiares, silvicultores, aquicultores, extrativistas e pescadores.",
+          "similaridade": 44.8,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "NAOATO_2015_SN_PRONATEC_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "§ 2o Será estimulada a participação das pessoas com deficiência nas ações de educação profissional e tecnológica desenvolvidas no âmbito do Pronatec, observadas as condições de acessibilidade e participação plena no ambiente educacional, tais como adequação de equipamentos, de materiais pedagógicos,",
+          "similaridade": 43.9,
+          "cobertura_vocabulario": 0.036,
+          "arquivo": "NAOATO_2015_SN_PRONATEC_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "§ 3o As ações desenvolvidas no âmbito do Pronatec contemplarão a participação de povos indígenas, comunidades quilombolas e adolescentes e jovens em cumprimento de medidas socioeducativas.",
+          "similaridade": 45.2,
+          "cobertura_vocabulario": 0.133,
+          "arquivo": "NAOATO_2015_SN_PRONATEC_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "§ 4o Será estimulada a participação de mulheres responsáveis pela unidade familiar beneficiárias de programas federais de transferência de renda, nos cursos oferecidos por intermédio da Bolsa-Formação. (Incluído pela Lei nº 12.816, de 2013)",
+          "similaridade": 46.4,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "NAOATO_2015_SN_PRONATEC_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Art. 3o O Pronatec cumprirá suas finalidades e objetivos em regime de colaboração entre a União, os Estados, o Distrito Federal e os Municípios, com a participação voluntária dos serviços nacionais de aprendizagem e instituições de educação profissional e tecnológica habilitadas nos termos desta Lei",
+          "similaridade": 46.2,
+          "cobertura_vocabulario": 0.04,
+          "arquivo": "NAOATO_2015_SN_PRONATEC_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Art. 3º O Pronatec cumprirá suas finalidades e objetivos em regime de colaboração entre a União, os Estados, o Distrito Federal e os Municípios, com a participação voluntária dos serviços nacionais de aprendizagem, de instituições privadas de ensino superior e de instituições de educação profissiona",
+          "similaridade": 45.7,
+          "cobertura_vocabulario": 0.086,
+          "arquivo": "NAOATO_2015_SN_PRONATEC_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Parágrafo único. Os serviços nacionais sociais poderão participar do Pronatec por meio de ações de apoio à educação profissional e tecnológica.",
+          "similaridade": 48.2,
+          "cobertura_vocabulario": 0.071,
+          "arquivo": "NAOATO_2015_SN_PRONATEC_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Art. 3o O Pronatec cumprirá suas finalidades e objetivos em regime de colaboração entre a União, os Estados, o Distrito Federal e os Municípios, com a participação voluntária dos serviços nacionais de aprendizagem, de instituições privadas e públicas de ensino superior, de instituições de educação p",
+          "similaridade": 45.0,
+          "cobertura_vocabulario": 0.07,
+          "arquivo": "NAOATO_2015_SN_PRONATEC_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "Art. 4o O Pronatec será desenvolvido por meio das seguintes ações, sem prejuízo de outras:",
+          "similaridade": 50.0,
+          "cobertura_vocabulario": 0.25,
+          "arquivo": "NAOATO_2015_SN_PRONATEC_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "I - ampliação de vagas e expansão da rede federal de educação profissional e tecnológica;",
+          "similaridade": 46.5,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "NAOATO_2015_SN_PRONATEC_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "II - fomento à ampliação de vagas e à expansão das redes estaduais de educação profissional;",
+          "similaridade": 45.3,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "NAOATO_2015_SN_PRONATEC_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "III - incentivo à ampliação de vagas e à expansão da rede física de atendimento dos serviços nacionais de aprendizagem;",
+          "similaridade": 45.8,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "NAOATO_2015_SN_PRONATEC_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "IV - oferta de bolsa-formação, nas modalidades:",
+          "similaridade": 53.5,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "NAOATO_2015_SN_PRONATEC_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "V - financiamento da educação profissional e tecnológica;",
+          "similaridade": 57.4,
+          "cobertura_vocabulario": 0.25,
+          "arquivo": "NAOATO_2015_SN_PRONATEC_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "VI - fomento à expansão da oferta de educação profissional técnica de nível médio na modalidade de educação a distância;",
+          "similaridade": 48.6,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "NAOATO_2015_SN_PRONATEC_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "VII - apoio técnico voltado à execução das ações desenvolvidas no âmbito do Programa;",
+          "similaridade": 46.6,
+          "cobertura_vocabulario": 0.25,
+          "arquivo": "NAOATO_2015_SN_PRONATEC_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "VIII - estímulo à expansão de oferta de vagas para as pessoas com deficiência, inclusive com a articulação dos Institutos Públicos Federais, Estaduais e Municipais de Educação; e",
+          "similaridade": 44.5,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "NAOATO_2015_SN_PRONATEC_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "IX - articulação com o Sistema Nacional de Emprego.",
+          "similaridade": 56.2,
+          "cobertura_vocabulario": 0.5,
+          "arquivo": "NAOATO_2015_SN_PRONATEC_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "X - articulação com o Programa Nacional de Inclusão de Jovens - PROJOVEM, nos termos da Lei no 11.692, de 10 de junho de 2008. (Incluído pela Lei nº 12.816, de 2013)",
+          "similaridade": 58.5,
+          "cobertura_vocabulario": 0.5,
+          "arquivo": "NAOATO_2015_SN_PRONATEC_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "§ 1o A Bolsa-Formação Estudante será destinada ao estudante regularmente matriculado no ensino médio público propedêutico, para cursos de formação profissional técnica de nível médio, na modalidade concomitante.",
+          "similaridade": 47.1,
+          "cobertura_vocabulario": 0.143,
+          "arquivo": "NAOATO_2015_SN_PRONATEC_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "§ 1º A Bolsa-Formação Estudante será destinada aos beneficiários previstos no art. 2º para cursos de educação profissional técnica de nível médio, nas formas concomitante, integrada ou subsequente, nos termos definidos em ato do Ministro de Estado da Educação. (Redação dada pela Medida Provisória nº",
+          "similaridade": 44.9,
+          "cobertura_vocabulario": 0.034,
+          "arquivo": "NAOATO_2015_SN_PRONATEC_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "§ 1o A Bolsa-Formação Estudante será destinada aos beneficiários previstos no art. 2o para cursos de educação profissional técnica de nível médio, nas formas concomitante, integrada ou subsequente, nos termos definidos em ato do Ministro de Estado da Educação. (Redação dada pela Lei nº 12.816, de 20",
+          "similaridade": 45.3,
+          "cobertura_vocabulario": 0.037,
+          "arquivo": "NAOATO_2015_SN_PRONATEC_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "§ 1o A Bolsa-Formação Estudante será destinada aos beneficiários previstos no art. 2o para cursos de educação profissional técnica de nível",
+          "similaridade": 49.3,
+          "cobertura_vocabulario": 0.077,
+          "arquivo": "NAOATO_2015_SN_PRONATEC_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "médio, nas formas concomitante, integrada ou subsequente, e para cursos de formação de professores em nível médio na modalidade normal, nos termos definidos em ato do Ministro de Estado da Educação. (Redação dada pela Lei nº 12.863, de 2013)",
+          "similaridade": 45.5,
+          "cobertura_vocabulario": 0.0,
+          "arquivo": "NAOATO_2015_SN_PRONATEC_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "§ 2o A Bolsa-Formação Trabalhador será destinada ao trabalhador e aos beneficiários dos programas federais de transferência de renda, para cursos de formação inicial e continuada ou qualificação profissional.",
+          "similaridade": 45.1,
+          "cobertura_vocabulario": 0.111,
+          "arquivo": "NAOATO_2015_SN_PRONATEC_PDF_SITE.pdf"
+        },
+        {
+          "trecho_pdf": "§ 3o O Poder Executivo definirá os requisitos e critérios de priorização para concessão das bolsas-formação, considerando-se capacidade de oferta, identificação da demanda, nível de escolaridade, faixa etária, existência de deficiência, entre outros, observados os objetivos do programa.",
+          "similaridade": 44.8,
+          "cobertura_vocabulario": 0.038,
+          "arquivo": "NAOATO_2015_SN_PRONATEC_PDF_SITE.pdf"
+        }
+      ]
+    },
+    {
+      "codigo": "C040",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "Ato sem número no site; identificador formado por slug."
+    },
+    {
+      "codigo": "C041",
+      "situacao": "PENDENTE",
+      "bloqueante_para_fechamento": false,
+      "descricao": "TIPO: listado em categoria de Legislação, mas o título não identifica um ato (\"PRONATEC\"). ANO: ano do ato não consta do título; usado o ano do post (data de publicação no site, não do ato)."
+    }
+  ],
+  "conferencia_por_dispositivo": [
+    {
+      "identificador": "BR_FED_COFEN_NAOATO_2015_SN_PRONATEC_SECAO_001",
+      "tipo": "secao",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    },
+    {
+      "identificador": "BR_FED_COFEN_NAOATO_2015_SN_PRONATEC_PARAGRAFO_TEXTO_001",
+      "tipo": "paragrafo_texto",
+      "resultado": "IDENTICO_NORMALIZADO",
+      "similaridade": 100.0
+    }
+  ],
+  "data_verificacao": "2026-10-10",
+  "responsavel": "Triagem automatizada - requer validação humana"
+}

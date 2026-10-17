@@ -1,0 +1,54 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-19-2024-cofen-camtec-ctlnenf/ (API WordPress post 140775); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2024_N_00019_CTLNENF_ATOMOS_V1.jsonl",
+      "sha256": "bbb60175b8a1755eafb56e284226b3c862e44d7a9aeb80aea7cc42fead62499d",
+      "tamanho": 71061
+    },
+    {
+      "nome": "PARCT_2024_N_00019_CTLNENF_CONTEUDO_SITE_API.json",
+      "sha256": "43502478ff1616f0016f0558ac88fbc5ccd457e5f46bf1ead4863034c7cb6b65",
+      "tamanho": 19323
+    },
+    {
+      "nome": "PARCT_2024_N_00019_CTLNENF_NORMA_V1.json",
+      "sha256": "4ab5d86c8f1bf094bd2a224e4f51c6f4859ca9ed1508c1fff8e7d35c9b9d4c8b",
+      "tamanho": 8584
+    },
+    {
+      "nome": "PARCT_2024_N_00019_CTLNENF_PAGINA_SITE.html",
+      "sha256": "59b1a543077b6b8f1e57e3e056036dc99bbcb4e1d69eedd27eab59aa6be9478a",
+      "tamanho": 459337
+    },
+    {
+      "nome": "PARCT_2024_N_00019_CTLNENF_PDF_SITE.pdf",
+      "sha256": "f02528470ef75bc759fbe62fd3332bc978cb86e0466d87528fbd736e383b5f23",
+      "tamanho": 226490
+    },
+    {
+      "nome": "PARCT_2024_N_00019_CTLNENF_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "40e01dff4d45057ce20d3ee9be7a198ea289a8842e6921029c5856ebf9b74907",
+      "tamanho": 16646
+    },
+    {
+      "nome": "PARCT_2024_N_00019_CTLNENF_TEXTO_FONTE_V1.txt",
+      "sha256": "ca4f0eb799cf7c11f029a9c364c17ed9c090a2469aae20e05ff45276d9c1c826",
+      "tamanho": 15530
+    },
+    {
+      "nome": "PARCT_2024_N_00019_CTLNENF_VALIDACAO_V1.json",
+      "sha256": "085201d29ab62177eafe5b67d7f20d56957b52ae773cbd8972f69898297daf77",
+      "tamanho": 16188
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

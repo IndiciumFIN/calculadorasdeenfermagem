@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-279-de-9-de-marco-de-2022/ (API WordPress post 105207); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2022_N_00279_ATOMOS_V1.jsonl",
+      "sha256": "c1f7b60489aa9a825365aa2f8ab312e285468c96c1f0f95320b6ee963db25880",
+      "tamanho": 6881
+    },
+    {
+      "nome": "PORT_2022_N_00279_CONTEUDO_SITE_API.json",
+      "sha256": "a7b3ac984b1a85d106bbee140ebeb37f2953bcd0a7ca5d9bd3f99b49fca7df39",
+      "tamanho": 1698
+    },
+    {
+      "nome": "PORT_2022_N_00279_NORMA_V1.json",
+      "sha256": "3d5b7df0070babeb96dc966cf4f1615ea46590701dc08e5fc6b12ede8d2a5bbf",
+      "tamanho": 3415
+    },
+    {
+      "nome": "PORT_2022_N_00279_PAGINA_SITE.html",
+      "sha256": "67c2abcf69dbb1a16a6c78114f0264dc70484fe572e59891bc2cdfe366470406",
+      "tamanho": 439151
+    },
+    {
+      "nome": "PORT_2022_N_00279_TEXTO_FONTE_V1.txt",
+      "sha256": "cb3e9ab27e2f9e7aa66e701ac8632b2c9151f52aab4a76862612bf21517a3f67",
+      "tamanho": 1101
+    },
+    {
+      "nome": "PORT_2022_N_00279_VALIDACAO_V1.json",
+      "sha256": "426294c21e73003b5be3c07c90b7b5be06ff5d36cb470b1c21d4718b039a3518",
+      "tamanho": 2458
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

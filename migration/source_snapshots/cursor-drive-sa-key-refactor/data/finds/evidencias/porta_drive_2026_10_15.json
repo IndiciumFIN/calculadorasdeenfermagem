@@ -1,0 +1,15 @@
+{
+  "codigo": "PORTA-DRIVE-001",
+  "efeito": "COPIA_RECUSADA",
+  "autorizacao": false,
+  "homologacao_juridica": false,
+  "comandos": [
+    "python scripts/migrar_drive.py"
+  ],
+  "nota": "WO-2026_10_15_0041 continua apenas no documento. authorized_by continua textual. O Gate Agregador voltou à pinagem por SHA, sem mascaramento e sem o teste mínimo substituto.",
+  "modulos": {
+    "scripts/migrar_drive.py": "b8ab7b745fba2cada19359b1bdbd32f003fff59f3ece0fec483773c285cea6cd",
+    "scripts/drive_duplicidade_check.py": "6427c0aa20637688182b3b21f0b2e90481b1a0d2a330ad13cd21a2777ca90bdc",
+    ".github/workflows/gate.yml": "c7ef98444d9efc1e8c2c6546853d326fa121a4080467c30eeed228c8be3bec95"
+  }
+}

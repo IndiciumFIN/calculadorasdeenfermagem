@@ -1,0 +1,1394 @@
+{
+  "versao": "0.1.0",
+  "efeito": "DETERMINACAO",
+  "homologacao_juridica": false,
+  "autorizacao": false,
+  "cobertura": "TOTAL",
+  "indeterminados": 0,
+  "drive_id": "1mL-ILSBH9NlPyQXp2Bg7d2yZ5hpW6O3z",
+  "arquivo": "data/candidato/zero_trust/CKO_KERNEL_ZERO_TRUST_WO_v0_1_0.zip",
+  "bytes": 54261,
+  "sha256": "9b9413a7ca7f6318a6f7126e0f0bb2df7cd1c48478e65e8b2f2fb06d45bb78b1",
+  "acesso": "somente_dono",
+  "metodo": "conector_autenticado",
+  "status_pacote": "CANDIDATE_NOT_HOMOLOGATED",
+  "base_observada": "7cea80c572b1a789aa45388ff2af6828c1ff82b4",
+  "nao_substitui": "CKO-TAREFA-1.0.0",
+  "contagens": {
+    "AUSENTE_DO_KERNEL": 16,
+    "CONFERIDO": 3,
+    "CONFIRMADO_HOLD": 24,
+    "NAO_IMPLANTAR": 29,
+    "NAO_REVOGA": 11,
+    "PRESERVADO_VIGENTE": 2,
+    "REFERENCIA": 2,
+    "SEM_PROMOCAO": 108
+  },
+  "itens": [
+    {
+      "id": "PACOTE-INTEGRIDADE",
+      "classe": "PACOTE",
+      "determinacao": "CONFERIDO",
+      "autorizacao": false,
+      "motivo": "SHA-256 externo e os 32 arquivos internos conferem. cko_guard permanece dentro do zip."
+    },
+    {
+      "id": "PACOTE-BASE",
+      "classe": "PACOTE",
+      "determinacao": "CONFERIDO",
+      "autorizacao": false,
+      "motivo": "Todos os agentes do pacote declaram a base 7cea80c. O kernel local já contém WO-2026_10_15_0036."
+    },
+    {
+      "id": "PACOTE-CENSO",
+      "classe": "PACOTE",
+      "determinacao": "CONFERIDO",
+      "autorizacao": false,
+      "motivo": "O pacote traz 128 identidades, 25 tarefas, 16 validadores, 7 portas e 12 FINDs."
+    },
+    {
+      "id": "AG-KER-001",
+      "classe": "FIND",
+      "determinacao": "CONFIRMADO_HOLD",
+      "autorizacao": false,
+      "motivo": "authorized_by permanece texto com tamanho mínimo 3."
+    },
+    {
+      "id": "AG-KER-002",
+      "classe": "FIND",
+      "determinacao": "CONFIRMADO_HOLD",
+      "autorizacao": false,
+      "motivo": "add e set_status gravam o registry sem Work Order."
+    },
+    {
+      "id": "AG-KER-003",
+      "classe": "FIND",
+      "determinacao": "CONFIRMADO_HOLD",
+      "autorizacao": false,
+      "motivo": "O gateway vigente não contém work_order."
+    },
+    {
+      "id": "AG-KER-004",
+      "classe": "FIND",
+      "determinacao": "CONFIRMADO_HOLD",
+      "autorizacao": false,
+      "motivo": "O registro tem 110 agentes: 2 vigentes e 108 candidatos. A exclusividade do pacote está em HOLD_CANDIDATE."
+    },
+    {
+      "id": "AG-KER-005",
+      "classe": "FIND",
+      "determinacao": "CONFIRMADO_HOLD",
+      "autorizacao": false,
+      "motivo": "Os superagentes do pacote têm execução negada. AGT-ORCH-001 continua fora do registro."
+    },
+    {
+      "id": "AG-KER-006",
+      "classe": "FIND",
+      "determinacao": "NAO_REVOGA",
+      "autorizacao": false,
+      "motivo": "As 9 tarefas qualificadas permanecem qualificadas. O overlay marca homologação independente como falsa."
+    },
+    {
+      "id": "AG-KER-007",
+      "classe": "FIND",
+      "determinacao": "CONFIRMADO_HOLD",
+      "autorizacao": false,
+      "motivo": "_fail encerra com exit 2. O registro de FIND continua um procedimento explícito."
+    },
+    {
+      "id": "AG-KER-008",
+      "classe": "FIND",
+      "determinacao": "CONFIRMADO_HOLD",
+      "autorizacao": false,
+      "motivo": "O encerramento exige SHA-256 da evidência e mantém o histórico. O reteste independente não é parâmetro."
+    },
+    {
+      "id": "AG-KER-009",
+      "classe": "FIND",
+      "determinacao": "CONFIRMADO_HOLD",
+      "autorizacao": false,
+      "motivo": "O gate agregador executa os scripts de verificação. Ele não amarra cada escrita a uma Work Order."
+    },
+    {
+      "id": "AG-KER-010",
+      "classe": "FIND",
+      "determinacao": "CONFIRMADO_HOLD",
+      "autorizacao": false,
+      "motivo": "O schema de LLM usa WO-[A-Z0-9-]+. A Work Order de tarefa usa WO-AAAA_MM_DD_0000."
+    },
+    {
+      "id": "AG-KER-011",
+      "classe": "FIND",
+      "determinacao": "CONFIRMADO_HOLD",
+      "autorizacao": false,
+      "motivo": "O runner local grava homologacao_juridica falsa. O gateway segue sem essa checagem."
+    },
+    {
+      "id": "AG-KER-012",
+      "classe": "FIND",
+      "determinacao": "CONFIRMADO_HOLD",
+      "autorizacao": false,
+      "motivo": "O registry local é um arquivo JSON regravável. add e set_status não exigem ledger assinado."
+    },
+    {
+      "id": "AG-CKO-GRC-COSO-DEFICIENCY",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-GRC-COSO-DESIGN",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-GRC-COSO-OPERATION",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-GRC-CROSSWALK",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-APO",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-APO01",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-APO02",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-APO03",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-APO04",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-APO05",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-APO06",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-APO07",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-APO08",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-APO09",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-APO10",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-APO11",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-APO12",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-APO13",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-APO14",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-ASSET-RECONCILER",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-BAI",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-BAI01",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-BAI02",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-BAI03",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-BAI04",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-BAI05",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-BAI06",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-BAI07",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-BAI08",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-BAI09",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-BAI10",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-BAI11",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-CONTROL-VALIDATOR",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-CYCLE-RETESTER",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-DSS",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-DSS01",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-DSS02",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-DSS03",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-DSS04",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-DSS05",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-DSS06",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-EDM",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-EDM01",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-EDM02",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-EDM03",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-EDM04",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-EDM05",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-EVIDENCE-INSPECTOR",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-FIND-TRIAGER",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-MASTER",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-MEA",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-MEA01",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-MEA02",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-MEA03",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-MEA04",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-POLICY-INSPECTOR",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-PUBLICATION-GUARD",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-CKO-ITG-SOD-ANALYST",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-COSO-MASTER",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ERM-EO",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ERM-GC",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ERM-IR",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ERM-ORQ",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ERM-P01",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ERM-P02",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ERM-P03",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ERM-P04",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ERM-P05",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ERM-P06",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ERM-P07",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ERM-P08",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ERM-P09",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ERM-P10",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ERM-P11",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ERM-P12",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ERM-P13",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ERM-P14",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ERM-P15",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ERM-P16",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ERM-P17",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ERM-P18",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ERM-P19",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ERM-P20",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ERM-PE",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ERM-RR",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ICIF-AC",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ICIF-AR",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ICIF-CA",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ICIF-IC",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ICIF-MO",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ICIF-ORQ",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ICIF-P01",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ICIF-P02",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ICIF-P03",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ICIF-P04",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ICIF-P05",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ICIF-P06",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ICIF-P07",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ICIF-P08",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ICIF-P09",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ICIF-P10",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ICIF-P11",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ICIF-P12",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ICIF-P13",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ICIF-P14",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ICIF-P15",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ICIF-P16",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AG-ICIF-P17",
+      "classe": "IDENTIDADE",
+      "determinacao": "SEM_PROMOCAO",
+      "autorizacao": false,
+      "motivo": "Permanece candidato no registro executável."
+    },
+    {
+      "id": "AGT-AUDITOR-001",
+      "classe": "IDENTIDADE",
+      "determinacao": "PRESERVADO_VIGENTE",
+      "autorizacao": false,
+      "motivo": "Permanece vigente no registro executável."
+    },
+    {
+      "id": "AGT-CKO-API-CONTRACT-001",
+      "classe": "IDENTIDADE",
+      "determinacao": "NAO_IMPLANTAR",
+      "autorizacao": false,
+      "motivo": "Continua ausente do registro executável."
+    },
+    {
+      "id": "AGT-CKO-EVIDENCE-001",
+      "classe": "IDENTIDADE",
+      "determinacao": "NAO_IMPLANTAR",
+      "autorizacao": false,
+      "motivo": "Continua ausente do registro executável."
+    },
+    {
+      "id": "AGT-CKO-FIND-DIAG-001",
+      "classe": "IDENTIDADE",
+      "determinacao": "NAO_IMPLANTAR",
+      "autorizacao": false,
+      "motivo": "Continua ausente do registro executável."
+    },
+    {
+      "id": "AGT-CKO-FIND-RETEST-001",
+      "classe": "IDENTIDADE",
+      "determinacao": "NAO_IMPLANTAR",
+      "autorizacao": false,
+      "motivo": "Continua ausente do registro executável."
+    },
+    {
+      "id": "AGT-CKO-MD-BINDING-001",
+      "classe": "IDENTIDADE",
+      "determinacao": "NAO_IMPLANTAR",
+      "autorizacao": false,
+      "motivo": "Continua ausente do registro executável."
+    },
+    {
+      "id": "AGT-CKO-POLICY-REVIEW-001",
+      "classe": "IDENTIDADE",
+      "determinacao": "NAO_IMPLANTAR",
+      "autorizacao": false,
+      "motivo": "Continua ausente do registro executável."
+    },
+    {
+      "id": "AGT-CKO-REG-APPLICABILITY-001",
+      "classe": "IDENTIDADE",
+      "determinacao": "NAO_IMPLANTAR",
+      "autorizacao": false,
+      "motivo": "Continua ausente do registro executável."
+    },
+    {
+      "id": "AGT-CKO-REG-ATOM-001",
+      "classe": "IDENTIDADE",
+      "determinacao": "NAO_IMPLANTAR",
+      "autorizacao": false,
+      "motivo": "Continua ausente do registro executável."
+    },
+    {
+      "id": "AGT-CKO-REG-AUTHORITY-001",
+      "classe": "IDENTIDADE",
+      "determinacao": "NAO_IMPLANTAR",
+      "autorizacao": false,
+      "motivo": "Continua ausente do registro executável."
+    },
+    {
+      "id": "AGT-CKO-REG-LICENSE-001",
+      "classe": "IDENTIDADE",
+      "determinacao": "NAO_IMPLANTAR",
+      "autorizacao": false,
+      "motivo": "Continua ausente do registro executável."
+    },
+    {
+      "id": "AGT-CKO-REG-RELATIONS-001",
+      "classe": "IDENTIDADE",
+      "determinacao": "NAO_IMPLANTAR",
+      "autorizacao": false,
+      "motivo": "Continua ausente do registro executável."
+    },
+    {
+      "id": "AGT-CKO-REG-SOURCE-001",
+      "classe": "IDENTIDADE",
+      "determinacao": "NAO_IMPLANTAR",
+      "autorizacao": false,
+      "motivo": "Continua ausente do registro executável."
+    },
+    {
+      "id": "AGT-CKO-REG-STRUCTURE-001",
+      "classe": "IDENTIDADE",
+      "determinacao": "NAO_IMPLANTAR",
+      "autorizacao": false,
+      "motivo": "Continua ausente do registro executável."
+    },
+    {
+      "id": "AGT-CKO-REG-TEMPORAL-001",
+      "classe": "IDENTIDADE",
+      "determinacao": "NAO_IMPLANTAR",
+      "autorizacao": false,
+      "motivo": "Continua ausente do registro executável."
+    },
+    {
+      "id": "AGT-CKO-RELEASE-REVIEW-001",
+      "classe": "IDENTIDADE",
+      "determinacao": "NAO_IMPLANTAR",
+      "autorizacao": false,
+      "motivo": "Continua ausente do registro executável."
+    },
+    {
+      "id": "AGT-CKO-SOURCE-MONITOR-001",
+      "classe": "IDENTIDADE",
+      "determinacao": "NAO_IMPLANTAR",
+      "autorizacao": false,
+      "motivo": "Continua ausente do registro executável."
+    },
+    {
+      "id": "AGT-CKO-VAL-QA-001",
+      "classe": "IDENTIDADE",
+      "determinacao": "NAO_IMPLANTAR",
+      "autorizacao": false,
+      "motivo": "Continua ausente do registro executável."
+    },
+    {
+      "id": "AGT-EXTRATOR-001",
+      "classe": "IDENTIDADE",
+      "determinacao": "PRESERVADO_VIGENTE",
+      "autorizacao": false,
+      "motivo": "Permanece vigente no registro executável."
+    },
+    {
+      "id": "AGT-ORCH-001",
+      "classe": "IDENTIDADE",
+      "determinacao": "NAO_IMPLANTAR",
+      "autorizacao": false,
+      "motivo": "Continua ausente do registro executável."
+    },
+    {
+      "id": "TAREFA-ATOMIZAR",
+      "classe": "TAREFA",
+      "determinacao": "NAO_REVOGA",
+      "autorizacao": false,
+      "motivo": "A qualificação local permanece QUALIFICADA."
+    },
+    {
+      "id": "TAREFA-FIND-ANALISAR",
+      "classe": "TAREFA",
+      "determinacao": "NAO_REVOGA",
+      "autorizacao": false,
+      "motivo": "A qualificação local permanece QUALIFICADA."
+    },
+    {
+      "id": "TAREFA-FIND-CORRIGIR",
+      "classe": "TAREFA",
+      "determinacao": "NAO_REVOGA",
+      "autorizacao": false,
+      "motivo": "A qualificação local permanece QUALIFICADA."
+    },
+    {
+      "id": "TAREFA-FIND-ENCERRAR",
+      "classe": "TAREFA",
+      "determinacao": "NAO_REVOGA",
+      "autorizacao": false,
+      "motivo": "A qualificação local permanece QUALIFICADA."
+    },
+    {
+      "id": "TAREFA-FIND-REGISTRAR",
+      "classe": "TAREFA",
+      "determinacao": "NAO_REVOGA",
+      "autorizacao": false,
+      "motivo": "A qualificação local permanece QUALIFICADA."
+    },
+    {
+      "id": "TAREFA-FIND-VINCULAR",
+      "classe": "TAREFA",
+      "determinacao": "NAO_REVOGA",
+      "autorizacao": false,
+      "motivo": "A qualificação local permanece QUALIFICADA."
+    },
+    {
+      "id": "TAREFA-LLM-RUN",
+      "classe": "TAREFA",
+      "determinacao": "CONFIRMADO_HOLD",
+      "autorizacao": false,
+      "motivo": "A definição local permanece NAO_QUALIFICADA."
+    },
+    {
+      "id": "TAREFA-OBTER",
+      "classe": "TAREFA",
+      "determinacao": "NAO_REVOGA",
+      "autorizacao": false,
+      "motivo": "A qualificação local permanece QUALIFICADA."
+    },
+    {
+      "id": "TAREFA-RETIRAR",
+      "classe": "TAREFA",
+      "determinacao": "NAO_REVOGA",
+      "autorizacao": false,
+      "motivo": "A qualificação local permanece QUALIFICADA."
+    },
+    {
+      "id": "TAREFA-T01",
+      "classe": "TAREFA",
+      "determinacao": "CONFIRMADO_HOLD",
+      "autorizacao": false,
+      "motivo": "A definição local permanece NAO_QUALIFICADA."
+    },
+    {
+      "id": "TAREFA-T02",
+      "classe": "TAREFA",
+      "determinacao": "CONFIRMADO_HOLD",
+      "autorizacao": false,
+      "motivo": "A definição local permanece NAO_QUALIFICADA."
+    },
+    {
+      "id": "TAREFA-T03",
+      "classe": "TAREFA",
+      "determinacao": "CONFIRMADO_HOLD",
+      "autorizacao": false,
+      "motivo": "A definição local permanece NAO_QUALIFICADA."
+    },
+    {
+      "id": "TAREFA-T04",
+      "classe": "TAREFA",
+      "determinacao": "CONFIRMADO_HOLD",
+      "autorizacao": false,
+      "motivo": "A definição local permanece NAO_QUALIFICADA."
+    },
+    {
+      "id": "TAREFA-T07",
+      "classe": "TAREFA",
+      "determinacao": "CONFIRMADO_HOLD",
+      "autorizacao": false,
+      "motivo": "A definição local permanece NAO_QUALIFICADA."
+    },
+    {
+      "id": "TAREFA-VALIDAR",
+      "classe": "TAREFA",
+      "determinacao": "NAO_REVOGA",
+      "autorizacao": false,
+      "motivo": "A qualificação local permanece QUALIFICADA."
+    },
+    {
+      "id": "TD-API-CONTRACT-CANDIDATE-001",
+      "classe": "TAREFA",
+      "determinacao": "NAO_IMPLANTAR",
+      "autorizacao": false,
+      "motivo": "A tarefa proposta continua fora de policies/definicoes_tarefa.json."
+    },
+    {
+      "id": "TD-FIND-DIAG-CANDIDATE-001",
+      "classe": "TAREFA",
+      "determinacao": "NAO_IMPLANTAR",
+      "autorizacao": false,
+      "motivo": "A tarefa proposta continua fora de policies/definicoes_tarefa.json."
+    },
+    {
+      "id": "TD-FIND-RETEST-001",
+      "classe": "TAREFA",
+      "determinacao": "NAO_IMPLANTAR",
+      "autorizacao": false,
+      "motivo": "A tarefa proposta continua fora de policies/definicoes_tarefa.json."
+    },
+    {
+      "id": "TD-REG-APPLICABILITY-001",
+      "classe": "TAREFA",
+      "determinacao": "NAO_IMPLANTAR",
+      "autorizacao": false,
+      "motivo": "A tarefa proposta continua fora de policies/definicoes_tarefa.json."
+    },
+    {
+      "id": "TD-REG-ATOM-CANDIDATE-001",
+      "classe": "TAREFA",
+      "determinacao": "NAO_IMPLANTAR",
+      "autorizacao": false,
+      "motivo": "A tarefa proposta continua fora de policies/definicoes_tarefa.json."
+    },
+    {
+      "id": "TD-REG-CAPTURE-001",
+      "classe": "TAREFA",
+      "determinacao": "NAO_IMPLANTAR",
+      "autorizacao": false,
+      "motivo": "A tarefa proposta continua fora de policies/definicoes_tarefa.json."
+    },
+    {
+      "id": "TD-REG-LICENSE-CHECK-001",
+      "classe": "TAREFA",
+      "determinacao": "NAO_IMPLANTAR",
+      "autorizacao": false,
+      "motivo": "A tarefa proposta continua fora de policies/definicoes_tarefa.json."
+    },
+    {
+      "id": "TD-REG-RELATION-CANDIDATE-001",
+      "classe": "TAREFA",
+      "determinacao": "NAO_IMPLANTAR",
+      "autorizacao": false,
+      "motivo": "A tarefa proposta continua fora de policies/definicoes_tarefa.json."
+    },
+    {
+      "id": "TD-REG-SOURCE-CHECK-001",
+      "classe": "TAREFA",
+      "determinacao": "NAO_IMPLANTAR",
+      "autorizacao": false,
+      "motivo": "A tarefa proposta continua fora de policies/definicoes_tarefa.json."
+    },
+    {
+      "id": "TD-REG-TEMPORAL-CANDIDATE-001",
+      "classe": "TAREFA",
+      "determinacao": "NAO_IMPLANTAR",
+      "autorizacao": false,
+      "motivo": "A tarefa proposta continua fora de policies/definicoes_tarefa.json."
+    },
+    {
+      "id": "V-AGENT-EXCLUSIVE",
+      "classe": "VALIDADOR",
+      "determinacao": "AUSENTE_DO_KERNEL",
+      "autorizacao": false,
+      "motivo": "O validador V-* continua fora de policies/validadores.json."
+    },
+    {
+      "id": "V-APPROVAL-BOUND",
+      "classe": "VALIDADOR",
+      "determinacao": "AUSENTE_DO_KERNEL",
+      "autorizacao": false,
+      "motivo": "O validador V-* continua fora de policies/validadores.json."
+    },
+    {
+      "id": "V-AUTH-WO",
+      "classe": "VALIDADOR",
+      "determinacao": "AUSENTE_DO_KERNEL",
+      "autorizacao": false,
+      "motivo": "O validador V-* continua fora de policies/validadores.json."
+    },
+    {
+      "id": "V-CI-CONTROL",
+      "classe": "VALIDADOR",
+      "determinacao": "AUSENTE_DO_KERNEL",
+      "autorizacao": false,
+      "motivo": "O validador V-* continua fora de policies/validadores.json."
+    },
+    {
+      "id": "V-CLOSURE-AUTHORITY",
+      "classe": "VALIDADOR",
+      "determinacao": "AUSENTE_DO_KERNEL",
+      "autorizacao": false,
+      "motivo": "O validador V-* continua fora de policies/validadores.json."
+    },
+    {
+      "id": "V-CLOSURE-RETEST",
+      "classe": "VALIDADOR",
+      "determinacao": "AUSENTE_DO_KERNEL",
+      "autorizacao": false,
+      "motivo": "O validador V-* continua fora de policies/validadores.json."
+    },
+    {
+      "id": "V-FIND-BLOCKER",
+      "classe": "VALIDADOR",
+      "determinacao": "AUSENTE_DO_KERNEL",
+      "autorizacao": false,
+      "motivo": "O validador V-* continua fora de policies/validadores.json."
+    },
+    {
+      "id": "V-GATEWAY-AUTH",
+      "classe": "VALIDADOR",
+      "determinacao": "AUSENTE_DO_KERNEL",
+      "autorizacao": false,
+      "motivo": "O validador V-* continua fora de policies/validadores.json."
+    },
+    {
+      "id": "V-INPUT-DIGEST",
+      "classe": "VALIDADOR",
+      "determinacao": "AUSENTE_DO_KERNEL",
+      "autorizacao": false,
+      "motivo": "O validador V-* continua fora de policies/validadores.json."
+    },
+    {
+      "id": "V-LICENSE",
+      "classe": "VALIDADOR",
+      "determinacao": "AUSENTE_DO_KERNEL",
+      "autorizacao": false,
+      "motivo": "O validador V-* continua fora de policies/validadores.json."
+    },
+    {
+      "id": "V-OUTPUT-NONEMPTY",
+      "classe": "VALIDADOR",
+      "determinacao": "AUSENTE_DO_KERNEL",
+      "autorizacao": false,
+      "motivo": "O validador V-* continua fora de policies/validadores.json."
+    },
+    {
+      "id": "V-PROVENANCE",
+      "classe": "VALIDADOR",
+      "determinacao": "AUSENTE_DO_KERNEL",
+      "autorizacao": false,
+      "motivo": "O validador V-* continua fora de policies/validadores.json."
+    },
+    {
+      "id": "V-REQUESTER-ID",
+      "classe": "VALIDADOR",
+      "determinacao": "AUSENTE_DO_KERNEL",
+      "autorizacao": false,
+      "motivo": "O validador V-* continua fora de policies/validadores.json."
+    },
+    {
+      "id": "V-TARGET-PREFIX",
+      "classe": "VALIDADOR",
+      "determinacao": "AUSENTE_DO_KERNEL",
+      "autorizacao": false,
+      "motivo": "O validador V-* continua fora de policies/validadores.json."
+    },
+    {
+      "id": "V-TASK-HOMOLOGATED",
+      "classe": "VALIDADOR",
+      "determinacao": "AUSENTE_DO_KERNEL",
+      "autorizacao": false,
+      "motivo": "O validador V-* continua fora de policies/validadores.json."
+    },
+    {
+      "id": "V-WO-SIGNATURE",
+      "classe": "VALIDADOR",
+      "determinacao": "AUSENTE_DO_KERNEL",
+      "autorizacao": false,
+      "motivo": "O validador V-* continua fora de policies/validadores.json."
+    },
+    {
+      "id": "CLI_AND_SCRIPTS",
+      "classe": "PORTA",
+      "determinacao": "CONFIRMADO_HOLD",
+      "autorizacao": false,
+      "motivo": "A porta permanece NOT_DEPLOYED."
+    },
+    {
+      "id": "SUPABASE_DATABASE",
+      "classe": "PORTA",
+      "determinacao": "CONFIRMADO_HOLD",
+      "autorizacao": false,
+      "motivo": "A porta permanece NOT_DEPLOYED."
+    },
+    {
+      "id": "SUPABASE_STORAGE",
+      "classe": "PORTA",
+      "determinacao": "CONFIRMADO_HOLD",
+      "autorizacao": false,
+      "motivo": "A porta permanece NOT_DEPLOYED."
+    },
+    {
+      "id": "EDGE_FUNCTIONS_AND_LLM",
+      "classe": "PORTA",
+      "determinacao": "CONFIRMADO_HOLD",
+      "autorizacao": false,
+      "motivo": "A porta permanece NOT_DEPLOYED."
+    },
+    {
+      "id": "GITHUB_AND_FILES",
+      "classe": "PORTA",
+      "determinacao": "CONFIRMADO_HOLD",
+      "autorizacao": false,
+      "motivo": "A porta permanece NOT_DEPLOYED."
+    },
+    {
+      "id": "BUILDER_CMS_AND_EXPORT",
+      "classe": "PORTA",
+      "determinacao": "CONFIRMADO_HOLD",
+      "autorizacao": false,
+      "motivo": "A porta permanece NOT_DEPLOYED."
+    },
+    {
+      "id": "MONITORING_AND_AUTOMATIONS",
+      "classe": "PORTA",
+      "determinacao": "CONFIRMADO_HOLD",
+      "autorizacao": false,
+      "motivo": "A porta permanece NOT_DEPLOYED."
+    },
+    {
+      "id": "REFERENCIA-SQL",
+      "classe": "REFERENCIA",
+      "determinacao": "REFERENCIA",
+      "autorizacao": false,
+      "motivo": "O script declara DO NOT EXECUTE e termina em ROLLBACK. Nenhuma migration o contém."
+    },
+    {
+      "id": "REFERENCIA-GATEWAY",
+      "classe": "REFERENCIA",
+      "determinacao": "REFERENCIA",
+      "autorizacao": false,
+      "motivo": "O arquivo de referência permanece no zip. O gateway vigente não o incorpora."
+    },
+    {
+      "id": "CONTRATO-TAREFA",
+      "classe": "CONTRATO",
+      "determinacao": "NAO_REVOGA",
+      "autorizacao": false,
+      "motivo": "policies/tarefas.json permanece 1.0.0. Os procedimentos qualificados e os conjuntos de validadores permanecem."
+    },
+    {
+      "id": "REGISTRO-FIND",
+      "classe": "FIND",
+      "determinacao": "NAO_IMPLANTAR",
+      "autorizacao": false,
+      "motivo": "AG-KER-001..012 permanecem fora de data/finds/registro.json."
+    }
+  ]
+}

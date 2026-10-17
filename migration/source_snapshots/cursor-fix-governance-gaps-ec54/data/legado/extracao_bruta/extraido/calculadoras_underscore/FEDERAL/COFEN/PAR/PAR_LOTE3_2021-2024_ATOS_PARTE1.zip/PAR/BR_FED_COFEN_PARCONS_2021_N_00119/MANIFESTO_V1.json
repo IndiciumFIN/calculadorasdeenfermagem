@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-conselheira-federal-no-119-2021-cofen/ (API WordPress post 87644); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCONS_2021_N_00119_ATOMOS_V1.jsonl",
+      "sha256": "b9b4a1fc892c591798b1443714d296030143ad25c18aba8bafe4fb7744ecfc2e",
+      "tamanho": 28344
+    },
+    {
+      "nome": "PARCONS_2021_N_00119_CONTEUDO_SITE_API.json",
+      "sha256": "557192f7d55d51b7fbfbb709b9bf2fe0213b23d0be4e6112f81d9eb481b62c47",
+      "tamanho": 8081
+    },
+    {
+      "nome": "PARCONS_2021_N_00119_NORMA_V1.json",
+      "sha256": "e9747940f8a73bd331d196afb1c5c2f275356442b27c0f9b8993ccc09dbc4bfa",
+      "tamanho": 3466
+    },
+    {
+      "nome": "PARCONS_2021_N_00119_PAGINA_SITE.html",
+      "sha256": "8dd1e5962548d85218371e15c5cd433dc851ab721f9331640fcab4712f0c7b79",
+      "tamanho": 445582
+    },
+    {
+      "nome": "PARCONS_2021_N_00119_TEXTO_FONTE_V1.txt",
+      "sha256": "3fe25cf00e29b9fe7dc6475fb993db2101748ef346e60bf41995d0fdc007cd6a",
+      "tamanho": 7065
+    },
+    {
+      "nome": "PARCONS_2021_N_00119_VALIDACAO_V1.json",
+      "sha256": "d6c76d7f6a083cfcd4c8ca861054fae10d03a0911ec0522d48550edbcfc6aa5f",
+      "tamanho": 2465
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

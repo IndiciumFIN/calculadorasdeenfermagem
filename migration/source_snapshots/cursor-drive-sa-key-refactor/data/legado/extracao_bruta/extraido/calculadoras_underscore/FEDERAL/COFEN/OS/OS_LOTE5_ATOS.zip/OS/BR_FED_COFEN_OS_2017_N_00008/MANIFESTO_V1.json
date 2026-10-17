@@ -1,0 +1,65 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/ordem-de-servico-cofen-no-008-2017/ (API WordPress post 59719); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "OS_2017_N_00008_ANEXO_01_PDF_SITE.pdf",
+      "sha256": "29b5e6c6c65dd07a27742e6c2a39b3c69c28edf74888ca01c99516ab77212731",
+      "tamanho": 535286
+    },
+    {
+      "nome": "OS_2017_N_00008_ANEXO_01_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "e1d34881178e664f8b390f445790c0d59200889f2a216f6a849f4fc30319c845",
+      "tamanho": 2805
+    },
+    {
+      "nome": "OS_2017_N_00008_ATOMOS_V1.jsonl",
+      "sha256": "903f1d583433ed946d9fe82a078a1dd375d93594c55b64f4871cdf20d46c36fc",
+      "tamanho": 20145
+    },
+    {
+      "nome": "OS_2017_N_00008_CONTEUDO_SITE_API.json",
+      "sha256": "9203d70eabc979e503739c51579c49eb1c31fb07e6d9d7eddb94aadf60e677c5",
+      "tamanho": 6944
+    },
+    {
+      "nome": "OS_2017_N_00008_NORMA_V1.json",
+      "sha256": "3f00e99af7d98bbe4d812daf120a3af362076808912beb68e3b8f777a7f0d3f3",
+      "tamanho": 5645
+    },
+    {
+      "nome": "OS_2017_N_00008_PAGINA_SITE.html",
+      "sha256": "aa64e2c3bcbf64f31778509c7118ddc4c59b924bc497066ddaaf5b9625648e3b",
+      "tamanho": 446140
+    },
+    {
+      "nome": "OS_2017_N_00008_PDF_SITE.pdf",
+      "sha256": "fc5ad99a0d1d47be076dcaa5e9b6b497828daea0e892a777906cd13119bf17a4",
+      "tamanho": 3152309
+    },
+    {
+      "nome": "OS_2017_N_00008_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "cc6430d43839f8680bbc728dc174b9478b990cfdda2e7902b8b7c43163b0b165",
+      "tamanho": 5139
+    },
+    {
+      "nome": "OS_2017_N_00008_TEXTO_FONTE_V1.txt",
+      "sha256": "5a4314361c9641c3f3dee3362f3689525cbd6630a756fb8abc6dbc64cbf3b855",
+      "tamanho": 5431
+    },
+    {
+      "nome": "OS_2017_N_00008_VALIDACAO_V1.json",
+      "sha256": "843e95a6262be2e3b9832d970774129f0a6c03bccf5abe5f013e825831be61b2",
+      "tamanho": 9232
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "Anexo em PDF com conteúdo já presente no texto do site (atomizado a partir do site); PDF usado só na conferência.",
+    "5 trecho(s) do PDF sem correspondente no texto do site.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência."
+  ]
+}

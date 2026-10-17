@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-conselheira-federal-relatora-no-017-2023/ (API WordPress post 134699); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCONS_2023_N_00017_ATOMOS_V1.jsonl",
+      "sha256": "90a5ac4c996092d6927388747db814b7c49a85a720a7c3c3a721b48ed477e69e",
+      "tamanho": 45174
+    },
+    {
+      "nome": "PARCONS_2023_N_00017_CONTEUDO_SITE_API.json",
+      "sha256": "b577c7fb2ed85841b21f3ab63f6604268a50eda3b33f9ca1c146ea375cd38a2a",
+      "tamanho": 15874
+    },
+    {
+      "nome": "PARCONS_2023_N_00017_NORMA_V1.json",
+      "sha256": "1359a2ad0ce694ecd4c4ffe41d2bc7f113a00a7577ffb07af2d0d16ca31094b9",
+      "tamanho": 4690
+    },
+    {
+      "nome": "PARCONS_2023_N_00017_PAGINA_SITE.html",
+      "sha256": "281f79b9a29b8d453f9100346dd0c6d4b9dc1304ed0a9268f790d834eaf9accb",
+      "tamanho": 454237
+    },
+    {
+      "nome": "PARCONS_2023_N_00017_TEXTO_FONTE_V1.txt",
+      "sha256": "af141c1d90c6fb9553e11d091a185d5cce0b7d4274a465d499bc6aff34248029",
+      "tamanho": 11226
+    },
+    {
+      "nome": "PARCONS_2023_N_00017_VALIDACAO_V1.json",
+      "sha256": "16a4aa40d9b35ed8a974fe0bfa8151e12c8fe0e63d78c5af2db156bc8635a06c",
+      "tamanho": 2468
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

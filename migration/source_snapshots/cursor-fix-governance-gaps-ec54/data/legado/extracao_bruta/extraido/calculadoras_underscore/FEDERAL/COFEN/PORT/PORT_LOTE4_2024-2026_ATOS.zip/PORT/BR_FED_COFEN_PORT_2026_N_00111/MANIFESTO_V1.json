@@ -1,0 +1,61 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-111-de-22-de-janeiro-de-2026/ (API WordPress post 180465); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2026_N_00111_ANEXO_01_PDF_SITE.pdf",
+      "sha256": "23aef6335059c14ab6d4ddc193ca327baa793e244d59f89ed96f345082132150",
+      "tamanho": 200432
+    },
+    {
+      "nome": "PORT_2026_N_00111_ANEXO_01_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "99740830cd17148689feacb7ddbc83fd47976bd41a4b0fd501a35a0810b5e03d",
+      "tamanho": 12086
+    },
+    {
+      "nome": "PORT_2026_N_00111_ATOMOS_V1.jsonl",
+      "sha256": "862962f71f5729ee3d08efc86271c7fe88c8a17765f5c1229ba495d92490f927",
+      "tamanho": 72039
+    },
+    {
+      "nome": "PORT_2026_N_00111_CONTEUDO_SITE_API.json",
+      "sha256": "5af67ea0ead0dafdf95509ef3c2413f3d885fcc6f479a9aa9e9e30530b4aceed",
+      "tamanho": 1488
+    },
+    {
+      "nome": "PORT_2026_N_00111_NORMA_V1.json",
+      "sha256": "eae2092d461021902d048ee45133b5614cddfe6d90f4fc01f429029c8ee7d1d2",
+      "tamanho": 5490
+    },
+    {
+      "nome": "PORT_2026_N_00111_PAGINA_SITE.html",
+      "sha256": "a3ccee6f8510b8c275c43f2370e0355123dc5c279eb7bf63a494adcfc870ed53",
+      "tamanho": 441682
+    },
+    {
+      "nome": "PORT_2026_N_00111_PDF_SITE.pdf",
+      "sha256": "70b96c4e77da0c7e2c4ec4e49a5c49ea52e9e39f95c0c69d7fd8fbc81fa3c72e",
+      "tamanho": 104290
+    },
+    {
+      "nome": "PORT_2026_N_00111_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "8b19f516575d92e44aa43791d6b0dca781d422fb090cfa4e15ad20f482bda444",
+      "tamanho": 1523
+    },
+    {
+      "nome": "PORT_2026_N_00111_TEXTO_FONTE_V1.txt",
+      "sha256": "c19f49f55931bc45fe1d08051ecef3b9c0ccba425f3bcce89f8930021d834569",
+      "tamanho": 849
+    },
+    {
+      "nome": "PORT_2026_N_00111_VALIDACAO_V1.json",
+      "sha256": "83a62769664f48136e4a5aa31c6eb057688474023dc80c4290c28bb2f65c4517",
+      "tamanho": 4090
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo."
+  ]
+}

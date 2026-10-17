@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/ordem-de-servico-cofen-no-009-2017/ (API WordPress post 59724); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "OS_2017_N_00009_ATOMOS_V1.jsonl",
+      "sha256": "fd15657342608240fe5847bfe99016eca8c0e6068cdb45912431e9c193378625",
+      "tamanho": 31566
+    },
+    {
+      "nome": "OS_2017_N_00009_CONTEUDO_SITE_API.json",
+      "sha256": "96563852e0473fb09e005c62b544eb010d2a9b61f095f392301142df1d170b8f",
+      "tamanho": 7547
+    },
+    {
+      "nome": "OS_2017_N_00009_NORMA_V1.json",
+      "sha256": "c4b894d506a2f1375096da618d8f30dc27ea48e7da0f0880b5bcf11432633cab",
+      "tamanho": 2864
+    },
+    {
+      "nome": "OS_2017_N_00009_PAGINA_SITE.html",
+      "sha256": "df9e188f8f7fb1b7b7a4753176aff0d4f300584be50a1da69cad444ea3889d84",
+      "tamanho": 445512
+    },
+    {
+      "nome": "OS_2017_N_00009_PDF_SITE.pdf",
+      "sha256": "b7f9d36b261ec1bbc2f347664e5927a67173a892320ccb5620deb12a55d71f32",
+      "tamanho": 1543962
+    },
+    {
+      "nome": "OS_2017_N_00009_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "ee042d368b2cb9a9c5fb1d2e808c3663aa0c956b29d1cd1f108438861546976a",
+      "tamanho": 7174
+    },
+    {
+      "nome": "OS_2017_N_00009_TEXTO_FONTE_V1.txt",
+      "sha256": "9f275f18efc8593fb4502fca07517dbc4e05104b68a86e06185375749ea932c5",
+      "tamanho": 6262
+    },
+    {
+      "nome": "OS_2017_N_00009_VALIDACAO_V1.json",
+      "sha256": "4126ed2382e5b9a4d52e03b417d4178744687914a553407cd6ba4b0ac69fee8d",
+      "tamanho": 8939
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir."
+  ]
+}

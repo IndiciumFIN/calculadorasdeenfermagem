@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-1586-de-6-de-dezembro-de-2022/ (API WordPress post 105290); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2022_N_01586_ATOMOS_V1.jsonl",
+      "sha256": "ce788dccdeb53eef54682936bf8c005b7c40c171d408794804ba8542490cfd8f",
+      "tamanho": 7015
+    },
+    {
+      "nome": "PORT_2022_N_01586_CONTEUDO_SITE_API.json",
+      "sha256": "7bf1293600265f6142e31cf12713e7d6729a9556cc52c9addc85c1d7feeda8d0",
+      "tamanho": 1808
+    },
+    {
+      "nome": "PORT_2022_N_01586_NORMA_V1.json",
+      "sha256": "fae33d6153921fcfc745f64b87e4757408c703639b158cdfaf5d22199cba3124",
+      "tamanho": 3326
+    },
+    {
+      "nome": "PORT_2022_N_01586_PAGINA_SITE.html",
+      "sha256": "69ddefdb6bd94fd9b1c5cd6ef5be69dadfb9b47785b7ef14d10b07dbcd1d58b6",
+      "tamanho": 440197
+    },
+    {
+      "nome": "PORT_2022_N_01586_TEXTO_FONTE_V1.txt",
+      "sha256": "2df8cb3c6624ad37e191e11502167a6f273691f527d5864e6c019fbb589857dc",
+      "tamanho": 1214
+    },
+    {
+      "nome": "PORT_2022_N_01586_VALIDACAO_V1.json",
+      "sha256": "9b83e1693fc96ab4a22ce8b693f26ec7ca41b3fd7bb1fdeff90cf71dea04e63b",
+      "tamanho": 2461
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

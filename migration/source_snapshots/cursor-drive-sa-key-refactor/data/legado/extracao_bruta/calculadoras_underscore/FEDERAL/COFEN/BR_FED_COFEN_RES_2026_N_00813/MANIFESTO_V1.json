@@ -1,0 +1,35 @@
+{
+  "data": "2026-10-10",
+  "origem": "DOU (PDF oficial com código de autenticidade) extraído do acervo Drive /cofen",
+  "arquivos": [
+    {
+      "nome": "RES_2026_N_00813_ATOMOS_V1.jsonl",
+      "sha256": "f777fe3ceff9ac1b0ed02bb102e3beaf87dfbdc26bf62e57fd492167b9acc796",
+      "tamanho": 38680
+    },
+    {
+      "nome": "RES_2026_N_00813_DOU_FONTE.pdf",
+      "sha256": "f6bae4953df11c2054edd5a795ffa9862160194dabad1a6861254d01a9c83d66",
+      "tamanho": 347315
+    },
+    {
+      "nome": "RES_2026_N_00813_NORMA_V1.json",
+      "sha256": "8a0d211e96191417488bbe383d1519afcab83de2e59ba0c04ecec6466bcc3387",
+      "tamanho": 4827
+    },
+    {
+      "nome": "RES_2026_N_00813_TEXTO_DOU_V1.txt",
+      "sha256": "84d9b01cfb9fcc1ffc3a1a48256e579cac33ae945453c38a89259f25a78dbe86",
+      "tamanho": 11327
+    },
+    {
+      "nome": "RES_2026_N_00813_VALIDACAO_V1.json",
+      "sha256": "068740d062326d57794fb914e454d0e472eeda0f928c9d88d3d44b90f4db4f57",
+      "tamanho": 1621
+    }
+  ],
+  "pendencias": [
+    "Atomização automática a partir do texto do DOU; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, retificações ou revogação posteriores não realizada."
+  ]
+}

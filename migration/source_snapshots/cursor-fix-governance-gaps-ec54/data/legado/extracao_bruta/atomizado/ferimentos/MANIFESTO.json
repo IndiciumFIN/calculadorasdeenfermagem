@@ -1,0 +1,192 @@
+{
+ "arquivos": [
+  {
+   "arquivo": "nome_tecnico_anvisa_curativo.jsonl",
+   "atomos": 3,
+   "bytes": 2216,
+   "sha256": "46448513c89d6a3f1f13071acefaf9806c7d07e7fea2c5e63bf04e3ced44c078",
+   "tipo_entidade": "nome_tecnico_anvisa_curativo"
+  },
+  {
+   "arquivo": "pdm_catmat_classe_6510.jsonl",
+   "atomos": 73,
+   "bytes": 51940,
+   "sha256": "d5276953e1e24475e80fb503eced43c9ce61f1f6e8faad80c0158a112c23d9e7",
+   "tipo_entidade": "pdm_catmat_classe_6510"
+  },
+  {
+   "arquivo": "recorte_cid10.jsonl",
+   "atomos": 481,
+   "bytes": 504692,
+   "sha256": "5891b30874ee7497f8b1dad92cb44230d04cdf0162bb00856618b30994ec811e",
+   "tipo_entidade": "recorte_cid10"
+  },
+  {
+   "arquivo": "recorte_cid11.jsonl",
+   "atomos": 742,
+   "bytes": 848959,
+   "sha256": "7958f8a5af3829229522734023d7e2be667e607fb152f12a128d697a1c511fc3",
+   "tipo_entidade": "recorte_cid11"
+  },
+  {
+   "arquivo": "recorte_mesh.jsonl",
+   "atomos": 308,
+   "bytes": 458390,
+   "sha256": "5695c99c139fe4ae0cbcf2a87528b103045d0f668d36c9932b13c02bb7987ba9",
+   "tipo_entidade": "recorte_mesh"
+  }
+ ],
+ "atomos_por_tipo_entidade": {
+  "nome_tecnico_anvisa_curativo": 3,
+  "pdm_catmat_classe_6510": 73,
+  "recorte_cid10": 481,
+  "recorte_cid11": 742,
+  "recorte_mesh": 308
+ },
+ "conferencia_contagens": [
+  {
+   "arquivo_entrada": "ferimentos/ferimentos_cid10.csv",
+   "atomos": 481,
+   "confere": true,
+   "explicacao": "",
+   "linhas_csv": 481
+  },
+  {
+   "arquivo_entrada": "ferimentos/ferimentos_cid11.csv",
+   "atomos": 742,
+   "confere": true,
+   "explicacao": "",
+   "linhas_csv": 742
+  },
+  {
+   "arquivo_entrada": "ferimentos/ferimentos_mesh.csv",
+   "atomos": 308,
+   "confere": true,
+   "explicacao": "",
+   "linhas_csv": 308
+  },
+  {
+   "arquivo_entrada": "ferimentos/tipos_curativos_anvisa_nome_tecnico.csv",
+   "atomos": 3,
+   "confere": true,
+   "explicacao": "",
+   "linhas_csv": 3
+  },
+  {
+   "arquivo_entrada": "ferimentos/tipos_curativos_catmat_pdm_classe_6510.csv",
+   "atomos": 73,
+   "confere": true,
+   "explicacao": "Código = slug do nome literal; 2 par(es) de nomes que só diferem em pontuação (ex.: 'CURATIVO' e 'CURATIVO.') receberam sufixo com 8 hex do SHA-256 do nome literal.",
+   "linhas_csv": 73
+  }
+ ],
+ "entradas": [
+  {
+   "arquivo": "ferimentos/ferimentos_cid10.json",
+   "linhas_csv": 481,
+   "registros_json": 481,
+   "sha256_csv": "d131a3905a6c67b4e86602e0ad9b2ef297f99a4b015ac3a045bbd3a59bdc7877",
+   "sha256_json": "1f99040d5e0c119a500098b18e2d3a5119469597eca5eb1e4dccf8cb341b0e8a"
+  },
+  {
+   "arquivo": "ferimentos/ferimentos_cid11.json",
+   "linhas_csv": 742,
+   "registros_json": 742,
+   "sha256_csv": "b242d6613b860cf235c4bf6228d36d071fc95dba9603c21044e63860e6a4003b",
+   "sha256_json": "b274010477bb07965b88d75a139cfdf057b751ca208ebda73dd2986c3e2dc170"
+  },
+  {
+   "arquivo": "ferimentos/ferimentos_mesh.json",
+   "linhas_csv": 308,
+   "registros_json": 308,
+   "sha256_csv": "458e43bbc3834d391016664e19c51efad6ef146abda36b4feac27e5cb768a502",
+   "sha256_json": "f9231e7cdba645525b052779d22e90a067d901bd47b5871dc5f5965c65d39a0e"
+  },
+  {
+   "arquivo": "ferimentos/tipos_curativos_anvisa_nome_tecnico.json",
+   "linhas_csv": 3,
+   "registros_json": 3,
+   "sha256_csv": "4408493dd04445c25499f71ccfb632611157eea620dd72b370ec0ed050b54439",
+   "sha256_json": "5f849992288d3244368af3681a4cd4380617665cf6547507f8f4728dd938fe7c"
+  },
+  {
+   "arquivo": "ferimentos/tipos_curativos_catmat_pdm_classe_6510.json",
+   "linhas_csv": 73,
+   "registros_json": 73,
+   "sha256_csv": "bdb0d867fcf6fe5f88cfe36eb9ea0fc18174180b239aac899558ad227ad6c42a",
+   "sha256_json": "8093d15a71474971b4d2d38794f769a38111e94f8b14ffc30361075df5317efc"
+  }
+ ],
+ "fontes": [
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "Contagem derivada (fetch.py) de Anvisa - Produtos para saúde registrados: nomes técnicos de curativos",
+   "fonte_url": "https://dados.anvisa.gov.br/dados/TA_PRODUTO_SAUDE_SITE.csv",
+   "fonte_versao": "contagem sobre o arquivo baixado em 2026-10-10"
+  },
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "Contagem derivada (fetch.py) de Compras.gov.br - CATMAT: itens por PDM na classe 6510",
+   "fonte_url": "https://dadosabertos.compras.gov.br/modulo-material/4_consultarItemMaterial",
+   "fonte_versao": "contagem sobre a consulta à API em 2026-10-10"
+  },
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "DATASUS - CID-10 em português (CID10CSV.zip, cópia do Internet Archive)",
+   "fonte_url": "http://www2.datasus.gov.br/cid10/V2008/downloads/CID10CSV.zip",
+   "fonte_versao": "CID-10 DATASUS V2008"
+  },
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "NLM - MeSH Descriptors 2026 (desc2026.gz)",
+   "fonte_url": "https://nlmpubs.nlm.nih.gov/projects/mesh/MESH_FILES/xmlmesh/desc2026.gz",
+   "fonte_versao": "MeSH 2026 (desc2026.gz baixado em 2026-10-10)"
+  },
+  {
+   "data_extracao": "2026-10-10",
+   "fonte_nome": "OMS - CID-11 MMS Simple Tabulation (pt)",
+   "fonte_url": "https://icdcdn.who.int/static/releasefiles/2026-01/SimpleTabulation-ICD-11-MMS-pt.zip",
+   "fonte_versao": "ICD-11 MMS release 2026-01"
+  }
+ ],
+ "regras": {
+  "atom_id": "<tema>:<codigo>; codigo = chave local, com prefixo de subfonte quando o tema tem mais de uma fonte",
+  "data_extracao": "fixa por fonte (2026-10-10), não é a data da execução",
+  "descricao_literal": "renderização literal 'campo: valor' de todos os registros de origem da entidade (nada resumido)",
+  "ordenacao": "um arquivo por tipo_entidade, linhas ordenadas por atom_id, partes <= 90.000.000 bytes",
+  "sha256_atomo": "SHA-256 do JSON canônico (sort_keys, ensure_ascii=False, separators=(',',':')) do átomo sem o campo sha256"
+ },
+ "sobreposicao_matriz": {
+  "conflitos_ou_ambiguidades": [],
+  "decisoes": [
+   "Recortes cid10/cid11/mesh idênticos aos temas canônicos; mantidos (tipo 'recorte_*') com referencias_cruzadas para o código canônico (cid11 vazio nos 6 blocos sem código).",
+   "Matriz (TEMA|ferimentos, parcial): Calculadoras-de-Enfermagem tem EXTRAIDO_Infograficos de curativos padronizados_v0_3.zip (conteúdo educativo) x classificações/códigos do A. Recomendação: complementares, manter ambos.",
+   "Tipos de curativo = contagens de nome técnico (Anvisa) e PDM (CATMAT classe 6510) feitas pelo fetch.py; não é classificação clínica de coberturas."
+  ],
+  "linha_do_tema_literal": {
+   "a_existe": "sim",
+   "a_local": "extracao bruta Grok Bot Danadao/ferimentos https://drive.google.com/drive/folders/1vzBaCpcH_HPsoXbwc5uNkcZ2VSGh9si2",
+   "calc_enf_existe": "parcial",
+   "calc_enf_local": "https://drive.google.com/drive/folders/1k28gN245X7u4EDgIIJO9wUL915AR4hb7",
+   "calc_enf_status": "parcial: EXTRAIDO_Infograficos de curativos padronizados_v0_3.zip",
+   "chave": "TEMA|ferimentos",
+   "debby_existe": "nao",
+   "debby_local": "",
+   "debby_n_atomos": "",
+   "debby_status": "",
+   "descricao": "CID/MeSH de feridas + tipos de curativos Anvisa/CATMAT",
+   "diferencas": "Infograficos (conteudo educativo) x classificacoes/codigos",
+   "recomendacao": "Complementares; manter ambos.",
+   "sobreposicao": "parcial",
+   "tipo_registro": "dados (A)"
+  },
+  "mapeamentos_itens_calculadoras_enfermagem": [],
+  "matriz_arquivo": "MATRIZ_CRUZAMENTO_NORMATIVOS_DADOS_2026-10-10.csv",
+  "matriz_drive_file_id": "1eJETouIY0YwoZ0qUg-ObYRmPLeKgcEy_",
+  "matriz_sha256": "72968b5dfb5a68b53df4ab8a9e9268b6d631de9c687629ef951527e0323548a2",
+  "regra": "Nenhum átomo foi removido por sobreposição (a matriz não manda remover átomos). Mapeamentos item a item só quando a linha da matriz cita literalmente o arquivo de origem do átomo (a_local) e, se a matriz traz prefixo de sha256, ele confere com o arquivo local; o resto fica registrado aqui no nível do tema. referencias_cruzadas mantém só as 4 chaves do spec (cid10, cid11, mesh, medlineplus)."
+ },
+ "tema": "ferimentos",
+ "total_atomos": 1607,
+ "versao_gerador": "atomizar.py 1.1.0"
+}

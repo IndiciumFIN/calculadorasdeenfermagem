@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/ordem-de-servico-cofen-no-001-2018/ (API WordPress post 72553); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "OS_2018_N_00001_ATOMOS_V1.jsonl",
+      "sha256": "c2222f8023494e276b78592441ad78937232c0801d507c23f4f3f0362678027d",
+      "tamanho": 16731
+    },
+    {
+      "nome": "OS_2018_N_00001_CONTEUDO_SITE_API.json",
+      "sha256": "5fd974bf2535015b18ff36e375b06471cb181965d0f77a33069620ca124ba199",
+      "tamanho": 3790
+    },
+    {
+      "nome": "OS_2018_N_00001_NORMA_V1.json",
+      "sha256": "29b5af0cb4eb8f99e8cc4d4c7ecffc3c1274c640e6d50df7cdc3625448223909",
+      "tamanho": 3156
+    },
+    {
+      "nome": "OS_2018_N_00001_PAGINA_SITE.html",
+      "sha256": "9231add84dc16bc858fa88df281feaa0df41ac4a320a3fde93a58c6ac91de75a",
+      "tamanho": 442957
+    },
+    {
+      "nome": "OS_2018_N_00001_TEXTO_FONTE_V1.txt",
+      "sha256": "b4efc19ae8352c6afe030ee03ac166176787c5c263d7594160269e46b1c7c513",
+      "tamanho": 2995
+    },
+    {
+      "nome": "OS_2018_N_00001_VALIDACAO_V1.json",
+      "sha256": "1ac0ffb7a8264de7ef54db5464a65d69f94a73787ddd7b3cfc8453e9ce4212bf",
+      "tamanho": 2447
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

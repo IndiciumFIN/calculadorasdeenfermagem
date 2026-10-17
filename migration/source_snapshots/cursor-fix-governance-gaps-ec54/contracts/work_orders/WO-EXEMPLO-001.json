@@ -1,0 +1,13 @@
+{
+  "id": "WO-EXEMPLO-001",
+  "agent_id": "AGT-EXTRATOR-001",
+  "task_type": "extracao_atomos",
+  "prompt_id": "extractor_v1",
+  "prompt_sha256": "108cab9b04a24a75db8008674401d7b03df039329820ca52368a21acfadffbc1",
+  "model_id": "mock:echo-v1",
+  "temperature": 0,
+  "input_file": "contracts/fixtures/raw_amostra.json",
+  "input_sha256": "50164d0ffef92735925ed18197cb3832d2c600dd879a13aa31eab92e9d2f2752",
+  "authorized_by": "exemplo — substituir pela identidade humana autorizadora",
+  "nota": "Work Order de exemplo usando o provider mock (CE_ALLOW_MOCK=1), não promovível. Serve ao teste do harness e como template do contrato."
+}

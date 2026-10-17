@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-220-2026-plenario/ (API WordPress post 193477); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARPLEN_2026_N_00220_PLENARIO_ATOMOS_V1.jsonl",
+      "sha256": "c8df0d49557851b10aa0131def14d17c0c176ed9a04a468430012798cb715473",
+      "tamanho": 43793
+    },
+    {
+      "nome": "PARPLEN_2026_N_00220_PLENARIO_CONTEUDO_SITE_API.json",
+      "sha256": "e2237e26450f7835a34aa0fc0d20e216be1d59c968e72b91941c2004124f4646",
+      "tamanho": 13749
+    },
+    {
+      "nome": "PARPLEN_2026_N_00220_PLENARIO_NORMA_V1.json",
+      "sha256": "a1ca58f761fc57b6143037ac6c76dc619803fea812a54b36ebae14238502a234",
+      "tamanho": 6380
+    },
+    {
+      "nome": "PARPLEN_2026_N_00220_PLENARIO_PAGINA_SITE.html",
+      "sha256": "10083fdc3ca716117a75b4d20d85207fc760ec974c3350f9a9d4a197895eef02",
+      "tamanho": 453526
+    },
+    {
+      "nome": "PARPLEN_2026_N_00220_PLENARIO_PDF_SITE.pdf",
+      "sha256": "6f948e780109559be3267b3061c83792b3adb557b1984b0d99d7ccab6f70e613",
+      "tamanho": 141350
+    },
+    {
+      "nome": "PARPLEN_2026_N_00220_PLENARIO_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "28d52901ccc0310011e3094f70a7a15c18401adb392e9efded6387cb6b59ed5f",
+      "tamanho": 10532
+    },
+    {
+      "nome": "PARPLEN_2026_N_00220_PLENARIO_TEXTO_FONTE_V1.txt",
+      "sha256": "d30f4051a48d2a4a18830aa032bb093668c0b794f9eb36ab3c3a89dff9adf024",
+      "tamanho": 10548
+    },
+    {
+      "nome": "PARPLEN_2026_N_00220_PLENARIO_VALIDACAO_V1.json",
+      "sha256": "b76c55fca9d263d073c47dfde9402a2e13161ec441993cdf9b865f159778b5a2",
+      "tamanho": 10634
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo."
+  ]
+}

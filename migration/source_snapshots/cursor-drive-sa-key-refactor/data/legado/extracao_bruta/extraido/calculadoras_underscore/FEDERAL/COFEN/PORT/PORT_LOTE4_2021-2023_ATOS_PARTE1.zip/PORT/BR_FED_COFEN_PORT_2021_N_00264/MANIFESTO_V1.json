@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-264-de-09-de-abril-de-2021/ (API WordPress post 86356); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2021_N_00264_ATOMOS_V1.jsonl",
+      "sha256": "be565135c1e2b415941c4deba0c515ff17cdbfff9d7b172cab0f6f9a59f6b05b",
+      "tamanho": 39267
+    },
+    {
+      "nome": "PORT_2021_N_00264_CONTEUDO_SITE_API.json",
+      "sha256": "a315ae438d2912424bf159df88aac24e7a148e668c2827fca4355bfab0da2736",
+      "tamanho": 8215
+    },
+    {
+      "nome": "PORT_2021_N_00264_NORMA_V1.json",
+      "sha256": "a3288b8c02b7bef964de85654abe832b58685df7ac7ceaf039cca51c8fad2924",
+      "tamanho": 2757
+    },
+    {
+      "nome": "PORT_2021_N_00264_PAGINA_SITE.html",
+      "sha256": "70c403057b7fa2665f7bfff3d2f78aef00b78a99bdd5e00eb0bc0eddfe288983",
+      "tamanho": 447602
+    },
+    {
+      "nome": "PORT_2021_N_00264_TEXTO_FONTE_V1.txt",
+      "sha256": "0561696bdfeab1492f3238cffdbeaa1cdf06695a02fe31da962f21b2d61049ea",
+      "tamanho": 6550
+    },
+    {
+      "nome": "PORT_2021_N_00264_VALIDACAO_V1.json",
+      "sha256": "0b7e43bb3aa8e89ec94dbd90fe533ef8a7ecef47b5b989b8852f9332527e6e67",
+      "tamanho": 2458
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

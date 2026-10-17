@@ -1,0 +1,53 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/rdc-20anvisa-2014-transporte-de-materiais-biologicos-dou-no-70-sexta-feira-11-de-abril-de-2014/ (API WordPress post 51497); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "RDC_2014_N_00020_ATOMOS_V1.jsonl",
+      "sha256": "ed2d969c9a66e96327680b5ed65f458465e108be5f1e38770b1b41b7ff4e1856",
+      "tamanho": 138024
+    },
+    {
+      "nome": "RDC_2014_N_00020_CONTEUDO_SITE_API.json",
+      "sha256": "1f3b283867139083b3bcaf0d1885bd78d32ace098b646e4e4bd55c955b3d19b2",
+      "tamanho": 545
+    },
+    {
+      "nome": "RDC_2014_N_00020_NORMA_V1.json",
+      "sha256": "f303058e81191d0f66ebcdf00afce262925a9e98251334cfa19ec3965870039c",
+      "tamanho": 10932
+    },
+    {
+      "nome": "RDC_2014_N_00020_PAGINA_SITE.html",
+      "sha256": "c50979125912f460cef1d0a3e9c928ccdf897c1126cebf97ac418dc3a0b90a05",
+      "tamanho": 437035
+    },
+    {
+      "nome": "RDC_2014_N_00020_PDF_SITE.pdf",
+      "sha256": "6b69acd45dd3eb080143a65c9cd3159caaeab05fa7ee962d35106f496025d613",
+      "tamanho": 206677
+    },
+    {
+      "nome": "RDC_2014_N_00020_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "d3ba09e2f306e1061958227a592e45b44a143d7857d1fb06fc115f4d1a3c8f82",
+      "tamanho": 36256
+    },
+    {
+      "nome": "RDC_2014_N_00020_TEXTO_FONTE_V1.txt",
+      "sha256": "2dcdbf447600f9c0dac39c2ee67150741f0cec95b58117a604a6674cfa5e98b7",
+      "tamanho": 36308
+    },
+    {
+      "nome": "RDC_2014_N_00020_VALIDACAO_V1.json",
+      "sha256": "7ae69626b8c769b537dcafea308ff510e26a143c3e57bac772c37962c590eb62",
+      "tamanho": 3025
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+    "Texto do ato disponível apenas no PDF (o site traz só título/resumo); atomização feita a partir da camada de texto do PDF.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

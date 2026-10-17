@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-de-conselheira-n-278-2017/ (API WordPress post 61961); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCONS_2017_N_00278_ATOMOS_V1.jsonl",
+      "sha256": "8796f8b0e81a234ca0b7751621fd0d41dae314b8dcec22b73dfaa33383c227f5",
+      "tamanho": 76549
+    },
+    {
+      "nome": "PARCONS_2017_N_00278_CONTEUDO_SITE_API.json",
+      "sha256": "e9967461afc477f56b8bca9526d29f07842893934206b5f9b573198fda9423c4",
+      "tamanho": 19025
+    },
+    {
+      "nome": "PARCONS_2017_N_00278_NORMA_V1.json",
+      "sha256": "b3cbf4246fd9eb00db21fa4c31f9cc6c7b134850c63ce9cc1fc860d19bff251c",
+      "tamanho": 4798
+    },
+    {
+      "nome": "PARCONS_2017_N_00278_PAGINA_SITE.html",
+      "sha256": "0ad1bae4c11a0a9c9ef0602ccd121b79de781dfbcaeec032c11dfc77a98f9031",
+      "tamanho": 457333
+    },
+    {
+      "nome": "PARCONS_2017_N_00278_PDF_SITE.pdf",
+      "sha256": "8f11fb421586bfa8ae92f9ba999491df2f8eba98ad248bccb70a8749964b9df9",
+      "tamanho": 5084500
+    },
+    {
+      "nome": "PARCONS_2017_N_00278_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "db5402a1d33e663d7d6b533102bf28834f40dbeab2dd31d5e3d93b7d7ef4c488",
+      "tamanho": 18108
+    },
+    {
+      "nome": "PARCONS_2017_N_00278_TEXTO_FONTE_V1.txt",
+      "sha256": "493258476665eb1430238e1e9ec3ae17af8bb4b9fc826b11cb9bfef3a05bf078",
+      "tamanho": 15730
+    },
+    {
+      "nome": "PARCONS_2017_N_00278_VALIDACAO_V1.json",
+      "sha256": "4958596c4cb5fef5e41c0e5e571d7db3f681cf5d08b4cc1344596774b17ec652",
+      "tamanho": 16487
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir."
+  ]
+}

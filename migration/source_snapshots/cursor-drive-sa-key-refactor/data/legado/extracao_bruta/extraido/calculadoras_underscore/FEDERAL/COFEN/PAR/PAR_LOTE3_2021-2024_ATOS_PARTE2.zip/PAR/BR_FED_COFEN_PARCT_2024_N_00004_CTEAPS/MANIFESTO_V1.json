@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-no-4-2024-cofen-camtec-cteaps/ (API WordPress post 139574); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2024_N_00004_CTEAPS_ATOMOS_V1.jsonl",
+      "sha256": "ac2daed6ba591402d1eca493526af75d70552e8643ff858af99f3fc0eeae278a",
+      "tamanho": 53009
+    },
+    {
+      "nome": "PARCT_2024_N_00004_CTEAPS_CONTEUDO_SITE_API.json",
+      "sha256": "5ea9ec05b20d10e5b777210e304945cc4e2963ef52ae31ff42353448460b642a",
+      "tamanho": 15381
+    },
+    {
+      "nome": "PARCT_2024_N_00004_CTEAPS_NORMA_V1.json",
+      "sha256": "d1cf6203fe51abd399e073418e0c5bdb018f3a7c77b55f809866ca4b582bd831",
+      "tamanho": 5741
+    },
+    {
+      "nome": "PARCT_2024_N_00004_CTEAPS_PAGINA_SITE.html",
+      "sha256": "b5ae1eadf48d2a84f03c041d90638038f1217e46628f43b683100518bc9c814b",
+      "tamanho": 455137
+    },
+    {
+      "nome": "PARCT_2024_N_00004_CTEAPS_PDF_SITE.pdf",
+      "sha256": "efcd87e13cd39404899575074d2bc06cb9626654f04539ede8aca46550b5baac",
+      "tamanho": 282636
+    },
+    {
+      "nome": "PARCT_2024_N_00004_CTEAPS_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "e5800f59f6d854cea4342bb73e36c4507f3c48a67a40c91e0edf4cac8e1d3d48",
+      "tamanho": 14459
+    },
+    {
+      "nome": "PARCT_2024_N_00004_CTEAPS_TEXTO_FONTE_V1.txt",
+      "sha256": "be4379b6b029d513241edcb3869b667b82292f7cf96b41641ad7845e39daad5c",
+      "tamanho": 12717
+    },
+    {
+      "nome": "PARCT_2024_N_00004_CTEAPS_VALIDACAO_V1.json",
+      "sha256": "d51dd471e8a2e4a439c9542e29d8a6e20838dcbba7092c507984e4f4954fa884",
+      "tamanho": 12423
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 dispositivo(s) do site divergente(s) ou ausente(s) no PDF.",
+    "1 trecho(s) do PDF sem correspondente no texto do site."
+  ]
+}

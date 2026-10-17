@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/lei-n-11129-de-30-de-junho-de-2005/ (API WordPress post 4168); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "LEI_2005_N_11129_ATOMOS_V1.jsonl",
+      "sha256": "da64f01b19514c69c0d5d8902d28a0e3846c51ad7eced59c99cb7d3ab30276a6",
+      "tamanho": 52055
+    },
+    {
+      "nome": "LEI_2005_N_11129_CONTEUDO_SITE_API.json",
+      "sha256": "2a476426ecbcd6b53095fe0717942f27521d38cdf55fdffcaa8bdcdf7bbf120a",
+      "tamanho": 14476
+    },
+    {
+      "nome": "LEI_2005_N_11129_NORMA_V1.json",
+      "sha256": "31825f985281a98a69d81525edd8b63693a4e586d12e8ebd61189085f824a8ab",
+      "tamanho": 4521
+    },
+    {
+      "nome": "LEI_2005_N_11129_PAGINA_SITE.html",
+      "sha256": "c6b4aafe0e6187738f9af95640fa54ff5ab51c08d030b361f5a3ee853a17c2cc",
+      "tamanho": 450851
+    },
+    {
+      "nome": "LEI_2005_N_11129_TEXTO_FONTE_V1.txt",
+      "sha256": "03435c44cd1480730e1837c6bb3c375a264fdf2116f4f03b4d0290a938ecb697",
+      "tamanho": 13382
+    },
+    {
+      "nome": "LEI_2005_N_11129_VALIDACAO_V1.json",
+      "sha256": "7de88e26b2a00a09faa51141a8a69b0841295103196807486ec7765380a310cf",
+      "tamanho": 2450
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada."
+  ]
+}

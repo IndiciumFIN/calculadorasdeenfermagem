@@ -1,0 +1,63 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/lei-n-13-0052014/ (API WordPress post 36787); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "LEI_2014_N_13005_ANEXO_01_PDF_SITE.pdf",
+      "sha256": "d3d42ba1de833df4450908fd406e396aa9b941c144934be3f443b24658b47006",
+      "tamanho": 134339
+    },
+    {
+      "nome": "LEI_2014_N_13005_ANEXO_01_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "10793184a9aa36daff4b43d84681ffffa685d16ed9b7c49b5cae673e03baac86",
+      "tamanho": 50749
+    },
+    {
+      "nome": "LEI_2014_N_13005_ATOMOS_V1.jsonl",
+      "sha256": "37c0d06236479b5b0d677fdaa8607a1395df07c11449ab4af31994bd1d2c8e8e",
+      "tamanho": 209776
+    },
+    {
+      "nome": "LEI_2014_N_13005_CONTEUDO_SITE_API.json",
+      "sha256": "139abfa2a49cf06af67393bf7ec1e00944816b161211f38ac9c2e8bdbed9222b",
+      "tamanho": 388
+    },
+    {
+      "nome": "LEI_2014_N_13005_NORMA_V1.json",
+      "sha256": "4f6a839e37a65f803c4cc337ad4d2af39e76b78f9f9dd48b941c80d5cbe13e5a",
+      "tamanho": 5347
+    },
+    {
+      "nome": "LEI_2014_N_13005_PAGINA_SITE.html",
+      "sha256": "a655e86f6dafd5e15e939694f513c99b4c0145b706801a6605b2253d1fd8a01f",
+      "tamanho": 437519
+    },
+    {
+      "nome": "LEI_2014_N_13005_PDF_SITE.pdf",
+      "sha256": "d3d42ba1de833df4450908fd406e396aa9b941c144934be3f443b24658b47006",
+      "tamanho": 134339
+    },
+    {
+      "nome": "LEI_2014_N_13005_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "10793184a9aa36daff4b43d84681ffffa685d16ed9b7c49b5cae673e03baac86",
+      "tamanho": 50749
+    },
+    {
+      "nome": "LEI_2014_N_13005_TEXTO_FONTE_V1.txt",
+      "sha256": "10793184a9aa36daff4b43d84681ffffa685d16ed9b7c49b5cae673e03baac86",
+      "tamanho": 50749
+    },
+    {
+      "nome": "LEI_2014_N_13005_VALIDACAO_V1.json",
+      "sha256": "2ddff2291172436f890db072e0947acb569ae0b5225bb183d96f38fa5f36aa1e",
+      "tamanho": 3448
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Texto do ato disponível apenas no PDF (o site traz só título/resumo); atomização feita a partir da camada de texto do PDF.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

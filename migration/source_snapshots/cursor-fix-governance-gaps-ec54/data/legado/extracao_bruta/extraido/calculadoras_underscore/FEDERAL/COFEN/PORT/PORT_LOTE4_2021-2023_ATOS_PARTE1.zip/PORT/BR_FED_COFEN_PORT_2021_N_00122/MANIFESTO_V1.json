@@ -1,0 +1,53 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/portaria-cofen-no-122-de-11-de-fevereiro-de-2021/ (API WordPress post 85571); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PORT_2021_N_00122_ANEXO_01_PDF_SITE.pdf",
+      "sha256": "d224201004e6228347ea6934926366d9ae4919ed28cbc1e14bc77f1ef81c8fb4",
+      "tamanho": 6102803
+    },
+    {
+      "nome": "PORT_2021_N_00122_ANEXO_01_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "aa7245da35bd27055ad3555df8a827391b61de23bae29186b9988a11245a82d9",
+      "tamanho": 11142
+    },
+    {
+      "nome": "PORT_2021_N_00122_ATOMOS_V1.jsonl",
+      "sha256": "29c3af50af60f8e5ce7d5a4f7502b950454dc7eb0a629dfbcb4d522001602bae",
+      "tamanho": 98384
+    },
+    {
+      "nome": "PORT_2021_N_00122_CONTEUDO_SITE_API.json",
+      "sha256": "68a4bd281a5f71bdb81e061b1645f79202721cf5c25b71c904c462c28a70b5f5",
+      "tamanho": 2134
+    },
+    {
+      "nome": "PORT_2021_N_00122_NORMA_V1.json",
+      "sha256": "ddfcc9e958c0f9208320dadbcca0e4a1403df09cdfa30597dc2fcc15807b16d0",
+      "tamanho": 4165
+    },
+    {
+      "nome": "PORT_2021_N_00122_PAGINA_SITE.html",
+      "sha256": "08226c4507d7bb20f15f2d706485080a5f1c23286e2150b3acd71623c2529cad",
+      "tamanho": 440960
+    },
+    {
+      "nome": "PORT_2021_N_00122_TEXTO_FONTE_V1.txt",
+      "sha256": "bb04e98d50625ab67327426f227130bc311b778b3559bd14e46bd7cc28d1f424",
+      "tamanho": 1415
+    },
+    {
+      "nome": "PORT_2021_N_00122_VALIDACAO_V1.json",
+      "sha256": "c22b3ed1afa1540b71c3cd7fdd73e58545251e8f227f8a5fa2784dbec52def1b",
+      "tamanho": 3558
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir."
+  ]
+}

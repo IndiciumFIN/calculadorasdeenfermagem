@@ -1,0 +1,50 @@
+{
+  "id": "WO-2026_10_15_0052",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "task_id": "TAREFA-OBTER",
+  "task_version": "1.0.0",
+  "task_type": "obter",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "parametros": {
+    "pasta_drive": "1l519_P-9o6bnQcItydKvEEDpEYeE8R8s",
+    "pasta_medicamentos": "1G2aMEz7hSOeJyurPAs2m1y_fJC87uUcC",
+    "pasta_raw_fora": "1z4lhFruUgHAM7GA6Es6RD6x0AaJhdHWh",
+    "arquivo_acima_de_50mb_fora": "1YidMR-L1ovUfyxz4-jxUtfgr_5o3Kn1c,1Vzm6B5HqowgiXuHBDJSJ1ktJdpZ3CWin",
+    "lote": "medicamentos",
+    "listagem": "segunda pagina com arquivos e sem nextPageToken"
+  },
+  "entradas": [
+    {
+      "id_origem": "1TXR8PKTzlSx9arROxaQfxHrVUB0Dhf5M",
+      "caminho": "medicamentos/anvisa_cmed_precos_medicamentos.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1oaZGdYfyi4y_t3lvB-6ZGT2abcmUf-p1",
+      "caminho": "medicamentos/anvisa_medicamentos_registrados.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "16aJHou1uEY_yMxSBVAzKt8onkbPTgbWJ",
+      "caminho": "medicamentos/fda_ndc_produtos.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1ko9doZkUtPsl8ZQ1aqqlxlPBx23XVnZW",
+      "caminho": "medicamentos/fda_desabastecimento.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1EXiObJW-6ANm9MQXNLY6_oSUy47_wLBP",
+      "caminho": "medicamentos/anvisa_medicamentos_registrados.json.zip",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "16pK1HPQuz5h7cWmC4A6hZ0bJKlTY0ETH",
+      "caminho": "medicamentos/fda_desabastecimento.json",
+      "classe": "REFERENCIA"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-asslegis-no-028-2019/ (API WordPress post 69890); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARASS_2019_N_00028_ATOMOS_V1.jsonl",
+      "sha256": "05d09be45cc7554f88c4c68d6b0192c9c87e6245d6c3a9a3f987329f7153161b",
+      "tamanho": 26496
+    },
+    {
+      "nome": "PARASS_2019_N_00028_CONTEUDO_SITE_API.json",
+      "sha256": "a36fcec556ae5dcf2983fd839fd8e662524bf1d450dcb85bc713f5c3faf2ed4b",
+      "tamanho": 7663
+    },
+    {
+      "nome": "PARASS_2019_N_00028_NORMA_V1.json",
+      "sha256": "342217a51cafe67f9292f11ae972b06275a5bec76b07f108dd58a3f56832cfbe",
+      "tamanho": 2311
+    },
+    {
+      "nome": "PARASS_2019_N_00028_PAGINA_SITE.html",
+      "sha256": "1b59bdd0aea4f8349f6bcbcec98fcff8702e6d4a52f0919e08e0faa16a78ed50",
+      "tamanho": 446500
+    },
+    {
+      "nome": "PARASS_2019_N_00028_TEXTO_FONTE_V1.txt",
+      "sha256": "1ebfc24eeb4105349ca979f352062ae040cd1fbe723228b51e835f466aef3593",
+      "tamanho": 6669
+    },
+    {
+      "nome": "PARASS_2019_N_00028_VALIDACAO_V1.json",
+      "sha256": "00e6781ea00c2a43c41eed965ae7eacb6ef09762299523038c2a7dc22dfb2a8f",
+      "tamanho": 3170
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir."
+  ]
+}

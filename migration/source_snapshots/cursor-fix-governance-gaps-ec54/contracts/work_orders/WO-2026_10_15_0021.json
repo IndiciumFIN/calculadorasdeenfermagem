@@ -1,0 +1,58 @@
+{
+  "id": "WO-2026_10_15_0021",
+  "contract_version": "CKO-TAREFA-1.0.0",
+  "authorized_by": "IndiciumFIN",
+  "task_type": "obter",
+  "policy_version": "1.0.0",
+  "state": "PREAUTHORIZED",
+  "parametros": {
+    "pasta_drive": "1l519_P-9o6bnQcItydKvEEDpEYeE8R8s",
+    "pasta_vacinas": "1y1HVB-KxQRcSCiYr5Afol3QySkdxepkF",
+    "pasta_raw_fora": "1nSSpmTrT2uDs70ViXtkpJI2cGnDfZciO",
+    "lote": "vacinas"
+  },
+  "entradas": [
+    {
+      "id_origem": "1cIHdDi6Q5-Db1yYhbI_nJATCUsmnl9bD",
+      "caminho": "vacinas/cdsi_esquemas_doses_acip.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1CzgnyQvWMNCWZJX-gXcRWcIK6dJjUJJK",
+      "caminho": "vacinas/cdsi_cvx_para_antigeno.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "13STGIUK3NlCXqGYPMaikki0trif6-_eN",
+      "caminho": "vacinas/cdsi_observacoes_condicoes.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1H6AKUMovFr6qbVdrtaaxX-uvoawt1GgG",
+      "caminho": "vacinas/cdc_cvx_codigos_vacinas.csv",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1mu-R46oQG4g2Svuh9tW3-k3su05Hrkpb",
+      "caminho": "vacinas/cdsi_observacoes_condicoes.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1VtjwRQ_yUH72t3nDg8Uy5tN9Wi0BWaKM",
+      "caminho": "vacinas/cdsi_esquemas_doses_acip.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "14cdnYSmLSE3Cw0Dp59wY-5CBoHIUz7b8",
+      "caminho": "vacinas/cdsi_cvx_para_antigeno.json",
+      "classe": "REFERENCIA"
+    },
+    {
+      "id_origem": "1kSZpD7LSQ6ZYEJTSiTWEfMG1CMCdTqEt",
+      "caminho": "vacinas/cdc_cvx_codigos_vacinas.json",
+      "classe": "REFERENCIA"
+    }
+  ],
+  "task_id": "TAREFA-OBTER",
+  "task_version": "1.0.0"
+}

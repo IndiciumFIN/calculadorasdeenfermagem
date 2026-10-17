@@ -1,0 +1,55 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/rdc-306-anvisa-2004-gerenciamento-de-residuos-de-servicos-de-saude-dispoe-sobre-o-regulamento-tecnico-para-o-gerenciamento-de-residuos-de-servicos-de-saude/ (API WordPress post 51515); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "RDC_2004_N_00306_ATOMOS_V1.jsonl",
+      "sha256": "4398cd1fa1f991c44b5a83b6070cb6033c5fa6a0b12eff1fb6d7f50d5b459353",
+      "tamanho": 456442
+    },
+    {
+      "nome": "RDC_2004_N_00306_CONTEUDO_SITE_API.json",
+      "sha256": "16d533623a33d8c26ca635d4ce98b74bd3bca696e4e00da394f3cdc4a19f49b4",
+      "tamanho": 830
+    },
+    {
+      "nome": "RDC_2004_N_00306_NORMA_V1.json",
+      "sha256": "5a438e9d1266583d2f8889cc78489374c3b80c3428b05716fc8a908108dc73c8",
+      "tamanho": 16964
+    },
+    {
+      "nome": "RDC_2004_N_00306_PAGINA_SITE.html",
+      "sha256": "910178c8b2e605785ee10e9be80ea9ed9808537f6b6768a37f6e34d39877ab4b",
+      "tamanho": 442030
+    },
+    {
+      "nome": "RDC_2004_N_00306_PDF_SITE.pdf",
+      "sha256": "525936a58a736ebdfdafe1184f7981de70f3455c58c7ee1bf64c8314c3b07211",
+      "tamanho": 356991
+    },
+    {
+      "nome": "RDC_2004_N_00306_PDF_SITE_TEXTO_V1.txt",
+      "sha256": "c58023c3e33cb80d0a209052b6958325aa876205c72bceefe7e15e53c2b427e8",
+      "tamanho": 111465
+    },
+    {
+      "nome": "RDC_2004_N_00306_TEXTO_FONTE_V1.txt",
+      "sha256": "a4464b123e23a92aa0e1df830c2bba30a40914545274d4dcb4781e7e21988429",
+      "tamanho": 111634
+    },
+    {
+      "nome": "RDC_2004_N_00306_VALIDACAO_V1.json",
+      "sha256": "4b1b0cab8b8b3bee66be5486c9a7a1570c4e2d73b2ef7a8b756f05e59edf827f",
+      "tamanho": 7138
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "PDF do site é fac-símile de página do DOU com outros atos; conferência reversa (PDF→site) não aplicada a esse arquivo.",
+    "Texto do ato disponível apenas no PDF (o site traz só título/resumo); atomização feita a partir da camada de texto do PDF.",
+    "Numeração não contígua (lacuna, repetição ou ordem invertida) dentro de uma mesma sequência.",
+    "Sequência que não começa em 1/I/a (possível falha de detecção de cabeçalho ou trecho omitido); conferir.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}

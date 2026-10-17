@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/parecer-n-14-2018-cofen-ctln/ (API WordPress post 65236); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "PARCT_2018_N_00014_CTLN_ATOMOS_V1.jsonl",
+      "sha256": "293034b03703fd875fc66a2583213abf3dba37417eaba70f46a6f0cf4ed9f447",
+      "tamanho": 25450
+    },
+    {
+      "nome": "PARCT_2018_N_00014_CTLN_CONTEUDO_SITE_API.json",
+      "sha256": "c4e20722cdc98f368c2a223987e461251eb0e628d7cf162289f877ba026094bc",
+      "tamanho": 6474
+    },
+    {
+      "nome": "PARCT_2018_N_00014_CTLN_NORMA_V1.json",
+      "sha256": "fdd75779d50bbaeb3eb87b4ffc8d92d26c57e76f18e5ee58303098bf921008e4",
+      "tamanho": 3740
+    },
+    {
+      "nome": "PARCT_2018_N_00014_CTLN_PAGINA_SITE.html",
+      "sha256": "146e0bef4ab6e30ea2e17e773e4611f41a45cf8e002376c84544a8649e808908",
+      "tamanho": 447449
+    },
+    {
+      "nome": "PARCT_2018_N_00014_CTLN_PDF_SITE.pdf",
+      "sha256": "957f702fdda8ba4af7488121099a55551d7f865e8b6f299dca6c89213045f952",
+      "tamanho": 1225179
+    },
+    {
+      "nome": "PARCT_2018_N_00014_CTLN_PDF_SITE_TEXTO_OCR_V1.txt",
+      "sha256": "1605f57aa5e2083c6497c2d89823129f3f92fa4c6ff5041e124b8625ed07a3ec",
+      "tamanho": 5773
+    },
+    {
+      "nome": "PARCT_2018_N_00014_CTLN_TEXTO_FONTE_V1.txt",
+      "sha256": "f97beec68f5eb2a087f6d68ab9b3e4403d080a404036276c7c2076447282450a",
+      "tamanho": 5332
+    },
+    {
+      "nome": "PARCT_2018_N_00014_CTLN_VALIDACAO_V1.json",
+      "sha256": "1912b725c18376df4e5d83eee5df3d2502d5a643cd50793c0f17669b6951e544",
+      "tamanho": 7644
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "1 trecho(s) do PDF sem correspondente no texto do site.",
+    "PDF sem camada de texto (digitalizado); conferência feita por OCR, não literal."
+  ]
+}

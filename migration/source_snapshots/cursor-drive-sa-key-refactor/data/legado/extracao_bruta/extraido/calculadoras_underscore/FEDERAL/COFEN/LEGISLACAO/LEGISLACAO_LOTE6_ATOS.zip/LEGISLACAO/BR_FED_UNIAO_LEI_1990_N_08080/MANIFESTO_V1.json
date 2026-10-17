@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-10",
+  "origem": "Site do Cofen: https://www.cofen.gov.br/lei-8080-lei-orgnica-da-saude/ (API WordPress post 4163); anexos baixados de cofen.gov.br/wp-content/uploads",
+  "arquivos": [
+    {
+      "nome": "LEI_1990_N_08080_ATOMOS_V1.jsonl",
+      "sha256": "7998f07ca2b32bc8175ec36775b9407f69433c946c787429c977eb9057e3bfd5",
+      "tamanho": 28686
+    },
+    {
+      "nome": "LEI_1990_N_08080_CONTEUDO_SITE_API.json",
+      "sha256": "9b044eec97a1726f5eb90417c760b84da34a8caa7c4680f608a6bec27085fde4",
+      "tamanho": 4517
+    },
+    {
+      "nome": "LEI_1990_N_08080_NORMA_V1.json",
+      "sha256": "a67fbb9b830bc0573e34c99dbb08779353dac2fef4d1df357a08e3ec4f09a504",
+      "tamanho": 2031
+    },
+    {
+      "nome": "LEI_1990_N_08080_PAGINA_SITE.html",
+      "sha256": "15d29af245b3c56425c62309ea06b5467b1c45795ba618d226648971b0822cfb",
+      "tamanho": 442140
+    },
+    {
+      "nome": "LEI_1990_N_08080_TEXTO_FONTE_V1.txt",
+      "sha256": "475c5f371185002a412cedd7161f9a799c44b50cf3684a7042d62d6372cd54fc",
+      "tamanho": 3894
+    },
+    {
+      "nome": "LEI_1990_N_08080_VALIDACAO_V1.json",
+      "sha256": "83e291fc1c9b07dcecbc650ba0b4d941625d80055059d3d077ac6df43151a288",
+      "tamanho": 2649
+    }
+  ],
+  "pendencias": [
+    "Atomização automática; requer conferência humana da segmentação e da literalidade.",
+    "Pesquisa exaustiva de alterações, revogações ou retificações posteriores não realizada.",
+    "Nenhum PDF oficial do ato publicado no site; conferência site × PDF não executada.",
+    "Data do ato não identificada no texto; usada a data do post no site."
+  ]
+}
