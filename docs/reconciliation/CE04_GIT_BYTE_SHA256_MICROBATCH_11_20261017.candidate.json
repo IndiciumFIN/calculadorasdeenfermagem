@@ -1,0 +1,46 @@
+{
+  "schema": "CE04-GIT-BLOB-SHA256-CANDIDATE-1.0",
+  "wo": "WO-CE04-RECON-20261017",
+  "wo_status": "DRAFT_NOT_ADMITTED",
+  "task": "TASK-CE04-004",
+  "hash_tests": {
+    "abc": "PASS",
+    "one_million_a": "PASS"
+  },
+  "result": "RAW_BYTE_SHA256_MATCH_ONLY_NO_RELEASE",
+  "records": [
+    {
+      "name": "epidemiologico/notificacao_srag.jsonl",
+      "source_blob_sha1": "fedc5351eb57b843f4cef9a353e1b4c672d8c911",
+      "bytes_computed": 9298802,
+      "bytes_expected": 9298802,
+      "sha256_computed": "947e194d135dc58f008ae8d8ac2189f6ad924f197d9642984679926d76220991",
+      "sha256_expected": "947e194d135dc58f008ae8d8ac2189f6ad924f197d9642984679926d76220991",
+      "bytes_pass": true,
+      "sha256_pass": true,
+      "method": "GitHub fetch_blob by pinned tree SHA; UTF8 SHA256"
+    },
+    {
+      "name": "suprimentos/registro_anvisa_seringa_agulha_luva_curativo.jsonl",
+      "source_blob_sha1": "7977e419d99f1050a5b7712fd7bd99fe28e409a0",
+      "bytes_computed": 10629634,
+      "bytes_expected": 10629634,
+      "sha256_computed": "c9c63067367b94f3fe457a4cd03627e6604fd544c15574c1fa84307ccff5f442",
+      "sha256_expected": "c9c63067367b94f3fe457a4cd03627e6604fd544c15574c1fa84307ccff5f442",
+      "bytes_pass": true,
+      "sha256_pass": true,
+      "method": "GitHub fetch_blob by pinned tree SHA; UTF8 SHA256"
+    },
+    {
+      "name": "nutricao/medida_caseira_pof.jsonl",
+      "source_blob_sha1": "a08c0e709e4d4e630aaaf7a87ebebbaf9ccaf974",
+      "bytes_computed": 11617666,
+      "bytes_expected": 11617666,
+      "sha256_computed": "45c9a536e66641c74e04807d905717971a9dc97d9c20219f5052cce2428c6d62",
+      "sha256_expected": "45c9a536e66641c74e04807d905717971a9dc97d9c20219f5052cce2428c6d62",
+      "bytes_pass": true,
+      "sha256_pass": true,
+      "method": "GitHub fetch_blob by pinned tree SHA; UTF8 SHA256"
+    }
+  ]
+}
