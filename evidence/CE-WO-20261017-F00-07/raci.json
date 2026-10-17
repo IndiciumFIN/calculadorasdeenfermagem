@@ -1,0 +1,24 @@
+{
+  "wo_id": "CE-WO-20261017-F00-07",
+  "timestamp": "2026-10-17T08:20:20Z",
+  "roles": {
+    "AGENT_EXECUTOR": "Mavis Agent — executes WOs via API",
+    "CHATGPT_AUDITOR": "External reviewer — validates evidence",
+    "HUMAN_APPROVER": "Required for F06 WOs and clinical validation",
+    "KERNEL": "packages/cli/kernel/core.py — fail-closed gate",
+    "GUARDIAN": "pipeline.py — refuses execution outside Kernel env"
+  },
+  "segregation_rules": [
+    "Executor cannot approve own changes",
+    "Clinical content requires enfermeiro registrado",
+    "Deletions require human approval + evidence"
+  ],
+  "designations": {
+    "AGENT_EXECUTOR": "Mavis (this session)",
+    "CHATGPT_AUDITOR": "Not yet designated",
+    "HUMAN_APPROVER": "Leivis (github_username)",
+    "enfermeiro_registrado": "Not yet designated",
+    "designated_by": "human executor",
+    "designation_timestamp": "2026-10-17T08:25:00Z"
+  }
+}

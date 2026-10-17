@@ -1,0 +1,15 @@
+{
+  "wo_id": "CE-WO-20261017-F00-07",
+  "status": "DESIGNATED",
+  "timestamp": "2026-10-17T08:25:00Z",
+  "designated_approver": {
+    "github_username": "Leivis",
+    "role": "HUMAN_APPROVER",
+    "scope": [
+      "CE-WO-20261017-F06-01",
+      "CE-WO-20261017-F06-02"
+    ],
+    "note": "Designated by human executor. Name confirmed by user."
+  },
+  "note": "This designation satisfies the requires_human_approval prerequisite for F06-01 and F06-02"
+}
