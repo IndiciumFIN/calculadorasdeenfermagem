@@ -9,9 +9,9 @@
   "project_execution_allowed": false,
   "pmo_control_revision": {
     "version": "0.2.0-CANDIDATE",
-    "change_id": "PMO-M24-ADMIN-CLOSURE-NO-REEXECUTION-20261019-013",
+    "change_id": "PMO-POST-CLOSURE-APPEND-ONLY-QUEUE-20261019-014",
     "supersedes_control_revision": "0.1.0",
-    "change_reason": "Administratively close orphan historic M24 label without pretending five unknown source files are processed, preserving their unresolved identity count; route rights/clinical/Kernel review to existing P3/P4/P5 tasks and prevent reopening or duplicate WOs",
+    "change_reason": "User invariant: late discoveries after CLOSED/CANDIDATE become linked FIND/investigation/correction and new tail task before separate final homologation, never reexecute prior work; classify five existing technical/administrative bounded results and append snapshot cutoff drift POST-001 without fabricating delta",
     "control_state": "DOCUMENTARY_CONSOLIDATION_IN_PROGRESS",
     "release_state": "HOLD",
     "current_register_sha_attestation": "NOT_SELF_ATTESTED; REQUIRE_INDEPENDENT_GITHUB_FETCH_RECEIPT",
@@ -23,6 +23,19 @@
     "git_tree_enumeration": {"completed": 15, "total": 15, "percent": 100.0, "unit": "BRANCH_TREE_PINNED", "source_ids": ["S-17"]},
     "pmo_homologation_gates": {"passed": 0, "total": 8, "percent": 0.0, "status": "HOLD"},
     "full_project_completion": {"percent": null, "status": "DENOMINATOR_NOT_RECONCILED", "rationale": "Historic and live artifacts cannot be treated as approved/completed until all populations and gates are reconciled"}
+  },
+  "post_closure_control": {
+    "invariant_id": "INV-QUEUE-POST-CLOSURE-001",
+    "policy_ref": "CE_PMO_INVARIANTE_FILA_POS_FECHAMENTO_20261019_CANDIDATE.md",
+    "bounded_closures_ref": "CE_PMO_FECHAMENTOS_DELIMITADOS_20261019_CANDIDATE.json",
+    "whole_project_sweep_ref": "CE_PMO_VARREDURA_FINAL_P1_P5_F0_F11_20261019_CANDIDATE.json",
+    "new_finds_must_append_tasks": true,
+    "original_order_immutable": true,
+    "final_homologation_outside_queue": true,
+    "final_user_approval_pending": true,
+    "new_tasks_current_tail": ["POST-001"],
+    "new_tasks_not_automatically_admitted": true,
+    "risk_containment": "SCOPED_UNSAFE_OPERATION_DENY_NOT_GLOBAL_QUEUE_FREEZE"
   },
   "activity_authorization": {
     "authorized_in_scope": ["READ_ONLY_INVENTORY", "READ_ONLY_ZIP_INSPECTION", "GIT_BRANCH_DIFFERENCE_CLASSIFICATION", "NON_DESTRUCTIVE_VERSION_CONSOLIDATION", "FIND_AND_LEARNING_REGISTRATION", "PMO_DOCUMENTARY_COMMIT_ON_RECOVERY_BRANCH", "SHA_AND_READBACK_VERIFICATION"],
@@ -168,7 +181,9 @@
     {"source_id": "S-37", "kind": "P4_PINNED_SOURCE_RIGHTS_CROSSWALK", "ref": "CE_PMO_P4_CROSSWALK_FONTES_61_ARQUIVOS_65_20261019_CANDIDATE.json; test_ce_pmo_p4_source_rights_crosswalk_v01.py", "cutoff": "2026-10-19", "evidence_status": "65_FILE_DESCRIPTOR_MATCHES_61_SOURCE_OBJECTS_49_URLS_61_RIGHTS_HOLD; NO_PER_RECORD_ATTRIBUTION_APPROVED"},
     {"source_id": "S-38", "kind": "INDEPENDENT_GAP_TRIAGE_AND_ZIP_CRC_REPLAY", "ref": "CE_PMO_MATRIZ_LACUNAS_INDEPENDENTES_20261019_CANDIDATE.json; CE_PMO_VALIDADOR_INDEPENDENTE_20261019.py; test_ce_pmo_independent_zip_gap_v01.py", "cutoff": "2026-10-19", "evidence_status": "25_STATIC_PASS_3_HOLD_80_UNIT_TESTS_LOCAL; ZIP_13_CRC_1956_REPLAY_PASS_ONLY"},
     {"source_id": "S-39", "kind": "P1_PRIVATE_NEW_TIMESTAMPED_SNAPSHOT", "ref": "CE_PMO_CUSTODIA_SNAPSHOT_PRIVADO_20261019_V2.json (PRIVATE_LIBRARY_NOT_PUBLIC_GIT)", "cutoff": "2026-10-19T11:56:06.361038+00:00", "evidence_status": "823_LOCAL_FILES_PRIVATE_COPY_SAVED; EXACT_PRIVATE_CONTENT_READBACK; 768_FROZEN_BASELINE_UNCHANGED; ORIGINAL_PER_ITEM_DELTA_HOLD"},
-    {"source_id": "S-40", "kind": "PMO_GITHUB_BASE64_CORRECTION_PINNED_READBACK", "ref": "CE_PMO_FIND_CORRECAO_BASE64_14_20261019_CANDIDATE.json", "pinned_head": "371bcd2366f54824410c3af9bf3d84890d40266d", "evidence_status": "14_REMOTE_LITERAL_BASE64_CORRECTED; 58_OF_58_LOCAL_SHA_MATCH; 4_REMOTE_ONLY_PRESERVED; GLOBAL_INDEPENDENT_ATTESTATION_HOLD"}
+    {"source_id": "S-40", "kind": "PMO_GITHUB_BASE64_CORRECTION_PINNED_READBACK", "ref": "CE_PMO_FIND_CORRECAO_BASE64_14_20261019_CANDIDATE.json", "pinned_head": "371bcd2366f54824410c3af9bf3d84890d40266d", "evidence_status": "14_REMOTE_LITERAL_BASE64_CORRECTED; 58_OF_58_LOCAL_SHA_MATCH; 4_REMOTE_ONLY_PRESERVED; GLOBAL_INDEPENDENT_ATTESTATION_HOLD"},
+    {"source_id": "S-41", "kind": "POST_CLOSURE_APPEND_ONLY_INVARIANT", "ref": "CE_PMO_INVARIANTE_FILA_POS_FECHAMENTO_20261019_CANDIDATE.md; ce_pmo_inventory_guard_v01.py; test_ce_pmo_inventory_guard_v01.py", "cutoff": "2026-10-19", "evidence_status": "LOCAL_GUARD_AND_NEGATIVE_TESTS; REMOTE_CI_ENFORCEMENT_NOT_PROVEN"},
+    {"source_id": "S-42", "kind": "BOUNDED_CLOSURE_AND_NEW_TAIL_FIND", "ref": "CE_PMO_FECHAMENTOS_DELIMITADOS_20261019_CANDIDATE.json; CE_PMO_FILA_EXECUCAO_P1_P5_20261019_CANDIDATE.json; CE_PMO_VARREDURA_FINAL_P1_P5_F0_F11_20261019_CANDIDATE.json", "cutoff": "2026-10-19", "evidence_status": "ONE_BOUNDED_TECH_CLOSED_ONE_ADMIN_CLOSED_THREE_CANDIDATE; POST_001_TAIL_NOT_EXECUTED; F0_F11_REVIEWED_NO_DUPLICATE"}
   ],
   "populations": [
     {"population_id": "POP-BRANCH", "unit": "BRANCH", "count": 14, "processed": null, "approved": null, "cutoff": "2026-10-19", "source_ids": ["S-02"], "status": "HISTORICAL_BEFORE_PMO_BRANCH_NOT_RECONCILED"},
@@ -187,7 +202,7 @@
     {"id": "F0", "name": "Segurança e baseline", "status": "HOLD", "source_ids": ["S-01", "S-02", "S-26", "S-27"], "blockers": ["GitHub ruleset 25297030 enforcement disabled", "main protection endpoint 403", "Kernel admission absent"]},
     {"id": "F1", "name": "Universo integral migrado", "status": "PARTIAL", "documentary_consolidation_status": "IN_PROGRESS", "release_status": "HOLD", "source_ids": ["S-01", "S-03", "S-13", "S-14", "S-15", "S-16", "S-17", "S-18", "S-25"], "blockers": ["P1CD aggregate groups 11+610+674 classified; path/version/semantic attribution still pending", "1284 unique ZIP member contents have no matching individual Git blob at pinned tips; do not infer loss", "nested archives, LFS/transforms and external provenance remain open", "local recursive scan not yet externally reconciled; directory symlinks skipped"]},
     {"id": "F2", "name": "Branches e conflitos", "status": "HOLD", "documentary_plan_state": "P2_SPECIALIST_PLAN_READY", "source_ids": ["S-01", "S-02", "S-19", "S-23"], "blockers": ["22 historical proposed deletions require case decisions", "PR overlapping workflows/roots"]},
-    {"id": "F3", "name": "Conteúdo e atomização", "status": "STOP_WORK", "documentary_plan_state": "P4_READ_ONLY_PLAN_READY", "source_ids": ["S-04", "S-05", "S-21", "S-23"], "blockers": ["7 other large files", "M24 five files", "semantic and rights reviews"]},
+    {"id": "F3", "name": "Conteúdo e atomização", "status": "STOP_WORK", "documentary_plan_state": "P4_READ_ONLY_PLAN_READY", "source_ids": ["S-04", "S-05", "S-21", "S-23"], "blockers": ["7 other large files", "historical five unknown identities remain documentary exception; M24 label administratively closed and does not stop unrelated work", "semantic and rights reviews"]},
     {"id": "F4", "name": "Normativos e conformidade", "status": "HOLD", "documentary_plan_state": "P4_NORM_CROSSWALK_READY", "source_ids": ["S-03", "S-12", "S-21"], "blockers": ["clause applicability and independent semantic audit"]},
     {"id": "F5", "name": "Aquisição e direitos", "status": "HOLD", "source_ids": ["S-08"], "blockers": ["rights, official source versions and Kernel"]},
     {"id": "F6", "name": "Ingestores e extratores", "status": "STOP_WORK", "source_ids": ["S-04", "S-05"], "blockers": ["streaming recurrence and source/claim qualification"]},
