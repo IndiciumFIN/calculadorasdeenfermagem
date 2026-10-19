@@ -47,3 +47,18 @@
 - PR #2 (base `main`) e PR #4 (base branch do PR #2) têm relação de ancestralidade relevante; PRs #3 e #6 apontam para `main`. Nenhum dos quatro está mesclado; #2/#3/#6 em draft, #4 aberto. Revalidar SHAs dinâmicos quando usados em decisões.
 - `P2-TREE-SHA-FIELD-MISLABEL` é FIND candidato não numerado: 11/11 registros do relatório SMALL_TREES gravam SHA do commit em `observed_tree_sha`; o manifesto de origem contém SHAs reais de árvores diferentes. Investigar mapeamento e corrigir após identificação da causa, mantendo numerador de blobs separado. Não presumir que as contagens estão erradas.
 - Antes de criar nova tarefa, verificar FINDs existentes e aplicar `INV-QUEUE-POST-CLOSURE-001`: registrar investigação/correção e acrescentar atividade ao fim da fila, antes da homologação, sem alterar ordem anterior ou abrir bypass Kernel. PMO mestre, registry de agentes, gates e fila permanecem no estado anterior até revisão formal.
+
+## Registro de conversas correlatas (índice de rastreabilidade, sem importação de conteúdo)
+Estas URLs foram informadas pelo usuário em 2026-10-19. A lista **não** atesta leitura integral das conversas, nem substitui artefatos GitHub com SHA.
+1. https://chatgpt.com/c/6ad38198-0c8c-83e9-82b0-07ccfb3e6c5d
+2. https://chatgpt.com/c/6ad50a6a-13bc-83ea-a75d-4082de15cec8
+3. https://chatgpt.com/c/6ad32d32-8fc0-83e9-9ec2-70fe4f39750e
+4. https://chatgpt.com/c/6ad3d517-be04-83ea-9f5d-a1b9f0e8da11
+5. https://chatgpt.com/c/6ad33e01-1050-83e8-8a1d-a4504316b2a8
+6. https://chatgpt.com/c/6ad33dd1-9d04-83ea-a981-c3eb0c85aa48
+7. https://chatgpt.com/c/6ad33ded-74c4-83e9-ac75-c1ab5a6f418b
+8. https://chatgpt.com/c/6ad33dae-3ef4-83e8-8345-101e2d7caa8f
+9. https://chatgpt.com/c/6ad33dc1-f5b4-83e9-a7a5-a8805cfce8a4
+10. https://chatgpt.com/c/6ad33d90-05ec-83e9-b741-212d1e85140f
+11. https://chatgpt.com/c/6ad52b47-b0d8-83e9-9479-46940fec1b48
+12. https://chatgpt.com/c/6ad62a38-f3ec-83e9-99e2-4cd93d6ef5cd
