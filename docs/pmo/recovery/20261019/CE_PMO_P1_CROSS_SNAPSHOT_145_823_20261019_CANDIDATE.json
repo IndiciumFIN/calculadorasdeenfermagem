@@ -1,0 +1,62 @@
+{
+  "schema_version": "0.1.0-CANDIDATE",
+  "date": "2026-10-19",
+  "task": "P1-D-01",
+  "status": "PARTIAL_145_OBJECT_CROSSCHECK_WITH_TWO_CONFLICTS",
+  "sources": [
+    {
+      "identity": "CE_PMO_INVENTARIO_LOCAL_20261019_CANDIDATE.json",
+      "library_file_id": "libfile_a04df1b6c60881918fbad55872bee252",
+      "scope": "current scratch root CE_*, ce_m*.py, test_ce_m*.py and upload/ immediate files",
+      "timestamp_utc": "2026-10-19T07:28:55.416315+00:00",
+      "files": 145
+    },
+    {
+      "identity": "CE_PMO_CUSTODIA_SNAPSHOT_PRIVADO_20261019_V2.json",
+      "library_file_id": "libfile_738627ee851c8191b62ad0595a01dfdd",
+      "scope": "later recursive workspace only",
+      "timestamp_utc": "2026-10-19T11:56:06.361038+00:00",
+      "files": 823
+    }
+  ],
+  "comparison": {
+    "join_key": "relative_path",
+    "equivalence": "same path AND SHA256 AND bytes",
+    "early_objects": 145,
+    "exact_match_path_sha_size": 143,
+    "path_present_changed_sha_or_size": 2,
+    "early_paths_absent_later": 0,
+    "exact_match_rate_of_earlier_scope_percent": 98.62068965517241,
+    "concurrent_scope_completeness_claim": false
+  },
+  "conflicts": [
+    {
+      "id": "P1-DELTA-145-823-001",
+      "classification": "SAME_RELATIVE_PATH_DIFFERENT_BYTES_OR_HASH",
+      "disposition": "PRESERVE_BOTH_SNAPSHOTS_HOLD",
+      "path_and_hashes": "IN_PRIVATE_CUSTODY_INVENTORIES"
+    },
+    {
+      "id": "P1-DELTA-145-823-002",
+      "classification": "SAME_RELATIVE_PATH_DIFFERENT_BYTES_OR_HASH",
+      "disposition": "PRESERVE_BOTH_SNAPSHOTS_HOLD",
+      "path_and_hashes": "IN_PRIVATE_CUSTODY_INVENTORIES"
+    }
+  ],
+  "find_link": "P1-FIND-GIT-ZIP-UNMATCHED",
+  "find_identity_action": "Treat as two path-level conflict occurrences pending component/signature crosswalk. Do not assume these match existing ZIP FIND root cause and do not declare distinct authoritative findings until investigated.",
+  "limits": [
+    "Earlier inventory was 145 scoped files, not original 768 recursive snapshot",
+    "Later snapshot 823 files explicitly NOT_HOMOLOGATED and not a retroactive original baseline",
+    "Manifest hashes are asserted in artifacts; bytes not independently rehashed in this comparison",
+    "No original Drive source listing or proof of source completeness",
+    "Private path/hash details not copied to public Git artifact"
+  ],
+  "next": [
+    "Resolve two changed-path cases with immutable blob/byte readback from permitted custody, preserve versions",
+    "Recover original 768 per-object source with verified cutoff or document unreconstructible exception",
+    "P5 independently sample path+hash equivalence and challenge source metadata"
+  ],
+  "admission": "NOT_REQUESTED",
+  "main_promotion": "PROHIBITED"
+}
