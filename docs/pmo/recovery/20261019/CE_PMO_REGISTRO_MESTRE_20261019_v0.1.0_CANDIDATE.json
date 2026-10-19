@@ -18,6 +18,12 @@
     "evidence_of_commit_policy": "RECORD_COMMIT_AND_BLOB_SHA_IN_EXTERNAL_APPEND_ONLY_RECEIPT_AFTER_GITHUB_READBACK",
     "approval_state": "FINAL_USER_APPROVAL_PENDING"
   },
+  "progress_metrics": {
+    "p1_technical_checkpoints": {"completed": 4, "total": 6, "percent": 66.7, "status": "IN_PROGRESS_NOT_RELEASED", "source_ids": ["S-13", "S-14", "S-15", "S-17"]},
+    "git_tree_enumeration": {"completed": 15, "total": 15, "percent": 100.0, "unit": "BRANCH_TREE_PINNED", "source_ids": ["S-17"]},
+    "pmo_homologation_gates": {"passed": 0, "total": 8, "percent": 0.0, "status": "HOLD"},
+    "full_project_completion": {"percent": null, "status": "DENOMINATOR_NOT_RECONCILED", "rationale": "Historic and live artifacts cannot be treated as approved/completed until all populations and gates are reconciled"}
+  },
   "activity_authorization": {
     "authorized_in_scope": ["READ_ONLY_INVENTORY", "READ_ONLY_ZIP_INSPECTION", "GIT_BRANCH_DIFFERENCE_CLASSIFICATION", "NON_DESTRUCTIVE_VERSION_CONSOLIDATION", "FIND_AND_LEARNING_REGISTRATION", "PMO_DOCUMENTARY_COMMIT_ON_RECOVERY_BRANCH", "SHA_AND_READBACK_VERIFICATION"],
     "authorized_activity_state": "IN_PROGRESS",
@@ -34,7 +40,7 @@
   "documentary_microtasks": [
     {"task_id": "P1-A", "name": "Recursive local inventory", "status": "EVIDENCE_RECORDED_NOT_HOMOLOGATED", "source_ids": ["S-13"], "release_gate": "G-PMO-01"},
     {"task_id": "P1-B", "name": "ZIP integrity and entry-to-file classification", "status": "ZIP_CRC_VERIFIED_CLASSIFICATION_IN_PROGRESS", "source_ids": ["S-13", "S-14"], "release_gate": "G-PMO-03"},
-    {"task_id": "P1-C", "name": "Local-Git-history-ZIP reconciliation", "status": "LOCAL_ZIP_EXACT_HASH_COMPLETE_GITHUB_PARTIAL", "source_ids": ["S-02", "S-03", "S-13", "S-15", "S-16"], "release_gate": "G-PMO-01"},
+    {"task_id": "P1-C", "name": "Local-Git-history-ZIP reconciliation", "status": "BRANCH_TREES_15_OF_15_COMPLETE_BLOB_COMPARISON_PENDING", "source_ids": ["S-02", "S-03", "S-13", "S-15", "S-16", "S-17"], "release_gate": "G-PMO-01"},
     {"task_id": "P2-A", "name": "Versioned branch/PR conflict matrix", "status": "PENDING", "source_ids": ["S-01", "S-02"], "release_gate": "G-PMO-02"}
   ],
   "inventory_snapshot_control": {
@@ -90,10 +96,12 @@
     {"source_id": "S-13", "kind": "LOCAL_RECURSIVE_SCAN", "ref": "CE_PMO_INVENTARIO_RECURSIVO_RESUMO_20261019_CANDIDATE.json", "cutoff": "2026-10-19", "evidence_status": "AGGREGATED_LOCAL_HASH_SCAN_NOT_EXTERNAL_CUSTODY"},
     {"source_id": "S-14", "kind": "LOCAL_ZIP_PAYLOAD_VALIDATION", "ref": "CE_PMO_ZIP_INTEGRIDADE_P1B_20261019_CANDIDATE.json", "cutoff": "2026-10-19", "evidence_status": "13_ZIP_1956_MEMBERS_CRC_VERIFIED_LOCAL_ONLY"},
     {"source_id": "S-15", "kind": "LOCAL_ZIP_CONTENT_SHA_RECONCILIATION", "ref": "CE_PMO_RECON_LOCAL_ZIP_GIT_P1C_A_20261019_CANDIDATE.json", "cutoff": "2026-10-19", "evidence_status": "621_IDENTICAL_SHA_LOCAL_ZIP; GITHUB_UNRECONCILED"},
-    {"source_id": "S-16", "kind": "GITHUB_READBACK_PARTIAL_TREE", "ref": "main@e0f62491b104f4a97c6025a6393cabc2e7ada30e root/docs/contracts nonrecursive Git trees", "cutoff": "2026-10-19", "evidence_status": "15_BRANCHES_OBSERVED_TREES_PARTIAL_NOT_TRUNCATED"}
+    {"source_id": "S-16", "kind": "GITHUB_READBACK_PARTIAL_TREE", "ref": "main@e0f62491b104f4a97c6025a6393cabc2e7ada30e root/docs/contracts nonrecursive Git trees", "cutoff": "2026-10-19", "evidence_status": "15_BRANCHES_OBSERVED_TREES_PARTIAL_NOT_TRUNCATED"},
+    {"source_id": "S-17", "kind": "GITHUB_PINNED_BRANCH_TREE_TRAVERSAL", "ref": "CE_PMO_GIT_BRANCH_TREES_P1CB_20261019_CANDIDATE.json", "cutoff": "2026-10-19", "evidence_status": "15_OF_15_TREES_COMPLETE_58710_BLOB_OCCURRENCES_NOT_UNIQUE"}
   ],
   "populations": [
-    {"population_id": "POP-BRANCH", "unit": "BRANCH", "count": 14, "processed": null, "approved": null, "cutoff": "2026-10-19", "source_ids": ["S-02"], "status": "INVENTORIED_NOT_RECONCILED"},
+    {"population_id": "POP-BRANCH", "unit": "BRANCH", "count": 14, "processed": null, "approved": null, "cutoff": "2026-10-19", "source_ids": ["S-02"], "status": "HISTORICAL_BEFORE_PMO_BRANCH_NOT_RECONCILED"},
+    {"population_id": "POP-BRANCH-PINNED-P1CB", "unit": "BRANCH_TREE", "count": 15, "processed": 15, "approved": 0, "cutoff": "2026-10-19", "source_ids": ["S-17"], "status": "TREE_TRAVERSAL_COMPLETE_BLOB_CONTENT_AND_VARIANTS_PENDING"},
     {"population_id": "POP-OPEN-PR", "unit": "PULL_REQUEST", "count": 4, "processed": 4, "approved": 0, "cutoff": "2026-10-19", "source_ids": ["S-02"], "status": "PATHS_REVIEWED_NO_MERGE"},
     {"population_id": "POP-CE04-FILES", "unit": "FILE", "count": 65, "processed": 53, "approved": 0, "cutoff": "2026-10-19", "source_ids": ["S-04"], "status": "STRUCTURAL_ONLY"},
     {"population_id": "POP-CE04-TASKS", "unit": "TASK", "count": 38, "processed": null, "approved": 0, "cutoff": "2026-10-18", "source_ids": ["S-03"], "status": "ZERO_CLOSED_KERNEL_NOT_VERIFIED"},
@@ -106,7 +114,7 @@
   ],
   "workstreams": [
     {"id": "F0", "name": "Segurança e baseline", "status": "HOLD", "source_ids": ["S-01", "S-02"], "blockers": ["main protection not freshly verified", "Kernel admission absent"]},
-    {"id": "F1", "name": "Universo integral migrado", "status": "PARTIAL", "documentary_consolidation_status": "IN_PROGRESS", "release_status": "HOLD", "source_ids": ["S-01", "S-03", "S-13", "S-14", "S-15", "S-16"], "blockers": ["all 15 Git branches still require complete pinned tree/blob classification", "674 ZIP-only hashes relative to local files have not been compared with Git", "13 outer ZIP containers CRC verified but nested archives and external provenance remain open", "local recursive scan not yet externally reconciled; directory symlinks skipped"]},
+    {"id": "F1", "name": "Universo integral migrado", "status": "PARTIAL", "documentary_consolidation_status": "IN_PROGRESS", "release_status": "HOLD", "source_ids": ["S-01", "S-03", "S-13", "S-14", "S-15", "S-16", "S-17"], "blockers": ["15/15 pinned Git trees traversed but all Git blob-content equivalences and path variants remain to reconcile", "674 ZIP-only hashes relative to local files have not been compared with Git", "13 outer ZIP containers CRC verified but nested archives and external provenance remain open", "local recursive scan not yet externally reconciled; directory symlinks skipped"]},
     {"id": "F2", "name": "Branches e conflitos", "status": "HOLD", "source_ids": ["S-01", "S-02"], "blockers": ["22 historical proposed deletions require case decisions", "PR overlapping workflows/roots"]},
     {"id": "F3", "name": "Conteúdo e atomização", "status": "STOP_WORK", "source_ids": ["S-04", "S-05"], "blockers": ["7 other large files", "M24 five files", "semantic and rights reviews"]},
     {"id": "F4", "name": "Normativos e conformidade", "status": "HOLD", "source_ids": ["S-03", "S-12"], "blockers": ["clause applicability and independent semantic audit"]},
