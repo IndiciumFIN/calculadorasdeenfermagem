@@ -1,0 +1,50 @@
+{
+  "schema_version": "0.1.0-CANDIDATE",
+  "date": "2026-10-19",
+  "task": "P1-D-01",
+  "status": "HOLD_DEPENDENCY_NOT_CLOSED",
+  "baseline": {
+    "local_regular_files": 768,
+    "unique_sha256": 720,
+    "zip_archives": 13,
+    "zip_declared_members": 1956,
+    "zip_distinct_payloads": 1295,
+    "distinct_payloads_matched_exact_git_blob": 11,
+    "unmatched_not_proven_lost": 1284
+  },
+  "evidence": [
+    {
+      "path": "docs/pmo/recovery/20261019/CE_PMO_INVENTARIO_RECURSIVO_RESUMO_20261019_CANDIDATE.json",
+      "scope": "aggregate only, no individual path/hash"
+    },
+    {
+      "path": "docs/pmo/recovery/20261019/CE_PMO_GIT_BLOB_CROSSCHECK_P1CC_20261019_CANDIDATE.json",
+      "scope": "aggregate Git/ZIP crosscheck"
+    },
+    {
+      "path": "docs/pmo/recovery/20261019/CE_PMO_P1CD_CLASSIFICACAO_IDENTIDADE_20261019_CANDIDATE.json",
+      "scope": "aggregate A/B/C classification"
+    }
+  ],
+  "finding": "P1-FIND-GIT-ZIP-UNMATCHED",
+  "finding_disposition": "REUSE_EXISTING_FIND_WITH_INDEPENDENT_SOURCE_CENSUS_DEPENDENCY",
+  "defect": "No independently authenticated per-object source manifest of 768 file paths, content digests, versions and immutable locators was available at cutoff. Source-to-repository completeness therefore cannot be verified.",
+  "next_actions": [
+    "Locate or reconstruct independently authenticated per-object source custody manifest from already preserved permitted evidence; no Drive connection requested",
+    "Compare path, size, hash, immutable source ID and version with pinned snapshots",
+    "Classify every mismatch or ambiguity, preserve all bytes and variants, audit sample independently"
+  ],
+  "exclusions": [
+    "NO_DRIVE",
+    "NO_DELETE",
+    "NO_CANONICAL_WINNER_AUTOMATIC",
+    "NO_MAIN",
+    "NO_PRODUCTION_ATOMIZATION"
+  ],
+  "assertions_not_made": [
+    "100_PERCENT_SOURCE_COMPLETENESS",
+    "1284_FILES_LOST",
+    "P1_D_COMPLETED"
+  ],
+  "publication_type": "PMO_DOCUMENTARY_ONLY_NO_WO_ADMISSION"
+}
