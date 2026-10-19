@@ -1,29 +1,58 @@
 {
-  "schema_version": "0.1.0",
+  "schema_version": "0.2.0-CANDIDATE",
   "project": "IndiciumFIN/calculadorasdeenfermagem",
   "cutoff": "2026-10-19",
-  "state": "CANDIDATE_DOCUMENTARY_QUEUE_NOT_KERNEL_ADMISSION",
-  "source_ids": ["S-18", "S-19", "S-20", "S-21", "S-22", "S-23"],
+  "state": "CANDIDATE_DOCUMENTARY_QUEUE_POLICY_CHANGE_PENDING_ADMISSION",
+  "source_ids": [
+    "S-18",
+    "S-19",
+    "S-20",
+    "S-21",
+    "S-22",
+    "S-23"
+  ],
   "baseline": {
-    "p1_checkpoints": {"completed": 5, "total": 6, "percent": 83.3},
-    "git_branch_trees": {"complete": 15, "total": 15},
+    "p1_checkpoints": {
+      "completed": 5,
+      "total": 6,
+      "percent": 83.3
+    },
+    "git_branch_trees": {
+      "complete": 15,
+      "total": 15
+    },
     "git_blob_occurrences": 58710,
     "git_unique_blobs": 9569,
     "zip_unique_member_payloads": 1295,
     "zip_unique_payloads_matched_to_individual_git_blob": 11,
     "unmatched_zip_payloads_not_proven_lost": 1284,
-    "historical_ce04_structural": {"complete": 53, "total": 65, "clinically_approved": 0},
+    "historical_ce04_structural": {
+      "complete": 53,
+      "total": 65,
+      "clinically_approved": 0
+    },
     "m24_hold_files": 5,
-    "pmo_gates": {"passed": 0, "total": 8},
+    "pmo_gates": {
+      "passed": 0,
+      "total": 8
+    },
     "project_completion_percent": null
   },
   "rules": {
     "documentary_scope": "Documentary PMO branch commits with SHA readback only; independent validation remains required",
     "runtime_scope": "No productive run until FIND-policy-validator-task-WO-authoritative Kernel admission, isolation, tests and independent audit",
-    "scope_prohibitions": ["NO_DRIVE_ACCESS", "NO_MAIN", "NO_MERGE", "NO_DELETE", "NO_M24_RELEASE", "NO_UNADMITTED_ATOMIZATION", "SUPABASE_READ_ONLY"],
+    "scope_prohibitions": [
+      "NO_DRIVE_ACCESS",
+      "NO_MAIN",
+      "NO_MERGE",
+      "NO_DELETE",
+      "NO_M24_RELEASE",
+      "NO_UNADMITTED_ATOMIZATION",
+      "SUPABASE_READ_ONLY"
+    ],
     "m24_isolation": "M24_HOLD_ONLY_RESERVED_FIVE; OTHER_DOCUMENTARY_AND_READ_ONLY_TASKS_CONTINUE; INDEPENDENT_NON_M24_EXECUTION_ONLY_WITH_TASK_SPECIFIC_WO_KERNEL_GATES; FINAL_USER_APPROVAL_AT_PROJECT_END",
     "m24_historical_milestone_disposition": "CLOSED_ADMINISTRATIVE_UNRECONSTRUCTIBLE_HISTORY; NO_NEW_WO_FROM_AGGREGATE_COUNT; P3_P4_P5_EXISTING_GATES_CONTINUE",
-    "post_closure_discovery_invariant": "INV-QUEUE-POST-CLOSURE-001; FIND_INVESTIGATE_ROOT_CAUSE_CORRECT_ENQUEUE_TAIL_BEFORE_FINAL_HOMOLOGATION; NO_REOPEN_NO_REEXECUTION_NO_GLOBAL_QUEUE_BLOCK",
+    "post_closure_discovery_invariant": "SUPERSESSION_REQUESTED_BY_USER_20261019_PENDING_FORMAL_POLICY_VALIDATOR; IMMEDIATE_FIND_TRIAGE_BEFORE_NEXT_TASK, BLOCKED_SCOPE_SKIPPED_NOT_CLOSED",
     "final_homologation": "OUTSIDE_EXECUTION_QUEUE_AFTER_ALL_TASKS; FINAL_USER_APPROVAL_PENDING",
     "progress": "Only report numerator/denominator for homogeneous verified populations; no project-level percentage",
     "receipt": "Record branch HEAD precondition, SHA256 or Git blob SHA, commit and exact postcommit readback in external append-only receipt",
@@ -32,93 +61,310 @@
   },
   "tasks": [
     {
-      "id": "P1-CD-01", "wave": "P1", "owner_role": "GIT-BLOB-MAPPER", "mode": "READ_ONLY", "status": "READY_NOT_STARTED", "depends_on": ["P1-C-C"],
+      "id": "P1-CD-01",
+      "wave": "P1",
+      "owner_role": "GIT-BLOB-MAPPER",
+      "mode": "READ_ONLY",
+      "status": "READY_NOT_STARTED",
+      "depends_on": [
+        "P1-C-C"
+      ],
       "action": "Create deterministic ZIP-member to Git-blob/archived-ZIP/path/version candidate classification with exact source and snapshot IDs; do not infer absence from tip-level nonmatch",
-      "evidence_required": ["per-object immutable source locator", "object SHA", "match class", "ambiguity class", "candidate conflict manifest"],
+      "evidence_required": [
+        "per-object immutable source locator",
+        "object SHA",
+        "match class",
+        "ambiguity class",
+        "candidate conflict manifest"
+      ],
       "acceptance": "All 1295 distinct ZIP payloads accounted for by exactly one non-destructive classification or explicit HOLD; independent P5 sampling",
       "release_gate": "G-PMO-01"
     },
     {
-      "id": "P1-D-01", "wave": "P1", "owner_role": "SNAPSHOT-CUSTODIAN", "mode": "DOCUMENTARY", "status": "BLOCKED_DEPENDENCY", "depends_on": ["P1-CD-01"],
+      "id": "P1-D-01",
+      "wave": "P1",
+      "owner_role": "SNAPSHOT-CUSTODIAN",
+      "mode": "DOCUMENTARY",
+      "status": "BLOCKED_DEPENDENCY",
+      "depends_on": [
+        "P1-CD-01"
+      ],
       "action": "Reconcile immutable local baseline of 768 files with post-snapshot additions, preserve private hash/path inventory and rights classification",
-      "evidence_required": ["snapshot parent and cutoff", "path/hash delta", "custody manifest", "restore check"],
+      "evidence_required": [
+        "snapshot parent and cutoff",
+        "path/hash delta",
+        "custody manifest",
+        "restore check"
+      ],
       "acceptance": "No silent baseline replacement; all newly created artifacts and local deltas tracked",
       "release_gate": "G-PMO-01"
     },
     {
-      "id": "P2-00", "wave": "P2", "owner_role": "GIT-CENSUS", "mode": "READ_ONLY", "status": "EVIDENCE_PARTIAL_RUNTIME_HOLD", "depends_on": [],
+      "id": "P2-00",
+      "wave": "P2",
+      "owner_role": "GIT-CENSUS",
+      "mode": "READ_ONLY",
+      "status": "EVIDENCE_PARTIAL_RUNTIME_HOLD",
+      "depends_on": [],
       "action": "Freeze HEADs of 15 branches and PR heads/bases and reconcile them to pinned tree inventory",
-      "evidence_required": ["branch or PR identifier", "head/base SHA", "tree SHA", "non-truncation evidence"],
+      "evidence_required": [
+        "branch or PR identifier",
+        "head/base SHA",
+        "tree SHA",
+        "non-truncation evidence"
+      ],
       "acceptance": "Population and divergences explicit; no live SHA silently conflated with earlier cutoff",
       "release_gate": "G-PMO-02"
     },
     {
-      "id": "P2-01", "wave": "P2", "owner_role": "DELETE-GUARD", "mode": "READ_ONLY", "status": "BLOCKED_DEPENDENCY", "depends_on": ["P2-00"],
+      "id": "P2-01",
+      "wave": "P2",
+      "owner_role": "DELETE-GUARD",
+      "mode": "READ_ONLY",
+      "status": "BLOCKED_DEPENDENCY",
+      "depends_on": [
+        "P2-00"
+      ],
       "action": "Classify 22 proposed deletions (21 contracts/fonts paths and test.txt), PR #2/#3/#4/#6 overlap and branch ancestry without removal",
-      "evidence_required": ["per-path old/new SHA", "PR base/head", "conflict and preservation decision"],
+      "evidence_required": [
+        "per-path old/new SHA",
+        "PR base/head",
+        "conflict and preservation decision"
+      ],
       "acceptance": "22/22 exclusions explicitly quarantined or separately evidenced; none deleted or merged",
       "release_gate": "G-PMO-02"
     },
     {
-      "id": "P3-A", "wave": "P3", "owner_role": "CONTRACT-REGISTRAR", "mode": "READ_ONLY", "status": "EVIDENCE_PARTIAL_RUNTIME_HOLD", "depends_on": [],
+      "id": "P3-A",
+      "wave": "P3",
+      "owner_role": "CONTRACT-REGISTRAR",
+      "mode": "READ_ONLY",
+      "status": "EVIDENCE_PARTIAL_RUNTIME_HOLD",
+      "depends_on": [],
       "action": "Create identity/contract relationship register separating 38 CE04 tasks, 164 PR2 WOs from full pinned Git tree and 102 historical WOs with distinct populations",
-      "evidence_required": ["source path", "schema version", "task/WO ID", "admission evidence status"],
+      "evidence_required": [
+        "source path",
+        "schema version",
+        "task/WO ID",
+        "admission evidence status"
+      ],
       "acceptance": "Zero implicit 38-to-164-to-102 equivalence and zero falsely asserted Kernel admissions",
       "release_gate": "G-PMO-04"
     },
     {
-      "id": "P3-B", "wave": "P3", "owner_role": "POLICY-VALIDATOR", "mode": "READ_ONLY", "status": "READY_NOT_STARTED", "depends_on": [],
+      "id": "P3-B",
+      "wave": "P3",
+      "owner_role": "POLICY-VALIDATOR",
+      "mode": "READ_ONLY",
+      "status": "READY_NOT_STARTED",
+      "depends_on": [],
       "action": "Map 14 M20 agent stubs, missing policy references and M21 local exit78 behaviour against policy/schema/validator/runtime capabilities",
-      "evidence_required": ["agent source SHA", "policy reference", "test type", "observed outcome", "missing implementation FIND"],
+      "evidence_required": [
+        "agent source SHA",
+        "policy reference",
+        "test type",
+        "observed outcome",
+        "missing implementation FIND"
+      ],
       "acceptance": "Deterministic matrix classifies stub versus functioning runtime; no local exit78 called authoritative Kernel",
       "release_gate": "G-PMO-05"
     },
     {
-      "id": "P4-A", "wave": "P4", "owner_role": "SOURCE-REGISTRAR", "mode": "READ_ONLY", "status": "EVIDENCE_PARTIAL_RUNTIME_HOLD", "depends_on": [],
+      "id": "P4-A",
+      "wave": "P4",
+      "owner_role": "SOURCE-REGISTRAR",
+      "mode": "READ_ONLY",
+      "status": "EVIDENCE_PARTIAL_RUNTIME_HOLD",
+      "depends_on": [],
       "action": "Identify rights, license, versions and provenance of 61 source objects/49 URLs and flag unclear licensing",
-      "evidence_required": ["CID by source and domain", "official URI", "license", "version", "jurisdiction", "language", "source SHA", "rights review"],
+      "evidence_required": [
+        "CID by source and domain",
+        "official URI",
+        "license",
+        "version",
+        "jurisdiction",
+        "language",
+        "source SHA",
+        "rights review"
+      ],
       "acceptance": "All 61 source objects either evidenced or explicit HOLD; no unsupported permission inference",
       "release_gate": "G-PMO-03"
     },
     {
-      "id": "P4-D", "wave": "P4", "owner_role": "NORM-CROSSWALK", "mode": "READ_ONLY", "status": "READY_NOT_STARTED", "depends_on": [],
+      "id": "P4-D",
+      "wave": "P4",
+      "owner_role": "NORM-CROSSWALK",
+      "mode": "READ_ONLY",
+      "status": "READY_NOT_STARTED",
+      "depends_on": [],
       "action": "Identify applicability, versions, clauses, evidence and required documentation across applicable ISO, COSO and other requested normative frameworks",
-      "evidence_required": ["primary norm reference", "applicability rationale", "clause", "required field", "evidence", "review status"],
+      "evidence_required": [
+        "primary norm reference",
+        "applicability rationale",
+        "clause",
+        "required field",
+        "evidence",
+        "review status"
+      ],
       "acceptance": "Clause denominator remains null until scope and official version independently validated; documentation and regulatory requirements distinguished",
       "release_gate": "G-PMO-03"
     },
     {
-      "id": "P4-F", "wave": "P4", "owner_role": "SEMANTIC-QA", "mode": "READ_ONLY", "status": "BLOCKED_DEPENDENCY", "depends_on": ["P4-A", "P4-D"],
+      "id": "P4-F",
+      "wave": "P4",
+      "owner_role": "SEMANTIC-QA",
+      "mode": "READ_ONLY",
+      "status": "BLOCKED_DEPENDENCY",
+      "depends_on": [
+        "P4-A",
+        "P4-D"
+      ],
       "action": "Catalogue 285 semantic holds, seven large files, five M24 HOLD files and historic 53/65 structural successes without claiming medical clearance",
-      "evidence_required": ["case ID", "claim/source relation", "hold reason", "clinical/legal review status"],
+      "evidence_required": [
+        "case ID",
+        "claim/source relation",
+        "hold reason",
+        "clinical/legal review status"
+      ],
       "acceptance": "All exceptional populations remain independently countable; no clinical or rights approval inferred",
       "release_gate": "G-PMO-03"
     },
     {
-      "id": "P5-01", "wave": "P5", "owner_role": "INDEPENDENT-EVIDENCE-AUDITOR", "mode": "READ_ONLY", "status": "READY_NOT_STARTED", "depends_on": [],
+      "id": "P5-01",
+      "wave": "P5",
+      "owner_role": "INDEPENDENT-EVIDENCE-AUDITOR",
+      "mode": "READ_ONLY",
+      "status": "READY_NOT_STARTED",
+      "depends_on": [],
       "action": "Revalidate independent PMO source refs and negative tests; reconcile queue, master and Git receipts",
-      "evidence_required": ["independent fetch", "source ID completeness", "readback comparison", "negative tests", "PASS/FAIL/HOLD reasons"],
+      "evidence_required": [
+        "independent fetch",
+        "source ID completeness",
+        "readback comparison",
+        "negative tests",
+        "PASS/FAIL/HOLD reasons"
+      ],
       "acceptance": "All queue references exist in master, no task marked executed without evidence, 8 PMO gates retain HOLD unless independently proven",
       "release_gate": "G-PMO-06"
     },
     {
-      "id": "P5-02", "wave": "P5", "owner_role": "RELEASE-GUARD", "mode": "READ_ONLY", "status": "BLOCKED_DEPENDENCY", "depends_on": ["P1-CD-01", "P2-01", "P3-A", "P4-F", "P5-01"],
+      "id": "P5-02",
+      "wave": "P5",
+      "owner_role": "RELEASE-GUARD",
+      "mode": "READ_ONLY",
+      "status": "BLOCKED_DEPENDENCY",
+      "depends_on": [
+        "P1-CD-01",
+        "P2-01",
+        "P3-A",
+        "P4-F",
+        "P5-01"
+      ],
       "action": "Produce cross-workstream exception closure and independent release-gap opinion including F4 E2E HOLD",
-      "evidence_required": ["closure population", "gate tests", "risk and exception inventory", "approval responsibility"],
+      "evidence_required": [
+        "closure population",
+        "gate tests",
+        "risk and exception inventory",
+        "approval responsibility"
+      ],
       "acceptance": "No final release without validated Kernel, CI, E2E, rights/clinical evidence and final user approval",
       "release_gate": "G-PMO-08"
     },
     {
-      "id": "POST-001", "wave": "POST_CLOSURE_BEFORE_HOMOLOGATION", "owner_role": "PMO-RECONCILER", "mode": "READ_ONLY", "status": "READY_NOT_STARTED", "depends_on": [],
-      "origin_find_id": "FIND-PMO-SNAPSHOT-CUTOFF-AMBIGUITY-20261019", "discovered_after_closure": true,
-      "prior_closed_reference": "P1-A-FROZEN-HISTORIC-SCAN", "investigation": "Separate 768 frozen count, legacy 771 post-scan commentary and 823 new private snapshot by immutable cutoff; compare exact per-item paths only when original manifest exists", "root_cause": "AGGREGATE_SNAPSHOT_COUNTS_WITHOUT_EXPLICIT_INDIVIDUAL_CUTOFF_CHAIN", "correction": "Append cross-cutoff register with evidence-limited deltas and explicit unknown identities; preserve old receipts and original baseline", "source_refs": ["S-13", "S-39"], "affected_scope": "P1 historical inventory custody only", "enqueue_position": "TAIL", "execution_order": 1,
-      "action": "Confront snapshot cutoff lineage only; do not rescan closed P1-A or claim 55 files newly added", "evidence_required": ["frozen baseline", "new snapshot timestamp", "per-item hash manifest where recoverable", "hold exceptions", "append-only readback"], "acceptance": "All three numbers bounded by independent cutoffs; no retroactive filename or SHA fabrication", "release_gate": "G-PMO-01"
+      "id": "POST-001",
+      "wave": "POST_CLOSURE_BEFORE_HOMOLOGATION",
+      "owner_role": "PMO-RECONCILER",
+      "mode": "READ_ONLY",
+      "status": "READY_NOT_STARTED",
+      "depends_on": [],
+      "origin_find_id": "FIND-PMO-SNAPSHOT-CUTOFF-AMBIGUITY-20261019",
+      "discovered_after_closure": true,
+      "prior_closed_reference": "P1-A-FROZEN-HISTORIC-SCAN",
+      "investigation": "Separate 768 frozen count, legacy 771 post-scan commentary and 823 new private snapshot by immutable cutoff; compare exact per-item paths only when original manifest exists",
+      "root_cause": "AGGREGATE_SNAPSHOT_COUNTS_WITHOUT_EXPLICIT_INDIVIDUAL_CUTOFF_CHAIN",
+      "correction": "Append cross-cutoff register with evidence-limited deltas and explicit unknown identities; preserve old receipts and original baseline",
+      "source_refs": [
+        "S-13",
+        "S-39"
+      ],
+      "affected_scope": "P1 historical inventory custody only",
+      "enqueue_position": "TAIL",
+      "execution_order": 1,
+      "action": "Confront snapshot cutoff lineage only; do not rescan closed P1-A or claim 55 files newly added",
+      "evidence_required": [
+        "frozen baseline",
+        "new snapshot timestamp",
+        "per-item hash manifest where recoverable",
+        "hold exceptions",
+        "append-only readback"
+      ],
+      "acceptance": "All three numbers bounded by independent cutoffs; no retroactive filename or SHA fabrication",
+      "release_gate": "G-PMO-01"
     }
   ],
   "finds": [
-    {"id": "P1-FIND-GIT-ZIP-UNMATCHED", "type": "INVESTIGATION", "severity": "UNDETERMINED", "observation": "1284 distinct ZIP-member payloads have no identical individual Git blob in 15 pinned branch tips", "prohibited_conclusion": "DATA_LOSS_PROVEN", "owner_task": "P1-CD-01"},
-    {"id": "P2-FIND-DELETION-QUARANTINE", "type": "PRESERVATION_GUARD", "observation": "22 proposed deletions need evidence-based case disposition", "owner_task": "P2-01"},
-    {"id": "P3-FIND-NONPERSISTENT-AGENTS", "type": "CONTROL_DESIGN_GAP", "observation": "Specialist planning agents and local CLI tests are not continuously enforced runtime controls", "owner_task": "P3-B"},
-    {"id": "FIND-PMO-SNAPSHOT-CUTOFF-AMBIGUITY-20261019", "type": "POST_CLOSURE_FIND", "observation": "Master's original 768 frozen scan and 771 interim aggregate precede a 823 timestamped private snapshot; cutoff relationships are not represented as immutable per-item deltas", "investigation": "Original 768 per-item manifest absent; 823 private copy exact readback verified", "root_cause": "AGGREGATE_SNAPSHOT_COUNTS_WITHOUT_EXPLICIT_INDIVIDUAL_CUTOFF_CHAIN", "correction": "Add lineage-only cutoff register with unknown delta held, without reexecuting P1-A", "owner_task": "POST-001"}
+    {
+      "id": "P1-FIND-GIT-ZIP-UNMATCHED",
+      "type": "INVESTIGATION",
+      "severity": "UNDETERMINED",
+      "observation": "1284 distinct ZIP-member payloads have no identical individual Git blob in 15 pinned branch tips",
+      "prohibited_conclusion": "DATA_LOSS_PROVEN",
+      "owner_task": "P1-CD-01"
+    },
+    {
+      "id": "P2-FIND-DELETION-QUARANTINE",
+      "type": "PRESERVATION_GUARD",
+      "observation": "22 proposed deletions need evidence-based case disposition",
+      "owner_task": "P2-01"
+    },
+    {
+      "id": "P3-FIND-NONPERSISTENT-AGENTS",
+      "type": "CONTROL_DESIGN_GAP",
+      "observation": "Specialist planning agents and local CLI tests are not continuously enforced runtime controls",
+      "owner_task": "P3-B"
+    },
+    {
+      "id": "FIND-PMO-SNAPSHOT-CUTOFF-AMBIGUITY-20261019",
+      "type": "POST_CLOSURE_FIND",
+      "observation": "Master's original 768 frozen scan and 771 interim aggregate precede a 823 timestamped private snapshot; cutoff relationships are not represented as immutable per-item deltas",
+      "investigation": "Original 768 per-item manifest absent; 823 private copy exact readback verified",
+      "root_cause": "AGGREGATE_SNAPSHOT_COUNTS_WITHOUT_EXPLICIT_INDIVIDUAL_CUTOFF_CHAIN",
+      "correction": "Add lineage-only cutoff register with unknown delta held, without reexecuting P1-A",
+      "owner_task": "POST-001"
+    }
+  ],
+  "change_request": {
+    "id": "CE-PMO-QUEUE-FIND-IMMEDIATE-20261019",
+    "user_instruction_date": "2026-10-19",
+    "status": "DOCUMENTARY_CANDIDATE_PENDING_POLICY_VALIDATOR_GOVERNANCE",
+    "prior_invariant": "INV-QUEUE-POST-CLOSURE-001",
+    "requested_new_policy": "FIND -> dedup -> root-cause -> corrective task immediately before next eligible regular task; blocked remediation stays HOLD with owner/evidence and regular queue continues",
+    "effective_scope": "NONPRODUCTIVE_TRIAGE_AND_DOCUMENTARY_WORK_IMMEDIATE; RUNTIME_MUTATION_STILL_REQUIRES_KERNEL",
+    "preserve_original_12_task_order": true,
+    "not_reopen_completed": true,
+    "blocked_skip_is_not_completion": true
+  },
+  "pre_next_task_find_lane": [
+    {
+      "alias": "P2-TREE-SHA-FIELD-MISLABEL",
+      "candidate_task": "FIND-P2-SHA-PRODUCER-ROOT-CAUSE",
+      "status": "PARTIAL_CORRECTIVE_SIDECAR_DONE_ROOT_CAUSE_HOLD",
+      "evidence": "CE_PMO_P2_TREE_SHA_CORRECTION_v0.2.0_20261019_CANDIDATE.json",
+      "next_action": "Locate producer serializer, create validator test, request independent tree attestation; if unavailable isolate HOLD"
+    },
+    {
+      "alias": "P2-GATE-SCOPE-DRIFT",
+      "candidate_task": "FIND-P2-CI-GATE-COVERAGE",
+      "status": "READY_READ_ONLY",
+      "evidence": "CE_PMO_P2_PR2_PR4_EIGHT_VARIANTS_CONTENT_TRIAGE_20261019_CANDIDATE.json",
+      "next_action": "Confirm branch-trigger differences and report required-check risk without CI mutation"
+    },
+    {
+      "alias": "P2-DUPLICATE-RELATIVE-PATH-IDENTITY",
+      "candidate_task": "FIND-P2-PATH-ID-COLLISION",
+      "status": "READY_READ_ONLY",
+      "evidence": "CE_PMO_P2_PR2_PR4_EIGHT_VARIANTS_CONTENT_TRIAGE_20261019_CANDIDATE.json",
+      "next_action": "Check downstream path-as-key consumers; test collision candidate in isolated mode"
+    }
   ]
 }
