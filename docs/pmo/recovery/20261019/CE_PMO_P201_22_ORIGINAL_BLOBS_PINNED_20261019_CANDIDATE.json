@@ -1,0 +1,196 @@
+{
+  "schema_version": "0.1.0-CANDIDATE",
+  "task": "P2-01",
+  "status": "BOUNDED_MAIN_BLOB_READBACK_PASS_OTHER_GATES_HOLD",
+  "source_compare_manifest_blob": "7e2d7c564f850638953bc7dbac8336da64ee0d05",
+  "main_tree_sha": "e0f62491b104f4a97c6025a6393cabc2e7ada30e",
+  "main_tree_truncated": false,
+  "verified_originals": 22,
+  "items": [
+    {
+      "path": "contracts/fonts/DIRECTORY_OBSOLETO.json",
+      "main_pinned_blob_sha": "e9d6f77c80a9fcc0e45f3e444729bc5e548be870",
+      "git_mode": "100644",
+      "original_preserved": true,
+      "proposed_deletion": true,
+      "decision": "HOLD_KEEP_ORIGINAL_NO_DELETE"
+    },
+    {
+      "path": "contracts/fonts/anvisa_dev.json",
+      "main_pinned_blob_sha": "7f25153f5dbdff7695ac452ed98d88677b9cf072",
+      "git_mode": "100644",
+      "original_preserved": true,
+      "proposed_deletion": true,
+      "decision": "HOLD_KEEP_ORIGINAL_NO_DELETE"
+    },
+    {
+      "path": "contracts/fonts/anvisa_dou.json",
+      "main_pinned_blob_sha": "63fc18b5df41186e341d4ce3341d4564d1a18b80",
+      "git_mode": "100644",
+      "original_preserved": true,
+      "proposed_deletion": true,
+      "decision": "HOLD_KEEP_ORIGINAL_NO_DELETE"
+    },
+    {
+      "path": "contracts/fonts/anvisa_med.json",
+      "main_pinned_blob_sha": "1c12b9aab44f39077b58e1816bf55ab2f63f6e5c",
+      "git_mode": "100644",
+      "original_preserved": true,
+      "proposed_deletion": true,
+      "decision": "HOLD_KEEP_ORIGINAL_NO_DELETE"
+    },
+    {
+      "path": "contracts/fonts/atlas.json",
+      "main_pinned_blob_sha": "f344d11b0a609b9bb66ec59b362007a7e09ee822",
+      "git_mode": "100644",
+      "original_preserved": true,
+      "proposed_deletion": true,
+      "decision": "HOLD_KEEP_ORIGINAL_NO_DELETE"
+    },
+    {
+      "path": "contracts/fonts/catmat.json",
+      "main_pinned_blob_sha": "159da86b6abee571bddbb880c511678aca3bca99",
+      "git_mode": "100644",
+      "original_preserved": true,
+      "proposed_deletion": true,
+      "decision": "HOLD_KEEP_ORIGINAL_NO_DELETE"
+    },
+    {
+      "path": "contracts/fonts/cdsi.json",
+      "main_pinned_blob_sha": "f0ee390d0bb412ae7de2c04c4b9f4dea26737d0e",
+      "git_mode": "100644",
+      "original_preserved": true,
+      "proposed_deletion": true,
+      "decision": "HOLD_KEEP_ORIGINAL_NO_DELETE"
+    },
+    {
+      "path": "contracts/fonts/cid10.json",
+      "main_pinned_blob_sha": "1f0d37a85ffb51b95f4bf8b051932918a184e8cf",
+      "git_mode": "100644",
+      "original_preserved": true,
+      "proposed_deletion": true,
+      "decision": "HOLD_KEEP_ORIGINAL_NO_DELETE"
+    },
+    {
+      "path": "contracts/fonts/cid11.json",
+      "main_pinned_blob_sha": "77d86833843e0506e77802c93b3db0e410f1704e",
+      "git_mode": "100644",
+      "original_preserved": true,
+      "proposed_deletion": true,
+      "decision": "HOLD_KEEP_ORIGINAL_NO_DELETE"
+    },
+    {
+      "path": "contracts/fonts/cofen_dou.json",
+      "main_pinned_blob_sha": "7b9d4b05177d6d79d235d938b718fb8737df3c9b",
+      "git_mode": "100644",
+      "original_preserved": true,
+      "proposed_deletion": true,
+      "decision": "HOLD_KEEP_ORIGINAL_NO_DELETE"
+    },
+    {
+      "path": "contracts/fonts/esavi.json",
+      "main_pinned_blob_sha": "0421edce2e68bef91786fc9f051887164b8c56e4",
+      "git_mode": "100644",
+      "original_preserved": true,
+      "proposed_deletion": true,
+      "decision": "HOLD_KEEP_ORIGINAL_NO_DELETE"
+    },
+    {
+      "path": "contracts/fonts/fhir_vitais.json",
+      "main_pinned_blob_sha": "fafb30274250a87d261e8c6da30b031d93ea550d",
+      "git_mode": "100644",
+      "original_preserved": true,
+      "proposed_deletion": true,
+      "decision": "HOLD_KEEP_ORIGINAL_NO_DELETE"
+    },
+    {
+      "path": "contracts/fonts/lei_federal.json",
+      "main_pinned_blob_sha": "197ef0e72c8beb2916af0d5b8cbb80a3af2557a2",
+      "git_mode": "100644",
+      "original_preserved": true,
+      "proposed_deletion": true,
+      "decision": "HOLD_KEEP_ORIGINAL_NO_DELETE"
+    },
+    {
+      "path": "contracts/fonts/medlineplus.json",
+      "main_pinned_blob_sha": "694387ce80d6c5d1b2fa31d4c539659b5bfb4266",
+      "git_mode": "100644",
+      "original_preserved": true,
+      "proposed_deletion": true,
+      "decision": "HOLD_KEEP_ORIGINAL_NO_DELETE"
+    },
+    {
+      "path": "contracts/fonts/mesh.json",
+      "main_pinned_blob_sha": "43d27c401ba2ba926052d3b0b3ee95e99dff8cae",
+      "git_mode": "100644",
+      "original_preserved": true,
+      "proposed_deletion": true,
+      "decision": "HOLD_KEEP_ORIGINAL_NO_DELETE"
+    },
+    {
+      "path": "contracts/fonts/ms_portarias.json",
+      "main_pinned_blob_sha": "fc16151163ad3431c7c778ae3e9b82d45350fe65",
+      "git_mode": "100644",
+      "original_preserved": true,
+      "proposed_deletion": true,
+      "decision": "HOLD_KEEP_ORIGINAL_NO_DELETE"
+    },
+    {
+      "path": "contracts/fonts/pni.json",
+      "main_pinned_blob_sha": "42fd22e406919eba7cf66f90d6a7c44fc349e30a",
+      "git_mode": "100644",
+      "original_preserved": true,
+      "proposed_deletion": true,
+      "decision": "HOLD_KEEP_ORIGINAL_NO_DELETE"
+    },
+    {
+      "path": "contracts/fonts/sies.json",
+      "main_pinned_blob_sha": "ddbb0a01eb8b85ca459487b5118561d7e48b3864",
+      "git_mode": "100644",
+      "original_preserved": true,
+      "proposed_deletion": true,
+      "decision": "HOLD_KEEP_ORIGINAL_NO_DELETE"
+    },
+    {
+      "path": "contracts/fonts/sinan.json",
+      "main_pinned_blob_sha": "309d1ef6e8e736b85f14bd2010a9e28cceabd99c",
+      "git_mode": "100644",
+      "original_preserved": true,
+      "proposed_deletion": true,
+      "decision": "HOLD_KEEP_ORIGINAL_NO_DELETE"
+    },
+    {
+      "path": "contracts/fonts/taco.json",
+      "main_pinned_blob_sha": "eef9d0f4603f52c0a28c999429e8c5b0c1b4558d",
+      "git_mode": "100644",
+      "original_preserved": true,
+      "proposed_deletion": true,
+      "decision": "HOLD_KEEP_ORIGINAL_NO_DELETE"
+    },
+    {
+      "path": "contracts/fonts/vacinas_cdc.json",
+      "main_pinned_blob_sha": "e719270991e8a3a09559623477fcb552be2ce606",
+      "git_mode": "100644",
+      "original_preserved": true,
+      "proposed_deletion": true,
+      "decision": "HOLD_KEEP_ORIGINAL_NO_DELETE"
+    },
+    {
+      "path": "test.txt",
+      "main_pinned_blob_sha": "b6fc4c620b67d95f953a5c1c1230aaab5db5a1b0",
+      "git_mode": "100644",
+      "original_preserved": true,
+      "proposed_deletion": true,
+      "decision": "HOLD_KEEP_ORIGINAL_NO_DELETE"
+    }
+  ],
+  "remaining": [
+    "PR_OVERLAP_PATHS",
+    "MAIN_VS_INTEGRATION_SEMANTIC_DIFFS",
+    "SECURITY_AND_RIGHTS_REVIEW",
+    "INDEPENDENT_AUDIT",
+    "KERNEL_ADMISSION_FOR_PRODUCTIVE_CHANGE"
+  ],
+  "mutation": "DOCUMENT_ONLY",
+  "queue_status_change": false
+}
