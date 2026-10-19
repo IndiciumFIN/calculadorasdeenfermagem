@@ -1,0 +1,54 @@
+{
+  "schema_version": "0.1.0-CANDIDATE",
+  "cutoff": "2026-10-19",
+  "scope": "TASK-G0-A_READ_ONLY_PRE_ADMISSION_CHECK",
+  "target_branch": "fix/ce05-kernel-ci-security-20261017",
+  "source_evidence": [
+    {
+      "type": "WO",
+      "path": "contracts/wo/WO-G0-CORRECTIVE-20261017.json",
+      "blob_sha": "f5743b450e71980086bb1c5d9effd65d5493216c",
+      "status": "DRAFT_NOT_ADMITTED",
+      "admission": "NOT_REQUESTED"
+    },
+    {
+      "type": "POLICY_PROPOSAL",
+      "path": "contracts/policies/CE-GOV-WO-ADMISSION-001.candidate.json",
+      "blob_sha": "2567e6c1f9f733042e1097e632f35bf2bde372d9",
+      "status": "PROPOSED_NOT_HOMOLOGATED"
+    },
+    {
+      "type": "KERNEL_SOURCE",
+      "ref": "main",
+      "path": "packages/cli/kernel/core.py",
+      "blob_sha": "7649f6e1f0160184e1014308cc05c90a5eb659e9"
+    }
+  ],
+  "validator": {
+    "declared_in_wo": "governance/validator_v2.py (offline candidate, not installed in Kernel)",
+    "path_checked": "governance/validator_v2.py",
+    "exists_at_checked_fix_branch_path": false,
+    "absence_scope": "EXACT_PATH_ON_ONE_BRANCH_ONLY; NOT_PROOF_OF_GLOBAL_ABSENCE",
+    "kernel_registration": "NOT_PROVEN"
+  },
+  "task_states": {
+    "TASK-G0-A": "PENDING",
+    "TASK-G0-B": "BLOCKED_ADMISSION",
+    "TASK-G0-C": "BLOCKED_ADMISSION",
+    "TASK-G0-D": "BLOCKED_ADMISSION",
+    "TASK-G0-E": "BLOCKED_ADMISSION"
+  },
+  "finds_scope": "17_G0_FIND_IDS_REFERENCED_IN_WO; MUST_RECONCILE_TO_PREVIOUS_FIND_EVIDENCE",
+  "required_preconditions": [
+    "RESOLVE_POLICY_AUTHORITY_AND_BOOTSTRAP",
+    "LOCATE_AND_VERSION_VALIDATOR",
+    "TEST_VALIDATOR_WITH_NEGATIVE_CASES",
+    "VALIDATE_TASK_WO_LINKAGE",
+    "OBTAIN_AUTHORITATIVE_KERNEL_RECEIPT_BOUND_TO_GIT_BLOB_SHA",
+    "ISOLATED_INTEGRATED_TESTS_AND_INDEPENDENT_AUDIT"
+  ],
+  "decision": "HOLD_OPERATIONAL; GO_DOCUMENTARY",
+  "project_queue_mutated": false,
+  "find_created": false,
+  "next": "RECONCILE_EXISTING_G0_WO_WITH_VALIDATOR_LOCATION_AND_KERNEL_ADMISSION_CONTRACT; NO_NEW_DUPLICATE_WO"
+}
