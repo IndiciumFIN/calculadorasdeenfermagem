@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.1.0-CANDIDATE",
+  "kind": "INDEPENDENT_GAP_REMEDIATION_MATRIX",
+  "scope": "PMO assurance gaps, bounded evidence replay, no release or productive mutation",
+  "cutoff": "2026-10-19",
+  "source": "CE_PMO_VALIDADOR_INDEPENDENTE_20261019.py and local plus GitHub pinned readback",
+  "checks": {"pass": 25, "hold": 3, "block": 0, "unit_tests_combined": 80},
+  "items": [
+    {
+      "id": "VAL-GAP-003",
+      "status": "PASS_BOUNDED_LOCAL_ZIP_INTEGRITY_ONLY",
+      "prior_issue": "Static independent validator claimed only central directory had been enumerated",
+      "correction": "Validator now independently re-runs ce_pmo_zip_verify_v01.inspect_tree against currently local archives and reconciles exact totals to prior P1-B evidence; negative tests cover unsafe names, missing CRC and population drift",
+      "observed": {"zip_containers": 13, "member_payload_crc_verified": 1956, "payload_bytes_verified": 63658956, "unsafe_zip_findings": 0},
+      "limitations": ["Nested ZIPs not recursively decompressed", "Not proof of original Drive inventory completeness", "Not content, licensing or clinical approval"],
+      "reopen_if": ["current archive population changes", "member CRC or bytes drift", "unsafe path/symlink/encrypted member appears"]
+    },
+    {
+      "id": "VAL-GAP-001",
+      "status": "HOLD_INDEPENDENT_CURRENT_RECEIPT_CHAIN",
+      "existing_evidence": ["CE_PMO_RECIBO_GUARDIAN_TODAS_FRENTES_20261019_012_CANDIDATE.json", "CE_PMO_RECIBO_P4_FONTE_DIREITOS_P3_ERRATA_20261019_013_CANDIDATE.json"],
+      "partial_progress": "Previous append-only receipts and exact Git blob readbacks exist; master embeds superseded historical commit references",
+      "missing": "Durable independent post-publication attestation of current master and queue against latest remote pinned tree and receipt chain, with separation of verifier from publisher",
+      "closure_acceptance": "Independent actor fetches latest PMO branch tree, validates commit ancestry, all referenced master/queue/dispatch/source artifacts and exact content hashes, binds external receipt to verified head, runs anti-rework and negative tests, signs PASS for only its verified cutoff",
+      "blocked_shortcut": "A self-written master SHA or a successful GitHub commit response alone is not independent attestation"
+    },
+    {
+      "id": "VAL-GAP-002",
+      "status": "HOLD_P1_SNAPSHOT_DETAILED_CUSTODY",
+      "existing_evidence": ["CE_PMO_INVENTARIO_RECURSIVO_RESUMO_20261019_CANDIDATE.json", "CE_PMO_FIND_CUSTODIA_INVENTARIO_P1_20261019_CANDIDATE.md", "CE_PMO_ZIP_INTEGRIDADE_P1B_20261019_CANDIDATE.json"],
+      "partial_progress": "Frozen 768-file local aggregate and 13-ZIP integrity evidence are retained; 771 post-snapshot files previously observed at a different time",
+      "missing": "Original exact scan timestamp, immutable private item-level path/size/SHA inventory, independently tested delta and full restore/custody proof",
+      "closure_acceptance": "Create new immutable private snapshot with timestamp, scanner version, local path/hash/size manifest, parent snapshot and append-only delta; confirm all paths and hashes independently and store detailed sensitive inventory privately; preserve original 768 count, do not overwrite baseline",
+      "blocked_shortcut": "Current re-scan or aggregate counts cannot retroactively fabricate the original frozen snapshot timestamp"
+    },
+    {
+      "id": "VAL-GAP-004",
+      "status": "HOLD_CROSS_ENVIRONMENT_COMPLETENESS",
+      "existing_evidence": ["CE_PMO_GIT_BRANCH_TREES_P1CB_20261019_CANDIDATE.json", "CE_PMO_CROSSWALK_CE04_38_PR2_WO164_20261019_CANDIDATE.json", "CE_PMO_P4_CROSSWALK_FONTES_61_ARQUIVOS_65_20261019_CANDIDATE.json"],
+      "partial_progress": "15 pinned Git branch trees and historical local ZIP and CE04 source populations indexed; no verified universe equivalence to full Drive/Library/Supabase",
+      "missing": "Source-authoritative population/cutoff equivalence and per-object custody crosswalk among permitted sources, repository Git and historical archives; 1,284 ZIP payloads without individual Git-tip blob match not proof of loss",
+      "closure_acceptance": "Immutable source register per repository/archive/environment with coverage denominators, object identity and SHA, duplicates and version relationships, ambiguous or missing source states; independent discrepancy review and auditable exceptions; no silent source-system equivalence",
+      "blocked_shortcut": "Do not infer missing/lost files from tip SHA nonmatch, and do not request Drive access against existing project scope restriction"
+    }
+  ],
+  "server_guard_status": "GitHub ruleset Protecao #25297030 enforcement disabled on direct readback; not an operational admission mechanism",
+  "project_release": "HOLD_NOT_CERTIFIED",
+  "next_eligible_after_gap_control": "P4 documentary license and rights evidence review of 61 registered source objects, with no implicit rights approval"
+}
