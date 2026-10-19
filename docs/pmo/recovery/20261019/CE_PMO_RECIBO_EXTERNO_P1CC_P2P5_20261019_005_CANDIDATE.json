@@ -1,0 +1,86 @@
+{
+  "receipt_id": "CE-PMO-P1CC-P2P5-EXTERNAL-20261019-005",
+  "schema_version": "0.1.0",
+  "repository": "IndiciumFIN/calculadorasdeenfermagem",
+  "branch": "pmo/recovery-controlled-20261019",
+  "scope": "DOCUMENTARY_PMO_ONLY",
+  "attestations": [
+    {
+      "path": "docs/pmo/recovery/20261019/ce_pmo_git_blob_index_v01.py",
+      "commit_sha": "da7eff6452fa811b518022ba6d9fc38ffccc1756",
+      "blob_sha": "061c9aa50898921b12489b2ef99f6730fe393406",
+      "readback": "EXACT_CONTENT_MATCH"
+    },
+    {
+      "path": "docs/pmo/recovery/20261019/test_ce_pmo_git_blob_index_v01.py",
+      "commit_sha": "74e433284c0eaad1f76c7f19fa8f31f7c767f81d",
+      "blob_sha": "a5ba9f63099eecc9f556bdbcdb9812c02758b534",
+      "readback": "EXACT_CONTENT_MATCH"
+    },
+    {
+      "path": "docs/pmo/recovery/20261019/CE_PMO_GIT_BLOB_CROSSCHECK_P1CC_20261019_CANDIDATE.json",
+      "commit_sha": "fd00ee460c65d6722907958312f20d504daaaa8f",
+      "blob_sha": "3e8aaadb5d9a21f7a8278f29afb97563ff2721ad",
+      "readback": "EXACT_CONTENT_MATCH"
+    },
+    {
+      "path": "docs/pmo/recovery/20261019/CE_PMO_PLANO_P2_RECON_20261019_CANDIDATE.md",
+      "commit_sha": "4797dbcbbc8750d68f6568db69113786b44bb35f",
+      "blob_sha": "9643fbaa4c56f1e67188e1caf1bfa844963f1da2",
+      "readback": "EXACT_CONTENT_MATCH"
+    },
+    {
+      "path": "docs/pmo/recovery/20261019/CE_PMO_PLANO_P3_AGENTES_20261019_CANDIDATE.md",
+      "commit_sha": "ab8220e5df9e34e9554dca800eef31d79e46e221",
+      "blob_sha": "4444621f7e560d067c4b305076d08fc9079c6185",
+      "readback": "EXACT_CONTENT_MATCH"
+    },
+    {
+      "path": "docs/pmo/recovery/20261019/CE_PMO_PLANO_P4_CONTEUDO_20261019_CANDIDATE.md",
+      "commit_sha": "d8de13527a9aca992e438e2134011b10c7ca14f7",
+      "blob_sha": "bf83810faf3301d4ca0555fc26d27187e0a50459",
+      "readback": "EXACT_CONTENT_MATCH"
+    },
+    {
+      "path": "docs/pmo/recovery/20261019/CE_PMO_PLANO_P5_AUDITORIA_20261019_CANDIDATE.md",
+      "commit_sha": "88a010f295ac8aee6087ea3ed3c26a71a07bf1ae",
+      "blob_sha": "12eda11e9347e58d63cdf11683697a51467ffe55",
+      "readback": "EXACT_CONTENT_MATCH"
+    },
+    {
+      "path": "docs/pmo/recovery/20261019/CE_PMO_PLANO_INTEGRADO_P1_P5_AGENTES_20261019_CANDIDATE.md",
+      "commit_sha": "aa5afa60e8e0575a2059748cffd4d9eb2fc2581e",
+      "blob_sha": "0d30c3c71ef0d24d880545177997c0db397eac7c",
+      "readback": "EXACT_CONTENT_MATCH"
+    },
+    {
+      "path": "docs/pmo/recovery/20261019/CE_PMO_REGISTRO_MESTRE_20261019_v0.1.0_CANDIDATE.json",
+      "commit_sha": "0c588eddf2cf392d334a4d7f57fd8e3754a41f7e",
+      "blob_sha": "c2d7202f8537f4b2ef9512aa959be1f7dd2d833a",
+      "readback": "EXACT_CONTENT_MATCH"
+    }
+  ],
+  "verification": {
+    "files_with_exact_readback": 9,
+    "git_branches_pinned": 15,
+    "git_unique_blob_sha1": 9569,
+    "zip_unique_member_objects": 1295,
+    "git_zip_exact_object_overlap": 11,
+    "p1_technical_checkpoints": {
+      "completed": 5,
+      "total": 6,
+      "percent": 83.3
+    },
+    "pmo_gates": {
+      "passed": 0,
+      "total": 8
+    },
+    "release": "HOLD"
+  },
+  "limitations": [
+    "Exact blob mismatch is not proof of source loss",
+    "P2-P5 plans are documentary candidates only, not executed operational subtasks",
+    "Production Kernel admission and CI enforcement remain unproven",
+    "No merge, deletion, main mutation or M24 release"
+  ]
+}
