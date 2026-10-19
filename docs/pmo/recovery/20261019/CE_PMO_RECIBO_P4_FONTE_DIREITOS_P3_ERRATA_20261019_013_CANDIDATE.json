@@ -1,0 +1,43 @@
+{
+  "kind": "APPEND_ONLY_CROSS_WAVE_EVIDENCE_RECEIPT",
+  "receipt_id": "CE-PMO-P4-SOURCES-P3-ERRATA-013-20261019",
+  "repository": "IndiciumFIN/calculadorasdeenfermagem",
+  "branch": "pmo/recovery-controlled-20261019",
+  "head_before_receipt": "5f02674903a0fa34830912504256c6f9d64fd31f",
+  "files": [
+    {"name": "CE_PMO_P4_CROSSWALK_FONTES_61_ARQUIVOS_65_20261019_CANDIDATE.json", "commit": "9dfb66efd6e435305b00d00b92c34d89c6e25085"},
+    {"name": "CE_PMO_PLANO_P3_AGENTES_20261019_CANDIDATE.md", "commit": "82a080835675fabfb1180248c4f9a3802cc7d944"},
+    {"name": "CE_PMO_VALIDADOR_INDEPENDENTE_20261019.py", "commit": "28ed1512b237a24e9c6c3ee8a5a8784d5189cfa8"},
+    {"name": "CE_PMO_REGISTRO_MESTRE_20261019_v0.1.0_CANDIDATE.json", "commit": "06cdc0dd779c5b2e11acdbccd45e059a2693fca5"},
+    {"name": "test_ce_pmo_p4_source_rights_crosswalk_v01.py", "commit": "5f02674903a0fa34830912504256c6f9d64fd31f"}
+  ],
+  "exact_readback": "5/5 local Git blob SHA equals remote Git tree blob SHA",
+  "deterministic_results": {
+    "p4_domains_read": 15,
+    "p4_files_crosschecked": 65,
+    "p4_source_objects_registered": 61,
+    "distinct_urls": 49,
+    "http_source_refs": 3,
+    "single_source_domain_file_candidates_not_proven": 12,
+    "multi_source_record_level_hold_files": 53,
+    "source_rights_hold": 61,
+    "source_rights_proven": 0,
+    "clinical_approval": "NOT_PROVEN",
+    "combined_unit_tests": "64/64 PASS",
+    "pmo_queue_dispatch_anti_rework": "PASS_PREFLIGHT_ONLY",
+    "independent_static_checks": "24 PASS, 4 HOLD; release HOLD_NOT_CERTIFIED"
+  },
+  "findings": [
+    {"id": "M26-FIND-002", "action": "LINKED_TO_P4_61_SOURCE_RIGHTS_HOLD", "not_a_new_find": true},
+    {"id": "M26-FIND-003", "action": "61_SOURCE_OBJECTS_VS_49_DISTINCT_URLS_RECONCILED", "not_a_new_find": true},
+    {"id": "P3-PR2-COUNT-PAGE1", "action": "P3_PLAN_ERRATA_76_PAGE_ONE_TO_164_FULL_TREE", "not_a_new_find": true}
+  ],
+  "limitations": [
+    "The domain blob metadata does not establish per-record source attribution; even 12 single-source domain cases remain only candidates",
+    "The 61 source objects lack explicit license fields; current external terms and licenses not independently checked",
+    "15 remote manifest reads and file metadata crosschecks are not substantive clinical atomization or independent rights clearance",
+    "M24 and Kernel release blocked, PMO 8/8 gates HOLD, project percent unknown"
+  ],
+  "main_mutated": false,
+  "final_user_approval": "PENDING"
+}
