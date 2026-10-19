@@ -1,0 +1,33 @@
+{
+  "schema_version": "0.1.0",
+  "microlot": "P1-C-C",
+  "repository": "IndiciumFIN/calculadorasdeenfermagem",
+  "cutoff_basis": "15 pinned branch HEAD/tree SHA in P1-C-B; current local workspace transient scan",
+  "method": "Git blob SHA-1 computed from raw bytes (blob <size>\\0payload) and compared to Git tree blob SHA, without writing extracted members",
+  "github_tree_scan": {
+    "branches": 15,
+    "unique_blob_sha1_objects": 9569,
+    "branch_blob_occurrences": 58710,
+    "failed_tree_segments": 0
+  },
+  "content_index": {
+    "local_unique_git_blob_objects": 742,
+    "zip_unique_git_blob_objects": 1295,
+    "git_local_byte_identical_objects": 30,
+    "git_zip_member_byte_identical_objects": 11,
+    "git_local_zip_triple_overlap": 11,
+    "zip_unique_payloads_with_no_identical_individual_git_blob": 1284,
+    "git_blob_objects_not_present_as_loose_local_or_zip_member": 9539,
+    "local_unique_objects_not_in_git": 712
+  },
+  "privacy": "AGGREGATE_ONLY_NO_MEMBER_NAMES_PATHS_OR_HASH_LISTS",
+  "status": "EXACT_GIT_BLOB_CONTENT_CROSSCHECK_COMPLETE_VARIANTS_PENDING",
+  "pmo_release": "HOLD",
+  "caveats": [
+    "ZIP may exist in Git as one compressed binary blob even when its members do not exist as individual Git blobs",
+    "Byte mismatch does not establish lost data, source omission, semantic divergence or invalidity",
+    "Private local index changes with workspace, must be frozen with cutoff, rights screening and custody",
+    "LFS pointers, transformed artifacts and Git history outside pinned tips not equivalent to materialized blobs in tip trees",
+    "Path/version/semantic provenance reconciliation is the sixth P1 technical checkpoint and remains open"
+  ]
+}
