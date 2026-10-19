@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.1.0-CANDIDATE",
+  "kind": "P5_BOUNDED_CROSSWALK_ASSERTIONS",
+  "source_blobs": [
+    {
+      "name": "CE_PMO_GIT_BRANCH_TREES_P1CB_20261019_CANDIDATE.json",
+      "git_sha": "98995b9391d4b51b8dad75a68ebac9d6283ba660"
+    },
+    {
+      "name": "CE_PMO_P2_SMALL_TREES_MAIN_CROSSWALK_20261019_CANDIDATE.json",
+      "git_sha": "60edd8189a16830e9f0c9305ca165329f30844d2"
+    },
+    {
+      "name": "CE_PMO_P2_LARGE_TREES_RECON_20261019_CANDIDATE.json",
+      "git_sha": "e847b021400978d235570013908332f595910f4c"
+    }
+  ],
+  "checks": {
+    "fifteen_unique_branches": true,
+    "all_manifest_names": true,
+    "all_counts_exact": true,
+    "all_pinned_commits": true,
+    "total_occurrences": true,
+    "large_nontruncated": true,
+    "small_complete": true,
+    "subset_candidate_vs_full": true
+  },
+  "passed": 8,
+  "total": 8,
+  "status": "PASS_BOUNDED",
+  "limits": [
+    "NO_SEMANTIC_APPROVAL",
+    "NO_INDEPENDENT_ORGANIZATIONAL_AUDITOR",
+    "NO_KERNEL_RECEIPT",
+    "NO_PRODUCTION_MUTATION"
+  ],
+  "pmo_gates": "HOLD",
+  "task_completion": false
+}
