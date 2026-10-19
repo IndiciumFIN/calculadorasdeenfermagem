@@ -1,0 +1,77 @@
+{
+  "schema_version": "0.1.0-CANDIDATE",
+  "workstream": "P2",
+  "mode": "READ_ONLY_PINNED_GIT_TREE_RECONCILIATION",
+  "source_manifest_blob": "98995b9391d4b51b8dad75a68ebac9d6283ba660",
+  "baseline_main_commit": "e0f62491b104f4a97c6025a6393cabc2e7ada30e",
+  "small_trees_report": "CE_PMO_P2_SMALL_TREES_MAIN_CROSSWALK_20261019_CANDIDATE.json",
+  "large_branch_count": 4,
+  "results": [
+    {
+      "branch": "cursor/drive-sa-key-refactor",
+      "commit": "fc857df8306b81915f191d3f0744f7a322047b21",
+      "blob_count": 9366,
+      "expected_count": 9366,
+      "tree_truncated": false,
+      "match_main": 52,
+      "changed_same_path": 22,
+      "main_only": 102,
+      "branch_only": 9292
+    },
+    {
+      "branch": "cursor/fix-governance-gaps-ec54",
+      "commit": "bb6debeef44a15964becd19990a502d7e0c0beaf",
+      "blob_count": 9387,
+      "expected_count": 9387,
+      "tree_truncated": false,
+      "match_main": 54,
+      "changed_same_path": 26,
+      "main_only": 96,
+      "branch_only": 9307
+    },
+    {
+      "branch": "migration/candidate-f08-20261017",
+      "commit": "e7add8e510077c2ea4c0591cdafe2440c1ffd418",
+      "blob_count": 19136,
+      "expected_count": 19136,
+      "tree_truncated": false,
+      "match_main": 176,
+      "changed_same_path": 0,
+      "main_only": 0,
+      "branch_only": 18960
+    },
+    {
+      "branch": "migration/full-directory-20261017",
+      "commit": "bad54d1d9b6d281a0a2bb8077895e2ad45571b68",
+      "blob_count": 19119,
+      "expected_count": 19119,
+      "tree_truncated": false,
+      "match_main": 161,
+      "changed_same_path": 0,
+      "main_only": 15,
+      "branch_only": 18958
+    }
+  ],
+  "candidate_vs_full_directory": {
+    "same": 19119,
+    "changed": 0,
+    "only_candidate": 17,
+    "only_full": 0
+  },
+  "divergent_paths": [],
+  "all_nontruncated": true,
+  "all_large_counts_match": true,
+  "scope": "GIT_BLOB_IDENTITY_NOT_SEMANTIC_EQUIVALENCE",
+  "prohibition": [
+    "NO_DELETE",
+    "NO_MERGE",
+    "NO_MAIN",
+    "NO_AUTOMATIC_WINNER"
+  ],
+  "task_closed": false,
+  "remaining": [
+    "SEMANTIC_CONFLICT_REVIEW",
+    "INDEPENDENT_ASSESSMENT",
+    "FINAL_GATES"
+  ]
+}
