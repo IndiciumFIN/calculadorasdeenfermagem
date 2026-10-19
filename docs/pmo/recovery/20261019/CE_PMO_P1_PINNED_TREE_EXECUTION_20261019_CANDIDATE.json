@@ -1,0 +1,40 @@
+{
+  "schema_version": "CE-PMO-P1-PINNED-TREE-0.1.0",
+  "date": "2026-10-19",
+  "branch": "feat/ce-local-agent-assurance-20261019",
+  "implementation_commit": "f3e4170f4bb5693ea262a393a21e5beda53f4f41",
+  "readback": "7_OF_7_EXACT",
+  "tests": {
+    "generic": 18,
+    "zip": 16,
+    "git_blob_local": 10,
+    "pinned_git_tree": 12,
+    "total": 56,
+    "seeded_mutations": 150
+  },
+  "github_ci": {
+    "id": 39333466455,
+    "conclusion": "success",
+    "url": "https://github.com/IndiciumFIN/calculadorasdeenfermagem/actions/runs/39333466455"
+  },
+  "real_git_readonly_replay": {
+    "pinned_commit": "e0f62491b104f4a97c6025a6393cabc2e7ada30e",
+    "correct_tree_sha": "bf5be2752ccdabada2a1dc602a71c9a15338c504",
+    "entries": 210,
+    "blobs": 176,
+    "truncated": false,
+    "result": "PASS_BOUNDED",
+    "negative_changed_sha": "REJECTED"
+  },
+  "further_assurance_needed": [
+    "MANIFEST_INDEPENDENT_FROM_TREE",
+    "SOURCE_UNIVERSE_DRIVE_COMPLETE_CENSUS",
+    "ALL_HISTORICAL_BRANCH_SNAPSHOTS_PROVENANCE",
+    "CONTENT_SEMANTIC_ACCURACY",
+    "EXTERNAL_API_PROVENANCE_AUTH",
+    "INDEPENDENT_AUDIT",
+    "WO_KERNEL_RECEIPT"
+  ],
+  "status": "LOCAL_CANDIDATE_TESTED_NONPRODUCTIVE",
+  "main_changed": false
+}
