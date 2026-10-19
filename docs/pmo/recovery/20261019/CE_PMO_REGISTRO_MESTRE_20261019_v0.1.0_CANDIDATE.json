@@ -1,6 +1,27 @@
 {
   "schema_version": "0.1.0",
-  "agent_registry_documentary_linkage": {"status":"PUBLISHED_CANDIDATE_READBACK_NOT_KERNEL_ADMISSION","agents_registry":{"path":"docs/pmo/recovery/20261019/CE_PMO_AGENT_REGISTRY_20261019_CANDIDATE.json","git_blob_sha":"6156c083b85c285f9acb438ea385344e71201a07","agents_count":23,"deployments_verified":0},"contracts_handoff":{"path":"docs/pmo/recovery/20261019/CE_PMO_CATALOGO_AGENTES_CONTRATOS_20261019_CANDIDATE.md","git_blob_sha":"d84ea260b6da8523e92f86230fff3ee37f7e9e03"},"p2_p3_p4_readback":{"path":"docs/pmo/recovery/20261019/CE_PMO_READBACK_FRENTES_P2_P3_P4_GUARD_20261019_CANDIDATE.md","git_blob_sha":"5a61734f106b8b774f1f65ba50f16c4713737fea"},"classification":"NONPRODUCTIVE_DOCUMENTARY_ONLY","queue_mutated":false,"task_status_mutated":false,"kernel_admission_inferred":false,"approval_inferred":false},
+  "agent_registry_documentary_linkage": {
+    "status": "PUBLISHED_CANDIDATE_READBACK_NOT_KERNEL_ADMISSION",
+    "agents_registry": {
+      "path": "docs/pmo/recovery/20261019/CE_PMO_AGENT_REGISTRY_20261019_CANDIDATE.json",
+      "git_blob_sha": "6156c083b85c285f9acb438ea385344e71201a07",
+      "agents_count": 23,
+      "deployments_verified": 0
+    },
+    "contracts_handoff": {
+      "path": "docs/pmo/recovery/20261019/CE_PMO_CATALOGO_AGENTES_CONTRATOS_20261019_CANDIDATE.md",
+      "git_blob_sha": "d84ea260b6da8523e92f86230fff3ee37f7e9e03"
+    },
+    "p2_p3_p4_readback": {
+      "path": "docs/pmo/recovery/20261019/CE_PMO_READBACK_FRENTES_P2_P3_P4_GUARD_20261019_CANDIDATE.md",
+      "git_blob_sha": "5a61734f106b8b774f1f65ba50f16c4713737fea"
+    },
+    "classification": "NONPRODUCTIVE_DOCUMENTARY_ONLY",
+    "queue_mutated": false,
+    "task_status_mutated": false,
+    "kernel_admission_inferred": false,
+    "approval_inferred": false
+  },
   "project_id": "CE-CALCULADORAS-ENFERMAGEM",
   "repository": "IndiciumFIN/calculadorasdeenfermagem",
   "cutoff_local": "2026-10-19",
@@ -27,19 +48,62 @@
     "appended_queue_tasks": 1,
     "total_queue_tasks": 12,
     "assistant_executable_scope": "EVIDENCE_GATHERING_DOCUMENTARY_RECONCILIATION_NONDESTRUCTIVE_CODE_TESTS_AND_VERSIONING_ONLY_SUBJECT_TO_CURRENT_TASK_GATES",
-    "assistant_scope_completion": {"percent": null, "status": "NOT_ACHIEVED_DENOMINATOR_BY_ACCEPTANCE_PENDING", "rule": "100_PERCENT_ONLY_WHEN_ALL_ADMISSIBLE_TASK_DELIVERABLES_INCLUDING_TAIL_ARE_ACCEPTED_WITH_HASH_TEST_READBACK_AND_EXTERNAL_GATES_SEPARATELY_CLASSIFIED"},
-    "external_dependencies": ["ORIGINAL_768_PER_ITEM_MANIFEST_MISSING", "M24_FIVE_IDENTITIES_UNRECONSTRUCTIBLE", "AUTHORIZED_NORMATIVE_TEXT_AND_SOURCE_RIGHTS", "CI_KERNEL_RUNTIME_AND_SEGREGATED_ATTESTATION", "CLINICAL_LEGAL_SECURITY_AND_E2E_REVIEWS"],
-    "user_authority_required": ["RISK_ACCEPTANCE_ON_RESIDUALS", "MATERIAL_DESTRUCTIVE_OR_PRODUCTION_SCOPE_CHANGES", "FINAL_PROJECT_HOMOLOGATION_AND_MAIN_PROMOTION"],
+    "assistant_scope_completion": {
+      "percent": null,
+      "status": "NOT_ACHIEVED_DENOMINATOR_BY_ACCEPTANCE_PENDING",
+      "rule": "100_PERCENT_ONLY_WHEN_ALL_ADMISSIBLE_TASK_DELIVERABLES_INCLUDING_TAIL_ARE_ACCEPTED_WITH_HASH_TEST_READBACK_AND_EXTERNAL_GATES_SEPARATELY_CLASSIFIED"
+    },
+    "external_dependencies": [
+      "ORIGINAL_768_PER_ITEM_MANIFEST_MISSING",
+      "M24_FIVE_IDENTITIES_UNRECONSTRUCTIBLE",
+      "AUTHORIZED_NORMATIVE_TEXT_AND_SOURCE_RIGHTS",
+      "CI_KERNEL_RUNTIME_AND_SEGREGATED_ATTESTATION",
+      "CLINICAL_LEGAL_SECURITY_AND_E2E_REVIEWS"
+    ],
+    "user_authority_required": [
+      "RISK_ACCEPTANCE_ON_RESIDUALS",
+      "MATERIAL_DESTRUCTIVE_OR_PRODUCTION_SCOPE_CHANGES",
+      "FINAL_PROJECT_HOMOLOGATION_AND_MAIN_PROMOTION"
+    ],
     "user_final_approval": "ONLY_AFTER_EXECUTION_QUEUE_AND_FINAL_SWEEP_PENDING",
     "specialist_approval": "INDEPENDENT_REVIEWERS_FOR_CLINICAL_RIGHTS_COMPLIANCE_AND_TECHNICAL_ASSURANCE_WHEN_REQUIRED",
     "invariant": "INV-QUEUE-POST-CLOSURE-001",
     "gate_state": "EIGHT_OF_EIGHT_HOLD_NO_PRODUCTION_PROMOTION"
   },
   "progress_metrics": {
-    "p1_technical_checkpoints": {"completed": 5, "total": 6, "percent": 83.3, "status": "IN_PROGRESS_NOT_RELEASED", "source_ids": ["S-13", "S-14", "S-15", "S-17", "S-18"]},
-    "git_tree_enumeration": {"completed": 15, "total": 15, "percent": 100.0, "unit": "BRANCH_TREE_PINNED", "source_ids": ["S-17"]},
-    "pmo_homologation_gates": {"passed": 0, "total": 8, "percent": 0.0, "status": "HOLD"},
-    "full_project_completion": {"percent": null, "status": "DENOMINATOR_NOT_RECONCILED", "rationale": "Historic and live artifacts cannot be treated as approved/completed until all populations and gates are reconciled"}
+    "p1_technical_checkpoints": {
+      "completed": 5,
+      "total": 6,
+      "percent": 83.3,
+      "status": "IN_PROGRESS_NOT_RELEASED",
+      "source_ids": [
+        "S-13",
+        "S-14",
+        "S-15",
+        "S-17",
+        "S-18"
+      ]
+    },
+    "git_tree_enumeration": {
+      "completed": 15,
+      "total": 15,
+      "percent": 100,
+      "unit": "BRANCH_TREE_PINNED",
+      "source_ids": [
+        "S-17"
+      ]
+    },
+    "pmo_homologation_gates": {
+      "passed": 0,
+      "total": 8,
+      "percent": 0,
+      "status": "HOLD"
+    },
+    "full_project_completion": {
+      "percent": null,
+      "status": "DENOMINATOR_NOT_RECONCILED",
+      "rationale": "Historic and live artifacts cannot be treated as approved/completed until all populations and gates are reconciled"
+    }
   },
   "post_closure_control": {
     "invariant_id": "INV-QUEUE-POST-CLOSURE-001",
@@ -50,34 +114,110 @@
     "original_order_immutable": true,
     "final_homologation_outside_queue": true,
     "final_user_approval_pending": true,
-    "new_tasks_current_tail": ["POST-001"],
+    "new_tasks_current_tail": [
+      "POST-001"
+    ],
     "new_tasks_not_automatically_admitted": true,
     "risk_containment": "SCOPED_UNSAFE_OPERATION_DENY_NOT_GLOBAL_QUEUE_FREEZE"
   },
   "activity_authorization": {
-    "authorized_in_scope": ["READ_ONLY_INVENTORY", "READ_ONLY_ZIP_INSPECTION", "GIT_BRANCH_DIFFERENCE_CLASSIFICATION", "NON_DESTRUCTIVE_VERSION_CONSOLIDATION", "FIND_AND_LEARNING_REGISTRATION", "PMO_DOCUMENTARY_COMMIT_ON_RECOVERY_BRANCH", "SHA_AND_READBACK_VERIFICATION"],
+    "authorized_in_scope": [
+      "READ_ONLY_INVENTORY",
+      "READ_ONLY_ZIP_INSPECTION",
+      "GIT_BRANCH_DIFFERENCE_CLASSIFICATION",
+      "NON_DESTRUCTIVE_VERSION_CONSOLIDATION",
+      "FIND_AND_LEARNING_REGISTRATION",
+      "PMO_DOCUMENTARY_COMMIT_ON_RECOVERY_BRANCH",
+      "SHA_AND_READBACK_VERIFICATION"
+    ],
     "authorized_activity_state": "IN_PROGRESS",
-    "blocked_until_separate_admission": ["UNADMITTED_PRODUCTION_EXECUTION", "UNADMITTED_CONTENT_ATOMIZATION", "PUBLISH_OR_MERGE_TO_MAIN", "DELETION_OR_DESTRUCTIVE_DEDUPLICATION", "FINAL_HOMOLOGATION", "M24_RELEASE"],
+    "blocked_until_separate_admission": [
+      "UNADMITTED_PRODUCTION_EXECUTION",
+      "UNADMITTED_CONTENT_ATOMIZATION",
+      "PUBLISH_OR_MERGE_TO_MAIN",
+      "DELETION_OR_DESTRUCTIVE_DEDUPLICATION",
+      "FINAL_HOMOLOGATION",
+      "M24_RELEASE"
+    ],
     "do_not_conflate": "M24_HOLD_AND_FINAL_APPROVAL_PENDING_DO_NOT_BLOCK_INDEPENDENT_ELIGIBLE_NON_M24_WORK; EVERY_MUTATION_STILL_REQUIRES_ITS_OWN_WO_KERNEL_AND_TEST_GATES",
-    "hold_isolation_policy": {"m24_scope": "ONLY_FIVE_HISTORICALLY_RESERVED_FILES", "m24_state": "HOLD_ENVIRONMENT_UNIDENTIFIED_NO_EXECUTION", "unrelated_read_only_and_documentary_work": "CONTINUE", "non_m24_productive_work": "CONDITIONAL_ON_TASK_SPECIFIC_POLICY_VALIDATOR_WO_KERNEL_ADMISSION_AND_TESTS", "all_final_project_approval": "USER_AT_END_ONLY", "closed_or_candidate_tasks": "NO_REEXECUTION_WITHOUT_NEW_EVIDENCED_FIND"},
+    "hold_isolation_policy": {
+      "m24_scope": "ONLY_FIVE_HISTORICALLY_RESERVED_FILES",
+      "m24_state": "HOLD_ENVIRONMENT_UNIDENTIFIED_NO_EXECUTION",
+      "unrelated_read_only_and_documentary_work": "CONTINUE",
+      "non_m24_productive_work": "CONDITIONAL_ON_TASK_SPECIFIC_POLICY_VALIDATOR_WO_KERNEL_ADMISSION_AND_TESTS",
+      "all_final_project_approval": "USER_AT_END_ONLY",
+      "closed_or_candidate_tasks": "NO_REEXECUTION_WITHOUT_NEW_EVIDENCED_FIND"
+    },
     "m24_historical_label_disposition": "CLOSED_ADMINISTRATIVE_UNRECONSTRUCTIBLE_HISTORY; FIVE_UNKNOWN_MEMBERS_STAY_UNPROCESSED_AND_UNAPPROVED",
     "blocked_activity_state": "HOLD"
   },
   "parallel_wave_plans": [
-    {"wave": "P2", "source_ids": ["S-19", "S-23", "S-35"], "plan_state": "DOCUMENTARY_EXISTING_EVIDENCE_LINKED", "operational_state": "HOLD_KERNEL_FOR_MUTATIONS"},
-    {"wave": "P3", "source_ids": ["S-20", "S-23", "S-33", "S-35"], "plan_state": "DOCUMENTARY_EXISTING_EVIDENCE_LINKED", "operational_state": "HOLD_KERNEL_FOR_RUNTIME"},
-    {"wave": "P4", "source_ids": ["S-21", "S-23", "S-35", "S-37"], "plan_state": "DOCUMENTARY_EXISTING_EVIDENCE_LINKED", "operational_state": "M24_HOLD_AND_EXTRACTOR_KERNEL_HOLD"},
-    {"wave": "P5", "source_ids": ["S-22", "S-23", "S-35"], "plan_state": "DOCUMENTARY_EXISTING_EVIDENCE_LINKED", "operational_state": "HOLD_RELEASE_PENDING_P1_TO_P4"}
+    {
+      "wave": "P2",
+      "source_ids": [
+        "S-19",
+        "S-23",
+        "S-35"
+      ],
+      "plan_state": "DOCUMENTARY_EXISTING_EVIDENCE_LINKED",
+      "operational_state": "HOLD_KERNEL_FOR_MUTATIONS"
+    },
+    {
+      "wave": "P3",
+      "source_ids": [
+        "S-20",
+        "S-23",
+        "S-33",
+        "S-35"
+      ],
+      "plan_state": "DOCUMENTARY_EXISTING_EVIDENCE_LINKED",
+      "operational_state": "HOLD_KERNEL_FOR_RUNTIME"
+    },
+    {
+      "wave": "P4",
+      "source_ids": [
+        "S-21",
+        "S-23",
+        "S-35",
+        "S-37"
+      ],
+      "plan_state": "DOCUMENTARY_EXISTING_EVIDENCE_LINKED",
+      "operational_state": "M24_HOLD_AND_EXTRACTOR_KERNEL_HOLD"
+    },
+    {
+      "wave": "P5",
+      "source_ids": [
+        "S-22",
+        "S-23",
+        "S-35"
+      ],
+      "plan_state": "DOCUMENTARY_EXISTING_EVIDENCE_LINKED",
+      "operational_state": "HOLD_RELEASE_PENDING_P1_TO_P4"
+    }
   ],
   "execution_queue_control": {
     "queue_revision": "0.1.0-CANDIDATE",
     "base_remote_head_verified": "df98c4e2180ec3b7b5dd4ccbd80a1780f363c8bd",
     "state": "DOCUMENTARY_READY_OPERATIONAL_HOLD",
-    "source_ids": ["S-18", "S-19", "S-20", "S-21", "S-22", "S-23", "S-24"],
+    "source_ids": [
+      "S-18",
+      "S-19",
+      "S-20",
+      "S-21",
+      "S-22",
+      "S-23",
+      "S-24"
+    ],
     "task_register_source": "CE_PMO_FILA_EXECUCAO_P1_P5_20261019_CANDIDATE.json",
     "owner_model": "SPECIALIST_ANALYTICAL_AGENTS_ARE_NOT_PERSISTENT_SERVICES",
     "release_invariant": "FIND -> applicable policy -> validator -> task -> formal WO -> authoritative Kernel admission -> isolated execution -> tests -> independent audit -> authorized promotion",
-    "next_priority": ["P1-CD-01", "P2-00", "P3-A", "P4-A", "P5-01"],
+    "next_priority": [
+      "P1-CD-01",
+      "P2-00",
+      "P3-A",
+      "P4-A",
+      "P5-01"
+    ],
     "independent_validation_state": "PENDING_POSTPUBLICATION_READBACK_AND_P5_REVIEW"
   },
   "guardian_chain_health": {
@@ -91,35 +231,184 @@
     "server_side_guardian_enforcement": "NOT_PROVEN",
     "kernel_runtime_admission": "NOT_PROVEN",
     "overall_decision": "HOLD_NO_END_TO_END_ASSURANCE",
-    "source_ids": ["S-26", "S-27"]
+    "source_ids": [
+      "S-26",
+      "S-27"
+    ]
   },
   "anti_rework_agent": {
     "agent_id": "AG-NR-01",
     "type": "GUARDIAN_VALIDATION_DETERMINISTIC",
     "contract_state": "IMPLEMENTED_LOCAL_CANDIDATE",
     "history_ledger_state": "PARTIAL_CE01_TO_CE06_AND_M_R_EVIDENCE_INDEXED_FAIL_CLOSED",
-    "historical_artifact_census": {"continuity_archive_members_sha256_verified": 350, "archived_rounds_observed": 62, "local_milestone_reports_sha256_verified": 54, "local_milestone_ids_observed": 37},
-    "seeded_executed_not_homologated": ["P1-A", "P1-B", "P1-C-C"],
+    "historical_artifact_census": {
+      "continuity_archive_members_sha256_verified": 350,
+      "archived_rounds_observed": 62,
+      "local_milestone_reports_sha256_verified": 54,
+      "local_milestone_ids_observed": 37
+    },
+    "seeded_executed_not_homologated": [
+      "P1-A",
+      "P1-B",
+      "P1-C-C"
+    ],
     "identity": "SEMANTIC_INTENT_INDEPENDENT_OF_TASK_ID_PLUS_P3_WORK_SIGNATURE_COMPATIBILITY",
     "evidence_state": "80_LOCAL_UNIT_TESTS_PASS_COMBINED_AFTER_INDEPENDENT_ZIP_REPLAY",
     "default_unknown_decision": "BLOCK_OR_HOLD",
     "server_enforcement": "NOT_PROVEN_RULESET_DISABLED",
     "kernel_admission": "NOT_PROVEN",
-    "source_ids": ["S-28", "S-29", "S-30", "S-31", "S-32", "S-33", "S-34", "S-35", "S-36", "S-38"]
+    "source_ids": [
+      "S-28",
+      "S-29",
+      "S-30",
+      "S-31",
+      "S-32",
+      "S-33",
+      "S-34",
+      "S-35",
+      "S-36",
+      "S-38"
+    ]
   },
   "control_agents": [
-    {"agent_id": "PMO-CONTROLLER", "role": "PMO_VERSIONED_CONTROL", "task": "Own only this master control; record versions, task states, references and external receipts", "state": "ASSIGNED_IN_EXECUTION", "write_scope": ["docs/pmo/recovery/20261019/CE_PMO_REGISTRO_MESTRE_20261019_v0.1.0_CANDIDATE.json"], "exclusive_writer": true, "contract_version": "0.1.0-CANDIDATE", "required_evidence": ["REMOTE_PRECONDITION_BLOB_SHA", "VERSIONED_DIFF", "COMMIT_SHA", "POSTCOMMIT_EXACT_READBACK"]},
-    {"agent_id": "PMO-PUBLISHER", "role": "GIT_VERSIONED_ARTIFACT_PUBLISHER", "task": "Publish admitted non-sensitive PMO artifacts on approved recovery branch only", "state": "ASSIGNED_IN_EXECUTION", "write_scope": ["docs/pmo/recovery/20261019/EXCEPT_MASTER_REGISTER"], "exclusive_writer": true, "contract_version": "0.1.0-CANDIDATE", "required_evidence": ["CONTENT_CLASSIFICATION", "HASH", "COMMIT_SHA", "EXACT_REMOTE_READBACK"]},
-    {"agent_id": "PMO-RECONCILER", "role": "INVENTORY_CONTROL_INDEPENDENT_VERIFIER", "task": "Cross-check population totals, source references, SHA and inventory-control consistency; produce independent verdict", "state": "ASSIGNED_IN_EXECUTION", "write_scope": [], "exclusive_writer": false, "contract_version": "0.1.0-CANDIDATE", "required_evidence": ["INDEPENDENT_SOURCE_READ", "REQUIRED_PRESENT_VALIDATED_PASS", "MISMATCH_FIND_OR_VERDICT"]},
-    {"agent_id": "PMO-GUARDIAN", "role": "FAIL_CLOSED_PROCESS_VIOLATION_GUARD", "task": "Check paths, authority, secrets, conflict preservation, manifests, provenance and approval gates before artifact promotion", "state": "ASSIGNED_IN_EXECUTION", "write_scope": [], "exclusive_writer": false, "contract_version": "0.1.0-CANDIDATE", "required_evidence": ["POLICY_EVALUATION", "REJECT_CASE_TESTS", "ALLOW_OR_DENY_VERDICT"]}
-    ,{"agent_id": "AG-NR-01", "role": "BLOCK_REEXECUTION_OF_EVIDENCED_TASKS", "task": "Compare proposed task and historical evidence ledger by semantic intent independently of task ID; block reuse, ambiguous versions and unknown coverage", "state": "LOCAL_CANDIDATE_TESTED_NOT_DEPLOYED", "write_scope": [], "exclusive_writer": false, "contract_version": "0.1.0-CANDIDATE", "required_evidence": ["HISTORICAL_LEDGER", "INTENT_KEY", "BLOCK_OR_HOLD_VERDICT", "WO_KERNEL_REVALIDATION_FOR_NEW_WORK"]}
+    {
+      "agent_id": "PMO-CONTROLLER",
+      "role": "PMO_VERSIONED_CONTROL",
+      "task": "Own only this master control; record versions, task states, references and external receipts",
+      "state": "ASSIGNED_IN_EXECUTION",
+      "write_scope": [
+        "docs/pmo/recovery/20261019/CE_PMO_REGISTRO_MESTRE_20261019_v0.1.0_CANDIDATE.json"
+      ],
+      "exclusive_writer": true,
+      "contract_version": "0.1.0-CANDIDATE",
+      "required_evidence": [
+        "REMOTE_PRECONDITION_BLOB_SHA",
+        "VERSIONED_DIFF",
+        "COMMIT_SHA",
+        "POSTCOMMIT_EXACT_READBACK"
+      ]
+    },
+    {
+      "agent_id": "PMO-PUBLISHER",
+      "role": "GIT_VERSIONED_ARTIFACT_PUBLISHER",
+      "task": "Publish admitted non-sensitive PMO artifacts on approved recovery branch only",
+      "state": "ASSIGNED_IN_EXECUTION",
+      "write_scope": [
+        "docs/pmo/recovery/20261019/EXCEPT_MASTER_REGISTER"
+      ],
+      "exclusive_writer": true,
+      "contract_version": "0.1.0-CANDIDATE",
+      "required_evidence": [
+        "CONTENT_CLASSIFICATION",
+        "HASH",
+        "COMMIT_SHA",
+        "EXACT_REMOTE_READBACK"
+      ]
+    },
+    {
+      "agent_id": "PMO-RECONCILER",
+      "role": "INVENTORY_CONTROL_INDEPENDENT_VERIFIER",
+      "task": "Cross-check population totals, source references, SHA and inventory-control consistency; produce independent verdict",
+      "state": "ASSIGNED_IN_EXECUTION",
+      "write_scope": [],
+      "exclusive_writer": false,
+      "contract_version": "0.1.0-CANDIDATE",
+      "required_evidence": [
+        "INDEPENDENT_SOURCE_READ",
+        "REQUIRED_PRESENT_VALIDATED_PASS",
+        "MISMATCH_FIND_OR_VERDICT"
+      ]
+    },
+    {
+      "agent_id": "PMO-GUARDIAN",
+      "role": "FAIL_CLOSED_PROCESS_VIOLATION_GUARD",
+      "task": "Check paths, authority, secrets, conflict preservation, manifests, provenance and approval gates before artifact promotion",
+      "state": "ASSIGNED_IN_EXECUTION",
+      "write_scope": [],
+      "exclusive_writer": false,
+      "contract_version": "0.1.0-CANDIDATE",
+      "required_evidence": [
+        "POLICY_EVALUATION",
+        "REJECT_CASE_TESTS",
+        "ALLOW_OR_DENY_VERDICT"
+      ]
+    },
+    {
+      "agent_id": "AG-NR-01",
+      "role": "BLOCK_REEXECUTION_OF_EVIDENCED_TASKS",
+      "task": "Compare proposed task and historical evidence ledger by semantic intent independently of task ID; block reuse, ambiguous versions and unknown coverage",
+      "state": "LOCAL_CANDIDATE_TESTED_NOT_DEPLOYED",
+      "write_scope": [],
+      "exclusive_writer": false,
+      "contract_version": "0.1.0-CANDIDATE",
+      "required_evidence": [
+        "HISTORICAL_LEDGER",
+        "INTENT_KEY",
+        "BLOCK_OR_HOLD_VERDICT",
+        "WO_KERNEL_REVALIDATION_FOR_NEW_WORK"
+      ]
+    }
   ],
   "documentary_microtasks": [
-    {"task_id": "P1-A", "name": "Recursive local inventory", "status": "EVIDENCE_RECORDED_NOT_HOMOLOGATED", "source_ids": ["S-13"], "release_gate": "G-PMO-01"},
-    {"task_id": "P1-B", "name": "ZIP integrity and entry-to-file classification", "status": "ZIP_CRC_VERIFIED_CLASSIFICATION_IN_PROGRESS", "source_ids": ["S-13", "S-14"], "release_gate": "G-PMO-03"},
-    {"task_id": "P1-C", "name": "Local-Git-history-ZIP reconciliation", "status": "P1CD_AGGREGATE_IDENTITY_CLASSES_RECORDED_PATH_VERSION_CLASSIFICATION_PENDING", "source_ids": ["S-02", "S-03", "S-13", "S-15", "S-16", "S-17", "S-18", "S-25"], "release_gate": "G-PMO-01"},
-    {"task_id": "P2-A", "name": "Versioned branch/PR conflict matrix", "status": "PLANNED_IN_QUEUE_NOT_EXECUTED", "source_ids": ["S-01", "S-02", "S-19", "S-24"], "release_gate": "G-PMO-02"},
-    {"task_id": "P3-A", "name": "Task/WO populations and pinned metadata", "status": "CE04_38_AND_PR2_164_METADATA_READBACK_COMPLETE_IDENTITY_AND_KERNEL_REMAIN_HOLD", "source_ids": ["S-11", "S-20", "S-33", "S-34"], "release_gate": "G-PMO-04"}
+    {
+      "task_id": "P1-A",
+      "name": "Recursive local inventory",
+      "status": "EVIDENCE_RECORDED_NOT_HOMOLOGATED",
+      "source_ids": [
+        "S-13"
+      ],
+      "release_gate": "G-PMO-01"
+    },
+    {
+      "task_id": "P1-B",
+      "name": "ZIP integrity and entry-to-file classification",
+      "status": "ZIP_CRC_VERIFIED_CLASSIFICATION_IN_PROGRESS",
+      "source_ids": [
+        "S-13",
+        "S-14"
+      ],
+      "release_gate": "G-PMO-03"
+    },
+    {
+      "task_id": "P1-C",
+      "name": "Local-Git-history-ZIP reconciliation",
+      "status": "P1CD_AGGREGATE_IDENTITY_CLASSES_RECORDED_PATH_VERSION_CLASSIFICATION_PENDING",
+      "source_ids": [
+        "S-02",
+        "S-03",
+        "S-13",
+        "S-15",
+        "S-16",
+        "S-17",
+        "S-18",
+        "S-25"
+      ],
+      "release_gate": "G-PMO-01"
+    },
+    {
+      "task_id": "P2-A",
+      "name": "Versioned branch/PR conflict matrix",
+      "status": "PLANNED_IN_QUEUE_NOT_EXECUTED",
+      "source_ids": [
+        "S-01",
+        "S-02",
+        "S-19",
+        "S-24"
+      ],
+      "release_gate": "G-PMO-02"
+    },
+    {
+      "task_id": "P3-A",
+      "name": "Task/WO populations and pinned metadata",
+      "status": "CE04_38_AND_PR2_164_METADATA_READBACK_COMPLETE_IDENTITY_AND_KERNEL_REMAIN_HOLD",
+      "source_ids": [
+        "S-11",
+        "S-20",
+        "S-33",
+        "S-34"
+      ],
+      "release_gate": "G-PMO-04"
+    }
   ],
   "inventory_snapshot_control": {
     "snapshot_id": "P1-A-LOCAL-RECURSIVE-20261019-768",
@@ -140,9 +429,24 @@
     "base_main_sha": "e0f62491b104f4a97c6025a6393cabc2e7ada30e",
     "remote_only_pmo_candidate": true,
     "documents": [
-      {"path": "docs/pmo/recovery/20261019/CE_PMO_BASELINE_CONTROLE_20261019_CANDIDATE.md", "commit_sha": "7feceb50dd46e4596b67f81dd0d9fd5e885a2e24", "git_blob_sha": "15fd6786dfa0e0671916b1c60a474b0539cb8aaa", "readback": "EXACT_CONTENT_MATCH"},
-      {"path": "docs/pmo/recovery/20261019/CE_PMO_REGISTRO_MESTRE_20261019_v0.1.0_CANDIDATE.json", "commit_sha": "7ae212e929c2c207f095d09bc2753df1827cfcb9", "git_blob_sha": "b33c13320688afcd90745a76a0a5424fc0ca0609", "readback": "MATCH_PREVIOUS_VERSION_SUPERSEDED_BY_THIS_UPDATE"},
-      {"path": "docs/pmo/recovery/20261019/ce_pmo_inventory_local_v01.py", "commit_sha": "2f645eac87788530e05bfb619712f05229409d22", "git_blob_sha": "04850d485832e8f8a76d57eb396f4abfbe64c8ca", "readback": "EXACT_CONTENT_MATCH"}
+      {
+        "path": "docs/pmo/recovery/20261019/CE_PMO_BASELINE_CONTROLE_20261019_CANDIDATE.md",
+        "commit_sha": "7feceb50dd46e4596b67f81dd0d9fd5e885a2e24",
+        "git_blob_sha": "15fd6786dfa0e0671916b1c60a474b0539cb8aaa",
+        "readback": "EXACT_CONTENT_MATCH"
+      },
+      {
+        "path": "docs/pmo/recovery/20261019/CE_PMO_REGISTRO_MESTRE_20261019_v0.1.0_CANDIDATE.json",
+        "commit_sha": "7ae212e929c2c207f095d09bc2753df1827cfcb9",
+        "git_blob_sha": "b33c13320688afcd90745a76a0a5424fc0ca0609",
+        "readback": "MATCH_PREVIOUS_VERSION_SUPERSEDED_BY_THIS_UPDATE"
+      },
+      {
+        "path": "docs/pmo/recovery/20261019/ce_pmo_inventory_local_v01.py",
+        "commit_sha": "2f645eac87788530e05bfb619712f05229409d22",
+        "git_blob_sha": "04850d485832e8f8a76d57eb396f4abfbe64c8ca",
+        "readback": "EXACT_CONTENT_MATCH"
+      }
     ],
     "full_inventory_145_files": "LIBRARY_PRESERVED; HOLD_PUBLIC_METADATA_SCREENING",
     "main_mutated": false,
@@ -157,92 +461,728 @@
     "requires_commit_and_readback_per_task": true,
     "does_not_enable_project_execution": true
   },
-  "scope_restrictions": ["NO_DRIVE_ACCESS", "SUPABASE_READ_ONLY", "NO_MERGE", "NO_REMOTE_MUTATIONS_EXCEPT_PMO_DOCUMENTARY_BRANCH", "M24_HOLD", "NO_UNADMITTED_ATOMIZATION"],
+  "scope_restrictions": [
+    "NO_DRIVE_ACCESS",
+    "SUPABASE_READ_ONLY",
+    "NO_MERGE",
+    "NO_REMOTE_MUTATIONS_EXCEPT_PMO_DOCUMENTARY_BRANCH",
+    "M24_HOLD",
+    "NO_UNADMITTED_ATOMIZATION"
+  ],
   "source_register": [
-    {"source_id": "S-01", "kind": "LOCAL_REPORT", "ref": "CE_BRANCH_RECON_READONLY_20261019_CANDIDATE.md", "cutoff": "2026-10-19", "evidence_status": "LOCAL_READBACK_REPORT"},
-    {"source_id": "S-02", "kind": "GITHUB_READBACK", "ref": "IndiciumFIN/calculadorasdeenfermagem; branch listing; PR #2/#3/#4/#6", "cutoff": "2026-10-19", "evidence_status": "DIRECT_READBACK_PARTIAL"},
-    {"source_id": "S-03", "kind": "HISTORICAL_ARCHIVE", "ref": "upload/CE_MASTER_CONTINUITY_20261018(1).zip::evidence/CE04_TASK_REGISTER_READBACK.json", "cutoff": "2026-10-18", "evidence_status": "ARCHIVE_MEMBER_READ"},
-    {"source_id": "S-04", "kind": "LOCAL_REPORT", "ref": "CE_M43_CID11_CATEGORIAS_STREAMING_SEMANTIC_HOLDS_v0.1.0_CANDIDATE.md", "cutoff": "2026-10-19", "evidence_status": "LOCAL_TEST_REPORT"},
-    {"source_id": "S-05", "kind": "LOCAL_REPORT", "ref": "CE_M42_MEDICAMENTOS_ANVISA_STREAMING_FIND_FRAGMENTACAO_v0.1.0_CANDIDATE.md", "cutoff": "2026-10-19", "evidence_status": "LOCAL_TEST_REPORT"},
-    {"source_id": "S-06", "kind": "LOCAL_REPORT", "ref": "CE_M20_KERNEL_EXECUTORES_AUDIT_CANDIDATE.md", "cutoff": "2026-10-19", "evidence_status": "LOCAL_CODE_AUDIT"},
-    {"source_id": "S-07", "kind": "LOCAL_REPORT", "ref": "CE_M21_CONTENCAO_KERNEL_E_TRILHO_CONTEUDO_CANDIDATE.md", "cutoff": "2026-10-19", "evidence_status": "LOCAL_TEST_REPORT"},
-    {"source_id": "S-08", "kind": "LOCAL_REPORT", "ref": "CE_M12_RECUPERACAO_AQUISICAO_FILA_WO_KERNEL_v0.1.0_CANDIDATE.md", "cutoff": "2026-10-19", "evidence_status": "LOCAL_TEST_REPORT"},
-    {"source_id": "S-09", "kind": "HISTORICAL_AUDIT", "ref": "CE06 parecer 21 controles; handoff histórico, requer readback", "cutoff": "2026-10-17", "evidence_status": "HISTORICAL_NOT_REVALIDATED"},
-    {"source_id": "S-10", "kind": "HISTORICAL_CONTEXT", "ref": "Auditoria anterior 102 WOs: 98 PASS, 2 BLOCKED, 2 PREAUTHORIZED; identidade documental pendente", "cutoff": "2026-10-16", "evidence_status": "CONVERSATION_ONLY"},
-    {"source_id": "S-11", "kind": "GITHUB_READBACK", "ref": "PR #2 contracts/work_orders (76 arquivos); contracts/work_order.schema.json", "cutoff": "2026-10-19", "evidence_status": "DIRECT_READBACK_STRUCTURE"},
-    {"source_id": "S-12", "kind": "LOCAL_REPORT", "ref": "CE_M11_AUDITORIA_REAL_PROCESSO_DOCUMENTACAO_REFERENCIAIS_v0.1.0_CANDIDATE.md", "cutoff": "2026-10-19", "evidence_status": "LOCAL_DOCUMENTARY_AUDIT"},
-    {"source_id": "S-13", "kind": "LOCAL_RECURSIVE_SCAN", "ref": "CE_PMO_INVENTARIO_RECURSIVO_RESUMO_20261019_CANDIDATE.json", "cutoff": "2026-10-19", "evidence_status": "AGGREGATED_LOCAL_HASH_SCAN_NOT_EXTERNAL_CUSTODY"},
-    {"source_id": "S-14", "kind": "LOCAL_ZIP_PAYLOAD_VALIDATION", "ref": "CE_PMO_ZIP_INTEGRIDADE_P1B_20261019_CANDIDATE.json", "cutoff": "2026-10-19", "evidence_status": "13_ZIP_1956_MEMBERS_CRC_VERIFIED_LOCAL_ONLY"},
-    {"source_id": "S-15", "kind": "LOCAL_ZIP_CONTENT_SHA_RECONCILIATION", "ref": "CE_PMO_RECON_LOCAL_ZIP_GIT_P1C_A_20261019_CANDIDATE.json", "cutoff": "2026-10-19", "evidence_status": "621_IDENTICAL_SHA_LOCAL_ZIP; GITHUB_UNRECONCILED"},
-    {"source_id": "S-16", "kind": "GITHUB_READBACK_PARTIAL_TREE", "ref": "main@e0f62491b104f4a97c6025a6393cabc2e7ada30e root/docs/contracts nonrecursive Git trees", "cutoff": "2026-10-19", "evidence_status": "15_BRANCHES_OBSERVED_TREES_PARTIAL_NOT_TRUNCATED"},
-    {"source_id": "S-17", "kind": "GITHUB_PINNED_BRANCH_TREE_TRAVERSAL", "ref": "CE_PMO_GIT_BRANCH_TREES_P1CB_20261019_CANDIDATE.json", "cutoff": "2026-10-19", "evidence_status": "15_OF_15_TREES_COMPLETE_58710_BLOB_OCCURRENCES_NOT_UNIQUE"},
-    {"source_id": "S-18", "kind": "GIT_LOCAL_ZIP_EXACT_BLOB_CROSSCHECK", "ref": "CE_PMO_GIT_BLOB_CROSSCHECK_P1CC_20261019_CANDIDATE.json", "cutoff": "2026-10-19", "evidence_status": "9569_GIT_UNIQUE; 1295_ZIP_UNIQUE; 11_EXACT_GIT_ZIP; NOT_LOSS_PROOF"},
-    {"source_id": "S-19", "kind": "SPECIALIST_P2_PLAN", "ref": "CE_PMO_PLANO_P2_RECON_20261019_CANDIDATE.md", "cutoff": "2026-10-19", "evidence_status": "READ_ONLY_REANALYSIS_PLAN"},
-    {"source_id": "S-20", "kind": "SPECIALIST_P3_PLAN", "ref": "CE_PMO_PLANO_P3_AGENTES_20261019_CANDIDATE.md", "cutoff": "2026-10-19", "evidence_status": "READ_ONLY_REANALYSIS_PLAN"},
-    {"source_id": "S-21", "kind": "SPECIALIST_P4_PLAN", "ref": "CE_PMO_PLANO_P4_CONTEUDO_20261019_CANDIDATE.md", "cutoff": "2026-10-19", "evidence_status": "READ_ONLY_REANALYSIS_PLAN"},
-    {"source_id": "S-22", "kind": "SPECIALIST_P5_PLAN", "ref": "CE_PMO_PLANO_P5_AUDITORIA_20261019_CANDIDATE.md", "cutoff": "2026-10-19", "evidence_status": "READ_ONLY_REANALYSIS_PLAN"},
-    {"source_id": "S-23", "kind": "INTEGRATED_WAVE_PLAN", "ref": "CE_PMO_PLANO_INTEGRADO_P1_P5_AGENTES_20261019_CANDIDATE.md", "cutoff": "2026-10-19", "evidence_status": "PLAN_ONLY_DOCUMENTARY_CANDIDATE"},
-    {"source_id": "S-24", "kind": "CONTROLLED_MICROTASK_QUEUE", "ref": "CE_PMO_FILA_EXECUCAO_P1_P5_20261019_CANDIDATE.json", "cutoff": "2026-10-19", "evidence_status": "CANDIDATE_TASK_DEFINITIONS_NOT_EXECUTION_EVIDENCE"},
-    {"source_id": "S-25", "kind": "P1CD_AGGREGATE_CLASSIFICATION", "ref": "CE_PMO_P1CD_CLASSIFICACAO_IDENTIDADE_20261019_CANDIDATE.json", "cutoff": "2026-10-19", "evidence_status": "MUTUALLY_EXCLUSIVE_BLOB_IDENTITY_CLASSES_ONLY"},
-    {"source_id": "S-26", "kind": "GUARDIAN_ADVERSARIAL_TESTS", "ref": "ce_pmo_inventory_guard_v01.py; test_ce_pmo_inventory_guard_v01.py", "cutoff": "2026-10-19", "evidence_status": "21_21_LOCAL_UNIT_TESTS_PASS_NOT_REMOTE_ENFORCEMENT"},
-    {"source_id": "S-27", "kind": "GITHUB_RULESET_DIRECT_READBACK_AND_FIND", "ref": "CE_PMO_FIND_GUARDIAN_ENFORCEMENT_20261019_CANDIDATE.md; ruleset 25297030", "cutoff": "2026-10-19", "evidence_status": "ENFORCEMENT_DISABLED_DIRECT_REST_READBACK"},
-    {"source_id": "S-28", "kind": "DETERMINISTIC_ANTI_REWORK_GATE", "ref": "ce_pmo_no_rework_agent_v01.py; test_ce_pmo_no_rework_agent_v01.py", "cutoff": "2026-10-19", "evidence_status": "15_LOCAL_ADVERSARIAL_TESTS_PASS_ONLY"},
-    {"source_id": "S-29", "kind": "PARTIAL_EXECUTION_LEDGER", "ref": "CE_PMO_LEDGER_ANTI_RETRABALHO_20261019_CANDIDATE.json", "cutoff": "2026-10-19", "evidence_status": "THREE_P1_EXECUTIONS_SEEDED_HISTORICAL_COVERAGE_PARTIAL"},
-    {"source_id": "S-30", "kind": "AGENT_CONTRACT", "ref": "CE_PMO_CONTRATO_AGENTE_ANTI_RETRABALHO_20261019_CANDIDATE.md", "cutoff": "2026-10-19", "evidence_status": "DOCUMENTARY_LOCAL_GATE_NOT_SERVER_ENFORCED"},
-    {"source_id": "S-31", "kind": "HISTORICAL_EVIDENCE_CENSUS", "ref": "CE_PMO_INDICE_EVIDENCIAS_HISTORICAS_CE01_CE06_M_20261019_CANDIDATE.json; ce_pmo_history_census_v01.py", "cutoff": "2026-10-19", "evidence_status": "350_ZIP_MEMBER_SHA256_54_M_REPORT_SHA256_NOT_TASK_COMPLETION"},
-    {"source_id": "S-32", "kind": "HISTORICAL_EVIDENCE_RECONCILIATION_REPORT", "ref": "CE_PMO_RELATORIO_COBERTURA_HISTORICA_20261019_CANDIDATE.md", "cutoff": "2026-10-19", "evidence_status": "CE01_TO_CE06_HISTORICAL_SCOPE_REVIEWED_HISTORY_NOT_FULLY_RECONCILED"},
-    {"source_id": "S-33", "kind": "PINNED_GITHUB_TASK_WO_METADATA", "ref": "CE_PMO_CROSSWALK_CE04_38_PR2_WO164_20261019_CANDIDATE.json", "cutoff": "2026-10-19", "evidence_status": "38_CE04_TASKS_164_WO_JSON_READBACK_0_DIRECT_ID_MATCHES"},
-    {"source_id": "S-34", "kind": "DETERMINISTIC_TASK_WO_CROSSWALK_TESTS", "ref": "test_ce_pmo_crosswalk_wo_v01.py", "cutoff": "2026-10-19", "evidence_status": "6_TESTS_PASS_LOCAL_ONLY"},
-    {"source_id": "S-35", "kind": "PARALLEL_DOCUMENTARY_EVIDENCE_LINKAGE", "ref": "CE_PMO_EXECUCAO_PARALELA_P2_P5_REUSE_20261019_CANDIDATE.json", "cutoff": "2026-10-19", "evidence_status": "FOUR_WAVES_SOURCE_LINKS_ONLY_NOT_PRODUCTIVE_COMPLETION"},
-    {"source_id": "S-36", "kind": "CROSS_WAVE_PMO_GUARDIAN_INDEPENDENT_VALIDATION", "ref": "ce_pmo_inventory_guard_v01.py; test_ce_pmo_inventory_guard_v01.py; CE_PMO_VALIDADOR_INDEPENDENTE_20261019.py; CE_PMO_FILA_EXECUCAO_P1_P5_20261019_CANDIDATE.json", "cutoff": "2026-10-19", "evidence_status": "59_UNIT_TESTS_22_INDEPENDENT_STATIC_PASSES_4_RELEASE_HOLDS"},
-    {"source_id": "S-37", "kind": "P4_PINNED_SOURCE_RIGHTS_CROSSWALK", "ref": "CE_PMO_P4_CROSSWALK_FONTES_61_ARQUIVOS_65_20261019_CANDIDATE.json; test_ce_pmo_p4_source_rights_crosswalk_v01.py", "cutoff": "2026-10-19", "evidence_status": "65_FILE_DESCRIPTOR_MATCHES_61_SOURCE_OBJECTS_49_URLS_61_RIGHTS_HOLD; NO_PER_RECORD_ATTRIBUTION_APPROVED"},
-    {"source_id": "S-38", "kind": "INDEPENDENT_GAP_TRIAGE_AND_ZIP_CRC_REPLAY", "ref": "CE_PMO_MATRIZ_LACUNAS_INDEPENDENTES_20261019_CANDIDATE.json; CE_PMO_VALIDADOR_INDEPENDENTE_20261019.py; test_ce_pmo_independent_zip_gap_v01.py", "cutoff": "2026-10-19", "evidence_status": "25_STATIC_PASS_3_HOLD_80_UNIT_TESTS_LOCAL; ZIP_13_CRC_1956_REPLAY_PASS_ONLY"},
-    {"source_id": "S-39", "kind": "P1_PRIVATE_NEW_TIMESTAMPED_SNAPSHOT", "ref": "CE_PMO_CUSTODIA_SNAPSHOT_PRIVADO_20261019_V2.json (PRIVATE_LIBRARY_NOT_PUBLIC_GIT)", "cutoff": "2026-10-19T11:56:06.361038+00:00", "evidence_status": "823_LOCAL_FILES_PRIVATE_COPY_SAVED; EXACT_PRIVATE_CONTENT_READBACK; 768_FROZEN_BASELINE_UNCHANGED; ORIGINAL_PER_ITEM_DELTA_HOLD"},
-    {"source_id": "S-40", "kind": "PMO_GITHUB_BASE64_CORRECTION_PINNED_READBACK", "ref": "CE_PMO_FIND_CORRECAO_BASE64_14_20261019_CANDIDATE.json", "pinned_head": "371bcd2366f54824410c3af9bf3d84890d40266d", "evidence_status": "14_REMOTE_LITERAL_BASE64_CORRECTED; 58_OF_58_LOCAL_SHA_MATCH; 4_REMOTE_ONLY_PRESERVED; GLOBAL_INDEPENDENT_ATTESTATION_HOLD"},
-    {"source_id": "S-41", "kind": "POST_CLOSURE_APPEND_ONLY_INVARIANT", "ref": "CE_PMO_INVARIANTE_FILA_POS_FECHAMENTO_20261019_CANDIDATE.md; ce_pmo_inventory_guard_v01.py; test_ce_pmo_inventory_guard_v01.py", "cutoff": "2026-10-19", "evidence_status": "LOCAL_GUARD_AND_NEGATIVE_TESTS; REMOTE_CI_ENFORCEMENT_NOT_PROVEN"},
-    {"source_id": "S-42", "kind": "BOUNDED_CLOSURE_AND_NEW_TAIL_FIND", "ref": "CE_PMO_FECHAMENTOS_DELIMITADOS_20261019_CANDIDATE.json; CE_PMO_FILA_EXECUCAO_P1_P5_20261019_CANDIDATE.json; CE_PMO_VARREDURA_FINAL_P1_P5_F0_F11_20261019_CANDIDATE.json", "cutoff": "2026-10-19", "evidence_status": "ONE_BOUNDED_TECH_CLOSED_ONE_ADMIN_CLOSED_THREE_CANDIDATE; POST_001_TAIL_NOT_EXECUTED; F0_F11_REVIEWED_NO_DUPLICATE"},
-    {"source_id": "S-43", "kind": "AUTONOMOUS_EXECUTION_AND_FINAL_APPROVAL_CLOSURE_PLAN", "ref": "CE_PMO_PLANO_FECHAMENTO_CAPACIDADE_AUTONOMIA_20261019_CANDIDATE.md", "cutoff": "2026-10-19", "evidence_status": "SCOPE_AND_ACCEPTANCE_CRITERIA_DOCUMENTED; EXECUTION_NOT_COMPLETE; NO_NEW_QUEUE_TASKS; USER_APPROVAL_AT_END"}
+    {
+      "source_id": "S-01",
+      "kind": "LOCAL_REPORT",
+      "ref": "CE_BRANCH_RECON_READONLY_20261019_CANDIDATE.md",
+      "cutoff": "2026-10-19",
+      "evidence_status": "LOCAL_READBACK_REPORT"
+    },
+    {
+      "source_id": "S-02",
+      "kind": "GITHUB_READBACK",
+      "ref": "IndiciumFIN/calculadorasdeenfermagem; branch listing; PR #2/#3/#4/#6",
+      "cutoff": "2026-10-19",
+      "evidence_status": "DIRECT_READBACK_PARTIAL"
+    },
+    {
+      "source_id": "S-03",
+      "kind": "HISTORICAL_ARCHIVE",
+      "ref": "upload/CE_MASTER_CONTINUITY_20261018(1).zip::evidence/CE04_TASK_REGISTER_READBACK.json",
+      "cutoff": "2026-10-18",
+      "evidence_status": "ARCHIVE_MEMBER_READ"
+    },
+    {
+      "source_id": "S-04",
+      "kind": "LOCAL_REPORT",
+      "ref": "CE_M43_CID11_CATEGORIAS_STREAMING_SEMANTIC_HOLDS_v0.1.0_CANDIDATE.md",
+      "cutoff": "2026-10-19",
+      "evidence_status": "LOCAL_TEST_REPORT"
+    },
+    {
+      "source_id": "S-05",
+      "kind": "LOCAL_REPORT",
+      "ref": "CE_M42_MEDICAMENTOS_ANVISA_STREAMING_FIND_FRAGMENTACAO_v0.1.0_CANDIDATE.md",
+      "cutoff": "2026-10-19",
+      "evidence_status": "LOCAL_TEST_REPORT"
+    },
+    {
+      "source_id": "S-06",
+      "kind": "LOCAL_REPORT",
+      "ref": "CE_M20_KERNEL_EXECUTORES_AUDIT_CANDIDATE.md",
+      "cutoff": "2026-10-19",
+      "evidence_status": "LOCAL_CODE_AUDIT"
+    },
+    {
+      "source_id": "S-07",
+      "kind": "LOCAL_REPORT",
+      "ref": "CE_M21_CONTENCAO_KERNEL_E_TRILHO_CONTEUDO_CANDIDATE.md",
+      "cutoff": "2026-10-19",
+      "evidence_status": "LOCAL_TEST_REPORT"
+    },
+    {
+      "source_id": "S-08",
+      "kind": "LOCAL_REPORT",
+      "ref": "CE_M12_RECUPERACAO_AQUISICAO_FILA_WO_KERNEL_v0.1.0_CANDIDATE.md",
+      "cutoff": "2026-10-19",
+      "evidence_status": "LOCAL_TEST_REPORT"
+    },
+    {
+      "source_id": "S-09",
+      "kind": "HISTORICAL_AUDIT",
+      "ref": "CE06 parecer 21 controles; handoff histórico, requer readback",
+      "cutoff": "2026-10-17",
+      "evidence_status": "HISTORICAL_NOT_REVALIDATED"
+    },
+    {
+      "source_id": "S-10",
+      "kind": "HISTORICAL_CONTEXT",
+      "ref": "Auditoria anterior 102 WOs: 98 PASS, 2 BLOCKED, 2 PREAUTHORIZED; identidade documental pendente",
+      "cutoff": "2026-10-16",
+      "evidence_status": "CONVERSATION_ONLY"
+    },
+    {
+      "source_id": "S-11",
+      "kind": "GITHUB_READBACK",
+      "ref": "PR #2 contracts/work_orders (76 arquivos); contracts/work_order.schema.json",
+      "cutoff": "2026-10-19",
+      "evidence_status": "DIRECT_READBACK_STRUCTURE"
+    },
+    {
+      "source_id": "S-12",
+      "kind": "LOCAL_REPORT",
+      "ref": "CE_M11_AUDITORIA_REAL_PROCESSO_DOCUMENTACAO_REFERENCIAIS_v0.1.0_CANDIDATE.md",
+      "cutoff": "2026-10-19",
+      "evidence_status": "LOCAL_DOCUMENTARY_AUDIT"
+    },
+    {
+      "source_id": "S-13",
+      "kind": "LOCAL_RECURSIVE_SCAN",
+      "ref": "CE_PMO_INVENTARIO_RECURSIVO_RESUMO_20261019_CANDIDATE.json",
+      "cutoff": "2026-10-19",
+      "evidence_status": "AGGREGATED_LOCAL_HASH_SCAN_NOT_EXTERNAL_CUSTODY"
+    },
+    {
+      "source_id": "S-14",
+      "kind": "LOCAL_ZIP_PAYLOAD_VALIDATION",
+      "ref": "CE_PMO_ZIP_INTEGRIDADE_P1B_20261019_CANDIDATE.json",
+      "cutoff": "2026-10-19",
+      "evidence_status": "13_ZIP_1956_MEMBERS_CRC_VERIFIED_LOCAL_ONLY"
+    },
+    {
+      "source_id": "S-15",
+      "kind": "LOCAL_ZIP_CONTENT_SHA_RECONCILIATION",
+      "ref": "CE_PMO_RECON_LOCAL_ZIP_GIT_P1C_A_20261019_CANDIDATE.json",
+      "cutoff": "2026-10-19",
+      "evidence_status": "621_IDENTICAL_SHA_LOCAL_ZIP; GITHUB_UNRECONCILED"
+    },
+    {
+      "source_id": "S-16",
+      "kind": "GITHUB_READBACK_PARTIAL_TREE",
+      "ref": "main@e0f62491b104f4a97c6025a6393cabc2e7ada30e root/docs/contracts nonrecursive Git trees",
+      "cutoff": "2026-10-19",
+      "evidence_status": "15_BRANCHES_OBSERVED_TREES_PARTIAL_NOT_TRUNCATED"
+    },
+    {
+      "source_id": "S-17",
+      "kind": "GITHUB_PINNED_BRANCH_TREE_TRAVERSAL",
+      "ref": "CE_PMO_GIT_BRANCH_TREES_P1CB_20261019_CANDIDATE.json",
+      "cutoff": "2026-10-19",
+      "evidence_status": "15_OF_15_TREES_COMPLETE_58710_BLOB_OCCURRENCES_NOT_UNIQUE"
+    },
+    {
+      "source_id": "S-18",
+      "kind": "GIT_LOCAL_ZIP_EXACT_BLOB_CROSSCHECK",
+      "ref": "CE_PMO_GIT_BLOB_CROSSCHECK_P1CC_20261019_CANDIDATE.json",
+      "cutoff": "2026-10-19",
+      "evidence_status": "9569_GIT_UNIQUE; 1295_ZIP_UNIQUE; 11_EXACT_GIT_ZIP; NOT_LOSS_PROOF"
+    },
+    {
+      "source_id": "S-19",
+      "kind": "SPECIALIST_P2_PLAN",
+      "ref": "CE_PMO_PLANO_P2_RECON_20261019_CANDIDATE.md",
+      "cutoff": "2026-10-19",
+      "evidence_status": "READ_ONLY_REANALYSIS_PLAN"
+    },
+    {
+      "source_id": "S-20",
+      "kind": "SPECIALIST_P3_PLAN",
+      "ref": "CE_PMO_PLANO_P3_AGENTES_20261019_CANDIDATE.md",
+      "cutoff": "2026-10-19",
+      "evidence_status": "READ_ONLY_REANALYSIS_PLAN"
+    },
+    {
+      "source_id": "S-21",
+      "kind": "SPECIALIST_P4_PLAN",
+      "ref": "CE_PMO_PLANO_P4_CONTEUDO_20261019_CANDIDATE.md",
+      "cutoff": "2026-10-19",
+      "evidence_status": "READ_ONLY_REANALYSIS_PLAN"
+    },
+    {
+      "source_id": "S-22",
+      "kind": "SPECIALIST_P5_PLAN",
+      "ref": "CE_PMO_PLANO_P5_AUDITORIA_20261019_CANDIDATE.md",
+      "cutoff": "2026-10-19",
+      "evidence_status": "READ_ONLY_REANALYSIS_PLAN"
+    },
+    {
+      "source_id": "S-23",
+      "kind": "INTEGRATED_WAVE_PLAN",
+      "ref": "CE_PMO_PLANO_INTEGRADO_P1_P5_AGENTES_20261019_CANDIDATE.md",
+      "cutoff": "2026-10-19",
+      "evidence_status": "PLAN_ONLY_DOCUMENTARY_CANDIDATE"
+    },
+    {
+      "source_id": "S-24",
+      "kind": "CONTROLLED_MICROTASK_QUEUE",
+      "ref": "CE_PMO_FILA_EXECUCAO_P1_P5_20261019_CANDIDATE.json",
+      "cutoff": "2026-10-19",
+      "evidence_status": "CANDIDATE_TASK_DEFINITIONS_NOT_EXECUTION_EVIDENCE"
+    },
+    {
+      "source_id": "S-25",
+      "kind": "P1CD_AGGREGATE_CLASSIFICATION",
+      "ref": "CE_PMO_P1CD_CLASSIFICACAO_IDENTIDADE_20261019_CANDIDATE.json",
+      "cutoff": "2026-10-19",
+      "evidence_status": "MUTUALLY_EXCLUSIVE_BLOB_IDENTITY_CLASSES_ONLY"
+    },
+    {
+      "source_id": "S-26",
+      "kind": "GUARDIAN_ADVERSARIAL_TESTS",
+      "ref": "ce_pmo_inventory_guard_v01.py; test_ce_pmo_inventory_guard_v01.py",
+      "cutoff": "2026-10-19",
+      "evidence_status": "21_21_LOCAL_UNIT_TESTS_PASS_NOT_REMOTE_ENFORCEMENT"
+    },
+    {
+      "source_id": "S-27",
+      "kind": "GITHUB_RULESET_DIRECT_READBACK_AND_FIND",
+      "ref": "CE_PMO_FIND_GUARDIAN_ENFORCEMENT_20261019_CANDIDATE.md; ruleset 25297030",
+      "cutoff": "2026-10-19",
+      "evidence_status": "ENFORCEMENT_DISABLED_DIRECT_REST_READBACK"
+    },
+    {
+      "source_id": "S-28",
+      "kind": "DETERMINISTIC_ANTI_REWORK_GATE",
+      "ref": "ce_pmo_no_rework_agent_v01.py; test_ce_pmo_no_rework_agent_v01.py",
+      "cutoff": "2026-10-19",
+      "evidence_status": "15_LOCAL_ADVERSARIAL_TESTS_PASS_ONLY"
+    },
+    {
+      "source_id": "S-29",
+      "kind": "PARTIAL_EXECUTION_LEDGER",
+      "ref": "CE_PMO_LEDGER_ANTI_RETRABALHO_20261019_CANDIDATE.json",
+      "cutoff": "2026-10-19",
+      "evidence_status": "THREE_P1_EXECUTIONS_SEEDED_HISTORICAL_COVERAGE_PARTIAL"
+    },
+    {
+      "source_id": "S-30",
+      "kind": "AGENT_CONTRACT",
+      "ref": "CE_PMO_CONTRATO_AGENTE_ANTI_RETRABALHO_20261019_CANDIDATE.md",
+      "cutoff": "2026-10-19",
+      "evidence_status": "DOCUMENTARY_LOCAL_GATE_NOT_SERVER_ENFORCED"
+    },
+    {
+      "source_id": "S-31",
+      "kind": "HISTORICAL_EVIDENCE_CENSUS",
+      "ref": "CE_PMO_INDICE_EVIDENCIAS_HISTORICAS_CE01_CE06_M_20261019_CANDIDATE.json; ce_pmo_history_census_v01.py",
+      "cutoff": "2026-10-19",
+      "evidence_status": "350_ZIP_MEMBER_SHA256_54_M_REPORT_SHA256_NOT_TASK_COMPLETION"
+    },
+    {
+      "source_id": "S-32",
+      "kind": "HISTORICAL_EVIDENCE_RECONCILIATION_REPORT",
+      "ref": "CE_PMO_RELATORIO_COBERTURA_HISTORICA_20261019_CANDIDATE.md",
+      "cutoff": "2026-10-19",
+      "evidence_status": "CE01_TO_CE06_HISTORICAL_SCOPE_REVIEWED_HISTORY_NOT_FULLY_RECONCILED"
+    },
+    {
+      "source_id": "S-33",
+      "kind": "PINNED_GITHUB_TASK_WO_METADATA",
+      "ref": "CE_PMO_CROSSWALK_CE04_38_PR2_WO164_20261019_CANDIDATE.json",
+      "cutoff": "2026-10-19",
+      "evidence_status": "38_CE04_TASKS_164_WO_JSON_READBACK_0_DIRECT_ID_MATCHES"
+    },
+    {
+      "source_id": "S-34",
+      "kind": "DETERMINISTIC_TASK_WO_CROSSWALK_TESTS",
+      "ref": "test_ce_pmo_crosswalk_wo_v01.py",
+      "cutoff": "2026-10-19",
+      "evidence_status": "6_TESTS_PASS_LOCAL_ONLY"
+    },
+    {
+      "source_id": "S-35",
+      "kind": "PARALLEL_DOCUMENTARY_EVIDENCE_LINKAGE",
+      "ref": "CE_PMO_EXECUCAO_PARALELA_P2_P5_REUSE_20261019_CANDIDATE.json",
+      "cutoff": "2026-10-19",
+      "evidence_status": "FOUR_WAVES_SOURCE_LINKS_ONLY_NOT_PRODUCTIVE_COMPLETION"
+    },
+    {
+      "source_id": "S-36",
+      "kind": "CROSS_WAVE_PMO_GUARDIAN_INDEPENDENT_VALIDATION",
+      "ref": "ce_pmo_inventory_guard_v01.py; test_ce_pmo_inventory_guard_v01.py; CE_PMO_VALIDADOR_INDEPENDENTE_20261019.py; CE_PMO_FILA_EXECUCAO_P1_P5_20261019_CANDIDATE.json",
+      "cutoff": "2026-10-19",
+      "evidence_status": "59_UNIT_TESTS_22_INDEPENDENT_STATIC_PASSES_4_RELEASE_HOLDS"
+    },
+    {
+      "source_id": "S-37",
+      "kind": "P4_PINNED_SOURCE_RIGHTS_CROSSWALK",
+      "ref": "CE_PMO_P4_CROSSWALK_FONTES_61_ARQUIVOS_65_20261019_CANDIDATE.json; test_ce_pmo_p4_source_rights_crosswalk_v01.py",
+      "cutoff": "2026-10-19",
+      "evidence_status": "65_FILE_DESCRIPTOR_MATCHES_61_SOURCE_OBJECTS_49_URLS_61_RIGHTS_HOLD; NO_PER_RECORD_ATTRIBUTION_APPROVED"
+    },
+    {
+      "source_id": "S-38",
+      "kind": "INDEPENDENT_GAP_TRIAGE_AND_ZIP_CRC_REPLAY",
+      "ref": "CE_PMO_MATRIZ_LACUNAS_INDEPENDENTES_20261019_CANDIDATE.json; CE_PMO_VALIDADOR_INDEPENDENTE_20261019.py; test_ce_pmo_independent_zip_gap_v01.py",
+      "cutoff": "2026-10-19",
+      "evidence_status": "25_STATIC_PASS_3_HOLD_80_UNIT_TESTS_LOCAL; ZIP_13_CRC_1956_REPLAY_PASS_ONLY"
+    },
+    {
+      "source_id": "S-39",
+      "kind": "P1_PRIVATE_NEW_TIMESTAMPED_SNAPSHOT",
+      "ref": "CE_PMO_CUSTODIA_SNAPSHOT_PRIVADO_20261019_V2.json (PRIVATE_LIBRARY_NOT_PUBLIC_GIT)",
+      "cutoff": "2026-10-19T11:56:06.361038+00:00",
+      "evidence_status": "823_LOCAL_FILES_PRIVATE_COPY_SAVED; EXACT_PRIVATE_CONTENT_READBACK; 768_FROZEN_BASELINE_UNCHANGED; ORIGINAL_PER_ITEM_DELTA_HOLD"
+    },
+    {
+      "source_id": "S-40",
+      "kind": "PMO_GITHUB_BASE64_CORRECTION_PINNED_READBACK",
+      "ref": "CE_PMO_FIND_CORRECAO_BASE64_14_20261019_CANDIDATE.json",
+      "pinned_head": "371bcd2366f54824410c3af9bf3d84890d40266d",
+      "evidence_status": "14_REMOTE_LITERAL_BASE64_CORRECTED; 58_OF_58_LOCAL_SHA_MATCH; 4_REMOTE_ONLY_PRESERVED; GLOBAL_INDEPENDENT_ATTESTATION_HOLD"
+    },
+    {
+      "source_id": "S-41",
+      "kind": "POST_CLOSURE_APPEND_ONLY_INVARIANT",
+      "ref": "CE_PMO_INVARIANTE_FILA_POS_FECHAMENTO_20261019_CANDIDATE.md; ce_pmo_inventory_guard_v01.py; test_ce_pmo_inventory_guard_v01.py",
+      "cutoff": "2026-10-19",
+      "evidence_status": "LOCAL_GUARD_AND_NEGATIVE_TESTS; REMOTE_CI_ENFORCEMENT_NOT_PROVEN"
+    },
+    {
+      "source_id": "S-42",
+      "kind": "BOUNDED_CLOSURE_AND_NEW_TAIL_FIND",
+      "ref": "CE_PMO_FECHAMENTOS_DELIMITADOS_20261019_CANDIDATE.json; CE_PMO_FILA_EXECUCAO_P1_P5_20261019_CANDIDATE.json; CE_PMO_VARREDURA_FINAL_P1_P5_F0_F11_20261019_CANDIDATE.json",
+      "cutoff": "2026-10-19",
+      "evidence_status": "ONE_BOUNDED_TECH_CLOSED_ONE_ADMIN_CLOSED_THREE_CANDIDATE; POST_001_TAIL_NOT_EXECUTED; F0_F11_REVIEWED_NO_DUPLICATE"
+    },
+    {
+      "source_id": "S-43",
+      "kind": "AUTONOMOUS_EXECUTION_AND_FINAL_APPROVAL_CLOSURE_PLAN",
+      "ref": "CE_PMO_PLANO_FECHAMENTO_CAPACIDADE_AUTONOMIA_20261019_CANDIDATE.md",
+      "cutoff": "2026-10-19",
+      "evidence_status": "SCOPE_AND_ACCEPTANCE_CRITERIA_DOCUMENTED; EXECUTION_NOT_COMPLETE; NO_NEW_QUEUE_TASKS; USER_APPROVAL_AT_END"
+    }
   ],
   "populations": [
-    {"population_id": "POP-BRANCH", "unit": "BRANCH", "count": 14, "processed": null, "approved": null, "cutoff": "2026-10-19", "source_ids": ["S-02"], "status": "HISTORICAL_BEFORE_PMO_BRANCH_NOT_RECONCILED"},
-    {"population_id": "POP-BRANCH-PINNED-P1CB", "unit": "BRANCH_TREE", "count": 15, "processed": 15, "approved": 0, "cutoff": "2026-10-19", "source_ids": ["S-17"], "status": "TREE_TRAVERSAL_COMPLETE_BLOB_CONTENT_AND_VARIANTS_PENDING"},
-    {"population_id": "POP-OPEN-PR", "unit": "PULL_REQUEST", "count": 4, "processed": 4, "approved": 0, "cutoff": "2026-10-19", "source_ids": ["S-02"], "status": "PATHS_REVIEWED_NO_MERGE"},
-    {"population_id": "POP-CE04-FILES", "unit": "FILE", "count": 65, "processed": 53, "approved": 0, "cutoff": "2026-10-19", "source_ids": ["S-04"], "status": "STRUCTURAL_ONLY"},
-    {"population_id": "POP-CE04-TASKS", "unit": "TASK", "count": 38, "processed": null, "approved": 0, "cutoff": "2026-10-18", "source_ids": ["S-03"], "status": "ZERO_CLOSED_KERNEL_NOT_VERIFIED"},
-    {"population_id": "POP-PR2-WO", "unit": "WO_JSON_IN_PINNED_PR2_TREE", "count": 164, "processed": 164, "approved": null, "cutoff": "2026-10-19", "source_ids": ["S-11", "S-33", "S-34"], "status": "161_PREAUTHORIZED_3_EXAMPLES_NOT_KERNEL_ADMITTED; PRIOR_76_WAS_PAGE1_ONLY"},
-    {"population_id": "POP-HISTORICAL-WO", "unit": "HISTORICAL_WO_DIFFERENT_SCOPE", "count": 102, "processed": null, "approved": null, "cutoff": "2026-10-16", "source_ids": ["S-10"], "status": "CONTEXT_ONLY_SCOPE_UNRECONCILED"},
-    {"population_id": "POP-CE02-NORM", "unit": "DOCUMENTARY_METADATA_RECORD", "count": 1020, "processed": 1020, "approved": 0, "cutoff": "2026-10-18", "source_ids": ["S-03"], "status": "STRUCTURAL_METADATA_ONLY"},
-    {"population_id": "POP-M24-HOLD", "unit": "FILE", "count": 5, "processed": 0, "approved": 0, "cutoff": "2026-10-19", "source_ids": ["S-04"], "status": "EXPLICIT_HOLD_NOT_COUNTED"},
-    {"population_id": "POP-CE04-LARGE-OTHER", "unit": "FILE", "count": 7, "processed": 0, "approved": 0, "cutoff": "2026-10-19", "source_ids": ["S-04"], "status": "PENDING"},
-    {"population_id": "POP-LOCAL-RECURSIVE-REGULAR", "unit": "LOCAL_REGULAR_FILE", "count": 768, "processed": 768, "approved": 0, "cutoff": "2026-10-19", "snapshot_id": "P1-A-LOCAL-RECURSIVE-20261019-768", "source_ids": ["S-13"], "status": "SNAPSHOT_P1_A_FROZEN_NOT_LIVE_HASHED_NOT_RECONCILED"}
+    {
+      "population_id": "POP-BRANCH",
+      "unit": "BRANCH",
+      "count": 14,
+      "processed": null,
+      "approved": null,
+      "cutoff": "2026-10-19",
+      "source_ids": [
+        "S-02"
+      ],
+      "status": "HISTORICAL_BEFORE_PMO_BRANCH_NOT_RECONCILED"
+    },
+    {
+      "population_id": "POP-BRANCH-PINNED-P1CB",
+      "unit": "BRANCH_TREE",
+      "count": 15,
+      "processed": 15,
+      "approved": 0,
+      "cutoff": "2026-10-19",
+      "source_ids": [
+        "S-17"
+      ],
+      "status": "TREE_TRAVERSAL_COMPLETE_BLOB_CONTENT_AND_VARIANTS_PENDING"
+    },
+    {
+      "population_id": "POP-OPEN-PR",
+      "unit": "PULL_REQUEST",
+      "count": 4,
+      "processed": 4,
+      "approved": 0,
+      "cutoff": "2026-10-19",
+      "source_ids": [
+        "S-02"
+      ],
+      "status": "PATHS_REVIEWED_NO_MERGE"
+    },
+    {
+      "population_id": "POP-CE04-FILES",
+      "unit": "FILE",
+      "count": 65,
+      "processed": 53,
+      "approved": 0,
+      "cutoff": "2026-10-19",
+      "source_ids": [
+        "S-04"
+      ],
+      "status": "STRUCTURAL_ONLY"
+    },
+    {
+      "population_id": "POP-CE04-TASKS",
+      "unit": "TASK",
+      "count": 38,
+      "processed": null,
+      "approved": 0,
+      "cutoff": "2026-10-18",
+      "source_ids": [
+        "S-03"
+      ],
+      "status": "ZERO_CLOSED_KERNEL_NOT_VERIFIED"
+    },
+    {
+      "population_id": "POP-PR2-WO",
+      "unit": "WO_JSON_IN_PINNED_PR2_TREE",
+      "count": 164,
+      "processed": 164,
+      "approved": null,
+      "cutoff": "2026-10-19",
+      "source_ids": [
+        "S-11",
+        "S-33",
+        "S-34"
+      ],
+      "status": "161_PREAUTHORIZED_3_EXAMPLES_NOT_KERNEL_ADMITTED; PRIOR_76_WAS_PAGE1_ONLY"
+    },
+    {
+      "population_id": "POP-HISTORICAL-WO",
+      "unit": "HISTORICAL_WO_DIFFERENT_SCOPE",
+      "count": 102,
+      "processed": null,
+      "approved": null,
+      "cutoff": "2026-10-16",
+      "source_ids": [
+        "S-10"
+      ],
+      "status": "CONTEXT_ONLY_SCOPE_UNRECONCILED"
+    },
+    {
+      "population_id": "POP-CE02-NORM",
+      "unit": "DOCUMENTARY_METADATA_RECORD",
+      "count": 1020,
+      "processed": 1020,
+      "approved": 0,
+      "cutoff": "2026-10-18",
+      "source_ids": [
+        "S-03"
+      ],
+      "status": "STRUCTURAL_METADATA_ONLY"
+    },
+    {
+      "population_id": "POP-M24-HOLD",
+      "unit": "FILE",
+      "count": 5,
+      "processed": 0,
+      "approved": 0,
+      "cutoff": "2026-10-19",
+      "source_ids": [
+        "S-04"
+      ],
+      "status": "EXPLICIT_HOLD_NOT_COUNTED"
+    },
+    {
+      "population_id": "POP-CE04-LARGE-OTHER",
+      "unit": "FILE",
+      "count": 7,
+      "processed": 0,
+      "approved": 0,
+      "cutoff": "2026-10-19",
+      "source_ids": [
+        "S-04"
+      ],
+      "status": "PENDING"
+    },
+    {
+      "population_id": "POP-LOCAL-RECURSIVE-REGULAR",
+      "unit": "LOCAL_REGULAR_FILE",
+      "count": 768,
+      "processed": 768,
+      "approved": 0,
+      "cutoff": "2026-10-19",
+      "snapshot_id": "P1-A-LOCAL-RECURSIVE-20261019-768",
+      "source_ids": [
+        "S-13"
+      ],
+      "status": "SNAPSHOT_P1_A_FROZEN_NOT_LIVE_HASHED_NOT_RECONCILED"
+    }
   ],
   "workstreams": [
-    {"id": "F0", "name": "Segurança e baseline", "status": "HOLD", "source_ids": ["S-01", "S-02", "S-26", "S-27"], "blockers": ["GitHub ruleset 25297030 enforcement disabled", "main protection endpoint 403", "Kernel admission absent"]},
-    {"id": "F1", "name": "Universo integral migrado", "status": "PARTIAL", "documentary_consolidation_status": "IN_PROGRESS", "release_status": "HOLD", "source_ids": ["S-01", "S-03", "S-13", "S-14", "S-15", "S-16", "S-17", "S-18", "S-25"], "blockers": ["P1CD aggregate groups 11+610+674 classified; path/version/semantic attribution still pending", "1284 unique ZIP member contents have no matching individual Git blob at pinned tips; do not infer loss", "nested archives, LFS/transforms and external provenance remain open", "local recursive scan not yet externally reconciled; directory symlinks skipped"]},
-    {"id": "F2", "name": "Branches e conflitos", "status": "HOLD", "documentary_plan_state": "P2_SPECIALIST_PLAN_READY", "source_ids": ["S-01", "S-02", "S-19", "S-23"], "blockers": ["22 historical proposed deletions require case decisions", "PR overlapping workflows/roots"]},
-    {"id": "F3", "name": "Conteúdo e atomização", "status": "STOP_WORK", "documentary_plan_state": "P4_READ_ONLY_PLAN_READY", "source_ids": ["S-04", "S-05", "S-21", "S-23"], "blockers": ["7 other large files", "historical five unknown identities remain documentary exception; M24 label administratively closed and does not stop unrelated work", "semantic and rights reviews"]},
-    {"id": "F4", "name": "Normativos e conformidade", "status": "HOLD", "documentary_plan_state": "P4_NORM_CROSSWALK_READY", "source_ids": ["S-03", "S-12", "S-21"], "blockers": ["clause applicability and independent semantic audit"]},
-    {"id": "F5", "name": "Aquisição e direitos", "status": "HOLD", "source_ids": ["S-08"], "blockers": ["rights, official source versions and Kernel"]},
-    {"id": "F6", "name": "Ingestores e extratores", "status": "STOP_WORK", "source_ids": ["S-04", "S-05"], "blockers": ["streaming recurrence and source/claim qualification"]},
-    {"id": "F7", "name": "Kernel, WO e agentes", "status": "HOLD", "documentary_plan_state": "P3_ANTI_REWORK_41_TESTS_PLUS_CROSSWALK_6_TESTS_PR2_WO164", "source_ids": ["S-06", "S-07", "S-11", "S-20", "S-23", "S-28", "S-29", "S-30", "S-31", "S-32", "S-33", "S-34"], "blockers": ["CE04 38 tasks and 164 WO distinct namespaces; 102 historic group linkage unverified", "agent gate not required in CI/Kernel", "runtime RBAC/policies", "WO contract routing"]},
-    {"id": "F8", "name": "Supabase e linhagem", "status": "HOLD", "source_ids": ["S-03"], "blockers": ["historical 303 outbox and 61 edges not revalidated"]},
-    {"id": "F9", "name": "Site e calculadoras", "status": "HOLD", "source_ids": ["S-03"], "blockers": ["E2E and security rollout evidence missing"]},
-    {"id": "F10", "name": "Auditoria CE06 independente", "status": "HOLD", "documentary_plan_state": "P5_SPECIALIST_PLAN_READY", "source_ids": ["S-09", "S-22", "S-23"], "blockers": ["six historical FAIL and twelve HOLD_HUMAN"]},
-    {"id": "F11", "name": "Promoção e encerramento", "status": "HOLD", "source_ids": ["S-01", "S-09"], "blockers": ["technical gates and final user signoff"]}
+    {
+      "id": "F0",
+      "name": "Segurança e baseline",
+      "status": "HOLD",
+      "source_ids": [
+        "S-01",
+        "S-02",
+        "S-26",
+        "S-27"
+      ],
+      "blockers": [
+        "GitHub ruleset 25297030 enforcement disabled",
+        "main protection endpoint 403",
+        "Kernel admission absent"
+      ]
+    },
+    {
+      "id": "F1",
+      "name": "Universo integral migrado",
+      "status": "PARTIAL",
+      "documentary_consolidation_status": "IN_PROGRESS",
+      "release_status": "HOLD",
+      "source_ids": [
+        "S-01",
+        "S-03",
+        "S-13",
+        "S-14",
+        "S-15",
+        "S-16",
+        "S-17",
+        "S-18",
+        "S-25"
+      ],
+      "blockers": [
+        "P1CD aggregate groups 11+610+674 classified; path/version/semantic attribution still pending",
+        "1284 unique ZIP member contents have no matching individual Git blob at pinned tips; do not infer loss",
+        "nested archives, LFS/transforms and external provenance remain open",
+        "local recursive scan not yet externally reconciled; directory symlinks skipped"
+      ]
+    },
+    {
+      "id": "F2",
+      "name": "Branches e conflitos",
+      "status": "HOLD",
+      "documentary_plan_state": "P2_SPECIALIST_PLAN_READY",
+      "source_ids": [
+        "S-01",
+        "S-02",
+        "S-19",
+        "S-23"
+      ],
+      "blockers": [
+        "22 historical proposed deletions require case decisions",
+        "PR overlapping workflows/roots"
+      ]
+    },
+    {
+      "id": "F3",
+      "name": "Conteúdo e atomização",
+      "status": "STOP_WORK",
+      "documentary_plan_state": "P4_READ_ONLY_PLAN_READY",
+      "source_ids": [
+        "S-04",
+        "S-05",
+        "S-21",
+        "S-23"
+      ],
+      "blockers": [
+        "7 other large files",
+        "historical five unknown identities remain documentary exception; M24 label administratively closed and does not stop unrelated work",
+        "semantic and rights reviews"
+      ]
+    },
+    {
+      "id": "F4",
+      "name": "Normativos e conformidade",
+      "status": "HOLD",
+      "documentary_plan_state": "P4_NORM_CROSSWALK_READY",
+      "source_ids": [
+        "S-03",
+        "S-12",
+        "S-21"
+      ],
+      "blockers": [
+        "clause applicability and independent semantic audit"
+      ]
+    },
+    {
+      "id": "F5",
+      "name": "Aquisição e direitos",
+      "status": "HOLD",
+      "source_ids": [
+        "S-08"
+      ],
+      "blockers": [
+        "rights, official source versions and Kernel"
+      ]
+    },
+    {
+      "id": "F6",
+      "name": "Ingestores e extratores",
+      "status": "STOP_WORK",
+      "source_ids": [
+        "S-04",
+        "S-05"
+      ],
+      "blockers": [
+        "streaming recurrence and source/claim qualification"
+      ]
+    },
+    {
+      "id": "F7",
+      "name": "Kernel, WO e agentes",
+      "status": "HOLD",
+      "documentary_plan_state": "P3_ANTI_REWORK_41_TESTS_PLUS_CROSSWALK_6_TESTS_PR2_WO164",
+      "source_ids": [
+        "S-06",
+        "S-07",
+        "S-11",
+        "S-20",
+        "S-23",
+        "S-28",
+        "S-29",
+        "S-30",
+        "S-31",
+        "S-32",
+        "S-33",
+        "S-34"
+      ],
+      "blockers": [
+        "CE04 38 tasks and 164 WO distinct namespaces; 102 historic group linkage unverified",
+        "agent gate not required in CI/Kernel",
+        "runtime RBAC/policies",
+        "WO contract routing"
+      ]
+    },
+    {
+      "id": "F8",
+      "name": "Supabase e linhagem",
+      "status": "HOLD",
+      "source_ids": [
+        "S-03"
+      ],
+      "blockers": [
+        "historical 303 outbox and 61 edges not revalidated"
+      ]
+    },
+    {
+      "id": "F9",
+      "name": "Site e calculadoras",
+      "status": "HOLD",
+      "source_ids": [
+        "S-03"
+      ],
+      "blockers": [
+        "E2E and security rollout evidence missing"
+      ]
+    },
+    {
+      "id": "F10",
+      "name": "Auditoria CE06 independente",
+      "status": "HOLD",
+      "documentary_plan_state": "P5_SPECIALIST_PLAN_READY",
+      "source_ids": [
+        "S-09",
+        "S-22",
+        "S-23"
+      ],
+      "blockers": [
+        "six historical FAIL and twelve HOLD_HUMAN"
+      ]
+    },
+    {
+      "id": "F11",
+      "name": "Promoção e encerramento",
+      "status": "HOLD",
+      "source_ids": [
+        "S-01",
+        "S-09"
+      ],
+      "blockers": [
+        "technical gates and final user signoff"
+      ]
+    }
   ],
   "find_recurrence": [
-    {"parent_find": "M42-F01", "current_event": "MESh_20261019_SECOND_PASS_PARTIAL_LINE", "relation": "RECURRENCE_UNDER_INVESTIGATION", "source_ids": ["S-05", "S-04"], "new_authoritative_find": false},
-    {"parent_find": "M20-FIND-001..008", "current_event": "M21_KERNEL_CONTAINMENT", "relation": "PREVIOUSLY_DIAGNOSED_WITH_LOCAL_CONTAINMENT", "source_ids": ["S-06", "S-07"], "new_authoritative_find": false},
-    {"parent_find": "P3-PR2-COUNT-PAGE1", "current_event": "76_WO_IN_FIRST_PAGE_CORRECTED_TO_164_FULL_PINNED_TREE", "relation": "CENSUS_CORRECTION_NOT_NEW_WO", "source_ids": ["S-11", "S-33"], "new_authoritative_find": false}
+    {
+      "parent_find": "M42-F01",
+      "current_event": "MESh_20261019_SECOND_PASS_PARTIAL_LINE",
+      "relation": "RECURRENCE_UNDER_INVESTIGATION",
+      "source_ids": [
+        "S-05",
+        "S-04"
+      ],
+      "new_authoritative_find": false
+    },
+    {
+      "parent_find": "M20-FIND-001..008",
+      "current_event": "M21_KERNEL_CONTAINMENT",
+      "relation": "PREVIOUSLY_DIAGNOSED_WITH_LOCAL_CONTAINMENT",
+      "source_ids": [
+        "S-06",
+        "S-07"
+      ],
+      "new_authoritative_find": false
+    },
+    {
+      "parent_find": "P3-PR2-COUNT-PAGE1",
+      "current_event": "76_WO_IN_FIRST_PAGE_CORRECTED_TO_164_FULL_PINNED_TREE",
+      "relation": "CENSUS_CORRECTION_NOT_NEW_WO",
+      "source_ids": [
+        "S-11",
+        "S-33"
+      ],
+      "new_authoritative_find": false
+    }
   ],
   "gates": [
-    {"id": "G-PMO-01", "status": "HOLD", "reason": "source universe not closed"},
-    {"id": "G-PMO-02", "status": "HOLD", "reason": "historical IDs and aliases not reconciled"},
-    {"id": "G-PMO-03", "status": "HOLD", "reason": "all metrics not yet linked to verified original bytes"},
-    {"id": "G-PMO-04", "status": "HOLD", "reason": "find/task closure register not unified"},
-    {"id": "G-PMO-05", "status": "HOLD", "reason": "GitHub Protecao ruleset 25297030 disabled, main protection endpoint 403 and productive Kernel not proven"},
-    {"id": "G-PMO-06", "status": "HOLD", "reason": "21 local guardian tests passed, but required remote enforcement and adversarial Git/Kernel CI integration are not installed/verified"},
-    {"id": "G-PMO-07", "status": "HOLD", "reason": "candidate branch readback exists, but controlled restore and independently verified release are pending"},
-    {"id": "G-PMO-08", "status": "HOLD", "reason": "independent approval pending"}
-  ]
+    {
+      "id": "G-PMO-01",
+      "status": "HOLD",
+      "reason": "source universe not closed"
+    },
+    {
+      "id": "G-PMO-02",
+      "status": "HOLD",
+      "reason": "historical IDs and aliases not reconciled"
+    },
+    {
+      "id": "G-PMO-03",
+      "status": "HOLD",
+      "reason": "all metrics not yet linked to verified original bytes"
+    },
+    {
+      "id": "G-PMO-04",
+      "status": "HOLD",
+      "reason": "find/task closure register not unified"
+    },
+    {
+      "id": "G-PMO-05",
+      "status": "HOLD",
+      "reason": "GitHub Protecao ruleset 25297030 disabled, main protection endpoint 403 and productive Kernel not proven"
+    },
+    {
+      "id": "G-PMO-06",
+      "status": "HOLD",
+      "reason": "21 local guardian tests passed, but required remote enforcement and adversarial Git/Kernel CI integration are not installed/verified"
+    },
+    {
+      "id": "G-PMO-07",
+      "status": "HOLD",
+      "reason": "candidate branch readback exists, but controlled restore and independently verified release are pending"
+    },
+    {
+      "id": "G-PMO-08",
+      "status": "HOLD",
+      "reason": "independent approval pending"
+    }
+  ],
+  "continuity_handoff_20261019": {
+    "status": "DOCUMENTARY_CANDIDATE_COMMITTED_READBACK",
+    "path": "docs/pmo/recovery/20261019/CE_MASTER_HANDOFF_PMO_P1_P5_AGENTS_20261019_v0.1.0_CANDIDATE.md",
+    "blob_sha": "606a5872ae345e63db8d773173ca1d32aabfc125",
+    "commit_sha": "ddcc8fa830bafa686d0c41831baf331f6ac9adb6",
+    "p2_branch_census": "15_OF_15_PINNED_TREE_COUNTS_VERIFIED",
+    "p2_small_manifest_blob_sha": "60edd8189a16830e9f0c9305ca165329f30844d2",
+    "p2_large_manifest_blob_sha": "5713753e772ae83ab1b43aa498cf86d83973915b",
+    "p1_identity": "AGGREGATE_ONLY_9_OF_9_PASS_MEMBER_LEVEL_HOLD",
+    "local_agents": "ISOLATED_ONLY_NOT_DEPLOYED",
+    "finds": "LINKED_TO_EXISTING_OR_CANDIDATE_NO_AUTO_DUPLICATION",
+    "queue_mutated": false,
+    "task_states_mutated": false,
+    "gates_promoted": false,
+    "release_allowed": false
+  }
 }
