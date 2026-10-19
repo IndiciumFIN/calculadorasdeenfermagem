@@ -1,0 +1,160 @@
+{
+  "schema_version": "0.1.0-CANDIDATE",
+  "date": "2026-10-19",
+  "scope": "PMO_HUMAN_VALIDATION_VS_TECHNICAL_DEPENDENCIES",
+  "source_queue_blob": "deb2f7d8079d0536b4846725e6bc82be0803f115",
+  "source_closure_plan_blob": "835cdfc81ba9155b9ad710af98700d52bd078bd9",
+  "policy": "USER_FINAL_APPROVAL_ONLY_AT_END; PER_TASK_RUNTIME_NEEDS_POLICY_VALIDATOR_WO_KERNEL",
+  "default": "NO_EARLY_USER_APPROVAL_FOR_READ_ONLY_AND_DOCUMENTARY_WORK",
+  "p2_01_specific": {
+    "technical_deliverables_before_user_decision": [
+      "Full 22 file removal quarantine with old blob IDs",
+      "8 PR2/PR4 variants classified and 20 non-deletion absences explained",
+      "Per-path recommendation with policy/security/licensing impacts",
+      "Independent negative non-loss test and Git SHA readbacks"
+    ],
+    "decision_required_only_if": [
+      "DELETION",
+      "CANONICAL_OVERWRITE_OR_REPLACEMENT",
+      "MERGE_TO_MAIN",
+      "MATERIAL_RESIDUAL_RISK_ACCEPTANCE"
+    ],
+    "interim_default": "PRESERVE_ALL_VERSIONS; HOLD_PROMOTION",
+    "current_classification": "NOT_READY_FOR_DESTRUCTIVE_DECISION"
+  },
+  "tasks": [
+    {
+      "task": "P1-CD-01",
+      "current_status": "READY_NOT_STARTED",
+      "dependencies": [
+        "P1-C-C"
+      ],
+      "approval_type": "NONE_NOW",
+      "input_or_validation_needed": "Original ZIP-member bytes/hash custody if unavailable; owner supplies historical manifest if exists",
+      "user_decision_boundary": "No user acceptance until unresolved provenance residual",
+      "can_continue_read_only_or_documentary": true
+    },
+    {
+      "task": "P1-D-01",
+      "current_status": "BLOCKED_DEPENDENCY",
+      "dependencies": [
+        "P1-CD-01"
+      ],
+      "approval_type": "ONLY_IF_UNRECOVERABLE_BASELINE",
+      "input_or_validation_needed": "Original immutable per-item 768 baseline manifest, if held by owner; otherwise exception remains HOLD",
+      "user_decision_boundary": "User decides residual custody risk at final acceptance",
+      "can_continue_read_only_or_documentary": true
+    },
+    {
+      "task": "P2-00",
+      "current_status": "EVIDENCE_PARTIAL_RUNTIME_HOLD",
+      "dependencies": [],
+      "approval_type": "NONE_NOW",
+      "input_or_validation_needed": "No user validation for read-only SHA or PR metadata",
+      "user_decision_boundary": "Technical readback and P5 review",
+      "can_continue_read_only_or_documentary": true
+    },
+    {
+      "task": "P2-01",
+      "current_status": "BLOCKED_DEPENDENCY",
+      "dependencies": [
+        "P2-00"
+      ],
+      "approval_type": "CONDITIONAL_ON_DESTRUCTIVE_OR_CANONICAL_DECISION",
+      "input_or_validation_needed": "Decision per path after impact and recommendation: KEEP_BOTH (default), SELECT_WITH_PROVENANCE, DEPRECATE_WITH_ARCHIVE, or REMOVE only after legal/security proof",
+      "user_decision_boundary": "User explicitly authorizes replacement/deletion/merge; no early approval needed for analysis",
+      "can_continue_read_only_or_documentary": true
+    },
+    {
+      "task": "P3-A",
+      "current_status": "EVIDENCE_PARTIAL_RUNTIME_HOLD",
+      "dependencies": [],
+      "approval_type": "NONE_NOW",
+      "input_or_validation_needed": "Technical task/WO identity crosswalk, no deployment",
+      "user_decision_boundary": "Owner names responsible signer only at activation",
+      "can_continue_read_only_or_documentary": true
+    },
+    {
+      "task": "P3-B",
+      "current_status": "READY_NOT_STARTED",
+      "dependencies": [],
+      "approval_type": "CONDITIONAL_ON_ACTIVATION",
+      "input_or_validation_needed": "Kernel policy/bootstrap and CI security owner sign-off, real receipt and negative tests",
+      "user_decision_boundary": "Production agent/runtime activation or material risk exceptions",
+      "can_continue_read_only_or_documentary": true
+    },
+    {
+      "task": "P4-A",
+      "current_status": "EVIDENCE_PARTIAL_RUNTIME_HOLD",
+      "dependencies": [],
+      "approval_type": "EXTERNAL_RIGHTS_REVIEW",
+      "input_or_validation_needed": "Provenance and rights for 61 sources; legal or rights-holder evidence",
+      "user_decision_boundary": "User may designate legal reviewer, cannot substitute license",
+      "can_continue_read_only_or_documentary": true
+    },
+    {
+      "task": "P4-D",
+      "current_status": "READY_NOT_STARTED",
+      "dependencies": [],
+      "approval_type": "EXTERNAL_STANDARD_OWNER",
+      "input_or_validation_needed": "Framework applicability and licensed text from competent owner; policy baseline",
+      "user_decision_boundary": "User sets organizational framework scope if materially ambiguous",
+      "can_continue_read_only_or_documentary": true
+    },
+    {
+      "task": "P4-F",
+      "current_status": "BLOCKED_DEPENDENCY",
+      "dependencies": [
+        "P4-A",
+        "P4-D"
+      ],
+      "approval_type": "EXTERNAL_CLINICAL_AND_RIGHTS_REVIEW",
+      "input_or_validation_needed": "Clinical reviewer for meaning/accuracy, rights for source, Kernel WO before production atomization",
+      "user_decision_boundary": "User approval only for risk acceptance/production scope; no blanket clinical signoff",
+      "can_continue_read_only_or_documentary": true
+    },
+    {
+      "task": "P5-01",
+      "current_status": "READY_NOT_STARTED",
+      "dependencies": [],
+      "approval_type": "INDEPENDENT_REVIEWER",
+      "input_or_validation_needed": "Segregated technical auditor or reviewer, evidence chain and negative tests",
+      "user_decision_boundary": "User names/reviews appointment if no independent authority configured",
+      "can_continue_read_only_or_documentary": true
+    },
+    {
+      "task": "P5-02",
+      "current_status": "BLOCKED_DEPENDENCY",
+      "dependencies": [
+        "P1-CD-01",
+        "P2-01",
+        "P3-A",
+        "P4-F",
+        "P5-01"
+      ],
+      "approval_type": "FINAL_REVIEW_AFTER_ALL",
+      "input_or_validation_needed": "Release dossier, F4 E2E, CI, security, legal and clinical gates",
+      "user_decision_boundary": "User final homologation and main promotion only after independent opinions",
+      "can_continue_read_only_or_documentary": true
+    },
+    {
+      "task": "POST-001",
+      "current_status": "READY_NOT_STARTED",
+      "dependencies": [],
+      "approval_type": "NONE_NOW",
+      "input_or_validation_needed": "Snapshot cutoff evidence, without rescanning finished work",
+      "user_decision_boundary": "User only if residual missing historical baseline must be accepted",
+      "can_continue_read_only_or_documentary": true
+    }
+  ],
+  "user_action_now": "NONE_REQUIRED_TO_CONTINUE_ELIGIBLE_READ_ONLY_ANALYSIS",
+  "future_decision_package": "Deliver consolidated options, risks, reviewers and evidence at final gate; request narrow authority earlier only when an otherwise authorized productive action specifically needs it",
+  "limitations": [
+    "Technical blockers are not automatically solved by user approval",
+    "Specialist clinical/legal signoff cannot be self-attested",
+    "Missing immutable 768 manifest and five unidentified M24 artifacts remain evidence gaps",
+    "P2-01 status remains dependency HOLD pending P2-00 closure gates"
+  ],
+  "queue_unchanged": true,
+  "homologation": "HOLD"
+}
