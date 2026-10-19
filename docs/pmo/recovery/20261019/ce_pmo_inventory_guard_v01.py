@@ -118,7 +118,32 @@ def check_control_chain(pmo: dict, queue: dict, findings: list[str]) -> None:
         return
     ids = [t.get("id") for t in tasks if isinstance(t, dict)]
     guard(len(ids) == len(tasks) and len(ids) == len(set(ids)), "QUEUE_TASK_IDENTITIES_INVALID", findings)
-    allowed_statuses = {"READY_NOT_STARTED", "BLOCKED_DEPENDENCY", "EVIDENCE_PARTIAL_RUNTIME_HOLD"}
+    original_order = ["P1-CD-01", "P1-D-01", "P2-00", "P2-01", "P3-A", "P3-B", "P4-A", "P4-D", "P4-F", "P5-01", "P5-02"]
+    guard(ids[:len(original_order)] == original_order, "QUEUE_HISTORICAL_TASK_ORDER_CHANGED", findings)
+    discoveries = tasks[len(original_order):]
+    find_map = {f.get("id"): f for f in queue.get("finds", []) if isinstance(f, dict)}
+    guard(len(find_map) == len(queue.get("finds", [])), "QUEUE_FIND_ID_COLLISION", findings)
+    for offset, task in enumerate(discoveries, 1):
+        if not isinstance(task, dict):
+            findings.append(f"POST_CLOSURE_TASK_INVALID:{offset}")
+            continue
+        fid = task.get("origin_find_id")
+        f = find_map.get(fid, {})
+        guard(task.get("id", "").startswith("POST-") and task.get("wave") == "POST_CLOSURE_BEFORE_HOMOLOGATION" and task.get("enqueue_position") == "TAIL" and task.get("execution_order") == offset,
+              f"POST_CLOSURE_NOT_APPENDED_AT_TAIL:{offset}", findings)
+        guard(task.get("discovered_after_closure") is True and bool(task.get("prior_closed_reference")) and bool(task.get("investigation")) and bool(task.get("root_cause")) and bool(task.get("correction")) and bool(task.get("source_refs")),
+              f"POST_CLOSURE_FIND_INVESTIGATION_CORRECTION_REQUIRED:{offset}", findings)
+        guard(f.get("type") == "POST_CLOSURE_FIND" and f.get("owner_task") == task.get("id") and bool(f.get("investigation")) and bool(f.get("root_cause")) and bool(f.get("correction")),
+              f"POST_CLOSURE_LINKED_FIND_REQUIRED:{offset}", findings)
+        guard(task.get("status") in {"READY_NOT_STARTED", "BLOCKED_DEPENDENCY", "HOLD_INVESTIGATION"},
+              f"POST_CLOSURE_FALSE_COMPLETION:{offset}", findings)
+    guard(queue.get("rules", {}).get("post_closure_discovery_invariant", "").startswith("INV-QUEUE-POST-CLOSURE-001") and queue.get("rules", {}).get("final_homologation", "").startswith("OUTSIDE_EXECUTION_QUEUE"),
+          "POST_CLOSURE_QUEUE_POLICY_MISSING", findings)
+    control = pmo.get("post_closure_control", {})
+    guard(control.get("invariant_id") == "INV-QUEUE-POST-CLOSURE-001" and control.get("original_order_immutable") is True and control.get("final_homologation_outside_queue") is True and control.get("final_user_approval_pending") is True and control.get("new_tasks_not_automatically_admitted") is True,
+          "POST_CLOSURE_MASTER_POLICY_MISSING", findings)
+    guard(control.get("new_tasks_current_tail") == [t.get("id") for t in discoveries if isinstance(t, dict)], "POST_CLOSURE_MASTER_QUEUE_DIVERGENCE", findings)
+    allowed_statuses = {"READY_NOT_STARTED", "BLOCKED_DEPENDENCY", "EVIDENCE_PARTIAL_RUNTIME_HOLD", "HOLD_INVESTIGATION"}
     historical_evidence_partial = {"P2-00", "P3-A", "P4-A"}
     for index, task in enumerate(tasks):
         if not isinstance(task, dict):
