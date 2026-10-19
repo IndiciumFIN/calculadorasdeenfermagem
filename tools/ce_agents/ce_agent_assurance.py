@@ -10,6 +10,29 @@ import sys
 EXIT_PASS, EXIT_FAIL, EXIT_HOLD = 0, 2, 78
 PROCESSES = {"PMO", "P1", "P2", "P3", "P4", "P5"}
 STAGES = {"LOCAL_CANDIDATE", "PRODUCTIVE"}
+SEQUENCE = ("SNAPSHOT", "ADMISSION_PREFLIGHT", "ACQUIRE", "TRANSFORM", "VALIDATE", "ADVERSARIAL", "INDEPENDENT_AUDIT", "CANDIDATE_PUBLISH", "AUTHORIZED_PROMOTION")
+PROCESS_CONTROLS = {
+    "PMO": ("QUEUE_INTEGRITY", "FIND_DEDUP", "STATE_HISTORY", "READBACK"),
+    "P1": ("SOURCE_CENSUS", "ZIP_INTEGRITY", "GIT_BLOB_IDENTITY", "CUSTODY"),
+    "P2": ("PINNED_TREE_CENSUS", "ANCESTRY", "CONFLICT_PRESERVATION", "DELETE_QUARANTINE"),
+    "P3": ("SCHEMA_FAMILY_ROUTING", "VALIDATOR_RUNTIME", "WO_TASK_CROSSWALK", "SEGREGATION"),
+    "P4": ("SOURCE_RIGHTS", "LITERAL_SPAN_LINEAGE", "SEMANTIC_GOLD_STANDARD", "HUMAN_CLINICAL_REVIEW"),
+    "P5": ("INDEPENDENT_RECOUNT", "AUDIT_EVIDENCE", "RELEASE_GATES", "AUTHORIZED_PROMOTION"),
+}
+
+def process_plan(catalog: dict, process: str):
+    if process not in PROCESSES:
+        return {"decision":"FAIL","errors":["UNKNOWN_PROCESS"]}
+    agents = [a["agent_id"] for a in catalog.get("agents",[]) if isinstance(a,dict) and a.get("wave")==process]
+    errors = validate_catalog(catalog)
+    if not agents:
+        errors.append("NO_PROCESS_AGENTS")
+    return {"decision":"FAIL" if errors else "PASS_BOUNDED", "process":process,
+            "agents":sorted(agents), "sequence":list(SEQUENCE),
+            "required_domain_controls":list(PROCESS_CONTROLS[process]),
+            "status":"CANDIDATE_ONLY_NOT_PRODUCTION_ADMITTED",
+            "errors":sorted(set(errors))}
+
 REQUIRED = {"process", "agent_id", "task_id", "snapshot", "artifacts",
             "expected_paths", "producer_id", "auditor_id", "stage"}
 SENSITIVE = {"password", "secret", "api_key", "private_key", "token"}
@@ -128,10 +151,15 @@ def main(argv=None):
     p.add_argument("--root",required=True)
     c = sub.add_parser("catalog-check")
     c.add_argument("--catalog",required=True)
+    d = sub.add_parser("process-plan")
+    d.add_argument("--catalog",required=True)
+    d.add_argument("--process",required=True)
     args = ap.parse_args(argv)
     try:
         catalog = json.loads(pathlib.Path(args.catalog).read_text(encoding="utf-8"))
-        if args.command == "catalog-check":
+        if args.command == "process-plan":
+            result = process_plan(catalog,args.process)
+        elif args.command == "catalog-check":
             errors = validate_catalog(catalog)
             result = {"decision":"FAIL" if errors else "PASS_BOUNDED","errors":errors,
                       "count":len(catalog.get("agents",[]))}
