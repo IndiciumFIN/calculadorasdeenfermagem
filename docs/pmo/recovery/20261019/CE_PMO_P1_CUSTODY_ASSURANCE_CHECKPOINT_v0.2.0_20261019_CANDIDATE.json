@@ -1,0 +1,42 @@
+{
+  "schema_version": "CE-PMO-P1-CUSTODY-ASSURANCE-0.2.0",
+  "branch": "feat/ce-local-agent-assurance-20261019",
+  "commit": "8c2d84dff9622cf417b49c671c449e1dbc38b4cc",
+  "status": "P1_LOCAL_CONTROLS_PASS_BOUNDED; P1_END_TO_END_OPEN",
+  "validated_components": [
+    "ZIP_MEMBER_INTEGRITY",
+    "ZIP_MANIFEST_COMPLETENESS",
+    "LOCAL_GIT_BLOB_SHA1_CROSSWALK",
+    "LOCAL_SHA256_CROSSWALK",
+    "SYMLINK_AND_PATH_GUARDS"
+  ],
+  "tests": {
+    "generic": 18,
+    "zip": 16,
+    "git_blob": 10,
+    "total_tests": 44,
+    "synthetic_mutation_cases": 100
+  },
+  "ci": {
+    "run_id": 39328796846,
+    "conclusion": "success",
+    "url": "https://github.com/IndiciumFIN/calculadorasdeenfermagem/actions/runs/39328796846"
+  },
+  "readback_count_this_microlot": 4,
+  "real_corpus_checked": false,
+  "github_tree_complete_snapshot_checked_by_new_validator": false,
+  "provenance_authentication": false,
+  "wo_kernel_admitted": false,
+  "risk_remaining": [
+    "INDEPENDENT_SOURCE_UNIVERSE",
+    "REAL_HISTORICAL_ZIPS",
+    "REMOTE_GIT_TREE_PROVENANCE",
+    "TOCTOU",
+    "COMPRESSION_RESOURCE_TIMEOUT",
+    "NESTED_ZIP",
+    "CONTENT_SEMANTIC_VALIDATION",
+    "INDEPENDENT_AUDIT"
+  ],
+  "next_eligible_task": "P1_REMOTE_PINNED_GIT_TREE_VS_LOCAL_MANIFEST_WITH_BASELINE_PROVENANCE",
+  "main_mutated": false
+}
