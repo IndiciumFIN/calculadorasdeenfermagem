@@ -1,0 +1,199 @@
+{
+  "schema_version": "0.1.0-CANDIDATE",
+  "date": "2026-10-19",
+  "status": "READ_ONLY_CONTEXT_RECONCILIATION_NOT_CANONICAL",
+  "audit_scope": "History/branch retention, file removals, policies, validators, agents and uncommitted local work; no production mutation or deletion",
+  "finding": "REUSE_EXISTING_FIND_LINKS_AND_TRIAGE_NEW_OCCURRENCES_BEFORE_NEW_CANONICAL_IDS",
+  "authoritative_context_recovered": [
+    {
+      "source": "CE_MASTER_HANDOFF_PMO_P1_P5_AGENTS_20261019_v0.1.0_CANDIDATE.md",
+      "git_blob": "5172b8934d9c4d495ea80500b5c13d68be3ec4a0",
+      "facts": [
+        "12 ordered tasks, homologation outside queue",
+        "FIND-policy-validator-task-WO-Kernel receipt-isolation-tests-independent audit-promotion",
+        "no Kernel exception only for local read-only/documentation",
+        "some prior /mnt/data/ce_local_agents were temporary and not repository runtime"
+      ]
+    },
+    {
+      "source": "CE_PMO_G0A_ADMISSION_DEPENDENCIES_20261019_CANDIDATE.json",
+      "git_blob": "8fb6662ce0faee1d271ea57138d810a19c469c61",
+      "facts": [
+        "G0 WO draft not admitted",
+        "candidate WO admission policy not homologated",
+        "legacy validator_v2.py missing at exact checked branch path"
+      ]
+    },
+    {
+      "source": "CE_PMO_P201_REMOVAL_QUARANTINE_20261019_CANDIDATE.json",
+      "git_blob": "7e2d7c564f850638953bc7dbac8336da64ee0d05",
+      "facts": [
+        "22 proposed removals quarantined KEEP_BOTH",
+        "NO_DELETE/NO_MERGE/NO_MAIN",
+        "existing P2-FIND-DELETION-QUARANTINE"
+      ]
+    },
+    {
+      "source": "CE_PMO_FIND_IMMEDIATE_POLICY_v0.3.0_CANDIDATE.json",
+      "git_blob": "241947b6183551398d20c74d26c704944154a3ca",
+      "facts": [
+        "11/11 offline preflight scenarios",
+        "candidate only; Kernel/ruleset enforcement unproven",
+        "FIND duplicate detection and blocked-work bypass invariant"
+      ]
+    }
+  ],
+  "external_library_evidence": [
+    {
+      "name": "inventory_admission.policy.json",
+      "version": "0.1.0",
+      "state": "ACTIVE_FOR_ASSISTANT_WORKFLOW_NOT_CANONICAL",
+      "observation": "Existing reservation/ID/hash registration contract; do not reinvent"
+    },
+    {
+      "name": "PROJECT_QUARANTINE_POLICY.md",
+      "state": "PROJECT_QUARANTINE_CANDIDATE",
+      "observation": "Existing quarantine on PMO promotions"
+    },
+    {
+      "name": "policy-as-code-governance.registry.json",
+      "version": "1.3.0",
+      "state": "CANDIDATE_NOT_CANONICAL",
+      "observation": "OPA and Rego listed as planned not installed"
+    },
+    {
+      "name": "09_ADMISSION_POLICY.rego",
+      "state": "LIBRARY_EVIDENCE_NOT_KERNEL_REGISTERED",
+      "observation": "DENY/HOLD/ALLOW structured policy logic exists"
+    },
+    {
+      "name": "26_CI_GATE_POLICY.rego",
+      "state": "LIBRARY_EVIDENCE_NOT_KERNEL_REGISTERED",
+      "observation": "Existing destructiveCanonicalOperationDetected => DENY; proposed file-removal policy requires explicit versioned conflict resolution"
+    },
+    {
+      "name": "34_RECORDS_MANAGEMENT_POLICY.md",
+      "version": "0.6.0-reconstruction",
+      "state": "RECONSTRUCTED_CANDIDATE",
+      "observation": "Versions and deprecated knowledge addressable; deletion explicit policy/record; retention periods missing"
+    },
+    {
+      "name": "32_DECISION_AND_ADR_POLICY.md",
+      "version": "0.6.0-reconstruction",
+      "state": "RECONSTRUCTED_CANDIDATE",
+      "observation": "No silent merge; decisions require explicit lineage"
+    },
+    {
+      "name": "30_ASSURANCE_AND_AUDIT_POLICY.md",
+      "version": "0.6.0-reconstruction",
+      "state": "RECONSTRUCTED_CANDIDATE",
+      "observation": "Fail closed; independent checks and evidence required"
+    },
+    {
+      "name": "33_RELEASE_AND_PUBLICATION_POLICY.md",
+      "version": "0.6.0-reconstruction",
+      "state": "RECONSTRUCTED_CANDIDATE",
+      "observation": "Canonical promotion separate from publication"
+    }
+  ],
+  "repository_census": {
+    "main_tree_entries": 210,
+    "main_tree_truncated": false,
+    "main_kernel_policies": 20,
+    "branch_pmo_recovery_entries": 121,
+    "branch": "feat/ce-local-agent-assurance-20261019",
+    "exact_filename_check_in_main_absent": [
+      "PROJECT_QUARANTINE_POLICY.md",
+      "inventory_admission.policy.json",
+      "09_ADMISSION_POLICY.rego",
+      "26_CI_GATE_POLICY.rego",
+      "34_RECORDS_MANAGEMENT_POLICY.md",
+      "policy-as-code-governance.registry.json",
+      "POLICY_REGISTRY.yaml"
+    ],
+    "limitations": "File absence confirmed only in main fixed tree; not proof absent in all historical branches. Legacy Library files may have different canonical paths or versions."
+  },
+  "local_snapshot_evidence": {
+    "later_recursive_workspace_files": 823,
+    "unique_sha256": 775,
+    "group_counts": {
+      "other_nested": 3,
+      "workspace_root": 208,
+      "admin_project_review": 247,
+      "ce_lib_helpers_20261019": 5,
+      "cko_val_001": 338,
+      "user_upload": 22
+    },
+    "files_declared_external_persistence_not_proven": 823,
+    "library_manifest_exists": true,
+    "individual_bytes_external_verified": false,
+    "approval": "NOT_HOMOLOGATED",
+    "original_768_census_not_replaced": true,
+    "earlier_145_vs_later_823": {
+      "same_path_hash_size": 143,
+      "same_path_different": 2,
+      "missing_paths": 0
+    }
+  },
+  "critical_gaps": [
+    {
+      "id": "CTX-F01",
+      "description": "Candidate retention/deletion/CI/WO policy sources dispersed across Library and Git; no authoritative supersession and Kernel admission",
+      "risk": "Conflicting rule decisions, accidental destructive operation",
+      "treatment": "Existing-policy crosswalk, explicit owner-reviewed version selection, validator and admission tests"
+    },
+    {
+      "id": "CTX-F02",
+      "description": "Possible ephemeral local executors or generated work not committed",
+      "risk": "Cannot reproduce or audit",
+      "treatment": "Artifact-by-artifact immutable manifest, recovery from existing Library/backups and exact Git file/hash reconciliation. NOT_PROVEN != LOST."
+    },
+    {
+      "id": "CTX-F03",
+      "description": "No authoritative verified per-object 768 original custody; newer 823 snapshot not equivalent",
+      "risk": "False claim of migrated content completeness",
+      "treatment": "Preserve historical populations and scoped exceptions"
+    },
+    {
+      "id": "CTX-F04",
+      "description": "Deletion guard conflicts with new proposed active-tree cleanup",
+      "risk": "False allow if legacy policy bypassed",
+      "treatment": "Policy supersession proposal only after policy-schema-validator negative tests WO Kernel admission; no bypass"
+    },
+    {
+      "id": "CTX-F05",
+      "description": "Full Kernel runtime and admission not proven; 12 negative validator false approvals reproduced",
+      "risk": "Uncontrolled promotion/deletion",
+      "treatment": "Fix fail-closed registry and real validation, independent adversarial tests and authenticated receipt"
+    }
+  ],
+  "owner_instruction_as_candidate_invariant": {
+    "active_tree_file_removal": "Only after policy, validator, task, WO, authoritative Kernel admission, comprehensive dependency/security/legal tests, independent audit, recovery proof and precise authorized targets",
+    "git_history_rewrite_or_deletion": "PERMANENT_AUTOMATION_DENY; exception HUMAN_ONLY with separate explicit authorization and material impact assessment",
+    "branch_deletion": "PERMANENT_AUTOMATION_DENY; exception HUMAN_ONLY with separate explicit authorization and material impact assessment",
+    "force_push_or_ref_rewrite": "AUTOMATION_DENY unless separately governed human exception; do not infer authorization",
+    "record_retention": "Preserve commits, reachable refs/snapshots, original bytes/hashes and immutable decisions; no automatic garbage collection assumptions",
+    "approval_boundary": "This artifact documents user direction, it is not an admitted policy or runtime allow decision"
+  },
+  "proposed_microtasks_in_order": [
+    "CTX-01 crosswalk all existing policies/regos/schemas/validators against code branches, SHA/version/status/owner",
+    "CTX-02 recover identifiable uncommitted work from Library/backups with original identities; never overwrite old manifests",
+    "CTX-03 design active-tree file-removal policy supersession and human-only history/branch exception policy candidate",
+    "CTX-04 build fail-closed validators and negative surprise tests for attempted branch/history deletion, missing Kernel WO, false custody, path conflicts, policy version mismatch",
+    "CTX-05 test Git restoration from pinned commit and external immutable backup, not merely trust history",
+    "CTX-06 P5 independent assessment with residual risks; only then seek admission and promotion"
+  ],
+  "governance_state": {
+    "finds_new_authoritative": 0,
+    "doc_publication_without_kernel": "CANDIDATE_BOOTSTRAP_ONLY",
+    "kernel_admission": "NOT_PROVEN",
+    "deletion": "NOT_EXECUTED",
+    "branch_deletion": "NOT_EXECUTED",
+    "history_rewrite": "NOT_EXECUTED",
+    "main": "UNMODIFIED"
+  },
+  "human_decision_pending": [
+    "Exact clean canonical repository/branch must be recovered and reconciled against current intended main",
+    "Exceptional permission for history/branch deletion only if separately specifically requested; default deny"
+  ]
+}
