@@ -1,0 +1,415 @@
+{
+  "schema_version": "0.1.0-CANDIDATE",
+  "scope": "P2_FROZEN_MAIN_VS_INTEGRATION_READ_ONLY_SET_RECONCILIATION",
+  "status": "BOUNDED_COUNT_DISCREPANCY_RESOLVED_NOT_TASK_CLOSURE",
+  "source": {
+    "main_commit": "e0f62491b104f4a97c6025a6393cabc2e7ada30e",
+    "integration_commit": "c704c3cf9241cde7697acb860e598bd01bd58cf5",
+    "merge_base": "39d4283ca7689b1028eb11d35f453908f922de9d",
+    "compare_changed_files": 44,
+    "compare_manifest_git_blob": "7e2d7c564f850638953bc7dbac8336da64ee0d05",
+    "small_crosswalk_blob": "60edd8189a16830e9f0c9305ca165329f30844d2",
+    "branch_manifest_blob": "98995b9391d4b51b8dad75a68ebac9d6283ba660"
+  },
+  "arithmetic": {
+    "main_only_tree_paths": 42,
+    "compare_removed_paths": 22,
+    "intersection": 22,
+    "removed_not_main_only": [],
+    "main_only_not_marked_removed": 20
+  },
+  "classifications": [
+    {
+      "path": ".github/workflows/drive-recursive-collect.yml",
+      "main_blob_sha": "d8f9df54364072f5962b123b2d79be46dfae244b",
+      "compare_status": "ABSENT_IN_INTEGRATION_SNAPSHOT_NOT_REMOVED_IN_COMPARE",
+      "decision": "PRESERVE_NO_DELETE",
+      "semantic_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "01_ACAO_branch_protection.md",
+      "main_blob_sha": "5d606596703cac7d9524c5c7fcee92a8839aa79a",
+      "compare_status": "ABSENT_IN_INTEGRATION_SNAPSHOT_NOT_REMOVED_IN_COMPARE",
+      "decision": "PRESERVE_NO_DELETE",
+      "semantic_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "02_ACAO_clone_pat.md",
+      "main_blob_sha": "a98a9fab94d9b1d70f01f276e769674ee6a8a7ec",
+      "compare_status": "ABSENT_IN_INTEGRATION_SNAPSHOT_NOT_REMOVED_IN_COMPARE",
+      "decision": "PRESERVE_NO_DELETE",
+      "semantic_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "03_ACAO_human_approver.md",
+      "main_blob_sha": "3024fdd86433fb8468a3aafc066a5e045fbf9566",
+      "compare_status": "ABSENT_IN_INTEGRATION_SNAPSHOT_NOT_REMOVED_IN_COMPARE",
+      "decision": "PRESERVE_NO_DELETE",
+      "semantic_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "04_ACAO_workflow_gui.md",
+      "main_blob_sha": "5ccb5d8526b8aef7cf5d5069ade3acc33fb39308",
+      "compare_status": "ABSENT_IN_INTEGRATION_SNAPSHOT_NOT_REMOVED_IN_COMPARE",
+      "decision": "PRESERVE_NO_DELETE",
+      "semantic_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "config/drive_inventory_roots_20261016.json",
+      "main_blob_sha": "ce1e2eb6720aa84b1480f052409ed1088d42f214",
+      "compare_status": "ABSENT_IN_INTEGRATION_SNAPSHOT_NOT_REMOVED_IN_COMPARE",
+      "decision": "PRESERVE_NO_DELETE",
+      "semantic_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "contracts/fonts/DIRECTORY_OBSOLETO.json",
+      "main_blob_sha": "e9d6f77c80a9fcc0e45f3e444729bc5e548be870",
+      "compare_status": "REMOVED_IN_FROZEN_COMPARE",
+      "decision": "PRESERVE_NO_DELETE",
+      "semantic_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "contracts/fonts/anvisa_dev.json",
+      "main_blob_sha": "7f25153f5dbdff7695ac452ed98d88677b9cf072",
+      "compare_status": "REMOVED_IN_FROZEN_COMPARE",
+      "decision": "PRESERVE_NO_DELETE",
+      "semantic_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "contracts/fonts/anvisa_dou.json",
+      "main_blob_sha": "63fc18b5df41186e341d4ce3341d4564d1a18b80",
+      "compare_status": "REMOVED_IN_FROZEN_COMPARE",
+      "decision": "PRESERVE_NO_DELETE",
+      "semantic_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "contracts/fonts/anvisa_med.json",
+      "main_blob_sha": "1c12b9aab44f39077b58e1816bf55ab2f63f6e5c",
+      "compare_status": "REMOVED_IN_FROZEN_COMPARE",
+      "decision": "PRESERVE_NO_DELETE",
+      "semantic_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "contracts/fonts/atlas.json",
+      "main_blob_sha": "f344d11b0a609b9bb66ec59b362007a7e09ee822",
+      "compare_status": "REMOVED_IN_FROZEN_COMPARE",
+      "decision": "PRESERVE_NO_DELETE",
+      "semantic_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "contracts/fonts/catmat.json",
+      "main_blob_sha": "159da86b6abee571bddbb880c511678aca3bca99",
+      "compare_status": "REMOVED_IN_FROZEN_COMPARE",
+      "decision": "PRESERVE_NO_DELETE",
+      "semantic_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "contracts/fonts/cdsi.json",
+      "main_blob_sha": "f0ee390d0bb412ae7de2c04c4b9f4dea26737d0e",
+      "compare_status": "REMOVED_IN_FROZEN_COMPARE",
+      "decision": "PRESERVE_NO_DELETE",
+      "semantic_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "contracts/fonts/cid10.json",
+      "main_blob_sha": "1f0d37a85ffb51b95f4bf8b051932918a184e8cf",
+      "compare_status": "REMOVED_IN_FROZEN_COMPARE",
+      "decision": "PRESERVE_NO_DELETE",
+      "semantic_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "contracts/fonts/cid11.json",
+      "main_blob_sha": "77d86833843e0506e77802c93b3db0e410f1704e",
+      "compare_status": "REMOVED_IN_FROZEN_COMPARE",
+      "decision": "PRESERVE_NO_DELETE",
+      "semantic_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "contracts/fonts/cofen_dou.json",
+      "main_blob_sha": "7b9d4b05177d6d79d235d938b718fb8737df3c9b",
+      "compare_status": "REMOVED_IN_FROZEN_COMPARE",
+      "decision": "PRESERVE_NO_DELETE",
+      "semantic_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "contracts/fonts/esavi.json",
+      "main_blob_sha": "0421edce2e68bef91786fc9f051887164b8c56e4",
+      "compare_status": "REMOVED_IN_FROZEN_COMPARE",
+      "decision": "PRESERVE_NO_DELETE",
+      "semantic_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "contracts/fonts/fhir_vitais.json",
+      "main_blob_sha": "fafb30274250a87d261e8c6da30b031d93ea550d",
+      "compare_status": "REMOVED_IN_FROZEN_COMPARE",
+      "decision": "PRESERVE_NO_DELETE",
+      "semantic_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "contracts/fonts/lei_federal.json",
+      "main_blob_sha": "197ef0e72c8beb2916af0d5b8cbb80a3af2557a2",
+      "compare_status": "REMOVED_IN_FROZEN_COMPARE",
+      "decision": "PRESERVE_NO_DELETE",
+      "semantic_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "contracts/fonts/medlineplus.json",
+      "main_blob_sha": "694387ce80d6c5d1b2fa31d4c539659b5bfb4266",
+      "compare_status": "REMOVED_IN_FROZEN_COMPARE",
+      "decision": "PRESERVE_NO_DELETE",
+      "semantic_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "contracts/fonts/mesh.json",
+      "main_blob_sha": "43d27c401ba2ba926052d3b0b3ee95e99dff8cae",
+      "compare_status": "REMOVED_IN_FROZEN_COMPARE",
+      "decision": "PRESERVE_NO_DELETE",
+      "semantic_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "contracts/fonts/ms_portarias.json",
+      "main_blob_sha": "fc16151163ad3431c7c778ae3e9b82d45350fe65",
+      "compare_status": "REMOVED_IN_FROZEN_COMPARE",
+      "decision": "PRESERVE_NO_DELETE",
+      "semantic_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "contracts/fonts/pni.json",
+      "main_blob_sha": "42fd22e406919eba7cf66f90d6a7c44fc349e30a",
+      "compare_status": "REMOVED_IN_FROZEN_COMPARE",
+      "decision": "PRESERVE_NO_DELETE",
+      "semantic_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "contracts/fonts/sies.json",
+      "main_blob_sha": "ddbb0a01eb8b85ca459487b5118561d7e48b3864",
+      "compare_status": "REMOVED_IN_FROZEN_COMPARE",
+      "decision": "PRESERVE_NO_DELETE",
+      "semantic_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "contracts/fonts/sinan.json",
+      "main_blob_sha": "309d1ef6e8e736b85f14bd2010a9e28cceabd99c",
+      "compare_status": "REMOVED_IN_FROZEN_COMPARE",
+      "decision": "PRESERVE_NO_DELETE",
+      "semantic_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "contracts/fonts/taco.json",
+      "main_blob_sha": "eef9d0f4603f52c0a28c999429e8c5b0c1b4558d",
+      "compare_status": "REMOVED_IN_FROZEN_COMPARE",
+      "decision": "PRESERVE_NO_DELETE",
+      "semantic_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "contracts/fonts/vacinas_cdc.json",
+      "main_blob_sha": "e719270991e8a3a09559623477fcb552be2ce606",
+      "compare_status": "REMOVED_IN_FROZEN_COMPARE",
+      "decision": "PRESERVE_NO_DELETE",
+      "semantic_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "data/legado/autorizacao_WO-0087.json",
+      "main_blob_sha": "f751064b8bf8e0a6b4b8af2757d38a7c7a9e8964",
+      "compare_status": "ABSENT_IN_INTEGRATION_SNAPSHOT_NOT_REMOVED_IN_COMPARE",
+      "decision": "PRESERVE_NO_DELETE",
+      "semantic_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "data/legado/autorizacao_WO-0088.json",
+      "main_blob_sha": "69c9eadc8b053e0174a1fd267e18d5896b13910d",
+      "compare_status": "ABSENT_IN_INTEGRATION_SNAPSHOT_NOT_REMOVED_IN_COMPARE",
+      "decision": "PRESERVE_NO_DELETE",
+      "semantic_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "data/legado/autorizacao_WO-0090.json",
+      "main_blob_sha": "2aeeff4f8d572e97f916546d8dcf715ea305b82c",
+      "compare_status": "ABSENT_IN_INTEGRATION_SNAPSHOT_NOT_REMOVED_IN_COMPARE",
+      "decision": "PRESERVE_NO_DELETE",
+      "semantic_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "data/legado/autorizacao_WO-0091.json",
+      "main_blob_sha": "007189cce35c6d8a37ea098f29809a1cb6df7bdf",
+      "compare_status": "ABSENT_IN_INTEGRATION_SNAPSHOT_NOT_REMOVED_IN_COMPARE",
+      "decision": "PRESERVE_NO_DELETE",
+      "semantic_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "docs/GATES.md",
+      "main_blob_sha": "1e894d45a3ed4c098f47665e348474415ea34aac",
+      "compare_status": "ABSENT_IN_INTEGRATION_SNAPSHOT_NOT_REMOVED_IN_COMPARE",
+      "decision": "PRESERVE_NO_DELETE",
+      "semantic_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "docs/PLANO_EXECUCAO_WO_KERNEL_DETERMINISTICO.md",
+      "main_blob_sha": "22a9f8e4c8dddd94621de17421f11dac2be586ab",
+      "compare_status": "ABSENT_IN_INTEGRATION_SNAPSHOT_NOT_REMOVED_IN_COMPARE",
+      "decision": "PRESERVE_NO_DELETE",
+      "semantic_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "evidence/01_ACAO_branch_protection.md",
+      "main_blob_sha": "5d606596703cac7d9524c5c7fcee92a8839aa79a",
+      "compare_status": "ABSENT_IN_INTEGRATION_SNAPSHOT_NOT_REMOVED_IN_COMPARE",
+      "decision": "PRESERVE_NO_DELETE",
+      "semantic_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "evidence/02_ACAO_clone_pat.md",
+      "main_blob_sha": "a98a9fab94d9b1d70f01f276e769674ee6a8a7ec",
+      "compare_status": "ABSENT_IN_INTEGRATION_SNAPSHOT_NOT_REMOVED_IN_COMPARE",
+      "decision": "PRESERVE_NO_DELETE",
+      "semantic_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "evidence/03_ACAO_human_approver.md",
+      "main_blob_sha": "3024fdd86433fb8468a3aafc066a5e045fbf9566",
+      "compare_status": "ABSENT_IN_INTEGRATION_SNAPSHOT_NOT_REMOVED_IN_COMPARE",
+      "decision": "PRESERVE_NO_DELETE",
+      "semantic_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "evidence/04_ACAO_workflow_gui.md",
+      "main_blob_sha": "5ccb5d8526b8aef7cf5d5069ade3acc33fb39308",
+      "compare_status": "ABSENT_IN_INTEGRATION_SNAPSHOT_NOT_REMOVED_IN_COMPARE",
+      "decision": "PRESERVE_NO_DELETE",
+      "semantic_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "evidence/CE-WO-20261017-F00-07/raci.json",
+      "main_blob_sha": "75cbf451c4031cf3cab0d77f899da0bd554fd030",
+      "compare_status": "ABSENT_IN_INTEGRATION_SNAPSHOT_NOT_REMOVED_IN_COMPARE",
+      "decision": "PRESERVE_NO_DELETE",
+      "semantic_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "evidence/CE-WO-20261017-F06-08/human_approver_designation.json",
+      "main_blob_sha": "23851b57de6e4c9b3a483a882a81fb18bc2dbcf4",
+      "compare_status": "ABSENT_IN_INTEGRATION_SNAPSHOT_NOT_REMOVED_IN_COMPARE",
+      "decision": "PRESERVE_NO_DELETE",
+      "semantic_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "packages/cli/drive_recursive_inventory.py",
+      "main_blob_sha": "41fa64d16ac98d15a06ec9c1d412563df787d8b7",
+      "compare_status": "ABSENT_IN_INTEGRATION_SNAPSHOT_NOT_REMOVED_IN_COMPARE",
+      "decision": "PRESERVE_NO_DELETE",
+      "semantic_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "test.txt",
+      "main_blob_sha": "b6fc4c620b67d95f953a5c1c1230aaab5db5a1b0",
+      "compare_status": "REMOVED_IN_FROZEN_COMPARE",
+      "decision": "PRESERVE_NO_DELETE",
+      "semantic_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "tests/test_drive_recursive_inventory.py",
+      "main_blob_sha": "1ea659b46dd3e9228d55ff1a2958a721f3ed096c",
+      "compare_status": "ABSENT_IN_INTEGRATION_SNAPSHOT_NOT_REMOVED_IN_COMPARE",
+      "decision": "PRESERVE_NO_DELETE",
+      "semantic_status": "NOT_REVIEWED"
+    }
+  ],
+  "metadata_find": {
+    "alias": "P2-TREE-SHA-FIELD-MISLABEL",
+    "observed_report_records": 11,
+    "incorrect_field_records": 11,
+    "correction_candidates": [
+      {
+        "branch": "audit/ce04-reconciliation-tasks-20261017",
+        "commit_sha": "2a1250d2d5c8c159be2ede462306822c0cb70943",
+        "incorrect_observed_tree_sha": "2a1250d2d5c8c159be2ede462306822c0cb70943",
+        "manifest_tree_sha": "9917ecc6b8d2d8ae96f34a96c57b8bb6a116a307",
+        "proposed_correct_field": "manifest_tree_sha"
+      },
+      {
+        "branch": "cursor/wf-gdrive-sakey",
+        "commit_sha": "4e3d4979e3da82c9fc7ff71beaf87fba73aa8702",
+        "incorrect_observed_tree_sha": "4e3d4979e3da82c9fc7ff71beaf87fba73aa8702",
+        "manifest_tree_sha": "16548d1bc7e08033d5ea21f5742ce0cfe6b4bac2",
+        "proposed_correct_field": "manifest_tree_sha"
+      },
+      {
+        "branch": "cursor/wf-v3",
+        "commit_sha": "8056d08a35cfb7932933fa330d8c902e5a465710",
+        "incorrect_observed_tree_sha": "8056d08a35cfb7932933fa330d8c902e5a465710",
+        "manifest_tree_sha": "2c74e968365835b2154a3a2e9abdaff165272040",
+        "proposed_correct_field": "manifest_tree_sha"
+      },
+      {
+        "branch": "fix/ce05-kernel-ci-security-20261017",
+        "commit_sha": "e1c9ace498b66ac831849ad1df51ee14e11e3efc",
+        "incorrect_observed_tree_sha": "e1c9ace498b66ac831849ad1df51ee14e11e3efc",
+        "manifest_tree_sha": "28f33af0b823337e464d5dbabd1b07538bfb5aef",
+        "proposed_correct_field": "manifest_tree_sha"
+      },
+      {
+        "branch": "IndiciumFIN-patch-1",
+        "commit_sha": "ccb21b7814211b80071dc0fd5f866aea7f285238",
+        "incorrect_observed_tree_sha": "ccb21b7814211b80071dc0fd5f866aea7f285238",
+        "manifest_tree_sha": "1bcd89c6bb5451a58771d9d87b15d6736e57f498",
+        "proposed_correct_field": "manifest_tree_sha"
+      },
+      {
+        "branch": "integration/canonical-main-20261017",
+        "commit_sha": "c704c3cf9241cde7697acb860e598bd01bd58cf5",
+        "incorrect_observed_tree_sha": "c704c3cf9241cde7697acb860e598bd01bd58cf5",
+        "manifest_tree_sha": "51498347dd2ef858c66d346134e2ab08228f8012",
+        "proposed_correct_field": "manifest_tree_sha"
+      },
+      {
+        "branch": "main",
+        "commit_sha": "e0f62491b104f4a97c6025a6393cabc2e7ada30e",
+        "incorrect_observed_tree_sha": "e0f62491b104f4a97c6025a6393cabc2e7ada30e",
+        "manifest_tree_sha": "bf5be2752ccdabada2a1dc602a71c9a15338c504",
+        "proposed_correct_field": "manifest_tree_sha"
+      },
+      {
+        "branch": "migration/ce01-historical-evidence-b01-20261017",
+        "commit_sha": "4206865dc5f07f3ef4b36f04c2572b7224f713c1",
+        "incorrect_observed_tree_sha": "4206865dc5f07f3ef4b36f04c2572b7224f713c1",
+        "manifest_tree_sha": "eee754028b6d07181dce1f40ce944c3f7349c820",
+        "proposed_correct_field": "manifest_tree_sha"
+      },
+      {
+        "branch": "migration/pilot-policies-20261017",
+        "commit_sha": "2fc555f854c64b9d44f778805fbfca7675bd3cce",
+        "incorrect_observed_tree_sha": "2fc555f854c64b9d44f778805fbfca7675bd3cce",
+        "manifest_tree_sha": "9b0095134d6ccb729b60c690399f226622bad65a",
+        "proposed_correct_field": "manifest_tree_sha"
+      },
+      {
+        "branch": "pmo/recovery-controlled-20261019",
+        "commit_sha": "142987e59bbce7c7278fac1c26d71f8dbc1172c7",
+        "incorrect_observed_tree_sha": "142987e59bbce7c7278fac1c26d71f8dbc1172c7",
+        "manifest_tree_sha": "51327fd6a1e81a0d731aa88c970c11559d2ea450",
+        "proposed_correct_field": "manifest_tree_sha"
+      },
+      {
+        "branch": "staging/wo-kernel-normativos-cli-20261016",
+        "commit_sha": "c54d416b7f4c8a465798ccbebad9973799dd07ab",
+        "incorrect_observed_tree_sha": "c54d416b7f4c8a465798ccbebad9973799dd07ab",
+        "manifest_tree_sha": "9ec730337f7069825e76a76f7a0ff90275e3d8eb",
+        "proposed_correct_field": "manifest_tree_sha"
+      }
+    ],
+    "interpretation": "Original report observed_tree_sha is commit id; use manifest tree SHA only as separately attested field until independent validation; no destructive rewrite of original."
+  },
+  "limits": [
+    "GIT_COMPARE_RELATIVE_TO_MERGE_BASE_NOT_EQUIVALENT_TO_TREE_SET_DIFFERENCE",
+    "DIFFERENCE_CLASSIFIED_WITHOUT_CONTENT_SEMANTIC_REVIEW",
+    "NO_KERNEL_ADMISSION",
+    "NO_MAIN_OR_PRODUCTION_MUTATION"
+  ],
+  "next": [
+    "P2-00 per-ref current-vs-pinned freshness and commit/tree attestation",
+    "P2-01 semantic variant and rights testing",
+    "P5 bounded independent readback"
+  ],
+  "task_status": "P2-00_PARTIAL_P2-01_DEPENDENCY_HOLD",
+  "queue_unchanged": true
+}
