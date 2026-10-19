@@ -1,0 +1,49 @@
+{
+  "receipt_id": "CE-PMO-P1C-A-EXTERNAL-20261019-003",
+  "schema_version": "0.1.0",
+  "repository": "IndiciumFIN/calculadorasdeenfermagem",
+  "branch": "pmo/recovery-controlled-20261019",
+  "scope": "P1C_A_DOCUMENTARY_ONLY",
+  "attestations": [
+    {
+      "path": "docs/pmo/recovery/20261019/ce_pmo_local_zip_reconcile_v01.py",
+      "commit_sha": "50f536d250d683540d5568e69e08f8119090c927",
+      "blob_sha": "273b3072ab349d2cae2eaec438e42d5f433d08c2",
+      "readback": "EXACT_CONTENT_MATCH"
+    },
+    {
+      "path": "docs/pmo/recovery/20261019/test_ce_pmo_local_zip_reconcile_v01.py",
+      "commit_sha": "d474bee785e3b11b3a914248c88ddb04dacdb418",
+      "blob_sha": "8480c45ea49a937dfae9d6d3bbed862c6cb808c8",
+      "readback": "EXACT_CONTENT_MATCH"
+    },
+    {
+      "path": "docs/pmo/recovery/20261019/CE_PMO_RECON_LOCAL_ZIP_GIT_P1C_A_20261019_CANDIDATE.json",
+      "commit_sha": "4d68960e7249bdbb83fa2262367e3d421b887e6c",
+      "blob_sha": "d9c5d17480c691b5833435a426ccafcb6093b524",
+      "readback": "EXACT_CONTENT_MATCH"
+    },
+    {
+      "path": "docs/pmo/recovery/20261019/CE_PMO_FIND_RECON_P1C_A_20261019_CANDIDATE.md",
+      "commit_sha": "ab50ef400d9c268223110b0d225f2d4e714998de",
+      "blob_sha": "7b27e76b4b0d83e2441ac07387659f0334d0e496",
+      "readback": "EXACT_CONTENT_MATCH"
+    },
+    {
+      "path": "docs/pmo/recovery/20261019/CE_PMO_REGISTRO_MESTRE_20261019_v0.1.0_CANDIDATE.json",
+      "commit_sha": "7f619115291ba1d00b57b7519ed34aae955c0510",
+      "blob_sha": "008f464d3e7ac2fc99dce15c585fc6409a3cf20c",
+      "readback": "EXACT_CONTENT_MATCH"
+    }
+  ],
+  "tests": "4_OF_4_PASS",
+  "zip_to_local_unique_sha_matches": 621,
+  "github_tree_reconciliation": "PARTIAL",
+  "pmo_trusted": false,
+  "release": "HOLD",
+  "limitations": [
+    "snapshot mutable without frozen detailed private manifest",
+    "GitHub comparison was not exhaustive",
+    "no main or source mutations"
+  ]
+}
