@@ -1,1 +1,153 @@
-IiIiQWR2ZXJzYXJpYWwgZmFpbC1jbG9zZWQgdGVzdHMgZm9yIENFIGludmVudG9yeSBkb2N1bWVudGFyeSBndWFyZC4iIiIKaW1wb3J0IGNvcHkKaW1wb3J0IGpzb24KaW1wb3J0IGlvCmltcG9ydCB1bml0dGVzdAppbXBvcnQgemlwZmlsZQpmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKCmZyb20gY2VfcG1vX2ludmVudG9yeV9ndWFyZF92MDEgaW1wb3J0IHByZWZsaWdodAoKUk9PVCA9IFBhdGgoX19maWxlX18pLnJlc29sdmUoKS5wYXJlbnQKCgpjbGFzcyBJbnZlbnRvcnlHdWFyZFRlc3RzKHVuaXR0ZXN0LlRlc3RDYXNlKToKICAgIEBjbGFzc21ldGhvZAogICAgZGVmIHNldFVwQ2xhc3MoY2xzKToKICAgICAgICBjbHMucG1vID0ganNvbi5sb2FkcygoUk9PVCAvICJDRV9QTU9fUkVHSVNUUk9fTUVTVFJFXzIwMjYxMDE5X3YwLjEuMF9DQU5ESURBVEUuanNvbiIpLnJlYWRfdGV4dCgpKQogICAgICAgIGNscy5xdWV1ZSA9IGpzb24ubG9hZHMoKFJPT1QgLyAiQ0VfUE1PX0ZJTEFfRVhFQ1VDQU9fUDFfUDVfMjAyNjEwMTlfQ0FORElEQVRFLmpzb24iKS5yZWFkX3RleHQoKSkKICAgICAgICBjbHMuaGlzdG9yeSA9IGpzb24ubG9hZHMoKFJPT1QgLyAiQ0VfUE1PX0xFREdFUl9BTlRJX1JFVFJBQkFMSE9fMjAyNjEwMTlfQ0FORElEQVRFLmpzb24iKS5yZWFkX3RleHQoKSkKICAgICAgICBjbHMuc3VtbWFyeSA9IGpzb24ubG9hZHMoKFJPT1QgLyAiQ0VfUE1PX0lOVkVOVEFSSU9fUkVDVVJTSVZPX1JFU1VNT18yMDI2MTAxOV9DQU5ESURBVEUuanNvbiIpLnJlYWRfdGV4dCgpKQogICAgICAgIGNscy5tYW5pZmVzdCA9IHsicm9vdF9zY29wZSI6ICJyZWN1cnNpdmVfd29ya3NwYWNlX29ubHkiLCAiZmlsZXMiOiBbeyJyZWxhdGl2ZV9wYXRoIjogInNhbXBsZS50eHQiLCAic2hhMjU2IjogImEiICogNjQsICJieXRlcyI6IDIsICJleHRlcm5hbF9wZXJzaXN0ZW5jZSI6ICJOT1RfUFJPVkVOX0JZX0xPQ0FMX1NDQU4ifV19CiAgICAgICAgY2xzLnBsYW4gPSB7ImJyYW5jaCI6ICJwbW8vcmVjb3ZlcnktY29udHJvbGxlZC0yMDI2MTAxOSIsICJvcGVyYXRpb25zIjogW3siYWN0aW9uIjogImNyZWF0ZSIsICJwYXRoIjogImRvY3MvcG1vL3JlY292ZXJ5LzIwMjYxMDE5L3NhbXBsZS5tZCIsICJzaGEyNTZfbG9jYWwiOiAiYiIgKiA2NCwgInJlYWRiYWNrX3JlcXVpcmVkIjogVHJ1ZX1dfQoKICAgIGRlZiBhc3NlcnRfYmxvY2soc2VsZiwgZG9tYWluLCBtb2RpZmllZCwgZXhwZWN0ZWQpOgogICAgICAgIHNlbGYuYXNzZXJ0VHJ1ZShhbnkoZXhwZWN0ZWQgaW4gaXNzdWUgZm9yIGlzc3VlIGluIHByZWZsaWdodCgqKntkb21haW46IG1vZGlmaWVkfSkpKQoKICAgIGRlZiB0ZXN0X3ZhbGlkX3ByZWZsaWdodF9ub3RfcmVsZWFzZShzZWxmKToKICAgICAgICBzZWxmLmFzc2VydEVxdWFsKFtdLCBwcmVmbGlnaHQobWFuaWZlc3Q9c2VsZi5tYW5pZmVzdCwgc3VtbWFyeT1zZWxmLnN1bW1hcnksIHBtbz1zZWxmLnBtbywgcXVldWU9c2VsZi5xdWV1ZSwgcHVibGljYXRpb249c2VsZi5wbGFuKSkKCiAgICBkZWYgdGVzdF9rbm93bl93b3JrX3JlZXhlY3V0aW9uX2Jsb2NrZWRfYnlfZ3VhcmRpYW4oc2VsZik6CiAgICAgICAgaXNzdWVzID0gcHJlZmxpZ2h0KHBtbz1zZWxmLnBtbywgY2FuZGlkYXRlX3Rhc2s9c2VsZi5oaXN0b3J5WyJ0YXNrcyJdWzBdLCBoaXN0b3J5X2xlZGdlcj1zZWxmLmhpc3RvcnkpCiAgICAgICAgc2VsZi5hc3NlcnRJbigiQU5USV9SRVdPUktfQkxPQ0tfQUxSRUFEWV9FWEVDVVRFRF9SRVVTRV9FVklERU5DRSIsIGlzc3VlcykKCiAgICBkZWYgdGVzdF9ndWFyZGlhbl9hZG1pdHNfcmVnaXN0ZXJlZF9saW5rX29ubHkoc2VsZik6CiAgICAgICAgdGFzayA9IGNvcHkuZGVlcGNvcHkoc2VsZi5oaXN0b3J5WyJ0YXNrcyJdWzBdKQogICAgICAgIHRhc2sudXBkYXRlKHRhc2tfaWQ9IlAyLUxJTkstMDEiLCBpbnRlbnQ9IkxpbmsgZXhpc3RpbmcgUDIgZXZpZGVuY2Ugb25seSIsCiAgICAgICAgICAgICAgICAgICAgb3BlcmF0aW9uX2tpbmQ9IkVWSURFTkNFX0xJTktfT05MWSIsIG1vZGU9IlJFQURfT05MWSIsCiAgICAgICAgICAgICAgICAgICAgdGFyZ2V0X2FydGlmYWN0PSJQMl9leGlzdGluZ19ldmlkZW5jZV9jcm9zc3dhbGsuanNvbiIsCiAgICAgICAgICAgICAgICAgICAgaW50ZW5kZWRfb3V0cHV0cz1bIkVWSURFTkNFX0NST1NTV0FMS19PTkxZIl0sCiAgICAgICAgICAgICAgICAgICAgc291cmNlX2lkcz1bIlMtMTkiLCAiUy0yMyJdLCBwcmlvcl9ldmlkZW5jZV9pZHM9WyJTLTE5IiwgIlMtMjMiXSwKICAgICAgICAgICAgICAgICAgICBldmlkZW5jZV9vZl9uZXdfc2NvcGU9IlJFVVNFX09OTFlfRVhJU1RJTkdfRVZJREVOQ0UiLAogICAgICAgICAgICAgICAgICAgIHBhcmFtZXRlcnM9eyJub19zb3VyY2VfcmVwcm9jZXNzaW5nIjogVHJ1ZSwgIm5vX3JlbW90ZV93cml0ZXMiOiBUcnVlfSkKICAgICAgICBzZWxmLmFzc2VydEVxdWFsKFtdLCBwcmVmbGlnaHQocG1vPXNlbGYucG1vLCBjYW5kaWRhdGVfdGFzaz10YXNrLCBoaXN0b3J5X2xlZGdlcj1zZWxmLmhpc3RvcnkpKQoKICAgIGRlZiB0ZXN0X2d1YXJkaWFuX21pc3NpbmdfaGlzdG9yeV9mYWlsc19jbG9zZWQoc2VsZik6CiAgICAgICAgaXNzdWVzID0gcHJlZmxpZ2h0KHBtbz1zZWxmLnBtbywgY2FuZGlkYXRlX3Rhc2s9c2VsZi5oaXN0b3J5WyJ0YXNrcyJdWzBdKQogICAgICAgIHNlbGYuYXNzZXJ0SW4oIkFOVElfUkVXT1JLX1JFUVVJUkVTX1RBU0tfTEVER0VSX01BU1RFUiIsIGlzc3VlcykKCiAgICBkZWYgdGVzdF9xdWV1ZV9jYW5ub3Rfc3RhbmRfYWxvbmUoc2VsZik6CiAgICAgICAgc2VsZi5hc3NlcnRfYmxvY2soInF1ZXVlIiwgc2VsZi5xdWV1ZSwgIlFVRVVFX1JFUVVJUkVTX01BU1RFUl9QTU8iKQoKICAgIGRlZiB0ZXN0X3JlbW92ZWRfYWxsX2dhdGVzX2Jsb2NrZWQoc2VsZik6CiAgICAgICAgeCA9IGNvcHkuZGVlcGNvcHkoc2VsZi5wbW8pCiAgICAgICAgeFsiZ2F0ZXMiXSA9IFtdCiAgICAgICAgc2VsZi5hc3NlcnRfYmxvY2soInBtbyIsIHgsICJQTU9fR0FURV9QT1BVTEFUSU9OX0lOVkFMSUQiKQoKICAgIGRlZiB0ZXN0X2Zha2VfcHJvamVjdF9wZXJjZW50X2Jsb2NrZWQoc2VsZik6CiAgICAgICAgeCA9IGNvcHkuZGVlcGNvcHkoc2VsZi5wbW8pCiAgICAgICAgeFsicHJvZ3Jlc3NfbWV0cmljcyJdWyJmdWxsX3Byb2plY3RfY29tcGxldGlvbiJdWyJwZXJjZW50Il0gPSAxMDAKICAgICAgICBzZWxmLmFzc2VydF9ibG9jaygicG1vIiwgeCwgIlVOU1VQUE9SVEVEX1BST0pFQ1RfUEVSQ0VOVCIpCgogICAgZGVmIHRlc3RfcXVldWVfdGFza19mYWxzZV9jb21wbGV0aW9uX2Jsb2NrZWQoc2VsZik6CiAgICAgICAgeCA9IGNvcHkuZGVlcGNvcHkoc2VsZi5xdWV1ZSkKICAgICAgICB4WyJ0YXNrcyJdWzBdWyJzdGF0dXMiXSA9ICJDT01QTEVURSIKICAgICAgICBzZWxmLmFzc2VydFRydWUoYW55KCJRVUVVRV9GQUxTRV9FWEVDVVRJT04iIGluIGlzc3VlIGZvciBpc3N1ZSBpbiBwcmVmbGlnaHQocG1vPXNlbGYucG1vLCBxdWV1ZT14KSkpCgogICAgZGVmIHRlc3RfcXVldWVfaWRfY29sbGlzaW9uX2Jsb2NrZWQoc2VsZik6CiAgICAgICAgeCA9IGNvcHkuZGVlcGNvcHkoc2VsZi5xdWV1ZSkKICAgICAgICB4WyJ0YXNrcyJdWzFdWyJpZCJdID0geFsidGFza3MiXVswXVsiaWQiXQogICAgICAgIHNlbGYuYXNzZXJ0VHJ1ZShhbnkoIlFVRVVFX1RBU0tfSURFTlRJVElFU19JTlZBTElEIiBpbiBpc3N1ZSBmb3IgaXNzdWUgaW4gcHJlZmxpZ2h0KHBtbz1zZWxmLnBtbywgcXVldWU9eCkpKQoKICAgIGRlZiB0ZXN0X3F1ZXVlX3VuYWRtaXR0ZWRfcnVudGltZV9ibG9ja2VkKHNlbGYpOgogICAgICAgIHggPSBjb3B5LmRlZXBjb3B5KHNlbGYucXVldWUpCiAgICAgICAgeFsidGFza3MiXVswXVsibW9kZSJdID0gIkVYRUNVVEVfUFJPRFVDVElPTiIKICAgICAgICBzZWxmLmFzc2VydFRydWUoYW55KCJRVUVVRV9SVU5USU1FX05PVF9BRE1JVFRFRCIgaW4gaXNzdWUgZm9yIGlzc3VlIGluIHByZWZsaWdodChwbW89c2VsZi5wbW8sIHF1ZXVlPXgpKSkKCiAgICBkZWYgdGVzdF9mYWxzZV9wYXNzKHNlbGYpOgogICAgICAgIHggPSBjb3B5LmRlZXBjb3B5KHNlbGYucG1vKQogICAgICAgIHhbInBtb190cnVzdGVkIl0gPSBUcnVlCiAgICAgICAgc2VsZi5hc3NlcnRfYmxvY2soInBtbyIsIHgsICJQTU9fRkFMU0VfUEFTUyIpCgogICAgZGVmIHRlc3RfbTI0X3JlbGVhc2Uoc2VsZik6CiAgICAgICAgeCA9IGNvcHkuZGVlcGNvcHkoc2VsZi5wbW8pCiAgICAgICAgeFsicG9wdWxhdGlvbnMiXSA9IFt2IGZvciB2IGluIHhbInBvcHVsYXRpb25zIl0gaWYgdlsicG9wdWxhdGlvbl9pZCJdICE9ICJQT1AtTTI0LUhPTEQiXQogICAgICAgIHNlbGYuYXNzZXJ0X2Jsb2NrKCJwbW8iLCB4LCAiTTI0X1BPUFVMQVRJT05fUkVMRUFTRUQiKQoKICAgIGRlZiB0ZXN0X2dhdGVfZmFsc2VfcGFzcyhzZWxmKToKICAgICAgICB4ID0gY29weS5kZWVwY29weShzZWxmLnBtbykKICAgICAgICB4WyJnYXRlcyJdWzBdWyJzdGF0dXMiXSA9ICJQQVNTIgogICAgICAgIHNlbGYuYXNzZXJ0X2Jsb2NrKCJwbW8iLCB4LCAiR0FURV9GQUxTRV9QQVNTIikKCiAgICBkZWYgdGVzdF9kZWxldGVfYmxvY2tlZChzZWxmKToKICAgICAgICB4ID0gY29weS5kZWVwY29weShzZWxmLnBsYW4pCiAgICAgICAgeFsib3BlcmF0aW9ucyJdWzBdWyJhY3Rpb24iXSA9ICJkZWR1cGxpY2F0ZV9kZWxldGUiCiAgICAgICAgc2VsZi5hc3NlcnRfYmxvY2soInB1YmxpY2F0aW9uIiwgeCwgIkRFU1RSVUNUSVZFX09SX1VOS05PV05fQUNUSU9OIikKCiAgICBkZWYgdGVzdF9tYWluX2Jsb2NrZWQoc2VsZik6CiAgICAgICAgeCA9IGNvcHkuZGVlcGNvcHkoc2VsZi5wbGFuKQogICAgICAgIHhbImJyYW5jaCJdID0gIm1haW4iCiAgICAgICAgc2VsZi5hc3NlcnRfYmxvY2soInB1YmxpY2F0aW9uIiwgeCwgIlVOQVVUSE9SSVpFRF9UQVJHRVRfQlJBTkNIIikKCiAgICBkZWYgdGVzdF91cGxvYWRfcGF0aF9ibG9ja2VkKHNlbGYpOgogICAgICAgIHggPSBjb3B5LmRlZXBjb3B5KHNlbGYucGxhbikKICAgICAgICB4WyJvcGVyYXRpb25zIl1bMF1bInBhdGgiXSA9ICJkb2NzL3Btby9yZWNvdmVyeS8yMDI2MTAxOS91cGxvYWQvcHJpdmF0ZV9tYW5pZmVzdC5qc29uIgogICAgICAgIHNlbGYuYXNzZXJ0X2Jsb2NrKCJwdWJsaWNhdGlvbiIsIHgsICJQUklWQVRFX1BBVEhfUFVCTElDQVRJT04iKQoKICAgIGRlZiB0ZXN0X3JlYWRiYWNrX3JlcXVpcmVkKHNlbGYpOgogICAgICAgIHggPSBjb3B5LmRlZXBjb3B5KHNlbGYucGxhbikKICAgICAgICB4WyJvcGVyYXRpb25zIl1bMF1bInJlYWRiYWNrX3JlcXVpcmVkIl0gPSBGYWxzZQogICAgICAgIHNlbGYuYXNzZXJ0X2Jsb2NrKCJwdWJsaWNhdGlvbiIsIHgsICJSRUFEQkFDS19SRVFVSVJFRCIpCgogICAgZGVmIHRlc3RfYmFzZV9zaGFfcmVxdWlyZWRfZm9yX3VwZGF0ZShzZWxmKToKICAgICAgICB4ID0gY29weS5kZWVwY29weShzZWxmLnBsYW4pCiAgICAgICAgeFsib3BlcmF0aW9ucyJdWzBdWyJhY3Rpb24iXSA9ICJ1cGRhdGUiCiAgICAgICAgc2VsZi5hc3NlcnRfYmxvY2soInB1YmxpY2F0aW9uIiwgeCwgIkNBU19CQVNFX1NIQV9SRVFVSVJFRCIpCgogICAgZGVmIHRlc3RfaGFzaF9taXNzaW5nKHNlbGYpOgogICAgICAgIHggPSBjb3B5LmRlZXBjb3B5KHNlbGYubWFuaWZlc3QpCiAgICAgICAgZGVsIHhbImZpbGVzIl1bMF1bInNoYTI1NiJdCiAgICAgICAgc2VsZi5hc3NlcnRfYmxvY2soIm1hbmlmZXN0IiwgeCwgIkhBU0hfTUlTU0lOR19PUl9JTlZBTElEIikKCiAgICBkZWYgdGVzdF9kdXBsaWNhdGVfaW52ZW50b3J5X3BhdGgoc2VsZik6CiAgICAgICAgeCA9IGNvcHkuZGVlcGNvcHkoc2VsZi5tYW5pZmVzdCkKICAgICAgICB4WyJmaWxlcyJdLmFwcGVuZChjb3B5LmRlZXBjb3B5KHhbImZpbGVzIl1bMF0pKQogICAgICAgIHNlbGYuYXNzZXJ0X2Jsb2NrKCJtYW5pZmVzdCIsIHgsICJEVVBMSUNBVEVfTUFOSUZFU1RfUEFUSCIpCgogICAgZGVmIHRlc3RfZmFsc2VfY3VzdG9keShzZWxmKToKICAgICAgICB4ID0gY29weS5kZWVwY29weShzZWxmLm1hbmlmZXN0KQogICAgICAgIHhbImZpbGVzIl1bMF1bImV4dGVybmFsX3BlcnNpc3RlbmNlIl0gPSAiTElCUkFSWV9WRVJJRklFRCIKICAgICAgICBzZWxmLmFzc2VydF9ibG9jaygibWFuaWZlc3QiLCB4LCAiRkFMU0VfQ1VTVE9EWV9DTEFJTSIpCgogICAgZGVmIHRlc3Rfc3VtbWFyeV9wcml2YXRlX2hhc2goc2VsZik6CiAgICAgICAgeCA9IGNvcHkuZGVlcGNvcHkoc2VsZi5zdW1tYXJ5KQogICAgICAgIHhbInNoYTI1NiJdID0gImEiICogNjQKICAgICAgICBzZWxmLmFzc2VydF9ibG9jaygic3VtbWFyeSIsIHgsICJQUklWQVRFX0ZJRUxEX0lOX1BVQkxJQ19TVU1NQVJZIikKCiAgICBkZWYgdGVzdF96aXBfdHJhdmVyc2FsKHNlbGYpOgogICAgICAgIHRhcmdldCA9IGlvLkJ5dGVzSU8oKQogICAgICAgIHdpdGggemlwZmlsZS5aaXBGaWxlKHRhcmdldCwgInciKSBhcyBhcmM6CiAgICAgICAgICAgIGFyYy53cml0ZXN0cigiLi4vZXNjYXBlLnR4dCIsICJkYXRhIikKICAgICAgICB0YXJnZXQuc2VlaygwKQogICAgICAgIHNlbGYuYXNzZXJ0X2Jsb2NrKCJhcmNoaXZlcyIsIFt0YXJnZXRdLCAiWklQX1BBVEhfVFJBVkVSU0FMIikKCiAgICBkZWYgdGVzdF96aXBfc2FmZShzZWxmKToKICAgICAgICB0YXJnZXQgPSBpby5CeXRlc0lPKCkKICAgICAgICB3aXRoIHppcGZpbGUuWmlwRmlsZSh0YXJnZXQsICJ3IikgYXMgYXJjOgogICAgICAgICAgICBhcmMud3JpdGVzdHIoInNhZmUvZG9jdW1lbnQudHh0IiwgImRhdGEiKQogICAgICAgIHRhcmdldC5zZWVrKDApCiAgICAgICAgc2VsZi5hc3NlcnRFcXVhbChbXSwgcHJlZmxpZ2h0KGFyY2hpdmVzPVt0YXJnZXRdKSkKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgdW5pdHRlc3QubWFpbigpCg==
+"""Adversarial fail-closed tests for CE inventory documentary guard."""
+import copy
+import json
+import io
+import unittest
+import zipfile
+from pathlib import Path
+
+from ce_pmo_inventory_guard_v01 import preflight
+
+ROOT = Path(__file__).resolve().parent
+
+
+class InventoryGuardTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.pmo = json.loads((ROOT / "CE_PMO_REGISTRO_MESTRE_20261019_v0.1.0_CANDIDATE.json").read_text())
+        cls.queue = json.loads((ROOT / "CE_PMO_FILA_EXECUCAO_P1_P5_20261019_CANDIDATE.json").read_text())
+        cls.history = json.loads((ROOT / "CE_PMO_LEDGER_ANTI_RETRABALHO_20261019_CANDIDATE.json").read_text())
+        cls.summary = json.loads((ROOT / "CE_PMO_INVENTARIO_RECURSIVO_RESUMO_20261019_CANDIDATE.json").read_text())
+        cls.manifest = {"root_scope": "recursive_workspace_only", "files": [{"relative_path": "sample.txt", "sha256": "a" * 64, "bytes": 2, "external_persistence": "NOT_PROVEN_BY_LOCAL_SCAN"}]}
+        cls.plan = {"branch": "pmo/recovery-controlled-20261019", "operations": [{"action": "create", "path": "docs/pmo/recovery/20261019/sample.md", "sha256_local": "b" * 64, "readback_required": True}]}
+
+    def assert_block(self, domain, modified, expected):
+        self.assertTrue(any(expected in issue for issue in preflight(**{domain: modified})))
+
+    def test_valid_preflight_not_release(self):
+        self.assertEqual([], preflight(manifest=self.manifest, summary=self.summary, pmo=self.pmo, queue=self.queue, publication=self.plan))
+
+    def test_known_work_reexecution_blocked_by_guardian(self):
+        issues = preflight(pmo=self.pmo, candidate_task=self.history["tasks"][0], history_ledger=self.history)
+        self.assertIn("ANTI_REWORK_BLOCK_ALREADY_EXECUTED_REUSE_EVIDENCE", issues)
+
+    def test_guardian_admits_registered_link_only(self):
+        task = copy.deepcopy(self.history["tasks"][0])
+        task.update(task_id="P2-LINK-01", intent="Link existing P2 evidence only",
+                    operation_kind="EVIDENCE_LINK_ONLY", mode="READ_ONLY",
+                    target_artifact="P2_existing_evidence_crosswalk.json",
+                    intended_outputs=["EVIDENCE_CROSSWALK_ONLY"],
+                    source_ids=["S-19", "S-23"], prior_evidence_ids=["S-19", "S-23"],
+                    evidence_of_new_scope="REUSE_ONLY_EXISTING_EVIDENCE",
+                    parameters={"no_source_reprocessing": True, "no_remote_writes": True})
+        self.assertEqual([], preflight(pmo=self.pmo, candidate_task=task, history_ledger=self.history))
+
+    def test_guardian_missing_history_fails_closed(self):
+        issues = preflight(pmo=self.pmo, candidate_task=self.history["tasks"][0])
+        self.assertIn("ANTI_REWORK_REQUIRES_TASK_LEDGER_MASTER", issues)
+
+    def test_queue_cannot_stand_alone(self):
+        self.assert_block("queue", self.queue, "QUEUE_REQUIRES_MASTER_PMO")
+
+    def test_removed_all_gates_blocked(self):
+        x = copy.deepcopy(self.pmo)
+        x["gates"] = []
+        self.assert_block("pmo", x, "PMO_GATE_POPULATION_INVALID")
+
+    def test_fake_project_percent_blocked(self):
+        x = copy.deepcopy(self.pmo)
+        x["progress_metrics"]["full_project_completion"]["percent"] = 100
+        self.assert_block("pmo", x, "UNSUPPORTED_PROJECT_PERCENT")
+
+    def test_queue_task_false_completion_blocked(self):
+        x = copy.deepcopy(self.queue)
+        x["tasks"][0]["status"] = "COMPLETE"
+        self.assertTrue(any("QUEUE_FALSE_EXECUTION" in issue for issue in preflight(pmo=self.pmo, queue=x)))
+
+    def test_queue_id_collision_blocked(self):
+        x = copy.deepcopy(self.queue)
+        x["tasks"][1]["id"] = x["tasks"][0]["id"]
+        self.assertTrue(any("QUEUE_TASK_IDENTITIES_INVALID" in issue for issue in preflight(pmo=self.pmo, queue=x)))
+
+    def test_queue_unadmitted_runtime_blocked(self):
+        x = copy.deepcopy(self.queue)
+        x["tasks"][0]["mode"] = "EXECUTE_PRODUCTION"
+        self.assertTrue(any("QUEUE_RUNTIME_NOT_ADMITTED" in issue for issue in preflight(pmo=self.pmo, queue=x)))
+
+    def test_false_pass(self):
+        x = copy.deepcopy(self.pmo)
+        x["pmo_trusted"] = True
+        self.assert_block("pmo", x, "PMO_FALSE_PASS")
+
+    def test_m24_release(self):
+        x = copy.deepcopy(self.pmo)
+        x["populations"] = [v for v in x["populations"] if v["population_id"] != "POP-M24-HOLD"]
+        self.assert_block("pmo", x, "M24_POPULATION_RELEASED")
+
+    def test_gate_false_pass(self):
+        x = copy.deepcopy(self.pmo)
+        x["gates"][0]["status"] = "PASS"
+        self.assert_block("pmo", x, "GATE_FALSE_PASS")
+
+    def test_delete_blocked(self):
+        x = copy.deepcopy(self.plan)
+        x["operations"][0]["action"] = "deduplicate_delete"
+        self.assert_block("publication", x, "DESTRUCTIVE_OR_UNKNOWN_ACTION")
+
+    def test_main_blocked(self):
+        x = copy.deepcopy(self.plan)
+        x["branch"] = "main"
+        self.assert_block("publication", x, "UNAUTHORIZED_TARGET_BRANCH")
+
+    def test_upload_path_blocked(self):
+        x = copy.deepcopy(self.plan)
+        x["operations"][0]["path"] = "docs/pmo/recovery/20261019/upload/private_manifest.json"
+        self.assert_block("publication", x, "PRIVATE_PATH_PUBLICATION")
+
+    def test_readback_required(self):
+        x = copy.deepcopy(self.plan)
+        x["operations"][0]["readback_required"] = False
+        self.assert_block("publication", x, "READBACK_REQUIRED")
+
+    def test_base_sha_required_for_update(self):
+        x = copy.deepcopy(self.plan)
+        x["operations"][0]["action"] = "update"
+        self.assert_block("publication", x, "CAS_BASE_SHA_REQUIRED")
+
+    def test_hash_missing(self):
+        x = copy.deepcopy(self.manifest)
+        del x["files"][0]["sha256"]
+        self.assert_block("manifest", x, "HASH_MISSING_OR_INVALID")
+
+    def test_duplicate_inventory_path(self):
+        x = copy.deepcopy(self.manifest)
+        x["files"].append(copy.deepcopy(x["files"][0]))
+        self.assert_block("manifest", x, "DUPLICATE_MANIFEST_PATH")
+
+    def test_false_custody(self):
+        x = copy.deepcopy(self.manifest)
+        x["files"][0]["external_persistence"] = "LIBRARY_VERIFIED"
+        self.assert_block("manifest", x, "FALSE_CUSTODY_CLAIM")
+
+    def test_summary_private_hash(self):
+        x = copy.deepcopy(self.summary)
+        x["sha256"] = "a" * 64
+        self.assert_block("summary", x, "PRIVATE_FIELD_IN_PUBLIC_SUMMARY")
+
+    def test_zip_traversal(self):
+        target = io.BytesIO()
+        with zipfile.ZipFile(target, "w") as arc:
+            arc.writestr("../escape.txt", "data")
+        target.seek(0)
+        self.assert_block("archives", [target], "ZIP_PATH_TRAVERSAL")
+
+    def test_zip_safe(self):
+        target = io.BytesIO()
+        with zipfile.ZipFile(target, "w") as arc:
+            arc.writestr("safe/document.txt", "data")
+        target.seek(0)
+        self.assertEqual([], preflight(archives=[target]))
+
+
+if __name__ == "__main__":
+    unittest.main()
