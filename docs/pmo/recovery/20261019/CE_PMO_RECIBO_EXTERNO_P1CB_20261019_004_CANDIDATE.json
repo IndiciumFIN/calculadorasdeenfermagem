@@ -1,0 +1,47 @@
+{
+  "receipt_id": "CE-PMO-P1CB-EXTERNAL-20261019-004",
+  "schema_version": "0.1.0",
+  "repository": "IndiciumFIN/calculadorasdeenfermagem",
+  "branch": "pmo/recovery-controlled-20261019",
+  "scope": "P1C_B_DOCUMENTARY_ONLY",
+  "attestations": [
+    {
+      "path": "docs/pmo/recovery/20261019/CE_PMO_GIT_BRANCH_TREES_P1CB_20261019_CANDIDATE.json",
+      "commit_sha": "8fab6c819be21aa712b41438a893307cdce8a942",
+      "blob_sha": "98995b9391d4b51b8dad75a68ebac9d6283ba660",
+      "readback": "EXACT_CONTENT_MATCH"
+    },
+    {
+      "path": "docs/pmo/recovery/20261019/CE_PMO_FIND_GIT_TREES_PROGRESSO_P1CB_20261019_CANDIDATE.md",
+      "commit_sha": "9b034d4d3c46fd0c323768b1b865b4589f068c0a",
+      "blob_sha": "61edaad9d091ddd7b049c64c88acbd8503e10271",
+      "readback": "EXACT_CONTENT_MATCH"
+    },
+    {
+      "path": "docs/pmo/recovery/20261019/CE_PMO_REGISTRO_MESTRE_20261019_v0.1.0_CANDIDATE.json",
+      "commit_sha": "63088547628241be442e7f76facac8359d656034",
+      "blob_sha": "fae4968abce511417c6454fd10d939d67ddd0a95",
+      "readback": "EXACT_CONTENT_MATCH"
+    }
+  ],
+  "branch_trees": 15,
+  "complete_trees": 15,
+  "blob_occurrences_nonunique": 58710,
+  "p1_technical_checkpoints": {
+    "completed": 4,
+    "total": 6,
+    "percent": 66.7
+  },
+  "pmo_homologation": {
+    "passed": 0,
+    "total": 8,
+    "percent": 0
+  },
+  "full_project_completion_percent": null,
+  "release": "HOLD",
+  "limitations": [
+    "Tree enumeration does not prove content equivalence or unique canonical blobs",
+    "Project completion denominator not established",
+    "No changes to production or main"
+  ]
+}
