@@ -1,0 +1,122 @@
+{
+  "schema_version": "0.1.0-CANDIDATE",
+  "date": "2026-10-19",
+  "task": "P3-B",
+  "status": "FIND_CONFIRMED_STATIC_SOURCE_RUNTIME_UNTESTED",
+  "find_id": "P3-FIND-KERNEL-VALIDATOR-REGISTRY-20261019",
+  "scope": "Main branch implementation at pinned file blob SHAs; no main edit or productive execution",
+  "evidence": [
+    {
+      "path": "packages/cli/kernel/core.py",
+      "ref": "main",
+      "blob_sha": "7649f6e1f0160184e1014308cc05c90a5eb659e9",
+      "observation": "_lazy_import_validators imports Sha256Validator, NormAtomIdValidator, TextoLengthValidator and others from validators; _ensure_validators builds another VALIDATORS dict from module locals rather than using decorator registry"
+    },
+    {
+      "path": "packages/cli/validators/__init__.py",
+      "ref": "main",
+      "blob_sha": "d6ef0387374a56d1b3153bdac42d08349f4dd186",
+      "observation": "__all__ exposes BaseValidator/register/get_validator/list_validators/VALIDATORS/AtomoBlindado, not requested validator class names; cannot conclude from __all__ alone that explicit imports fail, but no corresponding bindings appear in module body"
+    },
+    {
+      "path": "packages/cli/validators/registry.py",
+      "ref": "main",
+      "blob_sha": "e03e88a0ebe1179448883b7567d59e47193e3bd0",
+      "observation": "Decorator installs instantiated validators in validators.registry.VALIDATORS; unrelated to kernel.core.VALIDATORS"
+    },
+    {
+      "path": "packages/cli/validators/schema_validator.py",
+      "ref": "main",
+      "blob_sha": "adab526c93e64fb912f1233a4eac60872f48ca20",
+      "observation": "validate unconditionally returns (True,None), despite test_suite containing six explicit negative expectations"
+    },
+    {
+      "path": "packages/cli/validators/human_review_validator.py",
+      "ref": "main",
+      "blob_sha": "816cc1a1bf90b8648f1a66cfba18665815b5dfb6",
+      "observation": "validate unconditionally returns (True,None), despite six explicit negative expectations; human review is signaled only by validator name in Kernel decision, not verified receipt"
+    },
+    {
+      "path": "packages/cli/kernel/policy_registry.py",
+      "ref": "main",
+      "blob_sha": "041bfaf4151effd05de7cb33a5458a53a2ab04af",
+      "observation": "wo_required exists as policy data, but no WO check is observed in kernel.core.evaluate/gate"
+    }
+  ],
+  "risk_control_matrix": [
+    {
+      "risk": "Missing validator imports/dual registries",
+      "failure_mode": "Kernel constructor import error or fail-closed with false unavailable validators",
+      "severity": "HIGH",
+      "planned_control": "Single canonical registry, imports by absolute qualified names, explicit instantiation and fail-closed unknown names",
+      "verification": "isolated import test, per-policy registry resolution, positive/negative integration tests"
+    },
+    {
+      "risk": "Always-true schema validator",
+      "failure_mode": "Malformed payload approved",
+      "severity": "CRITICAL",
+      "planned_control": "Versioned JSON Schema with mandatory fields, prohibited extras where required, schema provenance and observable rejection",
+      "verification": "negative suites, boundary fuzz, mutation tests and against independently curated invalid corpus"
+    },
+    {
+      "risk": "Always-true human review validator",
+      "failure_mode": "False-positive completion of an approval process",
+      "severity": "CRITICAL",
+      "planned_control": "Require signed/authoritative review receipt, approver and scope; otherwise PENDING_REVIEW or REJECTED",
+      "verification": "missing, revoked, altered, expired and wrong-scope receipt surprise tests"
+    },
+    {
+      "risk": "WO flag not enforced in evaluation",
+      "failure_mode": "Undeclared mutation can appear APPROVED",
+      "severity": "CRITICAL",
+      "planned_control": "Bind policy-task-WO-Kernel admission receipt to object hash/scope before mutation",
+      "verification": "deny absent/stale/replayed/cross-scope WO, allow only admissible isolated receipt"
+    }
+  ],
+  "static_test_assertions": [
+    {
+      "id": "P3B-ST-01",
+      "check": "Schema validator function unconditionally returns True,None",
+      "outcome": "FAIL_IMPLEMENTATION",
+      "evidence": "Source at pinned blob"
+    },
+    {
+      "id": "P3B-ST-02",
+      "check": "Human review validator unconditionally returns True,None",
+      "outcome": "FAIL_IMPLEMENTATION",
+      "evidence": "Source at pinned blob"
+    },
+    {
+      "id": "P3B-ST-03",
+      "check": "Kernel and decorated validator registry are the same mapping",
+      "outcome": "FAIL_IMPLEMENTATION",
+      "evidence": "Distinct declarations in core.py and registry.py"
+    },
+    {
+      "id": "P3B-ST-04",
+      "check": "WO required flag enforced in evaluate/gate",
+      "outcome": "NOT_OBSERVED_SOURCE_INSPECTION",
+      "evidence": "No code path observed; verify through runtime tests"
+    }
+  ],
+  "planned_task_sequence": [
+    "P3-B-REPAIR-01: identify applicable source policy, schema, validator contract and existing WO/Kernel bootstrap exception",
+    "P3-B-REPAIR-02: implement single canonical registry in isolated branch, with no automatic legacy selection",
+    "P3-B-REPAIR-03: implement real schema validation and reviewed-proof state machine",
+    "P3-B-REPAIR-04: execute unit, negative, property-based and mutated surprise tests with documented cases",
+    "P3-B-REPAIR-05: independent P5 audit and adversarial replay",
+    "P3-B-REPAIR-06: upon Kernel readiness submit all changes and receipts for authoritative admission; no promotion before approvals"
+  ],
+  "remaining_scope": [
+    "Locate 14 M20 stub source paths and original report before classifying individual 14",
+    "Reproduce runtime import/evaluate behavior in isolated environment",
+    "Validate governance authorization semantics against actual admitted Kernel"
+  ],
+  "gates": {
+    "P3_B": "OPEN_FIND_NOT_COMPLETE",
+    "kernel_admission": "HOLD",
+    "production": "PROHIBITED",
+    "main_merge": "PROHIBITED"
+  },
+  "publication_type": "NON_PRODUCTIVE_DOCUMENTARY_FIND"
+}
