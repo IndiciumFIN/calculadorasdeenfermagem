@@ -8,6 +8,8 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
+import tempfile
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -65,10 +67,7 @@ def main() -> None:
             "bytes": path.stat().st_size,
             "sha256": sha256(path),
             "local_state": "PRESENT_BYTES_HASHED",
-            "remote_persistence": (
-                "LIBRARY_VERSION_1_CONFIRMED" if path.name == "CE_BACKUP_COMPLETO_POS_20261018_ATE_M39_20261019.zip"
-                else "NOT_VERIFIED_IN_THIS_INVENTORY"
-            ),
+            "remote_persistence": "NOT_VERIFIED_IN_THIS_INVENTORY",
             "canonical_git_admission": "NOT_VERIFIED_IN_THIS_INVENTORY",
         }
         for path in sorted(paths, key=lambda item: str(item.relative_to(ROOT)))
@@ -82,9 +81,18 @@ def main() -> None:
         "total_bytes": sum(item["bytes"] for item in entries),
         "files": entries,
     }
-    with OUTPUT.open("w", encoding="utf-8") as target:
-        json.dump(report, target, ensure_ascii=False, indent=2, sort_keys=True)
-        target.write("\n")
+    # Atomic replacement; a failed run must not leave a truncated candidate.
+    fd, temp_name = tempfile.mkstemp(prefix=".ce_pmo_inventory_", suffix=".json", dir=ROOT)
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8") as target:
+            json.dump(report, target, ensure_ascii=False, indent=2, sort_keys=True)
+            target.write("\n")
+            target.flush()
+            os.fsync(target.fileno())
+        os.replace(temp_name, OUTPUT)
+    finally:
+        if os.path.exists(temp_name):
+            os.unlink(temp_name)
     print(json.dumps({"output": OUTPUT.name, "files": len(entries), "bytes": report["total_bytes"]}))
 
 
