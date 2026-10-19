@@ -9,9 +9,9 @@
   "project_execution_allowed": false,
   "pmo_control_revision": {
     "version": "0.2.0-CANDIDATE",
-    "change_id": "PMO-P2-P5-REUSE-ONLY-PARALLEL-20261019-007",
+    "change_id": "PMO-P1-P5-CROSS-WAVE-INVARIANTS-20261019-008",
     "supersedes_control_revision": "0.1.0",
-    "change_reason": "Initiate P2-P5 in parallel by documentary links to registered evidence only; preserve 38/164 census and all Kernel, M24 and release holds",
+    "change_reason": "Repair stale 76-WO text in P3 queue and require cross-wave dispatch/source/hold agreement plus separate anti-rework admission for each P2-P5 documentary linkage; preserve all holds",
     "control_state": "DOCUMENTARY_CONSOLIDATION_IN_PROGRESS",
     "release_state": "HOLD",
     "current_register_sha_attestation": "NOT_SELF_ATTESTED; REQUIRE_INDEPENDENT_GITHUB_FETCH_RECEIPT",
@@ -49,7 +49,7 @@
     "independent_validation_state": "PENDING_POSTPUBLICATION_READBACK_AND_P5_REVIEW"
   },
   "guardian_chain_health": {
-    "local_preflight_state": "21_NEGATIVE_AND_POSITIVE_UNIT_TESTS_PASS_CANDIDATE",
+    "local_preflight_state": "59_COMBINED_UNIT_TESTS_PASS_CANDIDATE; P2_P5_CROSS_WAVE_ANTI_REWORK_INTEGRATED",
     "github_documentary_publish_and_readback": "EXACT_CONTENT_MATCH_PREVIOUS_MICROLOT",
     "github_ruleset_id": 25297030,
     "github_ruleset_name": "Protecao",
@@ -69,11 +69,11 @@
     "historical_artifact_census": {"continuity_archive_members_sha256_verified": 350, "archived_rounds_observed": 62, "local_milestone_reports_sha256_verified": 54, "local_milestone_ids_observed": 37},
     "seeded_executed_not_homologated": ["P1-A", "P1-B", "P1-C-C"],
     "identity": "SEMANTIC_INTENT_INDEPENDENT_OF_TASK_ID_PLUS_P3_WORK_SIGNATURE_COMPATIBILITY",
-    "evidence_state": "53_LOCAL_UNIT_TESTS_PASS_COMBINED_AFTER_REUSE_GATE",
+    "evidence_state": "59_LOCAL_UNIT_TESTS_PASS_COMBINED_AFTER_CROSS_WAVE_GATE",
     "default_unknown_decision": "BLOCK_OR_HOLD",
     "server_enforcement": "NOT_PROVEN_RULESET_DISABLED",
     "kernel_admission": "NOT_PROVEN",
-    "source_ids": ["S-28", "S-29", "S-30", "S-31", "S-32", "S-33", "S-34", "S-35"]
+    "source_ids": ["S-28", "S-29", "S-30", "S-31", "S-32", "S-33", "S-34", "S-35", "S-36"]
   },
   "control_agents": [
     {"agent_id": "PMO-CONTROLLER", "role": "PMO_VERSIONED_CONTROL", "task": "Own only this master control; record versions, task states, references and external receipts", "state": "ASSIGNED_IN_EXECUTION", "write_scope": ["docs/pmo/recovery/20261019/CE_PMO_REGISTRO_MESTRE_20261019_v0.1.0_CANDIDATE.json"], "exclusive_writer": true, "contract_version": "0.1.0-CANDIDATE", "required_evidence": ["REMOTE_PRECONDITION_BLOB_SHA", "VERSIONED_DIFF", "COMMIT_SHA", "POSTCOMMIT_EXACT_READBACK"]},
@@ -161,7 +161,8 @@
     {"source_id": "S-32", "kind": "HISTORICAL_EVIDENCE_RECONCILIATION_REPORT", "ref": "CE_PMO_RELATORIO_COBERTURA_HISTORICA_20261019_CANDIDATE.md", "cutoff": "2026-10-19", "evidence_status": "CE01_TO_CE06_HISTORICAL_SCOPE_REVIEWED_HISTORY_NOT_FULLY_RECONCILED"},
     {"source_id": "S-33", "kind": "PINNED_GITHUB_TASK_WO_METADATA", "ref": "CE_PMO_CROSSWALK_CE04_38_PR2_WO164_20261019_CANDIDATE.json", "cutoff": "2026-10-19", "evidence_status": "38_CE04_TASKS_164_WO_JSON_READBACK_0_DIRECT_ID_MATCHES"},
     {"source_id": "S-34", "kind": "DETERMINISTIC_TASK_WO_CROSSWALK_TESTS", "ref": "test_ce_pmo_crosswalk_wo_v01.py", "cutoff": "2026-10-19", "evidence_status": "6_TESTS_PASS_LOCAL_ONLY"},
-    {"source_id": "S-35", "kind": "PARALLEL_DOCUMENTARY_EVIDENCE_LINKAGE", "ref": "CE_PMO_EXECUCAO_PARALELA_P2_P5_REUSE_20261019_CANDIDATE.json", "cutoff": "2026-10-19", "evidence_status": "FOUR_WAVES_SOURCE_LINKS_ONLY_NOT_PRODUCTIVE_COMPLETION"}
+    {"source_id": "S-35", "kind": "PARALLEL_DOCUMENTARY_EVIDENCE_LINKAGE", "ref": "CE_PMO_EXECUCAO_PARALELA_P2_P5_REUSE_20261019_CANDIDATE.json", "cutoff": "2026-10-19", "evidence_status": "FOUR_WAVES_SOURCE_LINKS_ONLY_NOT_PRODUCTIVE_COMPLETION"},
+    {"source_id": "S-36", "kind": "CROSS_WAVE_PMO_GUARDIAN_INDEPENDENT_VALIDATION", "ref": "ce_pmo_inventory_guard_v01.py; test_ce_pmo_inventory_guard_v01.py; CE_PMO_VALIDADOR_INDEPENDENTE_20261019.py; CE_PMO_FILA_EXECUCAO_P1_P5_20261019_CANDIDATE.json", "cutoff": "2026-10-19", "evidence_status": "59_UNIT_TESTS_22_INDEPENDENT_STATIC_PASSES_4_RELEASE_HOLDS"}
   ],
   "populations": [
     {"population_id": "POP-BRANCH", "unit": "BRANCH", "count": 14, "processed": null, "approved": null, "cutoff": "2026-10-19", "source_ids": ["S-02"], "status": "HISTORICAL_BEFORE_PMO_BRANCH_NOT_RECONCILED"},
