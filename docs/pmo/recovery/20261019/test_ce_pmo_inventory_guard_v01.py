@@ -127,6 +127,16 @@ class InventoryGuardTests(unittest.TestCase):
         self.assertIn("WO_KERNEL_ADMISSION", policy["non_m24_productive_work"])
         self.assertIn("M24_HOLD_ONLY_RESERVED_FIVE", self.queue["rules"]["m24_isolation"])
 
+    def test_admin_closure_cannot_release_unknown_members(self):
+        pmo = copy.deepcopy(self.pmo)
+        pmo["populations"] = [x for x in pmo["populations"] if x["population_id"] != "POP-M24-HOLD"]
+        self.assertIn("M24_POPULATION_RELEASED", preflight(pmo=pmo))
+
+    def test_m24_admin_label_cannot_be_reopened_as_new_work(self):
+        q = copy.deepcopy(self.queue)
+        q["rules"]["m24_historical_milestone_disposition"] = "READY_NOT_STARTED"
+        self.assertIn("QUEUE_M24_HISTORIC_LABEL_REOPENED", preflight(pmo=self.pmo, queue=q))
+
     def test_gate_false_pass(self):
         x = copy.deepcopy(self.pmo)
         x["gates"][0]["status"] = "PASS"
