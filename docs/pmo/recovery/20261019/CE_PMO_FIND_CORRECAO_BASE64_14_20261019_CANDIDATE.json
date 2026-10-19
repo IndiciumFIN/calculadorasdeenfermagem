@@ -1,0 +1,162 @@
+{
+  "schema_version": "0.1.0-CANDIDATE",
+  "kind": "PMO_FIND_BASE64_LITERAL_ENCODING_CORRECTION",
+  "find_id": "FIND-PMO-REMOTE-BASE64-14-20261019",
+  "repo": "IndiciumFIN/calculadorasdeenfermagem",
+  "branch": "pmo/recovery-controlled-20261019",
+  "pinned_head_before_correction": "e47f7fe59962ab89259949c53d52cdc47eccc85b",
+  "cause": "Connector accepted Base64 characters as literal UTF-8 text for historical PMO uploads; all 14 remote blob contents independently match base64 -w0 of corresponding local original exact bytes",
+  "affected_population": {
+    "remote_docs": 62,
+    "local_and_remote_exact_before_correction": 44,
+    "incorrect_literal_base64": 14,
+    "remote_only_no_local_candidate": 4
+  },
+  "release_invariant": "Documentary PMO CAS update only; no user content merge, no main, no Kernel authorization implied",
+  "policy": "PMO_DOCUMENTARY_PRESERVATION_EXCEPTION_WITH_EXACT_REMOTE_BLOB_CAS_AND_POSTCOMMIT_GIT_BLOB_MATCH",
+  "planned_corrections": [
+    {
+      "filename": "CE_PMO_CONTRATO_AGENTE_ANTI_RETRABALHO_20261019_CANDIDATE.md",
+      "remote_precondition_blob_sha": "9293194963d4c5a6a4b88345ad89342879279c29",
+      "local_original_git_blob_sha": "783d69767901efff1140445dfbf2d74e38092da2",
+      "local_original_sha256": "51ae09207f62dc5b5dd3ebb6bd32880d603cb3ceecd38352dc29bf3f933f12ef",
+      "base64_literal_exact_match": true,
+      "action": "UPDATE_UTF8_RAW_EXACT_BYTES_AND_VERIFY"
+    },
+    {
+      "filename": "CE_PMO_CROSSWALK_CE04_38_PR2_WO164_20261019_CANDIDATE.json",
+      "remote_precondition_blob_sha": "9d7564a200876e38db9fe0b84db93dd2bcdc9920",
+      "local_original_git_blob_sha": "69d9422dbf585d66b741689f8cdce35c5bccc1bd",
+      "local_original_sha256": "1a6f261f2c0c81dca9c727a010131523db8335869d20b8be0a0e80566ea01ca9",
+      "base64_literal_exact_match": true,
+      "action": "UPDATE_UTF8_RAW_EXACT_BYTES_AND_VERIFY"
+    },
+    {
+      "filename": "CE_PMO_FIND_GUARDIAN_ENFORCEMENT_20261019_CANDIDATE.md",
+      "remote_precondition_blob_sha": "94b63437d57c41a6415b71a351a2161adb178a85",
+      "local_original_git_blob_sha": "7daffc63850fa8f9694a3567847adbd9ef2ad0bd",
+      "local_original_sha256": "cba8ca801449fbc5e2708e0f18f055e6d408a75327d71b26e3d009515a40c03d",
+      "base64_literal_exact_match": true,
+      "action": "UPDATE_UTF8_RAW_EXACT_BYTES_AND_VERIFY"
+    },
+    {
+      "filename": "CE_PMO_INDICE_EVIDENCIAS_HISTORICAS_CE01_CE06_M_20261019_CANDIDATE.json",
+      "remote_precondition_blob_sha": "b1fc2b9124d6148daa1f34a9e36b39d9c3a0f71d",
+      "local_original_git_blob_sha": "bd59931987ec50c7994b2fbabd87b705576e8ecd",
+      "local_original_sha256": "91c137ccda31b1a5f4badf591ae8f4bd4550ad47bab9ded10c674b7d21dbf759",
+      "base64_literal_exact_match": true,
+      "action": "UPDATE_UTF8_RAW_EXACT_BYTES_AND_VERIFY"
+    },
+    {
+      "filename": "CE_PMO_LEDGER_ANTI_RETRABALHO_20261019_CANDIDATE.json",
+      "remote_precondition_blob_sha": "4c6b152f6e343587f96f88c5aac7a90762b12272",
+      "local_original_git_blob_sha": "a042b9268a0b18e0b5df0a30b288aad55518de03",
+      "local_original_sha256": "8b77780533af2aaee321bfcd1c5f176736b068273cfd1acd6acb5907170abae2",
+      "base64_literal_exact_match": true,
+      "action": "UPDATE_UTF8_RAW_EXACT_BYTES_AND_VERIFY"
+    },
+    {
+      "filename": "CE_PMO_P1CD_CLASSIFICACAO_IDENTIDADE_20261019_CANDIDATE.json",
+      "remote_precondition_blob_sha": "32307d8e9d99b9edbfbc2f4822af1b97d479e3e8",
+      "local_original_git_blob_sha": "3c0e16ef650febca299ddcc9b55644a53614de43",
+      "local_original_sha256": "07efafc7daa20b0f4776e6565d2f0fec80bba8c5ca52c64482f4a1d0049bdcf5",
+      "base64_literal_exact_match": true,
+      "action": "UPDATE_UTF8_RAW_EXACT_BYTES_AND_VERIFY"
+    },
+    {
+      "filename": "CE_PMO_RECIBO_EXTERNO_ANTI_RETRABALHO_20261019_008_CANDIDATE.json",
+      "remote_precondition_blob_sha": "a662bcf5c4eb2c4861cd1152438c97b22564237d",
+      "local_original_git_blob_sha": "db9f4a08e05429b47dc2cda6eba23b2ae06b1f19",
+      "local_original_sha256": "8a681cc2e96d96c5df7c453cd83f2ccec499a0b7cc9105ed4ccb46f487a4f5eb",
+      "base64_literal_exact_match": true,
+      "action": "UPDATE_UTF8_RAW_EXACT_BYTES_AND_VERIFY"
+    },
+    {
+      "filename": "CE_PMO_RECIBO_EXTERNO_CE04_WO164_20261019_010_CANDIDATE.json",
+      "remote_precondition_blob_sha": "136fc29ca267d9fbdf1ec0f6e5270c642078440a",
+      "local_original_git_blob_sha": "9a53275050f36443ea76a63b7790253b8f43f004",
+      "local_original_sha256": "7d147c16ad72ef65c99a21483d9aa59653562e3d7b08976a80a3d4a6296fe1a5",
+      "base64_literal_exact_match": true,
+      "action": "UPDATE_UTF8_RAW_EXACT_BYTES_AND_VERIFY"
+    },
+    {
+      "filename": "CE_PMO_RECIBO_EXTERNO_FILA_P1P5_20261019_006_CANDIDATE.json",
+      "remote_precondition_blob_sha": "549ba1a7cdadac81cc03ef921cc816f06753a62f",
+      "local_original_git_blob_sha": "b30f5dabd4eec792d77f3242f40e5d6cac7bfac8",
+      "local_original_sha256": "3e80cf0b704993a155f1eb4a74eac026c0b180a21ef358056dd2830ee30c5720",
+      "base64_literal_exact_match": true,
+      "action": "UPDATE_UTF8_RAW_EXACT_BYTES_AND_VERIFY"
+    },
+    {
+      "filename": "CE_PMO_RECIBO_EXTERNO_GUARDIAN_P1CD_20261019_007_CANDIDATE.json",
+      "remote_precondition_blob_sha": "59c16d7a22c41929f2c7c0621d1b510d6ba2d938",
+      "local_original_git_blob_sha": "d54a7ac089789e7d1180194a769eb6db8d6ebdce",
+      "local_original_sha256": "9c5b34b96b4ac1f83e25bfda33e6a4e6fba18ce023104151792f394bbaf69cd9",
+      "base64_literal_exact_match": true,
+      "action": "UPDATE_UTF8_RAW_EXACT_BYTES_AND_VERIFY"
+    },
+    {
+      "filename": "CE_PMO_RECIBO_EXTERNO_HISTORICO_CE01_CE06_20261019_009_CANDIDATE.json",
+      "remote_precondition_blob_sha": "85557efa3e63a83e319cd6ca7b880d5910e5f731",
+      "local_original_git_blob_sha": "b679a971076f752a2f9a534376cefc524561b9a4",
+      "local_original_sha256": "8e116a1f0b541f456ce0a2b4d6511290787e87f94a531e730bc4080b094eda5d",
+      "base64_literal_exact_match": true,
+      "action": "UPDATE_UTF8_RAW_EXACT_BYTES_AND_VERIFY"
+    },
+    {
+      "filename": "CE_PMO_RELATORIO_COBERTURA_HISTORICA_20261019_CANDIDATE.md",
+      "remote_precondition_blob_sha": "4bd8317f54b9372284fa5b718d39bfc511e2b6ef",
+      "local_original_git_blob_sha": "d842b37280fa4f5e3e9400592fac93af3c6fd269",
+      "local_original_sha256": "eb1441a956d1b8734c2786b1fcafa33890fd0be79dbc0515d4825e1252f904ac",
+      "base64_literal_exact_match": true,
+      "action": "UPDATE_UTF8_RAW_EXACT_BYTES_AND_VERIFY"
+    },
+    {
+      "filename": "ce_pmo_history_census_v01.py",
+      "remote_precondition_blob_sha": "848e71ebec9cb305190568ec417331ab545105d5",
+      "local_original_git_blob_sha": "e66a869a7471a2ab0eac893dfddbe2085fd7c627",
+      "local_original_sha256": "ed1853df9b78af729f60be5328e8f94c1b048694f5b024b81fa6aea916881e45",
+      "base64_literal_exact_match": true,
+      "action": "UPDATE_UTF8_RAW_EXACT_BYTES_AND_VERIFY"
+    },
+    {
+      "filename": "test_ce_pmo_crosswalk_wo_v01.py",
+      "remote_precondition_blob_sha": "fabbca638cc26fa5dd1ae7e7721ae5a1245b224c",
+      "local_original_git_blob_sha": "79c77f997f334ef9738776da94ec625adabccf60",
+      "local_original_sha256": "5977704806ff49340c427b90d5f663d99af6716037dc40e0d546d851f3da6a15",
+      "base64_literal_exact_match": true,
+      "action": "UPDATE_UTF8_RAW_EXACT_BYTES_AND_VERIFY"
+    }
+  ],
+  "preserve_remote_only": [
+    {
+      "filename": "CE_PMO_RECIBO_EXTERNO_P1B_20261019_002_CANDIDATE.json",
+      "git_blob_sha": "4e7abf18245364236cd156fb5f1068d1762a7268",
+      "action": "HOLD_PRESERVE_REMOTE_ONLY_NO_RECREATE"
+    },
+    {
+      "filename": "CE_PMO_RECIBO_EXTERNO_P1CB_20261019_004_CANDIDATE.json",
+      "git_blob_sha": "0462b9fb3544f917bf49eca7ad1530ff2c61c2fe",
+      "action": "HOLD_PRESERVE_REMOTE_ONLY_NO_RECREATE"
+    },
+    {
+      "filename": "CE_PMO_RECIBO_EXTERNO_P1CC_P2P5_20261019_005_CANDIDATE.json",
+      "git_blob_sha": "1fc96f1fbb784aa8326c640ae5ecca5c72c72afb",
+      "action": "HOLD_PRESERVE_REMOTE_ONLY_NO_RECREATE"
+    },
+    {
+      "filename": "CE_PMO_RECIBO_EXTERNO_P1C_A_20261019_003_CANDIDATE.json",
+      "git_blob_sha": "d8336ab754dbcade97d34cc9283c01a267c38a16",
+      "action": "HOLD_PRESERVE_REMOTE_ONLY_NO_RECREATE"
+    }
+  ],
+  "required_tests": [
+    "14 of 14 Base64 literal independently matches local original",
+    "For each update Git CAS sha precondition",
+    "All post-publish Git blobs equal local git hash-object",
+    "No main mutation",
+    "Independent PMO scan and source link integrity after corrections"
+  ],
+  "status": "CORRECTED_AND_INDEPENDENT_GIT_TREE_READBACK_58_OF_58_MATCH_4_REMOTE_ONLY_PRESERVED",
+  "verification": {"git_head": "371bcd2366f54824410c3af9bf3d84890d40266d", "branch_blob_count": 62, "local_present_exact_git_blob_matches": 58, "local_present_mismatches": 0, "remote_only_preserved": 4, "corrected_files": 14, "rechecked_by": "independent_git_tree_sha_vs_local_git_hash_object", "scope": "PMO_DOCUMENTARY_BRANCH_ONLY"}
+}
