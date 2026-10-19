@@ -1,0 +1,19 @@
+{
+  "schema_version": "0.1.0-CANDIDATE",
+  "kind": "HISTORICAL_MILESTONE_DISPOSITION",
+  "milestone_id": "M24",
+  "status": "CLOSED_ADMINISTRATIVE_UNRECONSTRUCTIBLE_HISTORY",
+  "closure_scope": "HISTORICAL_LABEL_ONLY_NOT_FIVE_SOURCE_ITEMS",
+  "historical_count": 5,
+  "identified_members": 0,
+  "processed_by_this_disposition": 0,
+  "approved_by_this_disposition": 0,
+  "populations_retained": ["POP-M24-HOLD", "POP-CE04-65"],
+  "outstanding_population_status": "UNRESOLVED_MEMBERSHIP_5_NOT_ADMITTED_NOT_PROCESSED",
+  "find_id": "FIND-PMO-M24-ORPHAN-MILESTONE-20261019",
+  "find_artifact": "CE_PMO_FIND_FECHAMENTO_ADMINISTRATIVO_M24_20261019_CANDIDATE.md",
+  "required_routing": {"rights": ["P4-A", "P5-05"], "clinical_semantics": ["P4-F", "P5-05"], "kernel_wo": ["P3-B", "P5-06"], "inventory": ["P1", "P2", "P4-A"]},
+  "anti_rework": "NEVER_REEXECUTE_CLOSED_MILESTONE_OR_RECREATE_FIVE_WOS_FROM_COUNT; NEW_EVIDENCE_REQUIRES_LINKED_FIND_AND_IDENTITY_VERIFICATION",
+  "approval_state": "USER_FINAL_PROJECT_REVIEW_PENDING",
+  "no_inference": ["NO_CLINICAL_APPROVAL", "NO_RIGHTS_APPROVAL", "NO_KERNEL_ADMISSION", "NO_SOURCE_EXECUTION", "NO_MAIN_MUTATION", "NO_PROJECT_RELEASE"]
+}
