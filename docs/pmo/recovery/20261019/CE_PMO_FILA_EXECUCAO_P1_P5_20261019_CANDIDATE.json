@@ -1,1 +1,113 @@
-ewogICJzY2hlbWFfdmVyc2lvbiI6ICIwLjEuMCIsCiAgInByb2plY3QiOiAiSW5kaWNpdW1GSU4vY2FsY3VsYWRvcmFzZGVlbmZlcm1hZ2VtIiwKICAiY3V0b2ZmIjogIjIwMjYtMTAtMTkiLAogICJzdGF0ZSI6ICJDQU5ESURBVEVfRE9DVU1FTlRBUllfUVVFVUVfTk9UX0tFUk5FTF9BRE1JU1NJT04iLAogICJzb3VyY2VfaWRzIjogWyJTLTE4IiwgIlMtMTkiLCAiUy0yMCIsICJTLTIxIiwgIlMtMjIiLCAiUy0yMyJdLAogICJiYXNlbGluZSI6IHsKICAgICJwMV9jaGVja3BvaW50cyI6IHsiY29tcGxldGVkIjogNSwgInRvdGFsIjogNiwgInBlcmNlbnQiOiA4My4zfSwKICAgICJnaXRfYnJhbmNoX3RyZWVzIjogeyJjb21wbGV0ZSI6IDE1LCAidG90YWwiOiAxNX0sCiAgICAiZ2l0X2Jsb2Jfb2NjdXJyZW5jZXMiOiA1ODcxMCwKICAgICJnaXRfdW5pcXVlX2Jsb2JzIjogOTU2OSwKICAgICJ6aXBfdW5pcXVlX21lbWJlcl9wYXlsb2FkcyI6IDEyOTUsCiAgICAiemlwX3VuaXF1ZV9wYXlsb2Fkc19tYXRjaGVkX3RvX2luZGl2aWR1YWxfZ2l0X2Jsb2IiOiAxMSwKICAgICJ1bm1hdGNoZWRfemlwX3BheWxvYWRzX25vdF9wcm92ZW5fbG9zdCI6IDEyODQsCiAgICAiaGlzdG9yaWNhbF9jZTA0X3N0cnVjdHVyYWwiOiB7ImNvbXBsZXRlIjogNTMsICJ0b3RhbCI6IDY1LCAiY2xpbmljYWxseV9hcHByb3ZlZCI6IDB9LAogICAgIm0yNF9ob2xkX2ZpbGVzIjogNSwKICAgICJwbW9fZ2F0ZXMiOiB7InBhc3NlZCI6IDAsICJ0b3RhbCI6IDh9LAogICAgInByb2plY3RfY29tcGxldGlvbl9wZXJjZW50IjogbnVsbAogIH0sCiAgInJ1bGVzIjogewogICAgImRvY3VtZW50YXJ5X3Njb3BlIjogIkRvY3VtZW50YXJ5IFBNTyBicmFuY2ggY29tbWl0cyB3aXRoIFNIQSByZWFkYmFjayBvbmx5OyBpbmRlcGVuZGVudCB2YWxpZGF0aW9uIHJlbWFpbnMgcmVxdWlyZWQiLAogICAgInJ1bnRpbWVfc2NvcGUiOiAiTm8gcHJvZHVjdGl2ZSBydW4gdW50aWwgRklORC1wb2xpY3ktdmFsaWRhdG9yLXRhc2stV08tYXV0aG9yaXRhdGl2ZSBLZXJuZWwgYWRtaXNzaW9uLCBpc29sYXRpb24sIHRlc3RzIGFuZCBpbmRlcGVuZGVudCBhdWRpdCIsCiAgICAic2NvcGVfcHJvaGliaXRpb25zIjogWyJOT19EUklWRV9BQ0NFU1MiLCAiTk9fTUFJTiIsICJOT19NRVJHRSIsICJOT19ERUxFVEUiLCAiTk9fTTI0X1JFTEVBU0UiLCAiTk9fVU5BRE1JVFRFRF9BVE9NSVpBVElPTiIsICJTVVBBQkFTRV9SRUFEX09OTFkiXSwKICAgICJwcm9ncmVzcyI6ICJPbmx5IHJlcG9ydCBudW1lcmF0b3IvZGVub21pbmF0b3IgZm9yIGhvbW9nZW5lb3VzIHZlcmlmaWVkIHBvcHVsYXRpb25zOyBubyBwcm9qZWN0LWxldmVsIHBlcmNlbnRhZ2UiLAogICAgInJlY2VpcHQiOiAiUmVjb3JkIGJyYW5jaCBIRUFEIHByZWNvbmRpdGlvbiwgU0hBMjU2IG9yIEdpdCBibG9iIFNIQSwgY29tbWl0IGFuZCBleGFjdCBwb3N0Y29tbWl0IHJlYWRiYWNrIGluIGV4dGVybmFsIGFwcGVuZC1vbmx5IHJlY2VpcHQiLAogICAgInByZXNlcnZhdGlvbiI6ICJOZXZlciBpbmZlciAxMjg0IGxvc3QgZmlsZXM7IHByZXNlcnZlIFpJUCBibG9icywgdmFyaWFudCB2ZXJzaW9ucywgZm9udCBwYXRocyBhbmQgYW1iaWd1b3VzIHJpZ2h0cy9saWNlbnNpbmciLAogICAgImFnZW50X2xpZmV0aW1lIjogIlNwZWNpYWxpc3Qgc3ViYWdlbnQgcnVucyBhcmUgZmluaXRlIGFuYWx5c2lzIHRhc2tzLCBub3QgcGVyc2lzdGVudCBkZXBsb3llZCBydW50aW1lIHNlcnZpY2VzIgogIH0sCiAgInRhc2tzIjogWwogICAgewogICAgICAiaWQiOiAiUDEtQ0QtMDEiLCAid2F2ZSI6ICJQMSIsICJvd25lcl9yb2xlIjogIkdJVC1CTE9CLU1BUFBFUiIsICJtb2RlIjogIlJFQURfT05MWSIsICJzdGF0dXMiOiAiUkVBRFlfTk9UX1NUQVJURUQiLCAiZGVwZW5kc19vbiI6IFsiUDEtQy1DIl0sCiAgICAgICJhY3Rpb24iOiAiQ3JlYXRlIGRldGVybWluaXN0aWMgWklQLW1lbWJlciB0byBHaXQtYmxvYi9hcmNoaXZlZC1aSVAvcGF0aC92ZXJzaW9uIGNhbmRpZGF0ZSBjbGFzc2lmaWNhdGlvbiB3aXRoIGV4YWN0IHNvdXJjZSBhbmQgc25hcHNob3QgSURzOyBkbyBub3QgaW5mZXIgYWJzZW5jZSBmcm9tIHRpcC1sZXZlbCBub25tYXRjaCIsCiAgICAgICJldmlkZW5jZV9yZXF1aXJlZCI6IFsicGVyLW9iamVjdCBpbW11dGFibGUgc291cmNlIGxvY2F0b3IiLCAib2JqZWN0IFNIQSIsICJtYXRjaCBjbGFzcyIsICJhbWJpZ3VpdHkgY2xhc3MiLCAiY2FuZGlkYXRlIGNvbmZsaWN0IG1hbmlmZXN0Il0sCiAgICAgICJhY2NlcHRhbmNlIjogIkFsbCAxMjk1IGRpc3RpbmN0IFpJUCBwYXlsb2FkcyBhY2NvdW50ZWQgZm9yIGJ5IGV4YWN0bHkgb25lIG5vbi1kZXN0cnVjdGl2ZSBjbGFzc2lmaWNhdGlvbiBvciBleHBsaWNpdCBIT0xEOyBpbmRlcGVuZGVudCBQNSBzYW1wbGluZyIsCiAgICAgICJyZWxlYXNlX2dhdGUiOiAiRy1QTU8tMDEiCiAgICB9LAogICAgewogICAgICAiaWQiOiAiUDEtRC0wMSIsICJ3YXZlIjogIlAxIiwgIm93bmVyX3JvbGUiOiAiU05BUFNIT1QtQ1VTVE9ESUFOIiwgIm1vZGUiOiAiRE9DVU1FTlRBUlkiLCAic3RhdHVzIjogIkJMT0NLRURfREVQRU5ERU5DWSIsICJkZXBlbmRzX29uIjogWyJQMS1DRC0wMSJdLAogICAgICAiYWN0aW9uIjogIlJlY29uY2lsZSBpbW11dGFibGUgbG9jYWwgYmFzZWxpbmUgb2YgNzY4IGZpbGVzIHdpdGggcG9zdC1zbmFwc2hvdCBhZGRpdGlvbnMsIHByZXNlcnZlIHByaXZhdGUgaGFzaC9wYXRoIGludmVudG9yeSBhbmQgcmlnaHRzIGNsYXNzaWZpY2F0aW9uIiwKICAgICAgImV2aWRlbmNlX3JlcXVpcmVkIjogWyJzbmFwc2hvdCBwYXJlbnQgYW5kIGN1dG9mZiIsICJwYXRoL2hhc2ggZGVsdGEiLCAiY3VzdG9keSBtYW5pZmVzdCIsICJyZXN0b3JlIGNoZWNrIl0sCiAgICAgICJhY2NlcHRhbmNlIjogIk5vIHNpbGVudCBiYXNlbGluZSByZXBsYWNlbWVudDsgYWxsIG5ld2x5IGNyZWF0ZWQgYXJ0aWZhY3RzIGFuZCBsb2NhbCBkZWx0YXMgdHJhY2tlZCIsCiAgICAgICJyZWxlYXNlX2dhdGUiOiAiRy1QTU8tMDEiCiAgICB9LAogICAgewogICAgICAiaWQiOiAiUDItMDAiLCAid2F2ZSI6ICJQMiIsICJvd25lcl9yb2xlIjogIkdJVC1DRU5TVVMiLCAibW9kZSI6ICJSRUFEX09OTFkiLCAic3RhdHVzIjogIlJFQURZX05PVF9TVEFSVEVEIiwgImRlcGVuZHNfb24iOiBbXSwKICAgICAgImFjdGlvbiI6ICJGcmVlemUgSEVBRHMgb2YgMTUgYnJhbmNoZXMgYW5kIFBSIGhlYWRzL2Jhc2VzIGFuZCByZWNvbmNpbGUgdGhlbSB0byBwaW5uZWQgdHJlZSBpbnZlbnRvcnkiLAogICAgICAiZXZpZGVuY2VfcmVxdWlyZWQiOiBbImJyYW5jaCBvciBQUiBpZGVudGlmaWVyIiwgImhlYWQvYmFzZSBTSEEiLCAidHJlZSBTSEEiLCAibm9uLXRydW5jYXRpb24gZXZpZGVuY2UiXSwKICAgICAgImFjY2VwdGFuY2UiOiAiUG9wdWxhdGlvbiBhbmQgZGl2ZXJnZW5jZXMgZXhwbGljaXQ7IG5vIGxpdmUgU0hBIHNpbGVudGx5IGNvbmZsYXRlZCB3aXRoIGVhcmxpZXIgY3V0b2ZmIiwKICAgICAgInJlbGVhc2VfZ2F0ZSI6ICJHLVBNTy0wMiIKICAgIH0sCiAgICB7CiAgICAgICJpZCI6ICJQMi0wMSIsICJ3YXZlIjogIlAyIiwgIm93bmVyX3JvbGUiOiAiREVMRVRFLUdVQVJEIiwgIm1vZGUiOiAiUkVBRF9PTkxZIiwgInN0YXR1cyI6ICJCTE9DS0VEX0RFUEVOREVOQ1kiLCAiZGVwZW5kc19vbiI6IFsiUDItMDAiXSwKICAgICAgImFjdGlvbiI6ICJDbGFzc2lmeSAyMiBwcm9wb3NlZCBkZWxldGlvbnMgKDIxIGNvbnRyYWN0cy9mb250cyBwYXRocyBhbmQgdGVzdC50eHQpLCBQUiAjMi8jMy8jNC8jNiBvdmVybGFwIGFuZCBicmFuY2ggYW5jZXN0cnkgd2l0aG91dCByZW1vdmFsIiwKICAgICAgImV2aWRlbmNlX3JlcXVpcmVkIjogWyJwZXItcGF0aCBvbGQvbmV3IFNIQSIsICJQUiBiYXNlL2hlYWQiLCAiY29uZmxpY3QgYW5kIHByZXNlcnZhdGlvbiBkZWNpc2lvbiJdLAogICAgICAiYWNjZXB0YW5jZSI6ICIyMi8yMiBleGNsdXNpb25zIGV4cGxpY2l0bHkgcXVhcmFudGluZWQgb3Igc2VwYXJhdGVseSBldmlkZW5jZWQ7IG5vbmUgZGVsZXRlZCBvciBtZXJnZWQiLAogICAgICAicmVsZWFzZV9nYXRlIjogIkctUE1PLTAyIgogICAgfSwKICAgIHsKICAgICAgImlkIjogIlAzLUEiLCAid2F2ZSI6ICJQMyIsICJvd25lcl9yb2xlIjogIkNPTlRSQUNULVJFR0lTVFJBUiIsICJtb2RlIjogIlJFQURfT05MWSIsICJzdGF0dXMiOiAiUkVBRFlfTk9UX1NUQVJURUQiLCAiZGVwZW5kc19vbiI6IFtdLAogICAgICAiYWN0aW9uIjogIkNyZWF0ZSBpZGVudGl0eS9jb250cmFjdCByZWxhdGlvbnNoaXAgcmVnaXN0ZXIgc2VwYXJhdGluZyAzOCBDRTA0IHRhc2tzLCA3NiBQUjIgV09zIGFuZCAxMDIgaGlzdG9yaWNhbCBXT3Mgd2l0aCBkaXN0aW5jdCBwb3B1bGF0aW9ucyIsCiAgICAgICJldmlkZW5jZV9yZXF1aXJlZCI6IFsic291cmNlIHBhdGgiLCAic2NoZW1hIHZlcnNpb24iLCAidGFzay9XTyBJRCIsICJhZG1pc3Npb24gZXZpZGVuY2Ugc3RhdHVzIl0sCiAgICAgICJhY2NlcHRhbmNlIjogIlplcm8gaW1wbGljaXQgMzgtdG8tNzYtdG8tMTAyIGVxdWl2YWxlbmNlIGFuZCB6ZXJvIGZhbHNlbHkgYXNzZXJ0ZWQgS2VybmVsIGFkbWlzc2lvbnMiLAogICAgICAicmVsZWFzZV9nYXRlIjogIkctUE1PLTA0IgogICAgfSwKICAgIHsKICAgICAgImlkIjogIlAzLUIiLCAid2F2ZSI6ICJQMyIsICJvd25lcl9yb2xlIjogIlBPTElDWS1WQUxJREFUT1IiLCAibW9kZSI6ICJSRUFEX09OTFkiLCAic3RhdHVzIjogIlJFQURZX05PVF9TVEFSVEVEIiwgImRlcGVuZHNfb24iOiBbXSwKICAgICAgImFjdGlvbiI6ICJNYXAgMTQgTTIwIGFnZW50IHN0dWJzLCBtaXNzaW5nIHBvbGljeSByZWZlcmVuY2VzIGFuZCBNMjEgbG9jYWwgZXhpdDc4IGJlaGF2aW91ciBhZ2FpbnN0IHBvbGljeS9zY2hlbWEvdmFsaWRhdG9yL3J1bnRpbWUgY2FwYWJpbGl0aWVzIiwKICAgICAgImV2aWRlbmNlX3JlcXVpcmVkIjogWyJhZ2VudCBzb3VyY2UgU0hBIiwgInBvbGljeSByZWZlcmVuY2UiLCAidGVzdCB0eXBlIiwgIm9ic2VydmVkIG91dGNvbWUiLCAibWlzc2luZyBpbXBsZW1lbnRhdGlvbiBGSU5EIl0sCiAgICAgICJhY2NlcHRhbmNlIjogIkRldGVybWluaXN0aWMgbWF0cml4IGNsYXNzaWZpZXMgc3R1YiB2ZXJzdXMgZnVuY3Rpb25pbmcgcnVudGltZTsgbm8gbG9jYWwgZXhpdDc4IGNhbGxlZCBhdXRob3JpdGF0aXZlIEtlcm5lbCIsCiAgICAgICJyZWxlYXNlX2dhdGUiOiAiRy1QTU8tMDUiCiAgICB9LAogICAgewogICAgICAiaWQiOiAiUDQtQSIsICJ3YXZlIjogIlA0IiwgIm93bmVyX3JvbGUiOiAiU09VUkNFLVJFR0lTVFJBUiIsICJtb2RlIjogIlJFQURfT05MWSIsICJzdGF0dXMiOiAiUkVBRFlfTk9UX1NUQVJURUQiLCAiZGVwZW5kc19vbiI6IFtdLAogICAgICAiYWN0aW9uIjogIklkZW50aWZ5IHJpZ2h0cywgbGljZW5zZSwgdmVyc2lvbnMgYW5kIHByb3ZlbmFuY2Ugb2YgNjEgc291cmNlIG9iamVjdHMvNDkgVVJMcyBhbmQgZmxhZyB1bmNsZWFyIGxpY2Vuc2luZyIsCiAgICAgICJldmlkZW5jZV9yZXF1aXJlZCI6IFsiQ0lEIGJ5IHNvdXJjZSBhbmQgZG9tYWluIiwgIm9mZmljaWFsIFVSSSIsICJsaWNlbnNlIiwgInZlcnNpb24iLCAianVyaXNkaWN0aW9uIiwgImxhbmd1YWdlIiwgInNvdXJjZSBTSEEiLCAicmlnaHRzIHJldmlldyJdLAogICAgICAiYWNjZXB0YW5jZSI6ICJBbGwgNjEgc291cmNlIG9iamVjdHMgZWl0aGVyIGV2aWRlbmNlZCBvciBleHBsaWNpdCBIT0xEOyBubyB1bnN1cHBvcnRlZCBwZXJtaXNzaW9uIGluZmVyZW5jZSIsCiAgICAgICJyZWxlYXNlX2dhdGUiOiAiRy1QTU8tMDMiCiAgICB9LAogICAgewogICAgICAiaWQiOiAiUDQtRCIsICJ3YXZlIjogIlA0IiwgIm93bmVyX3JvbGUiOiAiTk9STS1DUk9TU1dBTEsiLCAibW9kZSI6ICJSRUFEX09OTFkiLCAic3RhdHVzIjogIlJFQURZX05PVF9TVEFSVEVEIiwgImRlcGVuZHNfb24iOiBbXSwKICAgICAgImFjdGlvbiI6ICJJZGVudGlmeSBhcHBsaWNhYmlsaXR5LCB2ZXJzaW9ucywgY2xhdXNlcywgZXZpZGVuY2UgYW5kIHJlcXVpcmVkIGRvY3VtZW50YXRpb24gYWNyb3NzIGFwcGxpY2FibGUgSVNPLCBDT1NPIGFuZCBvdGhlciByZXF1ZXN0ZWQgbm9ybWF0aXZlIGZyYW1ld29ya3MiLAogICAgICAiZXZpZGVuY2VfcmVxdWlyZWQiOiBbInByaW1hcnkgbm9ybSByZWZlcmVuY2UiLCAiYXBwbGljYWJpbGl0eSByYXRpb25hbGUiLCAiY2xhdXNlIiwgInJlcXVpcmVkIGZpZWxkIiwgImV2aWRlbmNlIiwgInJldmlldyBzdGF0dXMiXSwKICAgICAgImFjY2VwdGFuY2UiOiAiQ2xhdXNlIGRlbm9taW5hdG9yIHJlbWFpbnMgbnVsbCB1bnRpbCBzY29wZSBhbmQgb2ZmaWNpYWwgdmVyc2lvbiBpbmRlcGVuZGVudGx5IHZhbGlkYXRlZDsgZG9jdW1lbnRhdGlvbiBhbmQgcmVndWxhdG9yeSByZXF1aXJlbWVudHMgZGlzdGluZ3Vpc2hlZCIsCiAgICAgICJyZWxlYXNlX2dhdGUiOiAiRy1QTU8tMDMiCiAgICB9LAogICAgewogICAgICAiaWQiOiAiUDQtRiIsICJ3YXZlIjogIlA0IiwgIm93bmVyX3JvbGUiOiAiU0VNQU5USUMtUUEiLCAibW9kZSI6ICJSRUFEX09OTFkiLCAic3RhdHVzIjogIkJMT0NLRURfREVQRU5ERU5DWSIsICJkZXBlbmRzX29uIjogWyJQNC1BIiwgIlA0LUQiXSwKICAgICAgImFjdGlvbiI6ICJDYXRhbG9ndWUgMjg1IHNlbWFudGljIGhvbGRzLCBzZXZlbiBsYXJnZSBmaWxlcywgZml2ZSBNMjQgSE9MRCBmaWxlcyBhbmQgaGlzdG9yaWMgNTMvNjUgc3RydWN0dXJhbCBzdWNjZXNzZXMgd2l0aG91dCBjbGFpbWluZyBtZWRpY2FsIGNsZWFyYW5jZSIsCiAgICAgICJldmlkZW5jZV9yZXF1aXJlZCI6IFsiY2FzZSBJRCIsICJjbGFpbS9zb3VyY2UgcmVsYXRpb24iLCAiaG9sZCByZWFzb24iLCAiY2xpbmljYWwvbGVnYWwgcmV2aWV3IHN0YXR1cyJdLAogICAgICAiYWNjZXB0YW5jZSI6ICJBbGwgZXhjZXB0aW9uYWwgcG9wdWxhdGlvbnMgcmVtYWluIGluZGVwZW5kZW50bHkgY291bnRhYmxlOyBubyBjbGluaWNhbCBvciByaWdodHMgYXBwcm92YWwgaW5mZXJyZWQiLAogICAgICAicmVsZWFzZV9nYXRlIjogIkctUE1PLTAzIgogICAgfSwKICAgIHsKICAgICAgImlkIjogIlA1LTAxIiwgIndhdmUiOiAiUDUiLCAib3duZXJfcm9sZSI6ICJJTkRFUEVOREVOVC1FVklERU5DRS1BVURJVE9SIiwgIm1vZGUiOiAiUkVBRF9PTkxZIiwgInN0YXR1cyI6ICJSRUFEWV9OT1RfU1RBUlRFRCIsICJkZXBlbmRzX29uIjogW10sCiAgICAgICJhY3Rpb24iOiAiUmV2YWxpZGF0ZSBpbmRlcGVuZGVudCBQTU8gc291cmNlIHJlZnMgYW5kIG5lZ2F0aXZlIHRlc3RzOyByZWNvbmNpbGUgcXVldWUsIG1hc3RlciBhbmQgR2l0IHJlY2VpcHRzIiwKICAgICAgImV2aWRlbmNlX3JlcXVpcmVkIjogWyJpbmRlcGVuZGVudCBmZXRjaCIsICJzb3VyY2UgSUQgY29tcGxldGVuZXNzIiwgInJlYWRiYWNrIGNvbXBhcmlzb24iLCAibmVnYXRpdmUgdGVzdHMiLCAiUEFTUy9GQUlML0hPTEQgcmVhc29ucyJdLAogICAgICAiYWNjZXB0YW5jZSI6ICJBbGwgcXVldWUgcmVmZXJlbmNlcyBleGlzdCBpbiBtYXN0ZXIsIG5vIHRhc2sgbWFya2VkIGV4ZWN1dGVkIHdpdGhvdXQgZXZpZGVuY2UsIDggUE1PIGdhdGVzIHJldGFpbiBIT0xEIHVubGVzcyBpbmRlcGVuZGVudGx5IHByb3ZlbiIsCiAgICAgICJyZWxlYXNlX2dhdGUiOiAiRy1QTU8tMDYiCiAgICB9LAogICAgewogICAgICAiaWQiOiAiUDUtMDIiLCAid2F2ZSI6ICJQNSIsICJvd25lcl9yb2xlIjogIlJFTEVBU0UtR1VBUkQiLCAibW9kZSI6ICJSRUFEX09OTFkiLCAic3RhdHVzIjogIkJMT0NLRURfREVQRU5ERU5DWSIsICJkZXBlbmRzX29uIjogWyJQMS1DRC0wMSIsICJQMi0wMSIsICJQMy1BIiwgIlA0LUYiLCAiUDUtMDEiXSwKICAgICAgImFjdGlvbiI6ICJQcm9kdWNlIGNyb3NzLXdvcmtzdHJlYW0gZXhjZXB0aW9uIGNsb3N1cmUgYW5kIGluZGVwZW5kZW50IHJlbGVhc2UtZ2FwIG9waW5pb24gaW5jbHVkaW5nIEY0IEUyRSBIT0xEIiwKICAgICAgImV2aWRlbmNlX3JlcXVpcmVkIjogWyJjbG9zdXJlIHBvcHVsYXRpb24iLCAiZ2F0ZSB0ZXN0cyIsICJyaXNrIGFuZCBleGNlcHRpb24gaW52ZW50b3J5IiwgImFwcHJvdmFsIHJlc3BvbnNpYmlsaXR5Il0sCiAgICAgICJhY2NlcHRhbmNlIjogIk5vIGZpbmFsIHJlbGVhc2Ugd2l0aG91dCB2YWxpZGF0ZWQgS2VybmVsLCBDSSwgRTJFLCByaWdodHMvY2xpbmljYWwgZXZpZGVuY2UgYW5kIGZpbmFsIHVzZXIgYXBwcm92YWwiLAogICAgICAicmVsZWFzZV9nYXRlIjogIkctUE1PLTA4IgogICAgfQogIF0sCiAgImZpbmRzIjogWwogICAgeyJpZCI6ICJQMS1GSU5ELUdJVC1aSVAtVU5NQVRDSEVEIiwgInR5cGUiOiAiSU5WRVNUSUdBVElPTiIsICJzZXZlcml0eSI6ICJVTkRFVEVSTUlORUQiLCAib2JzZXJ2YXRpb24iOiAiMTI4NCBkaXN0aW5jdCBaSVAtbWVtYmVyIHBheWxvYWRzIGhhdmUgbm8gaWRlbnRpY2FsIGluZGl2aWR1YWwgR2l0IGJsb2IgaW4gMTUgcGlubmVkIGJyYW5jaCB0aXBzIiwgInByb2hpYml0ZWRfY29uY2x1c2lvbiI6ICJEQVRBX0xPU1NfUFJPVkVOIiwgIm93bmVyX3Rhc2siOiAiUDEtQ0QtMDEifSwKICAgIHsiaWQiOiAiUDItRklORC1ERUxFVElPTi1RVUFSQU5USU5FIiwgInR5cGUiOiAiUFJFU0VSVkFUSU9OX0dVQVJEIiwgIm9ic2VydmF0aW9uIjogIjIyIHByb3Bvc2VkIGRlbGV0aW9ucyBuZWVkIGV2aWRlbmNlLWJhc2VkIGNhc2UgZGlzcG9zaXRpb24iLCAib3duZXJfdGFzayI6ICJQMi0wMSJ9LAogICAgeyJpZCI6ICJQMy1GSU5ELU5PTlBFUlNJU1RFTlQtQUdFTlRTIiwgInR5cGUiOiAiQ09OVFJPTF9ERVNJR05fR0FQIiwgIm9ic2VydmF0aW9uIjogIlNwZWNpYWxpc3QgcGxhbm5pbmcgYWdlbnRzIGFuZCBsb2NhbCBDTEkgdGVzdHMgYXJlIG5vdCBjb250aW51b3VzbHkgZW5mb3JjZWQgcnVudGltZSBjb250cm9scyIsICJvd25lcl90YXNrIjogIlAzLUIifQogIF0KfQo=
+{
+  "schema_version": "0.1.0",
+  "project": "IndiciumFIN/calculadorasdeenfermagem",
+  "cutoff": "2026-10-19",
+  "state": "CANDIDATE_DOCUMENTARY_QUEUE_NOT_KERNEL_ADMISSION",
+  "source_ids": ["S-18", "S-19", "S-20", "S-21", "S-22", "S-23"],
+  "baseline": {
+    "p1_checkpoints": {"completed": 5, "total": 6, "percent": 83.3},
+    "git_branch_trees": {"complete": 15, "total": 15},
+    "git_blob_occurrences": 58710,
+    "git_unique_blobs": 9569,
+    "zip_unique_member_payloads": 1295,
+    "zip_unique_payloads_matched_to_individual_git_blob": 11,
+    "unmatched_zip_payloads_not_proven_lost": 1284,
+    "historical_ce04_structural": {"complete": 53, "total": 65, "clinically_approved": 0},
+    "m24_hold_files": 5,
+    "pmo_gates": {"passed": 0, "total": 8},
+    "project_completion_percent": null
+  },
+  "rules": {
+    "documentary_scope": "Documentary PMO branch commits with SHA readback only; independent validation remains required",
+    "runtime_scope": "No productive run until FIND-policy-validator-task-WO-authoritative Kernel admission, isolation, tests and independent audit",
+    "scope_prohibitions": ["NO_DRIVE_ACCESS", "NO_MAIN", "NO_MERGE", "NO_DELETE", "NO_M24_RELEASE", "NO_UNADMITTED_ATOMIZATION", "SUPABASE_READ_ONLY"],
+    "progress": "Only report numerator/denominator for homogeneous verified populations; no project-level percentage",
+    "receipt": "Record branch HEAD precondition, SHA256 or Git blob SHA, commit and exact postcommit readback in external append-only receipt",
+    "preservation": "Never infer 1284 lost files; preserve ZIP blobs, variant versions, font paths and ambiguous rights/licensing",
+    "agent_lifetime": "Specialist subagent runs are finite analysis tasks, not persistent deployed runtime services"
+  },
+  "tasks": [
+    {
+      "id": "P1-CD-01", "wave": "P1", "owner_role": "GIT-BLOB-MAPPER", "mode": "READ_ONLY", "status": "READY_NOT_STARTED", "depends_on": ["P1-C-C"],
+      "action": "Create deterministic ZIP-member to Git-blob/archived-ZIP/path/version candidate classification with exact source and snapshot IDs; do not infer absence from tip-level nonmatch",
+      "evidence_required": ["per-object immutable source locator", "object SHA", "match class", "ambiguity class", "candidate conflict manifest"],
+      "acceptance": "All 1295 distinct ZIP payloads accounted for by exactly one non-destructive classification or explicit HOLD; independent P5 sampling",
+      "release_gate": "G-PMO-01"
+    },
+    {
+      "id": "P1-D-01", "wave": "P1", "owner_role": "SNAPSHOT-CUSTODIAN", "mode": "DOCUMENTARY", "status": "BLOCKED_DEPENDENCY", "depends_on": ["P1-CD-01"],
+      "action": "Reconcile immutable local baseline of 768 files with post-snapshot additions, preserve private hash/path inventory and rights classification",
+      "evidence_required": ["snapshot parent and cutoff", "path/hash delta", "custody manifest", "restore check"],
+      "acceptance": "No silent baseline replacement; all newly created artifacts and local deltas tracked",
+      "release_gate": "G-PMO-01"
+    },
+    {
+      "id": "P2-00", "wave": "P2", "owner_role": "GIT-CENSUS", "mode": "READ_ONLY", "status": "READY_NOT_STARTED", "depends_on": [],
+      "action": "Freeze HEADs of 15 branches and PR heads/bases and reconcile them to pinned tree inventory",
+      "evidence_required": ["branch or PR identifier", "head/base SHA", "tree SHA", "non-truncation evidence"],
+      "acceptance": "Population and divergences explicit; no live SHA silently conflated with earlier cutoff",
+      "release_gate": "G-PMO-02"
+    },
+    {
+      "id": "P2-01", "wave": "P2", "owner_role": "DELETE-GUARD", "mode": "READ_ONLY", "status": "BLOCKED_DEPENDENCY", "depends_on": ["P2-00"],
+      "action": "Classify 22 proposed deletions (21 contracts/fonts paths and test.txt), PR #2/#3/#4/#6 overlap and branch ancestry without removal",
+      "evidence_required": ["per-path old/new SHA", "PR base/head", "conflict and preservation decision"],
+      "acceptance": "22/22 exclusions explicitly quarantined or separately evidenced; none deleted or merged",
+      "release_gate": "G-PMO-02"
+    },
+    {
+      "id": "P3-A", "wave": "P3", "owner_role": "CONTRACT-REGISTRAR", "mode": "READ_ONLY", "status": "READY_NOT_STARTED", "depends_on": [],
+      "action": "Create identity/contract relationship register separating 38 CE04 tasks, 164 PR2 WOs from full pinned Git tree and 102 historical WOs with distinct populations",
+      "evidence_required": ["source path", "schema version", "task/WO ID", "admission evidence status"],
+      "acceptance": "Zero implicit 38-to-164-to-102 equivalence and zero falsely asserted Kernel admissions",
+      "release_gate": "G-PMO-04"
+    },
+    {
+      "id": "P3-B", "wave": "P3", "owner_role": "POLICY-VALIDATOR", "mode": "READ_ONLY", "status": "READY_NOT_STARTED", "depends_on": [],
+      "action": "Map 14 M20 agent stubs, missing policy references and M21 local exit78 behaviour against policy/schema/validator/runtime capabilities",
+      "evidence_required": ["agent source SHA", "policy reference", "test type", "observed outcome", "missing implementation FIND"],
+      "acceptance": "Deterministic matrix classifies stub versus functioning runtime; no local exit78 called authoritative Kernel",
+      "release_gate": "G-PMO-05"
+    },
+    {
+      "id": "P4-A", "wave": "P4", "owner_role": "SOURCE-REGISTRAR", "mode": "READ_ONLY", "status": "READY_NOT_STARTED", "depends_on": [],
+      "action": "Identify rights, license, versions and provenance of 61 source objects/49 URLs and flag unclear licensing",
+      "evidence_required": ["CID by source and domain", "official URI", "license", "version", "jurisdiction", "language", "source SHA", "rights review"],
+      "acceptance": "All 61 source objects either evidenced or explicit HOLD; no unsupported permission inference",
+      "release_gate": "G-PMO-03"
+    },
+    {
+      "id": "P4-D", "wave": "P4", "owner_role": "NORM-CROSSWALK", "mode": "READ_ONLY", "status": "READY_NOT_STARTED", "depends_on": [],
+      "action": "Identify applicability, versions, clauses, evidence and required documentation across applicable ISO, COSO and other requested normative frameworks",
+      "evidence_required": ["primary norm reference", "applicability rationale", "clause", "required field", "evidence", "review status"],
+      "acceptance": "Clause denominator remains null until scope and official version independently validated; documentation and regulatory requirements distinguished",
+      "release_gate": "G-PMO-03"
+    },
+    {
+      "id": "P4-F", "wave": "P4", "owner_role": "SEMANTIC-QA", "mode": "READ_ONLY", "status": "BLOCKED_DEPENDENCY", "depends_on": ["P4-A", "P4-D"],
+      "action": "Catalogue 285 semantic holds, seven large files, five M24 HOLD files and historic 53/65 structural successes without claiming medical clearance",
+      "evidence_required": ["case ID", "claim/source relation", "hold reason", "clinical/legal review status"],
+      "acceptance": "All exceptional populations remain independently countable; no clinical or rights approval inferred",
+      "release_gate": "G-PMO-03"
+    },
+    {
+      "id": "P5-01", "wave": "P5", "owner_role": "INDEPENDENT-EVIDENCE-AUDITOR", "mode": "READ_ONLY", "status": "READY_NOT_STARTED", "depends_on": [],
+      "action": "Revalidate independent PMO source refs and negative tests; reconcile queue, master and Git receipts",
+      "evidence_required": ["independent fetch", "source ID completeness", "readback comparison", "negative tests", "PASS/FAIL/HOLD reasons"],
+      "acceptance": "All queue references exist in master, no task marked executed without evidence, 8 PMO gates retain HOLD unless independently proven",
+      "release_gate": "G-PMO-06"
+    },
+    {
+      "id": "P5-02", "wave": "P5", "owner_role": "RELEASE-GUARD", "mode": "READ_ONLY", "status": "BLOCKED_DEPENDENCY", "depends_on": ["P1-CD-01", "P2-01", "P3-A", "P4-F", "P5-01"],
+      "action": "Produce cross-workstream exception closure and independent release-gap opinion including F4 E2E HOLD",
+      "evidence_required": ["closure population", "gate tests", "risk and exception inventory", "approval responsibility"],
+      "acceptance": "No final release without validated Kernel, CI, E2E, rights/clinical evidence and final user approval",
+      "release_gate": "G-PMO-08"
+    }
+  ],
+  "finds": [
+    {"id": "P1-FIND-GIT-ZIP-UNMATCHED", "type": "INVESTIGATION", "severity": "UNDETERMINED", "observation": "1284 distinct ZIP-member payloads have no identical individual Git blob in 15 pinned branch tips", "prohibited_conclusion": "DATA_LOSS_PROVEN", "owner_task": "P1-CD-01"},
+    {"id": "P2-FIND-DELETION-QUARANTINE", "type": "PRESERVATION_GUARD", "observation": "22 proposed deletions need evidence-based case disposition", "owner_task": "P2-01"},
+    {"id": "P3-FIND-NONPERSISTENT-AGENTS", "type": "CONTROL_DESIGN_GAP", "observation": "Specialist planning agents and local CLI tests are not continuously enforced runtime controls", "owner_task": "P3-B"}
+  ]
+}
