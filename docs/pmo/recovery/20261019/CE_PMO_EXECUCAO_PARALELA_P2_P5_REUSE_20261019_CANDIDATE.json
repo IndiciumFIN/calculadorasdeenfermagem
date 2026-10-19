@@ -1,1 +1,82 @@
-ewogICJzY2hlbWFfdmVyc2lvbiI6ICIwLjEuMC1DQU5ESURBVEUiLAogICJraW5kIjogIlBBUkFMTEVMX0RPQ1VNRU5UQVJZX0VWSURFTkNFX0xJTktBR0VfUkVHSVNURVIiLAogICJwcm9qZWN0IjogIkNFLUNBTENVTEFET1JBUy1FTkZFUk1BR0VNIiwKICAiY3V0b2ZmX3V0Y19kYXRlIjogIjIwMjYtMTAtMTkiLAogICJzdGF0dXMiOiAiRE9DVU1FTlRBUllfU1RBUlRfTk9UX0VYRUNVVElPTl9DT01QTEVUSU9OIiwKICAic2NvcGUiOiAiRXhpc3RpbmcgcmVnaXN0ZXJlZCBldmlkZW5jZSBvbmx5OyBubyBuZXcgZXh0cmFjdGlvbiwgY29udGVudCBwcm9jZXNzaW5nLCBicmFuY2ggbWVyZ2VzLCBydW50aW1lIGNoYW5nZXMgb3IgcHJvZHVjdGl2ZSBhdXRob3JpemF0aW9uIiwKICAiYW50aV9yZXdvcmtfZ2F0ZSI6ICJBRy1OUi0wMSBBTExPV19SRVVTRV9BTkFMWVNJU19PTkxZOyBsb2NhbCwgbm90IEtlcm5lbCBvciBzZXJ2ZXIgZW5mb3JjZW1lbnQiLAogICJlbnRyaWVzIjogWwogICAgewogICAgICAidGFza19pZCI6ICJQMi1MSU5LLTIwMjYxMDE5LTAxIiwKICAgICAgIndhdmUiOiAiUDIiLAogICAgICAid29ya3N0cmVhbSI6ICJHaXQgYnJhbmNoZXMsIHZlcnNpb24gbGluZWFnZSBhbmQgY29uZmxpY3RzIiwKICAgICAgInNvdXJjZV9pZHMiOiBbIlMtMTciLCAiUy0xOSIsICJTLTIzIl0sCiAgICAgICJldmlkZW5jZV9saW5rYWdlIjogWwogICAgICAgIHsic291cmNlX2lkIjogIlMtMTciLCAicmVsZXZhbmNlIjogIjE1IEdpdCBicmFuY2ggdHJlZXMgcGlubmVkOyBleGlzdGluZyBjZW5zdXMgb25seSJ9LAogICAgICAgIHsic291cmNlX2lkIjogIlMtMTkiLCAicmVsZXZhbmNlIjogIlNwZWNpYWxpc3QgcmVhZC1vbmx5IFAyIHBsYW47IHVuYXBwcm92ZWQgbXV0YXRpb24gcGxhbiJ9LAogICAgICAgIHsic291cmNlX2lkIjogIlMtMjMiLCAicmVsZXZhbmNlIjogIlF1ZXVlIGFuZCBjcm9zcy13YXZlIGRlcGVuZGVuY2llcyJ9CiAgICAgIF0sCiAgICAgICJkb2N1bWVudGFyeV9yZXN1bHQiOiAiUHJlLWV4aXN0aW5nIHRyZWUgZW51bWVyYXRpb24gYW5kIFAyIHBsYW4gbGlua2VkOyBwYXRoL3ZlcnNpb24gY3VzdG9keSBhbmQgY29uZmxpY3QgcmVzb2x1dGlvbiByZW1haW4gb3BlbiIsCiAgICAgICJzdGF0dXMiOiAiRVZJREVOQ0VfTElOS0VEX05PVF9SRUNPTkNJTEVEIiwKICAgICAgInJlbGVhc2VfYmxvY2tlciI6ICJQMSBwYXRoL3ZlcnNpb24vY3VzdG9keSBjaGVja3BvaW50LCBpbmRlcGVuZGVudGx5IHZhbGlkYXRlZCBjb25mbGljdCBtYXRyaXgsIEtlcm5lbCBhdXRob3JpdHkgZm9yIGFueSBtdXRhdGlvbiIKICAgIH0sCiAgICB7CiAgICAgICJ0YXNrX2lkIjogIlAzLUxJTkstMjAyNjEwMTktMDEiLAogICAgICAid2F2ZSI6ICJQMyIsCiAgICAgICJ3b3Jrc3RyZWFtIjogIkFnZW50cywgYWNxdWlzaXRpb24sIHdvcmsgb3JkZXJzIGFuZCBLZXJuZWwiLAogICAgICAic291cmNlX2lkcyI6IFsiUy0yMCIsICJTLTI4IiwgIlMtMzMiLCAiUy0zNCJdLAogICAgICAiZXZpZGVuY2VfbGlua2FnZSI6IFsKICAgICAgICB7InNvdXJjZV9pZCI6ICJTLTIwIiwgInJlbGV2YW5jZSI6ICJTcGVjaWFsaXN0IFAzIHBsYW4gYW5kIGFic2VudCBydW50aW1lIGFkbWlzc2lvbiBldmlkZW5jZSJ9LAogICAgICAgIHsic291cmNlX2lkIjogIlMtMjgiLCAicmVsZXZhbmNlIjogIkFudGktcmV3b3JrIGhpc3RvcmljYWwgZXZpZGVuY2UgbGVkZ2VyIn0sCiAgICAgICAgeyJzb3VyY2VfaWQiOiAiUy0zMyIsICJyZWxldmFuY2UiOiAiMzggQ0UwNCB0YXNrcyB2cyAxNjQgUFIyIFdPIG1ldGFkYXRhOyB6ZXJvIGRpcmVjdCB0YXNrIElEIG1hdGNoZXMifSwKICAgICAgICB7InNvdXJjZV9pZCI6ICJTLTM0IiwgInJlbGV2YW5jZSI6ICJJbmRlcGVuZGVudCBsb2NhbCBXTyBjcm9zc3dhbGsgdGVzdHMifQogICAgICBdLAogICAgICAiZG9jdW1lbnRhcnlfcmVzdWx0IjogIkV4aXN0aW5nIGluZGVwZW5kZW50IG5hbWVzcGFjZXMgbGlua2VkOyBubyBpbmZlcmVuY2UgdGhhdCBQUkVBVVRIT1JJWkVEIGVxdWFscyBLZXJuZWwtYXV0aG9yaXplZCIsCiAgICAgICJzdGF0dXMiOiAiRVZJREVOQ0VfTElOS0VEX0lERU5USVRZX0hPTEQiLAogICAgICAicmVsZWFzZV9ibG9ja2VyIjogIkF1dGhvcml0YXRpdmUgdGFzay10by1XTyByZWxhdGlvbnNoaXAsIHBvbGljaWVzLCByZWFsIEtlcm5lbCBhZG1pc3Npb24gYW5kIENJIGd1YXJkaWFuIgogICAgfSwKICAgIHsKICAgICAgInRhc2tfaWQiOiAiUDQtTElOSy0yMDI2MTAxOS0wMSIsCiAgICAgICJ3YXZlIjogIlA0IiwKICAgICAgIndvcmtzdHJlYW0iOiAiTm9ybWF0aXZlIGFuZCBjb250ZW50IGNvdmVyYWdlLCBoaXN0b3JpY2FsIGV2aWRlbmNlIHJldXNlIiwKICAgICAgInNvdXJjZV9pZHMiOiBbIlMtMDQiLCAiUy0wNSIsICJTLTIxIiwgIlMtMzEiXSwKICAgICAgImV2aWRlbmNlX2xpbmthZ2UiOiBbCiAgICAgICAgeyJzb3VyY2VfaWQiOiAiUy0wNCIsICJyZWxldmFuY2UiOiAiUHJldmlvdXNseSByZXBvcnRlZCBDSUQxMSBzdHJ1Y3R1cmFsIGFuZCBzZW1hbnRpYyBob2xkcyJ9LAogICAgICAgIHsic291cmNlX2lkIjogIlMtMDUiLCAicmVsZXZhbmNlIjogIlByZXZpb3VzbHkgcmVwb3J0ZWQgQU5WSVNBIGNvbnRlbnQgZnJhZ21lbnRhdGlvbiBmaW5kIn0sCiAgICAgICAgeyJzb3VyY2VfaWQiOiAiUy0yMSIsICJyZWxldmFuY2UiOiAiUDQgc3BlY2lhbGlzdCBzb3VyY2UvY29udGVudCBwbGFuIn0sCiAgICAgICAgeyJzb3VyY2VfaWQiOiAiUy0zMSIsICJyZWxldmFuY2UiOiAiSGlzdG9yaWNhbCBDRTAx4oCTQ0UwNiBhbmQgTSBhcnRpZmFjdCBjZW5zdXMsIG5vdCBzZW1hbnRpYyBhY2NlcHRhbmNlIn0KICAgICAgXSwKICAgICAgImRvY3VtZW50YXJ5X3Jlc3VsdCI6ICJBdmFpbGFibGUgZmluZGluZ3MgYW5kIGNvbnRlbnQtcGxhbiBzb3VyY2UgcmVmZXJlbmNlcyBsaW5rZWQ7IG5vIGNvbnRlbnQgcmUtZXh0cmFjdGlvbiBvciBub3JtYXRpdmUgY29uZm9ybWl0eSBjbGFpbSIsCiAgICAgICJzdGF0dXMiOiAiRVZJREVOQ0VfTElOS0VEX1NFTUFOVElDX0hPTEQiLAogICAgICAicmVsZWFzZV9ibG9ja2VyIjogIk0yNCBIT0xEOyBsaWNlbnNlcy9wcm92ZW5hbmNlLCByZXF1aXJlbWVudHMgdHJhY2VhYmlsaXR5LCBzZW1hbnRpYyB2YWxpZGF0aW9uLCBhdXRob3JpemVkIGV4dHJhY3RvciIKICAgIH0sCiAgICB7CiAgICAgICJ0YXNrX2lkIjogIlA1LUxJTkstMjAyNjEwMTktMDEiLAogICAgICAid2F2ZSI6ICJQNSIsCiAgICAgICJ3b3Jrc3RyZWFtIjogIkluZGVwZW5kZW50IHZhbGlkYXRpb24gYW5kIHJlbGVhc2UgcmVhZGluZXNzIiwKICAgICAgInNvdXJjZV9pZHMiOiBbIlMtMjIiLCAiUy0yNiIsICJTLTI3IiwgIlMtMzIiLCAiUy0zNCJdLAogICAgICAiZXZpZGVuY2VfbGlua2FnZSI6IFsKICAgICAgICB7InNvdXJjZV9pZCI6ICJTLTIyIiwgInJlbGV2YW5jZSI6ICJQNSBpbmRlcGVuZGVudCB0ZXN0IHBsYW5uaW5nIn0sCiAgICAgICAgeyJzb3VyY2VfaWQiOiAiUy0yNiIsICJyZWxldmFuY2UiOiAiRXhpc3RpbmcgUE1PIGd1YXJkaWFuIGNvbnRyb2xzIn0sCiAgICAgICAgeyJzb3VyY2VfaWQiOiAiUy0yNyIsICJyZWxldmFuY2UiOiAiR2l0SHViIHJ1bGVzZXQgZGlzYWJsZWQ7IENJIHByb3RlY3Rpb24gbm90IHByb3ZlbiJ9LAogICAgICAgIHsic291cmNlX2lkIjogIlMtMzIiLCAicmVsZXZhbmNlIjogIkhpc3RvcmljYWwgY292ZXJhZ2UgbGltaXRzIn0sCiAgICAgICAgeyJzb3VyY2VfaWQiOiAiUy0zNCIsICJyZWxldmFuY2UiOiAiTG9jYWwgdGFzay10by1XTyBjcm9zc3dhbGsgdGVzdHMifQogICAgICBdLAogICAgICAiZG9jdW1lbnRhcnlfcmVzdWx0IjogIkV4aXN0aW5nIHByb29mIGFuZCByZWxlYXNlIGdhcHMgbGlua2VkOyBsb2NhbCB1bml0IHBhc3NlcyBjYW5ub3QgY2VydGlmeSBmdWxsIHBpcGVsaW5lIiwKICAgICAgInN0YXR1cyI6ICJFVklERU5DRV9MSU5LRURfUkVMRUFTRV9IT0xEIiwKICAgICAgInJlbGVhc2VfYmxvY2tlciI6ICJTZXJ2ZXItZW5mb3JjZWQgY2hlY2tzLCBQMeKAk1A0IGluZGVwZW5kZW50IGF1ZGl0cywgZnVsbCBjaGFpbiB2ZXJpZmljYXRpb24gYW5kIGZpbmFsIHVzZXIgYXBwcm92YWwiCiAgICB9CiAgXSwKICAiY3Jvc3Nfd2F2ZV9jb250cm9scyI6IHsKICAgICJhbGxfNF93YXZlc19kb2N1bWVudGFyeV9saW5rYWdlX3N0YXJ0ZWQiOiB0cnVlLAogICAgImFsbF80X3dhdmVzX3Byb2R1Y3RpdmVfZXhlY3V0aW9uX2FkbWl0dGVkIjogZmFsc2UsCiAgICAicHJpb3JfZmluZGluZ3NfcmV1c2VkX25vX3JlcGVhdF9leHRyYWN0IjogdHJ1ZSwKICAgICJwbW9fdHJ1c3RlZCI6IGZhbHNlLAogICAgInByb2plY3RfY29tcGxldGlvbl9wZXJjZW50IjogbnVsbCwKICAgICJrZXJuZWxfYWRtaXNzaW9uIjogIk5PVF9QUk9WRU4iLAogICAgIm1haW5fYWZmZWN0ZWQiOiBmYWxzZSwKICAgICJtMjQiOiAiSE9MRCIsCiAgICAicmVjb25jaWxpYXRpb24iOiAiT1BFTl9BU19TRVBBUkFURV9DT05UUk9MTEVEX1dPUktTVFJFQU1fTk9UX0FVVE9NQVRJQ0FMTFlfREVGRVJSRURfVE9fUkVMRUFTRSIKICB9Cn0K
+{
+  "schema_version": "0.1.0-CANDIDATE",
+  "kind": "PARALLEL_DOCUMENTARY_EVIDENCE_LINKAGE_REGISTER",
+  "project": "CE-CALCULADORAS-ENFERMAGEM",
+  "cutoff_utc_date": "2026-10-19",
+  "status": "DOCUMENTARY_START_NOT_EXECUTION_COMPLETION",
+  "scope": "Existing registered evidence only; no new extraction, content processing, branch merges, runtime changes or productive authorization",
+  "anti_rework_gate": "AG-NR-01 ALLOW_REUSE_ANALYSIS_ONLY; local, not Kernel or server enforcement",
+  "entries": [
+    {
+      "task_id": "P2-LINK-20261019-01",
+      "wave": "P2",
+      "workstream": "Git branches, version lineage and conflicts",
+      "source_ids": ["S-17", "S-19", "S-23"],
+      "evidence_linkage": [
+        {"source_id": "S-17", "relevance": "15 Git branch trees pinned; existing census only"},
+        {"source_id": "S-19", "relevance": "Specialist read-only P2 plan; unapproved mutation plan"},
+        {"source_id": "S-23", "relevance": "Queue and cross-wave dependencies"}
+      ],
+      "documentary_result": "Pre-existing tree enumeration and P2 plan linked; path/version custody and conflict resolution remain open",
+      "status": "EVIDENCE_LINKED_NOT_RECONCILED",
+      "release_blocker": "P1 path/version/custody checkpoint, independently validated conflict matrix, Kernel authority for any mutation"
+    },
+    {
+      "task_id": "P3-LINK-20261019-01",
+      "wave": "P3",
+      "workstream": "Agents, acquisition, work orders and Kernel",
+      "source_ids": ["S-20", "S-28", "S-33", "S-34"],
+      "evidence_linkage": [
+        {"source_id": "S-20", "relevance": "Specialist P3 plan and absent runtime admission evidence"},
+        {"source_id": "S-28", "relevance": "Anti-rework historical evidence ledger"},
+        {"source_id": "S-33", "relevance": "38 CE04 tasks vs 164 PR2 WO metadata; zero direct task ID matches"},
+        {"source_id": "S-34", "relevance": "Independent local WO crosswalk tests"}
+      ],
+      "documentary_result": "Existing independent namespaces linked; no inference that PREAUTHORIZED equals Kernel-authorized",
+      "status": "EVIDENCE_LINKED_IDENTITY_HOLD",
+      "release_blocker": "Authoritative task-to-WO relationship, policies, real Kernel admission and CI guardian"
+    },
+    {
+      "task_id": "P4-LINK-20261019-01",
+      "wave": "P4",
+      "workstream": "Normative and content coverage, historical evidence reuse",
+      "source_ids": ["S-04", "S-05", "S-21", "S-31"],
+      "evidence_linkage": [
+        {"source_id": "S-04", "relevance": "Previously reported CID11 structural and semantic holds"},
+        {"source_id": "S-05", "relevance": "Previously reported ANVISA content fragmentation find"},
+        {"source_id": "S-21", "relevance": "P4 specialist source/content plan"},
+        {"source_id": "S-31", "relevance": "Historical CE01–CE06 and M artifact census, not semantic acceptance"}
+      ],
+      "documentary_result": "Available findings and content-plan source references linked; no content re-extraction or normative conformity claim",
+      "status": "EVIDENCE_LINKED_SEMANTIC_HOLD",
+      "release_blocker": "M24 HOLD; licenses/provenance, requirements traceability, semantic validation, authorized extractor"
+    },
+    {
+      "task_id": "P5-LINK-20261019-01",
+      "wave": "P5",
+      "workstream": "Independent validation and release readiness",
+      "source_ids": ["S-22", "S-26", "S-27", "S-32", "S-34"],
+      "evidence_linkage": [
+        {"source_id": "S-22", "relevance": "P5 independent test planning"},
+        {"source_id": "S-26", "relevance": "Existing PMO guardian controls"},
+        {"source_id": "S-27", "relevance": "GitHub ruleset disabled; CI protection not proven"},
+        {"source_id": "S-32", "relevance": "Historical coverage limits"},
+        {"source_id": "S-34", "relevance": "Local task-to-WO crosswalk tests"}
+      ],
+      "documentary_result": "Existing proof and release gaps linked; local unit passes cannot certify full pipeline",
+      "status": "EVIDENCE_LINKED_RELEASE_HOLD",
+      "release_blocker": "Server-enforced checks, P1–P4 independent audits, full chain verification and final user approval"
+    }
+  ],
+  "cross_wave_controls": {
+    "all_4_waves_documentary_linkage_started": true,
+    "all_4_waves_productive_execution_admitted": false,
+    "prior_findings_reused_no_repeat_extract": true,
+    "pmo_trusted": false,
+    "project_completion_percent": null,
+    "kernel_admission": "NOT_PROVEN",
+    "main_affected": false,
+    "m24": "HOLD",
+    "reconciliation": "OPEN_AS_SEPARATE_CONTROLLED_WORKSTREAM_NOT_AUTOMATICALLY_DEFERRED_TO_RELEASE"
+  }
+}
