@@ -1,0 +1,63 @@
+{
+  "schema_version": "0.1.0-CANDIDATE",
+  "date": "2026-10-19",
+  "task": "P3-B",
+  "finding_ref": "P3-FIND-KERNEL-VALIDATOR-REGISTRY-20261019",
+  "test_scope": "ISOLATED_EXECUTION_OF_ACTUAL_VALIDATE_METHOD_AST_FROM_PINNED_GITHUB_BLOBS_NO_IMPORT_SIDE_EFFECTS",
+  "method": "Fetch exact GitHub blob source, parse Python AST, compile class validate method in isolation with typing.Any namespace, evaluate 11 declared test_suite inputs per class, assert actual boolean versus expected",
+  "source_ref": "main",
+  "executable": "python3 -c (in memory; no repository files modified)",
+  "exit_code": 0,
+  "results": [
+    {
+      "path": "packages/cli/validators/schema_validator.py",
+      "blob_sha": "adab526c93e64fb912f1233a4eac60872f48ca20",
+      "cases": 11,
+      "expected_rejections": 6,
+      "actual_false_approvals": 6,
+      "false_approval_cases": [
+        "codigo vazio",
+        "codigo invalido",
+        "item vazio",
+        "codigo nao alfa",
+        "sem campo codigo",
+        "codigo muito curto"
+      ]
+    },
+    {
+      "path": "packages/cli/validators/human_review_validator.py",
+      "blob_sha": "816cc1a1bf90b8648f1a66cfba18665815b5dfb6",
+      "cases": 11,
+      "expected_rejections": 6,
+      "actual_false_approvals": 6,
+      "false_approval_cases": [
+        "codigo vazio",
+        "codigo invalido",
+        "item vazio",
+        "codigo nao alfa",
+        "sem campo codigo",
+        "codigo muito curto"
+      ]
+    }
+  ],
+  "summary": {
+    "cases": 22,
+    "unexpected_approvals": 12,
+    "expected_rejections": 12,
+    "incorrect_rejection_handling_percent": 100,
+    "production_integrity": "FAIL",
+    "kernel_e2e": "NOT_TESTED"
+  },
+  "unexpected_fail_closed_performance": "No claim; class methods were isolated",
+  "risk": "Unconditional approval may bypass malformed input/required review; tests demonstrate 12 false-positive outcomes against self-declared suites",
+  "remediation_gate": [
+    "First reconcile with M20-FIND-001..008 and M21-FIND-001..004 before allocating canonical FIND identity",
+    "Replace stubs using versioned formal policies and domain JSON schema; human review must be bound to verified receipt",
+    "Ensure one coherent canonical validator registry and route by policy ID",
+    "Unit negative, boundary, fuzz, mutation and Kernel-import integration regression suites",
+    "P5 independent rerun with exact artifact SHA and no self-certification",
+    "Authoritative WO/Kernel admission after bootstrap; no automatic main merge"
+  ],
+  "preservation": "No source changed, no imports executed with side effects, no WO or productive runtime",
+  "status": "FAIL_REPRODUCED_BOUNDED_TEST"
+}
