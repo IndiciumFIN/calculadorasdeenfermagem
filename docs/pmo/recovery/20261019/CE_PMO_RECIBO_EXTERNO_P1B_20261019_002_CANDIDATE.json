@@ -1,0 +1,48 @@
+{
+  "receipt_id": "CE-PMO-P1B-EXTERNAL-20261019-002",
+  "schema_version": "0.1.0",
+  "repository": "IndiciumFIN/calculadorasdeenfermagem",
+  "branch": "pmo/recovery-controlled-20261019",
+  "scope": "P1B_DOCUMENTARY_ONLY",
+  "attestations": [
+    {
+      "path": "docs/pmo/recovery/20261019/ce_pmo_zip_verify_v01.py",
+      "commit_sha": "bb86469a3a9160a26550f54de49f265da7b8031a",
+      "blob_sha": "01b2df1b542e311e3ca85ed7a09a0bafe9fd8f4f",
+      "readback": "EXACT_CONTENT_MATCH"
+    },
+    {
+      "path": "docs/pmo/recovery/20261019/test_ce_pmo_zip_verify_v01.py",
+      "commit_sha": "6680f1d5edd6d64e092e706be6879e7a95b21ff2",
+      "blob_sha": "1602a98823d4700088cecc4ac236ae9023446dc2",
+      "readback": "EXACT_CONTENT_MATCH"
+    },
+    {
+      "path": "docs/pmo/recovery/20261019/CE_PMO_ZIP_INTEGRIDADE_P1B_20261019_CANDIDATE.json",
+      "commit_sha": "ee9c6fde8d3f9223820a17c4eb0ac92fefb2c847",
+      "blob_sha": "10f219e17b188c8cf5e7db866072bc06609da564",
+      "readback": "EXACT_CONTENT_MATCH"
+    },
+    {
+      "path": "docs/pmo/recovery/20261019/CE_PMO_FIND_ZIPS_DUPLICIDADES_P1B_20261019_CANDIDATE.md",
+      "commit_sha": "165d6ee0f4d9ccc04db7dd50bb5bc45a3e544a59",
+      "blob_sha": "ed8cdbb5bb9f5e49211389b0e7fcd93af39eba35",
+      "readback": "EXACT_CONTENT_MATCH"
+    },
+    {
+      "path": "docs/pmo/recovery/20261019/CE_PMO_REGISTRO_MESTRE_20261019_v0.1.0_CANDIDATE.json",
+      "commit_sha": "89c66ce928808e20c7805bf242842f8709f4a53c",
+      "blob_sha": "23816cee749ef27f656a8fcb50b1ef92c959007b",
+      "readback": "EXACT_CONTENT_MATCH"
+    }
+  ],
+  "integrity_tests": "12_OF_12_PASS",
+  "zip_crc_verified_members": 1956,
+  "zip_containers": 13,
+  "pmo_trusted": false,
+  "release": "HOLD",
+  "limitations": [
+    "external receipt does not certify full corpus or remote provenance",
+    "no main or production changes"
+  ]
+}
