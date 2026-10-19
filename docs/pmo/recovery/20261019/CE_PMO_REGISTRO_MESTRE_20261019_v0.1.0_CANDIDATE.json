@@ -3,7 +3,7 @@
   "project_id": "CE-CALCULADORAS-ENFERMAGEM",
   "repository": "IndiciumFIN/calculadorasdeenfermagem",
   "cutoff_local": "2026-10-19",
-  "authoritative_location": "GITHUB_PENDING_KERNEL_ADMISSION_AND_READBACK",
+  "authoritative_location": "GITHUB_PMO_CANDIDATE_READBACK; PROJECT_KERNEL_GATE_HOLD",
   "state": "CANDIDATE_NOT_CANONICAL",
   "pmo_trusted": false,
   "project_execution_allowed": false,
@@ -29,7 +29,7 @@
     "requires_commit_and_readback_per_task": true,
     "does_not_enable_project_execution": true
   },
-  "scope_restrictions": ["NO_DRIVE_ACCESS", "SUPABASE_READ_ONLY", "NO_MERGE", "NO_REMOTE_MUTATIONS", "M24_HOLD", "NO_ATOMIZATION_UNTIL_PMO_TRUSTED"],
+  "scope_restrictions": ["NO_DRIVE_ACCESS", "SUPABASE_READ_ONLY", "NO_MERGE", "NO_REMOTE_MUTATIONS_EXCEPT_PMO_DOCUMENTARY_BRANCH", "M24_HOLD", "NO_ATOMIZATION_UNTIL_PMO_TRUSTED"],
   "source_register": [
     {"source_id": "S-01", "kind": "LOCAL_REPORT", "ref": "CE_BRANCH_RECON_READONLY_20261019_CANDIDATE.md", "cutoff": "2026-10-19", "evidence_status": "LOCAL_READBACK_REPORT"},
     {"source_id": "S-02", "kind": "GITHUB_READBACK", "ref": "IndiciumFIN/calculadorasdeenfermagem; branch listing; PR #2/#3/#4/#6", "cutoff": "2026-10-19", "evidence_status": "DIRECT_READBACK_PARTIAL"},
@@ -78,9 +78,9 @@
     {"id": "G-PMO-02", "status": "HOLD", "reason": "historical IDs and aliases not reconciled"},
     {"id": "G-PMO-03", "status": "HOLD", "reason": "all metrics not yet linked to verified original bytes"},
     {"id": "G-PMO-04", "status": "HOLD", "reason": "find/task closure register not unified"},
-    {"id": "G-PMO-05", "status": "HOLD", "reason": "Kernel authority absent"},
+    {"id": "G-PMO-05", "status": "HOLD", "reason": "PMO-only documentary authorization is scoped; remaining authority/integrity checks and productive Kernel are not proven"},
     {"id": "G-PMO-06", "status": "HOLD", "reason": "PMO adversarial regression suite pending"},
-    {"id": "G-PMO-07", "status": "HOLD", "reason": "no governed GitHub PR/readback"},
+    {"id": "G-PMO-07", "status": "HOLD", "reason": "candidate branch readback exists, but controlled restore and independently verified release are pending"},
     {"id": "G-PMO-08", "status": "HOLD", "reason": "independent approval pending"}
   ]
 }
