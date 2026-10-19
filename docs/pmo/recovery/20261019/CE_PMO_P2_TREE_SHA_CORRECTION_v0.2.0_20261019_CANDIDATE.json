@@ -1,0 +1,165 @@
+{
+  "schema_version": "0.2.0-CANDIDATE",
+  "title": "P2 tree SHA documentary correction without overwriting historical report",
+  "date": "2026-10-19",
+  "find_reference": "P2-TREE-SHA-FIELD-MISLABEL",
+  "source": {
+    "legacy_report": "docs/pmo/recovery/20261019/CE_PMO_P2_SMALL_TREES_MAIN_CROSSWALK_20261019_CANDIDATE.json",
+    "legacy_blob": "60edd8189a16830e9f0c9305ca165329f30844d2",
+    "pinned_manifest": "docs/pmo/recovery/20261019/CE_PMO_GIT_BRANCH_TREES_P1CB_20261019_CANDIDATE.json",
+    "manifest_blob": "98995b9391d4b51b8dad75a68ebac9d6283ba660"
+  },
+  "root_cause_assessment": "LIKELY_FIELD_MAPPING_COMMIT_TO_TREE; PRODUCER_IMPLEMENTATION_NOT_AVAILABLE_TO_PROVE ROOT CAUSE",
+  "correction_policy": "NONDESTRUCTIVE_SIDECAR_CANONICAL_CANDIDATE; ORIGINAL_UNCHANGED",
+  "checks": {
+    "all_11_commit_tree_field_mismatch": true,
+    "records": 11,
+    "tree_sha_format_40hex": true,
+    "each_tree_distinct_from_commit": true,
+    "blob_count_preserved": true
+  },
+  "records": [
+    {
+      "branch": "audit/ce04-reconciliation-tasks-20261017",
+      "pinned_commit": "2a1250d2d5c8c159be2ede462306822c0cb70943",
+      "legacy_observed_tree_sha": "2a1250d2d5c8c159be2ede462306822c0cb70943",
+      "corrected_tree_sha": "9917ecc6b8d2d8ae96f34a96c57b8bb6a116a307",
+      "expected_blob_count": 238,
+      "observed_blob_count": 238,
+      "check_commit_not_tree": true,
+      "check_true_tree_differs": true,
+      "check_blob_counts": true,
+      "source_manifest_tree_verified_in_this_microlot": false
+    },
+    {
+      "branch": "cursor/wf-gdrive-sakey",
+      "pinned_commit": "4e3d4979e3da82c9fc7ff71beaf87fba73aa8702",
+      "legacy_observed_tree_sha": "4e3d4979e3da82c9fc7ff71beaf87fba73aa8702",
+      "corrected_tree_sha": "16548d1bc7e08033d5ea21f5742ce0cfe6b4bac2",
+      "expected_blob_count": 78,
+      "observed_blob_count": 78,
+      "check_commit_not_tree": true,
+      "check_true_tree_differs": true,
+      "check_blob_counts": true,
+      "source_manifest_tree_verified_in_this_microlot": false
+    },
+    {
+      "branch": "cursor/wf-v3",
+      "pinned_commit": "8056d08a35cfb7932933fa330d8c902e5a465710",
+      "legacy_observed_tree_sha": "8056d08a35cfb7932933fa330d8c902e5a465710",
+      "corrected_tree_sha": "2c74e968365835b2154a3a2e9abdaff165272040",
+      "expected_blob_count": 69,
+      "observed_blob_count": 69,
+      "check_commit_not_tree": true,
+      "check_true_tree_differs": true,
+      "check_blob_counts": true,
+      "source_manifest_tree_verified_in_this_microlot": false
+    },
+    {
+      "branch": "fix/ce05-kernel-ci-security-20261017",
+      "pinned_commit": "e1c9ace498b66ac831849ad1df51ee14e11e3efc",
+      "legacy_observed_tree_sha": "e1c9ace498b66ac831849ad1df51ee14e11e3efc",
+      "corrected_tree_sha": "28f33af0b823337e464d5dbabd1b07538bfb5aef",
+      "expected_blob_count": 185,
+      "observed_blob_count": 185,
+      "check_commit_not_tree": true,
+      "check_true_tree_differs": true,
+      "check_blob_counts": true,
+      "source_manifest_tree_verified_in_this_microlot": false
+    },
+    {
+      "branch": "IndiciumFIN-patch-1",
+      "pinned_commit": "ccb21b7814211b80071dc0fd5f866aea7f285238",
+      "legacy_observed_tree_sha": "ccb21b7814211b80071dc0fd5f866aea7f285238",
+      "corrected_tree_sha": "1bcd89c6bb5451a58771d9d87b15d6736e57f498",
+      "expected_blob_count": 177,
+      "observed_blob_count": 177,
+      "check_commit_not_tree": true,
+      "check_true_tree_differs": true,
+      "check_blob_counts": true,
+      "source_manifest_tree_verified_in_this_microlot": false
+    },
+    {
+      "branch": "integration/canonical-main-20261017",
+      "pinned_commit": "c704c3cf9241cde7697acb860e598bd01bd58cf5",
+      "legacy_observed_tree_sha": "c704c3cf9241cde7697acb860e598bd01bd58cf5",
+      "corrected_tree_sha": "51498347dd2ef858c66d346134e2ab08228f8012",
+      "expected_blob_count": 134,
+      "observed_blob_count": 134,
+      "check_commit_not_tree": true,
+      "check_true_tree_differs": true,
+      "check_blob_counts": true,
+      "source_manifest_tree_verified_in_this_microlot": false
+    },
+    {
+      "branch": "main",
+      "pinned_commit": "e0f62491b104f4a97c6025a6393cabc2e7ada30e",
+      "legacy_observed_tree_sha": "e0f62491b104f4a97c6025a6393cabc2e7ada30e",
+      "corrected_tree_sha": "bf5be2752ccdabada2a1dc602a71c9a15338c504",
+      "expected_blob_count": 176,
+      "observed_blob_count": 176,
+      "check_commit_not_tree": true,
+      "check_true_tree_differs": true,
+      "check_blob_counts": true,
+      "source_manifest_tree_verified_in_this_microlot": false
+    },
+    {
+      "branch": "migration/ce01-historical-evidence-b01-20261017",
+      "pinned_commit": "4206865dc5f07f3ef4b36f04c2572b7224f713c1",
+      "legacy_observed_tree_sha": "4206865dc5f07f3ef4b36f04c2572b7224f713c1",
+      "corrected_tree_sha": "eee754028b6d07181dce1f40ce944c3f7349c820",
+      "expected_blob_count": 182,
+      "observed_blob_count": 182,
+      "check_commit_not_tree": true,
+      "check_true_tree_differs": true,
+      "check_blob_counts": true,
+      "source_manifest_tree_verified_in_this_microlot": false
+    },
+    {
+      "branch": "migration/pilot-policies-20261017",
+      "pinned_commit": "2fc555f854c64b9d44f778805fbfca7675bd3cce",
+      "legacy_observed_tree_sha": "2fc555f854c64b9d44f778805fbfca7675bd3cce",
+      "corrected_tree_sha": "9b0095134d6ccb729b60c690399f226622bad65a",
+      "expected_blob_count": 185,
+      "observed_blob_count": 185,
+      "check_commit_not_tree": true,
+      "check_true_tree_differs": true,
+      "check_blob_counts": true,
+      "source_manifest_tree_verified_in_this_microlot": false
+    },
+    {
+      "branch": "pmo/recovery-controlled-20261019",
+      "pinned_commit": "142987e59bbce7c7278fac1c26d71f8dbc1172c7",
+      "legacy_observed_tree_sha": "142987e59bbce7c7278fac1c26d71f8dbc1172c7",
+      "corrected_tree_sha": "51327fd6a1e81a0d731aa88c970c11559d2ea450",
+      "expected_blob_count": 199,
+      "observed_blob_count": 199,
+      "check_commit_not_tree": true,
+      "check_true_tree_differs": true,
+      "check_blob_counts": true,
+      "source_manifest_tree_verified_in_this_microlot": false
+    },
+    {
+      "branch": "staging/wo-kernel-normativos-cli-20261016",
+      "pinned_commit": "c54d416b7f4c8a465798ccbebad9973799dd07ab",
+      "legacy_observed_tree_sha": "c54d416b7f4c8a465798ccbebad9973799dd07ab",
+      "corrected_tree_sha": "9ec730337f7069825e76a76f7a0ff90275e3d8eb",
+      "expected_blob_count": 79,
+      "observed_blob_count": 79,
+      "check_commit_not_tree": true,
+      "check_true_tree_differs": true,
+      "check_blob_counts": true,
+      "source_manifest_tree_verified_in_this_microlot": false
+    }
+  ],
+  "remaining": [
+    "INDEPENDENT_TREE_OBJECT_READBACK",
+    "PRODUCER_SERIALIZER_ROOT_CAUSE",
+    "FIND_DEDUP_IN_REGISTER",
+    "VALIDATOR_TEST_TO_PREVENT_RECURRENCE",
+    "P5_SEGREGATED_AUDIT"
+  ],
+  "result": "DOCUMENTARY_ERRATA_PASS_BOUNDED; FIND_NOT_CLOSED; P2_TASKS_NOT_CLOSED",
+  "queue_mutated": false,
+  "production_mutated": false
+}
