@@ -1,0 +1,20 @@
+{
+  "receipt_id": "CE-PMO-EXTERNAL-20261019-001",
+  "schema_version": "0.1.0",
+  "repository": "IndiciumFIN/calculadorasdeenfermagem",
+  "branch": "pmo/recovery-controlled-20261019",
+  "scope": "PMO_DOCUMENTARY_ONLY",
+  "receipt_issuer": "ROOT_ORCHESTRATOR_INDEPENDENT_OF_PMO_REGISTER_WRITER",
+  "publication_readback": "EXACT_CONTENT_CONFIRMED_BY_WRITING_AGENTS",
+  "attestations": [
+    {"path": "docs/pmo/recovery/20261019/ce_pmo_inventory_guard_v01.py", "commit_sha": "896e7c404c43800972bbb2b8f0b373d4f6da53b7", "blob_sha": "c720aec0fd456706b92c52ecaf1ae31ebe434df7"},
+    {"path": "docs/pmo/recovery/20261019/test_ce_pmo_inventory_guard_v01.py", "commit_sha": "e36de7802fe0f64e6b2c23d505b5ea7e504d7e0a", "blob_sha": "eee4f492d46c33e9888c9ea728574ec87c087607"},
+    {"path": "docs/pmo/recovery/20261019/CE_PMO_VALIDADOR_INDEPENDENTE_20261019.py", "commit_sha": "45dbd8835613fc777d781c1e0c5fb9be7f1c1124", "blob_sha": "15c72272c60afd7daa7a87b6ac09b2e76a3a5de3"},
+    {"path": "docs/pmo/recovery/20261019/CE_PMO_PARECER_INDEPENDENTE_VALIDACAO_20261019_CANDIDATE.md", "commit_sha": "7bb3d9d06963afd7c04f2b5bf6b6617a2d039c8a", "blob_sha": "1e866e5eb5ced056a735a7b50422f4aa7c4454a2"},
+    {"path": "docs/pmo/recovery/20261019/CE_PMO_GUARDIAN_POLICY_P1_20261019_CANDIDATE.md", "commit_sha": "efb166196f78334d5895fe2abdb946a426cb123d", "blob_sha": "0fa8c1a880749aab8466701af69299d065901dcf"},
+    {"path": "docs/pmo/recovery/20261019/CE_PMO_REGISTRO_MESTRE_20261019_v0.1.0_CANDIDATE.json", "commit_sha": "1e02e2cc7e2d3a5099f275eb9e26719037cbdb57", "blob_sha": "336ef602fdbf701de15b4e8c97037fc79f03a838"}
+  ],
+  "test_evidence": {"guardian_unit_tests": "15_OF_15_PASS", "independent_static_checks": "17_PASS", "independent_holds": 5, "release_certification": "HOLD"},
+  "state_controls": {"pmo_trusted": false, "project_execution_allowed": false, "m24": "HOLD", "main_changed_by_this_workflow": false},
+  "limitations": ["Evidence receipt attests observed GitHub readback, not complete project inventory", "Automated CI enforcement not installed", "Independent receipt itself requires post-publication GitHub fetch and checksum verification"]
+}
