@@ -28,8 +28,9 @@
       "id": "VAL-GAP-002",
       "status": "HOLD_P1_SNAPSHOT_DETAILED_CUSTODY",
       "existing_evidence": ["CE_PMO_INVENTARIO_RECURSIVO_RESUMO_20261019_CANDIDATE.json", "CE_PMO_FIND_CUSTODIA_INVENTARIO_P1_20261019_CANDIDATE.md", "CE_PMO_ZIP_INTEGRIDADE_P1B_20261019_CANDIDATE.json"],
-      "partial_progress": "Frozen 768-file local aggregate and 13-ZIP integrity evidence are retained; 771 post-snapshot files previously observed at a different time",
-      "missing": "Original exact scan timestamp, immutable private item-level path/size/SHA inventory, independently tested delta and full restore/custody proof",
+      "partial_progress": "Frozen 768-file local aggregate and 13-ZIP integrity evidence retained; new independently timestamped 823-file private snapshot captured at 2026-10-19T11:56:06.361038+00:00 and saved outside GitHub. Delta of 55 is population difference, not 55 new or missing source files; no original item-level manifest exists here for exact path diff",
+      "new_private_snapshot": {"snapshot_id": "P1-A-NEW-PRIVATE-20261019-V2", "regular_files": 823, "observed_count_difference_from_original_768": 55, "captured_at_utc": "2026-10-19T11:56:06.361038+00:00", "storage": "PRIVATE_LIBRARY_COPY_SAVED", "local_identity_metadata": "NOT_PERSISTED_READ_ONLY_FILESYSTEM", "independent_library_readback": "PENDING", "published_to_public_git": false},
+      "missing": "Original exact scan timestamp and original private item-level manifest cannot be retroactively reconstructed; independently tested path/hash deltas between original and new private snapshot, verified private copy readback and full restore/custody proof are still pending",
       "closure_acceptance": "Create new immutable private snapshot with timestamp, scanner version, local path/hash/size manifest, parent snapshot and append-only delta; confirm all paths and hashes independently and store detailed sensitive inventory privately; preserve original 768 count, do not overwrite baseline",
       "blocked_shortcut": "Current re-scan or aggregate counts cannot retroactively fabricate the original frozen snapshot timestamp"
     },
