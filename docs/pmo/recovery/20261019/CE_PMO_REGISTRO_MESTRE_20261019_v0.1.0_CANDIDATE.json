@@ -9,9 +9,9 @@
   "project_execution_allowed": false,
   "pmo_control_revision": {
     "version": "0.2.0-CANDIDATE",
-    "change_id": "PMO-INDEPENDENT-GAPS-ZIP-CRC-20261019-010",
+    "change_id": "PMO-P1-PRIVATE-SNAPSHOT-823-HOLD-20261019-011",
     "supersedes_control_revision": "0.1.0",
-    "change_reason": "Close obsolete bounded local ZIP CRC validator hold using independent re-run of 13 archives and 1956 members; preserve three distinct independent assurance holds with explicit closure criteria and disabled GitHub ruleset",
+    "change_reason": "Preserve new private 823-file timestamped snapshot without replacing original 768 baseline; record 55 population-count difference without inferring path addition/loss, and retain independent custody readback/metadata HOLD",
     "control_state": "DOCUMENTARY_CONSOLIDATION_IN_PROGRESS",
     "release_state": "HOLD",
     "current_register_sha_attestation": "NOT_SELF_ATTESTED; REQUIRE_INDEPENDENT_GITHUB_FETCH_RECEIPT",
@@ -164,7 +164,8 @@
     {"source_id": "S-35", "kind": "PARALLEL_DOCUMENTARY_EVIDENCE_LINKAGE", "ref": "CE_PMO_EXECUCAO_PARALELA_P2_P5_REUSE_20261019_CANDIDATE.json", "cutoff": "2026-10-19", "evidence_status": "FOUR_WAVES_SOURCE_LINKS_ONLY_NOT_PRODUCTIVE_COMPLETION"},
     {"source_id": "S-36", "kind": "CROSS_WAVE_PMO_GUARDIAN_INDEPENDENT_VALIDATION", "ref": "ce_pmo_inventory_guard_v01.py; test_ce_pmo_inventory_guard_v01.py; CE_PMO_VALIDADOR_INDEPENDENTE_20261019.py; CE_PMO_FILA_EXECUCAO_P1_P5_20261019_CANDIDATE.json", "cutoff": "2026-10-19", "evidence_status": "59_UNIT_TESTS_22_INDEPENDENT_STATIC_PASSES_4_RELEASE_HOLDS"},
     {"source_id": "S-37", "kind": "P4_PINNED_SOURCE_RIGHTS_CROSSWALK", "ref": "CE_PMO_P4_CROSSWALK_FONTES_61_ARQUIVOS_65_20261019_CANDIDATE.json; test_ce_pmo_p4_source_rights_crosswalk_v01.py", "cutoff": "2026-10-19", "evidence_status": "65_FILE_DESCRIPTOR_MATCHES_61_SOURCE_OBJECTS_49_URLS_61_RIGHTS_HOLD; NO_PER_RECORD_ATTRIBUTION_APPROVED"},
-    {"source_id": "S-38", "kind": "INDEPENDENT_GAP_TRIAGE_AND_ZIP_CRC_REPLAY", "ref": "CE_PMO_MATRIZ_LACUNAS_INDEPENDENTES_20261019_CANDIDATE.json; CE_PMO_VALIDADOR_INDEPENDENTE_20261019.py; test_ce_pmo_independent_zip_gap_v01.py", "cutoff": "2026-10-19", "evidence_status": "25_STATIC_PASS_3_HOLD_80_UNIT_TESTS_LOCAL; ZIP_13_CRC_1956_REPLAY_PASS_ONLY"}
+    {"source_id": "S-38", "kind": "INDEPENDENT_GAP_TRIAGE_AND_ZIP_CRC_REPLAY", "ref": "CE_PMO_MATRIZ_LACUNAS_INDEPENDENTES_20261019_CANDIDATE.json; CE_PMO_VALIDADOR_INDEPENDENTE_20261019.py; test_ce_pmo_independent_zip_gap_v01.py", "cutoff": "2026-10-19", "evidence_status": "25_STATIC_PASS_3_HOLD_80_UNIT_TESTS_LOCAL; ZIP_13_CRC_1956_REPLAY_PASS_ONLY"},
+    {"source_id": "S-39", "kind": "P1_PRIVATE_NEW_TIMESTAMPED_SNAPSHOT", "ref": "CE_PMO_CUSTODIA_SNAPSHOT_PRIVADO_20261019_V2.json (PRIVATE_LIBRARY_NOT_PUBLIC_GIT)", "cutoff": "2026-10-19T11:56:06.361038+00:00", "evidence_status": "823_LOCAL_FILES_PRIVATE_COPY_SAVED; 768_FROZEN_BASELINE_UNCHANGED; DETAILED_DELTA_AND_INDEPENDENT_READBACK_HOLD"}
   ],
   "populations": [
     {"population_id": "POP-BRANCH", "unit": "BRANCH", "count": 14, "processed": null, "approved": null, "cutoff": "2026-10-19", "source_ids": ["S-02"], "status": "HISTORICAL_BEFORE_PMO_BRANCH_NOT_RECONCILED"},
