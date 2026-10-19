@@ -6,7 +6,7 @@ import pathlib
 import tempfile
 import unittest
 from unittest.mock import patch
-from ce_agent_assurance import evaluate, validate_catalog, EXIT_FAIL, EXIT_HOLD, EXIT_PASS
+from ce_agent_assurance import evaluate, validate_catalog, process_plan, SEQUENCE, PROCESS_CONTROLS, EXIT_FAIL, EXIT_HOLD, EXIT_PASS
 
 AGENT = {"agent_id":"P1-HASH-INDEXER","wave":"P1","deployment_state":"NOT_DEPLOYED"}
 CATALOG = {"agents":[AGENT]}
@@ -86,6 +86,25 @@ class AssuranceTests(unittest.TestCase):
     def test_false_deployment(self):
         a=dict(AGENT,deployment_state="DEPLOYED")
         self.assertTrue(any("FALSE_DEPLOYMENT" in e for e in validate_catalog({"agents":[a]})))
+
+    def test_process_plan_order(self):
+        for p in ("PMO","P1","P2","P3","P4","P5"):
+            catalog={"agents":[{"agent_id":"A","wave":p,"deployment_state":"NOT_DEPLOYED"}]}
+            plan=process_plan(catalog,p)
+            self.assertEqual(plan["decision"],"PASS_BOUNDED")
+            self.assertEqual(tuple(plan["sequence"]),SEQUENCE)
+            self.assertTrue(plan["required_domain_controls"])
+            self.assertNotIn("PRODUCTION_ADMITTED",plan["status"].split())
+
+    def test_surprise_seeded_hash_mutations(self):
+        import random
+        rnd=random.Random(20261019)
+        for _ in range(40):
+            payload=bytearray(self.bytes)
+            idx=rnd.randrange(len(payload))
+            payload[idx] ^= rnd.randrange(1,256)
+            (self.root/"sample.txt").write_bytes(bytes(payload))
+            self.assertTrue(any("HASH_MISMATCH" in x for x in self.result()["failures"]))
 
     def test_unknown_process(self):
         self.assertIn("UNKNOWN_PROCESS",self.result(process="OTHER")["failures"])
