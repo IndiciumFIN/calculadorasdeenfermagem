@@ -1,0 +1,28 @@
+{
+  "kind": "APPEND_ONLY_PRIVATE_SNAPSHOT_DOCUMENTARY_RECEIPT",
+  "receipt_id": "CE-PMO-PRIVATE-CUSTODY-015-20261019",
+  "repository": "IndiciumFIN/calculadorasdeenfermagem",
+  "branch": "pmo/recovery-controlled-20261019",
+  "head_before_receipt": "cb6c4a9ac15fc7a23058258b8fe81d2f39bdbdc2",
+  "published_public_metadata": [
+    {"file": "CE_PMO_MATRIZ_LACUNAS_INDEPENDENTES_20261019_CANDIDATE.json", "commit": "3fe8231a4f6caacad7eb896b84eacd365f2c553a"},
+    {"file": "CE_PMO_REGISTRO_MESTRE_20261019_v0.1.0_CANDIDATE.json", "commit": "cb6c4a9ac15fc7a23058258b8fe81d2f39bdbdc2"}
+  ],
+  "public_metadata_git_blob_exact": "2/2 remote tree blob SHA equals local independent git hash-object",
+  "private_snapshot": {
+    "snapshot_id": "P1-A-NEW-PRIVATE-20261019-V2",
+    "captured_at_utc": "2026-10-19T11:56:06.361038+00:00",
+    "regular_files": 823,
+    "original_frozen_count": 768,
+    "arithmetic_population_count_difference": 55,
+    "interpretation": "Different snapshot cutoffs, not a verified per-path delta or data-loss conclusion",
+    "private_copy_saved": true,
+    "original_manifest_recovered": false,
+    "private_remote_readback_independent": "PENDING",
+    "local_library_identity_xattrs": "NOT_PERSISTED_FILESYSTEM_READ_ONLY",
+    "public_git_contains_private_manifest": false
+  },
+  "control_state": {"val_gap_003": "PASS_BOUNDED", "val_gap_001": "HOLD", "val_gap_002": "HOLD_PARTIAL_PRIVATE_SNAPSHOT", "val_gap_004": "HOLD", "m24": "HOLD", "pmo_trusted": false, "release": "HOLD_NOT_CERTIFIED"},
+  "no_main_mutation": true,
+  "final_user_approval": "PENDING"
+}
