@@ -1,0 +1,184 @@
+{
+  "schema_version": "0.1.0-CANDIDATE",
+  "cutoff": "2026-10-19",
+  "task": "P2-01",
+  "status": "READ_ONLY_QUARANTINE_PARTIAL",
+  "compare": {
+    "base": "main",
+    "base_commit_sha": "e0f62491b104f4a97c6025a6393cabc2e7ada30e",
+    "head": "integration/canonical-main-20261017",
+    "merge_base_sha": "39d4283ca7689b1028eb11d35f453908f922de9d",
+    "status": "diverged",
+    "ahead_by": 8,
+    "behind_by": 6,
+    "changed_files": 44,
+    "proposed_removals": 22
+  },
+  "removals": [
+    {
+      "path": "contracts/fonts/DIRECTORY_OBSOLETO.json",
+      "observed": "PROPOSED_REMOVAL_IN_COMPARE_ONLY",
+      "decision": "QUARANTINE_KEEP_BOTH",
+      "source_blob_sha": "NOT_INCLUDED_IN_COMPARE_RESPONSE",
+      "authorization": "NOT_GRANTED"
+    },
+    {
+      "path": "contracts/fonts/anvisa_dev.json",
+      "observed": "PROPOSED_REMOVAL_IN_COMPARE_ONLY",
+      "decision": "QUARANTINE_KEEP_BOTH",
+      "source_blob_sha": "NOT_INCLUDED_IN_COMPARE_RESPONSE",
+      "authorization": "NOT_GRANTED"
+    },
+    {
+      "path": "contracts/fonts/anvisa_dou.json",
+      "observed": "PROPOSED_REMOVAL_IN_COMPARE_ONLY",
+      "decision": "QUARANTINE_KEEP_BOTH",
+      "source_blob_sha": "NOT_INCLUDED_IN_COMPARE_RESPONSE",
+      "authorization": "NOT_GRANTED"
+    },
+    {
+      "path": "contracts/fonts/anvisa_med.json",
+      "observed": "PROPOSED_REMOVAL_IN_COMPARE_ONLY",
+      "decision": "QUARANTINE_KEEP_BOTH",
+      "source_blob_sha": "NOT_INCLUDED_IN_COMPARE_RESPONSE",
+      "authorization": "NOT_GRANTED"
+    },
+    {
+      "path": "contracts/fonts/atlas.json",
+      "observed": "PROPOSED_REMOVAL_IN_COMPARE_ONLY",
+      "decision": "QUARANTINE_KEEP_BOTH",
+      "source_blob_sha": "NOT_INCLUDED_IN_COMPARE_RESPONSE",
+      "authorization": "NOT_GRANTED"
+    },
+    {
+      "path": "contracts/fonts/catmat.json",
+      "observed": "PROPOSED_REMOVAL_IN_COMPARE_ONLY",
+      "decision": "QUARANTINE_KEEP_BOTH",
+      "source_blob_sha": "NOT_INCLUDED_IN_COMPARE_RESPONSE",
+      "authorization": "NOT_GRANTED"
+    },
+    {
+      "path": "contracts/fonts/cdsi.json",
+      "observed": "PROPOSED_REMOVAL_IN_COMPARE_ONLY",
+      "decision": "QUARANTINE_KEEP_BOTH",
+      "source_blob_sha": "NOT_INCLUDED_IN_COMPARE_RESPONSE",
+      "authorization": "NOT_GRANTED"
+    },
+    {
+      "path": "contracts/fonts/cid10.json",
+      "observed": "PROPOSED_REMOVAL_IN_COMPARE_ONLY",
+      "decision": "QUARANTINE_KEEP_BOTH",
+      "source_blob_sha": "NOT_INCLUDED_IN_COMPARE_RESPONSE",
+      "authorization": "NOT_GRANTED"
+    },
+    {
+      "path": "contracts/fonts/cid11.json",
+      "observed": "PROPOSED_REMOVAL_IN_COMPARE_ONLY",
+      "decision": "QUARANTINE_KEEP_BOTH",
+      "source_blob_sha": "NOT_INCLUDED_IN_COMPARE_RESPONSE",
+      "authorization": "NOT_GRANTED"
+    },
+    {
+      "path": "contracts/fonts/cofen_dou.json",
+      "observed": "PROPOSED_REMOVAL_IN_COMPARE_ONLY",
+      "decision": "QUARANTINE_KEEP_BOTH",
+      "source_blob_sha": "NOT_INCLUDED_IN_COMPARE_RESPONSE",
+      "authorization": "NOT_GRANTED"
+    },
+    {
+      "path": "contracts/fonts/esavi.json",
+      "observed": "PROPOSED_REMOVAL_IN_COMPARE_ONLY",
+      "decision": "QUARANTINE_KEEP_BOTH",
+      "source_blob_sha": "NOT_INCLUDED_IN_COMPARE_RESPONSE",
+      "authorization": "NOT_GRANTED"
+    },
+    {
+      "path": "contracts/fonts/fhir_vitais.json",
+      "observed": "PROPOSED_REMOVAL_IN_COMPARE_ONLY",
+      "decision": "QUARANTINE_KEEP_BOTH",
+      "source_blob_sha": "NOT_INCLUDED_IN_COMPARE_RESPONSE",
+      "authorization": "NOT_GRANTED"
+    },
+    {
+      "path": "contracts/fonts/lei_federal.json",
+      "observed": "PROPOSED_REMOVAL_IN_COMPARE_ONLY",
+      "decision": "QUARANTINE_KEEP_BOTH",
+      "source_blob_sha": "NOT_INCLUDED_IN_COMPARE_RESPONSE",
+      "authorization": "NOT_GRANTED"
+    },
+    {
+      "path": "contracts/fonts/medlineplus.json",
+      "observed": "PROPOSED_REMOVAL_IN_COMPARE_ONLY",
+      "decision": "QUARANTINE_KEEP_BOTH",
+      "source_blob_sha": "NOT_INCLUDED_IN_COMPARE_RESPONSE",
+      "authorization": "NOT_GRANTED"
+    },
+    {
+      "path": "contracts/fonts/mesh.json",
+      "observed": "PROPOSED_REMOVAL_IN_COMPARE_ONLY",
+      "decision": "QUARANTINE_KEEP_BOTH",
+      "source_blob_sha": "NOT_INCLUDED_IN_COMPARE_RESPONSE",
+      "authorization": "NOT_GRANTED"
+    },
+    {
+      "path": "contracts/fonts/ms_portarias.json",
+      "observed": "PROPOSED_REMOVAL_IN_COMPARE_ONLY",
+      "decision": "QUARANTINE_KEEP_BOTH",
+      "source_blob_sha": "NOT_INCLUDED_IN_COMPARE_RESPONSE",
+      "authorization": "NOT_GRANTED"
+    },
+    {
+      "path": "contracts/fonts/pni.json",
+      "observed": "PROPOSED_REMOVAL_IN_COMPARE_ONLY",
+      "decision": "QUARANTINE_KEEP_BOTH",
+      "source_blob_sha": "NOT_INCLUDED_IN_COMPARE_RESPONSE",
+      "authorization": "NOT_GRANTED"
+    },
+    {
+      "path": "contracts/fonts/sies.json",
+      "observed": "PROPOSED_REMOVAL_IN_COMPARE_ONLY",
+      "decision": "QUARANTINE_KEEP_BOTH",
+      "source_blob_sha": "NOT_INCLUDED_IN_COMPARE_RESPONSE",
+      "authorization": "NOT_GRANTED"
+    },
+    {
+      "path": "contracts/fonts/sinan.json",
+      "observed": "PROPOSED_REMOVAL_IN_COMPARE_ONLY",
+      "decision": "QUARANTINE_KEEP_BOTH",
+      "source_blob_sha": "NOT_INCLUDED_IN_COMPARE_RESPONSE",
+      "authorization": "NOT_GRANTED"
+    },
+    {
+      "path": "contracts/fonts/taco.json",
+      "observed": "PROPOSED_REMOVAL_IN_COMPARE_ONLY",
+      "decision": "QUARANTINE_KEEP_BOTH",
+      "source_blob_sha": "NOT_INCLUDED_IN_COMPARE_RESPONSE",
+      "authorization": "NOT_GRANTED"
+    },
+    {
+      "path": "contracts/fonts/vacinas_cdc.json",
+      "observed": "PROPOSED_REMOVAL_IN_COMPARE_ONLY",
+      "decision": "QUARANTINE_KEEP_BOTH",
+      "source_blob_sha": "NOT_INCLUDED_IN_COMPARE_RESPONSE",
+      "authorization": "NOT_GRANTED"
+    },
+    {
+      "path": "test.txt",
+      "observed": "PROPOSED_REMOVAL_IN_COMPARE_ONLY",
+      "decision": "QUARANTINE_KEEP_BOTH",
+      "source_blob_sha": "NOT_INCLUDED_IN_COMPARE_RESPONSE",
+      "authorization": "NOT_GRANTED"
+    }
+  ],
+  "not_done": [
+    "PER_PATH_OLD_BLOB_SHA_READBACK",
+    "PROPOSED_NEW_VARIANTS",
+    "PR_OVERLAP",
+    "SECURITY_AND_RIGHTS_REVIEW",
+    "INDEPENDENT_NON_DELETION_TEST"
+  ],
+  "prohibition": "NO_DELETE_NO_MERGE_NO_MAIN",
+  "find_link": "P2-FIND-DELETION-QUARANTINE",
+  "gate": "HOLD",
+  "task_queue_unchanged": true
+}
