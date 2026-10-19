@@ -123,6 +123,60 @@ def check_control_chain(pmo: dict, queue: dict, findings: list[str]) -> None:
         guard(bool(task.get("evidence_required")) and bool(task.get("acceptance")) and bool(task.get("release_gate")), f"QUEUE_EVIDENCE_OR_GATE_MISSING:{index}", findings)
         guard(all(dep in ids or dep == "P1-C-C" for dep in task.get("depends_on", [])), f"QUEUE_DEPENDENCY_UNRESOLVED:{index}", findings)
     guard(queue.get("rules", {}).get("runtime_scope", "").startswith("No productive run until"), "QUEUE_RUNTIME_POLICY_MISSING", findings)
+    wo = [p for p in pmo.get("populations", []) if p.get("population_id") == "POP-PR2-WO"]
+    guard(len(wo) == 1 and wo[0].get("count") == 164 and wo[0].get("approved") is None, "PR2_WO_POPULATION_NOT_164_HOLD", findings)
+    p3 = [t for t in tasks if isinstance(t, dict) and t.get("id") == "P3-A"]
+    guard(len(p3) == 1 and "164 PR2 WOs" in p3[0].get("action", "") and "38-to-164-to-102" in p3[0].get("acceptance", ""), "QUEUE_STALE_WO_COUNT", findings)
+
+
+def check_parallel_controls(pmo: dict, queue: dict, dispatch: dict, findings: list[str]) -> None:
+    """Cross-wave evidence references; no claim of Kernel or server-side enforcement."""
+    check_control_chain(pmo, queue, findings)
+    guard(dispatch.get("kind") == "PARALLEL_DOCUMENTARY_EVIDENCE_LINKAGE_REGISTER", "DISPATCH_IDENTITY_INVALID", findings)
+    guard(dispatch.get("status") == "DOCUMENTARY_START_NOT_EXECUTION_COMPLETION", "DISPATCH_FALSE_COMPLETION", findings)
+    controls = dispatch.get("cross_wave_controls", {})
+    guard(controls.get("pmo_trusted") is False and controls.get("all_4_waves_productive_execution_admitted") is False and controls.get("project_completion_percent") is None and controls.get("m24") == "HOLD", "DISPATCH_FALSE_RELEASE", findings)
+    known = {entry.get("source_id") for entry in pmo.get("source_register", []) if isinstance(entry, dict)}
+    entries = dispatch.get("entries", [])
+    guard(isinstance(entries, list) and len(entries) == 4, "DISPATCH_FOUR_WAVE_ENTRIES_REQUIRED", findings)
+    if not isinstance(entries, list):
+        return
+    waves = [e.get("wave") for e in entries if isinstance(e, dict)]
+    guard(sorted(waves) == ["P2", "P3", "P4", "P5"], "DISPATCH_WAVE_COVERAGE_INVALID", findings)
+    for i, entry in enumerate(entries):
+        if not isinstance(entry, dict):
+            findings.append(f"DISPATCH_INVALID_ENTRY:{i}")
+            continue
+        refs = entry.get("source_ids", [])
+        link_refs = [l.get("source_id") for l in entry.get("evidence_linkage", []) if isinstance(l, dict)]
+        guard(bool(refs) and set(refs).issubset(known) and set(refs) == set(link_refs), f"DISPATCH_SOURCE_MISMATCH:{i}", findings)
+        guard(entry.get("status", "").startswith("EVIDENCE_LINKED_") and bool(entry.get("release_blocker")), f"DISPATCH_ENTRY_FALSE_RELEASE:{i}", findings)
+    plans = {p.get("wave"): p for p in pmo.get("parallel_wave_plans", []) if isinstance(p, dict)}
+    guard(all(plans.get(w, {}).get("plan_state") == "DOCUMENTARY_EXISTING_EVIDENCE_LINKED" and "S-35" in plans.get(w, {}).get("source_ids", []) for w in ("P2", "P3", "P4", "P5")), "DISPATCH_PMO_PLANS_DIVERGE", findings)
+
+
+def check_parallel_anti_rework(pmo: dict, dispatch: dict, history_ledger: dict, findings: list[str]) -> None:
+    """Each wave receives a separate fail-closed semantic admission to link old evidence."""
+    rows = history_ledger.get("tasks", []) if isinstance(history_ledger, dict) else []
+    if not rows or not isinstance(rows[0], dict):
+        findings.append("DISPATCH_ANTI_REWORK_HISTORY_UNAVAILABLE")
+        return
+    baseline = rows[0]
+    for entry in dispatch.get("entries", []):
+        if not isinstance(entry, dict):
+            continue
+        candidate = dict(baseline)
+        candidate.update(
+            task_id=entry.get("task_id"), intent="Link existing evidence for " + str(entry.get("wave")),
+            operation_kind="EVIDENCE_LINK_ONLY", mode="READ_ONLY",
+            target_artifact="EVIDENCE_CROSSWALK_ONLY_" + str(entry.get("wave")),
+            intended_outputs=["EVIDENCE_CROSSWALK_ONLY"],
+            source_ids=entry.get("source_ids"), prior_evidence_ids=entry.get("source_ids"),
+            evidence_of_new_scope="REUSE_ONLY_EXISTING_EVIDENCE",
+            parameters={"no_source_reprocessing": True, "no_remote_writes": True},
+        )
+        result = anti_rework_evaluate(candidate, history_ledger, pmo)
+        guard(result.get("decision") == "ALLOW_REUSE_ANALYSIS_ONLY", "DISPATCH_ANTI_REWORK_" + str(entry.get("wave")) + ":" + str(result.get("code")), findings)
 
 
 def check_publication(plan: dict, findings: list[str]) -> None:
@@ -164,13 +218,20 @@ def check_zip(archive_path: Path, findings: list[str]) -> None:
         findings.append("ZIP_UNREADABLE")
 
 
-def preflight(*, manifest: dict | None = None, summary: dict | None = None, pmo: dict | None = None, queue: dict | None = None, publication: dict | None = None, candidate_task: dict | None = None, history_ledger: dict | None = None, historical_index: dict | None = None, archives: list[Path] | None = None) -> list[str]:
+def preflight(*, manifest: dict | None = None, summary: dict | None = None, pmo: dict | None = None, queue: dict | None = None, dispatch: dict | None = None, publication: dict | None = None, candidate_task: dict | None = None, history_ledger: dict | None = None, historical_index: dict | None = None, archives: list[Path] | None = None) -> list[str]:
     findings: list[str] = []
     if manifest is not None:
         check_manifest(manifest, findings)
     if summary is not None:
         check_summary(summary, findings)
-    if pmo is not None and queue is not None:
+    if dispatch is not None:
+        if pmo is None or queue is None:
+            findings.append("DISPATCH_REQUIRES_MASTER_QUEUE")
+        else:
+            check_parallel_controls(pmo, queue, dispatch, findings)
+            if history_ledger is not None:
+                check_parallel_anti_rework(pmo, dispatch, history_ledger, findings)
+    elif pmo is not None and queue is not None:
         check_control_chain(pmo, queue, findings)
     elif queue is not None:
         findings.append("QUEUE_REQUIRES_MASTER_PMO")
@@ -178,7 +239,7 @@ def preflight(*, manifest: dict | None = None, summary: dict | None = None, pmo:
         check_pmo(pmo, findings)
     if publication is not None:
         check_publication(publication, findings)
-    if candidate_task is not None or history_ledger is not None:
+    if candidate_task is not None or (history_ledger is not None and dispatch is None):
         if candidate_task is None or history_ledger is None or pmo is None:
             findings.append("ANTI_REWORK_REQUIRES_TASK_LEDGER_MASTER")
         else:
@@ -196,16 +257,17 @@ def main() -> int:
     parser.add_argument("--summary", type=Path)
     parser.add_argument("--pmo", type=Path)
     parser.add_argument("--queue", type=Path)
+    parser.add_argument("--dispatch", type=Path)
     parser.add_argument("--publication", type=Path)
     parser.add_argument("--candidate-task", type=Path)
     parser.add_argument("--history-ledger", type=Path)
     parser.add_argument("--historical-index", type=Path)
     parser.add_argument("--zip", action="append", type=Path, default=[])
     args = parser.parse_args()
-    if not any((args.manifest, args.summary, args.pmo, args.queue, args.publication, args.candidate_task, args.history_ledger, args.historical_index, args.zip)):
+    if not any((args.manifest, args.summary, args.pmo, args.queue, args.dispatch, args.publication, args.candidate_task, args.history_ledger, args.historical_index, args.zip)):
         parser.error("specify at least one input; omitted domains are NOT evaluated")
     try:
-        items = {name: json.loads(getattr(args, name).read_text(encoding="utf-8")) if getattr(args, name) else None for name in ("manifest", "summary", "pmo", "queue", "publication")}
+        items = {name: json.loads(getattr(args, name).read_text(encoding="utf-8")) if getattr(args, name) else None for name in ("manifest", "summary", "pmo", "queue", "dispatch", "publication")}
         additions = {"candidate_task": json.loads(args.candidate_task.read_text(encoding="utf-8")) if args.candidate_task else None, "history_ledger": json.loads(args.history_ledger.read_text(encoding="utf-8")) if args.history_ledger else None, "historical_index": json.loads(args.historical_index.read_text(encoding="utf-8")) if args.historical_index else None}
         findings = preflight(**items, **additions, archives=args.zip)
     except (OSError, json.JSONDecodeError, UnicodeError, TypeError, ValueError) as exc:
