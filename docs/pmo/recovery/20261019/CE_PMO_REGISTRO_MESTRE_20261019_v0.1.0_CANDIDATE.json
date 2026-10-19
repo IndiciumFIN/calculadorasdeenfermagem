@@ -19,7 +19,7 @@
     "approval_state": "FINAL_USER_APPROVAL_PENDING"
   },
   "progress_metrics": {
-    "p1_technical_checkpoints": {"completed": 4, "total": 6, "percent": 66.7, "status": "IN_PROGRESS_NOT_RELEASED", "source_ids": ["S-13", "S-14", "S-15", "S-17"]},
+    "p1_technical_checkpoints": {"completed": 5, "total": 6, "percent": 83.3, "status": "IN_PROGRESS_NOT_RELEASED", "source_ids": ["S-13", "S-14", "S-15", "S-17", "S-18"]},
     "git_tree_enumeration": {"completed": 15, "total": 15, "percent": 100.0, "unit": "BRANCH_TREE_PINNED", "source_ids": ["S-17"]},
     "pmo_homologation_gates": {"passed": 0, "total": 8, "percent": 0.0, "status": "HOLD"},
     "full_project_completion": {"percent": null, "status": "DENOMINATOR_NOT_RECONCILED", "rationale": "Historic and live artifacts cannot be treated as approved/completed until all populations and gates are reconciled"}
@@ -31,6 +31,12 @@
     "do_not_conflate": "HOLD_RELEASE_DOES_NOT_STOP_AUTHORIZED_DOCUMENTARY_CONSOLIDATION",
     "blocked_activity_state": "HOLD"
   },
+  "parallel_wave_plans": [
+    {"wave": "P2", "source_ids": ["S-19", "S-23"], "plan_state": "SPECIALIST_PLAN_READY_DOCUMENTARY_ONLY", "operational_state": "HOLD_KERNEL_FOR_MUTATIONS"},
+    {"wave": "P3", "source_ids": ["S-20", "S-23"], "plan_state": "SPECIALIST_PLAN_READY_DOCUMENTARY_ONLY", "operational_state": "HOLD_KERNEL_FOR_RUNTIME"},
+    {"wave": "P4", "source_ids": ["S-21", "S-23"], "plan_state": "READ_ONLY_SUBTASKS_CAN_START", "operational_state": "M24_HOLD_AND_EXTRACTOR_KERNEL_HOLD"},
+    {"wave": "P5", "source_ids": ["S-22", "S-23"], "plan_state": "INDEPENDENT_TEST_PLANNING_READY", "operational_state": "HOLD_RELEASE_PENDING_P1_TO_P4"}
+  ],
   "control_agents": [
     {"agent_id": "PMO-CONTROLLER", "role": "PMO_VERSIONED_CONTROL", "task": "Own only this master control; record versions, task states, references and external receipts", "state": "ASSIGNED_IN_EXECUTION", "write_scope": ["docs/pmo/recovery/20261019/CE_PMO_REGISTRO_MESTRE_20261019_v0.1.0_CANDIDATE.json"], "exclusive_writer": true, "contract_version": "0.1.0-CANDIDATE", "required_evidence": ["REMOTE_PRECONDITION_BLOB_SHA", "VERSIONED_DIFF", "COMMIT_SHA", "POSTCOMMIT_EXACT_READBACK"]},
     {"agent_id": "PMO-PUBLISHER", "role": "GIT_VERSIONED_ARTIFACT_PUBLISHER", "task": "Publish admitted non-sensitive PMO artifacts on approved recovery branch only", "state": "ASSIGNED_IN_EXECUTION", "write_scope": ["docs/pmo/recovery/20261019/EXCEPT_MASTER_REGISTER"], "exclusive_writer": true, "contract_version": "0.1.0-CANDIDATE", "required_evidence": ["CONTENT_CLASSIFICATION", "HASH", "COMMIT_SHA", "EXACT_REMOTE_READBACK"]},
@@ -40,7 +46,7 @@
   "documentary_microtasks": [
     {"task_id": "P1-A", "name": "Recursive local inventory", "status": "EVIDENCE_RECORDED_NOT_HOMOLOGATED", "source_ids": ["S-13"], "release_gate": "G-PMO-01"},
     {"task_id": "P1-B", "name": "ZIP integrity and entry-to-file classification", "status": "ZIP_CRC_VERIFIED_CLASSIFICATION_IN_PROGRESS", "source_ids": ["S-13", "S-14"], "release_gate": "G-PMO-03"},
-    {"task_id": "P1-C", "name": "Local-Git-history-ZIP reconciliation", "status": "BRANCH_TREES_15_OF_15_COMPLETE_BLOB_COMPARISON_PENDING", "source_ids": ["S-02", "S-03", "S-13", "S-15", "S-16", "S-17"], "release_gate": "G-PMO-01"},
+    {"task_id": "P1-C", "name": "Local-Git-history-ZIP reconciliation", "status": "GIT_BLOB_EXACT_BYTES_COMPLETE_PATH_VERSION_CLASSIFICATION_PENDING", "source_ids": ["S-02", "S-03", "S-13", "S-15", "S-16", "S-17", "S-18"], "release_gate": "G-PMO-01"},
     {"task_id": "P2-A", "name": "Versioned branch/PR conflict matrix", "status": "PENDING", "source_ids": ["S-01", "S-02"], "release_gate": "G-PMO-02"}
   ],
   "inventory_snapshot_control": {
@@ -97,7 +103,13 @@
     {"source_id": "S-14", "kind": "LOCAL_ZIP_PAYLOAD_VALIDATION", "ref": "CE_PMO_ZIP_INTEGRIDADE_P1B_20261019_CANDIDATE.json", "cutoff": "2026-10-19", "evidence_status": "13_ZIP_1956_MEMBERS_CRC_VERIFIED_LOCAL_ONLY"},
     {"source_id": "S-15", "kind": "LOCAL_ZIP_CONTENT_SHA_RECONCILIATION", "ref": "CE_PMO_RECON_LOCAL_ZIP_GIT_P1C_A_20261019_CANDIDATE.json", "cutoff": "2026-10-19", "evidence_status": "621_IDENTICAL_SHA_LOCAL_ZIP; GITHUB_UNRECONCILED"},
     {"source_id": "S-16", "kind": "GITHUB_READBACK_PARTIAL_TREE", "ref": "main@e0f62491b104f4a97c6025a6393cabc2e7ada30e root/docs/contracts nonrecursive Git trees", "cutoff": "2026-10-19", "evidence_status": "15_BRANCHES_OBSERVED_TREES_PARTIAL_NOT_TRUNCATED"},
-    {"source_id": "S-17", "kind": "GITHUB_PINNED_BRANCH_TREE_TRAVERSAL", "ref": "CE_PMO_GIT_BRANCH_TREES_P1CB_20261019_CANDIDATE.json", "cutoff": "2026-10-19", "evidence_status": "15_OF_15_TREES_COMPLETE_58710_BLOB_OCCURRENCES_NOT_UNIQUE"}
+    {"source_id": "S-17", "kind": "GITHUB_PINNED_BRANCH_TREE_TRAVERSAL", "ref": "CE_PMO_GIT_BRANCH_TREES_P1CB_20261019_CANDIDATE.json", "cutoff": "2026-10-19", "evidence_status": "15_OF_15_TREES_COMPLETE_58710_BLOB_OCCURRENCES_NOT_UNIQUE"},
+    {"source_id": "S-18", "kind": "GIT_LOCAL_ZIP_EXACT_BLOB_CROSSCHECK", "ref": "CE_PMO_GIT_BLOB_CROSSCHECK_P1CC_20261019_CANDIDATE.json", "cutoff": "2026-10-19", "evidence_status": "9569_GIT_UNIQUE; 1295_ZIP_UNIQUE; 11_EXACT_GIT_ZIP; NOT_LOSS_PROOF"},
+    {"source_id": "S-19", "kind": "SPECIALIST_P2_PLAN", "ref": "CE_PMO_PLANO_P2_RECON_20261019_CANDIDATE.md", "cutoff": "2026-10-19", "evidence_status": "READ_ONLY_REANALYSIS_PLAN"},
+    {"source_id": "S-20", "kind": "SPECIALIST_P3_PLAN", "ref": "CE_PMO_PLANO_P3_AGENTES_20261019_CANDIDATE.md", "cutoff": "2026-10-19", "evidence_status": "READ_ONLY_REANALYSIS_PLAN"},
+    {"source_id": "S-21", "kind": "SPECIALIST_P4_PLAN", "ref": "CE_PMO_PLANO_P4_CONTEUDO_20261019_CANDIDATE.md", "cutoff": "2026-10-19", "evidence_status": "READ_ONLY_REANALYSIS_PLAN"},
+    {"source_id": "S-22", "kind": "SPECIALIST_P5_PLAN", "ref": "CE_PMO_PLANO_P5_AUDITORIA_20261019_CANDIDATE.md", "cutoff": "2026-10-19", "evidence_status": "READ_ONLY_REANALYSIS_PLAN"},
+    {"source_id": "S-23", "kind": "INTEGRATED_WAVE_PLAN", "ref": "CE_PMO_PLANO_INTEGRADO_P1_P5_AGENTES_20261019_CANDIDATE.md", "cutoff": "2026-10-19", "evidence_status": "PLAN_ONLY_DOCUMENTARY_CANDIDATE"}
   ],
   "populations": [
     {"population_id": "POP-BRANCH", "unit": "BRANCH", "count": 14, "processed": null, "approved": null, "cutoff": "2026-10-19", "source_ids": ["S-02"], "status": "HISTORICAL_BEFORE_PMO_BRANCH_NOT_RECONCILED"},
@@ -114,16 +126,16 @@
   ],
   "workstreams": [
     {"id": "F0", "name": "Segurança e baseline", "status": "HOLD", "source_ids": ["S-01", "S-02"], "blockers": ["main protection not freshly verified", "Kernel admission absent"]},
-    {"id": "F1", "name": "Universo integral migrado", "status": "PARTIAL", "documentary_consolidation_status": "IN_PROGRESS", "release_status": "HOLD", "source_ids": ["S-01", "S-03", "S-13", "S-14", "S-15", "S-16", "S-17"], "blockers": ["15/15 pinned Git trees traversed but all Git blob-content equivalences and path variants remain to reconcile", "674 ZIP-only hashes relative to local files have not been compared with Git", "13 outer ZIP containers CRC verified but nested archives and external provenance remain open", "local recursive scan not yet externally reconciled; directory symlinks skipped"]},
-    {"id": "F2", "name": "Branches e conflitos", "status": "HOLD", "source_ids": ["S-01", "S-02"], "blockers": ["22 historical proposed deletions require case decisions", "PR overlapping workflows/roots"]},
-    {"id": "F3", "name": "Conteúdo e atomização", "status": "STOP_WORK", "source_ids": ["S-04", "S-05"], "blockers": ["7 other large files", "M24 five files", "semantic and rights reviews"]},
-    {"id": "F4", "name": "Normativos e conformidade", "status": "HOLD", "source_ids": ["S-03", "S-12"], "blockers": ["clause applicability and independent semantic audit"]},
+    {"id": "F1", "name": "Universo integral migrado", "status": "PARTIAL", "documentary_consolidation_status": "IN_PROGRESS", "release_status": "HOLD", "source_ids": ["S-01", "S-03", "S-13", "S-14", "S-15", "S-16", "S-17", "S-18"], "blockers": ["exact Git/local/ZIP blob-content comparison done; path/version/semantic classification still pending", "1284 unique ZIP member contents have no matching individual Git blob at pinned tips; do not infer loss", "nested archives, LFS/transforms and external provenance remain open", "local recursive scan not yet externally reconciled; directory symlinks skipped"]},
+    {"id": "F2", "name": "Branches e conflitos", "status": "HOLD", "documentary_plan_state": "P2_SPECIALIST_PLAN_READY", "source_ids": ["S-01", "S-02", "S-19", "S-23"], "blockers": ["22 historical proposed deletions require case decisions", "PR overlapping workflows/roots"]},
+    {"id": "F3", "name": "Conteúdo e atomização", "status": "STOP_WORK", "documentary_plan_state": "P4_READ_ONLY_PLAN_READY", "source_ids": ["S-04", "S-05", "S-21", "S-23"], "blockers": ["7 other large files", "M24 five files", "semantic and rights reviews"]},
+    {"id": "F4", "name": "Normativos e conformidade", "status": "HOLD", "documentary_plan_state": "P4_NORM_CROSSWALK_READY", "source_ids": ["S-03", "S-12", "S-21"], "blockers": ["clause applicability and independent semantic audit"]},
     {"id": "F5", "name": "Aquisição e direitos", "status": "HOLD", "source_ids": ["S-08"], "blockers": ["rights, official source versions and Kernel"]},
     {"id": "F6", "name": "Ingestores e extratores", "status": "STOP_WORK", "source_ids": ["S-04", "S-05"], "blockers": ["streaming recurrence and source/claim qualification"]},
-    {"id": "F7", "name": "Kernel, WO e agentes", "status": "HOLD", "source_ids": ["S-06", "S-07", "S-11"], "blockers": ["agents stubs", "runtime RBAC/policies", "WO contract routing"]},
+    {"id": "F7", "name": "Kernel, WO e agentes", "status": "HOLD", "documentary_plan_state": "P3_SPECIALIST_PLAN_READY", "source_ids": ["S-06", "S-07", "S-11", "S-20", "S-23"], "blockers": ["agents stubs", "runtime RBAC/policies", "WO contract routing"]},
     {"id": "F8", "name": "Supabase e linhagem", "status": "HOLD", "source_ids": ["S-03"], "blockers": ["historical 303 outbox and 61 edges not revalidated"]},
     {"id": "F9", "name": "Site e calculadoras", "status": "HOLD", "source_ids": ["S-03"], "blockers": ["E2E and security rollout evidence missing"]},
-    {"id": "F10", "name": "Auditoria CE06 independente", "status": "HOLD", "source_ids": ["S-09"], "blockers": ["six historical FAIL and twelve HOLD_HUMAN"]},
+    {"id": "F10", "name": "Auditoria CE06 independente", "status": "HOLD", "documentary_plan_state": "P5_SPECIALIST_PLAN_READY", "source_ids": ["S-09", "S-22", "S-23"], "blockers": ["six historical FAIL and twelve HOLD_HUMAN"]},
     {"id": "F11", "name": "Promoção e encerramento", "status": "HOLD", "source_ids": ["S-01", "S-09"], "blockers": ["technical gates and final user signoff"]}
   ],
   "find_recurrence": [
