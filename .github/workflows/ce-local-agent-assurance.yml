@@ -17,7 +17,7 @@ jobs:
         with:
           python-version: '3.11'
       - name: Compile bounded assurance CLI
-        run: python -m py_compile tools/ce_agents/ce_agent_assurance.py tools/ce_agents/test_ce_agent_assurance.py tools/ce_agents/ce_p1_zip_guard.py tools/ce_agents/test_ce_p1_zip_guard.py
+        run: python -m py_compile tools/ce_agents/ce_agent_assurance.py tools/ce_agents/test_ce_agent_assurance.py tools/ce_agents/ce_p1_zip_guard.py tools/ce_agents/test_ce_p1_zip_guard.py tools/ce_agents/ce_p1_git_blob_guard.py tools/ce_agents/test_ce_p1_git_blob_guard.py
       - name: Catalog validation
         run: python tools/ce_agents/ce_agent_assurance.py catalog-check --catalog contracts/agents/ce_local_catalog_v0.1.0_candidate.json
       - name: Adversarial unit tests
