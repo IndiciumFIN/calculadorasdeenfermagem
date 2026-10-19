@@ -42,7 +42,7 @@
       "release_gate": "G-PMO-01"
     },
     {
-      "id": "P2-00", "wave": "P2", "owner_role": "GIT-CENSUS", "mode": "READ_ONLY", "status": "READY_NOT_STARTED", "depends_on": [],
+      "id": "P2-00", "wave": "P2", "owner_role": "GIT-CENSUS", "mode": "READ_ONLY", "status": "EVIDENCE_PARTIAL_RUNTIME_HOLD", "depends_on": [],
       "action": "Freeze HEADs of 15 branches and PR heads/bases and reconcile them to pinned tree inventory",
       "evidence_required": ["branch or PR identifier", "head/base SHA", "tree SHA", "non-truncation evidence"],
       "acceptance": "Population and divergences explicit; no live SHA silently conflated with earlier cutoff",
@@ -56,7 +56,7 @@
       "release_gate": "G-PMO-02"
     },
     {
-      "id": "P3-A", "wave": "P3", "owner_role": "CONTRACT-REGISTRAR", "mode": "READ_ONLY", "status": "READY_NOT_STARTED", "depends_on": [],
+      "id": "P3-A", "wave": "P3", "owner_role": "CONTRACT-REGISTRAR", "mode": "READ_ONLY", "status": "EVIDENCE_PARTIAL_RUNTIME_HOLD", "depends_on": [],
       "action": "Create identity/contract relationship register separating 38 CE04 tasks, 164 PR2 WOs from full pinned Git tree and 102 historical WOs with distinct populations",
       "evidence_required": ["source path", "schema version", "task/WO ID", "admission evidence status"],
       "acceptance": "Zero implicit 38-to-164-to-102 equivalence and zero falsely asserted Kernel admissions",
@@ -70,7 +70,7 @@
       "release_gate": "G-PMO-05"
     },
     {
-      "id": "P4-A", "wave": "P4", "owner_role": "SOURCE-REGISTRAR", "mode": "READ_ONLY", "status": "READY_NOT_STARTED", "depends_on": [],
+      "id": "P4-A", "wave": "P4", "owner_role": "SOURCE-REGISTRAR", "mode": "READ_ONLY", "status": "EVIDENCE_PARTIAL_RUNTIME_HOLD", "depends_on": [],
       "action": "Identify rights, license, versions and provenance of 61 source objects/49 URLs and flag unclear licensing",
       "evidence_required": ["CID by source and domain", "official URI", "license", "version", "jurisdiction", "language", "source SHA", "rights review"],
       "acceptance": "All 61 source objects either evidenced or explicit HOLD; no unsupported permission inference",
