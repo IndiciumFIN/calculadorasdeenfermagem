@@ -7,6 +7,50 @@
   "state": "CANDIDATE_NOT_CANONICAL",
   "pmo_trusted": false,
   "project_execution_allowed": false,
+  "pmo_control_revision": {
+    "version": "0.2.0-CANDIDATE",
+    "change_id": "PMO-CONTROL-AGENTS-20261019-001",
+    "supersedes_control_revision": "0.1.0",
+    "change_reason": "Differentiate authorized ongoing documentary consolidation from blocked validation, production and promotion gates",
+    "control_state": "DOCUMENTARY_CONSOLIDATION_IN_PROGRESS",
+    "release_state": "HOLD",
+    "current_register_sha_attestation": "NOT_SELF_ATTESTED; REQUIRE_INDEPENDENT_GITHUB_FETCH_RECEIPT",
+    "evidence_of_commit_policy": "RECORD_COMMIT_AND_BLOB_SHA_IN_EXTERNAL_APPEND_ONLY_RECEIPT_AFTER_GITHUB_READBACK",
+    "approval_state": "FINAL_USER_APPROVAL_PENDING"
+  },
+  "activity_authorization": {
+    "authorized_in_scope": ["READ_ONLY_INVENTORY", "READ_ONLY_ZIP_INSPECTION", "GIT_BRANCH_DIFFERENCE_CLASSIFICATION", "NON_DESTRUCTIVE_VERSION_CONSOLIDATION", "FIND_AND_LEARNING_REGISTRATION", "PMO_DOCUMENTARY_COMMIT_ON_RECOVERY_BRANCH", "SHA_AND_READBACK_VERIFICATION"],
+    "authorized_activity_state": "IN_PROGRESS",
+    "blocked_until_separate_admission": ["PRODUCTION_EXECUTION", "CONTENT_ATOMIZATION", "PUBLISH_OR_MERGE_TO_MAIN", "DELETION_OR_DESTRUCTIVE_DEDUPLICATION", "FINAL_HOMOLOGATION", "M24_RELEASE"],
+    "do_not_conflate": "HOLD_RELEASE_DOES_NOT_STOP_AUTHORIZED_DOCUMENTARY_CONSOLIDATION",
+    "blocked_activity_state": "HOLD"
+  },
+  "control_agents": [
+    {"agent_id": "PMO-CONTROLLER", "role": "PMO_VERSIONED_CONTROL", "task": "Own only this master control; record versions, task states, references and external receipts", "state": "ASSIGNED_IN_EXECUTION", "write_scope": ["docs/pmo/recovery/20261019/CE_PMO_REGISTRO_MESTRE_20261019_v0.1.0_CANDIDATE.json"], "exclusive_writer": true, "contract_version": "0.1.0-CANDIDATE", "required_evidence": ["REMOTE_PRECONDITION_BLOB_SHA", "VERSIONED_DIFF", "COMMIT_SHA", "POSTCOMMIT_EXACT_READBACK"]},
+    {"agent_id": "PMO-PUBLISHER", "role": "GIT_VERSIONED_ARTIFACT_PUBLISHER", "task": "Publish admitted non-sensitive PMO artifacts on approved recovery branch only", "state": "ASSIGNED_IN_EXECUTION", "write_scope": ["docs/pmo/recovery/20261019/EXCEPT_MASTER_REGISTER"], "exclusive_writer": true, "contract_version": "0.1.0-CANDIDATE", "required_evidence": ["CONTENT_CLASSIFICATION", "HASH", "COMMIT_SHA", "EXACT_REMOTE_READBACK"]},
+    {"agent_id": "PMO-RECONCILER", "role": "INVENTORY_CONTROL_INDEPENDENT_VERIFIER", "task": "Cross-check population totals, source references, SHA and inventory-control consistency; produce independent verdict", "state": "ASSIGNED_IN_EXECUTION", "write_scope": [], "exclusive_writer": false, "contract_version": "0.1.0-CANDIDATE", "required_evidence": ["INDEPENDENT_SOURCE_READ", "REQUIRED_PRESENT_VALIDATED_PASS", "MISMATCH_FIND_OR_VERDICT"]},
+    {"agent_id": "PMO-GUARDIAN", "role": "FAIL_CLOSED_PROCESS_VIOLATION_GUARD", "task": "Check paths, authority, secrets, conflict preservation, manifests, provenance and approval gates before artifact promotion", "state": "ASSIGNED_IN_EXECUTION", "write_scope": [], "exclusive_writer": false, "contract_version": "0.1.0-CANDIDATE", "required_evidence": ["POLICY_EVALUATION", "REJECT_CASE_TESTS", "ALLOW_OR_DENY_VERDICT"]}
+  ],
+  "documentary_microtasks": [
+    {"task_id": "P1-A", "name": "Recursive local inventory", "status": "EVIDENCE_RECORDED_NOT_HOMOLOGATED", "source_ids": ["S-13"], "release_gate": "G-PMO-01"},
+    {"task_id": "P1-B", "name": "ZIP integrity and entry-to-file classification", "status": "IN_PROGRESS", "source_ids": ["S-13"], "release_gate": "G-PMO-03"},
+    {"task_id": "P1-C", "name": "Local-Git-history-ZIP reconciliation", "status": "PENDING", "source_ids": ["S-02", "S-03", "S-13"], "release_gate": "G-PMO-01"},
+    {"task_id": "P2-A", "name": "Versioned branch/PR conflict matrix", "status": "PENDING", "source_ids": ["S-01", "S-02"], "release_gate": "G-PMO-02"}
+  ],
+  "inventory_snapshot_control": {
+    "snapshot_id": "P1-A-LOCAL-RECURSIVE-20261019-768",
+    "snapshot_status": "FROZEN_HISTORICAL_NOT_LIVE",
+    "snapshot_population_id": "POP-LOCAL-RECURSIVE-REGULAR",
+    "regular_file_count": 768,
+    "known_post_snapshot_environment_count": 771,
+    "known_delta_count": 3,
+    "delta_interpretation": "Three task-created artifacts after frozen P1-A; do not silently replace original baseline counts",
+    "cutoff_date": "2026-10-19",
+    "cutoff_timestamp_utc": null,
+    "timestamp_state": "EXACT_TIMESTAMP_NOT_YET_EVIDENCED",
+    "next_snapshot_requirement": "Create new immutable snapshot_id and delta manifest with path, sha256, introduced_by_task, cutoff and parent_snapshot_id",
+    "release_consequence": "G-PMO-01_REMAINS_HOLD_UNTIL_SNAPSHOT_DELTA_CONCILIATION"
+  },
   "preservation_readback": {
     "branch": "pmo/recovery-controlled-20261019",
     "base_main_sha": "e0f62491b104f4a97c6025a6393cabc2e7ada30e",
@@ -55,11 +99,11 @@
     {"population_id": "POP-CE02-NORM", "unit": "DOCUMENTARY_METADATA_RECORD", "count": 1020, "processed": 1020, "approved": 0, "cutoff": "2026-10-18", "source_ids": ["S-03"], "status": "STRUCTURAL_METADATA_ONLY"},
     {"population_id": "POP-M24-HOLD", "unit": "FILE", "count": 5, "processed": 0, "approved": 0, "cutoff": "2026-10-19", "source_ids": ["S-04"], "status": "EXPLICIT_HOLD_NOT_COUNTED"},
     {"population_id": "POP-CE04-LARGE-OTHER", "unit": "FILE", "count": 7, "processed": 0, "approved": 0, "cutoff": "2026-10-19", "source_ids": ["S-04"], "status": "PENDING"},
-    {"population_id": "POP-LOCAL-RECURSIVE-REGULAR", "unit": "LOCAL_REGULAR_FILE", "count": 768, "processed": 768, "approved": 0, "cutoff": "2026-10-19", "source_ids": ["S-13"], "status": "HASHED_LOCAL_ONLY_NOT_RECONCILED"}
+    {"population_id": "POP-LOCAL-RECURSIVE-REGULAR", "unit": "LOCAL_REGULAR_FILE", "count": 768, "processed": 768, "approved": 0, "cutoff": "2026-10-19", "snapshot_id": "P1-A-LOCAL-RECURSIVE-20261019-768", "source_ids": ["S-13"], "status": "SNAPSHOT_P1_A_FROZEN_NOT_LIVE_HASHED_NOT_RECONCILED"}
   ],
   "workstreams": [
     {"id": "F0", "name": "Segurança e baseline", "status": "HOLD", "source_ids": ["S-01", "S-02"], "blockers": ["main protection not freshly verified", "Kernel admission absent"]},
-    {"id": "F1", "name": "Universo integral migrado", "status": "PARTIAL", "source_ids": ["S-01", "S-03", "S-13"], "blockers": ["trees not fully classified against each other", "local recursive scan not yet externally reconciled; directory symlinks skipped"]},
+    {"id": "F1", "name": "Universo integral migrado", "status": "PARTIAL", "documentary_consolidation_status": "IN_PROGRESS", "release_status": "HOLD", "source_ids": ["S-01", "S-03", "S-13"], "blockers": ["trees not fully classified against each other", "local recursive scan not yet externally reconciled; directory symlinks skipped"]},
     {"id": "F2", "name": "Branches e conflitos", "status": "HOLD", "source_ids": ["S-01", "S-02"], "blockers": ["22 historical proposed deletions require case decisions", "PR overlapping workflows/roots"]},
     {"id": "F3", "name": "Conteúdo e atomização", "status": "STOP_WORK", "source_ids": ["S-04", "S-05"], "blockers": ["7 other large files", "M24 five files", "semantic and rights reviews"]},
     {"id": "F4", "name": "Normativos e conformidade", "status": "HOLD", "source_ids": ["S-03", "S-12"], "blockers": ["clause applicability and independent semantic audit"]},
