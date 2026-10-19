@@ -1,0 +1,47 @@
+{
+  "schema_version": "0.1.0-CANDIDATE",
+  "date": "2026-10-19",
+  "workstream": "PMO_REFERENCE_RECONCILIATION",
+  "source_master_blob": "56656295ee8cf6ec7e2797d7940b90c93b390e22",
+  "source_queue_blob": "336128022b1afd6481391138f6ce796cbffb8cf3",
+  "source_agents_blob": "cb85f66f31f25085d204b2c6737c9eb08ce1ef5c",
+  "find_links": [
+    "FIND-PMO-QUEUE-STATUS-DRIFT-20261019",
+    "CE_PMO_FIND_GUARDIAN_ENFORCEMENT_20261019_CANDIDATE.md"
+  ],
+  "change_type": "DOCUMENTARY_POINTER_CORRECTION_ONLY",
+  "before": {
+    "agent_registry_sha": "6156c083b85c285f9acb438ea385344e71201a07",
+    "queue_revision": "0.1.0-CANDIDATE"
+  },
+  "after": {
+    "agent_registry_sha": "cb85f66f31f25085d204b2c6737c9eb08ce1ef5c",
+    "queue_revision": "0.2.0-CANDIDATE",
+    "queue_blob": "336128022b1afd6481391138f6ce796cbffb8cf3"
+  },
+  "tests": {
+    "master_current_is_candidate": true,
+    "agent_current_23": true,
+    "agent_not_deployed": true,
+    "queue_12_preserved": true,
+    "queue_ids_unique": true,
+    "queue_original_order": true,
+    "candidate_find_lane_3": true,
+    "no_done_inferred": true,
+    "release_still_hold": true,
+    "runtime_execution_forbidden": true
+  },
+  "pass": 10,
+  "total": 10,
+  "limits": [
+    "Historical SHA references in preservation_readback remain intentionally pinned",
+    "Queue v0.2 sequencing rule is not approved policy/validator, only documentary candidate",
+    "Rule set Protecao remains disabled and no required checks; server enforcement HOLD",
+    "No runtime/Kernel admission, no main promotion"
+  ],
+  "normative_reference_urls": [
+    "https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/creating-rulesets-for-a-repository",
+    "https://airc.nist.gov/airmf-resources/airmf/5-sec-core/"
+  ],
+  "status": "PREFLIGHT_PASS_PENDING_GITHUB_COMMIT_READBACK"
+}
