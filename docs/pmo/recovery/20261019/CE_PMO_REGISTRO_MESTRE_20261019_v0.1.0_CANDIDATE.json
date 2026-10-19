@@ -1,5 +1,6 @@
 {
   "schema_version": "0.1.0",
+  "agent_registry_documentary_linkage": {"status":"PUBLISHED_CANDIDATE_READBACK_NOT_KERNEL_ADMISSION","agents_registry":{"path":"docs/pmo/recovery/20261019/CE_PMO_AGENT_REGISTRY_20261019_CANDIDATE.json","git_blob_sha":"6156c083b85c285f9acb438ea385344e71201a07","agents_count":23,"deployments_verified":0},"contracts_handoff":{"path":"docs/pmo/recovery/20261019/CE_PMO_CATALOGO_AGENTES_CONTRATOS_20261019_CANDIDATE.md","git_blob_sha":"d84ea260b6da8523e92f86230fff3ee37f7e9e03"},"p2_p3_p4_readback":{"path":"docs/pmo/recovery/20261019/CE_PMO_READBACK_FRENTES_P2_P3_P4_GUARD_20261019_CANDIDATE.md","git_blob_sha":"5a61734f106b8b774f1f65ba50f16c4713737fea"},"classification":"NONPRODUCTIVE_DOCUMENTARY_ONLY","queue_mutated":false,"task_status_mutated":false,"kernel_admission_inferred":false,"approval_inferred":false},
   "project_id": "CE-CALCULADORAS-ENFERMAGEM",
   "repository": "IndiciumFIN/calculadorasdeenfermagem",
   "cutoff_local": "2026-10-19",
