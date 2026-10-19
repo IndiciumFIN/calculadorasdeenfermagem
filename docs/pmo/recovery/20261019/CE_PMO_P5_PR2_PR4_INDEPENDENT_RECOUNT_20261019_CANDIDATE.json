@@ -1,0 +1,27 @@
+{
+  "schema_version": "0.1.0-CANDIDATE",
+  "wave": "P5",
+  "status": "INDEPENDENT_RECALCULATION_BOUNDED_PASS",
+  "input_path": "docs/pmo/recovery/20261019/CE_PMO_P2_FULL_TREE_CROSSWALK_PR2_PR4_20261019_CANDIDATE.json",
+  "input_blob": "bc8abba5c6f7f18d1d9f341c35afc104efa5302a",
+  "checks": {
+    "source_blob_exists": true,
+    "source_trees_nontruncated": true,
+    "same_count": true,
+    "diff_count": true,
+    "only_pr2": true,
+    "only_pr4": true,
+    "path_hashes": true,
+    "no_auto_promotion": true
+  },
+  "pass": 8,
+  "total": 8,
+  "unresolved": [
+    "semantic_diff",
+    "policy_rights",
+    "kernel_admission",
+    "P2_PR_BASE_METADATA",
+    "final_homologation"
+  ],
+  "production_mutation": false
+}
