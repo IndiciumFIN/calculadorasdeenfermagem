@@ -42,7 +42,8 @@
     {"source_id": "S-09", "kind": "HISTORICAL_AUDIT", "ref": "CE06 parecer 21 controles; handoff histórico, requer readback", "cutoff": "2026-10-17", "evidence_status": "HISTORICAL_NOT_REVALIDATED"},
     {"source_id": "S-10", "kind": "HISTORICAL_CONTEXT", "ref": "Auditoria anterior 102 WOs: 98 PASS, 2 BLOCKED, 2 PREAUTHORIZED; identidade documental pendente", "cutoff": "2026-10-16", "evidence_status": "CONVERSATION_ONLY"},
     {"source_id": "S-11", "kind": "GITHUB_READBACK", "ref": "PR #2 contracts/work_orders (76 arquivos); contracts/work_order.schema.json", "cutoff": "2026-10-19", "evidence_status": "DIRECT_READBACK_STRUCTURE"},
-    {"source_id": "S-12", "kind": "LOCAL_REPORT", "ref": "CE_M11_AUDITORIA_REAL_PROCESSO_DOCUMENTACAO_REFERENCIAIS_v0.1.0_CANDIDATE.md", "cutoff": "2026-10-19", "evidence_status": "LOCAL_DOCUMENTARY_AUDIT"}
+    {"source_id": "S-12", "kind": "LOCAL_REPORT", "ref": "CE_M11_AUDITORIA_REAL_PROCESSO_DOCUMENTACAO_REFERENCIAIS_v0.1.0_CANDIDATE.md", "cutoff": "2026-10-19", "evidence_status": "LOCAL_DOCUMENTARY_AUDIT"},
+    {"source_id": "S-13", "kind": "LOCAL_RECURSIVE_SCAN", "ref": "CE_PMO_INVENTARIO_RECURSIVO_RESUMO_20261019_CANDIDATE.json", "cutoff": "2026-10-19", "evidence_status": "AGGREGATED_LOCAL_HASH_SCAN_NOT_EXTERNAL_CUSTODY"}
   ],
   "populations": [
     {"population_id": "POP-BRANCH", "unit": "BRANCH", "count": 14, "processed": null, "approved": null, "cutoff": "2026-10-19", "source_ids": ["S-02"], "status": "INVENTORIED_NOT_RECONCILED"},
@@ -53,11 +54,12 @@
     {"population_id": "POP-HISTORICAL-WO", "unit": "HISTORICAL_WO_DIFFERENT_SCOPE", "count": 102, "processed": null, "approved": null, "cutoff": "2026-10-16", "source_ids": ["S-10"], "status": "CONTEXT_ONLY_SCOPE_UNRECONCILED"},
     {"population_id": "POP-CE02-NORM", "unit": "DOCUMENTARY_METADATA_RECORD", "count": 1020, "processed": 1020, "approved": 0, "cutoff": "2026-10-18", "source_ids": ["S-03"], "status": "STRUCTURAL_METADATA_ONLY"},
     {"population_id": "POP-M24-HOLD", "unit": "FILE", "count": 5, "processed": 0, "approved": 0, "cutoff": "2026-10-19", "source_ids": ["S-04"], "status": "EXPLICIT_HOLD_NOT_COUNTED"},
-    {"population_id": "POP-CE04-LARGE-OTHER", "unit": "FILE", "count": 7, "processed": 0, "approved": 0, "cutoff": "2026-10-19", "source_ids": ["S-04"], "status": "PENDING"}
+    {"population_id": "POP-CE04-LARGE-OTHER", "unit": "FILE", "count": 7, "processed": 0, "approved": 0, "cutoff": "2026-10-19", "source_ids": ["S-04"], "status": "PENDING"},
+    {"population_id": "POP-LOCAL-RECURSIVE-REGULAR", "unit": "LOCAL_REGULAR_FILE", "count": 768, "processed": 768, "approved": 0, "cutoff": "2026-10-19", "source_ids": ["S-13"], "status": "HASHED_LOCAL_ONLY_NOT_RECONCILED"}
   ],
   "workstreams": [
     {"id": "F0", "name": "Segurança e baseline", "status": "HOLD", "source_ids": ["S-01", "S-02"], "blockers": ["main protection not freshly verified", "Kernel admission absent"]},
-    {"id": "F1", "name": "Universo integral migrado", "status": "PARTIAL", "source_ids": ["S-01", "S-03"], "blockers": ["trees not fully classified against each other"]},
+    {"id": "F1", "name": "Universo integral migrado", "status": "PARTIAL", "source_ids": ["S-01", "S-03", "S-13"], "blockers": ["trees not fully classified against each other", "local recursive scan not yet externally reconciled; directory symlinks skipped"]},
     {"id": "F2", "name": "Branches e conflitos", "status": "HOLD", "source_ids": ["S-01", "S-02"], "blockers": ["22 historical proposed deletions require case decisions", "PR overlapping workflows/roots"]},
     {"id": "F3", "name": "Conteúdo e atomização", "status": "STOP_WORK", "source_ids": ["S-04", "S-05"], "blockers": ["7 other large files", "M24 five files", "semantic and rights reviews"]},
     {"id": "F4", "name": "Normativos e conformidade", "status": "HOLD", "source_ids": ["S-03", "S-12"], "blockers": ["clause applicability and independent semantic audit"]},
