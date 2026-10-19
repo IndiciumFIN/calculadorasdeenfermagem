@@ -1,0 +1,46 @@
+{
+  "schema_version": "CE-PMO-P3-LOCAL-ASSURANCE-0.2.0",
+  "supersedes": "CE_PMO_P3_LOCAL_AGENT_ASSURANCE_EXECUTION_20261019_CANDIDATE.json",
+  "branch": "feat/ce-local-agent-assurance-20261019",
+  "head_sha": "83e61d57ffd347562e7d2e8c0212090de8324c3e",
+  "processes": [
+    "PMO",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+  ],
+  "roles_reused": 23,
+  "agents_operationally_admitted": 0,
+  "cli_commands": [
+    "catalog-check",
+    "process-plan",
+    "audit"
+  ],
+  "tests": {
+    "local_python": "18/18 PASS",
+    "seeded_hash_mutation_cases": 40,
+    "remote_ci_latest": "PENDING_VERIFY",
+    "previous_ci_pass": "https://github.com/IndiciumFIN/calculadorasdeenfermagem/actions/runs/39327303932"
+  },
+  "quality_claims": {
+    "structural_manifest_completeness": "TESTED_WITH_SYNTHETIC_INPUTS_ONLY",
+    "byte_integrity": "TESTED_WITH_SYNTHETIC_INPUTS_ONLY",
+    "domain_accuracy": "NOT_YET_PROVEN",
+    "source_universe_completeness": "NOT_YET_PROVEN",
+    "kernel_admission": "NOT_YET_IMPLEMENTED"
+  },
+  "final_gates": "HOLD",
+  "remaining_tasks": [
+    "SPECIALIST_VALIDATORS_PER_PROCESS",
+    "REFERENCE_DATA_AND_INDEPENDENT_GOLD_STANDARD",
+    "AUTHENTICATED_PROVENANCE",
+    "SURPRISE_TESTS_FOR_DOMAIN_SEMANTICS",
+    "INTEGRATED_KERNEL_WO_RECEIPT",
+    "CONCURRENCY_LOCKS_AND_IDEMPOTENCY",
+    "INDEPENDENT_AUDIT_AND_AUTHORIZED_PROMOTION"
+  ],
+  "mutation_policy": "BOOTSTRAP_LOCAL_CANDIDATES_WITHOUT_WO; PROMOTION_PRODUCTIVE_REQUIRES_WO_KERNEL_SHA_RECEIPT",
+  "main_changed": false
+}
