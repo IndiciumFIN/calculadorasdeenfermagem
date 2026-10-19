@@ -1,0 +1,130 @@
+{
+  "schema_version": "0.3.0-CANDIDATE",
+  "id": "CE-PMO-FIND-IMMEDIATE-001",
+  "status": "PROPOSED_NOT_HOMOLOGATED",
+  "supersedes_candidate": "INV-QUEUE-POST-CLOSURE-001_FOR_SEQUENCE_ONLY_IF_FORMALLY_APPROVED",
+  "owner_authority": "USER_INSTRUCTION_2026-10-19_17_37_BRT",
+  "applicability": "DOCUMENTARY_TRIAGE_NOW; RUNTIME_QUEUE_CHANGE_ONLY_AFTER_POLICY_VALIDATOR_WO_KERNEL_ADMISSION",
+  "rules": [
+    "DEDUPE_BY_ORIGIN_FIND_AND_WORK_SIGNATURE_BEFORE_CREATING_WORK",
+    "INVESTIGATE_SOURCE_AND_ROOT_CAUSE_OR_MARK_UNDER_INVESTIGATION",
+    "REGISTER_CORRECTIVE_WORK_BEFORE_NEXT_ELIGIBLE_TASK_IN_CANDIDATE_LANE",
+    "IF_FIND_CORRECTION_BLOCKED_RECORD_HOLD_OWNER_EVIDENCE_TRIGGER_AND_CONTINUE_UNRELATED_WORK",
+    "PRESERVE_ORDER_AND_CLOSURE_OF_PREVIOUS_12_TASKS",
+    "NEVER_MARK_CLOSED_WITHOUT_READBACK_TEST_AND_INDEPENDENT_GATE",
+    "PRODUCTION_MUTATION_REQUIRES_POLICY_VALIDATOR_TASK_WO_KERNEL_RECEIPT",
+    "PROMOTION_REQUIRES_INDEPENDENT_AUDIT_AND_USER_FINAL_APPROVAL"
+  ],
+  "fields_required": [
+    "origin_find",
+    "investigation",
+    "root_cause_or_under_investigation",
+    "corrective_task_id",
+    "scope",
+    "status",
+    "evidence",
+    "owner",
+    "release_gate"
+  ],
+  "validation_proposal": {
+    "mode": "CANDIDATE_OFFLINE_MODEL_ONLY",
+    "tests": [
+      {
+        "id": "valid_readonly",
+        "expected_error_count": 0,
+        "actual_errors": [],
+        "pass": true
+      },
+      {
+        "id": "dup_task",
+        "expected_error_count": 1,
+        "actual_errors": [
+          "DUP_TASK"
+        ],
+        "pass": true
+      },
+      {
+        "id": "dup_find",
+        "expected_error_count": 1,
+        "actual_errors": [
+          "DUP_FIND"
+        ],
+        "pass": true
+      },
+      {
+        "id": "order_change",
+        "expected_error_count": 1,
+        "actual_errors": [
+          "ORDER_CHANGED"
+        ],
+        "pass": true
+      },
+      {
+        "id": "missing_find_fields",
+        "expected_error_count": 1,
+        "actual_errors": [
+          "FIND_FIELDS_MISSING"
+        ],
+        "pass": true
+      },
+      {
+        "id": "closed_without_evidence",
+        "expected_error_count": 1,
+        "actual_errors": [
+          "CLOSED_UNEVIDENCED"
+        ],
+        "pass": true
+      },
+      {
+        "id": "productive_no_kernel",
+        "expected_error_count": 1,
+        "actual_errors": [
+          "MISSING_ADMISSION"
+        ],
+        "pass": true
+      },
+      {
+        "id": "prod_all_admitted",
+        "expected_error_count": 0,
+        "actual_errors": [],
+        "pass": true
+      },
+      {
+        "id": "promote_no_audit",
+        "expected_error_count": 1,
+        "actual_errors": [
+          "MISSING_PROMOTION_GATE"
+        ],
+        "pass": true
+      },
+      {
+        "id": "reopen_closed",
+        "expected_error_count": 1,
+        "actual_errors": [
+          "REOPEN_CLOSED"
+        ],
+        "pass": true
+      },
+      {
+        "id": "promotion_complete",
+        "expected_error_count": 0,
+        "actual_errors": [],
+        "pass": true
+      }
+    ],
+    "pass": 11,
+    "total": 11,
+    "not_proven": [
+      "GITHUB_ACTION_ENFORCEMENT",
+      "AUTHORITATIVE_KERNEL_VALIDATOR",
+      "DATABASE_CONCURRENCY",
+      "PRODUCTION_NEGATIVE_WRITE_TEST"
+    ]
+  },
+  "references": [
+    "https://airc.nist.gov/airmf-resources/airmf/5-sec-core/",
+    "https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/creating-rulesets-for-a-repository"
+  ],
+  "no_main_mutation": true,
+  "no_runtime_activation": true
+}
