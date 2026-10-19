@@ -1,0 +1,68 @@
+{
+  "schema_version": "0.1.0-CANDIDATE",
+  "date": "2026-10-19",
+  "existing_find": "CE_PMO_FIND_GUARDIAN_ENFORCEMENT_20261019_CANDIDATE.md",
+  "scope": "GITHUB_MAIN_RULESET_PROTECAO_25297030",
+  "observed": {
+    "enforcement": "disabled",
+    "branch_includes": [],
+    "required_status_checks": [],
+    "rules": [
+      "deletion",
+      "non_fast_forward",
+      "pull_request",
+      "required_status_checks"
+    ],
+    "main_protection_api": "HTTP_403_INTEGRATION_PERMISSIONS",
+    "authorization": "NOT_GRANTED_FOR_ADMIN_MUTATION"
+  },
+  "normative_refs": [
+    "https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/creating-rulesets-for-a-repository",
+    "https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/available-rules-for-rulesets"
+  ],
+  "correction_plan": [
+    {
+      "step": 1,
+      "action": "Enumerate current main CI workflow jobs and real stable check contexts from recent GitHub Actions runs",
+      "proof": "Workflow run IDs, job names, clean success at fixed main SHA",
+      "state": "HOLD_NEEDS_CI_VERIFICATION"
+    },
+    {
+      "step": 2,
+      "action": "Design ruleset targeting only ~DEFAULT_BRANCH, require PR, block deletion/non_fast_forward; ensure no accidental PMO branch targeting",
+      "proof": "Ruleset candidate diff and independent review",
+      "state": "READY_DOCUMENTARY"
+    },
+    {
+      "step": 3,
+      "action": "Add precisely verified required check contexts, avoid empty list; strict update policy selected based on documented CI",
+      "proof": "Existing check runs and source-app identity",
+      "state": "HOLD_REAL_CHECK_NAMES"
+    },
+    {
+      "step": 4,
+      "action": "Obtain repository administrator authority to change enforcement and scope, preserving current owner approval policy",
+      "proof": "Authorized WO/Kernel receipt or controlled infra-change approval",
+      "state": "HOLD_ADMIN_AUTHORITY"
+    },
+    {
+      "step": 5,
+      "action": "Test with safe temporary PR, verify branch rules reject merge without required check, non-fast-forward/deletion protections; no destructive main attempts",
+      "proof": "Server-side negative test logs and IDs",
+      "state": "HOLD_REMOTE_ENFORCEMENT"
+    },
+    {
+      "step": 6,
+      "action": "Read back effective ruleset, independent audit and release recommendation; keep main non-promoted until gates pass",
+      "proof": "REST ruleset payload, CI runs, reviewer attestation",
+      "state": "HOLD_INDEPENDENT"
+    }
+  ],
+  "risks": [
+    "Blindly enabling an empty-status-check ruleset provides false assurance",
+    "Setting broad branch includes can block PMO/documentary commits",
+    "Unknown CI status names could deadlock PR merges"
+  ],
+  "release": "HOLD",
+  "main_mutated": false
+}
