@@ -137,6 +137,36 @@ class InventoryGuardTests(unittest.TestCase):
         q["rules"]["m24_historical_milestone_disposition"] = "READY_NOT_STARTED"
         self.assertIn("QUEUE_M24_HISTORIC_LABEL_REOPENED", preflight(pmo=self.pmo, queue=q))
 
+    def test_late_discovery_appended_at_tail_only(self):
+        q = copy.deepcopy(self.queue)
+        q["tasks"].insert(0, q["tasks"].pop())
+        self.assertIn("QUEUE_HISTORICAL_TASK_ORDER_CHANGED", preflight(pmo=self.pmo, queue=q))
+
+    def test_late_discovery_requires_find_and_investigation(self):
+        q = copy.deepcopy(self.queue)
+        q["tasks"][-1]["investigation"] = ""
+        self.assertIn("POST_CLOSURE_FIND_INVESTIGATION_CORRECTION_REQUIRED:1", preflight(pmo=self.pmo, queue=q))
+
+    def test_late_discovery_requires_linked_find(self):
+        q = copy.deepcopy(self.queue)
+        q["tasks"][-1]["origin_find_id"] = "FAKE-FIND"
+        self.assertIn("POST_CLOSURE_LINKED_FIND_REQUIRED:1", preflight(pmo=self.pmo, queue=q))
+
+    def test_late_discovery_cannot_self_certify_executed(self):
+        q = copy.deepcopy(self.queue)
+        q["tasks"][-1]["status"] = "EXECUTED"
+        self.assertIn("POST_CLOSURE_FALSE_COMPLETION:1", preflight(pmo=self.pmo, queue=q))
+
+    def test_duplicate_find_identity_rejected(self):
+        q = copy.deepcopy(self.queue)
+        q["finds"].append(copy.deepcopy(q["finds"][-1]))
+        self.assertIn("QUEUE_FIND_ID_COLLISION", preflight(pmo=self.pmo, queue=q))
+
+    def test_master_must_track_tail_tasks(self):
+        pmo = copy.deepcopy(self.pmo)
+        pmo["post_closure_control"]["new_tasks_current_tail"] = []
+        self.assertIn("POST_CLOSURE_MASTER_QUEUE_DIVERGENCE", preflight(pmo=pmo, queue=self.queue))
+
     def test_gate_false_pass(self):
         x = copy.deepcopy(self.pmo)
         x["gates"][0]["status"] = "PASS"
