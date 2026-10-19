@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.1.0-CANDIDATE",
+  "kind": "PMO_PRIORITY_GAP_AND_OPEN_TASK_SWEEP",
+  "cutoff": "2026-10-19",
+  "project": "IndiciumFIN/calculadorasdeenfermagem",
+  "mode": "READ_ONLY_AUDIT_AND_DOCUMENTARY_RECORD",
+  "branch_scope": "pmo/recovery-controlled-20261019",
+  "anti_rework_invariant": "CLOSED and CANDIDATE_FOR_CLOSURE are frozen against reexecution. Only new contradictory source evidence documented as a FIND may trigger controlled reassessment; CANDIDATE_FOR_CLOSURE still requires its existing acceptance gate, not automatic CLOSED",
+  "verified_controls": {
+    "pmo_queue_dispatch_history_index_guard": "PASS_PREFLIGHT_ONLY_NO_FINDINGS",
+    "unit_tests": "80_OF_80_PASS",
+    "independent_validator": "25_PASS_3_HOLD",
+    "pmo_github_documentary_head": "952d283f111b43963fbd8ed3975c5c7db3c47139",
+    "github_pmo_blobs": 63,
+    "local_counterparts_identical": 59,
+    "remote_only_preserved": 4,
+    "private_823_snapshot_readback": "EXACT_CONTENT_MATCH_NOT_PUBLIC",
+    "original_768_per_item_manifest": "UNAVAILABLE_NOT_RECONSTRUCTED"
+  },
+  "priority_open_controls": [
+    {"id": "VAL-GAP-001", "status": "HOLD", "current_evidence": "59/59 documentary Git blob SHA readback and local PMO guard", "next": "Independent segregated receipt binding current Git head, master, queue, dispatch, ledger, source references and ancestry; remote enforcement proof", "not_done": "No signed/segregated continuous attestation"},
+    {"id": "VAL-GAP-002", "status": "HOLD", "current_evidence": "823-item current private copy exact readback and 768-item historic aggregate", "next": "Item-level delta only if original dated path/hash list is recovered; restore test and explicit custody exception otherwise", "not_done": "Original 768 item-level comparison cannot be asserted"},
+    {"id": "VAL-GAP-004", "status": "HOLD", "current_evidence": "15 pinned branch trees, current PMO Git subset exact, historical ZIP population", "next": "Per-object identities and version/source scope by authorized repository/archive/private snapshot population", "not_done": "Global Drive/Library/Supabase equivalence not proven"},
+    {"id": "M24", "status": "HOLD_ENVIRONMENT_ZERO_OF_FIVE_RELEASED", "current_evidence": "Five-file distinct blocked population in M43 and P4 plan", "next": "Recover exact five source IDs and blockers; link existing FIND/policy/validator/task/WO/Kernel evidence; authorize none by analogy with M41/M43", "not_done": "Neither source identities nor Kernel admission proven in current PMO summary"}
+  ],
+  "already_evidenced_no_repeat": [
+    {"item": "VAL-GAP-003", "state": "CLOSED_BOUNDED", "evidence": "13 ZIP containers and 1956 member CRC replays pass; reopen only for content/scope drift"},
+    {"item": "PMO_BASE64_CORRECTION_14", "state": "CANDIDATE_FOR_CLOSURE", "evidence": "14 repaired; exact subsequent Git readback; no repeat publication needed"},
+    {"item": "P1_ZIP_INTEGRITY", "state": "EXECUTED_AWAITING_GLOBAL_VALIDATION", "evidence": "Local CRC integrity already verified; no rerun absent changed archive population"},
+    {"item": "P2_PINNED_15_BRANCH_TREES", "state": "EVIDENCE_ALREADY_EXISTS", "evidence": "15 pinned trees; only detect new HEAD drift, do not rescan same immutable trees"},
+    {"item": "P3_TASK_WO_CENSUS", "state": "EVIDENCE_ALREADY_EXISTS_IDENTITY_HOLD", "evidence": "38 CE04 tasks, 164 PR2 WO and 102 historical WO are separate universes; avoid duplicate enumeration"},
+    {"item": "P4_SOURCE_RIGHTS_CENSUS", "state": "EVIDENCE_ALREADY_EXISTS_RIGHTS_HOLD", "evidence": "61 source objects, 49 URLs; source counting complete, rights adjudication open"}
+  ],
+  "sweep_findings": [
+    {"id": "FIND-PMO-QUEUE-STATUS-DRIFT-20261019", "type": "NON_DESTRUCTIVE_STATUS_RECONCILIATION", "observation": "Queue retains READY_NOT_STARTED for P2-00/P3-A/P4-A despite existing documentary enumerations, and P1-CD-01/P1-D-01 have partial classification/custody evidence", "required_correction": "Reconcile task status to evidence dimensions (enumeration, identity, approval, runtime) without asserting CLOSED or reexecuting", "effect": "HOLD_FINAL_CLASSIFICATION"},
+    {"id": "FIND-PMO-M24-ID-NOT-BOUND-20261019", "type": "EVIDENCE_COVERAGE", "observation": "Current PMO summary identifies M24 only as five HOLD files; names/IDs and individual causal blockers are not independently shown in this control", "required_correction": "Resolve five identifiers from existing historic M24 manifest, verify source SHA and existing WO/Kernel lineage before any new task", "effect": "NO_EXECUTION"}
+  ],
+  "after_sweep": {"closed_tasks_reopened": 0, "candidate_tasks_reexecuted": 0, "new_runtime_executions": 0, "new_kernel_admissions_claimed": 0, "main_modified": false, "overall_release": "HOLD"}
+}
