@@ -16,6 +16,7 @@ class InventoryGuardTests(unittest.TestCase):
     def setUpClass(cls):
         cls.pmo = json.loads((ROOT / "CE_PMO_REGISTRO_MESTRE_20261019_v0.1.0_CANDIDATE.json").read_text())
         cls.queue = json.loads((ROOT / "CE_PMO_FILA_EXECUCAO_P1_P5_20261019_CANDIDATE.json").read_text())
+        cls.dispatch = json.loads((ROOT / "CE_PMO_EXECUCAO_PARALELA_P2_P5_REUSE_20261019_CANDIDATE.json").read_text())
         cls.history = json.loads((ROOT / "CE_PMO_LEDGER_ANTI_RETRABALHO_20261019_CANDIDATE.json").read_text())
         cls.summary = json.loads((ROOT / "CE_PMO_INVENTARIO_RECURSIVO_RESUMO_20261019_CANDIDATE.json").read_text())
         cls.manifest = {"root_scope": "recursive_workspace_only", "files": [{"relative_path": "sample.txt", "sha256": "a" * 64, "bytes": 2, "external_persistence": "NOT_PROVEN_BY_LOCAL_SCAN"}]}
@@ -25,7 +26,35 @@ class InventoryGuardTests(unittest.TestCase):
         self.assertTrue(any(expected in issue for issue in preflight(**{domain: modified})))
 
     def test_valid_preflight_not_release(self):
-        self.assertEqual([], preflight(manifest=self.manifest, summary=self.summary, pmo=self.pmo, queue=self.queue, publication=self.plan))
+        self.assertEqual([], preflight(manifest=self.manifest, summary=self.summary, pmo=self.pmo, queue=self.queue, dispatch=self.dispatch, history_ledger=self.history, publication=self.plan))
+
+    def test_each_parallel_wave_anti_rework_passes_only_linking(self):
+        self.assertEqual([], preflight(pmo=self.pmo, queue=self.queue, dispatch=self.dispatch, history_ledger=self.history))
+
+    def test_parallel_anti_rework_missing_ledger_blocks(self):
+        history = copy.deepcopy(self.history)
+        history["tasks"] = []
+        self.assertIn("DISPATCH_ANTI_REWORK_HISTORY_UNAVAILABLE", preflight(pmo=self.pmo, queue=self.queue, dispatch=self.dispatch, history_ledger=history))
+
+    def test_stale_p3_wo_population_blocked(self):
+        q = copy.deepcopy(self.queue)
+        next(t for t in q["tasks"] if t["id"] == "P3-A")["action"] = "38 tasks and 76 PR2 WOs"
+        self.assertIn("QUEUE_STALE_WO_COUNT", preflight(pmo=self.pmo, queue=q))
+
+    def test_missing_parallel_wave_blocked(self):
+        d = copy.deepcopy(self.dispatch)
+        d["entries"].pop()
+        self.assertIn("DISPATCH_FOUR_WAVE_ENTRIES_REQUIRED", preflight(pmo=self.pmo, queue=self.queue, dispatch=d))
+
+    def test_unregistered_source_in_parallel_wave_blocked(self):
+        d = copy.deepcopy(self.dispatch)
+        d["entries"][0]["source_ids"].append("S-UNVERIFIED")
+        self.assertIn("DISPATCH_SOURCE_MISMATCH:0", preflight(pmo=self.pmo, queue=self.queue, dispatch=d))
+
+    def test_false_parallel_release_blocked(self):
+        d = copy.deepcopy(self.dispatch)
+        d["cross_wave_controls"]["all_4_waves_productive_execution_admitted"] = True
+        self.assertIn("DISPATCH_FALSE_RELEASE", preflight(pmo=self.pmo, queue=self.queue, dispatch=d))
 
     def test_known_work_reexecution_blocked_by_guardian(self):
         issues = preflight(pmo=self.pmo, candidate_task=self.history["tasks"][0], history_ledger=self.history)
