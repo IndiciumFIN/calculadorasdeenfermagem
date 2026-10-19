@@ -1,1 +1,33 @@
-ewogICJzY2hlbWFfdmVyc2lvbiI6ICIwLjEuMCIsCiAgInRhc2tfaWQiOiAiUDEtQ0QtMDEiLAogICJjbGFzc2lmaWNhdGlvbl9zdGFnZSI6ICJQSUxPVF9BR0dSRUdBVEVfSURFTlRJVFlfT05MWSIsCiAgInNvdXJjZV9jdXRvZmYiOiAiMjAyNi0xMC0xOSIsCiAgImlucHV0X2V2aWRlbmNlIjogWwogICAgIkNFX1BNT19HSVRfQkxPQl9DUk9TU0NIRUNLX1AxQ0NfMjAyNjEwMTlfQ0FORElEQVRFLmpzb24iLAogICAgIkNFX1BNT19SRUNPTl9MT0NBTF9aSVBfR0lUX1AxQ19BXzIwMjYxMDE5X0NBTkRJREFURS5qc29uIiwKICAgICJDRV9QTU9fR0lUX0JSQU5DSF9UUkVFU19QMUNCXzIwMjYxMDE5X0NBTkRJREFURS5qc29uIgogIF0sCiAgInBvcHVsYXRpb24iOiB7InVuaXQiOiAiVU5JUVVFX0RFQ09NUFJFU1NFRF9aSVBfTUVNQkVSX0dJVF9CTE9CX0NPTlRFTlQiLCAidG90YWwiOiAxMjk1fSwKICAibXV0dWFsbHlfZXhjbHVzaXZlX2NsYXNzZXMiOiBbCiAgICB7ImNvZGUiOiAiQSIsICJtZWFuaW5nIjogIlpJUCBwYXlsb2FkIGlkZW50aWNhbCB0byBib3RoIGxvb3NlIGxvY2FsIGFuZCBpbmRpdmlkdWFsIEdpdCBibG9iIiwgImNvdW50IjogMTEsICJzdGF0dXMiOiAiRVhBQ1RfQ09OVEVOVF9JREVOVElUWV9PTkxZIn0sCiAgICB7ImNvZGUiOiAiQiIsICJtZWFuaW5nIjogIlpJUCBwYXlsb2FkIGlkZW50aWNhbCB0byBsb29zZSBsb2NhbCBidXQgbm90IGluZGl2aWR1YWwgcGlubmVkLXRpcCBHaXQgYmxvYiIsICJjb3VudCI6IDYxMCwgInN0YXR1cyI6ICJQQVRIX0FORF9WRVJTSU9OX1JFQ09OQ0lMSUFUSU9OX0hPTEQifSwKICAgIHsiY29kZSI6ICJDIiwgIm1lYW5pbmciOiAiWklQIHBheWxvYWQgbm90IGlkZW50aWNhbCB0byBsb29zZSBsb2NhbCBvciBpbmRpdmlkdWFsIHBpbm5lZC10aXAgR2l0IGJsb2IiLCAiY291bnQiOiA2NzQsICJzdGF0dXMiOiAiQVJDSElWRV9ORVNUSU5HX0hJU1RPUllfQU5EX0NVU1RPRFlfSE9MRCJ9CiAgXSwKICAicHJvb2ZfYXJpdGhtZXRpYyI6IFsKICAgICIxMSArIDYxMCArIDY3NCA9IDEyOTUiLAogICAgIjYxMCArIDY3NCA9IDEyODQiLAogICAgIjExICsgNjEwID0gNjIxIgogIF0sCiAgInVucmVzb2x2ZWQiOiBbCiAgICAicGVyLW1lbWJlciBwYXRoL3ZlcnNpb24vYWxpYXMgcHJvdmVuYW5jZSBhbmQgaW1tdXRhYmxlIHByaXZhdGUgb2JqZWN0IG1hbmlmZXN0IiwKICAgICJHaXQtc3RvcmVkIFpJUCBjb250YWluZXIgY29udGVudCBhbmQgbmVzdGVkIGFyY2hpdmVzIiwKICAgICJMRlMgcG9pbnRlcnMsIHRyYW5zZm9ybWVkIHBheWxvYWRzIGFuZCBvbGRlciBoaXN0b3J5IG5vdCBpbiAxNSBwaW5uZWQgYnJhbmNoIHRpcHMiLAogICAgInJpZ2h0cywgY2xpbmljYWwgc2VtYW50aWNzIGFuZCBkb2N1bWVudGFyeSBjdXN0b2R5IgogIF0sCiAgInByaXZhY3kiOiAiQUdHUkVHQVRFU19PTkxZX05PX1JBV19IQVNIRVNfT1JfUFJJVkFURV9QQVRIUyIsCiAgInAxX2NoZWNrcG9pbnRfc2l4X2NvbXBsZXRlIjogZmFsc2UsCiAgIm9wZXJhdGlvbmFsX3JlbGVhc2UiOiAiSE9MRCIsCiAgImZpbmQiOiAiUDEtRklORC1HSVQtWklQLVVOTUFUQ0hFRCIsCiAgImNvbmNsdXNpb25fZm9yYmlkZGVuIjogIkRPX05PVF9JTlRFUlBSRVRfVU5NQVRDSEVEX0FTX0xPU1RfT1JfREVMRVRFIgp9Cg==
+{
+  "schema_version": "0.1.0",
+  "task_id": "P1-CD-01",
+  "classification_stage": "PILOT_AGGREGATE_IDENTITY_ONLY",
+  "source_cutoff": "2026-10-19",
+  "input_evidence": [
+    "CE_PMO_GIT_BLOB_CROSSCHECK_P1CC_20261019_CANDIDATE.json",
+    "CE_PMO_RECON_LOCAL_ZIP_GIT_P1C_A_20261019_CANDIDATE.json",
+    "CE_PMO_GIT_BRANCH_TREES_P1CB_20261019_CANDIDATE.json"
+  ],
+  "population": {"unit": "UNIQUE_DECOMPRESSED_ZIP_MEMBER_GIT_BLOB_CONTENT", "total": 1295},
+  "mutually_exclusive_classes": [
+    {"code": "A", "meaning": "ZIP payload identical to both loose local and individual Git blob", "count": 11, "status": "EXACT_CONTENT_IDENTITY_ONLY"},
+    {"code": "B", "meaning": "ZIP payload identical to loose local but not individual pinned-tip Git blob", "count": 610, "status": "PATH_AND_VERSION_RECONCILIATION_HOLD"},
+    {"code": "C", "meaning": "ZIP payload not identical to loose local or individual pinned-tip Git blob", "count": 674, "status": "ARCHIVE_NESTING_HISTORY_AND_CUSTODY_HOLD"}
+  ],
+  "proof_arithmetic": [
+    "11 + 610 + 674 = 1295",
+    "610 + 674 = 1284",
+    "11 + 610 = 621"
+  ],
+  "unresolved": [
+    "per-member path/version/alias provenance and immutable private object manifest",
+    "Git-stored ZIP container content and nested archives",
+    "LFS pointers, transformed payloads and older history not in 15 pinned branch tips",
+    "rights, clinical semantics and documentary custody"
+  ],
+  "privacy": "AGGREGATES_ONLY_NO_RAW_HASHES_OR_PRIVATE_PATHS",
+  "p1_checkpoint_six_complete": false,
+  "operational_release": "HOLD",
+  "find": "P1-FIND-GIT-ZIP-UNMATCHED",
+  "conclusion_forbidden": "DO_NOT_INTERPRET_UNMATCHED_AS_LOST_OR_DELETE"
+}
