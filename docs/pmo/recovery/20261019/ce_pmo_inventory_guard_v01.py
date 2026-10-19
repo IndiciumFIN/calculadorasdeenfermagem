@@ -1,1 +1,219 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiJGYWlsLWNsb3NlZCBwcmVmbGlnaHQgZm9yIENFIGRvY3VtZW50YXJ5IGludmVudG9yeSBvcGVyYXRpb25zLgoKTm8gbXV0YXRpb25zLCBuZXR3b3JrIGNhbGxzIG9yIHB1YmxpY2F0aW9uLiBUaGlzIGdhdGUgaXMgbm90IEtlcm5lbCBhZG1pc3Npb24uClJldHVybiAwIG9ubHkgd2hlbiBzdXBwbGllZCBpbnB1dHMgc2F0aXNmeSB0aGUgZG9jdW1lbnRhcnkgY29uc3RyYWludHMuCiIiIgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQgYXJncGFyc2UKaW1wb3J0IGpzb24KaW1wb3J0IHJlCmltcG9ydCBzdGF0CmltcG9ydCBzeXMKaW1wb3J0IHppcGZpbGUKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoLCBQdXJlUG9zaXhQYXRoCgpmcm9tIGNlX3Btb19ub19yZXdvcmtfYWdlbnRfdjAxIGltcG9ydCBldmFsdWF0ZSBhcyBhbnRpX3Jld29ya19ldmFsdWF0ZQoKQVBQUk9WRURfQlJBTkNIID0gInBtby9yZWNvdmVyeS1jb250cm9sbGVkLTIwMjYxMDE5IgpET0NfUk9PVCA9ICJkb2NzL3Btby9yZWNvdmVyeS8yMDI2MTAxOS8iClNIQTI1NiA9IHJlLmNvbXBpbGUociJeWzAtOWEtZl17NjR9JCIpCkdJVFNIQSA9IHJlLmNvbXBpbGUociJeWzAtOWEtZl17NDB9JCIpCkZPUkJJRERFTl9PUEVSQVRJT05TID0geyJkZWxldGUiLCAicmVtb3ZlIiwgInVubGluayIsICJ0cnVuY2F0ZSIsICJyZXNldCIsICJmb3JjZV9wdXNoIiwgIm1lcmdlIiwgImRlZHVwbGljYXRlX2RlbGV0ZSIsICJvdmVyd3JpdGVfc291cmNlIiwgImV4dHJhY3RfemlwIiwgInByb21vdGUiLCAibWFpbl93cml0ZSJ9ClBST01PVElPTl9LRVlTID0geyJwbW9fdHJ1c3RlZCIsICJwcm9qZWN0X2V4ZWN1dGlvbl9hbGxvd2VkIiwgImNhbm9uaWNhbF9hcHByb3ZlZCIsICJyZWxlYXNlX2FwcHJvdmVkIiwgIm0yNF9yZWxlYXNlZCJ9CgoKZGVmIGd1YXJkKGNvbmRpdGlvbjogYm9vbCwgY29kZTogc3RyLCBmaW5kaW5nczogbGlzdFtzdHJdKSAtPiBOb25lOgogICAgaWYgbm90IGNvbmRpdGlvbjoKICAgICAgICBmaW5kaW5ncy5hcHBlbmQoY29kZSkKCgpkZWYgY2hlY2tfbWFuaWZlc3QoZGF0YTogZGljdCwgZmluZGluZ3M6IGxpc3Rbc3RyXSkgLT4gTm9uZToKICAgIGd1YXJkKGRhdGEuZ2V0KCJyb290X3Njb3BlIikgPT0gInJlY3Vyc2l2ZV93b3Jrc3BhY2Vfb25seSIsICJNQU5JRkVTVF9TQ09QRV9NSVNNQVRDSCIsIGZpbmRpbmdzKQogICAgcm93cyA9IGRhdGEuZ2V0KCJmaWxlcyIpCiAgICBpZiBub3QgaXNpbnN0YW5jZShyb3dzLCBsaXN0KToKICAgICAgICBmaW5kaW5ncy5hcHBlbmQoIk1BTklGRVNUX0ZJTEVTX01JU1NJTkciKQogICAgICAgIHJldHVybgogICAgc2Vlbjogc2V0W3N0cl0gPSBzZXQoKQogICAgZm9yIGksIHJvdyBpbiBlbnVtZXJhdGUocm93cyk6CiAgICAgICAgaWYgbm90IGlzaW5zdGFuY2Uocm93LCBkaWN0KToKICAgICAgICAgICAgZmluZGluZ3MuYXBwZW5kKGYiTUFOSUZFU1RfUk9XX0lOVkFMSUQ6e2l9IikKICAgICAgICAgICAgY29udGludWUKICAgICAgICBuYW1lID0gcm93LmdldCgicmVsYXRpdmVfcGF0aCIsICIiKQogICAgICAgIHBhdGggPSBQdXJlUG9zaXhQYXRoKG5hbWUpIGlmIGlzaW5zdGFuY2UobmFtZSwgc3RyKSBlbHNlIFB1cmVQb3NpeFBhdGgoIiIpCiAgICAgICAgZ3VhcmQoaXNpbnN0YW5jZShuYW1lLCBzdHIpIGFuZCBuYW1lIGFuZCBub3QgcGF0aC5pc19hYnNvbHV0ZSgpIGFuZCAiLi4iIG5vdCBpbiBwYXRoLnBhcnRzIGFuZCAiXFwiIG5vdCBpbiBuYW1lLCBmIlVOU0FGRV9NQU5JRkVTVF9QQVRIOntpfSIsIGZpbmRpbmdzKQogICAgICAgIGd1YXJkKG5hbWUgbm90IGluIHNlZW4sIGYiRFVQTElDQVRFX01BTklGRVNUX1BBVEg6e2l9IiwgZmluZGluZ3MpCiAgICAgICAgc2Vlbi5hZGQobmFtZSkKICAgICAgICBndWFyZChpc2luc3RhbmNlKHJvdy5nZXQoInNoYTI1NiIpLCBzdHIpIGFuZCBib29sKFNIQTI1Ni5mdWxsbWF0Y2gocm93WyJzaGEyNTYiXSkpLCBmIkhBU0hfTUlTU0lOR19PUl9JTlZBTElEOntpfSIsIGZpbmRpbmdzKQogICAgICAgIGd1YXJkKGlzaW5zdGFuY2Uocm93LmdldCgiYnl0ZXMiKSwgaW50KSBhbmQgcm93WyJieXRlcyJdID49IDAsIGYiU0laRV9NSVNTSU5HX09SX0lOVkFMSUQ6e2l9IiwgZmluZGluZ3MpCiAgICAgICAgZ3VhcmQocm93LmdldCgiZXh0ZXJuYWxfcGVyc2lzdGVuY2UiKSA9PSAiTk9UX1BST1ZFTl9CWV9MT0NBTF9TQ0FOIiwgZiJGQUxTRV9DVVNUT0RZX0NMQUlNOntpfSIsIGZpbmRpbmdzKQoKCmRlZiBjaGVja19zdW1tYXJ5KGRhdGE6IGRpY3QsIGZpbmRpbmdzOiBsaXN0W3N0cl0pIC0+IE5vbmU6CiAgICBndWFyZChkYXRhLmdldCgicHJpdmFjeSIpID09ICJBR0dSRUdBVEVfT05MWV9OT19GSUxFTkFNRVNfT1JfSEFTSEVTIiwgIlNVTU1BUllfUFJJVkFDWV9VTkRFQ0xBUkVEIiwgZmluZGluZ3MpCiAgICBndWFyZChkYXRhLmdldCgicG1vX2dhdGUiKSA9PSAiSE9MRCIsICJGQUxTRV9HQVRFX1BBU1MiLCBmaW5kaW5ncykKICAgIGZvcmJpZGRlbiA9IHsicmVsYXRpdmVfcGF0aCIsICJwYXRoIiwgImZpbGVuYW1lIiwgInNoYTI1NiIsICJoYXNoIiwgInVybCIsICJlbWFpbCIsICJ6aXBfY29udGFpbmVycyIsICJleGFjdF9kdXBsaWNhdGVfcGF0aHMifQoKICAgIGRlZiB3YWxrKHZhbHVlOiBvYmplY3QsIHBhcmVudDogc3RyID0gInN1bW1hcnkiKSAtPiBOb25lOgogICAgICAgIGlmIGlzaW5zdGFuY2UodmFsdWUsIGRpY3QpOgogICAgICAgICAgICBmb3IgaywgdiBpbiB2YWx1ZS5pdGVtcygpOgogICAgICAgICAgICAgICAgaWYgay5sb3dlcigpIGluIGZvcmJpZGRlbiBvciAoay5sb3dlcigpID09ICJmaWxlcyIgYW5kIG5vdCAocGFyZW50LnN0YXJ0c3dpdGgoInN1bW1hcnkuZ3JvdXBzLiIpIGFuZCBpc2luc3RhbmNlKHYsIGludCkpKToKICAgICAgICAgICAgICAgICAgICBmaW5kaW5ncy5hcHBlbmQoZiJQUklWQVRFX0ZJRUxEX0lOX1BVQkxJQ19TVU1NQVJZOntwYXJlbnR9LntrfSIpCiAgICAgICAgICAgICAgICB3YWxrKHYsIGYie3BhcmVudH0ue2t9IikKICAgICAgICBlbGlmIGlzaW5zdGFuY2UodmFsdWUsIGxpc3QpOgogICAgICAgICAgICBmb3IgbiwgdiBpbiBlbnVtZXJhdGUodmFsdWUpOgogICAgICAgICAgICAgICAgd2Fsayh2LCBmIntwYXJlbnR9W3tufV0iKQoKICAgIHdhbGsoZGF0YSkKCgpkZWYgY2hlY2tfcG1vKGRhdGE6IGRpY3QsIGZpbmRpbmdzOiBsaXN0W3N0cl0pIC0+IE5vbmU6CiAgICBndWFyZChkYXRhLmdldCgicG1vX3RydXN0ZWQiKSBpcyBGYWxzZSwgIlBNT19GQUxTRV9QQVNTIiwgZmluZGluZ3MpCiAgICBndWFyZChkYXRhLmdldCgicHJvamVjdF9leGVjdXRpb25fYWxsb3dlZCIpIGlzIEZhbHNlLCAiUFJPSkVDVF9FWEVDVVRJT05fRkFMU0VfUEFTUyIsIGZpbmRpbmdzKQogICAgZ3VhcmQoZGF0YS5nZXQoInN0YXRlIikgPT0gIkNBTkRJREFURV9OT1RfQ0FOT05JQ0FMIiwgIlBNT19QUkVNQVRVUkVfQ0FOT05JQ0FMIiwgZmluZGluZ3MpCiAgICByZXN0cmljdGlvbnMgPSBkYXRhLmdldCgic2NvcGVfcmVzdHJpY3Rpb25zIiwgW10pCiAgICBndWFyZCgiTTI0X0hPTEQiIGluIHJlc3RyaWN0aW9ucywgIk0yNF9IT0xEX1JFTU9WRUQiLCBmaW5kaW5ncykKICAgIGd1YXJkKCJOT19NRVJHRSIgaW4gcmVzdHJpY3Rpb25zLCAiTUVSR0VfUkVTVFJJQ1RJT05fUkVNT1ZFRCIsIGZpbmRpbmdzKQogICAgZXhjZXB0aW9uID0gZGF0YS5nZXQoInBtb19wcmVzZXJ2YXRpb25fZXhjZXB0aW9uIiwge30pCiAgICBndWFyZChleGNlcHRpb24uZ2V0KCJhbGxvd2VkX3RhcmdldF9icmFuY2giKSA9PSBBUFBST1ZFRF9CUkFOQ0gsICJQTU9fQlJBTkNIX05PVF9BVVRIT1JJWkVEIiwgZmluZGluZ3MpCiAgICBnYXRlcyA9IGRhdGEuZ2V0KCJnYXRlcyIpCiAgICBndWFyZChpc2luc3RhbmNlKGdhdGVzLCBsaXN0KSBhbmQgbGVuKGdhdGVzKSA9PSA4IGFuZCBsZW4oe3guZ2V0KCJpZCIpIGZvciB4IGluIGdhdGVzIGlmIGlzaW5zdGFuY2UoeCwgZGljdCl9KSA9PSA4LAogICAgICAgICAgIlBNT19HQVRFX1BPUFVMQVRJT05fSU5WQUxJRCIsIGZpbmRpbmdzKQogICAgZm9yIGdhdGUgaW4gZ2F0ZXMgaWYgaXNpbnN0YW5jZShnYXRlcywgbGlzdCkgZWxzZSBbXToKICAgICAgICBpZiBub3QgaXNpbnN0YW5jZShnYXRlLCBkaWN0KToKICAgICAgICAgICAgZmluZGluZ3MuYXBwZW5kKCJQTU9fR0FURV9ST1dfSU5WQUxJRCIpCiAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgZ3VhcmQoZ2F0ZS5nZXQoInN0YXR1cyIpID09ICJIT0xEIiwgZiJHQVRFX0ZBTFNFX1BBU1M6e2dhdGUuZ2V0KCdpZCcsJ1VOS05PV04nKX0iLCBmaW5kaW5ncykKICAgIG0yNCA9IFtyIGZvciByIGluIGRhdGEuZ2V0KCJwb3B1bGF0aW9ucyIsIFtdKSBpZiByLmdldCgicG9wdWxhdGlvbl9pZCIpID09ICJQT1AtTTI0LUhPTEQiXQogICAgZ3VhcmQobGVuKG0yNCkgPT0gMSBhbmQgbTI0WzBdLmdldCgiYXBwcm92ZWQiKSA9PSAwIGFuZCBtMjRbMF0uZ2V0KCJzdGF0dXMiKSA9PSAiRVhQTElDSVRfSE9MRF9OT1RfQ09VTlRFRCIsICJNMjRfUE9QVUxBVElPTl9SRUxFQVNFRCIsIGZpbmRpbmdzKQogICAgbWV0cmljcyA9IGRhdGEuZ2V0KCJwcm9ncmVzc19tZXRyaWNzIiwge30pCiAgICBwMSA9IG1ldHJpY3MuZ2V0KCJwMV90ZWNobmljYWxfY2hlY2twb2ludHMiLCB7fSkKICAgIGd1YXJkKGlzaW5zdGFuY2UocDEuZ2V0KCJjb21wbGV0ZWQiKSwgaW50KSBhbmQgaXNpbnN0YW5jZShwMS5nZXQoInRvdGFsIiksIGludCkgYW5kIDAgPD0gcDEuZ2V0KCJjb21wbGV0ZWQiLCAtMSkgPD0gcDEuZ2V0KCJ0b3RhbCIsIDApLCAiUDFfUFJPR1JFU1NfSU5WQUxJRCIsIGZpbmRpbmdzKQogICAgZ3VhcmQobWV0cmljcy5nZXQoImZ1bGxfcHJvamVjdF9jb21wbGV0aW9uIiwge30pLmdldCgicGVyY2VudCIpIGlzIE5vbmUsICJVTlNVUFBPUlRFRF9QUk9KRUNUX1BFUkNFTlQiLCBmaW5kaW5ncykKICAgIGd1YXJkKGRhdGEuZ2V0KCJwbW9fcHJlc2VydmF0aW9uX2V4Y2VwdGlvbiIsIHt9KS5nZXQoImRvZXNfbm90X2VuYWJsZV9wcm9qZWN0X2V4ZWN1dGlvbiIpIGlzIFRydWUsCiAgICAgICAgICAiUE1PX0VYQ0VQVElPTl9FWFBBTkRFRCIsIGZpbmRpbmdzKQoKCmRlZiBjaGVja19jb250cm9sX2NoYWluKHBtbzogZGljdCwgcXVldWU6IGRpY3QsIGZpbmRpbmdzOiBsaXN0W3N0cl0pIC0+IE5vbmU6CiAgICAiIiJDcm9zcy1hcnRpZmFjdCBkb2N1bWVudGFyeSBjb250cm9sOyBkb2VzIG5vdCBhc3NlcnQgcmVtb3RlIEdpdC9LZXJuZWwgYXV0aG9yaXR5LiIiIgogICAgY2hlY2tfcG1vKHBtbywgZmluZGluZ3MpCiAgICBndWFyZChxdWV1ZS5nZXQoInN0YXRlIikgPT0gIkNBTkRJREFURV9ET0NVTUVOVEFSWV9RVUVVRV9OT1RfS0VSTkVMX0FETUlTU0lPTiIsICJRVUVVRV9QUkVNQVRVUkVfUkVMRUFTRSIsIGZpbmRpbmdzKQogICAgZ3VhcmQocXVldWUuZ2V0KCJiYXNlbGluZSIsIHt9KS5nZXQoInByb2plY3RfY29tcGxldGlvbl9wZXJjZW50IikgaXMgTm9uZSwgIlFVRVVFX1BST0pFQ1RfUEVSQ0VOVCIsIGZpbmRpbmdzKQogICAgZ3VhcmQocXVldWUuZ2V0KCJiYXNlbGluZSIsIHt9KS5nZXQoInBtb19nYXRlcyIpID09IHsicGFzc2VkIjogMCwgInRvdGFsIjogOH0sICJRVUVVRV9HQVRFX01JU01BVENIIiwgZmluZGluZ3MpCiAgICBndWFyZChxdWV1ZS5nZXQoImJhc2VsaW5lIiwge30pLmdldCgibTI0X2hvbGRfZmlsZXMiKSA9PSA1LCAiUVVFVUVfTTI0X01JU01BVENIIiwgZmluZGluZ3MpCiAgICBndWFyZChxdWV1ZS5nZXQoImJhc2VsaW5lIiwge30pLmdldCgicDFfY2hlY2twb2ludHMiLCB7fSkuZ2V0KCJjb21wbGV0ZWQiKSA9PSBwbW8uZ2V0KCJwcm9ncmVzc19tZXRyaWNzIiwge30pLmdldCgicDFfdGVjaG5pY2FsX2NoZWNrcG9pbnRzIiwge30pLmdldCgiY29tcGxldGVkIiksICJRVUVVRV9QMV9NSVNNQVRDSCIsIGZpbmRpbmdzKQogICAgZ3VhcmQocG1vLmdldCgiZXhlY3V0aW9uX3F1ZXVlX2NvbnRyb2wiLCB7fSkuZ2V0KCJ0YXNrX3JlZ2lzdGVyX3NvdXJjZSIpID09ICJDRV9QTU9fRklMQV9FWEVDVUNBT19QMV9QNV8yMDI2MTAxOV9DQU5ESURBVEUuanNvbiIsICJRVUVVRV9OT1RfUkVHSVNURVJFRCIsIGZpbmRpbmdzKQogICAgc291cmNlX2lkcyA9IFt4LmdldCgic291cmNlX2lkIikgZm9yIHggaW4gcG1vLmdldCgic291cmNlX3JlZ2lzdGVyIiwgW10pIGlmIGlzaW5zdGFuY2UoeCwgZGljdCldCiAgICBndWFyZChsZW4oc291cmNlX2lkcykgPT0gbGVuKHNldChzb3VyY2VfaWRzKSkgYW5kICJTLTI0IiBpbiBzb3VyY2VfaWRzLCAiUE1PX1NPVVJDRV9SRUdJU1RFUl9JTlZBTElEIiwgZmluZGluZ3MpCiAgICBndWFyZChzZXQocXVldWUuZ2V0KCJzb3VyY2VfaWRzIiwgW10pKS5pc3N1YnNldChzb3VyY2VfaWRzKSwgIlFVRVVFX1NPVVJDRV9VTlJFU09MVkVEIiwgZmluZGluZ3MpCiAgICB0YXNrcyA9IHF1ZXVlLmdldCgidGFza3MiLCBbXSkKICAgIGd1YXJkKGlzaW5zdGFuY2UodGFza3MsIGxpc3QpIGFuZCBib29sKHRhc2tzKSwgIlFVRVVFX1RBU0tTX01JU1NJTkciLCBmaW5kaW5ncykKICAgIGlmIG5vdCBpc2luc3RhbmNlKHRhc2tzLCBsaXN0KToKICAgICAgICByZXR1cm4KICAgIGlkcyA9IFt0LmdldCgiaWQiKSBmb3IgdCBpbiB0YXNrcyBpZiBpc2luc3RhbmNlKHQsIGRpY3QpXQogICAgZ3VhcmQobGVuKGlkcykgPT0gbGVuKHRhc2tzKSBhbmQgbGVuKGlkcykgPT0gbGVuKHNldChpZHMpKSwgIlFVRVVFX1RBU0tfSURFTlRJVElFU19JTlZBTElEIiwgZmluZGluZ3MpCiAgICBhbGxvd2VkX3N0YXR1c2VzID0geyJSRUFEWV9OT1RfU1RBUlRFRCIsICJCTE9DS0VEX0RFUEVOREVOQ1kifQogICAgZm9yIGluZGV4LCB0YXNrIGluIGVudW1lcmF0ZSh0YXNrcyk6CiAgICAgICAgaWYgbm90IGlzaW5zdGFuY2UodGFzaywgZGljdCk6CiAgICAgICAgICAgIGZpbmRpbmdzLmFwcGVuZChmIlFVRVVFX1RBU0tfSU5WQUxJRDp7aW5kZXh9IikKICAgICAgICAgICAgY29udGludWUKICAgICAgICBndWFyZCh0YXNrLmdldCgic3RhdHVzIikgaW4gYWxsb3dlZF9zdGF0dXNlcywgZiJRVUVVRV9GQUxTRV9FWEVDVVRJT046e2luZGV4fSIsIGZpbmRpbmdzKQogICAgICAgIGd1YXJkKHRhc2suZ2V0KCJtb2RlIikgaW4geyJSRUFEX09OTFkiLCAiRE9DVU1FTlRBUlkifSwgZiJRVUVVRV9SVU5USU1FX05PVF9BRE1JVFRFRDp7aW5kZXh9IiwgZmluZGluZ3MpCiAgICAgICAgZ3VhcmQoYm9vbCh0YXNrLmdldCgiZXZpZGVuY2VfcmVxdWlyZWQiKSkgYW5kIGJvb2wodGFzay5nZXQoImFjY2VwdGFuY2UiKSkgYW5kIGJvb2wodGFzay5nZXQoInJlbGVhc2VfZ2F0ZSIpKSwgZiJRVUVVRV9FVklERU5DRV9PUl9HQVRFX01JU1NJTkc6e2luZGV4fSIsIGZpbmRpbmdzKQogICAgICAgIGd1YXJkKGFsbChkZXAgaW4gaWRzIG9yIGRlcCA9PSAiUDEtQy1DIiBmb3IgZGVwIGluIHRhc2suZ2V0KCJkZXBlbmRzX29uIiwgW10pKSwgZiJRVUVVRV9ERVBFTkRFTkNZX1VOUkVTT0xWRUQ6e2luZGV4fSIsIGZpbmRpbmdzKQogICAgZ3VhcmQocXVldWUuZ2V0KCJydWxlcyIsIHt9KS5nZXQoInJ1bnRpbWVfc2NvcGUiLCAiIikuc3RhcnRzd2l0aCgiTm8gcHJvZHVjdGl2ZSBydW4gdW50aWwiKSwgIlFVRVVFX1JVTlRJTUVfUE9MSUNZX01JU1NJTkciLCBmaW5kaW5ncykKCgpkZWYgY2hlY2tfcHVibGljYXRpb24ocGxhbjogZGljdCwgZmluZGluZ3M6IGxpc3Rbc3RyXSkgLT4gTm9uZToKICAgIGd1YXJkKHBsYW4uZ2V0KCJicmFuY2giKSA9PSBBUFBST1ZFRF9CUkFOQ0gsICJVTkFVVEhPUklaRURfVEFSR0VUX0JSQU5DSCIsIGZpbmRpbmdzKQogICAgb3BzID0gcGxhbi5nZXQoIm9wZXJhdGlvbnMiLCBbXSkKICAgIGd1YXJkKGlzaW5zdGFuY2Uob3BzLCBsaXN0KSBhbmQgYm9vbChvcHMpLCAiTk9fREVDTEFSRURfT1BFUkFUSU9OUyIsIGZpbmRpbmdzKQogICAgZm9yIGksIG9wIGluIGVudW1lcmF0ZShvcHMgaWYgaXNpbnN0YW5jZShvcHMsIGxpc3QpIGVsc2UgW10pOgogICAgICAgIGlmIG5vdCBpc2luc3RhbmNlKG9wLCBkaWN0KToKICAgICAgICAgICAgZmluZGluZ3MuYXBwZW5kKGYiSU5WQUxJRF9PUEVSQVRJT046e2l9IikKICAgICAgICAgICAgY29udGludWUKICAgICAgICBhY3Rpb24gPSBvcC5nZXQoImFjdGlvbiIpCiAgICAgICAgZ3VhcmQoYWN0aW9uIGluIHsiY3JlYXRlIiwgInVwZGF0ZSJ9LCBmIkRFU1RSVUNUSVZFX09SX1VOS05PV05fQUNUSU9OOntpfSIsIGZpbmRpbmdzKQogICAgICAgIGd1YXJkKGFjdGlvbiBub3QgaW4gRk9SQklEREVOX09QRVJBVElPTlMsIGYiREVTVFJVQ1RJVkVfQUNUSU9OOntpfSIsIGZpbmRpbmdzKQogICAgICAgIHBhdGggPSBvcC5nZXQoInBhdGgiLCAiIikKICAgICAgICBndWFyZChpc2luc3RhbmNlKHBhdGgsIHN0cikgYW5kIHBhdGguc3RhcnRzd2l0aChET0NfUk9PVCkgYW5kICIuLiIgbm90IGluIFB1cmVQb3NpeFBhdGgocGF0aCkucGFydHMgYW5kICJcXCIgbm90IGluIHBhdGgsIGYiT1VUX09GX1NDT1BFX1BVQkxJQ0FUSU9OOntpfSIsIGZpbmRpbmdzKQogICAgICAgIGd1YXJkKG5vdCBhbnkocGFydCBpbiBwYXRoLmxvd2VyKCkgZm9yIHBhcnQgaW4gKCJwcml2YXRlIiwgIm1hbmlmZXN0X2xvY2FsIiwgImludmVudG9yeV9sb2NhbCIsICJ1cGxvYWQvIiwgInNlY3JldHMiLCAiLmVudiIpKSwgZiJQUklWQVRFX1BBVEhfUFVCTElDQVRJT046e2l9IiwgZmluZGluZ3MpCiAgICAgICAgZ3VhcmQob3AuZ2V0KCJzaGEyNTZfbG9jYWwiKSBpcyBub3QgTm9uZSBhbmQgaXNpbnN0YW5jZShvcC5nZXQoInNoYTI1Nl9sb2NhbCIpLCBzdHIpIGFuZCBib29sKFNIQTI1Ni5mdWxsbWF0Y2gob3BbInNoYTI1Nl9sb2NhbCJdKSksIGYiU09VUkNFX0hBU0hfUkVRVUlSRUQ6e2l9IiwgZmluZGluZ3MpCiAgICAgICAgZ3VhcmQob3AuZ2V0KCJyZWFkYmFja19yZXF1aXJlZCIpIGlzIFRydWUsIGYiUkVBREJBQ0tfUkVRVUlSRUQ6e2l9IiwgZmluZGluZ3MpCiAgICAgICAgaWYgYWN0aW9uID09ICJ1cGRhdGUiOgogICAgICAgICAgICBndWFyZChpc2luc3RhbmNlKG9wLmdldCgiYmFzZV9ibG9iX3NoYSIpLCBzdHIpIGFuZCBib29sKEdJVFNIQS5mdWxsbWF0Y2gob3BbImJhc2VfYmxvYl9zaGEiXSkpLCBmIkNBU19CQVNFX1NIQV9SRVFVSVJFRDp7aX0iLCBmaW5kaW5ncykKICAgICAgICBpZiAiY29udGVudCIgaW4gb3A6CiAgICAgICAgICAgIGZpbmRpbmdzLmFwcGVuZChmIklOTElORV9DT05URU5UX0ZPUkJJRERFTjp7aX0iKQoKCmRlZiBjaGVja196aXAoYXJjaGl2ZV9wYXRoOiBQYXRoLCBmaW5kaW5nczogbGlzdFtzdHJdKSAtPiBOb25lOgogICAgdHJ5OgogICAgICAgIHdpdGggemlwZmlsZS5aaXBGaWxlKGFyY2hpdmVfcGF0aCkgYXMgYXJjOgogICAgICAgICAgICBmb3IgaSwgaW5mbyBpbiBlbnVtZXJhdGUoYXJjLmluZm9saXN0KCkpOgogICAgICAgICAgICAgICAgbmFtZSA9IGluZm8uZmlsZW5hbWUKICAgICAgICAgICAgICAgIG5vcm1hbGl6ZWQgPSBuYW1lLnJlcGxhY2UoIlxcIiwgIi8iKQogICAgICAgICAgICAgICAgcGFydHMgPSBQdXJlUG9zaXhQYXRoKG5vcm1hbGl6ZWQpLnBhcnRzCiAgICAgICAgICAgICAgICBpZiBuYW1lLnN0YXJ0c3dpdGgoKCIvIiwgIlxcIikpIG9yICIuLiIgaW4gcGFydHMgb3IgcmUubWF0Y2gociJeW0EtWmEtel06IiwgbmFtZSk6CiAgICAgICAgICAgICAgICAgICAgZmluZGluZ3MuYXBwZW5kKGYiWklQX1BBVEhfVFJBVkVSU0FMOntpfSIpCiAgICAgICAgICAgICAgICBtb2RlID0gaW5mby5leHRlcm5hbF9hdHRyID4+IDE2CiAgICAgICAgICAgICAgICBpZiBzdGF0LlNfSVNMTksobW9kZSk6CiAgICAgICAgICAgICAgICAgICAgZmluZGluZ3MuYXBwZW5kKGYiWklQX1NZTUxJTktfRU5UUlk6e2l9IikKICAgICAgICAgICAgICAgICMgUmVhZGluZyBjZW50cmFsIGRpcmVjdG9yeSBvbmx5OiB0aGlzIGRvZXMgbm90IGNlcnRpZnkgQ1JDIG9yIGRlY29tcHJlc3Npb24uCiAgICBleGNlcHQgKHppcGZpbGUuQmFkWmlwRmlsZSwgT1NFcnJvciwgemlwZmlsZS5MYXJnZVppcEZpbGUpOgogICAgICAgIGZpbmRpbmdzLmFwcGVuZCgiWklQX1VOUkVBREFCTEUiKQoKCmRlZiBwcmVmbGlnaHQoKiwgbWFuaWZlc3Q6IGRpY3QgfCBOb25lID0gTm9uZSwgc3VtbWFyeTogZGljdCB8IE5vbmUgPSBOb25lLCBwbW86IGRpY3QgfCBOb25lID0gTm9uZSwgcXVldWU6IGRpY3QgfCBOb25lID0gTm9uZSwgcHVibGljYXRpb246IGRpY3QgfCBOb25lID0gTm9uZSwgY2FuZGlkYXRlX3Rhc2s6IGRpY3QgfCBOb25lID0gTm9uZSwgaGlzdG9yeV9sZWRnZXI6IGRpY3QgfCBOb25lID0gTm9uZSwgaGlzdG9yaWNhbF9pbmRleDogZGljdCB8IE5vbmUgPSBOb25lLCBhcmNoaXZlczogbGlzdFtQYXRoXSB8IE5vbmUgPSBOb25lKSAtPiBsaXN0W3N0cl06CiAgICBmaW5kaW5nczogbGlzdFtzdHJdID0gW10KICAgIGlmIG1hbmlmZXN0IGlzIG5vdCBOb25lOgogICAgICAgIGNoZWNrX21hbmlmZXN0KG1hbmlmZXN0LCBmaW5kaW5ncykKICAgIGlmIHN1bW1hcnkgaXMgbm90IE5vbmU6CiAgICAgICAgY2hlY2tfc3VtbWFyeShzdW1tYXJ5LCBmaW5kaW5ncykKICAgIGlmIHBtbyBpcyBub3QgTm9uZSBhbmQgcXVldWUgaXMgbm90IE5vbmU6CiAgICAgICAgY2hlY2tfY29udHJvbF9jaGFpbihwbW8sIHF1ZXVlLCBmaW5kaW5ncykKICAgIGVsaWYgcXVldWUgaXMgbm90IE5vbmU6CiAgICAgICAgZmluZGluZ3MuYXBwZW5kKCJRVUVVRV9SRVFVSVJFU19NQVNURVJfUE1PIikKICAgIGVsaWYgcG1vIGlzIG5vdCBOb25lOgogICAgICAgIGNoZWNrX3BtbyhwbW8sIGZpbmRpbmdzKQogICAgaWYgcHVibGljYXRpb24gaXMgbm90IE5vbmU6CiAgICAgICAgY2hlY2tfcHVibGljYXRpb24ocHVibGljYXRpb24sIGZpbmRpbmdzKQogICAgaWYgY2FuZGlkYXRlX3Rhc2sgaXMgbm90IE5vbmUgb3IgaGlzdG9yeV9sZWRnZXIgaXMgbm90IE5vbmU6CiAgICAgICAgaWYgY2FuZGlkYXRlX3Rhc2sgaXMgTm9uZSBvciBoaXN0b3J5X2xlZGdlciBpcyBOb25lIG9yIHBtbyBpcyBOb25lOgogICAgICAgICAgICBmaW5kaW5ncy5hcHBlbmQoIkFOVElfUkVXT1JLX1JFUVVJUkVTX1RBU0tfTEVER0VSX01BU1RFUiIpCiAgICAgICAgZWxzZToKICAgICAgICAgICAgYW5zd2VyID0gYW50aV9yZXdvcmtfZXZhbHVhdGUoY2FuZGlkYXRlX3Rhc2ssIGhpc3RvcnlfbGVkZ2VyLCBwbW8sIGhpc3RvcmljYWxfaW5kZXgpCiAgICAgICAgICAgIGlmIGFuc3dlclsiZGVjaXNpb24iXSBub3QgaW4geyJBTExPV19QUkVGTElHSFRfT05MWSIsICJBTExPV19SRVVTRV9BTkFMWVNJU19PTkxZIn06CiAgICAgICAgICAgICAgICBmaW5kaW5ncy5hcHBlbmQoIkFOVElfUkVXT1JLXyIgKyBhbnN3ZXJbImNvZGUiXSkKICAgIGZvciBhcmNoaXZlIGluIGFyY2hpdmVzIG9yIFtdOgogICAgICAgIGNoZWNrX3ppcChhcmNoaXZlLCBmaW5kaW5ncykKICAgIHJldHVybiBmaW5kaW5ncwoKCmRlZiBtYWluKCkgLT4gaW50OgogICAgcGFyc2VyID0gYXJncGFyc2UuQXJndW1lbnRQYXJzZXIoZGVzY3JpcHRpb249X19kb2NfXykKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoIi0tbWFuaWZlc3QiLCB0eXBlPVBhdGgpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCItLXN1bW1hcnkiLCB0eXBlPVBhdGgpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCItLXBtbyIsIHR5cGU9UGF0aCkKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoIi0tcXVldWUiLCB0eXBlPVBhdGgpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCItLXB1YmxpY2F0aW9uIiwgdHlwZT1QYXRoKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgiLS1jYW5kaWRhdGUtdGFzayIsIHR5cGU9UGF0aCkKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoIi0taGlzdG9yeS1sZWRnZXIiLCB0eXBlPVBhdGgpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCItLWhpc3RvcmljYWwtaW5kZXgiLCB0eXBlPVBhdGgpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCItLXppcCIsIGFjdGlvbj0iYXBwZW5kIiwgdHlwZT1QYXRoLCBkZWZhdWx0PVtdKQogICAgYXJncyA9IHBhcnNlci5wYXJzZV9hcmdzKCkKICAgIGlmIG5vdCBhbnkoKGFyZ3MubWFuaWZlc3QsIGFyZ3Muc3VtbWFyeSwgYXJncy5wbW8sIGFyZ3MucXVldWUsIGFyZ3MucHVibGljYXRpb24sIGFyZ3MuY2FuZGlkYXRlX3Rhc2ssIGFyZ3MuaGlzdG9yeV9sZWRnZXIsIGFyZ3MuaGlzdG9yaWNhbF9pbmRleCwgYXJncy56aXApKToKICAgICAgICBwYXJzZXIuZXJyb3IoInNwZWNpZnkgYXQgbGVhc3Qgb25lIGlucHV0OyBvbWl0dGVkIGRvbWFpbnMgYXJlIE5PVCBldmFsdWF0ZWQiKQogICAgdHJ5OgogICAgICAgIGl0ZW1zID0ge25hbWU6IGpzb24ubG9hZHMoZ2V0YXR0cihhcmdzLCBuYW1lKS5yZWFkX3RleHQoZW5jb2Rpbmc9InV0Zi04IikpIGlmIGdldGF0dHIoYXJncywgbmFtZSkgZWxzZSBOb25lIGZvciBuYW1lIGluICgibWFuaWZlc3QiLCAic3VtbWFyeSIsICJwbW8iLCAicXVldWUiLCAicHVibGljYXRpb24iKX0KICAgICAgICBhZGRpdGlvbnMgPSB7ImNhbmRpZGF0ZV90YXNrIjoganNvbi5sb2FkcyhhcmdzLmNhbmRpZGF0ZV90YXNrLnJlYWRfdGV4dChlbmNvZGluZz0idXRmLTgiKSkgaWYgYXJncy5jYW5kaWRhdGVfdGFzayBlbHNlIE5vbmUsICJoaXN0b3J5X2xlZGdlciI6IGpzb24ubG9hZHMoYXJncy5oaXN0b3J5X2xlZGdlci5yZWFkX3RleHQoZW5jb2Rpbmc9InV0Zi04IikpIGlmIGFyZ3MuaGlzdG9yeV9sZWRnZXIgZWxzZSBOb25lLCAiaGlzdG9yaWNhbF9pbmRleCI6IGpzb24ubG9hZHMoYXJncy5oaXN0b3JpY2FsX2luZGV4LnJlYWRfdGV4dChlbmNvZGluZz0idXRmLTgiKSkgaWYgYXJncy5oaXN0b3JpY2FsX2luZGV4IGVsc2UgTm9uZX0KICAgICAgICBmaW5kaW5ncyA9IHByZWZsaWdodCgqKml0ZW1zLCAqKmFkZGl0aW9ucywgYXJjaGl2ZXM9YXJncy56aXApCiAgICBleGNlcHQgKE9TRXJyb3IsIGpzb24uSlNPTkRlY29kZUVycm9yLCBVbmljb2RlRXJyb3IsIFR5cGVFcnJvciwgVmFsdWVFcnJvcikgYXMgZXhjOgogICAgICAgIHByaW50KGpzb24uZHVtcHMoeyJkZWNpc2lvbiI6ICJCTE9DSyIsICJmaW5kaW5ncyI6IFtmIklOUFVUX1JFQURfT1JfUEFSU0VfRVJST1I6e3R5cGUoZXhjKS5fX25hbWVfX30iXX0pKQogICAgICAgIHJldHVybiAyCiAgICBwcmludChqc29uLmR1bXBzKHsiZGVjaXNpb24iOiAiQkxPQ0siIGlmIGZpbmRpbmdzIGVsc2UgIlBBU1NfUFJFRkxJR0hUX09OTFkiLCAiZmluZGluZ3MiOiBmaW5kaW5ncywgImNoZWNrZWRfZG9tYWlucyI6IFtuYW1lIGZvciBuYW1lIGluIGl0ZW1zIGlmIGl0ZW1zW25hbWVdIGlzIG5vdCBOb25lXSArIFtuYW1lIGZvciBuYW1lIGluIGFkZGl0aW9ucyBpZiBhZGRpdGlvbnNbbmFtZV0gaXMgbm90IE5vbmVdICsgKFsiemlwIl0gaWYgYXJncy56aXAgZWxzZSBbXSl9LCBlbnN1cmVfYXNjaWk9RmFsc2UsIHNvcnRfa2V5cz1UcnVlKSkKICAgIHJldHVybiAyIGlmIGZpbmRpbmdzIGVsc2UgMAoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBzeXMuZXhpdChtYWluKCkpCg==
+#!/usr/bin/env python3
+"""Fail-closed preflight for CE documentary inventory operations.
+
+No mutations, network calls or publication. This gate is not Kernel admission.
+Return 0 only when supplied inputs satisfy the documentary constraints.
+"""
+from __future__ import annotations
+
+import argparse
+import json
+import re
+import stat
+import sys
+import zipfile
+from pathlib import Path, PurePosixPath
+
+from ce_pmo_no_rework_agent_v01 import evaluate as anti_rework_evaluate
+
+APPROVED_BRANCH = "pmo/recovery-controlled-20261019"
+DOC_ROOT = "docs/pmo/recovery/20261019/"
+SHA256 = re.compile(r"^[0-9a-f]{64}$")
+GITSHA = re.compile(r"^[0-9a-f]{40}$")
+FORBIDDEN_OPERATIONS = {"delete", "remove", "unlink", "truncate", "reset", "force_push", "merge", "deduplicate_delete", "overwrite_source", "extract_zip", "promote", "main_write"}
+PROMOTION_KEYS = {"pmo_trusted", "project_execution_allowed", "canonical_approved", "release_approved", "m24_released"}
+
+
+def guard(condition: bool, code: str, findings: list[str]) -> None:
+    if not condition:
+        findings.append(code)
+
+
+def check_manifest(data: dict, findings: list[str]) -> None:
+    guard(data.get("root_scope") == "recursive_workspace_only", "MANIFEST_SCOPE_MISMATCH", findings)
+    rows = data.get("files")
+    if not isinstance(rows, list):
+        findings.append("MANIFEST_FILES_MISSING")
+        return
+    seen: set[str] = set()
+    for i, row in enumerate(rows):
+        if not isinstance(row, dict):
+            findings.append(f"MANIFEST_ROW_INVALID:{i}")
+            continue
+        name = row.get("relative_path", "")
+        path = PurePosixPath(name) if isinstance(name, str) else PurePosixPath("")
+        guard(isinstance(name, str) and name and not path.is_absolute() and ".." not in path.parts and "\\" not in name, f"UNSAFE_MANIFEST_PATH:{i}", findings)
+        guard(name not in seen, f"DUPLICATE_MANIFEST_PATH:{i}", findings)
+        seen.add(name)
+        guard(isinstance(row.get("sha256"), str) and bool(SHA256.fullmatch(row["sha256"])), f"HASH_MISSING_OR_INVALID:{i}", findings)
+        guard(isinstance(row.get("bytes"), int) and row["bytes"] >= 0, f"SIZE_MISSING_OR_INVALID:{i}", findings)
+        guard(row.get("external_persistence") == "NOT_PROVEN_BY_LOCAL_SCAN", f"FALSE_CUSTODY_CLAIM:{i}", findings)
+
+
+def check_summary(data: dict, findings: list[str]) -> None:
+    guard(data.get("privacy") == "AGGREGATE_ONLY_NO_FILENAMES_OR_HASHES", "SUMMARY_PRIVACY_UNDECLARED", findings)
+    guard(data.get("pmo_gate") == "HOLD", "FALSE_GATE_PASS", findings)
+    forbidden = {"relative_path", "path", "filename", "sha256", "hash", "url", "email", "zip_containers", "exact_duplicate_paths"}
+
+    def walk(value: object, parent: str = "summary") -> None:
+        if isinstance(value, dict):
+            for k, v in value.items():
+                if k.lower() in forbidden or (k.lower() == "files" and not (parent.startswith("summary.groups.") and isinstance(v, int))):
+                    findings.append(f"PRIVATE_FIELD_IN_PUBLIC_SUMMARY:{parent}.{k}")
+                walk(v, f"{parent}.{k}")
+        elif isinstance(value, list):
+            for n, v in enumerate(value):
+                walk(v, f"{parent}[{n}]")
+
+    walk(data)
+
+
+def check_pmo(data: dict, findings: list[str]) -> None:
+    guard(data.get("pmo_trusted") is False, "PMO_FALSE_PASS", findings)
+    guard(data.get("project_execution_allowed") is False, "PROJECT_EXECUTION_FALSE_PASS", findings)
+    guard(data.get("state") == "CANDIDATE_NOT_CANONICAL", "PMO_PREMATURE_CANONICAL", findings)
+    restrictions = data.get("scope_restrictions", [])
+    guard("M24_HOLD" in restrictions, "M24_HOLD_REMOVED", findings)
+    guard("NO_MERGE" in restrictions, "MERGE_RESTRICTION_REMOVED", findings)
+    exception = data.get("pmo_preservation_exception", {})
+    guard(exception.get("allowed_target_branch") == APPROVED_BRANCH, "PMO_BRANCH_NOT_AUTHORIZED", findings)
+    gates = data.get("gates")
+    guard(isinstance(gates, list) and len(gates) == 8 and len({x.get("id") for x in gates if isinstance(x, dict)}) == 8,
+          "PMO_GATE_POPULATION_INVALID", findings)
+    for gate in gates if isinstance(gates, list) else []:
+        if not isinstance(gate, dict):
+            findings.append("PMO_GATE_ROW_INVALID")
+            continue
+        guard(gate.get("status") == "HOLD", f"GATE_FALSE_PASS:{gate.get('id','UNKNOWN')}", findings)
+    m24 = [r for r in data.get("populations", []) if r.get("population_id") == "POP-M24-HOLD"]
+    guard(len(m24) == 1 and m24[0].get("approved") == 0 and m24[0].get("status") == "EXPLICIT_HOLD_NOT_COUNTED", "M24_POPULATION_RELEASED", findings)
+    metrics = data.get("progress_metrics", {})
+    p1 = metrics.get("p1_technical_checkpoints", {})
+    guard(isinstance(p1.get("completed"), int) and isinstance(p1.get("total"), int) and 0 <= p1.get("completed", -1) <= p1.get("total", 0), "P1_PROGRESS_INVALID", findings)
+    guard(metrics.get("full_project_completion", {}).get("percent") is None, "UNSUPPORTED_PROJECT_PERCENT", findings)
+    guard(data.get("pmo_preservation_exception", {}).get("does_not_enable_project_execution") is True,
+          "PMO_EXCEPTION_EXPANDED", findings)
+
+
+def check_control_chain(pmo: dict, queue: dict, findings: list[str]) -> None:
+    """Cross-artifact documentary control; does not assert remote Git/Kernel authority."""
+    check_pmo(pmo, findings)
+    guard(queue.get("state") == "CANDIDATE_DOCUMENTARY_QUEUE_NOT_KERNEL_ADMISSION", "QUEUE_PREMATURE_RELEASE", findings)
+    guard(queue.get("baseline", {}).get("project_completion_percent") is None, "QUEUE_PROJECT_PERCENT", findings)
+    guard(queue.get("baseline", {}).get("pmo_gates") == {"passed": 0, "total": 8}, "QUEUE_GATE_MISMATCH", findings)
+    guard(queue.get("baseline", {}).get("m24_hold_files") == 5, "QUEUE_M24_MISMATCH", findings)
+    guard(queue.get("baseline", {}).get("p1_checkpoints", {}).get("completed") == pmo.get("progress_metrics", {}).get("p1_technical_checkpoints", {}).get("completed"), "QUEUE_P1_MISMATCH", findings)
+    guard(pmo.get("execution_queue_control", {}).get("task_register_source") == "CE_PMO_FILA_EXECUCAO_P1_P5_20261019_CANDIDATE.json", "QUEUE_NOT_REGISTERED", findings)
+    source_ids = [x.get("source_id") for x in pmo.get("source_register", []) if isinstance(x, dict)]
+    guard(len(source_ids) == len(set(source_ids)) and "S-24" in source_ids, "PMO_SOURCE_REGISTER_INVALID", findings)
+    guard(set(queue.get("source_ids", [])).issubset(source_ids), "QUEUE_SOURCE_UNRESOLVED", findings)
+    tasks = queue.get("tasks", [])
+    guard(isinstance(tasks, list) and bool(tasks), "QUEUE_TASKS_MISSING", findings)
+    if not isinstance(tasks, list):
+        return
+    ids = [t.get("id") for t in tasks if isinstance(t, dict)]
+    guard(len(ids) == len(tasks) and len(ids) == len(set(ids)), "QUEUE_TASK_IDENTITIES_INVALID", findings)
+    allowed_statuses = {"READY_NOT_STARTED", "BLOCKED_DEPENDENCY"}
+    for index, task in enumerate(tasks):
+        if not isinstance(task, dict):
+            findings.append(f"QUEUE_TASK_INVALID:{index}")
+            continue
+        guard(task.get("status") in allowed_statuses, f"QUEUE_FALSE_EXECUTION:{index}", findings)
+        guard(task.get("mode") in {"READ_ONLY", "DOCUMENTARY"}, f"QUEUE_RUNTIME_NOT_ADMITTED:{index}", findings)
+        guard(bool(task.get("evidence_required")) and bool(task.get("acceptance")) and bool(task.get("release_gate")), f"QUEUE_EVIDENCE_OR_GATE_MISSING:{index}", findings)
+        guard(all(dep in ids or dep == "P1-C-C" for dep in task.get("depends_on", [])), f"QUEUE_DEPENDENCY_UNRESOLVED:{index}", findings)
+    guard(queue.get("rules", {}).get("runtime_scope", "").startswith("No productive run until"), "QUEUE_RUNTIME_POLICY_MISSING", findings)
+
+
+def check_publication(plan: dict, findings: list[str]) -> None:
+    guard(plan.get("branch") == APPROVED_BRANCH, "UNAUTHORIZED_TARGET_BRANCH", findings)
+    ops = plan.get("operations", [])
+    guard(isinstance(ops, list) and bool(ops), "NO_DECLARED_OPERATIONS", findings)
+    for i, op in enumerate(ops if isinstance(ops, list) else []):
+        if not isinstance(op, dict):
+            findings.append(f"INVALID_OPERATION:{i}")
+            continue
+        action = op.get("action")
+        guard(action in {"create", "update"}, f"DESTRUCTIVE_OR_UNKNOWN_ACTION:{i}", findings)
+        guard(action not in FORBIDDEN_OPERATIONS, f"DESTRUCTIVE_ACTION:{i}", findings)
+        path = op.get("path", "")
+        guard(isinstance(path, str) and path.startswith(DOC_ROOT) and ".." not in PurePosixPath(path).parts and "\\" not in path, f"OUT_OF_SCOPE_PUBLICATION:{i}", findings)
+        guard(not any(part in path.lower() for part in ("private", "manifest_local", "inventory_local", "upload/", "secrets", ".env")), f"PRIVATE_PATH_PUBLICATION:{i}", findings)
+        guard(op.get("sha256_local") is not None and isinstance(op.get("sha256_local"), str) and bool(SHA256.fullmatch(op["sha256_local"])), f"SOURCE_HASH_REQUIRED:{i}", findings)
+        guard(op.get("readback_required") is True, f"READBACK_REQUIRED:{i}", findings)
+        if action == "update":
+            guard(isinstance(op.get("base_blob_sha"), str) and bool(GITSHA.fullmatch(op["base_blob_sha"])), f"CAS_BASE_SHA_REQUIRED:{i}", findings)
+        if "content" in op:
+            findings.append(f"INLINE_CONTENT_FORBIDDEN:{i}")
+
+
+def check_zip(archive_path: Path, findings: list[str]) -> None:
+    try:
+        with zipfile.ZipFile(archive_path) as arc:
+            for i, info in enumerate(arc.infolist()):
+                name = info.filename
+                normalized = name.replace("\\", "/")
+                parts = PurePosixPath(normalized).parts
+                if name.startswith(("/", "\\")) or ".." in parts or re.match(r"^[A-Za-z]:", name):
+                    findings.append(f"ZIP_PATH_TRAVERSAL:{i}")
+                mode = info.external_attr >> 16
+                if stat.S_ISLNK(mode):
+                    findings.append(f"ZIP_SYMLINK_ENTRY:{i}")
+                # Reading central directory only: this does not certify CRC or decompression.
+    except (zipfile.BadZipFile, OSError, zipfile.LargeZipFile):
+        findings.append("ZIP_UNREADABLE")
+
+
+def preflight(*, manifest: dict | None = None, summary: dict | None = None, pmo: dict | None = None, queue: dict | None = None, publication: dict | None = None, candidate_task: dict | None = None, history_ledger: dict | None = None, historical_index: dict | None = None, archives: list[Path] | None = None) -> list[str]:
+    findings: list[str] = []
+    if manifest is not None:
+        check_manifest(manifest, findings)
+    if summary is not None:
+        check_summary(summary, findings)
+    if pmo is not None and queue is not None:
+        check_control_chain(pmo, queue, findings)
+    elif queue is not None:
+        findings.append("QUEUE_REQUIRES_MASTER_PMO")
+    elif pmo is not None:
+        check_pmo(pmo, findings)
+    if publication is not None:
+        check_publication(publication, findings)
+    if candidate_task is not None or history_ledger is not None:
+        if candidate_task is None or history_ledger is None or pmo is None:
+            findings.append("ANTI_REWORK_REQUIRES_TASK_LEDGER_MASTER")
+        else:
+            answer = anti_rework_evaluate(candidate_task, history_ledger, pmo, historical_index)
+            if answer["decision"] not in {"ALLOW_PREFLIGHT_ONLY", "ALLOW_REUSE_ANALYSIS_ONLY"}:
+                findings.append("ANTI_REWORK_" + answer["code"])
+    for archive in archives or []:
+        check_zip(archive, findings)
+    return findings
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--manifest", type=Path)
+    parser.add_argument("--summary", type=Path)
+    parser.add_argument("--pmo", type=Path)
+    parser.add_argument("--queue", type=Path)
+    parser.add_argument("--publication", type=Path)
+    parser.add_argument("--candidate-task", type=Path)
+    parser.add_argument("--history-ledger", type=Path)
+    parser.add_argument("--historical-index", type=Path)
+    parser.add_argument("--zip", action="append", type=Path, default=[])
+    args = parser.parse_args()
+    if not any((args.manifest, args.summary, args.pmo, args.queue, args.publication, args.candidate_task, args.history_ledger, args.historical_index, args.zip)):
+        parser.error("specify at least one input; omitted domains are NOT evaluated")
+    try:
+        items = {name: json.loads(getattr(args, name).read_text(encoding="utf-8")) if getattr(args, name) else None for name in ("manifest", "summary", "pmo", "queue", "publication")}
+        additions = {"candidate_task": json.loads(args.candidate_task.read_text(encoding="utf-8")) if args.candidate_task else None, "history_ledger": json.loads(args.history_ledger.read_text(encoding="utf-8")) if args.history_ledger else None, "historical_index": json.loads(args.historical_index.read_text(encoding="utf-8")) if args.historical_index else None}
+        findings = preflight(**items, **additions, archives=args.zip)
+    except (OSError, json.JSONDecodeError, UnicodeError, TypeError, ValueError) as exc:
+        print(json.dumps({"decision": "BLOCK", "findings": [f"INPUT_READ_OR_PARSE_ERROR:{type(exc).__name__}"]}))
+        return 2
+    print(json.dumps({"decision": "BLOCK" if findings else "PASS_PREFLIGHT_ONLY", "findings": findings, "checked_domains": [name for name in items if items[name] is not None] + [name for name in additions if additions[name] is not None] + (["zip"] if args.zip else [])}, ensure_ascii=False, sort_keys=True))
+    return 2 if findings else 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
