@@ -1,0 +1,713 @@
+{
+  "schema_version": "CE-P1-PINNED-GIT-SELF-CHECK-0.1.0",
+  "commit_sha": "e0f62491b104f4a97c6025a6393cabc2e7ada30e",
+  "tree_sha": "bf5be2752ccdabada2a1dc602a71c9a15338c504",
+  "blobs": [
+    {
+      "path": ".env.example",
+      "sha": "26ef4719b4945c5b79047de090feaefc3d593e6a"
+    },
+    {
+      "path": ".github/workflows/canonical-invariants.yml",
+      "sha": "2b3a1b269005ea947a9cb5f8dcb5b25e64b68002"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha": "7ecc09d952463223d9b433da5bf02d58b71ba7fe"
+    },
+    {
+      "path": ".github/workflows/drive-recursive-collect.yml",
+      "sha": "d8f9df54364072f5962b123b2d79be46dfae244b"
+    },
+    {
+      "path": ".github/workflows/pipeline.yml",
+      "sha": "98b7707731d71ca0f0058f26aef1ce15c3c6fcb1"
+    },
+    {
+      "path": ".gitignore",
+      "sha": "f6cf09f6171af3519e9fb489d99e87010222d56f"
+    },
+    {
+      "path": "01_ACAO_branch_protection.md",
+      "sha": "5d606596703cac7d9524c5c7fcee92a8839aa79a"
+    },
+    {
+      "path": "02_ACAO_clone_pat.md",
+      "sha": "a98a9fab94d9b1d70f01f276e769674ee6a8a7ec"
+    },
+    {
+      "path": "03_ACAO_human_approver.md",
+      "sha": "3024fdd86433fb8468a3aafc066a5e045fbf9566"
+    },
+    {
+      "path": "04_ACAO_workflow_gui.md",
+      "sha": "5ccb5d8526b8aef7cf5d5069ade3acc33fb39308"
+    },
+    {
+      "path": "README.md",
+      "sha": "16a39baae6d767bd9d92dd0b92f817a4961e624c"
+    },
+    {
+      "path": "config/drive_inventory_roots_20261016.json",
+      "sha": "ce1e2eb6720aa84b1480f052409ed1088d42f214"
+    },
+    {
+      "path": "contracts/exemplo_atomo.json",
+      "sha": "3d1cc8056c640da209e0c0b74f288804abdfb178"
+    },
+    {
+      "path": "contracts/exemplo_escala.json",
+      "sha": "d3ee02c73f9d1ac344a13576b741e3033df53873"
+    },
+    {
+      "path": "contracts/fonte_diarios.json",
+      "sha": "59a3256917018206986d318ed7ca80e9c24b1298"
+    },
+    {
+      "path": "contracts/fonte_dou.json",
+      "sha": "d25648a8edee4839c17419afca6cfd03fab5881e"
+    },
+    {
+      "path": "contracts/fontes/anvisa_dev.json",
+      "sha": "902ae7991a116db4563b99daec9722a7cb87679c"
+    },
+    {
+      "path": "contracts/fontes/anvisa_dou.json",
+      "sha": "7ad43853784754937320425833cebfd94c24f868"
+    },
+    {
+      "path": "contracts/fontes/anvisa_med.json",
+      "sha": "c6342f4f340924e468124b53b0be4eadf00e8a27"
+    },
+    {
+      "path": "contracts/fontes/atlas.json",
+      "sha": "12e6e23c2d04b0df0ee3835ed67967d915a59e20"
+    },
+    {
+      "path": "contracts/fontes/catmat.json",
+      "sha": "cb1af111303c56a109bb89d97c9bf1c99099ef99"
+    },
+    {
+      "path": "contracts/fontes/cdsi.json",
+      "sha": "76e339ad20ef95ef9ee90d6264c971ad4292ea8f"
+    },
+    {
+      "path": "contracts/fontes/cid10.json",
+      "sha": "2965c7f77fc857fdb2e46f48b4238e94f85f9049"
+    },
+    {
+      "path": "contracts/fontes/cid11.json",
+      "sha": "8b9af2dcfc80521fb17965f1d2423a3a496c4199"
+    },
+    {
+      "path": "contracts/fontes/cofen_dou.json",
+      "sha": "567cab6b32161f0a39ab2de35a5fe92f40d28571"
+    },
+    {
+      "path": "contracts/fontes/esavi.json",
+      "sha": "fcc302fd74726af484c1a155829da4dcd8c3454f"
+    },
+    {
+      "path": "contracts/fontes/fhir_vitais.json",
+      "sha": "40fe156c001ff55a2e138ac385f1f2aa189f8e03"
+    },
+    {
+      "path": "contracts/fontes/lei_federal.json",
+      "sha": "1f15674aa9c2689fc78ce241fda16f61b18c8080"
+    },
+    {
+      "path": "contracts/fontes/medlineplus.json",
+      "sha": "ab13a39bc6ae5f6ef444b197bfea0deb60f8d6e0"
+    },
+    {
+      "path": "contracts/fontes/mesh.json",
+      "sha": "21a227a3f9dfae60dc2d8ab4267e0bbfdee7e8da"
+    },
+    {
+      "path": "contracts/fontes/ms_portarias.json",
+      "sha": "a214368dbd6c69829ca5754f800a80b4aa91c63a"
+    },
+    {
+      "path": "contracts/fontes/pni.json",
+      "sha": "a80aad32fc50344e3852353ca222cb20c5f5e123"
+    },
+    {
+      "path": "contracts/fontes/sies.json",
+      "sha": "97d91f8f4df6f83a6f848cb4df5caefe0a1971ae"
+    },
+    {
+      "path": "contracts/fontes/sinan.json",
+      "sha": "19704f794211c2cd6b627219b4f9c3261591ccde"
+    },
+    {
+      "path": "contracts/fontes/taco.json",
+      "sha": "3175d5620d9165568680b45df9def786651278bc"
+    },
+    {
+      "path": "contracts/fontes/vacinas_cdc.json",
+      "sha": "5e5216ddd4914665ed3358f1171b038bff92212b"
+    },
+    {
+      "path": "contracts/fonts/DIRECTORY_OBSOLETO.json",
+      "sha": "e9d6f77c80a9fcc0e45f3e444729bc5e548be870"
+    },
+    {
+      "path": "contracts/fonts/anvisa_dev.json",
+      "sha": "7f25153f5dbdff7695ac452ed98d88677b9cf072"
+    },
+    {
+      "path": "contracts/fonts/anvisa_dou.json",
+      "sha": "63fc18b5df41186e341d4ce3341d4564d1a18b80"
+    },
+    {
+      "path": "contracts/fonts/anvisa_med.json",
+      "sha": "1c12b9aab44f39077b58e1816bf55ab2f63f6e5c"
+    },
+    {
+      "path": "contracts/fonts/atlas.json",
+      "sha": "f344d11b0a609b9bb66ec59b362007a7e09ee822"
+    },
+    {
+      "path": "contracts/fonts/catmat.json",
+      "sha": "159da86b6abee571bddbb880c511678aca3bca99"
+    },
+    {
+      "path": "contracts/fonts/cdsi.json",
+      "sha": "f0ee390d0bb412ae7de2c04c4b9f4dea26737d0e"
+    },
+    {
+      "path": "contracts/fonts/cid10.json",
+      "sha": "1f0d37a85ffb51b95f4bf8b051932918a184e8cf"
+    },
+    {
+      "path": "contracts/fonts/cid11.json",
+      "sha": "77d86833843e0506e77802c93b3db0e410f1704e"
+    },
+    {
+      "path": "contracts/fonts/cofen_dou.json",
+      "sha": "7b9d4b05177d6d79d235d938b718fb8737df3c9b"
+    },
+    {
+      "path": "contracts/fonts/esavi.json",
+      "sha": "0421edce2e68bef91786fc9f051887164b8c56e4"
+    },
+    {
+      "path": "contracts/fonts/fhir_vitais.json",
+      "sha": "fafb30274250a87d261e8c6da30b031d93ea550d"
+    },
+    {
+      "path": "contracts/fonts/lei_federal.json",
+      "sha": "197ef0e72c8beb2916af0d5b8cbb80a3af2557a2"
+    },
+    {
+      "path": "contracts/fonts/medlineplus.json",
+      "sha": "694387ce80d6c5d1b2fa31d4c539659b5bfb4266"
+    },
+    {
+      "path": "contracts/fonts/mesh.json",
+      "sha": "43d27c401ba2ba926052d3b0b3ee95e99dff8cae"
+    },
+    {
+      "path": "contracts/fonts/ms_portarias.json",
+      "sha": "fc16151163ad3431c7c778ae3e9b82d45350fe65"
+    },
+    {
+      "path": "contracts/fonts/pni.json",
+      "sha": "42fd22e406919eba7cf66f90d6a7c44fc349e30a"
+    },
+    {
+      "path": "contracts/fonts/sies.json",
+      "sha": "ddbb0a01eb8b85ca459487b5118561d7e48b3864"
+    },
+    {
+      "path": "contracts/fonts/sinan.json",
+      "sha": "309d1ef6e8e736b85f14bd2010a9e28cceabd99c"
+    },
+    {
+      "path": "contracts/fonts/taco.json",
+      "sha": "eef9d0f4603f52c0a28c999429e8c5b0c1b4558d"
+    },
+    {
+      "path": "contracts/fonts/vacinas_cdc.json",
+      "sha": "e719270991e8a3a09559623477fcb552be2ce606"
+    },
+    {
+      "path": "contracts/policies/KERNEL-POLICY-001.json",
+      "sha": "0de6167866ad72381e80e4abd60fa423683234dd"
+    },
+    {
+      "path": "contracts/policies/KERNEL-POLICY-002.json",
+      "sha": "78219647352d61a6f26943077b60507357158116"
+    },
+    {
+      "path": "contracts/policies/KERNEL-POLICY-003.json",
+      "sha": "c0c5a672cc7afb998972b31dcd9ccd929448b56e"
+    },
+    {
+      "path": "contracts/policies/KERNEL-POLICY-004.json",
+      "sha": "043acbc532ff298bd9a4ab720ddd382890d19c15"
+    },
+    {
+      "path": "contracts/policies/KERNEL-POLICY-005.json",
+      "sha": "ee919b4f1537d48de901c920bfc1b1c70e1881a4"
+    },
+    {
+      "path": "contracts/policies/KERNEL-POLICY-006.json",
+      "sha": "89e7577b8edd7b4ae71a9bfead7dcf784e6409d2"
+    },
+    {
+      "path": "contracts/policies/KERNEL-POLICY-007.json",
+      "sha": "9e8309d94b3e5908a8764214a5cd718df43d5e84"
+    },
+    {
+      "path": "contracts/policies/KERNEL-POLICY-008.json",
+      "sha": "cef0e5b8a4ef404bf4fdb427c7e6c4147afd4d81"
+    },
+    {
+      "path": "contracts/policies/KERNEL-POLICY-009.json",
+      "sha": "24d4d43ab5723c1c9dc9ef3d21924fa3c9d46c7b"
+    },
+    {
+      "path": "contracts/policies/KERNEL-POLICY-010.json",
+      "sha": "4410342cde1dcf6a0014375c411a82ffd466f327"
+    },
+    {
+      "path": "contracts/policies/KERNEL-POLICY-011.json",
+      "sha": "752c27d75393392cb7cf9fbd1b1c8268e4469703"
+    },
+    {
+      "path": "contracts/policies/KERNEL-POLICY-012.json",
+      "sha": "edd8cddd184f99a0af2c9010b88750bfc7ded3b6"
+    },
+    {
+      "path": "contracts/policies/KERNEL-POLICY-013.json",
+      "sha": "1a1d144fd965833ee90d56acea6b8bb4c63b3c0f"
+    },
+    {
+      "path": "contracts/policies/KERNEL-POLICY-014.json",
+      "sha": "830d7bb86fa2b5f0a6471e0af6dd26a8ca0d66a1"
+    },
+    {
+      "path": "contracts/policies/KERNEL-POLICY-015.json",
+      "sha": "f8220b3a19fb183f39cd7199b573265ad04781fc"
+    },
+    {
+      "path": "contracts/policies/KERNEL-POLICY-016.json",
+      "sha": "93985a7c3b1859a7b14e8f142f2230790f2d5a32"
+    },
+    {
+      "path": "contracts/policies/KERNEL-POLICY-017.json",
+      "sha": "239d028472428cffa047b11af331c718e5ce8079"
+    },
+    {
+      "path": "contracts/policies/KERNEL-POLICY-018.json",
+      "sha": "86a0de62f046de3ad75b901399f96abe521d0493"
+    },
+    {
+      "path": "contracts/policies/KERNEL-POLICY-019.json",
+      "sha": "972e64e4142a51a73d68b8bc91da14bd74a79940"
+    },
+    {
+      "path": "contracts/policies/KERNEL-POLICY-020.json",
+      "sha": "aff26f1cb94409d61132c0e8e174b5bb399caeca"
+    },
+    {
+      "path": "contracts/task_production.json",
+      "sha": "95b5b3f698835c886d31b07589312eaa22d37e76"
+    },
+    {
+      "path": "data/.gitkeep",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "data/legado/autorizacao_WO-0087.json",
+      "sha": "f751064b8bf8e0a6b4b8af2757d38a7c7a9e8964"
+    },
+    {
+      "path": "data/legado/autorizacao_WO-0088.json",
+      "sha": "69c9eadc8b053e0174a1fd267e18d5896b13910d"
+    },
+    {
+      "path": "data/legado/autorizacao_WO-0090.json",
+      "sha": "2aeeff4f8d572e97f916546d8dcf715ea305b82c"
+    },
+    {
+      "path": "data/legado/autorizacao_WO-0091.json",
+      "sha": "007189cce35c6d8a37ea098f29809a1cb6df7bdf"
+    },
+    {
+      "path": "docs/AGENTS.md",
+      "sha": "7a25c50927f3a0d508da641918f60711471af24f"
+    },
+    {
+      "path": "docs/AGENT_PROTECTION.md",
+      "sha": "c0f7260aa7be37d3ada455df7afb85446e5e61aa"
+    },
+    {
+      "path": "docs/AGENT_TEST_STATUS.md",
+      "sha": "0b4cb09c71604a3313dba955554696cac5c64dd5"
+    },
+    {
+      "path": "docs/API_MAP.md",
+      "sha": "5a2e88f80d7ae98502d358601d03d6de1cf07b34"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "sha": "bf119e9690ccc8a1018a15deab9f4675d7e88f5a"
+    },
+    {
+      "path": "docs/ARQUITETURA_KERNEL_UNIFICADA.md",
+      "sha": "2c650e3c50134a7ecf63b50e7eb4357a1af85d4e"
+    },
+    {
+      "path": "docs/BRANCH_CONSOLIDATION_20261017.md",
+      "sha": "9d84e264b2905679c3994fd77d1ceb0ac92952ce"
+    },
+    {
+      "path": "docs/BUILDER.md",
+      "sha": "f4efeda362034dd0fae360a2a3b37d1e17df5098"
+    },
+    {
+      "path": "docs/DESIGN_SYSTEM.md",
+      "sha": "f66f04d7b33be3ff0674e608bcd99d2fe9a77b5a"
+    },
+    {
+      "path": "docs/DETERMINISTIC_RULES.md",
+      "sha": "f3e8d31b1b64bb15bd72dc18af83f871b0d3a5ac"
+    },
+    {
+      "path": "docs/ECOSYSTEM.md",
+      "sha": "b8046c2cadaa336b59b6da6b5c1f0375fb9b48ae"
+    },
+    {
+      "path": "docs/FIND_TEMPLATE.md",
+      "sha": "9f7a007db878ed429293fcff5e3c346e6274538e"
+    },
+    {
+      "path": "docs/GATES.md",
+      "sha": "1e894d45a3ed4c098f47665e348474415ea34aac"
+    },
+    {
+      "path": "docs/GOVERNANCE.md",
+      "sha": "347f0c221ced42e516cd77f5121b941d9d23b10c"
+    },
+    {
+      "path": "docs/INSTRUCTIONS_LOCALSTORAGE.md",
+      "sha": "bb1fd85833aba955bc93a95c898f8e620558c1d1"
+    },
+    {
+      "path": "docs/INVENTORY.md",
+      "sha": "42eb879d7700d564ab01d42c2f59893574474c0c"
+    },
+    {
+      "path": "docs/INVENTORY_INITIAL.md",
+      "sha": "78fe4e40beb594984318bd6b268f60a8acb1a94d"
+    },
+    {
+      "path": "docs/JOBS_STATUS.md",
+      "sha": "8eee6dc4444dfdff863dc9eb03c6d46f63f0c60f"
+    },
+    {
+      "path": "docs/KERNEL.md",
+      "sha": "241e66da56f5e1093cbaa4e19aa40f99af2aca7f"
+    },
+    {
+      "path": "docs/KEY_CONTROLS.md",
+      "sha": "75114378fb126f320e6e6af8ad6cd0d536b65968"
+    },
+    {
+      "path": "docs/NOMENCLATURE_STANDARD.md",
+      "sha": "95e883b42723227fd4a308c9214bfb0b401c4b63"
+    },
+    {
+      "path": "docs/PCNAC_STATUS.md",
+      "sha": "dd6b814cdeb9df7a9418217729e607e1e1ece0ac"
+    },
+    {
+      "path": "docs/PIPELINE.md",
+      "sha": "857a4473c288620bf3c7162105cc1204812ac64d"
+    },
+    {
+      "path": "docs/PLANO_EXECUCAO_WO_KERNEL_DETERMINISTICO.md",
+      "sha": "22a9f8e4c8dddd94621de17421f11dac2be586ab"
+    },
+    {
+      "path": "docs/POLICY_REVIEW.md",
+      "sha": "f8b87e1bfe15a85e6d8a8f378cb8eb803adfba01"
+    },
+    {
+      "path": "docs/PRACTICAL_NEXT_STEPS.md",
+      "sha": "df31576408607f9bebd0603bb72532c714fcdb46"
+    },
+    {
+      "path": "docs/PRODUCTION_FACTORY.md",
+      "sha": "0242eecd6bb91febd280e60c346edfd15c072a09"
+    },
+    {
+      "path": "docs/REGISTRY.md",
+      "sha": "bad374ee31e99576a03a91d0ef0eaedab98a0abc"
+    },
+    {
+      "path": "docs/SETUP_GITHUB_PAT.md",
+      "sha": "2d09a07fda71bc27916e222e5b3d734a66e4edbd"
+    },
+    {
+      "path": "docs/SITE_REPO_INVENTORY.md",
+      "sha": "3ddbe715c9344baee37f2dfc7dea41a7e80ee175"
+    },
+    {
+      "path": "docs/SOURCES.md",
+      "sha": "d2b1769e47384f6aab16c2d0402763228ecbc13e"
+    },
+    {
+      "path": "docs/SOURCES_HIERARCHY.md",
+      "sha": "5898f9e5162c1a21b1c9595a98dce02acdf61670"
+    },
+    {
+      "path": "docs/TASKS.md",
+      "sha": "8a56597e09704981ed347219236307f6f494c147"
+    },
+    {
+      "path": "evidence/01_ACAO_branch_protection.md",
+      "sha": "5d606596703cac7d9524c5c7fcee92a8839aa79a"
+    },
+    {
+      "path": "evidence/02_ACAO_clone_pat.md",
+      "sha": "a98a9fab94d9b1d70f01f276e769674ee6a8a7ec"
+    },
+    {
+      "path": "evidence/03_ACAO_human_approver.md",
+      "sha": "3024fdd86433fb8468a3aafc066a5e045fbf9566"
+    },
+    {
+      "path": "evidence/04_ACAO_workflow_gui.md",
+      "sha": "5ccb5d8526b8aef7cf5d5069ade3acc33fb39308"
+    },
+    {
+      "path": "evidence/CE-WO-20261017-F00-07/raci.json",
+      "sha": "75cbf451c4031cf3cab0d77f899da0bd554fd030"
+    },
+    {
+      "path": "evidence/CE-WO-20261017-F06-08/human_approver_designation.json",
+      "sha": "23851b57de6e4c9b3a483a882a81fb18bc2dbcf4"
+    },
+    {
+      "path": "package-lock.json",
+      "sha": "a0cc1e9fc7828eb96216e3f18fc0dc8cba159a6c"
+    },
+    {
+      "path": "package.json",
+      "sha": "c34dea63000f29524e0e77d1b1f4c428236808e8"
+    },
+    {
+      "path": "packages/builder/composition.schema.json",
+      "sha": "7bdfc4a25e793556b741d48d20b3654a8a28e724"
+    },
+    {
+      "path": "packages/builder/example_composition.json",
+      "sha": "c8b08e8c3deb5dee9a95db8c3054f393c6359a77"
+    },
+    {
+      "path": "packages/builder/layers/README.md",
+      "sha": "533c02c72df5976ae57e9546156234cfce8947d6"
+    },
+    {
+      "path": "packages/cli/__init__.py",
+      "sha": "1a448425a2b8eb549b631a69616b3f940b7dd043"
+    },
+    {
+      "path": "packages/cli/adapters/__init__.py",
+      "sha": "407fc094b1207a508ab52cb6bc36dcb78e1bcd69"
+    },
+    {
+      "path": "packages/cli/adapters/dou.py",
+      "sha": "c0cde62ae2e32d244c2257dd942f014b41e50cea"
+    },
+    {
+      "path": "packages/cli/adapters/secundaria.py",
+      "sha": "11638dbf2ff13a8a5ea1d0d6a74db31960021ab7"
+    },
+    {
+      "path": "packages/cli/auditor.py",
+      "sha": "6152db5ad92bc4d082e0492063f019b00e6cc568"
+    },
+    {
+      "path": "packages/cli/drive_recursive_inventory.py",
+      "sha": "41fa64d16ac98d15a06ec9c1d412563df787d8b7"
+    },
+    {
+      "path": "packages/cli/generate_docs.py",
+      "sha": "ffe54ebc713ba309e685f0e349effa80a05e3bd4"
+    },
+    {
+      "path": "packages/cli/kernel/__init__.py",
+      "sha": "0982c3d4c76905b1942ad8bca143b8ec65408f9a"
+    },
+    {
+      "path": "packages/cli/kernel/cli.py",
+      "sha": "a1c15dba3e9a1d36c39f5fe7af14b52b22b0c328"
+    },
+    {
+      "path": "packages/cli/kernel/core.py",
+      "sha": "7649f6e1f0160184e1014308cc05c90a5eb659e9"
+    },
+    {
+      "path": "packages/cli/kernel/policy_registry.py",
+      "sha": "041bfaf4151effd05de7cb33a5458a53a2ab04af"
+    },
+    {
+      "path": "packages/cli/main.py",
+      "sha": "79fe358e7698c0eddf70357fac696daac0abc1e6"
+    },
+    {
+      "path": "packages/cli/pipeline.py",
+      "sha": "a25b923730c7930bd3850b5e833ba1ceaa0c26a7"
+    },
+    {
+      "path": "packages/cli/registry.py",
+      "sha": "cbaf477eeb3f2095e9e182a60238e36d638976cc"
+    },
+    {
+      "path": "packages/cli/requirements.txt",
+      "sha": "207950b50f385a8cd15d5ab851e68a82126a6009"
+    },
+    {
+      "path": "packages/cli/utils.py",
+      "sha": "f7a7dc644af29bb378dbca102df2de485b3f7d42"
+    },
+    {
+      "path": "packages/cli/validators/__init__.py",
+      "sha": "d6ef0387374a56d1b3153bdac42d08349f4dd186"
+    },
+    {
+      "path": "packages/cli/validators/base.py",
+      "sha": "a21a3f4bbe2f312bb3b2179ba176458f20740a5c"
+    },
+    {
+      "path": "packages/cli/validators/catmat_validator.py",
+      "sha": "5dd909a0eda20cb9220f855a9dd70aa200431a93"
+    },
+    {
+      "path": "packages/cli/validators/cid10_validator.py",
+      "sha": "280a4ef95e6650e40dddcb8f1614a25d08680842"
+    },
+    {
+      "path": "packages/cli/validators/cid11_validator.py",
+      "sha": "8b3ae5e2d5f232ff45448801beae6810613c8eea"
+    },
+    {
+      "path": "packages/cli/validators/cvx_validator.py",
+      "sha": "9d45909ad5b8f515497a57f2b704b4fdb8b25881"
+    },
+    {
+      "path": "packages/cli/validators/human_review_validator.py",
+      "sha": "816cc1a1bf90b8648f1a66cfba18665815b5dfb6"
+    },
+    {
+      "path": "packages/cli/validators/loinc_validator.py",
+      "sha": "fcbe39d63e6baa96e38bbf1d5282ebd2a6399bb6"
+    },
+    {
+      "path": "packages/cli/validators/mesh_validator.py",
+      "sha": "227ad592952b894f49b2b411f0b8d4dd8f1eb561"
+    },
+    {
+      "path": "packages/cli/validators/ncm_validator.py",
+      "sha": "a7b54381253fcf3df5a444fc9a1b21d1ef21d8a7"
+    },
+    {
+      "path": "packages/cli/validators/registry.py",
+      "sha": "e03e88a0ebe1179448883b7567d59e47193e3bd0"
+    },
+    {
+      "path": "packages/cli/validators/schema_validator.py",
+      "sha": "adab526c93e64fb912f1233a4eac60872f48ca20"
+    },
+    {
+      "path": "packages/cli/validators/sha256_validator.py",
+      "sha": "f14906023a35adddb23dfc34bc9942ededf0ad33"
+    },
+    {
+      "path": "packages/design-system/tokens.json",
+      "sha": "1eb60a88c58ef7cdf205f4986eb6d60c82876334"
+    },
+    {
+      "path": "packages/schemas/atomo.py",
+      "sha": "02fd7ddfe2ba2831a6f2618a5f6d7beb34bce053"
+    },
+    {
+      "path": "packages/schemas/escala.py",
+      "sha": "fd98725c6517071a950163f59545bab5264c3ba0"
+    },
+    {
+      "path": "packages/schemas/invariantes.py",
+      "sha": "f2cb16efbc30b2edc024fad4ed768dcc0964944f"
+    },
+    {
+      "path": "prompts/auditor_v1.txt",
+      "sha": "86ae19527d781ee8a1ce0be777ece334b78e5570"
+    },
+    {
+      "path": "prompts/extractor_v1.txt",
+      "sha": "87ccb6ff6d5057aaf1703d5bb62b52bce59914de"
+    },
+    {
+      "path": "prompts/template_extracao.md",
+      "sha": "047c0e46a122a7dd85e8384e557dff3ad943f411"
+    },
+    {
+      "path": "scripts/verify_repository_integrity.py",
+      "sha": "f6e74d988cfbe623e4a5f903b555c314482cbf40"
+    },
+    {
+      "path": "src/app/builder/page.tsx",
+      "sha": "c568be5255e18f6ad66fb5ff9a38d4ee7ba7479c"
+    },
+    {
+      "path": "src/app/globals.css",
+      "sha": "3835268c04f168558c4575d395dff15700dabf2e"
+    },
+    {
+      "path": "src/app/layout.tsx",
+      "sha": "a38f77909dd08b10ab8ceefdd045ed80648da9d5"
+    },
+    {
+      "path": "src/app/page.tsx",
+      "sha": "2e410eb396ecf1cb3693eb0ed316201a5bdfb63b"
+    },
+    {
+      "path": "src/components/builder/CompositionPreview.tsx",
+      "sha": "2173e9f2687df48891d1140e13ae8b6e04fab147"
+    },
+    {
+      "path": "src/lib/supabase/client.ts",
+      "sha": "792b4570b2cccad293a759efa18d104957dd7c58"
+    },
+    {
+      "path": "supabase/migrations/20261011000000_initial_schema.sql",
+      "sha": "ce36f6a26c622b6ae0079033205a9db8cf816e16"
+    },
+    {
+      "path": "supabase/migrations/20261011120000_registry.sql",
+      "sha": "6894efdd59b878f2e4eeacd56c7f84533efcf1ce"
+    },
+    {
+      "path": "test.txt",
+      "sha": "b6fc4c620b67d95f953a5c1c1230aaab5db5a1b0"
+    },
+    {
+      "path": "tests/test_drive_recursive_inventory.py",
+      "sha": "1ea659b46dd3e9228d55ff1a2958a721f3ed096c"
+    },
+    {
+      "path": "tests/test_repository_integrity.py",
+      "sha": "660ced97c7cab5f6f5a127ac5a67106b530eec78"
+    },
+    {
+      "path": "tsconfig.json",
+      "sha": "2aead53bd47286c1c87d4e092b10593a0c054a98"
+    }
+  ],
+  "source": "GITHUB_GIT_TREES_API",
+  "independent_source_census": false
+}
