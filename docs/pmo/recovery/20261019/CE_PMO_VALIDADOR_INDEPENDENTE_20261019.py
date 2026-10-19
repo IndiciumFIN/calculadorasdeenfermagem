@@ -14,6 +14,7 @@ SUMMARY = BASE / "CE_PMO_INVENTARIO_RECURSIVO_RESUMO_20261019_CANDIDATE.json"
 COLLECTOR = BASE / "ce_pmo_inventory_recursive_v02.py"
 QUEUE = BASE / "CE_PMO_FILA_EXECUCAO_P1_P5_20261019_CANDIDATE.json"
 DISPATCH = BASE / "CE_PMO_EXECUCAO_PARALELA_P2_P5_REUSE_20261019_CANDIDATE.json"
+P4_SOURCES = BASE / "CE_PMO_P4_CROSSWALK_FONTES_61_ARQUIVOS_65_20261019_CANDIDATE.json"
 
 
 def report(condition: bool, code: str, description: str, severity: str = "BLOCK") -> dict:
@@ -26,6 +27,7 @@ def verify(rescan: bool = False) -> list[dict]:
     summary = json.loads(SUMMARY.read_text(encoding="utf-8"))
     queue = json.loads(QUEUE.read_text(encoding="utf-8"))
     dispatch = json.loads(DISPATCH.read_text(encoding="utf-8"))
+    p4_sources = json.loads(P4_SOURCES.read_text(encoding="utf-8"))
     population = {entry["population_id"]: entry for entry in register["populations"]}
     source = {entry["source_id"]: entry for entry in register["source_register"]}
     gates = {entry["id"]: entry for entry in register["gates"]}
@@ -57,6 +59,10 @@ def verify(rescan: bool = False) -> list[dict]:
     checks.append(report(controls.get("all_4_waves_productive_execution_admitted") is False and controls.get("pmo_trusted") is False and controls.get("project_completion_percent") is None and controls.get("m24") == "HOLD", "VAL-021", "cross-wave documentary activity not misrepresented as productive completion"))
     plans = {p["wave"]: p for p in register.get("parallel_wave_plans", [])}
     checks.append(report(all(plans.get(w, {}).get("plan_state") == "DOCUMENTARY_EXISTING_EVIDENCE_LINKED" and "S-35" in plans.get(w, {}).get("source_ids", []) for w in ["P2", "P3", "P4", "P5"]), "VAL-022", "all four PMO plan states and source references agree with parallel dispatch"))
+    p4_rows = p4_sources.get("source_records", [])
+    p4_files = p4_sources.get("file_descriptors", [])
+    checks.append(report(len(p4_rows) == 61 and len(p4_files) == 65 and len({r.get("source_url") for r in p4_rows}) == 49 and all(r.get("rights_decision") == "HOLD_RIGHTS_NO_EVIDENCE_IN_SOURCE_OBJECT" for r in p4_rows), "VAL-023", "P4 61-source/65-file crosswalk preserves distinct URLs and all rights holds"))
+    checks.append(report("S-37" in source and "S-37" in plans.get("P4", {}).get("source_ids", []) and all(f.get("content_approval") == "HOLD" and f.get("record_level_provenance") == "HOLD_UNVERIFIED" for f in p4_files), "VAL-024", "P4 source evidence registered without claim of content or lineage approval"))
 
     # These are design gaps, not automatic logical contradictions. They prevent
     # asserting independently audited completeness even when static checks pass.
