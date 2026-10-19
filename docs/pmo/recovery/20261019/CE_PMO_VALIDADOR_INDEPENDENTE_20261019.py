@@ -7,6 +7,7 @@ import importlib.util
 import json
 from collections import Counter
 from pathlib import Path
+from ce_pmo_zip_verify_v01 import inspect_tree
 
 BASE = Path(__file__).resolve().parent
 REGISTER = BASE / "CE_PMO_REGISTRO_MESTRE_20261019_v0.1.0_CANDIDATE.json"
@@ -15,10 +16,23 @@ COLLECTOR = BASE / "ce_pmo_inventory_recursive_v02.py"
 QUEUE = BASE / "CE_PMO_FILA_EXECUCAO_P1_P5_20261019_CANDIDATE.json"
 DISPATCH = BASE / "CE_PMO_EXECUCAO_PARALELA_P2_P5_REUSE_20261019_CANDIDATE.json"
 P4_SOURCES = BASE / "CE_PMO_P4_CROSSWALK_FONTES_61_ARQUIVOS_65_20261019_CANDIDATE.json"
+ZIP_EVIDENCE = BASE / "CE_PMO_ZIP_INTEGRIDADE_P1B_20261019_CANDIDATE.json"
 
 
 def report(condition: bool, code: str, description: str, severity: str = "BLOCK") -> dict:
     return {"code": code, "severity": "PASS" if condition else severity, "description": description}
+
+
+def verify_zip_payload_evidence(observed: dict, prior: dict) -> dict:
+    """Bounded local archive CRC+unsafe-path check, not a global source custody claim."""
+    totals = observed.get("totals", {})
+    valid = (observed.get("status") == "PASS_ZIP_INTEGRITY_ONLY"
+             and observed.get("failure_codes") == {}
+             and observed.get("zip_count") == prior.get("zip_containers") == 13
+             and totals.get("zip_verified") == 13
+             and totals.get("declared_regular_entries") == totals.get("payload_crc_verified") == prior.get("payload_crc_verified") == 1956
+             and totals.get("declared_uncompressed_bytes") == totals.get("payload_bytes_verified") == prior.get("streamed_payload_bytes_verified") == 63658956)
+    return report(valid, "VAL-GAP-003", "all 13 currently local ZIPs pass bounded member CRC, streamed byte count, path safety and historical P1-B total replay; nested/archive source custody remain outside scope", "HOLD")
 
 
 def verify(rescan: bool = False) -> list[dict]:
@@ -28,6 +42,7 @@ def verify(rescan: bool = False) -> list[dict]:
     queue = json.loads(QUEUE.read_text(encoding="utf-8"))
     dispatch = json.loads(DISPATCH.read_text(encoding="utf-8"))
     p4_sources = json.loads(P4_SOURCES.read_text(encoding="utf-8"))
+    zip_evidence = json.loads(ZIP_EVIDENCE.read_text(encoding="utf-8"))
     population = {entry["population_id"]: entry for entry in register["populations"]}
     source = {entry["source_id"]: entry for entry in register["source_register"]}
     gates = {entry["id"]: entry for entry in register["gates"]}
@@ -68,7 +83,7 @@ def verify(rescan: bool = False) -> list[dict]:
     # asserting independently audited completeness even when static checks pass.
     checks.append(report(False, "VAL-GAP-001", "register embeds its own older commit/readback and lacks a current independent receipt", "HOLD"))
     checks.append(report(False, "VAL-GAP-002", "aggregate snapshot lacks timestamp/scan-id and an independently retained detailed manifest for full byte replay", "HOLD"))
-    checks.append(report(False, "VAL-GAP-003", "ZIP central-directory enumeration does not validate every member CRC/content or reject unsafe paths", "HOLD"))
+    checks.append(verify_zip_payload_evidence(inspect_tree(BASE), zip_evidence))
     checks.append(report(False, "VAL-GAP-004", "local filesystem enumeration is not evidence of complete GitHub/Library/Supabase reconciliation", "HOLD"))
 
     if rescan:
