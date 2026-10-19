@@ -1,0 +1,28 @@
+{
+  "schema_version": "0.1.0-CANDIDATE",
+  "kind": "WHOLE_PROJECT_EXISTING_WORK_AND_LATE_FIND_SWEEP",
+  "scope": "Current PMO P1-P5, F0-F11, CE01-CE06 historical evidence; not final source-system completeness assertion",
+  "cutoff": "2026-10-19",
+  "closure_rule": "CLOSED_AND_CANDIDATE_PRESERVED; NEW_DISTINCT_WORK_APPEND_AFTER_EXISTING_QUEUE_BEFORE_HOMOLOGATION",
+  "bounded_closures": {"closed_technical": ["P1-B-ZIP-CRC"], "closed_administrative": ["M24-HISTORICAL-LABEL"], "candidate_subscopes": ["P2-00-GIT-15-TREES", "P3-A-POPULATION-CENSUS", "P4-A-SOURCE-CENSUS"], "parent_tasks_closed_by_inference": 0},
+  "existing_open_work_reused": [
+    {"front": "P1 / F1", "existing": ["P1-CD-01", "P1-D-01", "VAL-GAP-002", "VAL-GAP-004"], "pending": "1295 ZIP payloads per-object reconciliation, original 768 detailed custody, nested ZIP and variant provenance", "new_task": "POST-001_ONLY_FOR_CUTOFF_LINEAGE"},
+    {"front": "P2 / F2", "existing": ["P2-01"], "pending": "22 proposed removals and PR2/3/4/6 overlap with preservation", "new_task": "NO_DUPLICATE"},
+    {"front": "P3 / F7", "existing": ["P3-A", "P3-B", "CE-05"], "pending": "Historic 102 WOs identity, 14 stubs, runtime Kernel/CI/guardian enforcement", "new_task": "NO_DUPLICATE"},
+    {"front": "P4 / F3 / F4 / F5 / F6", "existing": ["P4-A", "P4-D", "P4-F", "P4-E1..E7", "P4-G", "P5-05"], "pending": "61 rights decisions, ISO/COSO clause applicability, 285 semantic holds, seven other large source files; legacy M24 label closed administratively", "new_task": "NO_DUPLICATE"},
+    {"front": "P5 / F10 / F11", "existing": ["P5-01", "P5-02", "CE-06", "VAL-GAP-001"], "pending": "Independent current receipt, 8 homologation gates, CE06 historical 6 FAIL/12 HOLD, user final approval", "new_task": "NO_DUPLICATE"},
+    {"front": "F0", "existing": ["CE-05", "P3-B", "P5-01"], "pending": "GitHub ruleset disabled and server CI/Kernel enforcement not demonstrated", "new_task": "NO_DUPLICATE"},
+    {"front": "F8", "existing": ["CE-03 Supabase read-only inventory and lineage handoff"], "pending": "303 outbox and 61 provenance edges historically reported but not revalidated at live cutoff", "new_task": "NO_DUPLICATE_EXISTING_CE03_SCOPE"},
+    {"front": "F9", "existing": ["F4 site public content-pack", "P5-02"], "pending": "Playwright E2E and security deployment evidence", "new_task": "NO_DUPLICATE_EXISTING_F4_SCOPE"}
+  ],
+  "new_finds_identified_in_sweep": [
+    {"find": "FIND-PMO-SNAPSHOT-CUTOFF-AMBIGUITY-20261019", "root_cause": "Aggregate frozen 768, interim 771 and new 823 represented without a stable per-item cutoff chain", "correction": "Create cross-cutoff evidence-limited lineage only; no old snapshot reexecution", "enqueued_at_tail": "POST-001", "prior_activities_unchanged": true}
+  ],
+  "classification_limits": ["15 branch trees are not 15 fully reconciled source systems", "53/65 structural CE04 is not clinical or rights approval", "61 source IDs do not equal 61 license grants", "PR2 164 WO JSON do not prove Kernel admission", "M24 five historical unknowns are not five known unprocessed paths", "original 768 filename-level delta to 823 cannot be fabricated"],
+  "reexecution_count_this_sweep": 0,
+  "new_tail_tasks": 1,
+  "destructive_operations": 0,
+  "project_percent": null,
+  "overall_state": "IN_PROGRESS_FOUR_WAVES_WITH_INDEPENDENT_GATES_HOLD",
+  "final_user_approval": "PENDING"
+}
