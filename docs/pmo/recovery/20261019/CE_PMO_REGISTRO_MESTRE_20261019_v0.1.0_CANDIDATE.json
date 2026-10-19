@@ -9,14 +9,30 @@
   "project_execution_allowed": false,
   "pmo_control_revision": {
     "version": "0.2.0-CANDIDATE",
-    "change_id": "PMO-POST-CLOSURE-APPEND-ONLY-QUEUE-20261019-014",
+    "change_id": "PMO-PLAN-AUTONOMY-20261019-015",
     "supersedes_control_revision": "0.1.0",
-    "change_reason": "User invariant: late discoveries after CLOSED/CANDIDATE become linked FIND/investigation/correction and new tail task before separate final homologation, never reexecute prior work; classify five existing technical/administrative bounded results and append snapshot cutoff drift POST-001 without fabricating delta",
+    "change_reason": "Document approved end-stage user-approval policy, assistant-executable scope, external dependencies, specialist signoffs and auditable completion criteria; preserve prior append-only closure invariant and all existing queue states",
     "control_state": "DOCUMENTARY_CONSOLIDATION_IN_PROGRESS",
     "release_state": "HOLD",
     "current_register_sha_attestation": "NOT_SELF_ATTESTED; REQUIRE_INDEPENDENT_GITHUB_FETCH_RECEIPT",
     "evidence_of_commit_policy": "RECORD_COMMIT_AND_BLOB_SHA_IN_EXTERNAL_APPEND_ONLY_RECEIPT_AFTER_GITHUB_READBACK",
     "approval_state": "FINAL_USER_APPROVAL_PENDING"
+  },
+  "closure_execution_plan": {
+    "control_id": "PMO-PLAN-AUTONOMY-015",
+    "plan_ref": "CE_PMO_PLANO_FECHAMENTO_CAPACIDADE_AUTONOMIA_20261019_CANDIDATE.md",
+    "plan_state": "DOCUMENTED_CANDIDATE_NOT_EXECUTED",
+    "original_queue_tasks": 11,
+    "appended_queue_tasks": 1,
+    "total_queue_tasks": 12,
+    "assistant_executable_scope": "EVIDENCE_GATHERING_DOCUMENTARY_RECONCILIATION_NONDESTRUCTIVE_CODE_TESTS_AND_VERSIONING_ONLY_SUBJECT_TO_CURRENT_TASK_GATES",
+    "assistant_scope_completion": {"percent": null, "status": "NOT_ACHIEVED_DENOMINATOR_BY_ACCEPTANCE_PENDING", "rule": "100_PERCENT_ONLY_WHEN_ALL_ADMISSIBLE_TASK_DELIVERABLES_INCLUDING_TAIL_ARE_ACCEPTED_WITH_HASH_TEST_READBACK_AND_EXTERNAL_GATES_SEPARATELY_CLASSIFIED"},
+    "external_dependencies": ["ORIGINAL_768_PER_ITEM_MANIFEST_MISSING", "M24_FIVE_IDENTITIES_UNRECONSTRUCTIBLE", "AUTHORIZED_NORMATIVE_TEXT_AND_SOURCE_RIGHTS", "CI_KERNEL_RUNTIME_AND_SEGREGATED_ATTESTATION", "CLINICAL_LEGAL_SECURITY_AND_E2E_REVIEWS"],
+    "user_authority_required": ["RISK_ACCEPTANCE_ON_RESIDUALS", "MATERIAL_DESTRUCTIVE_OR_PRODUCTION_SCOPE_CHANGES", "FINAL_PROJECT_HOMOLOGATION_AND_MAIN_PROMOTION"],
+    "user_final_approval": "ONLY_AFTER_EXECUTION_QUEUE_AND_FINAL_SWEEP_PENDING",
+    "specialist_approval": "INDEPENDENT_REVIEWERS_FOR_CLINICAL_RIGHTS_COMPLIANCE_AND_TECHNICAL_ASSURANCE_WHEN_REQUIRED",
+    "invariant": "INV-QUEUE-POST-CLOSURE-001",
+    "gate_state": "EIGHT_OF_EIGHT_HOLD_NO_PRODUCTION_PROMOTION"
   },
   "progress_metrics": {
     "p1_technical_checkpoints": {"completed": 5, "total": 6, "percent": 83.3, "status": "IN_PROGRESS_NOT_RELEASED", "source_ids": ["S-13", "S-14", "S-15", "S-17", "S-18"]},
@@ -183,7 +199,8 @@
     {"source_id": "S-39", "kind": "P1_PRIVATE_NEW_TIMESTAMPED_SNAPSHOT", "ref": "CE_PMO_CUSTODIA_SNAPSHOT_PRIVADO_20261019_V2.json (PRIVATE_LIBRARY_NOT_PUBLIC_GIT)", "cutoff": "2026-10-19T11:56:06.361038+00:00", "evidence_status": "823_LOCAL_FILES_PRIVATE_COPY_SAVED; EXACT_PRIVATE_CONTENT_READBACK; 768_FROZEN_BASELINE_UNCHANGED; ORIGINAL_PER_ITEM_DELTA_HOLD"},
     {"source_id": "S-40", "kind": "PMO_GITHUB_BASE64_CORRECTION_PINNED_READBACK", "ref": "CE_PMO_FIND_CORRECAO_BASE64_14_20261019_CANDIDATE.json", "pinned_head": "371bcd2366f54824410c3af9bf3d84890d40266d", "evidence_status": "14_REMOTE_LITERAL_BASE64_CORRECTED; 58_OF_58_LOCAL_SHA_MATCH; 4_REMOTE_ONLY_PRESERVED; GLOBAL_INDEPENDENT_ATTESTATION_HOLD"},
     {"source_id": "S-41", "kind": "POST_CLOSURE_APPEND_ONLY_INVARIANT", "ref": "CE_PMO_INVARIANTE_FILA_POS_FECHAMENTO_20261019_CANDIDATE.md; ce_pmo_inventory_guard_v01.py; test_ce_pmo_inventory_guard_v01.py", "cutoff": "2026-10-19", "evidence_status": "LOCAL_GUARD_AND_NEGATIVE_TESTS; REMOTE_CI_ENFORCEMENT_NOT_PROVEN"},
-    {"source_id": "S-42", "kind": "BOUNDED_CLOSURE_AND_NEW_TAIL_FIND", "ref": "CE_PMO_FECHAMENTOS_DELIMITADOS_20261019_CANDIDATE.json; CE_PMO_FILA_EXECUCAO_P1_P5_20261019_CANDIDATE.json; CE_PMO_VARREDURA_FINAL_P1_P5_F0_F11_20261019_CANDIDATE.json", "cutoff": "2026-10-19", "evidence_status": "ONE_BOUNDED_TECH_CLOSED_ONE_ADMIN_CLOSED_THREE_CANDIDATE; POST_001_TAIL_NOT_EXECUTED; F0_F11_REVIEWED_NO_DUPLICATE"}
+    {"source_id": "S-42", "kind": "BOUNDED_CLOSURE_AND_NEW_TAIL_FIND", "ref": "CE_PMO_FECHAMENTOS_DELIMITADOS_20261019_CANDIDATE.json; CE_PMO_FILA_EXECUCAO_P1_P5_20261019_CANDIDATE.json; CE_PMO_VARREDURA_FINAL_P1_P5_F0_F11_20261019_CANDIDATE.json", "cutoff": "2026-10-19", "evidence_status": "ONE_BOUNDED_TECH_CLOSED_ONE_ADMIN_CLOSED_THREE_CANDIDATE; POST_001_TAIL_NOT_EXECUTED; F0_F11_REVIEWED_NO_DUPLICATE"},
+    {"source_id": "S-43", "kind": "AUTONOMOUS_EXECUTION_AND_FINAL_APPROVAL_CLOSURE_PLAN", "ref": "CE_PMO_PLANO_FECHAMENTO_CAPACIDADE_AUTONOMIA_20261019_CANDIDATE.md", "cutoff": "2026-10-19", "evidence_status": "SCOPE_AND_ACCEPTANCE_CRITERIA_DOCUMENTED; EXECUTION_NOT_COMPLETE; NO_NEW_QUEUE_TASKS; USER_APPROVAL_AT_END"}
   ],
   "populations": [
     {"population_id": "POP-BRANCH", "unit": "BRANCH", "count": 14, "processed": null, "approved": null, "cutoff": "2026-10-19", "source_ids": ["S-02"], "status": "HISTORICAL_BEFORE_PMO_BRANCH_NOT_RECONCILED"},
