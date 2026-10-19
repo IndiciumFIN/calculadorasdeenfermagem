@@ -31,6 +31,24 @@
       "path": "docs/pmo/recovery/20261019/CE_PMO_P1_INDEPENDENT_COMPLETENESS_HOLD_20261019_CANDIDATE.json",
       "affected_task": "P1-D-01",
       "effect": "Later 823-object private snapshot found, baseline 768 still not independently authenticated; no repeat"
+    },
+    {
+      "id": "P3B-VALIDATOR-ISOLATED-REPLAY",
+      "status": "DONE_TEST_FIND_OPEN",
+      "commit": "b41ff662bb111384456753fae0bd4e1e06fbee0e",
+      "readback_blob": "8f8fe73f755f5159a229bfe173ef9bbb4255a93a",
+      "path": "docs/pmo/recovery/20261019/CE_PMO_P3B_VALIDATOR_ISOLATED_REPLAY_20261019_CANDIDATE.json",
+      "affected_task": "P3-B",
+      "effect": "22 isolated declared cases; 12 false approvals; Kernel integration remains HOLD"
+    },
+    {
+      "id": "P1-145-823-READONLY-CROSSCHECK",
+      "status": "DONE_PARTIAL_2_CONFLICTS_HOLD",
+      "commit": "9230ed958d1318723ef466753d3970f9f63c89cf",
+      "readback_blob": "6f2950ecb2fc20687e990b95994fe17e3680446b",
+      "path": "docs/pmo/recovery/20261019/CE_PMO_P1_CROSS_SNAPSHOT_145_823_20261019_CANDIDATE.json",
+      "affected_task": "P1-D-01",
+      "effect": "143 exact matches, two changed paths, zero prior-path missing; original 768 source still HOLD"
     }
   ],
   "pending": [
@@ -40,11 +58,11 @@
     },
     {
       "task": "P1-D-01",
-      "blocker": "Original 768-object object-level custody and delta versus later 823-object private, NOT_HOMOLOGATED snapshot still require verification"
+      "blocker": "Two divergent paths between scoped 145 and later 823, plus original 768 per-object census not authenticated"
     },
     {
       "task": "P3-B",
-      "blocker": "14 M20 executor sources unlocated; isolated runtime replay and policy/WO gates still required"
+      "blocker": "12 isolated false approvals reproduced; full runtime imports, 14 M20 executors and Kernel/WO admission incomplete"
     },
     {
       "task": "P2-01",
@@ -73,5 +91,16 @@
     "CE_PMO_INVENTARIO_LOCAL_20261019_CANDIDATE.json",
     "CE_PMO_BASELINE_CONTROLE_20261019_CANDIDATE.md"
   ],
-  "p1_duplicate_execution_assessment": "P1 recursive scans and pinned trees previously completed; no reexecution. Later private individual manifest exists; compare identity/cutoff before new task."
+  "p1_duplicate_execution_assessment": "P1 recursive scans and pinned trees previously completed; no reexecution. Later private individual manifest exists; compare identity/cutoff before new task.",
+  "p1_snapshot_deltas": {
+    "early_145": 145,
+    "later_823": 823,
+    "exact_equal": 143,
+    "changed_paths": 2,
+    "missing_paths": 0
+  },
+  "p3b_isolated_tests": {
+    "total": 22,
+    "false_approvals": 12
+  }
 }
