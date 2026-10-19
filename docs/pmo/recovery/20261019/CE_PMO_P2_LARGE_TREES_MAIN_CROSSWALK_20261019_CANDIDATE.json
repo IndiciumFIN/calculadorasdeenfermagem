@@ -1,0 +1,69 @@
+{
+  "schema_version": "0.1.0-CANDIDATE",
+  "workstream": "P2",
+  "method": "PINNED_GIT_FULL_TREES_BLOB_PATH_SHA_RECOUNT",
+  "source_manifest_blob": "98995b9391d4b51b8dad75a68ebac9d6283ba660",
+  "main_pin": "e0f62491b104f4a97c6025a6393cabc2e7ada30e",
+  "status": "READ_ONLY_BOUNDED_4_OF_4_PASS",
+  "large_tree_records": [
+    {
+      "branch": "cursor/drive-sa-key-refactor",
+      "head_sha": "fc857df8306b81915f191d3f0744f7a322047b21",
+      "expected_blobs": 9366,
+      "observed_blobs": 9366,
+      "truncated": false,
+      "same_main": 52,
+      "changed_main": 22,
+      "only_main": 102,
+      "only_branch": 9292,
+      "complete": true
+    },
+    {
+      "branch": "cursor/fix-governance-gaps-ec54",
+      "head_sha": "bb6debeef44a15964becd19990a502d7e0c0beaf",
+      "expected_blobs": 9387,
+      "observed_blobs": 9387,
+      "truncated": false,
+      "same_main": 54,
+      "changed_main": 26,
+      "only_main": 96,
+      "only_branch": 9307,
+      "complete": true
+    },
+    {
+      "branch": "migration/candidate-f08-20261017",
+      "head_sha": "e7add8e510077c2ea4c0591cdafe2440c1ffd418",
+      "expected_blobs": 19136,
+      "observed_blobs": 19136,
+      "truncated": false,
+      "same_main": 176,
+      "changed_main": 0,
+      "only_main": 0,
+      "only_branch": 18960,
+      "complete": true
+    },
+    {
+      "branch": "migration/full-directory-20261017",
+      "head_sha": "bad54d1d9b6d281a0a2bb8077895e2ad45571b68",
+      "expected_blobs": 19119,
+      "observed_blobs": 19119,
+      "truncated": false,
+      "same_main": 161,
+      "changed_main": 0,
+      "only_main": 15,
+      "only_branch": 18958,
+      "complete": true
+    }
+  ],
+  "total_branches_in_census": 15,
+  "other_11_source": "CE_PMO_P2_SMALL_TREES_MAIN_CROSSWALK_20261019_CANDIDATE.json",
+  "limits": [
+    "BRANCH_OCCURRENCE_COUNTS_NOT_UNIQUE_FILES",
+    "NO_BINARY_CONTENT_SEMANTIC_CLASSIFICATION",
+    "NO_PR_HISTORY_OR_LFS_RESOLUTION",
+    "NO_AUTO_CANONICAL_MERGE",
+    "NO_PRODUCTIVE_MUTATION"
+  ],
+  "task_closure": "HOLD",
+  "queue_modified": false
+}
