@@ -12,6 +12,8 @@ BASE = Path(__file__).resolve().parent
 REGISTER = BASE / "CE_PMO_REGISTRO_MESTRE_20261019_v0.1.0_CANDIDATE.json"
 SUMMARY = BASE / "CE_PMO_INVENTARIO_RECURSIVO_RESUMO_20261019_CANDIDATE.json"
 COLLECTOR = BASE / "ce_pmo_inventory_recursive_v02.py"
+QUEUE = BASE / "CE_PMO_FILA_EXECUCAO_P1_P5_20261019_CANDIDATE.json"
+DISPATCH = BASE / "CE_PMO_EXECUCAO_PARALELA_P2_P5_REUSE_20261019_CANDIDATE.json"
 
 
 def report(condition: bool, code: str, description: str, severity: str = "BLOCK") -> dict:
@@ -22,6 +24,8 @@ def verify(rescan: bool = False) -> list[dict]:
     checks = []
     register = json.loads(REGISTER.read_text(encoding="utf-8"))
     summary = json.loads(SUMMARY.read_text(encoding="utf-8"))
+    queue = json.loads(QUEUE.read_text(encoding="utf-8"))
+    dispatch = json.loads(DISPATCH.read_text(encoding="utf-8"))
     population = {entry["population_id"]: entry for entry in register["populations"]}
     source = {entry["source_id"]: entry for entry in register["source_register"]}
     gates = {entry["id"]: entry for entry in register["gates"]}
@@ -43,6 +47,16 @@ def verify(rescan: bool = False) -> list[dict]:
     checks.append(report(all(p.get("approved") is None or (0 <= p["approved"] <= p["count"]) for p in register["populations"]), "VAL-015", "approved population counts bounded"))
     checks.append(report(not any(p.get("approved", 0) not in (None, 0) for p in register["populations"]), "VAL-016", "no unexplained approvals declared"))
     checks.append(report("NO_MERGE" in register["scope_restrictions"] and register["preservation_readback"]["main_mutated"] is False, "VAL-017", "main mutation not represented as authorized"))
+    wo = [p for p in register["populations"] if p["population_id"] == "POP-PR2-WO"]
+    p3 = [t for t in queue["tasks"] if t["id"] == "P3-A"]
+    checks.append(report(len(wo) == 1 and wo[0]["count"] == 164 and wo[0]["approved"] is None and len(p3) == 1 and "164 PR2 WOs" in p3[0]["action"], "VAL-018", "PR2 full 164 WO census matches PMO and P3 queue"))
+    waves = dispatch.get("entries", [])
+    checks.append(report(sorted(e.get("wave") for e in waves) == ["P2", "P3", "P4", "P5"] and len(waves) == 4, "VAL-019", "all four parallel wave evidence-link records present"))
+    checks.append(report(all(set(e.get("source_ids", [])) == {link.get("source_id") for link in e.get("evidence_linkage", [])} and set(e.get("source_ids", [])).issubset(source) for e in waves), "VAL-020", "all parallel wave sources exist and match crosswalk links"))
+    controls = dispatch.get("cross_wave_controls", {})
+    checks.append(report(controls.get("all_4_waves_productive_execution_admitted") is False and controls.get("pmo_trusted") is False and controls.get("project_completion_percent") is None and controls.get("m24") == "HOLD", "VAL-021", "cross-wave documentary activity not misrepresented as productive completion"))
+    plans = {p["wave"]: p for p in register.get("parallel_wave_plans", [])}
+    checks.append(report(all(plans.get(w, {}).get("plan_state") == "DOCUMENTARY_EXISTING_EVIDENCE_LINKED" and "S-35" in plans.get(w, {}).get("source_ids", []) for w in ["P2", "P3", "P4", "P5"]), "VAL-022", "all four PMO plan states and source references agree with parallel dispatch"))
 
     # These are design gaps, not automatic logical contradictions. They prevent
     # asserting independently audited completeness even when static checks pass.
