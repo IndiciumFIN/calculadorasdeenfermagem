@@ -1,0 +1,66 @@
+{
+  "schema_version": "0.1.0-CANDIDATE",
+  "task": "P1-CD-01",
+  "mode": "LOCAL_DETERMINISTIC_AGGREGATE_CROSSCHECK_NO_KERNEL",
+  "source_blobs": {
+    "CE_PMO_P1CD_CLASSIFICACAO_IDENTIDADE_20261019_CANDIDATE.json": "3c0e16ef650febca299ddcc9b55644a53614de43",
+    "CE_PMO_GIT_BLOB_CROSSCHECK_P1CC_20261019_CANDIDATE.json": "3e8aaadb5d9a21f7a8278f29afb97563ff2721ad",
+    "CE_PMO_GIT_BRANCH_TREES_P1CB_20261019_CANDIDATE.json": "98995b9391d4b51b8dad75a68ebac9d6283ba660"
+  },
+  "tests": [
+    {
+      "name": "P1CLASS_TOTAL",
+      "pass": true
+    },
+    {
+      "name": "P1CLASS_LOCAL_MATCH",
+      "pass": true
+    },
+    {
+      "name": "P1CLASS_NON_GIT_TIP_BLOB",
+      "pass": true
+    },
+    {
+      "name": "P1CLASS_TRIPLE_OVERLAP",
+      "pass": true
+    },
+    {
+      "name": "P1CLASS_ZIP_TOTAL",
+      "pass": true
+    },
+    {
+      "name": "P1TREE_BRANCH_COUNT",
+      "pass": true
+    },
+    {
+      "name": "P1TREE_OCCURRENCES",
+      "pass": true
+    },
+    {
+      "name": "P1TREE_NONTRUNCATED",
+      "pass": true
+    },
+    {
+      "name": "P1CLASS_RELEASE_HOLD",
+      "pass": true
+    }
+  ],
+  "pass": 9,
+  "total": 9,
+  "classes": {
+    "A": 11,
+    "B": 610,
+    "C": 674
+  },
+  "population": 1295,
+  "limitations": [
+    "AGGREGATE_ONLY",
+    "NO_MEMBER_MANIFEST",
+    "NO_RAW_ZIP_MEMBER_BYTES",
+    "NO_PER_MEMBER_GIT_HISTORY_OR_NESTING",
+    "NO_CLAIM_OF_LOST_DATA"
+  ],
+  "release": "HOLD",
+  "task_complete": false,
+  "find_ref": "P1-FIND-GIT-ZIP-UNMATCHED"
+}
