@@ -1,0 +1,19 @@
+{
+  "schema_version": "0.1.0-CANDIDATE",
+  "population_id": "POP-M24-HOLD",
+  "kind": "BLOCKED_IDENTITY_RECONSTRUCTION_NO_EXECUTION",
+  "expected_count": 5,
+  "observed_historical_aggregate": 5,
+  "records": [],
+  "status": "HOLD_IDENTITIES_UNRESOLVED",
+  "evidence_examined": [
+    "CE_M43_CID11_CATEGORIAS_STREAMING_SEMANTIC_HOLDS_v0.1.0_CANDIDATE.md",
+    "CE_M40_ULTIMO_MICROLOTE_MEDIO_INVENTARIO_REMANTENTE_v0.1.0_CANDIDATE.md",
+    "CE_PMO_PLANO_P4_CONTEUDO_20261019_CANDIDATE.md",
+    "CE04_65_DOMAIN_MANIFESTS_READBACK.csv (historical ZIP)"
+  ],
+  "find_id": "FIND-PMO-M24-ID-NOT-BOUND-20261019",
+  "non_inference": "The five source identities cannot be selected arbitrarily from the twelve unprocessed CE04 files. No file is eligible for M24 execution or status promotion until primary documented membership and exact hashes are recovered.",
+  "validator": "ce_pmo_m24_identity_guard_v01.py",
+  "release": "HOLD_NO_KERNEL_ADMISSION"
+}
