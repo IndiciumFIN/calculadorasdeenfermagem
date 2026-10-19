@@ -1,0 +1,24 @@
+name: CE local agent assurance candidate
+on:
+  push:
+    branches:
+      - feat/ce-local-agent-assurance-20261019
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  local-candidate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.11'
+      - name: Compile bounded assurance CLI
+        run: python -m py_compile tools/ce_agents/ce_agent_assurance.py tools/ce_agents/test_ce_agent_assurance.py
+      - name: Catalog validation
+        run: python tools/ce_agents/ce_agent_assurance.py catalog-check --catalog contracts/agents/ce_local_catalog_v0.1.0_candidate.json
+      - name: Adversarial unit tests
+        run: python -m unittest discover -s tools/ce_agents -p 'test_*.py' -v
