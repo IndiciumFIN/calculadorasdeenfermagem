@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.1.0-CANDIDATE",
+  "kind": "HISTORICAL_CHECKPOINT_INTEGRITY_READBACK",
+  "source_archive": "CE_BACKUP_COMPLETO_POS_20261018_ATE_M39_20261019.zip (LOCAL_PRIVATE)",
+  "validation": {
+    "algorithm": "SHA256_PER_MANIFEST_FILE_STREAMED_FROM_ZIP",
+    "manifest": "BACKUP_MANIFEST_SHA256.json",
+    "declared_files": 665,
+    "validated_files": 665,
+    "hash_or_size_mismatches": 0,
+    "status": "PASS_ARCHIVE_MEMBER_INTEGRITY_ONLY"
+  },
+  "baseline": {
+    "embedded_path": "workspace/upload/CE_MASTER_CONTINUITY_20261018(1).zip",
+    "local_baseline_identical": true,
+    "bytes": 10646329,
+    "sha256": "d306c356ff8e670ee64ef29c28b85f6d226994b982e9cca9e06314897d193b53"
+  },
+  "historic_cutoff": {"ce04_structurally_processed": 46, "ce04_total": 65, "m24": "PENDING", "clinical_rights_kernel": "HOLD"},
+  "m24": {"named_m24_files_in_backup_manifest_paths": 0, "exact_five_identities_verified": 0, "status": "HOLD_NOMINAL_MEMBERSHIP_NOT_ATTESTED", "not_inferred": "Do not infer the five identities from five arbitrary remaining CE04 files"},
+  "current_comparison": "Historical 46/65 is a valid older cutoff; current M43 reported 53/65 is a different later scope, not a contradiction. Neither number proves final clinical/legal release.",
+  "scope": "READ_ONLY_LOCAL; NO_EXTRACTION_TO_WORKSPACE; NO_REMOTE_SOURCE_MUTATION; PRIVATE_ARCHIVE_NOT_PUBLISHED",
+  "release": "HOLD_PROJECT_FINAL_USER_APPROVAL_PENDING"
+}
