@@ -22,6 +22,15 @@
       "path": "docs/pmo/recovery/20261019/CE_PMO_P3B_KERNEL_VALIDATOR_FIND_20261019_CANDIDATE.json",
       "affected_task": "P3-B",
       "effect": "Open FIND; source-level evidence only"
+    },
+    {
+      "id": "P1-CROSS-SOURCE-DEDUPE-LIBRARY",
+      "status": "DONE_READONLY_CROSSCHECK_NOT_BASELINE_HOMOLOGATION",
+      "commit": "ca36b709944bca066dc9517ab3c43067d61edcce",
+      "readback_blob": "1c4b9ed9dacfcebc9b00d522c0e8b5df3b5bbff4",
+      "path": "docs/pmo/recovery/20261019/CE_PMO_P1_INDEPENDENT_COMPLETENESS_HOLD_20261019_CANDIDATE.json",
+      "affected_task": "P1-D-01",
+      "effect": "Later 823-object private snapshot found, baseline 768 still not independently authenticated; no repeat"
     }
   ],
   "pending": [
@@ -31,7 +40,7 @@
     },
     {
       "task": "P1-D-01",
-      "blocker": "independently authenticated 768-object path/hash/source manifest absent"
+      "blocker": "Original 768-object object-level custody and delta versus later 823-object private, NOT_HOMOLOGATED snapshot still require verification"
     },
     {
       "task": "P3-B",
@@ -58,5 +67,11 @@
     "source_of_truth": "pinned Git repository evidence; Supabase comparison-only"
   },
   "project_level_percent": null,
-  "homologation": "HOLD"
+  "homologation": "HOLD",
+  "library_readonly_checked": [
+    "CE_PMO_CUSTODIA_SNAPSHOT_PRIVADO_20261019_V2.json",
+    "CE_PMO_INVENTARIO_LOCAL_20261019_CANDIDATE.json",
+    "CE_PMO_BASELINE_CONTROLE_20261019_CANDIDATE.md"
+  ],
+  "p1_duplicate_execution_assessment": "P1 recursive scans and pinned trees previously completed; no reexecution. Later private individual manifest exists; compare identity/cutoff before new task."
 }
