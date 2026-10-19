@@ -113,12 +113,15 @@ def check_control_chain(pmo: dict, queue: dict, findings: list[str]) -> None:
         return
     ids = [t.get("id") for t in tasks if isinstance(t, dict)]
     guard(len(ids) == len(tasks) and len(ids) == len(set(ids)), "QUEUE_TASK_IDENTITIES_INVALID", findings)
-    allowed_statuses = {"READY_NOT_STARTED", "BLOCKED_DEPENDENCY"}
+    allowed_statuses = {"READY_NOT_STARTED", "BLOCKED_DEPENDENCY", "EVIDENCE_PARTIAL_RUNTIME_HOLD"}
+    historical_evidence_partial = {"P2-00", "P3-A", "P4-A"}
     for index, task in enumerate(tasks):
         if not isinstance(task, dict):
             findings.append(f"QUEUE_TASK_INVALID:{index}")
             continue
         guard(task.get("status") in allowed_statuses, f"QUEUE_FALSE_EXECUTION:{index}", findings)
+        if task.get("id") in historical_evidence_partial:
+            guard(task.get("status") == "EVIDENCE_PARTIAL_RUNTIME_HOLD", f"QUEUE_STALE_EVIDENCED_STATUS:{task.get('id')}", findings)
         guard(task.get("mode") in {"READ_ONLY", "DOCUMENTARY"}, f"QUEUE_RUNTIME_NOT_ADMITTED:{index}", findings)
         guard(bool(task.get("evidence_required")) and bool(task.get("acceptance")) and bool(task.get("release_gate")), f"QUEUE_EVIDENCE_OR_GATE_MISSING:{index}", findings)
         guard(all(dep in ids or dep == "P1-C-C" for dep in task.get("depends_on", [])), f"QUEUE_DEPENDENCY_UNRESOLVED:{index}", findings)
