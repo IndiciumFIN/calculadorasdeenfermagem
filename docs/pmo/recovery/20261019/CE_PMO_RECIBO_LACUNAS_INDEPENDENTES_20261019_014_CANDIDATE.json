@@ -1,0 +1,34 @@
+{
+  "kind": "APPEND_ONLY_GAP_REMEDIATION_RECEIPT",
+  "receipt_id": "CE-PMO-ASSURANCE-GAPS-014-20261019",
+  "repository": "IndiciumFIN/calculadorasdeenfermagem",
+  "branch": "pmo/recovery-controlled-20261019",
+  "verified_head_before_receipt": "db72256a8731f1269af4276cfef5bf5a6b3dbaf4",
+  "published_files": [
+    {"file": "CE_PMO_MATRIZ_LACUNAS_INDEPENDENTES_20261019_CANDIDATE.json", "commit_sha": "1c8ea21dc32ad4a262aa38bf27cf8d7d5a34cf6e"},
+    {"file": "test_ce_pmo_independent_zip_gap_v01.py", "commit_sha": "c093a0c97d3db56198875fbf867c05ccb6bf9172"},
+    {"file": "CE_PMO_VALIDADOR_INDEPENDENTE_20261019.py", "commit_sha": "2aa953173dd28fb9068d67ecb5af65c20f1142cd"},
+    {"file": "CE_PMO_REGISTRO_MESTRE_20261019_v0.1.0_CANDIDATE.json", "commit_sha": "db72256a8731f1269af4276cfef5bf5a6b3dbaf4"}
+  ],
+  "remote_exact_readback": "4/4 local Git blob SHA equals remote Git tree SHA at verified head",
+  "verification": {
+    "local_zip_containers": 13,
+    "crc_verified_regular_members": 1956,
+    "crc_verified_payload_bytes": 63658956,
+    "unsafe_path_or_crc_findings": 0,
+    "unit_tests": "80/80 PASS",
+    "independent_checks": "25 PASS, 3 HOLD, 0 BLOCK",
+    "pmo_queue_dispatch_anti_rework": "PASS_PREFLIGHT_ONLY",
+    "rule_set": "Protecao #25297030 enforcement disabled and zero required checks; direct GitHub readback on 2026-10-19",
+    "main_mutated": false
+  },
+  "gap_decisions": [
+    {"id": "VAL-GAP-003", "decision": "PASS_ONLY_FOR_13_LOCAL_ZIP_INTEGRITY", "reason": "Live CRC replay, byte counts and path safety match prior P1-B evidence"},
+    {"id": "VAL-GAP-001", "decision": "HOLD", "reason": "Independent durable latest receipt-chain verification remains unimplemented"},
+    {"id": "VAL-GAP-002", "decision": "HOLD", "reason": "Original scan timestamp/private per-path baseline and independently validated deltas unavailable"},
+    {"id": "VAL-GAP-004", "decision": "HOLD", "reason": "Complete source-to-Git/archive cross-environment population reconciliation not demonstrated"}
+  ],
+  "learning": "A hard-coded static HOLD in an independent validator can itself become obsolete after underlying evidence matures. Make bounded technical gates executable and retain distinct scope/rights/completeness holds.",
+  "user_final_approval": "PENDING",
+  "project_release": "HOLD_NOT_CERTIFIED"
+}
