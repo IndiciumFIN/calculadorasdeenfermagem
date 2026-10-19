@@ -49,6 +49,14 @@
       "path": "docs/pmo/recovery/20261019/CE_PMO_P1_CROSS_SNAPSHOT_145_823_20261019_CANDIDATE.json",
       "affected_task": "P1-D-01",
       "effect": "143 exact matches, two changed paths, zero prior-path missing; original 768 source still HOLD"
+    },
+    {
+      "id": "CTX-GOV-RETENTION-RECOVERY-20261019",
+      "status": "DONE_READONLY_AUDIT_CANDIDATE_NOT_KERNEL_ADMITTED",
+      "commit": "cfeec807692a2fd3a84695c404b1c190e0a16e57",
+      "readback_blob": "f95407a00150d1419741f28c1e18757988c5a2fe",
+      "path": "docs/pmo/recovery/20261019/CE_PMO_GOVERNANCE_CONTEXT_RECOVERY_AND_RETENTION_AUDIT_20261019_CANDIDATE.json",
+      "effect": "Recovered prior deletion quarantine/WO governance policies, 121 PMO files, 823 snapshot external persistence gaps, strictly human-only history/branch deletion candidate invariant; no destructive operation"
     }
   ],
   "pending": [
@@ -102,5 +110,11 @@
   "p3b_isolated_tests": {
     "total": 22,
     "false_approvals": 12
+  },
+  "context_recovery_latest": {
+    "branch_or_history_delete": "HUMAN_EXCEPTION_ONLY_NO_AUTOMATION",
+    "active_tree_removal": "REQUIRES_ADMITTED_POLICY_VALIDATOR_TASK_WO_KERNEL",
+    "uncommitted_work": "823 later local inventory individual bytes persistence NOT_PROVEN; recovered Library candidate policies",
+    "deletion_performed": false
   }
 }
