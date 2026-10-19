@@ -22,6 +22,7 @@
     "runtime_scope": "No productive run until FIND-policy-validator-task-WO-authoritative Kernel admission, isolation, tests and independent audit",
     "scope_prohibitions": ["NO_DRIVE_ACCESS", "NO_MAIN", "NO_MERGE", "NO_DELETE", "NO_M24_RELEASE", "NO_UNADMITTED_ATOMIZATION", "SUPABASE_READ_ONLY"],
     "m24_isolation": "M24_HOLD_ONLY_RESERVED_FIVE; OTHER_DOCUMENTARY_AND_READ_ONLY_TASKS_CONTINUE; INDEPENDENT_NON_M24_EXECUTION_ONLY_WITH_TASK_SPECIFIC_WO_KERNEL_GATES; FINAL_USER_APPROVAL_AT_PROJECT_END",
+    "m24_historical_milestone_disposition": "CLOSED_ADMINISTRATIVE_UNRECONSTRUCTIBLE_HISTORY; NO_NEW_WO_FROM_AGGREGATE_COUNT; P3_P4_P5_EXISTING_GATES_CONTINUE",
     "progress": "Only report numerator/denominator for homogeneous verified populations; no project-level percentage",
     "receipt": "Record branch HEAD precondition, SHA256 or Git blob SHA, commit and exact postcommit readback in external append-only receipt",
     "preservation": "Never infer 1284 lost files; preserve ZIP blobs, variant versions, font paths and ambiguous rights/licensing",
