@@ -33,7 +33,7 @@
   ],
   "documentary_microtasks": [
     {"task_id": "P1-A", "name": "Recursive local inventory", "status": "EVIDENCE_RECORDED_NOT_HOMOLOGATED", "source_ids": ["S-13"], "release_gate": "G-PMO-01"},
-    {"task_id": "P1-B", "name": "ZIP integrity and entry-to-file classification", "status": "IN_PROGRESS", "source_ids": ["S-13"], "release_gate": "G-PMO-03"},
+    {"task_id": "P1-B", "name": "ZIP integrity and entry-to-file classification", "status": "ZIP_CRC_VERIFIED_CLASSIFICATION_IN_PROGRESS", "source_ids": ["S-13", "S-14"], "release_gate": "G-PMO-03"},
     {"task_id": "P1-C", "name": "Local-Git-history-ZIP reconciliation", "status": "PENDING", "source_ids": ["S-02", "S-03", "S-13"], "release_gate": "G-PMO-01"},
     {"task_id": "P2-A", "name": "Versioned branch/PR conflict matrix", "status": "PENDING", "source_ids": ["S-01", "S-02"], "release_gate": "G-PMO-02"}
   ],
@@ -87,7 +87,8 @@
     {"source_id": "S-10", "kind": "HISTORICAL_CONTEXT", "ref": "Auditoria anterior 102 WOs: 98 PASS, 2 BLOCKED, 2 PREAUTHORIZED; identidade documental pendente", "cutoff": "2026-10-16", "evidence_status": "CONVERSATION_ONLY"},
     {"source_id": "S-11", "kind": "GITHUB_READBACK", "ref": "PR #2 contracts/work_orders (76 arquivos); contracts/work_order.schema.json", "cutoff": "2026-10-19", "evidence_status": "DIRECT_READBACK_STRUCTURE"},
     {"source_id": "S-12", "kind": "LOCAL_REPORT", "ref": "CE_M11_AUDITORIA_REAL_PROCESSO_DOCUMENTACAO_REFERENCIAIS_v0.1.0_CANDIDATE.md", "cutoff": "2026-10-19", "evidence_status": "LOCAL_DOCUMENTARY_AUDIT"},
-    {"source_id": "S-13", "kind": "LOCAL_RECURSIVE_SCAN", "ref": "CE_PMO_INVENTARIO_RECURSIVO_RESUMO_20261019_CANDIDATE.json", "cutoff": "2026-10-19", "evidence_status": "AGGREGATED_LOCAL_HASH_SCAN_NOT_EXTERNAL_CUSTODY"}
+    {"source_id": "S-13", "kind": "LOCAL_RECURSIVE_SCAN", "ref": "CE_PMO_INVENTARIO_RECURSIVO_RESUMO_20261019_CANDIDATE.json", "cutoff": "2026-10-19", "evidence_status": "AGGREGATED_LOCAL_HASH_SCAN_NOT_EXTERNAL_CUSTODY"},
+    {"source_id": "S-14", "kind": "LOCAL_ZIP_PAYLOAD_VALIDATION", "ref": "CE_PMO_ZIP_INTEGRIDADE_P1B_20261019_CANDIDATE.json", "cutoff": "2026-10-19", "evidence_status": "13_ZIP_1956_MEMBERS_CRC_VERIFIED_LOCAL_ONLY"}
   ],
   "populations": [
     {"population_id": "POP-BRANCH", "unit": "BRANCH", "count": 14, "processed": null, "approved": null, "cutoff": "2026-10-19", "source_ids": ["S-02"], "status": "INVENTORIED_NOT_RECONCILED"},
@@ -103,7 +104,7 @@
   ],
   "workstreams": [
     {"id": "F0", "name": "Segurança e baseline", "status": "HOLD", "source_ids": ["S-01", "S-02"], "blockers": ["main protection not freshly verified", "Kernel admission absent"]},
-    {"id": "F1", "name": "Universo integral migrado", "status": "PARTIAL", "documentary_consolidation_status": "IN_PROGRESS", "release_status": "HOLD", "source_ids": ["S-01", "S-03", "S-13"], "blockers": ["trees not fully classified against each other", "local recursive scan not yet externally reconciled; directory symlinks skipped"]},
+    {"id": "F1", "name": "Universo integral migrado", "status": "PARTIAL", "documentary_consolidation_status": "IN_PROGRESS", "release_status": "HOLD", "source_ids": ["S-01", "S-03", "S-13", "S-14"], "blockers": ["trees not fully classified against each other", "13 outer ZIP containers CRC verified but nested archives and external provenance remain open", "local recursive scan not yet externally reconciled; directory symlinks skipped"]},
     {"id": "F2", "name": "Branches e conflitos", "status": "HOLD", "source_ids": ["S-01", "S-02"], "blockers": ["22 historical proposed deletions require case decisions", "PR overlapping workflows/roots"]},
     {"id": "F3", "name": "Conteúdo e atomização", "status": "STOP_WORK", "source_ids": ["S-04", "S-05"], "blockers": ["7 other large files", "M24 five files", "semantic and rights reviews"]},
     {"id": "F4", "name": "Normativos e conformidade", "status": "HOLD", "source_ids": ["S-03", "S-12"], "blockers": ["clause applicability and independent semantic audit"]},
