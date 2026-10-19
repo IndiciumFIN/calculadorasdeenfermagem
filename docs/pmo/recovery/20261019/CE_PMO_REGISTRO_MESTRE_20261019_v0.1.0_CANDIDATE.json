@@ -4,7 +4,7 @@
     "status": "PUBLISHED_CANDIDATE_READBACK_NOT_KERNEL_ADMISSION",
     "agents_registry": {
       "path": "docs/pmo/recovery/20261019/CE_PMO_AGENT_REGISTRY_20261019_CANDIDATE.json",
-      "git_blob_sha": "6156c083b85c285f9acb438ea385344e71201a07",
+      "git_blob_sha": "cb85f66f31f25085d204b2c6737c9eb08ce1ef5c",
       "agents_count": 23,
       "deployments_verified": 0
     },
@@ -196,7 +196,7 @@
     }
   ],
   "execution_queue_control": {
-    "queue_revision": "0.1.0-CANDIDATE",
+    "queue_revision": "0.2.0-CANDIDATE",
     "base_remote_head_verified": "df98c4e2180ec3b7b5dd4ccbd80a1780f363c8bd",
     "state": "DOCUMENTARY_READY_OPERATIONAL_HOLD",
     "source_ids": [
@@ -218,7 +218,16 @@
       "P4-A",
       "P5-01"
     ],
-    "independent_validation_state": "PENDING_POSTPUBLICATION_READBACK_AND_P5_REVIEW"
+    "independent_validation_state": "PENDING_POSTPUBLICATION_READBACK_AND_P5_REVIEW",
+    "source_queue_git_blob_sha": "336128022b1afd6481391138f6ce796cbffb8cf3",
+    "sequence_policy_status": "NEW_IMMEDIATE_FIND_LANE_CANDIDATE_PENDING_POLICY_VALIDATOR; PREVIOUS_TAIL_POLICY_NOT_SUPERSEDED_IN_ACTIVE_GOVERNANCE",
+    "documentary_pointer_correction": {
+      "evidence_path": "CE_PMO_REFERENCE_SYNC_VALIDATION_20261019_CANDIDATE.json",
+      "evidence_blob_sha": "01fd3d7cc636436efde9b6c22f06b5f1764ac521",
+      "commit_sha": "ef1ab2544557d6a20701979453f87a1e21b37679",
+      "test_result": "10_OF_10_PASS_PREFLIGHT",
+      "status": "DOCUMENTARY_ONLY_NO_RELEASE"
+    }
   },
   "guardian_chain_health": {
     "local_preflight_state": "80_COMBINED_UNIT_TESTS_PASS_CANDIDATE; P2_P5_CROSS_WAVE_ANTI_REWORK_INTEGRATED; ZIP_CRC_REPLAY_13_1956",
