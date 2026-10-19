@@ -1,1 +1,47 @@
-IiIiUmVhZC1vbmx5IG1ldGFkYXRhIHJlY29uY2lsaWF0aW9uIHRlc3RzLCBub3QgS2VybmVsIG9yIFdPIGFkbWlzc2lvbi4iIiIKaW1wb3J0IGpzb24KaW1wb3J0IHVuaXR0ZXN0CmZyb20gY29sbGVjdGlvbnMgaW1wb3J0IENvdW50ZXIKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCgpCQVNFID0gUGF0aChfX2ZpbGVfXykucmVzb2x2ZSgpLnBhcmVudApGSUxFID0gQkFTRSAvICJDRV9QTU9fQ1JPU1NXQUxLX0NFMDRfMzhfUFIyX1dPMTY0XzIwMjYxMDE5X0NBTkRJREFURS5qc29uIgoKCmNsYXNzIENyb3Nzd2Fsa1Rlc3RzKHVuaXR0ZXN0LlRlc3RDYXNlKToKICAgIEBjbGFzc21ldGhvZAogICAgZGVmIHNldFVwQ2xhc3MoY2xzKToKICAgICAgICBjbHMuZGF0YSA9IGpzb24ubG9hZHMoRklMRS5yZWFkX3RleHQoZW5jb2Rpbmc9InV0Zi04IikpCgogICAgZGVmIHRlc3RfY291bnRzKHNlbGYpOgogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwoMzgsIGxlbihzZWxmLmRhdGFbImNlMDRfdGFza3MiXSkpCiAgICAgICAgc2VsZi5hc3NlcnRFcXVhbCgxNjQsIGxlbihzZWxmLmRhdGFbInByMl93b3JrX29yZGVycyJdKSkKICAgICAgICBzZWxmLmFzc2VydEVxdWFsKDAsIGxlbihzZWxmLmRhdGFbImVycm9ycyJdKSkKCiAgICBkZWYgdGVzdF91bmlxdWVfaWRzKHNlbGYpOgogICAgICAgIGZvciBrZXksIGZpZWxkIGluICgoImNlMDRfdGFza3MiLCAiaWQiKSwgKCJwcjJfd29ya19vcmRlcnMiLCAiaWQiKSwgKCJwcjJfd29ya19vcmRlcnMiLCAiYmxvYl9zaGEiKSk6CiAgICAgICAgICAgIHZhbHVlcyA9IFtyW2ZpZWxkXSBmb3IgciBpbiBzZWxmLmRhdGFba2V5XV0KICAgICAgICAgICAgc2VsZi5hc3NlcnRFcXVhbChsZW4odmFsdWVzKSwgbGVuKHNldCh2YWx1ZXMpKSkKCiAgICBkZWYgdGVzdF8zOF9jZTA0X25vdF9jbG9zZWQoc2VsZik6CiAgICAgICAgc2VsZi5hc3NlcnRFcXVhbCgzOCwgc3VtKHJvd1siY2xvc2VkX2F0Il0gaXMgTm9uZSBhbmQgcm93WyJjb21wbGV0aW9uX2V2aWRlbmNlX2NvdW50Il0gPT0gMCBmb3Igcm93IGluIHNlbGYuZGF0YVsiY2UwNF90YXNrcyJdKSkKCiAgICBkZWYgdGVzdF93b19hdXRob3JpdHlfbm90X2ltcGxpZWQoc2VsZik6CiAgICAgICAgc3RhdGVzID0gQ291bnRlcihyb3dbInN0YXRlIl0gZm9yIHJvdyBpbiBzZWxmLmRhdGFbInByMl93b3JrX29yZGVycyJdKQogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwoMTYxLCBzdGF0ZXNbIlBSRUFVVEhPUklaRUQiXSkKICAgICAgICBzZWxmLmFzc2VydEVxdWFsKDMsIHN0YXRlc1siVU5TUEVDSUZJRUQiXSkKICAgICAgICBzZWxmLmFzc2VydE5vdEluKCJLRVJORUxfQURNSVRURUQiLCBzdGF0ZXMpCgogICAgZGVmIHRlc3Rfbm9fY29uZmxhdGVkX2lkX25hbWVzcGFjZShzZWxmKToKICAgICAgICBpZHMgPSB7cm93WyJpZCJdIGZvciByb3cgaW4gc2VsZi5kYXRhWyJjZTA0X3Rhc2tzIl19CiAgICAgICAgc2VsZi5hc3NlcnRFcXVhbCgwLCBzdW0ocm93WyJ0YXNrX2lkIl0gaW4gaWRzIGZvciByb3cgaW4gc2VsZi5kYXRhWyJwcjJfd29ya19vcmRlcnMiXSkpCgogICAgZGVmIHRlc3RfZGF0ZV9ncm91cHNfbm90X2NsYWltZWRfYXNfMTAyX2hpc3RvcmljYWwoc2VsZik6CiAgICAgICAgbmFtZXMgPSBbcm93WyJmaWxlIl0gZm9yIHJvdyBpbiBzZWxmLmRhdGFbInByMl93b3JrX29yZGVycyJdXQogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwoMTAyLCBzdW0oeC5zdGFydHN3aXRoKCJXTy0yMDI2XzEwXzE1XyIpIGZvciB4IGluIG5hbWVzKSkKICAgICAgICBzZWxmLmFzc2VydEVxdWFsKDU5LCBzdW0oeC5zdGFydHN3aXRoKCJXTy0yMDI2XzEwXzE2XyIpIGZvciB4IGluIG5hbWVzKSkKICAgICAgICBzZWxmLmFzc2VydEVxdWFsKDMsIHN1bShub3QgeC5zdGFydHN3aXRoKCJXTy0yMDI2XyIpIGZvciB4IGluIG5hbWVzKSkKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgdW5pdHRlc3QubWFpbigpCg==
+"""Read-only metadata reconciliation tests, not Kernel or WO admission."""
+import json
+import unittest
+from collections import Counter
+from pathlib import Path
+
+BASE = Path(__file__).resolve().parent
+FILE = BASE / "CE_PMO_CROSSWALK_CE04_38_PR2_WO164_20261019_CANDIDATE.json"
+
+
+class CrosswalkTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.data = json.loads(FILE.read_text(encoding="utf-8"))
+
+    def test_counts(self):
+        self.assertEqual(38, len(self.data["ce04_tasks"]))
+        self.assertEqual(164, len(self.data["pr2_work_orders"]))
+        self.assertEqual(0, len(self.data["errors"]))
+
+    def test_unique_ids(self):
+        for key, field in (("ce04_tasks", "id"), ("pr2_work_orders", "id"), ("pr2_work_orders", "blob_sha")):
+            values = [r[field] for r in self.data[key]]
+            self.assertEqual(len(values), len(set(values)))
+
+    def test_38_ce04_not_closed(self):
+        self.assertEqual(38, sum(row["closed_at"] is None and row["completion_evidence_count"] == 0 for row in self.data["ce04_tasks"]))
+
+    def test_wo_authority_not_implied(self):
+        states = Counter(row["state"] for row in self.data["pr2_work_orders"])
+        self.assertEqual(161, states["PREAUTHORIZED"])
+        self.assertEqual(3, states["UNSPECIFIED"])
+        self.assertNotIn("KERNEL_ADMITTED", states)
+
+    def test_no_conflated_id_namespace(self):
+        ids = {row["id"] for row in self.data["ce04_tasks"]}
+        self.assertEqual(0, sum(row["task_id"] in ids for row in self.data["pr2_work_orders"]))
+
+    def test_date_groups_not_claimed_as_102_historical(self):
+        names = [row["file"] for row in self.data["pr2_work_orders"]]
+        self.assertEqual(102, sum(x.startswith("WO-2026_10_15_") for x in names))
+        self.assertEqual(59, sum(x.startswith("WO-2026_10_16_") for x in names))
+        self.assertEqual(3, sum(not x.startswith("WO-2026_") for x in names))
+
+
+if __name__ == "__main__":
+    unittest.main()
