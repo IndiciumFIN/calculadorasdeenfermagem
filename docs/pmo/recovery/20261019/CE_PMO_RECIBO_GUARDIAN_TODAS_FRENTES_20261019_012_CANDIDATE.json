@@ -1,0 +1,36 @@
+{
+  "kind": "APPEND_ONLY_CROSS_WAVE_CONTROL_RECEIPT",
+  "receipt_id": "CE-PMO-CROSS-WAVE-012-20261019",
+  "repository": "IndiciumFIN/calculadorasdeenfermagem",
+  "branch": "pmo/recovery-controlled-20261019",
+  "head_before_receipt": "183e1a58283d11d83d294256e457b94605a8e65c",
+  "scope": "P1-P5 documentary PMO, queue, anti-rework, inventories and independent static validation; not runtime release",
+  "change_set": [
+    {"file": "CE_PMO_FILA_EXECUCAO_P1_P5_20261019_CANDIDATE.json", "commit": "a08dfd4c87864660f4d14fcac7bef1ceadf742bf"},
+    {"file": "ce_pmo_inventory_guard_v01.py", "commit": "4be98c0ddbaf272364ee30d24db9a03e1e033246"},
+    {"file": "test_ce_pmo_inventory_guard_v01.py", "commit": "5e3194a8255826bb1a81e7ee1c8f6af206fa8ab5"},
+    {"file": "CE_PMO_VALIDADOR_INDEPENDENTE_20261019.py", "commit": "56e954cc9eb790770e385ab340e6505c8a5c0edb"},
+    {"file": "CE_PMO_REGISTRO_MESTRE_20261019_v0.1.0_CANDIDATE.json", "commit": "183e1a58283d11d83d294256e457b94605a8e65c"}
+  ],
+  "exact_readback": "5/5 local Git blob SHA equals pinned GitHub tree blob SHA",
+  "validation": {
+    "pmo_queue_dispatch_historical_ledger": "PASS_PREFLIGHT_ONLY; no findings",
+    "combined_unit_tests": "59/59 PASS",
+    "independent_static_controls": "22 PASS; 4 HOLD; zero BLOCK",
+    "per_wave_anti_rework": "P2, P3, P4 and P5 each ALLOW_REUSE_ANALYSIS_ONLY; no Kernel authority",
+    "project_percent": null,
+    "pmo_gates": "0/8 PASS; all eight HOLD",
+    "m24": "HOLD",
+    "server_enforcement": "NOT_PROVEN_RULESET_DISABLED",
+    "project_release": "HOLD_NOT_CERTIFIED"
+  },
+  "find": {
+    "id": "FIND-P3-WO-QUEUE-STALE-76-20261019",
+    "symptom": "P3-A queue action and acceptance continued to refer to the first paginated 76 WO subset after master census corrected to 164",
+    "correction": "Changed both queue references to 164 and prohibited namespace equivalence; independent master-queue-dispatch cross-wave check now fails stale counts",
+    "preventive_control": "QUEUE_STALE_WO_COUNT, PR2_WO_POPULATION_NOT_164_HOLD, DISPATCH_SOURCE_MISMATCH and per-wave anti-rework checks; negative tests",
+    "interpretation": "164 pinned PR2 WO JSONs are not 164 Kernel admissions; 102 historical WOs remain separate population"
+  },
+  "remaining_holds": ["GitHub ruleset required-check enforcement disabled", "Kernel authoritative admission not proven", "P1 path/version custody incomplete", "rights and normative/semantic content review", "independent release and user final approval"],
+  "main_mutated": false
+}
