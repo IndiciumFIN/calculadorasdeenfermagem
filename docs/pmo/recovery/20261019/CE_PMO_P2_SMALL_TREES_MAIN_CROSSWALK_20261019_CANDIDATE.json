@@ -1,0 +1,323 @@
+{
+  "schema_version": "0.1.0-CANDIDATE",
+  "scope": "P2_ALL_SMALL_TREES_VS_MAIN_PINNED",
+  "source_manifest_sha": "98995b9391d4b51b8dad75a68ebac9d6283ba660",
+  "status": "READ_ONLY_BOUNDED_PASS_NOT_TASK_CLOSE",
+  "verified_branches": 11,
+  "manifest_branches": 15,
+  "remaining": [
+    "cursor/drive-sa-key-refactor",
+    "cursor/fix-governance-gaps-ec54",
+    "migration/candidate-f08-20261017",
+    "migration/full-directory-20261017"
+  ],
+  "all_complete": true,
+  "records": [
+    {
+      "branch": "audit/ce04-reconciliation-tasks-20261017",
+      "pinned_commit": "2a1250d2d5c8c159be2ede462306822c0cb70943",
+      "observed_tree_sha": "2a1250d2d5c8c159be2ede462306822c0cb70943",
+      "expected_blob_count": 238,
+      "observed_blob_count": 238,
+      "truncated": false,
+      "match_main": 176,
+      "diff_main": 0,
+      "main_only": 0,
+      "branch_only": 62
+    },
+    {
+      "branch": "cursor/wf-gdrive-sakey",
+      "pinned_commit": "4e3d4979e3da82c9fc7ff71beaf87fba73aa8702",
+      "observed_tree_sha": "4e3d4979e3da82c9fc7ff71beaf87fba73aa8702",
+      "expected_blob_count": 78,
+      "observed_blob_count": 78,
+      "truncated": false,
+      "match_main": 63,
+      "diff_main": 6,
+      "main_only": 107,
+      "branch_only": 9
+    },
+    {
+      "branch": "cursor/wf-v3",
+      "pinned_commit": "8056d08a35cfb7932933fa330d8c902e5a465710",
+      "observed_tree_sha": "8056d08a35cfb7932933fa330d8c902e5a465710",
+      "expected_blob_count": 69,
+      "observed_blob_count": 69,
+      "truncated": false,
+      "match_main": 63,
+      "diff_main": 6,
+      "main_only": 107,
+      "branch_only": 0
+    },
+    {
+      "branch": "fix/ce05-kernel-ci-security-20261017",
+      "pinned_commit": "e1c9ace498b66ac831849ad1df51ee14e11e3efc",
+      "observed_tree_sha": "e1c9ace498b66ac831849ad1df51ee14e11e3efc",
+      "expected_blob_count": 185,
+      "observed_blob_count": 185,
+      "truncated": false,
+      "match_main": 175,
+      "diff_main": 1,
+      "main_only": 0,
+      "branch_only": 9
+    },
+    {
+      "branch": "IndiciumFIN-patch-1",
+      "pinned_commit": "ccb21b7814211b80071dc0fd5f866aea7f285238",
+      "observed_tree_sha": "ccb21b7814211b80071dc0fd5f866aea7f285238",
+      "expected_blob_count": 177,
+      "observed_blob_count": 177,
+      "truncated": false,
+      "match_main": 176,
+      "diff_main": 0,
+      "main_only": 0,
+      "branch_only": 1
+    },
+    {
+      "branch": "integration/canonical-main-20261017",
+      "pinned_commit": "c704c3cf9241cde7697acb860e598bd01bd58cf5",
+      "observed_tree_sha": "c704c3cf9241cde7697acb860e598bd01bd58cf5",
+      "expected_blob_count": 134,
+      "observed_blob_count": 134,
+      "truncated": false,
+      "match_main": 116,
+      "diff_main": 18,
+      "main_only": 42,
+      "branch_only": 0
+    },
+    {
+      "branch": "main",
+      "pinned_commit": "e0f62491b104f4a97c6025a6393cabc2e7ada30e",
+      "observed_tree_sha": "e0f62491b104f4a97c6025a6393cabc2e7ada30e",
+      "expected_blob_count": 176,
+      "observed_blob_count": 176,
+      "truncated": false,
+      "match_main": 176,
+      "diff_main": 0,
+      "main_only": 0,
+      "branch_only": 0
+    },
+    {
+      "branch": "migration/ce01-historical-evidence-b01-20261017",
+      "pinned_commit": "4206865dc5f07f3ef4b36f04c2572b7224f713c1",
+      "observed_tree_sha": "4206865dc5f07f3ef4b36f04c2572b7224f713c1",
+      "expected_blob_count": 182,
+      "observed_blob_count": 182,
+      "truncated": false,
+      "match_main": 176,
+      "diff_main": 0,
+      "main_only": 0,
+      "branch_only": 6
+    },
+    {
+      "branch": "migration/pilot-policies-20261017",
+      "pinned_commit": "2fc555f854c64b9d44f778805fbfca7675bd3cce",
+      "observed_tree_sha": "2fc555f854c64b9d44f778805fbfca7675bd3cce",
+      "expected_blob_count": 185,
+      "observed_blob_count": 185,
+      "truncated": false,
+      "match_main": 176,
+      "diff_main": 0,
+      "main_only": 0,
+      "branch_only": 9
+    },
+    {
+      "branch": "pmo/recovery-controlled-20261019",
+      "pinned_commit": "142987e59bbce7c7278fac1c26d71f8dbc1172c7",
+      "observed_tree_sha": "142987e59bbce7c7278fac1c26d71f8dbc1172c7",
+      "expected_blob_count": 199,
+      "observed_blob_count": 199,
+      "truncated": false,
+      "match_main": 176,
+      "diff_main": 0,
+      "main_only": 0,
+      "branch_only": 23
+    },
+    {
+      "branch": "staging/wo-kernel-normativos-cli-20261016",
+      "pinned_commit": "c54d416b7f4c8a465798ccbebad9973799dd07ab",
+      "observed_tree_sha": "c54d416b7f4c8a465798ccbebad9973799dd07ab",
+      "expected_blob_count": 79,
+      "observed_blob_count": 79,
+      "truncated": false,
+      "match_main": 63,
+      "diff_main": 6,
+      "main_only": 107,
+      "branch_only": 10
+    }
+  ],
+  "integration_missing_vs_main": [
+    {
+      "path": ".github/workflows/drive-recursive-collect.yml",
+      "main_blob_sha": "d8f9df54364072f5962b123b2d79be46dfae244b"
+    },
+    {
+      "path": "01_ACAO_branch_protection.md",
+      "main_blob_sha": "5d606596703cac7d9524c5c7fcee92a8839aa79a"
+    },
+    {
+      "path": "02_ACAO_clone_pat.md",
+      "main_blob_sha": "a98a9fab94d9b1d70f01f276e769674ee6a8a7ec"
+    },
+    {
+      "path": "03_ACAO_human_approver.md",
+      "main_blob_sha": "3024fdd86433fb8468a3aafc066a5e045fbf9566"
+    },
+    {
+      "path": "04_ACAO_workflow_gui.md",
+      "main_blob_sha": "5ccb5d8526b8aef7cf5d5069ade3acc33fb39308"
+    },
+    {
+      "path": "config/drive_inventory_roots_20261016.json",
+      "main_blob_sha": "ce1e2eb6720aa84b1480f052409ed1088d42f214"
+    },
+    {
+      "path": "contracts/fonts/DIRECTORY_OBSOLETO.json",
+      "main_blob_sha": "e9d6f77c80a9fcc0e45f3e444729bc5e548be870"
+    },
+    {
+      "path": "contracts/fonts/anvisa_dev.json",
+      "main_blob_sha": "7f25153f5dbdff7695ac452ed98d88677b9cf072"
+    },
+    {
+      "path": "contracts/fonts/anvisa_dou.json",
+      "main_blob_sha": "63fc18b5df41186e341d4ce3341d4564d1a18b80"
+    },
+    {
+      "path": "contracts/fonts/anvisa_med.json",
+      "main_blob_sha": "1c12b9aab44f39077b58e1816bf55ab2f63f6e5c"
+    },
+    {
+      "path": "contracts/fonts/atlas.json",
+      "main_blob_sha": "f344d11b0a609b9bb66ec59b362007a7e09ee822"
+    },
+    {
+      "path": "contracts/fonts/catmat.json",
+      "main_blob_sha": "159da86b6abee571bddbb880c511678aca3bca99"
+    },
+    {
+      "path": "contracts/fonts/cdsi.json",
+      "main_blob_sha": "f0ee390d0bb412ae7de2c04c4b9f4dea26737d0e"
+    },
+    {
+      "path": "contracts/fonts/cid10.json",
+      "main_blob_sha": "1f0d37a85ffb51b95f4bf8b051932918a184e8cf"
+    },
+    {
+      "path": "contracts/fonts/cid11.json",
+      "main_blob_sha": "77d86833843e0506e77802c93b3db0e410f1704e"
+    },
+    {
+      "path": "contracts/fonts/cofen_dou.json",
+      "main_blob_sha": "7b9d4b05177d6d79d235d938b718fb8737df3c9b"
+    },
+    {
+      "path": "contracts/fonts/esavi.json",
+      "main_blob_sha": "0421edce2e68bef91786fc9f051887164b8c56e4"
+    },
+    {
+      "path": "contracts/fonts/fhir_vitais.json",
+      "main_blob_sha": "fafb30274250a87d261e8c6da30b031d93ea550d"
+    },
+    {
+      "path": "contracts/fonts/lei_federal.json",
+      "main_blob_sha": "197ef0e72c8beb2916af0d5b8cbb80a3af2557a2"
+    },
+    {
+      "path": "contracts/fonts/medlineplus.json",
+      "main_blob_sha": "694387ce80d6c5d1b2fa31d4c539659b5bfb4266"
+    },
+    {
+      "path": "contracts/fonts/mesh.json",
+      "main_blob_sha": "43d27c401ba2ba926052d3b0b3ee95e99dff8cae"
+    },
+    {
+      "path": "contracts/fonts/ms_portarias.json",
+      "main_blob_sha": "fc16151163ad3431c7c778ae3e9b82d45350fe65"
+    },
+    {
+      "path": "contracts/fonts/pni.json",
+      "main_blob_sha": "42fd22e406919eba7cf66f90d6a7c44fc349e30a"
+    },
+    {
+      "path": "contracts/fonts/sies.json",
+      "main_blob_sha": "ddbb0a01eb8b85ca459487b5118561d7e48b3864"
+    },
+    {
+      "path": "contracts/fonts/sinan.json",
+      "main_blob_sha": "309d1ef6e8e736b85f14bd2010a9e28cceabd99c"
+    },
+    {
+      "path": "contracts/fonts/taco.json",
+      "main_blob_sha": "eef9d0f4603f52c0a28c999429e8c5b0c1b4558d"
+    },
+    {
+      "path": "contracts/fonts/vacinas_cdc.json",
+      "main_blob_sha": "e719270991e8a3a09559623477fcb552be2ce606"
+    },
+    {
+      "path": "data/legado/autorizacao_WO-0087.json",
+      "main_blob_sha": "f751064b8bf8e0a6b4b8af2757d38a7c7a9e8964"
+    },
+    {
+      "path": "data/legado/autorizacao_WO-0088.json",
+      "main_blob_sha": "69c9eadc8b053e0174a1fd267e18d5896b13910d"
+    },
+    {
+      "path": "data/legado/autorizacao_WO-0090.json",
+      "main_blob_sha": "2aeeff4f8d572e97f916546d8dcf715ea305b82c"
+    },
+    {
+      "path": "data/legado/autorizacao_WO-0091.json",
+      "main_blob_sha": "007189cce35c6d8a37ea098f29809a1cb6df7bdf"
+    },
+    {
+      "path": "docs/GATES.md",
+      "main_blob_sha": "1e894d45a3ed4c098f47665e348474415ea34aac"
+    },
+    {
+      "path": "docs/PLANO_EXECUCAO_WO_KERNEL_DETERMINISTICO.md",
+      "main_blob_sha": "22a9f8e4c8dddd94621de17421f11dac2be586ab"
+    },
+    {
+      "path": "evidence/01_ACAO_branch_protection.md",
+      "main_blob_sha": "5d606596703cac7d9524c5c7fcee92a8839aa79a"
+    },
+    {
+      "path": "evidence/02_ACAO_clone_pat.md",
+      "main_blob_sha": "a98a9fab94d9b1d70f01f276e769674ee6a8a7ec"
+    },
+    {
+      "path": "evidence/03_ACAO_human_approver.md",
+      "main_blob_sha": "3024fdd86433fb8468a3aafc066a5e045fbf9566"
+    },
+    {
+      "path": "evidence/04_ACAO_workflow_gui.md",
+      "main_blob_sha": "5ccb5d8526b8aef7cf5d5069ade3acc33fb39308"
+    },
+    {
+      "path": "evidence/CE-WO-20261017-F00-07/raci.json",
+      "main_blob_sha": "75cbf451c4031cf3cab0d77f899da0bd554fd030"
+    },
+    {
+      "path": "evidence/CE-WO-20261017-F06-08/human_approver_designation.json",
+      "main_blob_sha": "23851b57de6e4c9b3a483a882a81fb18bc2dbcf4"
+    },
+    {
+      "path": "packages/cli/drive_recursive_inventory.py",
+      "main_blob_sha": "41fa64d16ac98d15a06ec9c1d412563df787d8b7"
+    },
+    {
+      "path": "test.txt",
+      "main_blob_sha": "b6fc4c620b67d95f953a5c1c1230aaab5db5a1b0"
+    },
+    {
+      "path": "tests/test_drive_recursive_inventory.py",
+      "main_blob_sha": "1ea659b46dd3e9228d55ff1a2958a721f3ed096c"
+    }
+  ],
+  "warning": "42 missing-in-branch by snapshot tree set difference != 22 proposed removals in compare API: requires commit ancestry and source-change classification; never deduce actual deletions from tree absence alone",
+  "release": "HOLD",
+  "main_mutated": false,
+  "queue_mutated": false
+}
