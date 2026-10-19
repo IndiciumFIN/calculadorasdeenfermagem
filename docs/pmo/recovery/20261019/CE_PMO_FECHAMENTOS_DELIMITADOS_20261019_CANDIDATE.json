@@ -1,0 +1,13 @@
+{
+  "schema_version": "0.1.0-CANDIDATE",
+  "kind": "EVIDENCE_BOUNDED_CLOSURE_CLASSIFICATION",
+  "global_release": "HOLD_NOT_HOMOLOGATED",
+  "rule": "Technical subscopes may close with exact bounded evidence; parent gates and unrelated rights/clinical/Kernel remain independent; late finds enqueue at tail before final homologation",
+  "items": [
+    {"id": "P1-B-ZIP-CRC", "parent": "P1-B", "status": "CLOSED_TECHNICAL_BOUNDED", "scope": "13 local ZIP containers, 1956 member CRC and bytes/path-safety replay", "evidence": ["CE_PMO_ZIP_INTEGRIDADE_P1B_20261019_CANDIDATE.json", "CE_PMO_MATRIZ_LACUNAS_INDEPENDENTES_20261019_CANDIDATE.json"], "not_closed": ["full ZIP nesting", "original Drive completeness", "P1-B classification", "clinical/rights"]},
+    {"id": "P2-00-GIT-15-TREES", "parent": "P2-00", "status": "CANDIDATE_FOR_CLOSURE", "scope": "15 immutable Git branch trees non-truncated, 58710 blob occurrences", "evidence": ["CE_PMO_GIT_BRANCH_TREES_P1CB_20261019_CANDIDATE.json"], "not_closed": ["current live heads and all PR base/head ancestry", "P2-01 conflict dispositions"]},
+    {"id": "P3-A-POPULATION-CENSUS", "parent": "P3-A", "status": "CANDIDATE_FOR_CLOSURE", "scope": "38 CE04 task records and 164 PR2 WO JSON independently counted", "evidence": ["CE_PMO_CROSSWALK_CE04_38_PR2_WO164_20261019_CANDIDATE.json"], "not_closed": ["102 historic WO identity equivalence", "admission Kernel"]},
+    {"id": "P4-A-SOURCE-CENSUS", "parent": "P4-A", "status": "CANDIDATE_FOR_CLOSURE", "scope": "61 source objects and 49 distinct URLs indexed, without grant inference", "evidence": ["CE_PMO_P4_CROSSWALK_FONTES_61_ARQUIVOS_65_20261019_CANDIDATE.json"], "not_closed": ["source-by-source rights", "clinical review", "65-to-61 definitive semantic equivalence"]},
+    {"id": "M24-HISTORICAL-LABEL", "parent": "M24", "status": "CLOSED_ADMINISTRATIVE", "scope": "Unreconstructible historical marker only", "evidence": ["CE_PMO_DISPOSICAO_ADMINISTRATIVA_M24_20261019_CANDIDATE.json"], "not_closed": ["five unknown source identities", "rights", "clinical", "Kernel"]}
+  ]
+}
