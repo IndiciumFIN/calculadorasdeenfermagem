@@ -1,0 +1,29 @@
+{
+  "bytes_total": 40897025,
+  "caveats": [
+    "ZIP listings are not proof of decompression, semantic validity or canonical admission",
+    "Local hashes are not proof of GitHub, Library or Supabase persistence",
+    "Nested dependency trees are included and require separate classification",
+    "Completeness beyond this workspace requires external manifests and independent readback"
+  ],
+  "exact_duplicate_hash_groups": 23,
+  "file_count": 768,
+  "files_in_duplicate_groups": 71,
+  "groups": {
+    "admin_project_review": {"bytes": 1037216, "files": 247},
+    "ce_lib_helpers_20261019": {"bytes": 103674, "files": 5},
+    "cko_val_001": {"bytes": 4410211, "files": 338},
+    "other_nested": {"bytes": 35134, "files": 3},
+    "user_upload": {"bytes": 16726929, "files": 22},
+    "workspace_root": {"bytes": 18583861, "files": 153}
+  },
+  "pmo_gate": "HOLD",
+  "privacy": "AGGREGATE_ONLY_NO_FILENAMES_OR_HASHES",
+  "schema_version": "0.2.0",
+  "scope": "all regular files recursively below workspace root; symlinks skipped; two report files excluded",
+  "symlink_count_skipped": 776,
+  "unique_file_sha256": 720,
+  "zip_count": 13,
+  "zip_invalid_or_unreadable": 0,
+  "zip_regular_entries_declared": 1956
+}
