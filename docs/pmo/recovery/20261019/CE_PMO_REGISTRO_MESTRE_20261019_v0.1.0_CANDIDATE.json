@@ -1,0 +1,73 @@
+{
+  "schema_version": "0.1.0",
+  "project_id": "CE-CALCULADORAS-ENFERMAGEM",
+  "repository": "IndiciumFIN/calculadorasdeenfermagem",
+  "cutoff_local": "2026-10-19",
+  "authoritative_location": "GITHUB_PENDING_KERNEL_ADMISSION_AND_READBACK",
+  "state": "CANDIDATE_NOT_CANONICAL",
+  "pmo_trusted": false,
+  "project_execution_allowed": false,
+  "pmo_preservation_exception": {
+    "authorized_by": "user_in_conversation_2026-10-19",
+    "scope": "DOCUMENTARY_PMO_RECOVERY_ONLY",
+    "kernel_admission_waived_for_this_scope": true,
+    "allowed_target_branch": "pmo/recovery-controlled-20261019",
+    "no_destructive_actions": true,
+    "requires_commit_and_readback_per_task": true,
+    "does_not_enable_project_execution": true
+  },
+  "scope_restrictions": ["NO_DRIVE_ACCESS", "SUPABASE_READ_ONLY", "NO_MERGE", "NO_REMOTE_MUTATIONS", "M24_HOLD", "NO_ATOMIZATION_UNTIL_PMO_TRUSTED"],
+  "source_register": [
+    {"source_id": "S-01", "kind": "LOCAL_REPORT", "ref": "CE_BRANCH_RECON_READONLY_20261019_CANDIDATE.md", "cutoff": "2026-10-19", "evidence_status": "LOCAL_READBACK_REPORT"},
+    {"source_id": "S-02", "kind": "GITHUB_READBACK", "ref": "IndiciumFIN/calculadorasdeenfermagem; branch listing; PR #2/#3/#4/#6", "cutoff": "2026-10-19", "evidence_status": "DIRECT_READBACK_PARTIAL"},
+    {"source_id": "S-03", "kind": "HISTORICAL_ARCHIVE", "ref": "upload/CE_MASTER_CONTINUITY_20261018(1).zip::evidence/CE04_TASK_REGISTER_READBACK.json", "cutoff": "2026-10-18", "evidence_status": "ARCHIVE_MEMBER_READ"},
+    {"source_id": "S-04", "kind": "LOCAL_REPORT", "ref": "CE_M43_CID11_CATEGORIAS_STREAMING_SEMANTIC_HOLDS_v0.1.0_CANDIDATE.md", "cutoff": "2026-10-19", "evidence_status": "LOCAL_TEST_REPORT"},
+    {"source_id": "S-05", "kind": "LOCAL_REPORT", "ref": "CE_M42_MEDICAMENTOS_ANVISA_STREAMING_FIND_FRAGMENTACAO_v0.1.0_CANDIDATE.md", "cutoff": "2026-10-19", "evidence_status": "LOCAL_TEST_REPORT"},
+    {"source_id": "S-06", "kind": "LOCAL_REPORT", "ref": "CE_M20_KERNEL_EXECUTORES_AUDIT_CANDIDATE.md", "cutoff": "2026-10-19", "evidence_status": "LOCAL_CODE_AUDIT"},
+    {"source_id": "S-07", "kind": "LOCAL_REPORT", "ref": "CE_M21_CONTENCAO_KERNEL_E_TRILHO_CONTEUDO_CANDIDATE.md", "cutoff": "2026-10-19", "evidence_status": "LOCAL_TEST_REPORT"},
+    {"source_id": "S-08", "kind": "LOCAL_REPORT", "ref": "CE_M12_RECUPERACAO_AQUISICAO_FILA_WO_KERNEL_v0.1.0_CANDIDATE.md", "cutoff": "2026-10-19", "evidence_status": "LOCAL_TEST_REPORT"},
+    {"source_id": "S-09", "kind": "HISTORICAL_AUDIT", "ref": "CE06 parecer 21 controles; handoff histórico, requer readback", "cutoff": "2026-10-17", "evidence_status": "HISTORICAL_NOT_REVALIDATED"},
+    {"source_id": "S-10", "kind": "HISTORICAL_CONTEXT", "ref": "Auditoria anterior 102 WOs: 98 PASS, 2 BLOCKED, 2 PREAUTHORIZED; identidade documental pendente", "cutoff": "2026-10-16", "evidence_status": "CONVERSATION_ONLY"},
+    {"source_id": "S-11", "kind": "GITHUB_READBACK", "ref": "PR #2 contracts/work_orders (76 arquivos); contracts/work_order.schema.json", "cutoff": "2026-10-19", "evidence_status": "DIRECT_READBACK_STRUCTURE"},
+    {"source_id": "S-12", "kind": "LOCAL_REPORT", "ref": "CE_M11_AUDITORIA_REAL_PROCESSO_DOCUMENTACAO_REFERENCIAIS_v0.1.0_CANDIDATE.md", "cutoff": "2026-10-19", "evidence_status": "LOCAL_DOCUMENTARY_AUDIT"}
+  ],
+  "populations": [
+    {"population_id": "POP-BRANCH", "unit": "BRANCH", "count": 14, "processed": null, "approved": null, "cutoff": "2026-10-19", "source_ids": ["S-02"], "status": "INVENTORIED_NOT_RECONCILED"},
+    {"population_id": "POP-OPEN-PR", "unit": "PULL_REQUEST", "count": 4, "processed": 4, "approved": 0, "cutoff": "2026-10-19", "source_ids": ["S-02"], "status": "PATHS_REVIEWED_NO_MERGE"},
+    {"population_id": "POP-CE04-FILES", "unit": "FILE", "count": 65, "processed": 53, "approved": 0, "cutoff": "2026-10-19", "source_ids": ["S-04"], "status": "STRUCTURAL_ONLY"},
+    {"population_id": "POP-CE04-TASKS", "unit": "TASK", "count": 38, "processed": null, "approved": 0, "cutoff": "2026-10-18", "source_ids": ["S-03"], "status": "ZERO_CLOSED_KERNEL_NOT_VERIFIED"},
+    {"population_id": "POP-PR2-WO", "unit": "HISTORICAL_WO", "count": 76, "processed": 76, "approved": null, "cutoff": "2026-10-19", "source_ids": ["S-11"], "status": "CONTRACT_ROUTING_UNRESOLVED"},
+    {"population_id": "POP-HISTORICAL-WO", "unit": "HISTORICAL_WO_DIFFERENT_SCOPE", "count": 102, "processed": null, "approved": null, "cutoff": "2026-10-16", "source_ids": ["S-10"], "status": "CONTEXT_ONLY_SCOPE_UNRECONCILED"},
+    {"population_id": "POP-CE02-NORM", "unit": "DOCUMENTARY_METADATA_RECORD", "count": 1020, "processed": 1020, "approved": 0, "cutoff": "2026-10-18", "source_ids": ["S-03"], "status": "STRUCTURAL_METADATA_ONLY"},
+    {"population_id": "POP-M24-HOLD", "unit": "FILE", "count": 5, "processed": 0, "approved": 0, "cutoff": "2026-10-19", "source_ids": ["S-04"], "status": "EXPLICIT_HOLD_NOT_COUNTED"},
+    {"population_id": "POP-CE04-LARGE-OTHER", "unit": "FILE", "count": 7, "processed": 0, "approved": 0, "cutoff": "2026-10-19", "source_ids": ["S-04"], "status": "PENDING"}
+  ],
+  "workstreams": [
+    {"id": "F0", "name": "Segurança e baseline", "status": "HOLD", "source_ids": ["S-01", "S-02"], "blockers": ["main protection not freshly verified", "Kernel admission absent"]},
+    {"id": "F1", "name": "Universo integral migrado", "status": "PARTIAL", "source_ids": ["S-01", "S-03"], "blockers": ["trees not fully classified against each other"]},
+    {"id": "F2", "name": "Branches e conflitos", "status": "HOLD", "source_ids": ["S-01", "S-02"], "blockers": ["22 historical proposed deletions require case decisions", "PR overlapping workflows/roots"]},
+    {"id": "F3", "name": "Conteúdo e atomização", "status": "STOP_WORK", "source_ids": ["S-04", "S-05"], "blockers": ["7 other large files", "M24 five files", "semantic and rights reviews"]},
+    {"id": "F4", "name": "Normativos e conformidade", "status": "HOLD", "source_ids": ["S-03", "S-12"], "blockers": ["clause applicability and independent semantic audit"]},
+    {"id": "F5", "name": "Aquisição e direitos", "status": "HOLD", "source_ids": ["S-08"], "blockers": ["rights, official source versions and Kernel"]},
+    {"id": "F6", "name": "Ingestores e extratores", "status": "STOP_WORK", "source_ids": ["S-04", "S-05"], "blockers": ["streaming recurrence and source/claim qualification"]},
+    {"id": "F7", "name": "Kernel, WO e agentes", "status": "HOLD", "source_ids": ["S-06", "S-07", "S-11"], "blockers": ["agents stubs", "runtime RBAC/policies", "WO contract routing"]},
+    {"id": "F8", "name": "Supabase e linhagem", "status": "HOLD", "source_ids": ["S-03"], "blockers": ["historical 303 outbox and 61 edges not revalidated"]},
+    {"id": "F9", "name": "Site e calculadoras", "status": "HOLD", "source_ids": ["S-03"], "blockers": ["E2E and security rollout evidence missing"]},
+    {"id": "F10", "name": "Auditoria CE06 independente", "status": "HOLD", "source_ids": ["S-09"], "blockers": ["six historical FAIL and twelve HOLD_HUMAN"]},
+    {"id": "F11", "name": "Promoção e encerramento", "status": "HOLD", "source_ids": ["S-01", "S-09"], "blockers": ["technical gates and final user signoff"]}
+  ],
+  "find_recurrence": [
+    {"parent_find": "M42-F01", "current_event": "MESh_20261019_SECOND_PASS_PARTIAL_LINE", "relation": "RECURRENCE_UNDER_INVESTIGATION", "source_ids": ["S-05", "S-04"], "new_authoritative_find": false},
+    {"parent_find": "M20-FIND-001..008", "current_event": "M21_KERNEL_CONTAINMENT", "relation": "PREVIOUSLY_DIAGNOSED_WITH_LOCAL_CONTAINMENT", "source_ids": ["S-06", "S-07"], "new_authoritative_find": false}
+  ],
+  "gates": [
+    {"id": "G-PMO-01", "status": "HOLD", "reason": "source universe not closed"},
+    {"id": "G-PMO-02", "status": "HOLD", "reason": "historical IDs and aliases not reconciled"},
+    {"id": "G-PMO-03", "status": "HOLD", "reason": "all metrics not yet linked to verified original bytes"},
+    {"id": "G-PMO-04", "status": "HOLD", "reason": "find/task closure register not unified"},
+    {"id": "G-PMO-05", "status": "HOLD", "reason": "Kernel authority absent"},
+    {"id": "G-PMO-06", "status": "HOLD", "reason": "PMO adversarial regression suite pending"},
+    {"id": "G-PMO-07", "status": "HOLD", "reason": "no governed GitHub PR/readback"},
+    {"id": "G-PMO-08", "status": "HOLD", "reason": "independent approval pending"}
+  ]
+}
