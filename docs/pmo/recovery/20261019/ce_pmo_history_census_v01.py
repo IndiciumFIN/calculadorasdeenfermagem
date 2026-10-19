@@ -1,1 +1,79 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiJSZWFkLW9ubHkgQ0UgaGlzdG9yeSBldmlkZW5jZSBjZW5zdXM7IGhhc2ggbG9jYWwgcmVwb3J0IGJ5dGVzIGFuZCBhcmNoaXZlIG1lbWJlcnMuCgpUaGUgb3V0cHV0IGlzIGFuIGV2aWRlbmNlIGluZGV4LCBOT1QgYW4gZXhlY3V0aW9uIGNvbXBsZXRpb24gb3IgS2VybmVsIGxlZGdlci4KWklQIHBhdGhzIGFyZSByZXByZXNlbnRlZCBieSBzdGFibGUgaGFzaGVkIGxvY2F0b3JzOyBubyBleHRyYWN0aW9uIHRvIGRpc2suCiIiIgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQgaGFzaGxpYgppbXBvcnQganNvbgppbXBvcnQgcmUKaW1wb3J0IHN0YXQKaW1wb3J0IHppcGZpbGUKZnJvbSBjb2xsZWN0aW9ucyBpbXBvcnQgQ291bnRlcgpmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgsIFB1cmVQb3NpeFBhdGgKClJPT1QgPSBQYXRoKF9fZmlsZV9fKS5yZXNvbHZlKCkucGFyZW50CkFSQ0hJVkUgPSBST09UIC8gInVwbG9hZCIgLyAiQ0VfTUFTVEVSX0NPTlRJTlVJVFlfMjAyNjEwMTgoMSkuemlwIgpNSUxFU1RPTkUgPSByZS5jb21waWxlKHIiXkNFX00oXGR7Mn0pW0EtWl9dLipcLm1kJCIpClJPVU5EID0gcmUuY29tcGlsZShyIkNFX1IoXGQrKS8iKQpDRSA9IHJlLmNvbXBpbGUociIoPzpefFsvX10pQ0UoMFswLTZdKSg/OlsvX1wtLl18JCkiLCByZS5JR05PUkVDQVNFKQpDSFVOSyA9IDEwMjQgKiAxMDI0CgoKZGVmIHNoYV9zdHJlYW0ocmVhZGVyKSAtPiBzdHI6CiAgICBkaWdlc3QgPSBoYXNobGliLnNoYTI1NigpCiAgICB3aGlsZSBUcnVlOgogICAgICAgIHBhcnQgPSByZWFkZXIucmVhZChDSFVOSykKICAgICAgICBpZiBub3QgcGFydDoKICAgICAgICAgICAgYnJlYWsKICAgICAgICBkaWdlc3QudXBkYXRlKHBhcnQpCiAgICByZXR1cm4gZGlnZXN0LmhleGRpZ2VzdCgpCgoKZGVmIGJ1aWxkKCkgLT4gZGljdDoKICAgIHJvd3MgPSBbXQogICAgZm9yIHBhdGggaW4gc29ydGVkKFJPT1QuaXRlcmRpcigpLCBrZXk9bGFtYmRhIHg6IHgubmFtZSk6CiAgICAgICAgbWF0Y2ggPSBNSUxFU1RPTkUuZnVsbG1hdGNoKHBhdGgubmFtZSkKICAgICAgICBpZiBub3QgbWF0Y2ggb3IgcGF0aC5pc19zeW1saW5rKCkgb3Igbm90IHBhdGguaXNfZmlsZSgpOgogICAgICAgICAgICBjb250aW51ZQogICAgICAgIHdpdGggcGF0aC5vcGVuKCJyYiIpIGFzIHN0cmVhbToKICAgICAgICAgICAgZGlnZXN0ID0gc2hhX3N0cmVhbShzdHJlYW0pCiAgICAgICAgcm93cy5hcHBlbmQoeyJyZWNvcmRfaWQiOiAiTS0iICsgZGlnZXN0WzoyMF0sICJkb21haW4iOiAiTSIgKyBtYXRjaC5ncm91cCgxKSwgImV2aWRlbmNlX3R5cGUiOiAiTE9DQUxfTUlMRVNUT05FX1JFUE9SVCIsICJsb2NhdG9yIjogcGF0aC5uYW1lLCAic2hhMjU2IjogZGlnZXN0LCAiYnl0ZXMiOiBwYXRoLnN0YXQoKS5zdF9zaXplLCAiZXhlY3V0aW9uX3N0YXRlIjogIkFSVElGQUNUX09CU0VSVkVEX05PVF9FWEVDVVRJT05fQ0VSVElGSUVEIn0pCgogICAgYXJjaGl2ZWQgPSBbXQogICAgd2l0aCB6aXBmaWxlLlppcEZpbGUoQVJDSElWRSkgYXMgejoKICAgICAgICBmb3IgbWVtYmVyIGluIHouaW5mb2xpc3QoKToKICAgICAgICAgICAgaWYgbWVtYmVyLmlzX2RpcigpOgogICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgbmFtZSA9IG1lbWJlci5maWxlbmFtZQogICAgICAgICAgICBub3JtYWxpemVkID0gbmFtZS5yZXBsYWNlKCJcXCIsICIvIikKICAgICAgICAgICAgcGFydHMgPSBQdXJlUG9zaXhQYXRoKG5vcm1hbGl6ZWQpLnBhcnRzCiAgICAgICAgICAgIGlmIG5vcm1hbGl6ZWQuc3RhcnRzd2l0aCgiLyIpIG9yICIuLiIgaW4gcGFydHMgb3IgcmUubWF0Y2gociJeW0EtWmEtel06Iiwgbm9ybWFsaXplZCkgb3Igc3RhdC5TX0lTTE5LKG1lbWJlci5leHRlcm5hbF9hdHRyID4+IDE2KToKICAgICAgICAgICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoInVuc2FmZSBhcmNoaXZlIG1lbWJlcjsgY2Vuc3VzIGZhaWxzIGNsb3NlZCIpCiAgICAgICAgICAgIHdpdGggei5vcGVuKG1lbWJlciwgInIiKSBhcyBzdHJlYW06CiAgICAgICAgICAgICAgICBkaWdlc3QgPSBzaGFfc3RyZWFtKHN0cmVhbSkKICAgICAgICAgICAgc2NvcGUgPSBDRS5zZWFyY2gobm9ybWFsaXplZCkKICAgICAgICAgICAgcm91bmRfbWF0Y2ggPSBST1VORC5zZWFyY2gobm9ybWFsaXplZCkKICAgICAgICAgICAgbGFiZWwgPSAoIkNFIiArIHNjb3BlLmdyb3VwKDEpKSBpZiBzY29wZSBlbHNlICgoIlIiICsgcm91bmRfbWF0Y2guZ3JvdXAoMSkpIGlmIHJvdW5kX21hdGNoIGVsc2UgIkhJU1RPUklDQUxfVU5DTEFTU0lGSUVEIikKICAgICAgICAgICAgbG9jYXRvcl9oYXNoID0gaGFzaGxpYi5zaGEyNTYobm9ybWFsaXplZC5lbmNvZGUoInV0Zi04IikpLmhleGRpZ2VzdCgpCiAgICAgICAgICAgIGFyY2hpdmVkLmFwcGVuZCh7InJlY29yZF9pZCI6ICJaSVAtIiArIGxvY2F0b3JfaGFzaFs6MjBdLCAiZG9tYWluIjogbGFiZWwsICJldmlkZW5jZV90eXBlIjogIkFSQ0hJVkVfTUVNQkVSX1ZFUklGSUVEX0JZVEVTIiwgImxvY2F0b3Jfc2hhMjU2IjogbG9jYXRvcl9oYXNoLCAic2hhMjU2IjogZGlnZXN0LCAiYnl0ZXMiOiBtZW1iZXIuZmlsZV9zaXplLCAiY29udGFpbmVyIjogQVJDSElWRS5uYW1lLCAiZXhlY3V0aW9uX3N0YXRlIjogIkFSQ0hJVkVfRVZJREVOQ0VfTk9UX0VYRUNVVElPTl9DRVJUSUZJRUQifSkKCiAgICByb3VuZHMgPSBzb3J0ZWQoe2ludChtLmdyb3VwKDEpKSBmb3IgbWVtYmVyIGluIHppcGZpbGUuWmlwRmlsZShBUkNISVZFKS5uYW1lbGlzdCgpIGlmIChtIDo9IFJPVU5ELnNlYXJjaChtZW1iZXIpKX0pCiAgICBieV9jbGFzcyA9IENvdW50ZXIoclsiZG9tYWluIl0gZm9yIHIgaW4gYXJjaGl2ZWQpCiAgICBieV9taWxlc3RvbmUgPSBDb3VudGVyKHJbImRvbWFpbiJdIGZvciByIGluIHJvd3MpCiAgICByZXR1cm4gewogICAgICAgICJzY2hlbWFfdmVyc2lvbiI6ICIwLjEuMCIsICJraW5kIjogIkhJU1RPUklDQUxfRVZJREVOQ0VfSU5ERVhfTk9UX0VYRUNVVElPTl9MRURHRVIiLAogICAgICAgICJjdXRvZmYiOiAiMjAyNi0xMC0xOSIsICJwcml2YWN5IjogIkFSQ0hJVkVfTUVNQkVSX05BTUVTX0hBU0hFRF9OT19QUklWQVRFX1BBVEhfRVhQT1JUIiwKICAgICAgICAic291cmNlX2NvbnRhaW5lciI6IEFSQ0hJVkUubmFtZSwKICAgICAgICAiY291bnRzIjogeyJsb2NhbF9taWxlc3RvbmVfcmVwb3J0cyI6IGxlbihyb3dzKSwgImxvY2FsX21pbGVzdG9uZV9pZHMiOiBsZW4oYnlfbWlsZXN0b25lKSwgImFyY2hpdmVfbWVtYmVyc19yZWFkX2FuZF9zaGEyNTZfdmVyaWZpZWQiOiBsZW4oYXJjaGl2ZWQpLCAiYXJjaGl2ZWRfcm91bmRzX29ic2VydmVkIjogbGVuKHJvdW5kcyksICJtaW5fcm91bmQiOiBtaW4ocm91bmRzKSBpZiByb3VuZHMgZWxzZSBOb25lLCAibWF4X3JvdW5kIjogbWF4KHJvdW5kcykgaWYgcm91bmRzIGVsc2UgTm9uZSwgImFyY2hpdmVfbWVtYmVyc19ieV9kb21haW4iOiBkaWN0KHNvcnRlZChieV9jbGFzcy5pdGVtcygpKSksICJtaWxlc3RvbmVfcmVwb3J0c19ieV9pZCI6IGRpY3Qoc29ydGVkKGJ5X21pbGVzdG9uZS5pdGVtcygpKSl9LAogICAgICAgICJoaXN0b3JpY2FsX2V4ZWN1dGlvbl9jZXJ0aWZpY2F0aW9uIjogIk5PVF9JTkZFUlJFRF9GUk9NX0VWSURFTkNFX0lOREVYIiwKICAgICAgICAibG9jYWxfcmVwb3J0cyI6IHJvd3MsCiAgICAgICAgImFyY2hpdmVfZXZpZGVuY2UiOiBhcmNoaXZlZCwKICAgICAgICAibWlzc2luZ19jb3ZlcmFnZSI6IFsiRnVsbCBHaXQgY29tbWl0L3Rhc2svV08gZXhlY3V0aW9uIHJlY2VpcHRzIGJ5IHNlbWFudGljIGlkZW50aXR5IiwgIkNFMDEtQ0UwNiBhcHByb3ZhbHMgdnMgcGxhbnMiLCAiS2VybmVsIGFkbWlzc2lvbiBhbmQgaW5kZXBlbmRlbnQgYXVkaXRpbmciLCAiTm9uLWNvbnRpbnVpdHkgWklQIGNvcnBvcmEgYW5kIHByZXZpb3VzIHVuc3VyZmFjZWQgY29udmVyc2F0aW9ucyJdCiAgICB9CgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIHByaW50KGpzb24uZHVtcHMoYnVpbGQoKSwgZW5zdXJlX2FzY2lpPUZhbHNlLCBzb3J0X2tleXM9VHJ1ZSwgc2VwYXJhdG9ycz0oIiwiLCAiOiIpKSkK
+#!/usr/bin/env python3
+"""Read-only CE history evidence census; hash local report bytes and archive members.
+
+The output is an evidence index, NOT an execution completion or Kernel ledger.
+ZIP paths are represented by stable hashed locators; no extraction to disk.
+"""
+from __future__ import annotations
+
+import hashlib
+import json
+import re
+import stat
+import zipfile
+from collections import Counter
+from pathlib import Path, PurePosixPath
+
+ROOT = Path(__file__).resolve().parent
+ARCHIVE = ROOT / "upload" / "CE_MASTER_CONTINUITY_20261018(1).zip"
+MILESTONE = re.compile(r"^CE_M(\d{2})[A-Z_].*\.md$")
+ROUND = re.compile(r"CE_R(\d+)/")
+CE = re.compile(r"(?:^|[/_])CE(0[0-6])(?:[/_\-.]|$)", re.IGNORECASE)
+CHUNK = 1024 * 1024
+
+
+def sha_stream(reader) -> str:
+    digest = hashlib.sha256()
+    while True:
+        part = reader.read(CHUNK)
+        if not part:
+            break
+        digest.update(part)
+    return digest.hexdigest()
+
+
+def build() -> dict:
+    rows = []
+    for path in sorted(ROOT.iterdir(), key=lambda x: x.name):
+        match = MILESTONE.fullmatch(path.name)
+        if not match or path.is_symlink() or not path.is_file():
+            continue
+        with path.open("rb") as stream:
+            digest = sha_stream(stream)
+        rows.append({"record_id": "M-" + digest[:20], "domain": "M" + match.group(1), "evidence_type": "LOCAL_MILESTONE_REPORT", "locator": path.name, "sha256": digest, "bytes": path.stat().st_size, "execution_state": "ARTIFACT_OBSERVED_NOT_EXECUTION_CERTIFIED"})
+
+    archived = []
+    with zipfile.ZipFile(ARCHIVE) as z:
+        for member in z.infolist():
+            if member.is_dir():
+                continue
+            name = member.filename
+            normalized = name.replace("\\", "/")
+            parts = PurePosixPath(normalized).parts
+            if normalized.startswith("/") or ".." in parts or re.match(r"^[A-Za-z]:", normalized) or stat.S_ISLNK(member.external_attr >> 16):
+                raise ValueError("unsafe archive member; census fails closed")
+            with z.open(member, "r") as stream:
+                digest = sha_stream(stream)
+            scope = CE.search(normalized)
+            round_match = ROUND.search(normalized)
+            label = ("CE" + scope.group(1)) if scope else (("R" + round_match.group(1)) if round_match else "HISTORICAL_UNCLASSIFIED")
+            locator_hash = hashlib.sha256(normalized.encode("utf-8")).hexdigest()
+            archived.append({"record_id": "ZIP-" + locator_hash[:20], "domain": label, "evidence_type": "ARCHIVE_MEMBER_VERIFIED_BYTES", "locator_sha256": locator_hash, "sha256": digest, "bytes": member.file_size, "container": ARCHIVE.name, "execution_state": "ARCHIVE_EVIDENCE_NOT_EXECUTION_CERTIFIED"})
+
+    rounds = sorted({int(m.group(1)) for member in zipfile.ZipFile(ARCHIVE).namelist() if (m := ROUND.search(member))})
+    by_class = Counter(r["domain"] for r in archived)
+    by_milestone = Counter(r["domain"] for r in rows)
+    return {
+        "schema_version": "0.1.0", "kind": "HISTORICAL_EVIDENCE_INDEX_NOT_EXECUTION_LEDGER",
+        "cutoff": "2026-10-19", "privacy": "ARCHIVE_MEMBER_NAMES_HASHED_NO_PRIVATE_PATH_EXPORT",
+        "source_container": ARCHIVE.name,
+        "counts": {"local_milestone_reports": len(rows), "local_milestone_ids": len(by_milestone), "archive_members_read_and_sha256_verified": len(archived), "archived_rounds_observed": len(rounds), "min_round": min(rounds) if rounds else None, "max_round": max(rounds) if rounds else None, "archive_members_by_domain": dict(sorted(by_class.items())), "milestone_reports_by_id": dict(sorted(by_milestone.items()))},
+        "historical_execution_certification": "NOT_INFERRED_FROM_EVIDENCE_INDEX",
+        "local_reports": rows,
+        "archive_evidence": archived,
+        "missing_coverage": ["Full Git commit/task/WO execution receipts by semantic identity", "CE01-CE06 approvals vs plans", "Kernel admission and independent auditing", "Non-continuity ZIP corpora and previous unsurfaced conversations"]
+    }
+
+
+if __name__ == "__main__":
+    print(json.dumps(build(), ensure_ascii=False, sort_keys=True, separators=(",", ":")))
