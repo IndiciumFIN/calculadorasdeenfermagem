@@ -25,7 +25,7 @@
       "step": 1,
       "action": "Enumerate current main CI workflow jobs and real stable check contexts from recent GitHub Actions runs",
       "proof": "Workflow run IDs, job names, clean success at fixed main SHA",
-      "state": "HOLD_NEEDS_CI_VERIFICATION"
+      "state": "PARTIAL_ONE_PR4_RUN_OBSERVED_MORE_CONTEXTS_REQUIRED"
     },
     {
       "step": 2,
@@ -64,5 +64,18 @@
     "Unknown CI status names could deadlock PR merges"
   ],
   "release": "HOLD",
-  "main_mutated": false
+  "main_mutated": false,
+  "workflow_evidence_addendum": {
+    "observed_pr4_commit": "fc857df8306b81915f191d3f0744f7a322047b21",
+    "run_id": 39008600963,
+    "workflow_name": "Gate Agregador",
+    "job_name": "aggregate",
+    "job_id": 117326083390,
+    "conclusion": "success",
+    "scope": "ONE_PR4_COMMIT_RUN_ONLY_NOT_PROOF_REQUIRED_CHECK_AT_MAIN",
+    "main_commit_pr_runs": "NONE_IN_PR_FILTERED_ENDPOINT",
+    "pr2_commit_pr_runs": "NONE_IN_PR_FILTERED_ENDPOINT",
+    "required_check_configuration": "STILL_EMPTY",
+    "release_gate": "HOLD"
+  }
 }
