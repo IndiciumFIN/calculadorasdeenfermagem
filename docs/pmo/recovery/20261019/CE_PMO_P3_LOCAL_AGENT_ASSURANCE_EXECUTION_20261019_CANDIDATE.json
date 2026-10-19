@@ -1,0 +1,60 @@
+{
+  "schema_version": "CE-PMO-P3-LOCAL-ASSURANCE-0.1.0",
+  "cutoff": "2026-10-19",
+  "branch": "feat/ce-local-agent-assurance-20261019",
+  "base_branch": "pmo/recovery-controlled-20261019",
+  "base_sha": "cbae3fead8bddaace32207a50949bcce4d88ecc0",
+  "commit_sha": "6d63b33238b0c3eb45cf533bec0ceca7ea051de8",
+  "ci": {
+    "run_id": 39326967136,
+    "status": "completed",
+    "conclusion": "success",
+    "jobs": [
+      "local-candidate"
+    ],
+    "url": "https://github.com/IndiciumFIN/calculadorasdeenfermagem/actions/runs/39326967136",
+    "tests_local": {
+      "passed": 16,
+      "total": 16
+    },
+    "tests_remote": "workflow unit test step SUCCESS; count in test source 16"
+  },
+  "files": [
+    "tools/ce_agents/ce_agent_assurance.py",
+    "tools/ce_agents/test_ce_agent_assurance.py",
+    "contracts/agents/ce_local_catalog_v0.1.0_candidate.json",
+    "docs/pmo/recovery/20261019/CE_PMO_LOCAL_AGENT_ASSURANCE_BOOTSTRAP_v0.1.0_CANDIDATE.md",
+    ".github/workflows/ce-local-agent-assurance.yml"
+  ],
+  "readback": {
+    "all_five": true,
+    "mode": "exact_contents"
+  },
+  "agent_inventory": {
+    "unique_reused_catalog_agents": 23,
+    "deployed_verified": 0,
+    "new_duplicate_agents_created": 0
+  },
+  "status": "LOCAL_CANDIDATE_TESTED_NOT_KERNEL_ADMITTED",
+  "scope": "BYTE_INTEGRITY_MANIFEST_COMPLETENESS_IDENTITY_GATES_ONLY",
+  "finds_to_reconcile": [
+    "VALIDATOR_REGISTRY_STUBS_EXISTING_FIND",
+    "KERNEL_RECEIPT_SIGNATURE_NOT_IMPLEMENTED",
+    "INDEPENDENT_POPULATION_CENSUS_REQUIRED",
+    "DOMAIN_PRECISION_NOT_ESTABLISHED",
+    "AUTHENTICATED_IDENTITY_AND_CONCURRENCY_UNIMPLEMENTED"
+  ],
+  "pending": [
+    "P1_P5_DOMAIN_VALIDATORS_GROUND_TRUTH",
+    "INDEPENDENT_POPULATION_COMPLETENESS",
+    "PRODUCTION_SECRETS_AND_RIGHTS_SCANNERS",
+    "KERNEL_WO_RECEIPT_INTEGRATION",
+    "CONCURRENCY_FENCING_IDEMPOTENCY",
+    "INDEPENDENT_SECURITY_AUDIT",
+    "USER_AUTHORIZED_PROMOTION"
+  ],
+  "production_mutation_allowed": false,
+  "kernel_admission_receipt": null,
+  "main_changed": false,
+  "previous_p3_completed_tasks_reexecuted": false
+}
