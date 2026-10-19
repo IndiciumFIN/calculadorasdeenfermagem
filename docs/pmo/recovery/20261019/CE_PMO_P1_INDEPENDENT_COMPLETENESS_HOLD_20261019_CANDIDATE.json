@@ -2,7 +2,7 @@
   "schema_version": "0.1.0-CANDIDATE",
   "date": "2026-10-19",
   "task": "P1-D-01",
-  "status": "HOLD_DEPENDENCY_NOT_CLOSED",
+  "status": "HOLD_BASELINE_PROVENANCE_WITH_LATER_PRIVATE_MANIFEST_FOUND",
   "baseline": {
     "local_regular_files": 768,
     "unique_sha256": 720,
@@ -28,7 +28,7 @@
   ],
   "finding": "P1-FIND-GIT-ZIP-UNMATCHED",
   "finding_disposition": "REUSE_EXISTING_FIND_WITH_INDEPENDENT_SOURCE_CENSUS_DEPENDENCY",
-  "defect": "No independently authenticated per-object source manifest of 768 file paths, content digests, versions and immutable locators was available at cutoff. Source-to-repository completeness therefore cannot be verified.",
+  "defect": "Original 768-file per-object *authenticated baseline* still unverified; a later private per-object 823-file snapshot was located in the Library, with explicit NOT_HOMOLOGATED and private custody pending. No original Drive completeness proof.",
   "next_actions": [
     "Locate or reconstruct independently authenticated per-object source custody manifest from already preserved permitted evidence; no Drive connection requested",
     "Compare path, size, hash, immutable source ID and version with pinned snapshots",
@@ -44,7 +44,23 @@
   "assertions_not_made": [
     "100_PERCENT_SOURCE_COMPLETENESS",
     "1284_FILES_LOST",
-    "P1_D_COMPLETED"
+    "P1_D_COMPLETED",
+    "NO_PER_OBJECT_MANIFEST_EXISTS_ANYWHERE"
   ],
-  "publication_type": "PMO_DOCUMENTARY_ONLY_NO_WO_ADMISSION"
+  "publication_type": "PMO_DOCUMENTARY_CORRECTED_BY_LIBRARY_CROSSCHECK_NO_WO_ADMISSION",
+  "corrective_discovery": {
+    "cutoff": "2026-10-19",
+    "library_source": "CE_PMO_CUSTODIA_SNAPSHOT_PRIVADO_20261019_V2.json",
+    "library_identity": "libfile_738627ee851c8191b62ad0595a01dfdd",
+    "snapshot_id": "P1-A-NEW-PRIVATE-20261019-V2",
+    "parent_snapshot_id": "P1-A-LOCAL-RECURSIVE-20261019-768",
+    "later_files": 823,
+    "later_unique_sha256": 775,
+    "external_custody": "PENDING_PRIVATE_LIBRARY_UPLOAD",
+    "approval": "NOT_HOMOLOGATED",
+    "source_scope": "recursive workspace snapshot after baseline, not original immutable 768 census",
+    "other_library_evidence": "CE_PMO_INVENTARIO_LOCAL_20261019_CANDIDATE.json",
+    "inference": "Individual path/hash evidence exists for later snapshot, contradicting prior blanket wording that no per-object evidence exists. Does not prove prior 768 entries, original Drive population, or immutable external custody.",
+    "action": "Preserve both populations and compute baseline-to-later delta only after original object-level manifest is independently located; no retroactive baseline replacement"
+  }
 }
