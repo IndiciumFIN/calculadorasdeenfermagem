@@ -1,0 +1,29 @@
+{
+  "schema_version": "0.1.0",
+  "microlot": "P1-B",
+  "scope": "local_zip_files_recursively_in_workspace",
+  "privacy": "AGGREGATE_ONLY_NO_FILENAMES_OR_HASHES",
+  "zip_containers": 13,
+  "regular_entries": 1956,
+  "all_entries_including_directories": 2210,
+  "declared_uncompressed_bytes": 63658956,
+  "streamed_payload_bytes_verified": 63658956,
+  "payload_crc_verified": 1956,
+  "zip_pass_integrity_only": 13,
+  "zip_hold_due_to_integrity": 0,
+  "negative_tests_pass": 12,
+  "exact_duplicate_hash_groups_observed": 23,
+  "files_in_exact_duplicate_groups": 71,
+  "duplicate_groups_crossing_workspace_categories": 4,
+  "duplicate_action": "CLASSIFY_ONLY_NO_DELETE",
+  "source_code": ["ce_pmo_zip_verify_v01.py", "test_ce_pmo_zip_verify_v01.py"],
+  "status": "PASS_TECHNICAL_ZIP_INTEGRITY_ONLY",
+  "project_pmo_release": "HOLD",
+  "limitations": [
+    "ZIP members may contain nested archives not recursively inspected",
+    "No attribution of licenses, clinical accuracy, provenance or external persistence",
+    "Duplicate hashes do not authorize deletion or consolidation of provenance",
+    "Detailed file manifest must remain private until rights and security triage",
+    "Counts are bounded by current local workspace and do not represent the complete migrated repository"
+  ]
+}
