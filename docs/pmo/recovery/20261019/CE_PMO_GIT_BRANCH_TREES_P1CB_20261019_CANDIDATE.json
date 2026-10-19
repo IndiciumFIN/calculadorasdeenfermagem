@@ -1,0 +1,140 @@
+{
+  "schema_version": "0.1.0",
+  "microlot": "P1-C-B",
+  "repository": "IndiciumFIN/calculadorasdeenfermagem",
+  "branch_count": 15,
+  "branch_trees_complete": 15,
+  "tree_enumeration_coverage_pct": 100,
+  "blob_occurrences_across_branches": 58710,
+  "scope": "frozen_commit_tree_entries_blobs_only_not_unique_content_or_semantic_reconciliation",
+  "privacy": "GITHUB_PUBLIC_REFS_ONLY_NO_LOCAL_PRIVATE_PATHS",
+  "branches": [
+    {
+      "branch": "audit/ce04-reconciliation-tasks-20261017",
+      "head_sha": "2a1250d2d5c8c159be2ede462306822c0cb70943",
+      "tree_sha": "9917ecc6b8d2d8ae96f34a96c57b8bb6a116a307",
+      "blob_occurrences": 238,
+      "method": "recursive_single_request",
+      "tree_complete": true
+    },
+    {
+      "branch": "cursor/drive-sa-key-refactor",
+      "head_sha": "fc857df8306b81915f191d3f0744f7a322047b21",
+      "tree_sha": "fd5818f42c6a6f716996d8c9418ba87a079d0c59",
+      "blob_occurrences": 9366,
+      "method": "segmented_recursive",
+      "tree_complete": true
+    },
+    {
+      "branch": "cursor/fix-governance-gaps-ec54",
+      "head_sha": "bb6debeef44a15964becd19990a502d7e0c0beaf",
+      "tree_sha": "11ae77022e7ce5bced1a12a7aea26f56629fa897",
+      "blob_occurrences": 9387,
+      "method": "segmented_recursive",
+      "tree_complete": true
+    },
+    {
+      "branch": "cursor/wf-gdrive-sakey",
+      "head_sha": "4e3d4979e3da82c9fc7ff71beaf87fba73aa8702",
+      "tree_sha": "16548d1bc7e08033d5ea21f5742ce0cfe6b4bac2",
+      "blob_occurrences": 78,
+      "method": "recursive_single_request",
+      "tree_complete": true
+    },
+    {
+      "branch": "cursor/wf-v3",
+      "head_sha": "8056d08a35cfb7932933fa330d8c902e5a465710",
+      "tree_sha": "2c74e968365835b2154a3a2e9abdaff165272040",
+      "blob_occurrences": 69,
+      "method": "recursive_single_request",
+      "tree_complete": true
+    },
+    {
+      "branch": "fix/ce05-kernel-ci-security-20261017",
+      "head_sha": "e1c9ace498b66ac831849ad1df51ee14e11e3efc",
+      "tree_sha": "28f33af0b823337e464d5dbabd1b07538bfb5aef",
+      "blob_occurrences": 185,
+      "method": "recursive_single_request",
+      "tree_complete": true
+    },
+    {
+      "branch": "IndiciumFIN-patch-1",
+      "head_sha": "ccb21b7814211b80071dc0fd5f866aea7f285238",
+      "tree_sha": "1bcd89c6bb5451a58771d9d87b15d6736e57f498",
+      "blob_occurrences": 177,
+      "method": "recursive_single_request",
+      "tree_complete": true
+    },
+    {
+      "branch": "integration/canonical-main-20261017",
+      "head_sha": "c704c3cf9241cde7697acb860e598bd01bd58cf5",
+      "tree_sha": "51498347dd2ef858c66d346134e2ab08228f8012",
+      "blob_occurrences": 134,
+      "method": "recursive_single_request",
+      "tree_complete": true
+    },
+    {
+      "branch": "main",
+      "head_sha": "e0f62491b104f4a97c6025a6393cabc2e7ada30e",
+      "tree_sha": "bf5be2752ccdabada2a1dc602a71c9a15338c504",
+      "blob_occurrences": 176,
+      "method": "recursive_single_request",
+      "tree_complete": true
+    },
+    {
+      "branch": "migration/candidate-f08-20261017",
+      "head_sha": "e7add8e510077c2ea4c0591cdafe2440c1ffd418",
+      "tree_sha": "40d4a21637faeb37975899149c60afe90cec488f",
+      "blob_occurrences": 19136,
+      "method": "segmented_recursive",
+      "tree_complete": true
+    },
+    {
+      "branch": "migration/ce01-historical-evidence-b01-20261017",
+      "head_sha": "4206865dc5f07f3ef4b36f04c2572b7224f713c1",
+      "tree_sha": "eee754028b6d07181dce1f40ce944c3f7349c820",
+      "blob_occurrences": 182,
+      "method": "recursive_single_request",
+      "tree_complete": true
+    },
+    {
+      "branch": "migration/full-directory-20261017",
+      "head_sha": "bad54d1d9b6d281a0a2bb8077895e2ad45571b68",
+      "tree_sha": "252e65928bb1c3abbdd88ce67a67d25a6c496694",
+      "blob_occurrences": 19119,
+      "method": "segmented_recursive",
+      "tree_complete": true
+    },
+    {
+      "branch": "migration/pilot-policies-20261017",
+      "head_sha": "2fc555f854c64b9d44f778805fbfca7675bd3cce",
+      "tree_sha": "9b0095134d6ccb729b60c690399f226622bad65a",
+      "blob_occurrences": 185,
+      "method": "recursive_single_request",
+      "tree_complete": true
+    },
+    {
+      "branch": "pmo/recovery-controlled-20261019",
+      "head_sha": "142987e59bbce7c7278fac1c26d71f8dbc1172c7",
+      "tree_sha": "51327fd6a1e81a0d731aa88c970c11559d2ea450",
+      "blob_occurrences": 199,
+      "method": "recursive_single_request",
+      "tree_complete": true
+    },
+    {
+      "branch": "staging/wo-kernel-normativos-cli-20261016",
+      "head_sha": "c54d416b7f4c8a465798ccbebad9973799dd07ab",
+      "tree_sha": "9ec730337f7069825e76a76f7a0ff90275e3d8eb",
+      "blob_occurrences": 79,
+      "method": "recursive_single_request",
+      "tree_complete": true
+    }
+  ],
+  "release_gate": "HOLD",
+  "outstanding": [
+    "Determine unique Git blob objects across branch trees and compare to local/ZIP content hashes",
+    "Classify path conflicts, variants and aliases with provenance",
+    "Independently validate completeness and no truncation against pinned head",
+    "Do not treat blob occurrences as distinct files or approved content"
+  ]
+}
