@@ -1,1 +1,165 @@
-IiIiQWR2ZXJzYXJpYWwgdGVzdHMgZm9yIGRldGVybWluaXN0aWMgQ0UgYW50aS1yZXdvcmsgZG9jdW1lbnRhcnkgYWRtaXNzaW9uIGdhdGUuIiIiCmltcG9ydCBjb3B5CmltcG9ydCBqc29uCmltcG9ydCB1bml0dGVzdApmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKCmZyb20gY2VfcG1vX25vX3Jld29ya19hZ2VudF92MDEgaW1wb3J0IGV2YWx1YXRlCgpST09UID0gUGF0aChfX2ZpbGVfXykucmVzb2x2ZSgpLnBhcmVudAoKCmNsYXNzIE5vUmV3b3JrVGVzdHModW5pdHRlc3QuVGVzdENhc2UpOgogICAgQGNsYXNzbWV0aG9kCiAgICBkZWYgc2V0VXBDbGFzcyhjbHMpOgogICAgICAgIGNscy5sZWRnZXIgPSBqc29uLmxvYWRzKChST09UIC8gIkNFX1BNT19MRURHRVJfQU5USV9SRVRSQUJBTEhPXzIwMjYxMDE5X0NBTkRJREFURS5qc29uIikucmVhZF90ZXh0KCkpCiAgICAgICAgY2xzLm1hc3RlciA9IGpzb24ubG9hZHMoKFJPT1QgLyAiQ0VfUE1PX1JFR0lTVFJPX01FU1RSRV8yMDI2MTAxOV92MC4xLjBfQ0FORElEQVRFLmpzb24iKS5yZWFkX3RleHQoKSkKICAgICAgICBjbHMuaGlzdG9yeV9pbmRleCA9IGpzb24ubG9hZHMoKFJPT1QgLyAiQ0VfUE1PX0lORElDRV9FVklERU5DSUFTX0hJU1RPUklDQVNfQ0UwMV9DRTA2X01fMjAyNjEwMTlfQ0FORElEQVRFLmpzb24iKS5yZWFkX3RleHQoKSkKCiAgICBkZWYgY2FuZGlkYXRlKHNlbGYpOgogICAgICAgIHJldHVybiBjb3B5LmRlZXBjb3B5KHNlbGYubGVkZ2VyWyJ0YXNrcyJdWzBdKQoKICAgIGRlZiByZXVzZV9jYW5kaWRhdGUoc2VsZik6CiAgICAgICAgdGFzayA9IHNlbGYuY2FuZGlkYXRlKCkKICAgICAgICB0YXNrLnVwZGF0ZSh0YXNrX2lkPSJQMi1MSU5LLTAxIiwgaW50ZW50PSJMaW5rIGV4aXN0aW5nIFAyIGV2aWRlbmNlIG9ubHkiLAogICAgICAgICAgICAgICAgICAgIG9wZXJhdGlvbl9raW5kPSJFVklERU5DRV9MSU5LX09OTFkiLCBtb2RlPSJSRUFEX09OTFkiLAogICAgICAgICAgICAgICAgICAgIHRhcmdldF9hcnRpZmFjdD0iUDJfZXhpc3RpbmdfZXZpZGVuY2VfY3Jvc3N3YWxrLmpzb24iLAogICAgICAgICAgICAgICAgICAgIGludGVuZGVkX291dHB1dHM9WyJFVklERU5DRV9DUk9TU1dBTEtfT05MWSJdLAogICAgICAgICAgICAgICAgICAgIHNvdXJjZV9pZHM9WyJTLTE5IiwgIlMtMjMiXSwgcHJpb3JfZXZpZGVuY2VfaWRzPVsiUy0xOSIsICJTLTIzIl0sCiAgICAgICAgICAgICAgICAgICAgZXZpZGVuY2Vfb2ZfbmV3X3Njb3BlPSJSRVVTRV9PTkxZX0VYSVNUSU5HX0VWSURFTkNFIiwKICAgICAgICAgICAgICAgICAgICBwYXJhbWV0ZXJzPXsibm9fc291cmNlX3JlcHJvY2Vzc2luZyI6IFRydWUsICJub19yZW1vdGVfd3JpdGVzIjogVHJ1ZX0pCiAgICAgICAgcmV0dXJuIHRhc2sKCiAgICBkZWYgdGVzdF9rbm93bl9zb3VyY2VzX2xpbmtfb25seV9hZG1pdHRlZF9hc19hbmFseXNpcyhzZWxmKToKICAgICAgICBhbnN3ZXIgPSBzZWxmLmRlY2lzaW9uKHNlbGYucmV1c2VfY2FuZGlkYXRlKCkpCiAgICAgICAgc2VsZi5hc3NlcnRFcXVhbCgiQUxMT1dfUkVVU0VfQU5BTFlTSVNfT05MWSIsIGFuc3dlclsiZGVjaXNpb24iXSkKICAgICAgICBzZWxmLmFzc2VydFRydWUoYW5zd2VyWyJub3Rfa2VybmVsX2FkbWlzc2lvbiJdKQoKICAgIGRlZiB0ZXN0X3JldXNlX3JlcXVpcmVzX3JlZ2lzdGVyZWRfZXZpZGVuY2Uoc2VsZik6CiAgICAgICAgdGFzayA9IHNlbGYucmV1c2VfY2FuZGlkYXRlKCkKICAgICAgICB0YXNrWyJwcmlvcl9ldmlkZW5jZV9pZHMiXSA9IFtdCiAgICAgICAgc2VsZi5hc3NlcnRFcXVhbCgiSE9MRF9ISVNUT1JJQ0FMX0NPVkVSQUdFX0lOQ09NUExFVEUiLCBzZWxmLmRlY2lzaW9uKHRhc2spWyJjb2RlIl0pCgogICAgZGVmIHRlc3RfcmV1c2VfcmVxdWlyZXNfbm9fcHJvY2Vzc2luZ19vcl9yZW1vdGVfd3JpdGVzKHNlbGYpOgogICAgICAgIHRhc2sgPSBzZWxmLnJldXNlX2NhbmRpZGF0ZSgpCiAgICAgICAgdGFza1sicGFyYW1ldGVycyJdWyJub19yZW1vdGVfd3JpdGVzIl0gPSBGYWxzZQogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwoIkhPTERfSElTVE9SSUNBTF9DT1ZFUkFHRV9JTkNPTVBMRVRFIiwgc2VsZi5kZWNpc2lvbih0YXNrKVsiY29kZSJdKQoKICAgIGRlZiB0ZXN0X3JldXNlX2Nhbm5vdF9iZV9wcm9kdWN0aXZlKHNlbGYpOgogICAgICAgIHRhc2sgPSBzZWxmLnJldXNlX2NhbmRpZGF0ZSgpCiAgICAgICAgdGFza1sibW9kZSJdID0gIlBST0RVQ1RJT04iCiAgICAgICAgc2VsZi5hc3NlcnRFcXVhbCgiUlVOVElNRV9BRE1JU1NJT05fTk9UX1BST1ZFTiIsIHNlbGYuZGVjaXNpb24odGFzaylbImNvZGUiXSkKCiAgICBkZWYgdGVzdF9yZXVzZV9leGlzdGluZ190YXNrX2lkX2ZhaWxzX2Nsb3NlZChzZWxmKToKICAgICAgICB0YXNrID0gc2VsZi5yZXVzZV9jYW5kaWRhdGUoKQogICAgICAgIHRhc2tbInRhc2tfaWQiXSA9ICJQMS1BIgogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwoIkhPTERfVkVSU0lPTl9PUl9DVVRPRkZfVkFSSUFOVCIsIHNlbGYuZGVjaXNpb24odGFzaylbImNvZGUiXSkKCiAgICBkZWYgZGVjaXNpb24oc2VsZiwgY2FuZGlkYXRlPU5vbmUsIGxlZGdlcj1Ob25lLCBtYXN0ZXI9Tm9uZSk6CiAgICAgICAgcmV0dXJuIGV2YWx1YXRlKGNhbmRpZGF0ZSBpZiBjYW5kaWRhdGUgaXMgbm90IE5vbmUgZWxzZSBzZWxmLmNhbmRpZGF0ZSgpLCBsZWRnZXIgaWYgbGVkZ2VyIGlzIG5vdCBOb25lIGVsc2Ugc2VsZi5sZWRnZXIsIG1hc3RlciBpZiBtYXN0ZXIgaXMgbm90IE5vbmUgZWxzZSBzZWxmLm1hc3Rlciwgc2VsZi5oaXN0b3J5X2luZGV4KQoKICAgIGRlZiB0ZXN0X2hpc3RvcmljYWxfYXJ0aWZhY3RfYmxvY2tzX25ld19kb2N1bWVudGFyeV90YXNrKHNlbGYpOgogICAgICAgIHRhc2sgPSBzZWxmLmNhbmRpZGF0ZSgpCiAgICAgICAgdGFza1sidGFza19pZCJdID0gIk0tSElTVE9SSUNBTC1SRVRSWSIKICAgICAgICB0YXNrWyJ0YXJnZXRfYXJ0aWZhY3QiXSA9IHNlbGYuaGlzdG9yeV9pbmRleFsibG9jYWxfcmVwb3J0cyJdWzBdWyJsb2NhdG9yIl0KICAgICAgICB0YXNrWyJpbnRlbnQiXSA9ICJuZXcgdW5yZWxhdGVkIGF0dGVtcHQgdG8gZ2VuZXJhdGUgcHJpb3IgZG9jdW1lbnQiCiAgICAgICAgc2VsZi5hc3NlcnRFcXVhbCgiSE9MRF9QUklPUl9ET0NVTUVOVEFSWV9FVklERU5DRV9SRVZJRVciLCBzZWxmLmRlY2lzaW9uKHRhc2spWyJjb2RlIl0pCgogICAgZGVmIHRlc3RfY2UwMl9hcmNoaXZlX2V2aWRlbmNlX2Jsb2Nrc19hdXRvX2FkbWlzc2lvbihzZWxmKToKICAgICAgICB0YXNrID0gc2VsZi5jYW5kaWRhdGUoKQogICAgICAgIHRhc2tbInRhc2tfaWQiXSA9ICJDRTAyLUhJU1QtUkVUUlkiCiAgICAgICAgdGFza1siZG9tYWluIl0gPSAiQ0UtMDIiCiAgICAgICAgdGFza1siaW50ZW50Il0gPSAibmV3IHByb2Nlc3Npbmcgb2YgaGlzdG9yaWNhbCByZWNvcmRzIgogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwoIkhPTERfUFJJT1JfRlJPTlRfRVZJREVOQ0VfUkVWSUVXIiwgc2VsZi5kZWNpc2lvbih0YXNrKVsiY29kZSJdKQoKICAgIGRlZiB0ZXN0X21pc3NpbmdfaGlzdG9yeV9pbmRleF9ibG9ja3NfdW5rbm93bl93b3JrKHNlbGYpOgogICAgICAgIHRhc2sgPSBzZWxmLmNhbmRpZGF0ZSgpCiAgICAgICAgdGFza1sidGFza19pZCJdID0gIk5FVy1JRCIKICAgICAgICB0YXNrWyJpbnRlbnQiXSA9ICJuZXcgdGFzayBvbmx5IgogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwoIkhPTERfSElTVE9SSUNBTF9JTkRFWF9OT1RfTE9BREVEIiwgZXZhbHVhdGUodGFzaywgc2VsZi5sZWRnZXIsIHNlbGYubWFzdGVyKVsiY29kZSJdKQoKICAgIGRlZiB0ZXN0X2NvbXBsZXRlZF9oaXN0b3J5X2Jsb2Nrc19zYW1lX3Rhc2soc2VsZik6CiAgICAgICAgc2VsZi5hc3NlcnRFcXVhbCgiQkxPQ0tfQUxSRUFEWV9FWEVDVVRFRF9SRVVTRV9FVklERU5DRSIsIHNlbGYuZGVjaXNpb24oKVsiY29kZSJdKQoKICAgIGRlZiB0ZXN0X2NoYW5nZWRfaWRfc2FtZV9pbnRlbnRfYmxvY2tzKHNlbGYpOgogICAgICAgIHRhc2sgPSBzZWxmLmNhbmRpZGF0ZSgpCiAgICAgICAgdGFza1sidGFza19pZCJdID0gIlAxLUEtTkVXLUlEIgogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwoIkJMT0NLX0FMUkVBRFlfRVhFQ1VURURfUkVVU0VfRVZJREVOQ0UiLCBzZWxmLmRlY2lzaW9uKHRhc2spWyJjb2RlIl0pCgogICAgZGVmIHRlc3Rfb3V0cHV0X29yZGVyX2FuZF9uZXdfaWRfZG9fbm90X2J5cGFzcyhzZWxmKToKICAgICAgICB0YXNrID0gc2VsZi5jYW5kaWRhdGUoKQogICAgICAgIHRhc2tbInRhc2tfaWQiXSA9ICJESUZGRVJFTlQtSUQiCiAgICAgICAgdGFza1siaW50ZW5kZWRfb3V0cHV0cyJdID0gbGlzdChyZXZlcnNlZCh0YXNrWyJpbnRlbmRlZF9vdXRwdXRzIl0pKQogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwoIkJMT0NLX0FMUkVBRFlfRVhFQ1VURURfUkVVU0VfRVZJREVOQ0UiLCBzZWxmLmRlY2lzaW9uKHRhc2spWyJjb2RlIl0pCgogICAgZGVmIHRlc3RfcGFydGlhbF9oaXN0b3J5X2Jsb2Nrc19uZXdfdGFzayhzZWxmKToKICAgICAgICB0YXNrID0gc2VsZi5jYW5kaWRhdGUoKQogICAgICAgIHRhc2tbImludGVudCJdID0gImJyYW5kIG5ldyBzb3VyY2UgYXVkaXQiCiAgICAgICAgdGFza1sidGFza19pZCJdID0gIk5FVy1BVURJVC0wMSIKICAgICAgICB0YXNrWyJ0YXJnZXRfYXJ0aWZhY3QiXSA9ICJuZXctdW5pcXVlLW91dHB1dC5qc29uIgogICAgICAgIHRhc2tbImV2aWRlbmNlX29mX25ld19zY29wZSJdID0gIkRPQ1VNRU5URURfUkVDT05DSUxJQVRJT04iCiAgICAgICAgc2VsZi5hc3NlcnRFcXVhbCgiSE9MRF9ISVNUT1JJQ0FMX0NPVkVSQUdFX0lOQ09NUExFVEUiLCBzZWxmLmRlY2lzaW9uKHRhc2spWyJjb2RlIl0pCgogICAgZGVmIHRlc3RfbmV3X3Rhc2tfb25seV9wcmVmbGlnaHRfd2hlbl9oaXN0b3J5X3JlY29uY2lsZWQoc2VsZik6CiAgICAgICAgdGFzayA9IHNlbGYuY2FuZGlkYXRlKCkKICAgICAgICB0YXNrWyJpbnRlbnQiXSA9ICJicmFuZCBuZXcgc291cmNlIGF1ZGl0IgogICAgICAgIHRhc2tbInRhc2tfaWQiXSA9ICJORVctQVVESVQtMDEiCiAgICAgICAgdGFza1sidGFyZ2V0X2FydGlmYWN0Il0gPSAibmV3LXVuaXF1ZS1vdXRwdXQuanNvbiIKICAgICAgICB0YXNrWyJldmlkZW5jZV9vZl9uZXdfc2NvcGUiXSA9ICJET0NVTUVOVEVEX1JFQ09OQ0lMSUFUSU9OIgogICAgICAgIGxlZGdlciA9IGNvcHkuZGVlcGNvcHkoc2VsZi5sZWRnZXIpCiAgICAgICAgbGVkZ2VyWyJoaXN0b3JpY2FsX2NvdmVyYWdlIl0gPSAiSElTVE9SWV9SRUNPTkNJTEVEIgogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwoIkFMTE9XX1BSRUZMSUdIVF9PTkxZIiwgc2VsZi5kZWNpc2lvbih0YXNrLCBsZWRnZXIpWyJkZWNpc2lvbiJdKQoKICAgIGRlZiB0ZXN0X2NoYW5nZWRfY3V0b2ZmX3JlcXVpcmVzX3JldmlldyhzZWxmKToKICAgICAgICB0YXNrID0gc2VsZi5jYW5kaWRhdGUoKQogICAgICAgIHRhc2tbImN1dG9mZiJdID0gIk5FV19DVVRPRkYiCiAgICAgICAgc2VsZi5hc3NlcnRFcXVhbCgiSE9MRF9WRVJTSU9OX09SX0NVVE9GRl9WQVJJQU5UIiwgc2VsZi5kZWNpc2lvbih0YXNrKVsiY29kZSJdKQoKICAgIGRlZiB0ZXN0X2luY29tcGxldGVfZXZpZGVuY2VfYmxvY2tzKHNlbGYpOgogICAgICAgIGxlZGdlciA9IGNvcHkuZGVlcGNvcHkoc2VsZi5sZWRnZXIpCiAgICAgICAgbGVkZ2VyWyJ0YXNrcyJdWzBdWyJldmlkZW5jZSJdWyJyZWFkYmFjayJdID0gIlVOS05PV04iCiAgICAgICAgc2VsZi5hc3NlcnRFcXVhbCgiRVhFQ1VUSU9OX0VWSURFTkNFX0lOQ09NUExFVEUiLCBzZWxmLmRlY2lzaW9uKGxlZGdlcj1sZWRnZXIpWyJjb2RlIl0pCgogICAgZGVmIHRlc3RfcnVubmluZ19ibG9ja3NfY29uY3VycmVudF93b3JrKHNlbGYpOgogICAgICAgIGxlZGdlciA9IGNvcHkuZGVlcGNvcHkoc2VsZi5sZWRnZXIpCiAgICAgICAgbGVkZ2VyWyJ0YXNrcyJdWzBdWyJzdGF0dXMiXSA9ICJJTl9QUk9HUkVTUyIKICAgICAgICBzZWxmLmFzc2VydEVxdWFsKCJCTE9DS19DT05DVVJSRU5UX0VYRUNVVElPTiIsIHNlbGYuZGVjaXNpb24obGVkZ2VyPWxlZGdlcilbImNvZGUiXSkKCiAgICBkZWYgdGVzdF9kdXBsaWNhdGVfaGlzdG9yeV9ibG9ja3Moc2VsZik6CiAgICAgICAgbGVkZ2VyID0gY29weS5kZWVwY29weShzZWxmLmxlZGdlcikKICAgICAgICBsZWRnZXJbInRhc2tzIl0uYXBwZW5kKGNvcHkuZGVlcGNvcHkobGVkZ2VyWyJ0YXNrcyJdWzBdKSkKICAgICAgICBzZWxmLmFzc2VydEVxdWFsKCJMRURHRVJfRFVQTElDQVRFX0lERU5USVRZIiwgc2VsZi5kZWNpc2lvbihsZWRnZXI9bGVkZ2VyKVsiY29kZSJdKQoKICAgIGRlZiB0ZXN0X3Vua25vd25fc291cmNlX2Jsb2NrcyhzZWxmKToKICAgICAgICB0YXNrID0gc2VsZi5jYW5kaWRhdGUoKQogICAgICAgIHRhc2tbInNvdXJjZV9pZHMiXSA9IFsiUy1ET0VTLU5PVC1FWElTVCJdCiAgICAgICAgc2VsZi5hc3NlcnRFcXVhbCgiU09VUkNFX0lEU19OT1RfVkVSSUZJRUQiLCBzZWxmLmRlY2lzaW9uKHRhc2spWyJjb2RlIl0pCgogICAgZGVmIHRlc3RfcHJvZHVjdGl2ZV9ydW50aW1lX2Jsb2NrZWQoc2VsZik6CiAgICAgICAgdGFzayA9IHNlbGYuY2FuZGlkYXRlKCkKICAgICAgICB0YXNrWyJtb2RlIl0gPSAiUFJPRFVDVElPTiIKICAgICAgICBzZWxmLmFzc2VydEVxdWFsKCJSVU5USU1FX0FETUlTU0lPTl9OT1RfUFJPVkVOIiwgc2VsZi5kZWNpc2lvbih0YXNrKVsiY29kZSJdKQoKICAgIGRlZiB0ZXN0X2VtcHR5X2xlZGdlcl9ibG9ja3Moc2VsZik6CiAgICAgICAgbGVkZ2VyID0gY29weS5kZWVwY29weShzZWxmLmxlZGdlcikKICAgICAgICBsZWRnZXJbInRhc2tzIl0gPSBbXQogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwoIkxFREdFUl9FTVBUWV9PUl9JTlZBTElEIiwgc2VsZi5kZWNpc2lvbihsZWRnZXI9bGVkZ2VyKVsiY29kZSJdKQoKICAgIGRlZiB0ZXN0X2p1cmlzZGljdGlvbl9kaWZmZXJlbmNlX25vdF9hdXRvX2RlZHVwbGljYXRlZChzZWxmKToKICAgICAgICB0YXNrID0gc2VsZi5jYW5kaWRhdGUoKQogICAgICAgIHRhc2tbImp1cmlzZGljdGlvbiJdID0gIkJSIgogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwoIkhPTERfVkVSU0lPTl9PUl9DVVRPRkZfVkFSSUFOVCIsIHNlbGYuZGVjaXNpb24odGFzaylbImNvZGUiXSkKCiAgICBkZWYgdGVzdF9taXNzaW5nX2lkZW50aXR5X2Jsb2NrcyhzZWxmKToKICAgICAgICB0YXNrID0gc2VsZi5jYW5kaWRhdGUoKQogICAgICAgIGRlbCB0YXNrWyJ0YXJnZXRfYXJ0aWZhY3QiXQogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwoIlRBU0tfSURFTlRJVFlfSU5DT01QTEVURSIsIHNlbGYuZGVjaXNpb24odGFzaylbImNvZGUiXSkKCiAgICBkZWYgdGVzdF91bnRydXN0ZWRfbGVkZ2VyX2Jsb2NrcyhzZWxmKToKICAgICAgICBsZWRnZXIgPSBjb3B5LmRlZXBjb3B5KHNlbGYubGVkZ2VyKQogICAgICAgIGxlZGdlclsic3RhdGUiXSA9ICJDQU5PTklDQUwiCiAgICAgICAgc2VsZi5hc3NlcnRFcXVhbCgiTEVER0VSX05PVF9UUlVTVEVEIiwgc2VsZi5kZWNpc2lvbihsZWRnZXI9bGVkZ2VyKVsiY29kZSJdKQoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICB1bml0dGVzdC5tYWluKCkK
+"""Adversarial tests for deterministic CE anti-rework documentary admission gate."""
+import copy
+import json
+import unittest
+from pathlib import Path
+
+from ce_pmo_no_rework_agent_v01 import evaluate
+
+ROOT = Path(__file__).resolve().parent
+
+
+class NoReworkTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.ledger = json.loads((ROOT / "CE_PMO_LEDGER_ANTI_RETRABALHO_20261019_CANDIDATE.json").read_text())
+        cls.master = json.loads((ROOT / "CE_PMO_REGISTRO_MESTRE_20261019_v0.1.0_CANDIDATE.json").read_text())
+        cls.history_index = json.loads((ROOT / "CE_PMO_INDICE_EVIDENCIAS_HISTORICAS_CE01_CE06_M_20261019_CANDIDATE.json").read_text())
+
+    def candidate(self):
+        return copy.deepcopy(self.ledger["tasks"][0])
+
+    def reuse_candidate(self):
+        task = self.candidate()
+        task.update(task_id="P2-LINK-01", intent="Link existing P2 evidence only",
+                    operation_kind="EVIDENCE_LINK_ONLY", mode="READ_ONLY",
+                    target_artifact="P2_existing_evidence_crosswalk.json",
+                    intended_outputs=["EVIDENCE_CROSSWALK_ONLY"],
+                    source_ids=["S-19", "S-23"], prior_evidence_ids=["S-19", "S-23"],
+                    evidence_of_new_scope="REUSE_ONLY_EXISTING_EVIDENCE",
+                    parameters={"no_source_reprocessing": True, "no_remote_writes": True})
+        return task
+
+    def test_known_sources_link_only_admitted_as_analysis(self):
+        answer = self.decision(self.reuse_candidate())
+        self.assertEqual("ALLOW_REUSE_ANALYSIS_ONLY", answer["decision"])
+        self.assertTrue(answer["not_kernel_admission"])
+
+    def test_reuse_requires_registered_evidence(self):
+        task = self.reuse_candidate()
+        task["prior_evidence_ids"] = []
+        self.assertEqual("HOLD_HISTORICAL_COVERAGE_INCOMPLETE", self.decision(task)["code"])
+
+    def test_reuse_requires_no_processing_or_remote_writes(self):
+        task = self.reuse_candidate()
+        task["parameters"]["no_remote_writes"] = False
+        self.assertEqual("HOLD_HISTORICAL_COVERAGE_INCOMPLETE", self.decision(task)["code"])
+
+    def test_reuse_cannot_be_productive(self):
+        task = self.reuse_candidate()
+        task["mode"] = "PRODUCTION"
+        self.assertEqual("RUNTIME_ADMISSION_NOT_PROVEN", self.decision(task)["code"])
+
+    def test_reuse_existing_task_id_fails_closed(self):
+        task = self.reuse_candidate()
+        task["task_id"] = "P1-A"
+        self.assertEqual("HOLD_VERSION_OR_CUTOFF_VARIANT", self.decision(task)["code"])
+
+    def decision(self, candidate=None, ledger=None, master=None):
+        return evaluate(candidate if candidate is not None else self.candidate(), ledger if ledger is not None else self.ledger, master if master is not None else self.master, self.history_index)
+
+    def test_historical_artifact_blocks_new_documentary_task(self):
+        task = self.candidate()
+        task["task_id"] = "M-HISTORICAL-RETRY"
+        task["target_artifact"] = self.history_index["local_reports"][0]["locator"]
+        task["intent"] = "new unrelated attempt to generate prior document"
+        self.assertEqual("HOLD_PRIOR_DOCUMENTARY_EVIDENCE_REVIEW", self.decision(task)["code"])
+
+    def test_ce02_archive_evidence_blocks_auto_admission(self):
+        task = self.candidate()
+        task["task_id"] = "CE02-HIST-RETRY"
+        task["domain"] = "CE-02"
+        task["intent"] = "new processing of historical records"
+        self.assertEqual("HOLD_PRIOR_FRONT_EVIDENCE_REVIEW", self.decision(task)["code"])
+
+    def test_missing_history_index_blocks_unknown_work(self):
+        task = self.candidate()
+        task["task_id"] = "NEW-ID"
+        task["intent"] = "new task only"
+        self.assertEqual("HOLD_HISTORICAL_INDEX_NOT_LOADED", evaluate(task, self.ledger, self.master)["code"])
+
+    def test_completed_history_blocks_same_task(self):
+        self.assertEqual("BLOCK_ALREADY_EXECUTED_REUSE_EVIDENCE", self.decision()["code"])
+
+    def test_changed_id_same_intent_blocks(self):
+        task = self.candidate()
+        task["task_id"] = "P1-A-NEW-ID"
+        self.assertEqual("BLOCK_ALREADY_EXECUTED_REUSE_EVIDENCE", self.decision(task)["code"])
+
+    def test_output_order_and_new_id_do_not_bypass(self):
+        task = self.candidate()
+        task["task_id"] = "DIFFERENT-ID"
+        task["intended_outputs"] = list(reversed(task["intended_outputs"]))
+        self.assertEqual("BLOCK_ALREADY_EXECUTED_REUSE_EVIDENCE", self.decision(task)["code"])
+
+    def test_partial_history_blocks_new_task(self):
+        task = self.candidate()
+        task["intent"] = "brand new source audit"
+        task["task_id"] = "NEW-AUDIT-01"
+        task["target_artifact"] = "new-unique-output.json"
+        task["evidence_of_new_scope"] = "DOCUMENTED_RECONCILIATION"
+        self.assertEqual("HOLD_HISTORICAL_COVERAGE_INCOMPLETE", self.decision(task)["code"])
+
+    def test_new_task_only_preflight_when_history_reconciled(self):
+        task = self.candidate()
+        task["intent"] = "brand new source audit"
+        task["task_id"] = "NEW-AUDIT-01"
+        task["target_artifact"] = "new-unique-output.json"
+        task["evidence_of_new_scope"] = "DOCUMENTED_RECONCILIATION"
+        ledger = copy.deepcopy(self.ledger)
+        ledger["historical_coverage"] = "HISTORY_RECONCILED"
+        self.assertEqual("ALLOW_PREFLIGHT_ONLY", self.decision(task, ledger)["decision"])
+
+    def test_changed_cutoff_requires_review(self):
+        task = self.candidate()
+        task["cutoff"] = "NEW_CUTOFF"
+        self.assertEqual("HOLD_VERSION_OR_CUTOFF_VARIANT", self.decision(task)["code"])
+
+    def test_incomplete_evidence_blocks(self):
+        ledger = copy.deepcopy(self.ledger)
+        ledger["tasks"][0]["evidence"]["readback"] = "UNKNOWN"
+        self.assertEqual("EXECUTION_EVIDENCE_INCOMPLETE", self.decision(ledger=ledger)["code"])
+
+    def test_running_blocks_concurrent_work(self):
+        ledger = copy.deepcopy(self.ledger)
+        ledger["tasks"][0]["status"] = "IN_PROGRESS"
+        self.assertEqual("BLOCK_CONCURRENT_EXECUTION", self.decision(ledger=ledger)["code"])
+
+    def test_duplicate_history_blocks(self):
+        ledger = copy.deepcopy(self.ledger)
+        ledger["tasks"].append(copy.deepcopy(ledger["tasks"][0]))
+        self.assertEqual("LEDGER_DUPLICATE_IDENTITY", self.decision(ledger=ledger)["code"])
+
+    def test_unknown_source_blocks(self):
+        task = self.candidate()
+        task["source_ids"] = ["S-DOES-NOT-EXIST"]
+        self.assertEqual("SOURCE_IDS_NOT_VERIFIED", self.decision(task)["code"])
+
+    def test_productive_runtime_blocked(self):
+        task = self.candidate()
+        task["mode"] = "PRODUCTION"
+        self.assertEqual("RUNTIME_ADMISSION_NOT_PROVEN", self.decision(task)["code"])
+
+    def test_empty_ledger_blocks(self):
+        ledger = copy.deepcopy(self.ledger)
+        ledger["tasks"] = []
+        self.assertEqual("LEDGER_EMPTY_OR_INVALID", self.decision(ledger=ledger)["code"])
+
+    def test_jurisdiction_difference_not_auto_deduplicated(self):
+        task = self.candidate()
+        task["jurisdiction"] = "BR"
+        self.assertEqual("HOLD_VERSION_OR_CUTOFF_VARIANT", self.decision(task)["code"])
+
+    def test_missing_identity_blocks(self):
+        task = self.candidate()
+        del task["target_artifact"]
+        self.assertEqual("TASK_IDENTITY_INCOMPLETE", self.decision(task)["code"])
+
+    def test_untrusted_ledger_blocks(self):
+        ledger = copy.deepcopy(self.ledger)
+        ledger["state"] = "CANONICAL"
+        self.assertEqual("LEDGER_NOT_TRUSTED", self.decision(ledger=ledger)["code"])
+
+
+if __name__ == "__main__":
+    unittest.main()
