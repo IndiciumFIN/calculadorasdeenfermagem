@@ -62,3 +62,9 @@ Estas URLs foram informadas pelo usuário em 2026-10-19. A lista **não** atesta
 10. https://chatgpt.com/c/6ad33d90-05ec-83e9-b741-212d1e85140f
 11. https://chatgpt.com/c/6ad52b47-b0d8-83e9-9479-46940fec1b48
 12. https://chatgpt.com/c/6ad62a38-f3ec-83e9-99e2-4cd93d6ef5cd
+
+## P2 microlote — resolução delimitada 22 versus 42 (2026-10-19)
+- Evidência `CE_PMO_P2_22_VS_42_RESOLUTION_AND_SHA_ERRATA_20261019_CANDIDATE.json` commit `93e2e047918154bf1484c4261190b73d8d638c94`, blob `0e569b599a9f421ca628bd51ab2b85a133042fb6`; readback integral PASS.
+- Por conjuntos: 42 ausências de árvore = 22 paths que o compare Git marcou `removed` + 20 ausentes no snapshot da branch, mas não `removed` no diff relativo ao merge-base. Interseção exata dos 22; nenhum path classificado destrutivamente. A divergência numérica está reconciliada, mas decisões semânticas/direitos continuam abertas.
+- Errata sem sobrescrever o original: 11 registros de `observed_tree_sha` no relatório de árvores pequenas são iguais aos SHA dos commits; manifesto traz os tree SHAs distintos. FIND candidato aberto para investigação/validação independente.
+- Estado das tarefas P2-00/P2-01, registry de agentes e fila de 12 tarefas inalterados; esta é conclusão apenas do **microlote de explicação das contagens**, não da tarefa integral. Próximo: validação de metadados/ancestralidade dos 15 pins, per-path variantes e auditoria P5.
