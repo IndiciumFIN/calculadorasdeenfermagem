@@ -87,6 +87,9 @@ def check_pmo(data: dict, findings: list[str]) -> None:
         guard(gate.get("status") == "HOLD", f"GATE_FALSE_PASS:{gate.get('id','UNKNOWN')}", findings)
     m24 = [r for r in data.get("populations", []) if r.get("population_id") == "POP-M24-HOLD"]
     guard(len(m24) == 1 and m24[0].get("approved") == 0 and m24[0].get("status") == "EXPLICIT_HOLD_NOT_COUNTED", "M24_POPULATION_RELEASED", findings)
+    historical_label = data.get("activity_authorization", {}).get("m24_historical_label_disposition", "")
+    guard(historical_label.startswith("CLOSED_ADMINISTRATIVE_UNRECONSTRUCTIBLE_HISTORY") and "FIVE_UNKNOWN_MEMBERS_STAY_UNPROCESSED_AND_UNAPPROVED" in historical_label,
+          "M24_ADMIN_CLOSURE_MISREPRESENTED", findings)
     metrics = data.get("progress_metrics", {})
     p1 = metrics.get("p1_technical_checkpoints", {})
     guard(isinstance(p1.get("completed"), int) and isinstance(p1.get("total"), int) and 0 <= p1.get("completed", -1) <= p1.get("total", 0), "P1_PROGRESS_INVALID", findings)
@@ -102,6 +105,8 @@ def check_control_chain(pmo: dict, queue: dict, findings: list[str]) -> None:
     guard(queue.get("baseline", {}).get("project_completion_percent") is None, "QUEUE_PROJECT_PERCENT", findings)
     guard(queue.get("baseline", {}).get("pmo_gates") == {"passed": 0, "total": 8}, "QUEUE_GATE_MISMATCH", findings)
     guard(queue.get("baseline", {}).get("m24_hold_files") == 5, "QUEUE_M24_MISMATCH", findings)
+    guard(queue.get("rules", {}).get("m24_historical_milestone_disposition", "").startswith("CLOSED_ADMINISTRATIVE_UNRECONSTRUCTIBLE_HISTORY"),
+          "QUEUE_M24_HISTORIC_LABEL_REOPENED", findings)
     guard(queue.get("baseline", {}).get("p1_checkpoints", {}).get("completed") == pmo.get("progress_metrics", {}).get("p1_technical_checkpoints", {}).get("completed"), "QUEUE_P1_MISMATCH", findings)
     guard(pmo.get("execution_queue_control", {}).get("task_register_source") == "CE_PMO_FILA_EXECUCAO_P1_P5_20261019_CANDIDATE.json", "QUEUE_NOT_REGISTERED", findings)
     source_ids = [x.get("source_id") for x in pmo.get("source_register", []) if isinstance(x, dict)]
