@@ -120,6 +120,13 @@ class InventoryGuardTests(unittest.TestCase):
         x["populations"] = [v for v in x["populations"] if v["population_id"] != "POP-M24-HOLD"]
         self.assert_block("pmo", x, "M24_POPULATION_RELEASED")
 
+    def test_m24_hold_does_not_cancel_eligible_other_work(self):
+        policy = self.pmo["activity_authorization"]["hold_isolation_policy"]
+        self.assertEqual("CONTINUE", policy["unrelated_read_only_and_documentary_work"])
+        self.assertEqual("USER_AT_END_ONLY", policy["all_final_project_approval"])
+        self.assertIn("WO_KERNEL_ADMISSION", policy["non_m24_productive_work"])
+        self.assertIn("M24_HOLD_ONLY_RESERVED_FIVE", self.queue["rules"]["m24_isolation"])
+
     def test_gate_false_pass(self):
         x = copy.deepcopy(self.pmo)
         x["gates"][0]["status"] = "PASS"
