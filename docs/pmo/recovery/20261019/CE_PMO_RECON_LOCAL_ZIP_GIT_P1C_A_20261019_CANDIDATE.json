@@ -1,0 +1,40 @@
+{
+  "schema_version": "0.1.0",
+  "microlot": "P1-C-A",
+  "status": "LOCAL_ZIP_SHA_RECONCILED_GITHUB_TREE_RECONCILIATION_PARTIAL",
+  "source_evidence": {
+    "local_zip": "ce_pmo_local_zip_reconcile_v01.py executable SHA256 match",
+    "github_branches": "GitHub REST GET /repos/IndiciumFIN/calculadorasdeenfermagem/branches?per_page=100",
+    "github_root_tree_sha": "bf5be2752ccdabada2a1dc602a71c9a15338c504",
+    "github_branch_baseline": "main@e0f62491b104f4a97c6025a6393cabc2e7ada30e",
+    "github_tree_root_nonrecursive_entries": 23,
+    "github_tree_docs_nonrecursive_entries": 33,
+    "github_tree_contracts_nonrecursive_entries": 8,
+    "github_tree_response_truncated": false
+  },
+  "local_zip_observation": {
+    "local_file_count_at_scan": 780,
+    "local_unique_sha256": 732,
+    "zip_containers": 13,
+    "zip_regular_member_count": 1956,
+    "zip_unique_member_sha256": 1295,
+    "unique_sha256_present_in_both": 621,
+    "local_paths_with_byte_identical_zip_member": 669,
+    "local_unique_sha256_not_in_zip": 111,
+    "zip_unique_member_sha256_not_as_local_file": 674,
+    "zip_unique_sha256_in_multiple_containers": 333,
+    "zip_verification_failures": 0,
+    "independent_unit_tests_pass": 4
+  },
+  "github_branch_count_current": 15,
+  "github_changed_since_old_baseline": "PMO_BRANCH_INCLUDED_IN_15; HISTORIC_14_WERE_OLDER_CUTOFF",
+  "privacy": "AGGREGATE_ONLY_NO_LOCAL_PATHS_UPLOAD_NAMES_OR_HASH_LISTS",
+  "publication_action": "NONE_ON_SOURCES; DOC_ONLY",
+  "pmo_release": "HOLD",
+  "next_required": [
+    "Recursively enumerate all 15 pinned Git trees with pagination/truncation assurance",
+    "Compare Git blobs to content-addressed ZIP/local SHA with provenance and exact source paths held privately",
+    "Classify 674 ZIP-only distinct hashes against Git blobs before calling any record missing",
+    "Create frozen snapshot manifest and external readback receipts for individual evidence groups"
+  ]
+}
