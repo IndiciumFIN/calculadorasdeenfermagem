@@ -2,6 +2,8 @@
 
 **Data de corte:** 2026-10-19. **Status:** `CANDIDATE / READ_ONLY_PLAN / KERNEL_OPERATIONAL_HOLD`. **Branch documental proposta:** `pmo/recovery-controlled-20261019`. **Escopo:** P3 transversal às ondas P1–P5; nenhuma aprovação, execução produtiva, merge ou alteração de política é presumida.
 
+**Errata PMO de população (posterior ao diagnóstico inicial):** o total de 76 WOs era apenas a primeira página da consulta ao PR #2. A árvore Git pinada completa, examinada individualmente, contém **164 JSONs de WO** (161 `PREAUTHORIZED` e três exemplos sem esse estado). O cruzamento `CE_PMO_CROSSWALK_CE04_38_PR2_WO164_20261019_CANDIDATE.json` registrou **zero correspondências diretas de ID de tarefa** com as 38 tarefas CE04. As 102 WOs históricas continuam população separada, sem equivalência verificada. As menções a 76 abaixo são preservadas exclusivamente como histórico do diagnóstico original, nunca como contagem vigente.
+
 ## Evidência recuperada e limites
 
 | Fonte/população | Evidência | Estado correto |
