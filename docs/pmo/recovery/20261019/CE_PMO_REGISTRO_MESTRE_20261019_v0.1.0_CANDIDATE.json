@@ -9,9 +9,9 @@
   "project_execution_allowed": false,
   "pmo_control_revision": {
     "version": "0.2.0-CANDIDATE",
-    "change_id": "PMO-REMOTE-BASE64-14-CUSTODY-20261019-012",
+    "change_id": "PMO-M24-ADMIN-CLOSURE-NO-REEXECUTION-20261019-013",
     "supersedes_control_revision": "0.1.0",
-    "change_reason": "Correct 14 remote literal-Base64 files to exact original UTF-8 on PMO recovery branch; independent pinned Git SHA readback confirms 58/58 local counterparts, four Git-only receipts retained; private Library snapshot 823-item exact content readback verified while original 768 per-item delta stays HOLD",
+    "change_reason": "Administratively close orphan historic M24 label without pretending five unknown source files are processed, preserving their unresolved identity count; route rights/clinical/Kernel review to existing P3/P4/P5 tasks and prevent reopening or duplicate WOs",
     "control_state": "DOCUMENTARY_CONSOLIDATION_IN_PROGRESS",
     "release_state": "HOLD",
     "current_register_sha_attestation": "NOT_SELF_ATTESTED; REQUIRE_INDEPENDENT_GITHUB_FETCH_RECEIPT",
@@ -30,6 +30,7 @@
     "blocked_until_separate_admission": ["UNADMITTED_PRODUCTION_EXECUTION", "UNADMITTED_CONTENT_ATOMIZATION", "PUBLISH_OR_MERGE_TO_MAIN", "DELETION_OR_DESTRUCTIVE_DEDUPLICATION", "FINAL_HOMOLOGATION", "M24_RELEASE"],
     "do_not_conflate": "M24_HOLD_AND_FINAL_APPROVAL_PENDING_DO_NOT_BLOCK_INDEPENDENT_ELIGIBLE_NON_M24_WORK; EVERY_MUTATION_STILL_REQUIRES_ITS_OWN_WO_KERNEL_AND_TEST_GATES",
     "hold_isolation_policy": {"m24_scope": "ONLY_FIVE_HISTORICALLY_RESERVED_FILES", "m24_state": "HOLD_ENVIRONMENT_UNIDENTIFIED_NO_EXECUTION", "unrelated_read_only_and_documentary_work": "CONTINUE", "non_m24_productive_work": "CONDITIONAL_ON_TASK_SPECIFIC_POLICY_VALIDATOR_WO_KERNEL_ADMISSION_AND_TESTS", "all_final_project_approval": "USER_AT_END_ONLY", "closed_or_candidate_tasks": "NO_REEXECUTION_WITHOUT_NEW_EVIDENCED_FIND"},
+    "m24_historical_label_disposition": "CLOSED_ADMINISTRATIVE_UNRECONSTRUCTIBLE_HISTORY; FIVE_UNKNOWN_MEMBERS_STAY_UNPROCESSED_AND_UNAPPROVED",
     "blocked_activity_state": "HOLD"
   },
   "parallel_wave_plans": [
