@@ -1,0 +1,68 @@
+{
+  "schema_version": "0.1.0-CANDIDATE",
+  "scope": "P2_PR_COMPARISON_LIMITATIONS",
+  "pr4": {
+    "base": "cursor/fix-governance-gaps-ec54",
+    "head": "cursor/drive-sa-key-refactor",
+    "status": "diverged",
+    "merge_base": "5f1c03d5ed2f2d4ed583431fc50adced2daba21b",
+    "files_returned": 10,
+    "paths": [
+      {
+        "path": ".github/workflows/drive-recursive-collect.yml",
+        "status": "modified"
+      },
+      {
+        "path": "config/drive_inventory_roots_20261016.json",
+        "status": "modified"
+      },
+      {
+        "path": "docs/DETERMINISTIC_RULES.md",
+        "status": "modified"
+      },
+      {
+        "path": "docs/GATES.md",
+        "status": "added"
+      },
+      {
+        "path": "docs/GOVERNANCE.md",
+        "status": "modified"
+      },
+      {
+        "path": "docs/PLANO_EXECUCAO_WO_KERNEL_DETERMINISTICO.md",
+        "status": "added"
+      },
+      {
+        "path": "packages/cli/drive_recursive_inventory.py",
+        "status": "modified"
+      },
+      {
+        "path": "packages/cli/requirements.txt",
+        "status": "modified"
+      },
+      {
+        "path": "tests/test_drive_recursive_inventory.py",
+        "status": "modified"
+      },
+      {
+        "path": "wf_probe.md",
+        "status": "added"
+      }
+    ]
+  },
+  "pr2": {
+    "base": "main",
+    "head": "cursor/fix-governance-gaps-ec54",
+    "status": "diverged",
+    "files_returned": 300,
+    "complete": false,
+    "reason": "COMPARE_API_LIMIT_300_FILES_NO_EXHAUSTIVE_INFERENCE"
+  },
+  "constraints": [
+    "NO_MERGE",
+    "NO_DELETE",
+    "NO_DRIVE_ACCESS",
+    "COMPARE_PR4_HISTORICAL_BASE_SHA_SEPARATELY"
+  ],
+  "state": "READ_ONLY_CANDIDATE_NOT_CLOSED"
+}
