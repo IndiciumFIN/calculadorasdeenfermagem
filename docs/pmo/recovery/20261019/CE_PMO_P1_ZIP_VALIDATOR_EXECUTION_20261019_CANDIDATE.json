@@ -1,0 +1,38 @@
+{
+  "schema_version": "CE-PMO-P1-ZIP-ASSURANCE-0.1.0",
+  "date": "2026-10-19",
+  "process": "P1",
+  "branch": "feat/ce-local-agent-assurance-20261019",
+  "commit": "f58a0b783b9654573f5784ddb7591fe0a7121848",
+  "git_sha_readbacks": 4,
+  "local_tests": {
+    "p1_zip": "16/16 PASS",
+    "surprise_zip_mutations": 30,
+    "previous_generic": "18/18 PASS",
+    "generic_mutations": 40
+  },
+  "github_ci": {
+    "id": 39328386770,
+    "conclusion": "success",
+    "url": "https://github.com/IndiciumFIN/calculadorasdeenfermagem/actions/runs/39328386770"
+  },
+  "objective": {
+    "archive_byte_integrity": "TESTED_SYNTHETIC",
+    "member_manifest_completeness": "TESTED_SYNTHETIC",
+    "source_universe_completeness": "UNTESTED_REAL_CORPUS",
+    "semantic_accuracy": "NOT_APPLICABLE_THIS_VALIDATOR"
+  },
+  "residual_risks": [
+    "MANIFEST_SOURCE_NOT_INDEPENDENT",
+    "ZIP_UNICODE_NAME_NORMALIZATION",
+    "ZIP_TIME_AND_RESOURCE_LIMITS_EXTERNAL",
+    "NESTED_ZIP_REQUIRES_HOLD",
+    "REAL_CORPUS_NOT_REPLAYED",
+    "GIT_BLOB_MAPPING_NOT_YET_IMPLEMENTED",
+    "AUTHENTICATED_KERNEL_NOT_ADMITTED"
+  ],
+  "state": "LOCAL_CANDIDATE_TESTED_P1_GLOBAL_OPEN",
+  "work_order_bootstrap_exception": true,
+  "productive_admission": false,
+  "main_changed": false
+}
