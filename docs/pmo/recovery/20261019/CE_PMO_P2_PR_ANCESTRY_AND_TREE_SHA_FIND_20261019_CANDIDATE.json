@@ -1,0 +1,160 @@
+{
+  "schema_version": "0.1.0-CANDIDATE",
+  "date": "2026-10-19",
+  "workstream": "P2",
+  "classification": "READ_ONLY_DOCUMENTARY_EVIDENCE_NOT_CANONICAL",
+  "sources": {
+    "manifest": {
+      "path": "docs/pmo/recovery/20261019/CE_PMO_GIT_BRANCH_TREES_P1CB_20261019_CANDIDATE.json",
+      "blob_sha": "98995b9391d4b51b8dad75a68ebac9d6283ba660"
+    },
+    "small_tree_report": {
+      "path": "docs/pmo/recovery/20261019/CE_PMO_P2_SMALL_TREES_MAIN_CROSSWALK_20261019_CANDIDATE.json",
+      "blob_sha": "60edd8189a16830e9f0c9305ca165329f30844d2"
+    },
+    "pr_metadata_method": "github_get_pr_info 2026-10-19; mutable PR refs must be repinned for future comparison"
+  },
+  "prs": [
+    {
+      "pr": 2,
+      "title": "Correção dos gaps de governança (GOV-001..008 + GAP-01..11)",
+      "state": "open",
+      "draft": true,
+      "merged": false,
+      "base_ref": "main",
+      "base_sha_reported": "8056d08a35cfb7932933fa330d8c902e5a465710",
+      "head_ref": "cursor/fix-governance-gaps-ec54",
+      "head_sha": "bb6debeef44a15964becd19990a502d7e0c0beaf",
+      "mergeable_observed": false,
+      "changed_files_reported": 0,
+      "url": "https://github.com/IndiciumFIN/calculadorasdeenfermagem/pull/2"
+    },
+    {
+      "pr": 3,
+      "title": "[STAGING / WO] CLI normativos v0.6.0 — 7 arquivos verificados (não homologado)",
+      "state": "open",
+      "draft": true,
+      "merged": false,
+      "base_ref": "main",
+      "base_sha_reported": "8056d08a35cfb7932933fa330d8c902e5a465710",
+      "head_ref": "staging/wo-kernel-normativos-cli-20261016",
+      "head_sha": "c54d416b7f4c8a465798ccbebad9973799dd07ab",
+      "mergeable_observed": true,
+      "changed_files_reported": 10,
+      "url": "https://github.com/IndiciumFIN/calculadorasdeenfermagem/pull/3"
+    },
+    {
+      "pr": 4,
+      "title": "refactor(drive): GDRIVE_SA_KEY + fix same-name acceptance + roots update",
+      "state": "open",
+      "draft": false,
+      "merged": false,
+      "base_ref": "cursor/fix-governance-gaps-ec54",
+      "base_sha_reported": "5f1c03d5ed2f2d4ed583431fc50adced2daba21b",
+      "head_ref": "cursor/drive-sa-key-refactor",
+      "head_sha": "fc857df8306b81915f191d3f0744f7a322047b21",
+      "mergeable_observed": true,
+      "changed_files_reported": 10,
+      "url": "https://github.com/IndiciumFIN/calculadorasdeenfermagem/pull/4"
+    },
+    {
+      "pr": 6,
+      "title": "[DRAFT] CE MIG PILOT — 9 políticas JSON (sem promoção)",
+      "state": "open",
+      "draft": true,
+      "merged": false,
+      "base_ref": "main",
+      "base_sha_reported": "e0f62491b104f4a97c6025a6393cabc2e7ada30e",
+      "head_ref": "migration/pilot-policies-20261017",
+      "head_sha": "2fc555f854c64b9d44f778805fbfca7675bd3cce",
+      "mergeable_observed": true,
+      "changed_files_reported": 9,
+      "url": "https://github.com/IndiciumFIN/calculadorasdeenfermagem/pull/6"
+    }
+  ],
+  "find_candidate": {
+    "alias": "P2-TREE-SHA-FIELD-MISLABEL",
+    "status": "OPEN_INVESTIGATION_CANDIDATE",
+    "category": "EVIDENCE_METADATA_INTEGRITY",
+    "description": "All 11 small-tree records use pinned commit SHA in observed_tree_sha rather than manifest tree SHA. Counts may remain correct but the tree attestation field is mislabeled or incorrectly populated.",
+    "affected_count": 11,
+    "records": [
+      {
+        "branch": "audit/ce04-reconciliation-tasks-20261017",
+        "reported_observed_tree_sha": "2a1250d2d5c8c159be2ede462306822c0cb70943",
+        "actual_pinned_tree_sha": "9917ecc6b8d2d8ae96f34a96c57b8bb6a116a307"
+      },
+      {
+        "branch": "cursor/wf-gdrive-sakey",
+        "reported_observed_tree_sha": "4e3d4979e3da82c9fc7ff71beaf87fba73aa8702",
+        "actual_pinned_tree_sha": "16548d1bc7e08033d5ea21f5742ce0cfe6b4bac2"
+      },
+      {
+        "branch": "cursor/wf-v3",
+        "reported_observed_tree_sha": "8056d08a35cfb7932933fa330d8c902e5a465710",
+        "actual_pinned_tree_sha": "2c74e968365835b2154a3a2e9abdaff165272040"
+      },
+      {
+        "branch": "fix/ce05-kernel-ci-security-20261017",
+        "reported_observed_tree_sha": "e1c9ace498b66ac831849ad1df51ee14e11e3efc",
+        "actual_pinned_tree_sha": "28f33af0b823337e464d5dbabd1b07538bfb5aef"
+      },
+      {
+        "branch": "IndiciumFIN-patch-1",
+        "reported_observed_tree_sha": "ccb21b7814211b80071dc0fd5f866aea7f285238",
+        "actual_pinned_tree_sha": "1bcd89c6bb5451a58771d9d87b15d6736e57f498"
+      },
+      {
+        "branch": "integration/canonical-main-20261017",
+        "reported_observed_tree_sha": "c704c3cf9241cde7697acb860e598bd01bd58cf5",
+        "actual_pinned_tree_sha": "51498347dd2ef858c66d346134e2ab08228f8012"
+      },
+      {
+        "branch": "main",
+        "reported_observed_tree_sha": "e0f62491b104f4a97c6025a6393cabc2e7ada30e",
+        "actual_pinned_tree_sha": "bf5be2752ccdabada2a1dc602a71c9a15338c504"
+      },
+      {
+        "branch": "migration/ce01-historical-evidence-b01-20261017",
+        "reported_observed_tree_sha": "4206865dc5f07f3ef4b36f04c2572b7224f713c1",
+        "actual_pinned_tree_sha": "eee754028b6d07181dce1f40ce944c3f7349c820"
+      },
+      {
+        "branch": "migration/pilot-policies-20261017",
+        "reported_observed_tree_sha": "2fc555f854c64b9d44f778805fbfca7675bd3cce",
+        "actual_pinned_tree_sha": "9b0095134d6ccb729b60c690399f226622bad65a"
+      },
+      {
+        "branch": "pmo/recovery-controlled-20261019",
+        "reported_observed_tree_sha": "142987e59bbce7c7278fac1c26d71f8dbc1172c7",
+        "actual_pinned_tree_sha": "51327fd6a1e81a0d731aa88c970c11559d2ea450"
+      },
+      {
+        "branch": "staging/wo-kernel-normativos-cli-20261016",
+        "reported_observed_tree_sha": "c54d416b7f4c8a465798ccbebad9973799dd07ab",
+        "actual_pinned_tree_sha": "9ec730337f7069825e76a76f7a0ff90275e3d8eb"
+      }
+    ],
+    "root_cause": "UNDETERMINED; investigate serializer/extraction mapping, do not presume",
+    "corrective_action": "Generate immutable reconciliation of commit SHA versus actual tree SHA for all 15; modify documentary field only under review; tests must reject commit-as-tree substitution",
+    "policy": "INV-QUEUE-POST-CLOSURE-001",
+    "new_task_disposition": "APPEND_TO_QUEUE_TAIL_AFTER_FIND_TRIAGE_AND_DUPLICATE_CHECK; DO_NOT_INSERT_MIDDLE; NO_AUTOMATIC_KERNEL_ADMISSION"
+  },
+  "pr_interpretation": {
+    "pr4_base_is_pr2_branch": true,
+    "pr2_pr4_divergent_paths": 8,
+    "semantic_decisions": "PRESERVE_BOTH_VERSIONS_AND_HOLD",
+    "deletion_22_vs_absence_42": "NOT_RECONCILED; DIFF_VS_SNAPSHOT_UNITS_DIFFER",
+    "pr3": "STAGING_INCOMPLETE_NOT_MERGED",
+    "pr6": "POLICY_PILOT_NOT_MERGED"
+  },
+  "governance": {
+    "main_mutated": false,
+    "queue_mutated": false,
+    "agent_runtime_mutated": false,
+    "productive_execution": false,
+    "kernel_receipt": null,
+    "homologation": "HOLD",
+    "next": "Investigate metadata FIELD mismatch; compare PR base/head/merge-base against frozen cutoffs; then per-path semantic variants and rights"
+  }
+}
