@@ -1,0 +1,27 @@
+{
+  "kind": "APPEND_ONLY_DOCUMENTARY_PUBLICATION_RECEIPT",
+  "receipt_id": "CE-PMO-P2P5-REUSE-011-20261019",
+  "branch": "pmo/recovery-controlled-20261019",
+  "repository": "IndiciumFIN/calculadorasdeenfermagem",
+  "final_commit_sha_before_receipt": "62a0fc5777ec2e195828033fef7d9d27624962ab",
+  "validation": {
+    "local_unit_tests": "53/53 PASS; crosswalk, anti-rework, guardian",
+    "pmo_queue_guard": "PASS_PREFLIGHT_ONLY",
+    "remote_exact_git_blob_sha_matches": "6/6",
+    "pmo_trusted": false,
+    "kernel_admission": "NOT_PROVEN",
+    "main_mutated": false
+  },
+  "final_publications": [
+    {"file": "CE_PMO_EXECUCAO_PARALELA_P2_P5_REUSE_20261019_CANDIDATE.json", "commit_sha": "880a0400c9e4991cbb89a2d2822cd8f3aeb7dc31"},
+    {"file": "ce_pmo_no_rework_agent_v01.py", "commit_sha": "a482ea7ea3e59053d3f0dfea997112972b86561a"},
+    {"file": "ce_pmo_inventory_guard_v01.py", "commit_sha": "0c9c29d25af66ec65f3552867a5ade6de3eccb9c"},
+    {"file": "test_ce_pmo_no_rework_agent_v01.py", "commit_sha": "0b172762c395597c6da6baf16589eee577f104de"},
+    {"file": "test_ce_pmo_inventory_guard_v01.py", "commit_sha": "a149982e6f49e05ffaad5c11408bcdfd70b7178b"},
+    {"file": "CE_PMO_REGISTRO_MESTRE_20261019_v0.1.0_CANDIDATE.json", "commit_sha": "62a0fc5777ec2e195828033fef7d9d27624962ab"}
+  ],
+  "findings_and_corrections": [
+    {"find_id": "FIND-PMO-CONTENT-ENCODING-20261019-01", "detected_by": "Independent local vs pinned remote Git blob SHA comparison", "finding": "Initial GitHub connector creates/updates accepted base64 characters as literal UTF-8 text, causing 6/6 remote blob hash mismatches", "containment": "No completion claimed; inspect and correct all six blobs on the recovery branch", "correction": "Replaced literal base64 with original UTF-8 file content using CAS update for each exact path", "validation": "6/6 remote Git tree SHA equals independent git hash-object local; no main merge", "learning": "This GitHub connector expects raw UTF-8 content, not base64; commit success is insufficient without exact blob readback"}
+  ],
+  "scope_note": "P2-P5 documentary linkage started only. Historical/source reconciliation and productive workflow remain held. Final user signoff remains pending."
+}
