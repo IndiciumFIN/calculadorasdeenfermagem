@@ -1,0 +1,148 @@
+{
+  "schema_version": "0.1.0-CANDIDATE",
+  "scope": "P2_PR2_PR4_EIGHT_DIVERGENT_PATHS_BLOB_CONTENT_TRIAGE",
+  "date": "2026-10-19",
+  "status": "EIGHT_OF_EIGHT_BLOBS_READ_AND_CLASSIFIED_BOUNDED_PASS_NO_PROMOTION",
+  "source_commits": {
+    "main": "e0f62491b104f4a97c6025a6393cabc2e7ada30e",
+    "pr2": "bb6debeef44a15964becd19990a502d7e0c0beaf",
+    "pr4": "fc857df8306b81915f191d3f0744f7a322047b21"
+  },
+  "items": [
+    {
+      "path": ".github/workflows/drive-recursive-collect.yml",
+      "pr2_blob_sha": "e448d61b6e32b488a3c0b27e30ac60071e72c030",
+      "pr4_blob_sha": "d1e1b7474ca932ad7789e42dc6e225288fa9ffc8",
+      "pr2_lines": 55,
+      "pr4_lines": 61,
+      "distinct_lines_only_pr2": 22,
+      "distinct_lines_only_pr4": 23,
+      "change_class": "WORKFLOW_AUTH_AND_REF_SCOPE",
+      "analytical_note": "PR4 adds SA key auth fallback and changes checkout ref and triggers; requires secret exposure and branch protection review",
+      "approval": "NOT_CANONICAL_BOTH_PRESERVED",
+      "required_next": "POLICY_VALIDATOR_AND_TASK_SPECIFIC_WO_WHERE_PRODUCTIVE; INDEPENDENT_TESTS"
+    },
+    {
+      "path": ".github/workflows/gate.yml",
+      "pr2_blob_sha": "f4c2aa75f75cc7034b62f4eb222e1bc7cf211767",
+      "pr4_blob_sha": "af1200fa211e58e4ef299a6fe9157291a121c9f2",
+      "pr2_lines": 169,
+      "pr4_lines": 46,
+      "distinct_lines_only_pr2": 119,
+      "distinct_lines_only_pr4": 26,
+      "change_class": "CI_GATE_TRIGGER_AND_CHECK_COVERAGE",
+      "analytical_note": "PR4 gate shrinks from main/pull_request/schedule to governance branch scope; potential reduction in production check coverage, not verified CI behavior",
+      "approval": "NOT_CANONICAL_BOTH_PRESERVED",
+      "required_next": "POLICY_VALIDATOR_AND_TASK_SPECIFIC_WO_WHERE_PRODUCTIVE; INDEPENDENT_TESTS"
+    },
+    {
+      "path": "config/drive_inventory_roots_20261016.json",
+      "pr2_blob_sha": "16144f105471fd45330922e028434faba3b57d16",
+      "pr4_blob_sha": "ce1e2eb6720aa84b1480f052409ed1088d42f214",
+      "pr2_lines": 30,
+      "pr4_lines": 22,
+      "distinct_lines_only_pr2": 4,
+      "distinct_lines_only_pr4": 0,
+      "change_class": "DRIVE_ROOT_SCOPE_REDUCTION",
+      "analytical_note": "PR4 removes ESTEIRA and GROK root entries, preserving CE_MASTER/CE_SITE; means narrower census, not deletion of sources",
+      "approval": "NOT_CANONICAL_BOTH_PRESERVED",
+      "required_next": "POLICY_VALIDATOR_AND_TASK_SPECIFIC_WO_WHERE_PRODUCTIVE; INDEPENDENT_TESTS"
+    },
+    {
+      "path": "docs/DETERMINISTIC_RULES.md",
+      "pr2_blob_sha": "9cce8e06be1eef68aa35e77a0e48fed974223ab5",
+      "pr4_blob_sha": "f3e8d31b1b64bb15bd72dc18af83f871b0d3a5ac",
+      "pr2_lines": 24,
+      "pr4_lines": 194,
+      "distinct_lines_only_pr2": 15,
+      "distinct_lines_only_pr4": 113,
+      "change_class": "GOVERNANCE_POLICY_EXPANSION",
+      "analytical_note": "PR4 adds prescriptive normative invariants absent in compact PR2 version; policy consistency and approval not established",
+      "approval": "NOT_CANONICAL_BOTH_PRESERVED",
+      "required_next": "POLICY_VALIDATOR_AND_TASK_SPECIFIC_WO_WHERE_PRODUCTIVE; INDEPENDENT_TESTS"
+    },
+    {
+      "path": "docs/GOVERNANCE.md",
+      "pr2_blob_sha": "347f0c221ced42e516cd77f5121b941d9d23b10c",
+      "pr4_blob_sha": "f5ad6908d6aaf51b72833b94f50e657a517eddc4",
+      "pr2_lines": 27,
+      "pr4_lines": 76,
+      "distinct_lines_only_pr2": 1,
+      "distinct_lines_only_pr4": 25,
+      "change_class": "GOVERNANCE_POLICY_EXPANSION",
+      "analytical_note": "PR4 adds GOV-001+ textual controls; mixed-language fragment spotted and source/code linkage requires validation",
+      "approval": "NOT_CANONICAL_BOTH_PRESERVED",
+      "required_next": "POLICY_VALIDATOR_AND_TASK_SPECIFIC_WO_WHERE_PRODUCTIVE; INDEPENDENT_TESTS"
+    },
+    {
+      "path": "packages/cli/drive_recursive_inventory.py",
+      "pr2_blob_sha": "6c5922672d23b1a6b17b1c2497aa20504582a76e",
+      "pr4_blob_sha": "41fa64d16ac98d15a06ec9c1d412563df787d8b7",
+      "pr2_lines": 140,
+      "pr4_lines": 299,
+      "distinct_lines_only_pr2": 60,
+      "distinct_lines_only_pr4": 170,
+      "change_class": "CRAWLER_AUTH_AND_IDENTITY_BEHAVIOR",
+      "analytical_note": "PR4 adds service account mechanism, token refresh and name/ID handling changes; read-only claim needs tests",
+      "approval": "NOT_CANONICAL_BOTH_PRESERVED",
+      "required_next": "POLICY_VALIDATOR_AND_TASK_SPECIFIC_WO_WHERE_PRODUCTIVE; INDEPENDENT_TESTS"
+    },
+    {
+      "path": "packages/cli/requirements.txt",
+      "pr2_blob_sha": "0f973431d2c5e5ba4708ff6aad8ef4ff79ce4fe0",
+      "pr4_blob_sha": "f57ac51785cad6f459110fc7b1be0ac11e26ed68",
+      "pr2_lines": 5,
+      "pr4_lines": 6,
+      "distinct_lines_only_pr2": 0,
+      "distinct_lines_only_pr4": 1,
+      "change_class": "DEPENDENCY_ADDITION",
+      "analytical_note": "PR4 adds google-auth dependency with version range; lock, supply chain and reproducibility review required",
+      "approval": "NOT_CANONICAL_BOTH_PRESERVED",
+      "required_next": "POLICY_VALIDATOR_AND_TASK_SPECIFIC_WO_WHERE_PRODUCTIVE; INDEPENDENT_TESTS"
+    },
+    {
+      "path": "tests/test_drive_recursive_inventory.py",
+      "pr2_blob_sha": "04c888a83f08d97aa415e4492cdc7fb4f3863246",
+      "pr4_blob_sha": "1ea659b46dd3e9228d55ff1a2958a721f3ed096c",
+      "pr2_lines": 143,
+      "pr4_lines": 152,
+      "distinct_lines_only_pr2": 3,
+      "distinct_lines_only_pr4": 13,
+      "change_class": "SAME_NAME_DISTINCT_IDS_TEST_CHANGE",
+      "analytical_note": "PR4 accepts same display path for two IDs; preserves distinct IDs but may create non-unique path names for downstream consumers",
+      "approval": "NOT_CANONICAL_BOTH_PRESERVED",
+      "required_next": "POLICY_VALIDATOR_AND_TASK_SPECIFIC_WO_WHERE_PRODUCTIVE; INDEPENDENT_TESTS"
+    }
+  ],
+  "derived_counts": {
+    "classified": 8,
+    "original_divergent_paths": 8,
+    "versions_read": 16,
+    "unresolved_semantic_release": 8
+  },
+  "find_candidates": [
+    {
+      "alias": "P2-GATE-SCOPE-DRIFT",
+      "observed_path": ".github/workflows/gate.yml",
+      "finding": "PR4 scope appears narrower than PR2 main/check gate; verify actual CI branch protection and workflow triggers",
+      "status": "INVESTIGATION_NO_PRODUCTION_CHANGE"
+    },
+    {
+      "alias": "P2-DUPLICATE-RELATIVE-PATH-IDENTITY",
+      "observed_path": "tests/test_drive_recursive_inventory.py",
+      "finding": "PR4 accepts distinct IDs mapped to identical relative paths; downstream keys/storage must use immutable IDs",
+      "status": "INVESTIGATION_NOT_CONCLUSION"
+    }
+  ],
+  "limitations": [
+    "NO_CI_EXECUTION",
+    "NO_GITHUB_RULESET_INSPECTION",
+    "NO_FULL_SECURITY_OR_LICENSE_REVIEW",
+    "NO_AUTHORITATIVE_POLICY_APPROVAL",
+    "NO_KERNEL_ADMISSION",
+    "NO_AUTO_CANONICAL_SELECTION"
+  ],
+  "mutation": false,
+  "queue_change": false,
+  "next": "P5 independent reproduction and per-path risk/control; P2-01 semantic decisions HOLD"
+}
