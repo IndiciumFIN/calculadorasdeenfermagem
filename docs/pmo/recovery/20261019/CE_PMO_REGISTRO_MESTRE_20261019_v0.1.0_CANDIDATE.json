@@ -9,9 +9,9 @@
   "project_execution_allowed": false,
   "pmo_control_revision": {
     "version": "0.2.0-CANDIDATE",
-    "change_id": "PMO-P1-P5-CROSS-WAVE-INVARIANTS-20261019-008",
+    "change_id": "PMO-P4-SOURCE65-RIGHTS61-P3-ERRATA-20261019-009",
     "supersedes_control_revision": "0.1.0",
-    "change_reason": "Repair stale 76-WO text in P3 queue and require cross-wave dispatch/source/hold agreement plus separate anti-rework admission for each P2-P5 documentary linkage; preserve all holds",
+    "change_reason": "Publish evidence-based P4 source/right crosswalk of 65 files, 61 source objects, 49 URLs with no false rights approval; append P3 historical 76-to-164 WO erratum; preserve all controls and holds",
     "control_state": "DOCUMENTARY_CONSOLIDATION_IN_PROGRESS",
     "release_state": "HOLD",
     "current_register_sha_attestation": "NOT_SELF_ATTESTED; REQUIRE_INDEPENDENT_GITHUB_FETCH_RECEIPT",
@@ -34,7 +34,7 @@
   "parallel_wave_plans": [
     {"wave": "P2", "source_ids": ["S-19", "S-23", "S-35"], "plan_state": "DOCUMENTARY_EXISTING_EVIDENCE_LINKED", "operational_state": "HOLD_KERNEL_FOR_MUTATIONS"},
     {"wave": "P3", "source_ids": ["S-20", "S-23", "S-33", "S-35"], "plan_state": "DOCUMENTARY_EXISTING_EVIDENCE_LINKED", "operational_state": "HOLD_KERNEL_FOR_RUNTIME"},
-    {"wave": "P4", "source_ids": ["S-21", "S-23", "S-35"], "plan_state": "DOCUMENTARY_EXISTING_EVIDENCE_LINKED", "operational_state": "M24_HOLD_AND_EXTRACTOR_KERNEL_HOLD"},
+    {"wave": "P4", "source_ids": ["S-21", "S-23", "S-35", "S-37"], "plan_state": "DOCUMENTARY_EXISTING_EVIDENCE_LINKED", "operational_state": "M24_HOLD_AND_EXTRACTOR_KERNEL_HOLD"},
     {"wave": "P5", "source_ids": ["S-22", "S-23", "S-35"], "plan_state": "DOCUMENTARY_EXISTING_EVIDENCE_LINKED", "operational_state": "HOLD_RELEASE_PENDING_P1_TO_P4"}
   ],
   "execution_queue_control": {
@@ -162,7 +162,8 @@
     {"source_id": "S-33", "kind": "PINNED_GITHUB_TASK_WO_METADATA", "ref": "CE_PMO_CROSSWALK_CE04_38_PR2_WO164_20261019_CANDIDATE.json", "cutoff": "2026-10-19", "evidence_status": "38_CE04_TASKS_164_WO_JSON_READBACK_0_DIRECT_ID_MATCHES"},
     {"source_id": "S-34", "kind": "DETERMINISTIC_TASK_WO_CROSSWALK_TESTS", "ref": "test_ce_pmo_crosswalk_wo_v01.py", "cutoff": "2026-10-19", "evidence_status": "6_TESTS_PASS_LOCAL_ONLY"},
     {"source_id": "S-35", "kind": "PARALLEL_DOCUMENTARY_EVIDENCE_LINKAGE", "ref": "CE_PMO_EXECUCAO_PARALELA_P2_P5_REUSE_20261019_CANDIDATE.json", "cutoff": "2026-10-19", "evidence_status": "FOUR_WAVES_SOURCE_LINKS_ONLY_NOT_PRODUCTIVE_COMPLETION"},
-    {"source_id": "S-36", "kind": "CROSS_WAVE_PMO_GUARDIAN_INDEPENDENT_VALIDATION", "ref": "ce_pmo_inventory_guard_v01.py; test_ce_pmo_inventory_guard_v01.py; CE_PMO_VALIDADOR_INDEPENDENTE_20261019.py; CE_PMO_FILA_EXECUCAO_P1_P5_20261019_CANDIDATE.json", "cutoff": "2026-10-19", "evidence_status": "59_UNIT_TESTS_22_INDEPENDENT_STATIC_PASSES_4_RELEASE_HOLDS"}
+    {"source_id": "S-36", "kind": "CROSS_WAVE_PMO_GUARDIAN_INDEPENDENT_VALIDATION", "ref": "ce_pmo_inventory_guard_v01.py; test_ce_pmo_inventory_guard_v01.py; CE_PMO_VALIDADOR_INDEPENDENTE_20261019.py; CE_PMO_FILA_EXECUCAO_P1_P5_20261019_CANDIDATE.json", "cutoff": "2026-10-19", "evidence_status": "59_UNIT_TESTS_22_INDEPENDENT_STATIC_PASSES_4_RELEASE_HOLDS"},
+    {"source_id": "S-37", "kind": "P4_PINNED_SOURCE_RIGHTS_CROSSWALK", "ref": "CE_PMO_P4_CROSSWALK_FONTES_61_ARQUIVOS_65_20261019_CANDIDATE.json; test_ce_pmo_p4_source_rights_crosswalk_v01.py", "cutoff": "2026-10-19", "evidence_status": "65_FILE_DESCRIPTOR_MATCHES_61_SOURCE_OBJECTS_49_URLS_61_RIGHTS_HOLD; NO_PER_RECORD_ATTRIBUTION_APPROVED"}
   ],
   "populations": [
     {"population_id": "POP-BRANCH", "unit": "BRANCH", "count": 14, "processed": null, "approved": null, "cutoff": "2026-10-19", "source_ids": ["S-02"], "status": "HISTORICAL_BEFORE_PMO_BRANCH_NOT_RECONCILED"},
