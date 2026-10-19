@@ -41,6 +41,13 @@ class InventoryGuardTests(unittest.TestCase):
         next(t for t in q["tasks"] if t["id"] == "P3-A")["action"] = "38 tasks and 76 PR2 WOs"
         self.assertIn("QUEUE_STALE_WO_COUNT", preflight(pmo=self.pmo, queue=q))
 
+    def test_evidenced_work_cannot_revert_to_not_started(self):
+        for task_id in ("P2-00", "P3-A", "P4-A"):
+            with self.subTest(task_id=task_id):
+                q = copy.deepcopy(self.queue)
+                next(t for t in q["tasks"] if t["id"] == task_id)["status"] = "READY_NOT_STARTED"
+                self.assertIn(f"QUEUE_STALE_EVIDENCED_STATUS:{task_id}", preflight(pmo=self.pmo, queue=q))
+
     def test_missing_parallel_wave_blocked(self):
         d = copy.deepcopy(self.dispatch)
         d["entries"].pop()
