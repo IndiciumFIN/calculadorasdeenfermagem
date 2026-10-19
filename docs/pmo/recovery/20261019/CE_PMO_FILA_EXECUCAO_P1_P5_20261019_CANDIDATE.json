@@ -23,6 +23,8 @@
     "scope_prohibitions": ["NO_DRIVE_ACCESS", "NO_MAIN", "NO_MERGE", "NO_DELETE", "NO_M24_RELEASE", "NO_UNADMITTED_ATOMIZATION", "SUPABASE_READ_ONLY"],
     "m24_isolation": "M24_HOLD_ONLY_RESERVED_FIVE; OTHER_DOCUMENTARY_AND_READ_ONLY_TASKS_CONTINUE; INDEPENDENT_NON_M24_EXECUTION_ONLY_WITH_TASK_SPECIFIC_WO_KERNEL_GATES; FINAL_USER_APPROVAL_AT_PROJECT_END",
     "m24_historical_milestone_disposition": "CLOSED_ADMINISTRATIVE_UNRECONSTRUCTIBLE_HISTORY; NO_NEW_WO_FROM_AGGREGATE_COUNT; P3_P4_P5_EXISTING_GATES_CONTINUE",
+    "post_closure_discovery_invariant": "INV-QUEUE-POST-CLOSURE-001; FIND_INVESTIGATE_ROOT_CAUSE_CORRECT_ENQUEUE_TAIL_BEFORE_FINAL_HOMOLOGATION; NO_REOPEN_NO_REEXECUTION_NO_GLOBAL_QUEUE_BLOCK",
+    "final_homologation": "OUTSIDE_EXECUTION_QUEUE_AFTER_ALL_TASKS; FINAL_USER_APPROVAL_PENDING",
     "progress": "Only report numerator/denominator for homogeneous verified populations; no project-level percentage",
     "receipt": "Record branch HEAD precondition, SHA256 or Git blob SHA, commit and exact postcommit readback in external append-only receipt",
     "preservation": "Never infer 1284 lost files; preserve ZIP blobs, variant versions, font paths and ambiguous rights/licensing",
@@ -105,11 +107,18 @@
       "evidence_required": ["closure population", "gate tests", "risk and exception inventory", "approval responsibility"],
       "acceptance": "No final release without validated Kernel, CI, E2E, rights/clinical evidence and final user approval",
       "release_gate": "G-PMO-08"
+    },
+    {
+      "id": "POST-001", "wave": "POST_CLOSURE_BEFORE_HOMOLOGATION", "owner_role": "PMO-RECONCILER", "mode": "READ_ONLY", "status": "READY_NOT_STARTED", "depends_on": [],
+      "origin_find_id": "FIND-PMO-SNAPSHOT-CUTOFF-AMBIGUITY-20261019", "discovered_after_closure": true,
+      "prior_closed_reference": "P1-A-FROZEN-HISTORIC-SCAN", "investigation": "Separate 768 frozen count, legacy 771 post-scan commentary and 823 new private snapshot by immutable cutoff; compare exact per-item paths only when original manifest exists", "root_cause": "AGGREGATE_SNAPSHOT_COUNTS_WITHOUT_EXPLICIT_INDIVIDUAL_CUTOFF_CHAIN", "correction": "Append cross-cutoff register with evidence-limited deltas and explicit unknown identities; preserve old receipts and original baseline", "source_refs": ["S-13", "S-39"], "affected_scope": "P1 historical inventory custody only", "enqueue_position": "TAIL", "execution_order": 1,
+      "action": "Confront snapshot cutoff lineage only; do not rescan closed P1-A or claim 55 files newly added", "evidence_required": ["frozen baseline", "new snapshot timestamp", "per-item hash manifest where recoverable", "hold exceptions", "append-only readback"], "acceptance": "All three numbers bounded by independent cutoffs; no retroactive filename or SHA fabrication", "release_gate": "G-PMO-01"
     }
   ],
   "finds": [
     {"id": "P1-FIND-GIT-ZIP-UNMATCHED", "type": "INVESTIGATION", "severity": "UNDETERMINED", "observation": "1284 distinct ZIP-member payloads have no identical individual Git blob in 15 pinned branch tips", "prohibited_conclusion": "DATA_LOSS_PROVEN", "owner_task": "P1-CD-01"},
     {"id": "P2-FIND-DELETION-QUARANTINE", "type": "PRESERVATION_GUARD", "observation": "22 proposed deletions need evidence-based case disposition", "owner_task": "P2-01"},
-    {"id": "P3-FIND-NONPERSISTENT-AGENTS", "type": "CONTROL_DESIGN_GAP", "observation": "Specialist planning agents and local CLI tests are not continuously enforced runtime controls", "owner_task": "P3-B"}
+    {"id": "P3-FIND-NONPERSISTENT-AGENTS", "type": "CONTROL_DESIGN_GAP", "observation": "Specialist planning agents and local CLI tests are not continuously enforced runtime controls", "owner_task": "P3-B"},
+    {"id": "FIND-PMO-SNAPSHOT-CUTOFF-AMBIGUITY-20261019", "type": "POST_CLOSURE_FIND", "observation": "Master's original 768 frozen scan and 771 interim aggregate precede a 823 timestamped private snapshot; cutoff relationships are not represented as immutable per-item deltas", "investigation": "Original 768 per-item manifest absent; 823 private copy exact readback verified", "root_cause": "AGGREGATE_SNAPSHOT_COUNTS_WITHOUT_EXPLICIT_INDIVIDUAL_CUTOFF_CHAIN", "correction": "Add lineage-only cutoff register with unknown delta held, without reexecuting P1-A", "owner_task": "POST-001"}
   ]
 }
