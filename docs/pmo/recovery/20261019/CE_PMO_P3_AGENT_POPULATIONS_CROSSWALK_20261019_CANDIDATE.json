@@ -1,0 +1,50 @@
+{
+  "schema_version": "0.1.0-CANDIDATE",
+  "workstream": "P3",
+  "status": "READ_ONLY_CENSUS_NO_KERNEL_ADMISSION",
+  "source_refs": [
+    {
+      "branch": "cursor/fix-governance-gaps-ec54",
+      "path": "agents/registry.json",
+      "blob_sha": "6c94be5e8a319f8999e224c9891ba4bc7571e17c"
+    },
+    {
+      "branch": "pmo/recovery-controlled-20261019",
+      "path": "docs/pmo/recovery/20261019/CE_PMO_AGENT_REGISTRY_20261019_CANDIDATE.json",
+      "blob_sha": "6156c083b85c285f9acb438ea385344e71201a07"
+    },
+    {
+      "branch": "pmo/recovery-controlled-20261019",
+      "path": "docs/pmo/recovery/20261019/CE_PMO_CROSSWALK_CE04_38_PR2_WO164_20261019_CANDIDATE.json",
+      "blob_sha": "69d9422dbf585d66b741689f8cdce35c5bccc1bd"
+    }
+  ],
+  "populations": {
+    "legacy_agent_records": 110,
+    "pmo_role_ids": 23,
+    "legacy_recert_status": {
+      "vigente": 2,
+      "candidato": 108
+    },
+    "exact_legacy_pmo_id_intersection": 0,
+    "legacy_pmo_exact_ids": [],
+    "ce04_task_records": 38,
+    "pr2_wo_json_records": 164,
+    "pr2_preauthorized_declared": 161,
+    "pr2_unspecified": 3,
+    "ce04_wo_exact_task_id_matches": 0
+  },
+  "state_rules": {
+    "all_legacy_recert_status": "DECLARATION_NOT_AUTHORITY",
+    "pmo_agents": "DOCUMENTARY_NOT_DEPLOYED",
+    "legacy_pmo_matching_names": "NO_AUTO_ALIAS_ON_SIMILARITY",
+    "requires_independent_review": true
+  },
+  "gates": {
+    "p3a": "PARTIAL",
+    "p3b": "PARTIAL",
+    "kernel": "HOLD",
+    "pmo_final": "8_OF_8_HOLD"
+  },
+  "next_action": "RECONCILE_CONTRACTS_BY_FAMILY_AND_FETCH_RUNTIME_TEST_EVIDENCE"
+}
