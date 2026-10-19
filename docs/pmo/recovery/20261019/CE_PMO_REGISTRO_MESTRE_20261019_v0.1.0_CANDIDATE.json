@@ -7,6 +7,19 @@
   "state": "CANDIDATE_NOT_CANONICAL",
   "pmo_trusted": false,
   "project_execution_allowed": false,
+  "preservation_readback": {
+    "branch": "pmo/recovery-controlled-20261019",
+    "base_main_sha": "e0f62491b104f4a97c6025a6393cabc2e7ada30e",
+    "remote_only_pmo_candidate": true,
+    "documents": [
+      {"path": "docs/pmo/recovery/20261019/CE_PMO_BASELINE_CONTROLE_20261019_CANDIDATE.md", "commit_sha": "7feceb50dd46e4596b67f81dd0d9fd5e885a2e24", "git_blob_sha": "15fd6786dfa0e0671916b1c60a474b0539cb8aaa", "readback": "EXACT_CONTENT_MATCH"},
+      {"path": "docs/pmo/recovery/20261019/CE_PMO_REGISTRO_MESTRE_20261019_v0.1.0_CANDIDATE.json", "commit_sha": "7ae212e929c2c207f095d09bc2753df1827cfcb9", "git_blob_sha": "b33c13320688afcd90745a76a0a5424fc0ca0609", "readback": "MATCH_PREVIOUS_VERSION_SUPERSEDED_BY_THIS_UPDATE"},
+      {"path": "docs/pmo/recovery/20261019/ce_pmo_inventory_local_v01.py", "commit_sha": "2f645eac87788530e05bfb619712f05229409d22", "git_blob_sha": "04850d485832e8f8a76d57eb396f4abfbe64c8ca", "readback": "EXACT_CONTENT_MATCH"}
+    ],
+    "full_inventory_145_files": "LIBRARY_PRESERVED; HOLD_PUBLIC_METADATA_SCREENING",
+    "main_mutated": false,
+    "kernel_admission": "EXCEPTION_PMO_DOCUMENTARY_PRESERVATION_ONLY"
+  },
   "pmo_preservation_exception": {
     "authorized_by": "user_in_conversation_2026-10-19",
     "scope": "DOCUMENTARY_PMO_RECOVERY_ONLY",
