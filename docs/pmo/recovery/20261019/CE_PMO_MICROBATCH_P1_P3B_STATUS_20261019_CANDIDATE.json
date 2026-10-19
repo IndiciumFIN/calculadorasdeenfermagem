@@ -1,0 +1,62 @@
+{
+  "schema_version": "0.1.0-CANDIDATE",
+  "date": "2026-10-19",
+  "branch": "feat/ce-local-agent-assurance-20261019",
+  "mode": "DOCUMENTARY_BOOTSTRAP_NO_WO_KERNEl_ADMISSION",
+  "baseline_head": "8826bc59d65ea2fad8744884d0b627a63fec6cd1",
+  "microtasks": [
+    {
+      "id": "P1-D-CENSUS-GATE",
+      "status": "DONE_DOCUMENTARY_HOLD_UNRESOLVED",
+      "commit": "687d84635873697e445fea04ea71aa8bb5efe9e3",
+      "readback_blob": "23f836ce3b584cde6acfc77c7df1f62f7d90496d",
+      "path": "docs/pmo/recovery/20261019/CE_PMO_P1_INDEPENDENT_COMPLETENESS_HOLD_20261019_CANDIDATE.json",
+      "affected_task": "P1-D-01",
+      "effect": "HOLD_DEPENDENCY; not completed"
+    },
+    {
+      "id": "P3-B-STATIC-FIND",
+      "status": "DONE_DOCUMENTARY_FIND_OPEN",
+      "commit": "ad355e4bab660ff8e0fa1b0e2c644f4389430513",
+      "readback_blob": "33f0eaa71e509fb3da6dbd5aaf731a0cff39005e",
+      "path": "docs/pmo/recovery/20261019/CE_PMO_P3B_KERNEL_VALIDATOR_FIND_20261019_CANDIDATE.json",
+      "affected_task": "P3-B",
+      "effect": "Open FIND; source-level evidence only"
+    }
+  ],
+  "pending": [
+    {
+      "task": "P1-CD-01",
+      "blocker": "per-object immutable source metadata unavailable in published aggregates"
+    },
+    {
+      "task": "P1-D-01",
+      "blocker": "independently authenticated 768-object path/hash/source manifest absent"
+    },
+    {
+      "task": "P3-B",
+      "blocker": "14 M20 executor sources unlocated; isolated runtime replay and policy/WO gates still required"
+    },
+    {
+      "task": "P2-01",
+      "blocker": "pinned tree/PR per-path 22 exclusions formal classification pending"
+    }
+  ],
+  "next_eligible": [
+    "P3-B isolated runtime verifier and test negative cases",
+    "P4-D official normative crosswalk read-only",
+    "P2-01 per-path evidence read-only when sufficient refs"
+  ],
+  "governance": {
+    "no_repeat_completed_work": true,
+    "existing_find_reused": "P1-FIND-GIT-ZIP-UNMATCHED",
+    "new_find": "P3-FIND-KERNEL-VALIDATOR-REGISTRY-20261019",
+    "no_main": true,
+    "no_merge": true,
+    "no_wo_claim": true,
+    "admission_later_required": true,
+    "source_of_truth": "pinned Git repository evidence; Supabase comparison-only"
+  },
+  "project_level_percent": null,
+  "homologation": "HOLD"
+}
