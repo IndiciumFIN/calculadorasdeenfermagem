@@ -1,0 +1,45 @@
+{
+  "schema_version": "0.1.0-CANDIDATE",
+  "cutoff": "2026-10-19",
+  "type": "GITHUB_READBACK_RECEIPT",
+  "branch": "pmo/recovery-controlled-20261019",
+  "verified_head_before_receipt": "76fc827feffe4e5825d32ed42f542e960a62e34f",
+  "documentary_commits_verified": [
+    {
+      "commit": "5b9334d19ff43c513f8a7a8b43de263577605b7d",
+      "path": "docs/pmo/recovery/20261019/CE_PMO_P3_AGENTES_CENSO_IMPLEMENTACOES_20261019_CANDIDATE.md",
+      "blob_sha": "48139d1e22865ebe1f8ccf49ad9748911be53de7"
+    },
+    {
+      "commit": "02a580abae546692102dc4ab913c8ea66eed0a66",
+      "path": "docs/pmo/recovery/20261019/CE_PMO_P3_G0_PATCH_PREFLIGHT_20261019_CANDIDATE.md",
+      "blob_sha": "2bff55882e8e0e36b1bd3068b0d9539ee3ab95a0"
+    },
+    {
+      "commit": "76fc827feffe4e5825d32ed42f542e960a62e34f",
+      "path": "docs/pmo/recovery/20261019/CE_PMO_P4_P5_READBACK_REUSE_20261019_CANDIDATE.md",
+      "blob_sha": "36214c7d776b18d973fa6cb2c4ae3df2de5921e2"
+    }
+  ],
+  "wo_g0": {
+    "ref": "fix/ce05-kernel-ci-security-20261017",
+    "path": "contracts/wo/WO-G0-CORRECTIVE-20261017.json",
+    "blob_sha": "f5743b450e71980086bb1c5d9effd65d5493216c",
+    "status": "DRAFT_NOT_ADMITTED",
+    "admission_decision": "NOT_REQUESTED",
+    "kernel_evidence": null,
+    "task_g0_a": "PENDING",
+    "task_g0_b": "BLOCKED_ADMISSION"
+  },
+  "core_source": {
+    "ref": "main",
+    "path": "packages/cli/kernel/core.py",
+    "blob_sha": "7649f6e1f0160184e1014308cc05c90a5eb659e9"
+  },
+  "conclusion": "DOCUMENTARY_PERSISTENCE_CONFIRMED_PRODUCTIVE_KERNEL_PATCH_NOT_COMMITTED",
+  "task_state_change": false,
+  "queue_change": false,
+  "main_mutated": false,
+  "gates": "EIGHT_HOLD",
+  "next_action": "TASK_G0_A_POLICY_VALIDATOR_WO_KERNEL_ADMISSION_EVIDENCE_THEN_TASK_G0_B_PATCH_TESTS"
+}
