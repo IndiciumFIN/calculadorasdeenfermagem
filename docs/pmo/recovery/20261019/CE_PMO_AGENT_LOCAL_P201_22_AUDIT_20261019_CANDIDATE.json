@@ -1,0 +1,29 @@
+{
+  "schema_version": "0.1.0-CANDIDATE",
+  "agent_id": "P5-INDEPENDENT-AUDITOR",
+  "task": "P2-01",
+  "mode": "LOCAL_DETERMINISTIC_NONPRODUCTIVE",
+  "status": "PASS_BOUNDED",
+  "original_count": 22,
+  "removal_count": 22,
+  "missing_originals": [],
+  "git_sha1_content_verified": false,
+  "scope": "PATH_AND_GIT_SHA1_FORMAT_ONLY",
+  "source_manifest": "CE_PMO_P201_22_ORIGINAL_BLOBS_PINNED_20261019_CANDIDATE.json",
+  "source_blob_sha": "5aa65c6b7195ed2cedbec192e16c3ab9bde49a32",
+  "main_pin_sha": "e0f62491b104f4a97c6025a6393cabc2e7ada30e",
+  "local_tests": {
+    "original_microagents": 8,
+    "new_git_manifest_guard": 5,
+    "combined_pass": 13,
+    "failed": 0
+  },
+  "limitations": [
+    "Tested metadata copied from the GitHub manifest, not raw Git blobs",
+    "P2-01 remains open; comparisons and approvals outstanding",
+    "No kernel receipt, no permission to merge/delete/promote"
+  ],
+  "implementation_local": "/mnt/data/ce_local_agents/git_manifest_guard.py",
+  "task_state_changed": false,
+  "production_modified": false
+}
