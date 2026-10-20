@@ -1,0 +1,51 @@
+{
+  "schema_version": "0.1.0-CANDIDATE",
+  "date": "2026-10-19",
+  "decision_type": "OWNER_CONDITIONAL_AUTHORIZATION",
+  "state": "RECORDED_CANDIDATE_NOT_KERNEL_ADMITTED",
+  "scope": "BULK_FILE_REMOVAL_FROM_ACTIVE_GIT_TREE_ONLY",
+  "source": "Direct owner instruction in CE continuation conversation, 2026-10-19 20:46 America/Sao_Paulo",
+  "authorized_actor": [
+    "DETERMINISTIC_CLI",
+    "SPECIALIST_AGENT",
+    "LLM_ORCHESTRATED_AGENT"
+  ],
+  "authority_condition": "EACH_PRECISE_REMOVAL_WO_MUST_BE_VALIDATED_AND_ADMITTED_BY_AUTHORITATIVE_KERNEL_BEFORE_EXECUTION",
+  "existing_controls": {
+    "quarantine": "CE_PMO_P201_REMOVAL_QUARANTINE_20261019_CANDIDATE.json",
+    "finding": "P2-FIND-DELETION-QUARANTINE",
+    "context_recovery": "CE_PMO_GOVERNANCE_CONTEXT_RECOVERY_AND_RETENTION_AUDIT_20261019_CANDIDATE.json",
+    "policy_conflict": "Existing 26_CI_GATE_POLICY.rego candidate blocks destructiveCanonicalOperationDetected; controlled explicit version supersession required before allow"
+  },
+  "preconditions": [
+    "Applicable approved and versioned policy with explicit, scoped active-tree removals and deny-by-default outside permitted paths",
+    "Existing FIND linkage, root cause, affected tasks, decision record, impact and risk analysis",
+    "Manifest of exact repository, branch, pinned HEAD, paths, original Git blob IDs and content hashes",
+    "Classification PASS for removal including completeness/accuracy/duplicates, provenance, licensing, security, downstream references and protection of valid canonical content",
+    "Fail-closed validator with positive and negative adversarial cases including changed HEAD, broadened glob, missing blob, reintroduced dependency, inconsistent policies, invalid authority and fabricated Kernel receipt",
+    "Formal WO specifying exact manifest digest, approver conditions, rollback, tests and idempotency",
+    "Authentic Kernel admission readback bound cryptographically or by verifiable identifier to exact policy, WO, manifest, actor and branch",
+    "Isolated dry-run, independent assurance, test of restoration from pinned commit and verified retention of original Git history/refs",
+    "Execution ONLY in admitted branch and exact allowlisted paths; no deletion when target changes after admission",
+    "Post-write readback, immutable register of deleted active-tree entries, commit IDs, before/after hashes, tests and residual risks",
+    "Promotion to main governed separately by approved PR and release gates"
+  ],
+  "explicit_denials": [
+    "Branch deletion by any automated agent or CLI",
+    "History deletion/rewrite, filter-repo, rebase that rewrites published refs, force push and ref replacement",
+    "Broad directories, patterns or unpinned manifests without exact target proof",
+    "Deletion inferred only from duplicate filenames, compare API removals or unverified Git recoverability",
+    "Deletion without authoritative Kernel admission receipt or using solely offline candidate policy/test results"
+  ],
+  "exception": "History/branch deletion is OUT_OF_SCOPE; any future exception is HUMAN_ONLY, separate and explicit authorization, not derivable from this decision",
+  "old_quarantine_status": "22 proposed removals remain QUARANTINED until independent per-path decision and Kernel admission; no blanket approval",
+  "instruction_for_policy_supersession": "Reconcile existing candidate retention/CI policies, amend relevant validator/schema/CI gate and seek separate Kernel admission. Never silently bypass original deny policy.",
+  "execution_state": {
+    "bulk_file_deletion": "NOT_EXECUTED",
+    "branch_deletion": "NOT_EXECUTED",
+    "history_rewrite": "NOT_EXECUTED",
+    "kernel_receipt": "NOT_PRESENT",
+    "main_change": "NONE"
+  },
+  "required_pmo_status": "OWNER_CONDITIONAL_AUTHORIZATION_RECORDED_IMPLEMENTATION_HOLD_KERNEL"
+}
