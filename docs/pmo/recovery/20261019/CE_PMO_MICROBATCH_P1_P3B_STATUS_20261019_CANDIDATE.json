@@ -126,5 +126,30 @@
     "branches_history_rewrites": "OUT_OF_SCOPE_HUMAN_ONLY_SEPARATE_EXCEPTION",
     "existing_quarantine": "22 proposed removals unchanged; decision per path still required",
     "policy_conflict": "Existing CI deletion deny must be explicitly superseded; no auto bypass"
+  },
+  "removal_validator_candidate_20261020": {
+    "status": "STRUCTURAL_ONLY_TESTED_EXECUTION_HOLD",
+    "validator_commit": "da8f3d2c649454e16c3919463a2560969397e19f",
+    "validator_blob": "11f001b3185e08abfbe9f9a40725c90e50a80190",
+    "tests_commit": "7afc84f55683e32c6b0e88863f867923eb80180b",
+    "report_blob": "091027b864c299d14f03970fdb2ab0fc1a5314a4",
+    "isolated_test_matrix": "18/18 scenarios expected (17 negatives + 1 hypothetical positive)",
+    "executive_gate": "HOLD: test preflight always sets executionAuthorized=false; receipt is not independently verified",
+    "existing_finds": [
+      "P2-FIND-DELETION-QUARANTINE",
+      "P3-FIND-KERNEL-VALIDATOR-REGISTRY-20261019"
+    ],
+    "queued_before_removal": [
+      "Controlled CI deny policy supersession",
+      "Authenticated Kernel receipt verifier and complete WO admission",
+      "Per-path 22-quarantine exact blob/dependency/rights review",
+      "Runtime CLI CI independent verification"
+    ],
+    "policy_refs": [
+      "NIST SP 800-53 rev 5 CM-3 CM-4 CM-5",
+      "GitHub branch rulesets",
+      "OpenSSF Scorecard branch protection"
+    ],
+    "no_automatic_history_or_branch_deletion": true
   }
 }
