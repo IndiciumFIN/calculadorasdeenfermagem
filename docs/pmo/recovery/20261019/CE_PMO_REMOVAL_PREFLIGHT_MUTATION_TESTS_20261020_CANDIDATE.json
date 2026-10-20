@@ -1,0 +1,213 @@
+{
+  "schema_version": "0.1.0-CANDIDATE",
+  "date": "2026-10-20",
+  "task": "CTX-04-STRUCTURAL-PREFLIGHT",
+  "state": "STRUCTURAL_VALIDATOR_TESTED_NO_KERNEL_ADMISSION",
+  "branch": "feat/ce-local-agent-assurance-20261019",
+  "validator": {
+    "path": "docs/pmo/recovery/20261019/validators/ce_active_tree_removal_preflight_v0_1_candidate.cjs",
+    "blob": "11f001b3185e08abfbe9f9a40725c90e50a80190",
+    "commit": "da8f3d2c649454e16c3919463a2560969397e19f",
+    "scope": "Pure, standalone candidate preflight. Never returns executionAuthorized=true."
+  },
+  "tests": {
+    "runner": "V8 isolated function test against same source used for GitHub publication; not Node CLI/CI/integration",
+    "total": 18,
+    "expected_matches": 18,
+    "false_approvals_observed_in_declared_negative_cases": 0,
+    "scenarios": [
+      {
+        "id": "control",
+        "expected": true,
+        "actual": true,
+        "error_codes": []
+      },
+      {
+        "id": "no_wo",
+        "expected": false,
+        "actual": false,
+        "error_codes": [
+          "WO_NOT_ADMITTED"
+        ]
+      },
+      {
+        "id": "wrong_receipt",
+        "expected": false,
+        "actual": false,
+        "error_codes": [
+          "KERNEL_RECEIPT_BINDING_INVALID"
+        ]
+      },
+      {
+        "id": "missing_evidence",
+        "expected": false,
+        "actual": false,
+        "error_codes": [
+          "EVIDENCE_MISSING_securityReviewPassed"
+        ]
+      },
+      {
+        "id": "history",
+        "expected": false,
+        "actual": false,
+        "error_codes": [
+          "HISTORY_BRANCH_OPERATION_DENIED"
+        ]
+      },
+      {
+        "id": "branch_deletion",
+        "expected": false,
+        "actual": false,
+        "error_codes": [
+          "HISTORY_BRANCH_OPERATION_DENIED"
+        ]
+      },
+      {
+        "id": "unpinned_head",
+        "expected": false,
+        "actual": false,
+        "error_codes": [
+          "PINNED_HEAD_MISMATCH"
+        ]
+      },
+      {
+        "id": "glob",
+        "expected": false,
+        "actual": false,
+        "error_codes": [
+          "UNSAFE_PATH"
+        ]
+      },
+      {
+        "id": "traversal",
+        "expected": false,
+        "actual": false,
+        "error_codes": [
+          "UNSAFE_PATH"
+        ]
+      },
+      {
+        "id": "blob_swap",
+        "expected": false,
+        "actual": false,
+        "error_codes": [
+          "BLOB_MISMATCH"
+        ]
+      },
+      {
+        "id": "duplicate",
+        "expected": false,
+        "actual": false,
+        "error_codes": [
+          "DUPLICATE_PATH"
+        ]
+      },
+      {
+        "id": "wrong_repo",
+        "expected": false,
+        "actual": false,
+        "error_codes": [
+          "REPOSITORY_MISMATCH"
+        ]
+      },
+      {
+        "id": "default_branch",
+        "expected": false,
+        "actual": false,
+        "error_codes": [
+          "BRANCH_NOT_ISOLATED",
+          "DEFAULT_BRANCH_DIRECT_WRITE_DENIED",
+          "KERNEL_RECEIPT_BINDING_INVALID"
+        ]
+      },
+      {
+        "id": "no_restoration",
+        "expected": false,
+        "actual": false,
+        "error_codes": [
+          "EVIDENCE_MISSING_rollbackRestoreTestPassed"
+        ]
+      },
+      {
+        "id": "unapproved_item",
+        "expected": false,
+        "actual": false,
+        "error_codes": [
+          "FILE_NOT_APPROVED"
+        ]
+      },
+      {
+        "id": "receipt_actor_claim_only",
+        "expected": false,
+        "actual": false,
+        "error_codes": [
+          "KERNEL_RECEIPT_BINDING_INVALID"
+        ]
+      },
+      {
+        "id": "empty_manifest",
+        "expected": false,
+        "actual": false,
+        "error_codes": [
+          "INVALID_MANIFEST_POPULATION"
+        ]
+      },
+      {
+        "id": "license_block",
+        "expected": false,
+        "actual": false,
+        "error_codes": [
+          "EVIDENCE_MISSING_licenseReviewPassed"
+        ]
+      }
+    ]
+  },
+  "controls": [
+    {
+      "ref": "NIST SP 800-53 Rev 5 CM-3, CM-4, CM-5, AU-12",
+      "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+      "use": "Change control, impact analysis, restriction, logging",
+      "mapping_type": "engineering_inference"
+    },
+    {
+      "ref": "GitHub rulesets",
+      "url": "https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/available-rules-for-rulesets",
+      "use": "Protect branches, restrict deletions and force pushes",
+      "mapping_type": "documented_platform_mechanism"
+    },
+    {
+      "ref": "GitHub file deletion",
+      "url": "https://docs.github.com/en/rest/repos/contents",
+      "use": "Deletion applies to path content with SHA in a branch, separate from branch/history removal",
+      "mapping_type": "documented_platform_mechanism"
+    },
+    {
+      "ref": "OpenSSF Scorecard checks",
+      "url": "https://github.com/ossf/scorecard/blob/main/docs/checks.md",
+      "use": "Branch protection and code review are relevant supply-chain practices",
+      "mapping_type": "documented_tool_checks"
+    }
+  ],
+  "existing_policy_conflict": "26_CI_GATE_POLICY.rego denies destructiveCanonicalOperationDetected; must be explicitly versioned and superseded for active-tree file removals only. Current candidate cannot override existing deny.",
+  "critical_limitations": [
+    "This tool performs STRUCTURAL checks only; caller-provided issuer and VERIFIED_EXTERNALLY string are NOT proof of authoritative Kernel receipt or cryptographic signature.",
+    "Kernel receipt cryptographic validation, policy registry binding, immutable manifest digest recomputation, signed authorization and credentials still MISSING.",
+    "Full GitHub tree/commit graph mutation simulation, rollback tests, PR checks, real workflow and CI invocation NOT RUN.",
+    "18/18 is limited to declared fixture cases; does not establish general correctness, zero risk or complete coverage.",
+    "The valid fixture is hypothetical, not evidence that any real WO was admitted."
+  ],
+  "next_tasks": [
+    "Design and test authoritative verifier of receipt and policy registry; no self-asserted verification",
+    "Crosswalk/supersede deny policy in controlled version",
+    "Construct concrete per-path manifest for 22 quarantined paths with SHA/readbacks and dependency map",
+    "Admit formal WO in live Kernel",
+    "Execute guarded dry-run and independent audit before any productive remove"
+  ],
+  "state_after": {
+    "production_deletion": "NONE",
+    "branches_deleted": "NONE",
+    "history_modified": "NONE",
+    "wo_kernel_admitted": "NO",
+    "main_changed": "NO"
+  }
+}
