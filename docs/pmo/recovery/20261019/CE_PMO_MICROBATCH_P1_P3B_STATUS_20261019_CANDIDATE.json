@@ -116,5 +116,15 @@
     "active_tree_removal": "REQUIRES_ADMITTED_POLICY_VALIDATOR_TASK_WO_KERNEL",
     "uncommitted_work": "823 later local inventory individual bytes persistence NOT_PROVEN; recovered Library candidate policies",
     "deletion_performed": false
+  },
+  "owner_bulk_file_removal_authorization": {
+    "status": "CONDITIONAL_AUTHORIZATION_RECORDED_NOT_ADMITTED_NOT_EXECUTED",
+    "source_commit": "7bce1e8b1a8578b8c730a21a8c9681e8e1e75fc5",
+    "policy_candidate_path": "docs/pmo/recovery/20261019/CE_POLICY_BULK_ACTIVE_TREE_REMOVAL_OWNER_AUTHORIZATION_20261019_CANDIDATE.json",
+    "policy_blob_sha": "d5063d2b6f198fd01d9784be0e1e04a28d13ee66",
+    "permitted_after": "WO per immutable path manifest, validated by applicable admitted policy and Kernel authentic receipt, exact isolated removal, independent audit",
+    "branches_history_rewrites": "OUT_OF_SCOPE_HUMAN_ONLY_SEPARATE_EXCEPTION",
+    "existing_quarantine": "22 proposed removals unchanged; decision per path still required",
+    "policy_conflict": "Existing CI deletion deny must be explicitly superseded; no auto bypass"
   }
 }
