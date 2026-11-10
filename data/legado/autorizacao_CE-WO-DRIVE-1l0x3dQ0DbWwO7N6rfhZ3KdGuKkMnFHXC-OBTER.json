@@ -1,0 +1,62 @@
+{
+  "authorized_by": "kernel",
+  "authorizing_policy_ids": [],
+  "bytes_acquired": false,
+  "canonical_promoted": false,
+  "conditions": [
+    "Somente status AUTORIZADA libera a atividade",
+    "A pasta precisa estar nas raízes registradas",
+    "A política precisa declarar drive_folder_ids",
+    "Obter exige credencial Drive sem gravar o segredo",
+    "Atomizar exige WO de obter AUTORIZADA e bytes com sha256",
+    "Nenhum átomo canônico é promovido por esta decisão"
+  ],
+  "estado": "BLOQUEADO",
+  "evidence_reference": "evidence/CE-WO-DRIVE-1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC/obter.json",
+  "folder_id": "1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "lote": "drive:1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "motivo": "pasta ausente das raízes registradas (config/drive_inventory_roots_20261016.json); nenhuma política registrada autoriza esta pasta em drive_folder_ids; Neither GDRIVE_SA_KEY nor DRIVE_ACCESS_TOKEN is configured; fail closed.; gate do Kernel indisponível; validadores não exportados: Sha256Validator, NormAtomIdValidator, TextoLengthValidator, UrlValidator, AtomoSchemaValidator, cid10_validator, cid11_validator, mesh_validator, cvx_validator, schema_validator, loinc_validator, ncm_validator, catmat_validator, human_review_validator",
+  "motivos": [
+    "pasta ausente das raízes registradas (config/drive_inventory_roots_20261016.json)",
+    "nenhuma política registrada autoriza esta pasta em drive_folder_ids",
+    "Neither GDRIVE_SA_KEY nor DRIVE_ACCESS_TOKEN is configured; fail closed.",
+    "gate do Kernel indisponível; validadores não exportados: Sha256Validator, NormAtomIdValidator, TextoLengthValidator, UrlValidator, AtomoSchemaValidator, cid10_validator, cid11_validator, mesh_validator, cvx_validator, schema_validator, loinc_validator, ncm_validator, catmat_validator, human_review_validator"
+  ],
+  "policy_ids_evaluated": [
+    "KERNEL-POLICY-001",
+    "KERNEL-POLICY-002",
+    "KERNEL-POLICY-003",
+    "KERNEL-POLICY-004",
+    "KERNEL-POLICY-005",
+    "KERNEL-POLICY-006",
+    "KERNEL-POLICY-007",
+    "KERNEL-POLICY-008",
+    "KERNEL-POLICY-009",
+    "KERNEL-POLICY-010",
+    "KERNEL-POLICY-011",
+    "KERNEL-POLICY-012",
+    "KERNEL-POLICY-013",
+    "KERNEL-POLICY-014",
+    "KERNEL-POLICY-015",
+    "KERNEL-POLICY-016",
+    "KERNEL-POLICY-017",
+    "KERNEL-POLICY-018",
+    "KERNEL-POLICY-019",
+    "KERNEL-POLICY-020"
+  ],
+  "rationale": "Decisão fail-closed do Kernel antes de baixar ou atomizar.",
+  "restrictions": [
+    "NO_DOWNLOAD",
+    "NO_ATOMIZE",
+    "NO_CANONICAL_PROMOTION",
+    "NO_PUBLICATION",
+    "NO_DELETE"
+  ],
+  "schema": "CE-WO-AUTHORIZATION-1.0.0",
+  "slug": "drive_obter_1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "status": "BLOQUEADO",
+  "submitted_by": "kernel",
+  "tarefa": "obter",
+  "timestamp": "2026-11-10T22:46:18Z",
+  "wo_id": "CE-WO-DRIVE-1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC-OBTER"
+}

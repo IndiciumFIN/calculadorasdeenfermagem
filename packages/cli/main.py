@@ -229,6 +229,55 @@ def kernel_list_validators() -> None:
     typer.echo()
 
 
+@kernel_app.command("submit-wo")
+def kernel_submit_wo(
+    activity: str = typer.Option(..., "--activity", help="obter ou atomizar"),
+    folder: str = typer.Option(..., "--folder", help="ID da pasta Drive"),
+) -> None:
+    """Submete uma WO pelo Kernel. Exit 2 se a atividade ficar bloqueada."""
+    from packages.cli.kernel.work_orders import submit_work_order
+
+    code, decision = submit_work_order(activity=activity, folder_id=folder)
+    typer.echo(json.dumps(
+        {"wo_id": decision["wo_id"], "status": decision["status"], "motivo": decision["motivo"]},
+        ensure_ascii=False,
+        indent=2,
+    ))
+    raise typer.Exit(code)
+
+
+@kernel_app.command("obter")
+def kernel_obter(
+    folder: str = typer.Option(..., "--folder", help="ID da pasta Drive"),
+) -> None:
+    """Baixa somente com WO AUTORIZADA submetida pelo Kernel."""
+    from packages.cli.kernel.work_orders import run_activity
+
+    code, decision = run_activity(activity="obter", folder_id=folder)
+    typer.echo(json.dumps(
+        {"wo_id": decision["wo_id"], "status": decision["status"], "executed": decision["executed"], "motivo": decision["motivo"]},
+        ensure_ascii=False,
+        indent=2,
+    ))
+    raise typer.Exit(code)
+
+
+@kernel_app.command("atomize")
+def kernel_atomize(
+    folder: str = typer.Option(..., "--folder", help="ID da pasta Drive"),
+) -> None:
+    """Atomiza somente com WO AUTORIZADA submetida pelo Kernel."""
+    from packages.cli.kernel.work_orders import run_activity
+
+    code, decision = run_activity(activity="atomizar", folder_id=folder)
+    typer.echo(json.dumps(
+        {"wo_id": decision["wo_id"], "status": decision["status"], "executed": decision["executed"], "motivo": decision["motivo"]},
+        ensure_ascii=False,
+        indent=2,
+    ))
+    raise typer.Exit(code)
+
+
 @kernel_app.command("test-validators")
 def kernel_test_validators() -> None:
     """Executa test_suite de todos os validadores."""
