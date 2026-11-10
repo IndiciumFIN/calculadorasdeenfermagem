@@ -125,6 +125,53 @@ def list_validators_cmd() -> None:
     typer.echo()
 
 
+def _work_orders():
+    from kernel import work_orders
+    return work_orders
+
+
+@app.command("submit-wo")
+def submit_wo(
+    activity: str = typer.Option(..., "--activity", "-a"),
+    folder_id: str = typer.Option(..., "--folder", "-f"),
+) -> None:
+    """Submete uma WO pelo Kernel. Exit 2 se a atividade ficar BLOQUEADA."""
+    code, decision = _work_orders().submit_work_order(activity=activity, folder_id=folder_id)
+    typer.echo(json.dumps({
+        "wo_id": decision["wo_id"],
+        "status": decision["status"],
+        "motivo": decision["motivo"],
+    }, ensure_ascii=False))
+    raise typer.Exit(code)
+
+
+@app.command("obter")
+def obter_cmd(folder_id: str = typer.Option(..., "--folder", "-f")) -> None:
+    """WO de obter. Não baixa enquanto o Kernel não autorizar."""
+    code, decision = _work_orders().run_activity(activity="obter", folder_id=folder_id)
+    typer.echo(json.dumps({
+        "wo_id": decision["wo_id"],
+        "status": decision["status"],
+        "executed": decision.get("executed", False),
+        "motivo": decision["motivo"],
+    }, ensure_ascii=False))
+    raise typer.Exit(code)
+
+
+@app.command("atomize")
+def atomize_cmd(folder_id: str = typer.Option(..., "--folder", "-f")) -> None:
+    """WO de atomizar. Não grava átomo enquanto o Kernel não autorizar."""
+    code, decision = _work_orders().run_activity(activity="atomizar", folder_id=folder_id)
+    typer.echo(json.dumps({
+        "wo_id": decision["wo_id"],
+        "status": decision["status"],
+        "executed": decision.get("executed", False),
+        "atoms_written": decision.get("atoms_written", 0),
+        "motivo": decision["motivo"],
+    }, ensure_ascii=False))
+    raise typer.Exit(code)
+
+
 @app.command()
 def test_validators() -> None:
     """Executa test_suite de todos os validadores."""
