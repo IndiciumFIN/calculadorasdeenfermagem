@@ -1,0 +1,35 @@
+{
+  "avaliacao": {
+    "decisao_kernel": "REJECTED",
+    "exit_code": 2,
+    "motivos": [
+      "Nenhuma política em contracts/policies lista este folder_id em drive_folder_ids.",
+      "folder_id ausente de config/drive_inventory_roots_20261016.json (escopo registered_roots_metadata_only).",
+      "Contrato das raízes Drive impõe NO_CANONICAL_PROMOTION; atomização canônica sem política explícita é recusada.",
+      "Nem GDRIVE_SA_KEY nem DRIVE_ACCESS_TOKEN estão configurados. Fail-closed.",
+      "Autoridade declarada ausente no repositório: data/legado/drive_raizes.json"
+    ],
+    "politicas_autorizadoras": [],
+    "status": "BLOQUEADO"
+  },
+  "execucao": {
+    "arquivos": [],
+    "atomos_escritos": 0,
+    "bytes_baixados": 0,
+    "credencial": false,
+    "decisao_kernel": "REJECTED",
+    "exit_code": 2,
+    "motivos": [
+      "Nenhuma política em contracts/policies lista este folder_id em drive_folder_ids.",
+      "folder_id ausente de config/drive_inventory_roots_20261016.json (escopo registered_roots_metadata_only).",
+      "Contrato das raízes Drive impõe NO_CANONICAL_PROMOTION; atomização canônica sem política explícita é recusada.",
+      "Nem GDRIVE_SA_KEY nem DRIVE_ACCESS_TOKEN estão configurados. Fail-closed.",
+      "Autoridade declarada ausente no repositório: data/legado/drive_raizes.json"
+    ],
+    "quarentena": 0,
+    "status": "BLOQUEADO"
+  },
+  "schema": "CE-KERNEL-DRIVE-ACTIVITY-1.0.0",
+  "submetida_por": "kernel",
+  "wo_id": "CE-WO-DRIVE-e4b8cc87fcec"
+}
