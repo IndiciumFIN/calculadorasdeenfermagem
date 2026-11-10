@@ -1,0 +1,69 @@
+{
+  "alvo": {
+    "folder_id": "1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+    "tipo": "google_drive_folder"
+  },
+  "atomos_escritos": 0,
+  "autoridade_raizes": "data/legado/drive_raizes.json",
+  "autoridade_raizes_presente": false,
+  "bytes_baixados": 0,
+  "conditions": [
+    "WO submetida pelo Kernel antes de qualquer leitura de bytes.",
+    "Sem drive_folder_ids na política, nenhum download ocorre.",
+    "Vigência permanece NAO_VERIFICADO. Publicação não é efetuada."
+  ],
+  "credencial": "AUSENTE",
+  "decisao_kernel": "REJECTED",
+  "evidence_reference": "data/grc/evidencias/CE-WO-DRIVE-e4b8cc87fcec.json",
+  "exit_code": 2,
+  "motivos": [
+    "Nenhuma política em contracts/policies lista este folder_id em drive_folder_ids.",
+    "folder_id ausente de config/drive_inventory_roots_20261016.json (escopo registered_roots_metadata_only).",
+    "Contrato das raízes Drive impõe NO_CANONICAL_PROMOTION; atomização canônica sem política explícita é recusada.",
+    "Nem GDRIVE_SA_KEY nem DRIVE_ACCESS_TOKEN estão configurados. Fail-closed.",
+    "Autoridade declarada ausente no repositório: data/legado/drive_raizes.json"
+  ],
+  "politicas_autorizadoras": [],
+  "politicas_consultadas": [
+    "KERNEL-POLICY-001",
+    "KERNEL-POLICY-002",
+    "KERNEL-POLICY-003",
+    "KERNEL-POLICY-004",
+    "KERNEL-POLICY-005",
+    "KERNEL-POLICY-006",
+    "KERNEL-POLICY-007",
+    "KERNEL-POLICY-008",
+    "KERNEL-POLICY-009",
+    "KERNEL-POLICY-010",
+    "KERNEL-POLICY-011",
+    "KERNEL-POLICY-012",
+    "KERNEL-POLICY-013",
+    "KERNEL-POLICY-014",
+    "KERNEL-POLICY-015",
+    "KERNEL-POLICY-016",
+    "KERNEL-POLICY-017",
+    "KERNEL-POLICY-018",
+    "KERNEL-POLICY-019",
+    "KERNEL-POLICY-020"
+  ],
+  "quarentena": 0,
+  "raizes_drive_registradas": [
+    "1FDBAMQ3-WT-8l6xU0664u7QjABd0FbEH",
+    "1c9vErI_It3XwzAcAFOnbxw9V0Mn6xfB9"
+  ],
+  "restricoes": [
+    "READ_ONLY",
+    "NO_DELETE",
+    "NO_PUBLICATION",
+    "NO_CANONICAL_PROMOTION"
+  ],
+  "schema": "CE-WO-AUTHORIZATION-1.0.0",
+  "slug": "drive_1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "status": "BLOQUEADO",
+  "submetida_por": "kernel",
+  "tarefa": [
+    "obter",
+    "atomizar"
+  ],
+  "wo_id": "CE-WO-DRIVE-e4b8cc87fcec"
+}
