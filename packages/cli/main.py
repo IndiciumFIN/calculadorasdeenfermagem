@@ -8,10 +8,19 @@ Comandos:
 """
 from __future__ import annotations
 
-import json
 import sys
-from datetime import date
 from pathlib import Path
+
+# O entrypoint precisa resolver `packages.*` (python -m) e `kernel`/`validators`
+# (módulos que vivem em packages/cli). Sem os dois caminhos o Kernel não sobe.
+_CLI_DIR = Path(__file__).resolve().parent
+_REPO_ROOT = _CLI_DIR.parents[1]
+for _path in (str(_REPO_ROOT), str(_CLI_DIR)):
+    if _path not in sys.path:
+        sys.path.insert(0, _path)
+
+import json
+from datetime import date
 from typing import Optional
 
 import requests
@@ -227,6 +236,17 @@ def kernel_list_validators() -> None:
     for v in validators:
         typer.echo(f"  - {v}")
     typer.echo()
+
+
+@kernel_app.command("drive-folder")
+def kernel_drive_folder(
+    folder_id: str = typer.Option(..., "--folder-id", help="ID da pasta no Google Drive"),
+) -> None:
+    """Submete WOs de obter e atomizar pelo Kernel. Não baixa bytes sem política vinculada."""
+    from kernel.work_orders import execute_drive_folder
+
+    code = execute_drive_folder(folder_id)
+    raise typer.Exit(code)
 
 
 @kernel_app.command("test-validators")
