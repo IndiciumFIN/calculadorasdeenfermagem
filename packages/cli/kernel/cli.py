@@ -141,5 +141,29 @@ def test_validators() -> None:
     typer.secho(f"\n✅ Todos os {len(VALIDATORS)} validadores passaram.", fg=typer.colors.GREEN)
 
 
+@app.command("submit-wo")
+def submit_wo(
+    folder: str = typer.Option(..., "--folder", help="ID da pasta do Drive"),
+    policy: str | None = typer.Option(None, "--policy", help="KERNEL-POLICY explícita para atomizar"),
+) -> None:
+    """Submete WO de obter e atomizar pelo Kernel. Exit 2 se algum gate bloquear."""
+    from kernel.work_orders import run_drive_folder
+
+    result = run_drive_folder(folder, policy_id=policy)
+    summary = {
+        "exit_code": result["exit_code"],
+        "folder_id": result["folder_id"],
+        "bytes_acquired": result["bytes_acquired"],
+        "atoms_written": result["atoms_written"],
+        "orders": [
+            {"wo_id": order["wo_id"], "tarefa": order["tarefa"], "estado": order["estado"], "motivo": order["motivo"]}
+            for order in result["orders"]
+        ],
+    }
+    typer.echo(json.dumps(summary, ensure_ascii=False, indent=2))
+    if result["exit_code"] != 0:
+        raise typer.Exit(result["exit_code"])
+
+
 if __name__ == "__main__":
     app()
