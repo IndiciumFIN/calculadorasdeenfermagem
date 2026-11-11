@@ -1,0 +1,25 @@
+{
+  "atoms_written": 0,
+  "autorizado_por": null,
+  "bytes_acquired": false,
+  "conditions_failed": [
+    "pasta ausente nas raízes registradas config/drive_inventory_roots_20261016.json",
+    "autoridade data/legado/drive_raizes.json ausente",
+    "contrato Drive autoriza somente metadados; aquisição de bytes bloqueada",
+    "nem GDRIVE_SA_KEY nem DRIVE_ACCESS_TOKEN configurado",
+    "nenhuma política do Kernel declara drive_folder_ids com esta pasta"
+  ],
+  "estado": "BLOQUEADO",
+  "folder_id": "1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "folder_url": "https://drive.google.com/drive/folders/1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "kernel_decision": "REJECTED",
+  "motivo": "pasta ausente nas raízes registradas config/drive_inventory_roots_20261016.json | autoridade data/legado/drive_raizes.json ausente | contrato Drive autoriza somente metadados; aquisição de bytes bloqueada | nem GDRIVE_SA_KEY nem DRIVE_ACCESS_TOKEN configurado | nenhuma política do Kernel declara drive_folder_ids com esta pasta",
+  "policy_id": null,
+  "schema": "CE-WO-AUTHORIZATION-1.0.0",
+  "sha256_fonte": null,
+  "status": "BLOQUEADO",
+  "submitted_at": "2026-11-11T15:51:54Z",
+  "submitted_by": "kernel",
+  "tarefa": "obter",
+  "wo_id": "CE-WO-OBTER-1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC"
+}

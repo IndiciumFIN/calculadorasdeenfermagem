@@ -115,6 +115,21 @@ def validate(
         typer.secho("✅ Validação APROVADA", fg=typer.colors.GREEN)
 
 
+@app.command("submit-wo")
+def submit_wo(
+    folder: str = typer.Option(..., "--folder", help="ID da pasta Drive"),
+    policy: str | None = typer.Option(None, "--policy", "-p", help="KERNEL-POLICY explícita"),
+) -> None:
+    """Submete as WO de obter e atomizar. Sem autorização, grava BLOQUEADO e sai 2."""
+    from packages.cli.kernel.work_orders import run_drive_folder
+
+    result = run_drive_folder(folder, policy_id=policy)
+    for order in result["orders"]:
+        typer.echo(f"{order['wo_id']} {order['estado']} {order['tarefa']}")
+    if result["exit_code"] != 0:
+        raise typer.Exit(result["exit_code"])
+
+
 @app.command()
 def list_validators_cmd() -> None:
     """Lista todos os validadores registrados."""
