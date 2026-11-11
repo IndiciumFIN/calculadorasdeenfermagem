@@ -25,9 +25,9 @@ from packages.cli.adapters.dou import fetch_dou_federal
 from packages.cli.adapters.secundaria import fetch_secundaria
 
 # Kernel subcommands
-from kernel.core import Kernel, Decision
-from kernel.policy_registry import get_policy, list_policies
-from validators.registry import list_validators
+from packages.cli.kernel.core import Kernel, Decision
+from packages.cli.kernel.policy_registry import get_policy, list_policies
+from packages.cli.validators.registry import list_validators
 
 app = typer.Typer(help="CLI canônica e blindada — Calculadoras de Enfermagem")
 kernel_app = typer.Typer(help="Kernel — executor de políticas determinísticas")
@@ -229,10 +229,64 @@ def kernel_list_validators() -> None:
     typer.echo()
 
 
+def _work_orders():
+    from packages.cli.kernel import work_orders
+    return work_orders
+
+
+@kernel_app.command("submit-wo")
+def kernel_submit_wo(
+    activity: str = typer.Option(..., "--activity", "-a"),
+    folder_id: str = typer.Option(..., "--folder", "-f"),
+) -> None:
+    """Submete uma WO pelo Kernel. Exit 2 se a atividade ficar BLOQUEADA."""
+    code, decision = _work_orders().submit_work_order(activity=activity, folder_id=folder_id)
+    typer.echo(json.dumps({
+        "wo_id": decision["wo_id"],
+        "status": decision["status"],
+        "valid_policy_ids": decision["valid_policy_ids"],
+        "authorizing_policy_ids": decision["authorizing_policy_ids"],
+        "motivo": decision["motivo"],
+    }, ensure_ascii=False))
+    raise typer.Exit(code)
+
+
+@kernel_app.command("obter")
+def kernel_obter(
+    folder_id: str = typer.Option(..., "--folder", "-f"),
+) -> None:
+    """WO de obter. Não baixa enquanto o Kernel não autorizar."""
+    code, decision = _work_orders().run_activity(activity="obter", folder_id=folder_id)
+    typer.echo(json.dumps({
+        "wo_id": decision["wo_id"],
+        "status": decision["status"],
+        "executed": decision.get("executed", False),
+        "bytes_acquired": decision.get("bytes_acquired", False),
+        "motivo": decision["motivo"],
+    }, ensure_ascii=False))
+    raise typer.Exit(code)
+
+
+@kernel_app.command("atomize")
+def kernel_atomize(
+    folder_id: str = typer.Option(..., "--folder", "-f"),
+) -> None:
+    """WO de atomizar. Não grava átomo enquanto o Kernel não autorizar."""
+    code, decision = _work_orders().run_activity(activity="atomizar", folder_id=folder_id)
+    typer.echo(json.dumps({
+        "wo_id": decision["wo_id"],
+        "status": decision["status"],
+        "executed": decision.get("executed", False),
+        "atoms_written": decision.get("atoms_written", 0),
+        "motivo": decision["motivo"],
+    }, ensure_ascii=False))
+    raise typer.Exit(code)
+
+
 @kernel_app.command("test-validators")
 def kernel_test_validators() -> None:
     """Executa test_suite de todos os validadores."""
-    from validators.registry import VALIDATORS
+    from packages.cli.validators.registry import VALIDATORS
     failures = []
     for name, validator in sorted(VALIDATORS.items()):
         if hasattr(validator, "run_tests") and callable(validator.run_tests):
