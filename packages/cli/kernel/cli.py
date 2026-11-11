@@ -15,9 +15,9 @@ from pathlib import Path
 
 import typer
 
-from kernel.core import Kernel, Decision
-from kernel.policy_registry import get_policy, list_policies
-from validators.registry import list_validators
+from .core import Kernel, Decision
+from .policy_registry import get_policy, list_policies
+from packages.cli.validators.registry import list_validators
 
 app = typer.Typer(help="Kernel determinístico — executor de políticas normativas")
 kernel_cli = Kernel()
@@ -128,7 +128,8 @@ def list_validators_cmd() -> None:
 @app.command()
 def test_validators() -> None:
     """Executa test_suite de todos os validadores."""
-    from validators.registry import VALIDATORS
+    import packages.cli.validators  # noqa: F401
+    from packages.cli.validators.registry import VALIDATORS
     failures = []
     for name, validator in sorted(VALIDATORS.items()):
         if not validator.run_tests():

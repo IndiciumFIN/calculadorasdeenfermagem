@@ -1,0 +1,103 @@
+{
+  "schema": "CE-WO-AUTHORIZATION-1.0.0",
+  "id": "WO-DRIVE-1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC-obter",
+  "wo_id": "CE-WO-DRIVE-1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC-obter",
+  "slug": "drive_1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC_obter",
+  "tarefa": "obter",
+  "lote": "drive:1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "folder_id": "1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "folder_url": "https://drive.google.com/drive/folders/1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "entradas": 0,
+  "estado": "BLOQUEADO",
+  "status": "BLOQUEADO",
+  "motivo": "Neither GDRIVE_SA_KEY nor DRIVE_ACCESS_TOKEN is configured; fail closed. Drive API sem credencial respondeu HTTP 403. sha256_fonte ausente. Download não executado.",
+  "sha256_fonte": null,
+  "tentativas": 1,
+  "ultimo_http_code": 403,
+  "acao_necessaria": "Configurar GDRIVE_SA_KEY com leitura da pasta e reexecutar python -m packages.cli.main kernel obtain-drive --folder-id 1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "authorized_by": "kernel",
+  "autorizado_por": "kernel",
+  "ano_id": 2026,
+  "politicas_validas": [
+    "KERNEL-POLICY-001",
+    "KERNEL-POLICY-002",
+    "KERNEL-POLICY-019",
+    "KERNEL-POLICY-020"
+  ],
+  "politicas_rejeitadas": [
+    {
+      "id": "KERNEL-POLICY-003",
+      "motivo": "Validador 'cid10_validator' falhou nos testes. Fail-closed."
+    },
+    {
+      "id": "KERNEL-POLICY-004",
+      "motivo": "Validador 'cid11_validator' falhou nos testes. Fail-closed."
+    },
+    {
+      "id": "KERNEL-POLICY-005",
+      "motivo": "Validador 'mesh_validator' falhou nos testes. Fail-closed."
+    },
+    {
+      "id": "KERNEL-POLICY-006",
+      "motivo": "Validador 'schema_validator' falhou nos testes. Fail-closed."
+    },
+    {
+      "id": "KERNEL-POLICY-007",
+      "motivo": "Validador 'cvx_validator' falhou nos testes. Fail-closed."
+    },
+    {
+      "id": "KERNEL-POLICY-008",
+      "motivo": "Validador 'schema_validator' falhou nos testes. Fail-closed."
+    },
+    {
+      "id": "KERNEL-POLICY-009",
+      "motivo": "Validador 'schema_validator' falhou nos testes. Fail-closed."
+    },
+    {
+      "id": "KERNEL-POLICY-010",
+      "motivo": "Validador 'schema_validator' falhou nos testes. Fail-closed."
+    },
+    {
+      "id": "KERNEL-POLICY-011",
+      "motivo": "Validador 'schema_validator' falhou nos testes. Fail-closed."
+    },
+    {
+      "id": "KERNEL-POLICY-012",
+      "motivo": "Validador 'schema_validator' falhou nos testes. Fail-closed."
+    },
+    {
+      "id": "KERNEL-POLICY-013",
+      "motivo": "Validador 'schema_validator' falhou nos testes. Fail-closed."
+    },
+    {
+      "id": "KERNEL-POLICY-014",
+      "motivo": "Validador 'schema_validator' falhou nos testes. Fail-closed."
+    },
+    {
+      "id": "KERNEL-POLICY-015",
+      "motivo": "Validador 'schema_validator' falhou nos testes. Fail-closed."
+    },
+    {
+      "id": "KERNEL-POLICY-016",
+      "motivo": "Validador 'schema_validator' falhou nos testes. Fail-closed."
+    },
+    {
+      "id": "KERNEL-POLICY-017",
+      "motivo": "Validador 'schema_validator' falhou nos testes. Fail-closed."
+    },
+    {
+      "id": "KERNEL-POLICY-018",
+      "motivo": "Validador 'schema_validator' falhou nos testes. Fail-closed."
+    }
+  ],
+  "timestamp": "2026-11-11T02:45:15.193260+00:00",
+  "data": "2026-11-11T02:45:15.193260+00:00",
+  "conditions": [
+    "WO submetida pelo Kernel antes de baixar ou atomizar",
+    "Sem credencial o download não ocorre (fail-closed)",
+    "Sem sha256_fonte a atomização não ocorre",
+    "Átomo canônico só com exatamente uma política válida",
+    "Vigência inicial NAO_VERIFICADO"
+  ],
+  "evidence_reference": "evidence/CE-WO-DRIVE-1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC/kernel_decision.json"
+}
