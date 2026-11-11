@@ -1,0 +1,219 @@
+{
+  "schema": "CE-DRIVE-ADMISSION-1.0.0",
+  "folder_id": "1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "folder_url": "https://drive.google.com/drive/folders/1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC?hl=pt-br",
+  "decision": "BLOQUEADO",
+  "exit_code": 2,
+  "submitted_by": "kernel",
+  "motivos": [
+    "UNREGISTERED_ROOT",
+    "METADATA_ONLY_SCOPE",
+    "NO_CANONICAL_PROMOTION",
+    "MISSING_CREDENTIAL",
+    "DRIVE_LOGIN_REQUIRED",
+    "DRIVE_API_FORBIDDEN",
+    "NO_MATCHING_POLICY",
+    "ATOMIC_SOURCE_ABSENT"
+  ],
+  "attempt_count": 1,
+  "first_submitted_at": "2026-11-11T16:51:11Z",
+  "last_submitted_at": "2026-11-11T16:51:11Z",
+  "gates": {
+    "folder_id_syntax": true,
+    "registered_root": false,
+    "credential_present": false,
+    "drive_identity_established": false,
+    "matching_policy": false,
+    "canonical_promotion_allowed": false,
+    "bytes_acquired": false
+  },
+  "credentials": {
+    "gdrive_sa_key": false,
+    "drive_access_token": false
+  },
+  "probe": {
+    "folder_http_status": 302,
+    "folder_redirect_host": "accounts.google.com",
+    "api_http_status": 403,
+    "api_status": "PERMISSION_DENIED"
+  },
+  "policies": [
+    {
+      "policy_id": "KERNEL-POLICY-001",
+      "wo_required": true,
+      "admitted": false,
+      "reasons": [
+        "URL_DOMAIN_NOT_ALLOWED",
+        "SOURCE_CONTRACT_NOT_THIS_FOLDER"
+      ]
+    },
+    {
+      "policy_id": "KERNEL-POLICY-002",
+      "wo_required": true,
+      "admitted": false,
+      "reasons": [
+        "URL_DOMAIN_NOT_ALLOWED",
+        "SOURCE_CONTRACT_NOT_THIS_FOLDER"
+      ]
+    },
+    {
+      "policy_id": "KERNEL-POLICY-003",
+      "wo_required": false,
+      "admitted": false,
+      "reasons": [
+        "SOURCE_CONTRACT_NOT_THIS_FOLDER"
+      ]
+    },
+    {
+      "policy_id": "KERNEL-POLICY-004",
+      "wo_required": false,
+      "admitted": false,
+      "reasons": [
+        "SOURCE_CONTRACT_NOT_THIS_FOLDER"
+      ]
+    },
+    {
+      "policy_id": "KERNEL-POLICY-005",
+      "wo_required": false,
+      "admitted": false,
+      "reasons": [
+        "SOURCE_CONTRACT_NOT_THIS_FOLDER"
+      ]
+    },
+    {
+      "policy_id": "KERNEL-POLICY-006",
+      "wo_required": false,
+      "admitted": false,
+      "reasons": [
+        "SOURCE_CONTRACT_NOT_THIS_FOLDER"
+      ]
+    },
+    {
+      "policy_id": "KERNEL-POLICY-007",
+      "wo_required": false,
+      "admitted": false,
+      "reasons": [
+        "SOURCE_CONTRACT_NOT_THIS_FOLDER"
+      ]
+    },
+    {
+      "policy_id": "KERNEL-POLICY-008",
+      "wo_required": false,
+      "admitted": false,
+      "reasons": [
+        "SOURCE_CONTRACT_NOT_THIS_FOLDER"
+      ]
+    },
+    {
+      "policy_id": "KERNEL-POLICY-009",
+      "wo_required": false,
+      "admitted": false,
+      "reasons": [
+        "SOURCE_CONTRACT_NOT_THIS_FOLDER"
+      ]
+    },
+    {
+      "policy_id": "KERNEL-POLICY-010",
+      "wo_required": false,
+      "admitted": false,
+      "reasons": [
+        "SOURCE_CONTRACT_NOT_THIS_FOLDER"
+      ]
+    },
+    {
+      "policy_id": "KERNEL-POLICY-011",
+      "wo_required": false,
+      "admitted": false,
+      "reasons": [
+        "SOURCE_CONTRACT_NOT_THIS_FOLDER"
+      ]
+    },
+    {
+      "policy_id": "KERNEL-POLICY-012",
+      "wo_required": false,
+      "admitted": false,
+      "reasons": [
+        "SOURCE_CONTRACT_NOT_THIS_FOLDER"
+      ]
+    },
+    {
+      "policy_id": "KERNEL-POLICY-013",
+      "wo_required": false,
+      "admitted": false,
+      "reasons": [
+        "SOURCE_CONTRACT_NOT_THIS_FOLDER"
+      ]
+    },
+    {
+      "policy_id": "KERNEL-POLICY-014",
+      "wo_required": false,
+      "admitted": false,
+      "reasons": [
+        "SOURCE_CONTRACT_NOT_THIS_FOLDER"
+      ]
+    },
+    {
+      "policy_id": "KERNEL-POLICY-015",
+      "wo_required": false,
+      "admitted": false,
+      "reasons": [
+        "SOURCE_CONTRACT_NOT_THIS_FOLDER"
+      ]
+    },
+    {
+      "policy_id": "KERNEL-POLICY-016",
+      "wo_required": false,
+      "admitted": false,
+      "reasons": [
+        "SOURCE_CONTRACT_NOT_THIS_FOLDER"
+      ]
+    },
+    {
+      "policy_id": "KERNEL-POLICY-017",
+      "wo_required": false,
+      "admitted": false,
+      "reasons": [
+        "SOURCE_CONTRACT_NOT_THIS_FOLDER"
+      ]
+    },
+    {
+      "policy_id": "KERNEL-POLICY-018",
+      "wo_required": false,
+      "admitted": false,
+      "reasons": [
+        "SOURCE_CONTRACT_NOT_THIS_FOLDER"
+      ]
+    },
+    {
+      "policy_id": "KERNEL-POLICY-019",
+      "wo_required": true,
+      "admitted": false,
+      "reasons": [
+        "URL_DOMAIN_NOT_ALLOWED",
+        "SOURCE_CONTRACT_NOT_THIS_FOLDER"
+      ]
+    },
+    {
+      "policy_id": "KERNEL-POLICY-020",
+      "wo_required": true,
+      "admitted": false,
+      "reasons": [
+        "URL_DOMAIN_NOT_ALLOWED",
+        "SOURCE_CONTRACT_NOT_THIS_FOLDER"
+      ]
+    }
+  ],
+  "work_orders": [
+    "CE-WO-DRIVE-OBTER-1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+    "CE-WO-DRIVE-ATOMIZAR-1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC"
+  ],
+  "bytes_acquired": false,
+  "atoms_written": 0,
+  "canonical_promoted": false,
+  "restrictions": [
+    "READ_ONLY",
+    "NO_DELETE",
+    "NO_PUBLICATION",
+    "NO_CANONICAL_PROMOTION"
+  ]
+}

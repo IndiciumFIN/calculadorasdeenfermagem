@@ -1,0 +1,36 @@
+{
+  "schema": "CE-WO-AUTHORIZATION-1.0.0",
+  "wo_id": "CE-WO-DRIVE-OBTER-1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "slug": "drive_folder_1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC_obter",
+  "status": "BLOQUEADO",
+  "tarefa": "obter",
+  "submitted_by": "kernel",
+  "authorized_by": null,
+  "policy_id": null,
+  "folder_id": "1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "folder_url": "https://drive.google.com/drive/folders/1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC?hl=pt-br",
+  "motivos": [
+    "UNREGISTERED_ROOT",
+    "METADATA_ONLY_SCOPE",
+    "NO_CANONICAL_PROMOTION",
+    "MISSING_CREDENTIAL",
+    "DRIVE_LOGIN_REQUIRED",
+    "DRIVE_API_FORBIDDEN",
+    "NO_MATCHING_POLICY"
+  ],
+  "motivo": "Kernel bloqueou a obtenção. Pasta 1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC avaliada contra config/drive_inventory_roots_20261016.json e as KERNEL-POLICY registradas. Nenhum byte foi baixado. Motivos: UNREGISTERED_ROOT, METADATA_ONLY_SCOPE, NO_CANONICAL_PROMOTION, MISSING_CREDENTIAL, DRIVE_LOGIN_REQUIRED, DRIVE_API_FORBIDDEN, NO_MATCHING_POLICY.",
+  "timestamp": "2026-11-11T16:51:11Z",
+  "first_submitted_at": "2026-11-11T16:51:11Z",
+  "tentativas": 1,
+  "conditions": [
+    "READ_ONLY",
+    "NO_DELETE",
+    "NO_PUBLICATION",
+    "NO_CANONICAL_PROMOTION"
+  ],
+  "bytes_acquired": false,
+  "atoms_written": 0,
+  "canonical_promoted": false,
+  "exit_code": 2,
+  "evidence_reference": "evidence/CE-WO-DRIVE-1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC/admission.json"
+}
