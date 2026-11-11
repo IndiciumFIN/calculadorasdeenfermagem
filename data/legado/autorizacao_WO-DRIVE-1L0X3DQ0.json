@@ -1,0 +1,72 @@
+{
+  "schema": "CE-WO-AUTHORIZATION-1.0.0",
+  "wo_id": "CE-WO-20261111-DRIVE-1L0X3DQ0",
+  "slug": "drive_folder_1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "status": "BLOQUEADO",
+  "estado": "BLOQUEADO",
+  "tarefa": "obter_e_atomizar",
+  "folder_id": "1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "folder_url": "https://drive.google.com/drive/folders/1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "kernel_decision": "REJECTED",
+  "exit_code": 2,
+  "bytes_acquired": false,
+  "atomized": false,
+  "submitted_by": "kernel",
+  "authorized_by": null,
+  "timestamp": "2026-11-11T14:43:25Z",
+  "scope_consulted": "config/drive_inventory_roots_20261016.json",
+  "scope": "registered_roots_metadata_only",
+  "registered_root_ids": [
+    "1FDBAMQ3-WT-8l6xU0664u7QjABd0FbEH",
+    "1c9vErI_It3XwzAcAFOnbxw9V0Mn6xfB9"
+  ],
+  "folder_in_registered_roots": false,
+  "policies_consulted": [
+    "KERNEL-POLICY-001",
+    "KERNEL-POLICY-002",
+    "KERNEL-POLICY-003",
+    "KERNEL-POLICY-004",
+    "KERNEL-POLICY-005",
+    "KERNEL-POLICY-006",
+    "KERNEL-POLICY-007",
+    "KERNEL-POLICY-008",
+    "KERNEL-POLICY-009",
+    "KERNEL-POLICY-010",
+    "KERNEL-POLICY-011",
+    "KERNEL-POLICY-012",
+    "KERNEL-POLICY-013",
+    "KERNEL-POLICY-014",
+    "KERNEL-POLICY-015",
+    "KERNEL-POLICY-016",
+    "KERNEL-POLICY-017",
+    "KERNEL-POLICY-018",
+    "KERNEL-POLICY-019",
+    "KERNEL-POLICY-020"
+  ],
+  "policy_mentions_folder": false,
+  "credentials": {
+    "GDRIVE_SA_KEY": false,
+    "DRIVE_ACCESS_TOKEN": false
+  },
+  "drive_api_metadata": {
+    "method": "files.get",
+    "fields": "id,name,mimeType",
+    "http_status": 403,
+    "status": "PERMISSION_DENIED",
+    "content_downloaded": false
+  },
+  "restrictions": [
+    "READ_ONLY",
+    "NO_DELETE",
+    "NO_PUBLICATION",
+    "NO_CANONICAL_PROMOTION"
+  ],
+  "motivo": "Kernel rejeitou obter e atomizar. A pasta não está nas raízes registradas (scope registered_roots_metadata_only). Nenhuma KERNEL-POLICY-001..020 referencia o folder_id. Não há credencial GDRIVE_SA_KEY nem DRIVE_ACCESS_TOKEN. A API Drive respondeu 403 PERMISSION_DENIED para metadados. Regra 8 impede download, atomização e promoção canônica sem WO humana pré-autorizada. Nenhuma WO PREAUTHORIZED cobre esta pasta.",
+  "conditions_failed": [
+    "folder_id ausente de config/drive_inventory_roots_20261016.json",
+    "nenhuma política do Kernel cobre o folder_id",
+    "nenhuma autorizacao_WO existente cita o folder_id",
+    "credencial de Drive ausente",
+    "metadado público da pasta recusado (403 PERMISSION_DENIED)"
+  ]
+}
