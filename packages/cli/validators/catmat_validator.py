@@ -1,8 +1,8 @@
 """Validador catmat_validator — Valida codigos CATMAT de compras publicas."""
 from __future__ import annotations
 from typing import Any
-from validators.base import BaseValidator
-from validators.registry import register
+from .base import BaseValidator
+from .registry import register
 
 @register
 class CLASS_catmat_validator(BaseValidator):
