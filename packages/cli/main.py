@@ -24,11 +24,6 @@ from packages.schemas.invariantes import AtomoBlindado
 from packages.cli.adapters.dou import fetch_dou_federal
 from packages.cli.adapters.secundaria import fetch_secundaria
 
-# Kernel subcommands
-from kernel.core import Kernel, Decision
-from kernel.policy_registry import get_policy, list_policies
-from validators.registry import list_validators
-
 app = typer.Typer(help="CLI canônica e blindada — Calculadoras de Enfermagem")
 kernel_app = typer.Typer(help="Kernel — executor de políticas determinísticas")
 app.add_typer(kernel_app, name="kernel", invoke_without_command=True)
@@ -141,6 +136,30 @@ def validate(
 # KERNEL SUBCOMMANDS
 # ══════════════════════════════════════════════════════════════
 
+def _policy_registry():
+    try:
+        from packages.cli.kernel import policy_registry as registry
+    except ImportError:
+        from kernel import policy_registry as registry
+    return registry
+
+
+def _kernel_runtime():
+    try:
+        from packages.cli.kernel.core import Decision, Kernel
+    except ImportError:
+        from kernel.core import Decision, Kernel
+    return Kernel, Decision
+
+
+def _validator_names() -> list[str]:
+    try:
+        from packages.cli.validators.registry import list_validators
+    except ImportError:
+        from validators.registry import list_validators
+    return list_validators()
+
+
 @kernel_app.callback(invoke_without_command=True)
 def kernel_main(ctx: typer.Context) -> None:
     """Kernel — executor de políticas determinísticas.
@@ -155,6 +174,7 @@ def kernel_gate(
     policy_id: str = typer.Argument(..., help="ID da política (ex: KERNEL-POLICY-001)"),
 ) -> None:
     """Executa gate determinístico para uma política."""
+    Kernel, _decision = _kernel_runtime()
     kernel_cli = Kernel()
     exit_code = kernel_cli.gate(policy_id)
     if exit_code == 2:
@@ -188,6 +208,7 @@ def kernel_validate(
         typer.secho("⚠️  Nenhum átomo encontrado.", fg=typer.colors.YELLOW)
         raise typer.Exit(1)
 
+    Kernel, Decision = _kernel_runtime()
     kernel_cli = Kernel()
     decision = kernel_cli.evaluate_batch(atoms, policy_id)
     decision.print_summary()
@@ -204,15 +225,23 @@ def kernel_validate(
 @kernel_app.command("list-policies")
 def kernel_list_policies() -> None:
     """Lista todas as políticas registradas."""
-    kernel_cli = Kernel()
-    kernel_cli.list_policies()
+    policies = _policy_registry().list_policies()
+    if not policies:
+        typer.secho("Nenhuma política registrada.", fg=typer.colors.YELLOW)
+        raise typer.Exit(2)
+    typer.secho(f"{len(policies)} políticas registradas:\n", fg=typer.colors.CYAN)
+    for policy in policies:
+        typer.echo(f"  {policy.id}  ({policy.name})")
+        typer.echo(f"    Validadores: {', '.join(policy.validators)}")
+        typer.echo(f"    WO required: {policy.wo_required} | Revisão humana: {policy.requires_human_review}")
+        typer.echo()
 
 
 @kernel_app.command("show-policy")
 def kernel_show_policy(policy_id: str = typer.Argument(...)) -> None:
     """Mostra detalhes de uma política."""
     try:
-        p = get_policy(policy_id)
+        p = _policy_registry().get_policy(policy_id)
     except (KeyError, FileNotFoundError) as e:
         typer.secho(f"❌ Política não encontrada: {policy_id}", fg=typer.colors.RED)
         raise typer.Exit(2)
@@ -222,7 +251,7 @@ def kernel_show_policy(policy_id: str = typer.Argument(...)) -> None:
 @kernel_app.command("list-validators")
 def kernel_list_validators() -> None:
     """Lista todos os validadores registrados."""
-    validators = list_validators()
+    validators = _validator_names()
     typer.secho(f"\n{len(validators)} validadores registrados:\n", fg=typer.colors.CYAN)
     for v in validators:
         typer.echo(f"  - {v}")
@@ -232,7 +261,10 @@ def kernel_list_validators() -> None:
 @kernel_app.command("test-validators")
 def kernel_test_validators() -> None:
     """Executa test_suite de todos os validadores."""
-    from validators.registry import VALIDATORS
+    try:
+        from packages.cli.validators.registry import VALIDATORS
+    except ImportError:
+        from validators.registry import VALIDATORS
     failures = []
     for name, validator in sorted(VALIDATORS.items()):
         if hasattr(validator, "run_tests") and callable(validator.run_tests):
@@ -244,6 +276,16 @@ def kernel_test_validators() -> None:
             typer.echo(f"  - {f}")
         raise typer.Exit(2)
     typer.secho(f"\n✅ Todos os {len(VALIDATORS)} validadores passaram.", fg=typer.colors.GREEN)
+
+
+@kernel_app.command("admit-drive")
+def kernel_admit_drive(
+    folder: str = typer.Option(..., "--folder", help="ID da pasta Google Drive"),
+) -> None:
+    """Submete WO de obter e atomizar e aplica as políticas do Kernel."""
+    from packages.cli.drive_admission import run
+
+    raise typer.Exit(run(folder))
 
 
 if __name__ == "__main__":

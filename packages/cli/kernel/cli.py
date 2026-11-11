@@ -141,5 +141,17 @@ def test_validators() -> None:
     typer.secho(f"\n✅ Todos os {len(VALIDATORS)} validadores passaram.", fg=typer.colors.GREEN)
 
 
+@app.command("admit-drive")
+def admit_drive(
+    folder: str = typer.Option(..., "--folder", help="ID da pasta Google Drive"),
+) -> None:
+    """Submete WO de obter e atomizar e aplica as políticas do Kernel."""
+    try:
+        from packages.cli.drive_admission import run
+    except ImportError:
+        from drive_admission import run
+    raise typer.Exit(run(folder))
+
+
 if __name__ == "__main__":
     app()
