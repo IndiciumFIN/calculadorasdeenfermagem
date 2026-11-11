@@ -1,0 +1,53 @@
+{
+  "acao_necessaria": "Configurar GDRIVE_SA_KEY ou DRIVE_ACCESS_TOKEN e um contrato que associe cada arquivo a uma política com gate PASS antes de baixar bytes.",
+  "autorizado_por": "kernel",
+  "conditions": [
+    "Nada é baixado, atomizado ou migrado enquanto estado=BLOQUEADO",
+    "Credencial GDRIVE_SA_KEY ou DRIVE_ACCESS_TOKEN é obrigatória",
+    "Atomização só com política cujo gate PASS e vínculo contratual do arquivo",
+    "Vigência permanece NAO_VERIFICADO até revisão humana"
+  ],
+  "depende_de": "CE-WO-20261111-WO-0092",
+  "entradas": 0,
+  "estado": "BLOQUEADO",
+  "evidence_reference": "evidence/CE-WO-20261111-WO-0093/bloqueio.json",
+  "folder_id": "1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "id": "WO-2026_11_11_0093",
+  "lote": "drive_folder_1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "motivo": "Atomização depende da WO CE-WO-20261111-WO-0092 (BLOQUEADO). Sem bytes classificados por política válida, nenhum átomo foi escrito. policy_id permanece nulo.",
+  "policy_id": null,
+  "politicas_rejeitadas_no_gate": [
+    "KERNEL-POLICY-003",
+    "KERNEL-POLICY-004",
+    "KERNEL-POLICY-005",
+    "KERNEL-POLICY-006",
+    "KERNEL-POLICY-007",
+    "KERNEL-POLICY-008",
+    "KERNEL-POLICY-009",
+    "KERNEL-POLICY-010",
+    "KERNEL-POLICY-011",
+    "KERNEL-POLICY-012",
+    "KERNEL-POLICY-013",
+    "KERNEL-POLICY-014",
+    "KERNEL-POLICY-015",
+    "KERNEL-POLICY-016",
+    "KERNEL-POLICY-017",
+    "KERNEL-POLICY-018"
+  ],
+  "politicas_validas_no_gate": [
+    "KERNEL-POLICY-001",
+    "KERNEL-POLICY-002",
+    "KERNEL-POLICY-019",
+    "KERNEL-POLICY-020"
+  ],
+  "rationale": "Atomização depende da WO CE-WO-20261111-WO-0092 (BLOQUEADO). Sem bytes classificados por política válida, nenhum átomo foi escrito. policy_id permanece nulo.",
+  "schema": "CE-WO-AUTHORIZATION-1.0.0",
+  "slug": "drive_1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC_atomizar",
+  "status": "BLOQUEADO",
+  "submitted_by": "kernel",
+  "tarefa": "atomizar",
+  "tentativas": 1,
+  "timestamp": "2026-11-11T18:42:23+00:00",
+  "ultimo_http_code": 403,
+  "wo_id": "CE-WO-20261111-WO-0093"
+}

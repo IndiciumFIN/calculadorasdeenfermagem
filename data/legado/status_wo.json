@@ -1,0 +1,58 @@
+{
+  "schema": "CE-WO-STATUS-1.0.0",
+  "updated_by": "kernel",
+  "work_orders": [
+    {
+      "arquivo": "data/legado/autorizacao_WO-0087.json",
+      "estado": "BLOQUEADO",
+      "id": "CE-WO-20261017-WO-0087",
+      "lote": "nativos_google",
+      "motivo": "Native Google Drive files — HTTP 500 error on previous attempt. Retry with GDRIVE_SA_KEY.",
+      "tarefa": null,
+      "wo_id": "CE-WO-20261017-WO-0087"
+    },
+    {
+      "arquivo": "data/legado/autorizacao_WO-0088.json",
+      "estado": "BLOQUEADO",
+      "id": "CE-WO-20261017-WO-0088",
+      "lote": "esteira_binarios",
+      "motivo": "Binary files from pipeline — HTML != file error. Retry with GDRIVE_SA_KEY.",
+      "tarefa": null,
+      "wo_id": "CE-WO-20261017-WO-0088"
+    },
+    {
+      "arquivo": "data/legado/autorizacao_WO-0090.json",
+      "estado": "PREAUTHORIZED",
+      "id": "CE-WO-20261017-WO-0090",
+      "lote": "cofen_dec_abaixo_50",
+      "tarefa": null,
+      "wo_id": "CE-WO-20261017-WO-0090"
+    },
+    {
+      "arquivo": "data/legado/autorizacao_WO-0091.json",
+      "estado": "PREAUTHORIZED",
+      "id": "CE-WO-20261017-WO-0091",
+      "lote": "cofen_dec_50mb",
+      "tarefa": null,
+      "wo_id": "CE-WO-20261017-WO-0091"
+    },
+    {
+      "arquivo": "data/legado/autorizacao_WO-0092.json",
+      "estado": "BLOQUEADO",
+      "id": "WO-2026_11_11_0092",
+      "lote": "drive_folder_1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+      "motivo": "Acesso sem credencial. Nem GDRIVE_SA_KEY nem DRIVE_ACCESS_TOKEN estão configurados. A API Drive respondeu HTTP 403. Fail-closed: bytes não foram baixados.",
+      "tarefa": "obter",
+      "wo_id": "CE-WO-20261111-WO-0092"
+    },
+    {
+      "arquivo": "data/legado/autorizacao_WO-0093.json",
+      "estado": "BLOQUEADO",
+      "id": "WO-2026_11_11_0093",
+      "lote": "drive_folder_1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+      "motivo": "Atomização depende da WO CE-WO-20261111-WO-0092 (BLOQUEADO). Sem bytes classificados por política válida, nenhum átomo foi escrito. policy_id permanece nulo.",
+      "tarefa": "atomizar",
+      "wo_id": "CE-WO-20261111-WO-0093"
+    }
+  ]
+}
