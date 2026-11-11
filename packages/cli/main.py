@@ -201,6 +201,26 @@ def kernel_validate(
         typer.secho("✅ Validação APROVADA", fg=typer.colors.GREEN)
 
 
+@kernel_app.command("submit-wo")
+def kernel_submit_wo(
+    folder: str = typer.Option(..., "--folder", help="ID da pasta Drive"),
+    policy: Optional[str] = typer.Option(None, "--policy", "-p", help="KERNEL-POLICY explícita"),
+) -> None:
+    """Submete as WO de obter e atomizar. Sem autorização, grava BLOQUEADO e sai 2."""
+    from packages.cli.kernel.work_orders import run_drive_folder
+
+    result = run_drive_folder(folder, policy_id=policy)
+    for order in result["orders"]:
+        typer.echo(f"{order['wo_id']} {order['estado']} {order['tarefa']}")
+    typer.echo(
+        f"bytes_acquired={result['bytes_acquired']} atoms_written={result['atoms_written']}"
+    )
+    if result["exit_code"] != 0:
+        typer.secho("Kernel rejeitou obter ou atomizar. Exit 2.", fg=typer.colors.RED)
+        raise typer.Exit(result["exit_code"])
+    typer.secho("Kernel autorizou e concluiu as WO.", fg=typer.colors.GREEN)
+
+
 @kernel_app.command("list-policies")
 def kernel_list_policies() -> None:
     """Lista todas as políticas registradas."""
