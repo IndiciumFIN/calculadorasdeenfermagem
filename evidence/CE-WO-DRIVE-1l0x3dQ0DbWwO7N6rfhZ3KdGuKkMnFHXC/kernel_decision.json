@@ -1,0 +1,81 @@
+{
+  "schema": "CE-KERNEL-DRIVE-DECISION-1.0.0",
+  "folder_id": "1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "wo_submitted_before_drive": true,
+  "wo_obter": "data/legado/autorizacao_WO-DRIVE-1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC-obter.json",
+  "wo_atomizar": "data/legado/autorizacao_WO-DRIVE-1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC-atomizar.json",
+  "politicas_validas": [
+    "KERNEL-POLICY-001",
+    "KERNEL-POLICY-002",
+    "KERNEL-POLICY-019",
+    "KERNEL-POLICY-020"
+  ],
+  "politicas_rejeitadas": [
+    {
+      "id": "KERNEL-POLICY-003",
+      "motivo": "Validador 'cid10_validator' falhou nos testes. Fail-closed."
+    },
+    {
+      "id": "KERNEL-POLICY-004",
+      "motivo": "Validador 'cid11_validator' falhou nos testes. Fail-closed."
+    },
+    {
+      "id": "KERNEL-POLICY-005",
+      "motivo": "Validador 'mesh_validator' falhou nos testes. Fail-closed."
+    },
+    {
+      "id": "KERNEL-POLICY-006",
+      "motivo": "Validador 'schema_validator' falhou nos testes. Fail-closed."
+    },
+    {
+      "id": "KERNEL-POLICY-007",
+      "motivo": "Validador 'cvx_validator' falhou nos testes. Fail-closed."
+    },
+    {
+      "id": "KERNEL-POLICY-008",
+      "motivo": "Validador 'schema_validator' falhou nos testes. Fail-closed."
+    },
+    {
+      "id": "KERNEL-POLICY-009",
+      "motivo": "Validador 'schema_validator' falhou nos testes. Fail-closed."
+    },
+    {
+      "id": "KERNEL-POLICY-010",
+      "motivo": "Validador 'schema_validator' falhou nos testes. Fail-closed."
+    },
+    {
+      "id": "KERNEL-POLICY-011",
+      "motivo": "Validador 'schema_validator' falhou nos testes. Fail-closed."
+    },
+    {
+      "id": "KERNEL-POLICY-012",
+      "motivo": "Validador 'schema_validator' falhou nos testes. Fail-closed."
+    },
+    {
+      "id": "KERNEL-POLICY-013",
+      "motivo": "Validador 'schema_validator' falhou nos testes. Fail-closed."
+    },
+    {
+      "id": "KERNEL-POLICY-014",
+      "motivo": "Validador 'schema_validator' falhou nos testes. Fail-closed."
+    },
+    {
+      "id": "KERNEL-POLICY-015",
+      "motivo": "Validador 'schema_validator' falhou nos testes. Fail-closed."
+    },
+    {
+      "id": "KERNEL-POLICY-016",
+      "motivo": "Validador 'schema_validator' falhou nos testes. Fail-closed."
+    },
+    {
+      "id": "KERNEL-POLICY-017",
+      "motivo": "Validador 'schema_validator' falhou nos testes. Fail-closed."
+    },
+    {
+      "id": "KERNEL-POLICY-018",
+      "motivo": "Validador 'schema_validator' falhou nos testes. Fail-closed."
+    }
+  ],
+  "ultimo_http_code": 403,
+  "resposta_api": "{\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.\",\n    \"errors\": [\n      {\n        \"message\": \"Method doesn't allow unregistered callers (calle"
+}

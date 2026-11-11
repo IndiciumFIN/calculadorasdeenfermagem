@@ -25,9 +25,10 @@ from packages.cli.adapters.dou import fetch_dou_federal
 from packages.cli.adapters.secundaria import fetch_secundaria
 
 # Kernel subcommands
-from kernel.core import Kernel, Decision
-from kernel.policy_registry import get_policy, list_policies
-from validators.registry import list_validators
+from packages.cli.kernel.core import Kernel, Decision
+from packages.cli.kernel.policy_registry import get_policy, list_policies
+from packages.cli.kernel.work_order import parse_folder_id, run_obtain_drive
+from packages.cli.validators.registry import list_validators
 
 app = typer.Typer(help="CLI canônica e blindada — Calculadoras de Enfermagem")
 kernel_app = typer.Typer(help="Kernel — executor de políticas determinísticas")
@@ -232,7 +233,8 @@ def kernel_list_validators() -> None:
 @kernel_app.command("test-validators")
 def kernel_test_validators() -> None:
     """Executa test_suite de todos os validadores."""
-    from validators.registry import VALIDATORS
+    import packages.cli.validators  # noqa: F401 — registra os validadores
+    from packages.cli.validators.registry import VALIDATORS
     failures = []
     for name, validator in sorted(VALIDATORS.items()):
         if hasattr(validator, "run_tests") and callable(validator.run_tests):
@@ -244,6 +246,23 @@ def kernel_test_validators() -> None:
             typer.echo(f"  - {f}")
         raise typer.Exit(2)
     typer.secho(f"\n✅ Todos os {len(VALIDATORS)} validadores passaram.", fg=typer.colors.GREEN)
+
+
+@kernel_app.command("obtain-drive")
+def kernel_obtain_drive(
+    folder_id: str = typer.Option(..., "--folder-id", help="ID ou URL da pasta Drive"),
+) -> None:
+    """Submete as WO de obter e atomizar e só então tenta baixar a pasta.
+
+    Sem credencial, ou sem sha256_fonte, o Kernel grava WO BLOQUEADO e sai 2.
+    """
+    try:
+        parsed = parse_folder_id(folder_id)
+    except ValueError as exc:
+        typer.secho(f"❌ {exc}", fg=typer.colors.RED)
+        raise typer.Exit(2)
+    code = run_obtain_drive(parsed)
+    raise typer.Exit(code)
 
 
 if __name__ == "__main__":

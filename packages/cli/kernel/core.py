@@ -16,32 +16,24 @@ from typing import Any
 import typer
 
 from packages.schemas.invariantes import AtomoBlindado
+from .policy_registry import POLICIES_DIR, PolicyRegistry, get_policy
 
-# Import tardio para evitar circular — cada validador se auto-registra
-def _lazy_import_validators():
-    from validators import (
-        Sha256Validator, NormAtomIdValidator, TextoLengthValidator,
-        UrlValidator, AtomoSchemaValidator,
-        cid10_validator, cid11_validator, mesh_validator,
-        cvx_validator, schema_validator, loinc_validator,
-        ncm_validator, catmat_validator, human_review_validator,
-    )
-    return locals()
+REPO_ROOT = POLICIES_DIR.parents[1]
 
 VALIDATORS: dict[str, Any] = {}
 _validator_imported = False
+_validator_tests: dict[str, bool] = {}
+
 
 def _ensure_validators():
     global _validator_imported, VALIDATORS
     if not _validator_imported:
-        ctx = _lazy_import_validators()
-        # Extrai validadores concretos (não classes, instâncias)
-        for k, v in ctx.items():
-            if k.endswith("_validator") and hasattr(v, "validate"):
-                VALIDATORS[k] = v
-        _validator_imported = True
+        import packages.cli.validators  # noqa: F401 — auto-registro
+        from packages.cli.validators.registry import VALIDATORS as registered
 
-from kernel.policy_registry import get_policy, PolicyRegistry
+        VALIDATORS.clear()
+        VALIDATORS.update(registered)
+        _validator_imported = True
 
 
 class Decision(str, Enum):
@@ -212,42 +204,52 @@ class Kernel:
             pending_count=pending_count,
         )
 
-    def gate(self, policy_id: str) -> int:
-        """Executa gate para uma política. Retorna exit code."""
+    def check_policy(self, policy_id: str) -> tuple[int, str]:
+        """Confere se a política está implementada e se os testes dos validadores passam.
+
+        Não cria diretórios. Exit 2 é fail-closed.
+        """
         _ensure_validators()
         try:
             policy = get_policy(policy_id)
         except (KeyError, FileNotFoundError) as exc:
-            typer.secho(f"❌ Política não encontrada: {policy_id}", fg=typer.colors.RED)
-            typer.secho(f"   {exc}", fg=typer.colors.RED)
-            return 2
+            return 2, f"Política não encontrada: {policy_id}: {exc}"
 
         if not policy.validators:
-            typer.secho(f"❌ Política {policy_id} não tem validadores. Fail-closed.", fg=typer.colors.RED)
-            return 2
+            return 2, f"Política {policy_id} não tem validadores. Fail-closed."
 
         missing = [v for v in policy.validators if v not in VALIDATORS]
         if missing:
-            typer.secho(f"❌ Validadores ausentes: {missing}. Fail-closed.", fg=typer.colors.RED)
-            return 2
-
-        typer.secho(f"✅ Gate {policy_id}@{policy.version}: {len(policy.validators)} validadores OK", fg=typer.colors.GREEN)
+            return 2, f"Validadores ausentes: {missing}. Fail-closed."
 
         for vname in policy.validators:
             validator = VALIDATORS[vname]
-            if hasattr(validator, "run_tests"):
-                if not validator.run_tests():
-                    typer.secho(f"❌ Validador '{vname}' falhou nos testes. Fail-closed.", fg=typer.colors.RED)
-                    return 2
-                typer.secho(f"  ✅ {vname}: {len(validator.test_suite())} testes OK", fg=typer.colors.GREEN)
-            else:
-                typer.secho(f"  ⚠️  {vname}: sem test_suite (stub)", fg=typer.colors.YELLOW)
+            if not hasattr(validator, "run_tests"):
+                return 2, f"Validador '{vname}' sem test_suite. Fail-closed."
+            if vname not in _validator_tests:
+                _validator_tests[vname] = bool(validator.run_tests())
+            if not _validator_tests[vname]:
+                return 2, f"Validador '{vname}' falhou nos testes. Fail-closed."
 
-        output_dir = Path(policy.atoms_output)
+        return 0, (
+            f"Gate {policy_id}@{policy.version}: "
+            f"{len(policy.validators)} validadores OK"
+        )
+
+    def gate(self, policy_id: str) -> int:
+        """Executa gate para uma política. Retorna exit code."""
+        code, message = self.check_policy(policy_id)
+        if code != 0:
+            typer.secho(f"❌ {message}", fg=typer.colors.RED)
+            return 2
+
+        policy = get_policy(policy_id)
+        output_dir = REPO_ROOT / policy.atoms_output
         if not output_dir.exists():
             typer.secho(f"⚠️  Criando diretório de saída: {output_dir}", fg=typer.colors.YELLOW)
             output_dir.mkdir(parents=True, exist_ok=True)
 
+        typer.secho(f"✅ {message}", fg=typer.colors.GREEN)
         typer.secho(f"✅ Gate {policy_id}: TODOS OS VALIDADORES APROVADOS", fg=typer.colors.GREEN)
         return 0
 
