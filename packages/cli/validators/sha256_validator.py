@@ -5,8 +5,8 @@ import hashlib
 import re
 from typing import Any
 
-from validators.base import BaseValidator
-from validators.registry import register
+from .base import BaseValidator
+from .registry import register
 
 
 @register

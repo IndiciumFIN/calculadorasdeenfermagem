@@ -5,6 +5,8 @@ Tudo importa de um ponto único: packages.schemas.invariantes.AtomoBlindado.
 """
 from __future__ import annotations
 
+import contextlib
+import io
 import json
 import sys
 from dataclasses import asdict, dataclass, field
@@ -16,32 +18,21 @@ from typing import Any
 import typer
 
 from packages.schemas.invariantes import AtomoBlindado
-
-# Import tardio para evitar circular — cada validador se auto-registra
-def _lazy_import_validators():
-    from validators import (
-        Sha256Validator, NormAtomIdValidator, TextoLengthValidator,
-        UrlValidator, AtomoSchemaValidator,
-        cid10_validator, cid11_validator, mesh_validator,
-        cvx_validator, schema_validator, loinc_validator,
-        ncm_validator, catmat_validator, human_review_validator,
-    )
-    return locals()
+from .policy_registry import get_policy, PolicyRegistry
 
 VALIDATORS: dict[str, Any] = {}
 _validator_imported = False
 
 def _ensure_validators():
     global _validator_imported, VALIDATORS
-    if not _validator_imported:
-        ctx = _lazy_import_validators()
-        # Extrai validadores concretos (não classes, instâncias)
-        for k, v in ctx.items():
-            if k.endswith("_validator") and hasattr(v, "validate"):
-                VALIDATORS[k] = v
-        _validator_imported = True
+    if _validator_imported:
+        return
+    import packages.cli.validators  # noqa: F401 — registra os módulos
+    from packages.cli.validators.registry import VALIDATORS as registered
 
-from kernel.policy_registry import get_policy, PolicyRegistry
+    VALIDATORS.clear()
+    VALIDATORS.update(registered)
+    _validator_imported = True
 
 
 class Decision(str, Enum):
@@ -211,6 +202,30 @@ class Kernel:
             rejected_count=rejected_count,
             pending_count=pending_count,
         )
+
+    def policy_is_valid(self, policy_id: str) -> tuple[bool, str]:
+        """Confere se a política passa no gate de validadores, sem criar diretórios."""
+        _ensure_validators()
+        try:
+            policy = get_policy(policy_id)
+        except (KeyError, FileNotFoundError) as exc:
+            return False, f"política não encontrada: {exc}"
+        if not policy.validators:
+            return False, "política sem validadores"
+        if policy.fail_closed is not True:
+            return False, "política sem fail_closed"
+        missing = [v for v in policy.validators if v not in VALIDATORS]
+        if missing:
+            return False, f"validadores ausentes: {missing}"
+        for vname in policy.validators:
+            validator = VALIDATORS[vname]
+            if not hasattr(validator, "run_tests"):
+                return False, f"validador {vname} sem test_suite"
+            with contextlib.redirect_stdout(io.StringIO()):
+                passed = validator.run_tests()
+            if not passed:
+                return False, f"validador {vname} falhou no test_suite"
+        return True, f"{policy_id}@{policy.version}: {len(policy.validators)} validadores aprovados"
 
     def gate(self, policy_id: str) -> int:
         """Executa gate para uma política. Retorna exit code."""

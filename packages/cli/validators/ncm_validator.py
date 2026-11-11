@@ -1,8 +1,8 @@
 """Validador ncm_validator — Valida NCM (Nomenclatura Comum do Mercosul) - 8 digitos."""
 from __future__ import annotations
 from typing import Any
-from validators.base import BaseValidator
-from validators.registry import register
+from .base import BaseValidator
+from .registry import register
 
 @register
 class CLASS_ncm_validator(BaseValidator):
