@@ -1,0 +1,94 @@
+{
+  "atoms_written": 0,
+  "authority_present": false,
+  "bytes_acquired": false,
+  "credential_present": false,
+  "exit_code": 2,
+  "folder_id": "1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "orders": [
+    {
+      "acao_necessaria": "Registrar a pasta na autoridade e nas raízes, configurar credencial de leitura e informar a KERNEL-POLICY aplicável. O Kernel não baixa nem atomiza antes disso.",
+      "atoms_written": 0,
+      "autorizado_por": "kernel",
+      "bytes_acquired": false,
+      "data": "2026-11-11T12:43:49Z",
+      "estado": "BLOQUEADO",
+      "folder_id": "1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+      "motivo": "pasta ausente nas raízes registradas config/drive_inventory_roots_20261016.json | autoridade data/legado/drive_raizes.json ausente | nem GDRIVE_SA_KEY nem DRIVE_ACCESS_TOKEN configurado",
+      "policy_id": null,
+      "restrictions": [
+        "NO_DELETE",
+        "NO_PUBLICATION",
+        "NO_CANONICAL_PROMOTION",
+        "RIGHTS_GATE_REQUIRED"
+      ],
+      "schema": "CE-WO-AUTHORIZATION-1.0.0",
+      "sha256_fonte": null,
+      "submitted_at": "2026-11-11T12:43:49Z",
+      "submitted_by": "kernel",
+      "tarefa": "obter",
+      "tentativas": 1,
+      "wo_id": "CE-WO-OBTER-1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC"
+    },
+    {
+      "acao_necessaria": "Registrar a pasta na autoridade e nas raízes, configurar credencial de leitura e informar a KERNEL-POLICY aplicável. O Kernel não baixa nem atomiza antes disso.",
+      "atoms_written": 0,
+      "autorizado_por": "kernel",
+      "bytes_acquired": false,
+      "data": "2026-11-11T12:43:49Z",
+      "estado": "BLOQUEADO",
+      "folder_id": "1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+      "motivo": "pasta ausente nas raízes registradas config/drive_inventory_roots_20261016.json | autoridade data/legado/drive_raizes.json ausente | nem GDRIVE_SA_KEY nem DRIVE_ACCESS_TOKEN configurado | política não informada; o Kernel não infere KERNEL-POLICY",
+      "policy_id": null,
+      "restrictions": [
+        "NO_DELETE",
+        "NO_PUBLICATION",
+        "NO_CANONICAL_PROMOTION",
+        "RIGHTS_GATE_REQUIRED"
+      ],
+      "schema": "CE-WO-AUTHORIZATION-1.0.0",
+      "sha256_fonte": null,
+      "submitted_at": "2026-11-11T12:43:49Z",
+      "submitted_by": "kernel",
+      "tarefa": "atomizar",
+      "tentativas": 1,
+      "wo_id": "CE-WO-ATOMIZAR-1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC"
+    }
+  ],
+  "policy_gates": [
+    {
+      "exit_code": 0,
+      "id": "KERNEL-POLICY-001",
+      "wo_required": true
+    },
+    {
+      "exit_code": 0,
+      "id": "KERNEL-POLICY-002",
+      "wo_required": true
+    },
+    {
+      "exit_code": 0,
+      "id": "KERNEL-POLICY-019",
+      "wo_required": true
+    },
+    {
+      "exit_code": 0,
+      "id": "KERNEL-POLICY-020",
+      "wo_required": true
+    }
+  ],
+  "policy_id": null,
+  "registered_root_ids": [
+    "1FDBAMQ3-WT-8l6xU0664u7QjABd0FbEH",
+    "1c9vErI_It3XwzAcAFOnbxw9V0Mn6xfB9"
+  ],
+  "restrictions": [
+    "NO_DELETE",
+    "NO_PUBLICATION",
+    "NO_CANONICAL_PROMOTION",
+    "RIGHTS_GATE_REQUIRED"
+  ],
+  "schema": "CE-WO-DRIVE-RUN-1.0.0",
+  "submitted_by": "kernel",
+  "tentativas": 1
+}

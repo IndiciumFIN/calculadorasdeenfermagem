@@ -17,31 +17,44 @@ import typer
 
 from packages.schemas.invariantes import AtomoBlindado
 
-# Import tardio para evitar circular — cada validador se auto-registra
-def _lazy_import_validators():
-    from validators import (
-        Sha256Validator, NormAtomIdValidator, TextoLengthValidator,
-        UrlValidator, AtomoSchemaValidator,
-        cid10_validator, cid11_validator, mesh_validator,
-        cvx_validator, schema_validator, loinc_validator,
-        ncm_validator, catmat_validator, human_review_validator,
-    )
-    return locals()
+_VALIDATOR_MODULES = (
+    "validators.sha256_validator",
+    "validators.schema_validator",
+    "validators.catmat_validator",
+    "validators.cid10_validator",
+    "validators.cid11_validator",
+    "validators.cvx_validator",
+    "validators.human_review_validator",
+    "validators.loinc_validator",
+    "validators.mesh_validator",
+    "validators.ncm_validator",
+)
 
 VALIDATORS: dict[str, Any] = {}
 _validator_imported = False
 
-def _ensure_validators():
-    global _validator_imported, VALIDATORS
-    if not _validator_imported:
-        ctx = _lazy_import_validators()
-        # Extrai validadores concretos (não classes, instâncias)
-        for k, v in ctx.items():
-            if k.endswith("_validator") and hasattr(v, "validate"):
-                VALIDATORS[k] = v
-        _validator_imported = True
 
-from kernel.policy_registry import get_policy, PolicyRegistry
+def _ensure_validators():
+    """Carrega instâncias registradas. Sem validador carregado → fail-closed."""
+    global _validator_imported, VALIDATORS
+    if _validator_imported:
+        return
+    import importlib
+
+    cli_dir = Path(__file__).resolve().parents[1]
+    repo_root = Path(__file__).resolve().parents[3]
+    for entry in (str(repo_root), str(cli_dir)):
+        if entry not in sys.path:
+            sys.path.insert(0, entry)
+    for module_name in _VALIDATOR_MODULES:
+        importlib.import_module(module_name)
+    registry = importlib.import_module("validators.registry")
+    VALIDATORS.clear()
+    VALIDATORS.update(registry.VALIDATORS)
+    _validator_imported = True
+
+
+from .policy_registry import get_policy, PolicyRegistry
 
 
 class Decision(str, Enum):
@@ -212,8 +225,8 @@ class Kernel:
             pending_count=pending_count,
         )
 
-    def gate(self, policy_id: str) -> int:
-        """Executa gate para uma política. Retorna exit code."""
+    def check_policy(self, policy_id: str) -> int:
+        """Confere política e testes dos validadores. Não cria diretório nem baixa arquivo."""
         _ensure_validators()
         try:
             policy = get_policy(policy_id)
@@ -231,7 +244,10 @@ class Kernel:
             typer.secho(f"❌ Validadores ausentes: {missing}. Fail-closed.", fg=typer.colors.RED)
             return 2
 
-        typer.secho(f"✅ Gate {policy_id}@{policy.version}: {len(policy.validators)} validadores OK", fg=typer.colors.GREEN)
+        typer.secho(
+            f"✅ Gate {policy_id}@{policy.version}: {len(policy.validators)} validadores OK",
+            fg=typer.colors.GREEN,
+        )
 
         for vname in policy.validators:
             validator = VALIDATORS[vname]
@@ -242,13 +258,21 @@ class Kernel:
                 typer.secho(f"  ✅ {vname}: {len(validator.test_suite())} testes OK", fg=typer.colors.GREEN)
             else:
                 typer.secho(f"  ⚠️  {vname}: sem test_suite (stub)", fg=typer.colors.YELLOW)
+                return 2
 
+        typer.secho(f"✅ Gate {policy_id}: TODOS OS VALIDADORES APROVADOS", fg=typer.colors.GREEN)
+        return 0
+
+    def gate(self, policy_id: str) -> int:
+        """Executa gate para uma política. Retorna exit code."""
+        exit_code = self.check_policy(policy_id)
+        if exit_code != 0:
+            return exit_code
+        policy = get_policy(policy_id)
         output_dir = Path(policy.atoms_output)
         if not output_dir.exists():
             typer.secho(f"⚠️  Criando diretório de saída: {output_dir}", fg=typer.colors.YELLOW)
             output_dir.mkdir(parents=True, exist_ok=True)
-
-        typer.secho(f"✅ Gate {policy_id}: TODOS OS VALIDADORES APROVADOS", fg=typer.colors.GREEN)
         return 0
 
     def list_policies(self) -> None:
