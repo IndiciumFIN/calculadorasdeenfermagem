@@ -8,10 +8,17 @@ Comandos:
 """
 from __future__ import annotations
 
-import json
 import sys
-from datetime import date
 from pathlib import Path
+
+_REPO_ROOT = Path(__file__).resolve().parents[2]
+_CLI_ROOT = Path(__file__).resolve().parent
+for _entry in (str(_REPO_ROOT), str(_CLI_ROOT)):
+    if _entry not in sys.path:
+        sys.path.insert(0, _entry)
+
+import json
+from datetime import date
 from typing import Optional
 
 import requests
@@ -244,6 +251,36 @@ def kernel_test_validators() -> None:
             typer.echo(f"  - {f}")
         raise typer.Exit(2)
     typer.secho(f"\n✅ Todos os {len(VALIDATORS)} validadores passaram.", fg=typer.colors.GREEN)
+
+
+@kernel_app.command("obter")
+def kernel_obter(
+    folder: str = typer.Option(..., "--folder", help="ID da pasta Drive"),
+) -> None:
+    """Baixa a pasta Drive. A WO é submetida pelo Kernel antes da coleta."""
+    from kernel.activities import executar_obter
+
+    raise typer.Exit(executar_obter(folder))
+
+
+@kernel_app.command("atomizar")
+def kernel_atomizar(
+    folder: str = typer.Option(..., "--folder", help="ID da pasta Drive"),
+) -> None:
+    """Atomiza o corpus já obtido, só com políticas que passam no gate do Kernel."""
+    from kernel.activities import executar_atomizar
+
+    raise typer.Exit(executar_atomizar(folder))
+
+
+@kernel_app.command("executar-pasta")
+def kernel_executar_pasta(
+    folder: str = typer.Option(..., "--folder", help="ID da pasta Drive"),
+) -> None:
+    """Submete a WO de obter e a WO de atomizar, nesta ordem."""
+    from kernel.activities import executar_pasta
+
+    raise typer.Exit(executar_pasta(folder))
 
 
 if __name__ == "__main__":

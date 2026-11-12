@@ -36,8 +36,12 @@ class KernelPolicy:
 
     @classmethod
     def from_dict(cls, data: dict) -> "KernelPolicy":
+        payload = dict(data)
+        # O JSON canônico usa quarentena_output; o campo interno preserva o nome já versionado.
+        if payload.get("quarentena_output") and not payload.get("cuarentena_output"):
+            payload["cuarentena_output"] = payload["quarentena_output"]
         known_fields = {f.name for f in cls.__dataclass_fields__.values()}
-        return cls(**{k: v for k, v in data.items() if k in known_fields})
+        return cls(**{k: v for k, v in payload.items() if k in known_fields})
 
 
 class PolicyRegistry:
