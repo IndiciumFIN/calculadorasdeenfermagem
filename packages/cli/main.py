@@ -219,6 +219,21 @@ def kernel_show_policy(policy_id: str = typer.Argument(...)) -> None:
     typer.echo(json.dumps(p.to_dict(), indent=2, ensure_ascii=False))
 
 
+@kernel_app.command("drive-folder")
+def kernel_drive_folder(
+    folder: str = typer.Option(..., "--folder", help="ID da pasta Drive"),
+    output: Optional[Path] = typer.Option(None, "--output", help="Evidência JSON da decisão"),
+) -> None:
+    """Submete WO de obter/atomizar somente se uma política do Kernel autorizar a pasta."""
+    from kernel.drive_activity import run_drive_folder
+
+    _plan, code = run_drive_folder(folder, Path.cwd(), output)
+    if code != 0:
+        typer.secho("Kernel REJECTED — bytes não adquiridos", fg=typer.colors.RED)
+        raise typer.Exit(code)
+    typer.secho("Kernel APPROVED", fg=typer.colors.GREEN)
+
+
 @kernel_app.command("list-validators")
 def kernel_list_validators() -> None:
     """Lista todos os validadores registrados."""

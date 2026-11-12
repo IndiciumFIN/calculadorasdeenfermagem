@@ -1,0 +1,349 @@
+{
+  "activities": [
+    "atomizar",
+    "obter"
+  ],
+  "atoms_written": 0,
+  "bytes_acquired": false,
+  "code": "FOLDER_NOT_IN_POLICY",
+  "credential_present": false,
+  "decision": "REJECTED",
+  "exit_code": 2,
+  "folder_id": "1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "folder_is_registered_root": false,
+  "motivo": "Nenhuma política lista esta pasta em authorized_drive_folder_ids. O Kernel não submeteu WO de execução, não baixou bytes e não atomizou. Estar ausente ou presente nas raízes de inventário não autoriza aquisição. Credencial Drive ausente.",
+  "registered_root_ids": [
+    "1FDBAMQ3-WT-8l6xU0664u7QjABd0FbEH",
+    "1c9vErI_It3XwzAcAFOnbxw9V0Mn6xfB9"
+  ],
+  "restrictions": [
+    "READ_ONLY",
+    "NO_DELETE",
+    "NO_PUBLICATION",
+    "NO_CANONICAL_PROMOTION"
+  ],
+  "schema": "CE-KERNEL-DRIVE-ACTIVITY-1.0.0",
+  "submitted_by": "kernel",
+  "work_orders": [
+    {
+      "activity": "atomizar",
+      "code": "FOLDER_NOT_IN_POLICY",
+      "decision": "REJECTED",
+      "policy_id": "KERNEL-POLICY-001",
+      "submitted_by": "kernel",
+      "wo_id": "CE-WO-4b698aba71f7dca8"
+    },
+    {
+      "activity": "obter",
+      "code": "FOLDER_NOT_IN_POLICY",
+      "decision": "REJECTED",
+      "policy_id": "KERNEL-POLICY-001",
+      "submitted_by": "kernel",
+      "wo_id": "CE-WO-dfa1d2fe1dc9edaf"
+    },
+    {
+      "activity": "atomizar",
+      "code": "FOLDER_NOT_IN_POLICY",
+      "decision": "REJECTED",
+      "policy_id": "KERNEL-POLICY-002",
+      "submitted_by": "kernel",
+      "wo_id": "CE-WO-6efb7847b14d6cec"
+    },
+    {
+      "activity": "obter",
+      "code": "FOLDER_NOT_IN_POLICY",
+      "decision": "REJECTED",
+      "policy_id": "KERNEL-POLICY-002",
+      "submitted_by": "kernel",
+      "wo_id": "CE-WO-bb56f770f0ebbfa6"
+    },
+    {
+      "activity": "atomizar",
+      "code": "FOLDER_NOT_IN_POLICY",
+      "decision": "REJECTED",
+      "policy_id": "KERNEL-POLICY-003",
+      "submitted_by": "kernel",
+      "wo_id": "CE-WO-c4969c3f91108149"
+    },
+    {
+      "activity": "obter",
+      "code": "FOLDER_NOT_IN_POLICY",
+      "decision": "REJECTED",
+      "policy_id": "KERNEL-POLICY-003",
+      "submitted_by": "kernel",
+      "wo_id": "CE-WO-6a955d8027452f25"
+    },
+    {
+      "activity": "atomizar",
+      "code": "FOLDER_NOT_IN_POLICY",
+      "decision": "REJECTED",
+      "policy_id": "KERNEL-POLICY-004",
+      "submitted_by": "kernel",
+      "wo_id": "CE-WO-2763d3bf37df32f2"
+    },
+    {
+      "activity": "obter",
+      "code": "FOLDER_NOT_IN_POLICY",
+      "decision": "REJECTED",
+      "policy_id": "KERNEL-POLICY-004",
+      "submitted_by": "kernel",
+      "wo_id": "CE-WO-4f7e3356a517f6b0"
+    },
+    {
+      "activity": "atomizar",
+      "code": "FOLDER_NOT_IN_POLICY",
+      "decision": "REJECTED",
+      "policy_id": "KERNEL-POLICY-005",
+      "submitted_by": "kernel",
+      "wo_id": "CE-WO-03b4d144a4a86468"
+    },
+    {
+      "activity": "obter",
+      "code": "FOLDER_NOT_IN_POLICY",
+      "decision": "REJECTED",
+      "policy_id": "KERNEL-POLICY-005",
+      "submitted_by": "kernel",
+      "wo_id": "CE-WO-9909d2314a5920fa"
+    },
+    {
+      "activity": "atomizar",
+      "code": "FOLDER_NOT_IN_POLICY",
+      "decision": "REJECTED",
+      "policy_id": "KERNEL-POLICY-006",
+      "submitted_by": "kernel",
+      "wo_id": "CE-WO-308df75cfcd1b21c"
+    },
+    {
+      "activity": "obter",
+      "code": "FOLDER_NOT_IN_POLICY",
+      "decision": "REJECTED",
+      "policy_id": "KERNEL-POLICY-006",
+      "submitted_by": "kernel",
+      "wo_id": "CE-WO-76fd8cb200b50aa8"
+    },
+    {
+      "activity": "atomizar",
+      "code": "FOLDER_NOT_IN_POLICY",
+      "decision": "REJECTED",
+      "policy_id": "KERNEL-POLICY-007",
+      "submitted_by": "kernel",
+      "wo_id": "CE-WO-ca6008eda48e33e9"
+    },
+    {
+      "activity": "obter",
+      "code": "FOLDER_NOT_IN_POLICY",
+      "decision": "REJECTED",
+      "policy_id": "KERNEL-POLICY-007",
+      "submitted_by": "kernel",
+      "wo_id": "CE-WO-a0d09d38f1401729"
+    },
+    {
+      "activity": "atomizar",
+      "code": "FOLDER_NOT_IN_POLICY",
+      "decision": "REJECTED",
+      "policy_id": "KERNEL-POLICY-008",
+      "submitted_by": "kernel",
+      "wo_id": "CE-WO-bae1ee977e356680"
+    },
+    {
+      "activity": "obter",
+      "code": "FOLDER_NOT_IN_POLICY",
+      "decision": "REJECTED",
+      "policy_id": "KERNEL-POLICY-008",
+      "submitted_by": "kernel",
+      "wo_id": "CE-WO-efc9649f9ad3038b"
+    },
+    {
+      "activity": "atomizar",
+      "code": "FOLDER_NOT_IN_POLICY",
+      "decision": "REJECTED",
+      "policy_id": "KERNEL-POLICY-009",
+      "submitted_by": "kernel",
+      "wo_id": "CE-WO-6525c84a21ed51da"
+    },
+    {
+      "activity": "obter",
+      "code": "FOLDER_NOT_IN_POLICY",
+      "decision": "REJECTED",
+      "policy_id": "KERNEL-POLICY-009",
+      "submitted_by": "kernel",
+      "wo_id": "CE-WO-11bf8b8d3db5cf83"
+    },
+    {
+      "activity": "atomizar",
+      "code": "FOLDER_NOT_IN_POLICY",
+      "decision": "REJECTED",
+      "policy_id": "KERNEL-POLICY-010",
+      "submitted_by": "kernel",
+      "wo_id": "CE-WO-0da6e31d5d76ef06"
+    },
+    {
+      "activity": "obter",
+      "code": "FOLDER_NOT_IN_POLICY",
+      "decision": "REJECTED",
+      "policy_id": "KERNEL-POLICY-010",
+      "submitted_by": "kernel",
+      "wo_id": "CE-WO-5fbb090df20eff46"
+    },
+    {
+      "activity": "atomizar",
+      "code": "FOLDER_NOT_IN_POLICY",
+      "decision": "REJECTED",
+      "policy_id": "KERNEL-POLICY-011",
+      "submitted_by": "kernel",
+      "wo_id": "CE-WO-c20e72ae8ca54878"
+    },
+    {
+      "activity": "obter",
+      "code": "FOLDER_NOT_IN_POLICY",
+      "decision": "REJECTED",
+      "policy_id": "KERNEL-POLICY-011",
+      "submitted_by": "kernel",
+      "wo_id": "CE-WO-7a07c2125c11e550"
+    },
+    {
+      "activity": "atomizar",
+      "code": "FOLDER_NOT_IN_POLICY",
+      "decision": "REJECTED",
+      "policy_id": "KERNEL-POLICY-012",
+      "submitted_by": "kernel",
+      "wo_id": "CE-WO-3e3324b7b427866d"
+    },
+    {
+      "activity": "obter",
+      "code": "FOLDER_NOT_IN_POLICY",
+      "decision": "REJECTED",
+      "policy_id": "KERNEL-POLICY-012",
+      "submitted_by": "kernel",
+      "wo_id": "CE-WO-ad352468e166390d"
+    },
+    {
+      "activity": "atomizar",
+      "code": "FOLDER_NOT_IN_POLICY",
+      "decision": "REJECTED",
+      "policy_id": "KERNEL-POLICY-013",
+      "submitted_by": "kernel",
+      "wo_id": "CE-WO-7022b7dc71144602"
+    },
+    {
+      "activity": "obter",
+      "code": "FOLDER_NOT_IN_POLICY",
+      "decision": "REJECTED",
+      "policy_id": "KERNEL-POLICY-013",
+      "submitted_by": "kernel",
+      "wo_id": "CE-WO-b0379e34a6060055"
+    },
+    {
+      "activity": "atomizar",
+      "code": "FOLDER_NOT_IN_POLICY",
+      "decision": "REJECTED",
+      "policy_id": "KERNEL-POLICY-014",
+      "submitted_by": "kernel",
+      "wo_id": "CE-WO-36db6b68eeed82d6"
+    },
+    {
+      "activity": "obter",
+      "code": "FOLDER_NOT_IN_POLICY",
+      "decision": "REJECTED",
+      "policy_id": "KERNEL-POLICY-014",
+      "submitted_by": "kernel",
+      "wo_id": "CE-WO-d33fa9dcf21a80b0"
+    },
+    {
+      "activity": "atomizar",
+      "code": "FOLDER_NOT_IN_POLICY",
+      "decision": "REJECTED",
+      "policy_id": "KERNEL-POLICY-015",
+      "submitted_by": "kernel",
+      "wo_id": "CE-WO-989b3fa17d358572"
+    },
+    {
+      "activity": "obter",
+      "code": "FOLDER_NOT_IN_POLICY",
+      "decision": "REJECTED",
+      "policy_id": "KERNEL-POLICY-015",
+      "submitted_by": "kernel",
+      "wo_id": "CE-WO-565166fe9e1512c8"
+    },
+    {
+      "activity": "atomizar",
+      "code": "FOLDER_NOT_IN_POLICY",
+      "decision": "REJECTED",
+      "policy_id": "KERNEL-POLICY-016",
+      "submitted_by": "kernel",
+      "wo_id": "CE-WO-9075d01e90f98faf"
+    },
+    {
+      "activity": "obter",
+      "code": "FOLDER_NOT_IN_POLICY",
+      "decision": "REJECTED",
+      "policy_id": "KERNEL-POLICY-016",
+      "submitted_by": "kernel",
+      "wo_id": "CE-WO-ab82fb0989bf588d"
+    },
+    {
+      "activity": "atomizar",
+      "code": "FOLDER_NOT_IN_POLICY",
+      "decision": "REJECTED",
+      "policy_id": "KERNEL-POLICY-017",
+      "submitted_by": "kernel",
+      "wo_id": "CE-WO-c93c13ad0d8ac505"
+    },
+    {
+      "activity": "obter",
+      "code": "FOLDER_NOT_IN_POLICY",
+      "decision": "REJECTED",
+      "policy_id": "KERNEL-POLICY-017",
+      "submitted_by": "kernel",
+      "wo_id": "CE-WO-99f8c51df78cdfc7"
+    },
+    {
+      "activity": "atomizar",
+      "code": "FOLDER_NOT_IN_POLICY",
+      "decision": "REJECTED",
+      "policy_id": "KERNEL-POLICY-018",
+      "submitted_by": "kernel",
+      "wo_id": "CE-WO-984f32900cb71e10"
+    },
+    {
+      "activity": "obter",
+      "code": "FOLDER_NOT_IN_POLICY",
+      "decision": "REJECTED",
+      "policy_id": "KERNEL-POLICY-018",
+      "submitted_by": "kernel",
+      "wo_id": "CE-WO-eb693700f0b16317"
+    },
+    {
+      "activity": "atomizar",
+      "code": "FOLDER_NOT_IN_POLICY",
+      "decision": "REJECTED",
+      "policy_id": "KERNEL-POLICY-019",
+      "submitted_by": "kernel",
+      "wo_id": "CE-WO-aabaefa4656f6164"
+    },
+    {
+      "activity": "obter",
+      "code": "FOLDER_NOT_IN_POLICY",
+      "decision": "REJECTED",
+      "policy_id": "KERNEL-POLICY-019",
+      "submitted_by": "kernel",
+      "wo_id": "CE-WO-295e66ea25210e5c"
+    },
+    {
+      "activity": "atomizar",
+      "code": "FOLDER_NOT_IN_POLICY",
+      "decision": "REJECTED",
+      "policy_id": "KERNEL-POLICY-020",
+      "submitted_by": "kernel",
+      "wo_id": "CE-WO-248b97d0a9b50b67"
+    },
+    {
+      "activity": "obter",
+      "code": "FOLDER_NOT_IN_POLICY",
+      "decision": "REJECTED",
+      "policy_id": "KERNEL-POLICY-020",
+      "submitted_by": "kernel",
+      "wo_id": "CE-WO-86322a3a9c129ac1"
+    }
+  ]
+}
