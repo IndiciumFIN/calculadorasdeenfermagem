@@ -1,0 +1,34 @@
+{
+  "schema": "CE-WO-AUTHORIZATION-1.0.0",
+  "wo_id": "CE-WO-20261112-WO-0093",
+  "slug": "atomizar-kernel-policy-001",
+  "status": "BLOQUEADO",
+  "rationale": "Atomizar arquivos classificados em KERNEL-POLICY-001 a partir da pasta 1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC.",
+  "authorized_by": "kernel",
+  "timestamp": "2026-11-12T02:51:48Z",
+  "policy_id": "KERNEL-POLICY-001",
+  "policy_version": "1.0.0",
+  "activity": "atomizar",
+  "target": "1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "conditions": [
+    "Política validada pelo Kernel antes da submissão",
+    "Atividade recusada sem esta WO",
+    "Fail-closed: credencial ausente ou política divergente bloqueia a atividade",
+    "Nenhum átomo é gravado sem a validação da política"
+  ],
+  "evidence_reference": "data/grc/evidencias/drive_atomize_1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC.json",
+  "motivo": "obter BLOQUEADO: Neither GDRIVE_SA_KEY nor DRIVE_ACCESS_TOKEN is configured; fail closed.",
+  "historico": [
+    {
+      "status": "SUBMITTED",
+      "timestamp": "2026-11-12T02:51:48Z",
+      "por": "kernel"
+    },
+    {
+      "status": "BLOQUEADO",
+      "timestamp": "2026-11-12T02:51:48Z",
+      "por": "kernel",
+      "motivo": "obter BLOQUEADO: Neither GDRIVE_SA_KEY nor DRIVE_ACCESS_TOKEN is configured; fail closed."
+    }
+  ]
+}

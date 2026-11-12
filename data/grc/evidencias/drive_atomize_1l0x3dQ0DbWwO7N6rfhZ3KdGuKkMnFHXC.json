@@ -1,0 +1,161 @@
+{
+  "schema": "CE-DRIVE-ATOMIZE-RUN-1.0.0",
+  "folder_id": "1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "policies_validated": [
+    "KERNEL-POLICY-001",
+    "KERNEL-POLICY-002",
+    "KERNEL-POLICY-019",
+    "KERNEL-POLICY-020"
+  ],
+  "policies_rejected": [
+    {
+      "id": "KERNEL-POLICY-003",
+      "reason": "gate exit 2"
+    },
+    {
+      "id": "KERNEL-POLICY-004",
+      "reason": "gate exit 2"
+    },
+    {
+      "id": "KERNEL-POLICY-005",
+      "reason": "gate exit 2"
+    },
+    {
+      "id": "KERNEL-POLICY-006",
+      "reason": "gate exit 2"
+    },
+    {
+      "id": "KERNEL-POLICY-007",
+      "reason": "gate exit 2"
+    },
+    {
+      "id": "KERNEL-POLICY-008",
+      "reason": "gate exit 2"
+    },
+    {
+      "id": "KERNEL-POLICY-009",
+      "reason": "gate exit 2"
+    },
+    {
+      "id": "KERNEL-POLICY-010",
+      "reason": "gate exit 2"
+    },
+    {
+      "id": "KERNEL-POLICY-011",
+      "reason": "gate exit 2"
+    },
+    {
+      "id": "KERNEL-POLICY-012",
+      "reason": "gate exit 2"
+    },
+    {
+      "id": "KERNEL-POLICY-013",
+      "reason": "gate exit 2"
+    },
+    {
+      "id": "KERNEL-POLICY-014",
+      "reason": "gate exit 2"
+    },
+    {
+      "id": "KERNEL-POLICY-015",
+      "reason": "gate exit 2"
+    },
+    {
+      "id": "KERNEL-POLICY-016",
+      "reason": "gate exit 2"
+    },
+    {
+      "id": "KERNEL-POLICY-017",
+      "reason": "gate exit 2"
+    },
+    {
+      "id": "KERNEL-POLICY-018",
+      "reason": "gate exit 2"
+    }
+  ],
+  "work_orders": [
+    {
+      "wo_id": "CE-WO-20261112-WO-0092",
+      "policy_id": "KERNEL-POLICY-001",
+      "activity": "obter",
+      "status": "BLOQUEADO",
+      "motivo": "Neither GDRIVE_SA_KEY nor DRIVE_ACCESS_TOKEN is configured; fail closed.",
+      "resultado": null,
+      "path": "data/legado/autorizacao_WO-0092.json"
+    },
+    {
+      "wo_id": "CE-WO-20261112-WO-0094",
+      "policy_id": "KERNEL-POLICY-002",
+      "activity": "obter",
+      "status": "BLOQUEADO",
+      "motivo": "Neither GDRIVE_SA_KEY nor DRIVE_ACCESS_TOKEN is configured; fail closed.",
+      "resultado": null,
+      "path": "data/legado/autorizacao_WO-0094.json"
+    },
+    {
+      "wo_id": "CE-WO-20261112-WO-0096",
+      "policy_id": "KERNEL-POLICY-019",
+      "activity": "obter",
+      "status": "BLOQUEADO",
+      "motivo": "Neither GDRIVE_SA_KEY nor DRIVE_ACCESS_TOKEN is configured; fail closed.",
+      "resultado": null,
+      "path": "data/legado/autorizacao_WO-0096.json"
+    },
+    {
+      "wo_id": "CE-WO-20261112-WO-0098",
+      "policy_id": "KERNEL-POLICY-020",
+      "activity": "obter",
+      "status": "BLOQUEADO",
+      "motivo": "Neither GDRIVE_SA_KEY nor DRIVE_ACCESS_TOKEN is configured; fail closed.",
+      "resultado": null,
+      "path": "data/legado/autorizacao_WO-0098.json"
+    },
+    {
+      "wo_id": "CE-WO-20261112-WO-0093",
+      "policy_id": "KERNEL-POLICY-001",
+      "activity": "atomizar",
+      "status": "BLOQUEADO",
+      "motivo": "obter BLOQUEADO: Neither GDRIVE_SA_KEY nor DRIVE_ACCESS_TOKEN is configured; fail closed.",
+      "resultado": null,
+      "path": "data/legado/autorizacao_WO-0093.json"
+    },
+    {
+      "wo_id": "CE-WO-20261112-WO-0095",
+      "policy_id": "KERNEL-POLICY-002",
+      "activity": "atomizar",
+      "status": "BLOQUEADO",
+      "motivo": "obter BLOQUEADO: Neither GDRIVE_SA_KEY nor DRIVE_ACCESS_TOKEN is configured; fail closed.",
+      "resultado": null,
+      "path": "data/legado/autorizacao_WO-0095.json"
+    },
+    {
+      "wo_id": "CE-WO-20261112-WO-0097",
+      "policy_id": "KERNEL-POLICY-019",
+      "activity": "atomizar",
+      "status": "BLOQUEADO",
+      "motivo": "obter BLOQUEADO: Neither GDRIVE_SA_KEY nor DRIVE_ACCESS_TOKEN is configured; fail closed.",
+      "resultado": null,
+      "path": "data/legado/autorizacao_WO-0097.json"
+    },
+    {
+      "wo_id": "CE-WO-20261112-WO-0099",
+      "policy_id": "KERNEL-POLICY-020",
+      "activity": "atomizar",
+      "status": "BLOQUEADO",
+      "motivo": "obter BLOQUEADO: Neither GDRIVE_SA_KEY nor DRIVE_ACCESS_TOKEN is configured; fail closed.",
+      "resultado": null,
+      "path": "data/legado/autorizacao_WO-0099.json"
+    }
+  ],
+  "download": {
+    "status": "BLOQUEADO",
+    "motivo": "Neither GDRIVE_SA_KEY nor DRIVE_ACCESS_TOKEN is configured; fail closed.",
+    "files": []
+  },
+  "atoms_written": 0,
+  "restrictions": [
+    "NO_PUBLICATION",
+    "NO_DELETE",
+    "NO_INVENT_ATOMS"
+  ]
+}

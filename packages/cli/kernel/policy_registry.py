@@ -22,12 +22,12 @@ class KernelPolicy:
     source_contract: str
     validators: list[str] = field(default_factory=list)
     atoms_output: str = ""
-    cuarentena_output: str = ""
     sha256_required: bool = True
     fail_closed: bool = True
     requires_human_review: bool = True
     wo_required: bool = True
     wo_template: str = ""
+    quarentena_output: str = ""
     version: str = "1.0.0"
     updated_at: str = field(default_factory=lambda: datetime.now(timezone.utc).isoformat())
 
@@ -36,8 +36,11 @@ class KernelPolicy:
 
     @classmethod
     def from_dict(cls, data: dict) -> "KernelPolicy":
+        payload = dict(data)
+        if not payload.get("quarentena_output") and payload.get("cuarentena_output"):
+            payload["quarentena_output"] = payload["cuarentena_output"]
         known_fields = {f.name for f in cls.__dataclass_fields__.values()}
-        return cls(**{k: v for k, v in data.items() if k in known_fields})
+        return cls(**{k: v for k, v in payload.items() if k in known_fields})
 
 
 class PolicyRegistry:
