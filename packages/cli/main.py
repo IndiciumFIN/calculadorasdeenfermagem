@@ -14,6 +14,12 @@ from datetime import date
 from pathlib import Path
 from typing import Optional
 
+_CLI_DIR = Path(__file__).resolve().parent
+_REPO_ROOT = _CLI_DIR.parents[1]
+for _path in (str(_REPO_ROOT), str(_CLI_DIR)):
+    if _path not in sys.path:
+        sys.path.insert(0, _path)
+
 import requests
 import typer
 from bs4 import BeautifulSoup
@@ -217,6 +223,16 @@ def kernel_show_policy(policy_id: str = typer.Argument(...)) -> None:
         typer.secho(f"❌ Política não encontrada: {policy_id}", fg=typer.colors.RED)
         raise typer.Exit(2)
     typer.echo(json.dumps(p.to_dict(), indent=2, ensure_ascii=False))
+
+
+@kernel_app.command("drive-folder")
+def kernel_drive_folder(
+    folder_id: str = typer.Option(..., "--folder-id", help="ID da pasta no Google Drive"),
+) -> None:
+    """Submete WOs de obter e atomizar. Não baixa bytes sem política vinculada."""
+    from kernel.work_orders import execute_drive_folder
+
+    raise typer.Exit(execute_drive_folder(folder_id))
 
 
 @kernel_app.command("list-validators")
