@@ -1,0 +1,97 @@
+{
+  "acesso_publico": "NEGADO",
+  "alvo": "1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "alvo_url": "https://drive.google.com/drive/folders/1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "authorized_by": "kernel",
+  "conditions": [
+    "Execução somente com status AUTHORIZED ou PASS e submitted_by=kernel",
+    "O alvo deve constar na política válida ou no contrato de fonte",
+    "Vigência permanece NAO_VERIFICADO até revisão humana",
+    "Sem publicação e sem exclusão no Drive"
+  ],
+  "credencial_drive": "AUSENTE",
+  "estado": "BLOQUEADO",
+  "id": "WO-KERNEL-ATOMIZAR-1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "motivo": "Nenhuma política com gate aprovado autoriza o alvo 1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC. Políticas válidas consultadas: KERNEL-POLICY-001, KERNEL-POLICY-002, KERNEL-POLICY-019, KERNEL-POLICY-020. O identificador não ocorre nessas políticas nem nos contratos de fonte vinculados. Credencial Drive: AUSENTE. Acesso público: NEGADO. A pasta não consta em config/drive_inventory_roots_20261016.json. Essa configuração declara NO_CANONICAL_PROMOTION. Atomização não executada.",
+  "policy_id": null,
+  "politicas_que_autorizam": [],
+  "politicas_rejeitadas": [
+    {
+      "id": "KERNEL-POLICY-003",
+      "motivo": "test_suite falhou: cid10_validator; test_suite falhou: schema_validator"
+    },
+    {
+      "id": "KERNEL-POLICY-004",
+      "motivo": "test_suite falhou: cid11_validator; test_suite falhou: schema_validator"
+    },
+    {
+      "id": "KERNEL-POLICY-005",
+      "motivo": "test_suite falhou: mesh_validator; test_suite falhou: schema_validator"
+    },
+    {
+      "id": "KERNEL-POLICY-006",
+      "motivo": "test_suite falhou: schema_validator; test_suite falhou: ncm_validator"
+    },
+    {
+      "id": "KERNEL-POLICY-007",
+      "motivo": "test_suite falhou: cvx_validator; test_suite falhou: schema_validator"
+    },
+    {
+      "id": "KERNEL-POLICY-008",
+      "motivo": "test_suite falhou: schema_validator; test_suite falhou: loinc_validator"
+    },
+    {
+      "id": "KERNEL-POLICY-009",
+      "motivo": "test_suite falhou: schema_validator"
+    },
+    {
+      "id": "KERNEL-POLICY-010",
+      "motivo": "test_suite falhou: schema_validator"
+    },
+    {
+      "id": "KERNEL-POLICY-011",
+      "motivo": "test_suite falhou: schema_validator"
+    },
+    {
+      "id": "KERNEL-POLICY-012",
+      "motivo": "test_suite falhou: schema_validator"
+    },
+    {
+      "id": "KERNEL-POLICY-013",
+      "motivo": "test_suite falhou: schema_validator; test_suite falhou: catmat_validator"
+    },
+    {
+      "id": "KERNEL-POLICY-014",
+      "motivo": "test_suite falhou: schema_validator"
+    },
+    {
+      "id": "KERNEL-POLICY-015",
+      "motivo": "test_suite falhou: schema_validator"
+    },
+    {
+      "id": "KERNEL-POLICY-016",
+      "motivo": "test_suite falhou: schema_validator"
+    },
+    {
+      "id": "KERNEL-POLICY-017",
+      "motivo": "test_suite falhou: schema_validator"
+    },
+    {
+      "id": "KERNEL-POLICY-018",
+      "motivo": "test_suite falhou: schema_validator"
+    }
+  ],
+  "politicas_validas": [
+    "KERNEL-POLICY-001",
+    "KERNEL-POLICY-002",
+    "KERNEL-POLICY-019",
+    "KERNEL-POLICY-020"
+  ],
+  "schema": "CE-WO-AUTHORIZATION-1.0.0",
+  "slug": "atomizar-1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "status": "BLOQUEADO",
+  "submitted_by": "kernel",
+  "tarefa": "atomizar",
+  "timestamp": "2026-11-12T05:51:17+00:00",
+  "wo_id": "CE-WO-KERNEL-ATOMIZAR-1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC"
+}
