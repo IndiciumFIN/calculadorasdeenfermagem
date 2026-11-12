@@ -1,0 +1,55 @@
+{
+  "schema": "CE-WO-AUTHORIZATION-1.0.0",
+  "wo_id": "CE-WO-ATOMIZAR-1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "slug": "drive_atomizar_1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "tarefa": "atomizar",
+  "folder_id": "1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "policy_ids_authorizing": [],
+  "policies_consulted": [
+    "KERNEL-POLICY-001",
+    "KERNEL-POLICY-002",
+    "KERNEL-POLICY-003",
+    "KERNEL-POLICY-004",
+    "KERNEL-POLICY-005",
+    "KERNEL-POLICY-006",
+    "KERNEL-POLICY-007",
+    "KERNEL-POLICY-008",
+    "KERNEL-POLICY-009",
+    "KERNEL-POLICY-010",
+    "KERNEL-POLICY-011",
+    "KERNEL-POLICY-012",
+    "KERNEL-POLICY-013",
+    "KERNEL-POLICY-014",
+    "KERNEL-POLICY-015",
+    "KERNEL-POLICY-016",
+    "KERNEL-POLICY-017",
+    "KERNEL-POLICY-018",
+    "KERNEL-POLICY-019",
+    "KERNEL-POLICY-020"
+  ],
+  "registered_drive_roots": [
+    "1FDBAMQ3-WT-8l6xU0664u7QjABd0FbEH",
+    "1c9vErI_It3XwzAcAFOnbxw9V0Mn6xfB9"
+  ],
+  "status": "BLOQUEADO",
+  "estado": "BLOQUEADO",
+  "motivo": "Nenhuma KERNEL-POLICY declara drive_folder_id/folder_id para esta pasta; o schema CE-KERNEL-POLICY-1.0.0 não autoriza obter nem atomizar Drive.",
+  "motivos": [
+    "Nenhuma KERNEL-POLICY declara drive_folder_id/folder_id para esta pasta; o schema CE-KERNEL-POLICY-1.0.0 não autoriza obter nem atomizar Drive.",
+    "Pasta ausente do registry canônico config/drive_inventory_roots_20261016.json.",
+    "Registry Drive aplica NO_CANONICAL_PROMOTION; atomização canônica recusada.",
+    "Inventário Drive é somente metadados (hash_status BYTES_NOT_ACQUIRED); aquisição de bytes não está autorizada.",
+    "Registry Drive aplica NO_PUBLICATION."
+  ],
+  "submitted_by": "kernel",
+  "autorizado_por": null,
+  "bytes_acquired": false,
+  "atoms_written": 0,
+  "restrictions_applied": [
+    "READ_ONLY",
+    "NO_DELETE",
+    "NO_PUBLICATION",
+    "NO_CANONICAL_PROMOTION"
+  ],
+  "timestamp": "2026-11-12T03:49:19Z"
+}
