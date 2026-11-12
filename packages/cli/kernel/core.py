@@ -5,7 +5,8 @@ Tudo importa de um ponto único: packages.schemas.invariantes.AtomoBlindado.
 """
 from __future__ import annotations
 
-import json
+import importlib
+import pkgutil
 import sys
 from dataclasses import asdict, dataclass, field
 from datetime import datetime, timezone
@@ -13,33 +14,45 @@ from enum import Enum
 from pathlib import Path
 from typing import Any
 
+_CLI_DIR = Path(__file__).resolve().parents[1]
+_REPO_ROOT = _CLI_DIR.parents[1]
+for _entry in (str(_REPO_ROOT), str(_CLI_DIR)):
+    if _entry not in sys.path:
+        sys.path.insert(0, _entry)
+
 import typer
 
 from packages.schemas.invariantes import AtomoBlindado
-
-# Import tardio para evitar circular — cada validador se auto-registra
-def _lazy_import_validators():
-    from validators import (
-        Sha256Validator, NormAtomIdValidator, TextoLengthValidator,
-        UrlValidator, AtomoSchemaValidator,
-        cid10_validator, cid11_validator, mesh_validator,
-        cvx_validator, schema_validator, loinc_validator,
-        ncm_validator, catmat_validator, human_review_validator,
-    )
-    return locals()
 
 VALIDATORS: dict[str, Any] = {}
 _validator_imported = False
 
 def _ensure_validators():
+    """Carrega validadores pelo nome declarado na política.
+
+    O registry `@register` indexa por `validator.name` (ex.: atomo_schema_validator).
+    Sem esse índice o gate não consegue aplicar nenhuma política.
+    """
     global _validator_imported, VALIDATORS
-    if not _validator_imported:
-        ctx = _lazy_import_validators()
-        # Extrai validadores concretos (não classes, instâncias)
-        for k, v in ctx.items():
-            if k.endswith("_validator") and hasattr(v, "validate"):
-                VALIDATORS[k] = v
-        _validator_imported = True
+    if _validator_imported:
+        return
+    import validators as validators_pkg
+
+    for info in pkgutil.iter_modules(validators_pkg.__path__):
+        if info.name in {"base", "registry"}:
+            continue
+        importlib.import_module(f"validators.{info.name}")
+    from validators.registry import VALIDATORS as registered
+
+    VALIDATORS.clear()
+    VALIDATORS.update(registered)
+    _validator_imported = True
+
+
+def load_validators() -> dict[str, Any]:
+    """Retorna o registry de validadores já carregado."""
+    _ensure_validators()
+    return VALIDATORS
 
 from kernel.policy_registry import get_policy, PolicyRegistry
 
@@ -242,11 +255,6 @@ class Kernel:
                 typer.secho(f"  ✅ {vname}: {len(validator.test_suite())} testes OK", fg=typer.colors.GREEN)
             else:
                 typer.secho(f"  ⚠️  {vname}: sem test_suite (stub)", fg=typer.colors.YELLOW)
-
-        output_dir = Path(policy.atoms_output)
-        if not output_dir.exists():
-            typer.secho(f"⚠️  Criando diretório de saída: {output_dir}", fg=typer.colors.YELLOW)
-            output_dir.mkdir(parents=True, exist_ok=True)
 
         typer.secho(f"✅ Gate {policy_id}: TODOS OS VALIDADORES APROVADOS", fg=typer.colors.GREEN)
         return 0

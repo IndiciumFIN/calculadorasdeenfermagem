@@ -14,6 +14,12 @@ from datetime import date
 from pathlib import Path
 from typing import Optional
 
+_CLI_DIR = Path(__file__).resolve().parent
+_REPO_ROOT = _CLI_DIR.parents[1]
+for _entry in (str(_REPO_ROOT), str(_CLI_DIR)):
+    if _entry not in sys.path:
+        sys.path.insert(0, _entry)
+
 import requests
 import typer
 from bs4 import BeautifulSoup
@@ -244,6 +250,21 @@ def kernel_test_validators() -> None:
             typer.echo(f"  - {f}")
         raise typer.Exit(2)
     typer.secho(f"\n✅ Todos os {len(VALIDATORS)} validadores passaram.", fg=typer.colors.GREEN)
+
+
+@kernel_app.command("run-drive-folder")
+def kernel_run_drive_folder(
+    folder: str = typer.Option(..., "--folder", help="ID da pasta Drive"),
+    url: str = typer.Option("", "--url", help="URL da pasta, se já conhecida"),
+) -> None:
+    """Submete WOs de obter e atomizar e executa só com política válida."""
+    from kernel.work_orders import run_drive_folder
+
+    code = run_drive_folder(folder, folder_url=url)
+    if code != 0:
+        typer.secho("Kernel bloqueou obter/atomizar. WO submetida.", fg=typer.colors.RED)
+        raise typer.Exit(code)
+    typer.secho("Kernel concluiu obter e atomizar.", fg=typer.colors.GREEN)
 
 
 if __name__ == "__main__":
