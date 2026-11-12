@@ -17,31 +17,47 @@ import typer
 
 from packages.schemas.invariantes import AtomoBlindado
 
-# Import tardio para evitar circular — cada validador se auto-registra
-def _lazy_import_validators():
-    from validators import (
-        Sha256Validator, NormAtomIdValidator, TextoLengthValidator,
-        UrlValidator, AtomoSchemaValidator,
-        cid10_validator, cid11_validator, mesh_validator,
-        cvx_validator, schema_validator, loinc_validator,
-        ncm_validator, catmat_validator, human_review_validator,
-    )
-    return locals()
+# Import tardio para evitar circular — cada módulo se auto-registra.
+_VALIDATOR_MODULES = (
+    "sha256_validator",
+    "cid10_validator",
+    "cid11_validator",
+    "mesh_validator",
+    "cvx_validator",
+    "schema_validator",
+    "loinc_validator",
+    "ncm_validator",
+    "catmat_validator",
+    "human_review_validator",
+)
 
 VALIDATORS: dict[str, Any] = {}
 _validator_imported = False
 
 def _ensure_validators():
     global _validator_imported, VALIDATORS
-    if not _validator_imported:
-        ctx = _lazy_import_validators()
-        # Extrai validadores concretos (não classes, instâncias)
-        for k, v in ctx.items():
-            if k.endswith("_validator") and hasattr(v, "validate"):
-                VALIDATORS[k] = v
-        _validator_imported = True
+    if _validator_imported:
+        return
+    import importlib
+
+    for name in _VALIDATOR_MODULES:
+        try:
+            importlib.import_module(f"validators.{name}")
+        except ModuleNotFoundError:
+            importlib.import_module(f"packages.cli.validators.{name}")
+    try:
+        from validators.registry import VALIDATORS as registered
+    except ModuleNotFoundError:
+        from packages.cli.validators.registry import VALIDATORS as registered
+    VALIDATORS.clear()
+    VALIDATORS.update(registered)
+    _validator_imported = True
 
 from kernel.policy_registry import get_policy, PolicyRegistry
+
+
+def _repo_root() -> Path:
+    return Path(__file__).resolve().parents[3]
 
 
 class Decision(str, Enum):
@@ -101,6 +117,7 @@ class Kernel:
     def __init__(self, fail_closed: bool = True) -> None:
         self.fail_closed = fail_closed
         self.registry = PolicyRegistry()
+        self._gate_cache: dict[str, int] = {}
         _ensure_validators()
 
     def evaluate(self, item: dict[str, Any], policy_id: str) -> KernelDecision:
@@ -214,6 +231,13 @@ class Kernel:
 
     def gate(self, policy_id: str) -> int:
         """Executa gate para uma política. Retorna exit code."""
+        if policy_id in self._gate_cache:
+            return self._gate_cache[policy_id]
+        code = self._gate_uncached(policy_id)
+        self._gate_cache[policy_id] = code
+        return code
+
+    def _gate_uncached(self, policy_id: str) -> int:
         _ensure_validators()
         try:
             policy = get_policy(policy_id)
@@ -244,12 +268,49 @@ class Kernel:
                 typer.secho(f"  ⚠️  {vname}: sem test_suite (stub)", fg=typer.colors.YELLOW)
 
         output_dir = Path(policy.atoms_output)
+        if not output_dir.is_absolute():
+            output_dir = _repo_root() / output_dir
         if not output_dir.exists():
             typer.secho(f"⚠️  Criando diretório de saída: {output_dir}", fg=typer.colors.YELLOW)
             output_dir.mkdir(parents=True, exist_ok=True)
 
         typer.secho(f"✅ Gate {policy_id}: TODOS OS VALIDADORES APROVADOS", fg=typer.colors.GREEN)
         return 0
+
+    def submit_work_order(
+        self,
+        policy_id: str,
+        activity: str,
+        target: str,
+        rationale: str,
+        wo_dir: Path | None = None,
+        evidence_reference: str | None = None,
+    ) -> dict[str, Any]:
+        """Submete uma WO para uma política que este Kernel já validou.
+
+        Política ausente ou gate diferente de 0 → nenhuma WO é gravada.
+        """
+        try:
+            from kernel import work_orders as wo_mod
+        except ImportError:  # pragma: no cover
+            from packages.cli.kernel import work_orders as wo_mod
+
+        WorkOrderRejected = wo_mod.WorkOrderRejected
+        if activity not in wo_mod.ACTIVITIES:
+            raise WorkOrderRejected(f"Atividade não permitida pelo Kernel: {activity}")
+        if self.gate(policy_id) != 0:
+            raise WorkOrderRejected(
+                f"Política {policy_id} rejeitada pelo Kernel. WO não submetida."
+            )
+        policy = get_policy(policy_id)
+        return wo_mod.create_work_order(
+            policy=policy,
+            activity=activity,
+            target=target,
+            rationale=rationale,
+            wo_dir=wo_dir,
+            evidence_reference=evidence_reference,
+        )
 
     def list_policies(self) -> None:
         """Lista todas as políticas registradas."""

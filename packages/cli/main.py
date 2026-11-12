@@ -246,5 +246,43 @@ def kernel_test_validators() -> None:
     typer.secho(f"\n✅ Todos os {len(VALIDATORS)} validadores passaram.", fg=typer.colors.GREEN)
 
 
+@kernel_app.command("submit-wo")
+def kernel_submit_wo(
+    policy_id: str = typer.Option(..., "--policy", "-p"),
+    activity: str = typer.Option(..., "--activity"),
+    target: str = typer.Option(..., "--target"),
+    rationale: str = typer.Option(..., "--rationale"),
+) -> None:
+    """Submete uma WO pelo Kernel. Política não validada → exit 2."""
+    from kernel.work_orders import WorkOrderRejected
+
+    kernel = Kernel()
+    try:
+        wo = kernel.submit_work_order(policy_id, activity, target, rationale)
+    except WorkOrderRejected as exc:
+        typer.secho(f"❌ {exc}", fg=typer.colors.RED)
+        raise typer.Exit(2)
+    typer.echo(wo["_path"])
+
+
+@kernel_app.command("obtain-drive")
+def kernel_obtain_drive(
+    folder_id: str = typer.Argument(..., help="Id da pasta do Google Drive"),
+) -> None:
+    """Baixa e atomiza a pasta. Cada atividade só corre com WO do Kernel."""
+    from kernel.drive_job import execute_drive_folder
+    from kernel.work_orders import WorkOrderRejected
+
+    try:
+        code = execute_drive_folder(folder_id)
+    except WorkOrderRejected as exc:
+        typer.secho(f"❌ {exc}", fg=typer.colors.RED)
+        raise typer.Exit(2)
+    if code != 0:
+        typer.secho("❌ Obtenção ou atomização bloqueada. Ver evidência.", fg=typer.colors.RED)
+        raise typer.Exit(code)
+    typer.secho("✅ Pasta processada segundo as políticas validadas.", fg=typer.colors.GREEN)
+
+
 if __name__ == "__main__":
     app()
