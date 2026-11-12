@@ -1,0 +1,37 @@
+{
+  "alvo": "1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "atomos": 0,
+  "politicas_rejeitadas": [
+    "KERNEL-POLICY-003",
+    "KERNEL-POLICY-004",
+    "KERNEL-POLICY-005",
+    "KERNEL-POLICY-006",
+    "KERNEL-POLICY-007",
+    "KERNEL-POLICY-008",
+    "KERNEL-POLICY-009",
+    "KERNEL-POLICY-010",
+    "KERNEL-POLICY-011",
+    "KERNEL-POLICY-012",
+    "KERNEL-POLICY-013",
+    "KERNEL-POLICY-014",
+    "KERNEL-POLICY-015",
+    "KERNEL-POLICY-016",
+    "KERNEL-POLICY-017",
+    "KERNEL-POLICY-018"
+  ],
+  "politicas_validas": [
+    "KERNEL-POLICY-001",
+    "KERNEL-POLICY-002",
+    "KERNEL-POLICY-019",
+    "KERNEL-POLICY-020"
+  ],
+  "quarentena": 0,
+  "resultado": "BLOQUEADO",
+  "schema": "CE-KERNEL-DRIVE-DECISAO-1.0.0",
+  "status_atomizar": "BLOQUEADO",
+  "status_obter": "BLOQUEADO",
+  "submitted_by": "kernel",
+  "timestamp": "2026-11-12T06:44:10+00:00",
+  "wo_atomizar": "CE-WO-KERNEL-ATOMIZAR-1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "wo_obter": "CE-WO-KERNEL-OBTER-1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC"
+}
