@@ -1,0 +1,41 @@
+{
+  "schema": "CE-WO-AUTHORIZATION-1.0.0",
+  "wo_id": "CE-WO-ATOMIZAR-95b66f37ea49",
+  "tarefa": "atomizar",
+  "lote": "drive_1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "pasta_drive_id": "1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "estado": "BLOQUEADO",
+  "submitted_by": "kernel",
+  "motivo": "WO de obter sem sha256_fonte executado pelo kernel.",
+  "sha256_fonte": null,
+  "tentativas": 1,
+  "politicas_validas": [
+    "KERNEL-POLICY-001",
+    "KERNEL-POLICY-002",
+    "KERNEL-POLICY-019",
+    "KERNEL-POLICY-020"
+  ],
+  "depends_on": "CE-WO-OBTER-d3271721ab03",
+  "contagens": {},
+  "acao_necessaria": "Concluir a atividade obter com sha256_fonte antes de atomizar.",
+  "timestamp": "2026-11-12T14:51:11.754629+00:00",
+  "restrictions": [
+    "READ_ONLY",
+    "NO_DELETE",
+    "NO_PUBLICATION"
+  ],
+  "historico": [
+    {
+      "timestamp": "2026-11-12T14:51:11.752310+00:00",
+      "estado": "SUBMITTED",
+      "motivo": "atomização iniciada",
+      "sha256_fonte": null
+    },
+    {
+      "timestamp": "2026-11-12T14:51:11.754629+00:00",
+      "estado": "BLOQUEADO",
+      "motivo": "WO de obter sem sha256_fonte executado pelo kernel.",
+      "sha256_fonte": null
+    }
+  ]
+}
