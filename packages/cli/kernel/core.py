@@ -17,29 +17,40 @@ import typer
 
 from packages.schemas.invariantes import AtomoBlindado
 
-# Import tardio para evitar circular — cada validador se auto-registra
-def _lazy_import_validators():
-    from validators import (
-        Sha256Validator, NormAtomIdValidator, TextoLengthValidator,
-        UrlValidator, AtomoSchemaValidator,
-        cid10_validator, cid11_validator, mesh_validator,
-        cvx_validator, schema_validator, loinc_validator,
-        ncm_validator, catmat_validator, human_review_validator,
-    )
-    return locals()
+_VALIDATOR_MODULES = (
+    "sha256_validator",
+    "cid10_validator",
+    "cid11_validator",
+    "mesh_validator",
+    "cvx_validator",
+    "schema_validator",
+    "loinc_validator",
+    "ncm_validator",
+    "catmat_validator",
+    "human_review_validator",
+)
 
 VALIDATORS: dict[str, Any] = {}
 _validator_imported = False
 
 def _ensure_validators():
+    """Carrega instâncias registradas. Nome ausente no registry → gate fail-closed."""
     global _validator_imported, VALIDATORS
-    if not _validator_imported:
-        ctx = _lazy_import_validators()
-        # Extrai validadores concretos (não classes, instâncias)
-        for k, v in ctx.items():
-            if k.endswith("_validator") and hasattr(v, "validate"):
-                VALIDATORS[k] = v
-        _validator_imported = True
+    if _validator_imported:
+        return
+    import importlib
+    import sys
+
+    cli_dir = Path(__file__).resolve().parents[1]
+    if str(cli_dir) not in sys.path:
+        sys.path.insert(0, str(cli_dir))
+    from validators.registry import VALIDATORS as registered
+
+    for module_name in _VALIDATOR_MODULES:
+        importlib.import_module(f"validators.{module_name}")
+    VALIDATORS.clear()
+    VALIDATORS.update(registered)
+    _validator_imported = True
 
 from kernel.policy_registry import get_policy, PolicyRegistry
 
@@ -250,6 +261,27 @@ class Kernel:
 
         typer.secho(f"✅ Gate {policy_id}: TODOS OS VALIDADORES APROVADOS", fg=typer.colors.GREEN)
         return 0
+
+    def policy_gate_status(self, policy_id: str) -> tuple[bool, str]:
+        """Confere se a política está registrada e se os validadores passam.
+
+        Não cria diretórios de saída. Política inexistente ou teste falho → inválida.
+        """
+        _ensure_validators()
+        try:
+            policy = get_policy(policy_id)
+        except (KeyError, FileNotFoundError) as exc:
+            return False, str(exc)
+        if not policy.validators:
+            return False, "Nenhum validador registrado na política."
+        missing = [name for name in policy.validators if name not in VALIDATORS]
+        if missing:
+            return False, f"Validadores ausentes: {missing}"
+        for name in policy.validators:
+            validator = VALIDATORS[name]
+            if not hasattr(validator, "run_tests") or not validator.run_tests():
+                return False, f"Validador '{name}' falhou nos testes."
+        return True, "PASS"
 
     def list_policies(self) -> None:
         """Lista todas as políticas registradas."""
