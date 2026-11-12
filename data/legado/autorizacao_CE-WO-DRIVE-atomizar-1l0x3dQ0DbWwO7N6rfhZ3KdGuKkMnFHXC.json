@@ -1,0 +1,26 @@
+{
+  "schema": "CE-WO-AUTHORIZATION-1.0.0",
+  "wo_id": "CE-WO-DRIVE-atomizar-1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "slug": "drive_atomizar_1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "status": "BLOQUEADO",
+  "estado": "BLOQUEADO",
+  "activity": "atomizar",
+  "folder_id": "1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "policy_id": null,
+  "rationale": "pasta ausente do registry de raízes Drive (config/drive_inventory_roots_20261016.json); NO_CANONICAL_PROMOTION: o Drive registrado não promove átomo canônico; nenhuma KERNEL-POLICY pôde ser selecionada para os arquivos; fail-closed",
+  "motivo": "pasta ausente do registry de raízes Drive (config/drive_inventory_roots_20261016.json); NO_CANONICAL_PROMOTION: o Drive registrado não promove átomo canônico; nenhuma KERNEL-POLICY pôde ser selecionada para os arquivos; fail-closed",
+  "authorized_by": "KERNEL",
+  "timestamp": "2026-11-12T09:48:45+00:00",
+  "grants_download": false,
+  "grants_atomize": false,
+  "conditions": [
+    "O Kernel não cria política nova",
+    "O Kernel não emite PREAUTHORIZED",
+    "Obter exige raiz registrada e credencial já configurada",
+    "Atomizar exige política selecionada, sem promoção canônica vedada, e revisão humana quando a política a exige"
+  ],
+  "evidence": [
+    "API Drive sem identidade respondeu 403",
+    "A pagina da pasta redireciona para login"
+  ]
+}
