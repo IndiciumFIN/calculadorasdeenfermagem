@@ -229,6 +229,49 @@ def kernel_list_validators() -> None:
     typer.echo()
 
 
+@kernel_app.command("submit-wo")
+def kernel_submit_wo(
+    activity: str = typer.Option(..., "--activity", help="obter ou atomizar"),
+    folder: str = typer.Option(..., "--folder", help="ID da pasta Drive"),
+    policy: Optional[str] = typer.Option(None, "--policy", help="KERNEL-POLICY já registrada"),
+    roots: Path = typer.Option(
+        Path("config/drive_inventory_roots_20261016.json"),
+        "--roots",
+    ),
+    output_dir: Path = typer.Option(Path("data/legado"), "--output-dir"),
+    evidence: Optional[list[str]] = typer.Option(None, "--evidence"),
+) -> None:
+    """Submete a WO pelo Kernel. Não baixa arquivo e não atomiza."""
+    import importlib.util
+
+    module_path = Path(__file__).resolve().parent / "drive_work_order.py"
+    spec = importlib.util.spec_from_file_location("drive_work_order", module_path)
+    if spec is None or spec.loader is None:
+        typer.secho("Módulo de WO indisponível", fg=typer.colors.RED)
+        raise typer.Exit(2)
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    try:
+        payload, code = module.submit(
+            activity=activity,
+            folder_id=folder,
+            roots_path=roots,
+            output_dir=output_dir,
+            policies_dir=Path("contracts/policies"),
+            policy_id=policy,
+            evidence=list(evidence or []),
+        )
+    except module.WorkOrderRejected as exc:
+        typer.secho(f"WO_REJECTED {exc}", fg=typer.colors.RED)
+        raise typer.Exit(2)
+    color = typer.colors.GREEN if code == 0 else typer.colors.RED
+    typer.secho(
+        f"WO {payload['wo_id']} status={payload['status']}",
+        fg=color,
+    )
+    raise typer.Exit(code)
+
+
 @kernel_app.command("test-validators")
 def kernel_test_validators() -> None:
     """Executa test_suite de todos os validadores."""
