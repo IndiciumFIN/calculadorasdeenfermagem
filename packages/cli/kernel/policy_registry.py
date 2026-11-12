@@ -37,7 +37,10 @@ class KernelPolicy:
     @classmethod
     def from_dict(cls, data: dict) -> "KernelPolicy":
         known_fields = {f.name for f in cls.__dataclass_fields__.values()}
-        return cls(**{k: v for k, v in data.items() if k in known_fields})
+        payload = dict(data)
+        if "quarentena_output" in payload and not payload.get("cuarentena_output"):
+            payload["cuarentena_output"] = payload["quarentena_output"]
+        return cls(**{k: v for k, v in payload.items() if k in known_fields})
 
 
 class PolicyRegistry:

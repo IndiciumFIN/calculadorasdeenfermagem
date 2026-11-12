@@ -229,6 +229,21 @@ def kernel_list_validators() -> None:
     typer.echo()
 
 
+@kernel_app.command("run-drive-folder")
+def kernel_run_drive_folder(
+    folder: str = typer.Option(..., "--folder", help="ID da pasta Drive"),
+    url: str = typer.Option("", "--url", help="URL da pasta, se já conhecida"),
+) -> None:
+    """Submete WOs de obter e atomizar e executa só com política válida."""
+    from kernel.work_orders import run_drive_folder
+
+    code = run_drive_folder(folder, folder_url=url)
+    if code != 0:
+        typer.secho("Kernel bloqueou obter/atomizar. WO submetida.", fg=typer.colors.RED)
+        raise typer.Exit(code)
+    typer.secho("Kernel concluiu obter e atomizar.", fg=typer.colors.GREEN)
+
+
 @kernel_app.command("test-validators")
 def kernel_test_validators() -> None:
     """Executa test_suite de todos os validadores."""
