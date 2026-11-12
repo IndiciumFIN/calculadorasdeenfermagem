@@ -1,0 +1,56 @@
+{
+  "schema": "CE-WO-AUTHORIZATION-1.0.0",
+  "wo_id": "CE-WO-ATOMIZAR-1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "slug": "drive_atomizar_1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "tarefa": "atomizar",
+  "folder_id": "1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "policy_ids_binding_folder": [],
+  "policies_consulted": [
+    "KERNEL-POLICY-001",
+    "KERNEL-POLICY-002",
+    "KERNEL-POLICY-003",
+    "KERNEL-POLICY-004",
+    "KERNEL-POLICY-005",
+    "KERNEL-POLICY-006",
+    "KERNEL-POLICY-007",
+    "KERNEL-POLICY-008",
+    "KERNEL-POLICY-009",
+    "KERNEL-POLICY-010",
+    "KERNEL-POLICY-011",
+    "KERNEL-POLICY-012",
+    "KERNEL-POLICY-013",
+    "KERNEL-POLICY-014",
+    "KERNEL-POLICY-015",
+    "KERNEL-POLICY-016",
+    "KERNEL-POLICY-017",
+    "KERNEL-POLICY-018",
+    "KERNEL-POLICY-019",
+    "KERNEL-POLICY-020"
+  ],
+  "registered_drive_roots": [
+    "1FDBAMQ3-WT-8l6xU0664u7QjABd0FbEH",
+    "1c9vErI_It3XwzAcAFOnbxw9V0Mn6xfB9"
+  ],
+  "status": "BLOQUEADO",
+  "estado": "BLOQUEADO",
+  "motivo": "O modelo KernelPolicy não declara pasta Drive nem permissão de obter ou atomizar; nenhuma política carregada autoriza esta atividade.",
+  "motivos": [
+    "O modelo KernelPolicy não declara pasta Drive nem permissão de obter ou atomizar; nenhuma política carregada autoriza esta atividade.",
+    "Nenhuma política nem contrato de fonte vincula esta pasta pelos campos drive_folder_id, folder_id ou drive_folder.",
+    "A pasta não está no registry canônico config/drive_inventory_roots_20261016.json.",
+    "O inventário Drive registra hash_status BYTES_NOT_ACQUIRED; o Kernel não adquire bytes.",
+    "O registry Drive aplica NO_CANONICAL_PROMOTION e NO_PUBLICATION; atomização canônica recusada."
+  ],
+  "submitted_by": "kernel",
+  "authorized_by": null,
+  "credential_present": false,
+  "bytes_acquired": false,
+  "atoms_written": 0,
+  "restrictions_applied": [
+    "READ_ONLY",
+    "NO_DELETE",
+    "NO_PUBLICATION",
+    "NO_CANONICAL_PROMOTION"
+  ],
+  "timestamp": "2026-11-12T04:44:33Z"
+}

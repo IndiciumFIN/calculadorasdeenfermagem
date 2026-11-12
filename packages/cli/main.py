@@ -201,6 +201,28 @@ def kernel_validate(
         typer.secho("✅ Validação APROVADA", fg=typer.colors.GREEN)
 
 
+@kernel_app.command("submit-wo")
+def kernel_submit_wo(
+    activity: str = typer.Option(..., "--activity", help="obter ou atomizar"),
+    folder_id: str = typer.Option(..., "--folder-id", help="Id da pasta Drive"),
+) -> None:
+    """Submete uma WO pelo Kernel. Sem autorização, exit 2 e nenhum byte."""
+    from kernel.work_order import KernelWorkOrderError, submit_work_order
+
+    try:
+        document = submit_work_order(activity=activity, folder_id=folder_id)
+    except KernelWorkOrderError as exc:
+        typer.secho(f"FAIL {exc}", fg=typer.colors.RED)
+        raise typer.Exit(2)
+    typer.echo(
+        f"{document['wo_id']} estado={document['estado']} "
+        f"bytes_acquired={str(document['bytes_acquired']).lower()} "
+        f"atoms_written={document['atoms_written']}"
+    )
+    if document["estado"] != "AUTORIZADO":
+        raise typer.Exit(2)
+
+
 @kernel_app.command("list-policies")
 def kernel_list_policies() -> None:
     """Lista todas as políticas registradas."""
