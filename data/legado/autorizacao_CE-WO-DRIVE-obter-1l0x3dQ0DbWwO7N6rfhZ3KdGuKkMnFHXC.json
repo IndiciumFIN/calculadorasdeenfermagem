@@ -1,0 +1,27 @@
+{
+  "schema": "CE-WO-AUTHORIZATION-1.0.0",
+  "wo_id": "CE-WO-DRIVE-obter-1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "slug": "drive_obter_1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "status": "BLOQUEADO",
+  "estado": "BLOQUEADO",
+  "activity": "obter",
+  "folder_id": "1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "policy_id": null,
+  "rationale": "pasta ausente do registry de raízes Drive (config/drive_inventory_roots_20261016.json); credencial ausente: nem GDRIVE_SA_KEY nem DRIVE_ACCESS_TOKEN; fail-closed; nenhuma KERNEL-POLICY pôde ser selecionada para os arquivos; fail-closed",
+  "motivo": "pasta ausente do registry de raízes Drive (config/drive_inventory_roots_20261016.json); credencial ausente: nem GDRIVE_SA_KEY nem DRIVE_ACCESS_TOKEN; fail-closed; nenhuma KERNEL-POLICY pôde ser selecionada para os arquivos; fail-closed",
+  "authorized_by": "KERNEL",
+  "timestamp": "2026-11-12T12:44:36+00:00",
+  "grants_download": false,
+  "grants_atomize": false,
+  "conditions": [
+    "O Kernel não cria política nova",
+    "O Kernel não emite PREAUTHORIZED",
+    "Obter exige raiz registrada e credencial já configurada",
+    "Atomizar exige política selecionada, sem promoção canônica vedada, e revisão humana quando a política a exige"
+  ],
+  "evidence": [
+    "drive.googleapis.com list anônimo HTTP 403 ACCESS_DENIED em 2026-11-12T12:42Z",
+    "drive.google.com/drive/folders HTTP 302 para accounts.google.com/ServiceLogin",
+    "GDRIVE_SA_KEY ausente e DRIVE_ACCESS_TOKEN ausente"
+  ]
+}
