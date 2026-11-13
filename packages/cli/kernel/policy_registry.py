@@ -22,7 +22,7 @@ class KernelPolicy:
     source_contract: str
     validators: list[str] = field(default_factory=list)
     atoms_output: str = ""
-    cuarentena_output: str = ""
+    quarentena_output: str = ""
     sha256_required: bool = True
     fail_closed: bool = True
     requires_human_review: bool = True

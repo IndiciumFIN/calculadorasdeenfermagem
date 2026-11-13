@@ -1,0 +1,128 @@
+{
+  "schema": "CE-DRIVE-ATOMIZE-RUN-1.0.0",
+  "folder_id": "1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "source": "https://drive.google.com/drive/folders/1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC?hl=pt-br",
+  "recorded_at": "2026-11-13T17:53:07+00:00",
+  "exit_code": 2,
+  "valid_policy_ids": [
+    "KERNEL-POLICY-001",
+    "KERNEL-POLICY-002",
+    "KERNEL-POLICY-019",
+    "KERNEL-POLICY-020"
+  ],
+  "policy_gate": [
+    {
+      "policy_id": "KERNEL-POLICY-001",
+      "passed": true,
+      "reason": "gate"
+    },
+    {
+      "policy_id": "KERNEL-POLICY-002",
+      "passed": true,
+      "reason": "gate"
+    },
+    {
+      "policy_id": "KERNEL-POLICY-003",
+      "passed": false,
+      "reason": "test_suite reprovou cid10_validator"
+    },
+    {
+      "policy_id": "KERNEL-POLICY-004",
+      "passed": false,
+      "reason": "test_suite reprovou cid11_validator"
+    },
+    {
+      "policy_id": "KERNEL-POLICY-005",
+      "passed": false,
+      "reason": "test_suite reprovou mesh_validator"
+    },
+    {
+      "policy_id": "KERNEL-POLICY-006",
+      "passed": false,
+      "reason": "test_suite reprovou schema_validator"
+    },
+    {
+      "policy_id": "KERNEL-POLICY-007",
+      "passed": false,
+      "reason": "test_suite reprovou cvx_validator"
+    },
+    {
+      "policy_id": "KERNEL-POLICY-008",
+      "passed": false,
+      "reason": "test_suite reprovou schema_validator"
+    },
+    {
+      "policy_id": "KERNEL-POLICY-009",
+      "passed": false,
+      "reason": "test_suite reprovou schema_validator"
+    },
+    {
+      "policy_id": "KERNEL-POLICY-010",
+      "passed": false,
+      "reason": "test_suite reprovou schema_validator"
+    },
+    {
+      "policy_id": "KERNEL-POLICY-011",
+      "passed": false,
+      "reason": "test_suite reprovou schema_validator"
+    },
+    {
+      "policy_id": "KERNEL-POLICY-012",
+      "passed": false,
+      "reason": "test_suite reprovou schema_validator"
+    },
+    {
+      "policy_id": "KERNEL-POLICY-013",
+      "passed": false,
+      "reason": "test_suite reprovou schema_validator"
+    },
+    {
+      "policy_id": "KERNEL-POLICY-014",
+      "passed": false,
+      "reason": "test_suite reprovou schema_validator"
+    },
+    {
+      "policy_id": "KERNEL-POLICY-015",
+      "passed": false,
+      "reason": "test_suite reprovou schema_validator"
+    },
+    {
+      "policy_id": "KERNEL-POLICY-016",
+      "passed": false,
+      "reason": "test_suite reprovou schema_validator"
+    },
+    {
+      "policy_id": "KERNEL-POLICY-017",
+      "passed": false,
+      "reason": "test_suite reprovou schema_validator"
+    },
+    {
+      "policy_id": "KERNEL-POLICY-018",
+      "passed": false,
+      "reason": "test_suite reprovou schema_validator"
+    },
+    {
+      "policy_id": "KERNEL-POLICY-019",
+      "passed": true,
+      "reason": "gate"
+    },
+    {
+      "policy_id": "KERNEL-POLICY-020",
+      "passed": true,
+      "reason": "gate"
+    }
+  ],
+  "work_orders": [
+    {
+      "wo_id": "CE-WO-DRIVE-1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC-OBTER",
+      "status": "BLOQUEADO",
+      "motivo": "CredentialError: Neither GDRIVE_SA_KEY nor DRIVE_ACCESS_TOKEN is configured; fail closed."
+    },
+    {
+      "wo_id": "CE-WO-DRIVE-1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC-ATOMIZAR",
+      "status": "BLOQUEADO",
+      "motivo": "Dependência CE-WO-DRIVE-1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC-OBTER está BLOQUEADO."
+    }
+  ],
+  "resultado": null
+}

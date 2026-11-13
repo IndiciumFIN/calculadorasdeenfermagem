@@ -25,9 +25,9 @@ from packages.cli.adapters.dou import fetch_dou_federal
 from packages.cli.adapters.secundaria import fetch_secundaria
 
 # Kernel subcommands
-from kernel.core import Kernel, Decision
-from kernel.policy_registry import get_policy, list_policies
-from validators.registry import list_validators
+from packages.cli.kernel.core import Decision, Kernel
+from packages.cli.kernel.policy_registry import get_policy, list_policies
+from packages.cli.validators.registry import list_validators
 
 app = typer.Typer(help="CLI canônica e blindada — Calculadoras de Enfermagem")
 kernel_app = typer.Typer(help="Kernel — executor de políticas determinísticas")
@@ -232,7 +232,8 @@ def kernel_list_validators() -> None:
 @kernel_app.command("test-validators")
 def kernel_test_validators() -> None:
     """Executa test_suite de todos os validadores."""
-    from validators.registry import VALIDATORS
+    import packages.cli.validators  # noqa: F401
+    from packages.cli.validators.registry import VALIDATORS
     failures = []
     for name, validator in sorted(VALIDATORS.items()):
         if hasattr(validator, "run_tests") and callable(validator.run_tests):
@@ -244,6 +245,23 @@ def kernel_test_validators() -> None:
             typer.echo(f"  - {f}")
         raise typer.Exit(2)
     typer.secho(f"\n✅ Todos os {len(VALIDATORS)} validadores passaram.", fg=typer.colors.GREEN)
+
+
+@kernel_app.command("drive-atomize")
+def kernel_drive_atomize(
+    folder_id: str = typer.Option(..., "--folder-id"),
+    source: str = typer.Option(..., "--source", help="URL da pasta Drive; deve conter o folder-id"),
+) -> None:
+    """Submete as WOs no Kernel e baixa/atomiza a pasta. Exit 2 se bloquear."""
+    from packages.cli.drive_atomize import run_drive_job
+
+    try:
+        code = run_drive_job(folder_id=folder_id, source=source)
+    except ValueError as exc:
+        typer.secho(str(exc), fg=typer.colors.RED)
+        raise typer.Exit(2)
+    if code != 0:
+        raise typer.Exit(code)
 
 
 if __name__ == "__main__":

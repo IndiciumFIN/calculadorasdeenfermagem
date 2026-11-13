@@ -17,31 +17,22 @@ import typer
 
 from packages.schemas.invariantes import AtomoBlindado
 
-# Import tardio para evitar circular — cada validador se auto-registra
-def _lazy_import_validators():
-    from validators import (
-        Sha256Validator, NormAtomIdValidator, TextoLengthValidator,
-        UrlValidator, AtomoSchemaValidator,
-        cid10_validator, cid11_validator, mesh_validator,
-        cvx_validator, schema_validator, loinc_validator,
-        ncm_validator, catmat_validator, human_review_validator,
-    )
-    return locals()
-
 VALIDATORS: dict[str, Any] = {}
 _validator_imported = False
 
 def _ensure_validators():
+    """Carrega validadores pelo nome declarado na política (`validator.name`)."""
     global _validator_imported, VALIDATORS
-    if not _validator_imported:
-        ctx = _lazy_import_validators()
-        # Extrai validadores concretos (não classes, instâncias)
-        for k, v in ctx.items():
-            if k.endswith("_validator") and hasattr(v, "validate"):
-                VALIDATORS[k] = v
-        _validator_imported = True
+    if _validator_imported:
+        return
+    import packages.cli.validators  # noqa: F401 — dispara @register
+    from packages.cli.validators.registry import VALIDATORS as registered
 
-from kernel.policy_registry import get_policy, PolicyRegistry
+    VALIDATORS.clear()
+    VALIDATORS.update(registered)
+    _validator_imported = True
+
+from packages.cli.kernel.policy_registry import PolicyRegistry, get_policy
 
 
 class Decision(str, Enum):
