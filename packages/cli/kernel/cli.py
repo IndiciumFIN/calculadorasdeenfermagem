@@ -141,5 +141,35 @@ def test_validators() -> None:
     typer.secho(f"\n✅ Todos os {len(VALIDATORS)} validadores passaram.", fg=typer.colors.GREEN)
 
 
+@app.command("obter")
+def obter(
+    folder: str = typer.Option(..., "--folder", help="ID da pasta Drive"),
+) -> None:
+    """Submete a WO de obter e só então avalia a coleta. Fail-closed."""
+    from kernel.activities import executar_obter
+
+    raise typer.Exit(executar_obter(folder))
+
+
+@app.command("atomizar")
+def atomizar(
+    folder: str = typer.Option(..., "--folder", help="ID da pasta Drive"),
+) -> None:
+    """Submete a WO de atomizar. Exige WO de obter executada pelo Kernel."""
+    from kernel.activities import executar_atomizar
+
+    raise typer.Exit(executar_atomizar(folder))
+
+
+@app.command("executar-pasta")
+def executar_pasta_cmd(
+    folder: str = typer.Option(..., "--folder", help="ID da pasta Drive"),
+) -> None:
+    """Submete a WO de obter e a WO de atomizar, nesta ordem."""
+    from kernel.activities import executar_pasta
+
+    raise typer.Exit(executar_pasta(folder))
+
+
 if __name__ == "__main__":
     app()

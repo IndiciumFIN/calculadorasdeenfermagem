@@ -1,0 +1,40 @@
+{
+  "schema": "CE-WO-AUTHORIZATION-1.0.0",
+  "wo_id": "CE-WO-OBTER-d3271721ab03",
+  "tarefa": "obter",
+  "lote": "drive_1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "pasta_drive_id": "1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "estado": "BLOQUEADO",
+  "submitted_by": "kernel",
+  "motivo": "pasta 1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC ausente das raízes registradas em config/drive_inventory_roots_20261016.json; contrato Drive restringe as raízes a metadata_only e NO_CANONICAL_PROMOTION; autoridade data/legado/drive_raizes.json inexistente; nenhuma política do kernel declara drive_folder_ids com parser para esta pasta; Neither GDRIVE_SA_KEY nor DRIVE_ACCESS_TOKEN is configured; fail closed.",
+  "sha256_fonte": null,
+  "tentativas": 1,
+  "politicas_validas": [],
+  "depends_on": null,
+  "contagens": {
+    "arquivos": 0,
+    "bytes": 0
+  },
+  "acao_necessaria": "Incluir a pasta na autoridade data/legado/drive_raizes.json e em drive_folder_ids de uma KERNEL-POLICY com parser versionado, e configurar GDRIVE_SA_KEY ou DRIVE_ACCESS_TOKEN. O contrato atual das raízes é metadata_only com NO_CANONICAL_PROMOTION.",
+  "timestamp": "2026-11-13T12:50:51.615136+00:00",
+  "restrictions": [
+    "READ_ONLY",
+    "NO_DELETE",
+    "NO_PUBLICATION",
+    "NO_CANONICAL_PROMOTION"
+  ],
+  "historico": [
+    {
+      "timestamp": "2026-11-13T12:50:51.614236+00:00",
+      "estado": "SUBMITTED",
+      "motivo": "coleta iniciada",
+      "sha256_fonte": null
+    },
+    {
+      "timestamp": "2026-11-13T12:50:51.615136+00:00",
+      "estado": "BLOQUEADO",
+      "motivo": "pasta 1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC ausente das raízes registradas em config/drive_inventory_roots_20261016.json; contrato Drive restringe as raízes a metadata_only e NO_CANONICAL_PROMOTION; autoridade data/legado/drive_raizes.json inexistente; nenhuma política do kernel declara drive_folder_ids com parser para esta pasta; Neither GDRIVE_SA_KEY nor DRIVE_ACCESS_TOKEN is configured; fail closed.",
+      "sha256_fonte": null
+    }
+  ]
+}
