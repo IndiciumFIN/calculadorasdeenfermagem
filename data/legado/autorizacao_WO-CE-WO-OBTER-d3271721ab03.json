@@ -1,0 +1,41 @@
+{
+  "schema": "CE-WO-AUTHORIZATION-1.0.0",
+  "wo_id": "CE-WO-OBTER-d3271721ab03",
+  "tarefa": "obter",
+  "lote": "drive_1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "pasta_drive_id": "1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "estado": "BLOQUEADO",
+  "submitted_by": "kernel",
+  "motivo": "Neither GDRIVE_SA_KEY nor DRIVE_ACCESS_TOKEN is configured; fail closed.",
+  "sha256_fonte": null,
+  "tentativas": 1,
+  "politicas_validas": [
+    "KERNEL-POLICY-001",
+    "KERNEL-POLICY-002",
+    "KERNEL-POLICY-019",
+    "KERNEL-POLICY-020"
+  ],
+  "depends_on": null,
+  "contagens": {},
+  "acao_necessaria": "Configurar GDRIVE_SA_KEY ou DRIVE_ACCESS_TOKEN com leitura da pasta.",
+  "timestamp": "2026-11-13T02:48:18.898619+00:00",
+  "restrictions": [
+    "READ_ONLY",
+    "NO_DELETE",
+    "NO_PUBLICATION"
+  ],
+  "historico": [
+    {
+      "timestamp": "2026-11-13T02:48:18.895796+00:00",
+      "estado": "SUBMITTED",
+      "motivo": "coleta iniciada",
+      "sha256_fonte": null
+    },
+    {
+      "timestamp": "2026-11-13T02:48:18.898619+00:00",
+      "estado": "BLOQUEADO",
+      "motivo": "Neither GDRIVE_SA_KEY nor DRIVE_ACCESS_TOKEN is configured; fail closed.",
+      "sha256_fonte": null
+    }
+  ]
+}

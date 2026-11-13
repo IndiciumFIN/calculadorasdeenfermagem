@@ -246,5 +246,35 @@ def kernel_test_validators() -> None:
     typer.secho(f"\n✅ Todos os {len(VALIDATORS)} validadores passaram.", fg=typer.colors.GREEN)
 
 
+@kernel_app.command("obter")
+def kernel_obter(
+    folder: str = typer.Option(..., "--folder", help="ID da pasta Drive"),
+) -> None:
+    """Baixa a pasta Drive. A WO é submetida pelo Kernel antes da coleta."""
+    from kernel.activities import executar_obter
+
+    raise typer.Exit(executar_obter(folder))
+
+
+@kernel_app.command("atomizar")
+def kernel_atomizar(
+    folder: str = typer.Option(..., "--folder", help="ID da pasta Drive"),
+) -> None:
+    """Atomiza o corpus já obtido, só com políticas que passam no gate do Kernel."""
+    from kernel.activities import executar_atomizar
+
+    raise typer.Exit(executar_atomizar(folder))
+
+
+@kernel_app.command("executar-pasta")
+def kernel_executar_pasta(
+    folder: str = typer.Option(..., "--folder", help="ID da pasta Drive"),
+) -> None:
+    """Submete a WO de obter e a WO de atomizar, nesta ordem."""
+    from kernel.activities import executar_pasta
+
+    raise typer.Exit(executar_pasta(folder))
+
+
 if __name__ == "__main__":
     app()
