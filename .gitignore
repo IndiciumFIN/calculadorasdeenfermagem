@@ -40,3 +40,6 @@ venv/
 # coverage
 .coverage
 htmlcov/
+
+# bytes baixados do Drive: o Git guarda WO, hash e átomos mascarados
+/data/raw/drive/

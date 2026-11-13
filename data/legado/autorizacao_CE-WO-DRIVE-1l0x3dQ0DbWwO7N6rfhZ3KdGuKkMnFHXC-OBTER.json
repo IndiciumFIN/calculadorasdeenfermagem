@@ -1,0 +1,133 @@
+{
+  "schema": "CE-WO-AUTHORIZATION-1.0.0",
+  "wo_id": "CE-WO-DRIVE-1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC-OBTER",
+  "task": "obter",
+  "slug": "drive_1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC_obter",
+  "status": "BLOQUEADO",
+  "submitted_by": "kernel",
+  "source": "https://drive.google.com/drive/folders/1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC?hl=pt-br",
+  "folder_id": "1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "policy_ids": [
+    "KERNEL-POLICY-001",
+    "KERNEL-POLICY-002",
+    "KERNEL-POLICY-019",
+    "KERNEL-POLICY-020"
+  ],
+  "policy_gate": [
+    {
+      "policy_id": "KERNEL-POLICY-001",
+      "passed": true,
+      "reason": "gate"
+    },
+    {
+      "policy_id": "KERNEL-POLICY-002",
+      "passed": true,
+      "reason": "gate"
+    },
+    {
+      "policy_id": "KERNEL-POLICY-003",
+      "passed": false,
+      "reason": "test_suite reprovou cid10_validator"
+    },
+    {
+      "policy_id": "KERNEL-POLICY-004",
+      "passed": false,
+      "reason": "test_suite reprovou cid11_validator"
+    },
+    {
+      "policy_id": "KERNEL-POLICY-005",
+      "passed": false,
+      "reason": "test_suite reprovou mesh_validator"
+    },
+    {
+      "policy_id": "KERNEL-POLICY-006",
+      "passed": false,
+      "reason": "test_suite reprovou schema_validator"
+    },
+    {
+      "policy_id": "KERNEL-POLICY-007",
+      "passed": false,
+      "reason": "test_suite reprovou cvx_validator"
+    },
+    {
+      "policy_id": "KERNEL-POLICY-008",
+      "passed": false,
+      "reason": "test_suite reprovou schema_validator"
+    },
+    {
+      "policy_id": "KERNEL-POLICY-009",
+      "passed": false,
+      "reason": "test_suite reprovou schema_validator"
+    },
+    {
+      "policy_id": "KERNEL-POLICY-010",
+      "passed": false,
+      "reason": "test_suite reprovou schema_validator"
+    },
+    {
+      "policy_id": "KERNEL-POLICY-011",
+      "passed": false,
+      "reason": "test_suite reprovou schema_validator"
+    },
+    {
+      "policy_id": "KERNEL-POLICY-012",
+      "passed": false,
+      "reason": "test_suite reprovou schema_validator"
+    },
+    {
+      "policy_id": "KERNEL-POLICY-013",
+      "passed": false,
+      "reason": "test_suite reprovou schema_validator"
+    },
+    {
+      "policy_id": "KERNEL-POLICY-014",
+      "passed": false,
+      "reason": "test_suite reprovou schema_validator"
+    },
+    {
+      "policy_id": "KERNEL-POLICY-015",
+      "passed": false,
+      "reason": "test_suite reprovou schema_validator"
+    },
+    {
+      "policy_id": "KERNEL-POLICY-016",
+      "passed": false,
+      "reason": "test_suite reprovou schema_validator"
+    },
+    {
+      "policy_id": "KERNEL-POLICY-017",
+      "passed": false,
+      "reason": "test_suite reprovou schema_validator"
+    },
+    {
+      "policy_id": "KERNEL-POLICY-018",
+      "passed": false,
+      "reason": "test_suite reprovou schema_validator"
+    },
+    {
+      "policy_id": "KERNEL-POLICY-019",
+      "passed": true,
+      "reason": "gate"
+    },
+    {
+      "policy_id": "KERNEL-POLICY-020",
+      "passed": true,
+      "reason": "gate"
+    }
+  ],
+  "depends_on": null,
+  "timestamp": "2026-11-13T17:53:07+00:00",
+  "atualizado_em": "2026-11-13T17:53:07+00:00",
+  "tentativas": 1,
+  "motivo": "CredentialError: Neither GDRIVE_SA_KEY nor DRIVE_ACCESS_TOKEN is configured; fail closed.",
+  "resultado": null,
+  "conditions": [
+    "READ_ONLY",
+    "NO_DELETE",
+    "NO_PUBLICATION",
+    "NO_CANONICAL_WITHOUT_PASSING_POLICY",
+    "VIGENCIA_NASCE_NAO_VERIFICADO",
+    "BYTES_BRUTOS_NAO_VERSIONADOS",
+    "ZIP_CONTENTS_NOT_INSPECTED"
+  ]
+}
