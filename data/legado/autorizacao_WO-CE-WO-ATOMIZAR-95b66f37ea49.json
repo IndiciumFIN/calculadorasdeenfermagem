@@ -1,0 +1,40 @@
+{
+  "schema": "CE-WO-AUTHORIZATION-1.0.0",
+  "wo_id": "CE-WO-ATOMIZAR-95b66f37ea49",
+  "tarefa": "atomizar",
+  "lote": "drive_1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "pasta_drive_id": "1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "estado": "BLOQUEADO",
+  "submitted_by": "kernel",
+  "motivo": "WO de obter CE-WO-OBTER-d3271721ab03 está BLOQUEADO e não possui sha256_fonte executado pelo kernel.",
+  "sha256_fonte": null,
+  "tentativas": 1,
+  "politicas_validas": [],
+  "depends_on": "CE-WO-OBTER-d3271721ab03",
+  "contagens": {
+    "atomos": 0,
+    "bytes": 0
+  },
+  "acao_necessaria": "Concluir a WO de obter com sha256_fonte executado pelo kernel antes de atomizar.",
+  "timestamp": "2026-11-13T12:50:51.616521+00:00",
+  "restrictions": [
+    "READ_ONLY",
+    "NO_DELETE",
+    "NO_PUBLICATION",
+    "NO_CANONICAL_PROMOTION"
+  ],
+  "historico": [
+    {
+      "timestamp": "2026-11-13T12:50:51.615857+00:00",
+      "estado": "SUBMITTED",
+      "motivo": "atomização iniciada",
+      "sha256_fonte": null
+    },
+    {
+      "timestamp": "2026-11-13T12:50:51.616521+00:00",
+      "estado": "BLOQUEADO",
+      "motivo": "WO de obter CE-WO-OBTER-d3271721ab03 está BLOQUEADO e não possui sha256_fonte executado pelo kernel.",
+      "sha256_fonte": null
+    }
+  ]
+}
