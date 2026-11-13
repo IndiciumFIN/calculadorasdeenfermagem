@@ -17,16 +17,19 @@ import typer
 
 from packages.schemas.invariantes import AtomoBlindado
 
-# Import tardio para evitar circular — cada validador se auto-registra
-def _lazy_import_validators():
-    from validators import (
-        Sha256Validator, NormAtomIdValidator, TextoLengthValidator,
-        UrlValidator, AtomoSchemaValidator,
-        cid10_validator, cid11_validator, mesh_validator,
-        cvx_validator, schema_validator, loinc_validator,
-        ncm_validator, catmat_validator, human_review_validator,
-    )
-    return locals()
+# Import tardio para evitar circular — cada módulo se auto-registra via @register
+_VALIDATOR_MODULES = (
+    "validators.sha256_validator",
+    "validators.cid10_validator",
+    "validators.cid11_validator",
+    "validators.mesh_validator",
+    "validators.cvx_validator",
+    "validators.schema_validator",
+    "validators.loinc_validator",
+    "validators.ncm_validator",
+    "validators.catmat_validator",
+    "validators.human_review_validator",
+)
 
 VALIDATORS: dict[str, Any] = {}
 _validator_imported = False
@@ -34,11 +37,14 @@ _validator_imported = False
 def _ensure_validators():
     global _validator_imported, VALIDATORS
     if not _validator_imported:
-        ctx = _lazy_import_validators()
-        # Extrai validadores concretos (não classes, instâncias)
-        for k, v in ctx.items():
-            if k.endswith("_validator") and hasattr(v, "validate"):
-                VALIDATORS[k] = v
+        import importlib
+
+        from validators.registry import VALIDATORS as registered
+
+        for module_name in _VALIDATOR_MODULES:
+            importlib.import_module(module_name)
+        VALIDATORS.clear()
+        VALIDATORS.update(registered)
         _validator_imported = True
 
 from kernel.policy_registry import get_policy, PolicyRegistry
