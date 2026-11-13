@@ -229,6 +229,35 @@ def kernel_list_validators() -> None:
     typer.echo()
 
 
+@kernel_app.command("drive-cycle")
+def kernel_drive_cycle(
+    folder: str = typer.Option(..., "--folder", help="ID da pasta Google Drive"),
+) -> None:
+    """Baixa e atomiza a pasta. Cada atividade recebe WO do Kernel antes de executar."""
+    from kernel.drive_cycle import run_drive_cycle
+
+    repo = Path(__file__).resolve().parents[2]
+    raise typer.Exit(run_drive_cycle(folder, repo))
+
+
+@kernel_app.command("submit-wo")
+def kernel_submit_wo(
+    activity: str = typer.Option(..., "--activity"),
+    folder: str = typer.Option(..., "--folder"),
+    policy: str | None = typer.Option(None, "--policy"),
+) -> None:
+    """Submete uma WO pelo Kernel. Não baixa e não atomiza."""
+    from kernel.wo import WorkOrderError, submit_wo
+
+    repo = Path(__file__).resolve().parents[2]
+    try:
+        payload = submit_wo(repo, activity=activity, folder_id=folder, policy_id=policy)
+    except WorkOrderError as exc:
+        typer.secho(f"❌ {exc}", fg=typer.colors.RED)
+        raise typer.Exit(2)
+    typer.echo(payload["wo_id"])
+
+
 @kernel_app.command("test-validators")
 def kernel_test_validators() -> None:
     """Executa test_suite de todos os validadores."""

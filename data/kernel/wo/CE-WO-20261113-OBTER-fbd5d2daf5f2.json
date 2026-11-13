@@ -1,0 +1,27 @@
+{
+  "schema": "CE-WO-KERNEL-1.0.0",
+  "wo_id": "CE-WO-20261113-OBTER-fbd5d2daf5f2",
+  "submitted_by": "kernel",
+  "activity": "obter",
+  "folder_id": "1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "policy_id": null,
+  "status": "BLOQUEADO",
+  "motivo": "Neither GDRIVE_SA_KEY nor DRIVE_ACCESS_TOKEN is configured; fail closed.",
+  "attempts": 1,
+  "day": "2026-11-13",
+  "updated_at": "2026-11-13T11:43:35.911519+00:00",
+  "events": [
+    {
+      "step": "submit",
+      "activity": "obter",
+      "status": "SUBMITTED"
+    },
+    {
+      "step": "status",
+      "status": "BLOQUEADO",
+      "motivo": "Neither GDRIVE_SA_KEY nor DRIVE_ACCESS_TOKEN is configured; fail closed."
+    }
+  ],
+  "submission_sha256": "7682b659dcd08b46cf0fd82be227d8d3c015690c29ea9740eca392abe5cbc4d5",
+  "exit_code": 2
+}
