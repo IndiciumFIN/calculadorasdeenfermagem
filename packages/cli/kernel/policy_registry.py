@@ -28,6 +28,10 @@ class KernelPolicy:
     requires_human_review: bool = True
     wo_required: bool = True
     wo_template: str = ""
+    review_policy: dict = field(default_factory=lambda: {"approval_required": True})
+    publication_allowed: bool = False
+    rights_by_operation_approved: bool = False
+    processing_scope: str = "HOLD_UNREVIEWED"
     version: str = "1.0.0"
     updated_at: str = field(default_factory=lambda: datetime.now(timezone.utc).isoformat())
 

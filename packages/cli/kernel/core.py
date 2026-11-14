@@ -1,6 +1,6 @@
 """Kernel core — executor determinístico de políticas.
 
-O Kernel compara INPUT contra POLÍTICA. Se confere → APPROVED. Se não → REJECTED (exit 2).
+O Kernel separa conformidade técnica de liberação clínica. Sem revisão e direitos, HOLD.
 Tudo importa de um ponto único: packages.schemas.invariantes.AtomoBlindado.
 """
 from __future__ import annotations
@@ -17,37 +17,64 @@ import typer
 
 from packages.schemas.invariantes import AtomoBlindado
 
-# Import tardio para evitar circular — cada validador se auto-registra
+# Carrega validadores sob testes negativos; validação não comprovada segue HOLD.
 def _lazy_import_validators():
-    from validators import (
-        Sha256Validator, NormAtomIdValidator, TextoLengthValidator,
-        UrlValidator, AtomoSchemaValidator,
-        cid10_validator, cid11_validator, mesh_validator,
-        cvx_validator, schema_validator, loinc_validator,
-        ncm_validator, catmat_validator, human_review_validator,
+    from importlib import import_module
+    from packages.cli.validators.registry import VALIDATORS as registered
+    module_names = (
+        "sha256_validator", "catmat_validator", "cid10_validator",
+        "cid11_validator", "cvx_validator", "human_review_validator",
+        "loinc_validator", "mesh_validator", "ncm_validator",
+        "schema_validator",
     )
-    return locals()
+    for module_name in module_names:
+        import_module(f"packages.cli.validators.{module_name}")
+    return dict(registered)
+
 
 VALIDATORS: dict[str, Any] = {}
+VALIDATOR_HOLDS: dict[str, str] = {}
 _validator_imported = False
 
-def _ensure_validators():
-    global _validator_imported, VALIDATORS
-    if not _validator_imported:
-        ctx = _lazy_import_validators()
-        # Extrai validadores concretos (não classes, instâncias)
-        for k, v in ctx.items():
-            if k.endswith("_validator") and hasattr(v, "validate"):
-                VALIDATORS[k] = v
-        _validator_imported = True
 
-from kernel.policy_registry import get_policy, PolicyRegistry
+def _ensure_validators():
+    global _validator_imported
+    if _validator_imported:
+        return
+    registered = _lazy_import_validators()
+    for name, validator in sorted(registered.items()):
+        try:
+            if validator.run_tests():
+                VALIDATORS[name] = validator
+            else:
+                VALIDATOR_HOLDS[name] = "SELF_TEST_FAILED"
+        except Exception as exc:
+            VALIDATOR_HOLDS[name] = f"SELF_TEST_EXCEPTION:{type(exc).__name__}"
+    _validator_imported = True
+
+
+from packages.cli.kernel.policy_registry import get_policy, PolicyRegistry
 
 
 class Decision(str, Enum):
     APPROVED = "APPROVED"
     REJECTED = "REJECTED"
     PENDING_REVIEW = "PENDING_HUMAN_REVIEW"
+
+
+def _release_on_hold(policy) -> bool:
+    """Source config is not proof of independently verified review/rights."""
+    review = getattr(policy, "review_policy", None)
+    return bool(
+        getattr(policy, "requires_human_review", True)
+        or not getattr(policy, "publication_allowed", False)
+        or not getattr(policy, "rights_by_operation_approved", False)
+        or getattr(policy, "wo_required", True)
+        or (getattr(policy, "sha256_required", True)
+            and "sha256_validator" not in getattr(policy, "validators", ()))
+        or not isinstance(review, dict)
+        or review.get("approval_required") is not False
+    )
 
 
 @dataclass
@@ -82,7 +109,10 @@ class KernelDecision:
             print(r)
 
     def has_failures(self) -> bool:
-        return any(not r.is_valid for r in self.results)
+        # Missing validators return REJECTED even with an empty results array.
+        return self.decision == Decision.REJECTED or any(
+            not r.is_valid for r in self.results
+        )
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)
@@ -129,7 +159,10 @@ class Kernel:
                 )
 
             validator = VALIDATORS[vname]
-            is_valid, error = validator.validate(item)
+            try:
+                is_valid, error = validator.validate(item)
+            except Exception as exc:
+                is_valid, error = False, f"VALIDATOR_EXCEPTION:{type(exc).__name__}"
             results.append(ValidationResult(validator_name=vname, is_valid=is_valid, error=error))
 
         failed = [r for r in results if not r.is_valid]
@@ -137,7 +170,7 @@ class Kernel:
 
         if failed:
             decision = Decision.REJECTED
-        elif pending:
+        elif pending or _release_on_hold(policy):
             decision = Decision.PENDING_REVIEW
         else:
             decision = Decision.APPROVED
@@ -149,7 +182,7 @@ class Kernel:
             results=results,
             approved_count=len([r for r in results if r.is_valid]),
             rejected_count=len(failed),
-            pending_count=len(pending),
+            pending_count=max(len(pending), 1 if decision == Decision.PENDING_REVIEW else 0),
         )
 
     def evaluate_batch(
@@ -159,6 +192,14 @@ class Kernel:
         _ensure_validators()
         policy = get_policy(policy_id)
         validators = policy.validators
+
+        if not items:
+            return KernelDecision(
+                decision=Decision.REJECTED,
+                policy_id=policy_id,
+                policy_version=policy.version,
+                errors=["Batch vazio não pode ser aprovado."],
+            )
 
         if not validators:
             return KernelDecision(
@@ -183,7 +224,10 @@ class Kernel:
                         errors=[f"Validador '{vname}' não implementado."],
                     )
                 validator = VALIDATORS[vname]
-                is_valid, error = validator.validate(item)
+                try:
+                    is_valid, error = validator.validate(item)
+                except Exception as exc:
+                    is_valid, error = False, f"VALIDATOR_EXCEPTION:{type(exc).__name__}"
                 all_results.append(ValidationResult(validator_name=vname, is_valid=is_valid, error=error))
                 if is_valid:
                     approved_count += 1
@@ -197,7 +241,7 @@ class Kernel:
 
         if failed:
             decision = Decision.REJECTED
-        elif pending:
+        elif pending or _release_on_hold(policy):
             decision = Decision.PENDING_REVIEW
         else:
             decision = Decision.APPROVED
@@ -209,7 +253,7 @@ class Kernel:
             results=all_results[: len(validators)],
             approved_count=approved_count,
             rejected_count=rejected_count,
-            pending_count=pending_count,
+            pending_count=max(pending_count, 1 if decision == Decision.PENDING_REVIEW else 0),
         )
 
     def gate(self, policy_id: str) -> int:
@@ -241,14 +285,18 @@ class Kernel:
                     return 2
                 typer.secho(f"  ✅ {vname}: {len(validator.test_suite())} testes OK", fg=typer.colors.GREEN)
             else:
-                typer.secho(f"  ⚠️  {vname}: sem test_suite (stub)", fg=typer.colors.YELLOW)
+                typer.secho(f"❌ {vname}: run_tests ausente (stub).", fg=typer.colors.RED)
+                return 2
 
-        output_dir = Path(policy.atoms_output)
-        if not output_dir.exists():
-            typer.secho(f"⚠️  Criando diretório de saída: {output_dir}", fg=typer.colors.YELLOW)
-            output_dir.mkdir(parents=True, exist_ok=True)
+        if _release_on_hold(policy):
+            typer.secho(
+                f"⛔ {policy_id}: HOLD_HUMAN/RIGHTS — validação técnica não concede publicação.",
+                fg=typer.colors.YELLOW,
+            )
+            return 2
 
-        typer.secho(f"✅ Gate {policy_id}: TODOS OS VALIDADORES APROVADOS", fg=typer.colors.GREEN)
+        # Gate read-only: nenhum diretório de saída criado sem autorização.
+        typer.secho(f"✅ Gate {policy_id}: verificações técnicas concluídas.", fg=typer.colors.GREEN)
         return 0
 
     def list_policies(self) -> None:

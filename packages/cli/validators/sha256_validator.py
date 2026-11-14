@@ -5,8 +5,8 @@ import hashlib
 import re
 from typing import Any
 
-from validators.base import BaseValidator
-from validators.registry import register
+from packages.cli.validators.base import BaseValidator
+from packages.cli.validators.registry import register
 
 
 @register
@@ -28,9 +28,10 @@ class Sha256Validator(BaseValidator):
     def validate(self, item: dict[str, Any]) -> tuple[bool, str | None]:
         # Aceita sha256_texto, sha256_original, ou campo 'sha256' com prefixo 'sha256:'
         sha = item.get("sha256_texto") or item.get("sha256_original") or item.get("sha256") or ""
-        if isinstance(sha, str):
-            sha = sha.removeprefix("sha256:")
-        if not self._SHA256_RE.match(sha):
+        if not isinstance(sha, str):
+            return False, "SHA256 deve ser uma string hexadecimal"
+        sha = sha.removeprefix("sha256:")
+        if not self._SHA256_RE.fullmatch(sha):
             return False, f"SHA256 inválido: '{sha[:20]}...'"
         return True, None
 
@@ -46,12 +47,14 @@ class Sha256Validator(BaseValidator):
             ({"sha256_original": "b" * 64}, True, "sha256_original válido"),
             ({"sha256": "c" * 64}, True, "sha256 válido"),
             ({"sha256": "sha256:" + "d" * 64}, True, "sha256 com prefixo"),
+            ({"sha256_texto": "e" * 64}, True, "quinta evidência válida"),
             # 5 inválidos
             ({"sha256_texto": "g" * 64}, False, "caractere inválido (g não é hex)"),
             ({"sha256_texto": "a" * 63}, False, "muito curto (63 chars)"),
             ({"sha256_texto": "a" * 65}, False, "muito longo (65 chars)"),
             ({"sha256_texto": "ABCDEF" + "a" * 58}, False, "maiúsculas inválidas"),
             ({"sha256_texto": ""}, False, "vazio"),
+            ({"sha256_texto": 12345}, False, "tipo numérico inválido"),
             ({"sha256_texto": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}, False, "x não é hex"),
         ]
 
