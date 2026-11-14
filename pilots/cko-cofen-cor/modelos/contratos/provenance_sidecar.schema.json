@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "$id": "urn:cko:sidecar:candidate:provenance_sidecar:1.0.0",
+  "title": "CKO Candidate provenance_sidecar",
+  "required": [
+    "provenance_id",
+    "canonical_object_id",
+    "source_artifact_sha256",
+    "original_json_sha256",
+    "normalized_json_sha256",
+    "source_id",
+    "mapping_revision",
+    "source_verified",
+    "clinical_release_allowed"
+  ],
+  "properties": {
+    "provenance_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "canonical_object_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_artifact_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "original_json_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "normalized_json_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "source_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "document_version_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "mapping_revision": {
+      "type": "string",
+      "minLength": 1
+    },
+    "rights_status": {
+      "enum": [
+        "PENDING",
+        "DENIED",
+        "APPROVED"
+      ]
+    },
+    "source_verified": {
+      "const": false
+    },
+    "clinical_release_allowed": {
+      "const": false
+    }
+  }
+}
