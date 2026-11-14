@@ -49,7 +49,7 @@ jobs:
           import json
           import os
           from pathlib import Path
-          doc = json.loads((Path(os.environ["RUNNER_TEMP"]) / "cko-g6-audit/m08m09.json").read_text().split("\\nG6_CANDIDATE_GRAPH_VALID")[0])
+          doc = json.loads((Path(os.environ["RUNNER_TEMP"]) / "cko-g6-audit/m08m09.json").read_text())
           assert doc["counts"]["sources"] == 2, doc["counts"]
           assert doc["counts"]["claims"] == 46, doc["counts"]
           assert doc["counts"]["evidence_atoms"] == 43, doc["counts"]
