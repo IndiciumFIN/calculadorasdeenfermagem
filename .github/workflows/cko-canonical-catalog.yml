@@ -1,0 +1,63 @@
+name: CKO - Catalogo e metamodelo derivados (sem publicacao)
+on:
+  push:
+    branches:
+      - feat/cko-catalog-metamodel-automated-20261114
+      - main
+    paths:
+      - 'contracts/fontes/**'
+      - 'contracts/policies/**'
+      - 'packages/cli/parsers/**'
+      - 'scripts/cko_catalog.py'
+      - 'tests/test_cko_catalog.py'
+      - '.github/workflows/cko-canonical-catalog.yml'
+  pull_request:
+    branches:
+      - fix/canonical-structural-cli-registry-20261114
+      - main
+permissions:
+  contents: read
+
+jobs:
+  build-cko-catalog:
+    name: Gerar dicionario/metamodelo/ERD e checar relacionamentos
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Compile generator and tests
+        run: python -m compileall -q scripts/cko_catalog.py tests/test_cko_catalog.py
+      - name: Test negative invariants, lineage and deterministic output
+        run: python -m unittest discover -s tests -p 'test_cko_catalog.py' -v
+      - name: Auto-generate derived artifacts from canonical contracts
+        run: python scripts/cko_catalog.py --out-dir "${{ runner.temp }}/cko-catalog"
+      - name: Verify deterministic output and no drift
+        run: python scripts/cko_catalog.py --check --out-dir "${{ runner.temp }}/cko-catalog"
+      - name: Confirm no orphan nodes and no release
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+          root = Path(os.environ["RUNNER_TEMP"]) / "cko-catalog"
+          data = json.loads((root / "catalog.json").read_text(encoding="utf-8"))
+          stats = data["statistics"]
+          assert stats["errors"] == 0, data["findings"]
+          assert data["publication_allowed"] is False
+          assert all(node.get("release_allowed") is False for node in data["entities"])
+          assert all(x["source"] in {node["id"] for node in data["entities"]}
+                     and x["target"] in {node["id"] for node in data["entities"]}
+                     for x in data["relationships"])
+          print("CATALOG_GRAPH_VALID / MISSING_PARSERS=" + str(stats["missing_parsers"]))
+          print("RELEASE_HOLD / METADATA_ONLY")
+          PY
+      - name: Upload deterministic metadata graph for review
+        uses: actions/upload-artifact@v4
+        with:
+          name: cko-catalog-metamodel-${{ github.sha }}
+          path: ${{ runner.temp }}/cko-catalog/
+          retention-days: 30
+          if-no-files-found: error
