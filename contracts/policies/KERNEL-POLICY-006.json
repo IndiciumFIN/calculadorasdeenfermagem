@@ -2,7 +2,7 @@
   "schema": "CE-KERNEL-POLICY-1.0.0",
   "id": "KERNEL-POLICY-006",
   "name": "Medicamentos ANVISA",
-  "description": "Valida registros de medicamentos da ANVISA",
+  "description": "Anvisa medicines open-data registered-products CSV; metadata-only with review of provenance, rights and medical use",
   "source_contract": "contracts/fontes/anvisa_med.json",
   "validators": [
     "schema_validator",
@@ -18,8 +18,11 @@
     "approval_required": "enfermeiro_registrado",
     "reviewed_by_in_commit": true
   },
-  "wo_required": false,
+  "wo_required": true,
   "wo_template": null,
-  "version": "1.0.0",
-  "updated_at": "2026-10-17T00:00:00Z"
+  "version": "1.1.0",
+  "updated_at": "2026-11-14T00:00:00Z",
+  "publication_allowed": false,
+  "rights_by_operation_approved": false,
+  "processing_scope": "ANVISA_MEDICINE_CSV_METADATA_ONLY_PENDING_REVIEW"
 }
