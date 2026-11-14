@@ -16,6 +16,6 @@ jobs:
         with:
           persist-credentials: false
       - name: Compile code (no source fetching)
-        run: python3 -m py_compile pilots/cko-cofen-cor/automatizacao/*.py pilots/cko-cofen-cor/tests/test_p0_security.py
-      - name: Run 16 synthetic checks; no secrets or external data
-        run: python3 -m unittest discover -s pilots/cko-cofen-cor/tests -p 'test_p0_security.py' -v
+        run: python3 -m py_compile pilots/cko-cofen-cor/automatizacao/*.py pilots/cko-cofen-cor/tests/test_p0_*.py pilots/cko-cofen-cor/tools/*.py
+      - name: Run 21 synthetic checks; no secrets or external data
+        run: python3 -m unittest discover -s pilots/cko-cofen-cor/tests -p 'test_p0_*.py' -v
