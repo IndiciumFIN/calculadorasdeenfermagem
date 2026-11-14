@@ -1,0 +1,131 @@
+{
+  "schema": "CE-LEGACY-SOURCE-RECONCILIATION-1.0.0",
+  "date": "2026-11-14",
+  "base_commit": "e0f62491b104f4a97c6025a6393cabc2e7ada30e",
+  "obsolete_path": "contracts/fonts/",
+  "canonical_path": "contracts/fontes/",
+  "verification": "All 20 obsolete JSONs equal canonical JSONs after omitting canonical source_contract; compared parsed JSON values on 2026-11-14",
+  "historical_recovery": "Git history at base_commit; no content destroyed from Git history",
+  "entries": [
+    {
+      "filename": "anvisa_dev.json",
+      "legacy_blob_sha1": "7f25153f5dbdff7695ac452ed98d88677b9cf072",
+      "canonical_blob_sha1": "902ae7991a116db4563b99daec9722a7cb87679c",
+      "comparison": "JSON_EQUAL_AFTER_OMITTING_CANONICAL_SOURCE_CONTRACT"
+    },
+    {
+      "filename": "anvisa_dou.json",
+      "legacy_blob_sha1": "63fc18b5df41186e341d4ce3341d4564d1a18b80",
+      "canonical_blob_sha1": "7ad43853784754937320425833cebfd94c24f868",
+      "comparison": "JSON_EQUAL_AFTER_OMITTING_CANONICAL_SOURCE_CONTRACT"
+    },
+    {
+      "filename": "anvisa_med.json",
+      "legacy_blob_sha1": "1c12b9aab44f39077b58e1816bf55ab2f63f6e5c",
+      "canonical_blob_sha1": "c6342f4f340924e468124b53b0be4eadf00e8a27",
+      "comparison": "JSON_EQUAL_AFTER_OMITTING_CANONICAL_SOURCE_CONTRACT"
+    },
+    {
+      "filename": "atlas.json",
+      "legacy_blob_sha1": "f344d11b0a609b9bb66ec59b362007a7e09ee822",
+      "canonical_blob_sha1": "12e6e23c2d04b0df0ee3835ed67967d915a59e20",
+      "comparison": "JSON_EQUAL_AFTER_OMITTING_CANONICAL_SOURCE_CONTRACT"
+    },
+    {
+      "filename": "catmat.json",
+      "legacy_blob_sha1": "159da86b6abee571bddbb880c511678aca3bca99",
+      "canonical_blob_sha1": "cb1af111303c56a109bb89d97c9bf1c99099ef99",
+      "comparison": "JSON_EQUAL_AFTER_OMITTING_CANONICAL_SOURCE_CONTRACT"
+    },
+    {
+      "filename": "cdsi.json",
+      "legacy_blob_sha1": "f0ee390d0bb412ae7de2c04c4b9f4dea26737d0e",
+      "canonical_blob_sha1": "76e339ad20ef95ef9ee90d6264c971ad4292ea8f",
+      "comparison": "JSON_EQUAL_AFTER_OMITTING_CANONICAL_SOURCE_CONTRACT"
+    },
+    {
+      "filename": "cid10.json",
+      "legacy_blob_sha1": "1f0d37a85ffb51b95f4bf8b051932918a184e8cf",
+      "canonical_blob_sha1": "2965c7f77fc857fdb2e46f48b4238e94f85f9049",
+      "comparison": "JSON_EQUAL_AFTER_OMITTING_CANONICAL_SOURCE_CONTRACT"
+    },
+    {
+      "filename": "cid11.json",
+      "legacy_blob_sha1": "77d86833843e0506e77802c93b3db0e410f1704e",
+      "canonical_blob_sha1": "8b9af2dcfc80521fb17965f1d2423a3a496c4199",
+      "comparison": "JSON_EQUAL_AFTER_OMITTING_CANONICAL_SOURCE_CONTRACT"
+    },
+    {
+      "filename": "cofen_dou.json",
+      "legacy_blob_sha1": "7b9d4b05177d6d79d235d938b718fb8737df3c9b",
+      "canonical_blob_sha1": "567cab6b32161f0a39ab2de35a5fe92f40d28571",
+      "comparison": "JSON_EQUAL_AFTER_OMITTING_CANONICAL_SOURCE_CONTRACT"
+    },
+    {
+      "filename": "esavi.json",
+      "legacy_blob_sha1": "0421edce2e68bef91786fc9f051887164b8c56e4",
+      "canonical_blob_sha1": "fcc302fd74726af484c1a155829da4dcd8c3454f",
+      "comparison": "JSON_EQUAL_AFTER_OMITTING_CANONICAL_SOURCE_CONTRACT"
+    },
+    {
+      "filename": "fhir_vitais.json",
+      "legacy_blob_sha1": "fafb30274250a87d261e8c6da30b031d93ea550d",
+      "canonical_blob_sha1": "40fe156c001ff55a2e138ac385f1f2aa189f8e03",
+      "comparison": "JSON_EQUAL_AFTER_OMITTING_CANONICAL_SOURCE_CONTRACT"
+    },
+    {
+      "filename": "lei_federal.json",
+      "legacy_blob_sha1": "197ef0e72c8beb2916af0d5b8cbb80a3af2557a2",
+      "canonical_blob_sha1": "1f15674aa9c2689fc78ce241fda16f61b18c8080",
+      "comparison": "JSON_EQUAL_AFTER_OMITTING_CANONICAL_SOURCE_CONTRACT"
+    },
+    {
+      "filename": "medlineplus.json",
+      "legacy_blob_sha1": "694387ce80d6c5d1b2fa31d4c539659b5bfb4266",
+      "canonical_blob_sha1": "ab13a39bc6ae5f6ef444b197bfea0deb60f8d6e0",
+      "comparison": "JSON_EQUAL_AFTER_OMITTING_CANONICAL_SOURCE_CONTRACT"
+    },
+    {
+      "filename": "mesh.json",
+      "legacy_blob_sha1": "43d27c401ba2ba926052d3b0b3ee95e99dff8cae",
+      "canonical_blob_sha1": "21a227a3f9dfae60dc2d8ab4267e0bbfdee7e8da",
+      "comparison": "JSON_EQUAL_AFTER_OMITTING_CANONICAL_SOURCE_CONTRACT"
+    },
+    {
+      "filename": "ms_portarias.json",
+      "legacy_blob_sha1": "fc16151163ad3431c7c778ae3e9b82d45350fe65",
+      "canonical_blob_sha1": "a214368dbd6c69829ca5754f800a80b4aa91c63a",
+      "comparison": "JSON_EQUAL_AFTER_OMITTING_CANONICAL_SOURCE_CONTRACT"
+    },
+    {
+      "filename": "pni.json",
+      "legacy_blob_sha1": "42fd22e406919eba7cf66f90d6a7c44fc349e30a",
+      "canonical_blob_sha1": "a80aad32fc50344e3852353ca222cb20c5f5e123",
+      "comparison": "JSON_EQUAL_AFTER_OMITTING_CANONICAL_SOURCE_CONTRACT"
+    },
+    {
+      "filename": "sies.json",
+      "legacy_blob_sha1": "ddbb0a01eb8b85ca459487b5118561d7e48b3864",
+      "canonical_blob_sha1": "97d91f8f4df6f83a6f848cb4df5caefe0a1971ae",
+      "comparison": "JSON_EQUAL_AFTER_OMITTING_CANONICAL_SOURCE_CONTRACT"
+    },
+    {
+      "filename": "sinan.json",
+      "legacy_blob_sha1": "309d1ef6e8e736b85f14bd2010a9e28cceabd99c",
+      "canonical_blob_sha1": "19704f794211c2cd6b627219b4f9c3261591ccde",
+      "comparison": "JSON_EQUAL_AFTER_OMITTING_CANONICAL_SOURCE_CONTRACT"
+    },
+    {
+      "filename": "taco.json",
+      "legacy_blob_sha1": "eef9d0f4603f52c0a28c999429e8c5b0c1b4558d",
+      "canonical_blob_sha1": "3175d5620d9165568680b45df9def786651278bc",
+      "comparison": "JSON_EQUAL_AFTER_OMITTING_CANONICAL_SOURCE_CONTRACT"
+    },
+    {
+      "filename": "vacinas_cdc.json",
+      "legacy_blob_sha1": "e719270991e8a3a09559623477fcb552be2ce606",
+      "canonical_blob_sha1": "5e5216ddd4914665ed3358f1171b038bff92212b",
+      "comparison": "JSON_EQUAL_AFTER_OMITTING_CANONICAL_SOURCE_CONTRACT"
+    }
+  ]
+}
