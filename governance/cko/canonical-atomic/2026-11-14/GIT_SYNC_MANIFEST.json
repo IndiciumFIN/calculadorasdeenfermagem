@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-11-14",
+  "repo": "IndiciumFIN/calculadorasdeenfermagem",
+  "branch": "feat/cko-m08-m09-corpus-atomic-20261114",
+  "visibility": "private",
+  "release_status": "CANDIDATE_HOLD_HUMAN",
+  "publication_allowed": false,
+  "source_corpus_sqlite_sha256": "cad94fa782918fb3ef9f77666306537139e3d04ebc96631425bdbd6383372142",
+  "archives": [
+    {
+      "filename": "CKO_M08_CANONICAL_ATOMIC_FULL_CORPUS_INDEX_2026-11-14_v0.2.zip",
+      "sha256": "1663f80280684aa005aa58e029c1dabdeba3cd05fb8b15cefccb9abc5c9bfff4",
+      "git_blob": "023dbe4dbda13628d076589ef3dc4f4d269a8f82",
+      "bytes": 1711989,
+      "entries": 18
+    },
+    {
+      "filename": "CKO_M09_CANONICAL_ATOMIC_REVIEW_2026-11-14.zip",
+      "sha256": "f0abd0869df21d09b9e78d8557f6c2e31ed2cafeae21c32a4912071df8739860",
+      "git_blob": "68e12417782e0e66e655df5183704cae91a32c0e",
+      "bytes": 26136,
+      "entries": 16
+    }
+  ],
+  "content": {
+    "M08": {
+      "claims": 34,
+      "evidence_atoms_distinct": 33,
+      "knowledge_atoms": 34,
+      "masters": 3,
+      "quizzes": 8,
+      "flashcards": 10,
+      "full_corpus_metadata_atoms": 28001,
+      "topic_evidence_candidate_links": 9102,
+      "legacy_claims_held": 29
+    },
+    "M09": {
+      "new_claims": 12,
+      "new_unique_evidence_atoms": 10,
+      "knowledge_atoms": 12,
+      "revised_masters": 3,
+      "new_quizzes": 3,
+      "new_flashcards": 4
+    },
+    "total": {
+      "claims": 46,
+      "evidence_atoms_distinct": 43,
+      "approved_claims": 0,
+      "published": 0
+    }
+  },
+  "source_documents": [
+    {
+      "source_id": "SRC-COFEN-736-2024",
+      "document_id": "DOC-550c6f44b5147192"
+    },
+    {
+      "source_id": "SRC-ANVISA-RDC36-2013",
+      "document_id": "DOC-d5d348a024e19b30"
+    }
+  ],
+  "upstream_prs": [
+    "IndiciumFIN/dev-chatgpt-workspace#66",
+    "IndiciumFIN/dev-chatgpt-workspace#67",
+    "IndiciumFIN/dev-chatgpt-workspace#68"
+  ],
+  "drive_backups": [
+    "https://drive.google.com/file/d/1cuXkb1bCg4lwtFtHL9B9aiANY1ioIhEk/view",
+    "https://drive.google.com/file/d/11pA7kaFqtv0UKTpx2h49GBPD4lh1T_Z6/view"
+  ],
+  "not_committed": [
+    "raw original source texts",
+    "copyright-restricted source documents",
+    "live SQLite databases",
+    "credentials",
+    "patient data"
+  ],
+  "human_gates": [
+    "NORMATIVE_CURRENCY",
+    "RIGHTS_BY_OPERATION",
+    "CLINICAL_REVIEW",
+    "EDITORIAL_REVIEW",
+    "SCHEMA_VALIDATION",
+    "PUBLICATION_APPROVAL"
+  ]
+}
