@@ -14,5 +14,7 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
-      - name: Validate archive SHA, content IDs and no publication flags
+      - name: Validate archive SHA, Git blob, PMO 104 IDs/links and no release flags
         run: python3 governance/cko/canonical-atomic/2026-11-14/validate-atomic-content.py
+      - name: Fail-closed regressions for PMO, lineage and publication
+        run: python3 -m unittest discover -s governance/cko/canonical-atomic/2026-11-14 -p 'test_*.py' -v
