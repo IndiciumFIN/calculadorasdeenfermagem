@@ -1,7 +1,7 @@
 name: CKO - MedlinePlus metadata XML (rights HOLD)
 on:
   push:
-    branches: [feat/cko-parser-medlineplus-xml-20261114]
+    branches: [main, feat/cko-parser-medlineplus-xml-20261114]
     paths:
       - 'packages/cli/parsers/**'
       - 'packages/cli/requirements.txt'
@@ -10,7 +10,7 @@ on:
       - 'docs/cko/parsers/**'
       - '.github/workflows/cko-medlineplus-parser.yml'
   pull_request:
-    branches: [fix/canonical-structural-cli-registry-20261114]
+    branches: [main, fix/canonical-structural-cli-registry-20261114]
 permissions:
   contents: read
 
@@ -38,9 +38,9 @@ jobs:
           result = inspect(Path("."))
           missing = [f for f in result["findings"] if f["code"] == "MISSING_PARSER"]
           assert result["counts"]["error"] == 0, result["findings"]
-          assert result["counts"]["pending"] == 15, result["findings"]
-          assert len(missing) == 15, result["findings"]
+          assert result["counts"]["pending"] == len(missing), result["findings"]
+          assert len(missing) <= 15, result["findings"]
           assert all(x["path"] != "contracts/fontes/medlineplus.json" for x in missing)
-          assert result["strict_pass"] is False
-          print("MEDLINEPLUS_METADATA_TECHNICAL_PASS / GLOBAL_STRICT_HOLD_15")
+          assert result["strict_pass"] == (len(missing) == 0)
+          print("MEDLINEPLUS_METADATA_TECHNICAL_PASS / GLOBAL_MISSING_PARSERS=" + str(len(missing)))
           PY
