@@ -58,6 +58,8 @@ jobs:
           python -m unittest discover -s tests -p 'test_kernel_registry_failclosed.py' -v
           python -m unittest discover -s tests -p 'test_kernel_release_holds.py' -v
           python -m unittest discover -s tests -p 'test_kernel_wo_g6_preflight.py' -v
+      - name: Block direct approvals from all nine unverified validators
+        run: python -m unittest discover -s tests -p 'test_cko_validator_direct_failclosed.py' -v
       - name: Verify G6 GitHub HEAD-bound independent review controls (synthetic negative tests)
         run: python -m unittest discover -s tests -p 'test_cko_g6_github_reviews.py' -v
       - name: Strict admission control negative tests
