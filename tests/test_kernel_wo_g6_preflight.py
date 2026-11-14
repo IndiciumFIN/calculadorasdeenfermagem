@@ -117,6 +117,13 @@ class WorkOrderG6PreflightTests(unittest.TestCase):
         self.assertIn("WO_ACTIVITY_NOT_BOUND", result["findings"])
         self.assertIn("WO_POLICY_NOT_BOUND", result["findings"])
 
+    def test_historical_find_scope_conflict_is_detected(self):
+        # G0 cited 17 FINDs but acceptance criteria demanded "All 11 FINDs".
+        self.wo["finds"] = ["FIND-001", "FIND-002"]
+        self.wo["acceptance_criteria"] = ["All 11 FINDs closed with evidence"]
+        self.save(str(WO_PATH), self.wo)
+        self.assertIn("WO_FIND_ACCEPTANCE_SCOPE_CONFLICT", self.scan()["findings"])
+
     def test_missing_task_find_links_block(self):
         self.wo.pop("task_id")
         self.wo.pop("find_ids")
