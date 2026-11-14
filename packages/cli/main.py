@@ -14,6 +14,10 @@ from datetime import date
 from pathlib import Path
 from typing import Optional
 
+_REPO_ROOT = Path(__file__).resolve().parents[2]
+if str(_REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(_REPO_ROOT))
+
 import requests
 import typer
 from bs4 import BeautifulSoup
@@ -199,6 +203,16 @@ def kernel_validate(
         typer.secho("⚠️  Validação PENDENTE — requer revisão humana.", fg=typer.colors.YELLOW)
     else:
         typer.secho("✅ Validação APROVADA", fg=typer.colors.GREEN)
+
+
+@kernel_app.command("drive-folder")
+def kernel_drive_folder(
+    folder: str = typer.Argument(..., help="ID ou URL da pasta Drive"),
+) -> None:
+    """Submete a WO de obter e a de atomizar antes de baixar bytes."""
+    from kernel.drive_cycle import run_drive_folder
+
+    raise typer.Exit(run_drive_folder(folder))
 
 
 @kernel_app.command("list-policies")

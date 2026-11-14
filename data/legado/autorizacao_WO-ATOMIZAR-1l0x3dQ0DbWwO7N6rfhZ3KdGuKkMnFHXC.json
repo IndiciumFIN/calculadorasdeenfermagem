@@ -1,0 +1,23 @@
+{
+  "schema": "CE-WO-AUTHORIZATION-1.0.0",
+  "wo_id": "CE-WO-ATOMIZAR-1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "activity": "atomizar",
+  "folder_id": "1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "estado": "BLOQUEADO",
+  "submitted_by": "kernel",
+  "timestamp": "2026-11-14T00:49:23.104943+00:00",
+  "bytes_baixados": 0,
+  "atomos_escritos": 0,
+  "motivos": [
+    "WO de obter não está EXECUTADA; não há sha256_fonte.",
+    "Restrição NO_CANONICAL_PROMOTION no contrato das raízes Drive.",
+    "Nenhuma política com gate aprovado autoriza a pasta."
+  ],
+  "depends_on": "CE-WO-OBTER-1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "politicas_gate_aprovado": [
+    "KERNEL-POLICY-001",
+    "KERNEL-POLICY-002",
+    "KERNEL-POLICY-019",
+    "KERNEL-POLICY-020"
+  ]
+}
