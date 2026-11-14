@@ -13,7 +13,7 @@
 
 **Fontes externas checadas:**
 - Cofen Resolução 736/2024: https://www.cofen.gov.br/resolucao-cofen-no-736-de-17-de-janeiro-de-2024/
-- Anvisa RDC 36/2013 em AnvisaLegis: https://anvisalegis.datalegis.net/action/ActionDatalegis.php?acao=abrirTextoAto&cod_menu=1696&cod_modulo=134&numeroAto=00000036&orgao=RDC%2FDC%2FANVISA%2FMS&pesquisa=true&seqAto=000&tipo=RDC&valorAno=2013
+- Cofen Resolução 754/2024 (prontuário eletrônico e plataformas digitais; revogação da 429/2012): https://www.cofen.gov.br/resolucao-cofen-no-754-de-16-de-maio-de-2024/\n- Anvisa RDC 36/2013 em AnvisaLegis: https://anvisalegis.datalegis.net/action/ActionDatalegis.php?acao=abrirTextoAto&cod_menu=1696&cod_modulo=134&numeroAto=00000036&orgao=RDC%2FDC%2FANVISA%2FMS&pesquisa=true&seqAto=000&tipo=RDC&valorAno=2013
 - Anvisa, orientação de prazos: https://www.gov.br/anvisa/pt-br/acessoainformacao/perguntasfrequentes/servicos-de-saude/notificacao-de-incidentes-e-eventos-adversos-relacionados-a-assistencia-a-saude
 - HL7 FHIR R4 v4.0.1 Vital Signs: https://hl7.org/fhir/R4/observation-vitalsigns.html ; https://hl7.org/fhir/R4/vitalsigns.html
 - MedlinePlus XML: https://medlineplus.gov/xmldescription.html
@@ -48,6 +48,7 @@
 |---|---|---|---|
 | Processo de Enfermagem | Res. COFEN 736/2024 arts. 1–14 | 5 etapas recorrentes; diagnóstico/prescrição privativos do enfermeiro; demais registros segundo responsabilidade | Claims M08/M09 têm base textual; revisão individual/efeito editorial HOLD |
 | Normativos substituídos | Res. COFEN 736/2024 art. 14 | 358/2009 expressamente revogada | Qualquer branch com PE antigo como norma vigente exige atualização |
+| Prontuário digital e rastreabilidade | Res. COFEN 754/2024 arts. 3–9 | Regras de plataforma, sigilo, acesso e registros; **revogação da COFEN 429/2012** | Acrescentar norma conexa e dependências de segurança aos claims PE art. 8º; revisar referências históricas |
 | Segurança do paciente | RDC 36/2013 arts. 2, 4, 7–10 | Exceções de abrangência; NSP; PSP; notificações até 15º dia útil e 72 h para óbito | M08 isolado é editorialmente incompleto; M09 adicionou claims, sem homologação de versão |
 | Interoperabilidade | HL7 FHIR R4 4.0.1 | Vital Signs exige status, código LOINC, categoria, paciente, tempo, UCUM ou ausência; painel de PA tem componentes e existe painel 85353-1 | PR #46 implementa subconjunto estrito, não certificado FHIR integral |
 | Informações educativas | MedlinePlus NLM | Resumos próprios de *health topics* são domínio público nos EUA, com atribuição; ADAM, monografias ASHP, imagens e outros itens podem ser licenciados | PR #47 **não deve afirmar que todos os full-summary são protegidos**; classificar por tipo/obra e uso |
@@ -94,6 +95,8 @@
 **FIND-CKO-X15 — Escopo CE e vocabulários de outras disciplinas.** Naming policy candidata de `staging/wo-kernel-normativos-cli-20261016` inclui emissores CFC/CPC; são metadados genéricos de outra área e não devem introduzir conteúdo de contabilidade no corpus CE. **Remediação:** whitelist por namespace clínico/enfermagem, com exceções tecnicamente justificadas e aprovadas.
 
 ### P2 — Manutenção e completude de custódia
+
+**FIND-CKO-X17 — Norma conexa de prontuário eletrônico ausente do mapa M08/M09.** A Resolução COFEN 754/2024 trata das plataformas digitais e registros de enfermagem e revoga a 429/2012, ainda citada no preâmbulo histórico da 736/2024. Isso não invalida automaticamente os artigos da 736/2024, mas a operação atual de registro eletrónico depende de verificar a regra 754 e direitos de acesso/sigilo. **Remediação:** incorporar novo `NORM_SOURCE` explicitamente como candidato, revisar repercussões no claim PE art. 8º e no produto digital; sem fabricar texto normativo ou substituição tácita.
 
 **FIND-CKO-X16 — Histórico de 2026-10 é muito maior que o snapshot atual.** `migration/full-directory` e `cursor/fix-governance-gaps` incluem milhares de arquivos históricos/candidatos. `feat/ce-local-agent-assurance` 139 diferenças; `pmo/recovery-controlled` 107. Um `git merge` indiscriminado não confere bytes, direitos, segredos, duplicatas ou divergências. **Remediação:** inventário por blob, matriz de conflito e quarentena com origem e decisão.
 
