@@ -27,7 +27,7 @@ POLICY_DIR = Path("contracts/policies")
 def git_blob_sha1(data: bytes) -> str:
     """Git's real blob object identity, independent of local commit metadata."""
     return hashlib.sha1(
-        b"blob " + str(len(data)).encode("ascii") + b"\\x00" + data
+        b"blob " + str(len(data)).encode("ascii") + b"\x00" + data
     ).hexdigest()
 
 
@@ -90,7 +90,7 @@ def preflight(
     # nor conversion of any item into a canonical clinical atom.
     if roots.get("scope") == "registered_roots_metadata_only":
         findings.add("SCOPE_METADATA_ONLY_NO_BYTES")
-    if "NO_CANONICAL_PROMOTION" not in roots.get("restrictions", []):
+    if not isinstance(roots.get("restrictions"), list) or "NO_CANONICAL_PROMOTION" not in roots["restrictions"]:
         findings.add("ROOTS_RESTRICTIONS_INCOMPLETE")
 
     if policy.get("id") != policy_id:
