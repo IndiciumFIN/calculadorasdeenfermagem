@@ -55,6 +55,10 @@ jobs:
         run: |
           python -m unittest discover -s tests -p 'test_cid10_category_parser.py' -v
           python -m unittest discover -s tests -p 'test_cid10_policy_failclosed.py' -v
+      - name: ANVISA medical device registry CSV adversarial tests
+        run: |
+          python -m unittest discover -s tests -p 'test_anvisa_dev_parser.py' -v
+          python -m unittest discover -s tests -p 'test_anvisa_dev_policy_failclosed.py' -v
       - name: Canonical catalog deterministic and graph-invariant tests
         run: python -m unittest discover -s tests -p 'test_cko_catalog.py' -v
       - name: Kernel negative/release hold tests
@@ -77,10 +81,10 @@ jobs:
           from pathlib import Path
           report = json.loads((Path(os.environ["RUNNER_TEMP"]) / "cko-parser-ast.json").read_text())
           assert report["static_pass"], report["problems"]
-          assert len(report["missing_parsers"]) == 7, report
-          assert len(report["candidate_parsers_checked"]) == 9, report
+          assert len(report["missing_parsers"]) == 6, report
+          assert len(report["candidate_parsers_checked"]) == 10, report
           assert not report["publication_allowed"]
-          print("AST_SOURCE_BINDINGS_PASS / PARSER_SUBSET=9 / MISSING=7 / NO_RELEASE")
+          print("AST_SOURCE_BINDINGS_PASS / PARSER_SUBSET=10 / MISSING=6 / NO_RELEASE")
           PY
       - name: Inspect canonical source-parser coverage without masking outstanding gaps
         run: |
@@ -91,7 +95,7 @@ jobs:
           missing = [f for f in result["findings"] if f["code"] == "MISSING_PARSER"]
           assert result["counts"]["error"] == 0, result["findings"]
           assert result["counts"]["pending"] == len(missing), result["findings"]
-          assert len(missing) == 7, result["findings"]
+          assert len(missing) == 6, result["findings"]
           assert all(x["path"] not in {
               "contracts/fontes/fhir_vitais.json",
               "contracts/fontes/medlineplus.json",
@@ -101,10 +105,11 @@ jobs:
               "contracts/fontes/catmat.json",
               "contracts/fontes/anvisa_med.json",
               "contracts/fontes/sies.json",
-              "contracts/fontes/cid10.json"
+              "contracts/fontes/cid10.json",
+              "contracts/fontes/anvisa_dev.json"
           } for x in missing), missing
           assert result["strict_pass"] is False, result
-          print("TECHNICAL_CANDIDATE_PASS, GLOBAL_STRICT_HOLD, REMAINING_PARSERS=7")
+          print("TECHNICAL_CANDIDATE_PASS, GLOBAL_STRICT_HOLD, REMAINING_PARSERS=6")
           PY
       - name: Produce and verify deterministic catalog (no promotion)
         run: |
