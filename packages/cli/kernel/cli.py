@@ -100,8 +100,8 @@ def validate(
                 atoms.append(json.load(f))
 
     if not atoms:
-        typer.secho("⚠️  Nenhum átomo encontrado.", fg=typer.colors.YELLOW)
-        raise typer.Exit(1)
+        typer.secho("❌ Nenhum átomo encontrado — HOLD.", fg=typer.colors.RED)
+        raise typer.Exit(2)
 
     decision = kernel_cli.evaluate_batch(atoms, policy_id)
     decision.print_summary()
@@ -111,6 +111,7 @@ def validate(
         raise typer.Exit(2)
     elif decision.decision == Decision.PENDING_REVIEW:
         typer.secho("⚠️  Validação PENDENTE — requer revisão humana.", fg=typer.colors.YELLOW)
+        raise typer.Exit(2)  # HOLD is a blocking exit, never success
     else:
         typer.secho("✅ Validação APROVADA", fg=typer.colors.GREEN)
 
