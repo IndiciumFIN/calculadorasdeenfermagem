@@ -252,6 +252,10 @@ def build(root: Path, *, pmo_file: Path | None = None) -> dict:
         "publication_allowed": False,
         "generated_from": ["contracts/fontes/*.json", "contracts/policies/*.json"] +
                           ([pmo_file.name] if pmo_file is not None else []),
+        "verified_input_digest": (
+            {"pmo_snapshot_sha256": _sha(pmo_file.read_bytes())}
+            if pmo_file is not None and pmo_file.is_file() else {}
+        ),
         "statistics": {
             "sources": len(source_data), "policies": len(policy_data),
             "candidate_parsers": sum(x["type"] == "SOURCE_PARSER" for x in nodes.values()),
