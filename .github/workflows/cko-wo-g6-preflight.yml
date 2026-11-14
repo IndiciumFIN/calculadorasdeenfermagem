@@ -1,0 +1,88 @@
+name: CKO - WO and G6 fail-closed preflight
+on:
+  push:
+    branches: [fix/cko-wo-g6-preflight-20261114]
+  pull_request:
+    branches: [fix/canonical-structural-cli-registry-20261114]
+permissions:
+  contents: read
+
+jobs:
+  read-only-preflight:
+    name: Read-only WO/G6 evidence - release stays HOLD
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout exact candidate
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Compile pure Python gates
+        run: python -m compileall -q packages/cli/kernel/wo_preflight.py scripts/cko_g6_preflight.py tests/test_kernel_wo_g6_preflight.py tests/test_cko_g6_preflight.py
+      - name: G6 and work order adversarial tests
+        run: |
+          python -m unittest discover -s tests -p 'test_kernel_wo_g6_preflight.py' -v
+          python -m unittest discover -s tests -p 'test_cko_g6_preflight.py' -v
+      - name: Checkout pinned private M08 M09 PMO snapshot
+        uses: actions/checkout@v4
+        with:
+          ref: d395f6e69e935570d5355ba930745bf8cd91f537
+          path: upstream-pmo
+          sparse-checkout: governance/cko/canonical-atomic/2026-11-14/PMO_REGISTER_SNAPSHOT_M08_M09.json
+          persist-credentials: false
+      - name: Checkout pinned historical G0 WO candidate
+        uses: actions/checkout@v4
+        with:
+          ref: e1c9ace498b66ac831849ad1df51ee14e11e3efc
+          path: upstream-g0
+          sparse-checkout: contracts/wo/WO-G0-CORRECTIVE-20261017.json
+          persist-credentials: false
+      - name: Analyze real PMO claim coverage without enabling clinical release
+        run: |
+          mkdir -p "${{ runner.temp }}/cko-g6-audit"
+          python scripts/cko_g6_preflight.py --diagnostic-only --pmo upstream-pmo/governance/cko/canonical-atomic/2026-11-14/PMO_REGISTER_SNAPSHOT_M08_M09.json > "${{ runner.temp }}/cko-g6-audit/m08m09.json"
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+          doc = json.loads((Path(os.environ["RUNNER_TEMP"]) / "cko-g6-audit/m08m09.json").read_text().split("\\nG6_CANDIDATE_GRAPH_VALID")[0])
+          assert doc["counts"]["sources"] == 2, doc["counts"]
+          assert doc["counts"]["claims"] == 46, doc["counts"]
+          assert doc["counts"]["evidence_atoms"] == 43, doc["counts"]
+          assert doc["counts"]["editorial_masters"] == 6, doc["counts"]
+          assert doc["technically_consistent"] and not doc["structural_issues"], doc
+          assert doc["clinical_release_gate_exit_code"] == 2
+          assert not doc["can_publish"] and not doc["independent_reviewer_verified"]
+          print("M08M09_GRAPH_PASS / G6_CLINICAL_HOLD / NO_PUBLICATION")
+          PY
+      - name: Historical G0 WO cannot be admitted from self-asserted metadata
+        run: |
+          set +e
+          python -m packages.cli.kernel.wo_preflight --repo-root . --wo upstream-g0/contracts/wo/WO-G0-CORRECTIVE-20261017.json --folder-id 1FDBAMQ3-WT-8l6xU0664u7QjABd0FbEH --activity obter --policy KERNEL-POLICY-001 > "${{ runner.temp }}/cko-g6-audit/g0-wo.json"
+          result=$?
+          set -e
+          test "$result" -eq 2
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+          doc = json.loads((Path(os.environ["RUNNER_TEMP"]) / "cko-g6-audit/g0-wo.json").read_text())
+          assert doc["status"] == "HOLD" and doc["exit_code"] == 2
+          assert not doc["network_used"] and not doc["bytes_acquired"]
+          assert not doc["clinical_approval"] and doc["trusted_kernel_receipt"] is None
+          required = {"WO_FOLDER_NOT_BOUND", "WO_ACTIVITY_NOT_BOUND", "WO_POLICY_NOT_BOUND",
+                      "INDEPENDENT_KERNEL_ADMISSION_NOT_VERIFIED"}
+          assert required.issubset(set(doc["findings"])), doc["findings"]
+          print("G0_WO_HOLD_VERIFIED / NO_NETWORK / NO_CREDENTIALS")
+          PY
+      - name: Preserve private, bounded audit evidence (no clinical text export)
+        uses: actions/upload-artifact@v4
+        with:
+          name: cko-wo-g6-preflight-${{ github.sha }}
+          path: ${{ runner.temp }}/cko-g6-audit/*.json
+          if-no-files-found: error
+          retention-days: 30
