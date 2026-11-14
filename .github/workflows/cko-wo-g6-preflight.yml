@@ -29,6 +29,8 @@ jobs:
         run: |
           python -m unittest discover -s tests -p 'test_kernel_wo_g6_preflight.py' -v
           python -m unittest discover -s tests -p 'test_cko_g6_preflight.py' -v
+          python -m unittest discover -s tests -p 'test_kernel_release_holds.py' -v
+          python -m unittest discover -s tests -p 'test_kernel_cli_exitcodes.py' -v
       - name: Checkout pinned private M08 M09 PMO snapshot
         uses: actions/checkout@v4
         with:
