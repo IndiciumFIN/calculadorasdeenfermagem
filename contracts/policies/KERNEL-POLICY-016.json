@@ -2,23 +2,26 @@
   "schema": "CE-KERNEL-POLICY-1.0.0",
   "id": "KERNEL-POLICY-016",
   "name": "SIES Insumos Estratégicos",
-  "description": "Valida dados de insumos estratégicos do SIES/MS",
+  "description": "SIES OpenDataSUS supply distribution ZIP/CSV: metadata candidate only; require source provenance, rights and human approval",
   "source_contract": "contracts/fontes/sies.json",
   "validators": [
     "schema_validator"
   ],
   "atoms_output": "data/canonical/atoms/sies/",
   "quarentena_output": "data/quarentena/sies/",
-  "sha256_required": false,
+  "sha256_required": true,
   "fail_closed": true,
-  "requires_human_review": false,
+  "requires_human_review": true,
   "review_policy": {
-    "min_sample_size": 0,
-    "approval_required": null,
-    "reviewed_by_in_commit": false
+    "min_sample_size": 10,
+    "approval_required": "revisor_habilitado",
+    "reviewed_by_in_commit": true
   },
-  "wo_required": false,
+  "wo_required": true,
   "wo_template": null,
-  "version": "1.0.0",
-  "updated_at": "2026-10-17T00:00:00Z"
+  "version": "1.1.0",
+  "updated_at": "2026-11-14T00:00:00Z",
+  "publication_allowed": false,
+  "rights_by_operation_approved": false,
+  "processing_scope": "SIES_CSV_ZIP_METADATA_ONLY_PENDING_SOURCE_REVIEW"
 }
