@@ -1,0 +1,769 @@
+{
+  "schema": "CE-CKO-BRANCH-AUDIT-2026-11-14-1.0.0",
+  "cutoff": "2026-11-14",
+  "repo": "IndiciumFIN/calculadorasdeenfermagem",
+  "main_commit": "e0f62491b104f4a97c6025a6393cabc2e7ada30e",
+  "type": "READ_ONLY_SNAPSHOT_METADATA",
+  "mutated_original_branch": false,
+  "counts": {
+    "branches": 56,
+    "open_prs": 41,
+    "draft_prs": 10,
+    "non_draft_prs": 31,
+    "cursor_branches": 36,
+    "cursor_prs": 33
+  },
+  "families": {
+    "IndiciumFIN-patch-1": 1,
+    "audit": 2,
+    "cursor": 36,
+    "feat": 6,
+    "fix": 2,
+    "integration": 1,
+    "main": 1,
+    "migration": 4,
+    "pmo": 1,
+    "staging": 2
+  },
+  "branches": [
+    {
+      "ref": "IndiciumFIN-patch-1",
+      "head_sha": "ccb21b7814211b80071dc0fd5f866aea7f285238",
+      "pull_requests": []
+    },
+    {
+      "ref": "audit/ce04-reconciliation-tasks-20261017",
+      "head_sha": "2a1250d2d5c8c159be2ede462306822c0cb70943",
+      "pull_requests": []
+    },
+    {
+      "ref": "audit/cko-crossnorms-branches-20261114",
+      "head_sha": "e0f62491b104f4a97c6025a6393cabc2e7ada30e",
+      "pull_requests": []
+    },
+    {
+      "ref": "cursor/arquivos-drive-kernel-bd1a",
+      "head_sha": "d173b6dea0b48091b83f82655a4edf63776262ad",
+      "pull_requests": [
+        13
+      ]
+    },
+    {
+      "ref": "cursor/arquivos-kernel-pol-ticas-4c40",
+      "head_sha": "ad69ee7b5ea266b56546c68e2f4a951f13133f4e",
+      "pull_requests": [
+        24
+      ]
+    },
+    {
+      "ref": "cursor/arquivos-kernel-pol-ticas-5d44",
+      "head_sha": "33c267dbf0d14e6413c9cecd0dc454eac85f50fc",
+      "pull_requests": [
+        15
+      ]
+    },
+    {
+      "ref": "cursor/arquivos-kernel-pol-ticas-6bf4",
+      "head_sha": "e6ad352c883209d42f7df34f672ad65b9d4e9009",
+      "pull_requests": [
+        19
+      ]
+    },
+    {
+      "ref": "cursor/arquivos-kernel-pol-ticas-6e94",
+      "head_sha": "9b432f86dd5ba14556301503e9531c25668c327b",
+      "pull_requests": [
+        23
+      ]
+    },
+    {
+      "ref": "cursor/arquivos-kernel-pol-ticas-6eb4",
+      "head_sha": "b94d7f4338f00a60a2a5a9995f2a7287b30c1382",
+      "pull_requests": [
+        31
+      ]
+    },
+    {
+      "ref": "cursor/arquivos-kernel-pol-ticas-6ebf",
+      "head_sha": "4612a81473c3766f89219021f603ff26bafa9e56",
+      "pull_requests": [
+        14
+      ]
+    },
+    {
+      "ref": "cursor/arquivos-kernel-pol-ticas-7f24",
+      "head_sha": "ecd84bf36eaca278cfe83de4fd2f6035f0d1f7f0",
+      "pull_requests": [
+        10
+      ]
+    },
+    {
+      "ref": "cursor/arquivos-kernel-pol-ticas-9b80",
+      "head_sha": "c6ac2f97003ce14592d7354e03ed86b233938d42",
+      "pull_requests": [
+        21
+      ]
+    },
+    {
+      "ref": "cursor/arquivos-kernel-pol-ticas-047a",
+      "head_sha": "33e1d0c87198a2b600b805860331f176b087c461",
+      "pull_requests": [
+        9
+      ]
+    },
+    {
+      "ref": "cursor/arquivos-kernel-pol-ticas-510d",
+      "head_sha": "77821f1e2a2097a352047dcd6e647e80c408120e",
+      "pull_requests": [
+        20
+      ]
+    },
+    {
+      "ref": "cursor/arquivos-kernel-pol-ticas-935e",
+      "head_sha": "864e45b6f803fa5af8f90b3518703f18f569597f",
+      "pull_requests": [
+        30
+      ]
+    },
+    {
+      "ref": "cursor/arquivos-kernel-pol-ticas-2277",
+      "head_sha": "b8ad73613d6d3cd9162606e08edd6450b9df749e",
+      "pull_requests": [
+        34
+      ]
+    },
+    {
+      "ref": "cursor/arquivos-kernel-pol-ticas-6190",
+      "head_sha": "30f22ec3cf6a2065391aba4bed679f5b4ae5cffb",
+      "pull_requests": [
+        33
+      ]
+    },
+    {
+      "ref": "cursor/arquivos-kernel-pol-ticas-7314",
+      "head_sha": "494a1fc54659ad2fb400b7994603aa44f2e63758",
+      "pull_requests": [
+        27
+      ]
+    },
+    {
+      "ref": "cursor/arquivos-kernel-pol-ticas-8061",
+      "head_sha": "ce23049f8c0d40a8dc0a1489a31ca3ffd3ec3b2e",
+      "pull_requests": [
+        37
+      ]
+    },
+    {
+      "ref": "cursor/arquivos-kernel-pol-ticas-8968",
+      "head_sha": "065188b5f0efcb8a57d6fcb0d9831e9176894e05",
+      "pull_requests": [
+        22
+      ]
+    },
+    {
+      "ref": "cursor/arquivos-kernel-pol-ticas-a8a8",
+      "head_sha": "e0d874f211be68cca1383872866cb848342df7b6",
+      "pull_requests": [
+        25
+      ]
+    },
+    {
+      "ref": "cursor/arquivos-kernel-pol-ticas-a8c5",
+      "head_sha": "b06ce58dda387aaa6bfe59e0dec6c4f405b20878",
+      "pull_requests": [
+        7
+      ]
+    },
+    {
+      "ref": "cursor/arquivos-kernel-pol-ticas-a061",
+      "head_sha": "a06cff3198188f18f5afe6b50b2a749cd2896a82",
+      "pull_requests": [
+        32
+      ]
+    },
+    {
+      "ref": "cursor/arquivos-kernel-pol-ticas-aad4",
+      "head_sha": "add5c88cd3a73b6d2b78bad8a23a8ca0e6c087a7",
+      "pull_requests": [
+        28
+      ]
+    },
+    {
+      "ref": "cursor/arquivos-kernel-pol-ticas-b772",
+      "head_sha": "cf458370c1503e91a0c3607c4b6441aa9f161757",
+      "pull_requests": [
+        26
+      ]
+    },
+    {
+      "ref": "cursor/arquivos-kernel-pol-ticas-c8d7",
+      "head_sha": "d4a7a3c8fde5b2fb97bbd97a2c35dcb445f83674",
+      "pull_requests": [
+        8
+      ]
+    },
+    {
+      "ref": "cursor/arquivos-kernel-pol-ticas-c8ed",
+      "head_sha": "7f4e0c34c0230f14e5cbee375c639439ce041cfd",
+      "pull_requests": [
+        18
+      ]
+    },
+    {
+      "ref": "cursor/arquivos-kernel-pol-ticas-d5b0",
+      "head_sha": "53c9fc7b189a5851f289efb8e472bdb74310a8da",
+      "pull_requests": [
+        36
+      ]
+    },
+    {
+      "ref": "cursor/arquivos-kernel-pol-ticas-d7f8",
+      "head_sha": "164c7174a0a2f8cdb17da2be5db861702023e6bc",
+      "pull_requests": [
+        11
+      ]
+    },
+    {
+      "ref": "cursor/arquivos-kernel-pol-ticas-e3fe",
+      "head_sha": "2a3a13402e1659287ec8dd44746cdb2a1c34b582",
+      "pull_requests": [
+        35
+      ]
+    },
+    {
+      "ref": "cursor/arquivos-kernel-pol-ticas-f5e4",
+      "head_sha": "fa6e5441da8bf242d520d5c413b4a26c0e7d5f08",
+      "pull_requests": [
+        12
+      ]
+    },
+    {
+      "ref": "cursor/arquivos-pol-ticas-kernel-735c",
+      "head_sha": "53826bfee5550e415e7b170c106810fafef2edba",
+      "pull_requests": [
+        17
+      ]
+    },
+    {
+      "ref": "cursor/atomiza-o-arquivos-drive-eca9",
+      "head_sha": "b2b0748799c8ad350028154fa34368cb965d01fa",
+      "pull_requests": [
+        16
+      ]
+    },
+    {
+      "ref": "cursor/atomiza-o-arquivos-kernel-ebc1",
+      "head_sha": "f98902cb564ffb0c33ab75ab8eea30433a93f617",
+      "pull_requests": [
+        38
+      ]
+    },
+    {
+      "ref": "cursor/bc-9d850a48-4546-4657-aa8a-75d3095ffdd8-91a5",
+      "head_sha": "93a7131a8a0ffdc9aaadc7be4b2ad4a75a0ee130",
+      "pull_requests": [
+        29
+      ]
+    },
+    {
+      "ref": "cursor/drive-sa-key-refactor",
+      "head_sha": "750d094568b5ff7226c1dce57878aab3ad99a5d5",
+      "pull_requests": []
+    },
+    {
+      "ref": "cursor/fix-governance-gaps-ec54",
+      "head_sha": "b6d3b48f34c131c9f935084eae09dad953bd64e9",
+      "pull_requests": [
+        2
+      ]
+    },
+    {
+      "ref": "cursor/wf-gdrive-sakey",
+      "head_sha": "4e3d4979e3da82c9fc7ff71beaf87fba73aa8702",
+      "pull_requests": []
+    },
+    {
+      "ref": "cursor/wf-v3",
+      "head_sha": "8056d08a35cfb7932933fa330d8c902e5a465710",
+      "pull_requests": []
+    },
+    {
+      "ref": "feat/ce-local-agent-assurance-20261019",
+      "head_sha": "ee4556b131c45a6898d00fb3a570914d8a83064d",
+      "pull_requests": []
+    },
+    {
+      "ref": "feat/cko-catalog-metamodel-automated-20261114",
+      "head_sha": "d0197788d2453066d738c48441a2ad7a0ad32f73",
+      "pull_requests": [
+        49
+      ]
+    },
+    {
+      "ref": "feat/cko-m08-m09-corpus-atomic-20261114",
+      "head_sha": "d395f6e69e935570d5355ba930745bf8cd91f537",
+      "pull_requests": [
+        39
+      ]
+    },
+    {
+      "ref": "feat/cko-parser-fhir-vitals-r4-20261114",
+      "head_sha": "2e732cfb10585fabf7928c7ac1f453feb32d8d3f",
+      "pull_requests": [
+        46
+      ]
+    },
+    {
+      "ref": "feat/cko-parser-medlineplus-xml-20261114",
+      "head_sha": "f640a35785100668c6fb692c18a0f5e84c6cdc02",
+      "pull_requests": [
+        47
+      ]
+    },
+    {
+      "ref": "feat/cko-parser-mesh-xml-20261114",
+      "head_sha": "cc3c307771522b070636bd6e702f6a0861774987",
+      "pull_requests": [
+        48
+      ]
+    },
+    {
+      "ref": "fix/canonical-structural-cli-registry-20261114",
+      "head_sha": "14fdc8a30369001bf0e0a0d37c80ab7e43b6eb2e",
+      "pull_requests": [
+        40
+      ]
+    },
+    {
+      "ref": "fix/ce05-kernel-ci-security-20261017",
+      "head_sha": "e1c9ace498b66ac831849ad1df51ee14e11e3efc",
+      "pull_requests": []
+    },
+    {
+      "ref": "integration/canonical-main-20261017",
+      "head_sha": "c704c3cf9241cde7697acb860e598bd01bd58cf5",
+      "pull_requests": []
+    },
+    {
+      "ref": "main",
+      "head_sha": "e0f62491b104f4a97c6025a6393cabc2e7ada30e",
+      "pull_requests": []
+    },
+    {
+      "ref": "migration/candidate-f08-20261017",
+      "head_sha": "be69c19fce79e4c30b42b12369935e4ca6a4584e",
+      "pull_requests": []
+    },
+    {
+      "ref": "migration/ce01-historical-evidence-b01-20261017",
+      "head_sha": "4206865dc5f07f3ef4b36f04c2572b7224f713c1",
+      "pull_requests": []
+    },
+    {
+      "ref": "migration/full-directory-20261017",
+      "head_sha": "1b1a268595c85fecd2dc02a7cc6b5f078b027b7b",
+      "pull_requests": []
+    },
+    {
+      "ref": "migration/pilot-policies-20261017",
+      "head_sha": "2fc555f854c64b9d44f778805fbfca7675bd3cce",
+      "pull_requests": [
+        6
+      ]
+    },
+    {
+      "ref": "pmo/recovery-controlled-20261019",
+      "head_sha": "cbae3fead8bddaace32207a50949bcce4d88ecc0",
+      "pull_requests": []
+    },
+    {
+      "ref": "staging/cko-migracao-2026-10-23",
+      "head_sha": "e0f62491b104f4a97c6025a6393cabc2e7ada30e",
+      "pull_requests": []
+    },
+    {
+      "ref": "staging/wo-kernel-normativos-cli-20261016",
+      "head_sha": "c54d416b7f4c8a465798ccbebad9973799dd07ab",
+      "pull_requests": [
+        3
+      ]
+    }
+  ],
+  "open_pull_requests": [
+    {
+      "number": 49,
+      "title": "[DRAFT/HOLD][CKO] Gerar dicionário, metamodelo e grafo canônico automaticamente dos contratos",
+      "head_ref": "feat/cko-catalog-metamodel-automated-20261114",
+      "head_sha": "d0197788d2453066d738c48441a2ad7a0ad32f73",
+      "base_ref": "fix/canonical-structural-cli-registry-20261114",
+      "draft": true,
+      "state": "open"
+    },
+    {
+      "number": 48,
+      "title": "[DRAFT/HOLD][WO #41] Parser MeSH XML de descritores, identificadores e vínculos",
+      "head_ref": "feat/cko-parser-mesh-xml-20261114",
+      "head_sha": "cc3c307771522b070636bd6e702f6a0861774987",
+      "base_ref": "fix/canonical-structural-cli-registry-20261114",
+      "draft": true,
+      "state": "open"
+    },
+    {
+      "number": 47,
+      "title": "[DRAFT/HOLD][WO #44] Parser MedlinePlus XML de metadados com segurança e direitos",
+      "head_ref": "feat/cko-parser-medlineplus-xml-20261114",
+      "head_sha": "f640a35785100668c6fb692c18a0f5e84c6cdc02",
+      "base_ref": "fix/canonical-structural-cli-registry-20261114",
+      "draft": true,
+      "state": "open"
+    },
+    {
+      "number": 46,
+      "title": "[DRAFT/HOLD][WO #44] Implementar parser funcional FHIR R4 de sinais vitais com gates clínicos",
+      "head_ref": "feat/cko-parser-fhir-vitals-r4-20261114",
+      "head_sha": "2e732cfb10585fabf7928c7ac1f453feb32d8d3f",
+      "base_ref": "fix/canonical-structural-cli-registry-20261114",
+      "draft": true,
+      "state": "open"
+    },
+    {
+      "number": 40,
+      "title": "[DRAFT/HOLD] Corrigir namespace CLI/Kernel e reconciliar contratos legados sem liberar parsers",
+      "head_ref": "fix/canonical-structural-cli-registry-20261114",
+      "head_sha": "14fdc8a30369001bf0e0a0d37c80ab7e43b6eb2e",
+      "base_ref": "main",
+      "draft": true,
+      "state": "open"
+    },
+    {
+      "number": 39,
+      "title": "[DRAFT/HOLD][CKO] Integrar M08/M09 conteúdo atômico integral e 104 registros do PMO",
+      "head_ref": "feat/cko-m08-m09-corpus-atomic-20261114",
+      "head_sha": "d395f6e69e935570d5355ba930745bf8cd91f537",
+      "base_ref": "main",
+      "draft": true,
+      "state": "open"
+    },
+    {
+      "number": 38,
+      "title": "WO do Kernel recusa download e atomização da pasta Drive",
+      "head_ref": "cursor/atomiza-o-arquivos-kernel-ebc1",
+      "head_sha": "f98902cb564ffb0c33ab75ab8eea30433a93f617",
+      "base_ref": "main",
+      "draft": false,
+      "state": "open"
+    },
+    {
+      "number": 37,
+      "title": "fix(kernel): WO bloqueada para a pasta Drive sem política",
+      "head_ref": "cursor/arquivos-kernel-pol-ticas-8061",
+      "head_sha": "ce23049f8c0d40a8dc0a1489a31ca3ffd3ec3b2e",
+      "base_ref": "main",
+      "draft": false,
+      "state": "open"
+    },
+    {
+      "number": 36,
+      "title": "Kernel submete WO e bloqueia a pasta Drive sem política",
+      "head_ref": "cursor/arquivos-kernel-pol-ticas-d5b0",
+      "head_sha": "53c9fc7b189a5851f289efb8e472bdb74310a8da",
+      "base_ref": "main",
+      "draft": false,
+      "state": "open"
+    },
+    {
+      "number": 35,
+      "title": "WO do Kernel para baixar e atomizar a pasta Drive",
+      "head_ref": "cursor/arquivos-kernel-pol-ticas-e3fe",
+      "head_sha": "2a3a13402e1659287ec8dd44746cdb2a1c34b582",
+      "base_ref": "main",
+      "draft": false,
+      "state": "open"
+    },
+    {
+      "number": 34,
+      "title": "fix(kernel): submete WO e bloqueia a pasta Drive sem política",
+      "head_ref": "cursor/arquivos-kernel-pol-ticas-2277",
+      "head_sha": "b8ad73613d6d3cd9162606e08edd6450b9df749e",
+      "base_ref": "main",
+      "draft": false,
+      "state": "open"
+    },
+    {
+      "number": 33,
+      "title": "feat(kernel): WO obrigatória antes de baixar e atomizar o Drive",
+      "head_ref": "cursor/arquivos-kernel-pol-ticas-6190",
+      "head_sha": "30f22ec3cf6a2065391aba4bed679f5b4ae5cffb",
+      "base_ref": "main",
+      "draft": false,
+      "state": "open"
+    },
+    {
+      "number": 32,
+      "title": "feat(kernel): WO obrigatória antes de baixar e atomizar o Drive",
+      "head_ref": "cursor/arquivos-kernel-pol-ticas-a061",
+      "head_sha": "a06cff3198188f18f5afe6b50b2a749cd2896a82",
+      "base_ref": "main",
+      "draft": false,
+      "state": "open"
+    },
+    {
+      "number": 31,
+      "title": "Kernel submete WO e bloqueia a pasta Drive sem credencial",
+      "head_ref": "cursor/arquivos-kernel-pol-ticas-6eb4",
+      "head_sha": "b94d7f4338f00a60a2a5a9995f2a7287b30c1382",
+      "base_ref": "main",
+      "draft": false,
+      "state": "open"
+    },
+    {
+      "number": 30,
+      "title": "Exigir WO do kernel para obter e atomizar a pasta Drive",
+      "head_ref": "cursor/arquivos-kernel-pol-ticas-935e",
+      "head_sha": "864e45b6f803fa5af8f90b3518703f18f569597f",
+      "base_ref": "main",
+      "draft": false,
+      "state": "open"
+    },
+    {
+      "number": 29,
+      "title": "Kernel bloqueia obter e atomizar da pasta Drive fora do registry",
+      "head_ref": "cursor/bc-9d850a48-4546-4657-aa8a-75d3095ffdd8-91a5",
+      "head_sha": "93a7131a8a0ffdc9aaadc7be4b2ad4a75a0ee130",
+      "base_ref": "main",
+      "draft": false,
+      "state": "open"
+    },
+    {
+      "number": 28,
+      "title": "Kernel bloqueia obter e atomizar da pasta Drive fora do registry",
+      "head_ref": "cursor/arquivos-kernel-pol-ticas-aad4",
+      "head_sha": "add5c88cd3a73b6d2b78bad8a23a8ca0e6c087a7",
+      "base_ref": "main",
+      "draft": false,
+      "state": "open"
+    },
+    {
+      "number": 27,
+      "title": "Kernel recusa obter e atomizar pasta Drive sem política",
+      "head_ref": "cursor/arquivos-kernel-pol-ticas-7314",
+      "head_sha": "494a1fc54659ad2fb400b7994603aa44f2e63758",
+      "base_ref": "main",
+      "draft": false,
+      "state": "open"
+    },
+    {
+      "number": 26,
+      "title": "Kernel submete WO e bloqueia a pasta Drive sem política",
+      "head_ref": "cursor/arquivos-kernel-pol-ticas-b772",
+      "head_sha": "cf458370c1503e91a0c3607c4b6441aa9f161757",
+      "base_ref": "main",
+      "draft": false,
+      "state": "open"
+    },
+    {
+      "number": 25,
+      "title": "fix(kernel): WO obrigatória antes de obter ou atomizar a pasta Drive",
+      "head_ref": "cursor/arquivos-kernel-pol-ticas-a8a8",
+      "head_sha": "e0d874f211be68cca1383872866cb848342df7b6",
+      "base_ref": "main",
+      "draft": false,
+      "state": "open"
+    },
+    {
+      "number": 24,
+      "title": "Kernel submete WO e bloqueia a pasta Drive sem política",
+      "head_ref": "cursor/arquivos-kernel-pol-ticas-4c40",
+      "head_sha": "ad69ee7b5ea266b56546c68e2f4a951f13133f4e",
+      "base_ref": "main",
+      "draft": false,
+      "state": "open"
+    },
+    {
+      "number": 23,
+      "title": "Kernel bloqueia obter e atomizar da pasta Drive sem política",
+      "head_ref": "cursor/arquivos-kernel-pol-ticas-6e94",
+      "head_sha": "9b432f86dd5ba14556301503e9531c25668c327b",
+      "base_ref": "main",
+      "draft": false,
+      "state": "open"
+    },
+    {
+      "number": 22,
+      "title": "Kernel: WO antes de baixar e atomizar a pasta do Drive",
+      "head_ref": "cursor/arquivos-kernel-pol-ticas-8968",
+      "head_sha": "065188b5f0efcb8a57d6fcb0d9831e9176894e05",
+      "base_ref": "main",
+      "draft": false,
+      "state": "open"
+    },
+    {
+      "number": 21,
+      "title": "Kernel submete WO e bloqueia a pasta Drive sem credencial",
+      "head_ref": "cursor/arquivos-kernel-pol-ticas-9b80",
+      "head_sha": "c6ac2f97003ce14592d7354e03ed86b233938d42",
+      "base_ref": "main",
+      "draft": false,
+      "state": "open"
+    },
+    {
+      "number": 20,
+      "title": "Kernel bloqueia a pasta Drive sem credencial e sem contrato",
+      "head_ref": "cursor/arquivos-kernel-pol-ticas-510d",
+      "head_sha": "77821f1e2a2097a352047dcd6e647e80c408120e",
+      "base_ref": "main",
+      "draft": false,
+      "state": "open"
+    },
+    {
+      "number": 19,
+      "title": "Kernel bloqueia a pasta Drive sem credencial e sem política vinculada",
+      "head_ref": "cursor/arquivos-kernel-pol-ticas-6bf4",
+      "head_sha": "e6ad352c883209d42f7df34f672ad65b9d4e9009",
+      "base_ref": "main",
+      "draft": false,
+      "state": "open"
+    },
+    {
+      "number": 18,
+      "title": "Kernel bloqueia download da pasta Drive sem credencial e sem política vinculada",
+      "head_ref": "cursor/arquivos-kernel-pol-ticas-c8ed",
+      "head_sha": "7f4e0c34c0230f14e5cbee375c639439ce041cfd",
+      "base_ref": "main",
+      "draft": false,
+      "state": "open"
+    },
+    {
+      "number": 17,
+      "title": "Kernel bloqueia obtenção e atomização da pasta Drive",
+      "head_ref": "cursor/arquivos-pol-ticas-kernel-735c",
+      "head_sha": "53826bfee5550e415e7b170c106810fafef2edba",
+      "base_ref": "main",
+      "draft": false,
+      "state": "open"
+    },
+    {
+      "number": 16,
+      "title": "Kernel bloqueia a pasta Drive sem política válida",
+      "head_ref": "cursor/atomiza-o-arquivos-drive-eca9",
+      "head_sha": "b2b0748799c8ad350028154fa34368cb965d01fa",
+      "base_ref": "main",
+      "draft": false,
+      "state": "open"
+    },
+    {
+      "number": 15,
+      "title": "Bloquear pasta Drive fora das políticas do Kernel",
+      "head_ref": "cursor/arquivos-kernel-pol-ticas-5d44",
+      "head_sha": "33c267dbf0d14e6413c9cecd0dc454eac85f50fc",
+      "base_ref": "main",
+      "draft": false,
+      "state": "open"
+    },
+    {
+      "number": 14,
+      "title": "Kernel bloqueia download e atomização da pasta Drive sem WO autorizada",
+      "head_ref": "cursor/arquivos-kernel-pol-ticas-6ebf",
+      "head_sha": "4612a81473c3766f89219021f603ff26bafa9e56",
+      "base_ref": "main",
+      "draft": false,
+      "state": "open"
+    },
+    {
+      "number": 13,
+      "title": "Kernel bloqueia download da pasta do Drive sem WO válida",
+      "head_ref": "cursor/arquivos-drive-kernel-bd1a",
+      "head_sha": "d173b6dea0b48091b83f82655a4edf63776262ad",
+      "base_ref": "main",
+      "draft": false,
+      "state": "open"
+    },
+    {
+      "number": 12,
+      "title": "Kernel submete WO e bloqueia a pasta Drive fora do registry",
+      "head_ref": "cursor/arquivos-kernel-pol-ticas-f5e4",
+      "head_sha": "fa6e5441da8bf242d520d5c413b4a26c0e7d5f08",
+      "base_ref": "main",
+      "draft": false,
+      "state": "open"
+    },
+    {
+      "number": 11,
+      "title": "Kernel submete WO antes de baixar a pasta Drive",
+      "head_ref": "cursor/arquivos-kernel-pol-ticas-d7f8",
+      "head_sha": "164c7174a0a2f8cdb17da2be5db861702023e6bc",
+      "base_ref": "main",
+      "draft": false,
+      "state": "open"
+    },
+    {
+      "number": 10,
+      "title": "Kernel submete WO bloqueada para a pasta Drive",
+      "head_ref": "cursor/arquivos-kernel-pol-ticas-7f24",
+      "head_sha": "ecd84bf36eaca278cfe83de4fd2f6035f0d1f7f0",
+      "base_ref": "main",
+      "draft": false,
+      "state": "open"
+    },
+    {
+      "number": 9,
+      "title": "Kernel bloqueia a pasta Drive sem política válida",
+      "head_ref": "cursor/arquivos-kernel-pol-ticas-047a",
+      "head_sha": "33e1d0c87198a2b600b805860331f176b087c461",
+      "base_ref": "main",
+      "draft": false,
+      "state": "open"
+    },
+    {
+      "number": 8,
+      "title": "Kernel bloqueia download e atomização da pasta Drive sem WO autorizada",
+      "head_ref": "cursor/arquivos-kernel-pol-ticas-c8d7",
+      "head_sha": "d4a7a3c8fde5b2fb97bbd97a2c35dcb445f83674",
+      "base_ref": "main",
+      "draft": false,
+      "state": "open"
+    },
+    {
+      "number": 7,
+      "title": "Kernel bloqueia atomização da pasta Drive sem política",
+      "head_ref": "cursor/arquivos-kernel-pol-ticas-a8c5",
+      "head_sha": "b06ce58dda387aaa6bfe59e0dec6c4f405b20878",
+      "base_ref": "main",
+      "draft": true,
+      "state": "open"
+    },
+    {
+      "number": 6,
+      "title": "[DRAFT] CE MIG PILOT — 9 políticas JSON (sem promoção)",
+      "head_ref": "migration/pilot-policies-20261017",
+      "head_sha": "2fc555f854c64b9d44f778805fbfca7675bd3cce",
+      "base_ref": "main",
+      "draft": true,
+      "state": "open"
+    },
+    {
+      "number": 3,
+      "title": "[STAGING / WO] CLI normativos v0.6.0 — 7 arquivos verificados (não homologado)",
+      "head_ref": "staging/wo-kernel-normativos-cli-20261016",
+      "head_sha": "c54d416b7f4c8a465798ccbebad9973799dd07ab",
+      "base_ref": "main",
+      "draft": true,
+      "state": "open"
+    },
+    {
+      "number": 2,
+      "title": "Correção dos gaps de governança (GOV-001..008 + GAP-01..11)",
+      "head_ref": "cursor/fix-governance-gaps-ec54",
+      "head_sha": "b6d3b48f34c131c9f935084eae09dad953bd64e9",
+      "base_ref": "main",
+      "draft": true,
+      "state": "open"
+    }
+  ],
+  "limitations": [
+    "Metadata enumeration of current branches/PRs only",
+    "Not all file contents deeply reviewed; comparison by representative branch and critical source snapshots",
+    "No approvals nor branch deletion inferred",
+    "Private repository data; remain within original private repo"
+  ]
+}
