@@ -7,6 +7,7 @@ ORIGEM, TX_AREA. No network, clinical recommendation or public release.
 from __future__ import annotations
 
 import csv
+from datetime import date
 import hashlib
 import io
 import json
@@ -87,8 +88,12 @@ def parse(raw: bytes | str, *, source_id: str, document_id: str,
     """Ingest only locally supplied source bytes pinned by an external manifest."""
     source_id = _required_text(source_id, "source_id", 256)
     document_id = _required_text(document_id, "document_id", 256)
-    if not re.fullmatch(r"20[0-9]{2}-[01][0-9]-[0-3][0-9]", str(snapshot_date)):
+    if not isinstance(snapshot_date, str) or not re.fullmatch(r"20[0-9]{2}-[0-9]{2}-[0-9]{2}", snapshot_date):
         raise ParseHold("snapshot_date must be explicitly declared YYYY-MM-DD")
+    try:
+        date.fromisoformat(snapshot_date)
+    except ValueError as exc:
+        raise ParseHold("snapshot_date is not a valid calendar date") from exc
     if delimiter not in (",", ";"):
         raise ParseHold("CSV delimiter must be pinned comma or semicolon")
     if not isinstance(raw, (bytes, str)):
