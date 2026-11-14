@@ -48,6 +48,20 @@ jobs:
           python -m unittest discover -s tests -p 'test_kernel_wo_g6_preflight.py' -v
       - name: Verify G6 GitHub HEAD-bound independent review controls (synthetic negative tests)
         run: python -m unittest discover -s tests -p 'test_cko_g6_github_reviews.py' -v
+      - name: AST audit: source binding and no fake parser existence
+        run: |
+          python -m unittest discover -s tests -p 'test_cko_parser_contract_audit.py' -v
+          python scripts/cko_parser_contract_audit.py --output "${{ runner.temp }}/cko-parser-ast.json"
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          report = json.loads((Path(os.environ["RUNNER_TEMP"]) / "cko-parser-ast.json").read_text())
+          assert report["static_pass"], report["problems"]
+          assert len(report["missing_parsers"]) == 11, report
+          assert len(report["candidate_parsers_checked"]) == 5, report
+          assert not report["publication_allowed"]
+          print("AST_SOURCE_BINDINGS_PASS / PARSER_SUBSET=5 / MISSING=11 / NO_RELEASE")
+          PY
       - name: Inspect canonical source-parser coverage without masking outstanding gaps
         run: |
           python - <<'PY'
