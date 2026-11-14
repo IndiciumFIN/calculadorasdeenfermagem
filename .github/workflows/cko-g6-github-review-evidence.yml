@@ -1,0 +1,61 @@
+name: CKO - GitHub G6 review evidence (diagnostic HOLD)
+on:
+  push:
+    branches: [audit/cko-g6-github-review-verification-20261114]
+  pull_request:
+    branches: [fix/cko-wo-g6-preflight-20261114]
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  github-review-evidence:
+    name: Verified PR review metadata does not imply clinical approval
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Checkout exact candidate commit
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+          persist-credentials: false
+      - name: Python 3.11
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.11'
+      - name: Compile G6 reviewer audit
+        run: python -m compileall -q scripts/cko_g6_github_reviews.py tests/test_cko_g6_github_reviews.py
+      - name: Run adverse human-review tests
+        run: python -m unittest discover -s tests -p 'test_cko_g6_github_reviews.py' -v
+      - name: Read GitHub API review evidence for the exact PR SHA (internal PR only)
+        if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NO: ${{ github.event.pull_request.number }}
+          PR_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/cko-g6-review-audit"
+          python scripts/cko_g6_github_reviews.py \
+            --repo "$GITHUB_REPOSITORY" --pr "$PR_NO" \
+            --expected-head-sha "$PR_SHA" --diagnostic-only \
+            > "$RUNNER_TEMP/cko-g6-review-audit/pr-review-evidence.json"
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+          report = json.loads((Path(os.environ["RUNNER_TEMP"]) / "cko-g6-review-audit/pr-review-evidence.json").read_text())
+          assert report["head_sha"] == os.environ["PR_SHA"], report
+          assert report["decision"] == "HOLD_G6_HUMAN_NORMATIVE_RIGHTS", report
+          assert report["release_gate_exit_code"] == 2, report
+          assert not report["publication_allowed"] and not report["clinical_approval"], report
+          assert "PROFESSIONAL_CREDENTIAL_NOT_EXTERNALLY_VERIFIED" in report["reasons"]
+          print("AUTHENTICATED_GITHUB_REVIEW_AUDITED / G6_HOLD / NO_PUBLICATION")
+          PY
+      - name: Archive only bounded review counts and unresolved controls
+        if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository
+        uses: actions/upload-artifact@v4
+        with:
+          name: cko-g6-github-review-diagnostic-${{ github.event.pull_request.head.sha || github.sha }}
+          path: ${{ runner.temp }}/cko-g6-review-audit/pr-review-evidence.json
+          retention-days: 30
+          if-no-files-found: error
