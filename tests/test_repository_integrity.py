@@ -84,6 +84,12 @@ class CanonicalIntegrityTests(unittest.TestCase):
         self._save()
         self.assertIn("SOURCE_VALIDATOR_POLICY_DRIFT", self.codes())
 
+    def test_valid_canonical_validator_names_may_contain_digits(self):
+        self.source_data["validators"] = ["cid10_validator", "cid11_validator"]
+        self.policy_data["validators"] = ["cid10_validator", "cid11_validator"]
+        self._save()
+        self.assertTrue(inspect(self.root)["structural_pass"])
+
     def test_reject_duplicate_policy_validator_references(self):
         self.policy_data["validators"] = ["atomo_schema_validator", "atomo_schema_validator"]
         self._save()
