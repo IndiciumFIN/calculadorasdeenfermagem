@@ -24,6 +24,27 @@ def verify_ci_text(source):
     return missing
 
 
+def verify_next_lock(data):
+    errors = []
+    try:
+        packages = data["packages"]
+        expected = packages["node_modules/next"]["dependencies"]["postcss"]
+        parent = packages.get("node_modules/postcss", {})
+        entry = (parent if parent.get("version") == expected else
+                 packages.get("node_modules/next/node_modules/postcss", {}))
+        if entry.get("version") != expected:
+            errors.append("MISSING_EXACT_NEXT_POSTCSS")
+        if not str(entry.get("integrity", "")).startswith("sha512-"):
+            errors.append("MISSING_INTEGRITY")
+        if entry.get("resolved") != (
+            "https://registry.npmjs.org/postcss/-/postcss-" + expected + ".tgz"
+        ):
+            errors.append("INVALID_PACKAGE_SOURCE")
+    except (KeyError, TypeError):
+        errors.append("BROKEN_LOCK_GRAPH")
+    return errors
+
+
 class CIFailClosedTests(unittest.TestCase):
     def test_required_checks_mandatory(self):
         text = WORKFLOW.read_text(encoding="utf-8")
@@ -60,11 +81,17 @@ class CIFailClosedTests(unittest.TestCase):
             "https://registry.npmjs.org/postcss/-/postcss-8.4.31.tgz",
         )
         self.assertNotEqual(deps["node_modules/postcss"]["version"], exact)
+        self.assertEqual(verify_next_lock(package), [])
 
     def test_detects_absent_nested_lock_entry(self):
         data = json.loads((ROOT / "package-lock.json").read_text(encoding="utf-8"))
         data["packages"].pop("node_modules/next/node_modules/postcss")
-        self.assertNotIn("node_modules/next/node_modules/postcss", data["packages"])
+        self.assertIn("MISSING_EXACT_NEXT_POSTCSS", verify_next_lock(data))
+
+    def test_detects_replaced_integrity(self):
+        data = json.loads((ROOT / "package-lock.json").read_text(encoding="utf-8"))
+        data["packages"]["node_modules/next/node_modules/postcss"]["integrity"] = "unknown"
+        self.assertIn("MISSING_INTEGRITY", verify_next_lock(data))
 
 
 if __name__ == "__main__":
