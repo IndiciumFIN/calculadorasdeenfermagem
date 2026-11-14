@@ -28,6 +28,10 @@ class KernelPolicy:
     requires_human_review: bool = True
     wo_required: bool = True
     wo_template: str = ""
+    review_policy: dict = field(default_factory=lambda: {"approval_required": True})
+    publication_allowed: bool = False
+    rights_by_operation_approved: bool = False
+    processing_scope: str = "HOLD_UNREVIEWED"
     version: str = "1.0.0"
     updated_at: str = field(default_factory=lambda: datetime.now(timezone.utc).isoformat())
 
@@ -36,6 +40,10 @@ class KernelPolicy:
 
     @classmethod
     def from_dict(cls, data: dict) -> "KernelPolicy":
+        # Trust boundary: a policy loaded from the Git corpus is NOT a
+        # synthetic in-memory fixture, irrespective of self-declared flags.
+        if data.get("processing_scope") == "SYNTHETIC_ONLY":
+            raise ValueError("SYNTHETIC_ONLY is forbidden in persisted policies")
         known_fields = {f.name for f in cls.__dataclass_fields__.values()}
         return cls(**{k: v for k, v in data.items() if k in known_fields})
 
@@ -56,7 +64,8 @@ class PolicyRegistry:
                     data = json.load(f)
                 policy = KernelPolicy.from_dict(data)
                 self._policies[policy.id] = policy
-            except (json.JSONDecodeError, TypeError, FileNotFoundError):
+            except (json.JSONDecodeError, TypeError, ValueError, FileNotFoundError):
+                # Invalid or forged policies do not enter the registry.
                 pass
 
     def register(self, policy: KernelPolicy) -> None:

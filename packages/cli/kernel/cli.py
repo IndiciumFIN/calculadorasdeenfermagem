@@ -15,9 +15,9 @@ from pathlib import Path
 
 import typer
 
-from kernel.core import Kernel, Decision
-from kernel.policy_registry import get_policy, list_policies
-from validators.registry import list_validators
+from packages.cli.kernel.core import Kernel, Decision
+from packages.cli.kernel.policy_registry import get_policy, list_policies
+from packages.cli.validators.registry import list_validators
 
 app = typer.Typer(help="Kernel determinístico — executor de políticas normativas")
 kernel_cli = Kernel()
@@ -100,8 +100,8 @@ def validate(
                 atoms.append(json.load(f))
 
     if not atoms:
-        typer.secho("⚠️  Nenhum átomo encontrado.", fg=typer.colors.YELLOW)
-        raise typer.Exit(1)
+        typer.secho("❌ Nenhum átomo encontrado — HOLD.", fg=typer.colors.RED)
+        raise typer.Exit(2)
 
     decision = kernel_cli.evaluate_batch(atoms, policy_id)
     decision.print_summary()
@@ -111,6 +111,7 @@ def validate(
         raise typer.Exit(2)
     elif decision.decision == Decision.PENDING_REVIEW:
         typer.secho("⚠️  Validação PENDENTE — requer revisão humana.", fg=typer.colors.YELLOW)
+        raise typer.Exit(2)  # HOLD is a blocking exit, never success
     else:
         typer.secho("✅ Validação APROVADA", fg=typer.colors.GREEN)
 
@@ -128,7 +129,7 @@ def list_validators_cmd() -> None:
 @app.command()
 def test_validators() -> None:
     """Executa test_suite de todos os validadores."""
-    from validators.registry import VALIDATORS
+    from packages.cli.validators.registry import VALIDATORS
     failures = []
     for name, validator in sorted(VALIDATORS.items()):
         if not validator.run_tests():
