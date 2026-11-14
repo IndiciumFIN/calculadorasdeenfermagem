@@ -1,0 +1,46 @@
+name: CKO - NLM MeSH descriptors XML (terminology HOLD)
+on:
+  push:
+    branches: [feat/cko-parser-mesh-xml-20261114]
+    paths:
+      - 'packages/cli/parsers/**'
+      - 'packages/cli/requirements.txt'
+      - 'contracts/policies/KERNEL-POLICY-005.json'
+      - 'tests/test_mesh*'
+      - 'docs/cko/parsers/**'
+      - '.github/workflows/cko-mesh-parser.yml'
+  pull_request:
+    branches: [fix/canonical-structural-cli-registry-20261114]
+permissions:
+  contents: read
+
+jobs:
+  mesh-descriptors:
+    name: NLM MeSH descriptor parser and reference integrity
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install CLI dependencies
+        run: python -m pip install -r packages/cli/requirements.txt
+      - name: Compile parser and tests
+        run: python -m compileall -q packages/cli tests
+      - name: MeSH official-structure synthetic and malicious fixtures
+        run: python -m unittest discover -s tests -p 'test_mesh*py' -v
+      - name: Assert other parsers remain in strict HOLD
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from scripts.verify_repository_integrity import inspect
+          result = inspect(Path("."))
+          missing = [f for f in result["findings"] if f["code"] == "MISSING_PARSER"]
+          assert result["counts"]["error"] == 0, result["findings"]
+          assert result["counts"]["pending"] == 15, result["findings"]
+          assert len(missing) == 15, result["findings"]
+          assert all(x["path"] != "contracts/fontes/mesh.json" for x in missing)
+          assert result["strict_pass"] is False
+          print("MESH_DESCRIPTOR_PARSER_TECHNICAL_PASS / GLOBAL_STRICT_HOLD_15")
+          PY
