@@ -8,7 +8,7 @@ SRC = "SRC-SYNTHETIC-ANVISA"
 DOC = "DOC-SYNTHETIC-ANVISA"
 
 
-def fields(reg="012345678", process="25351.123456/2020-11", name="SYNTHETIC"):
+def fields(reg="012345678", process="25351.123456/2020-11", name="PRODUCT_NAME_SECRET"):
     return [
         "MEDICAMENTO", name, "01/01/2020", "GENÉRICO",
         reg, "112030", process, "CLASS_SECRET",
@@ -47,7 +47,7 @@ class AnvisaMedicineCSVTests(unittest.TestCase):
                      "release_allowed"):
             self.assertFalse(item[flag])
         txt = str(output)
-        for hidden in ("SYNTHETIC", "CLASS_SECRET", "CORP_SECRET", "ACTIVE_SECRET"):
+        for hidden in ("PRODUCT_NAME_SECRET", "CLASS_SECRET", "CORP_SECRET", "ACTIVE_SECRET"):
             self.assertNotIn(hidden, txt)
 
     def test_exact_duplicates_are_preserved_and_numbered(self):
