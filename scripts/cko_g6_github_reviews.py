@@ -170,7 +170,14 @@ def collect_github_reviews(repository: str, pr_number: int, token: str) -> tuple
             raise ValueError("Malformed review response")
         reviews.extend(items)
         if len(items) < 100:
-            return pr, reviews
+            # Close the TOCTOU window: verify HEAD did not change while
+            # paginating reviews. Otherwise stale approvals may be misread.
+            after = _github_get(root, token)
+            if not isinstance(after, dict) or after.get("head", {}).get("sha") != pr.get("head", {}).get("sha"):
+                raise ValueError("PR_HEAD_CHANGED_DURING_REVIEW_FETCH / HOLD")
+            if after.get("number") != pr_number or after.get("state") != pr.get("state"):
+                raise ValueError("PR_STATE_CHANGED_DURING_REVIEW_FETCH / HOLD")
+            return after, reviews
     raise ValueError("REVIEW_PAGINATION_LIMIT / HOLD")
 
 
