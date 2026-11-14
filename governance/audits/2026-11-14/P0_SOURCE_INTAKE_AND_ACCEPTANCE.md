@@ -49,3 +49,15 @@
 Aplicar em ordem e por PRs independentes, sem merge em lote: proteger fontes → recuperar CI e segurança → provar contrato/runtime → homologar. P1 (motores clínicos) só após P0 totalmente aceita. **Templates continuam por último.** Recibo do Kernel ou declaração editorial NÃO substitui assinatura de revisor qualificado nem teste de ambiente.
 
 **Revisão:** candidatos sem admissão; `main`, Supabase e Drive não alterados por este relatório.
+
+## Reconciliação cruzada demonstrada (Git ↔ Drive ↔ Supabase)
+
+- **104/104 células de registro M08/M09 (linhas completas)** em nove abas do `CORPUS & KNOWLEDGE PMO` foram comparadas diretamente ao snapshot da PR #39, fixado no Git blob `0275f657edd5b2e4ec4cd66cb99b760fa2807019`: 46 claims, 43 evidências, seis conteúdos, demais nove linhas. Comparação por chave exata e colunas normalizadas; **0 ausências / 0 divergências** nos intervalos examinados. Evidência `P0_PMO_GIT_DRIVE_M08_M09_ROW_EQUIVALENCE.v1.json`.
+- Consulta **somente leitura** à tabela `cko_evidence.claims` do Supabase `Calculadoras-Smart`: 41 claims existentes, **0/46** IDs do snapshot M08/M09 encontrados por correspondência exata. Isso prova falta de correspondência de IDs; **não** prova ausência semântica, aprovação ou segurança para importação. Evidência `P0_SUPABASE_CLAIM_ID_CROSSWALK_HOLD.v1.json`.
+- A planilha PMO contém **gates próprios G0–G9**. O quadro P0.00–P0.07 é a priorização desta execução, não substitui G0–G9 ou o Kernel. No PMO consultado G0 permanece `IN_PROGRESS`; nenhum gate foi artificialmente promovido.
+
+## Diagnóstico estático do NORM-KERNEL do anexo
+
+- `pipeline.py` declara versão 0.7.5 e duas fixtures; a leitura das chamadas revela **16 tipos distintos de gate**, com **17 registros emitidos** por conta da reconstrução individual de dois documentos. `docs/gates-technical.md` ainda informa versão 0.7.3 e 15 gates: documentação em drift, sem conclusão de comportamento runtime.
+- `pipeline.py --os CI-NORM-KERNEL` não usa formato `^NK-OS-\\d{4}$` previsto para re-registro em caso de drift; a execução pode registrar finding/bloqueio. O código também escreve evidências/ledger na cópia local. Só testar em checkout isolado com diffs e política de não escrita remota.
+- Nenhuma homologação dos 16 tipos de gate foi inferida apenas da leitura do código ou de README.
