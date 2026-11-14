@@ -112,6 +112,17 @@ class KernelReleaseHoldTests(unittest.TestCase):
             wo_required=False, sha256_required=False)
         self.assertEqual(self.evaluate(policy).decision, core.Decision.APPROVED)
 
+    def test_persisted_synthetic_policy_is_rejected_on_load(self):
+        forged = self.make_policy(
+            id="TEST-KERNEL-POLICY-998",
+            source_contract="contracts/fixtures/synthetic.json",
+            processing_scope="SYNTHETIC_ONLY",
+            publication_allowed=True, rights_by_operation_approved=True,
+            requires_human_review=False, review_policy={"approval_required": False},
+            wo_required=False, sha256_required=False)
+        with self.assertRaisesRegex(ValueError, "forbidden"):
+            KernelPolicy.from_dict(forged.to_dict())
+
     def test_self_declared_clinical_review_and_rights_cannot_unlock_real_policy(self):
         policy = self.make_policy(
             id="KERNEL-POLICY-001",
