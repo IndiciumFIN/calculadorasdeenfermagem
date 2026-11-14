@@ -1,3 +1,5 @@
+> **HISTÓRICO — substituído para fins de status corrente.** Consulte [R2 — cinco parsers pendentes, nove validadores em HOLD](./MAIN_MERGE_READINESS_R2_5_PARSERS_9_VALIDATORS.md). Este registro anterior foi preservado para rastreabilidade e não deve ser tratado como a contagem atual.
+
 # NCOS/CKO — main merge readiness and non-bypassable release HOLD
 
 **Checkpoint:** 2026-11-14 (Brazil/São Paulo)  
