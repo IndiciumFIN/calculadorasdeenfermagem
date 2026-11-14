@@ -29,8 +29,10 @@ class CrosswalkTests(unittest.TestCase):
             for operation,status in [('text_extraction','APPROVED'),('public_excerpt','PENDING'),('redistribution','DENIED')]:
                 self.rights.append({'rights_id':f'RTS-SYN-{operation}','source_id':'SYN-ORG',
                                     'document_version_id':document,'operation':operation,'status':status})
-        self.evidence=[{'evidence_atom_id':'EV-1','document_version_id':'DOC-1'},
-                       {'evidence_atom_id':'EV-2','document_version_id':'DOC-2'}]
+        self.evidence=[{'evidence_atom_id':'EV-1','document_version_id':'DOC-1',
+                        'verified_against_primary':True,'fragment_sha256':'a'*64},
+                       {'evidence_atom_id':'EV-2','document_version_id':'DOC-2',
+                        'verified_against_primary':True,'fragment_sha256':'b'*64}]
         self.claims=[{'claim_id':'CLM-SYN-001','rights_id':'RTS-SYN','status':'CANDIDATE',
                       'clinical_release_allowed':False,'clinical_reviewer_receipt_id':None,
                       'source_evidence_atom_ids':['EV-1']},
@@ -75,6 +77,31 @@ class CrosswalkTests(unittest.TestCase):
         _,report=inspect(self.path)
         self.assertFalse(report['rights_composite_key_unique'])
         self.assertTrue(report['errors'])
+
+    def test_unverified_primary_is_hold(self):
+        self.evidence[0]['verified_against_primary']=False
+        self.write_fixture()
+        _,report=inspect(self.path)
+        self.assertEqual(report['claims_verified_against_primary'],1)
+        self.assertTrue(any(x['code']=='PRIMARY_SOURCE_NOT_VERIFIED' for x in report['errors']))
+
+    def test_missing_fragment_sha_is_hold(self):
+        del self.evidence[0]['fragment_sha256']
+        self.write_fixture()
+        _,report=inspect(self.path)
+        self.assertTrue(any(x['code']=='FRAGMENT_SHA256_UNVERIFIED' for x in report['errors']))
+
+    def test_superseded_document_is_hold(self):
+        self.evidence[0]['document_version_id']='DOC-BR-COFEN-RES-429-2012'
+        self.write_fixture()
+        _,report=inspect(self.path)
+        self.assertEqual(report['claims_with_superseded_document'],1)
+        self.assertTrue(any(x['code']=='SUPERSEDED_DOCUMENT_HOLD' for x in report['errors']))
+
+    def test_duplicate_claim_id_is_rejected(self):
+        self.claims.append(dict(self.claims[0]))
+        self.write_fixture()
+        with self.assertRaises(ValueError): inspect(self.path)
 
     def test_self_release_attempt_is_hold(self):
         self.claims[0]['clinical_release_allowed']=True
