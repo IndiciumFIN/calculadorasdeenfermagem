@@ -70,6 +70,8 @@ jobs:
         run: python -m unittest discover -s tests -p 'test_cko_validator_direct_failclosed.py' -v
       - name: Verify G6 GitHub HEAD-bound independent review controls (synthetic negative tests)
         run: python -m unittest discover -s tests -p 'test_cko_g6_github_reviews.py' -v
+      - name: Validate source-policy parity and reject orphan/duplicate validators
+        run: python -m unittest discover -s tests -p 'test_repository_integrity.py' -v
       - name: Strict admission control negative tests
         run: python -m unittest discover -s tests -p 'test_cko_technical_admission.py' -v
       - name: AST source binding and no fake parser existence
