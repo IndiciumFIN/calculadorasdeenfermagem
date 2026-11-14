@@ -1,0 +1,36 @@
+[
+  {
+    "source_doc_name": "oficial_cofen_2_Resolucao-Cofen-no-736-2024-Dispoe.pdf",
+    "db_expected_sha256": "8a8a9ecb5987a308f8e51fa2a291ea19c9284c9712300744f144c7ba48c3329e",
+    "drive_id_from_db_redacted": true,
+    "lookup_account_count": 2,
+    "drive_fetch_statuses": [
+      "404_NOT_FOUND",
+      "404_NOT_FOUND"
+    ],
+    "source_binary_recovered": false,
+    "sha256_reperformed": false,
+    "source_kind": "OFFICIAL_PRIMARY_CANDIDATE",
+    "currentness_approved": false,
+    "rights_approved": false,
+    "clinical_approved": false,
+    "publication_allowed": false
+  },
+  {
+    "source_doc_name": "Resolucao_Cofen_no_736_2024_Processo_de_Enfermagem.pdf",
+    "db_expected_sha256": "3fb4e597f053aefeb1aadf9b50c1ace53c32ca687454c28184814741677d7a49",
+    "drive_id_from_db_redacted": true,
+    "lookup_account_count": 2,
+    "drive_fetch_statuses": [
+      "404_NOT_FOUND",
+      "404_NOT_FOUND"
+    ],
+    "source_binary_recovered": false,
+    "sha256_reperformed": false,
+    "source_kind": "OFFICIAL_PRIMARY_CANDIDATE",
+    "currentness_approved": false,
+    "rights_approved": false,
+    "clinical_approved": false,
+    "publication_allowed": false
+  }
+]

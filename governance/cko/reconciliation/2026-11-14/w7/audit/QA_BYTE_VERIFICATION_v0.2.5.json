@@ -1,0 +1,27 @@
+{
+  "release": "CKO-W7-v0.2.5",
+  "test_implementation": "Python unittest standard library on local fixture; tests uploaded for CI rerun",
+  "tests_local": {
+    "passed": 8,
+    "failed": 0,
+    "ran": 8
+  },
+  "actual_secondary_pdf_receipt": {
+    "pdf_bytes": 473460,
+    "expected_hash_matches_actual": true,
+    "hash_sha256": "f444472c9df74f87d9d9df0dad44368fe63c5e0475411cb6ec7d5f3cc7cadc59",
+    "source_kind": "DERIVED_DOSSIER"
+  },
+  "primary_direct_fetch": {
+    "pdfs": 2,
+    "connected_drive_accounts": 2,
+    "attempts": 4,
+    "http_404": 4,
+    "primary_bytes_recovered": 0
+  },
+  "rights_gate": "HOLD_RIGHTS",
+  "clinical_gate": "HOLD_CLINICAL",
+  "normative_gate": "HOLD_PRIMARY_BYTES",
+  "ci_github_check_runs_not_asserted": true,
+  "publication_allowed": false
+}

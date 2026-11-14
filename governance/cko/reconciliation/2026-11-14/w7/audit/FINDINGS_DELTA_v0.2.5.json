@@ -1,0 +1,54 @@
+{
+  "version": "CKO-W7-v0.2.5",
+  "findings": [
+    {
+      "finding_id": "W7-008",
+      "state": "SOURCE_LOCATORS_KNOWN_PRIMARY_BYTES_STILL_MISSING",
+      "source_hash_for_RDC15": null,
+      "source_hash_for_COFEN754": null,
+      "required_gate": "HOLD_PRIMARY_SOURCE_BYTES"
+    },
+    {
+      "finding_id": "W7-015",
+      "state": "NEW_PRIMARY_DRIVE_REFERENCE_NOT_ACCESSIBLE",
+      "priority": "P0",
+      "source": "Supabase document_atomization COFEN 736 PDFs",
+      "file_ids_tested": 2,
+      "accounts_tested_per_id": 2,
+      "total_direct_fetch_attempts": 4,
+      "total_404": 4,
+      "required_gate": "HOLD_SOURCE_ACCESS_OR_RECOVERY",
+      "note": "404 may reflect permissions or missing objects; not proof of global deletion."
+    },
+    {
+      "finding_id": "W7-016",
+      "state": "DERIVED_DOSSIER_RECOVERED_NOT_PRIMARY",
+      "priority": "P1",
+      "bytes_verified": 473460,
+      "sha256": "f444472c9df74f87d9d9df0dad44368fe63c5e0475411cb6ec7d5f3cc7cadc59",
+      "source_kind": "DERIVED_DOSSIER",
+      "required_gate": "HOLD_PRIMARY_SOURCE_AND_CURRENTNESS"
+    }
+  ],
+  "work_orders": [
+    {
+      "work_order_id": "WO-CKO-W7-003",
+      "state": "PARTIAL_PRIMARY_SOURCE_RECOVERY_INVESTIGATED",
+      "primary_source_files_located": 0,
+      "secondary_files_verified": 1,
+      "gates": [
+        "HOLD_PRIMARY_BYTES",
+        "HOLD_CURRENTNESS"
+      ]
+    },
+    {
+      "work_order_id": "WO-CKO-W7-015",
+      "state": "NEW_RECOVERY_WORK",
+      "action": "Recover the two originally registered 736 official-source PDFs through a rights-compliant archive or official issuer URL; reproduce archived SHA-256, version and article locator; never replace an original digest with the derived dossier.",
+      "status": "HOLD_SOURCE"
+    }
+  ],
+  "old_findings_unchanged": true,
+  "semantic_promotion": false,
+  "clinical_publication": false
+}
