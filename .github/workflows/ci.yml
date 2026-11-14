@@ -1,36 +1,50 @@
-name: CI - Validação
+name: CI - Validacao Estrita (sem bypass)
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
+      - fix/cko-ci-no-masked-checks-20261114
   pull_request:
-    branches: [main]
+    branches:
+      - main
+      - fix/canonical-structural-cli-registry-20261114
+
+permissions:
+  contents: read
 
 jobs:
-  validate:
+  frontend:
+    name: TypeScript must fail on compilation errors
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: '20'
           cache: 'npm'
+      - name: Install locked dependencies
+        run: npm ci
+      - name: Verify TypeScript without fallback
+        run: npm run type-check
 
-      - name: Install dependencies
-        run: npm install
-
-      - name: Type check
-        run: npx tsc --noEmit || echo "Type check skipped (project still scaffolding)"
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
+  cli:
+    name: Python CLI and clinical HOLD checks
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
-      - name: Install Python deps
-        run: pip install typer pydantic
-
-      - name: Validate CLI help
-        run: python packages/cli/main.py --help || echo "CLI skeleton"
+      - name: Install CLI dependencies with declared versions
+        run: python -m pip install -r packages/cli/requirements.txt
+      - name: Compile Python packages, scripts and tests
+        run: python -m compileall -q packages/cli packages/schemas scripts tests
+      - name: Verify CLI invocation without catch-all
+        run: python -m packages.cli.main --help
+      - name: Verify kernel policy CLI without catch-all
+        run: python -m packages.cli.main kernel list-policies
+      - name: Verify negative and pending-HOLD regressions
+        run: python -m unittest discover -s tests -p 'test_kernel_*.py' -v
