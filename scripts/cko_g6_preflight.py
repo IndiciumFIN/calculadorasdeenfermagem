@@ -160,7 +160,6 @@ def main(argv: list[str] | None = None) -> int:
         return 2
     print(json.dumps(report, indent=2, sort_keys=True, ensure_ascii=False))
     if args.diagnostic_only and report["technically_consistent"]:
-        print("G6_CANDIDATE_GRAPH_VALID / RELEASE_REMAINS_HOLD")
         return 0
     return 2
 
