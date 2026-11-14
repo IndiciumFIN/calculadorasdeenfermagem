@@ -143,12 +143,18 @@ class GithubG6ReviewSafetyTests(unittest.TestCase):
                 collect_github_reviews(REPO, 57, "fake-synthetic-token")
 
     def test_paginated_review_array_requires_complete_response(self):
-        payloads = [fixture_pr(), [review()] * 100, [review(review_id=101)]]
+        payloads = [fixture_pr(), [review()] * 100, [review(review_id=101)], fixture_pr()]
         with patch("scripts.cko_g6_github_reviews._github_get",
                    side_effect=payloads) as mock_get:
             _, reviews = collect_github_reviews(REPO, 57, "fake-synthetic-token")
         self.assertEqual(len(reviews), 101)
-        self.assertEqual(mock_get.call_count, 3)
+        self.assertEqual(mock_get.call_count, 4)
+
+    def test_head_change_during_review_pagination_blocks(self):
+        with patch("scripts.cko_g6_github_reviews._github_get",
+                   side_effect=[fixture_pr(), [review()], fixture_pr(OLD)]):
+            with self.assertRaisesRegex(ValueError, "PR_HEAD_CHANGED"):
+                collect_github_reviews(REPO, 57, "fake-synthetic-token")
 
     def test_malformed_api_review_page_fails_closed(self):
         with patch("scripts.cko_g6_github_reviews._github_get",
