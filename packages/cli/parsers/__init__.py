@@ -1,1 +1,1 @@
-"""Contract-bound parsers; parser file existence is never clinical approval."""
+"""Contract-bound parsers. Module existence never implies clinical approval."""
