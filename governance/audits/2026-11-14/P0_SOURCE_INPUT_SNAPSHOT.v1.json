@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.0.0",
+  "snapshot_date": "2026-11-14",
+  "state": "P0_INTAKE_TECHNICAL_PASS_P0_GLOBAL_HOLD",
+  "authority": "read_only_attachment_digest",
+  "clinical_admitted": false,
+  "publishable": false,
+  "inputs": {
+    "total": 13,
+    "zip": 12,
+    "script": 1,
+    "outer_entries": 608,
+    "nested_archives": 6,
+    "nested_entries": 290,
+    "unique_outer_entry_digests": 287,
+    "logical_unique_units": 9,
+    "zip_crc_sha256": "PASS",
+    "negative_tests_local": "7/7_PASS"
+  },
+  "duplicate_archive_groups": [
+    [
+      "6a98c524a9176d208cec5f0d (1).zip",
+      "6a98c524a9176d208cec5f0d(1).zip"
+    ],
+    [
+      "6adfadec5615b00ca58e4734 (1).zip",
+      "6adfadec5615b00ca58e4734(1).zip"
+    ],
+    [
+      "cko-schemas (3)(1).zip",
+      "cko-schemas (4).zip"
+    ]
+  ],
+  "subset": {
+    "name": "6a990df176437fa46470a74e(1).zip",
+    "superset": "6a990df176437fa46470a74e (1).zip",
+    "additional_files_in_superset": 100,
+    "conflicting_bytes_on_shared_paths": 0
+  },
+  "files": [
+    [
+      "6a98c524a9176d208cec5f0d (1).zip",
+      "7f91cbef9bc377f5bad054153eee2ed367ca17d4915295cd9e162796a032d52d",
+      82
+    ],
+    [
+      "6a990df176437fa46470a74e (1).zip",
+      "98cc412e481e4064654a161080e27cf33f767d484590b4e9d471d8ccd218a4c7",
+      193
+    ],
+    [
+      "6adfadec5615b00ca58e4734 (1).zip",
+      "3a6f7fa8f5b39b0c26fea0a5e0737661788d0d0baec20c711b613de135907f28",
+      31
+    ],
+    [
+      "cko-schemas (4).zip",
+      "6b580ea783a5d3034cc0dcddc7325b04bdec437857bc715337f1ae7c674b4389",
+      7
+    ],
+    [
+      "convert_to_cko_medication.py",
+      "33e394e2f4f2138744e054e0223a66c4f51f725ce116f27e25bb4e83c9fedf40",
+      0
+    ],
+    [
+      "entrega-cko-repo(1).zip",
+      "488ceca8e50446e9ebf4e0a713bdcc36458aaf8f27e12358662b418cad3199b8",
+      26
+    ],
+    [
+      "cko-research (1)(1).zip",
+      "20ec83ea69f1d118b15f739d753178ea1cb8079764a39c516378ddd36ad0fabf",
+      4
+    ],
+    [
+      "entities(1).zip",
+      "1d9dd5ee03332bf61890be4ea42c9b9c7c0dacf2377926f4eba256eb5da8f0d1",
+      30
+    ],
+    [
+      "6a98c524a9176d208cec5f0d(1).zip",
+      "424b9e076651791af6cc4e2c9683cb01544bb06749167ccbc2b248a4d524664f",
+      82
+    ],
+    [
+      "cko-schemas (3)(1).zip",
+      "6e4d826d30db4ebd3c10efc36280c56f19775060177ae09b60b468624b731172",
+      7
+    ],
+    [
+      "6a990df176437fa46470a74e(1).zip",
+      "55debab175909af2d79613d6ad01038d547e06a14dc9506f97ec2232d65608fe",
+      93
+    ],
+    [
+      "6adfadec5615b00ca58e4734(1).zip",
+      "ba176fb0719404b08d00207dad5921e1a4afab16600141a480bdeb667d584bfa",
+      31
+    ],
+    [
+      "intake-2026-11-14-dev-chatgpt-workspace(1).zip",
+      "81e9090ba4202e2262f0f678edc24048d3d78fc2788992f9c5f61b2b603264b7",
+      22
+    ]
+  ],
+  "evidence_boundary": "Hashes are inventory evidence; no source rights, clinical validity, or canonical equivalence; raw ZIP bytes not committed.",
+  "gates": {
+    "P0_00": "PASS_SOURCE_INTEGRITY_ONLY",
+    "P0_01": "HOLD_CROSS_SOURCE_RECONCILIATION",
+    "P0_02": "HOLD_STRICT_CI_G6",
+    "P0_03": "HOLD_IAM_RBAC",
+    "P0_04": "HOLD_BUILD_DB",
+    "P0_05": "HOLD_KERNEL_WO",
+    "P0_06": "HOLD_RIGHTS_PRIVACY",
+    "P0_07": "HOLD_E2E"
+  },
+  "source_references": {
+    "github": [
+      "IndiciumFIN/calculadorasdeenfermagem",
+      "IndiciumFIN/dev-chatgpt-workspace",
+      "IndiciumFIN/blue-ember-fjord-prairie"
+    ],
+    "drive_pmo": "https://docs.google.com/spreadsheets/d/1vi129pgXWMZPFddxlMd5YemMEohumxqk714yCoGCVOg/edit",
+    "supabase": "Calculadoras-Smart - inspected read-only",
+    "library": "previous CE audit and reference materials - lookup only"
+  }
+}

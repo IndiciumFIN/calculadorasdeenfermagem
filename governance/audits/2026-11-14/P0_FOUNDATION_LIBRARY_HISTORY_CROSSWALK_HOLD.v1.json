@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0.0",
+  "snapshot_date": "2026-11-14",
+  "scope": "LIBRARY_REFERENCES_READ_ONLY",
+  "clinical_promotion_allowed": false,
+  "release_allowed": false,
+  "foundation_v110": {
+    "library_path": "/Calculadoras de Enfermagem/Foundation/Canonical/CKO_FOUNDATION_FINAL_v1.1.0.zip",
+    "sha256": "c013dee3af1438a8a02fda500cc5c86b018ea4f8c79f17ae457d3b8fc40bf442",
+    "zip_entries": 47,
+    "package_statement": {
+      "foundation": "PASS_FINALIZED",
+      "internal_tests": "25/25_PASS",
+      "kernel_runtime": "PASS",
+      "kernel_service_order": "HOLD_HUMAN_DECISION"
+    },
+    "external_runtime_holds": [
+      "OPA_OFFICIAL_RUNTIME_NOT_EXECUTED",
+      "PYSHACL_FULL_RUNTIME_NOT_EXECUTED",
+      "GLOBAL_E5_DENY"
+    ],
+    "meaning": "historically finalized technical foundation; requires SHA/environment binding and live applicability recheck"
+  },
+  "reconstruction_v170": {
+    "library_path": "/Calculadoras de Enfermagem/Reconstrucao Canonica/Baselines/CKO_RECONSTRUCTION_BASELINE_v1.7.0.zip",
+    "sha256": "057d3edab2466f98199f55658e5199aef0e2bf6b1dc87cc5a26d252644dad0ce",
+    "entries": 1402,
+    "report": "102_PRODUCTION_ASSURANCE_LIVEOPS_FOUNDATION/evidence/validation-report.json",
+    "package_validation": {
+      "pass": 88,
+      "fail": 0,
+      "hold": 14
+    },
+    "historical_architecture": {
+      "vertical_layers": 41,
+      "horizontal_fabrics": 29,
+      "domains": 22,
+      "subsystems": 18,
+      "source": "66_PROJECT_ROOT/STATUS.json (structural skeleton only)"
+    },
+    "status": "REFERENCE_RUNTIME_PASS_REAL_PRODUCTION_HOLD",
+    "blocking_operational_holds": [
+      "REAL_PRODUCTION_INFRASTRUCTURE",
+      "SECRETS_MANAGER_PROVIDER_BINDING",
+      "PRODUCTION_BROWSER_QA",
+      "INDEPENDENT_SECURITY",
+      "PRODUCTION_VULNERABILITY_SCAN_AND_SIGNING",
+      "LIVE_TELEMETRY_AND_ON_CALL",
+      "APPROVED_PRODUCTION_SLO",
+      "REAL_BCP_RTO_RPO",
+      "LIVE_SURVEILLANCE",
+      "HUMAN_GO_NO_GO",
+      "PUBLICATION_AUTHORIZATION",
+      "GLOBAL_E5"
+    ],
+    "note": "14 total holds include two nonblocking OPA and SHACL evidence gaps; absence of live validation blocks release"
+  },
+  "normative_traceability_r66_r72": {
+    "library_path": "/Calculadoras de Enfermagem/Backups/Normative Traceability R66-R72/STAGING_MANIFEST.json",
+    "sha256": "2d445dfbfa6ba8a43927e376df2705d001116e26c2b8e2cfa0248b08b56169ba",
+    "status": "LOCAL_STAGING_ONLY",
+    "accepted_to_canonical": false
+  },
+  "crosswalk_status": "HOLD_GRANULARITY_AND_RUNTIME_EQUIVALENCE",
+  "caveats": [
+    "The 41/29/22/18 counts belong to a historical architectural skeleton, not confirmed active runtime components.",
+    "An earlier operational audit used 14 horizontal and 10 vertical product-facing groupings: do not overwrite one model with the other.",
+    "No historical signature or ratification is assumed effective for a different deployment/environment without independent review.",
+    "Files were read only; no code in these ZIPs was executed."
+  ]
+}

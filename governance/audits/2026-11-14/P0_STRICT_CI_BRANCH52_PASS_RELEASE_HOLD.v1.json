@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-11-14",
+  "status": "STRICT_CI_BRANCH_PASS_RELEASE_GATE_HOLD",
+  "pr_reference": {
+    "repo": "IndiciumFIN/calculadorasdeenfermagem",
+    "number": 52,
+    "head": "fix/cko-ci-no-masked-checks-20261114",
+    "base": "fix/canonical-structural-cli-registry-20261114",
+    "sha": "12d41a620eb5a62fed3d97f2edd3ced213986a7b"
+  },
+  "verified_run_url": "https://github.com/IndiciumFIN/calculadorasdeenfermagem/actions/runs/43589586677",
+  "checks": [
+    {
+      "job": "Python CLI and clinical HOLD checks",
+      "result": "PASS",
+      "components": [
+        "declared Python dependencies",
+        "compile Python",
+        "CLI invocation",
+        "Kernel policy CLI",
+        "negative HOLD regression",
+        "detect masked CI/lock mismatch"
+      ]
+    },
+    {
+      "job": "TypeScript must fail on compilation errors",
+      "result": "PASS",
+      "components": [
+        "npm ci locked dependencies",
+        "TypeScript compile without fallback"
+      ]
+    }
+  ],
+  "boundary": [
+    "Source branch, not main; this result is NOT G1-G6 admission",
+    "Human review and branch rule enforcement not demonstrated",
+    "No clinical endorsement, database migration or site deployment"
+  ],
+  "p0_gate": "P0.02_TECHNICAL_SUBGATE_PASS_BRANCH_ONLY",
+  "p0_global_status": "HOLD"
+}
