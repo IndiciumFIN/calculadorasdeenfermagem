@@ -264,6 +264,7 @@ def build(root: Path, *, pmo_file: Path | None = None) -> dict:
             "nodes": len(nodes), "edges": len(edges),
             "errors": sum(f["severity"] == "ERROR" for f in findings),
             "pending": sum(f["severity"] == "PENDING" for f in findings),
+            "finding_counts_by_code": dict(sorted(Counter(f["code"] for f in findings).items())),
         },
         "dictionary": {
             "SOURCE_CONTRACT": _schema(list(source_data.values())),
