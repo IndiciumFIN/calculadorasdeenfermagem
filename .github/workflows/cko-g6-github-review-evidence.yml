@@ -1,9 +1,13 @@
 name: CKO - GitHub G6 review evidence (diagnostic HOLD)
 on:
   push:
-    branches: [audit/cko-g6-github-review-verification-20261114]
+    branches:
+      - audit/cko-g6-github-review-verification-20261114
+      - integration/cko-parsers-catalog-20261114
   pull_request:
-    branches: [fix/cko-wo-g6-preflight-20261114]
+    branches:
+      - fix/cko-wo-g6-preflight-20261114
+      - integration/cko-p0-ci-g6-20261114
 permissions:
   contents: read
   pull-requests: read
