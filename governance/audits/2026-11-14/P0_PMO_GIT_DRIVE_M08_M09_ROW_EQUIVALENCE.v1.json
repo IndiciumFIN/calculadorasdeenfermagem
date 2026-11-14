@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0.0",
+  "status": "PASS_ROW_EQUALITY_ONLY",
+  "date": "2026-11-14",
+  "github_snapshot": {
+    "repository": "IndiciumFIN/calculadorasdeenfermagem",
+    "branch": "feat/cko-m08-m09-corpus-atomic-20261114",
+    "source_file": "governance/cko/canonical-atomic/2026-11-14/PMO_REGISTER_SNAPSHOT_M08_M09.json",
+    "file_blob_sha": "0275f657edd5b2e4ec4cd66cb99b760fa2807019"
+  },
+  "drive_spreadsheet_url": "https://docs.google.com/spreadsheets/d/1vi129pgXWMZPFddxlMd5YemMEohumxqk714yCoGCVOg/edit",
+  "comparison": "For each snapshot row: exact ID lookup in specified range and text-normalized per-column equality, all columns, missing/changed/extra check.",
+  "row_count": 104,
+  "register_results": [
+    [
+      "CLAIM_LEDGER",
+      "A5:L50",
+      46,
+      46,
+      0,
+      0
+    ],
+    [
+      "EVIDENCE_ATOMS",
+      "A6:M48",
+      43,
+      43,
+      0,
+      0
+    ],
+    [
+      "CONTENT_REGISTER",
+      "A13:M18",
+      6,
+      6,
+      0,
+      0
+    ],
+    [
+      "SOURCE_REGISTER",
+      "A17:L18",
+      2,
+      2,
+      0,
+      0
+    ],
+    [
+      "DOCUMENT_REGISTER",
+      "A10:N11",
+      2,
+      2,
+      0,
+      0
+    ],
+    [
+      "CHANGE_IMPACT",
+      "A15:N16",
+      2,
+      2,
+      0,
+      0
+    ],
+    [
+      "CONFLICT_REGISTER",
+      "A14:L14",
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      "HOLD_HUMAN",
+      "A14:K14",
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      "PMO_MASTER",
+      "A15:J15",
+      1,
+      1,
+      0,
+      0
+    ]
+  ],
+  "columns": [
+    "register",
+    "range",
+    "expected_rows",
+    "identical_rows",
+    "missing_rows",
+    "changed_rows"
+  ],
+  "totals": {
+    "expected_rows": 104,
+    "identical_rows": 104,
+    "missing_rows": 0,
+    "changed_rows": 0,
+    "unexpected_rows_in_ranges": 0
+  },
+  "limits": [
+    "Only nine M08/M09 snapshot ranges evaluated, not entire spreadsheet or all 40+ tabs",
+    "Text normalized comparison does not prove cell metadata, formatting, timestamps or file hash of original normative PDF",
+    "No clinical, licensing, human review or Kernel admission inferred",
+    "No Supabase or production API data integrated or mutated"
+  ],
+  "released": false,
+  "clinical_assured": false,
+  "p0_global_status": "HOLD"
+}
