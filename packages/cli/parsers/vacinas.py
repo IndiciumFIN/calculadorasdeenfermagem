@@ -65,7 +65,7 @@ def parse(
     if not isinstance(raw, (bytes, str)):
         raise ParseHold("CVX input must be bytes or str")
     payload = raw.encode("utf-8") if isinstance(raw, str) else raw
-    if not payload or len(payload) > MAX_INPUT_BYTES or b"\\x00" in payload:
+    if not payload or len(payload) > MAX_INPUT_BYTES or bytes([0]) in payload:
         raise ParseHold("CVX source empty, oversized or binary")
     digest = hashlib.sha256(payload).hexdigest()
     if not isinstance(expected_sha256, str) or not SHA_PATTERN.fullmatch(expected_sha256):
