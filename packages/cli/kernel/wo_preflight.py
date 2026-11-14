@@ -137,7 +137,7 @@ def preflight(
         for criterion in acceptance:
             if not isinstance(criterion, str):
                 continue
-            match = re.search(r"\\bAll\\s+(\\d+)\\s+FINDs\\b", criterion, re.I)
+            match = re.search(r"\bAll\s+(\d+)\s+FINDs\b", criterion, re.I)
             if match and int(match.group(1)) != len(declared_finds):
                 findings.add("WO_FIND_ACCEPTANCE_SCOPE_CONFLICT")
 
