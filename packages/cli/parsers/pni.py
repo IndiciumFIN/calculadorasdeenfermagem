@@ -27,7 +27,7 @@ MAX_SNAPSHOT_BYTES = 80_000_000
 MAX_EXPANDED_BYTES = 100_000_000
 MAX_RECORDS = 250_000
 SHA_RE = re.compile(r"[0-9a-f]{64}", re.ASCII)
-MONTH_RE = re.compile(r"20[0-9]{2}-(0[1-9]|1[0-2])", re.ASCII)
+MONTH_RE = re.compile(r"2026-(0[1-9]|1[0-2])", re.ASCII)
 CODE_RE = re.compile(r"[0-9]{1,10}", re.ASCII)
 UF_RE = re.compile(r"[A-Z]{2}", re.ASCII)
 
