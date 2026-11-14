@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "$id": "urn:cko:sidecar:candidate:evidence_atom_candidate:1.0.0",
+  "title": "CKO Candidate evidence_atom_candidate",
+  "required": [
+    "evidence_atom_id",
+    "document_version_id",
+    "locator",
+    "fragment_sha256",
+    "extraction_run_id",
+    "text_access_class",
+    "verified_against_primary",
+    "clinical_release_allowed"
+  ],
+  "properties": {
+    "evidence_atom_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "document_version_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "locator": {
+      "type": "string",
+      "minLength": 1
+    },
+    "fragment_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "extraction_run_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "rights_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "text_access_class": {
+      "enum": [
+        "RESTRICTED",
+        "METADATA_ONLY",
+        "APPROVED_INTERNAL"
+      ]
+    },
+    "verified_against_primary": {
+      "const": false
+    },
+    "clinical_release_allowed": {
+      "const": false
+    }
+  }
+}

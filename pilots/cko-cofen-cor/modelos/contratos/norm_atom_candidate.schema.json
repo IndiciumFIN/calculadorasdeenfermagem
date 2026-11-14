@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "$id": "urn:cko:sidecar:candidate:norm_atom_candidate:1.0.0",
+  "title": "CKO Candidate norm_atom_candidate",
+  "required": [
+    "norm_atom_id",
+    "evidence_atom_ids",
+    "subject",
+    "action",
+    "object",
+    "modality",
+    "status",
+    "clinical_release_allowed"
+  ],
+  "properties": {
+    "norm_atom_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidence_atom_ids": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "subject": {
+      "type": "string",
+      "minLength": 1
+    },
+    "action": {
+      "type": "string",
+      "minLength": 1
+    },
+    "object": {
+      "type": "string",
+      "minLength": 1
+    },
+    "modality": {
+      "enum": [
+        "UNKNOWN_REVIEW_REQUIRED",
+        "obligation_candidate",
+        "prohibition_candidate",
+        "permission_candidate",
+        "definition_candidate"
+      ]
+    },
+    "condition": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "exception": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "deadline": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "validity_from": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "validity_to": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "status": {
+      "const": "CANDIDATE"
+    },
+    "normative_reviewer_receipt_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "clinical_release_allowed": {
+      "const": false
+    }
+  }
+}
