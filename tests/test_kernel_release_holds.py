@@ -104,10 +104,55 @@ class KernelReleaseHoldTests(unittest.TestCase):
 
     def test_explicitly_unrestricted_synthetic_policy_may_validate(self):
         policy = self.make_policy(
+            id="TEST-KERNEL-POLICY-998",
+            source_contract="contracts/fixtures/synthetic.json",
+            processing_scope="SYNTHETIC_ONLY",
             publication_allowed=True, rights_by_operation_approved=True,
             requires_human_review=False, review_policy={"approval_required": False},
             wo_required=False, sha256_required=False)
         self.assertEqual(self.evaluate(policy).decision, core.Decision.APPROVED)
+
+    def test_persisted_synthetic_policy_is_rejected_on_load(self):
+        forged = self.make_policy(
+            id="TEST-KERNEL-POLICY-998",
+            source_contract="contracts/fixtures/synthetic.json",
+            processing_scope="SYNTHETIC_ONLY",
+            publication_allowed=True, rights_by_operation_approved=True,
+            requires_human_review=False, review_policy={"approval_required": False},
+            wo_required=False, sha256_required=False)
+        with self.assertRaisesRegex(ValueError, "forbidden"):
+            KernelPolicy.from_dict(forged.to_dict())
+
+    def test_self_declared_clinical_review_and_rights_cannot_unlock_real_policy(self):
+        policy = self.make_policy(
+            id="KERNEL-POLICY-001",
+            source_contract="contracts/fontes/cofen_dou.json",
+            processing_scope="OFFICIAL_NORMATIVE",
+            publication_allowed=True, rights_by_operation_approved=True,
+            requires_human_review=False, review_policy={"approval_required": False},
+            wo_required=False, sha256_required=False)
+        self.assertEqual(self.evaluate(policy).decision, core.Decision.PENDING_REVIEW)
+        self.assertEqual(self.evaluate(policy, [{"fixture": True}]).decision, core.Decision.PENDING_REVIEW)
+
+    def test_fake_synthetic_scope_cannot_unlock_normative_identity(self):
+        policy = self.make_policy(
+            id="KERNEL-POLICY-001",
+            source_contract="contracts/fontes/cofen_dou.json",
+            processing_scope="SYNTHETIC_ONLY",
+            publication_allowed=True, rights_by_operation_approved=True,
+            requires_human_review=False, review_policy={"approval_required": False},
+            wo_required=False, sha256_required=False)
+        self.assertEqual(self.evaluate(policy).decision, core.Decision.PENDING_REVIEW)
+
+    def test_synthetic_name_without_fixture_source_remains_hold(self):
+        policy = self.make_policy(
+            id="TEST-POLICY-998",
+            source_contract="contracts/fontes/cofen_dou.json",
+            processing_scope="SYNTHETIC_ONLY",
+            publication_allowed=True, rights_by_operation_approved=True,
+            requires_human_review=False, review_policy={"approval_required": False},
+            wo_required=False, sha256_required=False)
+        self.assertEqual(self.evaluate(policy).decision, core.Decision.PENDING_REVIEW)
 
     def test_wo_required_without_verified_work_order_holds(self):
         policy = self.make_policy(
