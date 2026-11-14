@@ -1,0 +1,23 @@
+{
+  "release": "CKO-W7-v0.2.2",
+  "observed_at_date": "2026-11-14",
+  "snapshot": "CKO-GROK-20261010-V1",
+  "database_relation": "calculadoras_de_enfermagem.document_atomization",
+  "db_read_only": true,
+  "total_pdfs": 17,
+  "recorded_literal_text_atoms": 25508,
+  "recorded_visual_reference_atoms": 887,
+  "artifacts_location_status": "LOCAL_ARTIFACT_NOT_DURABLE",
+  "all_unlocated_as_recorded": true,
+  "google_drives_checked": 2,
+  "exact_filename_searches_per_drive": 17,
+  "exact_title_hits_total": 0,
+  "remote_storage_exhaustively_inventoried": false,
+  "may_exist_in_archive_or_other_storage": true,
+  "unique_sha256_expected": 17,
+  "actual_jsonl_bytes_recovered": 0,
+  "hashes_reverified_against_artifact_bytes": 0,
+  "status": "HOLD_SOURCE_ARTIFACT",
+  "publication_allowed": false,
+  "interpretation": "Metadata and original-PDF locators are not equivalent to the original JSONL atomization bytes. Exact-filename non-results in connected accounts do not prove global deletion."
+}

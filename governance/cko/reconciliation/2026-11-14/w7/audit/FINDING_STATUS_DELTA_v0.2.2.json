@@ -1,0 +1,25 @@
+{
+  "version": "0.2.2",
+  "evidence": "17 queries exact names × 2 connected Google Drives; 0 exact matches",
+  "findings": [
+    {
+      "finding_id": "W7-003",
+      "state": "INVESTIGATED_STILL_OPEN",
+      "previous": "NON_DURABLE_ATOMIZATION",
+      "searched_artifacts": 17,
+      "verified_byte_recoveries": 0,
+      "remaining_gate": "HOLD_SOURCE_ARTIFACT"
+    }
+  ],
+  "work_orders": [
+    {
+      "work_order_id": "WO-CKO-W7-006",
+      "state": "IN_PROGRESS_RECOVERY_TRIAGE_COMPLETED",
+      "searched_exact_filenames": 17,
+      "storage_accounts_examined": 2,
+      "verified_recovered": 0,
+      "remaining_gate": "HOLD_SOURCE_ARTIFACT"
+    }
+  ],
+  "avoid_false_claim": "Original PDF source availability and JSONL atomization recovery are distinct; lack of exact filename match is not proof of deletion."
+}
