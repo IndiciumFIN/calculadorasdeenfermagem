@@ -3,9 +3,9 @@
 This program never copies clinical statements, source documents, or approval receipts.
 """
 from __future__ import annotations
-import argparse, csv, hashlib, io, json, re, zipfile
+import argparse, csv, hashlib, io, json, re, stat, zipfile
 from collections import Counter,defaultdict
-from pathlib import Path
+from pathlib import Path, PurePosixPath
 
 OPS=('text_extraction','public_excerpt','redistribution')
 MISSING=('schema_version','canonical_id','version','updated_at','provenance_refs',
@@ -17,18 +17,39 @@ HEX_SHA256=re.compile(r'^[0-9a-f]{64}$')
 
 def inspect(path:Path):
     with zipfile.ZipFile(path) as z:
-        names=z.namelist()
-        if any(name.startswith('/') or '..' in Path(name).parts for name in names):
-            raise ValueError('Unsafe ZIP archive member path')
+        members=z.infolist()
+        names=[m.filename for m in members]
+        if not members or len(members)>2000 or len(names)!=len(set(names)):
+            raise ValueError('Empty, oversized or duplicate-name ZIP manifest')
+        for member in members:
+            name=member.filename
+            parts=PurePosixPath(name).parts
+            if (not name or name.startswith('/') or '\\' in name or ':' in name
+                    or '..' in parts or stat.S_ISLNK(member.external_attr >> 16)
+                    or bool(member.flag_bits & 1)):
+                raise ValueError('Unsafe ZIP archive member path/type')
+        extracted_bytes=0
+        def bounded_read(name):
+            nonlocal extracted_bytes
+            info=z.getinfo(name)
+            if (info.file_size<0 or info.file_size>16_000_000
+                or info.compress_size<0
+                or (info.file_size>5_000_000 and
+                    info.file_size>max(1,info.compress_size)*500)):
+                raise ValueError('Oversized or suspicious compressed registry/atom')
+            extracted_bytes+=info.file_size
+            if extracted_bytes>64_000_000:
+                raise ValueError('Registry/atom ZIP expansion quota exceeded')
+            return z.read(name)
         def csv_read(suffix):
             paths=[p for p in names if p.endswith('/registros/'+suffix)]
             if len(paths)!=1:raise ValueError(f'exactly one registry required: {suffix}')
-            return list(csv.DictReader(io.StringIO(z.read(paths[0]).decode('utf-8-sig'))))
+            return list(csv.DictReader(io.StringIO(bounded_read(paths[0]).decode('utf-8-sig'))))
         def jsonl(suffix):
             lines=[]
             for p in names:
                 if p.endswith('/atoms/'+suffix):
-                    lines.extend(json.loads(x) for x in z.read(p).decode('utf-8').splitlines() if x.strip())
+                    lines.extend(json.loads(x) for x in bounded_read(p).decode('utf-8').splitlines() if x.strip())
             return lines
         sources=csv_read('00_source_registry.csv')
         rights=csv_read('01_rights_by_operation.csv')
