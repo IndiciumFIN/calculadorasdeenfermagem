@@ -70,6 +70,8 @@
 
 **FIND-CKO-X04 — Admissão Kernel vs. candidato.** Branch `fix/ce05-kernel-ci-security-20261017` contém `CE-GOV-WO-ADMISSION-001.candidate.json` `PROPOSED_NOT_HOMOLOGATED` e `WO-G0-CORRECTIVE-20261017.json` `DRAFT_NOT_ADMITTED`; `pmo/recovery-controlled` confirma falta de recibo de admissão. **Remediação:** separar `FIND → policy → validator → TASK → WO → Kernel receipt → isolated execution → independent audit → promotion` sem aceitar simples presença de arquivo.
 
+**FIND-CKO-X18 — Lockfile npm incoerente, mascarado anteriormente.** Ao retirar os `|| echo` em `PR #52`, o [Actions #43587616906](https://github.com/IndiciumFIN/calculadorasdeenfermagem/actions/runs/43587616906) revelou falha reproduzida em `npm ci`: `postcss@8.4.31` ausente no `package-lock.json` frente às dependências atuais. O job Python passou; a verificação TypeScript sequer iniciou. **Remediação:** regenerar lockfile com revisão independente de versões/integridade, exigir `npm ci` e TypeScript PASS, sem substituir por fallback. WO #53.
+
 **FIND-CKO-X05 — Status de proteção de branch insuficientemente comprovado.** Endpoint GitHub de proteção da `main` respondeu 403 por permissão, enquanto a API de rulesets retornou 403 informando restrição do recurso ao plano/repo privado. **Remediação:** verificar permissões/branch rules pela interface/admin, validar revisão obrigatória e status checks; **não afirmar que existe proteção real**.
 
 ### P1 — Divergências clínicas, normativas, de dados e contratos
@@ -116,7 +118,7 @@
 
 **Gate 6 — Promoção:** somente mediante autorização institucional/clinicamente qualificada, logs e assinaturas por SHA, sem eliminar histórico candidato e sem bypass de `HOLD_HUMAN`.
 
-### Prioridade operacional imediata
+### Prioridade operacional imediata\n\n**Acoplamentos formais:** [WO #53](https://github.com/IndiciumFIN/calculadorasdeenfermagem/issues/53) (G6/CI/reprodutibilidade), [WO #54](https://github.com/IndiciumFIN/calculadorasdeenfermagem/issues/54) (COFEN 754/2024).\n
 
 1. Corrigir workflow `ci.yml` permissivo e documentar que G6 ainda não é executável.
 2. Congelar as decisões sobre as 33 PRs `cursor/*`, sem unificar automaticamente.
