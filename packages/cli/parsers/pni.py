@@ -114,7 +114,7 @@ def parse(raw: bytes | str, *, source_id: str, document_id: str,
     if not isinstance(raw, (str, bytes)):
         raise ParseHold("PNI snapshot must be raw bytes or text")
     try:
-        blob = raw.encode("utf-8") if isinstance(raw, str) else raw
+        blob = raw.encode("cp1252" if encoding == "cp1252" else "utf-8") if isinstance(raw, str) else raw
     except UnicodeError as exc:
         raise ParseHold("invalid PNI text") from exc
     if not blob or len(blob) > MAX_SNAPSHOT_BYTES:
