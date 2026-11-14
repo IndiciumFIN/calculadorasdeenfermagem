@@ -100,6 +100,19 @@ class PniPrivacyParserTests(unittest.TestCase):
         self.assertEqual(from_csv["record_sha256"], from_zip["record_sha256"])
         self.assertNotEqual(from_csv["source_sha256"], from_zip["source_sha256"])
 
+    def test_declared_cp1252_text_is_hash_pinned_without_patient_export(self):
+        rows = [sample_row(i) for i in range(12)]
+        rows[0]["ds_vacina"] = "vacinação sintética"
+        raw = csv_snapshot(rows).decode("utf-8").encode("cp1252")
+        decoded = raw.decode("cp1252")
+        expected = hashlib.sha256(raw).hexdigest()
+        records = parse(decoded, source_id=SOURCE_ID, document_id=DOCUMENT_ID,
+                        snapshot_month="2026-10", expected_sha256=expected,
+                        encoding="cp1252")
+        self.assertEqual(records[0]["dose_records"], 12)
+        self.assertFalse(records[0]["publication_allowed"])
+        self.assertNotIn("vacinação", str(records))
+
     def test_repeated_document_is_rejected_even_if_aggregate_large(self):
         rows = [sample_row(i) for i in range(12)]
         rows[11]["co_documento"] = rows[1]["co_documento"]
