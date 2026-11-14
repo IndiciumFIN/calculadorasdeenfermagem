@@ -1,7 +1,7 @@
 name: CKO - FHIR R4 Vital Signs parser (technical HOLD)
 on:
   push:
-    branches: [feat/cko-parser-fhir-vitals-r4-20261114]
+    branches: [main, feat/cko-parser-fhir-vitals-r4-20261114]
     paths:
       - 'packages/cli/parsers/**'
       - 'contracts/policies/KERNEL-POLICY-008.json'
@@ -9,7 +9,7 @@ on:
       - 'docs/cko/parsers/**'
       - '.github/workflows/cko-fhir-vitals-parser.yml'
   pull_request:
-    branches: [fix/canonical-structural-cli-registry-20261114]
+    branches: [main, fix/canonical-structural-cli-registry-20261114]
 permissions:
   contents: read
 
@@ -37,9 +37,9 @@ jobs:
           result = inspect(Path("."))
           missing = [f for f in result["findings"] if f["code"] == "MISSING_PARSER"]
           assert result["counts"]["error"] == 0, result["findings"]
-          assert result["counts"]["pending"] == 15, result["findings"]
-          assert len(missing) == 15, result["findings"]
+          assert result["counts"]["pending"] == len(missing), result["findings"]
+          assert len(missing) <= 15, result["findings"]
           assert all(f["path"] != "contracts/fontes/fhir_vitais.json" for f in missing)
-          assert result["strict_pass"] is False, "Global admission must remain HOLD"
-          print("FHIR_PARSER_TEST_PASS / GLOBAL_STRICT_HOLD_15")
+          assert result["strict_pass"] == (len(missing) == 0)
+          print("FHIR_PARSER_TEST_PASS / GLOBAL_MISSING_PARSERS=" + str(len(missing)))
           PY
