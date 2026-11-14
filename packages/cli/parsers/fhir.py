@@ -109,10 +109,10 @@ def _normalize(obs: dict, document_id: str, source_id: str) -> dict:
         raise ParseHold("Observation.status: unsupported or invalid")
     categories = obs.get("category")
     if not isinstance(categories, list) or not any(
-        isinstance(c, dict) and any(
+        isinstance(c, dict) and isinstance(c.get("coding"), list) and any(
             isinstance(code, dict)
             and code.get("system") == CATEGORY_URI and code.get("code") == "vital-signs"
-            for code in c.get("coding", []) if isinstance(c.get("coding"), list))
+            for code in c["coding"])
         for c in categories
     ):
         raise ParseHold("Observation.category: missing HL7 vital-signs")
@@ -176,8 +176,11 @@ def parse(raw: bytes | str | dict, *, source_id: str, document_id: str) -> list[
     document_id = _nonempty(document_id, "document_id")
     if isinstance(raw, dict):
         obj = raw
-        encoded = json.dumps(raw, sort_keys=True, allow_nan=False,
-                             separators=(",", ":")).encode("utf-8")
+        try:
+            encoded = json.dumps(raw, sort_keys=True, allow_nan=False,
+                                 separators=(",", ":")).encode("utf-8")
+        except (TypeError, ValueError) as exc:
+            raise ParseHold("FHIR object is not valid JSON") from exc
     else:
         if not isinstance(raw, (bytes, str)):
             raise ParseHold("FHIR JSON must be a byte string, string or object")
