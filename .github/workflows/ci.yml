@@ -48,3 +48,5 @@ jobs:
         run: python -m packages.cli.main kernel list-policies
       - name: Verify negative and pending-HOLD regressions
         run: python -m unittest discover -s tests -p 'test_kernel_*.py' -v
+      - name: Reject masked CI checks and missing locked Next transitive package
+        run: python -m unittest discover -s tests -p 'test_ci_failclosed.py' -v
