@@ -1,0 +1,72 @@
+[
+  {
+    "id": "SRC-W5-ANVISA-RDC15-2012",
+    "kind": "primary_normative",
+    "title": "Resolução RDC Anvisa nº 15/2012 — Boas práticas para processamento de produtos para saúde",
+    "url": "https://bvs.saude.gov.br/bvs/saudelegis/anvisa/2012/rdc0015_15_03_2012.html",
+    "document_hash": null,
+    "hash_status": "SOURCE_BYTES_NOT_RECOVERED",
+    "currentness": "OFFICIAL_REPOSITORY_LISTS_AS_LEGISLATION; CONSOLIDATED_CURRENTNESS_NOT_VERIFIED",
+    "verified_locator_refs": [
+      "Art. 2º",
+      "Art. 3º",
+      "Art. 4º, incisos III e XXI",
+      "Art. 9º",
+      "Art. 15",
+      "Art. 21",
+      "Art. 25",
+      "Art. 26"
+    ]
+  },
+  {
+    "id": "SRC-W5-ANVISA-REPROC-2016",
+    "kind": "agency_guidance",
+    "title": "Anvisa — Reprocessamento de produto para saúde deve seguir regra",
+    "url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2016/reprocessamento-de-produto-para-saude-deve-seguir-regra",
+    "document_hash": null,
+    "hash_status": "SOURCE_BYTES_NOT_RECOVERED",
+    "currentness": "2016 agency explainer; regulatory amendments and current applicability still require review",
+    "verified_locator_refs": [
+      "RDC 156/2006",
+      "RE 2605/2006",
+      "RE 2606/2006",
+      "RDC 15/2012"
+    ]
+  },
+  {
+    "id": "SRC-W5-GITHUB-CME-LIB",
+    "kind": "existing_canonical_candidate",
+    "title": "Biblioteca CME já existente",
+    "url": "https://github.com/IndiciumFIN/dev-chatgpt-workspace/blob/main/contracts/cko-bibliotecas/entities/libraries/cme.library.json",
+    "git_blob_sha": "ed09a836d6e66663f4db0c25580e05738103b5f5"
+  },
+  {
+    "id": "SRC-W5-GITHUB-CME-CONTENT",
+    "kind": "existing_editorial_template",
+    "title": "Página de conteúdo CME / UI",
+    "url": "https://github.com/IndiciumFIN/dev-chatgpt-workspace/blob/main/contracts/cko-bibliotecas/bindings/content/cme.content.json",
+    "git_blob_sha": "4a0df56ca16f92d81fdf5ba9d9646e7a5310dd15"
+  },
+  {
+    "id": "SRC-W5-GITHUB-CME-PROVENANCE",
+    "kind": "existing_provenance",
+    "title": "Proveniência de módulos UI CME",
+    "url": "https://github.com/IndiciumFIN/dev-chatgpt-workspace/blob/main/contracts/cko-bibliotecas/bindings/provenance/cme.provenance.json",
+    "git_blob_sha": "225bfed18028f17141a391c62783cdfe0ebbb918"
+  },
+  {
+    "id": "SRC-W5-SUPABASE-LIB046",
+    "kind": "governance_profile",
+    "title": "cko_governance.b6_knowledge_library_profile_v1_candidate / LIB-046 — Materiais de CME",
+    "locator": "Supabase Calculadoras-Smart/pgsybzggewhinaniybiy; SELECT read only",
+    "status": "HOLD_NOT_AUTHORIZED"
+  },
+  {
+    "id": "SRC-W5-DRIVE-BIB-CIR",
+    "kind": "historical_related_page",
+    "title": "biblioteca-cirurgica.html — Biblioteca de Materiais Cirúrgicos - Instrumentais e CME",
+    "url": "https://drive.google.com/file/d/13HQPOXR1ozh_QtaFZDqO9iaP5FINKer9/view",
+    "source_bytes_sha": null,
+    "use": "related historical page, NOT editorial identity for CME"
+  }
+]

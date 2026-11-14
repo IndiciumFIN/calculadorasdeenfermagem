@@ -1,0 +1,71 @@
+{
+  "package": "CKO_W5_CME_INDEPENDENTE_20261114",
+  "date": "2026-11-14",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "e5f9ac9344db3880e4bcd3df9dfa11e0413028a10be4d020588f9dd2edc72708",
+      "size_bytes": 1475
+    },
+    {
+      "path": "dados/CME_CASOS_W5.jsonl",
+      "sha256": "c537ee94d4f1d5affd769c023836cf1c718bf708a91ef0a18367ac712ed5a8cd",
+      "size_bytes": 2908
+    },
+    {
+      "path": "dados/CME_FLASHCARDS_W5.jsonl",
+      "sha256": "f6d71c6b52eb888cca126d45e1dbcbb3f8d440341d2b5bdbef555f24af9d9d00",
+      "size_bytes": 4536
+    },
+    {
+      "path": "dados/CME_QUESTOES_W5.jsonl",
+      "sha256": "c71972b47aa039186b4fdca623570566695d9c05254be3a065b6b532b41cfa60",
+      "size_bytes": 7797
+    },
+    {
+      "path": "dados/CME_RELATIONS_CANDIDATES_W5.jsonl",
+      "sha256": "44761590a5d24ffebb8c28dba1a34c6a60012225b2bda305300099ff7b30d17e",
+      "size_bytes": 4028
+    },
+    {
+      "path": "dados/NORM_ATOMS_CANDIDATES_W5.jsonl",
+      "sha256": "99ed8449844cee0f58d74cff3d43add82f260f897acb60c013ba927b0db3d338",
+      "size_bytes": 3180
+    },
+    {
+      "path": "dados/SOURCE_LOCATOR_LEDGER.csv",
+      "sha256": "ae405d95bd10a51d6a5adad6331b6676cfb09503d806b60e1be9732d9ef4579f",
+      "size_bytes": 1023
+    },
+    {
+      "path": "editorial/CME_CASOS_EDUCACIONAIS_W5_DRAFT.md",
+      "sha256": "6dca72ee862dfbf606f1a48010478d8bba87239b41f947530f5c2988528f7873",
+      "size_bytes": 2781
+    },
+    {
+      "path": "editorial/CME_MODULO_DIDATICO_W5_DRAFT.md",
+      "sha256": "b24354d581d8a5146703b5ae3a62e48d161a2e9bf8eb4716c5dddbe97c819477",
+      "size_bytes": 11184
+    },
+    {
+      "path": "qa/QA_REPORT.json",
+      "sha256": "3cb02534e637f36cb6bc066158e4ef63e3bd68906db95121829821c29c1ca1b7",
+      "size_bytes": 3369
+    },
+    {
+      "path": "referencias/SOURCE_REGISTRY.json",
+      "sha256": "5da15611cb5fcf9c14637f5113907fbdfb78397ae5b98889a7515abffb365d78",
+      "size_bytes": 2954
+    },
+    {
+      "path": "revisao/QA_GATES.md",
+      "sha256": "373b80d03f5b356b1e6094529833889a492847cfd4c69c03fd2ce0ee5793e7d5",
+      "size_bytes": 1201
+    },
+    {
+      "path": "revisao/RECONCILIACAO_CME_LIB046_W5.md",
+      "sha256": "dbdd7179f3762270a69fd149258c7a79709112a595d4528dcd2240e9ca644769",
+      "size_bytes": 2633
+    }
+  ]
+}
