@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-11-14",
+  "mode": "READ_ONLY_METADATA_AND_ID_COMPARISON",
+  "origin": "Calculadoras-Smart Supabase project / CKO M08/M09 Git snapshot",
+  "clinical_authorized": false,
+  "publication_allowed": false,
+  "target_db": {
+    "project_name": "Calculadoras-Smart",
+    "schema": "cko_evidence",
+    "table": "claims"
+  },
+  "source_ref": {
+    "repository": "IndiciumFIN/calculadorasdeenfermagem",
+    "branch": "feat/cko-m08-m09-corpus-atomic-20261114",
+    "path": "governance/cko/canonical-atomic/2026-11-14/PMO_REGISTER_SNAPSHOT_M08_M09.json",
+    "blob_sha": "0275f657edd5b2e4ec4cd66cb99b760fa2807019"
+  },
+  "comparison": {
+    "source_claim_ids": 46,
+    "matching_claim_id_in_db": 0,
+    "db_total_claims": 41,
+    "method": "Exact IN match of 46 versioned CLAIM_LEDGER IDs, plus separate count of target claims table",
+    "status": "HOLD_CROSS_SOURCE_ID_MAPPING"
+  },
+  "other_schema_counts": {
+    "cko_evidence_sources": 157,
+    "cko_governance_documents": 187,
+    "cko_governance_rights_records": 2,
+    "ce_platform_source_mappings": 215
+  },
+  "caveats": [
+    "No row-level medical content or patient data accessed",
+    "Absent exact ID does not prove semantic absence; candidate may exist under alternative ID",
+    "No automatic insertion, ID generation, approval, licence inference or migration",
+    "Before import require authoritative ID map, source hashes, evidence and rights, duplicate semantic detection, reversible migration and human review"
+  ],
+  "p0_gate": "P0.01_HOLD"
+}
