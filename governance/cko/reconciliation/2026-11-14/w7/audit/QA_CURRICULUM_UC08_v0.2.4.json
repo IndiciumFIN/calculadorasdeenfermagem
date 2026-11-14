@@ -1,0 +1,47 @@
+{
+  "release": "CKO-W7-v0.2.4",
+  "analysis_scope": "ONLY_CARDIOLOGY_CSVS_FROM_cko/cardiologia-corpus-editorial-20261114",
+  "checks": [
+    {
+      "check": "10 UCs, 51 modules, 295 topics",
+      "pass": true
+    },
+    {
+      "check": "no duplicate unit/module/topic IDs",
+      "pass": true
+    },
+    {
+      "check": "no orphan module or topic references",
+      "pass": true
+    },
+    {
+      "check": "nine units internally consistent",
+      "pass": true
+    },
+    {
+      "check": "UC08 30h with no modules/topics",
+      "pass": true
+    },
+    {
+      "check": "UC08/UC09 normalized title collision",
+      "pass": true
+    },
+    {
+      "check": "300h declared 270h detailed discrepancy 30h",
+      "pass": true
+    },
+    {
+      "check": "UC07 and UC09 independent modules",
+      "pass": true
+    },
+    {
+      "check": "UC08 candidate not admitted",
+      "pass": true
+    }
+  ],
+  "pass": 9,
+  "fail": 0,
+  "test_meaning": "PASSED consistency of detection against observed conflict; curriculum remains NO_GO",
+  "institutional_approval": false,
+  "publication_allowed": false
+}
