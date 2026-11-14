@@ -1,0 +1,35 @@
+{
+  "checks": {
+    "M08_M09_provenance_46_of_46": true,
+    "M08_M09_text_and_document_hash_recomputed": true,
+    "all_9102_links_noncanonical": true,
+    "base_archive_is_8_files": true,
+    "branch_write_blocked_per_active_ruleset": true,
+    "curriculum_context_only_30": true,
+    "curriculum_exact_162_of_162": true,
+    "curriculum_join_mapping_274": true,
+    "negative_claim_approval_rejected": true,
+    "negative_tampered_evidence_sha_rejected": true,
+    "negative_unknown_atom_id_rejected": true,
+    "negative_unknown_curriculum_id_rejected": true,
+    "no_false_publication": true,
+    "no_secondary_source_originals_added": true,
+    "no_supabase_write": true,
+    "original_W7_manifest_sha_verified": true,
+    "pdf_atomization_not_durable_17": true,
+    "w5_8_no_norm_fragment_hashes": true,
+    "w6_12_original_findings": true,
+    "w6_6_no_norm_fragment_hashes": true
+  },
+  "not_verified": [
+    "official normative currency",
+    "legal rights approvals",
+    "clinical content approval",
+    "GitHub remote branch write",
+    "Supabase raw atomized JSONLs"
+  ],
+  "passed": 20,
+  "run_at_date": "2026-11-14",
+  "scope": "Structural and provenance integrity only",
+  "total": 20
+}

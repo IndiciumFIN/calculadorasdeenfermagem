@@ -1,0 +1,40 @@
+{
+  "cardiologia_grade": {
+    "UC": 10,
+    "basis": "previous GitHub branch, source text from user",
+    "module_count": 51,
+    "state": "HOLD_CURRICULUM_CONFLICT_UC08",
+    "topic_count": 295
+  },
+  "counts": {
+    "drive_curriculum_item_topic_mappings": 1514,
+    "drive_curriculum_items": 985,
+    "drive_curriculum_programs": 114,
+    "drive_curriculum_topics": 182,
+    "drive_documents": 124,
+    "drive_evidence_atoms": 28001,
+    "drive_evidence_topic_candidate_links": 9102,
+    "drive_sources": 118,
+    "selected_curriculum_items": 162,
+    "selected_curriculum_mappings": 274,
+    "selected_programs": 17,
+    "w7_context_links": 30
+  },
+  "date": "2026-11-14",
+  "hours_not_transferred": true,
+  "program_specialty_context_only": true,
+  "publication_allowed": false,
+  "rights_candidate_status": {
+    "ACTIVE_EVIDENCE_CANDIDATE": 4142,
+    "BLOCKED_RIGHTS_CANDIDATE": 3290,
+    "CONDITIONAL_RIGHTS_CANDIDATE": 1670
+  },
+  "semantic_approval": false,
+  "source": "Drive: CORPUS_CANONICO_INDIVIDUAL, plus W7/WORKSPACE candidate grade",
+  "specialty_separation": [
+    "CME",
+    "Centro Cirúrgico",
+    "SRPA",
+    "Cardiologia"
+  ]
+}

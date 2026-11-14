@@ -1,0 +1,13 @@
+﻿work_order_id,priority,owner_role,action,coverage,status,approval,promotion_allowed
+WO-CKO-W7-001,P0,SourceVerifier,"Reconciliar 118 fontes Drive ↔157 sources Supabase por URI, versão, autoridade e rights",118 vs 157,HOLD_SOURCE_RECONCILIATION,HOLD_HUMAN,False
+WO-CKO-W7-002,P0,NormativeHistorian,Recuperar documentos primários e SHA de fragmento dos 8 NormAtoms W5,0/8,HOLD_SOURCE_FRAGMENT_BYTES,HOLD_HUMAN,False
+WO-CKO-W7-003,P0,NormativeHistorian,Recuperar documento/fragmentos e SHA para as 6 fontes W6,0/6,HOLD_SOURCE,HOLD_HUMAN,False
+WO-CKO-W7-004,P0,CurriculumReviewer,Resolver UC08 Cardiologia contra UC07 e UC09 com ementa institucional,0/1 decisão,HOLD_CURRICULUM_CONFLICT,HOLD_HUMAN,False
+WO-CKO-W7-005,P0,RightsAndPrivacy,Revisar ZIPs das PRs públicas #39 #62 #64 e direitos por operação,0/3 concluídas,HOLD_RIGHTS,HOLD_HUMAN,False
+WO-CKO-W7-006,P0,DataSteward,Restaurar/ou comprovar integridade durável dos 17 JSONLs de PDF registrados no Supabase,0/17,HOLD_SOURCE_ARTIFACT,HOLD_HUMAN,False
+WO-CKO-W7-007,P0,ClinicalEvidenceReviewer,Revisar afirmações M08/M09 e evidências por aplicabilidade/atualidade; recibos independentes,0/46 aprovados,HOLD_CLINICAL,HOLD_HUMAN,False
+WO-CKO-W7-008,P1,OntologyAndKG,"Revisar 9.102 vínculos temáticos em filas, sem promover por similaridade lexical",0/9102 semântica aprovada,HOLD_SEMANTICS,HOLD_HUMAN,False
+WO-CKO-W7-009,P1,CurriculumReviewer,Validar 162 itens curriculares como contexto e 274 mappings; selecionar os adequados ao material autoral,0/162 aprovações,HOLD_CURRICULUM,HOLD_HUMAN,False
+WO-CKO-W7-010,P0,RepositoryMaintainer,"Excepcionar a branch W7 no ruleset 25580067, mantendo main protegida",0/1 branch,HOLD_GITHUB_RULESET,HOLD_HUMAN,False
+WO-CKO-W7-011,P1,PMOAndRelease,"Auditar CI, schema, direitos, i18n, publicação e approvals de W1–W6",0/6 PRs homologadas,HOLD_HUMAN,HOLD_HUMAN,False
+WO-CKO-W7-012,P1,OntologyAndKG,Reconciliar W4.1/W5/W6 com IDs canônicos; não criar novas bibliotecas e UCs,0 aprovadas,HOLD_RELATION_ADMISSION,HOLD_HUMAN,False

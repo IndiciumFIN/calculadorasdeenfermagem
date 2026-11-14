@@ -1,0 +1,21 @@
+{
+  "branch_remote_committed": false,
+  "clinical_approval": false,
+  "clinical_published": false,
+  "curriculum_approved": false,
+  "main_modified": false,
+  "normative_currency_approved": false,
+  "note": "technical integrity and public branch authorization do not confer clinical publication approval",
+  "required_human_reviews": [
+    "ClinicalEvidenceReviewer",
+    "NormativeHistorian",
+    "RightsAndPrivacy",
+    "CurriculumReviewer",
+    "PMOAndRelease"
+  ],
+  "ruleset_blocked": true,
+  "source_rights_approved": false,
+  "status": "NO_GO",
+  "supabase_mutation": false,
+  "version": "0.2.0"
+}

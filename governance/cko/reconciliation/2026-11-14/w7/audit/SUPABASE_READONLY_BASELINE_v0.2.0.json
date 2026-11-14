@@ -1,0 +1,36 @@
+{
+  "counts": {
+    "calculadoras_de_enfermagem.document_atomization": 17,
+    "ce_platform.content_documents": 0,
+    "ce_platform.courses": 0,
+    "cko_evidence.claims": 41,
+    "cko_evidence.evidence_bundles": 22,
+    "cko_evidence.sources": 157,
+    "cko_governance.normative_document_extractions": 33,
+    "cko_master.relationships": 7558
+  },
+  "known_source_rows": [
+    {
+      "accreditation_status": "PENDING_BOARD_REVIEW",
+      "source_id": "SRC-COFEN-RES-736-2024"
+    },
+    {
+      "accreditation_status": "PENDING_BOARD_REVIEW",
+      "source_id": "SRC-COFEN-RES-754-2024"
+    }
+  ],
+  "mutation_performed": false,
+  "observed_at_date": "2026-11-14",
+  "pdf_atomization": {
+    "jsonl_location_state": "LOCAL_ARTIFACT_NOT_DURABLE",
+    "literal_atoms": 25508,
+    "pdfs": 17,
+    "publication_allowed_rows": 0,
+    "release_id": "CKO-GROK-20261010-V1",
+    "undurable_rows": 17,
+    "visual_reference_atoms": 887
+  },
+  "project_id": "pgsybzggewhinaniybiy",
+  "query_mode": "SELECT_ONLY",
+  "source": "Supabase MCP direct SELECT results 2026-11-14"
+}

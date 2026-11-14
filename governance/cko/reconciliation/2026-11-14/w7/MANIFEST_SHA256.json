@@ -1,0 +1,41 @@
+{
+  "files": [
+    {
+      "bytes": 2695,
+      "path": "README.md",
+      "sha256": "023aa8ae4cb82db4b9e35652a752b08f0bbe7d2a8593c7789c1f5ca66f496ee0"
+    },
+    {
+      "bytes": 189875,
+      "path": "curriculum/162_curriculum_items_four_contexts_candidate.jsonl",
+      "sha256": "db55999df800a6f09790d706996622483633de4406abbf9d1e8a96d60c46fa32"
+    },
+    {
+      "bytes": 14767,
+      "path": "curriculum/program_to_w4_w5_w6_context_only.jsonl",
+      "sha256": "cf661549f1e5ec026ec71175ecbe30f107c68f2b475155326df4745f58059ea2"
+    },
+    {
+      "bytes": 42746,
+      "path": "evidence/46_claim_atom_exact_hash_checks.jsonl",
+      "sha256": "6fe1ed1b2d74ce28eb37b16a070dd90e76edbc3d64578f11ba627b8e344b852d"
+    },
+    {
+      "bytes": 2672,
+      "path": "evidence/w5_norm_atoms_hash_gaps.jsonl",
+      "sha256": "e1ddf15e5f42e162fd003bd6e32ef2f1353b45bfe64b531f0205b666b6eca866"
+    },
+    {
+      "bytes": 1702,
+      "path": "qa/RECONCILIATION_QA.json",
+      "sha256": "cf5db44f388c442926da90ce4b480cbe43e843970c5ed1dd56e972fb786e7541"
+    },
+    {
+      "bytes": 7569,
+      "path": "sources/w5_w6_source_identity_candidate_crosswalk.jsonl",
+      "sha256": "6f531463106a487c3493d92b36c5a98f32e7aeae70c394c6aab7d95479bdbe69"
+    }
+  ],
+  "generated_at": "2026-11-14",
+  "schema_version": "1.0.0"
+}
