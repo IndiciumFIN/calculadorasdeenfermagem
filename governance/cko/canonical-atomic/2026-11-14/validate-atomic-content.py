@@ -73,7 +73,9 @@ if snapshot.is_file():
    check({x[0] for x in claim_rows}==claim_ids,"PMO claim IDs mismatch")
    check({x[0] for x in evidence_rows}==evidence_ids,"PMO evidence IDs mismatch")
    check(all(x[4] in evidence_ids for x in claim_rows),"Claim references missing evidence")
-   check(all(x[1] in docs and x[3] in claim_ids for x in evidence_rows),
+   check(all(x[1] in docs and bool(x[3].strip()) and
+             all(link.strip() in claim_ids for link in x[3].split(";"))
+             for x in evidence_rows),
          "Evidence references missing document or claim")
    check(all(s in source_ids for s in docs.values()),"Document references unknown source")
    check(all(len(x)>10 and x[9]=="PENDING_CLINICAL_AND_EDITORIAL_REVIEW"
