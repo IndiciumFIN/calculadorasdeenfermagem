@@ -1,0 +1,110 @@
+name: CKO - Catalogo e metamodelo derivados (sem publicacao)
+on:
+  push:
+    branches:
+      - feat/cko-catalog-metamodel-automated-20261114
+      - main
+    paths:
+      - 'contracts/fontes/**'
+      - 'contracts/policies/**'
+      - 'packages/cli/parsers/**'
+      - 'scripts/cko_catalog.py'
+      - 'tests/test_cko_catalog.py'
+      - '.github/workflows/cko-canonical-catalog.yml'
+  pull_request:
+    branches:
+      - fix/canonical-structural-cli-registry-20261114
+      - main
+permissions:
+  contents: read
+
+jobs:
+  build-cko-catalog:
+    name: Gerar dicionario/metamodelo/ERD e checar relacionamentos
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Compile generator and tests
+        run: python -m compileall -q scripts/cko_catalog.py tests/test_cko_catalog.py
+      - name: Test negative invariants, lineage and deterministic output
+        run: python -m unittest discover -s tests -p 'test_cko_catalog.py' -v
+      - name: Auto-generate derived artifacts from canonical contracts
+        run: python scripts/cko_catalog.py --out-dir "${{ runner.temp }}/cko-catalog"
+      - name: Verify deterministic output and no drift
+        run: python scripts/cko_catalog.py --check --out-dir "${{ runner.temp }}/cko-catalog"
+      - name: Confirm no orphan nodes and no release
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+          root = Path(os.environ["RUNNER_TEMP"]) / "cko-catalog"
+          data = json.loads((root / "catalog.json").read_text(encoding="utf-8"))
+          stats = data["statistics"]
+          assert stats["errors"] == 0, data["findings"]
+          assert data["publication_allowed"] is False
+          assert all(node.get("release_allowed") is False for node in data["entities"])
+          assert all(x["source"] in {node["id"] for node in data["entities"]}
+                     and x["target"] in {node["id"] for node in data["entities"]}
+                     for x in data["relationships"])
+          print("CATALOG_GRAPH_VALID / MISSING_PARSERS=" + str(stats["missing_parsers"]))
+          print("PENDING_BY_CODE=" + json.dumps(stats["finding_counts_by_code"], sort_keys=True))
+          print("RELEASE_HOLD / METADATA_ONLY")
+          PY
+      - name: Upload deterministic metadata graph for review
+        uses: actions/upload-artifact@v4
+        with:
+          name: cko-catalog-metamodel-${{ github.sha }}
+          path: ${{ runner.temp }}/cko-catalog/
+          retention-days: 30
+          if-no-files-found: error
+      - name: Fetch pinned PMO M08/M09 metadata snapshot (read-only)
+        uses: actions/checkout@v4
+        with:
+          ref: d395f6e69e935570d5355ba930745bf8cd91f537
+          path: _cko_pmo_source
+          persist-credentials: false
+          sparse-checkout: |
+            governance/cko/canonical-atomic/2026-11-14/PMO_REGISTER_SNAPSHOT_M08_M09.json
+          sparse-checkout-cone-mode: false
+      - name: Reconcile real PMO candidate lineage with the canonical contract graph
+        run: |
+          python scripts/cko_catalog.py \
+            --pmo "_cko_pmo_source/governance/cko/canonical-atomic/2026-11-14/PMO_REGISTER_SNAPSHOT_M08_M09.json" \
+            --out-dir "${{ runner.temp }}/cko-lineage"
+          python scripts/cko_catalog.py \
+            --pmo "_cko_pmo_source/governance/cko/canonical-atomic/2026-11-14/PMO_REGISTER_SNAPSHOT_M08_M09.json" \
+            --out-dir "${{ runner.temp }}/cko-lineage" --check
+      - name: Block missing norm, evidence, claim or content links and any promotion
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+          c = json.loads((Path(os.environ["RUNNER_TEMP"]) / "cko-lineage/catalog.json").read_text())
+          from collections import Counter
+          counts = Counter(n["type"] for n in c["entities"])
+          assert c["statistics"]["errors"] == 0, c["findings"]
+          assert counts["NORM_SOURCE"] == 2, counts
+          assert counts["NORM_DOCUMENT"] == 2, counts
+          assert counts["EVIDENCE_ATOM"] == 43, counts
+          assert counts["CANDIDATE_CLAIM"] == 46, counts
+          assert counts["EDITORIAL_CONTENT"] == 6, counts
+          assert c["publication_allowed"] is False
+          assert "pmo_snapshot_sha256" in c["verified_input_digest"]
+          assert all(n.get("release_allowed") is False for n in c["entities"])
+          print("M08M09_PMOGRAFO_VALID / 46_CLAIMS / 43_EVIDENCE / 6_CONTENT_MASTERS")
+          print("PMO_PENDING_BY_CODE=" + json.dumps(c["statistics"]["finding_counts_by_code"], sort_keys=True))
+          print("NORMATIVE_CROSSWALK_REMAINS_PENDING / NO_CLINICAL_PROMOTION")
+          PY
+      - name: Upload private derived PMO lineage (IDs only, no source text)
+        uses: actions/upload-artifact@v4
+        with:
+          name: cko-m08m09-candidate-lineage-${{ github.sha }}
+          path: ${{ runner.temp }}/cko-lineage/
+          retention-days: 30
+          if-no-files-found: error

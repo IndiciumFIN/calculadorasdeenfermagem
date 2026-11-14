@@ -2,7 +2,7 @@
   "schema": "CE-KERNEL-POLICY-1.0.0",
   "id": "KERNEL-POLICY-005",
   "name": "MeSH Terminologia",
-  "description": "Valida descritores MeSH da NLM",
+  "description": "MeSH XML descritores e hierarquia somente como metadados candidatos; exigir direitos por operação, WO e revisão humana",
   "source_contract": "contracts/fontes/mesh.json",
   "validators": [
     "mesh_validator",
@@ -10,16 +10,18 @@
   ],
   "atoms_output": "data/canonical/atoms/mesh/",
   "quarentena_output": "data/quarentena/mesh/",
-  "sha256_required": false,
+  "sha256_required": true,
   "fail_closed": true,
-  "requires_human_review": false,
+  "requires_human_review": true,
   "review_policy": {
-    "min_sample_size": 0,
-    "approval_required": null,
-    "reviewed_by_in_commit": false
+    "min_sample_size": 1,
+    "approval_required": true,
+    "reviewed_by_in_commit": true
   },
-  "wo_required": false,
+  "wo_required": true,
   "wo_template": null,
-  "version": "1.0.0",
-  "updated_at": "2026-10-17T00:00:00Z"
+  "version": "1.1.0",
+  "updated_at": "2026-11-14T00:00:00Z",
+  "processing_scope": "METADATA_ONLY_PENDING_NLM_RIGHTS",
+  "publication_allowed": false
 }
