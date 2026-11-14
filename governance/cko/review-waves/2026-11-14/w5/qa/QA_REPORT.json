@@ -1,0 +1,149 @@
+{
+  "run_at": "2026-11-14",
+  "tests": [
+    {
+      "test_id": "W5-QA-01",
+      "name": "CME módulo independente",
+      "status": "PASS"
+    },
+    {
+      "test_id": "W5-QA-02",
+      "name": "CME biblioteca já existente",
+      "status": "PASS"
+    },
+    {
+      "test_id": "W5-QA-03",
+      "name": "Não criou curso",
+      "status": "PASS"
+    },
+    {
+      "test_id": "W5-QA-04",
+      "name": "Não atribuiu carga horária",
+      "status": "PASS"
+    },
+    {
+      "test_id": "W5-QA-05",
+      "name": "Não confundiu com cardiologia",
+      "status": "PASS"
+    },
+    {
+      "test_id": "W5-QA-06",
+      "name": "Direitos bloqueados",
+      "status": "PASS"
+    },
+    {
+      "test_id": "W5-QA-07",
+      "name": "Publicação bloqueada",
+      "status": "PASS"
+    },
+    {
+      "test_id": "W5-QA-08",
+      "name": "Cinco casos fictícios",
+      "status": "PASS"
+    },
+    {
+      "test_id": "W5-QA-09",
+      "name": "Doze perguntas",
+      "status": "PASS"
+    },
+    {
+      "test_id": "W5-QA-10",
+      "name": "14 flashcards",
+      "status": "PASS"
+    },
+    {
+      "test_id": "W5-QA-11",
+      "name": "Oito NormAtoms",
+      "status": "PASS"
+    },
+    {
+      "test_id": "W5-QA-12",
+      "name": "11 módulos UI preexistentes",
+      "status": "PASS"
+    },
+    {
+      "test_id": "W5-QA-13",
+      "name": "15 relações (11 UI + 4 cruzadas)",
+      "status": "PASS"
+    },
+    {
+      "test_id": "W5-QA-14",
+      "name": "Sem duplicação de arestas",
+      "status": "PASS"
+    },
+    {
+      "test_id": "W5-QA-15",
+      "name": "Nenhum EQUIVALENT_TO não verificado",
+      "status": "PASS"
+    },
+    {
+      "test_id": "W5-QA-16",
+      "name": "Todos os NormAtoms sem hash/sem homologação",
+      "status": "PASS"
+    },
+    {
+      "test_id": "W5-QA-17",
+      "name": "Todas as questões com 4 alternativas",
+      "status": "PASS"
+    },
+    {
+      "test_id": "W5-QA-18",
+      "name": "Todas as questões com resposta existente",
+      "status": "PASS"
+    },
+    {
+      "test_id": "W5-QA-19",
+      "name": "As questões têm justificativa",
+      "status": "PASS"
+    },
+    {
+      "test_id": "W5-QA-20",
+      "name": "Questões não publicáveis",
+      "status": "PASS"
+    },
+    {
+      "test_id": "W5-QA-21",
+      "name": "Fonte normativa principal linkada",
+      "status": "PASS"
+    },
+    {
+      "test_id": "W5-QA-22",
+      "name": "Fonte sem hash não inventado",
+      "status": "PASS"
+    },
+    {
+      "test_id": "W5-QA-23",
+      "name": "Origem e perfil possuem vínculo candidato",
+      "status": "PASS"
+    },
+    {
+      "test_id": "W5-QA-24",
+      "name": "Centro Cirúrgico relacionado e não fundido",
+      "status": "PASS"
+    },
+    {
+      "test_id": "W5-QA-25",
+      "name": "Teste negativo: publicação indevida rejeitada",
+      "status": "PASS"
+    },
+    {
+      "test_id": "W5-QA-26",
+      "name": "Teste negativo: equivalência automática rejeitada",
+      "status": "PASS"
+    },
+    {
+      "test_id": "W5-QA-27",
+      "name": "Teste negativo: carga/curso fictício rejeitado",
+      "status": "PASS"
+    },
+    {
+      "test_id": "W5-QA-28",
+      "name": "Todos os arquivos JSONL parseáveis",
+      "status": "PASS"
+    }
+  ],
+  "pass": 28,
+  "fail": 0,
+  "decision": "HOLD_HUMAN_NO_GO",
+  "scope": "LOCAL_STRUCTURAL_AND_NEGATIVE_TESTS_NOT_CLINICAL_VALIDATION"
+}
