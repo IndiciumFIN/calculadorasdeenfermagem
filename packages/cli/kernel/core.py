@@ -63,7 +63,27 @@ class Decision(str, Enum):
 
 
 def _release_on_hold(policy) -> bool:
-    """Source config is not proof of independently verified review/rights."""
+    """No candidate JSON may self-certify a clinical or normative release.
+
+    This Kernel does not yet have an external, independent attestation verifier.
+    Hence policy booleans are *not* a trust root. Only an explicitly labeled
+    synthetic fixture can yield APPROVED (technical testing, never clinical).
+    All policies tied to a real normative/source contract remain HOLD even
+    when their own flags claim that clinical or rights review is complete.
+    """
+    scope = getattr(policy, "processing_scope", "HOLD_UNREVIEWED")
+    identity = getattr(policy, "id", "")
+    source = getattr(policy, "source_contract", "")
+    synthetic = (
+        scope == "SYNTHETIC_ONLY"
+        and isinstance(identity, str)
+        and identity.startswith("TEST-")
+        and isinstance(source, str)
+        and source.startswith("contracts/fixtures/")
+    )
+    if not synthetic:
+        return True
+
     review = getattr(policy, "review_policy", None)
     return bool(
         getattr(policy, "requires_human_review", True)
