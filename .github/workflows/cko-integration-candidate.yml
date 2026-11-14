@@ -48,7 +48,7 @@ jobs:
           python -m unittest discover -s tests -p 'test_kernel_wo_g6_preflight.py' -v
       - name: Verify G6 GitHub HEAD-bound independent review controls (synthetic negative tests)
         run: python -m unittest discover -s tests -p 'test_cko_g6_github_reviews.py' -v
-      - name: AST audit: source binding and no fake parser existence
+      - name: AST source binding and no fake parser existence
         run: |
           python -m unittest discover -s tests -p 'test_cko_parser_contract_audit.py' -v
           python scripts/cko_parser_contract_audit.py --output "${{ runner.temp }}/cko-parser-ast.json"
