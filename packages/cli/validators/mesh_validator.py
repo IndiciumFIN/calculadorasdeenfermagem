@@ -1,8 +1,8 @@
 """Validador mesh_validator — Valida descritores MeSH da NLM/NIH."""
 from __future__ import annotations
 from typing import Any
-from validators.base import BaseValidator
-from validators.registry import register
+from packages.cli.validators.base import BaseValidator
+from packages.cli.validators.registry import register
 
 @register
 class CLASS_mesh_validator(BaseValidator):
