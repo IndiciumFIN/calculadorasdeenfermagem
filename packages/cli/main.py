@@ -24,9 +24,16 @@ from packages.schemas.invariantes import AtomoBlindado
 from packages.cli.adapters.dou import fetch_dou_federal
 from packages.cli.adapters.secundaria import fetch_secundaria
 
+# O pacote do Kernel vive em packages/cli e importa `kernel` / `validators`
+# como top-level. Sem isto, `python -m packages.cli.main` não chega a submeter WO.
+_CLI_DIR = Path(__file__).resolve().parent
+if str(_CLI_DIR) not in sys.path:
+    sys.path.insert(0, str(_CLI_DIR))
+
 # Kernel subcommands
 from kernel.core import Kernel, Decision
 from kernel.policy_registry import get_policy, list_policies
+from kernel.work_orders import execution_exit_code, submit_drive_activities
 from validators.registry import list_validators
 
 app = typer.Typer(help="CLI canônica e blindada — Calculadoras de Enfermagem")
@@ -227,6 +234,44 @@ def kernel_list_validators() -> None:
     for v in validators:
         typer.echo(f"  - {v}")
     typer.echo()
+
+
+@kernel_app.command("submit-wo")
+def kernel_submit_wo(
+    folder: str = typer.Option(
+        ...,
+        "--folder",
+        "-f",
+        help="ID ou URL da pasta Drive. O Kernel submete a WO e não baixa bytes se a política recusar.",
+    ),
+    tarefa: Optional[list[str]] = typer.Option(
+        None,
+        "--tarefa",
+        "-t",
+        help="Atividade: obter e/ou atomizar. Uma WO por atividade.",
+    ),
+) -> None:
+    """Submete WO de obter/atomizar. Exit 2 se a política não autorizar execução."""
+    repo_root = Path(__file__).resolve().parents[2]
+    try:
+        orders = submit_drive_activities(
+            folder=folder,
+            tarefas=tarefa or ["obter", "atomizar"],
+            repo_root=repo_root,
+        )
+    except ValueError as exc:
+        typer.secho(f"❌ WO não submetida: {exc}", fg=typer.colors.RED)
+        raise typer.Exit(2)
+
+    for order in orders:
+        typer.echo(f"{order['id']} {order['estado']} — {order['motivo']}")
+    code = execution_exit_code(orders)
+    if code != 0:
+        typer.secho(
+            "Kernel submeteu as WO e não adquiriu bytes nem emitiu átomos.",
+            fg=typer.colors.YELLOW,
+        )
+    raise typer.Exit(code)
 
 
 @kernel_app.command("test-validators")
