@@ -102,7 +102,7 @@ def parse(raw: bytes | str, *, source_id: str, document_id: str,
     if archive_sha != expected_sha256:
         raise ParseHold("source byte hash does not match declared snapshot")
 
-    seen = set()
+    seen = {}
     rows_out = []
     for member_name, data in _read_members(blob):
         member_digest = hashlib.sha256(data).hexdigest()
@@ -133,9 +133,7 @@ def parse(raw: bytes | str, *, source_id: str, document_id: str,
                 org = _required_text(record["ORIGEM"], "ORIGEM", 2000)
                 area = _required_text(record["TX_AREA"], "TX_AREA", 2000)
                 record_key = (member_name, uf, ibge, year, month, qty, inp, org, area)
-                if record_key in seen:
-                    raise ParseHold("duplicate exact SIES source row")
-                seen.add(record_key)
+                seen[record_key] = seen.get(record_key, 0) + 1
                 candidate = {
                     "uf_candidate": uf,
                     "ibge_municipio_candidate": ibge,
@@ -150,6 +148,7 @@ def parse(raw: bytes | str, *, source_id: str, document_id: str,
                 rows_out.append({
                     **candidate,
                     "record_sha256": record_sha,
+                    "source_occurrence_index": seen[record_key],
                     "source_sha256": archive_sha,
                     "csv_member_sha256": member_digest,
                     "source_id": source_id, "document_id": document_id,
