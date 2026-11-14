@@ -4,13 +4,16 @@ version: 0.1.0
 locale: pt-BR
 status: DRAFT_EDITORIAL / HOLD_HUMAN / HOLD_RIGHTS / NO_GO
 parent_content_id: CKO-CORE-PROCESSO-ENFERMAGEM
-context: Cardiologia e cirurgia cardíaca
+context: Cardiologia — especialidade/trilha curricular, não módulo W4
+classification: CURRICULUM_SPECIALTY_PROJECTION
+curriculum_topic_ref: CARDIOLOGIA-UC-03-MOD-01-TOP-01
+curriculum_status: CANDIDATE_NOT_ADMITTED
 ---
 
 
-# Processo de Enfermagem e documentação na transição do cuidado cardiovascular
+# Cardiologia — projeção curricular do Processo de Enfermagem
 
-> **Complemento educacional candidato.** Não substitui o CORE nem a documentação histórica; não constitui protocolo assistencial e não autoriza publicação. Conteúdo derivado de normas e rascunhos anteriores, distinto de uma orientação clínica homologada.
+> **Projeção da especialidade Cardiologia, não um módulo curricular.** Não substitui o CORE nem a documentação histórica; não constitui protocolo assistencial e não autoriza publicação. Conteúdo derivado de normas e rascunhos anteriores, distinto de uma orientação clínica homologada.
 
 ## Onde este texto se encaixa
 O projeto já possui o CORE `CKO-CORE-PROCESSO-ENFERMAGEM`, a W3 e as revisões M08/M09. Este arquivo é uma **projeção de aprendizagem** e não uma cópia nem uma substituição do artigo. Vínculo curricular candidato: `CARDIOLOGIA-UC-03-MOD-01-TOP-01`. Critério de decisão: reutilizar a estrutura normativa do PE e criar somente as aplicações de registro que o escopo da especialidade comporta.
@@ -69,7 +72,7 @@ Caso fictício: em unidade de cuidado cardiovascular, uma pessoa comunica que su
 **Gabarito:** B. Não há evidência clínica contextual aprovada nem ementa UC08 reconciliada. (Claims existentes: CKO-CLAIM-M09-PE-20.)
 
 ## Checklist de revisão do aluno (não assistencial)
-- [ ] O módulo não presume competências clínicas sobre ECMO/transplante
+- [ ] Esta projeção não presume competências clínicas sobre ECMO/transplante
 - [ ] Há vínculo ao CORE existente e ao tópico curricular documentado
 - [ ] Etapas e registros permanecem diferenciados
 - [ ] Nomes das UCs 07, 08 e 09 continuam sem reconciliação automática
@@ -88,7 +91,12 @@ UC08 = HOLD_CURRICULUM_CONFLICT; eixos de cirurgia, assistência a ECMO e transp
 
 ## Revisões obrigatórias
 - [ ] Conferir versões e dispositivos das fontes primárias.
-- [ ] Conferir correspondência entre claim histórica e afirmação do módulo, por trecho e localizador.
+- [ ] Conferir correspondência entre claim histórica e afirmação desta projeção, por trecho e localizador.
 - [ ] Revisar direitos por operação (inclusive materiais OMS/terceiros).
 - [ ] Revisão independente normativa, clínica especializada e editorial.
 - [ ] Registrar recibo de aprovação, acessibilidade e controles de publicação antes de liberar.
+
+## Revisão da classificação W4.1
+- Cardiologia pertence à **trilha curricular/especialidade**, com 10 UCs, 51 módulos detalhados e 295 tópicos candidatos, conforme currículo do `dev-chatgpt-workspace` PR #66.
+- Este material reutiliza o CORE para o tópico `CARDIOLOGIA-UC-03-MOD-01-TOP-01`; não cria UC, módulo, hora, competência ou nova trilha.
+- Conflito UC08/UC07/UC09 mantém `HOLD_CURRICULUM_CONFLICT`. Esta correção não promove conteúdo clínico nem resolve a ementa.
