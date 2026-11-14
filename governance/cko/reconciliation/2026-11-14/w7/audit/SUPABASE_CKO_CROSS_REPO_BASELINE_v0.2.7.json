@@ -1,0 +1,76 @@
+{
+  "release": "CKO-W7-v0.2.7",
+  "project_alias": "Calculadoras-Smart",
+  "source": "Live read-only Supabase SQL: information_schema, pg_class, direct counts, join integrity and role usage",
+  "metrics": {
+    "sources": 157,
+    "claims": 41,
+    "fragments": 103,
+    "assertions": 46,
+    "snapshots": 84,
+    "evidence_bundles": 22,
+    "relationships": 7558,
+    "controlled_candidate_relationships": 6930,
+    "canonical_objects": 320,
+    "canonical_publication": {
+      "HOLD_HUMAN": 190,
+      "HOLD": 93,
+      "BLOCKED": 37
+    },
+    "source_mappings": 215,
+    "mapped_canonical_objects": 145,
+    "source_mappings_orphan": 0,
+    "platform_relations": 38,
+    "platform_relations_missing_endpoints": 0,
+    "normative_extractions": 33,
+    "agents_registered": 89,
+    "agents_active_ai": 86,
+    "agents_active_deterministic": 1,
+    "agents_active_human": 1,
+    "agents_waiting_ai": 1,
+    "content_documents": 0,
+    "content_blocks": 0,
+    "courses": 0,
+    "questions": 0,
+    "assessments": 0,
+    "clinical_evidence_bindings": 0,
+    "git_pmo_claims": 46,
+    "git_pmo_claims_matching_db_id": 0
+  },
+  "source_permissions": {
+    "cko_evidence": {
+      "tables": 7,
+      "rls_enabled": 0
+    },
+    "cko_governance": {
+      "tables": 88,
+      "rls_enabled": 3
+    },
+    "cko_master": {
+      "tables": 6,
+      "rls_enabled": 0
+    },
+    "ce_platform": {
+      "tables": 96,
+      "rls_enabled": 96
+    },
+    "calculadoras_de_enfermagem": {
+      "tables": 22,
+      "rls_enabled": 22
+    },
+    "anon_auth_schema_usage_observed": false,
+    "warning": "RLS off in nonexposed schemas is not sufficient evidence of unauthorized access; verify exposed schemas/GRANT/environment."
+  },
+  "claim_crosswalk": {
+    "pmo_blob_sha": "0275f657edd5b2e4ec4cd66cb99b760fa2807019",
+    "unique_ids": 46,
+    "sql_exact_matches": 0,
+    "semantic_equivalence_not_checked": true
+  },
+  "notes": [
+    "All 320 platform canonical objects have blocked/hold publication state",
+    "7558 directed graph relations include 6930 controlled candidates and inverses; avoid treating as approved facts",
+    "89 actors in governance registry is not proof of running services",
+    "No data written. Zero content projection rows in named tables does not imply no source content in Git/Drive."
+  ]
+}

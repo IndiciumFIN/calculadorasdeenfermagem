@@ -1,0 +1,49 @@
+{
+  "release": "CKO-W7-v0.2.7",
+  "scope": "Metadata and selected code readback; no CI or E2E asserted",
+  "passed": 10,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "all_128_branches",
+      "pass": true
+    },
+    {
+      "name": "private_sha_redacted",
+      "pass": true
+    },
+    {
+      "name": "w7_head",
+      "pass": true
+    },
+    {
+      "name": "main_unchanged",
+      "pass": true
+    },
+    {
+      "name": "320_objects_all_hold",
+      "pass": true
+    },
+    {
+      "name": "89_actors_conserve",
+      "pass": true
+    },
+    {
+      "name": "46_claim_id_gap",
+      "pass": true
+    },
+    {
+      "name": "zero_projection",
+      "pass": true
+    },
+    {
+      "name": "no_automatic_merge",
+      "pass": true
+    },
+    {
+      "name": "no_clinical_promotion",
+      "pass": true
+    }
+  ],
+  "clinical_promotion_allowed": false
+}

@@ -1,0 +1,83 @@
+[
+  {
+    "finding_id": "W7-017",
+    "priority": "P0",
+    "finding": "46 M08/M09 Git claims have zero exact IDs in 41 existing DB claims",
+    "gate": "HOLD_CANONICAL_ID_CROSSWALK",
+    "verified_date": "2026-11-14",
+    "previous_findings_retained": true,
+    "publish_allowed": false
+  },
+  {
+    "finding_id": "W7-018",
+    "priority": "P0",
+    "finding": "No rows in six named educational projection tables",
+    "gate": "HOLD_EDITORIAL_PROJECTION",
+    "verified_date": "2026-11-14",
+    "previous_findings_retained": true,
+    "publish_allowed": false
+  },
+  {
+    "finding_id": "W7-019",
+    "priority": "P0",
+    "finding": "Nine validators fail closed but remain nonfunctional; historical README stale",
+    "gate": "HOLD_VALIDATORS",
+    "verified_date": "2026-11-14",
+    "previous_findings_retained": true,
+    "publish_allowed": false
+  },
+  {
+    "finding_id": "W7-020",
+    "priority": "P0",
+    "finding": "Five declared parsers missing: atlas, cdsi, esavi, sinan, taco",
+    "gate": "HOLD_SOURCE_VERSION_RIGHTS",
+    "verified_date": "2026-11-14",
+    "previous_findings_retained": true,
+    "publish_allowed": false
+  },
+  {
+    "finding_id": "W7-021",
+    "priority": "P1",
+    "finding": "CKO RLS differs by schema; no anon/auth schema usage found; not an exposure claim",
+    "gate": "SECURITY_REVIEW",
+    "verified_date": "2026-11-14",
+    "previous_findings_retained": true,
+    "publish_allowed": false
+  },
+  {
+    "finding_id": "W7-022",
+    "priority": "P0",
+    "finding": "Stacked PR60/PR61 and overlapping parser/metamodel/CI branches",
+    "gate": "HOLD_MERGE_CONFLICT_REVIEW",
+    "verified_date": "2026-11-14",
+    "previous_findings_retained": true,
+    "publish_allowed": false
+  },
+  {
+    "finding_id": "W7-023",
+    "priority": "P1",
+    "finding": "89 registered agents not runtime proof",
+    "gate": "HOLD_AGENT_RUNTIME",
+    "verified_date": "2026-11-14",
+    "previous_findings_retained": true,
+    "publish_allowed": false
+  },
+  {
+    "finding_id": "W7-024",
+    "priority": "P1",
+    "finding": "6930 candidate relationship rows require evidence and semantic admission",
+    "gate": "HOLD_RELATION_SEMANTICS",
+    "verified_date": "2026-11-14",
+    "previous_findings_retained": true,
+    "publish_allowed": false
+  },
+  {
+    "finding_id": "W7-025",
+    "priority": "P1",
+    "finding": "Legacy divergent branches and separate app modules need canonical crosswalk",
+    "gate": "KEEP_PROJECT_BOUNDARIES",
+    "verified_date": "2026-11-14",
+    "previous_findings_retained": true,
+    "publish_allowed": false
+  }
+]

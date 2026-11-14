@@ -1,0 +1,19 @@
+{
+  "branch": "integration/cko-parsers-catalog-20261114",
+  "validators": [
+    "catmat",
+    "cid10",
+    "cid11",
+    "cvx",
+    "human_review",
+    "loinc",
+    "mesh",
+    "ncm",
+    "schema"
+  ],
+  "all_current_validate_methods": "return False with HOLD",
+  "original_report": "VALIDATOR_STUBS_9_AND_ACCEPTANCE.md",
+  "report_currentness": "STALE_ABOUT_RETURN_TRUE",
+  "functional_validation_approved": false,
+  "source": "Nine current files individually fetched and inspected"
+}
