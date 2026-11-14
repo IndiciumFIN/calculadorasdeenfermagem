@@ -1,0 +1,51 @@
+# P0 — Recuperação e controle de aceite (14/11/2026)
+
+**Escopo:** integridade e custódia dos 13 arquivos fornecidos + reconciliação do trabalho existente. **Não é aprovação clínica, não é alteração de produção e não é autorização de merge.**
+
+## Evidência concluída: P0.00
+
+- 13/13 anexos acessíveis: 12 ZIPs e 1 Python. 608 entradas ZIP e 6 ZIPs internos (290 entradas adicionais), auditados por CRC/SHA256 sem extração para disco nem execução de scripts recebidos.
+- 7/7 testes adversariais locais PASS: ZIP slip, ZIP inválido, mutação de bytes, reordenação de entradas, ZIP aninhado, proibição de executar upload e proibição de aprovação clínica por mero inventário.
+- 3 pares logicamente idênticos. `6a990df176437fa46470a74e(1).zip` é subconjunto exato da versão com espaço, que contém 100 entradas adicionais. 9 unidades lógicas distintas; nenhuma exclusão de originais.
+- Snapshot compacto com nomes e SHA-256 em `P0_SOURCE_INPUT_SNAPSHOT.v1.json`. Não inclui os próprios ZIPs/terceiros, dados clínicos ou credenciais.
+
+**PASS somente para integridade dos 13 anexos. O estado P0 GLOBAL é HOLD.**
+
+## Reutilização identificada
+
+| Frente | Já existe | Destino |
+| --- | --- | --- |
+| NURSE-OS | POL-001..025, 13 fabrics, seis verticais, uma prova histórica sintética de SAE | Confrontar evidência runtime, não reescrever |
+| NORM-KERNEL | `pipeline.py` v0.7.5 e 16 gates alegados, 14 políticas, registries | Conferir gates efetivos; documento técnico antigo ainda diz 15 |
+| CKO intake | 12 objetos candidatos; vínculo com libraries | Validar schema, `field_binding_ids` e `clinical_claim_ids` antes de admitir |
+| CKO doenças | cinco objetos e extensão disease | Manter HOLD_CLINICAL / HOLD_RIGHTS |
+| Medicamentos | conversor denso → `medication.schema.json` | Reter `held_blocks`; revisar direitos por campo, IDs e sem-registro |
+| Drive | CORPUS & KNOWLEDGE PMO, abas SOURCE_REGISTER, DOCUMENT_REGISTER, EVIDENCE_ATOMS, CLAIM_LEDGER, RIGHTS_REGISTER, HOLD_HUMAN e mais | Reconciliar IDs/versões por linha, não confundir presença com aprovação |
+| Supabase | Calculadoras-Smart com schemas CKO e funções | Validar contratos de integração e RBAC com leitura controlada |
+| GitHub | `calculadorasdeenfermagem` #39/#40/#46–#49/#51/#52/#56; aplicativo #5/#6 | Selecionar código validado, preservar todos os HOLDs |
+
+## Gates de P0 — não iniciar P1 até todos PASS
+
+| Gate | Critério verificável | Estado |
+| --- | --- | --- |
+| P0.00 | 13/13 fontes íntegras e deduplicadas, negativos executados | PASS_METADATA_ONLY |
+| P0.01 | Crosswalk por identidade/hashes entre Git, Drive, Supabase e Biblioteca; sem perda | HOLD_RECONCILIATION |
+| P0.02 | CI determinístico: `npm ci`, TypeScript, CLI, Kernel e G1–G6 verdadeiros | HOLD_CI_LOCKFILE_G6 |
+| P0.03 | IAM/RBAC, first signup sem admin, papéis e branch protection com teste E2E | HOLD_SECURITY |
+| P0.04 | Build separado do migrador, schema/RLS verificados e backup+rollback testados | HOLD_RELEASE |
+| P0.05 | FIND→policy→validator→task→WO→Kernel receipt→audit; aprovação humana independente por SHA | HOLD_HUMAN |
+| P0.06 | Direitos editoriais, proteção de dados e análise de exposição de fontes/segredos | HOLD_RIGHTS |
+| P0.07 | E2E funcional conectado a API/DB/papéis com rastros de evidência | HOLD_E2E |
+
+### Achados de contrato que impedem aceitação cega
+
+1. No intake, `microorganism` e `vaccine` não correspondem ao enum do `canonical_object`; conversão para `other` é apenas candidato.
+2. `route.schema.json` do site é rota WEB, não via de administração medicamentosa.
+3. Converter medicamentos por princípio ativo e escolher um único registro pode eliminar apresentações/registros distintos; direitos não são resolvidos pelo nome da fonte.
+4. A matriz NURSE-OS de setembro é um piloto, não prova de que os 13 fabrics e seis verticais funcionem hoje em produção.
+
+## Regra de execução
+
+Aplicar em ordem e por PRs independentes, sem merge em lote: proteger fontes → recuperar CI e segurança → provar contrato/runtime → homologar. P1 (motores clínicos) só após P0 totalmente aceita. **Templates continuam por último.** Recibo do Kernel ou declaração editorial NÃO substitui assinatura de revisor qualificado nem teste de ambiente.
+
+**Revisão:** candidatos sem admissão; `main`, Supabase e Drive não alterados por este relatório.
