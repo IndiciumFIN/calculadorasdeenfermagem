@@ -20,8 +20,10 @@
     "source_claim_ids": 46,
     "matching_claim_id_in_db": 0,
     "db_total_claims": 41,
-    "method": "Exact IN match of 46 versioned CLAIM_LEDGER IDs, plus separate count of target claims table",
-    "status": "HOLD_CROSS_SOURCE_ID_MAPPING"
+    "method": "Exact IN match of 46 versioned CLAIM_LEDGER IDs, plus separate count of target claims table; additional text-only normalization comparison",
+    "status": "HOLD_CROSS_SOURCE_ID_MAPPING",
+    "source_claims_matching_normalized_text": 0,
+    "text_comparison": "Exact NFKC lowercased whitespace-collapsed claim text against all 41 existing claim_text values; zero equal strings"
   },
   "other_schema_counts": {
     "cko_evidence_sources": 157,
@@ -33,7 +35,8 @@
     "No row-level medical content or patient data accessed",
     "Absent exact ID does not prove semantic absence; candidate may exist under alternative ID",
     "No automatic insertion, ID generation, approval, licence inference or migration",
-    "Before import require authoritative ID map, source hashes, evidence and rights, duplicate semantic detection, reversible migration and human review"
+    "Before import require authoritative ID map, source hashes, evidence and rights, duplicate semantic detection, reversible migration and human review",
+    "No exact normalized text match does not exclude paraphrases or clinical-semantic duplicates; those require independent review."
   ],
   "p0_gate": "P0.01_HOLD"
 }
