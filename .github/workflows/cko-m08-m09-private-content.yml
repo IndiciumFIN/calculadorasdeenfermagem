@@ -1,0 +1,20 @@
+name: CKO M08-M09 private corpus artifact integrity
+on:
+  push:
+    branches: [feat/cko-m08-m09-corpus-atomic-20261114]
+    paths:
+      - 'governance/cko/canonical-atomic/2026-11-14/**'
+      - '.github/workflows/cko-m08-m09-private-content.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  integrity-only:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate archive SHA, Git blob, PMO 104 IDs/links and no release flags
+        run: python3 governance/cko/canonical-atomic/2026-11-14/validate-atomic-content.py
+      - name: Fail-closed regressions for PMO, lineage and publication
+        run: python3 -m unittest discover -s governance/cko/canonical-atomic/2026-11-14 -p 'test_*.py' -v
