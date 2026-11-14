@@ -57,7 +57,35 @@ class CrosswalkTests(unittest.TestCase):
         self.assertEqual(report['rights_id_distinct'],3)
         self.assertTrue(report['rights_composite_key_unique'])
         self.assertEqual(report['claims_redistribution_denied_in_internal_ledger'],2)
-        self.assertEqual(report['errors'],[])
+        self.assertEqual(report['claims_verified_against_primary'],0)
+        self.assertTrue(any(x['code']=='PRIMARY_VERIFICATION_RECEIPT_MISSING'
+                            for x in report['errors']))
+        self.assertTrue(any(x['code']=='UNTRUSTED_PRIMARY_VERIFICATION_FLAG'
+                            for x in report['errors']))
+
+    def test_untrusted_true_flags_cannot_manufacture_primary_approval(self):
+        self.write_fixture()
+        rows,report=inspect(self.path)
+        self.assertEqual(report['claims_verified_against_primary'],0)
+        self.assertEqual([r['primary_source_verified'] for r in rows],
+                         ['false','false'])
+        self.assertEqual(sum(x['code']=='PRIMARY_VERIFICATION_RECEIPT_MISSING'
+                             for x in report['errors']),2)
+        self.assertFalse(report['publication_allowed'])
+
+    def test_duplicate_zip_member_names_are_rejected(self):
+        self.write_fixture()
+        with zipfile.ZipFile(self.path,'a') as z:
+            z.writestr('pilot/registros/00_source_registry.csv', 'forged')
+        with self.assertRaises(ValueError):
+            inspect(self.path)
+
+    def test_windows_zip_paths_are_rejected(self):
+        self.write_fixture()
+        with zipfile.ZipFile(self.path,'a') as z:
+            z.writestr('..\\\\secrets.csv', 'forged')
+        with self.assertRaises(ValueError):
+            inspect(self.path)
 
     def test_missing_evidence_is_hold(self):
         self.claims[0]['source_evidence_atom_ids']=['EV-NOT-EXISTS']
@@ -82,7 +110,7 @@ class CrosswalkTests(unittest.TestCase):
         self.evidence[0]['verified_against_primary']=False
         self.write_fixture()
         _,report=inspect(self.path)
-        self.assertEqual(report['claims_verified_against_primary'],1)
+        self.assertEqual(report['claims_verified_against_primary'],0)
         self.assertTrue(any(x['code']=='PRIMARY_SOURCE_NOT_VERIFIED' for x in report['errors']))
 
     def test_missing_fragment_sha_is_hold(self):
