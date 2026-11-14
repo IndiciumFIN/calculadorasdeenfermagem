@@ -117,7 +117,8 @@ def api_json(repo: str, token: str, relative: str) -> object:
 def get_all(repo: str, token: str, kind: str) -> list[dict]:
     items = []
     for page in range(1, 31):
-        data = api_json(repo, token, f"{kind}?per_page=100&page={page}")
+        separator = "&" if "?" in kind else "?"
+        data = api_json(repo, token, f"{kind}{separator}per_page=100&page={page}")
         if not isinstance(data, list):
             raise CensusHold(f"Invalid GitHub {kind} response for page {page}")
         items.extend(data)
