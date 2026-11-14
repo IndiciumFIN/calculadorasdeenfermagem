@@ -13,7 +13,9 @@ for a in manifest["archives"]:
  check(p.exists(),"missing archive "+a["filename"])
  if p.exists():
   data=p.read_bytes()
-  check(hashlib.sha256(data).hexdigest()==a["sha256"],"wrong sha256 "+p.name)\n  blob=hashlib.sha1(b"blob "+str(len(data)).encode()+b"\\0"+data).hexdigest()\n  check(blob==a["git_blob"],"wrong Git blob SHA-1 "+p.name)
+  check(hashlib.sha256(data).hexdigest()==a["sha256"],"wrong sha256 "+p.name)
+  blob=hashlib.sha1(b"blob "+str(len(data)).encode()+bytes([0])+data).hexdigest()
+  check(blob==a["git_blob"],"wrong Git blob SHA-1 "+p.name)
   check(len(data)==a["bytes"],"wrong size "+p.name)
   with zipfile.ZipFile(p) as z:
    check(z.testzip() is None,"CRC issue "+p.name)
