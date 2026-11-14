@@ -129,6 +129,18 @@ def preflight(
     if not isinstance(wo.get("find_ids"), list) or not wo["find_ids"]:
         findings.add("WO_FIND_SCOPE_MISSING")
 
+    # Historical G0 has 17 FIND IDs but its acceptance criteria say "All 11".
+    # Expose the conflict rather than silently normalizing either side.
+    declared_finds = wo.get("finds") if isinstance(wo.get("finds"), list) else wo.get("find_ids")
+    acceptance = wo.get("acceptance_criteria")
+    if isinstance(declared_finds, list) and isinstance(acceptance, list):
+        for criterion in acceptance:
+            if not isinstance(criterion, str):
+                continue
+            match = re.search(r"\\bAll\\s+(\\d+)\\s+FINDs\\b", criterion, re.I)
+            if match and int(match.group(1)) != len(declared_finds):
+                findings.add("WO_FIND_ACCEPTANCE_SCOPE_CONFLICT")
+
     if wo.get("status") in {"PREAUTHORIZED", "AUTHORIZED", "APPROVED", "ADMITTED"}:
         findings.add("WO_SELF_ASSERTED_AUTHORIZATION")
     if wo.get("authorized_by") or wo.get("reviewed_by") or wo.get("approval_receipt"):
