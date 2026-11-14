@@ -74,6 +74,10 @@ jobs:
         run: python -m unittest discover -s tests -p 'test_cko_validator_direct_failclosed.py' -v
       - name: Verify G6 GitHub HEAD-bound independent review controls (synthetic negative tests)
         run: python -m unittest discover -s tests -p 'test_cko_g6_github_reviews.py' -v
+      - name: Reused FHIR MedlinePlus and MeSH parser integration guards from PR 65
+        run: python -m unittest discover -s tests -p 'test_cko_p0_parser_integration.py' -v
+      - name: Isolated COFEN COR P0 crosswalk and adversarial pilot tests from PR 63
+        run: python -m unittest discover -s pilots/cko-cofen-cor/tests -p 'test_p0_*.py' -v
       - name: Validate source-policy parity and reject orphan/duplicate validators
         run: python -m unittest discover -s tests -p 'test_repository_integrity.py' -v
       - name: Strict admission control negative tests
