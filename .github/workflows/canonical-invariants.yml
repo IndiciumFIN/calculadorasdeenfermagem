@@ -30,6 +30,8 @@ jobs:
         run: python -m unittest discover -s tests -p 'test_kernel_registry_failclosed.py' -v
       - name: Reject implicit clinical, editorial or rights promotion
         run: python -m unittest discover -s tests -p 'test_kernel_release_holds.py' -v
+      - name: Ensure CLI exits nonzero for PENDING_HUMAN_REVIEW
+        run: python -m unittest discover -s tests -p 'test_kernel_cli_exitcodes.py' -v
       - name: Verify canonical source and policy references
         run: python scripts/verify_repository_integrity.py --output /tmp/canonical-structural.json
       - name: CLI import smoke
