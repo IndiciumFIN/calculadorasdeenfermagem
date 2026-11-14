@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-11-14",
+  "workflow": "P0_CKO_COFEN_COR",
+  "classification": "TECHNICAL_HOLD_NO_CLINICAL_RELEASE",
+  "source_zip_sha256": "c364dcd10ad1ebb5831cb5ee8af001c1d67ead2cf3d61dcd2556f396ca5bbd05",
+  "claims": {
+    "total": 23,
+    "evidence_links_resolved": 23,
+    "verified_against_primary": 0,
+    "superseded_document_claims": 4,
+    "admitted_to_canonical": 0,
+    "clinically_approved": 0,
+    "published": 0,
+    "counts_by_document": {
+      "DOC-BR-COFEN-RES-429-2012": 4,
+      "DOC-BR-COFEN-RES-514-2016": 2,
+      "DOC-BR-COFEN-RES-736-2024": 9,
+      "DOC-BR-COFEN-RES-754-2024": 8
+    }
+  },
+  "findings": {
+    "PRIMARY_SOURCE_NOT_VERIFIED": 23,
+    "SUPERSEDED_DOCUMENT_HOLD": 4
+  },
+  "supersession": [
+    {
+      "from": "DOC-BR-COFEN-RES-429-2012",
+      "to": "DOC-BR-COFEN-RES-754-2024",
+      "basis": "https://www.cofen.gov.br/resoluo-cofen-n-4292012/"
+    }
+  ],
+  "candidate_claim_contract": {
+    "legacy_ids": "CLM-*",
+    "target_repository": "IndiciumFIN/dev-chatgpt-workspace",
+    "target_path": "contracts/cko-schemas/claim.schema.json",
+    "target_blob_sha": "ccbb2fa40953557b796205f880370dcffe638e71",
+    "required_fields_not_resolved": 12,
+    "auto_mapping_allowed": false
+  },
+  "source_review_url": {
+    "DOC-BR-COFEN-RES-429-2012": "https://www.cofen.gov.br/resoluo-cofen-n-4292012/",
+    "DOC-BR-COFEN-RES-514-2016": "https://www.cofen.gov.br/resolucao-cofen-no-05142016/",
+    "DOC-BR-COFEN-RES-736-2024": "https://www.cofen.gov.br/resolucao-cofen-no-736-de-17-de-janeiro-de-2024/",
+    "DOC-BR-COFEN-RES-754-2024": "https://www.cofen.gov.br/resolucao-cofen-no-754-de-16-de-maio-de-2024/"
+  },
+  "verification_receipts": {
+    "clinical": "MISSING",
+    "rights_independent": "MISSING",
+    "primary_fragment_hash_binding": "MISSING",
+    "G6": "MISSING"
+  },
+  "tests": {
+    "offline_local": "25/25 PASS",
+    "ci_run": "https://github.com/IndiciumFIN/calculadorasdeenfermagem/actions/runs/43609242674",
+    "strict_integrity": "HOLD"
+  },
+  "release_allowed": false,
+  "notes": [
+    "Official source link confirmation does not establish exact original text/version SHA.",
+    "Revoked COFEN 429/2012 records remain historical, not current prescriptions.",
+    "Full per-claim verification queue is a private generated artifact; no clinical statements or original normative texts are committed.",
+    "P0 global remains HOLD; do not execute production extraction, merge main or update Supabase from this snapshot."
+  ]
+}
