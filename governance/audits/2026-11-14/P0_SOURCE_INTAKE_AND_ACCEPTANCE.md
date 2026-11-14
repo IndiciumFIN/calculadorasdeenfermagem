@@ -65,3 +65,14 @@ Aplicar em ordem e por PRs independentes, sem merge em lote: proteger fontes →
 ## P0.02 — execução estrita recuperada, não duplicar correção
 
 Na branch existente `fix/cko-ci-no-masked-checks-20261114` (PR privada #52, baseada em #40), o workflow `CI - Validacao Estrita (sem bypass)` passou no SHA `12d41a620eb5a62fed3d97f2edd3ced213986a7b`: Python/CLI/Kernel negativos + `npm ci` e TypeScript. O erro histórico de lockfile foi corrigido nessa branch. `main` ainda não recebeu essa mudança; G6 clínico, rules obrigatórias e merge continuam pendentes. Evidência: `P0_STRICT_CI_BRANCH52_PASS_RELEASE_HOLD.v1.json`.
+
+## Recuperação adicional do acervo canônico na Biblioteca
+
+Inventário da Biblioteca (arquivos reais, não apenas títulos):
+- `/Calculadoras de Enfermagem/Foundation/Canonical/CKO_FOUNDATION_FINAL_v1.1.0.zip`: SHA-256 `c013dee3af1438a8a02fda500cc5c86b018ea4f8c79f17ae457d3b8fc40bf442`, 47 entradas. Relatório interno afirma fundação técnica PASS e 25/25 testes internos PASS, mas a OS segue `HOLD_HUMAN_DECISION`; OPA oficial/pySHACL completo e E5 global não comprovados.
+- `/Calculadoras de Enfermagem/Reconstrucao Canonica/Baselines/CKO_RECONSTRUCTION_BASELINE_v1.7.0.zip`: SHA-256 `057d3edab2466f98199f55658e5199aef0e2bf6b1dc87cc5a26d252644dad0ce`, 1.402 entradas. Evidência interna: 88 PASS, 0 FAIL, 14 HOLD; conclusão de produção `NO_GO`. Arquitetura histórica: 41 verticais, 29 fabrics horizontais, 22 domínios e 18 subsistemas, em granularidade distinta do recorte operacional 14/10.
+- `/Calculadoras de Enfermagem/Backups/Normative Traceability R66-R72/STAGING_MANIFEST.json`: manifestação de custódia `LOCAL_STAGING_ONLY`, não promovida.
+
+Contrato de aceitação: o estado histórico `COMPLETE_FOR_V1` de estruturas ou de testes sintéticos não equivale a validação no deploy atual. Antes de recriar artefatos, reconciliar ID, versão, hash, contratos, regras e recibos. Evidência exata em `P0_FOUNDATION_LIBRARY_HISTORY_CROSSWALK_HOLD.v1.json`.
+
+**Nota de escopo:** a enumeração das versões v1.0.0–v1.7.0 não certifica equivalência semântica entre as versões. O censo de arquivos é preliminar para custódia; a matriz P0.01 ainda requer reconciliação granular por contrato.
