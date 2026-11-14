@@ -22,7 +22,7 @@ Esta entrega é um **preflight somente leitura**. O Kernel atual não deve reint
 ## Artefatos de código e teste
 
 - `packages/cli/kernel/wo_preflight.py`: carrega o arquivo de raízes, política e WO com caminho seguro; vincula **Git blob SHA-1 real** (inclui NUL após cabeçalho Git) dos três documentos; exige pasta/atividade/política/tarefa/FINDs explícitos, sinaliza campos autoassinados, permanece HOLD por metadados apenas e falta de recibo externo.
-- `tests/test_kernel_wo_g6_preflight.py`: 14 cenários sintéticos, inclusive as duas classes de bypass histórico, path traversal, symlink fora do repo, revisão autodeclarada, ausência de WO e hash Git.
+- `tests/test_kernel_wo_g6_preflight.py`: 15 cenários sintéticos, inclusive as duas classes de bypass histórico, path traversal, symlink fora do repo, revisão autodeclarada, ausência de WO e hash Git.
 - `scripts/cko_g6_preflight.py`: lê snapshot PMO M08/M09 e verifica unicidade + ligações `SOURCE → CONTENT`, `EVIDENCE_ATOM → CLAIM`, `CLAIM → CONTENT`, referência ao artigo, estados de HOLD; suporta múltiplas fontes normativas por mestre e **não** aprova vigência, direitos ou liberação clínica.
 - `tests/test_cko_g6_preflight.py`: 13 cenários negativos de campo forjado, revisão autodeclarada, fonte órfã, claim órfão, duplicidade, conflito omitido e publicação indevida.
 - `.github/workflows/cko-wo-g6-preflight.yml`: roda testes, lê **snapshot PMO pinado** no commit `d395f6e69e935570d5355ba930745bf8cd91f537`, lê **WO G0 histórica pinada** no commit `e1c9ace498b66ac831849ad1df51ee14e11e3efc`, confirma status HOLD, e armazena apenas relatórios resumidos no artifact privado do GitHub Actions.
@@ -36,6 +36,13 @@ Esta entrega é um **preflight somente leitura**. O Kernel atual não deve reint
 | Auditoria candidata PMO com `--diagnostic-only` | Grafo coerente e registros HOLD preservados | **exit 0 técnico exclusivamente para diagnóstico**; `clinical_release_gate_exit_code=2`; `can_publish=false` |
 | Auditoria PMO sem `--diagnostic-only` | Qualquer conteúdo, mesmo estruturalmente coerente | **exit 2** |
 | Falta fonte, JSON malformado, caminho inseguro ou referência órfã | Reprova a evidência | **exit 2** sem inferir dados faltantes |
+
+## Segurança adicional comprovada após o primeiro preflight
+
+- `packages/cli/kernel/core.py`: um `KERNEL-POLICY-001` ou qualquer política de fonte normativa real **não** pode obter `APPROVED` apenas desligando `requires_human_review`, `wo_required`, `sha256_required` e alterando `publication_allowed`/`rights_by_operation_approved` no mesmo JSON. Permanece `PENDING_HUMAN_REVIEW`.
+- `packages/cli/kernel/policy_registry.py`: `SYNTHETIC_ONLY` é permitido somente em objeto de fixture criado em memória para testes; o registry recusa tal campo quando persistido em contratos do Git. Isto impede autodeclaração de escopo sintético por PR maliciosa.
+- `packages/cli/kernel/wo_preflight.py`: detecta o conflito quantitativo real da WO G0 com **17 FINDs referenciados** contra critério de aceite **"All 11 FINDs closed"**; marca `WO_FIND_ACCEPTANCE_SCOPE_CONFLICT` e nunca escolhe um dos números por inferência.
+- Testes de regressão dos escopos sintético/normativo e da discrepância de FINDs rodados no Actions, junto com os 15 testes WO e 13 testes G6. O sucesso técnico **não** altera o estado clínico HOLD.
 
 ## Limites e próximos gates obrigatórios
 
