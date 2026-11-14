@@ -123,7 +123,8 @@ class PniPrivacyParserTests(unittest.TestCase):
         data = csv_snapshot([sample_row(i) for i in range(10)])
         for opts in (
             {"expected_sha256": "0" * 64}, {"expected_sha256": "bad"},
-            {"snapshot_month": "2026-13"}, {"snapshot_month": "latest"},
+            {"snapshot_month": "2026-13"}, {"snapshot_month": "2025-10"},
+            {"snapshot_month": "2027-10"}, {"snapshot_month": "latest"},
             {"source_id": ""}, {"document_id": ""},
             {"encoding": "utf-16"}, {"delimiter": "|"},
         ):
