@@ -1,0 +1,52 @@
+{
+  "schema": "CE-WO-KERNEL-SUBMISSION-1.0.0",
+  "wo_id": "CE-WO-KERNEL-DRIVE-1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "submitted_by": "kernel",
+  "status": "REJECTED",
+  "exit_code": 2,
+  "activities": [
+    "atomizar",
+    "obter"
+  ],
+  "folder_id": "1l0x3dQ0DbWwO7N6rfhZ3KdGuKkMnFHXC",
+  "policy_id": null,
+  "roots_scope": "registered_roots_metadata_only",
+  "folder_registered": false,
+  "restrictions_applied": [
+    "READ_ONLY",
+    "NO_DELETE",
+    "NO_PUBLICATION",
+    "NO_CANONICAL_PROMOTION"
+  ],
+  "credentials_present": false,
+  "bytes_acquired": false,
+  "atoms_written": 0,
+  "network_access": false,
+  "reasons": [
+    {
+      "code": "CREDENTIALS_MISSING",
+      "detail": "GDRIVE_SA_KEY e DRIVE_ACCESS_TOKEN ausentes; fail-closed"
+    },
+    {
+      "code": "METADATA_ONLY",
+      "detail": "contrato registered_roots_metadata_only não autoriza download"
+    },
+    {
+      "code": "NO_CANONICAL_PROMOTION",
+      "detail": "atomização para corpus canônico não autorizada pelo contrato de raízes"
+    },
+    {
+      "code": "NO_MATCHING_AUTHORIZATION",
+      "detail": "nenhuma autorizacao_WO cita esta pasta"
+    },
+    {
+      "code": "POLICY_REQUIRED",
+      "detail": "Kernel não escolhe política; informe --policy"
+    },
+    {
+      "code": "UNREGISTERED_DRIVE_ROOT",
+      "detail": "pasta ausente de config/drive_inventory_roots_20261016.json"
+    }
+  ],
+  "submitted_at": "2026-11-14T06:43:54Z"
+}
