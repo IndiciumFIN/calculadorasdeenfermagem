@@ -1,0 +1,44 @@
+{
+  "release": "CKO-W7-v0.2.1",
+  "tests": [
+    {
+      "name": "drive_118",
+      "pass": true
+    },
+    {
+      "name": "db_157",
+      "pass": true
+    },
+    {
+      "name": "drive_id_uniqueness",
+      "pass": true
+    },
+    {
+      "name": "db_id_uniqueness",
+      "pass": true
+    },
+    {
+      "name": "count_conservation",
+      "pass": true
+    },
+    {
+      "name": "match_status_expected",
+      "pass": true
+    },
+    {
+      "name": "no_clinical_promotion",
+      "pass": true
+    },
+    {
+      "name": "no_source_text",
+      "pass": true
+    },
+    {
+      "name": "head_lock",
+      "pass": true
+    }
+  ],
+  "pass": 9,
+  "fail": 0,
+  "publication_allowed": false
+}

@@ -1,0 +1,49 @@
+[
+  {
+    "finding_id": "W7-001",
+    "previous": "BLOCKED_BRANCH",
+    "state": "TECHNICALLY_RESOLVED",
+    "evidence": {
+      "remote_branch": "review/cko-w7-public-evidence-20261114",
+      "commit": "7680ed090fe68c9e58c40d20f45655ef15f11c7d"
+    },
+    "still_held_for_clinical_publication": true,
+    "notes": "GitHub branch and v0.2.0 commit verified. Ruleset #25580067 disabled globally; restore appropriate protections separately."
+  },
+  {
+    "finding_id": "W6-FIND-11",
+    "previous": "GITHUB_ACCESS",
+    "state": "SUPERSEDED_BY_CURRENT_ACCESS",
+    "evidence": {
+      "remote_branch": "review/cko-w7-public-evidence-20261114",
+      "commit": "7680ed090fe68c9e58c40d20f45655ef15f11c7d"
+    },
+    "still_held_for_clinical_publication": true,
+    "notes": "Historical 404 preserved; current connection can read and write the selected branch. No rights/clinical approval inferred."
+  },
+  {
+    "finding_id": "W7-007",
+    "previous": "SOURCE_REGISTRY_DIVERGENCE",
+    "state": "PARTIAL_RECONCILIATION_VERIFIED",
+    "evidence": {
+      "drive_sources": 118,
+      "supabase_sources": 157,
+      "matches_unique_uri": 3,
+      "ambiguous_uri": 1,
+      "no_match": 114
+    },
+    "still_held_for_clinical_publication": true,
+    "notes": "Metadata crosswalk complete by exact ID and normalized URI only. 118/118 triaged, 0 identity admissions."
+  },
+  {
+    "finding_id": "W7-002",
+    "previous": "PUBLIC_VISIBILITY",
+    "state": "OPEN_REVIEW",
+    "evidence": {
+      "repository_visibility": "public",
+      "scope": "metadata_only"
+    },
+    "still_held_for_clinical_publication": true,
+    "notes": "Public branch is for candidate metadata, no source document bytes."
+  }
+]
