@@ -105,8 +105,23 @@ class KernelReleaseHoldTests(unittest.TestCase):
     def test_explicitly_unrestricted_synthetic_policy_may_validate(self):
         policy = self.make_policy(
             publication_allowed=True, rights_by_operation_approved=True,
-            requires_human_review=False, review_policy={"approval_required": False})
+            requires_human_review=False, review_policy={"approval_required": False},
+            wo_required=False, sha256_required=False)
         self.assertEqual(self.evaluate(policy).decision, core.Decision.APPROVED)
+
+    def test_wo_required_without_verified_work_order_holds(self):
+        policy = self.make_policy(
+            publication_allowed=True, rights_by_operation_approved=True,
+            requires_human_review=False, review_policy={"approval_required": False},
+            sha256_required=False, wo_required=True)
+        self.assertEqual(self.evaluate(policy).decision, core.Decision.PENDING_REVIEW)
+
+    def test_sha_requirement_without_validator_holds(self):
+        policy = self.make_policy(
+            publication_allowed=True, rights_by_operation_approved=True,
+            requires_human_review=False, review_policy={"approval_required": False},
+            wo_required=False, sha256_required=True)
+        self.assertEqual(self.evaluate(policy).decision, core.Decision.PENDING_REVIEW)
 
     def test_kernel_gate_does_not_write_to_file_system(self):
         with tempfile.TemporaryDirectory() as directory:
