@@ -1,0 +1,67 @@
+{
+  "release": "CKO-W7-v0.2.3",
+  "qa_type": "STRUCTURAL_AND_OFFICIAL_LOCATOR_DISCOVERY_NOT_HUMAN_APPROVAL",
+  "source_sha": {
+    "w5": "95f9d314e1c967be7c52c4519d4875336461dfcc",
+    "w6": "021f6a4ffef7d225a0a02ea99622f0538cb79b35"
+  },
+  "counts": {
+    "w5_checked": 8,
+    "w5_official_pdf_locators": 7,
+    "w5_landing_only": 1,
+    "w6_checked": 6,
+    "w6_id_exact": 3,
+    "w6_id_absent": 3
+  },
+  "tests": [
+    {
+      "name": "w5 count is 8",
+      "pass": true
+    },
+    {
+      "name": "w5 original bytes not misrepresented",
+      "pass": true
+    },
+    {
+      "name": "w5 official locator references 7",
+      "pass": true
+    },
+    {
+      "name": "w5 news remains insufficient",
+      "pass": true
+    },
+    {
+      "name": "w6 six sources",
+      "pass": true
+    },
+    {
+      "name": "w6 exact IDs 3",
+      "pass": true
+    },
+    {
+      "name": "no fragment hashes falsely claimed",
+      "pass": true
+    },
+    {
+      "name": "all publication gates false",
+      "pass": true
+    },
+    {
+      "name": "original W5 and W6 blob receipts",
+      "pass": true
+    },
+    {
+      "name": "unique source/atom identifiers",
+      "pass": true
+    },
+    {
+      "name": "branch stable",
+      "pass": true
+    }
+  ],
+  "pass": 11,
+  "fail": 0,
+  "clinical_approval": false,
+  "source_fragment_hash_verification_pass": false,
+  "publication_allowed": false
+}
