@@ -52,6 +52,7 @@ jobs:
                      and x["target"] in {node["id"] for node in data["entities"]}
                      for x in data["relationships"])
           print("CATALOG_GRAPH_VALID / MISSING_PARSERS=" + str(stats["missing_parsers"]))
+          print("PENDING_BY_CODE=" + json.dumps(stats["finding_counts_by_code"], sort_keys=True))
           print("RELEASE_HOLD / METADATA_ONLY")
           PY
       - name: Upload deterministic metadata graph for review
@@ -97,6 +98,7 @@ jobs:
           assert "pmo_snapshot_sha256" in c["verified_input_digest"]
           assert all(n.get("release_allowed") is False for n in c["entities"])
           print("M08M09_PMOGRAFO_VALID / 46_CLAIMS / 43_EVIDENCE / 6_CONTENT_MASTERS")
+          print("PMO_PENDING_BY_CODE=" + json.dumps(c["statistics"]["finding_counts_by_code"], sort_keys=True))
           print("NORMATIVE_CROSSWALK_REMAINS_PENDING / NO_CLINICAL_PROMOTION")
           PY
       - name: Upload private derived PMO lineage (IDs only, no source text)
