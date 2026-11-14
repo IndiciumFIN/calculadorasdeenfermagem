@@ -95,7 +95,7 @@ def inspect(root: Path) -> dict:
                 add("POLICY_SOURCE_LINK_MISMATCH", "error", rel, source_slug)
             policy_validators = data.get("validators")
             if (not isinstance(policy_validators, list) or not policy_validators
-                    or any(not isinstance(v, str) or not re.fullmatch(r"[a-z_]+", v)
+                    or any(not isinstance(v, str) or not re.fullmatch(r"[a-z][a-z0-9_]*", v)
                            for v in policy_validators)
                     or len(policy_validators) != len(set(policy_validators))):
                 add("POLICY_NO_VALIDATORS", "error", rel,
@@ -103,7 +103,7 @@ def inspect(root: Path) -> dict:
             else:
                 declared = sources.get(source_slug, {}).get("validators")
                 if (not isinstance(declared, list) or not declared
-                        or any(not isinstance(v, str) or not re.fullmatch(r"[a-z_]+", v)
+                        or any(not isinstance(v, str) or not re.fullmatch(r"[a-z][a-z0-9_]*", v)
                                for v in declared)
                         or len(declared) != len(set(declared))):
                     add("SOURCE_VALIDATOR_SCHEMA", "error", link,
