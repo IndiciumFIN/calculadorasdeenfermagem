@@ -76,11 +76,10 @@ def main():
     if args.output:
         args.output.write_text(message, encoding="utf-8")
     print(message, end="")
-    return 0 if receipt["status"] in {
-        "DERIVED_DOSSIER_BYTES_MATCH_HOLD_PRIMARY",
-        "REFERENCE_BYTES_MATCH_HOLD_PRIMARY",
-        "OFFICIAL_CANDIDATE_BYTES_MATCH_HOLD_LEGAL_RIGHTS_CLINICAL",
-    } else 2
+    # Exit 0 is limited to successful candidate *byte-integrity* verification.
+    # Derived/secondary evidence must fail closed for a downstream source gate.
+    # Even exit 0 never admits legal currentness, rights or clinical publication.
+    return 0 if receipt["status"] == "OFFICIAL_CANDIDATE_BYTES_MATCH_HOLD_LEGAL_RIGHTS_CLINICAL" else 2
 
 
 if __name__ == "__main__":

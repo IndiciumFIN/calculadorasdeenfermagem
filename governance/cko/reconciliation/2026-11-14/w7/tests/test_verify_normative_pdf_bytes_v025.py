@@ -1,5 +1,8 @@
 import hashlib
 import importlib.util
+import json
+import subprocess
+import sys
 import tempfile
 import unittest
 from pathlib import Path
@@ -34,6 +37,24 @@ class TestNormativeReceipt(unittest.TestCase):
         self.assertFalse(r["normative_currentness_approved"])
         self.assertFalse(r["reuse_rights_approved"])
         self.assertFalse(r["publication_allowed"])
+
+    def test_secondary_dossier_cli_exits_nonzero(self):
+        run = subprocess.run([sys.executable, str(SCRIPT), "--input", str(self.file),
+                              "--expected-sha256", self.sha, "--kind", "DERIVED_DOSSIER"],
+                             check=False, text=True, capture_output=True)
+        self.assertEqual(run.returncode, 2)
+        receipt = json.loads(run.stdout)
+        self.assertEqual(receipt["status"], "DERIVED_DOSSIER_BYTES_MATCH_HOLD_PRIMARY")
+        self.assertFalse(receipt["publication_allowed"])
+
+    def test_official_candidate_cli_exits_zero_for_bytes_only(self):
+        run = subprocess.run([sys.executable, str(SCRIPT), "--input", str(self.file),
+                              "--expected-sha256", self.sha, "--kind", "OFFICIAL_PRIMARY_CANDIDATE"],
+                             check=False, text=True, capture_output=True)
+        self.assertEqual(run.returncode, 0)
+        receipt = json.loads(run.stdout)
+        self.assertFalse(receipt["normative_currentness_approved"])
+        self.assertFalse(receipt["publication_allowed"])
 
     def test_wrong_hash_blocks(self):
         self.assertEqual(self.check(sha="0" * 64)["status"], "HOLD_HASH_OR_SIZE_MISMATCH")
