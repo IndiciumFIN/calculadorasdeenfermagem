@@ -17,31 +17,43 @@ import typer
 
 from packages.schemas.invariantes import AtomoBlindado
 
-# Import tardio para evitar circular — cada validador se auto-registra
+# Carrega validadores sob testes negativos; validação não comprovada segue HOLD.
 def _lazy_import_validators():
-    from validators import (
-        Sha256Validator, NormAtomIdValidator, TextoLengthValidator,
-        UrlValidator, AtomoSchemaValidator,
-        cid10_validator, cid11_validator, mesh_validator,
-        cvx_validator, schema_validator, loinc_validator,
-        ncm_validator, catmat_validator, human_review_validator,
+    from importlib import import_module
+    from packages.cli.validators.registry import VALIDATORS as registered
+    module_names = (
+        "sha256_validator", "catmat_validator", "cid10_validator",
+        "cid11_validator", "cvx_validator", "human_review_validator",
+        "loinc_validator", "mesh_validator", "ncm_validator",
+        "schema_validator",
     )
-    return locals()
+    for module_name in module_names:
+        import_module(f"packages.cli.validators.{module_name}")
+    return dict(registered)
+
 
 VALIDATORS: dict[str, Any] = {}
+VALIDATOR_HOLDS: dict[str, str] = {}
 _validator_imported = False
 
-def _ensure_validators():
-    global _validator_imported, VALIDATORS
-    if not _validator_imported:
-        ctx = _lazy_import_validators()
-        # Extrai validadores concretos (não classes, instâncias)
-        for k, v in ctx.items():
-            if k.endswith("_validator") and hasattr(v, "validate"):
-                VALIDATORS[k] = v
-        _validator_imported = True
 
-from kernel.policy_registry import get_policy, PolicyRegistry
+def _ensure_validators():
+    global _validator_imported
+    if _validator_imported:
+        return
+    registered = _lazy_import_validators()
+    for name, validator in sorted(registered.items()):
+        try:
+            if validator.run_tests():
+                VALIDATORS[name] = validator
+            else:
+                VALIDATOR_HOLDS[name] = "SELF_TEST_FAILED"
+        except Exception as exc:
+            VALIDATOR_HOLDS[name] = f"SELF_TEST_EXCEPTION:{type(exc).__name__}"
+    _validator_imported = True
+
+
+from packages.cli.kernel.policy_registry import get_policy, PolicyRegistry
 
 
 class Decision(str, Enum):

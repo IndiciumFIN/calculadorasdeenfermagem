@@ -8,7 +8,7 @@ from packages.cli.validators.registry import register, get_validator, list_valid
 from packages.schemas.invariantes import AtomoBlindado
 
 # Dispara auto-registro de TODOS os validadores (um por módulo)
-from packages.cli import validators as _validator_pkg  # noqa: F401
+# Módulos carregados pelo Kernel, com testes negativos obrigatórios.
 
 __all__ = [
     "BaseValidator",
