@@ -69,6 +69,9 @@ def _release_on_hold(policy) -> bool:
         getattr(policy, "requires_human_review", True)
         or not getattr(policy, "publication_allowed", False)
         or not getattr(policy, "rights_by_operation_approved", False)
+        or getattr(policy, "wo_required", True)
+        or (getattr(policy, "sha256_required", True)
+            and "sha256_validator" not in getattr(policy, "validators", ()))
         or not isinstance(review, dict)
         or review.get("approval_required") is not False
     )
