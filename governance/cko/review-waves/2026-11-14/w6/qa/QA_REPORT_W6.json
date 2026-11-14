@@ -1,0 +1,187 @@
+{
+  "date": "2026-11-14",
+  "tests": [
+    {
+      "id": "W6-QA-01",
+      "name": "5 arquivos originais preservados",
+      "result": "PASS"
+    },
+    {
+      "id": "W6-QA-02",
+      "name": "5 fingerprints completos",
+      "result": "PASS"
+    },
+    {
+      "id": "W6-QA-03",
+      "name": "integridade formulario-saep-enfermagem.html",
+      "result": "PASS"
+    },
+    {
+      "id": "W6-QA-04",
+      "name": "integridade checklist-cirurgico-seguro.html",
+      "result": "PASS"
+    },
+    {
+      "id": "W6-QA-05",
+      "name": "integridade aldrete.html",
+      "result": "PASS"
+    },
+    {
+      "id": "W6-QA-06",
+      "name": "integridade elpo.html",
+      "result": "PASS"
+    },
+    {
+      "id": "W6-QA-07",
+      "name": "integridade simulado_bloco-operatorio.html",
+      "result": "PASS"
+    },
+    {
+      "id": "W6-QA-08",
+      "name": "SAEP em idioma es-ES",
+      "result": "PASS"
+    },
+    {
+      "id": "W6-QA-09",
+      "name": "Checklist nl-NL",
+      "result": "PASS"
+    },
+    {
+      "id": "W6-QA-10",
+      "name": "Aldrete th-TH",
+      "result": "PASS"
+    },
+    {
+      "id": "W6-QA-11",
+      "name": "ELPO fragmento incompleto",
+      "result": "PASS"
+    },
+    {
+      "id": "W6-QA-12",
+      "name": "simulado nl-NL",
+      "result": "PASS"
+    },
+    {
+      "id": "W6-QA-13",
+      "name": "2 aulas independentes",
+      "result": "PASS"
+    },
+    {
+      "id": "W6-QA-14",
+      "name": "aula integradora",
+      "result": "PASS"
+    },
+    {
+      "id": "W6-QA-15",
+      "name": "7 casos fictícios",
+      "result": "PASS"
+    },
+    {
+      "id": "W6-QA-16",
+      "name": "casos sem pacientes reais",
+      "result": "PASS"
+    },
+    {
+      "id": "W6-QA-17",
+      "name": "16 questões inéditas",
+      "result": "PASS"
+    },
+    {
+      "id": "W6-QA-18",
+      "name": "16 flashcards novos",
+      "result": "PASS"
+    },
+    {
+      "id": "W6-QA-19",
+      "name": "4 alternativas em cada questão",
+      "result": "PASS"
+    },
+    {
+      "id": "W6-QA-20",
+      "name": "gabaritos válidos",
+      "result": "PASS"
+    },
+    {
+      "id": "W6-QA-21",
+      "name": "comentários explicativos por questão",
+      "result": "PASS"
+    },
+    {
+      "id": "W6-QA-22",
+      "name": "fontes nominais por questão",
+      "result": "PASS"
+    },
+    {
+      "id": "W6-QA-23",
+      "name": "IDs de questões únicos",
+      "result": "PASS"
+    },
+    {
+      "id": "W6-QA-24",
+      "name": "IDs flashcards únicos",
+      "result": "PASS"
+    },
+    {
+      "id": "W6-QA-25",
+      "name": "grafo de relações com IDs únicos",
+      "result": "PASS"
+    },
+    {
+      "id": "W6-QA-26",
+      "name": "relações não homologadas",
+      "result": "PASS"
+    },
+    {
+      "id": "W6-QA-27",
+      "name": "relações não equivalentes",
+      "result": "PASS"
+    },
+    {
+      "id": "W6-QA-28",
+      "name": "relações não publicáveis",
+      "result": "PASS"
+    },
+    {
+      "id": "W6-QA-29",
+      "name": "direitos bloqueados nas relações",
+      "result": "PASS"
+    },
+    {
+      "id": "W6-QA-30",
+      "name": "normas sem fragment hashes fabricados",
+      "result": "PASS"
+    },
+    {
+      "id": "W6-QA-31",
+      "name": "publicação em NO_GO",
+      "result": "PASS"
+    },
+    {
+      "id": "W6-QA-32",
+      "name": "sem aprovação clínica em questões",
+      "result": "PASS"
+    },
+    {
+      "id": "W6-QA-33",
+      "name": "sem alta clínica autorizada em texto SRPA",
+      "result": "PASS"
+    },
+    {
+      "id": "W6-QA-34",
+      "name": "CME referenciado sem fusão",
+      "result": "PASS"
+    },
+    {
+      "id": "W6-QA-35",
+      "name": "repositório privado com status hold",
+      "result": "PASS"
+    }
+  ],
+  "total": 35,
+  "passed": 35,
+  "failed": 0,
+  "interpretation": "STRUCTURAL_ONLY_NOT_CLINICAL_APPROVAL",
+  "main_untouched": true,
+  "supabase_untouched": true,
+  "github_upload": "BLOCKED_404"
+}

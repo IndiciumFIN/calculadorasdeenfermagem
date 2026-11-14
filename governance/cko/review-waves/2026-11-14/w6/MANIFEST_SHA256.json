@@ -1,0 +1,96 @@
+{
+  "package": "CKO_W6_GIT_REVIEW_SAFE_20261114",
+  "release": "HOLD_HUMAN",
+  "files": [
+    {
+      "path": "GIT_REVIEW_README.md",
+      "bytes": 1183,
+      "sha256": "79bf60866619cc163edd07cd0d9ec54140b760ae0d71e66375d065957a0d65ef"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1836,
+      "sha256": "64685b3896a48512ae8694a872ad651ba3346640c175759820c043f34371c1f1"
+    },
+    {
+      "path": "dados/CASOS_FICTICIOS_W6.jsonl",
+      "bytes": 2939,
+      "sha256": "2f4aa0f795814cd08d5ebcb13fee0973609bf2070094d4a3f89518832b97b255"
+    },
+    {
+      "path": "dados/FLASHCARDS_W6.jsonl",
+      "bytes": 4285,
+      "sha256": "b829f490f8fc5482bf4f5df2cad2a1536de7bc598249d1d8776a00c7499d66b8"
+    },
+    {
+      "path": "dados/LEGACY_ASSET_RECOVERY.json",
+      "bytes": 5953,
+      "sha256": "ad5d2b436b6cf82c46ba3f479b1b531191db26bea4241e81a8d0e5235ee2d010"
+    },
+    {
+      "path": "dados/QUESTOES_W6.jsonl",
+      "bytes": 9046,
+      "sha256": "9f6eaa8b747452525cde9cd5707f0c01116348f617f2414fe5cd5cb0b14646df"
+    },
+    {
+      "path": "dados/REUSE_GRAPH_EDGES_W6.jsonl",
+      "bytes": 10200,
+      "sha256": "7d578c14ed3b92b5fad01b1481370e383b341dd30dde06110d199673a4915764"
+    },
+    {
+      "path": "editorial/AULA_INTEGRADA_TRANSICAO_CC_SRPA_W6.md",
+      "bytes": 2490,
+      "sha256": "f451d37288623e522c7d823ca9081e6c3e4390fdfd07a0aa989f99197004c3e4"
+    },
+    {
+      "path": "editorial/CASOS_COMENTADOS_W6.md",
+      "bytes": 2716,
+      "sha256": "cf374d5fd7fb78e7c391d9c9615f214a2fb04000e71c667013867d70081e02f5"
+    },
+    {
+      "path": "editorial/CENTRO_CIRURGICO_W6_UNIDADE_DIDATICA_DRAFT.md",
+      "bytes": 9814,
+      "sha256": "0e929594a06a26c67d7e078271699dbaeff3835be72a5696228b88344d2861e6"
+    },
+    {
+      "path": "editorial/SRPA_W6_UNIDADE_DIDATICA_DRAFT.md",
+      "bytes": 5979,
+      "sha256": "21aa94282204847cc828020b1e1a46b955fbe544782b6ba1418ee9255659e1df"
+    },
+    {
+      "path": "governanca/RECONCILIACAO_W6.md",
+      "bytes": 3385,
+      "sha256": "0d08666a2a66245eca7baf5487fc37686ba90876c7eb078ff4ad9e55a4106285"
+    },
+    {
+      "path": "normas/PRIMARY_SOURCES_LEDGER.csv",
+      "bytes": 1789,
+      "sha256": "03b95dfa2944d2ebc91419c93cfe9a3a38f07ae180631369c1e0057c7c61fd21"
+    },
+    {
+      "path": "qa/FINDINGS_W6.csv",
+      "bytes": 1675,
+      "sha256": "829d067a1fb70f6867ca1eeb5679166fb9afd9476e30ee8f2397fb0744b6eaaa"
+    },
+    {
+      "path": "qa/PUBLICATION_GATE.json",
+      "bytes": 574,
+      "sha256": "cab9bb5a24fdb1777f13aaa4cf2b0789423bdae9588485ba0784bf9b808f8208"
+    },
+    {
+      "path": "qa/QA_REPORT_W6.json",
+      "bytes": 3921,
+      "sha256": "9f5c89d0589e945510eefbd846964743bf0382873fa00eed0c66194b2fea7667"
+    },
+    {
+      "path": "qa/REVIEW_RECEIPTS.json",
+      "bytes": 204,
+      "sha256": "20edfbeaf0828196dcb8be636f088e8a156cc262619eba54c1703def9bea734d"
+    },
+    {
+      "path": "tools/verify_git_package.py",
+      "bytes": 477,
+      "sha256": "4613abfba5fa30f55d634900aa202a6c62029263b88c8e2494ed5957933807d6"
+    }
+  ]
+}
