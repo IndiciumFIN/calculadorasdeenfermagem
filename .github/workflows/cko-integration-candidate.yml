@@ -52,6 +52,8 @@ jobs:
           python -m unittest discover -s tests -p 'test_kernel_wo_g6_preflight.py' -v
       - name: Verify G6 GitHub HEAD-bound independent review controls (synthetic negative tests)
         run: python -m unittest discover -s tests -p 'test_cko_g6_github_reviews.py' -v
+      - name: Strict admission control negative tests
+        run: python -m unittest discover -s tests -p 'test_cko_technical_admission.py' -v
       - name: AST source binding and no fake parser existence
         run: |
           python -m unittest discover -s tests -p 'test_cko_parser_contract_audit.py' -v
@@ -120,5 +122,5 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Reject unresolved parser dependencies — do not bypass
-        run: python scripts/verify_repository_integrity.py --strict --output "${{ runner.temp }}/cko-strict-admission.json"
+      - name: Reject missing parsers, unsafe validator stubs and policy gaps — do not bypass
+        run: python scripts/cko_technical_admission.py --output "${{ runner.temp }}/cko-strict-admission.json"
