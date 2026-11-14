@@ -141,5 +141,28 @@ def test_validators() -> None:
     typer.secho(f"\n✅ Todos os {len(VALIDATORS)} validadores passaram.", fg=typer.colors.GREEN)
 
 
+@app.command("submit-wo")
+def submit_wo(
+    folder_id: str = typer.Option(..., "--folder-id"),
+    activity: list[str] = typer.Option(..., "--activity"),
+    policy_id: str | None = typer.Option(None, "--policy"),
+) -> None:
+    """Submete obter/atomizar ao Kernel. Exit 2 se a política não autorizar."""
+    import kernel_work_order
+
+    try:
+        document = kernel_work_order.submit_drive_work_order(
+            Path.cwd(), folder_id, activity, policy_id,
+        )
+    except ValueError as exc:
+        typer.secho(f"❌ {exc}", fg=typer.colors.RED)
+        raise typer.Exit(2)
+    typer.echo(
+        f"{document['wo_id']} {document['status']} "
+        f"bytes={document['bytes_acquired']} atoms={document['atoms_written']}"
+    )
+    raise typer.Exit(int(document["exit_code"]))
+
+
 if __name__ == "__main__":
     app()
