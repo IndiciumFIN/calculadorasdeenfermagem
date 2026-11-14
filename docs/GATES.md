@@ -5,6 +5,14 @@
 
 ---
 
+> **ERRATA DE IMPLEMENTAÇÃO — 14/11/2026 (PR #56, candidato, não homologado).**
+> Este documento registra a INTENÇÃO dos gates G1–G6 e inclui blocos ilustrativos de 17/10/2026; ele não comprova sua instalação nem execução real.
+> A branch `main` não possui o workflow `.github/workflows/gate.yml` citado abaixo. O workflow `canonical-invariants.yml` executa apenas verificações técnicas e mantém bloqueios de admissão.
+> **G6 NÃO ESTÁ HOMOLOGADO:** o exemplo de `random.sample` seguido de `print("OK")` é demonstrativo, **não confere a fonte original**, e um `Reviewed-by:` digitado em mensagem Git não atesta identidade profissional nem revisão independente.
+> A PR #56 adiciona um **pré-gate de consistência estrutural, somente leitura** para 46 claims M08/M09 e WOs; ele nunca emite autorização de publicação e seu `clinical_release_gate_exit_code` permanece 2.
+> Antes de afirmar G6 PASS, exigir por claim prova da versão oficial/artigo, comparação do texto com a fonte, vínculo dos hashes, reviewer profissional independente verificado por autoridade separada, aprovações dos direitos por operação, recibo de admissão do Kernel e enforcement comprovado de proteção da `main`.
+> Não utilizar este manual ou o sucesso do diagnóstico como permissão de promoção.
+
 ## Visão Geral
 
 Gates são verificações **fail-closed** executadas no CI/CD. Se qualquer gate falha, o pipeline inteiro retorna exit 2 e o commit não entra no corpus canonical.
