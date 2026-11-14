@@ -30,7 +30,7 @@
 | --- | --- | --- |
 | P0.00 | 13/13 fontes íntegras e deduplicadas, negativos executados | PASS_METADATA_ONLY |
 | P0.01 | Crosswalk por identidade/hashes entre Git, Drive, Supabase e Biblioteca; sem perda | HOLD_RECONCILIATION |
-| P0.02 | CI determinístico: `npm ci`, TypeScript, CLI, Kernel e G1–G6 verdadeiros | HOLD_CI_LOCKFILE_G6 |
+| P0.02 | CI determinístico: `npm ci`, TypeScript, CLI, Kernel e G1–G6 verdadeiros | HOLD_G6_MERGE_RULES (strict CI branch #52 PASS) |
 | P0.03 | IAM/RBAC, first signup sem admin, papéis e branch protection com teste E2E | HOLD_SECURITY |
 | P0.04 | Build separado do migrador, schema/RLS verificados e backup+rollback testados | HOLD_RELEASE |
 | P0.05 | FIND→policy→validator→task→WO→Kernel receipt→audit; aprovação humana independente por SHA | HOLD_HUMAN |
@@ -61,3 +61,7 @@ Aplicar em ordem e por PRs independentes, sem merge em lote: proteger fontes →
 - `pipeline.py` declara versão 0.7.5 e duas fixtures; a leitura das chamadas revela **16 tipos distintos de gate**, com **17 registros emitidos** por conta da reconstrução individual de dois documentos. `docs/gates-technical.md` ainda informa versão 0.7.3 e 15 gates: documentação em drift, sem conclusão de comportamento runtime.
 - `pipeline.py --os CI-NORM-KERNEL` não usa formato `^NK-OS-\\d{4}$` previsto para re-registro em caso de drift; a execução pode registrar finding/bloqueio. O código também escreve evidências/ledger na cópia local. Só testar em checkout isolado com diffs e política de não escrita remota.
 - Nenhuma homologação dos 16 tipos de gate foi inferida apenas da leitura do código ou de README.
+
+## P0.02 — execução estrita recuperada, não duplicar correção
+
+Na branch existente `fix/cko-ci-no-masked-checks-20261114` (PR privada #52, baseada em #40), o workflow `CI - Validacao Estrita (sem bypass)` passou no SHA `12d41a620eb5a62fed3d97f2edd3ced213986a7b`: Python/CLI/Kernel negativos + `npm ci` e TypeScript. O erro histórico de lockfile foi corrigido nessa branch. `main` ainda não recebeu essa mudança; G6 clínico, rules obrigatórias e merge continuam pendentes. Evidência: `P0_STRICT_CI_BRANCH52_PASS_RELEASE_HOLD.v1.json`.
