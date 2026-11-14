@@ -91,7 +91,8 @@ def inspect_pmo(payload: dict, source_sha256: str) -> dict[str, Any]:
         if len(row) < 11:
             issues.add("CONTENT_ROW_INCOMPLETE")
             continue
-        if row[6] not in source_ids:
+        source_refs = _linked(row[6])
+        if not source_refs or any(source not in source_ids for source in source_refs):
             issues.add("CONTENT_UNKNOWN_SOURCE")
         refs = _linked(row[7])
         if not refs or any(c not in claim_ids for c in refs):
