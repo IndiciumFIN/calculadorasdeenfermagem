@@ -55,13 +55,20 @@ def inspect(path:Path):
         missing=[k for k in refs if k not in ev_by_id]
         srcs=source_by_right[r['rights_id']]
         docs=sorted({e['document_version_id'] for e in known})
-        unverified=[e for e in known if e.get('verified_against_primary') is not True]
+        # A field supplied by the same ZIP is self-attested, not independent
+        # official-source reconciliation. Never count it as a receipt.
+        self_attested=[e for e in known if e.get('verified_against_primary') is True]
+        unverified=known
         malformed=[e for e in known if not HEX_SHA256.fullmatch(str(e.get('fragment_sha256') or ''))]
         superseded=[d for d in docs if d in SUPERSEDED_DOCUMENTS]
         if not refs:
             findings.append({'claim_id':cid,'code':'EVIDENCE_REF_MISSING'})
         if unverified:
             findings.append({'claim_id':cid,'code':'PRIMARY_SOURCE_NOT_VERIFIED','count':len(unverified)})
+            findings.append({'claim_id':cid,'code':'PRIMARY_VERIFICATION_RECEIPT_MISSING'})
+        if self_attested:
+            findings.append({'claim_id':cid,'code':'UNTRUSTED_PRIMARY_VERIFICATION_FLAG',
+                             'count':len(self_attested)})
         if malformed:
             findings.append({'claim_id':cid,'code':'FRAGMENT_SHA256_UNVERIFIED','count':len(malformed)})
         for doc in superseded:
@@ -95,7 +102,7 @@ def inspect(path:Path):
             'canonical_missing_fields':'|'.join(MISSING),
             'semantic_crosswalk':'HOLD_UNVERIFIED',
             'publication_decision':'HOLD',
-            'primary_source_verified':str(bool(known) and not unverified and not missing).lower(),
+            'primary_source_verified':'false',
             'superseded_source':str(bool(superseded)).lower()
         })
     summary={
@@ -106,7 +113,7 @@ def inspect(path:Path):
         'rights_rows':len(rights),'rights_id_distinct':len(rights_id_count),
         'rights_composite_key_unique':not dup,
         'claims_with_resolved_evidence':sum(bool(row['evidence_refs']) and bool(row['document_version_ids']) for row in rows),
-        'claims_verified_against_primary':sum(r['primary_source_verified']=='true' for r in rows),
+        'claims_verified_against_primary':0,
         'claims_with_superseded_document':sum(r['superseded_source']=='true' for r in rows),
         'source_supersession_registry':SUPERSEDED_DOCUMENTS,
         'claims_text_extraction_approved_in_internal_ledger':sum(r['text_extraction']=='APPROVED' for r in rows),
@@ -115,6 +122,7 @@ def inspect(path:Path):
         'canonical_claim_schema_required_fields_missing_in_candidate':len(MISSING),
         'canonical_contract_ref':'IndiciumFIN/dev-chatgpt-workspace:contracts/cko-schemas/claim.schema.json@ccbb2fa40953557b796205f880370dcffe638e71',
         'rights_legal_approval':'NOT_VERIFIED',
+        'primary_receipt_validation':'NOT_IMPLEMENTED_HOLD',
         'clinical_approval':'NOT_VERIFIED',
         'publication_allowed':False,
         'errors':findings
