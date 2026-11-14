@@ -79,6 +79,7 @@ jobs:
           assert not doc["network_used"] and not doc["bytes_acquired"]
           assert not doc["clinical_approval"] and doc["trusted_kernel_receipt"] is None
           required = {"WO_FOLDER_NOT_BOUND", "WO_ACTIVITY_NOT_BOUND", "WO_POLICY_NOT_BOUND",
+                      "WO_FIND_ACCEPTANCE_SCOPE_CONFLICT",
                       "INDEPENDENT_KERNEL_ADMISSION_NOT_VERIFIED"}
           assert required.issubset(set(doc["findings"])), doc["findings"]
           print("G0_WO_HOLD_VERIFIED / NO_NETWORK / NO_CREDENTIALS")
