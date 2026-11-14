@@ -2,23 +2,25 @@
   "schema": "CE-KERNEL-POLICY-1.0.0",
   "id": "KERNEL-POLICY-015",
   "name": "MedlinePlus Educativo",
-  "description": "Valida tópicos de saúde do MedlinePlus",
+  "description": "Metadados educacionais MedlinePlus candidatos; sem publicação, revisão de direitos e editorial por operação, com proveniência e WO obrigatórios",
   "source_contract": "contracts/fontes/medlineplus.json",
   "validators": [
     "schema_validator"
   ],
   "atoms_output": "data/canonical/atoms/medlineplus/",
   "quarentena_output": "data/quarentena/medlineplus/",
-  "sha256_required": false,
+  "sha256_required": true,
   "fail_closed": true,
-  "requires_human_review": false,
+  "requires_human_review": true,
   "review_policy": {
-    "min_sample_size": 0,
-    "approval_required": null,
-    "reviewed_by_in_commit": false
+    "min_sample_size": 1,
+    "approval_required": true,
+    "reviewed_by_in_commit": true
   },
-  "wo_required": false,
+  "wo_required": true,
   "wo_template": null,
-  "version": "1.0.0",
-  "updated_at": "2026-10-17T00:00:00Z"
+  "version": "1.1.0",
+  "updated_at": "2026-11-14T00:00:00Z",
+  "processing_scope": "METADATA_ONLY_PENDING_EDITORIAL_RIGHTS",
+  "publication_allowed": false
 }
