@@ -27,7 +27,7 @@ Outros endurecimentos: rejeição de nomes ZIP duplicados, path traversal, symli
 - [Resolução 514/2016](https://www.cofen.gov.br/resolucao-cofen-no-05142016/) — guia de registros de enfermagem. A publicação oficial existe, mas a aplicabilidade e as referências superadas do guia exigem revisão normativa e editorial.
 
 ## Fila sem IDs fictícios
-`pilots/cko-cofen-cor/evidence/PRIMARY_REVIEW_QUEUE_23.v1.json` reconcilia o inventário do piloto **por documento**, não por IDs individuais indisponíveis na branch:
+`pilots/cko-cofen-cor/evidence/PRIMARY_REVIEW_QUEUE_23.v1.json` reconcilia o inventário **por documento**. Posteriormente foi localizado o crosswalk CSV anterior na Biblioteca do ChatGPT, permitindo criar `pilots/cko-cofen-cor/evidence/PRIMARY_REVIEW_QUEUE_23_INDIVIDUAL.v1.json` com os **23 IDs legados reais** e **20 referências de evidência distintas** (há compartilhamento legítimo de alguns IDs de evidência entre claims). Não foram gerados IDs canônicos artificiais:
 | Documento | Claims reportados | Verificações oficiais de fragmento |
 |---|---:|---:|
 | 429/2012 (histórico) | 4 | 0 |
@@ -36,7 +36,7 @@ Outros endurecimentos: rejeição de nomes ZIP duplicados, path traversal, symli
 | 754/2024 | 8 | 0 |
 | **Total** | **23** | **0** |
 
-A **página oficial** localizada não equivale a SHA do **artefato oficial** nem à verificação do **fragmento usado em cada claim**. Esses artefatos/offsets/IDs de claim e recibos de revisão não foram disponibilizados no código da PR #63; permanecem **pendentes**, sem suposição de autoria, direitos ou aceite.
+A **página oficial** localizada não equivale a SHA do **artefato oficial** nem à verificação do **fragmento usado em cada claim**. Os **IDs legados de claim e evidência** foram recuperados do crosswalk CSV da Biblioteca, mas o arquivo original do normativo, hashes oficiais custodiados, offsets primários e recibos independentes **não foram apresentados ou verificados**. O CSV foi lido como fonte secundária, sem comprovação de integridade dos seus bytes originais; nenhuma aprovação de direitos, autoria ou uso foi inferida.
 
 ## Testes e limites de aceitação
 - CI específico da PR #63 no commit `f636ca88`: [#43610241406](https://github.com/IndiciumFIN/calculadorasdeenfermagem/actions/runs/43610241406) **PASS**.
