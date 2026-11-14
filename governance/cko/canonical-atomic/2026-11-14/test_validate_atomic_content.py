@@ -69,6 +69,23 @@ class FailClosedCorpusTests(unittest.TestCase):
         self.assertNotEqual(code, 0)
         self.assertIn("Document references unknown source", result["errors"])
 
+    def test_invalid_claim_in_evidence_link_fails(self):
+        data = self.load_snapshot()
+        evidence = next(r for r in data["registers"] if r["register"] == "EVIDENCE_ATOMS")
+        evidence["rows"][0][3] = "CKO-CLAIM-NOT-IN-LEDGER"
+        self.write_snapshot(data)
+        code, result = self.run_validator()
+        self.assertNotEqual(code, 0)
+        self.assertIn("Evidence references missing document or claim", result["errors"])
+
+    def test_shared_evidence_multiple_claims_passes(self):
+        # Original ledger contains at least one semicolon-delimited claim reference.
+        data = self.load_snapshot()
+        evidence = next(r for r in data["registers"] if r["register"] == "EVIDENCE_ATOMS")
+        self.assertTrue(any(";" in row[3] for row in evidence["rows"]))
+        code, result = self.run_validator()
+        self.assertEqual(code, 0, result)
+
     def test_publication_flag_fails(self):
         data = json.loads((self.root / FILES[0]).read_text(encoding="utf-8"))
         data["publication_allowed"] = True
