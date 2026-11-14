@@ -61,3 +61,48 @@ jobs:
           path: ${{ runner.temp }}/cko-catalog/
           retention-days: 30
           if-no-files-found: error
+      - name: Fetch pinned PMO M08/M09 metadata snapshot (read-only)
+        uses: actions/checkout@v4
+        with:
+          ref: d395f6e69e935570d5355ba930745bf8cd91f537
+          path: _cko_pmo_source
+          persist-credentials: false
+          sparse-checkout: |
+            governance/cko/canonical-atomic/2026-11-14/PMO_REGISTER_SNAPSHOT_M08_M09.json
+          sparse-checkout-cone-mode: false
+      - name: Reconcile real PMO candidate lineage with the canonical contract graph
+        run: |
+          python scripts/cko_catalog.py \
+            --pmo "_cko_pmo_source/governance/cko/canonical-atomic/2026-11-14/PMO_REGISTER_SNAPSHOT_M08_M09.json" \
+            --out-dir "${{ runner.temp }}/cko-lineage"
+          python scripts/cko_catalog.py \
+            --pmo "_cko_pmo_source/governance/cko/canonical-atomic/2026-11-14/PMO_REGISTER_SNAPSHOT_M08_M09.json" \
+            --out-dir "${{ runner.temp }}/cko-lineage" --check
+      - name: Block missing norm, evidence, claim or content links and any promotion
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+          c = json.loads((Path(os.environ["RUNNER_TEMP"]) / "cko-lineage/catalog.json").read_text())
+          from collections import Counter
+          counts = Counter(n["type"] for n in c["entities"])
+          assert c["statistics"]["errors"] == 0, c["findings"]
+          assert counts["NORM_SOURCE"] == 2, counts
+          assert counts["NORM_DOCUMENT"] == 2, counts
+          assert counts["EVIDENCE_ATOM"] == 43, counts
+          assert counts["CANDIDATE_CLAIM"] == 46, counts
+          assert counts["EDITORIAL_CONTENT"] == 6, counts
+          assert c["publication_allowed"] is False
+          assert "pmo_snapshot_sha256" in c["verified_input_digest"]
+          assert all(n.get("release_allowed") is False for n in c["entities"])
+          print("M08M09_PMOGRAFO_VALID / 46_CLAIMS / 43_EVIDENCE / 6_CONTENT_MASTERS")
+          print("NORMATIVE_CROSSWALK_REMAINS_PENDING / NO_CLINICAL_PROMOTION")
+          PY
+      - name: Upload private derived PMO lineage (IDs only, no source text)
+        uses: actions/upload-artifact@v4
+        with:
+          name: cko-m08m09-candidate-lineage-${{ github.sha }}
+          path: ${{ runner.temp }}/cko-lineage/
+          retention-days: 30
+          if-no-files-found: error
