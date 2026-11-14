@@ -1,0 +1,93 @@
+name: CKO - Candidate integration validation (technical HOLD)
+
+on:
+  push:
+    branches:
+      - integration/cko-parsers-catalog-20261114
+  pull_request:
+    branches:
+      - integration/cko-p0-ci-g6-20261114
+
+permissions:
+  contents: read
+
+jobs:
+  combined-technical:
+    name: Combined parser, catalog, Kernel tests (no clinical release)
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install declared CLI dependencies
+        run: python -m pip install -r packages/cli/requirements.txt
+      - name: Compile candidate sources and tests
+        run: python -m compileall -q packages/cli scripts tests
+      - name: FHIR positive, negative and policy tests
+        run: python -m unittest discover -s tests -p 'test_fhir*py' -v
+      - name: MedlinePlus XML rights and adversarial tests
+        run: python -m unittest discover -s tests -p 'test_medlineplus*py' -v
+      - name: MeSH XML and reference-integrity tests
+        run: python -m unittest discover -s tests -p 'test_mesh*py' -v
+      - name: Canonical catalog deterministic and graph-invariant tests
+        run: python -m unittest discover -s tests -p 'test_cko_catalog.py' -v
+      - name: Kernel negative/release hold tests
+        run: |
+          python -m unittest discover -s tests -p 'test_kernel_registry_failclosed.py' -v
+          python -m unittest discover -s tests -p 'test_kernel_release_holds.py' -v
+          python -m unittest discover -s tests -p 'test_kernel_wo_g6_preflight.py' -v
+      - name: Inspect canonical source-parser coverage without masking outstanding gaps
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from scripts.verify_repository_integrity import inspect
+          result = inspect(Path("."))
+          missing = [f for f in result["findings"] if f["code"] == "MISSING_PARSER"]
+          assert result["counts"]["error"] == 0, result["findings"]
+          assert result["counts"]["pending"] == len(missing), result["findings"]
+          assert len(missing) == 13, result["findings"]
+          assert all(x["path"] not in {
+              "contracts/fontes/fhir_vitais.json",
+              "contracts/fontes/medlineplus.json",
+              "contracts/fontes/mesh.json"
+          } for x in missing), missing
+          assert result["strict_pass"] is False, result
+          print("TECHNICAL_CANDIDATE_PASS, GLOBAL_STRICT_HOLD, REMAINING_PARSERS=13")
+          PY
+      - name: Produce and verify deterministic catalog (no promotion)
+        run: |
+          python scripts/cko_catalog.py --out-dir "${{ runner.temp }}/cko-catalog"
+          python scripts/cko_catalog.py --check --out-dir "${{ runner.temp }}/cko-catalog"
+          python - <<'PY'
+          from pathlib import Path
+          import json, os
+          p = Path(os.environ["RUNNER_TEMP"]) / "cko-catalog" / "catalog.json"
+          data = json.loads(p.read_text(encoding="utf-8"))
+          assert data["statistics"]["errors"] == 0, data["findings"]
+          assert data["publication_allowed"] is False
+          assert all(n.get("release_allowed") is False for n in data["entities"])
+          ids = {n["id"] for n in data["entities"]}
+          assert all(e["source"] in ids and e["target"] in ids for e in data["relationships"])
+          print("GRAPH_METADATA_VALID / RELEASE_HOLD")
+          PY
+      - name: Archive derived graph as private evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: cko-integration-catalog-${{ github.sha }}
+          path: ${{ runner.temp }}/cko-catalog/
+          retention-days: 30
+          if-no-files-found: error
+
+  strict-admission:
+    name: Strict canonical admission (must block until all parsers exist)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Reject unresolved parser dependencies — do not bypass
+        run: python scripts/verify_repository_integrity.py --strict --output "${{ runner.temp }}/cko-strict-admission.json"
