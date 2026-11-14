@@ -41,7 +41,7 @@ def _ensure_validators():
                 VALIDATORS[k] = v
         _validator_imported = True
 
-from kernel.policy_registry import get_policy, PolicyRegistry
+from .policy_registry import get_policy, PolicyRegistry
 
 
 class Decision(str, Enum):

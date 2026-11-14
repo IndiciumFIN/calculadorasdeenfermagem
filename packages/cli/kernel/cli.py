@@ -17,6 +17,7 @@ import typer
 
 from kernel.core import Kernel, Decision
 from kernel.policy_registry import get_policy, list_policies
+from kernel.work_orders import execution_exit_code, submit_drive_activities
 from validators.registry import list_validators
 
 app = typer.Typer(help="Kernel determinístico — executor de políticas normativas")
@@ -123,6 +124,27 @@ def list_validators_cmd() -> None:
     for v in validators:
         typer.echo(f"  - {v}")
     typer.echo()
+
+
+@app.command("submit-wo")
+def submit_wo(
+    folder: str = typer.Option(..., "--folder", "-f"),
+    tarefa: list[str] | None = typer.Option(None, "--tarefa", "-t"),
+) -> None:
+    """Submete uma WO por atividade. Não baixa bytes se a política recusar."""
+    repo_root = Path(__file__).resolve().parents[3]
+    try:
+        orders = submit_drive_activities(
+            folder=folder,
+            tarefas=tarefa or ["obter", "atomizar"],
+            repo_root=repo_root,
+        )
+    except ValueError as exc:
+        typer.secho(f"❌ WO não submetida: {exc}", fg=typer.colors.RED)
+        raise typer.Exit(2)
+    for order in orders:
+        typer.echo(f"{order['id']} {order['estado']} — {order['motivo']}")
+    raise typer.Exit(execution_exit_code(orders))
 
 
 @app.command()
