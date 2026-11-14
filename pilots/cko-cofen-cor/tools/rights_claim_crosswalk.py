@@ -13,7 +13,7 @@ MISSING=('schema_version','canonical_id','version','updated_at','provenance_refs
 SUPERSEDED_DOCUMENTS={'DOC-BR-COFEN-RES-429-2012': {
     'replaced_by':'DOC-BR-COFEN-RES-754-2024',
     'official_url':'https://www.cofen.gov.br/resoluo-cofen-n-4292012/'}}
-HEX_SHA256=re.compile(r'^[0-9a-f]{64}
+HEX_SHA256=re.compile(r'^[0-9a-f]{64}$')
 
 def inspect(path:Path):
     with zipfile.ZipFile(path) as z:
