@@ -135,4 +135,4 @@ jobs:
         with:
           python-version: '3.11'
       - name: Reject missing parsers, unsafe validator stubs and policy gaps — do not bypass
-        run: python scripts/cko_technical_admission.py --output "${{ runner.temp }}/cko-strict-admission.json"
+        run: python -m scripts.cko_technical_admission --output "${{ runner.temp }}/cko-strict-admission.json"
