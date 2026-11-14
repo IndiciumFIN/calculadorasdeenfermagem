@@ -26,14 +26,20 @@ class P0ExistingParsersTest(unittest.TestCase):
             self.assertIn("def parse(", content)
             self.assertNotIn("NotImplementedError", content)
 
-    def test_exactly_thirteen_unimplemented_source_contract_parsers_remain(self):
+    def test_reused_parsers_present_without_overclaiming_global_coverage(self):
         result = inspect(ROOT)
         missing = [r for r in result["findings"] if r["code"] == "MISSING_PARSER"]
-        self.assertEqual(len(missing), 13, missing)
+        self.assertEqual(result["counts"]["error"], 0, result["findings"])
+        self.assertEqual(result["counts"]["pending"], len(missing))
         self.assertTrue(result["structural_pass"], result["findings"])
-        self.assertFalse(result["strict_pass"], "Remaining parsers must block global admission")
+        # This reusable test never freezes a historical pending count. The
+        # strict admission gate independently controls every other source.
         covered = {"contracts/fontes/" + x + ".json" for x in PARSER_PATHS}
         self.assertFalse(covered.intersection(r["path"] for r in missing))
+        if missing:
+            self.assertFalse(result["strict_pass"])
+        else:
+            self.assertTrue(result["strict_pass"])
 
     def test_three_policies_stay_fail_closed(self):
         for name, source in POLICIES.items():
