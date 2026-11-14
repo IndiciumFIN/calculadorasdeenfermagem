@@ -1,0 +1,20 @@
+{
+  "status": "NO_GO",
+  "content_release": false,
+  "clinical_approval": false,
+  "source_fragments_verified": false,
+  "rights_approved": false,
+  "repository_upload_confirmed": false,
+  "main_mutated": false,
+  "supabase_mutated": false,
+  "needs": [
+    "clinical_review_CC_SRPA",
+    "primary_source_fragment_hashes",
+    "rights_item_level",
+    "reconcile_aldrete_and_elpo_tools",
+    "curriculum_hours_if_applicable",
+    "github_repository_access",
+    "review_architecture_and_i18n"
+  ],
+  "note": "QA estrutural local não equivale a aprovação assistencial."
+}

@@ -1,0 +1,13 @@
+finding_id,severity,type,description,ref,gate,status
+W6-FIND-01,P0,SOURCE_INCOMPLETE,"ELPO recuperada como SEO-only; formulário, escore e versão ausentes",W6-LEGACY-ELPO,HOLD_TOOL,OPEN
+W6-FIND-02,P0,HIGH_STAKES_CLAIM,Aldrete declara possibilidade de alta sem dossiê validado,W6-LEGACY-ALDRETE,HOLD_CLINICAL_RULE,OPEN
+W6-FIND-03,P1,I18N_MISMATCH,Aldrete: lang th-TH com partes em português,W6-LEGACY-ALDRETE,HOLD_I18N,OPEN
+W6-FIND-04,P1,I18N_MISMATCH,Checklist: lang nl-NL mas texto em português,W6-LEGACY-LVSC,HOLD_I18N,OPEN
+W6-FIND-05,P1,I18N_MISMATCH,Simulado: lang nl-NL mas texto em português,W6-LEGACY-SIMULADO,HOLD_I18N,OPEN
+W6-FIND-06,P1,I18N_MISMATCH,"Formulário SAEP recuperado em espanhol, não pt-BR",W6-LEGACY-SAEP,HOLD_I18N,OPEN
+W6-FIND-07,P0,RIGHTS,Questões legadas do simulado sem cadeia de autoria e licença verificada,W6-LEGACY-SIMULADO,HOLD_RIGHTS,OPEN
+W6-FIND-08,P1,CLASSIFICATION,Simulado histórico mistura CC/CME/SRPA; requer metadados por questão,W6-LEGACY-SIMULADO,HOLD_RECLASSIFY,OPEN
+W6-FIND-09,P0,PRIMARY_SOURCE_FRAGMENT,"Fontes MS/ANVISA/OMS localizadas, sem hash do fragmento primário para cada afirmação",SRC-MS-CIRURGIA-SEGURA-2013,HOLD_SOURCE,OPEN
+W6-FIND-10,P0,CURRICULUM,Não localizada ementa/hora específica de Centro Cirúrgico e SRPA,CKO-W6-CC-EDUCATIONAL-COMPANION,HOLD_CURRICULUM,OPEN
+W6-FIND-11,P0,GITHUB_ACCESS,Repositório privado Calculadoras de Enfermagem respondeu HTTP 404 na sessão atual,IndiciumFIN/calculadorasdeenfermagem,HOLD_EXTERNAL_UPLOAD,OPEN
+W6-FIND-12,P1,HUMAN_REVIEW,Aprovação clínica/ética/editorial e direitos de uso ainda ausentes,CKO-W6-SRPA-EDUCATIONAL-COMPANION,HOLD_HUMAN,OPEN
