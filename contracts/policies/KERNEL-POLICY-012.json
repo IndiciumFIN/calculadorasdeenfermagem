@@ -2,23 +2,34 @@
   "schema": "CE-KERNEL-POLICY-1.0.0",
   "id": "KERNEL-POLICY-012",
   "name": "PNI Vacinal",
-  "description": "Valida dados do Programa Nacional de Imunizações",
+  "description": "DPNI/SI-PNI 2026 CSV 60-column routine vaccination: aggregate-only k>=10 with privacy, rights, source and clinical HOLD",
   "source_contract": "contracts/fontes/pni.json",
   "validators": [
     "schema_validator"
   ],
   "atoms_output": "data/canonical/atoms/vacinal/",
   "quarentena_output": "data/quarentena/vacinal/",
-  "sha256_required": false,
+  "sha256_required": true,
   "fail_closed": true,
-  "requires_human_review": false,
+  "requires_human_review": true,
   "review_policy": {
-    "min_sample_size": 0,
-    "approval_required": null,
-    "reviewed_by_in_commit": false
+    "min_sample_size": 10,
+    "approval_required": "revisor_privacidade_e_enfermagem",
+    "reviewed_by_in_commit": true
   },
-  "wo_required": false,
+  "wo_required": true,
   "wo_template": null,
-  "version": "1.0.0",
-  "updated_at": "2026-10-17T00:00:00Z"
+  "version": "1.1.0",
+  "updated_at": "2026-11-14T00:00:00Z",
+  "publication_allowed": false,
+  "rights_by_operation_approved": false,
+  "processing_scope": "PNI_2026_CSV_AGGREGATES_ONLY_MIN10_PENDING_LGPD_RIGHTS_SOURCE_REVIEW",
+  "privacy_controls": {
+    "row_level_export_allowed": false,
+    "patient_pseudonym_export_allowed": false,
+    "min_aggregate_records": 10,
+    "reidentification_risk_review_required": true,
+    "lgpd_review_required": true,
+    "derivative_rights_review_required": true
+  }
 }
