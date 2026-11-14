@@ -1,0 +1,59 @@
+name: CE CKO - Auditoria de todas as branches (somente leitura)
+on:
+  push:
+    branches: [audit/cko-crossnorms-branches-20261114]
+    paths:
+      - 'scripts/cko_branch_census.py'
+      - 'tests/test_cko_branch_census.py'
+      - '.github/workflows/cko-branches-cross-audit.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  census:
+    name: Inventario por blob Git / ancestrais / conflitos
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Compile read-only census
+        run: python -m compileall -q scripts/cko_branch_census.py tests/test_cko_branch_census.py
+      - name: Reject false matches, truncated trees and unsafe anonymous fallbacks
+        run: python -m unittest discover -s tests -p 'test_cko_branch_census.py' -v
+      - name: Cross-check all branches and open PRs against exact main Git tree
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/cko_branch_census.py --output "${{ runner.temp }}/cko-branch-census/census.json"
+      - name: Verify no branch mutation and no authority conferred
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+          p = Path(os.environ["RUNNER_TEMP"]) / "cko-branch-census/census.json"
+          c = json.loads(p.read_text(encoding="utf-8"))
+          n = c["counts"]
+          assert n["branches"] >= 40, n
+          assert len(c["branches"]) == n["branches"]
+          assert len(c["open_prs"]) == n["open_prs"]
+          assert c["delete_allowed"] is False
+          assert c["promotion_allowed"] is False
+          assert c["rights_verified"] is False
+          assert c["clinical_review_verified"] is False
+          assert len({b["branch"] for b in c["branches"]}) == n["branches"]
+          assert all(b["delta_sha256"] and b["head_sha"] for b in c["branches"])
+          print("COMPLETE_GIT_TREE_CENSUS_VALID / NO_MERGE / NO_DELETION")
+          PY
+      - name: Upload private blob/ancestry/overlap evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: cko-branch-census-${{ github.sha }}
+          path: ${{ runner.temp }}/cko-branch-census/census.json
+          retention-days: 30
+          if-no-files-found: error
