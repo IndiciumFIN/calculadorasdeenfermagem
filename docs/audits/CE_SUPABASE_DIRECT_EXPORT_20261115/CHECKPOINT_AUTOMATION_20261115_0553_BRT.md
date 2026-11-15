@@ -36,3 +36,12 @@ Estado: READ_ONLY; HOLD_HUMAN para migrations, seeds e publicação. Projeto fí
 | workspace PR71 | PR #71 | HOLD_DEPLOY | CI + preview e rotas |
 
 **Progresso verificável desta rodada:** 3/3 metadados centrais da PR #73 lidos (manifest, readme, crosswalk); 2/2 SQL candidatos lidos; 0/2 migrations/seeds aplicados (intencional); 0/24 ferramentas homologadas nesta rodada. Nenhuma mudança no banco. O inventário físico não é backup completo.
+
+
+## Incremento 2026-11-15 06:52 BRT — segurança de entrada, somente código
+- **PASS_COMMIT**: branch `feat/ce-tools-governed-backend-20261115`, commit [8486daa008ef0332330b55d83de3b6e42715093a](https://github.com/IndiciumFIN/calculadorasdeenfermagem/commit/8486daa008ef0332330b55d83de3b6e42715093a), arquivo `src/lib/ce-tools/security.ts`, blob `f29df94731edd81feed30d19fa9a29c65cb4049a` (anterior `22028c82b17d17be6790f2579da7127e8088fa29`).
+- Endurecimento de requisições mutáveis: rejeitar origem HTTP em `NODE_ENV=production`, rejeitar credenciais na URL de Origin, rejeitar Content-Length não decimal ou acima de `Number.MAX_SAFE_INTEGER`; limite de 40.000 bytes permanece. Ausência de Content-Length segue permitida para transporte chunked, **sem substituir limite real de leitura do body**.
+- **PASS_STATIC**: revisão textual das três novas condições após escrita; **NOT_RUN**: testes unitários, TypeScript, CI e integração, não reivindicar validação dinâmica.
+- **PASS_DB_READONLY**: catálogo PostgreSQL SELECT confirmou `ce_platform.clinical_tools`, `ce_platform.tool_profiles`, `ce_platform.community_memberships`, `cko_governance.md_tool_registry_v2_candidate` e `cko_governance.md_tool_field_contract_v2_candidate`. As seis tabelas `public.ce_*` propostas não apareceram no filtro do catálogo; **HOLD_SEMANTIC** para crosswalk, não inferir equivalência apenas pelo nome.
+- **PR_STATUS**: PR #73 OPEN/DRAFT head `198cdff96f38b16f72f9e94c239c231e1024f3e7`; workspace PR #71 OPEN/DRAFT head `1976da6bf8cbb13a6547e2d7deed6ff3674f1d4d`. `mergeable=true` não libera promoção.
+- **HOLD_HUMAN**: 2/2 SQL candidatos não aplicados; 0/24 ferramentas homologadas nesta rodada. Nenhum DDL/DML nem merge realizado. Próxima ação: testes de origem e Content-Length, proteção de tamanho real do body, crosswalk PK/FK e testes negativos de RLS antes de qualquer migração.
