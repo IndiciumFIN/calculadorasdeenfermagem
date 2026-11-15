@@ -1,0 +1,121 @@
+{
+  "release": "W7-v0.4.1",
+  "date": "2026-11-15",
+  "source_registry": {
+    "MS_PNSTT": {
+      "issuer": "Ministério da Saúde",
+      "title": "Política Nacional de Saúde do Trabalhador e da Trabalhadora",
+      "url": "https://www.gov.br/saude/pt-br/composicao/svsa/saude-do-trabalhador/pnstt",
+      "locator": "PNSTT; Controle social; objetivos e integralidade",
+      "kind": "OFFICIAL_GUIDANCE"
+    },
+    "MS_P1823": {
+      "issuer": "Ministério da Saúde",
+      "title": "Portaria nº 1.823/2012",
+      "url": "https://bvs.saude.gov.br/bvs/saudelegis/gm/2012/prt1823_23_08_2012.html",
+      "locator": "Instituição da PNSTT; conteúdo incorporado ao Anexo XV da Portaria de Consolidação nº 2/2017",
+      "kind": "NORMA_HISTORICAL_CONSOLIDATED"
+    },
+    "MS_RENASTT": {
+      "issuer": "Ministério da Saúde",
+      "title": "Rede Nacional de Atenção Integral à Saúde do Trabalhador e da Trabalhadora",
+      "url": "https://www.gov.br/saude/pt-br/composicao/svsa/saude-do-trabalhador/renast/renast",
+      "locator": "Estratégia da PNSTT; integração da RAS; Cerest",
+      "kind": "OFFICIAL_GUIDANCE"
+    },
+    "MS_P4922": {
+      "issuer": "Ministério da Saúde",
+      "title": "Portaria GM/MS nº 4.922/2024",
+      "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2024/prt4922_26_07_2024.html",
+      "locator": "Art. 1º, RENAST passa a denominar-se RENASTT",
+      "kind": "NORMA"
+    },
+    "MS_CEREST": {
+      "issuer": "Ministério da Saúde",
+      "title": "Centro de Referência em Saúde do Trabalhador",
+      "url": "https://www.gov.br/saude/pt-br/composicao/svsa/saude-do-trabalhador/renast/cerest",
+      "locator": "O que faz; quem é atendido; o que Cerest não faz",
+      "kind": "OFFICIAL_GUIDANCE"
+    },
+    "MS_VISAT": {
+      "issuer": "Ministério da Saúde",
+      "title": "Vigilância em Saúde do Trabalhador",
+      "url": "https://www.gov.br/saude/pt-br/composicao/svsa/saude-do-trabalhador/vigilancia-em-saude-do-trabalhador-vigisat",
+      "locator": "Conceito e objetivos; investigação dos agravos; notificação",
+      "kind": "OFFICIAL_GUIDANCE"
+    },
+    "MS_NOTIF": {
+      "issuer": "Ministério da Saúde",
+      "title": "Notificação Compulsória e Sistema Sinan",
+      "url": "https://www.gov.br/saude/pt-br/composicao/svsa/notificacao-compulsoria",
+      "locator": "Definição de notificação; papel do Sinan; atualizações",
+      "kind": "OFFICIAL_GUIDANCE"
+    },
+    "MS_P11211": {
+      "issuer": "Ministério da Saúde",
+      "title": "Portaria GM/MS nº 11.211/2026",
+      "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html",
+      "locator": "Anexo I, itens 1, 6, 10, 12, 44, 49, 50 e 63; periodicidades",
+      "kind": "NORMA_CURRENT"
+    },
+    "MTE_NR17": {
+      "issuer": "Ministério do Trabalho e Emprego",
+      "title": "Norma Regulamentadora nº 17 — Ergonomia",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/norma-regulamentadora-no-17-nr-17",
+      "locator": "NR-17, avaliação ergonômica preliminar e AET, itens 17.3.1–17.3.3",
+      "kind": "NORMA"
+    },
+    "MTE_NR1": {
+      "issuer": "Ministério do Trabalho e Emprego",
+      "title": "Norma Regulamentadora nº 1 — GRO, capítulo 1.5",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/nr-1",
+      "locator": "Capítulo 1.5 vigente desde 26/05/2026; fatores psicossociais e gestão de riscos",
+      "kind": "NORMA_CURRENT"
+    },
+    "MTE_MANUAL26": {
+      "issuer": "Ministério do Trabalho e Emprego",
+      "title": "Manual de Interpretação e Aplicação do Capítulo 1.5 da NR-1, 2026",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/manuais-e-publicacoes/2026/manual_gro_pgr_da_nr_1.pdf/view",
+      "locator": "Fatores psicossociais e AEP/AET; orientação não substitui NR-1",
+      "kind": "OFFICIAL_INTERPRETATION"
+    }
+  },
+  "microtopic_registry": "microtopic_registry.csv (1055 rows; owner library)",
+  "new_educational_units": 12,
+  "new_original_claims": 24,
+  "quizzes": 12,
+  "flashcards": 12,
+  "source_evidence_method": "REVIEWED_PUBLIC_OFFICIAL_WEB_PAGES_AND_LEGAL_TEXT; NO_VERIFIED_PRIMARY_BYTES_SHA",
+  "assumptions": [
+    "The Ministry of Health revised national mandatory-notification list again in May 2026",
+    "Renast was renamed Renastt in 2024",
+    "No university course syllabus is inferred from normative topic evidence"
+  ],
+  "qa": {
+    "local_structural_pass": 15,
+    "local_structural_fail": 0,
+    "checks": {
+      "exact_12": true,
+      "unique": true,
+      "prior_disjoint": true,
+      "sources_known": true,
+      "claims_known": true,
+      "quiz_answers_valid": true,
+      "two_paras": true,
+      "fresh_2026_notification": true,
+      "renastt_2024_rename": true,
+      "privacy": true,
+      "no_auto_publication": true,
+      "no_semantic_link": true,
+      "no_protocol": true,
+      "all_official": true,
+      "claim_ids_unique": true
+    }
+  },
+  "editorial_gate": "HOLD_HUMAN",
+  "clinical_gate": "NO_GO",
+  "publication_gate": "NO_GO",
+  "rights_republication_of_third_party": false,
+  "github_actions_run": false,
+  "main_merge": false
+}
