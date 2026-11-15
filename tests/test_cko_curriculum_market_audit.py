@@ -21,6 +21,15 @@ class TestCurriculumMarketAudit(unittest.TestCase):
         r = self.report
         self.assertEqual(len(r["specialties"]), r["counts"]["cofen_main"])
         self.assertEqual(sum(x["job_ad_count"] for x in r["specialties"]), r["counts"]["employer_ads_sample"])
+        # A defaultdict lookup must not turn a missing sample into an observed job.
+        self.assertEqual(
+            r["counts"]["cofen_specialties_with_ads"],
+            sum(x["job_ad_count"] > 0 for x in r["specialties"]),
+        )
+        self.assertEqual(
+            r["counts"]["cofen_specialties_with_no_ads_in_sample"],
+            sum(x["job_ad_count"] == 0 for x in r["specialties"]),
+        )
         self.assertEqual(
             r["counts"]["cofen_specialties_with_ads"] + r["counts"]["cofen_specialties_with_no_ads_in_sample"],
             r["counts"]["cofen_main"],
