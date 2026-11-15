@@ -1,0 +1,144 @@
+{
+  "release": "W7-v0.3.8",
+  "date": "2026-11-15",
+  "previous_head": "303c1563aa3f138798bf5e98e79f531b20993433",
+  "source_registry": {
+    "NR1": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/nr-1",
+    "PGR": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/pgr/principal",
+    "NR7": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/norma-regulamentadora-no-7-nr-7",
+    "NR9": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/norma-regulamentadora-no-9-nr-9",
+    "NR17": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/norma-regulamentadora-no-17-nr-17",
+    "NR32": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/norma-regulamentadora-no-32-nr-32",
+    "FAQ26": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/manuais-e-publicacoes/2026/perguntas-e-respostas-gro-pgr-maio-2026/"
+  },
+  "lesson_count": 10,
+  "source_linked_claims": 20,
+  "flashcards": 10,
+  "quizzes": 10,
+  "cases": [
+    {
+      "id": "W7-CASE-038-1",
+      "title": "Inventário sem plano encontrado",
+      "fictional": true,
+      "topics": [
+        "MICRO-WORK-00454",
+        "MICRO-WORK-00455"
+      ],
+      "scene": "Uma clínica fictícia apresentou um inventário de riscos, mas não localizou seu plano de ação durante a análise documental.",
+      "questions": [
+        "Quais documentos mínimos formam o PGR?",
+        "Quais evidências indicariam ações efetivamente implementadas?"
+      ],
+      "sources": [
+        "PGR",
+        "NR1"
+      ]
+    },
+    {
+      "id": "W7-CASE-038-2",
+      "title": "Mudança na organização do trabalho",
+      "fictional": true,
+      "topics": [
+        "MICRO-WORK-00314",
+        "MICRO-WORK-00335"
+      ],
+      "scene": "Uma organização fictícia alterou tarefas e ritmo de trabalho. O setor solicita avaliação dos fatores ergonômicos e psicossociais.",
+      "questions": [
+        "Quais condições e processos devem ser observados?",
+        "Por que um questionário isolado não prova implementação preventiva?"
+      ],
+      "sources": [
+        "NR17",
+        "NR1",
+        "FAQ26"
+      ]
+    },
+    {
+      "id": "W7-CASE-038-3",
+      "title": "Mapa preventivo de risco biológico",
+      "fictional": true,
+      "topics": [
+        "MICRO-WORK-00267",
+        "MICRO-WORK-00292"
+      ],
+      "scene": "Um laboratório fictício pretende revisar preventivamente tarefas com potencial exposição biológica, sem registrar acidentes reais ou dados pessoais.",
+      "questions": [
+        "Como distinguir exposição e doença?",
+        "Qual o papel da NR-32 e do PGR na prevenção?"
+      ],
+      "sources": [
+        "NR32",
+        "PGR"
+      ]
+    }
+  ],
+  "checklists": [
+    {
+      "id": "W7-CHECK-038-1",
+      "title": "Consistência educacional do PGR",
+      "topics": [
+        "MICRO-WORK-00453",
+        "MICRO-WORK-00454",
+        "MICRO-WORK-00455"
+      ],
+      "items": [
+        "Inventário registra perigos e riscos avaliados?",
+        "Medidas do plano de ação correspondem aos riscos?",
+        "Há acompanhamento da implementação?",
+        "Revisões consideram mudanças relevantes?"
+      ],
+      "sources": [
+        "NR1",
+        "PGR"
+      ]
+    },
+    {
+      "id": "W7-CHECK-038-2",
+      "title": "Consistência educacional do GRO psicossocial",
+      "topics": [
+        "MICRO-WORK-00335",
+        "MICRO-WORK-00352"
+      ],
+      "items": [
+        "Foram consideradas condições e organização reais do trabalho?",
+        "A metodologia é coerente com as atividades?",
+        "As medidas atuam nos fatores identificados?",
+        "Há acompanhamento dos resultados?"
+      ],
+      "sources": [
+        "NR1",
+        "FAQ26"
+      ]
+    }
+  ],
+  "qa": {
+    "checks": {
+      "ten_lessons": true,
+      "ten_new_ids": true,
+      "valid_source_ids": true,
+      "claims_traceable": true,
+      "flashcards": true,
+      "quizzes": true,
+      "long_form": true,
+      "no_publication": true,
+      "no_semantic_approval": true,
+      "no_clinical_approval": true,
+      "no_third_party_reproduction": true,
+      "no_old_overlap": true,
+      "three_cases": true,
+      "cases_linked": true,
+      "two_checklists": true,
+      "checklists_linked": true,
+      "normative_official": true,
+      "nr1_2026_version": true
+    },
+    "pass": 18,
+    "fail": 0,
+    "mode": "LOCAL_STRUCTURAL_CHECKS_NOT_GITHUB_CI"
+  },
+  "status": "DRAFT_AUTHORIAL_CONTENT_COMPLETE / CLINICAL_AND_EDITORIAL_REVIEW_PENDING / NO_GO",
+  "clinical_publication_allowed": false,
+  "institutional_part_of_approved": false,
+  "main_merge_allowed": false,
+  "supabase_write_allowed": false
+}
