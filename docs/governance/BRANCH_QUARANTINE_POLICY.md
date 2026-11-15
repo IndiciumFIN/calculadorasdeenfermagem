@@ -34,3 +34,9 @@ Antes de escolher **qualquer branch** como origem para editar, clonar como basel
 ## Desativação e exclusão de uma entrada
 
 Requer: (1) inventário de referências executáveis e externas; (2) substituição por ref não quarentenada ou SHA imutável em usos históricos; (3) testes e revisão de conflitos; (4) SHA de destino revalidado e `ahead_by=0`; (5) backup/restauração provados quando aplicável; (6) autorização humana específica; (7) registro de execução. Até então: **HOLD_HUMAN**. Sem alterar dados do Supabase, sem migrations, sem merge automático ou deploy.
+
+## Gate independente contra alterações maliciosas de PR
+
+`.github/workflows/branch-quarantine-trusted.yml` usa `pull_request_target` e consulta **exclusivamente a `main` confiável**, sem executar nem conferir checkout do código de uma PR. O job exigível chama-se **`branch-quarantine / authorize-ref-trusted`**. O workflow `pull_request` anterior permanece como diagnóstico na PR, mas **não é suficiente como controle de acesso** porque uma PR pode alterar o próprio script.
+
+**Ativação:** este workflow só começa a proteger novas PRs depois de estar integrado à `main`; exigir seu check em Rulesets/Branch Protection e proibir bypass de administradores. Até isso ocorrer, a proteção não está operacional. O GitHub não fornece garantia sobre orquestradores externos sem integração própria. Não habilitar pull_request_target com permissões de escrita nem executar código da PR.
