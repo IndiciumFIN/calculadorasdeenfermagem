@@ -45,3 +45,20 @@ Estado: READ_ONLY; HOLD_HUMAN para migrations, seeds e publicação. Projeto fí
 - **PASS_DB_READONLY**: catálogo PostgreSQL SELECT confirmou `ce_platform.clinical_tools`, `ce_platform.tool_profiles`, `ce_platform.community_memberships`, `cko_governance.md_tool_registry_v2_candidate` e `cko_governance.md_tool_field_contract_v2_candidate`. As seis tabelas `public.ce_*` propostas não apareceram no filtro do catálogo; **HOLD_SEMANTIC** para crosswalk, não inferir equivalência apenas pelo nome.
 - **PR_STATUS**: PR #73 OPEN/DRAFT head `198cdff96f38b16f72f9e94c239c231e1024f3e7`; workspace PR #71 OPEN/DRAFT head `1976da6bf8cbb13a6547e2d7deed6ff3674f1d4d`. `mergeable=true` não libera promoção.
 - **HOLD_HUMAN**: 2/2 SQL candidatos não aplicados; 0/24 ferramentas homologadas nesta rodada. Nenhum DDL/DML nem merge realizado. Próxima ação: testes de origem e Content-Length, proteção de tamanho real do body, crosswalk PK/FK e testes negativos de RLS antes de qualquer migração.
+
+## Incremento 2026-11-15 07:52 BRT — autorização de escrita e crosswalk de colunas
+
+- **PASS_COMMIT**: branch `feat/ce-tools-governed-backend-20261115`, PATCH `src/app/api/admin/ferramentas/[key]/route.ts`, commit [3be097cae91a15d646dea48b6a37bfeb178d6410](https://github.com/IndiciumFIN/calculadorasdeenfermagem/commit/3be097cae91a15d646dea48b6a37bfeb178d6410), blob `022dd6027994aacce32e6c2fcbd196f1060abd01`. O endpoint agora nega explicitamente o papel auditor; somente admin/editor podem editar.
+- **PASS_COMMIT**: transição para revisão `src/app/api/admin/ferramentas/[key]/enviar-revisao/route.ts`, commit [6f56be0f8ea9c7d0973f3fbdd1ceae57eb5db1ef](https://github.com/IndiciumFIN/calculadorasdeenfermagem/commit/6f56be0f8ea9c7d0973f3fbdd1ceae57eb5db1ef), blob `348ecf2839fc2750388172d2d1c8c61736bfbbdc`. Somente admin/editor podem solicitar revisão.
+- **PASS_COMMIT**: teste estático de regressão em `tests/test_governed_tools.py`, commit [c43e349dce8b752b1da549989469ac177a209948](https://github.com/IndiciumFIN/calculadorasdeenfermagem/commit/c43e349dce8b752b1da549989469ac177a209948), blob `dc1890fd0cc740385d7dde0e3948e595ec1bb804`. Verifica os três endpoints mutáveis para restrição admin/editor e verificação de origem.
+- **PASS_DB_READONLY**: SELECT no catálogo de `pgsybzggewhinaniybiy` retornou 71 colunas físicas de cinco entidades existentes: `ce_platform.clinical_tools` (8), `ce_platform.tool_profiles` (7), `ce_platform.community_memberships` (5), `cko_governance.md_tool_field_contract_v2_candidate` (36), `cko_governance.md_tool_registry_v2_candidate` (15). Essas entidades cobrem capacidades, perfis, vínculos comunitários e contratos de campos, mas **não comprovam equivalência** com drafts/grants/releases/revocations/audit propostos. Classificação: REUSE_CANDIDATE para catálogo e contrato; HOLD_SEMANTIC para identidade editorial e ciclo de publicação.
+- **PASS_STATIC**: alterações de código verificadas por leitura do conteúdo; **NOT_RUN**: testes Python/TS/CI e RLS negativos em execução real. Não afirmar PASS dinâmico.
+- **HOLD_HUMAN**: 0/2 SQL candidato/seed executado; 0/24 ferramentas homologadas; 0 migrations e 0 merges. PR #73 e PR #71 seguem OPEN/DRAFT. Próxima ação: testar novos guards em CI, completar PK/FK e RLS crosswalk, corrigir limite real de body e plano de migração sem duplicações.
+
+### Registro incremental 07:52
+| Artefato | Fingerprint Git | Estado | Próxima ação |
+|---|---|---|---|
+| PATCH ferramentas | 022dd6027994aacce32e6c2fcbd196f1060abd01 | PASS_STATIC | testes de role negativo |
+| POST enviar revisão | 348ecf2839fc2750388172d2d1c8c61736bfbbdc | PASS_STATIC | testes de role negativo |
+| tests/test_governed_tools.py | dc1890fd0cc740385d7dde0e3948e595ec1bb804 | COMMITTED_NOT_RUN | CI Python |
+| 5 tabelas físicas do catálogo | 71 colunas via SELECT | PASS_INVENTORY | PK/FK, RLS e equivalência semântica |
