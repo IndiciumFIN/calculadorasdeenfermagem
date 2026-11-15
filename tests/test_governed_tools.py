@@ -94,6 +94,8 @@ class GovernedToolsContractTests(unittest.TestCase):
         self.assertIn("utf-8", security)
         self.assertIn("JSON obrigatório (UTF-8)", security)
         self.assertNotIn(".startsWith('application/json')", security)
+        self.assertIn('(?:utf-8|"utf-8")', security)
+        self.assertNotIn('"?utf-8"?', security)
 
     def test_seed_does_not_publish(self):
         sql=(ROOT/'supabase/candidates/20261115_ce_tools_research_seed_candidate.sql').read_text().lower()
