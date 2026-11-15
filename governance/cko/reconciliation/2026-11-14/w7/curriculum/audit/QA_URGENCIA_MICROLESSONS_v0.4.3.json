@@ -1,0 +1,130 @@
+{
+  "release": "W7-v0.4.3",
+  "dated": "2026-11-15",
+  "branch": "review/cko-w7-public-evidence-20261114",
+  "head_before": "b1ff8462539efa0d67851102fab323ae1d17a908",
+  "scope": "ORIGINAL_EDUCATIONAL_MATERIAL_EMERGENCY_NURSING",
+  "microtopic_registry_ref": "microtopic_registry.csv",
+  "source_registry": {
+    "MS_RUE": {
+      "authority": "Ministério da Saúde",
+      "name": "Rede de Atenção às Urgências e Emergências",
+      "url": "https://www.gov.br/saude/pt-br/composicao/saes/samu-192/rau/rede-de-atencao-as-urgencias-e-emergencias/",
+      "locator": "Objetivo, componentes e integração da rede",
+      "type": "GOV_OFFICIAL_GUIDANCE"
+    },
+    "MS_URGENCIA": {
+      "authority": "Ministério da Saúde",
+      "name": "Atenção de Urgência",
+      "url": "https://www.gov.br/saude/pt-br/composicao/saes/dahu/atencao-de-urgencia",
+      "locator": "Fluxos regulados, referência, contrarreferência, componentes",
+      "type": "GOV_OFFICIAL_GUIDANCE"
+    },
+    "MS_P1600": {
+      "authority": "Ministério da Saúde",
+      "name": "Portaria GM/MS nº 1.600/2011, origem histórica da RUE",
+      "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2011/prt1600_07_07_2011.html",
+      "locator": "Arts. 2–3; contextualização histórica, não prova isolada da vigência atual",
+      "type": "HISTORICAL_NORMATIVE_CONTEXT"
+    },
+    "ANVISA_RDC36": {
+      "authority": "Anvisa",
+      "name": "RDC Anvisa nº 36, de 25/07/2013",
+      "url": "https://anvisalegis.datalegis.net/action/ActionDatalegis.php?acao=abrirTextoAto&cod_menu=9431&cod_modulo=310&link=S&numeroAto=00000036&orgao=RDC%2FDC%2FANVISA%2FMS&seqAto=000&tipo=RDC&valorAno=2013",
+      "locator": "Arts. 3, 4, 7, 8, 9 e 10",
+      "type": "BRAZILIAN_NORM"
+    },
+    "ANVISA_NSP": {
+      "authority": "Anvisa",
+      "name": "Núcleos de Segurança do Paciente — perguntas frequentes",
+      "url": "https://www.gov.br/anvisa/pt-br/acessoainformacao/perguntasfrequentes/servicos-de-saude/nucleos-de-seguranca-do-paciente",
+      "locator": "Escopo, exclusões, obrigações e exemplos",
+      "type": "GOV_OFFICIAL_GUIDANCE"
+    },
+    "ANVISA_NOTIF": {
+      "authority": "Anvisa",
+      "name": "Notificação de incidentes e eventos adversos assistenciais",
+      "url": "https://www.gov.br/anvisa/pt-br/acessoainformacao/perguntasfrequentes/servicos-de-saude/notificacao-de-incidentes-e-eventos-adversos-relacionados-a-assistencia-a-saude",
+      "locator": "Notivisa; prazos; óbito em até 72 h; até 15º dia útil seguinte",
+      "type": "GOV_OFFICIAL_GUIDANCE"
+    },
+    "MS_PNSP": {
+      "authority": "Ministério da Saúde",
+      "name": "Legislação do Programa Nacional de Segurança do Paciente — Portaria 529/2013",
+      "url": "https://www.gov.br/saude/pt-br/acesso-a-informacao/acoes-e-programas/pnsp/legislacao/portarias",
+      "locator": "Portarias 529/2013, 1377/2013, 2095/2013",
+      "type": "GOV_OFFICIAL_LEGAL_INDEX"
+    },
+    "AHRQ_CHECK": {
+      "authority": "AHRQ",
+      "name": "TeamSTEPPS: Check-Back (Repeat-Back)",
+      "url": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/checkback.html",
+      "locator": "Definição da comunicação em alça fechada e confirmação de recepção",
+      "type": "INTERNATIONAL_OFFICIAL_EDUCATIONAL_GUIDANCE"
+    },
+    "AHRQ_LEAD": {
+      "authority": "AHRQ",
+      "name": "TeamSTEPPS: team leadership overview",
+      "url": "https://www.ahrq.gov/teamstepps-program/curriculum/team/overview/index.html",
+      "locator": "Brief, huddle, debrief e liderança",
+      "type": "INTERNATIONAL_OFFICIAL_EDUCATIONAL_GUIDANCE"
+    },
+    "AHRQ_DEBRIEF": {
+      "authority": "AHRQ",
+      "name": "TeamSTEPPS: reviewing team performance, debrief",
+      "url": "https://www.ahrq.gov/teamstepps-program/curriculum/team/tools/debrief.html",
+      "locator": "Debrief sem culpa; revisão após evento; mudanças no plano",
+      "type": "INTERNATIONAL_OFFICIAL_EDUCATIONAL_GUIDANCE"
+    },
+    "AHRQ_IPASS": {
+      "authority": "AHRQ",
+      "name": "TeamSTEPPS: I-PASS, transferência estruturada de cuidados",
+      "url": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/ipass.html",
+      "locator": "Lista de ações, contingência e síntese por receptor",
+      "type": "INTERNATIONAL_OFFICIAL_EDUCATIONAL_GUIDANCE"
+    }
+  },
+  "count": {
+    "new_micro_lessons": 11,
+    "new_flashcards": 11,
+    "new_questions": 11,
+    "new_source_linked_claims": 22
+  },
+  "checks": {
+    "passed": 16,
+    "failed": 0,
+    "method": "LOCAL_STRUCTURAL_ASSERTIONS_AND_DESK_SOURCE_REVIEW_NOT_CI",
+    "assertions": {
+      "eleven_units": true,
+      "unique_topics": true,
+      "real_registry_titles": true,
+      "all_own_text": true,
+      "source_known": true,
+      "citation_types": true,
+      "twenty_two_claims": true,
+      "claims_unique": true,
+      "questions_valid": true,
+      "flashcards": true,
+      "none_clinically_approved": true,
+      "none_published": true,
+      "none_original_rights_inferred": true,
+      "no_semantics_approved": true,
+      "incident_notivisa_separate": true,
+      "no_universal_legal_checks": true
+    }
+  },
+  "rights": {
+    "original_corpus_content_not_copied": true,
+    "mixed_source_rights_preserved": true,
+    "source_bytes_hash_verified": false
+  },
+  "gates": {
+    "editorial": false,
+    "clinical": false,
+    "legal_republication": false,
+    "semantics": false,
+    "site_deploy": false,
+    "main_merge": false
+  },
+  "status": "CANDIDATES_CREATED / REVIEW_PENDING / NO_GO_PUBLICATION"
+}
