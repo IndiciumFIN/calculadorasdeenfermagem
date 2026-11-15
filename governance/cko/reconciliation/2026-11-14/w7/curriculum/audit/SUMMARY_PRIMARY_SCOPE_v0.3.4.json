@@ -1,0 +1,61 @@
+{
+  "version": "W7-v0.3.4",
+  "date": "2026-11-14",
+  "scope": "12-PART_OF-CURRICULAR-CANDIDATES-ONLY",
+  "pinned_source_blob": "7f583b328b9e1494bf908ce0847fefc0ff95c5c3",
+  "original_pairs_reviewed": 27,
+  "part_of_candidates_verified": 12,
+  "output_pairs": 12,
+  "classes": {
+    "OFFICIAL_DISCIPLINE_TITLE_NOT_SUBTOPIC": 4,
+    "RELATED_PROGRAM_AND_COMBINED_DISCIPLINE_BUT_DETAIL_ERGONOMICS": 1,
+    "OFFICIAL_RELATED_OCCUPATIONAL_CURRICULUM_UNITS": 4,
+    "PRIMARY_PROGRAM_EDITION_NOT_RECOVERED": 2,
+    "RELATED_EDUCATION_OBJECTIVE_PAGE_MIXED_CONTENT": 1
+  },
+  "source_references": {
+    "PUCMG": {
+      "url": "https://vemprapuc.pucminas.br/enfermagem-do-trabalho-ead-com-aulas-ao-vivo",
+      "area": "Program of Course: live disciplines"
+    },
+    "PUCPR": {
+      "url": "https://estudenapuc.pucpr.br/pos-graduacao/cursos/enfermagem-do-trabalho-curitiba/",
+      "area": "Disciplinas: ergonomia e toxicologia, plus discipline-description text"
+    },
+    "SIRIO": {
+      "url": "https://digital.faculdadesiriolibanes.org.br/curso/profissionais/gestao-em-saude-corporativa-e-bem-estar-do-trabalhador",
+      "area": "Unidades Curriculares: Fundamentos em SST; Acolhimento e Escuta ao Trabalhador"
+    },
+    "EINSTEIN": {
+      "url": "https://conteudo-ensino.s3.sa-east-1.amazonaws.com/documentos/pos-graduacao-ead/cronograma/2026/cronograma-pg-ead-enfermagem-em-emergencia-e-urgencia-4bm.pdf",
+      "area": "PDF 2026-4BM p.1: Emergências e Trauma Musculoesquelético"
+    },
+    "SANTA": {
+      "url": "https://fcmsantacasasp.edu.br/vemprasanta/pos-graduacao-lato-sensu/formacao-de-enfermeiros-para-educacao-superior/",
+      "area": "Objetivos do Curso: avaliação da aprendizagem; page also contains apparently unrelated physiotherapy text"
+    },
+    "ACC": {
+      "url": null,
+      "area": "Institutional 2026 original syllabus not recovered; source target currently only in existing W7 dataset"
+    }
+  },
+  "official_evidence_found_for_target_topic_or_title": 10,
+  "official_current_specific_syllabus_not_recovered": 2,
+  "observed_source_limits": [
+    "PUCMG course title confirms Doenças Relacionadas ao Trabalho without the proposed subtopic detail",
+    "PUCPR joint ergonomics/toxicology discipline title with description primarily about ergonomics",
+    "SIRIO published units refer to risk assessment and worker listening, but do not validate microtopic→target equivalence",
+    "Einstein official schedule confirms discipline label, not syllabus-level microtopic",
+    "Santa Casa education page includes nursing teaching objectives and apparently unrelated physiotherapy blocks",
+    "ACC original course-specific official document not found in this review"
+  ],
+  "original_985_atoms_unchanged": true,
+  "old_27_pairs_unchanged": true,
+  "clinical_claims_added": 0,
+  "part_of_relations_approved": 0,
+  "rights_cleared": 0,
+  "local_audit_bundle_sha256": "1611132b9d72dfea768bdf7d40e96b4fe8e1be9e34fbef168f4c7b26dfd95689",
+  "local_structural_checks_pass": 14,
+  "original_legal_source_binary_verified": 0,
+  "publication_allowed": false
+}

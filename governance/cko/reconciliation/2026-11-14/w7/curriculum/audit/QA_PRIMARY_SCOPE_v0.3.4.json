@@ -1,0 +1,58 @@
+{
+  "release": "W7-v0.3.4",
+  "public_structural_pass": 12,
+  "public_structural_fail": 0,
+  "checks": [
+    {
+      "name": "12_pairs_from_27",
+      "passed": true
+    },
+    {
+      "name": "blob_pinned",
+      "passed": true
+    },
+    {
+      "name": "all_pair_keys_in_prior",
+      "passed": true
+    },
+    {
+      "name": "unique_keys",
+      "passed": true
+    },
+    {
+      "name": "4_titles",
+      "passed": true
+    },
+    {
+      "name": "5_related",
+      "passed": true
+    },
+    {
+      "name": "1_mixed",
+      "passed": true
+    },
+    {
+      "name": "2_primary_missing",
+      "passed": true
+    },
+    {
+      "name": "no_bytes_claimed",
+      "passed": true
+    },
+    {
+      "name": "no_part_of_approved",
+      "passed": true
+    },
+    {
+      "name": "no_rights_approved",
+      "passed": true
+    },
+    {
+      "name": "no_publication",
+      "passed": true
+    }
+  ],
+  "local_package_tests_pass": 14,
+  "ci_not_asserted": true,
+  "semantic_approved": false
+}
