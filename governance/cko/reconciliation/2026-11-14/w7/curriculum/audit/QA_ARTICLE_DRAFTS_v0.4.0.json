@@ -1,0 +1,77 @@
+{
+  "version": "W7-v0.4.0",
+  "date": "2026-11-15",
+  "parent_head": "5e4fc85f11776b81222a283a663c233b72f6d56a",
+  "source_ledger": "audit/CLAIM_EVIDENCE_REVIEW_33_v0.3.9.jsonl",
+  "total_articles": 2,
+  "articles": [
+    {
+      "id": "W7-ARTICLE-PGR-040",
+      "repository_path": "governance/cko/reconciliation/2026-11-14/w7/curriculum/educational/articles/ARTIGO_GRO_PGR_PCMSO_v0.4.0.md",
+      "title": "Do GRO ao PGR: como relacionar inventário, plano de ação e PCMSO",
+      "source_keys": [
+        "NR1",
+        "PGR",
+        "NR7"
+      ],
+      "related_microtopics": [
+        "MICRO-WORK-00453",
+        "MICRO-WORK-00454",
+        "MICRO-WORK-00455",
+        "MICRO-WORK-00460",
+        "MICRO-WORK-00471"
+      ],
+      "source_evidence": "OFFICIAL_NORMATIVE_WEB_TEXT_AND_PDF_SCREENSHOT_DESK_VERIFIED",
+      "source_original_bytes_sha256": null,
+      "publication_allowed": false,
+      "human_editorial_approval": false,
+      "human_clinical_approval": false,
+      "copyright_reuse_external": false,
+      "protocol_clinical": false
+    },
+    {
+      "id": "W7-ARTICLE-BIO-040",
+      "repository_path": "governance/cko/reconciliation/2026-11-14/w7/curriculum/educational/articles/ARTIGO_RISCO_BIOLOGICO_SERVICOS_SAUDE_v0.4.0.md",
+      "title": "Risco biológico em serviços de saúde: da identificação de perigos às medidas preventivas",
+      "source_keys": [
+        "NR32",
+        "NR9",
+        "NR1"
+      ],
+      "related_microtopics": [
+        "MICRO-WORK-00267",
+        "MICRO-WORK-00292"
+      ],
+      "source_evidence": "OFFICIAL_NORMATIVE_WEB_TEXT_AND_PDF_SCREENSHOT_DESK_VERIFIED",
+      "source_original_bytes_sha256": null,
+      "publication_allowed": false,
+      "human_editorial_approval": false,
+      "human_clinical_approval": false,
+      "copyright_reuse_external": false,
+      "protocol_clinical": false
+    }
+  ],
+  "qa": {
+    "method": "LOCAL_STATIC_STRUCTURE_NOT_CI",
+    "passed": 13,
+    "failed": 0,
+    "checks": {
+      "two_articles": true,
+      "unique_names": true,
+      "not_truncated": true,
+      "header_present": true,
+      "explicit_no_go": true,
+      "source_links": true,
+      "normative_granularity": true,
+      "nonclinical_disclaimer": true,
+      "source_map_from_prior": true,
+      "reusable_questions": true,
+      "no_third_party_long_quotes": true,
+      "no_new_curriculum_links": true,
+      "none_main_or_db": true
+    }
+  },
+  "status": "TWO_ARTICLES_DRAFT_COMPLETE / EDITORIAL_AND_CLINICAL_SIGNOFF_PENDING / PUBLICATION_NO_GO",
+  "main_untouched": true,
+  "supabase_untouched": true
+}
