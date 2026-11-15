@@ -115,3 +115,21 @@ Estado: READ_ONLY; HOLD_HUMAN para migrations, seeds e publicação. Projeto fí
 | PR #73 | head `ef787f1`; OPEN/DRAFT; arquivos listados | PASS_STATUS / HOLD_MERGE | CI e revisão |
 | `public.ce_tool_audit` | SQL candidato `aa736b0` (não aplicado) | HOLD_SEMANTIC | matriz por evento |
 | Ferramentas de pesquisa | 24/24 candidatas, 0/24 homologadas | HOLD_HUMAN | evidências clínicas/licenças |
+
+
+## Incremento 2026-11-15 12:49 BRT — escritores reais do ledger e risco LGPD
+
+- **PASS_PR_READ**: PR #73 OPEN/DRAFT, head `aa261d579961d8be4ca835fd205661fa914877ab`, base `e0f62491b104f4a97c6025a6393cabc2e7ada30e`; PR workspace #71 OPEN/DRAFT, head `1976da6bf8cbb13a6547e2d7deed6ff3674f1d4d`. Nenhuma promoção autorizada.
+- **PASS_DB_READONLY**: catálogo `pg_proc.prosrc` identifica `cko_governance.audit_protected_row_change()` como escritor efetivo de `cko_governance.change_audit_ledger`; função `SECURITY DEFINER`. Usa `TG_OP`, `TG_TABLE_SCHEMA`, `TG_TABLE_NAME`, `cko.change_request_id` e hashes SHA-256. Faz INSERT no ledger após UPDATE/DELETE de tabelas protegidas.
+- **PASS_DB_READONLY**: `pg_trigger` confirmou triggers `AFTER DELETE OR UPDATE` em objetos `cko_ai`, `cko_evidence`, `cko_governance`, `cko_master` e `cko_regulatory` (entre outros); o escritor **não** cobre INSERT nem eventos de publicação/revogação como eventos próprios. O resultado observado contém pelo menos 40 triggers; o levantamento retornou amostra limitada e não é censo de cobertura.
+- **HOLD_PRIVACY_HIGH**: o escritor serializa `OLD` e `NEW` integralmente para `old_data/new_data`, com exceção de `cko_evidence.snapshots.content_text`, que é retirado dos JSONs armazenados. Os hashes continuam calculados sobre o JSON completo. Isso exige inventário de campos pessoais/sensíveis, minimização, retenção, acesso e revisão LGPD antes de reutilização para ferramentas; **não copiar payloads de pacientes nem conceder leitura pública do ledger**.
+- **HOLD_EVENT_EQUIVALENCE**: o ledger comprova auditoria técnica de UPDATE/DELETE, mas não comprova auditoria de INSERT, criação de draft, autorização, revisão, publicação ou revogação. Portanto, não substituir `ce_tool_audit` sem matriz de eventos, desenho de extensão segura e testes negativos.
+- **NOT_RUN**: testes Python, TS, CI, integração RLS e testes dinâmicos MIME/streaming. Consulta inicial com `pg_get_functiondef` no predicado falhou (SQLSTATE 42809); consulta corrigida para `pg_proc.prosrc` e executada com sucesso. Nenhuma migration, seed, DML, DDL, merge ou deploy.
+- **Próxima ação**: contar integralmente triggers por schema e mapear tabelas sem auditoria; conferir `SECURITY DEFINER` owner/search_path/EXECUTE grants e política de retenção; desenvolver testes dinâmicos no branch de ferramentas, sem promover SQL candidato.
+
+### Registro incremental 12:49
+| Objeto | Evidência | Estado | Próxima ação |
+|---|---|---|---|
+| `cko_governance.audit_protected_row_change()` | `pg_proc.prosrc`, `prosecdef=true` | PASS_WRITER_IDENTIFIED / HOLD_PRIVACY | revisar search_path, ownership, grants |
+| `cko_governance.change_audit_ledger` | INSERT pela função de trigger; UPDATE/DELETE das fontes | REUSE_PARTIAL_HOLD | matriz por evento + minimização LGPD |
+| PR #73 | head `aa261d579961d8be4ca835fd205661fa914877ab` antes deste checkpoint | OPEN_DRAFT | testes/CI + correções |
