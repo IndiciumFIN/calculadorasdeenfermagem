@@ -1,0 +1,53 @@
+{
+  "release": "COFEN-581-W7-v0.5.4",
+  "audit_date": "2026-11-15",
+  "source_basis": "Official academic systems JupiterWeb, Apolo, USP School of Nursing and official Sírio-Libanês public pages",
+  "source_registry": "PRIORITY_USP_EINSTEIN_SIRIO_SOURCE_REGISTRY_v0.5.3.json",
+  "curricular_candidate_items_total": 120,
+  "programs_with_candidate_items": 6,
+  "by_source": {
+    "COFEN-PRIO-USP-EE-BACH-2027": 42,
+    "COFEN-PRIO-USP-EERP-BACH-2027": 8,
+    "COFEN-PRIO-USP-EE-GER-SAUDE-2027": 8,
+    "COFEN-PRIO-USP-APOLO-NEPE-CC-CME": 3,
+    "COFEN-PRIO-SIRIO-BACH-2027": 41,
+    "COFEN-PRIO-SIRIO-ONCO-DIGITAL": 18
+  },
+  "einstein_official_course_pages_without_verified_matrices": 4,
+  "batch_cannot_be_counted_as_clinical_atoms": true,
+  "source_original_document_hashes_verified": false,
+  "copyright_clearance_for_full_syllabus": false,
+  "semantic_part_of_approval": false,
+  "clinical_editorial_release": false,
+  "QA": {
+    "scope": "LOCAL_METADATA_RECONCILIATION_NO_CLINICAL_SOURCE_ATOMIZATION",
+    "passed": 17,
+    "failed": 0,
+    "checks": {
+      "usp42": true,
+      "eerp8sample": true,
+      "uspManagement8": true,
+      "apoloObjectives3": true,
+      "sirio41": true,
+      "sirioOnco18": true,
+      "total120": true,
+      "six_sources_with_items": true,
+      "einstein_no_fabricated_units": true,
+      "all_sources_grounded": true,
+      "every_item_one_source": true,
+      "all_no_clinical_approvals": true,
+      "all_level_unassigned": true,
+      "rights_no_text_copy": true,
+      "ids_unique": true,
+      "preexisting_114_preserved": true,
+      "usp2027_future": true
+    }
+  },
+  "next_actions": [
+    "Retrieve edition-specific original syllabi for all USP/EERP disciplines and verify prerequisites",
+    "Verify version/semester of each Sírio-Libanês bachelor unit",
+    "Obtain Einstein detailed curriculum with reliable primary source; keep catalog-only meanwhile",
+    "Audit rights of primary curriculum documents before any full-text reuse",
+    "Link specialty competency and clinical normative evidence only after review"
+  ]
+}
