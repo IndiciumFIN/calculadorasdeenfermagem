@@ -5,7 +5,7 @@ import { parseDraftInput } from '@/lib/ce-tools/validation';
 export const dynamic = 'force-dynamic';
 export async function PATCH(req:NextRequest,{params}:{params:Promise<{key:string}>}) {
   const reject=verifyWriteRequest(req);if(reject)return reject;
-  const ctx=await requireAdmin();if(!ctx)return NextResponse.json({error:'Não autorizado'},{status:403,headers:noStore});
+  const ctx=await requireAdmin();if(!ctx || !['admin','editor'].includes(ctx.role))return NextResponse.json({error:'Não autorizado'},{status:403,headers:noStore});
   const {key}=await params;
   if(!/^[a-z][a-z0-9_.-]{0,99}$/.test(key))return NextResponse.json({error:'Chave inválida'},{status:400,headers:noStore});
   let input;
