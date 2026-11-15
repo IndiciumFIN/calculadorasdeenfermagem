@@ -1,0 +1,47 @@
+{
+  "release": "CKO_W7_CURRICULUM_CANDIDATE_CONTEXT_TRIAGE_v0.3.3",
+  "public_checks": [
+    {
+      "name": "27 original GitHub pairs",
+      "pass": true
+    },
+    {
+      "name": "all original microtopic and target IDs unchanged",
+      "pass": true
+    },
+    {
+      "name": "18 unique microtopics",
+      "pass": true
+    },
+    {
+      "name": "four category counts",
+      "pass": true
+    },
+    {
+      "name": "no human approvals",
+      "pass": true
+    },
+    {
+      "name": "no automatic link approvals",
+      "pass": true
+    },
+    {
+      "name": "no rights release",
+      "pass": true
+    },
+    {
+      "name": "no clinical publication",
+      "pass": true
+    },
+    {
+      "name": "public ledger has no source titles",
+      "pass": true
+    }
+  ],
+  "local_contextual_checks": {
+    "passed": 19,
+    "failed": 0
+  },
+  "github_workflow_checks": "NOT_RUN",
+  "admission_status": "NO_GO"
+}
