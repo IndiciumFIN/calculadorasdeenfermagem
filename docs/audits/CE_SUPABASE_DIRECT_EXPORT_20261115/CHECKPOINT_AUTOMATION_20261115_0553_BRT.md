@@ -97,3 +97,21 @@ Estado: READ_ONLY; HOLD_HUMAN para migrations, seeds e publicação. Projeto fí
 | cko_governance.change_audit_ledger | 14 colunas catálogo 2026-11-15 | REUSE_CANDIDATE_HOLD | grants/triggers e semântica |
 | ce_platform.clinical_tools | 8 colunas catálogo 2026-11-15 | REUSE_CANDIDATE | cruzamento ferramenta |
 | ce_platform.tool_profiles | 7 colunas catálogo 2026-11-15 | REUSE_CANDIDATE | cruzamento perfil |
+
+## Incremento 2026-11-15 11:50 BRT — ledger append-only: restrições e permissões reais
+
+- **PASS_PR_READ**: PR #73 OPEN/DRAFT, head `ef787f1d0d244a0d340490aca76ca805ec3cb709`, base `e0f62491b104f4a97c6025a6393cabc2e7ada30e`, `mergeable=true` (não é aprovação). Inspeção de 32 arquivos listados na PR, incluindo inventário, crosswalk, políticas e testes.
+- **PASS_DB_READONLY**: consulta de catálogo `pg_trigger`, `pg_constraint`, `information_schema.role_table_grants` e `pg_proc` de `cko_governance.change_audit_ledger`. PK `audit_uuid`. Dois triggers de bloqueio: `cko_freeze_change_audit_ledger_ud` (BEFORE UPDATE/DELETE) e `cko_freeze_change_audit_ledger_tr` (BEFORE TRUNCATE). Ambos chamam `cko_governance.freeze_change_audit_ledger()`, que levanta SQLSTATE `42501` e impede essas operações; `search_path` da função fixado em `pg_catalog, cko_governance`. Isto confirma proteção append-only **no caminho de DML normal**, não proteção contra proprietário/superusuário que altere objetos.
+- **PASS_DB_GRANTS**: `information_schema.role_table_grants` retornou somente `postgres` para SELECT/INSERT/UPDATE/DELETE/TRIGGER/TRUNCATE/REFERENCES sobre esse ledger. Não foram encontrados grants diretos para `anon` ou `authenticated` nesta consulta. Não concluir que todos os papéis efetivos estão excluídos sem análise de herança, schema USAGE e funções SECURITY DEFINER.
+- **HOLD_SEMANTIC**: ledger é candidato a reaproveitamento para trilha de mutações, mas a ausência de trigger INSERT próprio e o escopo genérico `schema_name/table_name/operation` não comprovam eventos de publicação, revogação e revisão independentes. Não criar ponte de escrita nem eliminar `ce_tool_audit` por equivalência nominal. Analisar caminhos de inserção, minimização de `old_data/new_data`, retenção e vínculo WO/grant.
+- **HOLD_CANDIDATE**: SQL candidato `aa736b0d0f1d3487326d77f346e9f710d032346a` continua a criar seis tabelas `public.ce_*` sem reconciliação completa; 24 seeds não aplicados. Nenhum SQL DDL/DML, merge ou deploy executado.
+- **NOT_RUN**: Python, TS, CI, testes dinâmicos MIME/streaming, RLS negativo. Não inferir aprovação a partir da leitura do catálogo.
+- **Próximo incremento**: mapear quem insere no ledger (dependências de funções/triggers) e a equivalência por evento; implementar teste dinâmico de request body/charset no código da branch candidata e executar CI. Só propor migração com rollback, RLS e autorização.
+
+### Cobertura incremental 11:50
+| Objeto | Evidência | Estado | Próxima ação |
+|---|---|---|---|
+| `cko_governance.change_audit_ledger` | PK + 2 triggers + função `freeze_change_audit_ledger()` + grants do catálogo | PASS_APPEND_ONLY_METADATA / HOLD_REUSE | mapear escritores e herança de grants |
+| PR #73 | head `ef787f1`; OPEN/DRAFT; arquivos listados | PASS_STATUS / HOLD_MERGE | CI e revisão |
+| `public.ce_tool_audit` | SQL candidato `aa736b0` (não aplicado) | HOLD_SEMANTIC | matriz por evento |
+| Ferramentas de pesquisa | 24/24 candidatas, 0/24 homologadas | HOLD_HUMAN | evidências clínicas/licenças |
