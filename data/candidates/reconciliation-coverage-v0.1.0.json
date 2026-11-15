@@ -1,0 +1,383 @@
+{
+  "status": "RECONCILIATION_CANDIDATE",
+  "source_count": {
+    "existing_capabilities": 68,
+    "ux_delta": 36,
+    "research_needs": 24
+  },
+  "reused_capability_keys": [
+    "comunidade.forum",
+    "comunidade.rascunhos",
+    "comunidade.perguntas",
+    "comunidade.grupos",
+    "comunidade.mentorias",
+    "comunidade.moderacao",
+    "comunidade.reputacao",
+    "comunidade.enquetes",
+    "comunidade.eventos",
+    "comunidade.comunidade-publica",
+    "comunidade.jovens",
+    "carreiras.cv",
+    "carreiras.passaporte",
+    "carreiras.lacunas",
+    "carreiras.pdi",
+    "carreiras.portfolio",
+    "carreiras.cv-academico",
+    "carreiras.entrevistas",
+    "carreiras.vagas",
+    "carreiras.candidaturas",
+    "carreiras.ongs",
+    "carreiras.hospitais",
+    "carreiras.internacional",
+    "carreiras.mercado",
+    "carreiras.empreender",
+    "carreiras.networking",
+    "carreiras.mentoria-ia",
+    "carreiras.autoconhecimento",
+    "carreiras.carta",
+    "educacao.trilhas",
+    "educacao.cursos",
+    "educacao.certificacoes",
+    "educacao.simulados",
+    "educacao.quizzes",
+    "educacao.flashcards",
+    "educacao.casos",
+    "educacao.mapas",
+    "educacao.certificados",
+    "educacao.ingles",
+    "concursos.plano",
+    "concursos.editais",
+    "concursos.questoes",
+    "concursos.caderno",
+    "concursos.residencias",
+    "concursos.comparador",
+    "concursos.documentos",
+    "concursos.ranking",
+    "pesquisa.pico",
+    "pesquisa.referencias",
+    "pesquisa.estrategias",
+    "pesquisa.triagem",
+    "pesquisa.prisma",
+    "pesquisa.qualidade",
+    "pesquisa.tcc",
+    "pesquisa.producao",
+    "gestao.indicadores",
+    "gestao.escalas-plantao",
+    "gestao.qualidade",
+    "gestao.nr01",
+    "gestao.nr32",
+    "gestao.cme",
+    "gestao.sae",
+    "gestao.documentos",
+    "mercado.materiais",
+    "mercado.parcerias",
+    "mercado.criadores",
+    "mercado.bolsas",
+    "clinica.calculadoras"
+  ],
+  "ux_new_proposals": [
+    {
+      "source_id": "UX-CAND-DELTA-001",
+      "name": "Caixa de entrada universal",
+      "candidate_status": "PLANEJADO_NAO_IMPLEMENTADO"
+    },
+    {
+      "source_id": "UX-CAND-DELTA-002",
+      "name": "Lembretes com silêncio e resumo",
+      "candidate_status": "PLANEJADO_NAO_IMPLEMENTADO"
+    },
+    {
+      "source_id": "UX-CAND-DELTA-003",
+      "name": "Sessões rápidas de estudo 3–5 minutos",
+      "candidate_status": "PLANEJADO_NAO_IMPLEMENTADO"
+    },
+    {
+      "source_id": "UX-CAND-DELTA-004",
+      "name": "Revisão espaçada configurável",
+      "candidate_status": "PLANEJADO_NAO_IMPLEMENTADO"
+    },
+    {
+      "source_id": "UX-CAND-DELTA-005",
+      "name": "Cartões com ocultação de imagem",
+      "candidate_status": "PLANEJADO_NAO_IMPLEMENTADO"
+    },
+    {
+      "source_id": "UX-CAND-DELTA-006",
+      "name": "Retomada orientada à tarefa",
+      "candidate_status": "PLANEJADO_NAO_IMPLEMENTADO"
+    },
+    {
+      "source_id": "UX-CAND-DELTA-007",
+      "name": "Vínculos profissionais múltiplos",
+      "candidate_status": "PLANEJADO_NAO_IMPLEMENTADO"
+    },
+    {
+      "source_id": "UX-CAND-DELTA-008",
+      "name": "Copiar escala e padrão rotativo",
+      "candidate_status": "PLANEJADO_NAO_IMPLEMENTADO"
+    },
+    {
+      "source_id": "UX-CAND-DELTA-009",
+      "name": "Disponibilidade compartilhável",
+      "candidate_status": "PLANEJADO_NAO_IMPLEMENTADO"
+    },
+    {
+      "source_id": "UX-CAND-DELTA-010",
+      "name": "Simulador de carga horária e conflitos",
+      "candidate_status": "PLANEJADO_NAO_IMPLEMENTADO"
+    },
+    {
+      "source_id": "UX-CAND-DELTA-011",
+      "name": "Preferências e justiça da escala",
+      "candidate_status": "PLANEJADO_NAO_IMPLEMENTADO"
+    },
+    {
+      "source_id": "UX-CAND-DELTA-012",
+      "name": "Avisos institucionais versionados",
+      "candidate_status": "PLANEJADO_NAO_IMPLEMENTADO"
+    },
+    {
+      "source_id": "UX-CAND-DELTA-013",
+      "name": "Canais institucionais temáticos",
+      "candidate_status": "PLANEJADO_NAO_IMPLEMENTADO"
+    },
+    {
+      "source_id": "UX-CAND-DELTA-014",
+      "name": "Comunicação assíncrona com recibo",
+      "candidate_status": "PLANEJADO_NAO_IMPLEMENTADO"
+    },
+    {
+      "source_id": "UX-CAND-DELTA-015",
+      "name": "Modelo pessoal início/fim de plantão",
+      "candidate_status": "PLANEJADO_NAO_IMPLEMENTADO"
+    },
+    {
+      "source_id": "UX-CAND-DELTA-016",
+      "name": "Busca rápida por sinônimos e siglas",
+      "candidate_status": "PLANEJADO_NAO_IMPLEMENTADO"
+    },
+    {
+      "source_id": "UX-CAND-DELTA-017",
+      "name": "Resumo de alteração de protocolo",
+      "candidate_status": "PLANEJADO_NAO_IMPLEMENTADO"
+    },
+    {
+      "source_id": "UX-CAND-DELTA-018",
+      "name": "Link/QR de documento público validado",
+      "candidate_status": "PLANEJADO_NAO_IMPLEMENTADO"
+    },
+    {
+      "source_id": "UX-CAND-DELTA-019",
+      "name": "Captura por QR/código de barras institucional",
+      "candidate_status": "PLANEJADO_NAO_IMPLEMENTADO"
+    },
+    {
+      "source_id": "UX-CAND-DELTA-020",
+      "name": "Diagnóstico de conectividade e fila",
+      "candidate_status": "PLANEJADO_NAO_IMPLEMENTADO"
+    },
+    {
+      "source_id": "UX-CAND-DELTA-021",
+      "name": "Recuperação após interrupção",
+      "candidate_status": "PLANEJADO_NAO_IMPLEMENTADO"
+    },
+    {
+      "source_id": "UX-CAND-DELTA-022",
+      "name": "Modo de interação com uma mão",
+      "candidate_status": "PLANEJADO_NAO_IMPLEMENTADO"
+    },
+    {
+      "source_id": "UX-CAND-DELTA-023",
+      "name": "Acesso por voz à pesquisa pública",
+      "candidate_status": "PLANEJADO_NAO_IMPLEMENTADO"
+    },
+    {
+      "source_id": "UX-CAND-DELTA-024",
+      "name": "Prévia de funcionalidade com permissões",
+      "candidate_status": "PLANEJADO_NAO_IMPLEMENTADO"
+    },
+    {
+      "source_id": "UX-CAND-DELTA-025",
+      "name": "Indicador de validade de credencial",
+      "candidate_status": "PLANEJADO_NAO_IMPLEMENTADO"
+    },
+    {
+      "source_id": "UX-CAND-DELTA-026",
+      "name": "Preceptoria: avaliação e evidência",
+      "candidate_status": "PLANEJADO_NAO_IMPLEMENTADO"
+    },
+    {
+      "source_id": "UX-CAND-DELTA-027",
+      "name": "Formulário pulse pós-plantão",
+      "candidate_status": "PLANEJADO_NAO_IMPLEMENTADO"
+    },
+    {
+      "source_id": "UX-CAND-DELTA-028",
+      "name": "Controle de pausas e jornada pessoal",
+      "candidate_status": "PLANEJADO_NAO_IMPLEMENTADO"
+    },
+    {
+      "source_id": "UX-CAND-DELTA-029",
+      "name": "Centro de feedback com teste guiado",
+      "candidate_status": "PLANEJADO_NAO_IMPLEMENTADO"
+    },
+    {
+      "source_id": "UX-CAND-DELTA-030",
+      "name": "Jornada contextual por persona e momento",
+      "candidate_status": "PLANEJADO_NAO_IMPLEMENTADO"
+    },
+    {
+      "source_id": "UX-CAND-DELTA-031",
+      "name": "Orientação de limitações do assistente IA",
+      "candidate_status": "PLANEJADO_NAO_IMPLEMENTADO"
+    },
+    {
+      "source_id": "UX-CAND-DELTA-032",
+      "name": "Seleção de notificações por canal",
+      "candidate_status": "PLANEJADO_NAO_IMPLEMENTADO"
+    },
+    {
+      "source_id": "UX-CAND-DELTA-033",
+      "name": "Compartilhamento seguro de escala para família",
+      "candidate_status": "PLANEJADO_NAO_IMPLEMENTADO"
+    },
+    {
+      "source_id": "UX-CAND-DELTA-034",
+      "name": "Barra lateral de ação rápida por contexto",
+      "candidate_status": "PLANEJADO_NAO_IMPLEMENTADO"
+    },
+    {
+      "source_id": "UX-CAND-DELTA-035",
+      "name": "Histórico de atividade explicável",
+      "candidate_status": "PLANEJADO_NAO_IMPLEMENTADO"
+    },
+    {
+      "source_id": "UX-CAND-DELTA-036",
+      "name": "Salvamento e exportação de conteúdo licenciado",
+      "candidate_status": "PLANEJADO_NAO_IMPLEMENTADO"
+    }
+  ],
+  "research_to_existing_candidates": [
+    {
+      "source_id": "D01",
+      "description": "Proteção contra violência e assédio",
+      "recommendation": "REVIEW_FOR_DUPLICATION_BEFORE_KERNEL_ID"
+    },
+    {
+      "source_id": "D02",
+      "description": "Transparência remuneratória e contratos",
+      "recommendation": "REVIEW_FOR_DUPLICATION_BEFORE_KERNEL_ID"
+    },
+    {
+      "source_id": "D03",
+      "description": "Manuseio e transferência segura de pacientes",
+      "recommendation": "REVIEW_FOR_DUPLICATION_BEFORE_KERNEL_ID"
+    },
+    {
+      "source_id": "D04",
+      "description": "Localização e reposição de materiais/equipamentos",
+      "recommendation": "REVIEW_FOR_DUPLICATION_BEFORE_KERNEL_ID"
+    },
+    {
+      "source_id": "D05",
+      "description": "Cuidado básico omitido sob sobrecarga",
+      "recommendation": "REVIEW_FOR_DUPLICATION_BEFORE_KERNEL_ID"
+    },
+    {
+      "source_id": "D06",
+      "description": "Transição estudante-profissional",
+      "recommendation": "REVIEW_FOR_DUPLICATION_BEFORE_KERNEL_ID"
+    },
+    {
+      "source_id": "D07",
+      "description": "Medo de cometer erros e insuficiência de recuperação",
+      "recommendation": "REVIEW_FOR_DUPLICATION_BEFORE_KERNEL_ID"
+    },
+    {
+      "source_id": "D08",
+      "description": "Apoio a equipes noturnas e retenção",
+      "recommendation": "REVIEW_FOR_DUPLICATION_BEFORE_KERNEL_ID"
+    },
+    {
+      "source_id": "D09",
+      "description": "Sofrimento moral e decisões éticas",
+      "recommendation": "REVIEW_FOR_DUPLICATION_BEFORE_KERNEL_ID"
+    },
+    {
+      "source_id": "D10",
+      "description": "Cuidados paliativos fora de centros especializados",
+      "recommendation": "REVIEW_FOR_DUPLICATION_BEFORE_KERNEL_ID"
+    },
+    {
+      "source_id": "D11",
+      "description": "Comunicação com pacientes em outros idiomas",
+      "recommendation": "REVIEW_FOR_DUPLICATION_BEFORE_KERNEL_ID"
+    },
+    {
+      "source_id": "D12",
+      "description": "Conhecimento aplicável à intervenção",
+      "recommendation": "REVIEW_FOR_DUPLICATION_BEFORE_KERNEL_ID"
+    },
+    {
+      "source_id": "D13",
+      "description": "Participação dos enfermeiros nas decisões de IA",
+      "recommendation": "REVIEW_FOR_DUPLICATION_BEFORE_KERNEL_ID"
+    },
+    {
+      "source_id": "D14",
+      "description": "Acesso rural e continuidade em baixa conectividade",
+      "recommendation": "REVIEW_FOR_DUPLICATION_BEFORE_KERNEL_ID"
+    },
+    {
+      "source_id": "D15",
+      "description": "Competências de saúde mental na APS",
+      "recommendation": "REVIEW_FOR_DUPLICATION_BEFORE_KERNEL_ID"
+    },
+    {
+      "source_id": "D16",
+      "description": "Apoio ao atendimento domiciliar",
+      "recommendation": "REVIEW_FOR_DUPLICATION_BEFORE_KERNEL_ID"
+    },
+    {
+      "source_id": "D17",
+      "description": "Gestão de serviços autônomos de enfermagem",
+      "recommendation": "REVIEW_FOR_DUPLICATION_BEFORE_KERNEL_ID"
+    },
+    {
+      "source_id": "D18",
+      "description": "Sobrecarga de alertas e notificações",
+      "recommendation": "REVIEW_FOR_DUPLICATION_BEFORE_KERNEL_ID"
+    },
+    {
+      "source_id": "D19",
+      "description": "Recuperação e suporte organizacional",
+      "recommendation": "REVIEW_FOR_DUPLICATION_BEFORE_KERNEL_ID"
+    },
+    {
+      "source_id": "D20",
+      "description": "Participação e justiça nas distribuições de tarefas",
+      "recommendation": "REVIEW_FOR_DUPLICATION_BEFORE_KERNEL_ID"
+    },
+    {
+      "source_id": "D21",
+      "description": "Educação do paciente e família",
+      "recommendation": "REVIEW_FOR_DUPLICATION_BEFORE_KERNEL_ID"
+    },
+    {
+      "source_id": "D22",
+      "description": "Interrupções e multitarefa clínica",
+      "recommendation": "REVIEW_FOR_DUPLICATION_BEFORE_KERNEL_ID"
+    },
+    {
+      "source_id": "D23",
+      "description": "Medir demandas sem vigiar pessoas",
+      "recommendation": "REVIEW_FOR_DUPLICATION_BEFORE_KERNEL_ID"
+    },
+    {
+      "source_id": "D24",
+      "description": "Escuta profissional em tempo contínuo",
+      "recommendation": "REVIEW_FOR_DUPLICATION_BEFORE_KERNEL_ID"
+    }
+  ],
+  "notice": "This is an inventory crosswalk, not a deduplication confirmation."
+}
