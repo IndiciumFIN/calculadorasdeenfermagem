@@ -14,7 +14,7 @@ export function verifyWriteRequest(req: NextRequest): NextResponse | null {
   } catch {
     return NextResponse.json({ error: 'Origem incompatível' }, { status: 403 });
   }
-  if (!(req.headers.get('content-type') || '').startsWith('application/json')) return NextResponse.json({ error: 'JSON obrigatório' }, { status: 415 });
+  if (!/^application\/json(?:\s*;\s*charset\s*=\s*"?utf-8"?\s*)?$/i.test(req.headers.get('content-type') || '')) return NextResponse.json({ error: 'JSON obrigatório (UTF-8)' }, { status: 415 });
   const rawLength = req.headers.get('content-length');
   if (rawLength !== null && !/^(0|[1-9][0-9]*)$/.test(rawLength))
     return NextResponse.json({ error: 'Content-Length inválido' }, { status: 400 });
