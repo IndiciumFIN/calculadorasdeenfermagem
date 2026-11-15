@@ -1,0 +1,274 @@
+{
+  "version": "1.4.0",
+  "data": "2026-11-15",
+  "natureza": "PESQUISA_EXPLORATORIA_NAO_HOMOLOGADA",
+  "totais": {
+    "candidatas": 24
+  },
+  "itens": [
+    {
+      "id": "D01",
+      "demanda": "Proteção contra violência e assédio",
+      "publico": "Profissionais assistenciais",
+      "evidencia": "Sondagem Coren-SP 2026 com 4.402 participantes: 72,6% relataram violência no último ano; revisão de subnotificação aponta medo de represália e complexidade dos canais.",
+      "capacidade_candidata": "Central de orientação, registro privado, encaminhamento seguro, histórico do próprio usuário.",
+      "prioridade_hipotetica": "P0",
+      "risco": "alto",
+      "maturidade": "Demanda documentada; solução candidata",
+      "urls_fonte": "https://portalcofen.gov.br/violencia-atinge-7-em-cada-10-profissionais-de-enfermagem-em-sao-paulo-aponta-sondagem/;https://pmc.ncbi.nlm.nih.gov/articles/PMC13032240/"
+    },
+    {
+      "id": "D02",
+      "demanda": "Transparência remuneratória e contratos",
+      "publico": "Enfermeiros, técnicos, auxiliares",
+      "evidencia": "Análise DIEESE/CNTS publicada em 2026 mostra diferenças nas remunerações médias de contratação; não permite inferir violação legal individual.",
+      "capacidade_candidata": "Simulador informativo de remuneração proporcional, diferenças salariais e organização documental; encaminhamento jurídico quando necessário.",
+      "prioridade_hipotetica": "P1",
+      "risco": "médio",
+      "maturidade": "Problema documentado; validação normativa individual",
+      "urls_fonte": "https://cnts.org.br/noticias/lei-descumprida-tecnicos-de-enfermagem-recebem-apenas-74-do-piso-revela-estudo-do-dieese/"
+    },
+    {
+      "id": "D03",
+      "demanda": "Manuseio e transferência segura de pacientes",
+      "publico": "Home care, hospital, técnicos",
+      "evidencia": "Estudo português com 38 entrevistas e observação identifica indisponibilidade de equipamentos, escassez de pessoal e barreiras à movimentação segura.",
+      "capacidade_candidata": "Checklist de preparo educativo, avaliação de ambiente, treinamento prático e consulta de dispositivos disponíveis.",
+      "prioridade_hipotetica": "P1",
+      "risco": "alto",
+      "maturidade": "Demanda documentada; não substituir treinamento supervisionado",
+      "urls_fonte": "https://journals.sagepub.com/doi/10.1177/10519815261434531;https://formative.jmir.org/2025/1/e70681/"
+    },
+    {
+      "id": "D04",
+      "demanda": "Localização e reposição de materiais/equipamentos",
+      "publico": "Unidades e gestores",
+      "evidencia": "Estudo observacional de 2026 e revisão de cuidados omitidos mostram perda de tempo procurando termômetros, bombas e suprimentos.",
+      "capacidade_candidata": "Inventário por unidade, pedido de material, QR interno, status de higienização/uso quando verificado.",
+      "prioridade_hipotetica": "P1",
+      "risco": "alto",
+      "maturidade": "Demanda observada; requer integração institucional",
+      "urls_fonte": "https://www.jmir.org/2026/1/e89409;https://onlinelibrary.wiley.com/doi/full/10.1111/jocn.70258"
+    },
+    {
+      "id": "D05",
+      "demanda": "Cuidado básico omitido sob sobrecarga",
+      "publico": "Enfermagem assistencial e gestão",
+      "evidencia": "Revisões 2026 apontam que higiene oral, mudança de decúbito, mobilidade e suporte psicossocial podem ser preteridos sob restrição de recursos.",
+      "capacidade_candidata": "Mapas de risco educacionais, checklists contextuais e painéis agregados institucionais autorizados, sem punição individual.",
+      "prioridade_hipotetica": "P1",
+      "risco": "alto",
+      "maturidade": "Problema documentado; evitar automação punitiva",
+      "urls_fonte": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12856723/;https://pubmed.ncbi.nlm.nih.gov/41771554/"
+    },
+    {
+      "id": "D06",
+      "demanda": "Transição estudante-profissional",
+      "publico": "Recém-formados, preceptores",
+      "evidencia": "Revisões identificam suporte organizacional, mentoria clínica, orientação e apoio psicossocial como necessidades no primeiro ano.",
+      "capacidade_candidata": "Trilha de 30/90/180 dias, checklist de integração, diário reflexivo supervisionado e avaliações formativas.",
+      "prioridade_hipotetica": "P0",
+      "risco": "médio",
+      "maturidade": "Demanda consistente; solução candidata",
+      "urls_fonte": "https://www.sciencedirect.com/science/article/pii/S1557308725003178;https://www.sciencedirect.com/science/article/pii/S1471595325004202"
+    },
+    {
+      "id": "D07",
+      "demanda": "Medo de cometer erros e insuficiência de recuperação",
+      "publico": "Recém-formados",
+      "evidencia": "Estudo de 2025 relata 44% de receio de cometer erros e 28% plenamente recuperados para trabalhar, em sua amostra.",
+      "capacidade_candidata": "Simulação segura de cenários, checklists educativos e rede de mentoria; orientar procura de apoio institucional.",
+      "prioridade_hipotetica": "P1",
+      "risco": "médio",
+      "maturidade": "Resultados de amostra específica",
+      "urls_fonte": "https://onlinelibrary.wiley.com/doi/10.1155/nrp/9555767"
+    },
+    {
+      "id": "D08",
+      "demanda": "Apoio a equipes noturnas e retenção",
+      "publico": "Equipe e liderança",
+      "evidencia": "Press Ganey 2026 com feedback de >422 mil RNs aponta dificuldades específicas de equipes noturnas e primeiros anos de carreira.",
+      "capacidade_candidata": "Feedback confidencial por turno, avaliação da experiência de integração e plano de melhorias institucionais.",
+      "prioridade_hipotetica": "P1",
+      "risco": "alto",
+      "maturidade": "Proposta de gestão, não substituir melhoria estrutural",
+      "urls_fonte": "https://www.pressganey.com/resources/e-books/nursing-2026/"
+    },
+    {
+      "id": "D09",
+      "demanda": "Sofrimento moral e decisões éticas",
+      "publico": "UTI, oncologia, paliativos",
+      "evidencia": "Revisões de 2026 identificam lacunas de discussão ética e intervenções predominantemente posteriores ao evento moral.",
+      "capacidade_candidata": "Biblioteca de casos, debriefing supervisionado e canal institucional de consulta ética.",
+      "prioridade_hipotetica": "P1",
+      "risco": "alto",
+      "maturidade": "Competência profissional; requer confidencialidade",
+      "urls_fonte": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13606880/;https://link.springer.com/article/10.1186/s12904-026-02032-0"
+    },
+    {
+      "id": "D10",
+      "demanda": "Cuidados paliativos fora de centros especializados",
+      "publico": "Atenção primária, hospitais, home care",
+      "evidencia": "Revisão de 14 estudos evidencia lacunas em comunicação, sintomas, ética e formação nos cuidados paliativos generalistas.",
+      "capacidade_candidata": "Trilhas específicas por contexto, simulações de comunicação e recursos educativos aprovados.",
+      "prioridade_hipotetica": "P1",
+      "risco": "médio",
+      "maturidade": "Educação, não conduta autônoma",
+      "urls_fonte": "https://doi.org/10.1016/j.heliyon.2026.e45196"
+    },
+    {
+      "id": "D11",
+      "demanda": "Comunicação com pacientes em outros idiomas",
+      "publico": "Enfermagem assistencial",
+      "evidencia": "Revisão de 18 estudos abrangendo 416 enfermeiros relata dificuldades no uso de intérpretes, tecnologia pouco confiável e improvisações.",
+      "capacidade_candidata": "Biblioteca de material educativo multilíngue e instruções para acesso a intérpretes habilitados.",
+      "prioridade_hipotetica": "P1",
+      "risco": "alto",
+      "maturidade": "Traduções não substituem intérprete em decisões clínicas",
+      "urls_fonte": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12489433/"
+    },
+    {
+      "id": "D12",
+      "demanda": "Conhecimento aplicável à intervenção",
+      "publico": "Assistencial e preceptores",
+      "evidencia": "Estudo qualitativo JMIR 2026 solicita conhecimento baseado em evidências vinculado ao trabalho, com acesso rápido e responsabilização clara.",
+      "capacidade_candidata": "Pesquisa por procedimento, indicação, população, fonte oficial, nível de evidência e validade.",
+      "prioridade_hipotetica": "P0",
+      "risco": "alto",
+      "maturidade": "Alta relevância; requer governança editorial",
+      "urls_fonte": "https://nursing.jmir.org/2026/1/e78395/"
+    },
+    {
+      "id": "D13",
+      "demanda": "Participação dos enfermeiros nas decisões de IA",
+      "publico": "Enfermagem e instituições",
+      "evidencia": "Pesquisa com enfermeiros comunitários canadenses: 96,1% desejam ser consultados no desenvolvimento de IA; 77,7% preocupados com responsabilidade por recomendações incorretas.",
+      "capacidade_candidata": "Painel de governança participativa, avaliação de riscos, explicabilidade, registro de contestação e limites por finalidade.",
+      "prioridade_hipotetica": "P1",
+      "risco": "alto",
+      "maturidade": "Demanda direta; não usar como sistema de decisão não validado",
+      "urls_fonte": "https://nursing.jmir.org/2026/1/e78560"
+    },
+    {
+      "id": "D14",
+      "demanda": "Acesso rural e continuidade em baixa conectividade",
+      "publico": "APS e territórios remotos",
+      "evidencia": "Revisão brasileira de 48 estudos ressalta educação permanente limitada, infraestrutura precária e sobrecarga no rural.",
+      "capacidade_candidata": "Pacotes educacionais offline, roteiros de visitas e sincronização controlada sem dados pessoais por padrão.",
+      "prioridade_hipotetica": "P0",
+      "risco": "alto",
+      "maturidade": "Evidência contextual; piloto territorial necessário",
+      "urls_fonte": "https://www.scielo.br/j/reben/a/bVJmTjGBNFzr7JGQXrKWGSj/?lang=pt"
+    },
+    {
+      "id": "D15",
+      "demanda": "Competências de saúde mental na APS",
+      "publico": "Enfermeiros da APS",
+      "evidencia": "Pesquisa brasileira de 2026 com 239 enfermeiros identificou menor capacitação percebida nas intervenções específicas de saúde mental.",
+      "capacidade_candidata": "Microcapacitações, casos clínicos simulados, fluxo de encaminhamento e materiais de apoio por escopo.",
+      "prioridade_hipotetica": "P1",
+      "risco": "alto",
+      "maturidade": "Treinamento e triagem devem seguir protocolos",
+      "urls_fonte": "https://revistas.usp.br/reeusp/pt_BR/article/view/263168"
+    },
+    {
+      "id": "D16",
+      "demanda": "Apoio ao atendimento domiciliar",
+      "publico": "Home care",
+      "evidencia": "Estudo qualitativo de adoção de tablets com 16 enfermeiros e dois médicos mostrou implantação frustrada por baixa integração e infraestrutura instável.",
+      "capacidade_candidata": "Workspace de visitas e documentação permitida, prototipado com profissionais e integração antes de rollout.",
+      "prioridade_hipotetica": "P1",
+      "risco": "alto",
+      "maturidade": "Forte evidência de falha de implantação; alto risco de duplicidade",
+      "urls_fonte": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12829896/"
+    },
+    {
+      "id": "D17",
+      "demanda": "Gestão de serviços autônomos de enfermagem",
+      "publico": "Empreendedores",
+      "evidencia": "Estudo ecológico brasileiro identificou crescimento de estabelecimentos formalizados de enfermagem entre 2003–2023.",
+      "capacidade_candidata": "Agenda, propostas, serviços permitidos, custos, inventário administrativo e registros administrativos.",
+      "prioridade_hipotetica": "P2",
+      "risco": "alto",
+      "maturidade": "Mercado observado; aceitação do produto não demonstrada",
+      "urls_fonte": "https://pubmed.ncbi.nlm.nih.gov/40667947/"
+    },
+    {
+      "id": "D18",
+      "demanda": "Sobrecarga de alertas e notificações",
+      "publico": "Assistencial e gestor",
+      "evidencia": "Estudo qualitativo 2026 com 19 enfermeiros associa alertas persistentes a sobrecarga e dessensibilização.",
+      "capacidade_candidata": "Orquestrador de alertas pessoais por prioridade, digest e silêncio; alarmes médicos fora de escopo.",
+      "prioridade_hipotetica": "P1",
+      "risco": "alto",
+      "maturidade": "Demandas diretas; nunca ocultar alarmes assistenciais essenciais",
+      "urls_fonte": "https://link.springer.com/article/10.1186/s12912-026-04592-1"
+    },
+    {
+      "id": "D19",
+      "demanda": "Recuperação e suporte organizacional",
+      "publico": "Profissionais e lideranças",
+      "evidencia": "Relatório Press Ganey 2026 relata que 25% dos RNs têm dificuldade de desligar-se do trabalho; a OMS destaca necessidade de suporte em saúde mental.",
+      "capacidade_candidata": "Recursos voluntários, educação sobre recuperação pós-plantão, encaminhamento e indicadores agregados não punitivos.",
+      "prioridade_hipotetica": "P1",
+      "risco": "alto",
+      "maturidade": "Não diagnosticar nem substituir apoio profissional",
+      "urls_fonte": "https://www.pressganey.com/resources/e-books/nursing-2026/;https://www.who.int/news/item/12-05-2025-nursing-workforce-grows--but-inequities-threaten-global-health-goals"
+    },
+    {
+      "id": "D20",
+      "demanda": "Participação e justiça nas distribuições de tarefas",
+      "publico": "Gestores e equipes",
+      "evidencia": "Pesquisa 2026 de escalas com IA explicável discute preferências, distribuição, qualificação e requisitos de descanso; ambiente de trabalho influencia cuidados omitidos.",
+      "capacidade_candidata": "Simulador de cenários com razões, custos de equidade e restrições, sempre com decisão humana.",
+      "prioridade_hipotetica": "P1",
+      "risco": "alto",
+      "maturidade": "Avaliar critérios legais e clínicos por estabelecimento",
+      "urls_fonte": "https://nursing.jmir.org/2026/1/e94450;https://pmc.ncbi.nlm.nih.gov/articles/PMC13610344/"
+    },
+    {
+      "id": "D21",
+      "demanda": "Educação do paciente e família",
+      "publico": "Assistencial, educação permanente",
+      "evidencia": "Estudos sobre cuidados omitidos indicam que comunicação e suporte psicossocial são frequentemente preteridos.",
+      "capacidade_candidata": "Kits educativos com leitura fácil, QR de fontes aprovadas, acessibilidade e confirmação de compreensão sem armazenamento assistencial.",
+      "prioridade_hipotetica": "P1",
+      "risco": "médio",
+      "maturidade": "Conteúdo educativo necessita validação editorial",
+      "urls_fonte": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12856723/;https://onlinelibrary.wiley.com/doi/full/10.1111/jnu.70135"
+    },
+    {
+      "id": "D22",
+      "demanda": "Interrupções e multitarefa clínica",
+      "publico": "Assistencial",
+      "evidencia": "Estudo observacional de fluxos documenta interrupções frequentes, trocas de contexto e transcrição manual para papel.",
+      "capacidade_candidata": "Retomada contextual, rascunhos locais seguros, fluxo mínimo e orientação de priorização pessoal.",
+      "prioridade_hipotetica": "P1",
+      "risco": "alto",
+      "maturidade": "Necessita teste em contexto real; não prescrever prioridades clínicas",
+      "urls_fonte": "https://www.jmir.org/2026/1/e89409"
+    },
+    {
+      "id": "D23",
+      "demanda": "Medir demandas sem vigiar pessoas",
+      "publico": "Gestores e instituições",
+      "evidencia": "Revisões identificam fatores organizacionais e estruturais associados a cuidados omitidos e sofrimento moral.",
+      "capacidade_candidata": "Relatórios agregados, auditoria de recursos, análise de qualidade por unidade e proteção contra uso disciplinar indevido.",
+      "prioridade_hipotetica": "P2",
+      "risco": "alto",
+      "maturidade": "Somente com governança e consentimentos/legítimas bases",
+      "urls_fonte": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13610344/;https://pmc.ncbi.nlm.nih.gov/articles/PMC13606880/"
+    },
+    {
+      "id": "D24",
+      "demanda": "Escuta profissional em tempo contínuo",
+      "publico": "Todos os perfis",
+      "evidencia": "Revisão sobre adoção de IA relata que profissionais querem participar do desenho e introdução dos sistemas, com prontidão institucional.",
+      "capacidade_candidata": "Feedback in-app, experimento participativo, registro de necessidades e decisão rastreável por produto.",
+      "prioridade_hipotetica": "P0",
+      "risco": "baixo",
+      "maturidade": "Processo de pesquisa, não automação clínica",
+      "urls_fonte": "https://www.jmir.org/2026/1/e99489;https://nursing.jmir.org/2026/1/e78560"
+    }
+  ]
+}
