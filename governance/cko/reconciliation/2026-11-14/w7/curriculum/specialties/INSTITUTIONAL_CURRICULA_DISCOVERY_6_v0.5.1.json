@@ -1,0 +1,235 @@
+{
+  "version": "COFEN-581-W7-v0.5.1",
+  "audit_date": "2026-11-15",
+  "source_specialties_file": "specialties/COFEN_581_SPECIALTIES_65_AND_SUBAREAS_v0.5.0.jsonl",
+  "course_discovery_scope": "PILOT_SIX_INSTITUTIONAL_CURRICULA_NOT_EXHAUSTIVE",
+  "institutional_course_pages": [
+    {
+      "id": "CURCOFEN-COURSE-UFJF-2026-27",
+      "institution": "Universidade Federal de Juiz de Fora (UFJF)",
+      "course_title": "Especialização em Enfermagem em Urgência, Emergência e Terapia Intensiva",
+      "url": "https://www2.ufjf.br/enfermagem/wp-content/uploads/sites/148/2026/02/Informa%C3%A7%C3%B5es-sobre-o-curso-2026-2027.pdf",
+      "content_type": "PDF_INSTITUTIONAL",
+      "specialty_candidates": [
+        "COFEN-581-I-46",
+        "COFEN-581-I-43"
+      ],
+      "edition": "2026-2027",
+      "edition_verified": "DATES_IN_FILE",
+      "total_hours_claimed": 360,
+      "course_structure_observed": [
+        "regulação e organização da urgência",
+        "enfermagem pré e intra-hospitalar",
+        "qualidade e segurança do paciente",
+        "cuidados ao paciente crítico por sistemas orgânicos",
+        "metodologia científica e evidências",
+        "monitorização e tecnologia"
+      ],
+      "evidence_depth": "MATRIX_DISCIPLINE_NAMES_AND_HOURS",
+      "retrieval_status": "PDF_TEXT_READ_SCREENSHOT_CACHE_MISS",
+      "license_to_republish_syllabus": "NOT_VERIFIED",
+      "rights_use": "METADATA_AND_INDEPENDENT_SUMMARY_ONLY",
+      "institutional_regularization_in_emec": "NOT_QUERIED_IN_LIVE_PORTAL",
+      "admission": "CURRICULUM_CANDIDATE_NO_SEMANTIC_AUTO_JOIN"
+    },
+    {
+      "id": "CURCOFEN-COURSE-UNIFOR-CME-CC",
+      "institution": "Universidade de Fortaleza (Unifor)",
+      "course_title": "Especialização em Central de Material e Esterilização e Cuidados Cirúrgicos",
+      "url": "https://unifor.br/web/pos-graduacao/especializacao-em-central-de-material-e-esterilizacao-e-cuidados-cirurgicos",
+      "content_type": "INSTITUTIONAL_WEBPAGE",
+      "specialty_candidates": [
+        "COFEN-581-I-08",
+        "COFEN-581-I-09"
+      ],
+      "edition": "UNKNOWN",
+      "edition_verified": "NOT_VERIFIED",
+      "total_hours_claimed": null,
+      "course_structure_observed": [
+        "biossegurança em CME e Centro Cirúrgico",
+        "processamento de produtos para saúde",
+        "rastreabilidade e armazenamento",
+        "segurança e assistência cirúrgica",
+        "estágio hospitalar"
+      ],
+      "evidence_depth": "MODULES_AND_DISCIPLINE_HEADINGS_INDEX",
+      "retrieval_status": "WEB_SEARCH_INDEX_AVAILABLE_DIRECT_REOPEN_HTTP_502",
+      "license_to_republish_syllabus": "NOT_VERIFIED",
+      "rights_use": "METADATA_AND_INDEPENDENT_SUMMARY_ONLY",
+      "institutional_regularization_in_emec": "NOT_QUERIED_IN_LIVE_PORTAL",
+      "admission": "CURRICULUM_CANDIDATE_NO_SEMANTIC_AUTO_JOIN"
+    },
+    {
+      "id": "CURCOFEN-COURSE-UNIUBE-CC-CME",
+      "institution": "Universidade de Uberaba (Uniube)",
+      "course_title": "Enfermagem em Centro Cirúrgico e CME",
+      "url": "https://pos.uniube.br/curso/ead/especializacao-em-enfermagem-em-centro-cirurgico-e-cme",
+      "content_type": "INSTITUTIONAL_WEBPAGE",
+      "specialty_candidates": [
+        "COFEN-581-I-08",
+        "COFEN-581-I-09"
+      ],
+      "related_subareas": [
+        "COFEN-581-I-09-01"
+      ],
+      "edition": "UNKNOWN",
+      "edition_verified": "NOT_VERIFIED",
+      "total_hours_claimed": 360,
+      "course_structure_observed": [
+        "fundamentos e biossegurança",
+        "assistência pré e transoperatória",
+        "anestesia e intraoperatório",
+        "SRPA e pós-operatório",
+        "hemoterapia e gerenciamento da CME",
+        "processamento e esterilização"
+      ],
+      "evidence_depth": "SIX_AXES_WITH_HEADINGS_AND_HOURS",
+      "retrieval_status": "DIRECT_WEBPAGE_OPENED",
+      "license_to_republish_syllabus": "NOT_VERIFIED",
+      "rights_use": "METADATA_AND_INDEPENDENT_SUMMARY_ONLY",
+      "institutional_regularization_in_emec": "NOT_QUERIED_IN_LIVE_PORTAL",
+      "admission": "CURRICULUM_CANDIDATE_NO_SEMANTIC_AUTO_JOIN"
+    },
+    {
+      "id": "CURCOFEN-COURSE-PUCPOCOS-TRABALHO-2018",
+      "institution": "PUC Minas — Poços de Caldas",
+      "course_title": "Especialização em Enfermagem do Trabalho",
+      "url": "https://www.pucpcaldas.br/ppg/html/controller.php?action=curso&id=607&module=sitePos",
+      "content_type": "INSTITUTIONAL_WEBPAGE",
+      "specialty_candidates": [
+        "COFEN-581-I-38"
+      ],
+      "edition": "2018",
+      "edition_verified": "PAGE_SAYS_MARCH_2018",
+      "total_hours_claimed": 432,
+      "course_structure_observed": [
+        "fundamentos e políticas de saúde do trabalhador",
+        "ergonomia, doenças e segurança do trabalho",
+        "planejamento e pesquisa",
+        "assistência, gestão e processo de enfermagem",
+        "atividades complementares"
+      ],
+      "evidence_depth": "FIVE_MODULES_WITH_DISCIPLINE_HEADINGS",
+      "retrieval_status": "DIRECT_WEBPAGE_OPENED",
+      "license_to_republish_syllabus": "NOT_VERIFIED",
+      "rights_use": "HISTORICAL_METADATA_ONLY_NO_CURRENT_COHORT_INFERENCE",
+      "institutional_regularization_in_emec": "NOT_QUERIED_IN_LIVE_PORTAL",
+      "admission": "HISTORICAL_CURRICULUM_CANDIDATE"
+    },
+    {
+      "id": "CURCOFEN-COURSE-UNIVS-URGENCIA",
+      "institution": "Centro Universitário Vale do Salgado (UniVS)",
+      "course_title": "Especialização em Enfermagem em Urgência e Emergência",
+      "url": "https://univs.edu.br/pos-graduacao/enfermagem-em-emergencia-e-urgencia/",
+      "content_type": "INSTITUTIONAL_WEBPAGE",
+      "specialty_candidates": [
+        "COFEN-581-I-46"
+      ],
+      "edition": "UNKNOWN",
+      "edition_verified": "NOT_VERIFIED",
+      "total_hours_claimed": null,
+      "course_structure_observed": [
+        "rede e gestão de urgência",
+        "cuidado a alterações críticas cardiopulmonares e neurológicas",
+        "emergências obstétricas",
+        "trauma e atendimento pré-hospitalar",
+        "farmacologia e pesquisa"
+      ],
+      "evidence_depth": "MATRIX_DISCIPLINE_NAMES",
+      "retrieval_status": "DIRECT_WEBPAGE_OPENED",
+      "license_to_republish_syllabus": "NOT_VERIFIED",
+      "rights_use": "METADATA_AND_INDEPENDENT_SUMMARY_ONLY",
+      "institutional_regularization_in_emec": "NOT_QUERIED_IN_LIVE_PORTAL",
+      "admission": "CURRICULUM_CANDIDATE_NO_SEMANTIC_AUTO_JOIN"
+    },
+    {
+      "id": "CURCOFEN-COURSE-FMU-URGENCIA",
+      "institution": "Centro Universitário FMU",
+      "course_title": "Pós-graduação em Enfermagem em Urgência e Emergência",
+      "url": "https://portal.fmu.br/saude/pos-graduacao/enfermagem-em-urgencia-e-emergencia",
+      "content_type": "INSTITUTIONAL_WEBPAGE",
+      "specialty_candidates": [
+        "COFEN-581-I-46"
+      ],
+      "edition": "UNKNOWN",
+      "edition_verified": "NOT_VERIFIED",
+      "total_hours_claimed": null,
+      "course_structure_observed": [
+        "aspectos legais e segurança do paciente",
+        "urgências clínicas, cirúrgicas e trauma",
+        "eletrofisiologia e urgências cardíacas",
+        "atendimento pré-hospitalar",
+        "farmacologia em urgência"
+      ],
+      "evidence_depth": "MATRIX_DISCIPLINE_NAMES",
+      "retrieval_status": "SEARCH_INDEX_MATCH",
+      "license_to_republish_syllabus": "NOT_VERIFIED",
+      "rights_use": "METADATA_AND_INDEPENDENT_SUMMARY_ONLY",
+      "institutional_regularization_in_emec": "NOT_QUERIED_IN_LIVE_PORTAL",
+      "admission": "CURRICULUM_CANDIDATE_NO_SEMANTIC_AUTO_JOIN"
+    }
+  ],
+  "context_not_courses": [
+    {
+      "id": "CURCOFEN-LEGAL-ESTETICA-2026",
+      "type": "COFEN_OPINION_NOT_DIRECT_INSTITUTIONAL_COURSE_VALIDATION",
+      "url": "https://www.cofen.gov.br/parecer-no-67-2026-camaras-tecnicas-de-enfermagem/",
+      "title": "Parecer Cofen 67/2026 sobre adequação curricular de Enfermagem Estética (FACUMINAS)",
+      "specialty_id": "COFEN-581-I-15",
+      "observations": [
+        "especificidade de práticas presenciais supervisionadas",
+        "parecer favorável à adequação da proposta condicionada à prova de cumprimento e registro individual"
+      ],
+      "caution": "NAO_EQUIVALE_APROVACAO_AUTOMATICA_DE_TODOS_OS_CURSOS_OU_EGRESSOS"
+    },
+    {
+      "id": "CURCOFEN-LEGAL-PODIATRIA-2026",
+      "type": "COFEN_PROFESSIONAL_SCOPE_AND_TRAINING_RULE",
+      "url": "https://www.cofen.gov.br/resolucao-cofen-no-813-de-14-de-agosto-de-2026/",
+      "title": "Resolução Cofen 813/2026 Podiatria Clínica",
+      "specialty_id": "COFEN-581-I-50",
+      "observations": [
+        "requisitos específicos de formação e habilitação",
+        "360 horas mínimas com 30% de práticas supervisionadas conforme regra publicada"
+      ],
+      "caution": "REGULACAO_DA_ESPECIALIDADE_NAO_SUBSTITUI_VALIDACAO_DE_OFERTA_DE_CADA_CURSO"
+    },
+    {
+      "id": "CURCOFEN-EMEC",
+      "type": "EDUCATIONAL_AUTHORITY_REGISTRY",
+      "url": "https://www.gov.br/mec/pt-br/acesso-a-informacao/institucional/estrutura-organizacional/orgaos-especificos-singulares/secretaria-de-regulacao-e-supervisao-da-educacao-superior/perguntasfrequentes/o-que-e-o-sistema",
+      "title": "MEC: natureza declaratória do cadastro e-MEC de lato sensu",
+      "observations": [
+        "identificação e credenciamento da IES",
+        "declaração de curso e edição separadas",
+        "não presumir reconhecimento individual de pós-graduação lato sensu"
+      ],
+      "caution": "O CADASTRO E-MEC NAO E HOMOLOGACAO DO CONTEUDO CURRICULAR"
+    }
+  ],
+  "legal_and_rights": {
+    "cofen_specialty_recognition_separate_from_institutional_course_confirmation": true,
+    "emec_lato_sensu_data_declaratory": true,
+    "course_practice_requirements_specialty_specific": true,
+    "pdf_rights_not_inferred": true,
+    "rights_to_adapt_or_republish_full_syllabus": false
+  },
+  "QA": {
+    "passed": 11,
+    "failed": 0,
+    "checks": {
+      "six_courses": true,
+      "unique_course_ids": true,
+      "all_institutional_urls": true,
+      "all_specialty_ids_known": true,
+      "edition_not_inferred": true,
+      "historical_2018_marked": true,
+      "ufjf_screenshot_limitation": true,
+      "rights_not_granted": true,
+      "no_auto_semantic_joins": true,
+      "source_separation": true,
+      "podiatry2026": true
+    }
+  },
+  "approval": "CANDIDATE_DISCOVERY_ONLY_NO_PUBLICATION_NO_PART_OF"
+}
