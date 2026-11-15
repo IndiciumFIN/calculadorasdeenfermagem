@@ -1,0 +1,1294 @@
+{
+  "project_ref": "pgsybzggewhinaniybiy",
+  "date": "2026-11-15",
+  "captured_via": "Supabase official security advisors",
+  "findings": [
+    {
+      "name": "rls_enabled_no_policy",
+      "level": "INFO",
+      "count": 245,
+      "remediation": "https://supabase.com/docs/guides/database/database-linter?lint=0008_rls_enabled_no_policy",
+      "impacted_objects": [
+        {
+          "name": "agent_registry",
+          "type": "table",
+          "schema": "calculadoras_de_enfermagem"
+        },
+        {
+          "name": "agent_run_history",
+          "type": "table",
+          "schema": "calculadoras_de_enfermagem"
+        },
+        {
+          "name": "atom_source_scope_screen",
+          "type": "table",
+          "schema": "calculadoras_de_enfermagem"
+        },
+        {
+          "name": "clinical_score_crosswalk",
+          "type": "table",
+          "schema": "calculadoras_de_enfermagem"
+        },
+        {
+          "name": "cross_theme_exact_source_code_screen",
+          "type": "table",
+          "schema": "calculadoras_de_enfermagem"
+        },
+        {
+          "name": "crosswalk_candidates",
+          "type": "table",
+          "schema": "calculadoras_de_enfermagem"
+        },
+        {
+          "name": "delta_assurance_snapshots",
+          "type": "table",
+          "schema": "calculadoras_de_enfermagem"
+        },
+        {
+          "name": "document_atomization",
+          "type": "table",
+          "schema": "calculadoras_de_enfermagem"
+        },
+        {
+          "name": "exclusion_history",
+          "type": "table",
+          "schema": "calculadoras_de_enfermagem"
+        },
+        {
+          "name": "file_delta_plan",
+          "type": "table",
+          "schema": "calculadoras_de_enfermagem"
+        },
+        {
+          "name": "file_integrity",
+          "type": "table",
+          "schema": "calculadoras_de_enfermagem"
+        },
+        {
+          "name": "internal_reuse_evidence",
+          "type": "table",
+          "schema": "calculadoras_de_enfermagem"
+        },
+        {
+          "name": "library_releases",
+          "type": "table",
+          "schema": "calculadoras_de_enfermagem"
+        },
+        {
+          "name": "micro_checkpoints",
+          "type": "table",
+          "schema": "calculadoras_de_enfermagem"
+        },
+        {
+          "name": "protocol_index_crosswalk",
+          "type": "table",
+          "schema": "calculadoras_de_enfermagem"
+        },
+        {
+          "name": "reconciliation_holds",
+          "type": "table",
+          "schema": "calculadoras_de_enfermagem"
+        },
+        {
+          "name": "reconciliation_observations",
+          "type": "table",
+          "schema": "calculadoras_de_enfermagem"
+        },
+        {
+          "name": "source_lineage",
+          "type": "table",
+          "schema": "calculadoras_de_enfermagem"
+        },
+        {
+          "name": "task_events",
+          "type": "table",
+          "schema": "calculadoras_de_enfermagem"
+        },
+        {
+          "name": "task_gates",
+          "type": "table",
+          "schema": "calculadoras_de_enfermagem"
+        },
+        {
+          "name": "task_substeps",
+          "type": "table",
+          "schema": "calculadoras_de_enfermagem"
+        },
+        {
+          "name": "theme_inventory",
+          "type": "table",
+          "schema": "calculadoras_de_enfermagem"
+        },
+        {
+          "name": "external_source_binding",
+          "type": "table",
+          "schema": "canone_control"
+        },
+        {
+          "name": "migration_catalog",
+          "type": "table",
+          "schema": "canone_control"
+        },
+        {
+          "name": "release_gate",
+          "type": "table",
+          "schema": "canone_control"
+        },
+        {
+          "name": "schema_map",
+          "type": "table",
+          "schema": "canone_control"
+        },
+        {
+          "name": "demo_events",
+          "type": "table",
+          "schema": "ce_admin_preview"
+        },
+        {
+          "name": "demo_records",
+          "type": "table",
+          "schema": "ce_admin_preview"
+        },
+        {
+          "name": "asset_candidates",
+          "type": "table",
+          "schema": "ce_atlas_dev"
+        },
+        {
+          "name": "pmo_tasks",
+          "type": "table",
+          "schema": "ce_atlas_dev"
+        },
+        {
+          "name": "qa_runs",
+          "type": "table",
+          "schema": "ce_atlas_dev"
+        },
+        {
+          "name": "audit_findings",
+          "type": "table",
+          "schema": "ce_curiosidades_v1"
+        },
+        {
+          "name": "audit_runs",
+          "type": "table",
+          "schema": "ce_curiosidades_v1"
+        },
+        {
+          "name": "citation_remediation",
+          "type": "table",
+          "schema": "ce_curiosidades_v1"
+        },
+        {
+          "name": "media_registry",
+          "type": "table",
+          "schema": "ce_curiosidades_v1"
+        },
+        {
+          "name": "page_revision_snapshots",
+          "type": "table",
+          "schema": "ce_curiosidades_v1"
+        },
+        {
+          "name": "page_sources",
+          "type": "table",
+          "schema": "ce_curiosidades_v1"
+        },
+        {
+          "name": "pages",
+          "type": "table",
+          "schema": "ce_curiosidades_v1"
+        },
+        {
+          "name": "pmo_page_gates",
+          "type": "table",
+          "schema": "ce_curiosidades_v1"
+        },
+        {
+          "name": "sources",
+          "type": "table",
+          "schema": "ce_curiosidades_v1"
+        },
+        {
+          "name": "artifacts",
+          "type": "table",
+          "schema": "ce_form_release_hold"
+        },
+        {
+          "name": "evidence_reviews",
+          "type": "table",
+          "schema": "ce_form_release_hold"
+        },
+        {
+          "name": "execution_log",
+          "type": "table",
+          "schema": "ce_form_release_hold"
+        },
+        {
+          "name": "instruments",
+          "type": "table",
+          "schema": "ce_form_release_hold"
+        },
+        {
+          "name": "pending_work",
+          "type": "table",
+          "schema": "ce_form_release_hold"
+        },
+        {
+          "name": "releases",
+          "type": "table",
+          "schema": "ce_form_release_hold"
+        },
+        {
+          "name": "sealed_releases",
+          "type": "table",
+          "schema": "ce_form_release_hold"
+        },
+        {
+          "name": "assessments",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "canonical_objects",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "capabilities",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "career_path_steps",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "career_paths",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "career_roles",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "checklist_items",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "checklists",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "clinical_evidence_bindings",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "clinical_inputs",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "clinical_outputs",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "clinical_rule_versions",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "clinical_tools",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "community_posts",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "community_spaces",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "content_blocks",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "content_documents",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "content_variants",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "course_offerings",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "courses",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "coverage_findings",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "coverage_requirements",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "coverage_snapshots",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "credentials",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "domains",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "external_registry_bindings",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "form_fields",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "forms",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "help_bindings",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "help_content",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "library_entities",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "library_variants",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "market_observations",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "media_assets",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "object_aliases",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "object_capability_bindings",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "object_relations",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "object_types",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "opportunities",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "organizations",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "output_format_adapters",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "output_profiles",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "plans",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "preview_profiles",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "protocol_steps",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "question_options",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "questions",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "research_artifacts",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "research_instruments",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "research_methods",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "research_participation",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "research_projects",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "role_skills",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "schema_meta",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "selection_processes",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "service_object_bindings",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "services",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "skills",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "source_mappings",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "tool_profiles",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "trail_items",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "trails",
+          "type": "table",
+          "schema": "ce_platform"
+        },
+        {
+          "name": "analysis_runs",
+          "type": "table",
+          "schema": "ce_research_candidate"
+        },
+        {
+          "name": "budget_lines",
+          "type": "table",
+          "schema": "ce_research_candidate"
+        },
+        {
+          "name": "calls_for_proposals",
+          "type": "table",
+          "schema": "ce_research_candidate"
+        },
+        {
+          "name": "consensus_votes",
+          "type": "table",
+          "schema": "ce_research_candidate"
+        },
+        {
+          "name": "data_quality_findings",
+          "type": "table",
+          "schema": "ce_research_candidate"
+        },
+        {
+          "name": "editorial_reviews",
+          "type": "table",
+          "schema": "ce_research_candidate"
+        },
+        {
+          "name": "funding_transactions",
+          "type": "table",
+          "schema": "ce_research_candidate"
+        },
+        {
+          "name": "hypotheses",
+          "type": "table",
+          "schema": "ce_research_candidate"
+        },
+        {
+          "name": "impact_observations",
+          "type": "table",
+          "schema": "ce_research_candidate"
+        },
+        {
+          "name": "instrument_responses",
+          "type": "table",
+          "schema": "ce_research_candidate"
+        },
+        {
+          "name": "metric_observations",
+          "type": "table",
+          "schema": "ce_research_candidate"
+        },
+        {
+          "name": "participation_outcomes",
+          "type": "table",
+          "schema": "ce_research_candidate"
+        },
+        {
+          "name": "participation_statements",
+          "type": "table",
+          "schema": "ce_research_candidate"
+        },
+        {
+          "name": "proposal_applications",
+          "type": "table",
+          "schema": "ce_research_candidate"
+        },
+        {
+          "name": "recruitment_campaigns",
+          "type": "table",
+          "schema": "ce_research_candidate"
+        },
+        {
+          "name": "research_metrics",
+          "type": "table",
+          "schema": "ce_research_candidate"
+        },
+        {
+          "name": "research_portfolio_items",
+          "type": "table",
+          "schema": "ce_research_candidate"
+        },
+        {
+          "name": "research_training_assignments",
+          "type": "table",
+          "schema": "ce_research_candidate"
+        },
+        {
+          "name": "response_items",
+          "type": "table",
+          "schema": "ce_research_candidate"
+        },
+        {
+          "name": "retention_rules",
+          "type": "table",
+          "schema": "ce_research_candidate"
+        },
+        {
+          "name": "risk_scenarios",
+          "type": "table",
+          "schema": "ce_research_candidate"
+        },
+        {
+          "name": "sampling_plans",
+          "type": "table",
+          "schema": "ce_research_candidate"
+        },
+        {
+          "name": "source_search_hits",
+          "type": "table",
+          "schema": "ce_research_candidate"
+        },
+        {
+          "name": "evidence_bindings",
+          "type": "table",
+          "schema": "ce_validation_hub"
+        },
+        {
+          "name": "findings",
+          "type": "table",
+          "schema": "ce_validation_hub"
+        },
+        {
+          "name": "inventory",
+          "type": "table",
+          "schema": "ce_validation_hub"
+        },
+        {
+          "name": "reuse_links",
+          "type": "table",
+          "schema": "ce_validation_hub"
+        },
+        {
+          "name": "validation_rules",
+          "type": "table",
+          "schema": "ce_validation_hub"
+        },
+        {
+          "name": "tool_dossiers",
+          "type": "table",
+          "schema": "cko_closure"
+        },
+        {
+          "name": "component_relations",
+          "type": "table",
+          "schema": "cko_device"
+        },
+        {
+          "name": "components",
+          "type": "table",
+          "schema": "cko_device"
+        },
+        {
+          "name": "device_profiles",
+          "type": "table",
+          "schema": "cko_device"
+        },
+        {
+          "name": "dimensions",
+          "type": "table",
+          "schema": "cko_device"
+        },
+        {
+          "name": "geometry_evidence",
+          "type": "table",
+          "schema": "cko_device"
+        },
+        {
+          "name": "identifiers",
+          "type": "table",
+          "schema": "cko_device"
+        },
+        {
+          "name": "landmark_contracts",
+          "type": "table",
+          "schema": "cko_device"
+        },
+        {
+          "name": "landmark_observations",
+          "type": "table",
+          "schema": "cko_device"
+        },
+        {
+          "name": "materials",
+          "type": "table",
+          "schema": "cko_device"
+        },
+        {
+          "name": "object_standards",
+          "type": "table",
+          "schema": "cko_device"
+        },
+        {
+          "name": "packaging_profiles",
+          "type": "table",
+          "schema": "cko_device"
+        },
+        {
+          "name": "reference_cohort_members",
+          "type": "table",
+          "schema": "cko_device"
+        },
+        {
+          "name": "reference_cohorts",
+          "type": "table",
+          "schema": "cko_device"
+        },
+        {
+          "name": "regulatory_events",
+          "type": "table",
+          "schema": "cko_device"
+        },
+        {
+          "name": "regulatory_projections",
+          "type": "table",
+          "schema": "cko_device"
+        },
+        {
+          "name": "technical_properties",
+          "type": "table",
+          "schema": "cko_device"
+        },
+        {
+          "name": "variants",
+          "type": "table",
+          "schema": "cko_device"
+        },
+        {
+          "name": "visual_assertion_contracts",
+          "type": "table",
+          "schema": "cko_device"
+        },
+        {
+          "name": "account_palm_master_register_v1",
+          "type": "table",
+          "schema": "cko_governance"
+        },
+        {
+          "name": "cfc_relation_resolution_candidates_v1",
+          "type": "table",
+          "schema": "cko_governance"
+        },
+        {
+          "name": "cfc_strong_relation_candidates_v1",
+          "type": "table",
+          "schema": "cko_governance"
+        },
+        {
+          "name": "audit_normative_change_events_v1",
+          "type": "table",
+          "schema": "contabilidade_cfc"
+        },
+        {
+          "name": "audit_normative_pmo_v1",
+          "type": "table",
+          "schema": "contabilidade_cfc"
+        },
+        {
+          "name": "audit_normative_scope_v1",
+          "type": "table",
+          "schema": "contabilidade_cfc"
+        },
+        {
+          "name": "audit_normative_segment_drafts_v1",
+          "type": "table",
+          "schema": "contabilidade_cfc"
+        },
+        {
+          "name": "audit_normative_segment_parent_qa_v1",
+          "type": "table",
+          "schema": "contabilidade_cfc"
+        },
+        {
+          "name": "brand_assets",
+          "type": "table",
+          "schema": "public"
+        },
+        {
+          "name": "cfc_internal_normative_chunks",
+          "type": "table",
+          "schema": "public"
+        },
+        {
+          "name": "cfc_internal_normative_extractions",
+          "type": "table",
+          "schema": "public"
+        },
+        {
+          "name": "exam_answer_keys",
+          "type": "table",
+          "schema": "public"
+        },
+        {
+          "name": "exam_documents",
+          "type": "table",
+          "schema": "public"
+        },
+        {
+          "name": "exam_ingest_binary_chunks",
+          "type": "table",
+          "schema": "public"
+        },
+        {
+          "name": "exam_ingest_runs",
+          "type": "table",
+          "schema": "public"
+        },
+        {
+          "name": "exam_processing_checkpoints",
+          "type": "table",
+          "schema": "public"
+        },
+        {
+          "name": "exam_question_options",
+          "type": "table",
+          "schema": "public"
+        },
+        {
+          "name": "exam_questions",
+          "type": "table",
+          "schema": "public"
+        },
+        {
+          "name": "exam_remediation_tasks",
+          "type": "table",
+          "schema": "public"
+        },
+        {
+          "name": "exam_source_classifications",
+          "type": "table",
+          "schema": "public"
+        },
+        {
+          "name": "exam_source_content",
+          "type": "table",
+          "schema": "public"
+        },
+        {
+          "name": "exam_source_items",
+          "type": "table",
+          "schema": "public"
+        },
+        {
+          "name": "exam_validation_findings",
+          "type": "table",
+          "schema": "public"
+        },
+        {
+          "name": "exams",
+          "type": "table",
+          "schema": "public"
+        },
+        {
+          "name": "project_data_bindings",
+          "type": "table",
+          "schema": "public"
+        },
+        {
+          "name": "regulatory_acquisition_evidence",
+          "type": "table",
+          "schema": "public"
+        },
+        {
+          "name": "regulatory_instruments",
+          "type": "table",
+          "schema": "public"
+        },
+        {
+          "name": "regulatory_source_bindings",
+          "type": "table",
+          "schema": "public"
+        },
+        {
+          "name": "technical_claims",
+          "type": "table",
+          "schema": "public"
+        },
+        {
+          "name": "technical_findings",
+          "type": "table",
+          "schema": "public"
+        },
+        {
+          "name": "technical_object_registry",
+          "type": "table",
+          "schema": "public"
+        },
+        {
+          "name": "technical_source_snapshots",
+          "type": "table",
+          "schema": "public"
+        },
+        {
+          "name": "technical_workflows",
+          "type": "table",
+          "schema": "public"
+        },
+        {
+          "name": "ci_run",
+          "type": "table",
+          "schema": "xlf_assurance"
+        },
+        {
+          "name": "drift_event",
+          "type": "table",
+          "schema": "xlf_assurance"
+        },
+        {
+          "name": "release_blocker",
+          "type": "table",
+          "schema": "xlf_assurance"
+        },
+        {
+          "name": "release_gate_run",
+          "type": "table",
+          "schema": "xlf_assurance"
+        },
+        {
+          "name": "revalidation_task",
+          "type": "table",
+          "schema": "xlf_assurance"
+        },
+        {
+          "name": "source_snapshot",
+          "type": "table",
+          "schema": "xlf_assurance"
+        },
+        {
+          "name": "source_watch",
+          "type": "table",
+          "schema": "xlf_assurance"
+        },
+        {
+          "name": "accessibility_requirement",
+          "type": "table",
+          "schema": "xlf_experience"
+        },
+        {
+          "name": "accessibility_test_run",
+          "type": "table",
+          "schema": "xlf_experience"
+        },
+        {
+          "name": "assistive_technology_test_target",
+          "type": "table",
+          "schema": "xlf_experience"
+        },
+        {
+          "name": "flow",
+          "type": "table",
+          "schema": "xlf_experience"
+        },
+        {
+          "name": "test_fixture",
+          "type": "table",
+          "schema": "xlf_experience"
+        },
+        {
+          "name": "ui_component",
+          "type": "table",
+          "schema": "xlf_experience"
+        },
+        {
+          "name": "edge",
+          "type": "table",
+          "schema": "xlf_graph"
+        },
+        {
+          "name": "node",
+          "type": "table",
+          "schema": "xlf_graph"
+        },
+        {
+          "name": "predicate",
+          "type": "table",
+          "schema": "xlf_graph"
+        },
+        {
+          "name": "finding",
+          "type": "table",
+          "schema": "xlf_inspector"
+        },
+        {
+          "name": "finding_review",
+          "type": "table",
+          "schema": "xlf_inspector"
+        },
+        {
+          "name": "rule",
+          "type": "table",
+          "schema": "xlf_inspector"
+        },
+        {
+          "name": "run",
+          "type": "table",
+          "schema": "xlf_inspector"
+        },
+        {
+          "name": "assessment_rule",
+          "type": "table",
+          "schema": "xlf_learning"
+        },
+        {
+          "name": "competency_definition",
+          "type": "table",
+          "schema": "xlf_learning"
+        },
+        {
+          "name": "learning_resource",
+          "type": "table",
+          "schema": "xlf_learning"
+        },
+        {
+          "name": "next_step_rule",
+          "type": "table",
+          "schema": "xlf_learning"
+        },
+        {
+          "name": "procedure",
+          "type": "table",
+          "schema": "xlf_learning"
+        },
+        {
+          "name": "category",
+          "type": "table",
+          "schema": "xlf_md"
+        },
+        {
+          "name": "client",
+          "type": "table",
+          "schema": "xlf_md"
+        },
+        {
+          "name": "code_list_item",
+          "type": "table",
+          "schema": "xlf_md"
+        },
+        {
+          "name": "command",
+          "type": "table",
+          "schema": "xlf_md"
+        },
+        {
+          "name": "keyboard_layout",
+          "type": "table",
+          "schema": "xlf_md"
+        },
+        {
+          "name": "locale",
+          "type": "table",
+          "schema": "xlf_md"
+        },
+        {
+          "name": "platform",
+          "type": "table",
+          "schema": "xlf_md"
+        },
+        {
+          "name": "profession",
+          "type": "table",
+          "schema": "xlf_md"
+        },
+        {
+          "name": "proficiency_level",
+          "type": "table",
+          "schema": "xlf_md"
+        },
+        {
+          "name": "content_atom",
+          "type": "table",
+          "schema": "xlf_publication"
+        },
+        {
+          "name": "page",
+          "type": "table",
+          "schema": "xlf_publication"
+        },
+        {
+          "name": "profile",
+          "type": "table",
+          "schema": "xlf_publication"
+        },
+        {
+          "name": "release",
+          "type": "table",
+          "schema": "xlf_publication"
+        },
+        {
+          "name": "documentation_anomaly",
+          "type": "table",
+          "schema": "xlf_reg"
+        },
+        {
+          "name": "evidence_assertion",
+          "type": "table",
+          "schema": "xlf_reg"
+        },
+        {
+          "name": "evidence_atomic",
+          "type": "table",
+          "schema": "xlf_reg"
+        },
+        {
+          "name": "learning_object",
+          "type": "table",
+          "schema": "xlf_reg"
+        },
+        {
+          "name": "professional_use_case",
+          "type": "table",
+          "schema": "xlf_reg"
+        },
+        {
+          "name": "registry_item",
+          "type": "table",
+          "schema": "xlf_reg"
+        },
+        {
+          "name": "relationship",
+          "type": "table",
+          "schema": "xlf_reg"
+        },
+        {
+          "name": "risk_control",
+          "type": "table",
+          "schema": "xlf_reg"
+        },
+        {
+          "name": "shortcut_binding",
+          "type": "table",
+          "schema": "xlf_reg"
+        },
+        {
+          "name": "source",
+          "type": "table",
+          "schema": "xlf_reg"
+        },
+        {
+          "name": "verified_shortcut_binding",
+          "type": "table",
+          "schema": "xlf_reg"
+        },
+        {
+          "name": "activity_event",
+          "type": "table",
+          "schema": "xlf_runtime"
+        },
+        {
+          "name": "activity_evidence",
+          "type": "table",
+          "schema": "xlf_runtime"
+        },
+        {
+          "name": "activity_session",
+          "type": "table",
+          "schema": "xlf_runtime"
+        },
+        {
+          "name": "competency_observation",
+          "type": "table",
+          "schema": "xlf_runtime"
+        },
+        {
+          "name": "human_context_session",
+          "type": "table",
+          "schema": "xlf_runtime"
+        },
+        {
+          "name": "learning_event",
+          "type": "table",
+          "schema": "xlf_runtime"
+        },
+        {
+          "name": "activity_definition",
+          "type": "table",
+          "schema": "xlf_sim"
+        }
+      ],
+      "note": "Often intentional fail-closed; do not create broad read policies automatically"
+    },
+    {
+      "name": "function_search_path_mutable",
+      "level": "WARN",
+      "count": 4,
+      "remediation": "https://supabase.com/docs/guides/database/database-linter?lint=0011_function_search_path_mutable",
+      "impacted_objects": [
+        {
+          "name": "b5_engine_v1",
+          "type": "function",
+          "schema": "cko_governance"
+        },
+        {
+          "name": "b5_validator_v1",
+          "type": "function",
+          "schema": "cko_governance"
+        },
+        {
+          "name": "b5_renderer_v1",
+          "type": "function",
+          "schema": "cko_governance"
+        },
+        {
+          "name": "b5_runtime_v1",
+          "type": "function",
+          "schema": "cko_governance"
+        }
+      ]
+    },
+    {
+      "name": "extension_in_public",
+      "level": "WARN",
+      "count": 1,
+      "remediation": "https://supabase.com/docs/guides/database/database-linter?lint=0014_extension_in_public",
+      "impacted_objects": [
+        {
+          "name": "pg_net",
+          "type": "extension",
+          "schema": "public"
+        }
+      ]
+    },
+    {
+      "name": "auth_leaked_password_protection",
+      "level": "WARN",
+      "count": 1,
+      "remediation": "https://supabase.com/docs/guides/auth/password-security#password-strength-and-leaked-password-protection",
+      "impacted_objects": [
+        {
+          "type": "auth",
+          "entity": "Auth"
+        }
+      ]
+    }
+  ]
+}

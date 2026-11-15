@@ -4,6 +4,10 @@ on:
     paths:
       - "supabase/migrations/**"
       - "docs/migration-crosswalk-supabase-ce-20261115.json"
+      - "docs/audits/CE_SUPABASE_DIRECT_EXPORT_20261115/**"
+      - "docs/audits/CE_SUPABASE_SECURITY_ADVISORS_20261115.json"
+      - "scripts/verify_supabase_snapshot.py"
+      - "tests/test_supabase_direct_inventory.py"
       - "scripts/check_supabase_migration_guard.py"
       - "tests/test_supabase_migration_guard.py"
       - ".github/workflows/ce-migration-provenance.yml"
@@ -22,6 +26,10 @@ jobs:
           persist-credentials: false
       - name: Python source integrity tests without database
         run: python -m unittest discover -s tests -p 'test_supabase_migration_guard.py' -v
+      - name: Verify directly extracted catalog integrity and counts
+        run: python scripts/verify_supabase_snapshot.py
+      - name: Negative and positive snapshot integrity tests
+        run: python -m unittest discover -s tests -p "test_supabase_direct_inventory.py" -v
       - name: Assert real migration guard refuses execution and remains HOLD
         shell: bash
         run: |

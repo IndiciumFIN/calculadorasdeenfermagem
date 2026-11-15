@@ -1,0 +1,194 @@
+{
+  "schema_version": "1.0.0",
+  "project": "Calculadoras-Smart",
+  "project_ref": "pgsybzggewhinaniybiy",
+  "observation_date": "2026-11-15",
+  "source": "Supabase connector: SELECT-only, PostgreSQL system catalog and scoped nursing reference tables",
+  "snapshot_consistency": "NON_ATOMIC_ACROSS_QUERIES",
+  "approval_state": "HOLD_HUMAN",
+  "database_mutated": false,
+  "neon_migration_performed": false,
+  "coverage": {
+    "schemas": 59,
+    "relations": 678,
+    "physical_tables": 612,
+    "views": 49,
+    "sequences": 17,
+    "columns": 7246,
+    "constraints": 1996,
+    "indexes": 1268,
+    "rls_policies": 100,
+    "routines": 468,
+    "non_internal_triggers": 199,
+    "extensions": 7,
+    "migration_versions": 255,
+    "limited_nursing_reference_rows": 1173,
+    "source_file_count": 22
+  },
+  "exclusions": {
+    "physical_postgresql_dump": "NOT_AVAILABLE_VIA_CONNECTOR",
+    "full_function_and_view_ddl": "NOT_EXPORTED_ONLY_METADATA_AND_HASHES",
+    "column_default_expressions": "ONLY_MD5_HASHES_EXPORTED",
+    "complete_row_data": "NOT_EXPORTED",
+    "auth_users_personal_records": "NOT_EXPORTED",
+    "storage_objects_binary": "NOT_EXPORTED",
+    "vault_secrets": "NOT_EXPORTED",
+    "supabase_commercial_or_accounting_records": "NOT_EXPORTED"
+  },
+  "files": [
+    {
+      "path": "docs/audits/CE_SUPABASE_DIRECT_EXPORT_20261115/columns-ce.jsonl",
+      "git_blob_sha1": "94e5af9a1292bfad2f118d80217aa55e968b7e17",
+      "bytes": 275259,
+      "record_count": 1177,
+      "status": "EXTRACTED_READ_ONLY"
+    },
+    {
+      "path": "docs/audits/CE_SUPABASE_DIRECT_EXPORT_20261115/columns-cko-1.jsonl",
+      "git_blob_sha1": "de10d95c13657f5648ffb94d85dfc8a4acdc4caf",
+      "bytes": 335675,
+      "record_count": 1400,
+      "status": "EXTRACTED_READ_ONLY"
+    },
+    {
+      "path": "docs/audits/CE_SUPABASE_DIRECT_EXPORT_20261115/columns-cko-2.jsonl",
+      "git_blob_sha1": "37cc1dc51ef299fce26c6521d64117a20a2c7a12",
+      "bytes": 327895,
+      "record_count": 1386,
+      "status": "EXTRACTED_READ_ONLY"
+    },
+    {
+      "path": "docs/audits/CE_SUPABASE_DIRECT_EXPORT_20261115/columns-other-1.jsonl",
+      "git_blob_sha1": "cda2cecb67b2bcd7e07ef2bc4f67d11ed7b18885",
+      "bytes": 330985,
+      "record_count": 1400,
+      "status": "EXTRACTED_READ_ONLY"
+    },
+    {
+      "path": "docs/audits/CE_SUPABASE_DIRECT_EXPORT_20261115/columns-other-2.jsonl",
+      "git_blob_sha1": "dd6c90a9f2922dc508416ee39578c1811c5291fa",
+      "bytes": 317386,
+      "record_count": 1392,
+      "status": "EXTRACTED_READ_ONLY"
+    },
+    {
+      "path": "docs/audits/CE_SUPABASE_DIRECT_EXPORT_20261115/columns-xlf.jsonl",
+      "git_blob_sha1": "c7261af3e2be0b10c68be496635371b9f58245c0",
+      "bytes": 107098,
+      "record_count": 491,
+      "status": "EXTRACTED_READ_ONLY"
+    },
+    {
+      "path": "docs/audits/CE_SUPABASE_DIRECT_EXPORT_20261115/constraints.jsonl",
+      "git_blob_sha1": "83642780302397204b39796e1bd3604a77c68f53",
+      "bytes": 511109,
+      "record_count": 1996,
+      "status": "EXTRACTED_READ_ONLY"
+    },
+    {
+      "path": "docs/audits/CE_SUPABASE_DIRECT_EXPORT_20261115/extensions.jsonl",
+      "git_blob_sha1": "ee40200f2094335aa148fd8486154d1af2df48d0",
+      "bytes": 453,
+      "record_count": 7,
+      "status": "EXTRACTED_READ_ONLY"
+    },
+    {
+      "path": "docs/audits/CE_SUPABASE_DIRECT_EXPORT_20261115/indexes.jsonl",
+      "git_blob_sha1": "266e3edc1dbd5b1a797de3bebe4d06421a09d9ba",
+      "bytes": 374644,
+      "record_count": 1268,
+      "status": "EXTRACTED_READ_ONLY"
+    },
+    {
+      "path": "docs/audits/CE_SUPABASE_DIRECT_EXPORT_20261115/migrations.json",
+      "git_blob_sha1": "9722cf9bf4b8306f0f386314d0a65f5e9032dccd",
+      "bytes": 82052,
+      "record_count": 255,
+      "status": "EXTRACTED_READ_ONLY"
+    },
+    {
+      "path": "docs/audits/CE_SUPABASE_DIRECT_EXPORT_20261115/policies.jsonl",
+      "git_blob_sha1": "405a3b6e4ef2c8619f2afea6c6dd9202397e0db2",
+      "bytes": 26047,
+      "record_count": 100,
+      "status": "EXTRACTED_READ_ONLY"
+    },
+    {
+      "path": "docs/audits/CE_SUPABASE_DIRECT_EXPORT_20261115/relations.json",
+      "git_blob_sha1": "cfe39bc8eb73b91b73eb48867fe5bf777bfbf01a",
+      "bytes": 186564,
+      "record_count": 678,
+      "status": "EXTRACTED_READ_ONLY"
+    },
+    {
+      "path": "docs/audits/CE_SUPABASE_DIRECT_EXPORT_20261115/routines.jsonl",
+      "git_blob_sha1": "e889df4e2d03d62a6a57fb1c046cce2b22f21d5c",
+      "bytes": 146493,
+      "record_count": 468,
+      "status": "EXTRACTED_READ_ONLY"
+    },
+    {
+      "path": "docs/audits/CE_SUPABASE_DIRECT_EXPORT_20261115/schemas.json",
+      "git_blob_sha1": "97446ee106eafc9843748ac681b2ae5329f361a7",
+      "bytes": 9532,
+      "record_count": 59,
+      "status": "EXTRACTED_READ_ONLY"
+    },
+    {
+      "path": "docs/audits/CE_SUPABASE_DIRECT_EXPORT_20261115/triggers.jsonl",
+      "git_blob_sha1": "4d04a9f7e747f223afbf1b912e77ef195f59a817",
+      "bytes": 50087,
+      "record_count": 199,
+      "status": "EXTRACTED_READ_ONLY"
+    },
+    {
+      "path": "docs/audits/CE_SUPABASE_DIRECT_EXPORT_20261115/views.jsonl",
+      "git_blob_sha1": "0ee0e7fc23b3e2c9bc20c03f7bb8a2ddd641d52e",
+      "bytes": 7741,
+      "record_count": 49,
+      "status": "EXTRACTED_READ_ONLY"
+    },
+    {
+      "path": "docs/audits/CE_SUPABASE_DIRECT_EXPORT_20261115/reference/canonical-object-metadata.jsonl",
+      "git_blob_sha1": "70e2833eca68309ff3c5d13915e61e3ca011cc71",
+      "bytes": 123797,
+      "record_count": 320,
+      "status": "EXTRACTED_READ_ONLY"
+    },
+    {
+      "path": "docs/audits/CE_SUPABASE_DIRECT_EXPORT_20261115/reference/clinical-tool-metadata.jsonl",
+      "git_blob_sha1": "8e40a3caaa5c54125629940199845b1e426bfee0",
+      "bytes": 27314,
+      "record_count": 111,
+      "status": "EXTRACTED_READ_ONLY"
+    },
+    {
+      "path": "docs/audits/CE_SUPABASE_DIRECT_EXPORT_20261115/reference/evidence-source-metadata.jsonl",
+      "git_blob_sha1": "bd7986a30102108d895faf5653aa0d23ab76d449",
+      "bytes": 65273,
+      "record_count": 157,
+      "status": "EXTRACTED_READ_ONLY"
+    },
+    {
+      "path": "docs/audits/CE_SUPABASE_DIRECT_EXPORT_20261115/reference/external-binding-metadata.jsonl",
+      "git_blob_sha1": "17b2d2b5d2d1d69e6f4e8aa1ca9f0504c0e2409e",
+      "bytes": 1493,
+      "record_count": 8,
+      "status": "EXTRACTED_READ_ONLY"
+    },
+    {
+      "path": "docs/audits/CE_SUPABASE_DIRECT_EXPORT_20261115/reference/normative-reference-metadata.jsonl",
+      "git_blob_sha1": "2b55d69c98a8a0b9f6fe78f74682aeccf415001a",
+      "bytes": 213682,
+      "record_count": 362,
+      "status": "EXTRACTED_READ_ONLY"
+    },
+    {
+      "path": "docs/audits/CE_SUPABASE_DIRECT_EXPORT_20261115/reference/source-mapping-metadata.jsonl",
+      "git_blob_sha1": "cf127ef02e4dfec885d023d6503b2827237c1247",
+      "bytes": 45848,
+      "record_count": 215,
+      "status": "EXTRACTED_READ_ONLY"
+    }
+  ]
+}
