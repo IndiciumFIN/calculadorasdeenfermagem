@@ -1,0 +1,180 @@
+{
+  "release": "W7-v0.4.2",
+  "as_of": "2026-11-15",
+  "github_branch": "review/cko-w7-public-evidence-20261114",
+  "prior_head": "89f28bfdbe7c54aa8face90e45f605a2c2fb0500",
+  "scope": "AUTHORIAL_EDUCATIONAL_CONTENT_ONLY",
+  "facts": {
+    "new_micro_lessons": 12,
+    "total_micro_lessons": 27,
+    "new_articles": 3,
+    "total_articles": 5,
+    "new_cases": 4,
+    "total_cases": 7,
+    "new_checklists": 3,
+    "total_checklists": 5,
+    "total_flashcards": 27,
+    "old_questions": 15,
+    "new_micro_questions": 12,
+    "new_scenario_questions": 12,
+    "total_structured_questions": 39,
+    "prior_evidence_entries_audited": 33,
+    "new_claim_entries_with_official_source_ids": 24,
+    "total_claim_entries_across_batches": 57,
+    "registry_total": 1055
+  },
+  "new_source_anchors": [
+    "PNSTT Portaria 1.823/2012",
+    "Portaria GM/MS 4.922/2024 RENASTT",
+    "Portaria GM/MS 11.211/2026 notificacao",
+    "NR-17 AEP/AET",
+    "NR-1 26/05/2026 riscos psicossociais"
+  ],
+  "versions": [
+    {
+      "release": "W7-v0.3.7",
+      "lesson_ids": [
+        "MICRO-WORK-00096",
+        "MICRO-WORK-00199",
+        "MICRO-WORK-00363",
+        "MICRO-WORK-00394",
+        "MICRO-WORK-00605"
+      ],
+      "file_sha": "0a47370cae2b241c93fc2bf50ca368d3030da8e9"
+    },
+    {
+      "release": "W7-v0.3.8",
+      "lesson_ids": [
+        "MICRO-WORK-00267",
+        "MICRO-WORK-00292",
+        "MICRO-WORK-00314",
+        "MICRO-WORK-00335",
+        "MICRO-WORK-00352",
+        "MICRO-WORK-00453",
+        "MICRO-WORK-00454",
+        "MICRO-WORK-00455",
+        "MICRO-WORK-00460",
+        "MICRO-WORK-00471"
+      ],
+      "file_sha": "7b630006a419ce7d0b92969f406c9f99d515c64a"
+    },
+    {
+      "release": "W7-v0.4.1",
+      "lesson_ids": [
+        "MICRO-WORK-00015",
+        "MICRO-WORK-00016",
+        "MICRO-WORK-00017",
+        "MICRO-WORK-00018",
+        "MICRO-WORK-00020",
+        "MICRO-WORK-00396",
+        "MICRO-WORK-00397",
+        "MICRO-WORK-00407",
+        "MICRO-WORK-00408",
+        "MICRO-WORK-00409",
+        "MICRO-WORK-00315",
+        "MICRO-WORK-00351"
+      ],
+      "file_sha": "e67112563a15f9ed9da3c1a158a5068af6e7534f"
+    }
+  ],
+  "article_records": [
+    {
+      "id": "oldpgr",
+      "path": "governance/cko/reconciliation/2026-11-14/w7/curriculum/educational/articles/ARTIGO_GRO_PGR_PCMSO_v0.4.0.md",
+      "git_blob_sha": "32644a4978d07a764911edaefa18e4caa0bb9532",
+      "length_chars": 6549,
+      "publication_gate": "NO_GO"
+    },
+    {
+      "id": "oldbio",
+      "path": "governance/cko/reconciliation/2026-11-14/w7/curriculum/educational/articles/ARTIGO_RISCO_BIOLOGICO_SERVICOS_SAUDE_v0.4.0.md",
+      "git_blob_sha": "ec6863e8ab0be101b18beec308701fc46b93a6b7",
+      "length_chars": 6229,
+      "publication_gate": "NO_GO"
+    },
+    {
+      "id": "sus",
+      "path": "governance/cko/reconciliation/2026-11-14/w7/curriculum/educational/articles/ARTIGO_SUS_PNSTT_RENASTT_CEREST_v0.4.2.md",
+      "git_blob_sha": "ca5c128408522408826f712b6461af2be4585708",
+      "length_chars": 8424,
+      "publication_gate": "NO_GO"
+    },
+    {
+      "id": "visat",
+      "path": "governance/cko/reconciliation/2026-11-14/w7/curriculum/educational/articles/ARTIGO_VISAT_SINAN_NOTIFICACAO_2026_v0.4.2.md",
+      "git_blob_sha": "0845ba0e23571fbbc614532efc0e5e5459797761",
+      "length_chars": 9393,
+      "publication_gate": "NO_GO"
+    },
+    {
+      "id": "erg",
+      "path": "governance/cko/reconciliation/2026-11-14/w7/curriculum/educational/articles/ARTIGO_AEP_AET_RISCOS_PSICOSSOCIAIS_v0.4.2.md",
+      "git_blob_sha": "36eaaece6b543d92ac79755e5ea86289c968ba3a",
+      "length_chars": 9770,
+      "publication_gate": "NO_GO"
+    }
+  ],
+  "reuse_objects": {
+    "old_cases": [
+      "W7-CASE-038-1",
+      "W7-CASE-038-2",
+      "W7-CASE-038-3"
+    ],
+    "new_cases": [
+      "W7-CASE-042-SUS",
+      "W7-CASE-042-NOTIF",
+      "W7-CASE-042-ERG",
+      "W7-CASE-042-DADOS"
+    ],
+    "old_checklists": [
+      "W7-CHECK-038-1",
+      "W7-CHECK-038-2"
+    ],
+    "new_checklists": [
+      "W7-CHECK-042-SUS",
+      "W7-CHECK-042-VISAT",
+      "W7-CHECK-042-ERG"
+    ]
+  },
+  "qa": {
+    "passed": 15,
+    "failed": 0,
+    "scope": "FILES_RETRIEVED_FROM_GITHUB_AND_IN_MEMORY_INVARIANT_CHECKS; NOT_CONTENT_CLINICAL_SIGNOFF",
+    "checks": {
+      "baseline_15": true,
+      "batch_12": true,
+      "no_dup": true,
+      "all_5_articles_present": true,
+      "new_3_no_go": true,
+      "case_counts": true,
+      "checklist_counts": true,
+      "quiz_counts": true,
+      "flashcards": true,
+      "claim_numbers": true,
+      "all_new_no_go": true,
+      "all_old_no_go": true,
+      "topic_id_source_csv_manual_verified": true,
+      "no_main_merge": true,
+      "no_release_claim": true
+    }
+  },
+  "limits": {
+    "coverage_of_1055_registry_as_validated": false,
+    "source_byte_hash_complete": false,
+    "clinical_review_complete": false,
+    "editorial_approval_complete": false,
+    "source_rights_external_text_clearance": false,
+    "PART_OF_semantic_approval": false,
+    "publication_allowed": false,
+    "main_merge_done": false,
+    "supabase_write_done": false,
+    "site_deploy_done": false
+  },
+  "next_editorial_priority": [
+    "Submeter os 24 novos claims à revisão frase a frase com extrato primário e revisão técnica",
+    "Validar a tabela de notificação com os fluxos locais e com a redação mais recente antes da publicação",
+    "Transformar os 39 itens de avaliação em banco canônico com dificuldade, competência e revisão de distratores",
+    "Expandir outros temas ainda não abordados do corpus, sem confundir cobertura de rascunho com homologação"
+  ],
+  "status": "27_MICRO_LESSONS_5_ARTICLES_39_QUIZ_7_CASES_5_CHECKLISTS_DRAFT; PUBLICATION_NO_GO"
+}
