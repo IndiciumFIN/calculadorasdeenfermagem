@@ -88,6 +88,13 @@ class GovernedToolsContractTests(unittest.TestCase):
             self.assertIn('status:413', code, route)
             self.assertNotIn('req.json()', code, route)
 
+    def test_json_content_type_is_strict_utf8_only(self):
+        security=(ROOT/'src/lib/ce-tools/security.ts').read_text()
+        self.assertIn("charset", security)
+        self.assertIn("utf-8", security)
+        self.assertIn("JSON obrigatório (UTF-8)", security)
+        self.assertNotIn(".startsWith('application/json')", security)
+
     def test_seed_does_not_publish(self):
         sql=(ROOT/'supabase/candidates/20261115_ce_tools_research_seed_candidate.sql').read_text().lower()
         self.assertIn('on conflict (capability_key) do nothing',sql)
