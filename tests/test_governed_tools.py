@@ -71,6 +71,23 @@ class GovernedToolsContractTests(unittest.TestCase):
             self.assertIn("verifyWriteRequest(req)", code, route)
             self.assertNotIn("['admin','editor','auditor'].includes(ctx.role)", code, route)
 
+    def test_actual_body_bytes_limited_on_write_routes(self):
+        security=(ROOT/'src/lib/ce-tools/security.ts').read_text()
+        self.assertIn('MAX_WRITE_BODY_BYTES = 40_000', security)
+        self.assertIn('req.body.getReader()', security)
+        self.assertIn('total > MAX_WRITE_BODY_BYTES', security)
+        self.assertIn('new WriteBodyTooLargeError()', security)
+        self.assertIn("new TextDecoder('utf-8', { fatal: true })", security)
+        for route in (
+            'src/app/api/admin/ferramentas/route.ts',
+            'src/app/api/admin/ferramentas/[key]/route.ts',
+        ):
+            code=(ROOT/route).read_text()
+            self.assertIn('readBoundedJson(req)', code, route)
+            self.assertIn('e instanceof WriteBodyTooLargeError', code, route)
+            self.assertIn('status:413', code, route)
+            self.assertNotIn('req.json()', code, route)
+
     def test_seed_does_not_publish(self):
         sql=(ROOT/'supabase/candidates/20261115_ce_tools_research_seed_candidate.sql').read_text().lower()
         self.assertIn('on conflict (capability_key) do nothing',sql)
