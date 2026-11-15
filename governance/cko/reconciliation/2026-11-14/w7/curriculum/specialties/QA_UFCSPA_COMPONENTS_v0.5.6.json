@@ -1,0 +1,92 @@
+{
+  "release": "COFEN_W7_UFCSPA_GRADUATION_MATRIX_v0.5.6",
+  "as_of": "2026-11-15",
+  "source_url": "https://ufcspa.edu.br/vida-academica/graduacao/cursos/enfermagem/matriz-curricular",
+  "last_page_update": "2025-10-29",
+  "edition": "MATRIX_FROM_2023",
+  "source_data_type": "PUBLIC_COURSE_TITLE_CODE_SEMESTER_CLOCK_HOURS_NO_FULL_SYLLABUS",
+  "source_source_rights": "NOT_LICENSED_FOR_FULL_SYLLABUS_OR_MEDIA_COPY",
+  "rows": 54,
+  "unique_course_codes": 52,
+  "duplicated_code_cases": [
+    {
+      "code": "XENF01001",
+      "occurrences": [
+        {
+          "semester": 1,
+          "title": "Seminário Integrador em Atenção Primária à Saúde — SIAPS, Turma A",
+          "clock_hours": 60,
+          "counted_hours": 60
+        },
+        {
+          "semester": 2,
+          "title": "Seminário Integrador em Atenção Primária à Saúde — SIAPS, Turma B",
+          "clock_hours": 60,
+          "counted_hours": 0
+        }
+      ],
+      "kind": "SAME_COURSE_TWO_GROUPS_SOURCE_NOTE",
+      "automatic_deduplication": false
+    },
+    {
+      "code": "ENF04004",
+      "occurrences": [
+        {
+          "semester": 2,
+          "title": "Fundamentos Teóricos da Enfermagem II",
+          "clock_hours": 30,
+          "counted_hours": 30
+        },
+        {
+          "semester": 4,
+          "title": "Fundamentos para Prática de Enfermagem II",
+          "clock_hours": 180,
+          "counted_hours": 180
+        }
+      ],
+      "kind": "COLLIDING_CODE_DISTINCT_TITLES_OR_HOURS_NEEDS_INSTITUTION_VERIFICATION",
+      "automatic_deduplication": false
+    }
+  ],
+  "semesters": 10,
+  "hours_by_semester": [
+    435,
+    450,
+    450,
+    435,
+    420,
+    390,
+    430,
+    450,
+    480,
+    460
+  ],
+  "sum_semesters_clock_hours": 4400,
+  "optional_clock_hours": 60,
+  "complementary_hours": 137,
+  "total_program_hours": 4597,
+  "stages_clock_hours": 920,
+  "tutoring_displayed_but_excluded_from_hours": true,
+  "degree_level": "UNDERGRADUATE_NOT_COFEN_SPECIALTY",
+  "assertions": {
+    "terms_10": true,
+    "occurrences_54": true,
+    "unique_codes_52": true,
+    "two_duplicate_codes": true,
+    "hours_each": true,
+    "hours_total_4400": true,
+    "final_4597": true,
+    "two_internship_920": true,
+    "siaps_twice_one_counted": true,
+    "enf04004_titles_conflict": true,
+    "no_semantics": true,
+    "no_automatic_course_metadata_approval": true
+  },
+  "qa_passed": 12,
+  "qa_failed": 0,
+  "clinical_evidence_atoms_approved": 0,
+  "semester_proves_bloom_difficulty": false,
+  "source_original_content_paragraph_sha256": null,
+  "publication_allowed": false,
+  "semantic_part_of_approved": false
+}
