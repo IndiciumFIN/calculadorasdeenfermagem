@@ -1,0 +1,421 @@
+{
+  "source_project": "pgsybzggewhinaniybiy",
+  "captured_date": "2026-11-15",
+  "mode": "READ_ONLY",
+  "scope": "schemas",
+  "rows": [
+    {
+      "schema_name": "account_palm",
+      "table_count": 18,
+      "view_count": 26,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "auth",
+      "table_count": 27,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 1
+    },
+    {
+      "schema_name": "calculadoras_de_enfermagem",
+      "table_count": 22,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 2
+    },
+    {
+      "schema_name": "canone_admin",
+      "table_count": 0,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "canone_audit",
+      "table_count": 0,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "canone_bridge",
+      "table_count": 0,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "canone_commerce",
+      "table_count": 0,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "canone_control",
+      "table_count": 4,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "canone_editorial",
+      "table_count": 0,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "canone_evidence",
+      "table_count": 0,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "canone_identity",
+      "table_count": 0,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "canone_learning",
+      "table_count": 0,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "canone_norms",
+      "table_count": 0,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "canone_ops",
+      "table_count": 0,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "canone_public",
+      "table_count": 0,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "canone_subscriber",
+      "table_count": 0,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "canone_taxonomy",
+      "table_count": 0,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "ce_admin_preview",
+      "table_count": 2,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 1
+    },
+    {
+      "schema_name": "ce_atlas_dev",
+      "table_count": 3,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "ce_curiosidades_v1",
+      "table_count": 9,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 3
+    },
+    {
+      "schema_name": "ce_form_release_hold",
+      "table_count": 7,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 1
+    },
+    {
+      "schema_name": "ce_platform",
+      "table_count": 96,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "ce_research_candidate",
+      "table_count": 23,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "ce_validation_hub",
+      "table_count": 5,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "cko_ai",
+      "table_count": 17,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "cko_closure",
+      "table_count": 1,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "cko_coverage",
+      "table_count": 3,
+      "view_count": 3,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "cko_device",
+      "table_count": 28,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "cko_evidence",
+      "table_count": 7,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "cko_flow",
+      "table_count": 3,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "cko_governance",
+      "table_count": 88,
+      "view_count": 5,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "cko_master",
+      "table_count": 6,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 1
+    },
+    {
+      "schema_name": "cko_orch",
+      "table_count": 27,
+      "view_count": 3,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "cko_regulatory",
+      "table_count": 9,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "cko_risk",
+      "table_count": 2,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "cko_staging",
+      "table_count": 1,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "cko_validation",
+      "table_count": 21,
+      "view_count": 7,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "contabilidade_cfc",
+      "table_count": 11,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "cron",
+      "table_count": 2,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 2
+    },
+    {
+      "schema_name": "extensions",
+      "table_count": 0,
+      "view_count": 2,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "graphql",
+      "table_count": 0,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "graphql_public",
+      "table_count": 0,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "net",
+      "table_count": 2,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 1
+    },
+    {
+      "schema_name": "public",
+      "table_count": 48,
+      "view_count": 1,
+      "materialized_view_count": 0,
+      "sequence_count": 4
+    },
+    {
+      "schema_name": "realtime",
+      "table_count": 3,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 1
+    },
+    {
+      "schema_name": "storage",
+      "table_count": 10,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "supabase_migrations",
+      "table_count": 1,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "vault",
+      "table_count": 1,
+      "view_count": 1,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "vdc_ai",
+      "table_count": 49,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "xlf_assurance",
+      "table_count": 7,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "xlf_experience",
+      "table_count": 6,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "xlf_graph",
+      "table_count": 3,
+      "view_count": 1,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "xlf_inspector",
+      "table_count": 4,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "xlf_learning",
+      "table_count": 5,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "xlf_md",
+      "table_count": 9,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "xlf_publication",
+      "table_count": 4,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "xlf_reg",
+      "table_count": 11,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "xlf_runtime",
+      "table_count": 6,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    },
+    {
+      "schema_name": "xlf_sim",
+      "table_count": 1,
+      "view_count": 0,
+      "materialized_view_count": 0,
+      "sequence_count": 0
+    }
+  ]
+}

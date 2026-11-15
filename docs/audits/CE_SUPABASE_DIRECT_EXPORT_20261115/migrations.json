@@ -1,0 +1,2558 @@
+{
+  "source_project": "pgsybzggewhinaniybiy",
+  "captured_date": "2026-11-15",
+  "mode": "READ_ONLY",
+  "scope": "migrations",
+  "rows": [
+    {
+      "version": "20260816174704",
+      "name": "calculadoras_smart_wave1_core",
+      "statements_count": 1,
+      "statements_bytes": 22291,
+      "statements_md5": "43f450528e0a5b711ba622e7ba3bf8e2",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260816174822",
+      "name": "calculadoras_smart_wave1_governance_seed",
+      "statements_count": 1,
+      "statements_bytes": 4225,
+      "statements_md5": "387aa7600aaf0ed56e6a576fc817cf05",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260816175022",
+      "name": "calculadoras_smart_wave1_prompt_inventory_seed",
+      "statements_count": 1,
+      "statements_bytes": 11509,
+      "statements_md5": "78dfa478f57afdda9ae4cc33dbd3c5b2",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260816175130",
+      "name": "calculadoras_smart_wave1_control_engines_fixed",
+      "statements_count": 1,
+      "statements_bytes": 7887,
+      "statements_md5": "417d23187c22105ce4558f2a34152ac6",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260816175508",
+      "name": "calculadoras_smart_master_identity_resolution_core",
+      "statements_count": 1,
+      "statements_bytes": 7872,
+      "statements_md5": "6ddf72c633dc7717ffdca34a2b4cd5f4",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260816175521",
+      "name": "calculadoras_smart_coverage_identity_split",
+      "statements_count": 1,
+      "statements_bytes": 2800,
+      "statements_md5": "d5341e7551460908bc2314ca06d68c37",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260816175720",
+      "name": "calculadoras_smart_acquisition_queue_and_reg_docs",
+      "statements_count": 1,
+      "statements_bytes": 9515,
+      "statements_md5": "610b59f59db195dfffc8c514027d29ad",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260816175817",
+      "name": "calculadoras_smart_priority_official_source_resolution",
+      "statements_count": 1,
+      "statements_bytes": 6910,
+      "statements_md5": "9abb09842dd2181d934c748cb2c396f0",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260816175904",
+      "name": "enable_pg_net_for_internal_function_tests",
+      "statements_count": 1,
+      "statements_bytes": 38,
+      "statements_md5": "c61770d4c5b52f3d689a25fe15aaea67",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260816175939",
+      "name": "record_deepseek_secret_configuration_finding",
+      "statements_count": 1,
+      "statements_bytes": 1925,
+      "statements_md5": "4875eb33c13965108e631167d67c87c4",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260816180050",
+      "name": "persist_first_official_cofen_snapshots_fixed",
+      "statements_count": 1,
+      "statements_bytes": 2274,
+      "statements_md5": "466fadb6530674a9f28c9051380a433a",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260816180248",
+      "name": "persist_senado_official_fallback_snapshots",
+      "statements_count": 1,
+      "statements_bytes": 4564,
+      "statements_md5": "649eb0858d2f9dfd2e950fad0be0641d",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260816180440",
+      "name": "materialize_priority_regulatory_candidates_and_relations",
+      "statements_count": 1,
+      "statements_bytes": 9649,
+      "statements_md5": "7e214254077ff0b4b0c5421c1cfe633f",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260816180724",
+      "name": "register_legacy_inventory_manifests",
+      "statements_count": 1,
+      "statements_bytes": 6388,
+      "statements_md5": "3d016650a02f6ac79c6082d2b6843d41",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260816180922",
+      "name": "harden_preexisting_rls_auto_enable",
+      "statements_count": 1,
+      "statements_bytes": 145,
+      "statements_md5": "f150c8eb87e752469f4dad0975cedda3",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260816181011",
+      "name": "wave1_foreign_key_indexes",
+      "statements_count": 1,
+      "statements_bytes": 3339,
+      "statements_md5": "14b71a52f1d83376d1c0c7253050dc98",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260816181032",
+      "name": "wave1_master_inventory_and_validators",
+      "statements_count": 1,
+      "statements_bytes": 5074,
+      "statements_md5": "a5dfd475d2bc9719cc3d94da625d2cc4",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260816181124",
+      "name": "materialize_reg07_reg10_reg13",
+      "statements_count": 1,
+      "statements_bytes": 6800,
+      "statements_md5": "c78df97000ccc4eaf2b6b741c632b143",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260816182644",
+      "name": "create_exam_ingestion_registry",
+      "statements_count": 1,
+      "statements_bytes": 9488,
+      "statements_md5": "4c47c80ebdfd0d311c6d0d236d374853",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260816182733",
+      "name": "fix_exam_source_metadata_hash",
+      "statements_count": 1,
+      "statements_bytes": 1999,
+      "statements_md5": "e2b63298004909590aaa340b7a3a1485",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260816183100",
+      "name": "add_exam_json_validators",
+      "statements_count": 1,
+      "statements_bytes": 4000,
+      "statements_md5": "bbabeb67ba8918a1d629677bb5a9ac6a",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260816183123",
+      "name": "fix_exam_json_validator_ambiguity",
+      "statements_count": 1,
+      "statements_bytes": 3920,
+      "statements_md5": "199d303d0b13b6f1702dfbb8e33c3a11",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260816183641",
+      "name": "role_aware_exam_ingestion_validators",
+      "statements_count": 1,
+      "statements_bytes": 8922,
+      "statements_md5": "6bba93e03119fdd802007bb6ceb6a5a1",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260816183709",
+      "name": "fix_ingest_run_open_findings_summary",
+      "statements_count": 1,
+      "statements_bytes": 1029,
+      "statements_md5": "69cdaf104f597c9ab8290720c622f42a",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260816183740",
+      "name": "create_exam_remediation_queue",
+      "statements_count": 1,
+      "statements_bytes": 4039,
+      "statements_md5": "8c71223928924ad797a0612bfb45a6e6",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260816183902",
+      "name": "validate_exam_document_sets_and_gate_promotion",
+      "statements_count": 1,
+      "statements_bytes": 5432,
+      "statements_md5": "f9e00b9fd13f62d095b3fd9ad39fa8a3",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260816183920",
+      "name": "fix_question_promotion_runtime",
+      "statements_count": 1,
+      "statements_bytes": 2693,
+      "statements_md5": "ebd0062abbcdbe65c58df05d92cbe716",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260816184105",
+      "name": "harden_and_index_exam_ingestion",
+      "statements_count": 1,
+      "statements_bytes": 1767,
+      "statements_md5": "8fe73c4a4d7f2f679bcdc8826389cd80",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260816195324",
+      "name": "access_discovery_control_plane_v1",
+      "statements_count": 1,
+      "statements_bytes": 7336,
+      "statements_md5": "05044e3ea0d88408cbe29e8463f70208",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260821063543",
+      "name": "admin_control_plane_realtime_crud_versioning_v1",
+      "statements_count": 1,
+      "statements_bytes": 21737,
+      "statements_md5": "86b59dbd4f2c335ca9d771ab0ed45baf",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260821063626",
+      "name": "admin_control_plane_harden_function_privileges_v1",
+      "statements_count": 1,
+      "statements_bytes": 1542,
+      "statements_md5": "91d7212aa79c605cbb5c8dd86252afd3",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260821214206",
+      "name": "regulatory_federal_api_foundation_v0265",
+      "statements_count": 1,
+      "statements_bytes": 3843,
+      "statements_md5": "0d01f9774a8aa154317ecb6881a4ff24",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260821214412",
+      "name": "regulatory_evidence_guard_search_path_v0265",
+      "statements_count": 1,
+      "statements_bytes": 89,
+      "statements_md5": "e6a55598c30080277269bdc1c8642952",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260821215204",
+      "name": "regulatory_normas_leg_api_roles_v0265",
+      "statements_count": 1,
+      "statements_bytes": 368,
+      "statements_md5": "6a2aedca62df7f05f99c7fb6038d971c",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260821215259",
+      "name": "regulatory_evidence_instrument_index_v0265",
+      "statements_count": 1,
+      "statements_bytes": 134,
+      "statements_md5": "3bf730ae32aaf578df4c52c015ae8404",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260821230201",
+      "name": "cko_regulatory_daily_monitor_enqueue_v0268",
+      "statements_count": 1,
+      "statements_bytes": 1802,
+      "statements_md5": "2828ff10f95a0bc2af0e8c81af509cf0",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260821233746",
+      "name": "regulatory_monitor_processor_contracts",
+      "statements_count": 1,
+      "statements_bytes": 9207,
+      "statements_md5": "be0a9804907756796736b8e02aa3692d",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260821235652",
+      "name": "align_regulatory_monitor_with_normative_extraction_mask",
+      "statements_count": 1,
+      "statements_bytes": 11931,
+      "statements_md5": "0064ed71e132b7bcf778c66438640975",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822000524",
+      "name": "cko_governed_version_audit_knowledge_foundation_v0270",
+      "statements_count": 1,
+      "statements_bytes": 9657,
+      "statements_md5": "20f3f2333e215064b0c2aeeee579e936",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822000626",
+      "name": "cko_seed_audit_ipe_tests_and_version_baseline_v0270",
+      "statements_count": 1,
+      "statements_bytes": 14350,
+      "statements_md5": "79ba33a2ca1d8d3afb6fde21363ed752",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822000709",
+      "name": "cko_register_controlled_artifacts_and_versions_v0270",
+      "statements_count": 1,
+      "statements_bytes": 15242,
+      "statements_md5": "caed86e35055b1c0feecd2eba8ae0b80",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822000825",
+      "name": "cko_execution_coverage_and_ai_knowledge_refresh_v0270",
+      "statements_count": 1,
+      "statements_bytes": 16226,
+      "statements_md5": "ad450698ed2e479ceb5d9c7e614ec666",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822000932",
+      "name": "cko_caat_ipe_reperformance_execution_v0270",
+      "statements_count": 1,
+      "statements_bytes": 18572,
+      "statements_md5": "715d7bf99921dec74ca3df9474ce88a2",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822000959",
+      "name": "cko_fix_pgcrypto_search_path_v0270",
+      "statements_count": 1,
+      "statements_bytes": 687,
+      "statements_md5": "d415fec5442883648132f8f4f19c650d",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822001140",
+      "name": "cko_fix_object_version_class_identity_v0270",
+      "statements_count": 1,
+      "statements_bytes": 17029,
+      "statements_md5": "092b7cd17cf59eeef1719853efb5c29b",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822001523",
+      "name": "cko_validator_execution_and_reperformance_context_v0270",
+      "statements_count": 1,
+      "statements_bytes": 18506,
+      "statements_md5": "e3c4ef0cb84862683712d76451e75bc0",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822001623",
+      "name": "cko_validator_dispatcher_v3_v0270",
+      "statements_count": 1,
+      "statements_bytes": 10145,
+      "statements_md5": "976e0f96e1423c1f397a5b79f634da89",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822001744",
+      "name": "cko_master_policy_normative_binding_coverage_v0270",
+      "statements_count": 1,
+      "statements_bytes": 9041,
+      "statements_md5": "52ebcb374ef08d12f628fe71054cffe0",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822001827",
+      "name": "cko_reg14_reg15_normative_catalog_v0270",
+      "statements_count": 1,
+      "statements_bytes": 9290,
+      "statements_md5": "84138a9fdaab06ac0069af781a144881",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822001954",
+      "name": "cko_complete_fail_closed_executor_logic_v0270",
+      "statements_count": 1,
+      "statements_bytes": 9702,
+      "statements_md5": "10389340aed6bccf9c48b2ea2ad0fe28",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822002048",
+      "name": "cko_reperformance_levels_and_no_empty_population_pass_v0270",
+      "statements_count": 1,
+      "statements_bytes": 8772,
+      "statements_md5": "34cb95abb8040bdcba4bff8e965d7e62",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822002204",
+      "name": "cko_ai_prompt002_context_binding_v0270",
+      "statements_count": 1,
+      "statements_bytes": 5835,
+      "statements_md5": "b7d6938acc4dd00b2e39d17b72f1ebb3",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822002245",
+      "name": "cko_ai_context_slice_master_refresh_v0270",
+      "statements_count": 1,
+      "statements_bytes": 7460,
+      "statements_md5": "3664a4ddb3f866f14b8ae991d2049ca6",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822002302",
+      "name": "cko_ai_reference_validation_rpc_v0270",
+      "statements_count": 1,
+      "statements_bytes": 419,
+      "statements_md5": "bcc0dab557adcff38ae86dad72aa2637",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822002348",
+      "name": "cko_refresh_normative_bindings_execution_context_v0270",
+      "statements_count": 1,
+      "statements_bytes": 3291,
+      "statements_md5": "75b92e8ed4c43c7882ddccd5cb6d77c5",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822002417",
+      "name": "cko_fix_ai_context_pgcrypto_path_v0270",
+      "statements_count": 1,
+      "statements_bytes": 322,
+      "statements_md5": "39d6ddc27c54ee6f78d3f7a0de1b1860",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822003218",
+      "name": "cko_security_and_fk_indexes_v0270",
+      "statements_count": 1,
+      "statements_bytes": 3344,
+      "statements_md5": "0699cf59c9f5598b1c911d353115620d",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822003323",
+      "name": "cko_l2_evidence_replay_v0270",
+      "statements_count": 1,
+      "statements_bytes": 19815,
+      "statements_md5": "380cc5283583431beb83e5e735e0d96d",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822003421",
+      "name": "cko_l3_master_regulatory_reperformance_v0270",
+      "statements_count": 1,
+      "statements_bytes": 4441,
+      "statements_md5": "a7c083f5e82d4f977503e18579e7006b",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822003631",
+      "name": "cko_assurance_checkpoint_v0270",
+      "statements_count": 1,
+      "statements_bytes": 12422,
+      "statements_md5": "391c38ce4dc6fa99d14bcd25c74a5c7b",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822003946",
+      "name": "cko_qualify_seven_regulatory_statuses_v0270",
+      "statements_count": 1,
+      "statements_bytes": 3878,
+      "statements_md5": "b21d308365e1044e7090d29586220d22",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822004019",
+      "name": "cko_finalize_checkpoint_after_legal_status_v0270",
+      "statements_count": 1,
+      "statements_bytes": 4452,
+      "statements_md5": "3ae8b2316aec83029cb0176c947ea038",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822013136",
+      "name": "cko_framework_layer_registry_v0284",
+      "statements_count": 1,
+      "statements_bytes": 14215,
+      "statements_md5": "b83d95ee920d854d016c68d7f7214f63",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822013208",
+      "name": "cko_framework_normative_catalog_v0284",
+      "statements_count": 1,
+      "statements_bytes": 9064,
+      "statements_md5": "de084529b5ad674b5407a485adb51c04",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822013248",
+      "name": "cko_framework_layer_inverse_lineage_v0284",
+      "statements_count": 1,
+      "statements_bytes": 965,
+      "statements_md5": "d5a744f310033f9448648a39705a6472",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822014043",
+      "name": "cko_sequential_layer_pipeline_and_uuidv7_v0285",
+      "statements_count": 1,
+      "statements_bytes": 20311,
+      "statements_md5": "3c06ca525194bbb78042aa91350b3e49",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822015241",
+      "name": "cko_md_first_layer_multidimensional_audit_v0286",
+      "statements_count": 1,
+      "statements_bytes": 28934,
+      "statements_md5": "917539ca3a906ab1a15054699ea1809c",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822015339",
+      "name": "cko_layer_pipeline_root_semantics_fix_v0286",
+      "statements_count": 1,
+      "statements_bytes": 1458,
+      "statements_md5": "a56fd583729a8edf49383ec962f7761d",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822053510",
+      "name": "cko_md_field_normative_binding_v0290",
+      "statements_count": 1,
+      "statements_bytes": 3459,
+      "statements_md5": "881aac9a6131536289c2588251203540",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822053630",
+      "name": "cko_md_field_normative_gate_strengthening_v0290b",
+      "statements_count": 1,
+      "statements_bytes": 2291,
+      "statements_md5": "0cc322f25eef0a85bbac56062044a855",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822080315",
+      "name": "cko_platform_capability_registry_crosswalk_v0300",
+      "statements_count": 1,
+      "statements_bytes": 39364,
+      "statements_md5": "eafcfc2b4a1eabfc6c9433dc5ef4d1b6",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822080502",
+      "name": "cko_platform_capability_crosswalk_source_alignment_v0300b",
+      "statements_count": 1,
+      "statements_bytes": 1964,
+      "statements_md5": "434f094398d92a4d94fb6890a9026521",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822080941",
+      "name": "cko_recover_insulin_regulatory_pilot_baseline_v0301",
+      "statements_count": 1,
+      "statements_bytes": 1098,
+      "statements_md5": "ffd456bd20b175e7d4f3d351e23ba49e",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822084950",
+      "name": "cko_emergency_data_change_blocker_v0302",
+      "statements_count": 1,
+      "statements_bytes": 12975,
+      "statements_md5": "b1b5fbb7241b04a37a095c5545a14b4a",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822085037",
+      "name": "cko_emergency_ddl_change_blocker_v0302b",
+      "statements_count": 1,
+      "statements_bytes": 1790,
+      "statements_md5": "6d3ebf4ad733d28814b3658bdf9887b2",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822085540",
+      "name": "cko_coso_cobit_control_framework_catalog_v0303",
+      "statements_count": 1,
+      "statements_bytes": 20053,
+      "statements_md5": "f9682ce133214f18a5c0806917b8dc4f",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822085953",
+      "name": "cko_agent_job_architecture_and_provider_entitlements_v0304",
+      "statements_count": 1,
+      "statements_bytes": 30912,
+      "statements_md5": "c6660f6a7b3addb304304b99943bfd21",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822090143",
+      "name": "cko_agent_selection_competency_learning_v0305",
+      "statements_count": 1,
+      "statements_bytes": 23658,
+      "statements_md5": "3a771f6dcf8ae86719af43cdec1cce73",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822090304",
+      "name": "cko_control_framework_operational_mapping_v0306",
+      "statements_count": 1,
+      "statements_bytes": 10647,
+      "statements_md5": "e984517b6c789e8889e018458e1a62e9",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822090602",
+      "name": "cko_capetinha_continuous_assurance_core_v0307a",
+      "statements_count": 1,
+      "statements_bytes": 23419,
+      "statements_md5": "d3edb1c9fb789621c57e54ac95b1ce3c",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822090649",
+      "name": "cko_capetinha_learning_gate_and_scheduler_v0307b",
+      "statements_count": 1,
+      "statements_bytes": 4093,
+      "statements_md5": "b9504371fab6e9b586ae48fda0bbbd86",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822092142",
+      "name": "cko_explicit_layer_dependency_dag_v0308",
+      "statements_count": 1,
+      "statements_bytes": 9332,
+      "statements_md5": "d293d920fb971aa97c68928df9a9993c",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822092342",
+      "name": "cko_bibliographic_core_materialization_v0309",
+      "statements_count": 1,
+      "statements_bytes": 10453,
+      "statements_md5": "5d8d8cea76f8ddb6a055e8697d34a0a4",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822092658",
+      "name": "cko_pilot_insulina_supersession_recovery_v0310",
+      "statements_count": 1,
+      "statements_bytes": 10052,
+      "statements_md5": "8e2b236101330210f46026dc61432894",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822093103",
+      "name": "cko_pilot_historical_version_and_adversarial_rule_fix_v0311",
+      "statements_count": 1,
+      "statements_bytes": 2513,
+      "statements_md5": "a915011178cc8c993a7753bf06728eab",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822093344",
+      "name": "cko_publication_universe_recovery_and_fail_closed_validator_v0312",
+      "statements_count": 1,
+      "statements_bytes": 9917,
+      "statements_md5": "3b76d670035b918c9b54edeb6890ed55",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822093816",
+      "name": "cko_emergency_ledger_search_path_hardening_v0313",
+      "statements_count": 1,
+      "statements_bytes": 349,
+      "statements_md5": "6b23b9688c96e287596898641804322e",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822094100",
+      "name": "cko_md_scoped_hold_gate_and_audit8l_v2_v0314",
+      "statements_count": 1,
+      "statements_bytes": 18721,
+      "statements_md5": "eb8b1ed6a434b58cb9548acb6075a8fb",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822094305",
+      "name": "cko_core_ipe_carr_v3_release_separation_v0315",
+      "statements_count": 1,
+      "statements_bytes": 2899,
+      "statements_md5": "220606253d058febb7a4259896d3d4ad",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822110821",
+      "name": "cko_recover_lost_regulatory_migrations_v0316",
+      "statements_count": 1,
+      "statements_bytes": 44711,
+      "statements_md5": "620dc2bfc1216ed0182d41de8bf1ee8f",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822111026",
+      "name": "cko_repair_recovered_regulatory_hashes_v0317",
+      "statements_count": 1,
+      "statements_bytes": 872,
+      "statements_md5": "8075706f7b4e1dbe878e5ab5b7d0fd22",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822113833",
+      "name": "cko_publication_rights_status_fail_closed_v0318",
+      "statements_count": 1,
+      "statements_bytes": 2891,
+      "statements_md5": "46f6771c8d85e6a5711ae24a9af04f8f",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822131958",
+      "name": "cko_publishing_metadata_analytics_runtime_v0310",
+      "statements_count": 1,
+      "statements_bytes": 39084,
+      "statements_md5": "0146109e4b53a2f736d3a278ad63ded3",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822132157",
+      "name": "cko_publishing_metadata_framework_alignment_v0310b",
+      "statements_count": 1,
+      "statements_bytes": 2554,
+      "statements_md5": "60bbb22b44f997299c28123caa383995",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822134835",
+      "name": "cko_social_card_metadata_profile_v0319",
+      "statements_count": 1,
+      "statements_bytes": 31355,
+      "statements_md5": "07823bec43598f4a53daf35a62160a0b",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260822141856",
+      "name": "cko_schema_ui_governance_release_alignment_v0319",
+      "statements_count": 1,
+      "statements_bytes": 9952,
+      "statements_md5": "06985aad9bc0a4af870e2d7169290f3a",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260824133159",
+      "name": "add_architecture_21_layer_catalog",
+      "statements_count": 1,
+      "statements_bytes": 2159,
+      "statements_md5": "ea6f79319373111d8128693e479714cf",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260824215809",
+      "name": "cko_recovery_assurance_views_v1",
+      "statements_count": 1,
+      "statements_bytes": 9331,
+      "statements_md5": "7784ac3004881b023b87b5ed04560e0a",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260824234302",
+      "name": "add_compute_coverage_v3_declared_universe_scope_authorized",
+      "statements_count": 1,
+      "statements_bytes": 4771,
+      "statements_md5": "ee9dcdcd8c0a6b519a1b7ce2d59978bb",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260825024305",
+      "name": "wave1_rights_validator_v4_successors",
+      "statements_count": 1,
+      "statements_bytes": 6480,
+      "statements_md5": "d865891e9e8b94d7b24abdc802c2c270",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260825024533",
+      "name": "wave1_l2_reperformance_v2_successors",
+      "statements_count": 1,
+      "statements_bytes": 8676,
+      "statements_md5": "2e4671ebedeb20e5d5665c81f3bd592b",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260826054505",
+      "name": "vdc_ai_template_registry_v1",
+      "statements_count": 1,
+      "statements_bytes": 8824,
+      "statements_md5": "ac3dd991c540eaa39e66852cee20cfe3",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260826054538",
+      "name": "vdc_ai_agent_rpc_v1",
+      "statements_count": 1,
+      "statements_bytes": 4925,
+      "statements_md5": "81723dbcf21a34bbb8310ed27128735e",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260826055646",
+      "name": "vdc_ai_registry_permissions_hardening_v1",
+      "statements_count": 1,
+      "statements_bytes": 593,
+      "statements_md5": "b781aca440ddda8f1e5263a4f5f1e589",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260826073246",
+      "name": "vdc_ai_studio_v2_core",
+      "statements_count": 1,
+      "statements_bytes": 7076,
+      "statements_md5": "95d9b4fb67995fbb0df7c098c0a02a19",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260826073516",
+      "name": "vdc_ai_studio_v2_governed_registry_fix",
+      "statements_count": 1,
+      "statements_bytes": 17597,
+      "statements_md5": "af8b2e52333444f602b6c0aacc68401a",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260826073628",
+      "name": "vdc_ai_studio_v2_engines_functions",
+      "statements_count": 1,
+      "statements_bytes": 14791,
+      "statements_md5": "b48cec19a46c5ba98f62c533c1d36023",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260826073702",
+      "name": "vdc_ai_studio_v2_executor_bindings",
+      "statements_count": 1,
+      "statements_bytes": 4456,
+      "statements_md5": "a4bc271b96f073faaddf1f9340e6c667",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260826073915",
+      "name": "vdc_ai_studio_v2_demo_master_assets",
+      "statements_count": 1,
+      "statements_bytes": 16592,
+      "statements_md5": "afef2b9e3728e4005dcecc9bc8a1d4ff",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260826074009",
+      "name": "vdc_ai_studio_v2_seed32_and_golden_gate",
+      "statements_count": 1,
+      "statements_bytes": 6095,
+      "statements_md5": "5297ae39176469357e9ab9086acba20f",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260826074905",
+      "name": "vdc_ai_studio_v2_prompts_antihallucination",
+      "statements_count": 1,
+      "statements_bytes": 5866,
+      "statements_md5": "a9efeff9cdc4319d9a1c1619a74096ec",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260828010406",
+      "name": "vdc_creative_studio_v3_foundation",
+      "statements_count": 1,
+      "statements_bytes": 12233,
+      "statements_md5": "7350a9c6034403fc26ee6eb809270d0c",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260828010431",
+      "name": "vdc_product_version_freeze_v2_open_v3_alpha",
+      "statements_count": 1,
+      "statements_bytes": 3384,
+      "statements_md5": "67a966c1c23b6f2a9404e882711a0587",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260828010517",
+      "name": "cko_regulatory_vdc_world_handoff_v3_retry",
+      "statements_count": 1,
+      "statements_bytes": 1051,
+      "statements_md5": "d805f56439daa33a90f6bea08c4b8370",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260828011045",
+      "name": "vdc3_world_segment_runtime_functions",
+      "statements_count": 1,
+      "statements_bytes": 16180,
+      "statements_md5": "9a5e974abf41034a6dfc64edba9ceae0",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260828015219",
+      "name": "vdc_vrf_bits32_benchmark_alpha2",
+      "statements_count": 1,
+      "statements_bytes": 8312,
+      "statements_md5": "86b1d203e53dddcdff401537e1b39b76",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260828015317",
+      "name": "vdc_vrf_catalog_alpha2",
+      "statements_count": 1,
+      "statements_bytes": 12325,
+      "statements_md5": "6873ed098e334e2eedc7d7063cdf342c",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260828015421",
+      "name": "vdc_world_family_relations_bits32_queue_alpha2",
+      "statements_count": 1,
+      "statements_bytes": 2090,
+      "statements_md5": "c35bf991c68d91fa6d7b3c50f3997658",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260828015657",
+      "name": "vdc_bits32_validation_functions_alpha2",
+      "statements_count": 1,
+      "statements_bytes": 3950,
+      "statements_md5": "0551fc48f6d44a2eb7275314e570367a",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260828015728",
+      "name": "vdc_vrf_strategy_status_functions_alpha2",
+      "statements_count": 1,
+      "statements_bytes": 3157,
+      "statements_md5": "0616e2a15dfbc519b41cc2c3427f50c4",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260828022100",
+      "name": "vdc_alpha4_source_alpha_mask_method",
+      "statements_count": 1,
+      "statements_bytes": 298,
+      "statements_md5": "5eb3aa868ff61adc765c6ffb7921edc7",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260828022326",
+      "name": "vdc_alpha4_character_decomposition_validator",
+      "statements_count": 1,
+      "statements_bytes": 3254,
+      "statements_md5": "586ee3e942e17b808dab9e37e59742c3",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260828023156",
+      "name": "vdc_alpha5_semantic_parts_bits32_observations",
+      "statements_count": 1,
+      "statements_bytes": 8477,
+      "statements_md5": "5a5ade539b9c36ebebb9b45555c67fd9",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260828025028",
+      "name": "vdc_alpha7_expand_mask_methods",
+      "statements_count": 1,
+      "statements_bytes": 357,
+      "statements_md5": "b66f7642e7adf1d20e4c74d1dc0a6b70",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260828052052",
+      "name": "cko_orchestrator_control_plane_v1",
+      "statements_count": 1,
+      "statements_bytes": 34205,
+      "statements_md5": "1b9aca4240dc4ca8a8018328ffaac74b",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260828052118",
+      "name": "cko_orchestrator_initial_state_hardening_v1_0_1",
+      "statements_count": 1,
+      "statements_bytes": 1397,
+      "statements_md5": "4f2cc38638662f427b9fa04212aab52a",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260828052138",
+      "name": "cko_orchestrator_lock_state_rules_v1_0_2",
+      "statements_count": 1,
+      "statements_bytes": 3660,
+      "statements_md5": "b0031445518f02c8e09ffea04cdb916c",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260828052348",
+      "name": "cko_orchestrator_fk_indexes_v1_0_3",
+      "statements_count": 1,
+      "statements_bytes": 867,
+      "statements_md5": "b47b73994bbb9f8bc3269a470a94af56",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260828053121",
+      "name": "cko_orchestrator_p0_controls_v1",
+      "statements_count": 1,
+      "statements_bytes": 37911,
+      "statements_md5": "f83aa4edc7bf063b38b4efde22781e88",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260828053226",
+      "name": "cko_orchestrator_native_governance_observability_v1",
+      "statements_count": 1,
+      "statements_bytes": 19634,
+      "statements_md5": "1261a8532cba428c666eaf5aad8d728f",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260828053352",
+      "name": "cko_orchestrator_assurance_benchmark_artifacts_v1",
+      "statements_count": 1,
+      "statements_bytes": 17223,
+      "statements_md5": "c1340ffd252aea874bba83f073485c43",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260828053434",
+      "name": "cko_orchestrator_hold_uniqueness_fix_v1",
+      "statements_count": 1,
+      "statements_bytes": 3917,
+      "statements_md5": "a7aad223fd6325b38f96b7cc66b339c4",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260828053627",
+      "name": "cko_deterministic_geometry_render_control_v1",
+      "statements_count": 1,
+      "statements_bytes": 15303,
+      "statements_md5": "d2977474b4af68a4bc4d2b105abdb338",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260828054712",
+      "name": "cko_device_domain_v1",
+      "statements_count": 1,
+      "statements_bytes": 17368,
+      "statements_md5": "035bd7ee655077dd1bfa3a956ce11bf6",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260828054743",
+      "name": "cko_orchestrator_evidence_resolution_and_commit_v1",
+      "statements_count": 1,
+      "statements_bytes": 9737,
+      "statements_md5": "32afeff6eceb6e40977b312bb488c54b",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260828061416",
+      "name": "cko_device_visual_evidence_identity_gate_v1",
+      "statements_count": 1,
+      "statements_bytes": 5012,
+      "statements_md5": "e7c31036a65fd6b0a717824a7fa02180",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260828062101",
+      "name": "cko_geometry_evidence_gate_hardening_v1",
+      "statements_count": 1,
+      "statements_bytes": 11024,
+      "statements_md5": "b9936172a246b241ba767edfeda59a27",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260828062159",
+      "name": "cko_evidence_reference_registry_device_extension_v1",
+      "statements_count": 1,
+      "statements_bytes": 1823,
+      "statements_md5": "01998213223a5b22b13fae02d53870dc",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260828063237",
+      "name": "cko_geometry_readiness_cohort_scope_hardening_v2",
+      "statements_count": 1,
+      "statements_bytes": 5829,
+      "statements_md5": "4af1d11378596d115419f41c36c5f34c",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260828063951",
+      "name": "cko_regulatory_scope_anti_conflation_v1",
+      "statements_count": 1,
+      "statements_bytes": 10267,
+      "statements_md5": "eda7b9dc29e23e94c77876cb8edb8b85",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260828064258",
+      "name": "cko_lock_reperformance_lifecycle_v1",
+      "statements_count": 1,
+      "statements_bytes": 6749,
+      "statements_md5": "12bb4a9668fa5a902616c487f5a4f5bd",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260828070245",
+      "name": "cko_adversarial_runner_regulatory_scope_v1_2_0_retry",
+      "statements_count": 1,
+      "statements_bytes": 3242,
+      "statements_md5": "0ce574ec1d6a6f85d590531f15938af7",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260828071812",
+      "name": "cko_device_universal_object_documentation_v1",
+      "statements_count": 1,
+      "statements_bytes": 6785,
+      "statements_md5": "8a37ba7494afa6995d8717c54bd8ab51",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260828072337",
+      "name": "cko_device_object_readiness_engine_v1",
+      "statements_count": 1,
+      "statements_bytes": 9565,
+      "statements_md5": "b54494701ba1688eb3f46c2770cae40e",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260828074810",
+      "name": "cko_device_object_standards_v1",
+      "statements_count": 1,
+      "statements_bytes": 1187,
+      "statements_md5": "170482b9835d1a0ab8776283b1c0f609",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260828090214",
+      "name": "cko_api_identity_quorum_v1",
+      "statements_count": 1,
+      "statements_bytes": 8443,
+      "statements_md5": "440e00886cc1387eb66576c0e40bb4ef",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260828090700",
+      "name": "create_technical_object_governance_core",
+      "statements_count": 1,
+      "statements_bytes": 4299,
+      "statements_md5": "445f57f3fe68bb4aa83d62161ba8df3c",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260831001632",
+      "name": "create_md_tool_field_contract_v2_candidate",
+      "statements_count": 1,
+      "statements_bytes": 3717,
+      "statements_md5": "b80452cc03add6e6e87ff87fd6e7ddcd",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260831134429",
+      "name": "md_e2e_binding_gate_v2_candidate",
+      "statements_count": 1,
+      "statements_bytes": 2257,
+      "statements_md5": "55b395152ca4e798b26ebd46adec7514",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260831134744",
+      "name": "md_tool_universe_crosswalk_v2_candidate",
+      "statements_count": 1,
+      "statements_bytes": 544,
+      "statements_md5": "bf314f8970b9513175cb909b02b16202",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260901225907",
+      "name": "md_horizontal_tool_layer_universe_candidate",
+      "statements_count": 1,
+      "statements_bytes": 3422,
+      "statements_md5": "ec4cf11f5d1a25b754989b1232ed663e",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260902165310",
+      "name": "b1_execution_binding_schema_v1_candidate",
+      "statements_count": 1,
+      "statements_bytes": 2293,
+      "statements_md5": "f510caac1afefe9fa1c6c93077aad4b5",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260902165800",
+      "name": "b1_engine_validator_renderer_runtime_v1",
+      "statements_count": 1,
+      "statements_bytes": 13491,
+      "statements_md5": "2035d6020256dee9db5254227d1507c1",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260902165839",
+      "name": "b1_engine_digest_fix_v1",
+      "statements_count": 1,
+      "statements_bytes": 4494,
+      "statements_md5": "4650c6c6958c480cc7c39738abee84c0",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260902170221",
+      "name": "b1_relation_scope_registry_v1_candidate",
+      "statements_count": 1,
+      "statements_bytes": 444,
+      "statements_md5": "d9876589feef86152d6f55ce954fe1e3",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260902170418",
+      "name": "b1_material_finding_learning_status_coverage_v2",
+      "statements_count": 1,
+      "statements_bytes": 3783,
+      "statements_md5": "2dc29c74cd840045afb74cad866c2756",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260902170535",
+      "name": "b1_validator_full_relation_scope_v2",
+      "statements_count": 1,
+      "statements_bytes": 9758,
+      "statements_md5": "808341f485f59ac5a0afed8ef5fa1e38",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260902170934",
+      "name": "b1_internal_agent_inbox_v1_candidate",
+      "statements_count": 1,
+      "statements_bytes": 1363,
+      "statements_md5": "0d6f744d0256f6497b41b952a26d1441",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260902171229",
+      "name": "b1_validator_communication_crosslayer_v3",
+      "statements_count": 1,
+      "statements_bytes": 12779,
+      "statements_md5": "f53f89d312bc3968e5dae978f7b0f9a5",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260902173146",
+      "name": "b1_preserve_scoped_capetinha_state_v2",
+      "statements_count": 1,
+      "statements_bytes": 1143,
+      "statements_md5": "8d070ac31899342fbc511210f0046d20",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260902175637",
+      "name": "b2_source_library_candidate_schemas",
+      "statements_count": 1,
+      "statements_bytes": 2017,
+      "statements_md5": "8d3a0bf570d624452831f2ffc4563cb9",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260902175823",
+      "name": "b2_source_fanin_add_validation_and_use_policy",
+      "statements_count": 1,
+      "statements_bytes": 482,
+      "statements_md5": "712e66126f94009d3c7d87ac0ab3dd4e",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260902180100",
+      "name": "b2_source_library_classification_engine",
+      "statements_count": 1,
+      "statements_bytes": 11560,
+      "statements_md5": "dfb7293445521cf58832e8bc278c2d78",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260902180308",
+      "name": "b2_source_library_validator",
+      "statements_count": 1,
+      "statements_bytes": 7591,
+      "statements_md5": "02b721e32a6cca6b6b6b529b22c75e82",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260902180632",
+      "name": "b2_validator_cross_layer_learning_extension",
+      "statements_count": 1,
+      "statements_bytes": 10046,
+      "statements_md5": "ffdeb93bfe6a76e297d9d60283301430",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260902180908",
+      "name": "b2_source_library_renderer_runtime",
+      "statements_count": 1,
+      "statements_bytes": 8516,
+      "statements_md5": "773e6ab1c1b82f9f62d7808718c4316c",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260902182552",
+      "name": "b3_canonical_object_crosswalk_v1",
+      "statements_count": 1,
+      "statements_bytes": 1649,
+      "statements_md5": "df911620c26f38cfa54168c5520c9134",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260902183001",
+      "name": "b3_object_engine_validator_renderer_runtime_v1",
+      "statements_count": 1,
+      "statements_bytes": 14451,
+      "statements_md5": "ab88fbded57fcc417ba118be761202b5",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260902183229",
+      "name": "b3_learning_gate_renderer_v1",
+      "statements_count": 1,
+      "statements_bytes": 4528,
+      "statements_md5": "244631c453fe93de2cc70c698d5c2a59",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260902183442",
+      "name": "b3_dynamic_learning_gate_v1",
+      "statements_count": 1,
+      "statements_bytes": 1260,
+      "statements_md5": "8373502d0c1d424fc643b6e83d4b62f8",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260902185242",
+      "name": "b4_e2e_binding_registry_v1",
+      "statements_count": 1,
+      "statements_bytes": 1948,
+      "statements_md5": "90b198ccec2e0c6b53dd44d57ae0fede",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260902190050",
+      "name": "b4_e2e_engine_validator_renderer_runtime_v1",
+      "statements_count": 1,
+      "statements_bytes": 13739,
+      "statements_md5": "f03d7e95797209a2eae685cb76fd466f",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260902190947",
+      "name": "b5_digital_twin_state_schema_v1",
+      "statements_count": 1,
+      "statements_bytes": 1708,
+      "statements_md5": "09a6ce4207d1636faa548cdf09aed698",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260902212053",
+      "name": "b5_digital_twin_runtime_controls_v1",
+      "statements_count": 1,
+      "statements_bytes": 9785,
+      "statements_md5": "0e0edb46eaca726f9e66605e9b13339d",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260902212944",
+      "name": "b6_clinical_train_registry_v1",
+      "statements_count": 1,
+      "statements_bytes": 1876,
+      "statements_md5": "ac07b19ac8e633c9247dec2ac4a5955c",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260902213754",
+      "name": "b6_clinical_train_runtime_controls",
+      "statements_count": 1,
+      "statements_bytes": 11634,
+      "statements_md5": "85495ed32b9709cfb32a9e5ecc5b9a3e",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260902215120",
+      "name": "b6k_knowledge_library_candidate_schema",
+      "statements_count": 1,
+      "statements_bytes": 2397,
+      "statements_md5": "2a7fe3613438985e9c95d6302c83e350",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260902220327",
+      "name": "b6k_internal_closure_runtime",
+      "statements_count": 1,
+      "statements_bytes": 5389,
+      "statements_md5": "23476808371ad5fc11c3acae6824d22c",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260902221224",
+      "name": "b6e_internal_closure_runtime",
+      "statements_count": 1,
+      "statements_bytes": 5051,
+      "statements_md5": "ccfe17816c4d8d463810a3cb0d253061",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260902221703",
+      "name": "b6l_internal_closure_runtime",
+      "statements_count": 1,
+      "statements_bytes": 6357,
+      "statements_md5": "5ee6380b375af302afcdd01a77316a77",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260902222301",
+      "name": "b7_learning_recertification_runtime",
+      "statements_count": 1,
+      "statements_bytes": 5468,
+      "statements_md5": "1a7ba1001c605161ae5b98ae5bd0f4d3",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260902222940",
+      "name": "b8_runtime_assurance_execution",
+      "statements_count": 1,
+      "statements_bytes": 5034,
+      "statements_md5": "e6a46c459957d3883b2e7d7a638aec9b",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260902223318",
+      "name": "b9_release_fanin_execution",
+      "statements_count": 1,
+      "statements_bytes": 4914,
+      "statements_md5": "c484cd6657fbd9333d52b22a9a4bf5af",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260902223912",
+      "name": "b10_cognitive_runtime_formalization",
+      "statements_count": 1,
+      "statements_bytes": 7234,
+      "statements_md5": "d352693445ef33a13cfaa817f69c9c6a",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260903040052",
+      "name": "cfc_internal_library_service_projection",
+      "statements_count": 1,
+      "statements_bytes": 905,
+      "statements_md5": "1e220450f5f100354bdfc27e4c28affa",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260903042141",
+      "name": "cfc_internal_normative_extractions_v1",
+      "statements_count": 1,
+      "statements_bytes": 2091,
+      "statements_md5": "f95e8ba62962a0d6add1751bd957bcc8",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260903043008",
+      "name": "cfc_internal_normative_chunks_v1",
+      "statements_count": 1,
+      "statements_bytes": 1413,
+      "statements_md5": "c0db0f99985cf10cb7f7b8d170b65ace",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260903043310",
+      "name": "cfc_internal_worker_invoker_v1",
+      "statements_count": 1,
+      "statements_bytes": 1340,
+      "statements_md5": "70c8118b081910c8bbff08b83f384012",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260903044246",
+      "name": "cfc_internal_worker_invoker_allow_materializer_v1",
+      "statements_count": 1,
+      "statements_bytes": 1371,
+      "statements_md5": "d53e9237ff3a53792787bc6b335b25da",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260903063836",
+      "name": "create_md_tool_layer_applicability_v2_candidate_authorized_v2",
+      "statements_count": 1,
+      "statements_bytes": 293,
+      "statements_md5": "9b9a1f818efd155114416c45b0d5741a",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260904055837",
+      "name": "account_palm_cfc_relation_candidates_v1",
+      "statements_count": 1,
+      "statements_bytes": 1886,
+      "statements_md5": "d64423d774b8e1e7715753ecd1604be6",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260904060056",
+      "name": "cfc_internal_token_validator_v1",
+      "statements_count": 1,
+      "statements_bytes": 650,
+      "statements_md5": "5bf652cfa6dec371b015cafc0e6018e2",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260904064126",
+      "name": "account_palm_normative_work_target",
+      "statements_count": 1,
+      "statements_bytes": 377,
+      "statements_md5": "7055eb43494be9901e1ba3fcca986940",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260904064523",
+      "name": "account_palm_cfc_strong_relations_v1",
+      "statements_count": 1,
+      "statements_bytes": 1467,
+      "statements_md5": "456e1894c8a13650db6c50980f7d6405",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260919095339",
+      "name": "xlf_operational_foundation_v1_0_0",
+      "statements_count": 1,
+      "statements_bytes": 24579,
+      "statements_md5": "5fa3929befbdfb7f5a572832150c274c",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260919095500",
+      "name": "xlf_align_canonical_statuses_v1_0_1",
+      "statements_count": 1,
+      "statements_bytes": 750,
+      "statements_md5": "6e85c0147a977de75fd4a75acb8870ce",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260919095530",
+      "name": "xlf_operational_registry_extensions_v1_0_2",
+      "statements_count": 1,
+      "statements_bytes": 2652,
+      "statements_md5": "3ae70969abddf6c8b6497e0b7cf85795",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260919095643",
+      "name": "xlf_separate_atomic_evidence_v1_0_3",
+      "statements_count": 1,
+      "statements_bytes": 1450,
+      "statements_md5": "19a75c13811ea842cee80668b0fcf170",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260919101001",
+      "name": "xlf_allow_source_uri_aliases_v1_0_4",
+      "statements_count": 1,
+      "statements_bytes": 558,
+      "statements_md5": "06417aa39b64f8241a2faeb971f062f9",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260919101200",
+      "name": "xlf_fk_covering_indexes_v1_0_5",
+      "statements_count": 1,
+      "statements_bytes": 3316,
+      "statements_md5": "38e6ff918d28074054732fd9417fed44",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260919101825",
+      "name": "xlf_admin_read_adapter_v0_1_0",
+      "statements_count": 1,
+      "statements_bytes": 4428,
+      "statements_md5": "f98270db576f2cea10f13d314a9ed59c",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20260919102514",
+      "name": "xlf_register_admin_entities_v0_1_0",
+      "statements_count": 1,
+      "statements_bytes": 3473,
+      "statements_md5": "99ead62af1794a94c615f8e57fa48848",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261009025442",
+      "name": "account_palm_master_register_v1",
+      "statements_count": 1,
+      "statements_bytes": 1528,
+      "statements_md5": "ce562f39523c2d791913957e4d2f45fe",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261009025925",
+      "name": "account_palm_master_register_export_v1",
+      "statements_count": 1,
+      "statements_bytes": 1046,
+      "statements_md5": "b87b21ea91b77e3e1161eed148fa01b8",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261009030346",
+      "name": "allow_cfc_raw_acquire_internal_worker",
+      "statements_count": 1,
+      "statements_bytes": 1493,
+      "statements_md5": "5ccf5e34ddf3840be6f0072cabedbc1d",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261009150507",
+      "name": "register_simulados_para_enfermagem_exam_data_bindings",
+      "statements_count": 1,
+      "statements_bytes": 1157,
+      "statements_md5": "d0fe439608cde19a287d128929488cbc",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261009213217",
+      "name": "brand_assets_catalog_v1",
+      "statements_count": 1,
+      "statements_bytes": 934,
+      "statements_md5": "36c38397413e095a694fc713f7d93b5b",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261009223144",
+      "name": "create_ce_admin_preview_isolated_schema",
+      "statements_count": 1,
+      "statements_bytes": 867,
+      "statements_md5": "2243a2e7ff73ce9d9b604cb1b6a0f2a8",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261009223332",
+      "name": "ce_admin_preview_contracts_audit_v1",
+      "statements_count": 1,
+      "statements_bytes": 1071,
+      "statements_md5": "9fc653cc4b947cd6497606826d7caf63",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261009224210",
+      "name": "create_isolated_contabilidade_cfc_atomic_source",
+      "statements_count": 1,
+      "statements_bytes": 1161,
+      "statements_md5": "9131059a56ffb78d36ed4b67ae903fb1",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261009232424",
+      "name": "pmo_audit_educa_cfc_register_governance",
+      "statements_count": 1,
+      "statements_bytes": 1493,
+      "statements_md5": "83a31e087e5f3f55de8a08799ac4ca35",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261010042040",
+      "name": "ce_form_release_hold_46_frozen_private",
+      "statements_count": 1,
+      "statements_bytes": 5220,
+      "statements_md5": "09a7f55ce59728f1b1e34c59d95f98c8",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261010042724",
+      "name": "ce_form_release_seal_post_ingest",
+      "statements_count": 1,
+      "statements_bytes": 1351,
+      "statements_md5": "0d83bd1113d0aa9f4bed061a5ae08c60",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261010043630",
+      "name": "ce_forms_evidence_reviews_append_only",
+      "statements_count": 1,
+      "statements_bytes": 1304,
+      "statements_md5": "f4d4cb461d3fa0444c6f89ac36e011ef",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261010044655",
+      "name": "ce_validation_hub_multiformat_private",
+      "statements_count": 1,
+      "statements_bytes": 4475,
+      "statements_md5": "811c857b711a08f3af5ff217b5aa675f",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261010045058",
+      "name": "ce_validation_hub_source_reuse_crosswalk",
+      "statements_count": 1,
+      "statements_bytes": 2701,
+      "statements_md5": "5cdb10a847a89d6dc6116cf9575ca5b6",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261010073320",
+      "name": "curiosidades_v1_isolated_editorial_workspace",
+      "statements_count": 1,
+      "statements_bytes": 3211,
+      "statements_md5": "7fa3f8e0da20560dd2aa9662bb291893",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261010083028",
+      "name": "curiosidades_v12_evidence_and_safe_revision_snapshot",
+      "statements_count": 1,
+      "statements_bytes": 1043,
+      "statements_md5": "cd7525c477d65f9d94b2425c67a84c9e",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261010094135",
+      "name": "ce_atlas_dev_g43_candidate_control_plane",
+      "statements_count": 1,
+      "statements_bytes": 2268,
+      "statements_md5": "c7aad24af158ba04fc4053a81972ea01",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261010152902",
+      "name": "audit_educa_nbc_ta_pa_wave1_control_v1",
+      "statements_count": 1,
+      "statements_bytes": 3484,
+      "statements_md5": "bfbbd1087935aa1d2d45c747a8f38f9c",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261010154120",
+      "name": "audit_educa_pa400_lossless_segment_drafts_v1",
+      "statements_count": 1,
+      "statements_bytes": 3238,
+      "statements_md5": "52905e738424c24e15c57b1b71ab0181",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261010223531",
+      "name": "calculadoras_de_enfermagem_private_library_five_gate_pmo_v1",
+      "statements_count": 1,
+      "statements_bytes": 6294,
+      "statements_md5": "3578b4027bb7a93022175b9ae291675e",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261010223715",
+      "name": "calculadoras_de_enfermagem_five_gate_substep_control_v1",
+      "statements_count": 1,
+      "statements_bytes": 2701,
+      "statements_md5": "22022a1e28ae52057187e5334b94119d",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261010223905",
+      "name": "calculadoras_de_enfermagem_private_file_manifest_crosswalk_v1",
+      "statements_count": 1,
+      "statements_bytes": 1531,
+      "statements_md5": "5c38f6f11fb450f20e6eb89ca341f84d",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261010224850",
+      "name": "calculadoras_de_enfermagem_source_lineage_crosswalk_v1",
+      "statements_count": 1,
+      "statements_bytes": 1061,
+      "statements_md5": "d799171119bc3ce66cc3c20b48d9262b",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261010225514",
+      "name": "calculadoras_de_enfermagem_internal_reuse_crosswalk_metrics_v1",
+      "statements_count": 1,
+      "statements_bytes": 1277,
+      "statements_md5": "71e75dc510bd0c990df95aefa8651933",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261010231625",
+      "name": "cde_grok_t2_file_delta_plan_private_v1",
+      "statements_count": 1,
+      "statements_bytes": 2705,
+      "statements_md5": "320ef13d1ce73d24cbdebf26d29369ed",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261010232024",
+      "name": "cde_grok_append_only_audit_and_closed_gate_immutability_v1",
+      "statements_count": 1,
+      "statements_bytes": 1894,
+      "statements_md5": "e3c0f8652f47fcb222dd0edc3126d266",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261010232809",
+      "name": "cko_grok_t203_protocol_index_reconciliation_v1",
+      "statements_count": 1,
+      "statements_bytes": 1217,
+      "statements_md5": "335fbc93318a29a771990e181a371235",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261010232937",
+      "name": "cko_grok_t203_clinical_score_family_candidates_v1",
+      "statements_count": 1,
+      "statements_bytes": 1092,
+      "statements_md5": "2e8f4f17319478b118418837f8f071b9",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261010233039",
+      "name": "cko_grok_t203_cko_target_readiness_evidence_v1",
+      "statements_count": 1,
+      "statements_bytes": 275,
+      "statements_md5": "33701ed22c495c5ef5dee33bd4d707a7",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261010235235",
+      "name": "cde_full_atom_screen_15_themes_v1",
+      "statements_count": 1,
+      "statements_bytes": 1024,
+      "statements_md5": "faaf0646db39cc3972a0508c67043c43",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261010235307",
+      "name": "cde_t203_exact_shared_source_codes_v1",
+      "statements_count": 1,
+      "statements_bytes": 1030,
+      "statements_md5": "e295106b463ba6bcdb61a413726e45b2",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261010235357",
+      "name": "cde_t203_deterministic_agent_checkpoints_v1",
+      "statements_count": 1,
+      "statements_bytes": 1482,
+      "statements_md5": "8f9490cfa600869dd4ba59570a36d5e1",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261011005801",
+      "name": "cde_t204_delta_assurance_append_only_v1",
+      "statements_count": 1,
+      "statements_bytes": 1541,
+      "statements_md5": "119e1778fc89b94ab383c28763b8b33c",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261011015629",
+      "name": "cko_grok_verified_duplicate_exclusion_history_v1",
+      "statements_count": 1,
+      "statements_bytes": 2561,
+      "statements_md5": "b249fd3e8b6e5d85dcefdd5ec8b77c83",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261011015804",
+      "name": "cko_grok_source_pdf_literal_atomization_register_v1",
+      "statements_count": 1,
+      "statements_bytes": 1719,
+      "statements_md5": "471afe88ad7079d041ffd5217851b0cf",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261011022622",
+      "name": "ce_grok_two_private_deterministic_agents_v1",
+      "statements_count": 1,
+      "statements_bytes": 5123,
+      "statements_md5": "27ef61187e1c4ef81b80f49a6c99065e",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261011082424",
+      "name": "curiosidades_pmo_page_gates_20261011",
+      "statements_count": 1,
+      "statements_bytes": 396,
+      "statements_md5": "6833ea880fa3e436aa95ba397d31f0e9",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261011082439",
+      "name": "curiosidades_pmo_gate_status_constraint_20261011",
+      "statements_count": 1,
+      "statements_bytes": 148,
+      "statements_md5": "5c2fad2b2eea51b18b25223596469703",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261101212342",
+      "name": "create_ce_platform_canonical_schema",
+      "statements_count": 1,
+      "statements_bytes": 32422,
+      "statements_md5": "03d819ff68f1685b90707790745ddbb5",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261101212418",
+      "name": "seed_ce_platform_canonical_catalogs",
+      "statements_count": 1,
+      "statements_bytes": 628271,
+      "statements_md5": "c9ee7f6e3c78fe34080d12aad8d79b6d",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261101212542",
+      "name": "seed_ce_platform_tools_and_product_objects",
+      "statements_count": 1,
+      "statements_bytes": 173131,
+      "statements_md5": "b57c67da6e982e2d768d919079a984bf",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261101212847",
+      "name": "extend_ce_platform_experience_community_privacy",
+      "statements_count": 1,
+      "statements_bytes": 16782,
+      "statements_md5": "c18a8890ade97682f3966d03e7f3d35e",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261101212932",
+      "name": "classify_tools_and_register_coverage_holds",
+      "statements_count": 1,
+      "statements_bytes": 11152,
+      "statements_md5": "3ac7f24ef4d1642399144d8639dcd34a",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261101213047",
+      "name": "index_ce_platform_foreign_keys",
+      "statements_count": 1,
+      "statements_bytes": 1071,
+      "statements_md5": "0561447e372c2a0e17e4b27ceab4d0cd",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261101213306",
+      "name": "reconcile_os_tool_inventory_and_research_tools",
+      "statements_count": 1,
+      "statements_bytes": 74558,
+      "statements_md5": "fb5da575f6e3034c685bfb57a092ee25",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261101213343",
+      "name": "finalize_ce_platform_coverage_gate",
+      "statements_count": 1,
+      "statements_bytes": 8534,
+      "statements_md5": "b89014d0907d3e8f70f58be26e2e2a11",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261101213447",
+      "name": "harden_policies_and_model_tool_hubs",
+      "statements_count": 1,
+      "statements_bytes": 4836,
+      "statements_md5": "c291b1588ac4ebadcdab1e377ff21db5",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261101213624",
+      "name": "reuse_existing_library_and_agent_registries",
+      "statements_count": 1,
+      "statements_bytes": 5668,
+      "statements_md5": "9ce7da5cd3057814e15c5fa2ed48746b",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261101213648",
+      "name": "refresh_ce_platform_final_coverage",
+      "statements_count": 1,
+      "statements_bytes": 4378,
+      "statements_md5": "b6daa4083273f60b45e4562f049610be",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261101213837",
+      "name": "finalize_ce_platform_manifest_metadata",
+      "statements_count": 1,
+      "statements_bytes": 891,
+      "statements_md5": "a26c80eea8c1657bcf981b8817334849",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261101220232",
+      "name": "research_hub_private_delta_owner_exception_20261101",
+      "statements_count": 1,
+      "statements_bytes": 22343,
+      "statements_md5": "8ef475c474e0272af8ebaf4b82e4673c",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261101220413",
+      "name": "research_hub_candidate_missing_fk_indexes_20261101",
+      "statements_count": 1,
+      "statements_bytes": 488,
+      "statements_md5": "b9e247094f753c78e5bead60c6b53938",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    },
+    {
+      "version": "20261114171701",
+      "name": "canone_shared_host_namespace_v1",
+      "statements_count": 1,
+      "statements_bytes": 20724,
+      "statements_md5": "976b208f1ed5740cf3cc18fc83ef136c",
+      "has_created_by": true,
+      "has_rollback": false,
+      "has_idempotency_key": false
+    }
+  ]
+}
