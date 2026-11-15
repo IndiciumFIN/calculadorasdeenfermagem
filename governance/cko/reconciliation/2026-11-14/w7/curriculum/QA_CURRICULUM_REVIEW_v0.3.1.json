@@ -1,0 +1,77 @@
+{
+  "release": "W7_CKO_CURRICULAR_SOURCE_RECOVERY_v0.3.1",
+  "scope": "CURRICULUM_ONLY",
+  "checks": [
+    {
+      "name": "w7_head_pinned",
+      "pass": true
+    },
+    {
+      "name": "new_sources_are_two_missing_programs",
+      "pass": true
+    },
+    {
+      "name": "original_source_ids_reconciled",
+      "pass": true
+    },
+    {
+      "name": "12_new_titles_unique_IDs",
+      "pass": true
+    },
+    {
+      "name": "separate_previous_30",
+      "pass": true
+    },
+    {
+      "name": "hours_cardio_360",
+      "pass": true
+    },
+    {
+      "name": "hours_robot_360",
+      "pass": true
+    },
+    {
+      "name": "candidate_source_version_unverified",
+      "pass": true
+    },
+    {
+      "name": "source_bytes_sha_missing_explicit",
+      "pass": true
+    },
+    {
+      "name": "right_hold_explicit",
+      "pass": true
+    },
+    {
+      "name": "no_clinical_claims_added",
+      "pass": true
+    },
+    {
+      "name": "no_publish",
+      "pass": true
+    },
+    {
+      "name": "191_paraphrase_rows_preserved",
+      "pass": true
+    },
+    {
+      "name": "20_paraphrase_sources",
+      "pass": true
+    },
+    {
+      "name": "32_programs_with_paraphrases",
+      "pass": true
+    },
+    {
+      "name": "no_literal_reverification_claimed",
+      "pass": true
+    },
+    {
+      "name": "2026_robotics_schedule_not_curriculum",
+      "pass": true
+    }
+  ],
+  "pass": 17,
+  "fail": 0,
+  "limitation": "Checks validate metadata crosswalk, declared hours, and fail-closed admission; source PDF binary and web-page edition have not been independently captured."
+}
