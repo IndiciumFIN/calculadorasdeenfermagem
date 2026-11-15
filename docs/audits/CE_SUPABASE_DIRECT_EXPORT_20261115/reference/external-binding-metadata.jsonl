@@ -1,0 +1,8 @@
+{"target_kind":"SERVICE","target_id":"ai-agents/agent-registry","source_schema":"calculadoras_de_enfermagem","source_object":"agent_registry","relation_kind":"REUSES","status":"CANDIDATE_HOLD"}
+{"target_kind":"SERVICE","target_id":"ai-agents/model-router","source_schema":"cko_ai","source_object":"engines","relation_kind":"CANDIDATE_REUSE","status":"CANDIDATE_HOLD"}
+{"target_kind":"SERVICE","target_id":"audit-assurance/audit-evidence","source_schema":"cko_evidence","source_object":"assertions","relation_kind":"CANDIDATE_REUSE","status":"CANDIDATE_HOLD"}
+{"target_kind":"SERVICE","target_id":"canonical-knowledge/canonical-object-registry","source_schema":"public","source_object":"technical_object_registry","relation_kind":"RECONCILES","status":"CANDIDATE_HOLD"}
+{"target_kind":"SERVICE","target_id":"clinical-practice/clinical-tool-registry","source_schema":"cko_closure","source_object":"tool_dossiers","relation_kind":"REUSES","status":"CANDIDATE_HOLD"}
+{"target_kind":"SERVICE","target_id":"governance/policy-registry","source_schema":"cko_governance","source_object":"policy_registry","relation_kind":"CANDIDATE_REUSE","status":"CANDIDATE_HOLD"}
+{"target_kind":"SERVICE","target_id":"learning/question-bank","source_schema":"public","source_object":"exam_questions","relation_kind":"REUSES","status":"CANDIDATE_HOLD"}
+{"target_kind":"SERVICE","target_id":"selections/exam-service","source_schema":"public","source_object":"exams","relation_kind":"REUSES","status":"CANDIDATE_HOLD"}
