@@ -60,6 +60,17 @@ class GovernedToolsContractTests(unittest.TestCase):
         self.assertNotIn('localStorage',code)
         self.assertNotIn('sessionStorage',code)
 
+    def test_auditor_role_is_explicitly_read_only_at_write_routes(self):
+        for route in (
+            'src/app/api/admin/ferramentas/route.ts',
+            'src/app/api/admin/ferramentas/[key]/route.ts',
+            'src/app/api/admin/ferramentas/[key]/enviar-revisao/route.ts',
+        ):
+            code = (ROOT / route).read_text()
+            self.assertIn("['admin','editor'].includes(ctx.role)", code, route)
+            self.assertIn("verifyWriteRequest(req)", code, route)
+            self.assertNotIn("['admin','editor','auditor'].includes(ctx.role)", code, route)
+
     def test_seed_does_not_publish(self):
         sql=(ROOT/'supabase/candidates/20261115_ce_tools_research_seed_candidate.sql').read_text().lower()
         self.assertIn('on conflict (capability_key) do nothing',sql)
