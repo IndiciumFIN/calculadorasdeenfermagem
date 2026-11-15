@@ -1,0 +1,326 @@
+{
+  "version": "W7-v0.3.5",
+  "date": "2026-11-14",
+  "scope": "EXTERNAL_PUBLIC_DOCUMENT_DISCOVERY_ONLY",
+  "parent_commit": "9f8553624eaac8d7b4126136f25deb43b8a78dfd",
+  "parent_matrix": "audit/PRIMARY_SCOPE_REVIEW_12_IDS_v0.3.4.jsonl",
+  "source_deltas": [
+    {
+      "source_id": "W7-SRC-PUCMG-HIST-2024-EMENTARIO",
+      "publisher": "PUC Minas Virtual",
+      "url": "https://www.pucminas.br/PucVirtual/Pos-Graduacao/Documents/enfermagemdotrabalho2024.pdf",
+      "document_type": "OFFICIAL_HISTORICAL_SYLLABUS",
+      "document_version": "2024-labelled; generated 2023-11-17",
+      "offer": "Oferta 3, Turma 1, Assíncrono",
+      "locator": "Ementário das disciplinas / Doenças Relacionadas ao Trabalho; PDF p.1",
+      "discovery_fact": "Official earlier syllabus contains a discipline summary broader than the title",
+      "limit": "The W7 current live-classes offer is not demonstrated to have this same syllabus edition or specific microtopic coverage",
+      "visual_inspection": "WEB_SCREENSHOT_PAGES_1_AND_2_SUCCESS",
+      "bytes_sha256": null,
+      "rights_approved": false
+    },
+    {
+      "source_id": "W7-SRC-ACC-MBA-2026-1-PROGRAM",
+      "publisher": "A.C.Camargo / Ibmec",
+      "url": "https://ensino.accamargo.org.br/Custom/Content/Themes/Shared/E-Book/P%C3%B3s-Gradua%C3%A7%C3%B5es%202026.1/Caderno%20MBA%20Gest%C3%A3o%20V7.pdf",
+      "document_type": "OFFICIAL_2026_PROGRAM_BOOKLET_CANDIDATE",
+      "document_version": "2026.1, booklet V7, MBA Gestão em Saúde com Ênfase em Ambientes Complexos",
+      "locator": "PROGRAMA E PROJETO APLICADO / Módulo I / Tema 2; printed p.14",
+      "discovery_fact": "Program lists strategic planning and health sustainability; published booklet describes 472 total hours and May 2026 start",
+      "limit": "The W7 target IDs have not been matched to this exact MBA edition; original PDF bytes/visual page could not be verified due HTTP 403",
+      "visual_inspection": "WEB_SCREENSHOT_FAILED_HTTP_403",
+      "bytes_sha256": null,
+      "rights_approved": false
+    },
+    {
+      "source_id": "W7-SRC-ACC-MBA-2026-CATALOG",
+      "publisher": "A.C.Camargo",
+      "url": "https://ensino.accamargo.org.br/cursos-e-programas?pg=7",
+      "document_type": "OFFICIAL_CATALOG_PAGE",
+      "document_version": "Web catalog, version not established",
+      "locator": "MBA Gestão em Saúde com Ênfase em Ambientes Complexos",
+      "discovery_fact": "Catalog describes same-titled MBA and 432 total hours",
+      "limit": "Unresolved 432 versus 472 hour discrepancy, possibly differing editions; do not infer error or reconcile without edition evidence",
+      "visual_inspection": "WEB_TEXT_ONLY",
+      "bytes_sha256": null,
+      "rights_approved": false
+    }
+  ],
+  "pair_evaluations": [
+    {
+      "review_id": "W7-CUR-REV33-003",
+      "microtopic_id": "MICRO-WORK-00096",
+      "target_id": "CURITEM-00139",
+      "publisher": "PUCMG",
+      "evidence_class_v034": "OFFICIAL_DISCIPLINE_TITLE_NOT_SUBTOPIC",
+      "additional_source_ids": [
+        "W7-SRC-PUCMG-HIST-2024-EMENTARIO"
+      ],
+      "assessment": "HISTORICAL_OFFICIAL_SYLLABUS_NOT_CURRENT_EDITION",
+      "gate": "HOLD_SYLLABUS_SPAN",
+      "full_official_current_syllabus_verified": false,
+      "exact_microtopic_official_span_verified": false,
+      "rights_approved": false,
+      "semantic_approved": false,
+      "part_of_relation_approved": false,
+      "publication_allowed": false
+    },
+    {
+      "review_id": "W7-CUR-REV33-006",
+      "microtopic_id": "MICRO-WORK-00199",
+      "target_id": "CURITEM-00013",
+      "publisher": "PUCPR",
+      "evidence_class_v034": "RELATED_PROGRAM_AND_COMBINED_DISCIPLINE_BUT_DETAIL_ERGONOMICS",
+      "additional_source_ids": [],
+      "assessment": "UNCHANGED_FROM_V034",
+      "gate": "HOLD_SPECIFIC_SUBTOPIC_SCOPE",
+      "full_official_current_syllabus_verified": false,
+      "exact_microtopic_official_span_verified": false,
+      "rights_approved": false,
+      "semantic_approved": false,
+      "part_of_relation_approved": false,
+      "publication_allowed": false
+    },
+    {
+      "review_id": "W7-CUR-REV33-007",
+      "microtopic_id": "MICRO-WORK-00363",
+      "target_id": "CURITEM-00139",
+      "publisher": "PUCMG",
+      "evidence_class_v034": "OFFICIAL_DISCIPLINE_TITLE_NOT_SUBTOPIC",
+      "additional_source_ids": [
+        "W7-SRC-PUCMG-HIST-2024-EMENTARIO"
+      ],
+      "assessment": "HISTORICAL_OFFICIAL_SYLLABUS_NOT_CURRENT_EDITION",
+      "gate": "HOLD_SYLLABUS_SPAN",
+      "full_official_current_syllabus_verified": false,
+      "exact_microtopic_official_span_verified": false,
+      "rights_approved": false,
+      "semantic_approved": false,
+      "part_of_relation_approved": false,
+      "publication_allowed": false
+    },
+    {
+      "review_id": "W7-CUR-REV33-009",
+      "microtopic_id": "MICRO-WORK-00394",
+      "target_id": "CURITEM-00139",
+      "publisher": "PUCMG",
+      "evidence_class_v034": "OFFICIAL_DISCIPLINE_TITLE_NOT_SUBTOPIC",
+      "additional_source_ids": [
+        "W7-SRC-PUCMG-HIST-2024-EMENTARIO"
+      ],
+      "assessment": "HISTORICAL_OFFICIAL_SYLLABUS_NOT_CURRENT_EDITION",
+      "gate": "HOLD_SYLLABUS_SPAN",
+      "full_official_current_syllabus_verified": false,
+      "exact_microtopic_official_span_verified": false,
+      "rights_approved": false,
+      "semantic_approved": false,
+      "part_of_relation_approved": false,
+      "publication_allowed": false
+    },
+    {
+      "review_id": "W7-CUR-REV33-012",
+      "microtopic_id": "MICRO-WORK-00449",
+      "target_id": "CURITEM-00396",
+      "publisher": "SIRIO",
+      "evidence_class_v034": "OFFICIAL_RELATED_OCCUPATIONAL_CURRICULUM_UNITS",
+      "additional_source_ids": [],
+      "assessment": "UNCHANGED_FROM_V034",
+      "gate": "HOLD_MICROTOPIC_PROVENANCE_AND_OBJECT_TYPE",
+      "full_official_current_syllabus_verified": false,
+      "exact_microtopic_official_span_verified": false,
+      "rights_approved": false,
+      "semantic_approved": false,
+      "part_of_relation_approved": false,
+      "publication_allowed": false
+    },
+    {
+      "review_id": "W7-CUR-REV33-013",
+      "microtopic_id": "MICRO-WORK-00558",
+      "target_id": "TOPIC-CAND-ACOLHIMENTO-E-ESCUTA-DO-TRABALHADOR",
+      "publisher": "SIRIO",
+      "evidence_class_v034": "OFFICIAL_RELATED_OCCUPATIONAL_CURRICULUM_UNITS",
+      "additional_source_ids": [],
+      "assessment": "UNCHANGED_FROM_V034",
+      "gate": "HOLD_MICROTOPIC_PROVENANCE_AND_OBJECT_TYPE",
+      "full_official_current_syllabus_verified": false,
+      "exact_microtopic_official_span_verified": false,
+      "rights_approved": false,
+      "semantic_approved": false,
+      "part_of_relation_approved": false,
+      "publication_allowed": false
+    },
+    {
+      "review_id": "W7-CUR-REV33-014",
+      "microtopic_id": "MICRO-WORK-00558",
+      "target_id": "CURITEM-00405",
+      "publisher": "SIRIO",
+      "evidence_class_v034": "OFFICIAL_RELATED_OCCUPATIONAL_CURRICULUM_UNITS",
+      "additional_source_ids": [],
+      "assessment": "UNCHANGED_FROM_V034",
+      "gate": "HOLD_MICROTOPIC_PROVENANCE_AND_OBJECT_TYPE",
+      "full_official_current_syllabus_verified": false,
+      "exact_microtopic_official_span_verified": false,
+      "rights_approved": false,
+      "semantic_approved": false,
+      "part_of_relation_approved": false,
+      "publication_allowed": false
+    },
+    {
+      "review_id": "W7-CUR-REV33-020",
+      "microtopic_id": "MICRO-WORK-00605",
+      "target_id": "CKO-CUR-EXT-EIN-UE-EAD-2026-4BM-D06",
+      "publisher": "EINSTEIN",
+      "evidence_class_v034": "OFFICIAL_DISCIPLINE_TITLE_NOT_SUBTOPIC",
+      "additional_source_ids": [],
+      "assessment": "UNCHANGED_FROM_V034",
+      "gate": "HOLD_SYLLABUS_SPAN",
+      "full_official_current_syllabus_verified": false,
+      "exact_microtopic_official_span_verified": false,
+      "rights_approved": false,
+      "semantic_approved": false,
+      "part_of_relation_approved": false,
+      "publication_allowed": false
+    },
+    {
+      "review_id": "W7-CUR-REV33-021",
+      "microtopic_id": "MICRO-WORK-00654",
+      "target_id": "CURITEM-00967",
+      "publisher": "ACC",
+      "evidence_class_v034": "PRIMARY_PROGRAM_EDITION_NOT_RECOVERED",
+      "additional_source_ids": [
+        "W7-SRC-ACC-MBA-2026-1-PROGRAM",
+        "W7-SRC-ACC-MBA-2026-CATALOG"
+      ],
+      "assessment": "2026_PROGRAM_BOOKLET_FOUND_EXACT_W7_ID_JOIN_UNVERIFIED_HOURS_CONFLICT",
+      "gate": "HOLD_EXACT_PROGRAM_EDITION_JOIN_AND_HOURS_CONFLICT",
+      "full_official_current_syllabus_verified": false,
+      "exact_microtopic_official_span_verified": false,
+      "rights_approved": false,
+      "semantic_approved": false,
+      "part_of_relation_approved": false,
+      "publication_allowed": false
+    },
+    {
+      "review_id": "W7-CUR-REV33-022",
+      "microtopic_id": "MICRO-WORK-00654",
+      "target_id": "CORE-STRATEGIC-PLANNING",
+      "publisher": "ACC",
+      "evidence_class_v034": "PRIMARY_PROGRAM_EDITION_NOT_RECOVERED",
+      "additional_source_ids": [
+        "W7-SRC-ACC-MBA-2026-1-PROGRAM",
+        "W7-SRC-ACC-MBA-2026-CATALOG"
+      ],
+      "assessment": "2026_PROGRAM_BOOKLET_FOUND_EXACT_W7_ID_JOIN_UNVERIFIED_HOURS_CONFLICT",
+      "gate": "HOLD_EXACT_PROGRAM_EDITION_JOIN_AND_HOURS_CONFLICT",
+      "full_official_current_syllabus_verified": false,
+      "exact_microtopic_official_span_verified": false,
+      "rights_approved": false,
+      "semantic_approved": false,
+      "part_of_relation_approved": false,
+      "publication_allowed": false
+    },
+    {
+      "review_id": "W7-CUR-REV33-026",
+      "microtopic_id": "MICRO-WORK-00788",
+      "target_id": "CURITEM-00596",
+      "publisher": "SANTA",
+      "evidence_class_v034": "RELATED_EDUCATION_OBJECTIVE_PAGE_MIXED_CONTENT",
+      "additional_source_ids": [],
+      "assessment": "UNCHANGED_FROM_V034",
+      "gate": "HOLD_SOURCE_SECTION_AND_PARAPHRASE_REVIEW",
+      "full_official_current_syllabus_verified": false,
+      "exact_microtopic_official_span_verified": false,
+      "rights_approved": false,
+      "semantic_approved": false,
+      "part_of_relation_approved": false,
+      "publication_allowed": false
+    },
+    {
+      "review_id": "W7-CUR-REV33-027",
+      "microtopic_id": "MICRO-WORK-00829",
+      "target_id": "CURITEM-00396",
+      "publisher": "SIRIO",
+      "evidence_class_v034": "OFFICIAL_RELATED_OCCUPATIONAL_CURRICULUM_UNITS",
+      "additional_source_ids": [],
+      "assessment": "UNCHANGED_FROM_V034",
+      "gate": "HOLD_MICROTOPIC_PROVENANCE_AND_OBJECT_TYPE",
+      "full_official_current_syllabus_verified": false,
+      "exact_microtopic_official_span_verified": false,
+      "rights_approved": false,
+      "semantic_approved": false,
+      "part_of_relation_approved": false,
+      "publication_allowed": false
+    }
+  ],
+  "document_conflict": {
+    "subject": "MBA Gestão em Saúde com Ênfase em Ambientes Complexos",
+    "reported_hours": [
+      {
+        "source_id": "W7-SRC-ACC-MBA-2026-1-PROGRAM",
+        "hours": 472
+      },
+      {
+        "source_id": "W7-SRC-ACC-MBA-2026-CATALOG",
+        "hours": 432
+      }
+    ],
+    "status": "HOLD_EDITIONS_NOT_RECONCILED"
+  },
+  "original_985_atoms_unchanged": true,
+  "original_42_titles_unchanged": true,
+  "original_27_pairs_unchanged": true,
+  "main_unchanged": true,
+  "supabase_unchanged": true,
+  "no_new_clinical_claims": true,
+  "publication_allowed": false,
+  "semantic_relations_approved": 0,
+  "qa": {
+    "type": "LOCAL_METADATA_INVARIANT_ASSERTIONS",
+    "checks": [
+      {
+        "name": "twelve_unique_review_ids",
+        "passed": true
+      },
+      {
+        "name": "PUCMG_3_ACC_2",
+        "passed": true
+      },
+      {
+        "name": "no_semantic_approval",
+        "passed": true
+      },
+      {
+        "name": "no_publication_approval",
+        "passed": true
+      },
+      {
+        "name": "no_current_syllabus_claim",
+        "passed": true
+      },
+      {
+        "name": "no_fabricated_pdf_hash",
+        "passed": true
+      },
+      {
+        "name": "source_ids_unique",
+        "passed": true
+      },
+      {
+        "name": "five_pairs_new_context_only",
+        "passed": true
+      },
+      {
+        "name": "v034_evidence_classes_preserved",
+        "passed": true
+      },
+      {
+        "name": "original_12_pairs_not_mutated",
+        "passed": true
+      }
+    ],
+    "passed": 10,
+    "failed": 0,
+    "github_actions_ci_verified": false
+  },
+  "status": "HOLD_SYLLABUS/HOLD_EXACT_EDITION/HOLD_RIGHTS/HOLD_SEMANTIC_REVIEW/NO_GO"
+}
