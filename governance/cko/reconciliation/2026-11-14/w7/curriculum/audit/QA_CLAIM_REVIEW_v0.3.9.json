@@ -1,0 +1,123 @@
+{
+  "release": "W7-v0.3.9",
+  "audit_date": "2026-11-15",
+  "branch": "review/cko-w7-public-evidence-20261114",
+  "prior_head": "a640c800a487dc78dd9b9394d96830457572c941",
+  "source_file_shas": [
+    {
+      "version": "v0.3.7",
+      "blob_sha": "0a47370cae2b241c93fc2bf50ca368d3030da8e9"
+    },
+    {
+      "version": "v0.3.8",
+      "blob_sha": "7b630006a419ce7d0b92969f406c9f99d515c64a"
+    }
+  ],
+  "unit_count": 15,
+  "claims_reviewed": 33,
+  "results": {
+    "DIRECT_NORMATIVE": 21,
+    "HISTORIC_CURRICULUM": 2,
+    "INDEXED_COURSE_PAGE_RECHECK": 1,
+    "COHORT_SCHEDULE": 2,
+    "EXPLANATORY_INFERENCE": 4,
+    "EDITORIAL_METHOD": 2,
+    "META_NOT_EVIDENCE": 1
+  },
+  "output_reuse_records": 15,
+  "source_registry": {
+    "LDRT_2024": {
+      "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2024/prt5674_05_11_2024.html",
+      "locator": "Art. 423 §3º, Anexo LXXX, Lista B, Cap. I",
+      "method": "OFFICIAL_HTML_TEXT"
+    },
+    "NR1_2026": {
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/nr-1",
+      "locator": "Cap. 1.5, vigência 26/05/2026, histórico página oficial",
+      "method": "OFFICIAL_HTML"
+    },
+    "NR9_2026": {
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/nr-09-atualizada-2026.pdf",
+      "locator": "9.1.1, 9.3.1, 9.4.3",
+      "method": "OFFICIAL_PDF_TEXT_AND_SCREENSHOT"
+    },
+    "NR32": {
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/nr-32-atualizada-2023-1.pdf/%40%40download/file",
+      "locator": "32.1.1, 32.2.1, 32.2.2.1",
+      "method": "OFFICIAL_PDF_TEXT_AND_SCREENSHOT"
+    },
+    "PUCMG_HIST": {
+      "url": "https://www.pucminas.br/PucVirtual/Pos-Graduacao/Documents/enfermagemdotrabalho2024.pdf",
+      "locator": "p. 1, oferta 3 turma 1 assíncrona, gerado 17/11/2023",
+      "method": "INSTITUTIONAL_PDF_TEXT_AND_SCREENSHOT_OLDER_COHORT"
+    },
+    "PUCPR_CURR": {
+      "url": "https://estudenapuc.pucpr.br/pos-graduacao/cursos/enfermagem-do-trabalho-curitiba/",
+      "locator": "Disciplina 24h: Ergonomia aplicada à Saúde do Trabalhador e Toxicologia Ocupacional",
+      "method": "INSTITUTIONAL_INDEX_CACHE_ONLY_DIRECT_URL_404"
+    },
+    "EIN_4BM": {
+      "url": "https://conteudo-ensino.s3.sa-east-1.amazonaws.com/documentos/pos-graduacao-ead/cronograma/2026/cronograma-pg-ead-enfermagem-em-emergencia-e-urgencia-4bm.pdf",
+      "locator": "p. 1, turma 2026-4BM, disciplina e estudos 23/02–29/03/2027",
+      "method": "INSTITUTIONAL_PDF_TEXT_AND_SCREENSHOT"
+    },
+    "NR1": {
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/nr-1",
+      "locator": "Cap. 1.5, vigência 26/05/2026",
+      "method": "OFFICIAL_HTML"
+    },
+    "PGR": {
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/pgr/principal",
+      "locator": "O que é o PGR?; inventário e plano de ação; revisão",
+      "method": "OFFICIAL_HTML"
+    },
+    "NR7": {
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/norma-regulamentadora-no-7-nr-7",
+      "locator": "Descrição oficial da NR-7 e histórico do PCMSO",
+      "method": "OFFICIAL_HTML"
+    },
+    "NR9": {
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/nr-09-atualizada-2026.pdf",
+      "locator": "9.1.1, 9.3.1, 9.4.3",
+      "method": "OFFICIAL_PDF_TEXT_AND_SCREENSHOT"
+    },
+    "NR17": {
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/nr-17-atualizada-2023.pdf",
+      "locator": "17.1.1, 17.3.1–17.3.2",
+      "method": "OFFICIAL_PDF_TEXT_AND_SCREENSHOT"
+    },
+    "FAQ26": {
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/manuais-e-publicacoes/2026/perguntas-e-respostas-gro-pgr-maio-2026/",
+      "locator": "Perguntas 1 e 22, caráter orientativo",
+      "method": "OFFICIAL_PDF_TEXT_AND_SCREENSHOT"
+    }
+  },
+  "quality_checks": {
+    "passed": 16,
+    "failed": 0,
+    "checks": {
+      "claims_total_33": true,
+      "unique_claim_ids": true,
+      "fifteen_units": true,
+      "counts_reconcile": true,
+      "all_claims_have_source_locator": true,
+      "no_bare_external_hash_claims": true,
+      "no_semantic_publication": true,
+      "puccr_blocked": true,
+      "historical_cohort_not_current": true,
+      "teaching_methods_not_legal_claims": true,
+      "original_files_unmodified": true,
+      "reusable_records_15": true,
+      "normative_direct_21": true,
+      "non_normative_nonclinical_clear": true,
+      "no_automatic_rights": true,
+      "no_curricular_relation_promotion": true
+    },
+    "scope": "LOCAL_DATA_INVARIANTS_AND_DESK_SOURCE_REVIEW_NOT_ACTIONS_CI_OR_HUMAN_SIGNOFF"
+  },
+  "status": "TECHNICAL_EVIDENCE_CLASSIFICATION_COMPLETE / 1_SOURCE_RECHECK / RELEASE_NO_GO",
+  "main_merge_allowed": false,
+  "supabase_update_allowed": false,
+  "external_original_text_copy_allowed": false,
+  "clinical_publication_allowed": false
+}
