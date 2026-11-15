@@ -26,6 +26,13 @@ Os quatro objetos legados trazem política `FOR SELECT USING (true)` após `ENAB
 
 O conjunto de **96 SQL raiz** nos cinco repositórios do Workspace/espelhos utiliza mecanismo próprio (`_migrations` ou PGlite); **não** é a lista de migrations `supabase_migrations.schema_migrations`. Não copiar essas SQLs para o Supabase. As **duas SQLs locais** deste repositório estão **HOLD_SEMANTIC_CROSSWALK**; 255 versões remotas ficam intactas. `APPROVED_MIGRATIONS=0`; número do delta físico incremental continua **UNKNOWN**.
 
+
+## Verificação adicional das relações existentes (15/11/2026)
+
+A tabela `ce_platform.source_mappings` contém **215 vínculos, todos `CANDIDATE_HOLD`**. Em `ce_platform.canonical_objects`, **todas as 111 ferramentas associadas a `clinical_tools` permanecem com `publication_state` em `HOLD` ou `HOLD_HUMAN`**. A tabela específica `ce_platform.clinical_evidence_bindings` tem **0 linhas**. Esse achado NÃO autoriza afirmar que não existam vínculos evidenciais em outros schemas; evidencia que a relação canônica central ainda não foi operacionalizada para esse conjunto.
+
+O catálogo `cko_evidence.sources` contém **157 registros**, incluindo origens `ACCREDITED`, `CONTROLLED_DISCOVERY` e `PENDING_BOARD_REVIEW`. A existência de uma fonte acreditada não promove uma ferramenta automaticamente: cada vínculo precisa corresponder a dispositivo, versão, direito de uso, regra e responsável pela validação. **O P0 real é qualidade da relação, não criação de tabela legada.**
+
 ## Gates de liberação
 
 1. Completar crosswalk de identidade e versionamento (PK, FK, índice, tipo, RLS, grants, direitos, normativo oficial, trecho/âncora, evidência, status editorial e clínico).
