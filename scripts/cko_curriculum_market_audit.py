@@ -141,7 +141,7 @@ def build_report(repo_root: Path, revision: str = "UNKNOWN") -> dict:
     for s in cofen:
         sid = s["specialty_id"]
         linked = s.get("external_program_ids", [])
-        sources = by_spec[sid]
+        sources = by_spec.get(sid, [])
         if not isinstance(linked, list):
             raise ValueError(f"Invalid program ids for {sid}")
         skills = collections.Counter()
