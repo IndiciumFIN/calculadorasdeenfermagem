@@ -1,0 +1,99 @@
+{
+  "release": "W7-v0.3.8",
+  "cases": [
+    {
+      "id": "W7-CASE-038-1",
+      "title": "Inventário sem plano encontrado",
+      "fictional": true,
+      "topics": [
+        "MICRO-WORK-00454",
+        "MICRO-WORK-00455"
+      ],
+      "scene": "Uma clínica fictícia apresentou um inventário de riscos, mas não localizou seu plano de ação durante a análise documental.",
+      "questions": [
+        "Quais documentos mínimos formam o PGR?",
+        "Quais evidências indicariam ações efetivamente implementadas?"
+      ],
+      "sources": [
+        "PGR",
+        "NR1"
+      ]
+    },
+    {
+      "id": "W7-CASE-038-2",
+      "title": "Mudança na organização do trabalho",
+      "fictional": true,
+      "topics": [
+        "MICRO-WORK-00314",
+        "MICRO-WORK-00335"
+      ],
+      "scene": "Uma organização fictícia alterou tarefas e ritmo de trabalho. O setor solicita avaliação dos fatores ergonômicos e psicossociais.",
+      "questions": [
+        "Quais condições e processos devem ser observados?",
+        "Por que um questionário isolado não prova implementação preventiva?"
+      ],
+      "sources": [
+        "NR17",
+        "NR1",
+        "FAQ26"
+      ]
+    },
+    {
+      "id": "W7-CASE-038-3",
+      "title": "Mapa preventivo de risco biológico",
+      "fictional": true,
+      "topics": [
+        "MICRO-WORK-00267",
+        "MICRO-WORK-00292"
+      ],
+      "scene": "Um laboratório fictício pretende revisar preventivamente tarefas com potencial exposição biológica, sem registrar acidentes reais ou dados pessoais.",
+      "questions": [
+        "Como distinguir exposição e doença?",
+        "Qual o papel da NR-32 e do PGR na prevenção?"
+      ],
+      "sources": [
+        "NR32",
+        "PGR"
+      ]
+    }
+  ],
+  "checklists": [
+    {
+      "id": "W7-CHECK-038-1",
+      "title": "Consistência educacional do PGR",
+      "topics": [
+        "MICRO-WORK-00453",
+        "MICRO-WORK-00454",
+        "MICRO-WORK-00455"
+      ],
+      "items": [
+        "Inventário registra perigos e riscos avaliados?",
+        "Medidas do plano de ação correspondem aos riscos?",
+        "Há acompanhamento da implementação?",
+        "Revisões consideram mudanças relevantes?"
+      ],
+      "sources": [
+        "NR1",
+        "PGR"
+      ]
+    },
+    {
+      "id": "W7-CHECK-038-2",
+      "title": "Consistência educacional do GRO psicossocial",
+      "topics": [
+        "MICRO-WORK-00335",
+        "MICRO-WORK-00352"
+      ],
+      "items": [
+        "Foram consideradas condições e organização reais do trabalho?",
+        "A metodologia é coerente com as atividades?",
+        "As medidas atuam nos fatores identificados?",
+        "Há acompanhamento dos resultados?"
+      ],
+      "sources": [
+        "NR1",
+        "FAQ26"
+      ]
+    }
+  ]
+}
