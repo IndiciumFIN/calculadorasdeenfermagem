@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0.1",
+  "as_of": "2026-11-15",
+  "scope": "CKO curriculum market automated audit activation",
+  "repo": "IndiciumFIN/calculadorasdeenfermagem",
+  "branch": "review/cko-w7-public-evidence-20261114",
+  "head_at_receipt_creation": "3fe151114594cde6214e63ef5fccd158ee9de8e7",
+  "github_epic_issue": 74,
+  "pr_number": 70,
+  "workflow_path": ".github/workflows/cko-curriculum-market-audit.yml",
+  "auditor_script": "scripts/cko_curriculum_market_audit.py",
+  "unit_test_path": "tests/test_cko_curriculum_market_audit.py",
+  "confirmed_run": {
+    "run_id": 43690945716,
+    "url": "https://github.com/IndiciumFIN/calculadorasdeenfermagem/actions/runs/43690945716",
+    "event": "pull_request",
+    "conclusion": "success",
+    "tests_passed": 8,
+    "tests_failed": 0,
+    "artifact_id": 14152760887,
+    "artifact_url": "https://github.com/IndiciumFIN/calculadorasdeenfermagem/actions/runs/43690945716/artifacts/14152760887",
+    "artifact_zip_digest": "sha256:361edaa46010604f01588b6b8b6f4e1bb05cef344d2c25cd306742624d6ab42d",
+    "artifact_files": [
+      "coverage.json",
+      "specialty_matrix.csv",
+      "backlog.jsonl",
+      "status.md",
+      "run_manifest.json"
+    ],
+    "metrics_from_logs": {
+      "specialties": 65,
+      "job_ads": 34,
+      "backlog_entries": 163,
+      "baseline_drift": {},
+      "release_allowed": false
+    }
+  },
+  "recovered_defect": {
+    "first_run": "43690829983",
+    "finding": "defaultdict indexed by absent specialty produced false 65/65 coverage and two baseline drifts",
+    "fix_commit": "62caa146cff8ca95496a3c65a84a153f01b2569e",
+    "regression_test_commit": "3fe151114594cde6214e63ef5fccd158ee9de8e7",
+    "verification": "corrected run 43690945716 shows drift {}, with 8 tests PASS",
+    "status": "RESOLVED_WITH_EVIDENCE"
+  },
+  "derived_backlog_explained": {
+    "missing_job_source_specialties": 51,
+    "low_depth_job_samples": 7,
+    "specialties_with_no_linked_program": 35,
+    "specialties_semantic_review_pending": 65,
+    "crosscutting_P0_holds": 5,
+    "total": 163
+  },
+  "execution_modes": {
+    "github_actions_branch": "ACTIVE_ON_PUSH_AND_PR_IN_W7",
+    "github_actions_recurrent_schedule": "CONFIGURED_NOT_ACTIVE_UNTIL_WORKFLOW_ON_DEFAULT_BRANCH",
+    "chatgpt_daily_execution": "ENABLED_IN_SAO_PAULO_FROM_2026-11-16_09_15",
+    "chatgpt_task_scope": "INCREMENTAL_SAFE_CANDIDATE_WORK_WITH_EVIDENCE_AND_HOLDS",
+    "no_unattended_clinical_release": true
+  },
+  "other_repo_gate": {
+    "required": "Gate Agregador",
+    "canonical_repository_invariants": "FAILED_PREEXISTING_DEPENDENCIES_ON_PR70",
+    "merge_main": false,
+    "publication": false
+  },
+  "interpretation": "8 unit tests and workflow success validate structure and non-promotion, not independent legal/clinical review or completion of EPIC"
+}
