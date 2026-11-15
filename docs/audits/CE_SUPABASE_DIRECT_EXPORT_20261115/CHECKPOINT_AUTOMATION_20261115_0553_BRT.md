@@ -79,3 +79,21 @@ Estado: READ_ONLY; HOLD_HUMAN para migrations, seeds e publicação. Projeto fí
 - **PASS_DB_READONLY**: consulta ao catálogo PostgreSQL confirmou 8 tabelas relevantes ao filtro de ferramentas/auditoria: `ce_platform.clinical_tools` e `tool_profiles` com RLS habilitado e 0 policies; seis em `cko_governance` com RLS desabilitado e 0 policies: `change_audit_ledger`, `md_tool_field_contract_v2_candidate`, `md_tool_layer_applicability_v1_candidate`, `md_tool_layer_applicability_v2_candidate`, `md_tool_registry_v2_candidate`, `md_tool_universe_crosswalk_v2_candidate`. A presença de `cko_governance.change_audit_ledger` (colunas `old_hash,new_hash,old_data,new_data,actor,txid`) é nova candidata concreta a **REUSE_AUDIT**, sem equivalência funcional comprovada; requer revisar cobertura, sensibilidade e isolamento de schema.
 - **HOLD_SECURITY**: não expor os seis objetos de `cko_governance` na API sem políticas de acesso adequadas; RLS desabilitado em schema interno não demonstra exposição pública. `ce_platform` com RLS true e 0 policies pode ser intencionalmente deny-by-default; não abrir acesso sem contrato.
 - **HOLD_HUMAN**: 0/2 SQL candidatos/seed aplicados; 0/24 ferramentas homologadas; 0 merges. Sem alteração de banco. Próxima ação: testes dinâmicos de MIME/body e análise de `change_audit_ledger` versus `ce_tool_audit`, matriz de grants e direitos de publicação.
+
+## Incremento 2026-11-15 10:53 BRT — charset estrito e crosswalk de auditoria
+
+- **PASS_COMMIT**: corrigido o regex do charset em `src/lib/ce-tools/security.ts` para aceitar `utf-8` ou `"utf-8"` com aspas balanceadas, rejeitando formas com aspas abertas/fechadas isoladamente. Commit [457f28317bc5c8608e20073545884cbe051398c8](https://github.com/IndiciumFIN/calculadorasdeenfermagem/commit/457f28317bc5c8608e20073545884cbe051398c8); blob `c99056e712d8b1dc2c1f0af812f8a4191b8620d8`.
+- **PASS_COMMIT**: teste estático de regressão no `tests/test_governed_tools.py` para o padrão estrito. Commit [eefe5f1c3f0cba4d8a2a580b063a5a60ad068ee1](https://github.com/IndiciumFIN/calculadorasdeenfermagem/commit/eefe5f1c3f0cba4d8a2a580b063a5a60ad068ee1); blob `b0350bbb14f3e6b70187d1f0eb4e55994de7ebc9`.
+- **PASS_DB_READONLY**: `SELECT` ao catálogo físico confirmou 14 colunas de `cko_governance.change_audit_ledger`, 8 de `ce_platform.clinical_tools` e 7 de `ce_platform.tool_profiles` (29/29 colunas dos três objetos). O ledger inclui `audit_uuid`, `change_request_id`, `schema_name`, `table_name`, `operation`, `row_identity`, `old_hash`, `new_hash`, `old_data`, `new_data`, `actor`, `session_actor`, `txid`, `changed_at`.
+- **HOLD_SEMANTIC**: o ledger físico oferece auditoria genérica de mutações, mas a mera existência de colunas de hash/identidade não demonstra semântica de eventos de publicação, revogação, autorização ou retenção; não substituir `ce_tool_audit` automaticamente. Avaliar regras de escrita, grants, políticas, triggers e minimização LGPD antes de decidir REUSE/EXTEND.
+- **NOT_RUN**: testes dinâmicos Python/TypeScript, CI e RLS negativo; commits são verificáveis, mas não constituem aprovação de deploy. **HOLD_HUMAN**: 0/2 SQL candidatos executados, 0/24 ferramentas homologadas, 0 migrations, 0 merges. Supabase sem alterações.
+- **Próxima ação**: executar testes negativos MIME/streaming e inspeção de triggers/grants/constraints do ledger por catálogo SELECT; comparar com `ce_tool_audit` por evento e não somente por campos.
+
+### Fingerprints incrementais 10:53
+| Objeto | Fingerprint | Status | Próxima ação |
+|---|---|---|---|
+| src/lib/ce-tools/security.ts | c99056e712d8b1dc2c1f0af812f8a4191b8620d8 | COMMITTED_NOT_RUN | teste MIME dinâmico |
+| tests/test_governed_tools.py | b0350bbb14f3e6b70187d1f0eb4e55994de7ebc9 | COMMITTED_NOT_RUN | Python CI |
+| cko_governance.change_audit_ledger | 14 colunas catálogo 2026-11-15 | REUSE_CANDIDATE_HOLD | grants/triggers e semântica |
+| ce_platform.clinical_tools | 8 colunas catálogo 2026-11-15 | REUSE_CANDIDATE | cruzamento ferramenta |
+| ce_platform.tool_profiles | 7 colunas catálogo 2026-11-15 | REUSE_CANDIDATE | cruzamento perfil |
