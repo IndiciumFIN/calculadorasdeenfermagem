@@ -1,0 +1,26 @@
+{
+  "release": "CKO_W7_CROSSWALK_CURRICULAR_v0.3.2",
+  "summary_integrity": {
+    "candidate_pairs": 27,
+    "unique_source_microtopics": 18,
+    "method_counts": {
+      "STRONG_LEXICAL_OVERLAP_CANDIDATE": 10,
+      "MODERATE_LEXICAL_OVERLAP_CANDIDATE": 16,
+      "NORMALIZED_TITLE_EXACT": 1
+    },
+    "target_type_counts": {
+      "W7_BASE_CURRICULUM_ITEM": 20,
+      "W7_CANONICAL_TOPIC_CANDIDATE": 3,
+      "W7_CURRICULAR_TITLE_CANDIDATE": 4
+    }
+  },
+  "local_qa": {
+    "passed": 20,
+    "failed": 0
+  },
+  "public_metadata_only": true,
+  "verified_offline_archive_sha256": "d31d8be9c19ef22595202289a116aabb292ec2e676a09bd5fb413ab0c4e2b15d",
+  "clinical_approved": false,
+  "rights_approved": false,
+  "publication_allowed": false
+}
