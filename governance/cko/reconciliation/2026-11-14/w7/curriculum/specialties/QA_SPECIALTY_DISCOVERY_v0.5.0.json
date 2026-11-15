@@ -1,0 +1,55 @@
+{
+  "version": "COFEN-581-W7-v0.5.0",
+  "date": "2026-11-15",
+  "source_document": "User supplied COFEN official page transcription and official Cofen web confirmation",
+  "source_sha256": "8bc4fd1cfef02f876cc40d4c2e8bd73fae1938719669088bbe39174cb93b49d9",
+  "normative_basis_url": "https://www.cofen.gov.br/resolucao-cofen-no-581-2018/",
+  "amendments_as_listed_on_official_page": [
+    "610/2019",
+    "625/2020",
+    "Decisão 065/2021",
+    "Decisão 120/2021",
+    "Decisão 263/2023",
+    "Decisão 264/2023",
+    "Decisão 21/2024"
+  ],
+  "latest_official_page_amendment_mentioned_year": 2024,
+  "new_changes_after_2024": "NOT_VERIFIED_AS_COMPLETE_UNTIL_FURTHER_OFFICIAL_DECISION_AUDIT",
+  "unit_of_count": "MAIN_ANNEX_LIST_ENTRIES_NOT_COURSE_OFFERS",
+  "areas": {
+    "I": 51,
+    "II": 6,
+    "III": 8
+  },
+  "main_specialty_entries": 65,
+  "subarea_lines": 80,
+  "original_superseded_duplicate_line_excluded": [
+    {
+      "text": "Enfermagem em Saúde do Trabalhador a. Saúde Ocupacional",
+      "reason": "superseded_duplicate_38_in_transcribed_page"
+    }
+  ],
+  "existing_programs_source": "CURRICULUM_PROGRAM_COVERAGE_114_v0.2.8.jsonl",
+  "existing_programs_n": 114,
+  "matched_main_entries_candidate": 30,
+  "main_entries_no_matching_code_in_prior_inventory": 35,
+  "status": "CANONICAL_SPECIALTY_DISCOVERY_INVENTORY_WITH_UNVERIFIED_COURSE_LINKS",
+  "QA": {
+    "method": "SOURCE_TEXT_PARSE_AND_RETRIEVED_GITHUB_CATALOG_COMPARISON",
+    "passed": 11,
+    "failed": 0,
+    "checks": {
+      "counts_51_6_8": true,
+      "total_65": true,
+      "subareas_80": true,
+      "one_duplicate_38_resolved": true,
+      "unique_specialty_keys": true,
+      "specialty_num_range": true,
+      "exact_114_source_programs": true,
+      "no_automatic_approval": true,
+      "rights_not_assumed": true,
+      "crosswalk_labeled_candidate": true,
+      "no_doubled_speciality": true
+    }
+  }
+}
