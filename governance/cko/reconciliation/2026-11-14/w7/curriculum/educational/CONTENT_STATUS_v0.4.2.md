@@ -24,11 +24,11 @@
 
 ## Artigos integrais
 
-- [oldpgr](curriculum/educational/articles/ARTIGO_GRO_PGR_PCMSO_v0.4.0.md) — 6549 caracteres
-- [oldbio](curriculum/educational/articles/ARTIGO_RISCO_BIOLOGICO_SERVICOS_SAUDE_v0.4.0.md) — 6229 caracteres
-- [sus](curriculum/educational/articles/ARTIGO_SUS_PNSTT_RENASTT_CEREST_v0.4.2.md) — 8424 caracteres
-- [visat](curriculum/educational/articles/ARTIGO_VISAT_SINAN_NOTIFICACAO_2026_v0.4.2.md) — 9393 caracteres
-- [erg](curriculum/educational/articles/ARTIGO_AEP_AET_RISCOS_PSICOSSOCIAIS_v0.4.2.md) — 9770 caracteres
+- [oldpgr](articles/ARTIGO_GRO_PGR_PCMSO_v0.4.0.md) — 6549 caracteres
+- [oldbio](articles/ARTIGO_RISCO_BIOLOGICO_SERVICOS_SAUDE_v0.4.0.md) — 6229 caracteres
+- [sus](articles/ARTIGO_SUS_PNSTT_RENASTT_CEREST_v0.4.2.md) — 8424 caracteres
+- [visat](articles/ARTIGO_VISAT_SINAN_NOTIFICACAO_2026_v0.4.2.md) — 9393 caracteres
+- [erg](articles/ARTIGO_AEP_AET_RISCOS_PSICOSSOCIAIS_v0.4.2.md) — 9770 caracteres
 
 ## Objetos reutilizáveis
 
