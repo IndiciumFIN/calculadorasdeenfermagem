@@ -1,0 +1,447 @@
+{
+  "schema_version": "1.0.0",
+  "release": "W7-v0.3.6",
+  "as_of": "2026-11-14",
+  "purpose": "Evidence-based structural disposition of 12 proposed curricular PART_OF links, independent normative subject support",
+  "prior_v034_matrix": "audit/PRIMARY_SCOPE_REVIEW_12_IDS_v0.3.4.jsonl",
+  "prior_v035_delta": "audit/EXTERNAL_SYLLABUS_DISCOVERY_DELTA_12_v0.3.5.json",
+  "parent_commit": "220c68fede7eb73962ff6f879c90f8bd0579e7d2",
+  "source_microtopic_registry": {
+    "library_filename": "microtopic_registry.csv",
+    "row_count": 1055,
+    "access": "owner-linked-library",
+    "note": "10 microtopic labels used solely for local audit crosswalk, not copy of source curriculum essays"
+  },
+  "baseline_curricular_source": "CURRICULAR_SOURCE_ITEM_ATOMS_985_v0.2.8.jsonl",
+  "dispositions": {
+    "HOLD_DISCIPLINE_SPECIFIC_SYLLABUS": 5,
+    "CLOSE_PART_OF_TYPE_MISMATCH": 5,
+    "CLOSE_PART_OF_NO_HIERARCHY_EVIDENCE": 2
+  },
+  "cohort_reconciliation": {
+    "scope": "A.C.Camargo/IBMEC same-titled MBA offerings",
+    "booklet_2026_1": {
+      "start": "2026-05-09",
+      "end": "2027-10-16",
+      "hours": 472,
+      "url": "https://ensino.accamargo.org.br/Custom/Content/Themes/Shared/E-Book/P%C3%B3s-Gradua%C3%A7%C3%B5es%202026.1/Caderno%20MBA%20Gest%C3%A3o%20V7.pdf"
+    },
+    "website_later_2026": {
+      "start": "2026-08-13",
+      "end": "2028-02-26",
+      "hours": 432,
+      "url": "https://ensino.accamargo.org.br/mba-gestao-em-saude-com-enfase-em-ambientes-complexos-p85"
+    },
+    "conclusion": "DIFFERENT_REPORTED_COHORT_START_DATES; HOURS_DISCREPANCY_IS_VERSION_SCOPED_NOT_PROOF_OF_SAME_COHORT_INCONSISTENCY",
+    "limits": "Neither offer is proven to be the same edition underlying W7 target record; PDF image capture 403; do not merge programs or hours"
+  },
+  "normative_source_registry": {
+    "LDRT-2024": {
+      "publisher": "Ministerio da Saude",
+      "title": "Portaria GM/MS 5674/2024 - LDRT",
+      "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2024/prt5674_05_11_2024.html",
+      "anchor": "Art. 423 §3 and Annex LXXX; Lista B Chapter I"
+    },
+    "NR-1": {
+      "publisher": "Ministerio do Trabalho e Emprego",
+      "title": "NR-1 - GRO/PGR",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/nr-1",
+      "anchor": "Chapter 1.5"
+    },
+    "NR-7": {
+      "publisher": "Ministerio do Trabalho e Emprego",
+      "title": "NR-7 - PCMSO",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/norma-regulamentadora-no-7-nr-7",
+      "anchor": "PCMSO"
+    },
+    "NR-17": {
+      "publisher": "Ministerio do Trabalho e Emprego",
+      "title": "NR-17 - Ergonomia",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/norma-regulamentadora-no-17-nr-17",
+      "anchor": "Ergonomic working conditions"
+    },
+    "NR-32": {
+      "publisher": "Ministerio do Trabalho e Emprego",
+      "title": "NR-32 - SST em serviços de saude",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/norma-regulamentadora-no-32-nr-32",
+      "anchor": "Chapter 32.1-32.2"
+    },
+    "COFEN-736": {
+      "publisher": "COFEN",
+      "title": "Resolucao Cofen 736/2024",
+      "url": "https://www.cofen.gov.br/resolucao-cofen-no-736-de-17-de-janeiro-de-2024/",
+      "anchor": "Arts. 2, 4, 8"
+    },
+    "CNE-2018": {
+      "publisher": "MEC/CNE",
+      "title": "Resolucao CNE/CES 1/2018",
+      "url": "https://portal.mec.gov.br/secretaria-de-regulacao-e-supervisao-da-educacao-superior-seres/323-secretarias-112877938/orgaos-vinculados-82187207/12899-pos-graduacao-normativos",
+      "anchor": "Lato sensu regulatory framework"
+    },
+    "LDA-9610": {
+      "publisher": "Presidencia da Republica",
+      "title": "Lei 9.610/1998",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l9610.htm",
+      "anchor": "Arts. 7, 8, 29, 46, 47"
+    }
+  },
+  "classification": [
+    {
+      "review_id": "W7-CUR-REV33-003",
+      "microtopic_id": "MICRO-WORK-00096",
+      "microtopic_label_from_user_owned_registry": "Causalidade em doenças relacionadas ao trabalho",
+      "target_id": "CURITEM-00139",
+      "target_label_from_w7_canonical_source_item": "Doenças Relacionadas ao Trabalho",
+      "target_record_type": "DISCIPLINE",
+      "program_id": "PG-PUCMG-WORK",
+      "prior_relation_proposal": "PART_OF",
+      "part_of_disposition": "HOLD_DISCIPLINE_SPECIFIC_SYLLABUS",
+      "structural_reason": "The target is a discipline/title candidate, but its exact delivered syllabus and microtopic inclusion are not proven",
+      "alternate_nonapproved_relation_hint": "DISCIPLINE_TITLE_TOPIC_CONTEXT",
+      "publisher": "PUCMG",
+      "third_party_specific_topic_evidence": "HISTORIC_SYLLABUS_DESCRIBES_BROAD_SUBJECT_NOT_CURRENT_MICROTOPIC",
+      "independent_normative_context_ids": [
+        "LDRT-2024"
+      ],
+      "normative_context_is_curricular_proof": false,
+      "original_12_matrix_unchanged": true,
+      "clinical_claim_approved": false,
+      "semantic_relation_approved": false,
+      "rights_to_republish_source_text": false,
+      "publication_allowed": false
+    },
+    {
+      "review_id": "W7-CUR-REV33-006",
+      "microtopic_id": "MICRO-WORK-00199",
+      "microtopic_label_from_user_owned_registry": "Toxicologia ocupacional",
+      "target_id": "CURITEM-00013",
+      "target_label_from_w7_canonical_source_item": "Ergonomia aplicada à Saúde do Trabalhador e Toxicologia Ocupacional",
+      "target_record_type": "DISCIPLINE",
+      "program_id": "PG-PUCPR-WORK",
+      "prior_relation_proposal": "PART_OF",
+      "part_of_disposition": "HOLD_DISCIPLINE_SPECIFIC_SYLLABUS",
+      "structural_reason": "The target is a discipline/title candidate, but its exact delivered syllabus and microtopic inclusion are not proven",
+      "alternate_nonapproved_relation_hint": "DISCIPLINE_TITLE_TOPIC_CONTEXT",
+      "publisher": "PUCPR",
+      "third_party_specific_topic_evidence": "TOPIC_PHRASE_EXPLICIT_IN_PUBLISHED_DISCIPLINE_TITLE_ONLY",
+      "independent_normative_context_ids": [
+        "NR-1",
+        "NR-17"
+      ],
+      "normative_context_is_curricular_proof": false,
+      "original_12_matrix_unchanged": true,
+      "clinical_claim_approved": false,
+      "semantic_relation_approved": false,
+      "rights_to_republish_source_text": false,
+      "publication_allowed": false
+    },
+    {
+      "review_id": "W7-CUR-REV33-007",
+      "microtopic_id": "MICRO-WORK-00363",
+      "microtopic_label_from_user_owned_registry": "Lista de Doenças Relacionadas ao Trabalho",
+      "target_id": "CURITEM-00139",
+      "target_label_from_w7_canonical_source_item": "Doenças Relacionadas ao Trabalho",
+      "target_record_type": "DISCIPLINE",
+      "program_id": "PG-PUCMG-WORK",
+      "prior_relation_proposal": "PART_OF",
+      "part_of_disposition": "HOLD_DISCIPLINE_SPECIFIC_SYLLABUS",
+      "structural_reason": "The target is a discipline/title candidate, but its exact delivered syllabus and microtopic inclusion are not proven",
+      "alternate_nonapproved_relation_hint": "DISCIPLINE_TITLE_TOPIC_CONTEXT",
+      "publisher": "PUCMG",
+      "third_party_specific_topic_evidence": "HISTORIC_SYLLABUS_DESCRIBES_BROAD_SUBJECT_NOT_CURRENT_MICROTOPIC",
+      "independent_normative_context_ids": [
+        "LDRT-2024"
+      ],
+      "normative_context_is_curricular_proof": false,
+      "original_12_matrix_unchanged": true,
+      "clinical_claim_approved": false,
+      "semantic_relation_approved": false,
+      "rights_to_republish_source_text": false,
+      "publication_allowed": false
+    },
+    {
+      "review_id": "W7-CUR-REV33-009",
+      "microtopic_id": "MICRO-WORK-00394",
+      "microtopic_label_from_user_owned_registry": "Doenças infecciosas relacionadas ao trabalho",
+      "target_id": "CURITEM-00139",
+      "target_label_from_w7_canonical_source_item": "Doenças Relacionadas ao Trabalho",
+      "target_record_type": "DISCIPLINE",
+      "program_id": "PG-PUCMG-WORK",
+      "prior_relation_proposal": "PART_OF",
+      "part_of_disposition": "HOLD_DISCIPLINE_SPECIFIC_SYLLABUS",
+      "structural_reason": "The target is a discipline/title candidate, but its exact delivered syllabus and microtopic inclusion are not proven",
+      "alternate_nonapproved_relation_hint": "DISCIPLINE_TITLE_TOPIC_CONTEXT",
+      "publisher": "PUCMG",
+      "third_party_specific_topic_evidence": "HISTORIC_SYLLABUS_DESCRIBES_BROAD_SUBJECT_NOT_CURRENT_MICROTOPIC",
+      "independent_normative_context_ids": [
+        "LDRT-2024",
+        "NR-32"
+      ],
+      "normative_context_is_curricular_proof": false,
+      "original_12_matrix_unchanged": true,
+      "clinical_claim_approved": false,
+      "semantic_relation_approved": false,
+      "rights_to_republish_source_text": false,
+      "publication_allowed": false
+    },
+    {
+      "review_id": "W7-CUR-REV33-012",
+      "microtopic_id": "MICRO-WORK-00449",
+      "microtopic_label_from_user_owned_registry": "Avaliação de riscos ocupacionais",
+      "target_id": "CURITEM-00396",
+      "target_label_from_w7_canonical_source_item": "Gestão de riscos ocupacionais",
+      "target_record_type": "PROGRAM_OBJECTIVE",
+      "program_id": "PG-SIRIO-WORKER",
+      "prior_relation_proposal": "PART_OF",
+      "part_of_disposition": "CLOSE_PART_OF_TYPE_MISMATCH",
+      "structural_reason": "A program objective/competency is not a curricular containment unit, hence MICROTOPIC PART_OF is incompatible with the declared target role",
+      "alternate_nonapproved_relation_hint": "ALIGNS_WITH_PROGRAM_OBJECTIVE_CANDIDATE",
+      "publisher": "SIRIO",
+      "third_party_specific_topic_evidence": "NO_EXACT_MICROTOPIC_SPAN_CONFIRMED",
+      "independent_normative_context_ids": [
+        "NR-1"
+      ],
+      "normative_context_is_curricular_proof": false,
+      "original_12_matrix_unchanged": true,
+      "clinical_claim_approved": false,
+      "semantic_relation_approved": false,
+      "rights_to_republish_source_text": false,
+      "publication_allowed": false
+    },
+    {
+      "review_id": "W7-CUR-REV33-013",
+      "microtopic_id": "MICRO-WORK-00558",
+      "microtopic_label_from_user_owned_registry": "Acolhimento do trabalhador",
+      "target_id": "TOPIC-CAND-ACOLHIMENTO-E-ESCUTA-DO-TRABALHADOR",
+      "target_label_from_w7_canonical_source_item": "Acolhimento e escuta do trabalhador",
+      "target_record_type": "CANONICAL_TOPIC_CANDIDATE",
+      "program_id": null,
+      "prior_relation_proposal": "PART_OF",
+      "part_of_disposition": "CLOSE_PART_OF_NO_HIERARCHY_EVIDENCE",
+      "structural_reason": "A topical label candidate is not proved to be a containing parent topic; label similarity alone cannot imply ontology hierarchy",
+      "alternate_nonapproved_relation_hint": "RELATED_TOPIC_CANDIDATE",
+      "publisher": "SIRIO",
+      "third_party_specific_topic_evidence": "NO_EXACT_MICROTOPIC_SPAN_CONFIRMED",
+      "independent_normative_context_ids": [
+        "COFEN-736"
+      ],
+      "normative_context_is_curricular_proof": false,
+      "original_12_matrix_unchanged": true,
+      "clinical_claim_approved": false,
+      "semantic_relation_approved": false,
+      "rights_to_republish_source_text": false,
+      "publication_allowed": false
+    },
+    {
+      "review_id": "W7-CUR-REV33-014",
+      "microtopic_id": "MICRO-WORK-00558",
+      "microtopic_label_from_user_owned_registry": "Acolhimento do trabalhador",
+      "target_id": "CURITEM-00405",
+      "target_label_from_w7_canonical_source_item": "Acolhimento e escuta do trabalhador",
+      "target_record_type": "PROGRAM_OBJECTIVE",
+      "program_id": "PG-SIRIO-WORKER",
+      "prior_relation_proposal": "PART_OF",
+      "part_of_disposition": "CLOSE_PART_OF_TYPE_MISMATCH",
+      "structural_reason": "A program objective/competency is not a curricular containment unit, hence MICROTOPIC PART_OF is incompatible with the declared target role",
+      "alternate_nonapproved_relation_hint": "ALIGNS_WITH_PROGRAM_OBJECTIVE_CANDIDATE",
+      "publisher": "SIRIO",
+      "third_party_specific_topic_evidence": "NO_EXACT_MICROTOPIC_SPAN_CONFIRMED",
+      "independent_normative_context_ids": [
+        "COFEN-736"
+      ],
+      "normative_context_is_curricular_proof": false,
+      "original_12_matrix_unchanged": true,
+      "clinical_claim_approved": false,
+      "semantic_relation_approved": false,
+      "rights_to_republish_source_text": false,
+      "publication_allowed": false
+    },
+    {
+      "review_id": "W7-CUR-REV33-020",
+      "microtopic_id": "MICRO-WORK-00605",
+      "microtopic_label_from_user_owned_registry": "Trauma musculoesquelético",
+      "target_id": "CKO-CUR-EXT-EIN-UE-EAD-2026-4BM-D06",
+      "target_label_from_w7_canonical_source_item": "Emergências e Trauma Musculoesquelético",
+      "target_record_type": "CURRICULAR_TITLE_CANDIDATE",
+      "program_id": null,
+      "prior_relation_proposal": "PART_OF",
+      "part_of_disposition": "HOLD_DISCIPLINE_SPECIFIC_SYLLABUS",
+      "structural_reason": "The target is a discipline/title candidate, but its exact delivered syllabus and microtopic inclusion are not proven",
+      "alternate_nonapproved_relation_hint": "DISCIPLINE_TITLE_TOPIC_CONTEXT",
+      "publisher": "EINSTEIN",
+      "third_party_specific_topic_evidence": "TOPIC_PHRASE_EXPLICIT_IN_PUBLISHED_DISCIPLINE_TITLE_ONLY",
+      "independent_normative_context_ids": [],
+      "normative_context_is_curricular_proof": false,
+      "original_12_matrix_unchanged": true,
+      "clinical_claim_approved": false,
+      "semantic_relation_approved": false,
+      "rights_to_republish_source_text": false,
+      "publication_allowed": false
+    },
+    {
+      "review_id": "W7-CUR-REV33-021",
+      "microtopic_id": "MICRO-WORK-00654",
+      "microtopic_label_from_user_owned_registry": "Planejamento estratégico em saúde ocupacional",
+      "target_id": "CURITEM-00967",
+      "target_label_from_w7_canonical_source_item": "Planejamento estratégico em saúde",
+      "target_record_type": "PROGRAM_COMPETENCY",
+      "program_id": "PG-ACC-COMPLEX-MGMT",
+      "prior_relation_proposal": "PART_OF",
+      "part_of_disposition": "CLOSE_PART_OF_TYPE_MISMATCH",
+      "structural_reason": "A program objective/competency is not a curricular containment unit, hence MICROTOPIC PART_OF is incompatible with the declared target role",
+      "alternate_nonapproved_relation_hint": "ALIGNS_WITH_PROGRAM_OBJECTIVE_CANDIDATE",
+      "publisher": "ACC",
+      "third_party_specific_topic_evidence": "NO_EXACT_MICROTOPIC_SPAN_CONFIRMED",
+      "independent_normative_context_ids": [
+        "NR-1",
+        "NR-7"
+      ],
+      "normative_context_is_curricular_proof": false,
+      "original_12_matrix_unchanged": true,
+      "clinical_claim_approved": false,
+      "semantic_relation_approved": false,
+      "rights_to_republish_source_text": false,
+      "publication_allowed": false
+    },
+    {
+      "review_id": "W7-CUR-REV33-022",
+      "microtopic_id": "MICRO-WORK-00654",
+      "microtopic_label_from_user_owned_registry": "Planejamento estratégico em saúde ocupacional",
+      "target_id": "CORE-STRATEGIC-PLANNING",
+      "target_label_from_w7_canonical_source_item": "Planejamento estratégico (genérico)",
+      "target_record_type": "CANONICAL_TOPIC_CANDIDATE",
+      "program_id": null,
+      "prior_relation_proposal": "PART_OF",
+      "part_of_disposition": "CLOSE_PART_OF_NO_HIERARCHY_EVIDENCE",
+      "structural_reason": "A topical label candidate is not proved to be a containing parent topic; label similarity alone cannot imply ontology hierarchy",
+      "alternate_nonapproved_relation_hint": "RELATED_TOPIC_CANDIDATE",
+      "publisher": "ACC",
+      "third_party_specific_topic_evidence": "NO_EXACT_MICROTOPIC_SPAN_CONFIRMED",
+      "independent_normative_context_ids": [
+        "NR-1",
+        "NR-7"
+      ],
+      "normative_context_is_curricular_proof": false,
+      "original_12_matrix_unchanged": true,
+      "clinical_claim_approved": false,
+      "semantic_relation_approved": false,
+      "rights_to_republish_source_text": false,
+      "publication_allowed": false
+    },
+    {
+      "review_id": "W7-CUR-REV33-026",
+      "microtopic_id": "MICRO-WORK-00788",
+      "microtopic_label_from_user_owned_registry": "Avaliação de aprendizagem",
+      "target_id": "CURITEM-00596",
+      "target_label_from_w7_canonical_source_item": "Avaliação do processo ensino-aprendizagem",
+      "target_record_type": "PROGRAM_OBJECTIVE",
+      "program_id": "PG-SANTA-TEACH",
+      "prior_relation_proposal": "PART_OF",
+      "part_of_disposition": "CLOSE_PART_OF_TYPE_MISMATCH",
+      "structural_reason": "A program objective/competency is not a curricular containment unit, hence MICROTOPIC PART_OF is incompatible with the declared target role",
+      "alternate_nonapproved_relation_hint": "ALIGNS_WITH_PROGRAM_OBJECTIVE_CANDIDATE",
+      "publisher": "SANTA",
+      "third_party_specific_topic_evidence": "NO_EXACT_MICROTOPIC_SPAN_CONFIRMED",
+      "independent_normative_context_ids": [],
+      "normative_context_is_curricular_proof": false,
+      "original_12_matrix_unchanged": true,
+      "clinical_claim_approved": false,
+      "semantic_relation_approved": false,
+      "rights_to_republish_source_text": false,
+      "publication_allowed": false
+    },
+    {
+      "review_id": "W7-CUR-REV33-027",
+      "microtopic_id": "MICRO-WORK-00829",
+      "microtopic_label_from_user_owned_registry": "Riscos ocupacionais dos trabalhadores da saúde",
+      "target_id": "CURITEM-00396",
+      "target_label_from_w7_canonical_source_item": "Gestão de riscos ocupacionais",
+      "target_record_type": "PROGRAM_OBJECTIVE",
+      "program_id": "PG-SIRIO-WORKER",
+      "prior_relation_proposal": "PART_OF",
+      "part_of_disposition": "CLOSE_PART_OF_TYPE_MISMATCH",
+      "structural_reason": "A program objective/competency is not a curricular containment unit, hence MICROTOPIC PART_OF is incompatible with the declared target role",
+      "alternate_nonapproved_relation_hint": "ALIGNS_WITH_PROGRAM_OBJECTIVE_CANDIDATE",
+      "publisher": "SIRIO",
+      "third_party_specific_topic_evidence": "NO_EXACT_MICROTOPIC_SPAN_CONFIRMED",
+      "independent_normative_context_ids": [
+        "NR-32",
+        "NR-1"
+      ],
+      "normative_context_is_curricular_proof": false,
+      "original_12_matrix_unchanged": true,
+      "clinical_claim_approved": false,
+      "semantic_relation_approved": false,
+      "rights_to_republish_source_text": false,
+      "publication_allowed": false
+    }
+  ],
+  "qa": {
+    "checks": [
+      {
+        "name": "12_rows",
+        "passed": true
+      },
+      {
+        "name": "10_registry_microtopics",
+        "passed": true
+      },
+      {
+        "name": "5_incompatible_target_role",
+        "passed": true
+      },
+      {
+        "name": "2_ontology_hierarchy_unproved",
+        "passed": true
+      },
+      {
+        "name": "5_discipline_needs_syllabus",
+        "passed": true
+      },
+      {
+        "name": "all_12_target_record_known",
+        "passed": true
+      },
+      {
+        "name": "no_semantic_approval",
+        "passed": true
+      },
+      {
+        "name": "no_clinical_approval",
+        "passed": true
+      },
+      {
+        "name": "no_publication",
+        "passed": true
+      },
+      {
+        "name": "normative_not_curricular_proof",
+        "passed": true
+      },
+      {
+        "name": "no_original_source_reproduction",
+        "passed": true
+      },
+      {
+        "name": "cohorts_explicitly_differ",
+        "passed": true
+      }
+    ],
+    "passed": 12,
+    "failed": 0,
+    "scope": "LOCAL_METADATA_ASSERTIONS_ONLY",
+    "github_actions_ci_run": false
+  },
+  "controls": {
+    "old_files_modified": false,
+    "original_985_atoms_unchanged": true,
+    "original_42_titles_unchanged": true,
+    "original_27_pairs_unchanged": true,
+    "main_merge_allowed": false,
+    "supabase_write_allowed": false,
+    "source_content_republication_allowed": false,
+    "independent_authored_educational_content_can_be_prepared": true,
+    "clinical_review_gate_preserved": true
+  },
+  "status": "NO_GO_CURRICULAR_PART_OF; 7_CLOSED_AS_UNSUPPORTED_RELATION_TYPE_OR_HIERARCHY; 5_HOLD_SOURCE_SYLLABUS"
+}
