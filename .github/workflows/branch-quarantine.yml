@@ -1,0 +1,26 @@
+name: Branch quarantine - canonical ref gate
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  authorize-ref:
+    name: branch-quarantine / authorize-ref
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout event revision only
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - name: Set up Node 22
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: '22'
+      - name: Validate branch selection (fail closed)
+        run: node scripts/verify-branch-quarantine.mjs --check-event
+      - name: Test tamper resistance and blocked refs
+        run: node --test scripts/verify-branch-quarantine.test.mjs

@@ -1,0 +1,196 @@
+{
+  "schemaVersion": "1.0.0",
+  "policyId": "CE-BRANCH-QUARANTINE-20261115",
+  "observedDate": "2026-11-15",
+  "statement": "Quarentena de refs; nao constitui autorizacao de exclusao ou homologacao",
+  "releaseGate": "HOLD_HUMAN",
+  "entries": [
+    {
+      "repository": "IndiciumFIN/dev-chatgpt-workspace",
+      "branch": "archivamento",
+      "observedSha": "87c537fea1825766b58d3a31d0328a69cbc77007",
+      "aheadByAtObservation": 0,
+      "status": "QUARANTINED_PENDING_DELETE",
+      "deletionGate": "DEPENDENCY_AUDIT_PENDING",
+      "prohibit": [
+        "source",
+        "base",
+        "merge",
+        "deploy",
+        "workflow",
+        "new-development"
+      ],
+      "historicalReadOnlyAllowed": true
+    },
+    {
+      "repository": "IndiciumFIN/dev-chatgpt-workspace",
+      "branch": "audit/ce-wave1-evidence-20261101",
+      "observedSha": "e6fc8f0178e617845fb55384557cd0dcb1becbf0",
+      "aheadByAtObservation": 0,
+      "status": "QUARANTINED_PENDING_DELETE",
+      "deletionGate": "DEPENDENCY_AUDIT_PENDING",
+      "prohibit": [
+        "source",
+        "base",
+        "merge",
+        "deploy",
+        "workflow",
+        "new-development"
+      ],
+      "historicalReadOnlyAllowed": true
+    },
+    {
+      "repository": "IndiciumFIN/dev-chatgpt-workspace",
+      "branch": "fix/ce-admin-e2e-hierarchy-20261101",
+      "observedSha": "4bc814577a21fd88eb33774e5bbfcf42fceea2e9",
+      "aheadByAtObservation": 0,
+      "status": "QUARANTINED_PENDING_DELETE",
+      "deletionGate": "DEPENDENCY_AUDIT_PENDING",
+      "prohibit": [
+        "source",
+        "base",
+        "merge",
+        "deploy",
+        "workflow",
+        "new-development"
+      ],
+      "historicalReadOnlyAllowed": true
+    },
+    {
+      "repository": "IndiciumFIN/dev-chatgpt-workspace",
+      "branch": "grook_10_26",
+      "observedSha": "2eacacafd95c106e58a33372ee96bc6a6442439f",
+      "aheadByAtObservation": 0,
+      "status": "QUARANTINED_PENDING_DELETE",
+      "deletionGate": "DEPENDENCY_AUDIT_PENDING",
+      "prohibit": [
+        "source",
+        "base",
+        "merge",
+        "deploy",
+        "workflow",
+        "new-development"
+      ],
+      "historicalReadOnlyAllowed": true
+    },
+    {
+      "repository": "IndiciumFIN/dev-chatgpt-workspace",
+      "branch": "integration/structural-overlay-20261101",
+      "observedSha": "621f73b5abde2dbb65818645c00d4821cbd3d061",
+      "aheadByAtObservation": 0,
+      "status": "QUARANTINED_PENDING_DELETE",
+      "deletionGate": "HOLD_REFERENCE_DEPENDENCIES",
+      "prohibit": [
+        "source",
+        "base",
+        "merge",
+        "deploy",
+        "workflow",
+        "new-development"
+      ],
+      "historicalReadOnlyAllowed": true
+    },
+    {
+      "repository": "IndiciumFIN/dev-chatgpt-workspace",
+      "branch": "planning",
+      "observedSha": "87c537fea1825766b58d3a31d0328a69cbc77007",
+      "aheadByAtObservation": 0,
+      "status": "QUARANTINED_PENDING_DELETE",
+      "deletionGate": "DEPENDENCY_AUDIT_PENDING",
+      "prohibit": [
+        "source",
+        "base",
+        "merge",
+        "deploy",
+        "workflow",
+        "new-development"
+      ],
+      "historicalReadOnlyAllowed": true
+    },
+    {
+      "repository": "IndiciumFIN/dev-chatgpt-workspace",
+      "branch": "review/grook-na-main",
+      "observedSha": "c4a6ee1f6f85d4c4f1b5438c906c2a627d744a8f",
+      "aheadByAtObservation": 0,
+      "status": "QUARANTINED_PENDING_DELETE",
+      "deletionGate": "DEPENDENCY_AUDIT_PENDING",
+      "prohibit": [
+        "source",
+        "base",
+        "merge",
+        "deploy",
+        "workflow",
+        "new-development"
+      ],
+      "historicalReadOnlyAllowed": true
+    },
+    {
+      "repository": "IndiciumFIN/calculadorasdeenfermagem",
+      "branch": "cursor/wf-v3",
+      "observedSha": "8056d08a35cfb7932933fa330d8c902e5a465710",
+      "aheadByAtObservation": 0,
+      "status": "QUARANTINED_PENDING_DELETE",
+      "deletionGate": "DEPENDENCY_AUDIT_PENDING",
+      "prohibit": [
+        "source",
+        "base",
+        "merge",
+        "deploy",
+        "workflow",
+        "new-development"
+      ],
+      "historicalReadOnlyAllowed": true
+    },
+    {
+      "repository": "IndiciumFIN/calculadorasdeenfermagem",
+      "branch": "staging/cko-migracao-2026-10-23",
+      "observedSha": "e0f62491b104f4a97c6025a6393cabc2e7ada30e",
+      "aheadByAtObservation": 0,
+      "status": "QUARANTINED_PENDING_DELETE",
+      "deletionGate": "DEPENDENCY_AUDIT_PENDING",
+      "prohibit": [
+        "source",
+        "base",
+        "merge",
+        "deploy",
+        "workflow",
+        "new-development"
+      ],
+      "historicalReadOnlyAllowed": true
+    },
+    {
+      "repository": "IndiciumFIN/calculadorasdeenfermagem-backup-20261031",
+      "branch": "cursor/wf-v3",
+      "observedSha": "8056d08a35cfb7932933fa330d8c902e5a465710",
+      "aheadByAtObservation": 0,
+      "status": "BACKUP_RETAINED",
+      "deletionGate": "BACKUP_RETENTION_HOLD",
+      "prohibit": [
+        "source",
+        "base",
+        "merge",
+        "deploy",
+        "workflow",
+        "new-development"
+      ],
+      "historicalReadOnlyAllowed": true
+    },
+    {
+      "repository": "IndiciumFIN/calculadorasdeenfermagem-backup-20261031",
+      "branch": "staging/cko-migracao-2026-10-23",
+      "observedSha": "e0f62491b104f4a97c6025a6393cabc2e7ada30e",
+      "aheadByAtObservation": 0,
+      "status": "BACKUP_RETAINED",
+      "deletionGate": "BACKUP_RETENTION_HOLD",
+      "prohibit": [
+        "source",
+        "base",
+        "merge",
+        "deploy",
+        "workflow",
+        "new-development"
+      ],
+      "historicalReadOnlyAllowed": true
+    }
+  ]
+}
