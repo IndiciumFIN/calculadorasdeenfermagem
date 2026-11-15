@@ -1,7 +1,7 @@
 # Saúde do Trabalhador no SUS: da PNSTT à Renastt e ao Cerest
 
 **Categoria:** artigo educacional autoral, versão W7 v0.4.2, elaborado em 15/11/2026.  
-**Estado:** candidato à revisão editorial e técnica; publicação clínica NÃO autorizada.
+**Estado:** HOLD_EDITORIAL / HOLD_CLINICAL_REVIEW / NO_GO_PUBLICATION. Publicação clínica não autorizada.
 
 ## Objetivos de aprendizagem
 
