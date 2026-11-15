@@ -1,0 +1,32 @@
+name: CE Migration-first Supabase provenance (NO SQL)
+on:
+  pull_request:
+    paths:
+      - "supabase/migrations/**"
+      - "docs/migration-crosswalk-supabase-ce-20261115.json"
+      - "scripts/check_supabase_migration_guard.py"
+      - "tests/test_supabase_migration_guard.py"
+      - ".github/workflows/ce-migration-provenance.yml"
+  push:
+    branches:
+      - audit/ce-supabase-migration-first-20261115
+permissions:
+  contents: read
+jobs:
+  source-integrity-only:
+    name: Offline tests / hold contracts
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - name: Python source integrity tests without database
+        run: python -m unittest discover -s tests -p 'test_supabase_migration_guard.py' -v
+      - name: Assert real migration guard refuses execution and remains HOLD
+        shell: bash
+        run: |
+          set +e
+          python scripts/check_supabase_migration_guard.py --report
+          code=$?
+          set -e
+          test "$code" -eq 2

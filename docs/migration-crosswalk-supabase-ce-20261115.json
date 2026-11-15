@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0.0",
+  "observed_at": "2026-11-15",
+  "mode": "READ_ONLY",
+  "authorization": "HOLD_HUMAN",
+  "target": {
+    "provider": "Supabase",
+    "project_ref": "pgsybzggewhinaniybiy",
+    "name": "Calculadoras-Smart",
+    "postgres_major": 17
+  },
+  "remote_history": {
+    "versions": 255,
+    "distinct_versions": 255,
+    "local_versions_registered": 0
+  },
+  "legacy_migrations": [
+    {
+      "name": "20261011000000_initial_schema.sql",
+      "git_blob_sha1": "ce36f6a26c622b6ae0079033205a9db8cf816e16",
+      "sha256": "32b8e5851b1b85ccfe397df1cddf305ee28bb0ec21bc175de7827a59c55d7a17",
+      "declared_public_tables": [
+        "public.normatives",
+        "public.atoms",
+        "public.calculators"
+      ],
+      "unconditional_public_read": true,
+      "decision": "HOLD_SEMANTIC_CROSSWALK"
+    },
+    {
+      "name": "20261011120000_registry.sql",
+      "git_blob_sha1": "6894efdd59b878f2e4eeacd56c7f84533efcf1ce",
+      "sha256": "88783d39a99c58f4e25a45838138390f583540de33b6a1927c165209018f4365",
+      "declared_public_tables": [
+        "public.registry"
+      ],
+      "unconditional_public_read": true,
+      "decision": "HOLD_SEMANTIC_CROSSWALK"
+    }
+  ],
+  "crosswalk": [
+    {
+      "legacy": "public.normatives",
+      "exact_physical_exists": false,
+      "canonical_candidates": [
+        "cko_governance.normative_reference_catalog",
+        "cko_evidence.sources"
+      ],
+      "status": "SIMILAR_NEEDS_PROOF",
+      "gap": "vigência, tipo/número/ano, jurisdição, fonte oficial, direito de uso e versão não são 1:1"
+    },
+    {
+      "legacy": "public.atoms",
+      "exact_physical_exists": false,
+      "canonical_candidates": [
+        "xlf_publication.content_atom",
+        "xlf_reg.evidence_atomic",
+        "calculadoras_de_enfermagem.document_atomization"
+      ],
+      "status": "SIMILAR_NEEDS_PROOF",
+      "gap": "átomo editorial, afirmação evidencial e ledger de atomização são entidades distintas; ausência de ligação normativa provada"
+    },
+    {
+      "legacy": "public.calculators",
+      "exact_physical_exists": false,
+      "canonical_candidates": [
+        "ce_platform.canonical_objects",
+        "ce_platform.clinical_tools",
+        "ce_platform.clinical_evidence_bindings"
+      ],
+      "status": "REUSE_EXISTING_CORE_NEEDS_BINDINGS",
+      "gap": "regras, entradas, fórmulas, evidências e gates clínicos por ferramenta não fechados"
+    },
+    {
+      "legacy": "public.registry",
+      "exact_physical_exists": false,
+      "canonical_candidates": [
+        "ce_platform.external_registry_bindings",
+        "ce_platform.source_mappings",
+        "xlf_reg.registry_item"
+      ],
+      "status": "SIMILAR_NEEDS_PROOF",
+      "gap": "hashes, Drive IDs, FIND, origem, status e contrato de identificação precisam de crosswalk"
+    }
+  ],
+  "snapshot_counts": {
+    "ce_platform.canonical_objects": 320,
+    "ce_platform.clinical_tools": 111,
+    "ce_platform.clinical_evidence_bindings": 0,
+    "ce_platform.source_mappings": 215,
+    "ce_platform.external_registry_bindings": 8,
+    "cko_governance.normative_reference_catalog": 362,
+    "cko_evidence.sources": 157,
+    "xlf_publication.content_atom": 108,
+    "xlf_reg.registry_item": 24,
+    "xlf_reg.evidence_atomic": 66
+  },
+  "controls": {
+    "existing_canonical_anon_select": false,
+    "legacy_public_select_using_true": true,
+    "remote_migration_delta": "UNKNOWN",
+    "approved_migrations": 0,
+    "write_to_db_permitted": false
+  }
+}
