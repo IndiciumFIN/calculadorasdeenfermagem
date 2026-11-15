@@ -3,8 +3,8 @@
 import hashlib, json, pathlib, re, sys
 
 ROOT=pathlib.Path(__file__).resolve().parents[1]
-CREATE=re.compile(r"\\bcreate\\s+table\\s+if\\s+not\\s+exists\\s+(public\\.[a-z_0-9]+)",re.I)
-POLICY=re.compile(r"\\bcreate\\s+policy\\b[\\s\\S]*?\\bfor\\s+select\\s+using\\s*\\(\\s*true\\s*\\)",re.I)
+CREATE=re.compile(r"\bcreate\s+table\s+if\s+not\s+exists\s+(public\.[a-z_0-9]+)",re.I)
+POLICY=re.compile(r"\bcreate\s+policy\b[\s\S]*?\bfor\s+select\s+using\s*\(\s*true\s*\)",re.I)
 
 class Hold(Exception): pass
 
@@ -19,10 +19,10 @@ def verify(root=ROOT):
         raise Hold('HOLD_MIGRATION_SET_DRIFT')
     for row in rows:
         name=row['name']
-        if not re.fullmatch(r'\\d{14}_[a-z0-9_]+\\.sql',name):raise Hold('HOLD_INVALID_MIGRATION_VERSION')
+        if not re.fullmatch(r'\d{14}_[a-z0-9_]+\.sql',name):raise Hold('HOLD_INVALID_MIGRATION_VERSION')
         src=(root/'supabase/migrations'/name).read_bytes()
         sha=hashlib.sha256(src).hexdigest()
-        git=hashlib.sha1(b'blob '+str(len(src)).encode()+b'\\0'+src).hexdigest()
+        git=hashlib.sha1(b'blob '+str(len(src)).encode()+b'\0'+src).hexdigest()
         if sha!=row['sha256'] or git!=row['git_blob_sha1']:raise Hold('HOLD_SOURCE_CHANGED: '+name)
         txt=src.decode('utf-8')
         if sorted(set(CREATE.findall(txt)))!=sorted(row['declared_public_tables']):
