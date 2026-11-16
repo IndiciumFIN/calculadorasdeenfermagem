@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:cko:pilot:clinical-claim-candidate:2026-11-14:p0",
+  "title": "ClinicalClaim candidato: bloqueado para promoção automática",
+  "description": "Contrato local do PILOTO, não substitui claim.schema.json canônico. IDs CLM preservados; crosswalk obrigatório.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "claim_id",
+    "source_evidence_atom_ids",
+    "assertion_paraphrase",
+    "population",
+    "setting",
+    "scope",
+    "exceptions",
+    "negations",
+    "status",
+    "clinical_reviewer_receipt_id",
+    "rights_id",
+    "clinical_release_allowed"
+  ],
+  "properties": {
+    "claim_id": {
+      "type": "string",
+      "pattern": "^CLM-[A-Z0-9-]+$",
+      "minLength": 1
+    },
+    "source_evidence_atom_ids": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "assertion_paraphrase": {
+      "type": "string",
+      "minLength": 1
+    },
+    "population": {
+      "type": "string"
+    },
+    "setting": {
+      "type": "string"
+    },
+    "scope": {
+      "type": "string"
+    },
+    "exceptions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "negations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "CANDIDATE",
+        "HOLD",
+        "OUT_OF_SCOPE"
+      ]
+    },
+    "clinical_reviewer_receipt_id": {
+      "type": "null"
+    },
+    "rights_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "clinical_release_allowed": {
+      "type": "boolean",
+      "const": false
+    }
+  }
+}

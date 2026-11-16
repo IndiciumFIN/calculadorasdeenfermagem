@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-11-14",
+  "status": "OFFLINE_TECHNICAL_PASS_CANONICAL_RELEASE_HOLD",
+  "pr": 63,
+  "repo": "IndiciumFIN/calculadorasdeenfermagem",
+  "base": "main",
+  "source": "User-supplied corrected P0 COFEN/COR pilot (private; originals not committed)",
+  "isolated_revalidation": {
+    "private_archive_sha256": "c364dcd10ad1ebb5831cb5ee8af001c1d67ead2cf3d61dcd2556f396ca5bbd05",
+    "full_archive_is_private": true,
+    "original_raw_files_unchanged": 16,
+    "metadata_acquisition_records": 16,
+    "additional_sanitization": [
+      {
+        "record": "BR-CORENSP-DEC-011-2025",
+        "removed_header": "ETag"
+      }
+    ],
+    "candidate_objects": 525,
+    "candidate_types": {
+      "evidence": 434,
+      "normative_atoms": 44,
+      "clinical_claims": 23,
+      "relations": 24
+    },
+    "schema_validation": "525/525 PASS",
+    "offline_gates_and_mutations": "24/24 PASS",
+    "network": "DISABLED_FROM_PROCESS_START",
+    "clinical_claims_approved": 0,
+    "publication_allowed": false
+  },
+  "github_checks": {
+    "commit": "c51bb5d2400d67a2602a5d44b624f9592fd97760",
+    "pilot_offline_tests": {
+      "run": 43606876259,
+      "conclusion": "success",
+      "synthetic_tests": "16/16 PASS"
+    },
+    "deterministic_pipeline": {
+      "run": 43606876139,
+      "conclusion": "success"
+    },
+    "ci_validation": {
+      "run": 43606876218,
+      "conclusion": "success"
+    },
+    "canonical_repository_invariants": {
+      "run": 43606876101,
+      "conclusion": "failure",
+      "reason": "MISSING_PARSER in existing source registry; fail-closed correctly",
+      "interpretation": "No bypass; no overall readiness claim"
+    }
+  },
+  "canonical_claim_crosswalk": {
+    "target_repo": "IndiciumFIN/dev-chatgpt-workspace",
+    "target_path": "contracts/cko-schemas/claim.schema.json",
+    "target_blob_sha": "ccbb2fa40953557b796205f880370dcffe638e71",
+    "target_draft": "2020-12",
+    "original_candidate_ids": 23,
+    "id_format": "CLM-*",
+    "status": "CANDIDATE",
+    "release_flag_false": 23,
+    "review_receipts_null": 23,
+    "required_fields": 13,
+    "fields_not_present_in_pilot": [
+      "schema_version",
+      "canonical_id",
+      "version",
+      "updated_at",
+      "provenance_refs",
+      "object_id",
+      "assertion_key",
+      "source_ids",
+      "binding_ids",
+      "jurisdiction",
+      "applicability",
+      "review"
+    ],
+    "semantic_mapping": "NOT_VERIFIED",
+    "auto_conversion_allowed": false,
+    "external_review": "HOLD_HUMAN",
+    "note": "Existing evidence refs and rights_id do not satisfy canonical source_ids/authority binding or clinical reviewer authority."
+  },
+  "additional_source_correction": {
+    "citation": "Lei 9.610/1998 art. 8º, IV (textos dos atos oficiais)",
+    "prior_reference": "art. 4º, III incorrect",
+    "rights_for_other_materials": "HOLD_OPERATION_SPECIFIC_RIGHTS"
+  },
+  "remaining_holds": [
+    "P0_CKO_CANONICAL_CLAIM_CROSSWALK",
+    "P0_EXTERNAL_RIGHTS_AND_REVOCATION_REVIEW",
+    "P0_G6_INDEPENDENT_HUMAN_WO",
+    "P0_FULL_E2E_INTEGRATION",
+    "P0_CANONICAL_PARSERS_MISSING",
+    "P0_PROD_RELEASE_NO_GO"
+  ],
+  "no_remote_data_changes": true
+}

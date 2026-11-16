@@ -2,7 +2,7 @@
   "schema": "CE-KERNEL-POLICY-1.0.0",
   "id": "KERNEL-POLICY-007",
   "name": "Vacinas CDC CVX",
-  "description": "Valida códigos CVX de vacinas do CDC",
+  "description": "CDC CVX flat-file: metadata only; no clinical inference, rights or publication without independent review",
   "source_contract": "contracts/fontes/vacinas_cdc.json",
   "validators": [
     "cvx_validator",
@@ -10,16 +10,18 @@
   ],
   "atoms_output": "data/canonical/atoms/vacinas/",
   "quarentena_output": "data/quarentena/vacinas/",
-  "sha256_required": false,
+  "sha256_required": true,
   "fail_closed": true,
-  "requires_human_review": false,
+  "requires_human_review": true,
   "review_policy": {
-    "min_sample_size": 0,
-    "approval_required": null,
-    "reviewed_by_in_commit": false
+    "min_sample_size": 1,
+    "approval_required": true,
+    "reviewed_by_in_commit": true
   },
-  "wo_required": false,
+  "wo_required": true,
   "wo_template": null,
-  "version": "1.0.0",
-  "updated_at": "2026-10-17T00:00:00Z"
+  "version": "1.1.0",
+  "updated_at": "2026-11-14T00:00:00Z",
+  "processing_scope": "CDC_CVX_METADATA_ONLY_PENDING_SOURCE_AND_RIGHTS",
+  "publication_allowed": false
 }

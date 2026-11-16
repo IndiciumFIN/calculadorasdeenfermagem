@@ -1,0 +1,82 @@
+{
+  "schema": "CE-CKO-COFEN-COR-PRIMARY-REVIEW-QUEUE-1.0.0",
+  "review_date": "2026-11-14",
+  "state": "HOLD_PRIMARY_SOURCE_HUMAN_RIGHTS",
+  "source_report": "pilots/cko-cofen-cor/evidence/P0_CLAIM_SOURCE_HOLD.v1.json",
+  "source_pr": 63,
+  "reported_candidate_claims": 23,
+  "primary_verified_claims": 0,
+  "official_urls_confirmed_as_webpages_only": true,
+  "authoritative_raw_artifacts_verified": false,
+  "source_artifact_hashes_verified": false,
+  "scope": "grouped documentary review queue, not 23 individually identified claims",
+  "no_claim_id_generation": true,
+  "documents": [
+    {
+      "document_version_id": "DOC-BR-COFEN-RES-429-2012",
+      "reported_claims": 4,
+      "official_primary_url": "https://www.cofen.gov.br/resoluo-cofen-n-4292012/",
+      "status": "REVOKED_HISTORICAL_ONLY",
+      "superseded_by": "DOC-BR-COFEN-RES-754-2024",
+      "source_artifact_sha256": null,
+      "locator_by_claim_verified": false,
+      "primary_fragment_receipt_id": null,
+      "rights_operation_review_receipt_id": null,
+      "clinical_reviewer_receipt_id": null,
+      "primary_verified_claims": 0,
+      "publication_allowed": false
+    },
+    {
+      "document_version_id": "DOC-BR-COFEN-RES-514-2016",
+      "reported_claims": 2,
+      "official_primary_url": "https://www.cofen.gov.br/resolucao-cofen-no-05142016/",
+      "status": "APPLICABILITY_UNREVIEWED",
+      "superseded_by": null,
+      "source_artifact_sha256": null,
+      "locator_by_claim_verified": false,
+      "primary_fragment_receipt_id": null,
+      "rights_operation_review_receipt_id": null,
+      "clinical_reviewer_receipt_id": null,
+      "primary_verified_claims": 0,
+      "publication_allowed": false
+    },
+    {
+      "document_version_id": "DOC-BR-COFEN-RES-736-2024",
+      "reported_claims": 9,
+      "official_primary_url": "https://www.cofen.gov.br/resolucao-cofen-no-736-de-17-de-janeiro-de-2024/",
+      "status": "APPLICABILITY_UNREVIEWED",
+      "superseded_by": null,
+      "source_artifact_sha256": null,
+      "locator_by_claim_verified": false,
+      "primary_fragment_receipt_id": null,
+      "rights_operation_review_receipt_id": null,
+      "clinical_reviewer_receipt_id": null,
+      "primary_verified_claims": 0,
+      "publication_allowed": false
+    },
+    {
+      "document_version_id": "DOC-BR-COFEN-RES-754-2024",
+      "reported_claims": 8,
+      "official_primary_url": "https://www.cofen.gov.br/resolucao-cofen-no-754-de-16-de-maio-de-2024/",
+      "status": "APPLICABILITY_UNREVIEWED",
+      "superseded_by": null,
+      "source_artifact_sha256": null,
+      "locator_by_claim_verified": false,
+      "primary_fragment_receipt_id": null,
+      "rights_operation_review_receipt_id": null,
+      "clinical_reviewer_receipt_id": null,
+      "primary_verified_claims": 0,
+      "publication_allowed": false
+    }
+  ],
+  "mandatory_next_steps": [
+    "Fetch, custody and hash the authoritative official artifact for each exact version, without checking in protected full text",
+    "Match each private claim legacy ID to the exact official section/article and compare source fragment bytes or human-reviewed transcriptions",
+    "Record independent provenance evidence, legal applicability, rights by operation and reviewer identity in an independently governed ledger",
+    "Do not auto-promote a historical 429/2012 claim, auto-generate canonical IDs or infer rights from the official webpage",
+    "Only separately approved signed/independent receipts may authorize promotion; static queue and synthetic tests do not"
+  ],
+  "publication_allowed": false,
+  "clinical_release_allowed": false,
+  "reviewer_receipts_present": false
+}

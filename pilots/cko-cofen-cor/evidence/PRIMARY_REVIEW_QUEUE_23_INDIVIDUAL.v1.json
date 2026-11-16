@@ -1,0 +1,917 @@
+{
+  "schema": "CE-CKO-PRIMARY-CLAIM-QUEUE-1.0.0",
+  "created_on": "2026-11-14",
+  "source_library_file_id": "file_00000000f1b0820e8a607885fa70d79b",
+  "source_file_name": "P0_CKO_CLAIM_RIGHTS_CROSSWALK_23.csv",
+  "source_csv_original_bytes_sha256": null,
+  "source_csv_original_bytes_verified": false,
+  "original_identifiers_reused": true,
+  "invented_canonical_claim_ids": 0,
+  "reported_claim_count": 23,
+  "unique_evidence_ids": 20,
+  "primary_verified_count": 0,
+  "canonical_admission_count": 0,
+  "independent_reviewer_receipts_count": 0,
+  "publication_allowed": false,
+  "clinical_release_allowed": false,
+  "note": "Existing legacy IDs and evidence references transcribed from the Library crosswalk; not an official primary source, license, legal applicability or clinical verification. Original CSV byte integrity and all fragment/source bindings still require independent verification.",
+  "claims": [
+    {
+      "legacy_claim_id": "CLM-429-001",
+      "evidence_atom_ids": [
+        "EV-DOC-BR-COFEN-RES-429-2012-6bc314b952fd890d"
+      ],
+      "document_version_id": "DOC-BR-COFEN-RES-429-2012",
+      "official_primary_url": "https://www.cofen.gov.br/resoluo-cofen-n-4292012/",
+      "source_id": "SRC-BR-COFEN",
+      "source_level_rights_reference": "RTS-SRC-BR-COFEN",
+      "source_ledger": {
+        "text_extraction": "APPROVED",
+        "public_excerpt": "PENDING",
+        "redistribution": "DENIED",
+        "legal_independent_approval": false
+      },
+      "historical_only": true,
+      "source_artifact_sha256": null,
+      "fragment_primary_verified": false,
+      "canonical_claim_id": null,
+      "original_missing_canonical_fields": [
+        "schema_version",
+        "canonical_id",
+        "version",
+        "updated_at",
+        "provenance_refs",
+        "object_id",
+        "assertion_key",
+        "source_ids",
+        "binding_ids",
+        "jurisdiction",
+        "applicability",
+        "review"
+      ],
+      "independent_source_receipt_id": null,
+      "normative_reviewer_receipt_id": null,
+      "clinical_reviewer_receipt_id": null,
+      "publication_allowed": false,
+      "status": "HOLD_PRIMARY_EVIDENCE_AND_RIGHTS"
+    },
+    {
+      "legacy_claim_id": "CLM-429-002",
+      "evidence_atom_ids": [
+        "EV-DOC-BR-COFEN-RES-429-2012-fea14de64bcd673a"
+      ],
+      "document_version_id": "DOC-BR-COFEN-RES-429-2012",
+      "official_primary_url": "https://www.cofen.gov.br/resoluo-cofen-n-4292012/",
+      "source_id": "SRC-BR-COFEN",
+      "source_level_rights_reference": "RTS-SRC-BR-COFEN",
+      "source_ledger": {
+        "text_extraction": "APPROVED",
+        "public_excerpt": "PENDING",
+        "redistribution": "DENIED",
+        "legal_independent_approval": false
+      },
+      "historical_only": true,
+      "source_artifact_sha256": null,
+      "fragment_primary_verified": false,
+      "canonical_claim_id": null,
+      "original_missing_canonical_fields": [
+        "schema_version",
+        "canonical_id",
+        "version",
+        "updated_at",
+        "provenance_refs",
+        "object_id",
+        "assertion_key",
+        "source_ids",
+        "binding_ids",
+        "jurisdiction",
+        "applicability",
+        "review"
+      ],
+      "independent_source_receipt_id": null,
+      "normative_reviewer_receipt_id": null,
+      "clinical_reviewer_receipt_id": null,
+      "publication_allowed": false,
+      "status": "HOLD_PRIMARY_EVIDENCE_AND_RIGHTS"
+    },
+    {
+      "legacy_claim_id": "CLM-429-003",
+      "evidence_atom_ids": [
+        "EV-DOC-BR-COFEN-RES-429-2012-a6ecf70a17ffa2fe"
+      ],
+      "document_version_id": "DOC-BR-COFEN-RES-429-2012",
+      "official_primary_url": "https://www.cofen.gov.br/resoluo-cofen-n-4292012/",
+      "source_id": "SRC-BR-COFEN",
+      "source_level_rights_reference": "RTS-SRC-BR-COFEN",
+      "source_ledger": {
+        "text_extraction": "APPROVED",
+        "public_excerpt": "PENDING",
+        "redistribution": "DENIED",
+        "legal_independent_approval": false
+      },
+      "historical_only": true,
+      "source_artifact_sha256": null,
+      "fragment_primary_verified": false,
+      "canonical_claim_id": null,
+      "original_missing_canonical_fields": [
+        "schema_version",
+        "canonical_id",
+        "version",
+        "updated_at",
+        "provenance_refs",
+        "object_id",
+        "assertion_key",
+        "source_ids",
+        "binding_ids",
+        "jurisdiction",
+        "applicability",
+        "review"
+      ],
+      "independent_source_receipt_id": null,
+      "normative_reviewer_receipt_id": null,
+      "clinical_reviewer_receipt_id": null,
+      "publication_allowed": false,
+      "status": "HOLD_PRIMARY_EVIDENCE_AND_RIGHTS"
+    },
+    {
+      "legacy_claim_id": "CLM-429-004",
+      "evidence_atom_ids": [
+        "EV-DOC-BR-COFEN-RES-429-2012-8faa8a7f1d0e09fd"
+      ],
+      "document_version_id": "DOC-BR-COFEN-RES-429-2012",
+      "official_primary_url": "https://www.cofen.gov.br/resoluo-cofen-n-4292012/",
+      "source_id": "SRC-BR-COFEN",
+      "source_level_rights_reference": "RTS-SRC-BR-COFEN",
+      "source_ledger": {
+        "text_extraction": "APPROVED",
+        "public_excerpt": "PENDING",
+        "redistribution": "DENIED",
+        "legal_independent_approval": false
+      },
+      "historical_only": true,
+      "source_artifact_sha256": null,
+      "fragment_primary_verified": false,
+      "canonical_claim_id": null,
+      "original_missing_canonical_fields": [
+        "schema_version",
+        "canonical_id",
+        "version",
+        "updated_at",
+        "provenance_refs",
+        "object_id",
+        "assertion_key",
+        "source_ids",
+        "binding_ids",
+        "jurisdiction",
+        "applicability",
+        "review"
+      ],
+      "independent_source_receipt_id": null,
+      "normative_reviewer_receipt_id": null,
+      "clinical_reviewer_receipt_id": null,
+      "publication_allowed": false,
+      "status": "HOLD_PRIMARY_EVIDENCE_AND_RIGHTS"
+    },
+    {
+      "legacy_claim_id": "CLM-514-001",
+      "evidence_atom_ids": [
+        "EV-DOC-BR-COFEN-RES-514-2016-2cc4f6ad3cc251fc"
+      ],
+      "document_version_id": "DOC-BR-COFEN-RES-514-2016",
+      "official_primary_url": "https://www.cofen.gov.br/resolucao-cofen-no-05142016/",
+      "source_id": "SRC-BR-COFEN",
+      "source_level_rights_reference": "RTS-SRC-BR-COFEN",
+      "source_ledger": {
+        "text_extraction": "APPROVED",
+        "public_excerpt": "PENDING",
+        "redistribution": "DENIED",
+        "legal_independent_approval": false
+      },
+      "historical_only": false,
+      "source_artifact_sha256": null,
+      "fragment_primary_verified": false,
+      "canonical_claim_id": null,
+      "original_missing_canonical_fields": [
+        "schema_version",
+        "canonical_id",
+        "version",
+        "updated_at",
+        "provenance_refs",
+        "object_id",
+        "assertion_key",
+        "source_ids",
+        "binding_ids",
+        "jurisdiction",
+        "applicability",
+        "review"
+      ],
+      "independent_source_receipt_id": null,
+      "normative_reviewer_receipt_id": null,
+      "clinical_reviewer_receipt_id": null,
+      "publication_allowed": false,
+      "status": "HOLD_PRIMARY_EVIDENCE_AND_RIGHTS"
+    },
+    {
+      "legacy_claim_id": "CLM-514-002",
+      "evidence_atom_ids": [
+        "EV-DOC-BR-COFEN-RES-514-2016-bb3785ef62c732d6"
+      ],
+      "document_version_id": "DOC-BR-COFEN-RES-514-2016",
+      "official_primary_url": "https://www.cofen.gov.br/resolucao-cofen-no-05142016/",
+      "source_id": "SRC-BR-COFEN",
+      "source_level_rights_reference": "RTS-SRC-BR-COFEN",
+      "source_ledger": {
+        "text_extraction": "APPROVED",
+        "public_excerpt": "PENDING",
+        "redistribution": "DENIED",
+        "legal_independent_approval": false
+      },
+      "historical_only": false,
+      "source_artifact_sha256": null,
+      "fragment_primary_verified": false,
+      "canonical_claim_id": null,
+      "original_missing_canonical_fields": [
+        "schema_version",
+        "canonical_id",
+        "version",
+        "updated_at",
+        "provenance_refs",
+        "object_id",
+        "assertion_key",
+        "source_ids",
+        "binding_ids",
+        "jurisdiction",
+        "applicability",
+        "review"
+      ],
+      "independent_source_receipt_id": null,
+      "normative_reviewer_receipt_id": null,
+      "clinical_reviewer_receipt_id": null,
+      "publication_allowed": false,
+      "status": "HOLD_PRIMARY_EVIDENCE_AND_RIGHTS"
+    },
+    {
+      "legacy_claim_id": "CLM-736-001",
+      "evidence_atom_ids": [
+        "EV-DOC-BR-COFEN-RES-736-2024-7870362072d62008"
+      ],
+      "document_version_id": "DOC-BR-COFEN-RES-736-2024",
+      "official_primary_url": "https://www.cofen.gov.br/resolucao-cofen-no-736-de-17-de-janeiro-de-2024/",
+      "source_id": "SRC-BR-COFEN",
+      "source_level_rights_reference": "RTS-SRC-BR-COFEN",
+      "source_ledger": {
+        "text_extraction": "APPROVED",
+        "public_excerpt": "PENDING",
+        "redistribution": "DENIED",
+        "legal_independent_approval": false
+      },
+      "historical_only": false,
+      "source_artifact_sha256": null,
+      "fragment_primary_verified": false,
+      "canonical_claim_id": null,
+      "original_missing_canonical_fields": [
+        "schema_version",
+        "canonical_id",
+        "version",
+        "updated_at",
+        "provenance_refs",
+        "object_id",
+        "assertion_key",
+        "source_ids",
+        "binding_ids",
+        "jurisdiction",
+        "applicability",
+        "review"
+      ],
+      "independent_source_receipt_id": null,
+      "normative_reviewer_receipt_id": null,
+      "clinical_reviewer_receipt_id": null,
+      "publication_allowed": false,
+      "status": "HOLD_PRIMARY_EVIDENCE_AND_RIGHTS"
+    },
+    {
+      "legacy_claim_id": "CLM-736-002",
+      "evidence_atom_ids": [
+        "EV-DOC-BR-COFEN-RES-736-2024-83098f8ee37c1e42"
+      ],
+      "document_version_id": "DOC-BR-COFEN-RES-736-2024",
+      "official_primary_url": "https://www.cofen.gov.br/resolucao-cofen-no-736-de-17-de-janeiro-de-2024/",
+      "source_id": "SRC-BR-COFEN",
+      "source_level_rights_reference": "RTS-SRC-BR-COFEN",
+      "source_ledger": {
+        "text_extraction": "APPROVED",
+        "public_excerpt": "PENDING",
+        "redistribution": "DENIED",
+        "legal_independent_approval": false
+      },
+      "historical_only": false,
+      "source_artifact_sha256": null,
+      "fragment_primary_verified": false,
+      "canonical_claim_id": null,
+      "original_missing_canonical_fields": [
+        "schema_version",
+        "canonical_id",
+        "version",
+        "updated_at",
+        "provenance_refs",
+        "object_id",
+        "assertion_key",
+        "source_ids",
+        "binding_ids",
+        "jurisdiction",
+        "applicability",
+        "review"
+      ],
+      "independent_source_receipt_id": null,
+      "normative_reviewer_receipt_id": null,
+      "clinical_reviewer_receipt_id": null,
+      "publication_allowed": false,
+      "status": "HOLD_PRIMARY_EVIDENCE_AND_RIGHTS"
+    },
+    {
+      "legacy_claim_id": "CLM-736-003",
+      "evidence_atom_ids": [
+        "EV-DOC-BR-COFEN-RES-736-2024-83098f8ee37c1e42"
+      ],
+      "document_version_id": "DOC-BR-COFEN-RES-736-2024",
+      "official_primary_url": "https://www.cofen.gov.br/resolucao-cofen-no-736-de-17-de-janeiro-de-2024/",
+      "source_id": "SRC-BR-COFEN",
+      "source_level_rights_reference": "RTS-SRC-BR-COFEN",
+      "source_ledger": {
+        "text_extraction": "APPROVED",
+        "public_excerpt": "PENDING",
+        "redistribution": "DENIED",
+        "legal_independent_approval": false
+      },
+      "historical_only": false,
+      "source_artifact_sha256": null,
+      "fragment_primary_verified": false,
+      "canonical_claim_id": null,
+      "original_missing_canonical_fields": [
+        "schema_version",
+        "canonical_id",
+        "version",
+        "updated_at",
+        "provenance_refs",
+        "object_id",
+        "assertion_key",
+        "source_ids",
+        "binding_ids",
+        "jurisdiction",
+        "applicability",
+        "review"
+      ],
+      "independent_source_receipt_id": null,
+      "normative_reviewer_receipt_id": null,
+      "clinical_reviewer_receipt_id": null,
+      "publication_allowed": false,
+      "status": "HOLD_PRIMARY_EVIDENCE_AND_RIGHTS"
+    },
+    {
+      "legacy_claim_id": "CLM-736-004",
+      "evidence_atom_ids": [
+        "EV-DOC-BR-COFEN-RES-736-2024-9c18dfd98b0a92dd"
+      ],
+      "document_version_id": "DOC-BR-COFEN-RES-736-2024",
+      "official_primary_url": "https://www.cofen.gov.br/resolucao-cofen-no-736-de-17-de-janeiro-de-2024/",
+      "source_id": "SRC-BR-COFEN",
+      "source_level_rights_reference": "RTS-SRC-BR-COFEN",
+      "source_ledger": {
+        "text_extraction": "APPROVED",
+        "public_excerpt": "PENDING",
+        "redistribution": "DENIED",
+        "legal_independent_approval": false
+      },
+      "historical_only": false,
+      "source_artifact_sha256": null,
+      "fragment_primary_verified": false,
+      "canonical_claim_id": null,
+      "original_missing_canonical_fields": [
+        "schema_version",
+        "canonical_id",
+        "version",
+        "updated_at",
+        "provenance_refs",
+        "object_id",
+        "assertion_key",
+        "source_ids",
+        "binding_ids",
+        "jurisdiction",
+        "applicability",
+        "review"
+      ],
+      "independent_source_receipt_id": null,
+      "normative_reviewer_receipt_id": null,
+      "clinical_reviewer_receipt_id": null,
+      "publication_allowed": false,
+      "status": "HOLD_PRIMARY_EVIDENCE_AND_RIGHTS"
+    },
+    {
+      "legacy_claim_id": "CLM-736-005",
+      "evidence_atom_ids": [
+        "EV-DOC-BR-COFEN-RES-736-2024-97c3c6a82fb54ddb"
+      ],
+      "document_version_id": "DOC-BR-COFEN-RES-736-2024",
+      "official_primary_url": "https://www.cofen.gov.br/resolucao-cofen-no-736-de-17-de-janeiro-de-2024/",
+      "source_id": "SRC-BR-COFEN",
+      "source_level_rights_reference": "RTS-SRC-BR-COFEN",
+      "source_ledger": {
+        "text_extraction": "APPROVED",
+        "public_excerpt": "PENDING",
+        "redistribution": "DENIED",
+        "legal_independent_approval": false
+      },
+      "historical_only": false,
+      "source_artifact_sha256": null,
+      "fragment_primary_verified": false,
+      "canonical_claim_id": null,
+      "original_missing_canonical_fields": [
+        "schema_version",
+        "canonical_id",
+        "version",
+        "updated_at",
+        "provenance_refs",
+        "object_id",
+        "assertion_key",
+        "source_ids",
+        "binding_ids",
+        "jurisdiction",
+        "applicability",
+        "review"
+      ],
+      "independent_source_receipt_id": null,
+      "normative_reviewer_receipt_id": null,
+      "clinical_reviewer_receipt_id": null,
+      "publication_allowed": false,
+      "status": "HOLD_PRIMARY_EVIDENCE_AND_RIGHTS"
+    },
+    {
+      "legacy_claim_id": "CLM-736-006",
+      "evidence_atom_ids": [
+        "EV-DOC-BR-COFEN-RES-736-2024-70ab84440754adaa"
+      ],
+      "document_version_id": "DOC-BR-COFEN-RES-736-2024",
+      "official_primary_url": "https://www.cofen.gov.br/resolucao-cofen-no-736-de-17-de-janeiro-de-2024/",
+      "source_id": "SRC-BR-COFEN",
+      "source_level_rights_reference": "RTS-SRC-BR-COFEN",
+      "source_ledger": {
+        "text_extraction": "APPROVED",
+        "public_excerpt": "PENDING",
+        "redistribution": "DENIED",
+        "legal_independent_approval": false
+      },
+      "historical_only": false,
+      "source_artifact_sha256": null,
+      "fragment_primary_verified": false,
+      "canonical_claim_id": null,
+      "original_missing_canonical_fields": [
+        "schema_version",
+        "canonical_id",
+        "version",
+        "updated_at",
+        "provenance_refs",
+        "object_id",
+        "assertion_key",
+        "source_ids",
+        "binding_ids",
+        "jurisdiction",
+        "applicability",
+        "review"
+      ],
+      "independent_source_receipt_id": null,
+      "normative_reviewer_receipt_id": null,
+      "clinical_reviewer_receipt_id": null,
+      "publication_allowed": false,
+      "status": "HOLD_PRIMARY_EVIDENCE_AND_RIGHTS"
+    },
+    {
+      "legacy_claim_id": "CLM-736-007",
+      "evidence_atom_ids": [
+        "EV-DOC-BR-COFEN-RES-736-2024-607c33f8d242e4be"
+      ],
+      "document_version_id": "DOC-BR-COFEN-RES-736-2024",
+      "official_primary_url": "https://www.cofen.gov.br/resolucao-cofen-no-736-de-17-de-janeiro-de-2024/",
+      "source_id": "SRC-BR-COFEN",
+      "source_level_rights_reference": "RTS-SRC-BR-COFEN",
+      "source_ledger": {
+        "text_extraction": "APPROVED",
+        "public_excerpt": "PENDING",
+        "redistribution": "DENIED",
+        "legal_independent_approval": false
+      },
+      "historical_only": false,
+      "source_artifact_sha256": null,
+      "fragment_primary_verified": false,
+      "canonical_claim_id": null,
+      "original_missing_canonical_fields": [
+        "schema_version",
+        "canonical_id",
+        "version",
+        "updated_at",
+        "provenance_refs",
+        "object_id",
+        "assertion_key",
+        "source_ids",
+        "binding_ids",
+        "jurisdiction",
+        "applicability",
+        "review"
+      ],
+      "independent_source_receipt_id": null,
+      "normative_reviewer_receipt_id": null,
+      "clinical_reviewer_receipt_id": null,
+      "publication_allowed": false,
+      "status": "HOLD_PRIMARY_EVIDENCE_AND_RIGHTS"
+    },
+    {
+      "legacy_claim_id": "CLM-736-008",
+      "evidence_atom_ids": [
+        "EV-DOC-BR-COFEN-RES-736-2024-e061f9800483692e"
+      ],
+      "document_version_id": "DOC-BR-COFEN-RES-736-2024",
+      "official_primary_url": "https://www.cofen.gov.br/resolucao-cofen-no-736-de-17-de-janeiro-de-2024/",
+      "source_id": "SRC-BR-COFEN",
+      "source_level_rights_reference": "RTS-SRC-BR-COFEN",
+      "source_ledger": {
+        "text_extraction": "APPROVED",
+        "public_excerpt": "PENDING",
+        "redistribution": "DENIED",
+        "legal_independent_approval": false
+      },
+      "historical_only": false,
+      "source_artifact_sha256": null,
+      "fragment_primary_verified": false,
+      "canonical_claim_id": null,
+      "original_missing_canonical_fields": [
+        "schema_version",
+        "canonical_id",
+        "version",
+        "updated_at",
+        "provenance_refs",
+        "object_id",
+        "assertion_key",
+        "source_ids",
+        "binding_ids",
+        "jurisdiction",
+        "applicability",
+        "review"
+      ],
+      "independent_source_receipt_id": null,
+      "normative_reviewer_receipt_id": null,
+      "clinical_reviewer_receipt_id": null,
+      "publication_allowed": false,
+      "status": "HOLD_PRIMARY_EVIDENCE_AND_RIGHTS"
+    },
+    {
+      "legacy_claim_id": "CLM-736-009",
+      "evidence_atom_ids": [
+        "EV-DOC-BR-COFEN-RES-736-2024-638ce09398e342d6"
+      ],
+      "document_version_id": "DOC-BR-COFEN-RES-736-2024",
+      "official_primary_url": "https://www.cofen.gov.br/resolucao-cofen-no-736-de-17-de-janeiro-de-2024/",
+      "source_id": "SRC-BR-COFEN",
+      "source_level_rights_reference": "RTS-SRC-BR-COFEN",
+      "source_ledger": {
+        "text_extraction": "APPROVED",
+        "public_excerpt": "PENDING",
+        "redistribution": "DENIED",
+        "legal_independent_approval": false
+      },
+      "historical_only": false,
+      "source_artifact_sha256": null,
+      "fragment_primary_verified": false,
+      "canonical_claim_id": null,
+      "original_missing_canonical_fields": [
+        "schema_version",
+        "canonical_id",
+        "version",
+        "updated_at",
+        "provenance_refs",
+        "object_id",
+        "assertion_key",
+        "source_ids",
+        "binding_ids",
+        "jurisdiction",
+        "applicability",
+        "review"
+      ],
+      "independent_source_receipt_id": null,
+      "normative_reviewer_receipt_id": null,
+      "clinical_reviewer_receipt_id": null,
+      "publication_allowed": false,
+      "status": "HOLD_PRIMARY_EVIDENCE_AND_RIGHTS"
+    },
+    {
+      "legacy_claim_id": "CLM-754-001",
+      "evidence_atom_ids": [
+        "EV-DOC-BR-COFEN-RES-754-2024-487764db14e9b993"
+      ],
+      "document_version_id": "DOC-BR-COFEN-RES-754-2024",
+      "official_primary_url": "https://www.cofen.gov.br/resolucao-cofen-no-754-de-16-de-maio-de-2024/",
+      "source_id": "SRC-BR-COFEN",
+      "source_level_rights_reference": "RTS-SRC-BR-COFEN",
+      "source_ledger": {
+        "text_extraction": "APPROVED",
+        "public_excerpt": "PENDING",
+        "redistribution": "DENIED",
+        "legal_independent_approval": false
+      },
+      "historical_only": false,
+      "source_artifact_sha256": null,
+      "fragment_primary_verified": false,
+      "canonical_claim_id": null,
+      "original_missing_canonical_fields": [
+        "schema_version",
+        "canonical_id",
+        "version",
+        "updated_at",
+        "provenance_refs",
+        "object_id",
+        "assertion_key",
+        "source_ids",
+        "binding_ids",
+        "jurisdiction",
+        "applicability",
+        "review"
+      ],
+      "independent_source_receipt_id": null,
+      "normative_reviewer_receipt_id": null,
+      "clinical_reviewer_receipt_id": null,
+      "publication_allowed": false,
+      "status": "HOLD_PRIMARY_EVIDENCE_AND_RIGHTS"
+    },
+    {
+      "legacy_claim_id": "CLM-754-002",
+      "evidence_atom_ids": [
+        "EV-DOC-BR-COFEN-RES-754-2024-956f9eb947eb8935"
+      ],
+      "document_version_id": "DOC-BR-COFEN-RES-754-2024",
+      "official_primary_url": "https://www.cofen.gov.br/resolucao-cofen-no-754-de-16-de-maio-de-2024/",
+      "source_id": "SRC-BR-COFEN",
+      "source_level_rights_reference": "RTS-SRC-BR-COFEN",
+      "source_ledger": {
+        "text_extraction": "APPROVED",
+        "public_excerpt": "PENDING",
+        "redistribution": "DENIED",
+        "legal_independent_approval": false
+      },
+      "historical_only": false,
+      "source_artifact_sha256": null,
+      "fragment_primary_verified": false,
+      "canonical_claim_id": null,
+      "original_missing_canonical_fields": [
+        "schema_version",
+        "canonical_id",
+        "version",
+        "updated_at",
+        "provenance_refs",
+        "object_id",
+        "assertion_key",
+        "source_ids",
+        "binding_ids",
+        "jurisdiction",
+        "applicability",
+        "review"
+      ],
+      "independent_source_receipt_id": null,
+      "normative_reviewer_receipt_id": null,
+      "clinical_reviewer_receipt_id": null,
+      "publication_allowed": false,
+      "status": "HOLD_PRIMARY_EVIDENCE_AND_RIGHTS"
+    },
+    {
+      "legacy_claim_id": "CLM-754-003",
+      "evidence_atom_ids": [
+        "EV-DOC-BR-COFEN-RES-754-2024-956f9eb947eb8935"
+      ],
+      "document_version_id": "DOC-BR-COFEN-RES-754-2024",
+      "official_primary_url": "https://www.cofen.gov.br/resolucao-cofen-no-754-de-16-de-maio-de-2024/",
+      "source_id": "SRC-BR-COFEN",
+      "source_level_rights_reference": "RTS-SRC-BR-COFEN",
+      "source_ledger": {
+        "text_extraction": "APPROVED",
+        "public_excerpt": "PENDING",
+        "redistribution": "DENIED",
+        "legal_independent_approval": false
+      },
+      "historical_only": false,
+      "source_artifact_sha256": null,
+      "fragment_primary_verified": false,
+      "canonical_claim_id": null,
+      "original_missing_canonical_fields": [
+        "schema_version",
+        "canonical_id",
+        "version",
+        "updated_at",
+        "provenance_refs",
+        "object_id",
+        "assertion_key",
+        "source_ids",
+        "binding_ids",
+        "jurisdiction",
+        "applicability",
+        "review"
+      ],
+      "independent_source_receipt_id": null,
+      "normative_reviewer_receipt_id": null,
+      "clinical_reviewer_receipt_id": null,
+      "publication_allowed": false,
+      "status": "HOLD_PRIMARY_EVIDENCE_AND_RIGHTS"
+    },
+    {
+      "legacy_claim_id": "CLM-754-004",
+      "evidence_atom_ids": [
+        "EV-DOC-BR-COFEN-RES-754-2024-956f9eb947eb8935"
+      ],
+      "document_version_id": "DOC-BR-COFEN-RES-754-2024",
+      "official_primary_url": "https://www.cofen.gov.br/resolucao-cofen-no-754-de-16-de-maio-de-2024/",
+      "source_id": "SRC-BR-COFEN",
+      "source_level_rights_reference": "RTS-SRC-BR-COFEN",
+      "source_ledger": {
+        "text_extraction": "APPROVED",
+        "public_excerpt": "PENDING",
+        "redistribution": "DENIED",
+        "legal_independent_approval": false
+      },
+      "historical_only": false,
+      "source_artifact_sha256": null,
+      "fragment_primary_verified": false,
+      "canonical_claim_id": null,
+      "original_missing_canonical_fields": [
+        "schema_version",
+        "canonical_id",
+        "version",
+        "updated_at",
+        "provenance_refs",
+        "object_id",
+        "assertion_key",
+        "source_ids",
+        "binding_ids",
+        "jurisdiction",
+        "applicability",
+        "review"
+      ],
+      "independent_source_receipt_id": null,
+      "normative_reviewer_receipt_id": null,
+      "clinical_reviewer_receipt_id": null,
+      "publication_allowed": false,
+      "status": "HOLD_PRIMARY_EVIDENCE_AND_RIGHTS"
+    },
+    {
+      "legacy_claim_id": "CLM-754-005",
+      "evidence_atom_ids": [
+        "EV-DOC-BR-COFEN-RES-754-2024-07bad0e4c5d36f08"
+      ],
+      "document_version_id": "DOC-BR-COFEN-RES-754-2024",
+      "official_primary_url": "https://www.cofen.gov.br/resolucao-cofen-no-754-de-16-de-maio-de-2024/",
+      "source_id": "SRC-BR-COFEN",
+      "source_level_rights_reference": "RTS-SRC-BR-COFEN",
+      "source_ledger": {
+        "text_extraction": "APPROVED",
+        "public_excerpt": "PENDING",
+        "redistribution": "DENIED",
+        "legal_independent_approval": false
+      },
+      "historical_only": false,
+      "source_artifact_sha256": null,
+      "fragment_primary_verified": false,
+      "canonical_claim_id": null,
+      "original_missing_canonical_fields": [
+        "schema_version",
+        "canonical_id",
+        "version",
+        "updated_at",
+        "provenance_refs",
+        "object_id",
+        "assertion_key",
+        "source_ids",
+        "binding_ids",
+        "jurisdiction",
+        "applicability",
+        "review"
+      ],
+      "independent_source_receipt_id": null,
+      "normative_reviewer_receipt_id": null,
+      "clinical_reviewer_receipt_id": null,
+      "publication_allowed": false,
+      "status": "HOLD_PRIMARY_EVIDENCE_AND_RIGHTS"
+    },
+    {
+      "legacy_claim_id": "CLM-754-006",
+      "evidence_atom_ids": [
+        "EV-DOC-BR-COFEN-RES-754-2024-230f754d48b73bd5"
+      ],
+      "document_version_id": "DOC-BR-COFEN-RES-754-2024",
+      "official_primary_url": "https://www.cofen.gov.br/resolucao-cofen-no-754-de-16-de-maio-de-2024/",
+      "source_id": "SRC-BR-COFEN",
+      "source_level_rights_reference": "RTS-SRC-BR-COFEN",
+      "source_ledger": {
+        "text_extraction": "APPROVED",
+        "public_excerpt": "PENDING",
+        "redistribution": "DENIED",
+        "legal_independent_approval": false
+      },
+      "historical_only": false,
+      "source_artifact_sha256": null,
+      "fragment_primary_verified": false,
+      "canonical_claim_id": null,
+      "original_missing_canonical_fields": [
+        "schema_version",
+        "canonical_id",
+        "version",
+        "updated_at",
+        "provenance_refs",
+        "object_id",
+        "assertion_key",
+        "source_ids",
+        "binding_ids",
+        "jurisdiction",
+        "applicability",
+        "review"
+      ],
+      "independent_source_receipt_id": null,
+      "normative_reviewer_receipt_id": null,
+      "clinical_reviewer_receipt_id": null,
+      "publication_allowed": false,
+      "status": "HOLD_PRIMARY_EVIDENCE_AND_RIGHTS"
+    },
+    {
+      "legacy_claim_id": "CLM-754-007",
+      "evidence_atom_ids": [
+        "EV-DOC-BR-COFEN-RES-754-2024-5dd03cf1b01b1dc4"
+      ],
+      "document_version_id": "DOC-BR-COFEN-RES-754-2024",
+      "official_primary_url": "https://www.cofen.gov.br/resolucao-cofen-no-754-de-16-de-maio-de-2024/",
+      "source_id": "SRC-BR-COFEN",
+      "source_level_rights_reference": "RTS-SRC-BR-COFEN",
+      "source_ledger": {
+        "text_extraction": "APPROVED",
+        "public_excerpt": "PENDING",
+        "redistribution": "DENIED",
+        "legal_independent_approval": false
+      },
+      "historical_only": false,
+      "source_artifact_sha256": null,
+      "fragment_primary_verified": false,
+      "canonical_claim_id": null,
+      "original_missing_canonical_fields": [
+        "schema_version",
+        "canonical_id",
+        "version",
+        "updated_at",
+        "provenance_refs",
+        "object_id",
+        "assertion_key",
+        "source_ids",
+        "binding_ids",
+        "jurisdiction",
+        "applicability",
+        "review"
+      ],
+      "independent_source_receipt_id": null,
+      "normative_reviewer_receipt_id": null,
+      "clinical_reviewer_receipt_id": null,
+      "publication_allowed": false,
+      "status": "HOLD_PRIMARY_EVIDENCE_AND_RIGHTS"
+    },
+    {
+      "legacy_claim_id": "CLM-754-008",
+      "evidence_atom_ids": [
+        "EV-DOC-BR-COFEN-RES-754-2024-901ea97c51c1abb8"
+      ],
+      "document_version_id": "DOC-BR-COFEN-RES-754-2024",
+      "official_primary_url": "https://www.cofen.gov.br/resolucao-cofen-no-754-de-16-de-maio-de-2024/",
+      "source_id": "SRC-BR-COFEN",
+      "source_level_rights_reference": "RTS-SRC-BR-COFEN",
+      "source_ledger": {
+        "text_extraction": "APPROVED",
+        "public_excerpt": "PENDING",
+        "redistribution": "DENIED",
+        "legal_independent_approval": false
+      },
+      "historical_only": false,
+      "source_artifact_sha256": null,
+      "fragment_primary_verified": false,
+      "canonical_claim_id": null,
+      "original_missing_canonical_fields": [
+        "schema_version",
+        "canonical_id",
+        "version",
+        "updated_at",
+        "provenance_refs",
+        "object_id",
+        "assertion_key",
+        "source_ids",
+        "binding_ids",
+        "jurisdiction",
+        "applicability",
+        "review"
+      ],
+      "independent_source_receipt_id": null,
+      "normative_reviewer_receipt_id": null,
+      "clinical_reviewer_receipt_id": null,
+      "publication_allowed": false,
+      "status": "HOLD_PRIMARY_EVIDENCE_AND_RIGHTS"
+    }
+  ]
+}

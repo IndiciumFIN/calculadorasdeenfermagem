@@ -2,7 +2,7 @@
   "schema": "CE-KERNEL-POLICY-1.0.0",
   "id": "KERNEL-POLICY-004",
   "name": "CID-11 Classificação",
-  "description": "Valida códigos CID-11 da OMS",
+  "description": "WHO ICD-11 MMS versioned JSON-LD entity: metadata-only candidate; verify source, licence and human approval before any publication",
   "source_contract": "contracts/fontes/cid11.json",
   "validators": [
     "cid11_validator",
@@ -10,16 +10,18 @@
   ],
   "atoms_output": "data/canonical/atoms/cid11/",
   "quarentena_output": "data/quarentena/cid11/",
-  "sha256_required": false,
+  "sha256_required": true,
   "fail_closed": true,
-  "requires_human_review": false,
+  "requires_human_review": true,
   "review_policy": {
-    "min_sample_size": 0,
-    "approval_required": null,
-    "reviewed_by_in_commit": false
+    "min_sample_size": 1,
+    "approval_required": true,
+    "reviewed_by_in_commit": true
   },
-  "wo_required": false,
+  "wo_required": true,
   "wo_template": null,
-  "version": "1.0.0",
-  "updated_at": "2026-10-17T00:00:00Z"
+  "version": "1.1.0",
+  "updated_at": "2026-11-14T00:00:00Z",
+  "processing_scope": "ICD11_MMS_JSONLD_METADATA_ONLY_PENDING_WHO_RIGHTS_AND_REVIEW",
+  "publication_allowed": false
 }

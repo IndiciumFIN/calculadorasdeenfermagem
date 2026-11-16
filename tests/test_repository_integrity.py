@@ -24,6 +24,7 @@ class CanonicalIntegrityTests(unittest.TestCase):
             "source_contract": "contracts/fontes/cofen_dou.json",
             "kernel_policy_id": "KERNEL-POLICY-001",
             "parser": "packages/cli/adapters/dou.py",
+            "validators": ["atomo_schema_validator"],
         }
         self.policy_data = {
             "id": "KERNEL-POLICY-001",
@@ -65,6 +66,32 @@ class CanonicalIntegrityTests(unittest.TestCase):
 
     def test_reject_policy_without_validator(self):
         self.policy_data["validators"] = []
+        self._save()
+        self.assertIn("POLICY_NO_VALIDATORS", self.codes())
+
+    def test_source_validator_must_be_canonical_list(self):
+        self.source_data["validators"] = "atomo_schema_validator"
+        self._save()
+        self.assertIn("SOURCE_VALIDATOR_SCHEMA", self.codes())
+
+    def test_source_policy_validator_parity_is_exact(self):
+        self.source_data["validators"] = ["atomo_schema_validator", "unknown_validator"]
+        self._save()
+        self.assertIn("SOURCE_VALIDATOR_POLICY_DRIFT", self.codes())
+
+    def test_extra_required_policy_validator_is_not_ignored(self):
+        self.policy_data["validators"] = ["atomo_schema_validator", "url_validator"]
+        self._save()
+        self.assertIn("SOURCE_VALIDATOR_POLICY_DRIFT", self.codes())
+
+    def test_valid_canonical_validator_names_may_contain_digits(self):
+        self.source_data["validators"] = ["cid10_validator", "cid11_validator"]
+        self.policy_data["validators"] = ["cid10_validator", "cid11_validator"]
+        self._save()
+        self.assertTrue(inspect(self.root)["structural_pass"])
+
+    def test_reject_duplicate_policy_validator_references(self):
+        self.policy_data["validators"] = ["atomo_schema_validator", "atomo_schema_validator"]
         self._save()
         self.assertIn("POLICY_NO_VALIDATORS", self.codes())
 
