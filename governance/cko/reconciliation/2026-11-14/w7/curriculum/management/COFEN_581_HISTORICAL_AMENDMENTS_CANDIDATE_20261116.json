@@ -1,0 +1,143 @@
+{
+  "schema_version": "1.0.0",
+  "title": "COFEN 581/2018 — matriz de alterações históricas e pendências de reconciliação",
+  "checked_at": "2026-11-16",
+  "issue": 74,
+  "pr": 70,
+  "baseline_main_specialties": 65,
+  "baseline_subareas": 80,
+  "primary_source": "https://www.cofen.gov.br/resolucao-cofen-no-581-2018/",
+  "independent_corrob": "https://www.cofen.gov.br/parecer-n-16-2026-camaras-tecnicas-de-emfermagem/",
+  "status": "CANDIDATE_NOT_APPLIED",
+  "instruments": [
+    {
+      "id": "COFEN-581-2018",
+      "type": "RESOLUTION_BASE",
+      "year": "2018",
+      "status": "BASE",
+      "subject": "Anexo das especialidades e áreas I/II/III",
+      "source_url": "https://www.cofen.gov.br/resolucao-cofen-no-581-2018/",
+      "source_type": "COFEN_OFFICIAL_CONSOLIDATED_HEADER",
+      "source_checked": "2026-11-16",
+      "direct_act_text_verified": false,
+      "source_locator": "Cabeçalho e referências a alterações da Resolução 581/2018",
+      "rights_status": "LINK_AND_METADATA_ONLY",
+      "canonical_taxonomy_mutation": false
+    },
+    {
+      "id": "COFEN-610-2019",
+      "type": "AMENDING_RESOLUTION",
+      "year": "2019",
+      "status": "LISTED_AS_AMENDMENT",
+      "subject": "Alteração indicada no cabeçalho oficial, impacto granular a conferir",
+      "source_url": "https://www.cofen.gov.br/resolucao-cofen-no-581-2018/",
+      "source_type": "COFEN_OFFICIAL_CONSOLIDATED_HEADER",
+      "source_checked": "2026-11-16",
+      "direct_act_text_verified": false,
+      "source_locator": "Cabeçalho e referências a alterações da Resolução 581/2018",
+      "rights_status": "LINK_AND_METADATA_ONLY",
+      "canonical_taxonomy_mutation": false
+    },
+    {
+      "id": "COFEN-625-2020",
+      "type": "AMENDING_RESOLUTION",
+      "year": "2020",
+      "status": "LISTED_AS_AMENDMENT",
+      "subject": "Alteração da Resolução 581, alcance artigo a artigo a conferir",
+      "source_url": "https://www.cofen.gov.br/resolucao-cofen-no-581-2018/",
+      "source_type": "COFEN_OFFICIAL_CONSOLIDATED_HEADER",
+      "source_checked": "2026-11-16",
+      "direct_act_text_verified": false,
+      "source_locator": "Cabeçalho e referências a alterações da Resolução 581/2018",
+      "rights_status": "LINK_AND_METADATA_ONLY",
+      "canonical_taxonomy_mutation": false
+    },
+    {
+      "id": "COFEN-DEC-065-2021",
+      "type": "SPECIALTY_DECISION",
+      "year": "2021",
+      "status": "RECOGNITION_CANDIDATE",
+      "subject": "Enfermagem Nuclear",
+      "source_url": "https://www.cofen.gov.br/resolucao-cofen-no-581-2018/",
+      "source_type": "COFEN_OFFICIAL_CONSOLIDATED_HEADER",
+      "source_checked": "2026-11-16",
+      "direct_act_text_verified": false,
+      "source_locator": "Cabeçalho e referências a alterações da Resolução 581/2018",
+      "rights_status": "LINK_AND_METADATA_ONLY",
+      "canonical_taxonomy_mutation": false
+    },
+    {
+      "id": "COFEN-DEC-120-2021",
+      "type": "SPECIALTY_DECISION",
+      "year": "2021",
+      "status": "RECOGNITION_CANDIDATE",
+      "subject": "Bases Epistemológicas e Filosóficas da Enfermagem (Área III)",
+      "source_url": "https://www.cofen.gov.br/resolucao-cofen-no-581-2018/",
+      "source_type": "COFEN_OFFICIAL_CONSOLIDATED_HEADER",
+      "source_checked": "2026-11-16",
+      "direct_act_text_verified": false,
+      "source_locator": "Cabeçalho e referências a alterações da Resolução 581/2018",
+      "rights_status": "LINK_AND_METADATA_ONLY",
+      "canonical_taxonomy_mutation": false
+    },
+    {
+      "id": "COFEN-DEC-263-2023",
+      "type": "SPECIALTY_DECISION",
+      "year": "2023",
+      "status": "RECOGNITION_CANDIDATE",
+      "subject": "Podiatria Clínica (Área I)",
+      "source_url": "https://www.cofen.gov.br/resolucao-cofen-no-581-2018/",
+      "source_type": "COFEN_OFFICIAL_CONSOLIDATED_HEADER",
+      "source_checked": "2026-11-16",
+      "direct_act_text_verified": false,
+      "source_locator": "Cabeçalho e referências a alterações da Resolução 581/2018",
+      "rights_status": "LINK_AND_METADATA_ONLY",
+      "canonical_taxonomy_mutation": false
+    },
+    {
+      "id": "COFEN-DEC-264-2023",
+      "type": "SPECIALTY_DECISION",
+      "year": "2023",
+      "status": "RECOGNITION_CANDIDATE",
+      "subject": "Especialização em Reabilitação (Área I)",
+      "source_url": "https://www.cofen.gov.br/resolucao-cofen-no-581-2018/",
+      "source_type": "COFEN_OFFICIAL_CONSOLIDATED_HEADER",
+      "source_checked": "2026-11-16",
+      "direct_act_text_verified": false,
+      "source_locator": "Cabeçalho e referências a alterações da Resolução 581/2018",
+      "rights_status": "LINK_AND_METADATA_ONLY",
+      "canonical_taxonomy_mutation": false
+    },
+    {
+      "id": "COFEN-DEC-021-2024",
+      "type": "SPECIALTY_DECISION",
+      "year": "2024",
+      "status": "RECOGNITION_CANDIDATE",
+      "subject": "História da Enfermagem (Área III)",
+      "source_url": "https://www.cofen.gov.br/resolucao-cofen-no-581-2018/",
+      "source_type": "COFEN_OFFICIAL_CONSOLIDATED_HEADER",
+      "source_checked": "2026-11-16",
+      "direct_act_text_verified": false,
+      "source_locator": "Cabeçalho e referências a alterações da Resolução 581/2018",
+      "rights_status": "LINK_AND_METADATA_ONLY",
+      "canonical_taxonomy_mutation": false
+    }
+  ],
+  "validation": {
+    "count": 8,
+    "all_have_official_source": true,
+    "all_unverified_full_text": true,
+    "no_taxonomy_mutations": true
+  },
+  "holds": [
+    "HOLD_SOURCE_FULL_ACT_FOR_EACH_AMENDMENT",
+    "HOLD_HUMAN_TAXONOMY_DELTA_65_80",
+    "HOLD_RIGHTS_FOR_TEXT_REUSE"
+  ],
+  "next_actions": [
+    "Read each primary act, verify legal effectiveness and full-text differences",
+    "Compare every historical amendment with the existing 65/80 snapshot by stable ID",
+    "Record additions, renames and overlaps as candidates without changing canonical rows",
+    "Submit reviewed delta for approval; continue unrelated curriculum discovery"
+  ]
+}
