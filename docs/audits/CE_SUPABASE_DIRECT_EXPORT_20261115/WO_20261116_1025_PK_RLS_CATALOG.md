@@ -31,3 +31,26 @@
 - Banco: 0 DDL, 0 DML, 0 migrations, 0 seeds; rollback de banco não aplicável.
 - Código: apenas documentação; reversão por revert do commit documental se necessário.
 - Progresso global: não aferível de modo auditável. Inventário de 678 relações não implica prontidão operacional.
+
+## Atualização 2026-11-16 10:59 BRT — privilégios efetivos por papel (SELECT only)
+
+- Fonte: consulta direta ao projeto `pgsybzggewhinaniybiy` usando `pg_class`, `pg_namespace`, `has_table_privilege` e `has_schema_privilege`. Escopo: tabelas ordinárias/particionadas (`relkind IN ('r','p')`) dos dois schemas.
+- PR #73 HEAD observado antes da atualização: `efebef2660fd8d181549adc20db9c3b041342ecd`; base `main` `e0f62491b104f4a97c6025a6393cabc2e7ada30e`; aberta, draft, não mesclada.
+- Fingerprint lógico desta observação: `pgsybzggewhinaniybiy|2026-11-16|ce_platform:96:anon_select=0:auth_select=0:anon_write=0:auth_write=0:anon_usage=false:auth_usage=false|cko_governance:88:anon_select=0:auth_select=0:anon_write=0:auth_write=0:anon_usage=false:auth_usage=false`. Não representa hash criptográfico individual.
+ 
+| Schema | Tabelas | anon SELECT | authenticated SELECT | anon qualquer INSERT/UPDATE/DELETE | authenticated qualquer INSERT/UPDATE/DELETE | anon USAGE schema | authenticated USAGE schema |
+|---|---:|---:|---:|---:|---:|---|---|
+| ce_platform | 96 | 0 | 0 | 0 | 0 | false | false |
+| cko_governance | 88 | 0 | 0 | 0 | 0 | false | false |
+
+**PASS (verificação de grants de tabela e USAGE de schema):** 184/184 tabelas sem privilégios diretos SELECT ou escrita para `anon` e `authenticated` na consulta, e ambos os schemas sem USAGE para esses papéis. Isso reduz o risco de acesso direto por esses dois papéis, mas **não** prova segurança fim a fim: verificar schemas expostos via PostgREST, views/funções SECURITY DEFINER, grants indiretos via roles herdadas, service_role, endpoints e testes dinâmicos. A consulta `has_table_privilege` considera privilégios efetivos do papel avaliado, incluindo herança aplicável; a análise de outras identidades permanece pendente.
+
+**HOLD_SECURITY:** 85 tabelas `cko_governance` continuam sem RLS e 65 tabelas dos dois schemas têm RLS sem políticas; não alterar automaticamente, pois ausência de grants pode ser intenção de isolamento. **NOT_RUN:** testes de endpoint e CI nesta atualização. **HOLD_HUMAN:** alterações de grants/RLS, publicação e merge.
+
+### Delta no programa e próxima ação
+- Controle de privilégio direto/effective por papel em tabelas examinadas: **184/184** (somente anon/authenticated; PASS para ausência de grants); demais papéis e caminhos de acesso: **não aferidos**.
+- PK estrutural: **184/184** (sem mudança). Homologação semântica por objeto: **0/184**.
+- Ferramentas clínicas homologadas: **0/24**; contratos homologados: **0/20** (não reavaliados).
+- P0 seguinte: inventariar funções SECURITY DEFINER, views e grants EXECUTE/USAGE por papel, com SELECT e fingerprints por objeto; depois executar testes de autorização dinâmicos sem escrita.
+- Banco: **nenhuma alteração**. Código: atualização documental; rollback por revert do commit.
+- Progresso global: **não auditável**; não converter a contagem física em percentual de conclusão.
