@@ -10,6 +10,7 @@ on:
       - "tests/test_supabase_direct_inventory.py"
       - "scripts/check_supabase_migration_guard.py"
       - "tests/test_supabase_migration_guard.py"
+      - "tests/test_cko_promotion_status_predicate.py"
       - ".github/workflows/ce-migration-provenance.yml"
   push:
     branches:
@@ -26,6 +27,8 @@ jobs:
           persist-credentials: false
       - name: Python source integrity tests without database
         run: python -m unittest discover -s tests -p 'test_supabase_migration_guard.py' -v
+      - name: Characterize CKO promotion status predicate offline (not release authorization)
+        run: python -m unittest discover -s tests -p "test_cko_promotion_status_predicate.py" -v
       - name: Verify directly extracted catalog integrity and counts
         run: python scripts/verify_supabase_snapshot.py
       - name: Negative and positive snapshot integrity tests
