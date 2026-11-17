@@ -1,0 +1,1025 @@
+{
+  "schema_version": "0.1.0",
+  "status": "CANDIDATE_NOT_IMPORTED",
+  "items": [
+    {
+      "capability_key": "research.nursing.d01",
+      "slug": "protecao-contra-violencia-e-assedio",
+      "title": "Proteção contra violência e assédio",
+      "summary": "Central de orientação, registro privado, encaminhamento seguro, histórico do próprio usuário.",
+      "category": "protecao",
+      "kind": "reference",
+      "risk_level": "high",
+      "projection": "public",
+      "lifecycle": "candidate",
+      "payload": {
+        "summary": "Central de orientação, registro privado, encaminhamento seguro, histórico do próprio usuário.",
+        "disclaimer": "Protótipo candidato, sem validação clínica ou jurídica. Não registrar dados pessoais ou informações sobre pacientes. Publicação proibida antes de revisão e Kernel.",
+        "sections": [
+          {
+            "heading": "Necessidade identificada",
+            "body": "Proteção contra violência e assédio"
+          },
+          {
+            "heading": "Solução candidata",
+            "body": "Central de orientação, registro privado, encaminhamento seguro, histórico do próprio usuário."
+          },
+          {
+            "heading": "Estado de validação",
+            "body": "A pesquisa justifica investigar a demanda; conteúdo, fluxo e efetividade ainda exigem validação com usuários e revisão profissional."
+          }
+        ],
+        "fields": [],
+        "referenceUrls": [
+          "https://portalcofen.gov.br/violencia-atinge-7-em-cada-10-profissionais-de-enfermagem-em-sao-paulo-aponta-sondagem/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC13032240/"
+        ],
+        "safeOffline": false,
+        "containsPatientData": false
+      },
+      "provenance": {
+        "source_version": "1.4.0",
+        "source_id": "D01",
+        "evidence_note": "Sondagem Coren-SP 2026 com 4.402 participantes: 72,6% relataram violência no último ano; revisão de subnotificação aponta medo de represália e complexidade dos canais.",
+        "status": "RESEARCH_CANDIDATE_NOT_APPROVED",
+        "original_risk": "alto"
+      }
+    },
+    {
+      "capability_key": "research.nursing.d02",
+      "slug": "transparencia-remuneratoria-e-contratos",
+      "title": "Transparência remuneratória e contratos",
+      "summary": "Simulador informativo de remuneração proporcional, diferenças salariais e organização documental; encaminhamento jurídico quando necessário.",
+      "category": "carreiras",
+      "kind": "guided-form",
+      "risk_level": "medium",
+      "projection": "public",
+      "lifecycle": "candidate",
+      "payload": {
+        "summary": "Simulador informativo de remuneração proporcional, diferenças salariais e organização documental; encaminhamento jurídico quando necessário.",
+        "disclaimer": "Protótipo candidato, sem validação clínica ou jurídica. Não registrar dados pessoais ou informações sobre pacientes. Publicação proibida antes de revisão e Kernel.",
+        "sections": [
+          {
+            "heading": "Necessidade identificada",
+            "body": "Transparência remuneratória e contratos"
+          },
+          {
+            "heading": "Solução candidata",
+            "body": "Simulador informativo de remuneração proporcional, diferenças salariais e organização documental; encaminhamento jurídico quando necessário."
+          },
+          {
+            "heading": "Estado de validação",
+            "body": "A pesquisa justifica investigar a demanda; conteúdo, fluxo e efetividade ainda exigem validação com usuários e revisão profissional."
+          }
+        ],
+        "fields": [],
+        "referenceUrls": [
+          "https://cnts.org.br/noticias/lei-descumprida-tecnicos-de-enfermagem-recebem-apenas-74-do-piso-revela-estudo-do-dieese/"
+        ],
+        "safeOffline": false,
+        "containsPatientData": false
+      },
+      "provenance": {
+        "source_version": "1.4.0",
+        "source_id": "D02",
+        "evidence_note": "Análise DIEESE/CNTS publicada em 2026 mostra diferenças nas remunerações médias de contratação; não permite inferir violação legal individual.",
+        "status": "RESEARCH_CANDIDATE_NOT_APPROVED",
+        "original_risk": "médio"
+      }
+    },
+    {
+      "capability_key": "research.nursing.d03",
+      "slug": "manuseio-e-transferencia-segura-de-pacientes",
+      "title": "Manuseio e transferência segura de pacientes",
+      "summary": "Checklist de preparo educativo, avaliação de ambiente, treinamento prático e consulta de dispositivos disponíveis.",
+      "category": "clinica-educativa",
+      "kind": "checklist",
+      "risk_level": "high",
+      "projection": "public",
+      "lifecycle": "candidate",
+      "payload": {
+        "summary": "Checklist de preparo educativo, avaliação de ambiente, treinamento prático e consulta de dispositivos disponíveis.",
+        "disclaimer": "Protótipo candidato, sem validação clínica ou jurídica. Não registrar dados pessoais ou informações sobre pacientes. Publicação proibida antes de revisão e Kernel.",
+        "sections": [
+          {
+            "heading": "Necessidade identificada",
+            "body": "Manuseio e transferência segura de pacientes"
+          },
+          {
+            "heading": "Solução candidata",
+            "body": "Checklist de preparo educativo, avaliação de ambiente, treinamento prático e consulta de dispositivos disponíveis."
+          },
+          {
+            "heading": "Estado de validação",
+            "body": "A pesquisa justifica investigar a demanda; conteúdo, fluxo e efetividade ainda exigem validação com usuários e revisão profissional."
+          }
+        ],
+        "fields": [],
+        "referenceUrls": [
+          "https://journals.sagepub.com/doi/10.1177/10519815261434531",
+          "https://formative.jmir.org/2025/1/e70681/"
+        ],
+        "safeOffline": false,
+        "containsPatientData": false
+      },
+      "provenance": {
+        "source_version": "1.4.0",
+        "source_id": "D03",
+        "evidence_note": "Estudo português com 38 entrevistas e observação identifica indisponibilidade de equipamentos, escassez de pessoal e barreiras à movimentação segura.",
+        "status": "RESEARCH_CANDIDATE_NOT_APPROVED",
+        "original_risk": "alto"
+      }
+    },
+    {
+      "capability_key": "research.nursing.d04",
+      "slug": "localizacao-e-reposicao-de-materiais-equipamentos",
+      "title": "Localização e reposição de materiais/equipamentos",
+      "summary": "Inventário por unidade, pedido de material, QR interno, status de higienização/uso quando verificado.",
+      "category": "gestao",
+      "kind": "planner",
+      "risk_level": "high",
+      "projection": "institutional",
+      "lifecycle": "candidate",
+      "payload": {
+        "summary": "Inventário por unidade, pedido de material, QR interno, status de higienização/uso quando verificado.",
+        "disclaimer": "Protótipo candidato, sem validação clínica ou jurídica. Não registrar dados pessoais ou informações sobre pacientes. Publicação proibida antes de revisão e Kernel.",
+        "sections": [
+          {
+            "heading": "Necessidade identificada",
+            "body": "Localização e reposição de materiais/equipamentos"
+          },
+          {
+            "heading": "Solução candidata",
+            "body": "Inventário por unidade, pedido de material, QR interno, status de higienização/uso quando verificado."
+          },
+          {
+            "heading": "Estado de validação",
+            "body": "A pesquisa justifica investigar a demanda; conteúdo, fluxo e efetividade ainda exigem validação com usuários e revisão profissional."
+          }
+        ],
+        "fields": [],
+        "referenceUrls": [
+          "https://www.jmir.org/2026/1/e89409",
+          "https://onlinelibrary.wiley.com/doi/full/10.1111/jocn.70258"
+        ],
+        "safeOffline": false,
+        "containsPatientData": false
+      },
+      "provenance": {
+        "source_version": "1.4.0",
+        "source_id": "D04",
+        "evidence_note": "Estudo observacional de 2026 e revisão de cuidados omitidos mostram perda de tempo procurando termômetros, bombas e suprimentos.",
+        "status": "RESEARCH_CANDIDATE_NOT_APPROVED",
+        "original_risk": "alto"
+      }
+    },
+    {
+      "capability_key": "research.nursing.d05",
+      "slug": "cuidado-basico-omitido-sob-sobrecarga",
+      "title": "Cuidado básico omitido sob sobrecarga",
+      "summary": "Mapas de risco educacionais, checklists contextuais e painéis agregados institucionais autorizados, sem punição individual.",
+      "category": "gestao",
+      "kind": "reference",
+      "risk_level": "high",
+      "projection": "institutional",
+      "lifecycle": "candidate",
+      "payload": {
+        "summary": "Mapas de risco educacionais, checklists contextuais e painéis agregados institucionais autorizados, sem punição individual.",
+        "disclaimer": "Protótipo candidato, sem validação clínica ou jurídica. Não registrar dados pessoais ou informações sobre pacientes. Publicação proibida antes de revisão e Kernel.",
+        "sections": [
+          {
+            "heading": "Necessidade identificada",
+            "body": "Cuidado básico omitido sob sobrecarga"
+          },
+          {
+            "heading": "Solução candidata",
+            "body": "Mapas de risco educacionais, checklists contextuais e painéis agregados institucionais autorizados, sem punição individual."
+          },
+          {
+            "heading": "Estado de validação",
+            "body": "A pesquisa justifica investigar a demanda; conteúdo, fluxo e efetividade ainda exigem validação com usuários e revisão profissional."
+          }
+        ],
+        "fields": [],
+        "referenceUrls": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC12856723/",
+          "https://pubmed.ncbi.nlm.nih.gov/41771554/"
+        ],
+        "safeOffline": false,
+        "containsPatientData": false
+      },
+      "provenance": {
+        "source_version": "1.4.0",
+        "source_id": "D05",
+        "evidence_note": "Revisões 2026 apontam que higiene oral, mudança de decúbito, mobilidade e suporte psicossocial podem ser preteridos sob restrição de recursos.",
+        "status": "RESEARCH_CANDIDATE_NOT_APPROVED",
+        "original_risk": "alto"
+      }
+    },
+    {
+      "capability_key": "research.nursing.d06",
+      "slug": "transicao-estudante-profissional",
+      "title": "Transição estudante-profissional",
+      "summary": "Trilha de 30/90/180 dias, checklist de integração, diário reflexivo supervisionado e avaliações formativas.",
+      "category": "carreiras",
+      "kind": "checklist",
+      "risk_level": "medium",
+      "projection": "public",
+      "lifecycle": "candidate",
+      "payload": {
+        "summary": "Trilha de 30/90/180 dias, checklist de integração, diário reflexivo supervisionado e avaliações formativas.",
+        "disclaimer": "Protótipo candidato, sem validação clínica ou jurídica. Não registrar dados pessoais ou informações sobre pacientes. Publicação proibida antes de revisão e Kernel.",
+        "sections": [
+          {
+            "heading": "Necessidade identificada",
+            "body": "Transição estudante-profissional"
+          },
+          {
+            "heading": "Solução candidata",
+            "body": "Trilha de 30/90/180 dias, checklist de integração, diário reflexivo supervisionado e avaliações formativas."
+          },
+          {
+            "heading": "Estado de validação",
+            "body": "A pesquisa justifica investigar a demanda; conteúdo, fluxo e efetividade ainda exigem validação com usuários e revisão profissional."
+          }
+        ],
+        "fields": [],
+        "referenceUrls": [
+          "https://www.sciencedirect.com/science/article/pii/S1557308725003178",
+          "https://www.sciencedirect.com/science/article/pii/S1471595325004202"
+        ],
+        "safeOffline": false,
+        "containsPatientData": false
+      },
+      "provenance": {
+        "source_version": "1.4.0",
+        "source_id": "D06",
+        "evidence_note": "Revisões identificam suporte organizacional, mentoria clínica, orientação e apoio psicossocial como necessidades no primeiro ano.",
+        "status": "RESEARCH_CANDIDATE_NOT_APPROVED",
+        "original_risk": "médio"
+      }
+    },
+    {
+      "capability_key": "research.nursing.d07",
+      "slug": "medo-de-cometer-erros-e-insuficiencia-de-recuperacao",
+      "title": "Medo de cometer erros e insuficiência de recuperação",
+      "summary": "Simulação segura de cenários, checklists educativos e rede de mentoria; orientar procura de apoio institucional.",
+      "category": "educacao",
+      "kind": "reference",
+      "risk_level": "medium",
+      "projection": "public",
+      "lifecycle": "candidate",
+      "payload": {
+        "summary": "Simulação segura de cenários, checklists educativos e rede de mentoria; orientar procura de apoio institucional.",
+        "disclaimer": "Protótipo candidato, sem validação clínica ou jurídica. Não registrar dados pessoais ou informações sobre pacientes. Publicação proibida antes de revisão e Kernel.",
+        "sections": [
+          {
+            "heading": "Necessidade identificada",
+            "body": "Medo de cometer erros e insuficiência de recuperação"
+          },
+          {
+            "heading": "Solução candidata",
+            "body": "Simulação segura de cenários, checklists educativos e rede de mentoria; orientar procura de apoio institucional."
+          },
+          {
+            "heading": "Estado de validação",
+            "body": "A pesquisa justifica investigar a demanda; conteúdo, fluxo e efetividade ainda exigem validação com usuários e revisão profissional."
+          }
+        ],
+        "fields": [],
+        "referenceUrls": [
+          "https://onlinelibrary.wiley.com/doi/10.1155/nrp/9555767"
+        ],
+        "safeOffline": false,
+        "containsPatientData": false
+      },
+      "provenance": {
+        "source_version": "1.4.0",
+        "source_id": "D07",
+        "evidence_note": "Estudo de 2025 relata 44% de receio de cometer erros e 28% plenamente recuperados para trabalhar, em sua amostra.",
+        "status": "RESEARCH_CANDIDATE_NOT_APPROVED",
+        "original_risk": "médio"
+      }
+    },
+    {
+      "capability_key": "research.nursing.d08",
+      "slug": "apoio-a-equipes-noturnas-e-retencao",
+      "title": "Apoio a equipes noturnas e retenção",
+      "summary": "Feedback confidencial por turno, avaliação da experiência de integração e plano de melhorias institucionais.",
+      "category": "saude-ocupacional",
+      "kind": "guided-form",
+      "risk_level": "high",
+      "projection": "institutional",
+      "lifecycle": "candidate",
+      "payload": {
+        "summary": "Feedback confidencial por turno, avaliação da experiência de integração e plano de melhorias institucionais.",
+        "disclaimer": "Protótipo candidato, sem validação clínica ou jurídica. Não registrar dados pessoais ou informações sobre pacientes. Publicação proibida antes de revisão e Kernel.",
+        "sections": [
+          {
+            "heading": "Necessidade identificada",
+            "body": "Apoio a equipes noturnas e retenção"
+          },
+          {
+            "heading": "Solução candidata",
+            "body": "Feedback confidencial por turno, avaliação da experiência de integração e plano de melhorias institucionais."
+          },
+          {
+            "heading": "Estado de validação",
+            "body": "A pesquisa justifica investigar a demanda; conteúdo, fluxo e efetividade ainda exigem validação com usuários e revisão profissional."
+          }
+        ],
+        "fields": [],
+        "referenceUrls": [
+          "https://www.pressganey.com/resources/e-books/nursing-2026/"
+        ],
+        "safeOffline": false,
+        "containsPatientData": false
+      },
+      "provenance": {
+        "source_version": "1.4.0",
+        "source_id": "D08",
+        "evidence_note": "Press Ganey 2026 com feedback de >422 mil RNs aponta dificuldades específicas de equipes noturnas e primeiros anos de carreira.",
+        "status": "RESEARCH_CANDIDATE_NOT_APPROVED",
+        "original_risk": "alto"
+      }
+    },
+    {
+      "capability_key": "research.nursing.d09",
+      "slug": "sofrimento-moral-e-decisoes-eticas",
+      "title": "Sofrimento moral e decisões éticas",
+      "summary": "Biblioteca de casos, debriefing supervisionado e canal institucional de consulta ética.",
+      "category": "clinica-educativa",
+      "kind": "reference",
+      "risk_level": "high",
+      "projection": "public",
+      "lifecycle": "candidate",
+      "payload": {
+        "summary": "Biblioteca de casos, debriefing supervisionado e canal institucional de consulta ética.",
+        "disclaimer": "Protótipo candidato, sem validação clínica ou jurídica. Não registrar dados pessoais ou informações sobre pacientes. Publicação proibida antes de revisão e Kernel.",
+        "sections": [
+          {
+            "heading": "Necessidade identificada",
+            "body": "Sofrimento moral e decisões éticas"
+          },
+          {
+            "heading": "Solução candidata",
+            "body": "Biblioteca de casos, debriefing supervisionado e canal institucional de consulta ética."
+          },
+          {
+            "heading": "Estado de validação",
+            "body": "A pesquisa justifica investigar a demanda; conteúdo, fluxo e efetividade ainda exigem validação com usuários e revisão profissional."
+          }
+        ],
+        "fields": [],
+        "referenceUrls": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC13606880/",
+          "https://link.springer.com/article/10.1186/s12904-026-02032-0"
+        ],
+        "safeOffline": false,
+        "containsPatientData": false
+      },
+      "provenance": {
+        "source_version": "1.4.0",
+        "source_id": "D09",
+        "evidence_note": "Revisões de 2026 identificam lacunas de discussão ética e intervenções predominantemente posteriores ao evento moral.",
+        "status": "RESEARCH_CANDIDATE_NOT_APPROVED",
+        "original_risk": "alto"
+      }
+    },
+    {
+      "capability_key": "research.nursing.d10",
+      "slug": "cuidados-paliativos-fora-de-centros-especializados",
+      "title": "Cuidados paliativos fora de centros especializados",
+      "summary": "Trilhas específicas por contexto, simulações de comunicação e recursos educativos aprovados.",
+      "category": "clinica-educativa",
+      "kind": "reference",
+      "risk_level": "medium",
+      "projection": "public",
+      "lifecycle": "candidate",
+      "payload": {
+        "summary": "Trilhas específicas por contexto, simulações de comunicação e recursos educativos aprovados.",
+        "disclaimer": "Protótipo candidato, sem validação clínica ou jurídica. Não registrar dados pessoais ou informações sobre pacientes. Publicação proibida antes de revisão e Kernel.",
+        "sections": [
+          {
+            "heading": "Necessidade identificada",
+            "body": "Cuidados paliativos fora de centros especializados"
+          },
+          {
+            "heading": "Solução candidata",
+            "body": "Trilhas específicas por contexto, simulações de comunicação e recursos educativos aprovados."
+          },
+          {
+            "heading": "Estado de validação",
+            "body": "A pesquisa justifica investigar a demanda; conteúdo, fluxo e efetividade ainda exigem validação com usuários e revisão profissional."
+          }
+        ],
+        "fields": [],
+        "referenceUrls": [
+          "https://doi.org/10.1016/j.heliyon.2026.e45196"
+        ],
+        "safeOffline": false,
+        "containsPatientData": false
+      },
+      "provenance": {
+        "source_version": "1.4.0",
+        "source_id": "D10",
+        "evidence_note": "Revisão de 14 estudos evidencia lacunas em comunicação, sintomas, ética e formação nos cuidados paliativos generalistas.",
+        "status": "RESEARCH_CANDIDATE_NOT_APPROVED",
+        "original_risk": "médio"
+      }
+    },
+    {
+      "capability_key": "research.nursing.d11",
+      "slug": "comunicacao-com-pacientes-em-outros-idiomas",
+      "title": "Comunicação com pacientes em outros idiomas",
+      "summary": "Biblioteca de material educativo multilíngue e instruções para acesso a intérpretes habilitados.",
+      "category": "comunicacao",
+      "kind": "reference",
+      "risk_level": "high",
+      "projection": "public",
+      "lifecycle": "candidate",
+      "payload": {
+        "summary": "Biblioteca de material educativo multilíngue e instruções para acesso a intérpretes habilitados.",
+        "disclaimer": "Protótipo candidato, sem validação clínica ou jurídica. Não registrar dados pessoais ou informações sobre pacientes. Publicação proibida antes de revisão e Kernel.",
+        "sections": [
+          {
+            "heading": "Necessidade identificada",
+            "body": "Comunicação com pacientes em outros idiomas"
+          },
+          {
+            "heading": "Solução candidata",
+            "body": "Biblioteca de material educativo multilíngue e instruções para acesso a intérpretes habilitados."
+          },
+          {
+            "heading": "Estado de validação",
+            "body": "A pesquisa justifica investigar a demanda; conteúdo, fluxo e efetividade ainda exigem validação com usuários e revisão profissional."
+          }
+        ],
+        "fields": [],
+        "referenceUrls": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC12489433/"
+        ],
+        "safeOffline": false,
+        "containsPatientData": false
+      },
+      "provenance": {
+        "source_version": "1.4.0",
+        "source_id": "D11",
+        "evidence_note": "Revisão de 18 estudos abrangendo 416 enfermeiros relata dificuldades no uso de intérpretes, tecnologia pouco confiável e improvisações.",
+        "status": "RESEARCH_CANDIDATE_NOT_APPROVED",
+        "original_risk": "alto"
+      }
+    },
+    {
+      "capability_key": "research.nursing.d12",
+      "slug": "conhecimento-aplicavel-a-intervencao",
+      "title": "Conhecimento aplicável à intervenção",
+      "summary": "Pesquisa por procedimento, indicação, população, fonte oficial, nível de evidência e validade.",
+      "category": "pesquisa",
+      "kind": "reference",
+      "risk_level": "high",
+      "projection": "public",
+      "lifecycle": "candidate",
+      "payload": {
+        "summary": "Pesquisa por procedimento, indicação, população, fonte oficial, nível de evidência e validade.",
+        "disclaimer": "Protótipo candidato, sem validação clínica ou jurídica. Não registrar dados pessoais ou informações sobre pacientes. Publicação proibida antes de revisão e Kernel.",
+        "sections": [
+          {
+            "heading": "Necessidade identificada",
+            "body": "Conhecimento aplicável à intervenção"
+          },
+          {
+            "heading": "Solução candidata",
+            "body": "Pesquisa por procedimento, indicação, população, fonte oficial, nível de evidência e validade."
+          },
+          {
+            "heading": "Estado de validação",
+            "body": "A pesquisa justifica investigar a demanda; conteúdo, fluxo e efetividade ainda exigem validação com usuários e revisão profissional."
+          }
+        ],
+        "fields": [],
+        "referenceUrls": [
+          "https://nursing.jmir.org/2026/1/e78395/"
+        ],
+        "safeOffline": false,
+        "containsPatientData": false
+      },
+      "provenance": {
+        "source_version": "1.4.0",
+        "source_id": "D12",
+        "evidence_note": "Estudo qualitativo JMIR 2026 solicita conhecimento baseado em evidências vinculado ao trabalho, com acesso rápido e responsabilização clara.",
+        "status": "RESEARCH_CANDIDATE_NOT_APPROVED",
+        "original_risk": "alto"
+      }
+    },
+    {
+      "capability_key": "research.nursing.d13",
+      "slug": "participacao-dos-enfermeiros-nas-decisoes-de-ia",
+      "title": "Participação dos enfermeiros nas decisões de IA",
+      "summary": "Painel de governança participativa, avaliação de riscos, explicabilidade, registro de contestação e limites por finalidade.",
+      "category": "comunidade",
+      "kind": "guided-form",
+      "risk_level": "high",
+      "projection": "public",
+      "lifecycle": "candidate",
+      "payload": {
+        "summary": "Painel de governança participativa, avaliação de riscos, explicabilidade, registro de contestação e limites por finalidade.",
+        "disclaimer": "Protótipo candidato, sem validação clínica ou jurídica. Não registrar dados pessoais ou informações sobre pacientes. Publicação proibida antes de revisão e Kernel.",
+        "sections": [
+          {
+            "heading": "Necessidade identificada",
+            "body": "Participação dos enfermeiros nas decisões de IA"
+          },
+          {
+            "heading": "Solução candidata",
+            "body": "Painel de governança participativa, avaliação de riscos, explicabilidade, registro de contestação e limites por finalidade."
+          },
+          {
+            "heading": "Estado de validação",
+            "body": "A pesquisa justifica investigar a demanda; conteúdo, fluxo e efetividade ainda exigem validação com usuários e revisão profissional."
+          }
+        ],
+        "fields": [],
+        "referenceUrls": [
+          "https://nursing.jmir.org/2026/1/e78560"
+        ],
+        "safeOffline": false,
+        "containsPatientData": false
+      },
+      "provenance": {
+        "source_version": "1.4.0",
+        "source_id": "D13",
+        "evidence_note": "Pesquisa com enfermeiros comunitários canadenses: 96,1% desejam ser consultados no desenvolvimento de IA; 77,7% preocupados com responsabilidade por recomendações incorretas.",
+        "status": "RESEARCH_CANDIDATE_NOT_APPROVED",
+        "original_risk": "alto"
+      }
+    },
+    {
+      "capability_key": "research.nursing.d14",
+      "slug": "acesso-rural-e-continuidade-em-baixa-conectividade",
+      "title": "Acesso rural e continuidade em baixa conectividade",
+      "summary": "Pacotes educacionais offline, roteiros de visitas e sincronização controlada sem dados pessoais por padrão.",
+      "category": "educacao",
+      "kind": "checklist",
+      "risk_level": "high",
+      "projection": "public",
+      "lifecycle": "candidate",
+      "payload": {
+        "summary": "Pacotes educacionais offline, roteiros de visitas e sincronização controlada sem dados pessoais por padrão.",
+        "disclaimer": "Protótipo candidato, sem validação clínica ou jurídica. Não registrar dados pessoais ou informações sobre pacientes. Publicação proibida antes de revisão e Kernel.",
+        "sections": [
+          {
+            "heading": "Necessidade identificada",
+            "body": "Acesso rural e continuidade em baixa conectividade"
+          },
+          {
+            "heading": "Solução candidata",
+            "body": "Pacotes educacionais offline, roteiros de visitas e sincronização controlada sem dados pessoais por padrão."
+          },
+          {
+            "heading": "Estado de validação",
+            "body": "A pesquisa justifica investigar a demanda; conteúdo, fluxo e efetividade ainda exigem validação com usuários e revisão profissional."
+          }
+        ],
+        "fields": [],
+        "referenceUrls": [
+          "https://www.scielo.br/j/reben/a/bVJmTjGBNFzr7JGQXrKWGSj/?lang=pt"
+        ],
+        "safeOffline": false,
+        "containsPatientData": false
+      },
+      "provenance": {
+        "source_version": "1.4.0",
+        "source_id": "D14",
+        "evidence_note": "Revisão brasileira de 48 estudos ressalta educação permanente limitada, infraestrutura precária e sobrecarga no rural.",
+        "status": "RESEARCH_CANDIDATE_NOT_APPROVED",
+        "original_risk": "alto"
+      }
+    },
+    {
+      "capability_key": "research.nursing.d15",
+      "slug": "competencias-de-saude-mental-na-aps",
+      "title": "Competências de saúde mental na APS",
+      "summary": "Microcapacitações, casos clínicos simulados, fluxo de encaminhamento e materiais de apoio por escopo.",
+      "category": "educacao",
+      "kind": "reference",
+      "risk_level": "high",
+      "projection": "public",
+      "lifecycle": "candidate",
+      "payload": {
+        "summary": "Microcapacitações, casos clínicos simulados, fluxo de encaminhamento e materiais de apoio por escopo.",
+        "disclaimer": "Protótipo candidato, sem validação clínica ou jurídica. Não registrar dados pessoais ou informações sobre pacientes. Publicação proibida antes de revisão e Kernel.",
+        "sections": [
+          {
+            "heading": "Necessidade identificada",
+            "body": "Competências de saúde mental na APS"
+          },
+          {
+            "heading": "Solução candidata",
+            "body": "Microcapacitações, casos clínicos simulados, fluxo de encaminhamento e materiais de apoio por escopo."
+          },
+          {
+            "heading": "Estado de validação",
+            "body": "A pesquisa justifica investigar a demanda; conteúdo, fluxo e efetividade ainda exigem validação com usuários e revisão profissional."
+          }
+        ],
+        "fields": [],
+        "referenceUrls": [
+          "https://revistas.usp.br/reeusp/pt_BR/article/view/263168"
+        ],
+        "safeOffline": false,
+        "containsPatientData": false
+      },
+      "provenance": {
+        "source_version": "1.4.0",
+        "source_id": "D15",
+        "evidence_note": "Pesquisa brasileira de 2026 com 239 enfermeiros identificou menor capacitação percebida nas intervenções específicas de saúde mental.",
+        "status": "RESEARCH_CANDIDATE_NOT_APPROVED",
+        "original_risk": "alto"
+      }
+    },
+    {
+      "capability_key": "research.nursing.d16",
+      "slug": "apoio-ao-atendimento-domiciliar",
+      "title": "Apoio ao atendimento domiciliar",
+      "summary": "Workspace de visitas e documentação permitida, prototipado com profissionais e integração antes de rollout.",
+      "category": "gestao",
+      "kind": "planner",
+      "risk_level": "high",
+      "projection": "institutional",
+      "lifecycle": "candidate",
+      "payload": {
+        "summary": "Workspace de visitas e documentação permitida, prototipado com profissionais e integração antes de rollout.",
+        "disclaimer": "Protótipo candidato, sem validação clínica ou jurídica. Não registrar dados pessoais ou informações sobre pacientes. Publicação proibida antes de revisão e Kernel.",
+        "sections": [
+          {
+            "heading": "Necessidade identificada",
+            "body": "Apoio ao atendimento domiciliar"
+          },
+          {
+            "heading": "Solução candidata",
+            "body": "Workspace de visitas e documentação permitida, prototipado com profissionais e integração antes de rollout."
+          },
+          {
+            "heading": "Estado de validação",
+            "body": "A pesquisa justifica investigar a demanda; conteúdo, fluxo e efetividade ainda exigem validação com usuários e revisão profissional."
+          }
+        ],
+        "fields": [],
+        "referenceUrls": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC12829896/"
+        ],
+        "safeOffline": false,
+        "containsPatientData": false
+      },
+      "provenance": {
+        "source_version": "1.4.0",
+        "source_id": "D16",
+        "evidence_note": "Estudo qualitativo de adoção de tablets com 16 enfermeiros e dois médicos mostrou implantação frustrada por baixa integração e infraestrutura instável.",
+        "status": "RESEARCH_CANDIDATE_NOT_APPROVED",
+        "original_risk": "alto"
+      }
+    },
+    {
+      "capability_key": "research.nursing.d17",
+      "slug": "gestao-de-servicos-autonomos-de-enfermagem",
+      "title": "Gestão de serviços autônomos de enfermagem",
+      "summary": "Agenda, propostas, serviços permitidos, custos, inventário administrativo e registros administrativos.",
+      "category": "carreiras",
+      "kind": "planner",
+      "risk_level": "high",
+      "projection": "subscriber",
+      "lifecycle": "candidate",
+      "payload": {
+        "summary": "Agenda, propostas, serviços permitidos, custos, inventário administrativo e registros administrativos.",
+        "disclaimer": "Protótipo candidato, sem validação clínica ou jurídica. Não registrar dados pessoais ou informações sobre pacientes. Publicação proibida antes de revisão e Kernel.",
+        "sections": [
+          {
+            "heading": "Necessidade identificada",
+            "body": "Gestão de serviços autônomos de enfermagem"
+          },
+          {
+            "heading": "Solução candidata",
+            "body": "Agenda, propostas, serviços permitidos, custos, inventário administrativo e registros administrativos."
+          },
+          {
+            "heading": "Estado de validação",
+            "body": "A pesquisa justifica investigar a demanda; conteúdo, fluxo e efetividade ainda exigem validação com usuários e revisão profissional."
+          }
+        ],
+        "fields": [],
+        "referenceUrls": [
+          "https://pubmed.ncbi.nlm.nih.gov/40667947/"
+        ],
+        "safeOffline": false,
+        "containsPatientData": false
+      },
+      "provenance": {
+        "source_version": "1.4.0",
+        "source_id": "D17",
+        "evidence_note": "Estudo ecológico brasileiro identificou crescimento de estabelecimentos formalizados de enfermagem entre 2003–2023.",
+        "status": "RESEARCH_CANDIDATE_NOT_APPROVED",
+        "original_risk": "alto"
+      }
+    },
+    {
+      "capability_key": "research.nursing.d18",
+      "slug": "sobrecarga-de-alertas-e-notificacoes",
+      "title": "Sobrecarga de alertas e notificações",
+      "summary": "Orquestrador de alertas pessoais por prioridade, digest e silêncio; alarmes médicos fora de escopo.",
+      "category": "gestao",
+      "kind": "planner",
+      "risk_level": "high",
+      "projection": "subscriber",
+      "lifecycle": "candidate",
+      "payload": {
+        "summary": "Orquestrador de alertas pessoais por prioridade, digest e silêncio; alarmes médicos fora de escopo.",
+        "disclaimer": "Protótipo candidato, sem validação clínica ou jurídica. Não registrar dados pessoais ou informações sobre pacientes. Publicação proibida antes de revisão e Kernel.",
+        "sections": [
+          {
+            "heading": "Necessidade identificada",
+            "body": "Sobrecarga de alertas e notificações"
+          },
+          {
+            "heading": "Solução candidata",
+            "body": "Orquestrador de alertas pessoais por prioridade, digest e silêncio; alarmes médicos fora de escopo."
+          },
+          {
+            "heading": "Estado de validação",
+            "body": "A pesquisa justifica investigar a demanda; conteúdo, fluxo e efetividade ainda exigem validação com usuários e revisão profissional."
+          }
+        ],
+        "fields": [],
+        "referenceUrls": [
+          "https://link.springer.com/article/10.1186/s12912-026-04592-1"
+        ],
+        "safeOffline": false,
+        "containsPatientData": false
+      },
+      "provenance": {
+        "source_version": "1.4.0",
+        "source_id": "D18",
+        "evidence_note": "Estudo qualitativo 2026 com 19 enfermeiros associa alertas persistentes a sobrecarga e dessensibilização.",
+        "status": "RESEARCH_CANDIDATE_NOT_APPROVED",
+        "original_risk": "alto"
+      }
+    },
+    {
+      "capability_key": "research.nursing.d19",
+      "slug": "recuperacao-e-suporte-organizacional",
+      "title": "Recuperação e suporte organizacional",
+      "summary": "Recursos voluntários, educação sobre recuperação pós-plantão, encaminhamento e indicadores agregados não punitivos.",
+      "category": "saude-ocupacional",
+      "kind": "reference",
+      "risk_level": "high",
+      "projection": "public",
+      "lifecycle": "candidate",
+      "payload": {
+        "summary": "Recursos voluntários, educação sobre recuperação pós-plantão, encaminhamento e indicadores agregados não punitivos.",
+        "disclaimer": "Protótipo candidato, sem validação clínica ou jurídica. Não registrar dados pessoais ou informações sobre pacientes. Publicação proibida antes de revisão e Kernel.",
+        "sections": [
+          {
+            "heading": "Necessidade identificada",
+            "body": "Recuperação e suporte organizacional"
+          },
+          {
+            "heading": "Solução candidata",
+            "body": "Recursos voluntários, educação sobre recuperação pós-plantão, encaminhamento e indicadores agregados não punitivos."
+          },
+          {
+            "heading": "Estado de validação",
+            "body": "A pesquisa justifica investigar a demanda; conteúdo, fluxo e efetividade ainda exigem validação com usuários e revisão profissional."
+          }
+        ],
+        "fields": [],
+        "referenceUrls": [
+          "https://www.pressganey.com/resources/e-books/nursing-2026/",
+          "https://www.who.int/news/item/12-05-2025-nursing-workforce-grows--but-inequities-threaten-global-health-goals"
+        ],
+        "safeOffline": false,
+        "containsPatientData": false
+      },
+      "provenance": {
+        "source_version": "1.4.0",
+        "source_id": "D19",
+        "evidence_note": "Relatório Press Ganey 2026 relata que 25% dos RNs têm dificuldade de desligar-se do trabalho; a OMS destaca necessidade de suporte em saúde mental.",
+        "status": "RESEARCH_CANDIDATE_NOT_APPROVED",
+        "original_risk": "alto"
+      }
+    },
+    {
+      "capability_key": "research.nursing.d20",
+      "slug": "participacao-e-justica-nas-distribuicoes-de-tarefas",
+      "title": "Participação e justiça nas distribuições de tarefas",
+      "summary": "Simulador de cenários com razões, custos de equidade e restrições, sempre com decisão humana.",
+      "category": "gestao",
+      "kind": "planner",
+      "risk_level": "high",
+      "projection": "institutional",
+      "lifecycle": "candidate",
+      "payload": {
+        "summary": "Simulador de cenários com razões, custos de equidade e restrições, sempre com decisão humana.",
+        "disclaimer": "Protótipo candidato, sem validação clínica ou jurídica. Não registrar dados pessoais ou informações sobre pacientes. Publicação proibida antes de revisão e Kernel.",
+        "sections": [
+          {
+            "heading": "Necessidade identificada",
+            "body": "Participação e justiça nas distribuições de tarefas"
+          },
+          {
+            "heading": "Solução candidata",
+            "body": "Simulador de cenários com razões, custos de equidade e restrições, sempre com decisão humana."
+          },
+          {
+            "heading": "Estado de validação",
+            "body": "A pesquisa justifica investigar a demanda; conteúdo, fluxo e efetividade ainda exigem validação com usuários e revisão profissional."
+          }
+        ],
+        "fields": [],
+        "referenceUrls": [
+          "https://nursing.jmir.org/2026/1/e94450",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC13610344/"
+        ],
+        "safeOffline": false,
+        "containsPatientData": false
+      },
+      "provenance": {
+        "source_version": "1.4.0",
+        "source_id": "D20",
+        "evidence_note": "Pesquisa 2026 de escalas com IA explicável discute preferências, distribuição, qualificação e requisitos de descanso; ambiente de trabalho influencia cuidados omitidos.",
+        "status": "RESEARCH_CANDIDATE_NOT_APPROVED",
+        "original_risk": "alto"
+      }
+    },
+    {
+      "capability_key": "research.nursing.d21",
+      "slug": "educacao-do-paciente-e-familia",
+      "title": "Educação do paciente e família",
+      "summary": "Kits educativos com leitura fácil, QR de fontes aprovadas, acessibilidade e confirmação de compreensão sem armazenamento assistencial.",
+      "category": "educacao",
+      "kind": "reference",
+      "risk_level": "medium",
+      "projection": "public",
+      "lifecycle": "candidate",
+      "payload": {
+        "summary": "Kits educativos com leitura fácil, QR de fontes aprovadas, acessibilidade e confirmação de compreensão sem armazenamento assistencial.",
+        "disclaimer": "Protótipo candidato, sem validação clínica ou jurídica. Não registrar dados pessoais ou informações sobre pacientes. Publicação proibida antes de revisão e Kernel.",
+        "sections": [
+          {
+            "heading": "Necessidade identificada",
+            "body": "Educação do paciente e família"
+          },
+          {
+            "heading": "Solução candidata",
+            "body": "Kits educativos com leitura fácil, QR de fontes aprovadas, acessibilidade e confirmação de compreensão sem armazenamento assistencial."
+          },
+          {
+            "heading": "Estado de validação",
+            "body": "A pesquisa justifica investigar a demanda; conteúdo, fluxo e efetividade ainda exigem validação com usuários e revisão profissional."
+          }
+        ],
+        "fields": [],
+        "referenceUrls": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC12856723/",
+          "https://onlinelibrary.wiley.com/doi/full/10.1111/jnu.70135"
+        ],
+        "safeOffline": false,
+        "containsPatientData": false
+      },
+      "provenance": {
+        "source_version": "1.4.0",
+        "source_id": "D21",
+        "evidence_note": "Estudos sobre cuidados omitidos indicam que comunicação e suporte psicossocial são frequentemente preteridos.",
+        "status": "RESEARCH_CANDIDATE_NOT_APPROVED",
+        "original_risk": "médio"
+      }
+    },
+    {
+      "capability_key": "research.nursing.d22",
+      "slug": "interrupcoes-e-multitarefa-clinica",
+      "title": "Interrupções e multitarefa clínica",
+      "summary": "Retomada contextual, rascunhos locais seguros, fluxo mínimo e orientação de priorização pessoal.",
+      "category": "gestao",
+      "kind": "checklist",
+      "risk_level": "high",
+      "projection": "subscriber",
+      "lifecycle": "candidate",
+      "payload": {
+        "summary": "Retomada contextual, rascunhos locais seguros, fluxo mínimo e orientação de priorização pessoal.",
+        "disclaimer": "Protótipo candidato, sem validação clínica ou jurídica. Não registrar dados pessoais ou informações sobre pacientes. Publicação proibida antes de revisão e Kernel.",
+        "sections": [
+          {
+            "heading": "Necessidade identificada",
+            "body": "Interrupções e multitarefa clínica"
+          },
+          {
+            "heading": "Solução candidata",
+            "body": "Retomada contextual, rascunhos locais seguros, fluxo mínimo e orientação de priorização pessoal."
+          },
+          {
+            "heading": "Estado de validação",
+            "body": "A pesquisa justifica investigar a demanda; conteúdo, fluxo e efetividade ainda exigem validação com usuários e revisão profissional."
+          }
+        ],
+        "fields": [],
+        "referenceUrls": [
+          "https://www.jmir.org/2026/1/e89409"
+        ],
+        "safeOffline": false,
+        "containsPatientData": false
+      },
+      "provenance": {
+        "source_version": "1.4.0",
+        "source_id": "D22",
+        "evidence_note": "Estudo observacional de fluxos documenta interrupções frequentes, trocas de contexto e transcrição manual para papel.",
+        "status": "RESEARCH_CANDIDATE_NOT_APPROVED",
+        "original_risk": "alto"
+      }
+    },
+    {
+      "capability_key": "research.nursing.d23",
+      "slug": "medir-demandas-sem-vigiar-pessoas",
+      "title": "Medir demandas sem vigiar pessoas",
+      "summary": "Relatórios agregados, auditoria de recursos, análise de qualidade por unidade e proteção contra uso disciplinar indevido.",
+      "category": "gestao",
+      "kind": "reference",
+      "risk_level": "high",
+      "projection": "institutional",
+      "lifecycle": "candidate",
+      "payload": {
+        "summary": "Relatórios agregados, auditoria de recursos, análise de qualidade por unidade e proteção contra uso disciplinar indevido.",
+        "disclaimer": "Protótipo candidato, sem validação clínica ou jurídica. Não registrar dados pessoais ou informações sobre pacientes. Publicação proibida antes de revisão e Kernel.",
+        "sections": [
+          {
+            "heading": "Necessidade identificada",
+            "body": "Medir demandas sem vigiar pessoas"
+          },
+          {
+            "heading": "Solução candidata",
+            "body": "Relatórios agregados, auditoria de recursos, análise de qualidade por unidade e proteção contra uso disciplinar indevido."
+          },
+          {
+            "heading": "Estado de validação",
+            "body": "A pesquisa justifica investigar a demanda; conteúdo, fluxo e efetividade ainda exigem validação com usuários e revisão profissional."
+          }
+        ],
+        "fields": [],
+        "referenceUrls": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC13610344/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC13606880/"
+        ],
+        "safeOffline": false,
+        "containsPatientData": false
+      },
+      "provenance": {
+        "source_version": "1.4.0",
+        "source_id": "D23",
+        "evidence_note": "Revisões identificam fatores organizacionais e estruturais associados a cuidados omitidos e sofrimento moral.",
+        "status": "RESEARCH_CANDIDATE_NOT_APPROVED",
+        "original_risk": "alto"
+      }
+    },
+    {
+      "capability_key": "research.nursing.d24",
+      "slug": "escuta-profissional-em-tempo-continuo",
+      "title": "Escuta profissional em tempo contínuo",
+      "summary": "Feedback in-app, experimento participativo, registro de necessidades e decisão rastreável por produto.",
+      "category": "comunidade",
+      "kind": "guided-form",
+      "risk_level": "low",
+      "projection": "public",
+      "lifecycle": "candidate",
+      "payload": {
+        "summary": "Feedback in-app, experimento participativo, registro de necessidades e decisão rastreável por produto.",
+        "disclaimer": "Protótipo candidato, sem validação clínica ou jurídica. Não registrar dados pessoais ou informações sobre pacientes. Publicação proibida antes de revisão e Kernel.",
+        "sections": [
+          {
+            "heading": "Necessidade identificada",
+            "body": "Escuta profissional em tempo contínuo"
+          },
+          {
+            "heading": "Solução candidata",
+            "body": "Feedback in-app, experimento participativo, registro de necessidades e decisão rastreável por produto."
+          },
+          {
+            "heading": "Estado de validação",
+            "body": "A pesquisa justifica investigar a demanda; conteúdo, fluxo e efetividade ainda exigem validação com usuários e revisão profissional."
+          }
+        ],
+        "fields": [],
+        "referenceUrls": [
+          "https://www.jmir.org/2026/1/e99489",
+          "https://nursing.jmir.org/2026/1/e78560"
+        ],
+        "safeOffline": false,
+        "containsPatientData": false
+      },
+      "provenance": {
+        "source_version": "1.4.0",
+        "source_id": "D24",
+        "evidence_note": "Revisão sobre adoção de IA relata que profissionais querem participar do desenho e introdução dos sistemas, com prontidão institucional.",
+        "status": "RESEARCH_CANDIDATE_NOT_APPROVED",
+        "original_risk": "baixo"
+      }
+    }
+  ]
+}
