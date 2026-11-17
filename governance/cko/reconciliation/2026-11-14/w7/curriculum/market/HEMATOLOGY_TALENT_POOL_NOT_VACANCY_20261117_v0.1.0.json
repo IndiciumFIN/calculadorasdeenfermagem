@@ -1,0 +1,65 @@
+{
+  "version": "0.1.0",
+  "observed_on": "2026-11-17",
+  "scope": "WO-05",
+  "classification": "MARKET_SKILL_EVIDENCE_ONLY_NOT_JOB_POSTING",
+  "baseline": "JOB_DESCRIPTIONS_34_v0.5.7.jsonl",
+  "baseline_id_duplicate": false,
+  "source": {
+    "employer": "Rede Américas",
+    "platform": "Gupy official employer page",
+    "job_id": "11022140",
+    "url": "https://vagasredeamericas.gupy.io/jobs/11022140",
+    "title": "Enfermeiro(a) - Onco-Hematologia",
+    "listing_type": "TALENT_POOL",
+    "explicit_talent_pool": true,
+    "actual_vacancy_confirmed": false,
+    "source_retrieval": "2026-11-17 official employer page via web search"
+  },
+  "cofen_candidate": {
+    "specialty_id": "COFEN-581-I-20",
+    "name": "Enfermagem em Hematologia",
+    "cross_specialty_mentions": [
+      "COFEN-581-I-28",
+      "COFEN-581-I-06"
+    ],
+    "mapping_status": "CANDIDATE_ONLY",
+    "counts_as_covered_specialty": false,
+    "reason": "Talent pool and combined Onco-Hematology role; no independently confirmed concrete Hematology vacancy"
+  },
+  "skill_signals": {
+    "required": [
+      "NURSING_DEGREE",
+      "COREN_ACTIVE",
+      "SPECIALIZATION_ONCOLOGY_OR_HEMATOLOGY",
+      "ONCO_HEMATOLOGY_INPATIENT_EXPERIENCE_OR_BONE_MARROW_TRANSPLANT",
+      "QUALITY_INDICATORS_EXPERIENCE"
+    ],
+    "preferred": [
+      "MANAGEMENT_SPECIALIZATION_OR_RELATED"
+    ],
+    "responsibilities": [
+      "INPATIENT_NURSING_CARE",
+      "CLINICAL_SAFETY",
+      "NURSING_TEAM_SUPERVISION"
+    ]
+  },
+  "guardrails": {
+    "candidate_postings_before": 40,
+    "candidate_specialties_before": 20,
+    "candidate_postings_after": 40,
+    "candidate_specialties_after": 20,
+    "no_new_coverage": true,
+    "full_text_copied": false,
+    "do_not_equate_oncology_hematology_transplant": true
+  },
+  "test_candidates": [
+    "job 11022140 is unique versus 34 baseline IDs",
+    "TALENT_POOL never increments POSTING count",
+    "Specialty I-20 remains uncovered in vacancy coverage despite skill evidence",
+    "Separate Oncology/Hematology/Transplant references as distinct specialties",
+    "No copy of protected job description text"
+  ],
+  "tests_executed": "NOT_RUN",
+  "rights_status": "LINK_AND_INDEPENDENT_LABELS_ONLY"
+}
