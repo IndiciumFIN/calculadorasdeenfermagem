@@ -93,8 +93,24 @@ def inspect(root: Path) -> dict:
             source_slug = Path(link).stem
             if sources.get(source_slug, {}).get("kernel_policy_id") != identifier:
                 add("POLICY_SOURCE_LINK_MISMATCH", "error", rel, source_slug)
-            if not isinstance(data.get("validators"), list) or not data["validators"]:
-                add("POLICY_NO_VALIDATORS", "error", rel, "Lista de validadores ausente")
+            policy_validators = data.get("validators")
+            if (not isinstance(policy_validators, list) or not policy_validators
+                    or any(not isinstance(v, str) or not re.fullmatch(r"[a-z][a-z0-9_]*", v)
+                           for v in policy_validators)
+                    or len(policy_validators) != len(set(policy_validators))):
+                add("POLICY_NO_VALIDATORS", "error", rel,
+                    "Validadores devem ser lista única de IDs canônicos")
+            else:
+                declared = sources.get(source_slug, {}).get("validators")
+                if (not isinstance(declared, list) or not declared
+                        or any(not isinstance(v, str) or not re.fullmatch(r"[a-z][a-z0-9_]*", v)
+                               for v in declared)
+                        or len(declared) != len(set(declared))):
+                    add("SOURCE_VALIDATOR_SCHEMA", "error", link,
+                        "Fonte deve declarar array canônico sem duplicados")
+                elif declared != policy_validators:
+                    add("SOURCE_VALIDATOR_POLICY_DRIFT", "error", link,
+                        f"Fonte {declared!r} difere da política {policy_validators!r}")
         for slug, data in sorted(sources.items()):
             if data.get("kernel_policy_id") not in policies:
                 add("SOURCE_POLICY_MISSING", "error", f"contracts/fontes/{slug}.json",
