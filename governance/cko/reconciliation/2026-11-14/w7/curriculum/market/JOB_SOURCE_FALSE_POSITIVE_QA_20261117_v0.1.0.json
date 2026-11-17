@@ -1,0 +1,105 @@
+{
+  "version": "0.1.0",
+  "observed_on": "2026-11-17",
+  "purpose": "Negative controls against inflating specialty coverage with ambiguous employer advertisements",
+  "baseline": {
+    "ads_candidate": 40,
+    "specialties_candidate": 20,
+    "denominator": 65
+  },
+  "records": [
+    {
+      "job_id": "12891036",
+      "url": "https://spdmpaisfor.gupy.io/jobs/12891036",
+      "title": "ENFERMEIRO - BANCO DE TALENTOS",
+      "source_type": "EMPLOYER_GUPY",
+      "decision": "EXCLUDE_FROM_NEW_SPECIALTY_COVERAGE",
+      "reason": "Generic talent pool listing describes many medical specialty clinics, not nurse specialty positions in each listed medical service",
+      "potential_false_matches": [
+        "COFEN-581-I-11",
+        "COFEN-581-I-12",
+        "COFEN-581-I-14",
+        "COFEN-581-I-27"
+      ],
+      "candidate_skills": [
+        "PRIMARY_CARE",
+        "FAMILY_HEALTH"
+      ],
+      "evidence": "https://spdmpaisfor.gupy.io/jobs/12891036"
+    },
+    {
+      "job_id": "12858869",
+      "url": "https://spdmpaisfor.gupy.io/job/eyJqb2JJZCI6MTI4NTg4NjksInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0%3D",
+      "title": "TECNICO DE ENFERMAGEM - POLICLINICA",
+      "source_type": "EMPLOYER_GUPY",
+      "decision": "EXCLUDE_FROM_REGISTERED_NURSE_SPECIALTY_COVERAGE",
+      "reason": "Technical nursing role, not a nurse specialist role; list of medical specialties does not substantiate nursing specialization",
+      "potential_false_matches": [
+        "COFEN-581-I-11",
+        "COFEN-581-I-12",
+        "COFEN-581-I-14"
+      ],
+      "evidence": "https://spdmpaisfor.gupy.io/job/eyJqb2JJZCI6MTI4NTg4NjksInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0%3D"
+    },
+    {
+      "job_id": "12869062",
+      "url": "https://rededor.gupy.io/jobs/12869062",
+      "title": "Técnico de Enfermagem | Centro de Infusão Ambulatorial",
+      "source_type": "EMPLOYER_GUPY",
+      "decision": "EXCLUDE_FROM_NEW_SPECIALTY_COVERAGE",
+      "reason": "Infusion nursing technician under supervision; not evidence of a nurse position mapped to COFEN-I-03",
+      "potential_false_matches": [
+        "COFEN-581-I-03"
+      ],
+      "candidate_skills": [
+        "INFUSION_PREPARATION",
+        "PERIPHERAL_VENOUS_ACCESS"
+      ],
+      "evidence": "https://rededor.gupy.io/jobs/12869062"
+    },
+    {
+      "job_id": "12722392",
+      "url": "https://hmbfm.gupy.io/jobs/12722392",
+      "title": "ENFERMEIRO - CENTRAL DE MATERIAL ESTERILIZADO",
+      "source_type": "EMPLOYER_GUPY",
+      "decision": "QUARANTINE_FOR_MANUAL_ROLE_CONTENT_REVIEW",
+      "reason": "Title specifies CME but responsibilities largely generic inpatient bedside nursing, urgent care, patient admissions and medication; insufficient to extract CME-specific competencies from this description",
+      "potential_false_matches": [
+        "COFEN-581-I-08"
+      ],
+      "evidence": "https://hmbfm.gupy.io/jobs/12722392"
+    },
+    {
+      "job_id": "12044299",
+      "url": "https://adrianavilarinho.gupy.io/jobs/12044299",
+      "title": "Enfermeiro Assistencial",
+      "source_type": "EMPLOYER_GUPY",
+      "decision": "EXCLUDE_FROM_DERMATOLOGY_SPECIALTY_COVERAGE",
+      "reason": "Dermatological or aesthetic procedures appear as desirable prior experience, not a specialist nurse role or credential",
+      "potential_false_matches": [
+        "COFEN-581-I-11",
+        "COFEN-581-I-15"
+      ],
+      "evidence": "https://adrianavilarinho.gupy.io/jobs/12044299"
+    }
+  ],
+  "candidate_tests": [
+    "Reject non-nurse job titles from nurse specialty coverage",
+    "Do not expand a generic polyclinic job to every listed medical specialty",
+    "Do not map desired prior exposure to a specialist credential",
+    "Quarantine role-title and job-description domain mismatches",
+    "Keep rejected ads out of unique job count and specialty numerator",
+    "Retain employer URL and observation date for reproducible review"
+  ],
+  "impact": {
+    "new_ads_counted": 0,
+    "new_specialties_counted": 0,
+    "candidate_coverage_unchanged": "20/65",
+    "verification": "SOURCE_TEXT_REVIEW_ONLY_TESTS_NOT_EXECUTED"
+  },
+  "gates": {
+    "clinical_promotion": "NO",
+    "independent_double_review": "PENDING",
+    "copyright": "URL_AND_INDEPENDENT_LABELS_ONLY"
+  }
+}
