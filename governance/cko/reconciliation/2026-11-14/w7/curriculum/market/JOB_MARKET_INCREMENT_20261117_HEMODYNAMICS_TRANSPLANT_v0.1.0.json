@@ -1,0 +1,92 @@
+{
+  "version": "0.1.0",
+  "date": "2026-11-17",
+  "status": "SOURCE_VERIFIED_MAPPING_CANDIDATE",
+  "baseline": {
+    "ads": 34,
+    "distinct_specialties": 14,
+    "denominator_specialties": 65
+  },
+  "dedup": {
+    "method": "unique job_id compared to JOB_DESCRIPTIONS_34_v0.5.7.jsonl",
+    "baseline_ids_checked": 34,
+    "duplicate_new_ids": 0
+  },
+  "new_ads": [
+    {
+      "job_id": "12764963",
+      "employer": "Rede D'Or / Hospital Vila Nova Star",
+      "role": "Enfermeiro(a) Hemodinâmica",
+      "source_url": "https://rededor.gupy.io/job/eyJqb2JJZCI6MTI3NjQ5NjMsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0%3D",
+      "posted_on": "2026-10-21",
+      "application_deadline": "2026-12-31",
+      "listing_type": "POSTING",
+      "cofen_specialty_id_candidate": "COFEN-581-I-07",
+      "cofen_subarea_candidate": "Hemodinâmica",
+      "skill_signals": {
+        "required": [
+          "NURSING_DEGREE",
+          "COREN_ACTIVE",
+          "EXPERIENCE"
+        ],
+        "responsibilities": [
+          "HEMO_CARE_COORDINATION",
+          "NURSING_PROCESS",
+          "RESOURCE_MANAGEMENT",
+          "TEAM_SUPERVISION",
+          "PATIENT_SAFETY",
+          "QUALITY_INDICATORS"
+        ]
+      },
+      "source_classification": "EMPLOYER_POSTING",
+      "mapping_status": "CANDIDATE_REQUIRES_INDEPENDENT_REVIEW",
+      "clinical_authorization_inferred": false
+    },
+    {
+      "job_id": "12180487",
+      "employer": "Rede D'Or / Itaim",
+      "role": "Enfermeiro Serviço Compartilhado Transplante",
+      "source_url": "https://rededor.gupy.io/job/eyJqb2JJZCI6MTIxODA0ODcsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0%3D",
+      "listing_type": "POSTING",
+      "cofen_specialty_id_candidate": "COFEN-581-I-06",
+      "skill_signals": {
+        "required": [
+          "NURSING_DEGREE",
+          "COREN_ACTIVE",
+          "SPECIALIZATION_TRANSPLANT_NEPHROLOGY_OR_RELATED",
+          "PATIENT_NAVIGATION"
+        ],
+        "responsibilities": [
+          "TRANSPLANT_CARE_COORDINATION",
+          "PATIENT_FAMILY_EDUCATION",
+          "MULTIDISCIPLINARY_COMMUNICATION",
+          "CARE_PATHWAY_MONITORING"
+        ]
+      },
+      "source_classification": "EMPLOYER_POSTING",
+      "mapping_status": "CANDIDATE_REQUIRES_INDEPENDENT_REVIEW",
+      "clinical_authorization_inferred": false
+    }
+  ],
+  "candidate_metrics": {
+    "ads": 36,
+    "distinct_specialties": 16,
+    "coverage_percent": 24.6154,
+    "increment_percentage_points": 3.0769
+  },
+  "limitations": [
+    "Non-probability convenience sample; cannot infer national demand",
+    "Not proof of an open position at a later date",
+    "Skill coding and COFEN mapping are candidates without independent double review",
+    "No protected full job descriptions copied; only URLs and independent short labels",
+    "Do not mutate canonical 34-ad baseline before review"
+  ],
+  "test_candidates": [
+    "Both job IDs absent from 34-ad baseline",
+    "Both specialty IDs absent from 14-specialty baseline",
+    "Candidate coverage = 16/65",
+    "One ad cannot count twice for one specialty",
+    "Do not treat transplant and nephrology as identical specialty",
+    "No authorization to practice inferred from job ad"
+  ]
+}
