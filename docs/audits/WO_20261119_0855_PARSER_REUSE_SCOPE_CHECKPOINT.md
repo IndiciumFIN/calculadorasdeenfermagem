@@ -74,3 +74,41 @@ NO-GO / fail-closed. Não houve código funcional alterado, DDL/DML, seeds, migr
 
 ## Decisão e rollback
 PR73 permanece **DRAFT / NO-GO** até CI e gates. Rollback do código: reverter isoladamente os commits `6992e3e` e `2d14b19` em branch de revisão após conferir o HEAD; alterações são textuais e não alteram dados. Não houve DDL/DML, migrations, seeds, deploy, merge, exclusão de branch, publicação clínica ou manipulação de registros pessoais. Próxima execução: CI e testes de importação/fail-closed; prosseguir em parsers e crosswalk independentes.
+
+
+---
+
+# Rodada incremental — 2026-11-19 10:51 BRT — verificação de CI pós-correções
+
+## Checkpoint físico, fontes e fingerprints
+- PR #73: OPEN/DRAFT, branch `audit/ce-supabase-migration-first-20261115`; HEAD confirmado por comparação idêntica ao SHA `5b34bc3adc8d470b638030008d2c12500504a33c` (0 ahead/0 behind).
+- PR workspace #71: OPEN/DRAFT, branch `fix/ce-tanstack-vercel-build-no-migrations-20261114`; não integrada.
+- Código já alterado: `packages/cli/main.py` blob `bec5bfa0db972988495dd847c4a4df4c7887a2ee`; `packages/cli/kernel/cli.py` blob `66c9efb6e6e47c228d1a261f82af6b47e53c84c3`. Sem delta de arquivo nesta rodada, não reprocessar fingerprint.
+- Export `MANIFEST.json` blob `8099e3ff225224eb00e8eb5accd6d8365ddfcf14`; `constraints.jsonl` blob histórico `83642780302397204b39796e1bd3604a77c68f53`. Export NON_ATOMIC_ACROSS_QUERIES/HOLD_HUMAN, 59 schemas, 678 relações, 255 migrations, 7246 colunas, 1996 constraints, 1268 índices, 100 RLS policies. Sem novo delta de manifesto.
+- PostgreSQL físico `pgsybzggewhinaniybiy`, SELECT somente: `ce_platform=252`, `cko_governance=264`, `public=197` constraints (713 nos três schemas). Agregado não é equivalência semântica nem snapshot atômico.
+
+## Evidência nova: CI do HEAD `5b34bc3`
+GitHub Actions consultado em 2026-11-19: `Pipeline Determinístico` PASS (run 44528322158), `CE Migration-first Supabase provenance (NO SQL)` PASS (44528322002), `CI - Validação` PASS (44528322101), `Canonical repository invariants` FAIL (44528322027). Portanto **3/4 PASS, global FAIL**. No workflow falho: job `Canonical contracts and CLI smoke` FAIL em `Verify canonical source and policy references`, smoke de CLI/Kernel SKIPPED; job `Full admission blockers (fail closed)` FAIL em `Reject unresolved parser or import dependencies`. Compilação e testes negativos do primeiro job PASS. Não inferir que os 5 imports ou 16 parsers estejam resolvidos; logs de linha específicos e smoke continuam pendentes.
+
+## Work orders por objeto / delta / estado / risco / teste / responsável
+| WO | Objeto/fingerprint e delta | Status | Risco | Teste, critério de aceite | Responsável / próxima ação |
+|---|---|---|---|---|---|
+| CE-01 | PR73 HEAD `5b34bc3`; CI observado agora | FAIL | alto | 4/4 workflows PASS no mesmo SHA; sem relaxar guards | Engenharia: logs de jobs e correções mínimas |
+| CE-02 | `packages/cli/main.py` blob `bec5bfa`, sem delta | HOLD_TEST | alto | CLI smoke e casos negativos reais | Engenharia: executar testes, não reprocessar fonte |
+| CE-03 | `packages/cli/kernel/cli.py` blob `66c9efb`, sem delta | HOLD_TEST | alto | import, política inválida, PENDING_REVIEW exit 2 | Engenharia: teste e revisão de exit codes não-zero |
+| CE-04 | `integration/cko-parsers-catalog-20261114`; 16 parsers pendentes | FAIL/HOLD_INTEGRATION | alto | 16/16 com proveniência, testes, licença e smoke | Engenharia: portabilidade seletiva sem stubs |
+| CE-05 | `contracts/fonts`, consumidores não inventariados | HOLD_HUMAN | alto | análise de dependências e regressão antes de exclusão | Arquitetura: preservar |
+| CE-06 | Export manifest `8099e3ff`, constraints `83642780`, sem delta | HOLD_SEMANTIC | alto | 1996/1996 identidades e definições comparadas no mesmo escopo | Dados: avançar apenas fingerprints inéditos |
+| CE-07 | Catálogo físico 713 constraints em 3 schemas | PASS_READ / HOLD_CROSSWALK | médio | confronto PK/FK individual, sem contagem como aceite | Dados: próxima amostra |
+| CE-08 | 24 ferramentas, metamodelo, corpus M08/M09 | NOT_RUN | alto | evidência clínica/jurídica, testes, provenance | Clínico/engenharia: avanço independente |
+| CE-09 | Workspace PR71 DRAFT | HOLD_VERIFY | médio | CI e compatibilidade sem migrations | Engenharia workspace: revisar isoladamente |
+
+## Percentuais e decisões
+- CI no HEAD pré-checkpoint: **3/4 = 75% PASS**; global FAIL.
+- Jobs falhos identificados: **2/2 = 100% diagnóstico de etapa**; correções nesta rodada **0**.
+- Imports homologados: **0/5**; parsers homologados: **0/16**; ferramentas revalidadas: **0/24**.
+- Constraints com crosswalk histórico: **8/1996 = 0,40%**; novas equivalências **0**. Não confundir inventário com homologação.
+- Execução local de CLI/Kernel: **NOT_RUN**; smoke em CI **SKIPPED**; novos testes adversariais **NOT_RUN**.
+- Estimativa global de conclusão: **NÃO AFERÍVEL** (sem denominadores homologados de todas as camadas).
+- NO-GO permanece; nenhuma migration, DDL/DML, seed, merge, deploy, exclusão de branch ou publicação de candidato. Gates clínicos, jurídicos, LGPD, segurança, direitos autorais e proveniência mantidos.
+- Rollback: apenas reverter este commit documental, se necessário; nenhum estado físico do banco foi alterado. Fonte: GitHub PR73, PR71, Actions, contents/compare e Supabase catálogo SELECT, consultados em 2026-11-19.
