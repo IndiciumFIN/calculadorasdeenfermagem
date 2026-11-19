@@ -30,7 +30,10 @@ jobs:
           python-version: '3.11'
 
       - name: Install Python deps
-        run: pip install typer pydantic
+        run: python -m pip install typer pydantic pytest
+
+      - name: Kernel gate fail-closed regression (mandatory)
+        run: python -m pytest -q tests/test_kernel_gate_fail_closed_20261119.py
 
       - name: Validate CLI help
         run: python packages/cli/main.py --help || echo "CLI skeleton"
