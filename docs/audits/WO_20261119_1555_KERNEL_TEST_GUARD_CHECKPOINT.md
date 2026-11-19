@@ -50,3 +50,27 @@ Testar comportamento do Kernel com doubles e smoke, verificar CI do commit de c�
 **Coberturas verificadas:** Kernel gate 0/1 homologado; imports 0/3; parsers 0/16; ferramentas 0/24; crosswalk 8/1996 histórico (0,40%); novo teste 0/10 executados. Denominadores de metamodelo, corpus, LGPD, clínica e jurídico não aferidos. **Estimativa global de conclusão: NÃO AFERÍVEL**. PR #73 NO-GO. Nenhum DDL/DML, migration, seed, merge, deploy, exclusão de branch ou publicação. Sem fontes normativas externas novas.
 
 **Próxima ação:** executar a nova suíte no HEAD do commit de testes; verificar o CI disparado; corrigir qualquer falha real sem enfraquecer invariantes; depois portar parsers seletivamente e ampliar o crosswalk com SELECT por objeto.
+
+
+## Rodada 2026-11-19 17:51 BRT — teste obrigatório no CI
+
+**Checkpoint de entrada:** PR #73 DRAFT/open, HEAD `3d34f09cbfbe5de19c541a2e6abb8555d4cbe231`; Kernel blob `1d4e729e80aff7ce3f9d46323f512d9f9349898f`; suíte blob `92eacbf90b3fa82284aaa44617c6ae0092fd777a`. A suíte foi inspecionada, não reescrita nem presumida como aprovada.
+
+**Delta persistido:** `.github/workflows/ci.yml` blob `7ecc09d952463223d9b433da5bf02d58b71ba7fe` -> `a26b6bca58561426ad8d2e5f0a4c66e5b002c115`, commit [1f6080036709788014c214248bb5bb4d0573119d](https://github.com/IndiciumFIN/calculadorasdeenfermagem/commit/1f6080036709788014c214248bb5bb4d0573119d). Acrescenta instalação de pytest e etapa **obrigatória**, sem `continue-on-error`, `python -m pytest -q tests/test_kernel_gate_fail_closed_20261119.py`. Mantida configuração anterior de typecheck/CLI, cujas tolerâncias são débito técnico separado; não atribuir a elas aprovação real. Sem alteração em código clínico.
+
+**CI do HEAD anterior 3d34f09:** [Pipeline Determinístico PASS](https://github.com/IndiciumFIN/calculadorasdeenfermagem/actions/runs/44602597409), [CI - Validação PASS](https://github.com/IndiciumFIN/calculadorasdeenfermagem/actions/runs/44602597560), [Proveniência PASS](https://github.com/IndiciumFIN/calculadorasdeenfermagem/actions/runs/44602597834), [Canonical repository invariants FAIL](https://github.com/IndiciumFIN/calculadorasdeenfermagem/actions/runs/44602597296). Nos invariantes: 2/2 jobs FAIL; compilação e testes negativos PASS, referências canônicas FAIL, admissão parser/import FAIL, smoke CLI e Kernel SKIPPED. O PASS anterior de CI-Validação **não executava** os dez cenários novos. Resultado do CI após commit de workflow: NOT_OBSERVED nesta rodada.
+
+**Supabase:** SELECT-only no projeto `pgsybzggewhinaniybiy`, `pg_constraint` por `contype`, confirmou novamente ce_platform 252, cko_governance 264, public 197, total 713 **apenas três schemas**. Snapshot histórico de 1996 constraints permanece `NON_ATOMIC_ACROSS_QUERIES`, sem reconciliação semântica nova; fingerprint `83642780302397204b39796e1bd3604a77c68f53` sem delta, não reprocessado. Não foram usados outros bancos.
+
+| WO | Objeto / fingerprint | Delta / status / risco | Teste | Responsável e próxima ação | Critério de aceite |
+|---|---|---|---|---|---|
+| CI-KERNEL-TEST | `.github/workflows/ci.yml` `7ecc09d9` -> `a26b6bca`; suíte `92eacbf9` | Novo step pytest obrigatório; PASS_WRITE / HOLD_TEST, médio | 10/10 cenários definidos; execução nova NOT_OBSERVED | Engenharia: ler logs CI novo e corrigir falhas de dependência/testes | 10/10 PASS no HEAD e falha de teste reprova CI |
+| CI-CANONICAL | run 44602597296 | Sem delta nos invariantes; FAIL, alto | 2/2 jobs FAIL | Engenharia: reparar refs e parsers por menor delta, não relaxar gate | 2/2 jobs PASS |
+| PARSERS | branch `integration/cko-parsers-catalog-20261114` | Sem delta; HOLD_VERIFY, alto | 0/16 homologados | Integração: contratos, licença e teste por parser | 16/16 PASS |
+| TOOLS | branch `feat/ce-tools-governed-backend-20261115` | Sem delta; HOLD_VERIFY, alto | 0/24 homologadas | Engenharia clínica: contratos e veto | 24/24 PASS |
+| METAMODEL | branch `feat/cko-catalog-metamodel-automated-20261114` | Sem delta; HOLD_VERIFY, alto | denominador não aferido | CKO: dicionário/PK/FK | crosswalk por objeto |
+| CORPUS | branch `feat/cko-m08-m09-corpus-atomic-20261114` | Sem delta; HOLD_VERIFY, alto | denominador não aferido | Conteúdo: direitos/proveniência | átomos rastreáveis |
+| PG-CROSSWALK | `constraints.jsonl` fingerprint `8364278030` | Sem delta; HOLD_SEMANTIC, alto | histórico 8/1996 = 0,40% | Dados: SELECT por PK/FK | equivalência individual |
+| WORKSPACE | PR #71 `dev-chatgpt-workspace` | Sem delta; HOLD_VERIFY, médio | NOT_RUN | Integração: revisar isoladamente | sem contratos concorrentes |
+
+**Percentuais por camada:** CI HEAD anterior 3/4 PASS = 75%, global FAIL; regressões definidas 10/10, executadas no novo HEAD **não observadas** (não inferir 0 falhas nem PASS); gate homologado 0/1; imports 0/3; parsers 0/16; ferramentas 0/24; constraints historicamente reconciliadas 8/1996 = 0,40%. Metamodelo, corpus, LGPD, clínica e jurídico sem denominador validado. **Estimativa global de conclusão: NÃO AFERÍVEL**. PR #73 DRAFT/NO-GO. Nenhum DDL/DML, migration, seed, merge, deploy, exclusão de branch ou publicação. Sem novas fontes normativas externas nesta rodada.
