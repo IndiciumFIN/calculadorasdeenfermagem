@@ -231,18 +231,22 @@ class Kernel:
             typer.secho(f"❌ Validadores ausentes: {missing}. Fail-closed.", fg=typer.colors.RED)
             return 2
 
-        typer.secho(f"✅ Gate {policy_id}@{policy.version}: {len(policy.validators)} validadores OK", fg=typer.colors.GREEN)
-
+        # Não anunciar aprovação antes da execução de todos os testes.
         for vname in policy.validators:
             validator = VALIDATORS[vname]
-            if hasattr(validator, "run_tests"):
-                if not validator.run_tests():
-                    typer.secho(f"❌ Validador '{vname}' falhou nos testes. Fail-closed.", fg=typer.colors.RED)
-                    return 2
-                typer.secho(f"  ✅ {vname}: {len(validator.test_suite())} testes OK", fg=typer.colors.GREEN)
-            else:
-                typer.secho(f"❌ Validador '{vname}' sem run_tests: aprovação bloqueada (fail-closed).", fg=typer.colors.RED)
+            run_tests = getattr(validator, "run_tests", None)
+            if not callable(run_tests):
+                typer.secho(f"❌ Validador '{vname}' sem run_tests executável. Fail-closed.", fg=typer.colors.RED)
                 return 2
+            try:
+                passed = run_tests()
+            except Exception as exc:
+                typer.secho(f"❌ Validador '{vname}' lançou {type(exc).__name__} durante os testes. Fail-closed.", fg=typer.colors.RED)
+                return 2
+            if passed is not True:
+                typer.secho(f"❌ Validador '{vname}' não retornou True nos testes. Fail-closed.", fg=typer.colors.RED)
+                return 2
+            typer.secho(f"  ✅ {vname}: testes executados e aprovados", fg=typer.colors.GREEN)
 
         output_dir = Path(policy.atoms_output)
         if not output_dir.exists():
