@@ -123,3 +123,26 @@ Testar comportamento do Kernel com doubles e smoke, verificar CI do commit de c�
 | WORKSPACE | PR #71, sem delta verificado nesta rodada | HOLD_VERIFY, médio; NOT_RUN | Integração: revisar sem contrato concorrente; aceite compatibilidade comprovada |
 
 **Coberturas e decisão:** CI do HEAD de entrada 3/4 PASS (75%), global FAIL; suíte Kernel 10/10 PASS histórico, 1/1 teste novo NOT_RUN; gate integrado 0/1 homologado; imports 0/3; parsers 0/16; ferramentas 0/24; constraints 8/1996 histórico (0,40%); metamodelo/corpus/LGPD/clínica/jurídico sem denominadores aferidos. **Estimativa global: NÃO AFERÍVEL.** PR #73 DRAFT/NO-GO. CI dos commits novos NOT_OBSERVED; sem fontes normativas externas novas. Nenhum DDL/DML, migration, seed, merge, deploy, exclusão de branch ou publicação de candidato. Próximo passo: observar CI dos commits novos e corrigir os bloqueios reais, mantendo fail-closed.
+
+
+## Rodada 2026-11-19 20:55 BRT — execução confirmada da regressão de lote vazio
+
+**Entrada verificável:** checkpoint anterior commit `253070a4b5b0807260273a0c35d9a36e08a21844`; blob deste programa `e910c980774ad97db7c27d146f52531cb98e4b12`; teste `tests/test_kernel_gate_fail_closed_20261119.py` blob `be36a86f749425b5c8f6d5012095cbf5bf304da5`. Nenhum delta de código produzido nesta rodada; fingerprints históricos sem delta não foram reprocessados.
+
+**CI do commit de entrada:** [Validação 44632249137](https://github.com/IndiciumFIN/calculadorasdeenfermagem/actions/runs/44632249137) PASS, com log do job 135941650146 registrando **11 passed in 0.60s** na etapa obrigatória `python -m pytest -q tests/test_kernel_gate_fail_closed_20261119.py`. [Pipeline 44632249289](https://github.com/IndiciumFIN/calculadorasdeenfermagem/actions/runs/44632249289) PASS; [Proveniência 44632249121](https://github.com/IndiciumFIN/calculadorasdeenfermagem/actions/runs/44632249121) PASS; [Invariantes 44632249053](https://github.com/IndiciumFIN/calculadorasdeenfermagem/actions/runs/44632249053) FAIL. Jobs: 135941650010 falha em dependências parser/import; 135941650382 falha em referências canônicas, apesar de compilação e testes negativos PASS; smoke CLI e Kernel SKIPPED. CI global FAIL; 3/4 workflows PASS = 75%.
+
+**Supabase único:** SELECT de `pg_constraint` no projeto `pgsybzggewhinaniybiy` confirmou `ce_platform` 252, `cko_governance` 264 e `public` 197, total 713 **nesses três schemas**, não 713/1996 reconciliadas. Snapshot histórico informado (59 schemas, 678 relações, 255 migrations, 7246 colunas, 1996 constraints, 1268 índices, 100 policies) permanece `NON_ATOMIC_ACROSS_QUERIES / HOLD_HUMAN`. Crosswalk semântico histórico 8/1996 (0,40%), sem nova validação por objeto.
+
+| WO | Objeto/fingerprint e delta | Estado/risco/teste | Responsável, ação seguinte e aceite |
+|---|---|---|---|
+| KERNEL-BATCH | `core.py` blob `f0adfa60`; teste blob `be36a86f`; sem delta nesta rodada | PASS_SUITE 11/11; HOLD_INTEGRATION, médio | Engenharia: smoke integrado e teste de política real; aceite lote vazio REJECTED e veto preservado |
+| CI-CANONICAL | run `44632249053`; sem delta | FAIL 2/2 jobs, alto | Engenharia: verificar referências `contracts/fonts`, 16 parsers, contratos e licenças; aceite 2/2 PASS sem relaxar verificações |
+| CLI-IMPORT | três arquivos previamente editados; sem delta | HOLD_TEST 0/3, médio | Engenharia: executar smoke CLI/Kernel sem circularidade |
+| PARSERS | `integration/cko-parsers-catalog-20261114`; fingerprints individuais não aferidos | HOLD_VERIFY 0/16, alto | Integração: revisar código, licença, contrato e teste de cada parser; aceite 16/16 |
+| TOOLS | `feat/ce-tools-governed-backend-20261115`; sem delta | HOLD_VERIFY 0/24, alto | Engenharia clínica: contratos, vetos e testes; aceite 24/24 |
+| METAMODEL | `feat/cko-catalog-metamodel-automated-20261114`; sem delta | HOLD_VERIFY, alto, denominador não aferido | CKO: PK/FK/dicionário SELECT-only; aceite crosswalk por objeto |
+| CORPUS | `feat/cko-m08-m09-corpus-atomic-20261114`; sem delta | HOLD_VERIFY, alto, denominador não aferido | Conteúdo: licenças, proveniência e deduplicação; aceite fontes primárias rastreáveis |
+| PG-CROSSWALK | fingerprint histórico `83642780302397204b39796e1bd3604a77c68f53`; sem delta | HOLD_SEMANTIC, alto; 8/1996 = 0,40% histórico | Dados: comparar PK/FK individualmente sem reprocessar fingerprint |
+| WORKSPACE | `IndiciumFIN/dev-chatgpt-workspace` PR #71; sem delta verificado | HOLD_VERIFY, médio, NOT_RUN | Integração: revisar contratos sem concorrência |
+
+**Coberturas:** regressão específica 11/11 = 100% PASS; homologação integrada do Kernel 0/1; CI 3/4 = 75%, global FAIL; imports 0/3; parsers 0/16; ferramentas 0/24; crosswalk histórico 8/1996 = 0,40%. Metamodelo, corpus, LGPD, clínica e jurídico sem denominadores validados. **Estimativa global de conclusão: NÃO AFERÍVEL**. PR #73 continua NO-GO. Sem fontes normativas externas novas. Testes locais NOT_RUN; CI deste commit documental NOT_OBSERVED. Nenhuma DDL/DML, migration, seed, merge, deploy, exclusão de branch ou publicação de candidato.
