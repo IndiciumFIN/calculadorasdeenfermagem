@@ -19,7 +19,7 @@ from packages.schemas.invariantes import AtomoBlindado
 
 # Import tardio para evitar circular — cada validador se auto-registra
 def _lazy_import_validators():
-    from validators import (
+    from packages.cli.validators import (
         Sha256Validator, NormAtomIdValidator, TextoLengthValidator,
         UrlValidator, AtomoSchemaValidator,
         cid10_validator, cid11_validator, mesh_validator,
@@ -41,7 +41,7 @@ def _ensure_validators():
                 VALIDATORS[k] = v
         _validator_imported = True
 
-from kernel.policy_registry import get_policy, PolicyRegistry
+from packages.cli.kernel.policy_registry import get_policy, PolicyRegistry
 
 
 class Decision(str, Enum):
