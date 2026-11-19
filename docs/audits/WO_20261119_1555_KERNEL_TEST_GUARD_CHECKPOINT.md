@@ -74,3 +74,27 @@ Testar comportamento do Kernel com doubles e smoke, verificar CI do commit de c�
 | WORKSPACE | PR #71 `dev-chatgpt-workspace` | Sem delta; HOLD_VERIFY, médio | NOT_RUN | Integração: revisar isoladamente | sem contratos concorrentes |
 
 **Percentuais por camada:** CI HEAD anterior 3/4 PASS = 75%, global FAIL; regressões definidas 10/10, executadas no novo HEAD **não observadas** (não inferir 0 falhas nem PASS); gate homologado 0/1; imports 0/3; parsers 0/16; ferramentas 0/24; constraints historicamente reconciliadas 8/1996 = 0,40%. Metamodelo, corpus, LGPD, clínica e jurídico sem denominador validado. **Estimativa global de conclusão: NÃO AFERÍVEL**. PR #73 DRAFT/NO-GO. Nenhum DDL/DML, migration, seed, merge, deploy, exclusão de branch ou publicação. Sem novas fontes normativas externas nesta rodada.
+
+
+## Rodada 2026-11-19 18:56 BRT — execução real da regressão
+
+**Evidência nova:** PR #73 aberta/DRAFT (base main; branch `audit/ce-supabase-migration-first-20261115`); checkpoint de entrada commit `f7fc96b7d7a60ad5d4cd9bac5f42c8e680f0cbff`; blob deste programa `c94fd2234dd5b33b151e4c44a4ac133c8fae2e3b`. Workflow `.github/workflows/ci.yml` blob `a26b6bca58561426ad8d2e5f0a4c66e5b002c115` sem delta nesta rodada. GitHub Actions run [44613031297](https://github.com/IndiciumFIN/calculadorasdeenfermagem/actions/runs/44613031297), job `135874307040`: etapa obrigatória Kernel gate fail-closed regression **PASS**, log registra **10 passed in 0.11s**. Resultado efetivo 10/10 cenários PASS no checkpoint `f7fc96b7`; o CI-Validação PASS não implica gate global aprovado.
+
+**Quatro workflows do mesmo SHA:** provenance [44613031237](https://github.com/IndiciumFIN/calculadorasdeenfermagem/actions/runs/44613031237) PASS; pipeline [44613031400](https://github.com/IndiciumFIN/calculadorasdeenfermagem/actions/runs/44613031400) PASS; validation [44613031297](https://github.com/IndiciumFIN/calculadorasdeenfermagem/actions/runs/44613031297) PASS; invariants [44613031634](https://github.com/IndiciumFIN/calculadorasdeenfermagem/actions/runs/44613031634) FAIL, jobs `135874308674` Full admission blockers e `135874309230` Canonical contracts and CLI smoke ambos FAIL. 3/4 PASS (75%), **global FAIL**. Nenhuma tentativa de contornar bloqueios. CI do commit deste checkpoint: NOT_OBSERVED.
+
+**Supabase físico:** SELECT de `pg_constraint` por tipo e namespace exclusivamente no projeto `pgsybzggewhinaniybiy`: ce_platform CHECK 3/FK 135/PK 96/UNIQUE 18 = 252; cko_governance CHECK 61/FK 81/PK 88/UNIQUE 34 = 264; public CHECK 53/FK 71/PK 48/UNIQUE 25 = 197; total **713 em apenas três schemas**. Snapshot informado (59 schemas, 678 relações, 255 migrations, 7246 colunas, 1996 constraints, 1268 índices, 100 policies) continua NON_ATOMIC_ACROSS_QUERIES/HOLD_HUMAN. Fingerprint histórico `83642780302397204b39796e1bd3604a77c68f53` sem delta verificado; **não reprocessado**. Crosswalk histórico 8/1996 (0,40%), nenhuma nova equivalência homologada.
+
+**Workspace:** PR [#71](https://github.com/IndiciumFIN/dev-chatgpt-workspace/pull/71) aberta/DRAFT, head `fix/ce-tanstack-vercel-build-no-migrations-20261114`, base main; nenhuma integração nesta rodada.
+
+| WO | Objeto / fingerprint / delta | Estado, risco e teste | Responsável / ação seguinte / aceite |
+|---|---|---|---|
+| KERNEL-REGRESSION | `tests/test_kernel_gate_fail_closed_20261119.py` blob histórico `92eacbf90b3fa82284aaa44617c6ae0092fd777a`; workflow `a26b6bca`; sem delta de código | **PASS** 10/10 em run 44613031297; risco residual médio; smoke integrado ainda pendente | Engenharia: verificar execução CLI real e isolamento; aceite: regressão e smoke PASS sem relaxar veto |
+| CI-CANONICAL | run 44613031634; 2 jobs FAIL | **FAIL**, risco alto | Engenharia: inspecionar logs dos dois jobs e corrigir causas reais; aceite 2/2 PASS |
+| PARSERS | `integration/cko-parsers-catalog-20261114`; fingerprint individual não aferido, sem delta | HOLD_VERIFY; 0/16, alto | Integração: comparar contratos/licenças e portar seletivamente; aceite 16/16 testados |
+| TOOLS | `feat/ce-tools-governed-backend-20261115`; sem delta | HOLD_VERIFY; 0/24, alto | Engenharia clínica: contratos e veto; aceite 24/24 homologadas |
+| METAMODEL | `feat/cko-catalog-metamodel-automated-20261114`; sem delta | HOLD_VERIFY; denominador não aferido, alto | CKO: confrontar dicionário/PK/FK SELECT; aceite crosswalk individual |
+| CORPUS | `feat/cko-m08-m09-corpus-atomic-20261114`; sem delta | HOLD_VERIFY; denominador não aferido, alto | Conteúdo: licença/proveniência; aceite átomos rastreáveis |
+| PG-CROSSWALK | fingerprint `8364278030`; sem delta | HOLD_SEMANTIC; histórico 8/1996, alto | Dados: SELECT por objeto com identidade semântica; aceite equivalência auditável |
+| WORKSPACE | PR #71 aberta/DRAFT | HOLD_VERIFY; sem delta, médio | Integração: revisar sem criar contratos concorrentes |
+
+**Cobertura:** regressão Kernel 10/10 PASS (100% da suíte específica), homologação integrada do gate 0/1; imports 0/3; parsers 0/16; ferramentas 0/24; crosswalk histórico 8/1996 = 0,40%; CI 3/4 = 75% e global FAIL. Metamodelo, corpus, LGPD, clínica e jurídico sem denominadores auditados. **Estimativa global de conclusão: NÃO AFERÍVEL.** PR #73 NO-GO. Sem DDL/DML, migrations, seeds, merge, deploy, exclusão de branch ou publicação. Sem novas fontes normativas externas.
