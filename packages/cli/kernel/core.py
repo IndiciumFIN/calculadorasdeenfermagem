@@ -168,6 +168,15 @@ class Kernel:
                 errors=["Nenhum validador registrado na política. Fail-closed."],
             )
 
+        # Lote vazio não pode ser aprovado sem avaliação efetiva.
+        if not items:
+            return KernelDecision(
+                decision=Decision.REJECTED,
+                policy_id=policy_id,
+                policy_version=policy.version,
+                errors=["Lote vazio: nenhuma entrada avaliada. Fail-closed."],
+            )
+
         all_results: list[ValidationResult] = []
         approved_count = 0
         rejected_count = 0
