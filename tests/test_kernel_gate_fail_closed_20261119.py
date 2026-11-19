@@ -55,3 +55,15 @@ def test_gate_unknown_policy_fails_closed(kernel, monkeypatch):
         raise KeyError("missing")
     monkeypatch.setattr(core, "get_policy", missing)
     assert kernel.gate("MISSING") == 2
+
+
+def test_empty_batch_rejected_without_validator_invocation(kernel, monkeypatch):
+    policy = SimpleNamespace(validators=["dummy_validator"], version="1.0")
+    monkeypatch.setattr(core, "get_policy", lambda _: policy)
+    def forbidden_validate(_):
+        raise AssertionError("empty batch must not invoke validators")
+    monkeypatch.setattr(core, "VALIDATORS", {"dummy_validator": SimpleNamespace(validate=forbidden_validate)})
+    result = kernel.evaluate_batch([], "TEST-POLICY")
+    assert result.decision is core.Decision.REJECTED
+    assert result.approved_count == 0
+    assert result.errors and "Lote vazio" in result.errors[0]
