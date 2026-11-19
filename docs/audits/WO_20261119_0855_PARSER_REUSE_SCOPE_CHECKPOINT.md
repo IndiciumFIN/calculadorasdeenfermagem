@@ -34,3 +34,43 @@ PR #73: audit/ce-supabase-migration-first-20261115; HEAD de entrada `38edfcf2420
 
 ## Decisão
 NO-GO / fail-closed. Não houve código funcional alterado, DDL/DML, seeds, migrations, merge, deploy, exclusões ou publicação. Próximo ciclo: confronto PR73 vs branch de parsers e correção mínima testável, sem reprocessar fingerprints estáveis. Fontes: GitHub PR73/compare/Actions consultados em 2026-11-19; Supabase PostgreSQL SELECT em 2026-11-19.
+
+
+---
+
+# Rodada incremental — 2026-11-19 09:53 BRT (checkpoint técnico)
+
+## Estado físico e hashes verificados
+- PR #73 branch `audit/ce-supabase-migration-first-20261115`; HEAD de entrada `0ebc24b8f3b18d4726d4536059f67a63505adddf` (confirmado via compare).
+- Comparação direta **PR73 → integration/cko-parsers-catalog-20261114**: diverged; integração 163 commits ahead e 128 behind; merge-base `e0f62491b104f4a97c6025a6393cabc2e7ada30e`. **Não fazer cherry-pick geral**.
+- Export `MANIFEST.json` blob `8099e3ff225224eb00e8eb5accd6d8365ddfcf14` (sem delta); `constraints.jsonl` blob histórico `83642780302397204b39796e1bd3604a77c68f53`. 59 schemas, 678 relações, 255 migrations, 7246 colunas, 1996 constraints, 1268 índices, 100 RLS policies. NON_ATOMIC_ACROSS_QUERIES/HOLD_HUMAN.
+- Supabase exclusivo `pgsybzggewhinaniybiy`: SELECT em `pg_constraint` para 15 definições PK/FK de `ce_platform` (alert_rules, applications, assessments, attempts, calendar_events, canonical_objects); **15/15 PASS_READ, 0 novas equivalências com export**. Não confundir leitura com reconciliação.
+- GitHub fonte: branches, compare e arquivos consultados em 2026-11-19; Supabase catálogo físico consultado em 2026-11-19.
+
+## Mudanças funcionais efetivamente commitadas (sem merge)
+1. `packages/cli/main.py`: blob `79fe358e7698c0eddf70357fac696daac0abc1e6` → `bec5bfa0db972988495dd847c4a4df4c7887a2ee`; commit `6992e3eb45ae8802aff091554e74298ac56e5ac5`. Imports absolutos corrigidos para `packages.cli.kernel.*` e `packages.cli.validators.*`; validação sem átomos e decisão PENDING_REVIEW passam a exit 2 (fail-closed).
+2. `packages/cli/kernel/cli.py`: blob `a1c15dba3e9a1d36c39f5fe7af14b52b22b0c328` → `66c9efb6e6e47c228d1a261f82af6b47e53c84c3`; commit `2d14b19effade8604e4d9be37be06974dc6f9374`. Mesma correção de namespace e HOLD bloqueante.
+3. Portabilidade **seletiva** de semântica da branch de integração, sem importar parsers nem remover `contracts/fonts`. Revisão textual dos seis fragmentos esperados por arquivo: PASS_SOURCE_MATCH. **Execução Python, testes de smoke, negativos e CI: NOT_RUN / NOT_OBSERVED**, não alegar correção integral dos cinco imports nem aprovação.
+
+## Work orders incrementais / critério de aceite
+| WO | Arquivo/objeto, fingerprint e delta | Estado | Risco | Teste e aceite | Responsável / ação seguinte |
+|---|---|---|---|---|---|
+| CE-01 | PR73 HEAD de entrada `0ebc24b8`; dois commits de código acima | IN_PROGRESS | alto | CI 4/4 PASS, invariantes sem afrouxar guard | Engenharia: verificar CI no HEAD final |
+| CE-02 | `packages/cli/main.py`, blob `bec5bfa0`; 6 mudanças direcionadas | PASS_SOURCE_MATCH / HOLD_TEST | alto | `python -m packages.cli.main --help`, gate negativo e validação PENDING_REVIEW exit 2 | Engenharia: rodar testes |
+| CE-03 | `packages/cli/kernel/cli.py`, blob `66c9efb6`; 6 mudanças direcionadas | PASS_SOURCE_MATCH / HOLD_TEST | alto | import do módulo, gate sem política, PENDING_REVIEW exit 2 | Engenharia: rodar testes |
+| CE-04 | Branch parsers, merge-base `e0f62491`, 163 ahead/128 behind | PASS_COMPARE / HOLD_INTEGRATION | alto | 16 parsers com proveniência e testes, sem stubs | Engenharia: comparar arquivo a arquivo |
+| CE-05 | `contracts/fonts/*` remoções candidatas | HOLD_HUMAN | alto | inventário de consumidores e regressão antes de exclusão | Arquitetura: não remover |
+| CE-06 | Export manifest `8099e3ff`, constraints `83642780` | PASS_READ / HOLD_SEMANTIC | alto | snapshot e crosswalk 1996/1996, sem duplicar fingerprint | Dados: próximo lote ainda não validado |
+| CE-07 | 15 PK/FK `ce_platform` lidas | PASS_READ / HOLD_CROSSWALK | médio | equivalência individual com export | Dados: confrontar por identidade |
+| CE-08 | 24 ferramentas, metamodelo, M08/M09 e workspace PR71 | NOT_RUN | alto | gates clínicos, licença, segurança e CI | Equipes responsáveis: seguir independentemente |
+
+## Progresso com denominadores
+- Código: **2/2 arquivos-alvo alterados**, com 0/2 testes de execução confirmados; não representa 2 imports homologados.
+- Parsers: **0/16** homologados; imports: **0/5** homologados.
+- Ferramentas: **0/24** revalidadas nesta rodada.
+- Constraints: **8/1996 = 0,40%** crosswalk histórico; **0 novas**; 15 definições físicas lidas, não homologadas.
+- CI novo HEAD: **NOT_RUN / não observado**; último CI histórico 3/4 PASS, global FAIL (não atribuir ao HEAD atual).
+- Estimativa global de conclusão: **NÃO AFERÍVEL**, denominadores técnicos, clínicos, jurídicos e de segurança ainda incompletos.
+
+## Decisão e rollback
+PR73 permanece **DRAFT / NO-GO** até CI e gates. Rollback do código: reverter isoladamente os commits `6992e3e` e `2d14b19` em branch de revisão após conferir o HEAD; alterações são textuais e não alteram dados. Não houve DDL/DML, migrations, seeds, deploy, merge, exclusão de branch, publicação clínica ou manipulação de registros pessoais. Próxima execução: CI e testes de importação/fail-closed; prosseguir em parsers e crosswalk independentes.
