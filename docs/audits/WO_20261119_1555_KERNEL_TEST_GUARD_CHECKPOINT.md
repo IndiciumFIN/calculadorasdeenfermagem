@@ -98,3 +98,28 @@ Testar comportamento do Kernel com doubles e smoke, verificar CI do commit de c�
 | WORKSPACE | PR #71 aberta/DRAFT | HOLD_VERIFY; sem delta, médio | Integração: revisar sem criar contratos concorrentes |
 
 **Cobertura:** regressão Kernel 10/10 PASS (100% da suíte específica), homologação integrada do gate 0/1; imports 0/3; parsers 0/16; ferramentas 0/24; crosswalk histórico 8/1996 = 0,40%; CI 3/4 = 75% e global FAIL. Metamodelo, corpus, LGPD, clínica e jurídico sem denominadores auditados. **Estimativa global de conclusão: NÃO AFERÍVEL.** PR #73 NO-GO. Sem DDL/DML, migrations, seeds, merge, deploy, exclusão de branch ou publicação. Sem novas fontes normativas externas.
+
+
+## Rodada 2026-11-19 19:49 BRT — batch vazio e reconfirmação dos invariantes
+
+**Cadeia de evidências:** entrada HEAD `38dab2b4c87fca829cce731ac3f18cb57f865d32`; programa anterior blob `25b32af985e6dabb89a7de6d310d72abd42da8fe`. GitHub Actions para esse SHA: pipeline [44623973651](https://github.com/IndiciumFIN/calculadorasdeenfermagem/actions/runs/44623973651) PASS, proveniência [44623973617](https://github.com/IndiciumFIN/calculadorasdeenfermagem/actions/runs/44623973617) PASS, validação [44623973716](https://github.com/IndiciumFIN/calculadorasdeenfermagem/actions/runs/44623973716) PASS, invariantes [44623973837](https://github.com/IndiciumFIN/calculadorasdeenfermagem/actions/runs/44623973837) FAIL. Jobs 135912772474 e 135912772895: testes negativos 11/11 PASS; verificação canônica encontrou 1 erro `LEGACY_SOURCE_DIR contracts/fonts` e 16 `MISSING_PARSER`; smoke CLI/Kernel SKIPPED. O CI global permanece FAIL; nenhuma verificação foi relaxada.
+
+**Correção real de código:** `packages/cli/kernel/core.py`, blob `1d4e729e80aff7ce3f9d46323f512d9f9349898f` -> `f0adfa60fc610d0c68d220fe1177e96c9d2b6767`, commit [a5a20353](https://github.com/IndiciumFIN/calculadorasdeenfermagem/commit/a5a20353eb76fb7e02bf71c8471312cd7f37066d). `evaluate_batch([],...)` anteriormente podia emitir `APPROVED` sem avaliar itens; agora rejeita lote vazio com erro explícito. Sem acesso a dados reais ou alteração de políticas.
+
+**Regressão nova:** `tests/test_kernel_gate_fail_closed_20261119.py`, blob `92eacbf90b3fa82284aaa44617c6ae0092fd777a` -> `be36a86f749425b5c8f6d5012095cbf5bf304da5`, commit [1e2ad653](https://github.com/IndiciumFIN/calculadorasdeenfermagem/commit/1e2ad6533ed60919f14e24d11fbce0cc84d51141). Adiciona teste de rejeição de lote vazio e ausência de chamada de validador. **11/11 cenários definidos; 10/10 previamente executados e PASS no HEAD anterior; cenário novo NOT_RUN no novo HEAD.** Correção funcional PASS_WRITE/HOLD_TEST, risco médio.
+
+**Supabase único:** `pgsybzggewhinaniybiy`, SELECT-only `pg_constraint`: ce_platform 252, cko_governance 264, public 197; total 713 constraints em apenas três schemas. Snapshot informado 59 schemas/678 relações/255 migrations/7246 colunas/1996 constraints/1268 índices/100 policies continua `NON_ATOMIC_ACROSS_QUERIES`, não homologado. Fingerprint histórico `83642780302397204b39796e1bd3604a77c68f53` sem delta comprovado; não reprocessado. Crosswalk histórico 8/1996 = 0,40%; nenhuma equivalência semântica nova.
+
+| WO | Objeto, SHA/fingerprint e delta | Estado, risco e teste | Responsável, ação seguinte e aceite |
+|---|---|---|---|
+| KERNEL-BATCH | core.py `1d4e729e` -> `f0adfa60`; teste `92eacbf9` -> `be36a86f` | PASS_WRITE/HOLD_TEST, médio; teste novo NOT_RUN | Engenharia: CI pytest 11/11 e smoke integrado; aceite lote vazio REJECTED e não execução de validadores |
+| CI-CANONICAL | run 44623973837, 2/2 jobs FAIL | FAIL, alto; 1 legado + 16 parsers pendentes | Engenharia: examinar `contracts/fonts` sem excluir dados, portar parsers reais; aceite 2/2 jobs PASS |
+| CLI-IMPORT | 3 arquivos históricos, sem delta novo | HOLD_TEST, médio; 0/3 homologados | Engenharia: smoke imports real; aceite sem circularidade |
+| PARSERS | `integration/cko-parsers-catalog-20261114`, fingerprint por arquivo pendente | HOLD_VERIFY, alto; 0/16 | Integração: licença, contrato e teste por parser; aceite 16/16 |
+| TOOLS | `feat/ce-tools-governed-backend-20261115`, sem delta | HOLD_VERIFY, alto; 0/24 | Engenharia clínica: contrato, vetos e testes; aceite 24/24 |
+| METAMODEL | `feat/cko-catalog-metamodel-automated-20261114`, sem delta | HOLD_VERIFY, alto; denominador não aferido | CKO: confrontar dicionário/PK/FK por objeto SELECT-only; aceite crosswalk rastreável |
+| CORPUS | `feat/cko-m08-m09-corpus-atomic-20261114`, sem delta | HOLD_VERIFY, alto; denominador não aferido | Conteúdo: licenças e proveniência; aceite átomos com fonte primária |
+| PG-CROSSWALK | fingerprint `8364278030`, sem delta | HOLD_SEMANTIC, alto; histórico 8/1996 (0,40%) | Dados: comparar objetos individualmente, sem reprocessar fingerprints; aceite equivalência versionada |
+| WORKSPACE | PR #71, sem delta verificado nesta rodada | HOLD_VERIFY, médio; NOT_RUN | Integração: revisar sem contrato concorrente; aceite compatibilidade comprovada |
+
+**Coberturas e decisão:** CI do HEAD de entrada 3/4 PASS (75%), global FAIL; suíte Kernel 10/10 PASS histórico, 1/1 teste novo NOT_RUN; gate integrado 0/1 homologado; imports 0/3; parsers 0/16; ferramentas 0/24; constraints 8/1996 histórico (0,40%); metamodelo/corpus/LGPD/clínica/jurídico sem denominadores aferidos. **Estimativa global: NÃO AFERÍVEL.** PR #73 DRAFT/NO-GO. CI dos commits novos NOT_OBSERVED; sem fontes normativas externas novas. Nenhum DDL/DML, migration, seed, merge, deploy, exclusão de branch ou publicação de candidato. Próximo passo: observar CI dos commits novos e corrigir os bloqueios reais, mantendo fail-closed.
