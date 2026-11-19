@@ -241,7 +241,8 @@ class Kernel:
                     return 2
                 typer.secho(f"  ✅ {vname}: {len(validator.test_suite())} testes OK", fg=typer.colors.GREEN)
             else:
-                typer.secho(f"  ⚠️  {vname}: sem test_suite (stub)", fg=typer.colors.YELLOW)
+                typer.secho(f"❌ Validador '{vname}' sem run_tests: aprovação bloqueada (fail-closed).", fg=typer.colors.RED)
+                return 2
 
         output_dir = Path(policy.atoms_output)
         if not output_dir.exists():
