@@ -10,7 +10,10 @@
     "last_update": "2026-10-17"
   },
   "kernel_policy_id": "KERNEL-POLICY-007",
-  "validators": "cvx_validator",
+  "validators": [
+    "cvx_validator",
+    "schema_validator"
+  ],
   "kernel_policy_required": true,
   "description": "Fonte oficial: CDC",
   "source_contract": "contracts/fontes/vacinas_cdc.json"

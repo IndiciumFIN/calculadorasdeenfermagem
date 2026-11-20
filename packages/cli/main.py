@@ -25,9 +25,9 @@ from packages.cli.adapters.dou import fetch_dou_federal
 from packages.cli.adapters.secundaria import fetch_secundaria
 
 # Kernel subcommands
-from kernel.core import Kernel, Decision
-from kernel.policy_registry import get_policy, list_policies
-from validators.registry import list_validators
+from packages.cli.kernel.core import Kernel, Decision
+from packages.cli.kernel.policy_registry import get_policy, list_policies
+from packages.cli.validators.registry import list_validators
 
 app = typer.Typer(help="CLI canônica e blindada — Calculadoras de Enfermagem")
 kernel_app = typer.Typer(help="Kernel — executor de políticas determinísticas")
@@ -185,8 +185,8 @@ def kernel_validate(
                 atoms.append(json.load(f))
 
     if not atoms:
-        typer.secho("⚠️  Nenhum átomo encontrado.", fg=typer.colors.YELLOW)
-        raise typer.Exit(1)
+        typer.secho("❌ Nenhum átomo encontrado — HOLD.", fg=typer.colors.RED)
+        raise typer.Exit(2)
 
     kernel_cli = Kernel()
     decision = kernel_cli.evaluate_batch(atoms, policy_id)
@@ -197,6 +197,7 @@ def kernel_validate(
         raise typer.Exit(2)
     elif decision.decision == Decision.PENDING_REVIEW:
         typer.secho("⚠️  Validação PENDENTE — requer revisão humana.", fg=typer.colors.YELLOW)
+        raise typer.Exit(2)  # HOLD must never return success
     else:
         typer.secho("✅ Validação APROVADA", fg=typer.colors.GREEN)
 
@@ -232,7 +233,7 @@ def kernel_list_validators() -> None:
 @kernel_app.command("test-validators")
 def kernel_test_validators() -> None:
     """Executa test_suite de todos os validadores."""
-    from validators.registry import VALIDATORS
+    from packages.cli.validators.registry import VALIDATORS
     failures = []
     for name, validator in sorted(VALIDATORS.items()):
         if hasattr(validator, "run_tests") and callable(validator.run_tests):

@@ -24,6 +24,7 @@ class CanonicalIntegrityTests(unittest.TestCase):
             "source_contract": "contracts/fontes/cofen_dou.json",
             "kernel_policy_id": "KERNEL-POLICY-001",
             "parser": "packages/cli/adapters/dou.py",
+            "validators": ["atomo_schema_validator"],
         }
         self.policy_data = {
             "id": "KERNEL-POLICY-001",

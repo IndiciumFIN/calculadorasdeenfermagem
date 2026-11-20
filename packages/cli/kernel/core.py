@@ -19,7 +19,7 @@ from packages.schemas.invariantes import AtomoBlindado
 
 # Import tardio para evitar circular — cada validador se auto-registra
 def _lazy_import_validators():
-    from validators import (
+    from packages.cli.validators import (
         Sha256Validator, NormAtomIdValidator, TextoLengthValidator,
         UrlValidator, AtomoSchemaValidator,
         cid10_validator, cid11_validator, mesh_validator,
@@ -41,7 +41,7 @@ def _ensure_validators():
                 VALIDATORS[k] = v
         _validator_imported = True
 
-from kernel.policy_registry import get_policy, PolicyRegistry
+from packages.cli.kernel.policy_registry import get_policy, PolicyRegistry
 
 
 class Decision(str, Enum):
@@ -168,6 +168,15 @@ class Kernel:
                 errors=["Nenhum validador registrado na política. Fail-closed."],
             )
 
+        # Lote vazio não pode ser aprovado sem avaliação efetiva.
+        if not items:
+            return KernelDecision(
+                decision=Decision.REJECTED,
+                policy_id=policy_id,
+                policy_version=policy.version,
+                errors=["Lote vazio: nenhuma entrada avaliada. Fail-closed."],
+            )
+
         all_results: list[ValidationResult] = []
         approved_count = 0
         rejected_count = 0
@@ -231,17 +240,22 @@ class Kernel:
             typer.secho(f"❌ Validadores ausentes: {missing}. Fail-closed.", fg=typer.colors.RED)
             return 2
 
-        typer.secho(f"✅ Gate {policy_id}@{policy.version}: {len(policy.validators)} validadores OK", fg=typer.colors.GREEN)
-
+        # Não anunciar aprovação antes da execução de todos os testes.
         for vname in policy.validators:
             validator = VALIDATORS[vname]
-            if hasattr(validator, "run_tests"):
-                if not validator.run_tests():
-                    typer.secho(f"❌ Validador '{vname}' falhou nos testes. Fail-closed.", fg=typer.colors.RED)
-                    return 2
-                typer.secho(f"  ✅ {vname}: {len(validator.test_suite())} testes OK", fg=typer.colors.GREEN)
-            else:
-                typer.secho(f"  ⚠️  {vname}: sem test_suite (stub)", fg=typer.colors.YELLOW)
+            run_tests = getattr(validator, "run_tests", None)
+            if not callable(run_tests):
+                typer.secho(f"❌ Validador '{vname}' sem run_tests executável. Fail-closed.", fg=typer.colors.RED)
+                return 2
+            try:
+                passed = run_tests()
+            except Exception as exc:
+                typer.secho(f"❌ Validador '{vname}' lançou {type(exc).__name__} durante os testes. Fail-closed.", fg=typer.colors.RED)
+                return 2
+            if passed is not True:
+                typer.secho(f"❌ Validador '{vname}' não retornou True nos testes. Fail-closed.", fg=typer.colors.RED)
+                return 2
+            typer.secho(f"  ✅ {vname}: testes executados e aprovados", fg=typer.colors.GREEN)
 
         output_dir = Path(policy.atoms_output)
         if not output_dir.exists():

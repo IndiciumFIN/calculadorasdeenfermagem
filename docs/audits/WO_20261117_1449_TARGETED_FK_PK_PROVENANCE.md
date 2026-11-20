@@ -1,0 +1,26 @@
+# CE / CKO / NCOS — WO 2026-11-17 14:49 BRT — targeted referential integrity
+
+## Scope and provenance
+Source of truth: Supabase Calculadoras-Smart `pgsybzggewhinaniybiy`, SELECT-only. Repo: IndiciumFIN/calculadorasdeenfermagem. Prior checkpoint commit `b5f272c52b9ec662a620a82a2480213ff0f64602` verified by GitHub fetch. Historical export `docs/audits/CE_SUPABASE_DIRECT_EXPORT_20261115/MANIFEST.json` blob `8099e3ff225224eb00e8eb5accd6d8365ddfcf14` verified. Export dated 2026-11-15, NON_ATOMIC_ACROSS_QUERIES, approval HOLD_HUMAN. Counts (historical only): 59 schemas, 678 relations, 255 migrations, 7246 columns, 1996 table constraints, 1268 indexes, 100 RLS policies. Do not infer homologation.
+
+## Work orders / object register
+| WO | Branch/object | Evidence/fingerprint | Delta | Status | Risk | Test | Owner / next action | Acceptance |
+|---|---|---|---|---|---|---|---|---|
+| CE-REF-01 | `cko_governance.architecture_layer_bindings` PK | SELECT pg_get_constraintdef: `PRIMARY KEY (profile_id, architecture_layer_id, implementation_layer_id)` | New targeted definition vs preceding sample; no proven schema delta | PASS_READ / HOLD_SEMANTIC | medium | catalog SELECT PASS; behavioral NOT_RUN | backend + governance: compare model and candidate SQL | code persistence uses all three PK columns, no duplicate logical keys |
+| CE-REF-02 | `cko_governance.artifact_normative_bindings_artifact_id_fkey` | SELECT: `FOREIGN KEY (artifact_id) REFERENCES cko_governance.controlled_artifacts(artifact_id) ON DELETE CASCADE` | targeted definition verified; no proven physical delta | PASS_READ / HOLD_PROVENANCE | high | catalog SELECT PASS; deletion adversarial NOT_RUN | provenance + security: trace immutable history and deletion paths | no loss of legally/clinically required provenance; documented retention |
+| CE-REF-03 | `cko_governance.artifact_normative_bindings` other constraints | SELECT: PK(binding_id), UNIQUE(artifact_version_ref,normative_ref,binding_role), FK artifact_version_ref to object_versions | newly scoped evidence; no schema delta established | PASS_READ / HOLD_SEMANTIC | medium | catalog SELECT PASS | metamodel owner: check normalized unique identity and version FK | consistent SQL, code, dictionary and atomic links |
+| CE-TOOLS-24 | `feat/ce-tools-governed-backend-20261115` | 15 ahead / 0 behind main; 33 changed files; verifier prior blob `1bb7ce41fff15820ed9a980b6b793d1fbf54bc70` (historical, not re-fetched this run) | no Git compare-count delta vs prior | HOLD_TEST | high | Git compare PASS; isolated tests NOT_RUN | backend: run deterministic manifest adversarial tests | repeatability, untracked and symlink fail-closed, 24/24 clinically gated |
+| CKO-META | `feat/cko-catalog-metamodel-automated-20261114` | 22 ahead / 0 behind; 48 files | no compare-count delta | HOLD_VERIFY | medium | Git compare PASS | catalog owner: compare PK/FK and dictionary | 20/20 contracts validated with evidence |
+| CKO-ATOMS | `feat/cko-m08-m09-corpus-atomic-20261114` | 8 ahead / 0 behind; 8 files | no compare-count delta | HOLD_PROVENANCE | high | Git compare PASS | editorial/clinical: verify license and primary source per atom | complete traceable evidence and rights |
+| CKO-PARSERS | `integration/cko-parsers-catalog-20261114` | 163 ahead / 0 behind; 175 files | no compare-count delta | HOLD_TEST | medium | Git compare PASS | parser owner: run isolated test suite | deterministic extraction and source fingerprints |
+| CE-PR73 | PR #73 | GitHub PR open, draft, mergeable=true; HEAD SHA/checks not retrieved | no verified delta | HOLD_MERGE | high | PR metadata PASS; CI NOT_RUN | integrator: verify HEAD/check suites | security, rollback, approvals |
+| WORKSPACE-PR71 | `IndiciumFIN/dev-chatgpt-workspace` PR #71 | open, draft, mergeable=true; HEAD SHA/checks not retrieved | no verified delta | HOLD_MERGE | high | PR metadata PASS; CI NOT_RUN | integrator: verify HEAD/check suites | reviewed and independent release gates |
+
+## Counts and progress
+Catalog targeted constraint definitions: 5/5 returned in one SELECT (100% of this **query scope only**, not validation). Git branch comparisons: 4/4 PASS_READ (100% comparison coverage). Clinical tools homologated: historical 0/24 (0%, NOT REVALIDATED). Semantic contracts: historical 0/20 (0%, NOT REVALIDATED). All 1996 individual constraint semantics: denominator 1996, validated numerator not established; do not calculate %. Global completion estimate: NOT ESTIMABLE — acceptance denominator not consolidated.
+
+## Controls
+SQL: 1 SELECT PASS; DDL/DML: 0. Git: prior commit fetch PASS, manifest read PASS, four comparisons PASS, two PR reads PASS. Unit tests NOT_RUN; CI NOT_RUN; dynamic security tests NOT_RUN. No merge, migration, seed, deploy, privilege changes or branch deletion. Candidate is not published. Preserve fail-closed, LGPD, copyrights, clinical/legal/security gates. HOLD_HUMAN persists for provenance and approval. No functional code change in this round.
+
+## Next
+(1) Compare the five targeted constraints to export JSONL using canonical schema/table/name/normalized definition and fingerprint; (2) inspect cascade deletion behavior without executing deletion, audit history dependencies; (3) run verifier tests and CI; (4) retrieve exact PR HEAD/checks. Do not reprocess previously validated fingerprints absent delta.
