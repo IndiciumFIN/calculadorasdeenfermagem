@@ -1,0 +1,22 @@
+{
+  "release": "CKO-W7-v0.2.6",
+  "security_fix": "Exit code 0 only when OFFICIAL_PRIMARY_CANDIDATE byte-integrity checks succeed, while publication_allowed always false. Secondary dossier must return 2/HOLD.",
+  "test_suite_local": {
+    "run": 10,
+    "passed": 10,
+    "failed": 0,
+    "source_tests": "tests/test_verify_normative_pdf_bytes_v025.py"
+  },
+  "real_document_checked": {
+    "name": "RES_2024_N_00736_DOSSIE_V0.pdf",
+    "bytes": 473460,
+    "sha256": "f444472c9df74f87d9d9df0dad44368fe63c5e0475411cb6ec7d5f3cc7cadc59",
+    "status": "DERIVED_DOSSIER_BYTES_MATCH_HOLD_PRIMARY",
+    "cli_exit_code": 2
+  },
+  "limitation": "The PDF signature is checked but a full PDF parser is not required by this binary-hash verifier. An expected SHA-256 alone does not prove that the correct legal instrument is supplied.",
+  "source_approval": false,
+  "rights_approval": false,
+  "clinical_approval": false,
+  "publication_allowed": false
+}

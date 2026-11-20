@@ -1,0 +1,28 @@
+{
+  "release": "CKO-W7-CURRICULUM-v0.2.9",
+  "pass": 20,
+  "fail": 0,
+  "checks": {
+    "programs_114": true,
+    "items_985": true,
+    "topics_182": true,
+    "mappings_1514": true,
+    "unmapped_6": true,
+    "unmapped_no_autolink": true,
+    "one_unmapped_historical": true,
+    "paraphrases_191": true,
+    "paraphrase_programs_32": true,
+    "paraphrase_type_objective": true,
+    "paraphrase_links_284": true,
+    "unatomized_programs_31": true,
+    "unatomized_in_scope_28": true,
+    "non_nursing_excluded_3": true,
+    "mapping_normalized_1404": true,
+    "mapping_editorial_75": true,
+    "mapping_candidate_rule_35": true,
+    "review_queue_110": true,
+    "no_editorial_approval": true,
+    "no_publication": true
+  },
+  "coverage": "Source-level structural only; neither clinical nor source-rights nor semantic approvals"
+}

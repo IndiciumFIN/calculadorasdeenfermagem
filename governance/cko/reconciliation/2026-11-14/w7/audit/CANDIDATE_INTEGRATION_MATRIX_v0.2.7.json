@@ -1,0 +1,86 @@
+[
+  {
+    "repository": "IndiciumFIN/calculadorasdeenfermagem",
+    "branch": "integration/cko-parsers-catalog-20261114",
+    "assessment": "159 ahead, 0 behind, 171 paths; PR61 on PR60; use as technical reuse candidate",
+    "clinical_admission": false,
+    "merge_authorized": false
+  },
+  {
+    "repository": "IndiciumFIN/calculadorasdeenfermagem",
+    "branch": "integration/cko-p0-ci-g6-20261114",
+    "assessment": "41 ahead, 0 behind; PR60 CI baseline, HOLD",
+    "clinical_admission": false,
+    "merge_authorized": false
+  },
+  {
+    "repository": "IndiciumFIN/calculadorasdeenfermagem",
+    "branch": "feat/cko-catalog-metamodel-automated-20261114",
+    "assessment": "22 ahead, 0 behind; compiler already exists",
+    "clinical_admission": false,
+    "merge_authorized": false
+  },
+  {
+    "repository": "IndiciumFIN/calculadorasdeenfermagem",
+    "branch": "integrate/p0-cko-existing-source-parsers-20261114",
+    "assessment": "21 ahead, 0 behind; diverged from PR61 branch; do not stack automatically",
+    "clinical_admission": false,
+    "merge_authorized": false
+  },
+  {
+    "repository": "IndiciumFIN/calculadorasdeenfermagem",
+    "branch": "review/cko-w7-public-evidence-20261114",
+    "assessment": "7 ahead, 0 behind; W7 audit ledger only",
+    "clinical_admission": false,
+    "merge_authorized": false
+  },
+  {
+    "repository": "IndiciumFIN/dev-chatgpt-workspace",
+    "branch": "cko/cardiologia-corpus-editorial-20261114",
+    "assessment": "11 ahead, 2 behind; UC08 duplicate and 30h without modules",
+    "clinical_admission": false,
+    "merge_authorized": false
+  },
+  {
+    "repository": "IndiciumFIN/dev-chatgpt-workspace",
+    "branch": "cko/evidence-index-rights-20261114",
+    "assessment": "13 ahead, 2 behind; rights policy by operation",
+    "clinical_admission": false,
+    "merge_authorized": false
+  },
+  {
+    "repository": "IndiciumFIN/dev-chatgpt-workspace",
+    "branch": "cko/pmo-corpus-canonical-20261114",
+    "assessment": "29 ahead, 2 behind; PMO and governance candidate",
+    "clinical_admission": false,
+    "merge_authorized": false
+  },
+  {
+    "repository": "IndiciumFIN/dev-chatgpt-workspace",
+    "branch": "fix/ncos-generated-contract-sync-20261113",
+    "assessment": "69 ahead, 8 behind; source-first lineage/contracts",
+    "clinical_admission": false,
+    "merge_authorized": false
+  },
+  {
+    "repository": "IndiciumFIN/dev-chatgpt-workspace",
+    "branch": "canonical/local-20261101",
+    "assessment": "121 ahead, 44 behind; massive divergence, no bulk merge",
+    "clinical_admission": false,
+    "merge_authorized": false
+  },
+  {
+    "repository": "IndiciumFIN/dev-chatgpt-workspace",
+    "branch": "simulados-enfermagem-db-canonico",
+    "assessment": "75 ahead, 365 behind; separate module",
+    "clinical_admission": false,
+    "merge_authorized": false
+  },
+  {
+    "repository": "IndiciumFIN/dev-chatgpt-workspace",
+    "branch": "viladocuidado",
+    "assessment": "37 ahead, 365 behind; separate module",
+    "clinical_admission": false,
+    "merge_authorized": false
+  }
+]

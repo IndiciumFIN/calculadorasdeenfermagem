@@ -1,0 +1,188 @@
+{
+  "release": "W7-v0.3.7",
+  "date": "2026-11-15",
+  "parent_head": "2d17c8c30593bd5e4563dd396feb7f7cfe8aa759",
+  "user_approval_scope": "Approval to proceed with technical/editorial amendments inferred from 'seguir, emendas aprovadas'; not institutional authorship, copyright license or clinical validation",
+  "corpus_existing_atoms_unchanged": 985,
+  "baseline_pairs_unchanged": 27,
+  "lessons_candidates": 5,
+  "claims": 13,
+  "assessment_items": 5,
+  "flashcards": 5,
+  "source_registry": {
+    "NR1_2026": {
+      "authority": "MTE",
+      "title": "NR-1 — Gerenciamento de Riscos Ocupacionais; capítulo 1.5 vigente desde 26/05/2026",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/nr-1",
+      "locator": "Histórico e redação vigente do Capítulo 1.5",
+      "type": "NORMATIVE_CURRENT"
+    },
+    "NR9_2026": {
+      "authority": "MTE",
+      "title": "NR-9 — Avaliação e Controle das Exposições Ocupacionais a Agentes Físicos, Químicos e Biológicos",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/norma-regulamentadora-no-9-nr-9",
+      "locator": "Apresentação e alterações (Portaria MTE 105/2026)",
+      "type": "NORMATIVE_CURRENT"
+    },
+    "NR32": {
+      "authority": "MTE",
+      "title": "NR-32 — Segurança e Saúde no Trabalho em Serviços de Saúde",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/norma-regulamentadora-no-32-nr-32",
+      "locator": "Objetivo, campo de aplicação, riscos biológicos",
+      "type": "NORMATIVE_CURRENT"
+    },
+    "LDRT_2024": {
+      "authority": "Ministério da Saúde",
+      "title": "Portaria GM/MS 5.674, de 1º/11/2024 — Atualização da LDRT",
+      "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2024/prt5674_05_11_2024.html",
+      "locator": "Art. 423, §3º; Lista B, Capítulo I",
+      "type": "NORMATIVE_CURRENT"
+    },
+    "PUCMG_HIST": {
+      "authority": "PUC Minas",
+      "title": "Ementário da Especialização em Enfermagem do Trabalho, oferta 3 turma 1 assíncrona",
+      "url": "https://www.pucminas.br/PucVirtual/Pos-Graduacao/Documents/enfermagemdotrabalho2024.pdf",
+      "locator": "p.1, Doenças Relacionadas ao Trabalho, rodapé 17/11/2023",
+      "type": "CURRICULUM_HISTORICAL"
+    },
+    "PUCPR_CURR": {
+      "authority": "PUCPR",
+      "title": "Enfermagem do Trabalho — disciplinas (página institucional)",
+      "url": "https://estudenapuc.pucpr.br/pos-graduacao/cursos/enfermagem-do-trabalho-curitiba/",
+      "locator": "Ergonomia aplicada à Saúde do Trabalhador e Toxicologia Ocupacional — 24h",
+      "type": "CURRICULUM_TITLE_AND_ERGONOMICS_DESCRIPTION"
+    },
+    "EIN_4BM": {
+      "authority": "Ensino Einstein",
+      "title": "Calendário 2026-4BM, Pós-graduação em Enfermagem em Emergência e Urgência",
+      "url": "https://conteudo-ensino.s3.sa-east-1.amazonaws.com/documentos/pos-graduacao-ead/cronograma/2026/cronograma-pg-ead-enfermagem-em-emergencia-e-urgencia-4bm.pdf",
+      "locator": "p.1, Emergências e Trauma Musculoesquelético: estudo 23/02/2027–29/03/2027",
+      "type": "CURRICULUM_SCHEDULE_2026_COHORT"
+    }
+  },
+  "curriculum_review": [
+    {
+      "id": "W7-CUR-REV33-003",
+      "microtopic_id": "MICRO-WORK-00096",
+      "title_evidence": "HISTORIC_SOURCE_EQUATES_TO_BROAD_CAUSES_ONLY",
+      "sources": [
+        "PUCMG_HIST"
+      ],
+      "required": "CURRENT_OFFER_SPECIFIC_CURRICULAR_SPAN",
+      "part_of_approved": false
+    },
+    {
+      "id": "W7-CUR-REV33-006",
+      "microtopic_id": "MICRO-WORK-00199",
+      "title_evidence": "EXPLICIT_TOXICOLOGY_IN_OFFICIAL_TITLE; DESCRIPTION_ERGONOMICS_ONLY",
+      "sources": [
+        "PUCPR_CURR"
+      ],
+      "required": "TOXICOLOGY_SYLLABUS_MICROTOPIC",
+      "part_of_approved": false
+    },
+    {
+      "id": "W7-CUR-REV33-007",
+      "microtopic_id": "MICRO-WORK-00363",
+      "title_evidence": "GENERAL_TITLE_HISTORICAL_NO_LDRT_2024_COVERAGE",
+      "sources": [
+        "PUCMG_HIST",
+        "LDRT_2024"
+      ],
+      "required": "CURRENT_OFFER_LDRT_SYLLABUS_SPAN",
+      "part_of_approved": false
+    },
+    {
+      "id": "W7-CUR-REV33-009",
+      "microtopic_id": "MICRO-WORK-00394",
+      "title_evidence": "GENERAL_TITLE_HISTORICAL_NO_INFECTION_SPECIFIC_COVERAGE",
+      "sources": [
+        "PUCMG_HIST",
+        "LDRT_2024"
+      ],
+      "required": "CURRENT_OFFER_INFECTION_SYLLABUS_SPAN",
+      "part_of_approved": false
+    },
+    {
+      "id": "W7-CUR-REV33-020",
+      "microtopic_id": "MICRO-WORK-00605",
+      "title_evidence": "EXACT_TRAUMA_MUSCULOSKELETAL_DISCIPLINE_TITLE_AND_COHORT_SCHEDULE",
+      "sources": [
+        "EIN_4BM"
+      ],
+      "required": "TRAUMA_MICROTOPIC_CLINICAL_SYLLABUS_SPAN",
+      "part_of_approved": false
+    }
+  ],
+  "checks": [
+    {
+      "name": "five_lessons",
+      "passed": true
+    },
+    {
+      "name": "five_distinct_topics",
+      "passed": true
+    },
+    {
+      "name": "five_review_ids",
+      "passed": true
+    },
+    {
+      "name": "all_claims_provenance",
+      "passed": true
+    },
+    {
+      "name": "all_source_urls_official_https",
+      "passed": true
+    },
+    {
+      "name": "no_external_text_republishing",
+      "passed": true
+    },
+    {
+      "name": "no_auto_semantic_PART_OF",
+      "passed": true
+    },
+    {
+      "name": "publication_blocked",
+      "passed": true
+    },
+    {
+      "name": "questions_valid",
+      "passed": true
+    },
+    {
+      "name": "clinical_unsiged",
+      "passed": true
+    },
+    {
+      "name": "trauma_no_protocol",
+      "passed": true
+    },
+    {
+      "name": "nr1_2026_version",
+      "passed": true
+    },
+    {
+      "name": "nr9_2026_version",
+      "passed": true
+    },
+    {
+      "name": "historical_syllabus_not_current",
+      "passed": true
+    },
+    {
+      "name": "source_editions_separate",
+      "passed": true
+    }
+  ],
+  "local_metadata_pass": 15,
+  "local_metadata_fail": 0,
+  "github_actions_run_verified": false,
+  "rights_external": false,
+  "clinical_signoff": false,
+  "site_release_allowed": false,
+  "main_merge_allowed": false,
+  "supabase_write_allowed": false,
+  "status": "AUTHORIAL_CONTENT_DRAFT_COMPLETE / CURRICULAR_PART_OF_NO_GO"
+}

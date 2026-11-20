@@ -1,0 +1,505 @@
+{
+  "release": "W7-v0.4.4",
+  "date": "2026-11-15",
+  "workstream": "EMERGENCY_NURSING_PATIENT_SAFETY",
+  "cases": [
+    {
+      "id": "W7-UE-CASE-044-01",
+      "title": "Pré-notificação sem confirmação do receptor",
+      "scenario": "Em simulação sem pacientes reais, uma unidade móvel comunica ao pronto-socorro que fará uma transferência. A mensagem informa o destino, mas não há confirmação de quem recebeu ou assumirá a continuidade da informação. A equipe nota a lacuna antes de qualquer atendimento.",
+      "topics": [
+        "MICRO-UE-1-5",
+        "MICRO-UE-1-15"
+      ],
+      "sources": [
+        "RUE",
+        "AHRQ_CHECK",
+        "AHRQ_IPASS"
+      ],
+      "learning": "Distinguir envio de mensagem de comunicação efetivamente compreendida e responsabilidade transferida.",
+      "questions": [
+        {
+          "stem": "O envio de uma mensagem ao destino comprova sua recepção e entendimento?",
+          "options": [
+            "Sim, a transmissão basta",
+            "Não, é preciso fechamento do circuito e reconhecimento do receptor",
+            "Sim, quando há um horário de envio"
+          ],
+          "correct": 1,
+          "reason": "Uma informação transmitida não é necessariamente recebida e compreendida.",
+          "sources": [
+            "AHRQ_CHECK"
+          ]
+        },
+        {
+          "stem": "Qual conteúdo ajuda uma passagem estruturada de informações?",
+          "options": [
+            "Situação, pendências, contingência e síntese do receptor",
+            "Apenas o nome do remetente",
+            "Somente o meio de transporte"
+          ],
+          "correct": 0,
+          "reason": "AHRQ I-PASS descreve lista de ações, contingência e síntese por receptor.",
+          "sources": [
+            "AHRQ_IPASS"
+          ]
+        },
+        {
+          "stem": "O I-PASS é apresentado aqui como:",
+          "options": [
+            "Norma brasileira universal que substitui protocolos locais",
+            "Técnica educacional possível para transições assistenciais",
+            "Autorização para encaminhar sem regulação"
+          ],
+          "correct": 1,
+          "reason": "A técnica internacional apoia aprendizagem e não afasta normas e processos locais.",
+          "sources": [
+            "AHRQ_IPASS",
+            "RUE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "W7-UE-CASE-044-02",
+      "title": "Incidente interceptado e dúvidas sobre notificação",
+      "scenario": "Em uma atividade de simulação, a equipe percebe que uma informação incompleta poderia levar a uma falha assistencial, mas a intercepta antes de atingir o paciente. O NSP de um serviço fictício discute como classificar o fato e como aprender com ele. Não há dano nem paciente identificável no exercício.",
+      "topics": [
+        "MICRO-UE-1-17",
+        "MICRO-UE-1-20",
+        "MICRO-UE-1-21",
+        "MICRO-UE-1-22"
+      ],
+      "sources": [
+        "RDC36",
+        "NOTIVISA",
+        "AHRQ_DEBRIEF"
+      ],
+      "learning": "Distinguir incidente de evento adverso, debrief e investigação, sem confundir Notivisa com Sinan.",
+      "questions": [
+        {
+          "stem": "O conceito de incidente da RDC 36 exige que tenha ocorrido dano?",
+          "options": [
+            "Sim, sempre",
+            "Não, pode envolver situação que poderia resultar em dano",
+            "Sim, se o fato chegar ao NSP"
+          ],
+          "correct": 1,
+          "reason": "O conceito normativo também considera circunstâncias que poderiam resultar em dano.",
+          "sources": [
+            "RDC36"
+          ]
+        },
+        {
+          "stem": "Qual sistema a Anvisa indica para incidentes assistenciais no escopo descrito?",
+          "options": [
+            "Notivisa, módulo Assistência à Saúde",
+            "Sinan como substituto universal do Notivisa",
+            "Exclusivamente planilha da escala"
+          ],
+          "correct": 0,
+          "reason": "A orientação da Anvisa diferencia notificação assistencial pelo Notivisa.",
+          "sources": [
+            "NOTIVISA"
+          ]
+        },
+        {
+          "stem": "A revisão debrief serve principalmente para:",
+          "options": [
+            "Atribuir culpa automaticamente",
+            "Identificar aprendizados e oportunidades de aperfeiçoamento",
+            "Substituir a obrigação de notificação"
+          ],
+          "correct": 1,
+          "reason": "Debrief é ferramenta educacional de revisão do trabalho em equipe.",
+          "sources": [
+            "AHRQ_DEBRIEF"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "W7-UE-CASE-044-03",
+      "title": "Pico de demanda e gargalo de destino",
+      "scenario": "Um pronto-socorro inteiramente fictício observa aumento de chegadas e espera prolongada após a conclusão de etapas de avaliação. A coordenação do exercício encontra registros incompletos de destino e disponibilidade de serviços de retaguarda. Não há números reais nem pacientes envolvidos.",
+      "topics": [
+        "MICRO-UE-1-1",
+        "MICRO-UE-1-6",
+        "MICRO-UE-1-19",
+        "MICRO-UE-1-23"
+      ],
+      "sources": [
+        "RUE",
+        "URGENCIA",
+        "AHRQ_LEAD"
+      ],
+      "learning": "Mapear etapas do processo, distinguir hipótese de causa comprovada e preparar resposta coordenada sem inventar metas universais.",
+      "questions": [
+        {
+          "stem": "Uma espera prolongada prova que o gargalo foi exclusivamente na triagem?",
+          "options": [
+            "Sim, sempre",
+            "Não, pode estar em várias etapas do percurso",
+            "Sim, desde que a unidade seja hospitalar"
+          ],
+          "correct": 1,
+          "reason": "É necessário examinar etapas, contexto e fontes de informação.",
+          "sources": [
+            "RUE",
+            "URGENCIA"
+          ]
+        },
+        {
+          "stem": "Qual estratégia da AHRQ ajuda a reajustar o plano durante a atividade?",
+          "options": [
+            "Huddle",
+            "Debrief como única intervenção em tempo real",
+            "Relatório anual como substituto de toda comunicação"
+          ],
+          "correct": 0,
+          "reason": "Huddle é uma reunião breve para revisão da consciência situacional durante o trabalho.",
+          "sources": [
+            "AHRQ_LEAD"
+          ]
+        },
+        {
+          "stem": "Um indicador comparável entre períodos precisa de:",
+          "options": [
+            "Somente resultado numérico",
+            "Definição, fonte de dados, população e período",
+            "Cor de destaque definida"
+          ],
+          "correct": 1,
+          "reason": "Sem especificação da medida não se pode atribuir comparabilidade.",
+          "sources": [
+            "RUE"
+          ]
+        }
+      ]
+    }
+  ],
+  "checklists": [
+    {
+      "id": "W7-UE-CHECK-044-01",
+      "title": "Comunicação e transferência de responsabilidade — exercício",
+      "topics": [
+        "MICRO-UE-1-5",
+        "MICRO-UE-1-15",
+        "MICRO-UE-1-16"
+      ],
+      "sources": [
+        "AHRQ_CHECK",
+        "AHRQ_IPASS",
+        "AHRQ_LEAD"
+      ],
+      "items": [
+        "O emissor identificou o receptor e o objetivo da comunicação?",
+        "A mensagem inclui informações e pendências relevantes?",
+        "O receptor confirmou o conteúdo ou pediu esclarecimentos?",
+        "O emissor corrigiu ambiguidades antes de encerrar a comunicação?",
+        "O plano de contingência foi compartilhado quando pertinente?",
+        "A técnica foi adaptada ao protocolo e às competências locais?"
+      ],
+      "scope": "EDUCATIONAL_NOT_A_CLINICAL_HANDOFF_PROTOCOL"
+    },
+    {
+      "id": "W7-UE-CHECK-044-02",
+      "title": "Incidentes, NSP e debrief — conferência educacional",
+      "topics": [
+        "MICRO-UE-1-17",
+        "MICRO-UE-1-20",
+        "MICRO-UE-1-21",
+        "MICRO-UE-1-22"
+      ],
+      "sources": [
+        "RDC36",
+        "NOTIVISA",
+        "AHRQ_DEBRIEF"
+      ],
+      "items": [
+        "Incidente e evento adverso foram classificados sem presumir dano?",
+        "A atuação do NSP foi considerada de acordo com a aplicabilidade da RDC?",
+        "Notivisa foi diferenciado de Sinan?",
+        "Prazos de notificação foram vinculados à norma e ao tipo de ocorrência?",
+        "Fatos documentados estão separados das hipóteses de causa?",
+        "As medidas de prevenção têm forma de acompanhamento?",
+        "Debrief foi distinguido de investigação formal?"
+      ],
+      "scope": "EDUCATIONAL_NOT_A_LEGAL_COMPLIANCE_ATTESTATION"
+    },
+    {
+      "id": "W7-UE-CHECK-044-03",
+      "title": "Gargalos, indicadores e contingência — exercício de fluxo",
+      "topics": [
+        "MICRO-UE-1-1",
+        "MICRO-UE-1-6",
+        "MICRO-UE-1-19",
+        "MICRO-UE-1-23"
+      ],
+      "sources": [
+        "RUE",
+        "URGENCIA",
+        "AHRQ_LEAD"
+      ],
+      "items": [
+        "As etapas da jornada do paciente simulado estão identificadas?",
+        "Os intervalos têm início, fim e origem de dados definidos?",
+        "Gargalos observados foram distinguidos de causas inferidas?",
+        "A integração com a rede e a retaguarda foram consideradas?",
+        "O plano indica papéis e forma de comunicação contextualizados?",
+        "As medidas de contingência não dependem de metas inventadas?",
+        "O exercício prevê revisão após mudança de situação?"
+      ],
+      "scope": "EDUCATIONAL_NOT_OPERATIONAL_DISPATCH_PLAN"
+    }
+  ],
+  "questions": [
+    {
+      "id": "W7-UE-CASE-044-01-Q01",
+      "case_id": "W7-UE-CASE-044-01",
+      "microtopic_ids": [
+        "MICRO-UE-1-5",
+        "MICRO-UE-1-15"
+      ],
+      "stem": "O envio de uma mensagem ao destino comprova sua recepção e entendimento?",
+      "options": [
+        "Sim, a transmissão basta",
+        "Não, é preciso fechamento do circuito e reconhecimento do receptor",
+        "Sim, quando há um horário de envio"
+      ],
+      "correct_index": 1,
+      "rationale": "Uma informação transmitida não é necessariamente recebida e compreendida.",
+      "source_ids": [
+        "AHRQ_CHECK"
+      ],
+      "editorial_approved": false,
+      "clinical_approved": false,
+      "publication_allowed": false
+    },
+    {
+      "id": "W7-UE-CASE-044-01-Q02",
+      "case_id": "W7-UE-CASE-044-01",
+      "microtopic_ids": [
+        "MICRO-UE-1-5",
+        "MICRO-UE-1-15"
+      ],
+      "stem": "Qual conteúdo ajuda uma passagem estruturada de informações?",
+      "options": [
+        "Situação, pendências, contingência e síntese do receptor",
+        "Apenas o nome do remetente",
+        "Somente o meio de transporte"
+      ],
+      "correct_index": 0,
+      "rationale": "AHRQ I-PASS descreve lista de ações, contingência e síntese por receptor.",
+      "source_ids": [
+        "AHRQ_IPASS"
+      ],
+      "editorial_approved": false,
+      "clinical_approved": false,
+      "publication_allowed": false
+    },
+    {
+      "id": "W7-UE-CASE-044-01-Q03",
+      "case_id": "W7-UE-CASE-044-01",
+      "microtopic_ids": [
+        "MICRO-UE-1-5",
+        "MICRO-UE-1-15"
+      ],
+      "stem": "O I-PASS é apresentado aqui como:",
+      "options": [
+        "Norma brasileira universal que substitui protocolos locais",
+        "Técnica educacional possível para transições assistenciais",
+        "Autorização para encaminhar sem regulação"
+      ],
+      "correct_index": 1,
+      "rationale": "A técnica internacional apoia aprendizagem e não afasta normas e processos locais.",
+      "source_ids": [
+        "AHRQ_IPASS",
+        "RUE"
+      ],
+      "editorial_approved": false,
+      "clinical_approved": false,
+      "publication_allowed": false
+    },
+    {
+      "id": "W7-UE-CASE-044-02-Q01",
+      "case_id": "W7-UE-CASE-044-02",
+      "microtopic_ids": [
+        "MICRO-UE-1-17",
+        "MICRO-UE-1-20",
+        "MICRO-UE-1-21",
+        "MICRO-UE-1-22"
+      ],
+      "stem": "O conceito de incidente da RDC 36 exige que tenha ocorrido dano?",
+      "options": [
+        "Sim, sempre",
+        "Não, pode envolver situação que poderia resultar em dano",
+        "Sim, se o fato chegar ao NSP"
+      ],
+      "correct_index": 1,
+      "rationale": "O conceito normativo também considera circunstâncias que poderiam resultar em dano.",
+      "source_ids": [
+        "RDC36"
+      ],
+      "editorial_approved": false,
+      "clinical_approved": false,
+      "publication_allowed": false
+    },
+    {
+      "id": "W7-UE-CASE-044-02-Q02",
+      "case_id": "W7-UE-CASE-044-02",
+      "microtopic_ids": [
+        "MICRO-UE-1-17",
+        "MICRO-UE-1-20",
+        "MICRO-UE-1-21",
+        "MICRO-UE-1-22"
+      ],
+      "stem": "Qual sistema a Anvisa indica para incidentes assistenciais no escopo descrito?",
+      "options": [
+        "Notivisa, módulo Assistência à Saúde",
+        "Sinan como substituto universal do Notivisa",
+        "Exclusivamente planilha da escala"
+      ],
+      "correct_index": 0,
+      "rationale": "A orientação da Anvisa diferencia notificação assistencial pelo Notivisa.",
+      "source_ids": [
+        "NOTIVISA"
+      ],
+      "editorial_approved": false,
+      "clinical_approved": false,
+      "publication_allowed": false
+    },
+    {
+      "id": "W7-UE-CASE-044-02-Q03",
+      "case_id": "W7-UE-CASE-044-02",
+      "microtopic_ids": [
+        "MICRO-UE-1-17",
+        "MICRO-UE-1-20",
+        "MICRO-UE-1-21",
+        "MICRO-UE-1-22"
+      ],
+      "stem": "A revisão debrief serve principalmente para:",
+      "options": [
+        "Atribuir culpa automaticamente",
+        "Identificar aprendizados e oportunidades de aperfeiçoamento",
+        "Substituir a obrigação de notificação"
+      ],
+      "correct_index": 1,
+      "rationale": "Debrief é ferramenta educacional de revisão do trabalho em equipe.",
+      "source_ids": [
+        "AHRQ_DEBRIEF"
+      ],
+      "editorial_approved": false,
+      "clinical_approved": false,
+      "publication_allowed": false
+    },
+    {
+      "id": "W7-UE-CASE-044-03-Q01",
+      "case_id": "W7-UE-CASE-044-03",
+      "microtopic_ids": [
+        "MICRO-UE-1-1",
+        "MICRO-UE-1-6",
+        "MICRO-UE-1-19",
+        "MICRO-UE-1-23"
+      ],
+      "stem": "Uma espera prolongada prova que o gargalo foi exclusivamente na triagem?",
+      "options": [
+        "Sim, sempre",
+        "Não, pode estar em várias etapas do percurso",
+        "Sim, desde que a unidade seja hospitalar"
+      ],
+      "correct_index": 1,
+      "rationale": "É necessário examinar etapas, contexto e fontes de informação.",
+      "source_ids": [
+        "RUE",
+        "URGENCIA"
+      ],
+      "editorial_approved": false,
+      "clinical_approved": false,
+      "publication_allowed": false
+    },
+    {
+      "id": "W7-UE-CASE-044-03-Q02",
+      "case_id": "W7-UE-CASE-044-03",
+      "microtopic_ids": [
+        "MICRO-UE-1-1",
+        "MICRO-UE-1-6",
+        "MICRO-UE-1-19",
+        "MICRO-UE-1-23"
+      ],
+      "stem": "Qual estratégia da AHRQ ajuda a reajustar o plano durante a atividade?",
+      "options": [
+        "Huddle",
+        "Debrief como única intervenção em tempo real",
+        "Relatório anual como substituto de toda comunicação"
+      ],
+      "correct_index": 0,
+      "rationale": "Huddle é uma reunião breve para revisão da consciência situacional durante o trabalho.",
+      "source_ids": [
+        "AHRQ_LEAD"
+      ],
+      "editorial_approved": false,
+      "clinical_approved": false,
+      "publication_allowed": false
+    },
+    {
+      "id": "W7-UE-CASE-044-03-Q03",
+      "case_id": "W7-UE-CASE-044-03",
+      "microtopic_ids": [
+        "MICRO-UE-1-1",
+        "MICRO-UE-1-6",
+        "MICRO-UE-1-19",
+        "MICRO-UE-1-23"
+      ],
+      "stem": "Um indicador comparável entre períodos precisa de:",
+      "options": [
+        "Somente resultado numérico",
+        "Definição, fonte de dados, população e período",
+        "Cor de destaque definida"
+      ],
+      "correct_index": 1,
+      "rationale": "Sem especificação da medida não se pode atribuir comparabilidade.",
+      "source_ids": [
+        "RUE"
+      ],
+      "editorial_approved": false,
+      "clinical_approved": false,
+      "publication_allowed": false
+    }
+  ],
+  "source_registry": {
+    "RUE": "https://www.gov.br/saude/pt-br/composicao/saes/samu-192/rau/rede-de-atencao-as-urgencias-e-emergencias/",
+    "URGENCIA": "https://www.gov.br/saude/pt-br/composicao/saes/dahu/atencao-de-urgencia",
+    "RDC36": "https://anvisalegis.datalegis.net/action/ActionDatalegis.php?acao=abrirTextoAto&cod_menu=9431&cod_modulo=310&link=S&numeroAto=00000036&orgao=RDC%2FDC%2FANVISA%2FMS&seqAto=000&tipo=RDC&valorAno=2013",
+    "NOTIVISA": "https://www.gov.br/anvisa/pt-br/acessoainformacao/perguntasfrequentes/servicos-de-saude/notificacao-de-incidentes-e-eventos-adversos-relacionados-a-assistencia-a-saude",
+    "AHRQ_CHECK": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/checkback.html",
+    "AHRQ_IPASS": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/ipass.html",
+    "AHRQ_LEAD": "https://www.ahrq.gov/teamstepps-program/curriculum/team/overview/index.html",
+    "AHRQ_DEBRIEF": "https://www.ahrq.gov/teamstepps-program/curriculum/team/tools/debrief.html"
+  },
+  "rights": {
+    "original_corpus_quoted": false,
+    "third_party_permission": false
+  },
+  "status": "AUTHORIAL_EDUCATIONAL_CANDIDATE / CLINICAL_RELEASE_NO_GO",
+  "qa": {
+    "tests": {
+      "three_cases": true,
+      "three_checklists": true,
+      "nine_questions": true,
+      "distinct_ids": true,
+      "quiz_valid": true,
+      "quiz_grounded": true,
+      "cases_synthetic": true,
+      "case_references": true,
+      "checklist_references": true,
+      "notivisa_sinan_distinct": true,
+      "all_nogo": true
+    },
+    "passed": 11,
+    "failed": 0,
+    "scope": "LOCAL_STRUCTURE_NOT_INDEPENDENT_CLINICAL_REVIEW"
+  },
+  "main_merge_allowed": false,
+  "supabase_write_allowed": false
+}

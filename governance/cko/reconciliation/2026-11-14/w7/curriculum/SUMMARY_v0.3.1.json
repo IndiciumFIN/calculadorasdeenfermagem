@@ -1,0 +1,49 @@
+{
+  "release": "W7_CKO_CURRICULAR_SOURCE_RECOVERY_v0.3.1",
+  "date": "2026-11-14",
+  "scope": "CURRICULAR_ATOMIZATION_ONLY",
+  "new_candidates": 12,
+  "documents": 2,
+  "programs": 2,
+  "source_titles_cardio": 6,
+  "source_titles_robot": 6,
+  "source_hours_cardio": 360,
+  "source_hours_robot": 360,
+  "paraphrase_records_unchanged": 191,
+  "paraphrase_source_groups": 20,
+  "paraphrase_program_ids": 32,
+  "in_scope_gap_before": 25,
+  "in_scope_gap_with_two_candidates": 23,
+  "unmodified_original_curriculum_atoms": 985,
+  "unmodified_prior_candidate_atom_titles": 30,
+  "source_bytes_sha256_verified": 0,
+  "semantic_approvals": 0,
+  "rights_approvals": 0,
+  "cohort_currentness_approvals": 0,
+  "document_receipts": [
+    {
+      "document_id": "EIN-CARDIO-INSTITUTIONAL-EBOOK-UNDATED",
+      "program_id": "PG-EIN-CARDIO",
+      "url": "https://conteudo-ensino.s3.sa-east-1.amazonaws.com/documentos/pos-graduacao/e-book/pos-enfermagem-em-cardiologia-e-hemodinamica.pdf",
+      "verification_method": "PDF_WEB_TEXT_PARSED_SCREENSHOT_CACHE_MISS",
+      "source_version_status": "UNSPECIFIED_OR_HISTORICAL_EDITION_NOT_2026_VALIDATED"
+    },
+    {
+      "document_id": "EIN-ROBOT-PROGRAM-WEB-NO-VERSION",
+      "program_id": "PG-EIN-ROBOT",
+      "url": "https://cirurgiarobotica.ensinoeinstein.com/cirurgia-robotica/enfermagem-em-cirurgia-robotica/",
+      "verification_method": "WEB_SEARCH_CACHE_CONTENT_DIRECT_REOPEN_403",
+      "source_version_status": "WEB_PAGE_VERSION_NOT_FIXED_NOT_EQUIVALENT_TO_2026_COHORT"
+    }
+  ],
+  "distinctions": [
+    "Current 2026/27 program existence does not validate that an older or version-unknown module list applies to that cohort.",
+    "Cardiology source is institutional PDF e-book: web-parsed text found six curriculum components and 360 hours; screenshot cache missed, original bytes not recovered.",
+    "Robotic surgery source is provider course webpage: search-index extraction contains six module/practicum headings and 360h; direct open returned 403; source edition unverified.",
+    "2026-5 robotics schedule has only dates and formats: zero curriculum module headings, treated as calendar context only.",
+    "The 191 paraphrased objectives are not new extractions in this release; they were grouped by original source ID for verification scheduling."
+  ],
+  "no_supabase_write": true,
+  "no_merge": true,
+  "publication_allowed": false
+}

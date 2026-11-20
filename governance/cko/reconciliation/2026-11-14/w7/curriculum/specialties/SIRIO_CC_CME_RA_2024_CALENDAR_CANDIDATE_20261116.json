@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0.0",
+  "record_type": "INSTITUTIONAL_EDITION_CALENDAR_CANDIDATE",
+  "retrieved_on": "2026-11-16",
+  "provider": "Faculdade Sírio-Libanês",
+  "program": "Especialização em Enfermagem em Centro Cirúrgico, CME e Recuperação Anestésica",
+  "cohort": "2024-2",
+  "primary_url": "https://www.faculdadesiriolibanes.org.br/fsl/sfsites/c/cms/delivery/media/MCUN2F2ARVIJFTZDYVH4RIABVVEQ",
+  "source_document_kind": "CALENDARIO_ACADEMICO_NOT_FULL_SYLLABUS",
+  "course_start": "2024-09-20",
+  "last_scheduled_meeting": "2025-08-16",
+  "source_disclaimer": "Datas sujeitas a alteração",
+  "scheduled_meetings_count": 12,
+  "unique_unit_titles_count": 6,
+  "units": [
+    {
+      "title": "Aspectos Éticos da Assistência ao Paciente Cirúrgico",
+      "meetings": 1
+    },
+    {
+      "title": "Epidemiologia e Infecções de Sítio Cirúrgico",
+      "meetings": 1
+    },
+    {
+      "title": "Enfermagem em Centro de Material e Esterilização",
+      "meetings": 4
+    },
+    {
+      "title": "Enfermagem em Centro Cirúrgico",
+      "meetings": 4
+    },
+    {
+      "title": "Enfermagem em Recuperação Anestésica",
+      "meetings": 1
+    },
+    {
+      "title": "Enfermagem em Cirurgia Robótica",
+      "meetings": 1
+    }
+  ],
+  "cofen_specialty_candidates": [
+    "COFEN-581-I-08",
+    "COFEN-581-I-09"
+  ],
+  "cofen_subarea_candidate": "COFEN-581-I-09-01",
+  "existing_program_candidates": [
+    "PG-SIRIO-CC-CME"
+  ],
+  "identity_decision": "NEW_EDITION_CALENDAR_SOURCE_NOT_NEW_PROGRAM_OR_SPECIALTY",
+  "semantic_mapping_status": "CANDIDATE_HOLD_HUMAN",
+  "curriculum_edition_status": "CALENDAR_DATED_EDITION_NOT_PPC_OR_FULL_EMENTA",
+  "rights_state": "METADATA_ONLY_HOLD_RIGHTS_FOR_REPRODUCTION",
+  "full_text_stored": false,
+  "course_current_offer_status": "NOT_VERIFIED_2026",
+  "publication_allowed": false,
+  "source_notes": "Não confundir cronograma 2024-2 com edição 2026 nem inferir carga horária, competências ou autorização de reprodução. Fonte institucional primária.",
+  "related_primary_2026_program": "https://www.faculdadesiriolibanes.org.br/fsl/product/enfermagem-em-centro-cir%C3%BArgico-e-centro-de-material-e-de-esteriliza%C3%A7%C3%A3o/01tU4000004YO5dIAG",
+  "related_2026_program_note": "Página institucional de residência com início 01/03/2026; programa distinto da especialização 2024-2. Não fundir ofertas."
+}

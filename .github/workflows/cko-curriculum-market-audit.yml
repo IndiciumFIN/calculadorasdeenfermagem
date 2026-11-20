@@ -1,0 +1,80 @@
+# Supplemental CKO educational research audit only. NEVER approves/release clinical content.
+name: CKO Curriculum and Market Read-only Audit
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - review/cko-w7-public-evidence-20261114
+    paths:
+      - 'governance/cko/reconciliation/2026-11-14/w7/curriculum/**'
+      - 'scripts/cko_curriculum_market_audit.py'
+      - 'tests/test_cko_curriculum_market_audit.py'
+      - '.github/workflows/cko-curriculum-market-audit.yml'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'governance/cko/reconciliation/2026-11-14/w7/curriculum/**'
+      - 'scripts/cko_curriculum_market_audit.py'
+      - 'tests/test_cko_curriculum_market_audit.py'
+      - '.github/workflows/cko-curriculum-market-audit.yml'
+  # GitHub executes schedule ONLY from the default branch after approved merge.
+  # This is not active as a recurring schedule on an unmerged feature branch.
+  schedule:
+    - cron: '37 11 * * *'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: cko-curriculum-readonly-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  audit-only:
+    name: CKO 65-specialty evidence and backlog checks
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout exact revision
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+
+      - name: Python 3.11
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.11'
+
+      - name: Compile Python and tests
+        run: python -m compileall -q scripts/cko_curriculum_market_audit.py tests/test_cko_curriculum_market_audit.py
+
+      - name: Negative and deterministic tests
+        run: python -m unittest discover -s tests -p 'test_cko_curriculum_market_audit.py' -v
+
+      - name: Generate read-only coverage artifacts
+        env:
+          PYTHONDONTWRITEBYTECODE: '1'
+        run: |
+          python scripts/cko_curriculum_market_audit.py \
+            --repo-root . \
+            --out-dir "${RUNNER_TEMP}/cko-curriculum-market" \
+            --revision "${GITHUB_SHA}"
+
+      - name: Write visible run summary
+        if: always()
+        run: |
+          if test -f "${RUNNER_TEMP}/cko-curriculum-market/status.md"; then
+            cat "${RUNNER_TEMP}/cko-curriculum-market/status.md" >> "${GITHUB_STEP_SUMMARY}"
+          else
+            printf "CKO audit failed before artifact generation. See job steps.\n" >> "${GITHUB_STEP_SUMMARY}"
+          fi
+
+      - name: Upload versioned audit output
+        if: success()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: cko-curriculum-market-${{ github.run_id }}
+          path: ${{ runner.temp }}/cko-curriculum-market/
+          if-no-files-found: error
+          retention-days: 14
+
+# No write permission, database tokens, publish/deploy, PR auto-merge or clinical approval.

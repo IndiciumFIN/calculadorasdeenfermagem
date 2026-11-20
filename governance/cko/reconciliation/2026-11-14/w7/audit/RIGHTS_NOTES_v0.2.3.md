@@ -1,0 +1,6 @@
+# Matriz de direitos — W5/W6 v0.2.3
+- **MS/ANVISA/Fiocruz protocolo para cirurgia segura (2013)**: entrada da biblioteca digital da ANVISA indica licença `CC BY-NC-ND 4.0`. A licença exige atribuição, restringe uso comercial e obras derivadas; **não interpretar disponibilidade pública como autorização para incorporar integralmente/adaptar em serviço comercial**. Link: https://bibliotecadigital.anvisa.gov.br/jspui/handle/anvisa/1771?mode=full
+- **Página informativa Anvisa reprocessamento**: rodapé indica licença de conteúdo do site `CC BY-ND 3.0`; verificar escopo, versão e exclusões antes de qualquer republicação. Link: https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2016/reprocessamento-de-produto-para-saude-deve-seguir-regra
+- **WHO implementation manual (2009)**: direitos de adaptação/tradução/reuso comercial não verificados. Manter `HOLD_RIGHTS`.
+- **COFEN e RDC Anvisa**: citar/localizar legislação não equivale a homologação do conteúdo editorial; proveniência e atualização das normas independentes de direitos de terceiros.
+- **Nenhum material protegido redistribuído nesta versão**. Reusar somente identificadores, localizadores, títulos, links e descrições autorais de achados.

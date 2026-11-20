@@ -1,0 +1,59 @@
+{
+  "version": "0.1.0",
+  "observed_on": "2026-11-17",
+  "classification": "CANDIDATE_NOT_INDEPENDENTLY_REVIEWED",
+  "job_id": "12808027",
+  "employer": "Rede D'Or - Hospital São Luiz Morumbi",
+  "role": "Enfermeiro(a) | Setor SADT Ressonância Magnética",
+  "source_url": "https://rededor.gupy.io/jobs/12808027",
+  "source_kind": "EMPLOYER_OFFICIAL_GUPY",
+  "source_evidence": "Employer vacancy page directly states registered nurse role in MRI diagnostic imaging, with occasional radiology/endoscopy/cardiology coverage",
+  "cofen_main_specialty_candidate": "COFEN-581-I-12",
+  "cofen_main_name": "Enfermagem em Diagnóstico por Imagens",
+  "cofen_subarea_candidate": "COFEN-581-I-12-02",
+  "cofen_subarea_name": "Radiologia e Imaginologia",
+  "subarea_is_not_extra_main_specialty": true,
+  "requirements": {
+    "required": [
+      "NURSING_DEGREE",
+      "ACTIVE_PROFESSIONAL_REGISTRATION"
+    ],
+    "preferred": [
+      "POSTGRAD_IN_AREA",
+      "EXPERIENCE"
+    ]
+  },
+  "responsibilities": [
+    "MRI_NURSING_CARE",
+    "PATIENT_PREPARATION",
+    "NURSING_PROCESS",
+    "DIAGNOSTIC_PATIENT_SAFETY",
+    "MULTI_MODALITY_COVERAGE"
+  ],
+  "status_observed": "SOURCE_ACCESSIBLE_CURRENT_APPLICATION_STATUS_NOT_VERIFIED",
+  "rights": "SOURCE_URL_AND_ORIGINAL_SHORT_SKILL_CODES_ONLY",
+  "dedup": {
+    "checked_baseline_ids": 34,
+    "job_id_present_in_34_baseline": false,
+    "incremental_deltas_check": "PENDING_FULL_RECONCILIATION"
+  },
+  "impact": {
+    "previous_candidate_specialties": 20,
+    "possible_candidate_specialties": 21,
+    "denominator": 65,
+    "coverage_percent_if_unique": 32.3077
+  },
+  "gates": [
+    "Do not count 21/65 until all 40 prior job IDs and specialty mappings are reconciled",
+    "Second reviewer required for specialty mapping",
+    "Do not infer clinical authorization from employer requirements"
+  ],
+  "tests_candidates": [
+    "job_id unique across all deltas",
+    "COFEN-581-I-12 exists in official catalogue",
+    "subarea I-12-02 is not counted as separate main specialty",
+    "source is nurse not technician or assistant",
+    "status and rights not promoted"
+  ],
+  "tests_executed": 0
+}

@@ -1,0 +1,96 @@
+{
+  "issue": {
+    "number": 69,
+    "state": "open",
+    "url": "https://github.com/IndiciumFIN/calculadorasdeenfermagem/issues/69"
+  },
+  "main_sha": "e0f62491b104f4a97c6025a6393cabc2e7ada30e",
+  "no_remote_branch_created_this_execution": true,
+  "no_remote_commit": true,
+  "observed_at_date": "2026-11-14",
+  "pull_requests": [
+    {
+      "branch": "feat/cko-m08-m09-corpus-atomic-20261114",
+      "draft": true,
+      "files": 8,
+      "head_sha": "d395f6e69e935570d5355ba930745bf8cd91f537",
+      "merged": false,
+      "number": 39,
+      "state": "open"
+    },
+    {
+      "branch": "review/cko-w1-w2-editorial-20261114",
+      "draft": true,
+      "files": 9,
+      "head_sha": "cf0865add19879d1194c7f37e50cf411af82a035",
+      "merged": false,
+      "number": 62,
+      "state": "open"
+    },
+    {
+      "branch": "review/cko-w3-pe736-20261114",
+      "draft": true,
+      "files": 3,
+      "head_sha": "d18a3acb53e90fc460a8fa5ed173390f8d65612b",
+      "merged": false,
+      "number": 64,
+      "state": "open"
+    },
+    {
+      "branch": "review/cko-w4-reuso-especialidades-20261114",
+      "draft": true,
+      "files": 9,
+      "head_sha": "4378a7cdf78ccbc2493f7e229745518ca4ff1d92",
+      "merged": false,
+      "number": 66,
+      "state": "open"
+    },
+    {
+      "branch": "review/cko-w5-cme-independente-20261114",
+      "draft": true,
+      "files": 15,
+      "head_sha": "bb882bc69a9e62d58b2ee2ced8d5838ad4c45f83",
+      "merged": false,
+      "number": 67,
+      "state": "open"
+    },
+    {
+      "branch": "review/cko-w6-centro-cirurgico-srpa-20261114",
+      "draft": true,
+      "files": 19,
+      "head_sha": "a3b0a2aee7e9b4fbadb82968cf4b7402cf714ee7",
+      "merged": false,
+      "number": 68,
+      "state": "open"
+    }
+  ],
+  "repository": "IndiciumFIN/calculadorasdeenfermagem",
+  "rulesets": [
+    {
+      "bypass_actors": [],
+      "enforcement": "active",
+      "id": 25580067,
+      "include": [
+        "~ALL"
+      ],
+      "name": "Somente leitura - branches desativadas (Leivis 21/10)",
+      "rule_types": [
+        "creation",
+        "update",
+        "deletion",
+        "non_fast_forward"
+      ]
+    },
+    {
+      "enforcement": "active",
+      "id": 25574851,
+      "name": "protecao-main-L01-20261021",
+      "purpose": "main protection; retained"
+    }
+  ],
+  "source": "GitHub connected API read-only 2026-11-14",
+  "target_branch": "review/cko-w7-public-evidence-20261114",
+  "target_branch_exists": false,
+  "visibility": "public",
+  "write_prohibited": true
+}

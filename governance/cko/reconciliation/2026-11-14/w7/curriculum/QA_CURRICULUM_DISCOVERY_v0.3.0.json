@@ -1,0 +1,81 @@
+{
+  "release": "CKO_W7_CURRICULUM_SOURCE_DISCOVERY_v0.3.0",
+  "checks": [
+    {
+      "check": "3_original_missing_program_ids_exact",
+      "passed": true
+    },
+    {
+      "check": "3_original_source_ids_exact",
+      "passed": true
+    },
+    {
+      "check": "3_programs_are_in_scope",
+      "passed": true
+    },
+    {
+      "check": "exactly_10_each",
+      "passed": true
+    },
+    {
+      "check": "exactly_30_atoms",
+      "passed": true
+    },
+    {
+      "check": "all_atom_ids_unique",
+      "passed": true
+    },
+    {
+      "check": "source_url_inst_controlled",
+      "passed": true
+    },
+    {
+      "check": "atom_program_link_valid",
+      "passed": true
+    },
+    {
+      "check": "source_sha_not_invented",
+      "passed": true
+    },
+    {
+      "check": "no_curricular_hours_inferred",
+      "passed": true
+    },
+    {
+      "check": "no_semantic_promotion",
+      "passed": true
+    },
+    {
+      "check": "all_titles_nonempty",
+      "passed": true
+    },
+    {
+      "check": "no_publication_allowed",
+      "passed": true
+    },
+    {
+      "check": "programme_delta_preserves_985",
+      "passed": true
+    },
+    {
+      "check": "original_31_programs_retained",
+      "passed": true
+    },
+    {
+      "check": "same_title_cross_program_duplicates_retained",
+      "passed": true
+    },
+    {
+      "check": "visual_claim_cautious",
+      "passed": true
+    },
+    {
+      "check": "no_clinical_content_created",
+      "passed": true
+    }
+  ],
+  "passed": 18,
+  "failed": 0,
+  "tests_scope": "STRUCTURAL SOURCE-SCOPED REVIEW; no GitHub CI or PDF-byte validation asserted",
+  "publication_allowed": false
+}

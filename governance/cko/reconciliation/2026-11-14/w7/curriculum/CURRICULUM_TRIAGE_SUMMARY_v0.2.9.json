@@ -1,0 +1,70 @@
+{
+  "release": "CKO-W7-CURRICULUM-v0.2.9",
+  "scope": "CURRICULUM_ATOMIZATION_ONLY",
+  "original_items_preserved": 985,
+  "source_topics_preserved": 182,
+  "source_topic_links_preserved": 1514,
+  "six_unmapped_item_ids": [
+    "CURITEM-00926",
+    "CURITEM-00934",
+    "CURITEM-00945",
+    "CURITEM-00946",
+    "CURITEM-00974",
+    "CURITEM-00980"
+  ],
+  "programs_without_atoms": 31,
+  "programs_without_atoms_by_source_status": {
+    "IN_SCOPE_NO_PUBLIC_GRANULAR_CURRICULUM": 23,
+    "IN_SCOPE_DETAIL_RESTRICTED": 5,
+    "EXCLUDED_NON_NURSING_TARGET": 3
+  },
+  "in_scope_programs_missing_granular_detail": 28,
+  "paraphrased_objectives": 191,
+  "paraphrased_programs": 32,
+  "paraphrased_existing_topic_links": 284,
+  "mapping_review_queue": 110,
+  "mapping_statuses": {
+    "NORMALIZED_RULE_MATCH": 1404,
+    "CANDIDATE_REQUIRES_EDITORIAL_VALIDATION": 75,
+    "CANDIDATE_RULE_MATCH": 35
+  },
+  "unmapped_temporal_status": {
+    "CURRENT_OFFICIAL": 5,
+    "HISTORICAL_OFFICIAL": 1
+  },
+  "semantic_mapping_approvals": 0,
+  "curriculum_admissions": 0,
+  "clinical_publication_allowed": false,
+  "source_inputs": [
+    {
+      "kind": "programs",
+      "file_id": "1Y5VyCCaGB-HCF8ZhzZbCi41ZgiOhAhZW",
+      "size": 64105,
+      "rows": 114
+    },
+    {
+      "kind": "items",
+      "file_id": "18GQF7c-OcCZDBc-nNQDG4lAe_mafgt_j",
+      "size": 474792,
+      "rows": 985
+    },
+    {
+      "kind": "topics",
+      "file_id": "1nhaTIVai-X4jUqBtR7wGSJVA6tCnjkQf",
+      "size": 109103,
+      "rows": 182
+    },
+    {
+      "kind": "links",
+      "file_id": "1Q9BeuBSCBFE4-AXf-w8yG7Shf2isMy8D",
+      "size": 268646,
+      "rows": 1514
+    }
+  ],
+  "remarks": [
+    "28 unatomized in-scope programs require permitted primary sources at greater granularity; 3 out-of-scope stay excluded",
+    "191 source titles are explicitly paraphrased objectives, not primary-source literal text",
+    "110 candidate topic links are identified for human review; 1404 normalized-rule links are also not automatically approved",
+    "6 unmapped topics remain unmapped, with source IDs and original locators retained"
+  ]
+}

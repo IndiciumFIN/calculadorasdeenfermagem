@@ -1,0 +1,5020 @@
+{
+  "version": "W7-v0.5.8",
+  "date": "2026-11-15",
+  "basis": {
+    "n_job_ads": 34,
+    "role_families": 15,
+    "cofen_main_specialties": 65,
+    "distinct_main_specialties_with_ads": 14,
+    "degree_source_programs": 114,
+    "degree_course_title_metadata_items": 174
+  },
+  "method": "Frequency = number of unique ads in this non-random sample that mention skill in req, desirable, responsibilities or explicit behavioral fields. Category-specific counts kept. Do not estimate labor market percentages.",
+  "role_market_signals": [
+    {
+      "role": "AUDITORIA_ENFERMAGEM",
+      "specialty_id": "COFEN-581-II-03",
+      "n": 3,
+      "top": [
+        {
+          "code": "AUD_OPME",
+          "label": "OPME",
+          "n": 3,
+          "required": 2,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12688162",
+            "12690261",
+            "11678425"
+          ]
+        },
+        {
+          "code": "AUD_BILL",
+          "label": "Glosas/contas e auditoria",
+          "n": 3,
+          "required": 1,
+          "preferred": 0,
+          "activities": 2,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12688162",
+            "12690261",
+            "11678425"
+          ]
+        },
+        {
+          "code": "COMM",
+          "label": "Comunicação e equipe multiprofissional",
+          "n": 3,
+          "required": 0,
+          "preferred": 0,
+          "activities": 3,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12688162",
+            "12690261",
+            "11678425"
+          ]
+        },
+        {
+          "code": "DOC",
+          "label": "Registros e continuidade",
+          "n": 3,
+          "required": 0,
+          "preferred": 0,
+          "activities": 3,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12688162",
+            "12690261",
+            "11678425"
+          ]
+        },
+        {
+          "code": "KPI",
+          "label": "Indicadores e gestão de qualidade",
+          "n": 2,
+          "required": 0,
+          "preferred": 0,
+          "activities": 2,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12688162",
+            "12690261"
+          ]
+        },
+        {
+          "code": "AUD_RULES",
+          "label": "ANS/conformidade regulatória",
+          "n": 1,
+          "required": 1,
+          "preferred": 0,
+          "activities": 0,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12688162"
+          ]
+        },
+        {
+          "code": "AUD_TUSS",
+          "label": "TUSS/CBHPM",
+          "n": 1,
+          "required": 1,
+          "preferred": 0,
+          "activities": 0,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12690261"
+          ]
+        },
+        {
+          "code": "CC_CHECK",
+          "label": "Checklist cirurgia segura",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "11678425"
+          ]
+        },
+        {
+          "code": "CME_TRACE",
+          "label": "Rastreabilidade",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "11678425"
+          ]
+        }
+      ],
+      "sample_warning": "NON_PROBABILITY_SAMPLE_ONLY",
+      "job_ids": [
+        "12688162",
+        "12690261",
+        "11678425"
+      ]
+    },
+    {
+      "role": "CENTRO_CIRURGICO",
+      "specialty_id": "COFEN-581-I-09",
+      "n": 2,
+      "top": [
+        {
+          "code": "CC_PERIO",
+          "label": "Cuidado perioperatório",
+          "n": 2,
+          "required": 0,
+          "preferred": 0,
+          "activities": 2,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12722205",
+            "12398934"
+          ]
+        },
+        {
+          "code": "LID",
+          "label": "Liderança e supervisão",
+          "n": 2,
+          "required": 0,
+          "preferred": 0,
+          "activities": 2,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12722205",
+            "12398934"
+          ]
+        },
+        {
+          "code": "SAFE",
+          "label": "Protocolos e segurança",
+          "n": 2,
+          "required": 0,
+          "preferred": 0,
+          "activities": 2,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12722205",
+            "12398934"
+          ]
+        },
+        {
+          "code": "CC_RES",
+          "label": "Preparo e organização da sala",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12398934"
+          ]
+        },
+        {
+          "code": "DOC",
+          "label": "Registros e continuidade",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12722205"
+          ]
+        },
+        {
+          "code": "PE",
+          "label": "Processo de Enfermagem/SAE",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12722205"
+          ]
+        },
+        {
+          "code": "URG_EMERG",
+          "label": "Urgências e emergências",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12722205"
+          ]
+        }
+      ],
+      "sample_warning": "SMALL_N_DO_NOT_RANK_NATIONALLY",
+      "job_ids": [
+        "12722205",
+        "12398934"
+      ]
+    },
+    {
+      "role": "CME",
+      "specialty_id": "COFEN-581-I-08",
+      "n": 3,
+      "top": [
+        {
+          "code": "CME_STOCK",
+          "label": "Estoque e instrumentais",
+          "n": 3,
+          "required": 0,
+          "preferred": 0,
+          "activities": 3,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12843473",
+            "12398561",
+            "12847154"
+          ]
+        },
+        {
+          "code": "LID",
+          "label": "Liderança e supervisão",
+          "n": 3,
+          "required": 0,
+          "preferred": 0,
+          "activities": 3,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12843473",
+            "12398561",
+            "12847154"
+          ]
+        },
+        {
+          "code": "CME_PROC",
+          "label": "Processamento e esterilização",
+          "n": 2,
+          "required": 0,
+          "preferred": 0,
+          "activities": 2,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12398561",
+            "12847154"
+          ]
+        },
+        {
+          "code": "CME_TRACE",
+          "label": "Rastreabilidade",
+          "n": 2,
+          "required": 0,
+          "preferred": 0,
+          "activities": 2,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12398561",
+            "12847154"
+          ]
+        },
+        {
+          "code": "SAFE",
+          "label": "Protocolos e segurança",
+          "n": 2,
+          "required": 0,
+          "preferred": 0,
+          "activities": 2,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12843473",
+            "12398561"
+          ]
+        },
+        {
+          "code": "PE",
+          "label": "Processo de Enfermagem/SAE",
+          "n": 1,
+          "required": 1,
+          "preferred": 0,
+          "activities": 0,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12843473"
+          ]
+        },
+        {
+          "code": "RISK",
+          "label": "Gestão de riscos",
+          "n": 1,
+          "required": 1,
+          "preferred": 0,
+          "activities": 0,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12843473"
+          ]
+        },
+        {
+          "code": "CC_CHECK",
+          "label": "Checklist cirurgia segura",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12847154"
+          ]
+        },
+        {
+          "code": "CME_MON",
+          "label": "Monitoramento físico, químico e biológico",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12847154"
+          ]
+        },
+        {
+          "code": "DIGITAL",
+          "label": "Sistemas e prontuário eletrônico",
+          "n": 1,
+          "required": 0,
+          "preferred": 1,
+          "activities": 0,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12843473"
+          ]
+        },
+        {
+          "code": "EDU",
+          "label": "Educação e treinamentos",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12398561"
+          ]
+        },
+        {
+          "code": "KPI",
+          "label": "Indicadores e gestão de qualidade",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12398561"
+          ]
+        }
+      ],
+      "sample_warning": "NON_PROBABILITY_SAMPLE_ONLY",
+      "job_ids": [
+        "12843473",
+        "12398561",
+        "12847154"
+      ]
+    },
+    {
+      "role": "CONTROLE_INFECCAO",
+      "specialty_id": "COFEN-581-I-31",
+      "n": 2,
+      "top": [
+        {
+          "code": "CCIH_MICRO",
+          "label": "Microbiologia/resistência",
+          "n": 2,
+          "required": 0,
+          "preferred": 0,
+          "activities": 2,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12632101",
+            "12568750"
+          ]
+        },
+        {
+          "code": "CCIH_PRE",
+          "label": "Precauções/controle de infecção",
+          "n": 2,
+          "required": 0,
+          "preferred": 0,
+          "activities": 2,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12632101",
+            "12568750"
+          ]
+        },
+        {
+          "code": "EDU",
+          "label": "Educação e treinamentos",
+          "n": 2,
+          "required": 0,
+          "preferred": 0,
+          "activities": 2,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12632101",
+            "12568750"
+          ]
+        },
+        {
+          "code": "KPI",
+          "label": "Indicadores e gestão de qualidade",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12632101"
+          ]
+        },
+        {
+          "code": "RISK",
+          "label": "Gestão de riscos",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12568750"
+          ]
+        }
+      ],
+      "sample_warning": "SMALL_N_DO_NOT_RANK_NATIONALLY",
+      "job_ids": [
+        "12632101",
+        "12568750"
+      ]
+    },
+    {
+      "role": "CUIDADOS_PALIATIVOS",
+      "specialty_id": "COFEN-581-I-10",
+      "n": 2,
+      "top": [
+        {
+          "code": "COMM",
+          "label": "Comunicação e equipe multiprofissional",
+          "n": 2,
+          "required": 0,
+          "preferred": 0,
+          "activities": 2,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12611389",
+            "12855633"
+          ]
+        },
+        {
+          "code": "DOC",
+          "label": "Registros e continuidade",
+          "n": 2,
+          "required": 0,
+          "preferred": 0,
+          "activities": 2,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12611389",
+            "12855633"
+          ]
+        },
+        {
+          "code": "PALL_SYMP",
+          "label": "Conforto/sintomas",
+          "n": 2,
+          "required": 0,
+          "preferred": 0,
+          "activities": 2,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12611389",
+            "12855633"
+          ]
+        },
+        {
+          "code": "EDU",
+          "label": "Educação e treinamentos",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12855633"
+          ]
+        },
+        {
+          "code": "PALL_COMM",
+          "label": "Comunicação acolhedora com família",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 1,
+          "source_job_ids": [
+            "12611389"
+          ]
+        },
+        {
+          "code": "SAFE",
+          "label": "Protocolos e segurança",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12611389"
+          ]
+        }
+      ],
+      "sample_warning": "SMALL_N_DO_NOT_RANK_NATIONALLY",
+      "job_ids": [
+        "12611389",
+        "12855633"
+      ]
+    },
+    {
+      "role": "ESTOMATERAPIA",
+      "specialty_id": "COFEN-581-I-16",
+      "n": 1,
+      "top": [
+        {
+          "code": "STOMA_WOUND",
+          "label": "Lesões de pele/estomias",
+          "n": 1,
+          "required": 1,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12823761"
+          ]
+        },
+        {
+          "code": "CME_STOCK",
+          "label": "Estoque e instrumentais",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12823761"
+          ]
+        },
+        {
+          "code": "LID",
+          "label": "Liderança e supervisão",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12823761"
+          ]
+        },
+        {
+          "code": "PE",
+          "label": "Processo de Enfermagem/SAE",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12823761"
+          ]
+        }
+      ],
+      "sample_warning": "SMALL_N_DO_NOT_RANK_NATIONALLY",
+      "job_ids": [
+        "12823761"
+      ]
+    },
+    {
+      "role": "NEFROLOGIA",
+      "specialty_id": "COFEN-581-I-24",
+      "n": 3,
+      "top": [
+        {
+          "code": "NEPH_DIAL",
+          "label": "Hemodiálise",
+          "n": 3,
+          "required": 2,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12502783",
+            "12823583",
+            "12396144"
+          ]
+        },
+        {
+          "code": "NEPH_EQUIP",
+          "label": "Equipamentos/parametrização",
+          "n": 2,
+          "required": 1,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12823583",
+            "12396144"
+          ]
+        },
+        {
+          "code": "LID",
+          "label": "Liderança e supervisão",
+          "n": 2,
+          "required": 0,
+          "preferred": 0,
+          "activities": 2,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12823583",
+            "12396144"
+          ]
+        },
+        {
+          "code": "DOC",
+          "label": "Registros e continuidade",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12396144"
+          ]
+        },
+        {
+          "code": "EDU",
+          "label": "Educação e treinamentos",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12823583"
+          ]
+        },
+        {
+          "code": "KPI",
+          "label": "Indicadores e gestão de qualidade",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12823583"
+          ]
+        },
+        {
+          "code": "NEPH_INTER",
+          "label": "Intercorrências dialíticas",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12823583"
+          ]
+        },
+        {
+          "code": "PE",
+          "label": "Processo de Enfermagem/SAE",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12502783"
+          ]
+        },
+        {
+          "code": "RISK",
+          "label": "Gestão de riscos",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12823583"
+          ]
+        },
+        {
+          "code": "SAFE",
+          "label": "Protocolos e segurança",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12502783"
+          ]
+        }
+      ],
+      "sample_warning": "NON_PROBABILITY_SAMPLE_ONLY",
+      "job_ids": [
+        "12502783",
+        "12823583",
+        "12396144"
+      ]
+    },
+    {
+      "role": "OBSTETRICIA",
+      "specialty_id": "COFEN-581-I-34",
+      "n": 2,
+      "top": [
+        {
+          "code": "COMM",
+          "label": "Comunicação e equipe multiprofissional",
+          "n": 2,
+          "required": 0,
+          "preferred": 0,
+          "activities": 2,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12739841",
+            "12789700"
+          ]
+        },
+        {
+          "code": "LID",
+          "label": "Liderança e supervisão",
+          "n": 2,
+          "required": 0,
+          "preferred": 0,
+          "activities": 2,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12739841",
+            "12789700"
+          ]
+        },
+        {
+          "code": "OBST_BIRTH",
+          "label": "Assistência ao parto",
+          "n": 2,
+          "required": 0,
+          "preferred": 0,
+          "activities": 2,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12739841",
+            "12789700"
+          ]
+        },
+        {
+          "code": "OBST_POST",
+          "label": "Cuidado pós-parto e neonatal",
+          "n": 2,
+          "required": 0,
+          "preferred": 0,
+          "activities": 2,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12739841",
+            "12789700"
+          ]
+        },
+        {
+          "code": "HUMAN",
+          "label": "Humanização e empatia",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 1,
+          "source_job_ids": [
+            "12739841"
+          ]
+        },
+        {
+          "code": "OBST_FETAL",
+          "label": "Avaliação materno-fetal",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12739841"
+          ]
+        },
+        {
+          "code": "PE",
+          "label": "Processo de Enfermagem/SAE",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12739841"
+          ]
+        },
+        {
+          "code": "SAFE",
+          "label": "Protocolos e segurança",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12739841"
+          ]
+        }
+      ],
+      "sample_warning": "SMALL_N_DO_NOT_RANK_NATIONALLY",
+      "job_ids": [
+        "12739841",
+        "12789700"
+      ]
+    },
+    {
+      "role": "ONCOLOGIA",
+      "specialty_id": "COFEN-581-I-28",
+      "n": 3,
+      "top": [
+        {
+          "code": "ONCO_CARE",
+          "label": "Cuidado ao paciente oncológico",
+          "n": 3,
+          "required": 1,
+          "preferred": 0,
+          "activities": 2,
+          "behavioral": 0,
+          "source_job_ids": [
+            "11410315",
+            "12517624",
+            "10784803"
+          ]
+        },
+        {
+          "code": "ONCO_ANT",
+          "label": "Terapias antineoplásicas",
+          "n": 2,
+          "required": 1,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "11410315",
+            "12517624"
+          ]
+        },
+        {
+          "code": "DOC",
+          "label": "Registros e continuidade",
+          "n": 2,
+          "required": 0,
+          "preferred": 0,
+          "activities": 2,
+          "behavioral": 0,
+          "source_job_ids": [
+            "11410315",
+            "12517624"
+          ]
+        },
+        {
+          "code": "KPI",
+          "label": "Indicadores e gestão de qualidade",
+          "n": 2,
+          "required": 0,
+          "preferred": 0,
+          "activities": 2,
+          "behavioral": 0,
+          "source_job_ids": [
+            "11410315",
+            "12517624"
+          ]
+        },
+        {
+          "code": "SAFE",
+          "label": "Protocolos e segurança",
+          "n": 2,
+          "required": 0,
+          "preferred": 0,
+          "activities": 2,
+          "behavioral": 0,
+          "source_job_ids": [
+            "11410315",
+            "10784803"
+          ]
+        },
+        {
+          "code": "COMM",
+          "label": "Comunicação e equipe multiprofissional",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 1,
+          "source_job_ids": [
+            "11410315"
+          ]
+        },
+        {
+          "code": "DIGITAL",
+          "label": "Sistemas e prontuário eletrônico",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12517624"
+          ]
+        },
+        {
+          "code": "LID",
+          "label": "Liderança e supervisão",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "11410315"
+          ]
+        },
+        {
+          "code": "ONCO_ACCESS",
+          "label": "Infusão e acesso vascular",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12517624"
+          ]
+        },
+        {
+          "code": "ONCO_INT",
+          "label": "Intercorrências oncológicas",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "11410315"
+          ]
+        }
+      ],
+      "sample_warning": "NON_PROBABILITY_SAMPLE_ONLY",
+      "job_ids": [
+        "11410315",
+        "12517624",
+        "10784803"
+      ]
+    },
+    {
+      "role": "SAUDE_MENTAL",
+      "specialty_id": "COFEN-581-I-40",
+      "n": 2,
+      "top": [
+        {
+          "code": "MENTAL_CARE",
+          "label": "Atenção psicossocial",
+          "n": 2,
+          "required": 1,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12571435",
+            "12758988"
+          ]
+        },
+        {
+          "code": "COMM",
+          "label": "Comunicação e equipe multiprofissional",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12571435"
+          ]
+        },
+        {
+          "code": "DOC",
+          "label": "Registros e continuidade",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12758988"
+          ]
+        },
+        {
+          "code": "MENTAL_PTS",
+          "label": "Projeto terapêutico singular",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12571435"
+          ]
+        },
+        {
+          "code": "MENTAL_RAPS",
+          "label": "RAPS/matriciamento",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12571435"
+          ]
+        },
+        {
+          "code": "PE",
+          "label": "Processo de Enfermagem/SAE",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12571435"
+          ]
+        }
+      ],
+      "sample_warning": "SMALL_N_DO_NOT_RANK_NATIONALLY",
+      "job_ids": [
+        "12571435",
+        "12758988"
+      ]
+    },
+    {
+      "role": "SAUDE_TRABALHADOR",
+      "specialty_id": "COFEN-581-I-38",
+      "n": 3,
+      "top": [
+        {
+          "code": "OCC_PCMSO",
+          "label": "PCMSO/ASO",
+          "n": 3,
+          "required": 1,
+          "preferred": 0,
+          "activities": 2,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12657028",
+            "12722248",
+            "12759587"
+          ]
+        },
+        {
+          "code": "OCC_PROMO",
+          "label": "Prevenção/vacinação/campanhas",
+          "n": 3,
+          "required": 0,
+          "preferred": 0,
+          "activities": 3,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12657028",
+            "12722248",
+            "12759587"
+          ]
+        },
+        {
+          "code": "EDU",
+          "label": "Educação e treinamentos",
+          "n": 2,
+          "required": 0,
+          "preferred": 0,
+          "activities": 2,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12657028",
+            "12722248"
+          ]
+        },
+        {
+          "code": "OCC_ESOC",
+          "label": "eSocial/SOC/APData",
+          "n": 2,
+          "required": 0,
+          "preferred": 0,
+          "activities": 2,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12657028",
+            "12722248"
+          ]
+        },
+        {
+          "code": "OCC_LEAVE",
+          "label": "Afastamentos/absenteísmo/CAT",
+          "n": 2,
+          "required": 0,
+          "preferred": 0,
+          "activities": 2,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12722248",
+            "12759587"
+          ]
+        },
+        {
+          "code": "OCC_PGR",
+          "label": "PGR/LTCAT",
+          "n": 1,
+          "required": 1,
+          "preferred": 0,
+          "activities": 0,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12657028"
+          ]
+        },
+        {
+          "code": "DIGITAL",
+          "label": "Sistemas e prontuário eletrônico",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12759587"
+          ]
+        },
+        {
+          "code": "DOC",
+          "label": "Registros e continuidade",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12657028"
+          ]
+        },
+        {
+          "code": "KPI",
+          "label": "Indicadores e gestão de qualidade",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12722248"
+          ]
+        },
+        {
+          "code": "LID",
+          "label": "Liderança e supervisão",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12722248"
+          ]
+        },
+        {
+          "code": "URG_EMERG",
+          "label": "Urgências e emergências",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12722248"
+          ]
+        }
+      ],
+      "sample_warning": "NON_PROBABILITY_SAMPLE_ONLY",
+      "job_ids": [
+        "12657028",
+        "12722248",
+        "12759587"
+      ]
+    },
+    {
+      "role": "SEGURANCA_QUALIDADE_MULTIPROFISSIONAL",
+      "specialty_id": "COFEN-581-II-04",
+      "n": 1,
+      "top": [
+        {
+          "code": "COMM",
+          "label": "Comunicação e equipe multiprofissional",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 0,
+          "behavioral": 1,
+          "source_job_ids": [
+            "12842743"
+          ]
+        },
+        {
+          "code": "EDU",
+          "label": "Educação e treinamentos",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12842743"
+          ]
+        },
+        {
+          "code": "KPI",
+          "label": "Indicadores e gestão de qualidade",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12842743"
+          ]
+        },
+        {
+          "code": "QUAL_INC",
+          "label": "Eventos adversos e investigação",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12842743"
+          ]
+        },
+        {
+          "code": "QUAL_RISK",
+          "label": "Qualidade e risco assistencial",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12842743"
+          ]
+        },
+        {
+          "code": "RISK",
+          "label": "Gestão de riscos",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12842743"
+          ]
+        }
+      ],
+      "sample_warning": "SMALL_N_DO_NOT_RANK_NATIONALLY",
+      "job_ids": [
+        "12842743"
+      ]
+    },
+    {
+      "role": "URGENCIA_EMERGENCIA",
+      "specialty_id": "COFEN-581-I-46",
+      "n": 3,
+      "top": [
+        {
+          "code": "PE",
+          "label": "Processo de Enfermagem/SAE",
+          "n": 3,
+          "required": 0,
+          "preferred": 0,
+          "activities": 3,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12795618",
+            "12836873",
+            "12858567"
+          ]
+        },
+        {
+          "code": "DOC",
+          "label": "Registros e continuidade",
+          "n": 2,
+          "required": 0,
+          "preferred": 0,
+          "activities": 2,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12836873",
+            "12858567"
+          ]
+        },
+        {
+          "code": "LID",
+          "label": "Liderança e supervisão",
+          "n": 2,
+          "required": 0,
+          "preferred": 0,
+          "activities": 2,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12836873",
+            "12858567"
+          ]
+        },
+        {
+          "code": "SAFE",
+          "label": "Protocolos e segurança",
+          "n": 2,
+          "required": 0,
+          "preferred": 0,
+          "activities": 2,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12836873",
+            "12858567"
+          ]
+        },
+        {
+          "code": "URG_EMERG",
+          "label": "Urgências e emergências",
+          "n": 2,
+          "required": 0,
+          "preferred": 0,
+          "activities": 2,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12795618",
+            "12836873"
+          ]
+        },
+        {
+          "code": "URG_TRIAGE",
+          "label": "Classificação de risco/Manchester",
+          "n": 1,
+          "required": 1,
+          "preferred": 0,
+          "activities": 0,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12795618"
+          ]
+        },
+        {
+          "code": "URG_HANDOFF",
+          "label": "Passagem de plantão",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12836873"
+          ]
+        }
+      ],
+      "sample_warning": "NON_PROBABILITY_SAMPLE_ONLY",
+      "job_ids": [
+        "12795618",
+        "12836873",
+        "12858567"
+      ]
+    },
+    {
+      "role": "UTI_ADULTO",
+      "specialty_id": "COFEN-581-I-43",
+      "n": 1,
+      "top": [
+        {
+          "code": "DOC",
+          "label": "Registros e continuidade",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12608550"
+          ]
+        },
+        {
+          "code": "LID",
+          "label": "Liderança e supervisão",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12608550"
+          ]
+        },
+        {
+          "code": "PE",
+          "label": "Processo de Enfermagem/SAE",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12608550"
+          ]
+        },
+        {
+          "code": "UTI_COMPLEX",
+          "label": "Cuidados críticos/ECMO/hemodiálise",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12608550"
+          ]
+        },
+        {
+          "code": "UTI_DET",
+          "label": "Deterioração clínica",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12608550"
+          ]
+        },
+        {
+          "code": "UTI_VENT",
+          "label": "Ventilação mecânica e monitorização",
+          "n": 1,
+          "required": 0,
+          "preferred": 0,
+          "activities": 1,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12608550"
+          ]
+        }
+      ],
+      "sample_warning": "SMALL_N_DO_NOT_RANK_NATIONALLY",
+      "job_ids": [
+        "12608550"
+      ]
+    },
+    {
+      "role": "UTI_NEONATAL_PEDIATRICA",
+      "specialty_id": "COFEN-581-I-43",
+      "n": 3,
+      "top": [
+        {
+          "code": "NEO_CARE",
+          "label": "Cuidados intensivos neonatais",
+          "n": 3,
+          "required": 3,
+          "preferred": 0,
+          "activities": 0,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12757258",
+            "12163636",
+            "12525553"
+          ]
+        },
+        {
+          "code": "NEO_PICC",
+          "label": "PICC",
+          "n": 3,
+          "required": 3,
+          "preferred": 0,
+          "activities": 0,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12757258",
+            "12163636",
+            "12525553"
+          ]
+        },
+        {
+          "code": "DOC",
+          "label": "Registros e continuidade",
+          "n": 3,
+          "required": 0,
+          "preferred": 0,
+          "activities": 3,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12757258",
+            "12163636",
+            "12525553"
+          ]
+        },
+        {
+          "code": "LID",
+          "label": "Liderança e supervisão",
+          "n": 3,
+          "required": 0,
+          "preferred": 0,
+          "activities": 3,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12757258",
+            "12163636",
+            "12525553"
+          ]
+        },
+        {
+          "code": "PE",
+          "label": "Processo de Enfermagem/SAE",
+          "n": 2,
+          "required": 0,
+          "preferred": 0,
+          "activities": 2,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12757258",
+            "12163636"
+          ]
+        },
+        {
+          "code": "NEO_RESUS",
+          "label": "Reanimação neonatal/PALS",
+          "n": 1,
+          "required": 1,
+          "preferred": 0,
+          "activities": 0,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12757258"
+          ]
+        },
+        {
+          "code": "UTI_VENT",
+          "label": "Ventilação mecânica e monitorização",
+          "n": 1,
+          "required": 1,
+          "preferred": 0,
+          "activities": 0,
+          "behavioral": 0,
+          "source_job_ids": [
+            "12757258"
+          ]
+        }
+      ],
+      "sample_warning": "NON_PROBABILITY_SAMPLE_ONLY",
+      "job_ids": [
+        "12757258",
+        "12163636",
+        "12525553"
+      ]
+    }
+  ],
+  "global_market_signals": [
+    {
+      "code": "LID",
+      "label": "Liderança e supervisão",
+      "jobs": 18,
+      "required": 0,
+      "responsibilities": 18,
+      "preferred": 0
+    },
+    {
+      "code": "DOC",
+      "label": "Registros e continuidade",
+      "jobs": 17,
+      "required": 0,
+      "responsibilities": 17,
+      "preferred": 0
+    },
+    {
+      "code": "PE",
+      "label": "Processo de Enfermagem/SAE",
+      "jobs": 12,
+      "required": 1,
+      "responsibilities": 11,
+      "preferred": 0
+    },
+    {
+      "code": "SAFE",
+      "label": "Protocolos e segurança",
+      "jobs": 11,
+      "required": 0,
+      "responsibilities": 11,
+      "preferred": 0
+    },
+    {
+      "code": "COMM",
+      "label": "Comunicação e equipe multiprofissional",
+      "jobs": 10,
+      "required": 0,
+      "responsibilities": 9,
+      "preferred": 0
+    },
+    {
+      "code": "KPI",
+      "label": "Indicadores e gestão de qualidade",
+      "jobs": 9,
+      "required": 0,
+      "responsibilities": 9,
+      "preferred": 0
+    },
+    {
+      "code": "EDU",
+      "label": "Educação e treinamentos",
+      "jobs": 8,
+      "required": 0,
+      "responsibilities": 8,
+      "preferred": 0
+    },
+    {
+      "code": "CME_STOCK",
+      "label": "Estoque e instrumentais",
+      "jobs": 4,
+      "required": 0,
+      "responsibilities": 4,
+      "preferred": 0
+    },
+    {
+      "code": "RISK",
+      "label": "Gestão de riscos",
+      "jobs": 4,
+      "required": 1,
+      "responsibilities": 3,
+      "preferred": 0
+    },
+    {
+      "code": "URG_EMERG",
+      "label": "Urgências e emergências",
+      "jobs": 4,
+      "required": 0,
+      "responsibilities": 4,
+      "preferred": 0
+    },
+    {
+      "code": "AUD_BILL",
+      "label": "Glosas/contas e auditoria",
+      "jobs": 3,
+      "required": 1,
+      "responsibilities": 2,
+      "preferred": 0
+    },
+    {
+      "code": "AUD_OPME",
+      "label": "OPME",
+      "jobs": 3,
+      "required": 2,
+      "responsibilities": 1,
+      "preferred": 0
+    },
+    {
+      "code": "CME_TRACE",
+      "label": "Rastreabilidade",
+      "jobs": 3,
+      "required": 0,
+      "responsibilities": 3,
+      "preferred": 0
+    },
+    {
+      "code": "DIGITAL",
+      "label": "Sistemas e prontuário eletrônico",
+      "jobs": 3,
+      "required": 0,
+      "responsibilities": 2,
+      "preferred": 1
+    },
+    {
+      "code": "NEO_CARE",
+      "label": "Cuidados intensivos neonatais",
+      "jobs": 3,
+      "required": 3,
+      "responsibilities": 0,
+      "preferred": 0
+    },
+    {
+      "code": "NEO_PICC",
+      "label": "PICC",
+      "jobs": 3,
+      "required": 3,
+      "responsibilities": 0,
+      "preferred": 0
+    },
+    {
+      "code": "NEPH_DIAL",
+      "label": "Hemodiálise",
+      "jobs": 3,
+      "required": 2,
+      "responsibilities": 1,
+      "preferred": 0
+    },
+    {
+      "code": "OCC_PCMSO",
+      "label": "PCMSO/ASO",
+      "jobs": 3,
+      "required": 1,
+      "responsibilities": 2,
+      "preferred": 0
+    },
+    {
+      "code": "OCC_PROMO",
+      "label": "Prevenção/vacinação/campanhas",
+      "jobs": 3,
+      "required": 0,
+      "responsibilities": 3,
+      "preferred": 0
+    },
+    {
+      "code": "ONCO_CARE",
+      "label": "Cuidado ao paciente oncológico",
+      "jobs": 3,
+      "required": 1,
+      "responsibilities": 2,
+      "preferred": 0
+    },
+    {
+      "code": "CC_CHECK",
+      "label": "Checklist cirurgia segura",
+      "jobs": 2,
+      "required": 0,
+      "responsibilities": 2,
+      "preferred": 0
+    },
+    {
+      "code": "CC_PERIO",
+      "label": "Cuidado perioperatório",
+      "jobs": 2,
+      "required": 0,
+      "responsibilities": 2,
+      "preferred": 0
+    },
+    {
+      "code": "CCIH_MICRO",
+      "label": "Microbiologia/resistência",
+      "jobs": 2,
+      "required": 0,
+      "responsibilities": 2,
+      "preferred": 0
+    },
+    {
+      "code": "CCIH_PRE",
+      "label": "Precauções/controle de infecção",
+      "jobs": 2,
+      "required": 0,
+      "responsibilities": 2,
+      "preferred": 0
+    },
+    {
+      "code": "CME_PROC",
+      "label": "Processamento e esterilização",
+      "jobs": 2,
+      "required": 0,
+      "responsibilities": 2,
+      "preferred": 0
+    },
+    {
+      "code": "MENTAL_CARE",
+      "label": "Atenção psicossocial",
+      "jobs": 2,
+      "required": 1,
+      "responsibilities": 1,
+      "preferred": 0
+    },
+    {
+      "code": "NEPH_EQUIP",
+      "label": "Equipamentos/parametrização",
+      "jobs": 2,
+      "required": 1,
+      "responsibilities": 1,
+      "preferred": 0
+    },
+    {
+      "code": "OBST_BIRTH",
+      "label": "Assistência ao parto",
+      "jobs": 2,
+      "required": 0,
+      "responsibilities": 2,
+      "preferred": 0
+    },
+    {
+      "code": "OBST_POST",
+      "label": "Cuidado pós-parto e neonatal",
+      "jobs": 2,
+      "required": 0,
+      "responsibilities": 2,
+      "preferred": 0
+    },
+    {
+      "code": "OCC_ESOC",
+      "label": "eSocial/SOC/APData",
+      "jobs": 2,
+      "required": 0,
+      "responsibilities": 2,
+      "preferred": 0
+    },
+    {
+      "code": "OCC_LEAVE",
+      "label": "Afastamentos/absenteísmo/CAT",
+      "jobs": 2,
+      "required": 0,
+      "responsibilities": 2,
+      "preferred": 0
+    },
+    {
+      "code": "ONCO_ANT",
+      "label": "Terapias antineoplásicas",
+      "jobs": 2,
+      "required": 1,
+      "responsibilities": 1,
+      "preferred": 0
+    },
+    {
+      "code": "PALL_SYMP",
+      "label": "Conforto/sintomas",
+      "jobs": 2,
+      "required": 0,
+      "responsibilities": 2,
+      "preferred": 0
+    },
+    {
+      "code": "UTI_VENT",
+      "label": "Ventilação mecânica e monitorização",
+      "jobs": 2,
+      "required": 1,
+      "responsibilities": 1,
+      "preferred": 0
+    },
+    {
+      "code": "AUD_RULES",
+      "label": "ANS/conformidade regulatória",
+      "jobs": 1,
+      "required": 1,
+      "responsibilities": 0,
+      "preferred": 0
+    },
+    {
+      "code": "AUD_TUSS",
+      "label": "TUSS/CBHPM",
+      "jobs": 1,
+      "required": 1,
+      "responsibilities": 0,
+      "preferred": 0
+    },
+    {
+      "code": "CC_RES",
+      "label": "Preparo e organização da sala",
+      "jobs": 1,
+      "required": 0,
+      "responsibilities": 1,
+      "preferred": 0
+    },
+    {
+      "code": "CME_MON",
+      "label": "Monitoramento físico, químico e biológico",
+      "jobs": 1,
+      "required": 0,
+      "responsibilities": 1,
+      "preferred": 0
+    },
+    {
+      "code": "HUMAN",
+      "label": "Humanização e empatia",
+      "jobs": 1,
+      "required": 0,
+      "responsibilities": 1,
+      "preferred": 0
+    },
+    {
+      "code": "MENTAL_PTS",
+      "label": "Projeto terapêutico singular",
+      "jobs": 1,
+      "required": 0,
+      "responsibilities": 1,
+      "preferred": 0
+    },
+    {
+      "code": "MENTAL_RAPS",
+      "label": "RAPS/matriciamento",
+      "jobs": 1,
+      "required": 0,
+      "responsibilities": 1,
+      "preferred": 0
+    },
+    {
+      "code": "NEO_RESUS",
+      "label": "Reanimação neonatal/PALS",
+      "jobs": 1,
+      "required": 1,
+      "responsibilities": 0,
+      "preferred": 0
+    },
+    {
+      "code": "NEPH_INTER",
+      "label": "Intercorrências dialíticas",
+      "jobs": 1,
+      "required": 0,
+      "responsibilities": 1,
+      "preferred": 0
+    },
+    {
+      "code": "OBST_FETAL",
+      "label": "Avaliação materno-fetal",
+      "jobs": 1,
+      "required": 0,
+      "responsibilities": 1,
+      "preferred": 0
+    },
+    {
+      "code": "OCC_PGR",
+      "label": "PGR/LTCAT",
+      "jobs": 1,
+      "required": 1,
+      "responsibilities": 0,
+      "preferred": 0
+    },
+    {
+      "code": "ONCO_ACCESS",
+      "label": "Infusão e acesso vascular",
+      "jobs": 1,
+      "required": 0,
+      "responsibilities": 1,
+      "preferred": 0
+    },
+    {
+      "code": "ONCO_INT",
+      "label": "Intercorrências oncológicas",
+      "jobs": 1,
+      "required": 0,
+      "responsibilities": 1,
+      "preferred": 0
+    },
+    {
+      "code": "PALL_COMM",
+      "label": "Comunicação acolhedora com família",
+      "jobs": 1,
+      "required": 0,
+      "responsibilities": 1,
+      "preferred": 0
+    },
+    {
+      "code": "QUAL_INC",
+      "label": "Eventos adversos e investigação",
+      "jobs": 1,
+      "required": 0,
+      "responsibilities": 1,
+      "preferred": 0
+    },
+    {
+      "code": "QUAL_RISK",
+      "label": "Qualidade e risco assistencial",
+      "jobs": 1,
+      "required": 0,
+      "responsibilities": 1,
+      "preferred": 0
+    },
+    {
+      "code": "STOMA_WOUND",
+      "label": "Lesões de pele/estomias",
+      "jobs": 1,
+      "required": 1,
+      "responsibilities": 1,
+      "preferred": 0
+    },
+    {
+      "code": "URG_HANDOFF",
+      "label": "Passagem de plantão",
+      "jobs": 1,
+      "required": 0,
+      "responsibilities": 1,
+      "preferred": 0
+    },
+    {
+      "code": "URG_TRIAGE",
+      "label": "Classificação de risco/Manchester",
+      "jobs": 1,
+      "required": 1,
+      "responsibilities": 0,
+      "preferred": 0
+    },
+    {
+      "code": "UTI_COMPLEX",
+      "label": "Cuidados críticos/ECMO/hemodiálise",
+      "jobs": 1,
+      "required": 0,
+      "responsibilities": 1,
+      "preferred": 0
+    },
+    {
+      "code": "UTI_DET",
+      "label": "Deterioração clínica",
+      "jobs": 1,
+      "required": 0,
+      "responsibilities": 1,
+      "preferred": 0
+    }
+  ],
+  "cofen65_crosswalk": [
+    {
+      "cofen_specialty_id": "COFEN-581-I-01",
+      "cofen_area": "I",
+      "cofen_edition": 1,
+      "official_annex_title": "Enfermagem Aeroespacial",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-02",
+      "cofen_area": "I",
+      "cofen_edition": 2,
+      "official_annex_title": "Enfermagem Aquaviária",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-03",
+      "cofen_area": "I",
+      "cofen_edition": 3,
+      "official_annex_title": "Enfermagem em Acesso Vascular e Terapia Infusional",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [
+        "PG-PUCPR-INFUSION"
+      ],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-04",
+      "cofen_area": "I",
+      "cofen_edition": 4,
+      "official_annex_title": "Assistência de Enfermagem em Anestesiologia",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-05",
+      "cofen_area": "I",
+      "cofen_edition": 5,
+      "official_annex_title": "Enfermagem em Assistência Domiciliária",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-06",
+      "cofen_area": "I",
+      "cofen_edition": 6,
+      "official_annex_title": "Enfermagem em Captação, Doação e Transplante de Órgãos e Tecidos",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [
+        "PG-IDOR-TCTH",
+        "PG-HCPA-CLINSURG",
+        "PG-HCPA-ONCOHEM"
+      ],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-07",
+      "cofen_area": "I",
+      "cofen_edition": 7,
+      "official_annex_title": "Enfermagem em Cardiologia",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [
+        "PG-EIN-CARDIO",
+        "PG-SIRIO-CARDIO",
+        "PG-SANTA-CARDIO",
+        "PG-PUCPR-CARDIO",
+        "PG-HCPA-CARDIO",
+        "PG-INCOR-NURSING",
+        "PG-IDPC-CARDIO-NURSING",
+        "PG-IDPC-CARDIO-MULTI",
+        "PG-ACC-CARDIOONCO"
+      ],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-08",
+      "cofen_area": "I",
+      "cofen_edition": 8,
+      "official_annex_title": "Enfermagem em Central de Material e Esterilização",
+      "n_sample_ads": 3,
+      "sampled_role_families": [
+        "CME"
+      ],
+      "job_ids": [
+        "12843473",
+        "12398561",
+        "12847154"
+      ],
+      "course_id_candidates": [
+        "PG-EIN-CC-CME",
+        "PG-SIRIO-CC-CME",
+        "PG-SANTA-CC",
+        "PG-PUCPR-PERIOP",
+        "PG-MOINHOS-CC",
+        "PG-PUCPR-CC-RPA-CME-LON",
+        "PG-PUCPR-GESTAO-PERIOP-CME"
+      ],
+      "broad_curricular_title_matches": [
+        {
+          "id": "W7-054-COFEN-PRIO-USP-EE-BACH-2027-030",
+          "kind": "BROADER_TITLE_THEMATIC_CANDIDATE_NOT_SKILL_SPECIFIC",
+          "institution": "USP-EE",
+          "title": "Enfermagem em Centro de Material e Esterilização",
+          "url": "https://uspdigital.usp.br/jupiterweb/listarGradeCurricular?codcg=7&codcur=7012&codhab=0&tipo=N"
+        }
+      ],
+      "skills_in_ads": [
+        {
+          "skill": "CME_STOCK",
+          "label": "Estoque e instrumentais",
+          "job_count": 3,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 3,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12843473",
+            "12398561",
+            "12847154"
+          ]
+        },
+        {
+          "skill": "LID",
+          "label": "Liderança e supervisão",
+          "job_count": 3,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 3,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12843473",
+            "12398561",
+            "12847154"
+          ]
+        },
+        {
+          "skill": "CME_PROC",
+          "label": "Processamento e esterilização",
+          "job_count": 2,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 2,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12398561",
+            "12847154"
+          ]
+        },
+        {
+          "skill": "CME_TRACE",
+          "label": "Rastreabilidade",
+          "job_count": 2,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 2,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12398561",
+            "12847154"
+          ]
+        },
+        {
+          "skill": "SAFE",
+          "label": "Protocolos e segurança",
+          "job_count": 2,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 2,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12843473",
+            "12398561"
+          ]
+        },
+        {
+          "skill": "CC_CHECK",
+          "label": "Checklist cirurgia segura",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12847154"
+          ]
+        },
+        {
+          "skill": "CME_MON",
+          "label": "Monitoramento físico, químico e biológico",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12847154"
+          ]
+        },
+        {
+          "skill": "DIGITAL",
+          "label": "Sistemas e prontuário eletrônico",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 1,
+          "responsibilities": 0,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12843473"
+          ]
+        },
+        {
+          "skill": "EDU",
+          "label": "Educação e treinamentos",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12398561"
+          ]
+        },
+        {
+          "skill": "KPI",
+          "label": "Indicadores e gestão de qualidade",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12398561"
+          ]
+        },
+        {
+          "skill": "PE",
+          "label": "Processo de Enfermagem/SAE",
+          "job_count": 1,
+          "required": 1,
+          "preferred": 0,
+          "responsibilities": 0,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12843473"
+          ]
+        },
+        {
+          "skill": "RISK",
+          "label": "Gestão de riscos",
+          "job_count": 1,
+          "required": 1,
+          "preferred": 0,
+          "responsibilities": 0,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12843473"
+          ]
+        }
+      ],
+      "gap_interpretation": "TITLE_ONLY_CURRICULAR_MATCH_CANNOT_CONFIRM_SPECIFIC_COMPETENCIES",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-09",
+      "cofen_area": "I",
+      "cofen_edition": 9,
+      "official_annex_title": "Enfermagem em Centro Cirúrgico",
+      "n_sample_ads": 2,
+      "sampled_role_families": [
+        "CENTRO_CIRURGICO"
+      ],
+      "job_ids": [
+        "12722205",
+        "12398934"
+      ],
+      "course_id_candidates": [
+        "PG-EIN-CC-CME",
+        "PG-EIN-ROBOT",
+        "PG-SIRIO-CC-CME",
+        "PG-SANTA-CC",
+        "PG-PUCPR-PERIOP",
+        "PG-MOINHOS-CC",
+        "PG-PUCPR-CC-RPA-CME-LON",
+        "PG-PUCPR-GESTAO-PERIOP-CME"
+      ],
+      "broad_curricular_title_matches": [
+        {
+          "id": "W7-054-COFEN-PRIO-USP-APOLO-NEPE-CC-CME-061",
+          "kind": "BROADER_TITLE_THEMATIC_CANDIDATE_NOT_SKILL_SPECIFIC",
+          "institution": "USP-APOLO",
+          "title": "Coordenação de atividades de enfermagem de Centro Cirúrgico e CME",
+          "url": "https://uspdigital.usp.br/apolo/apoObterAtividade?cod_oferecimentoatv=133376"
+        }
+      ],
+      "skills_in_ads": [
+        {
+          "skill": "CC_PERIO",
+          "label": "Cuidado perioperatório",
+          "job_count": 2,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 2,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12722205",
+            "12398934"
+          ]
+        },
+        {
+          "skill": "LID",
+          "label": "Liderança e supervisão",
+          "job_count": 2,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 2,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12722205",
+            "12398934"
+          ]
+        },
+        {
+          "skill": "SAFE",
+          "label": "Protocolos e segurança",
+          "job_count": 2,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 2,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12722205",
+            "12398934"
+          ]
+        },
+        {
+          "skill": "CC_RES",
+          "label": "Preparo e organização da sala",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12398934"
+          ]
+        },
+        {
+          "skill": "DOC",
+          "label": "Registros e continuidade",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12722205"
+          ]
+        },
+        {
+          "skill": "PE",
+          "label": "Processo de Enfermagem/SAE",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12722205"
+          ]
+        },
+        {
+          "skill": "URG_EMERG",
+          "label": "Urgências e emergências",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12722205"
+          ]
+        }
+      ],
+      "gap_interpretation": "TITLE_ONLY_CURRICULAR_MATCH_CANNOT_CONFIRM_SPECIFIC_COMPETENCIES",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-10",
+      "cofen_area": "I",
+      "cofen_edition": 10,
+      "official_annex_title": "Enfermagem em Cuidados Paliativos",
+      "n_sample_ads": 2,
+      "sampled_role_families": [
+        "CUIDADOS_PALIATIVOS"
+      ],
+      "job_ids": [
+        "12611389",
+        "12855633"
+      ],
+      "course_id_candidates": [
+        "PG-SIRIO-ONCO",
+        "PG-PUCPR-ONCO-MULTI",
+        "PG-PUCPR-PALL",
+        "PG-PUCMG-ONCO-PAL",
+        "PG-HAOC-PALL",
+        "PG-HCPA-PALL-ONCO"
+      ],
+      "broad_curricular_title_matches": [
+        {
+          "id": "W7-054-COFEN-PRIO-SIRIO-BACH-2027-095",
+          "kind": "BROADER_TITLE_THEMATIC_CANDIDATE_NOT_SKILL_SPECIFIC",
+          "institution": "SIRIO",
+          "title": "Enfermagem em Cuidados Paliativos",
+          "url": "https://www.faculdadesiriolibanes.org.br/fsl/enfermagem"
+        },
+        {
+          "id": "W7-054-COFEN-PRIO-SIRIO-ONCO-DIGITAL-114",
+          "kind": "BROADER_TITLE_THEMATIC_CANDIDATE_NOT_SKILL_SPECIFIC",
+          "institution": "SIRIO",
+          "title": "Cuidados paliativos e terminalidade",
+          "url": "https://digital.faculdadesiriolibanes.org.br/curso/profissionais/enfermagem-em-oncologia"
+        }
+      ],
+      "skills_in_ads": [
+        {
+          "skill": "COMM",
+          "label": "Comunicação e equipe multiprofissional",
+          "job_count": 2,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 2,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12611389",
+            "12855633"
+          ]
+        },
+        {
+          "skill": "DOC",
+          "label": "Registros e continuidade",
+          "job_count": 2,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 2,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12611389",
+            "12855633"
+          ]
+        },
+        {
+          "skill": "PALL_SYMP",
+          "label": "Conforto/sintomas",
+          "job_count": 2,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 2,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12611389",
+            "12855633"
+          ]
+        },
+        {
+          "skill": "EDU",
+          "label": "Educação e treinamentos",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12855633"
+          ]
+        },
+        {
+          "skill": "PALL_COMM",
+          "label": "Comunicação acolhedora com família",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 1,
+          "job_ids": [
+            "12611389"
+          ]
+        },
+        {
+          "skill": "SAFE",
+          "label": "Protocolos e segurança",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12611389"
+          ]
+        }
+      ],
+      "gap_interpretation": "TITLE_ONLY_CURRICULAR_MATCH_CANNOT_CONFIRM_SPECIFIC_COMPETENCIES",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-11",
+      "cofen_area": "I",
+      "cofen_edition": 11,
+      "official_annex_title": "Enfermagem Dermatológica",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-12",
+      "cofen_area": "I",
+      "cofen_edition": 12,
+      "official_annex_title": "Enfermagem em Diagnóstico por Imagens",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [
+        "PG-EIN-DIAG"
+      ],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-13",
+      "cofen_area": "I",
+      "cofen_edition": 13,
+      "official_annex_title": "Enfermagem em Doenças Infecciosas e parasitárias",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-14",
+      "cofen_area": "I",
+      "cofen_edition": 14,
+      "official_annex_title": "Enfermagem em Endocrinologia",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-15",
+      "cofen_area": "I",
+      "cofen_edition": 15,
+      "official_annex_title": "Enfermagem em Estética",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-16",
+      "cofen_area": "I",
+      "cofen_edition": 16,
+      "official_annex_title": "Enfermagem em Estomaterapia",
+      "n_sample_ads": 1,
+      "sampled_role_families": [
+        "ESTOMATERAPIA"
+      ],
+      "job_ids": [
+        "12823761"
+      ],
+      "course_id_candidates": [
+        "PG-EIN-ESTOMA",
+        "PG-SANTA-ESTOMA",
+        "PG-PUCPR-ESTOMA",
+        "PG-IDOR-ESTOMA"
+      ],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [
+        {
+          "skill": "CME_STOCK",
+          "label": "Estoque e instrumentais",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12823761"
+          ]
+        },
+        {
+          "skill": "LID",
+          "label": "Liderança e supervisão",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12823761"
+          ]
+        },
+        {
+          "skill": "PE",
+          "label": "Processo de Enfermagem/SAE",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12823761"
+          ]
+        },
+        {
+          "skill": "STOMA_WOUND",
+          "label": "Lesões de pele/estomias",
+          "job_count": 1,
+          "required": 1,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12823761"
+          ]
+        }
+      ],
+      "gap_interpretation": "NO_BROAD_TITLE_MATCH_IN_174_METADATA_ROWS_NOT_PROOF_OF_CURRICULAR_ABSENCE",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-17",
+      "cofen_area": "I",
+      "cofen_edition": 17,
+      "official_annex_title": "Enfermagem em Farmacologia",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-18",
+      "cofen_area": "I",
+      "cofen_edition": 18,
+      "official_annex_title": "Enfermagem Forense",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [
+        "PG-SANTA-FORENSIC"
+      ],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-19",
+      "cofen_area": "I",
+      "cofen_edition": 19,
+      "official_annex_title": "Enfermagem em Genética e Genômica",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-20",
+      "cofen_area": "I",
+      "cofen_edition": 20,
+      "official_annex_title": "Enfermagem em Hematologia",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [
+        "PG-MOINHOS-ONCO",
+        "PG-IDOR-TCTH",
+        "PG-HCPA-ONCOHEM",
+        "PG-ACC-INF-ONCOHEM"
+      ],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-21",
+      "cofen_area": "I",
+      "cofen_edition": 21,
+      "official_annex_title": "Enfermagem em Hemoterapia",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [
+        "PG-ACC-HEMOTHERAPY"
+      ],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-22",
+      "cofen_area": "I",
+      "cofen_edition": 22,
+      "official_annex_title": "Enfermagem Hiperbárica",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-23",
+      "cofen_area": "I",
+      "cofen_edition": 23,
+      "official_annex_title": "Enfermagem no Manejo da Dor",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-24",
+      "cofen_area": "I",
+      "cofen_edition": 24,
+      "official_annex_title": "Enfermagem em Nefrologia",
+      "n_sample_ads": 3,
+      "sampled_role_families": [
+        "NEFROLOGIA"
+      ],
+      "job_ids": [
+        "12502783",
+        "12823583",
+        "12396144"
+      ],
+      "course_id_candidates": [
+        "PG-EIN-NEFRO",
+        "PG-SANTA-NEFRO",
+        "PG-HCPA-RENAL"
+      ],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [
+        {
+          "skill": "NEPH_DIAL",
+          "label": "Hemodiálise",
+          "job_count": 3,
+          "required": 2,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12502783",
+            "12823583",
+            "12396144"
+          ]
+        },
+        {
+          "skill": "LID",
+          "label": "Liderança e supervisão",
+          "job_count": 2,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 2,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12823583",
+            "12396144"
+          ]
+        },
+        {
+          "skill": "NEPH_EQUIP",
+          "label": "Equipamentos/parametrização",
+          "job_count": 2,
+          "required": 1,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12823583",
+            "12396144"
+          ]
+        },
+        {
+          "skill": "DOC",
+          "label": "Registros e continuidade",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12396144"
+          ]
+        },
+        {
+          "skill": "EDU",
+          "label": "Educação e treinamentos",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12823583"
+          ]
+        },
+        {
+          "skill": "KPI",
+          "label": "Indicadores e gestão de qualidade",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12823583"
+          ]
+        },
+        {
+          "skill": "NEPH_INTER",
+          "label": "Intercorrências dialíticas",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12823583"
+          ]
+        },
+        {
+          "skill": "PE",
+          "label": "Processo de Enfermagem/SAE",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12502783"
+          ]
+        },
+        {
+          "skill": "RISK",
+          "label": "Gestão de riscos",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12823583"
+          ]
+        },
+        {
+          "skill": "SAFE",
+          "label": "Protocolos e segurança",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12502783"
+          ]
+        }
+      ],
+      "gap_interpretation": "NO_BROAD_TITLE_MATCH_IN_174_METADATA_ROWS_NOT_PROOF_OF_CURRICULAR_ABSENCE",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-25",
+      "cofen_area": "I",
+      "cofen_edition": 25,
+      "official_annex_title": "Enfermagem em Neurologia e Neurocirurgia",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-26",
+      "cofen_area": "I",
+      "cofen_edition": 26,
+      "official_annex_title": "Enfermagem Offshore",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-27",
+      "cofen_area": "I",
+      "cofen_edition": 27,
+      "official_annex_title": "Enfermagem em Oftalmologia",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [
+        "PG-SANTA-OPHTH"
+      ],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-28",
+      "cofen_area": "I",
+      "cofen_edition": 28,
+      "official_annex_title": "Enfermagem em Oncologia",
+      "n_sample_ads": 3,
+      "sampled_role_families": [
+        "ONCOLOGIA"
+      ],
+      "job_ids": [
+        "11410315",
+        "12517624",
+        "10784803"
+      ],
+      "course_id_candidates": [
+        "PG-SIRIO-ONCO",
+        "PG-SANTA-ONCO",
+        "PG-PUCPR-ONCO",
+        "PG-PUCPR-ONCO-MULTI",
+        "PG-PUCMG-ONCO-PAL",
+        "PG-MOINHOS-ONCO",
+        "PG-MOINHOS-RES-ONCO",
+        "PG-HAOC-ONCO",
+        "PG-IDOR-ONCO-SP",
+        "PG-IDOR-ONCO-RJ",
+        "PG-HCPA-PALL-ONCO",
+        "PG-HCPA-ONCOHEM",
+        "PG-ACC-ONCO-NAV",
+        "PG-ACC-CARDIOONCO",
+        "PG-ACC-INF-ONCOHEM"
+      ],
+      "broad_curricular_title_matches": [
+        {
+          "id": "W7-054-COFEN-PRIO-SIRIO-ONCO-DIGITAL-104",
+          "kind": "BROADER_TITLE_THEMATIC_CANDIDATE_NOT_SKILL_SPECIFIC",
+          "institution": "SIRIO",
+          "title": "Métodos diagnósticos em oncologia",
+          "url": "https://digital.faculdadesiriolibanes.org.br/curso/profissionais/enfermagem-em-oncologia"
+        },
+        {
+          "id": "W7-054-COFEN-PRIO-SIRIO-ONCO-DIGITAL-105",
+          "kind": "BROADER_TITLE_THEMATIC_CANDIDATE_NOT_SKILL_SPECIFIC",
+          "institution": "SIRIO",
+          "title": "Modalidades de tratamento oncológico e atuação da enfermagem",
+          "url": "https://digital.faculdadesiriolibanes.org.br/curso/profissionais/enfermagem-em-oncologia"
+        },
+        {
+          "id": "W7-054-COFEN-PRIO-SIRIO-ONCO-DIGITAL-108",
+          "kind": "BROADER_TITLE_THEMATIC_CANDIDATE_NOT_SKILL_SPECIFIC",
+          "institution": "SIRIO",
+          "title": "Processo e sistematização de enfermagem em oncologia",
+          "url": "https://digital.faculdadesiriolibanes.org.br/curso/profissionais/enfermagem-em-oncologia"
+        },
+        {
+          "id": "W7-054-COFEN-PRIO-SIRIO-ONCO-DIGITAL-109",
+          "kind": "BROADER_TITLE_THEMATIC_CANDIDATE_NOT_SKILL_SPECIFIC",
+          "institution": "SIRIO",
+          "title": "Tecnologias e inovação aplicadas à enfermagem oncológica",
+          "url": "https://digital.faculdadesiriolibanes.org.br/curso/profissionais/enfermagem-em-oncologia"
+        },
+        {
+          "id": "W7-054-COFEN-PRIO-SIRIO-ONCO-DIGITAL-111",
+          "kind": "BROADER_TITLE_THEMATIC_CANDIDATE_NOT_SKILL_SPECIFIC",
+          "institution": "SIRIO",
+          "title": "Boas práticas para administração de antineoplásicos",
+          "url": "https://digital.faculdadesiriolibanes.org.br/curso/profissionais/enfermagem-em-oncologia"
+        },
+        {
+          "id": "W7-054-COFEN-PRIO-SIRIO-ONCO-DIGITAL-112",
+          "kind": "BROADER_TITLE_THEMATIC_CANDIDATE_NOT_SKILL_SPECIFIC",
+          "institution": "SIRIO",
+          "title": "Oncologia pediátrica",
+          "url": "https://digital.faculdadesiriolibanes.org.br/curso/profissionais/enfermagem-em-oncologia"
+        },
+        {
+          "id": "W7-054-COFEN-PRIO-SIRIO-ONCO-DIGITAL-117",
+          "kind": "BROADER_TITLE_THEMATIC_CANDIDATE_NOT_SKILL_SPECIFIC",
+          "institution": "SIRIO",
+          "title": "Comunicação e aspectos psicossociais em oncologia",
+          "url": "https://digital.faculdadesiriolibanes.org.br/curso/profissionais/enfermagem-em-oncologia"
+        }
+      ],
+      "skills_in_ads": [
+        {
+          "skill": "ONCO_CARE",
+          "label": "Cuidado ao paciente oncológico",
+          "job_count": 3,
+          "required": 1,
+          "preferred": 0,
+          "responsibilities": 2,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "11410315",
+            "12517624",
+            "10784803"
+          ]
+        },
+        {
+          "skill": "DOC",
+          "label": "Registros e continuidade",
+          "job_count": 2,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 2,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "11410315",
+            "12517624"
+          ]
+        },
+        {
+          "skill": "KPI",
+          "label": "Indicadores e gestão de qualidade",
+          "job_count": 2,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 2,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "11410315",
+            "12517624"
+          ]
+        },
+        {
+          "skill": "ONCO_ANT",
+          "label": "Terapias antineoplásicas",
+          "job_count": 2,
+          "required": 1,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "11410315",
+            "12517624"
+          ]
+        },
+        {
+          "skill": "SAFE",
+          "label": "Protocolos e segurança",
+          "job_count": 2,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 2,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "11410315",
+            "10784803"
+          ]
+        },
+        {
+          "skill": "COMM",
+          "label": "Comunicação e equipe multiprofissional",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 1,
+          "job_ids": [
+            "11410315"
+          ]
+        },
+        {
+          "skill": "DIGITAL",
+          "label": "Sistemas e prontuário eletrônico",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12517624"
+          ]
+        },
+        {
+          "skill": "LID",
+          "label": "Liderança e supervisão",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "11410315"
+          ]
+        },
+        {
+          "skill": "ONCO_ACCESS",
+          "label": "Infusão e acesso vascular",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12517624"
+          ]
+        },
+        {
+          "skill": "ONCO_INT",
+          "label": "Intercorrências oncológicas",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "11410315"
+          ]
+        }
+      ],
+      "gap_interpretation": "TITLE_ONLY_CURRICULAR_MATCH_CANNOT_CONFIRM_SPECIFIC_COMPETENCIES",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-29",
+      "cofen_area": "I",
+      "cofen_edition": 29,
+      "official_annex_title": "Enfermagem em Otorrinolaringologia",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-30",
+      "cofen_area": "I",
+      "cofen_edition": 30,
+      "official_annex_title": "Enfermagem em Práticas Integrativas e Complementares",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-31",
+      "cofen_area": "I",
+      "cofen_edition": 31,
+      "official_annex_title": "Enfermagem em Prevenção e Controle de Infecção hospitalar",
+      "n_sample_ads": 2,
+      "sampled_role_families": [
+        "CONTROLE_INFECCAO"
+      ],
+      "job_ids": [
+        "12632101",
+        "12568750"
+      ],
+      "course_id_candidates": [
+        "PG-HAOC-IRAS",
+        "PG-HCPA-IRAS",
+        "PG-IFF-IRAS",
+        "PG-ACC-INF-ONCOHEM"
+      ],
+      "broad_curricular_title_matches": [
+        {
+          "id": "W7-054-COFEN-PRIO-USP-EE-BACH-2027-010",
+          "kind": "BROADER_TITLE_THEMATIC_CANDIDATE_NOT_SKILL_SPECIFIC",
+          "institution": "USP-EE",
+          "title": "Microbiologia Básica",
+          "url": "https://uspdigital.usp.br/jupiterweb/listarGradeCurricular?codcg=7&codcur=7012&codhab=0&tipo=N"
+        },
+        {
+          "id": "W7-054-COFEN-PRIO-USP-EERP-BACH-2027-045",
+          "kind": "BROADER_TITLE_THEMATIC_CANDIDATE_NOT_SKILL_SPECIFIC",
+          "institution": "USP-EERP",
+          "title": "Microbiologia",
+          "url": "https://uspdigital.usp.br/jupiterweb/listarGradeCurricular?codcg=22&codcur=22101&codhab=104&tipo=N"
+        },
+        {
+          "id": "UFCSPA-2023-T3-02",
+          "kind": "BROADER_TITLE_THEMATIC_CANDIDATE_NOT_SKILL_SPECIFIC",
+          "institution": "UFCSPA",
+          "title": "Microbiologia",
+          "url": "https://ufcspa.edu.br/vida-academica/graduacao/cursos/enfermagem/matriz-curricular"
+        }
+      ],
+      "skills_in_ads": [
+        {
+          "skill": "CCIH_MICRO",
+          "label": "Microbiologia/resistência",
+          "job_count": 2,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 2,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12632101",
+            "12568750"
+          ]
+        },
+        {
+          "skill": "CCIH_PRE",
+          "label": "Precauções/controle de infecção",
+          "job_count": 2,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 2,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12632101",
+            "12568750"
+          ]
+        },
+        {
+          "skill": "EDU",
+          "label": "Educação e treinamentos",
+          "job_count": 2,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 2,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12632101",
+            "12568750"
+          ]
+        },
+        {
+          "skill": "KPI",
+          "label": "Indicadores e gestão de qualidade",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12632101"
+          ]
+        },
+        {
+          "skill": "RISK",
+          "label": "Gestão de riscos",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12568750"
+          ]
+        }
+      ],
+      "gap_interpretation": "TITLE_ONLY_CURRICULAR_MATCH_CANNOT_CONFIRM_SPECIFIC_COMPETENCIES",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-32",
+      "cofen_area": "I",
+      "cofen_edition": 32,
+      "official_annex_title": "Enfermagem em Saúde da Criança e Adolescente",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [
+        "PG-EIN-NEONATAL",
+        "PG-EIN-PEDNEO",
+        "PG-SIRIO-CHILD",
+        "PG-SANTA-PED-CRIT",
+        "PG-PUCPR-PEDIATRIA",
+        "PG-MOINHOS-MATERNAL",
+        "PG-HCPA-CHILD",
+        "PG-HCPA-WOMAN-CHILD",
+        "PG-IFF-MILK",
+        "PG-IFF-NEO",
+        "PG-IFF-PED"
+      ],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-33",
+      "cofen_area": "I",
+      "cofen_edition": 33,
+      "official_annex_title": "Enfermagem em Saúde Coletiva",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [
+        "PG-SANTA-COLLECTIVE",
+        "PG-FIOBSB-CAMPO"
+      ],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-34",
+      "cofen_area": "I",
+      "cofen_edition": 34,
+      "official_annex_title": "Enfermagem em Saúde da Mulher",
+      "n_sample_ads": 2,
+      "sampled_role_families": [
+        "OBSTETRICIA"
+      ],
+      "job_ids": [
+        "12739841",
+        "12789700"
+      ],
+      "course_id_candidates": [
+        "PG-SANTA-OBST-CRIT",
+        "PG-HCPA-WOMAN-CHILD",
+        "PG-HCPA-OBST",
+        "PG-IFF-OBST"
+      ],
+      "broad_curricular_title_matches": [
+        {
+          "id": "W7-054-COFEN-PRIO-USP-EE-BACH-2027-036",
+          "kind": "BROADER_TITLE_THEMATIC_CANDIDATE_NOT_SKILL_SPECIFIC",
+          "institution": "USP-EE",
+          "title": "Enfermagem na Saúde da Mulher, na Saúde Materna e Neonatal",
+          "url": "https://uspdigital.usp.br/jupiterweb/listarGradeCurricular?codcg=7&codcur=7012&codhab=0&tipo=N"
+        },
+        {
+          "id": "W7-054-COFEN-PRIO-SIRIO-BACH-2027-089",
+          "kind": "BROADER_TITLE_THEMATIC_CANDIDATE_NOT_SKILL_SPECIFIC",
+          "institution": "SIRIO",
+          "title": "Enfermagem na Saúde da Mulher",
+          "url": "https://www.faculdadesiriolibanes.org.br/fsl/enfermagem"
+        },
+        {
+          "id": "UFCSPA-2023-T6-04",
+          "kind": "BROADER_TITLE_THEMATIC_CANDIDATE_NOT_SKILL_SPECIFIC",
+          "institution": "UFCSPA",
+          "title": "Enfermagem na Saúde da Mulher I",
+          "url": "https://ufcspa.edu.br/vida-academica/graduacao/cursos/enfermagem/matriz-curricular"
+        },
+        {
+          "id": "UFCSPA-2023-T7-02",
+          "kind": "BROADER_TITLE_THEMATIC_CANDIDATE_NOT_SKILL_SPECIFIC",
+          "institution": "UFCSPA",
+          "title": "Enfermagem na Saúde da Mulher II",
+          "url": "https://ufcspa.edu.br/vida-academica/graduacao/cursos/enfermagem/matriz-curricular"
+        }
+      ],
+      "skills_in_ads": [
+        {
+          "skill": "COMM",
+          "label": "Comunicação e equipe multiprofissional",
+          "job_count": 2,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 2,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12739841",
+            "12789700"
+          ]
+        },
+        {
+          "skill": "LID",
+          "label": "Liderança e supervisão",
+          "job_count": 2,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 2,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12739841",
+            "12789700"
+          ]
+        },
+        {
+          "skill": "OBST_BIRTH",
+          "label": "Assistência ao parto",
+          "job_count": 2,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 2,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12739841",
+            "12789700"
+          ]
+        },
+        {
+          "skill": "OBST_POST",
+          "label": "Cuidado pós-parto e neonatal",
+          "job_count": 2,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 2,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12739841",
+            "12789700"
+          ]
+        },
+        {
+          "skill": "HUMAN",
+          "label": "Humanização e empatia",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 1,
+          "job_ids": [
+            "12739841"
+          ]
+        },
+        {
+          "skill": "OBST_FETAL",
+          "label": "Avaliação materno-fetal",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12739841"
+          ]
+        },
+        {
+          "skill": "PE",
+          "label": "Processo de Enfermagem/SAE",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12739841"
+          ]
+        },
+        {
+          "skill": "SAFE",
+          "label": "Protocolos e segurança",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12739841"
+          ]
+        }
+      ],
+      "gap_interpretation": "TITLE_ONLY_CURRICULAR_MATCH_CANNOT_CONFIRM_SPECIFIC_COMPETENCIES",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-35",
+      "cofen_area": "I",
+      "cofen_edition": 35,
+      "official_annex_title": "Enfermagem em Saúde do Adulto",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [
+        "PG-SIRIO-CLIN-SURG",
+        "PG-HAOC-CLINSURG",
+        "PG-HCPA-ADULT-ELDER",
+        "PG-HCPA-CLINSURG"
+      ],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-36",
+      "cofen_area": "I",
+      "cofen_edition": 36,
+      "official_annex_title": "Enfermagem em Saúde do Homem",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-37",
+      "cofen_area": "I",
+      "cofen_edition": 37,
+      "official_annex_title": "Enfermagem em Saúde do Idoso",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [
+        "PG-SANTA-GERONTO",
+        "PG-PUCPR-GERONTO",
+        "PG-HAOC-GERONTO",
+        "PG-HCPA-ADULT-ELDER"
+      ],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-38",
+      "cofen_area": "I",
+      "cofen_edition": 38,
+      "official_annex_title": "Enfermagem em Saúde Ocupacional",
+      "n_sample_ads": 3,
+      "sampled_role_families": [
+        "SAUDE_TRABALHADOR"
+      ],
+      "job_ids": [
+        "12657028",
+        "12722248",
+        "12759587"
+      ],
+      "course_id_candidates": [
+        "PG-SIRIO-WORKER",
+        "PG-PUCPR-WORK",
+        "PG-PUCMG-WORK"
+      ],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [
+        {
+          "skill": "OCC_PCMSO",
+          "label": "PCMSO/ASO",
+          "job_count": 3,
+          "required": 1,
+          "preferred": 0,
+          "responsibilities": 2,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12657028",
+            "12722248",
+            "12759587"
+          ]
+        },
+        {
+          "skill": "OCC_PROMO",
+          "label": "Prevenção/vacinação/campanhas",
+          "job_count": 3,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 3,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12657028",
+            "12722248",
+            "12759587"
+          ]
+        },
+        {
+          "skill": "EDU",
+          "label": "Educação e treinamentos",
+          "job_count": 2,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 2,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12657028",
+            "12722248"
+          ]
+        },
+        {
+          "skill": "OCC_ESOC",
+          "label": "eSocial/SOC/APData",
+          "job_count": 2,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 2,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12657028",
+            "12722248"
+          ]
+        },
+        {
+          "skill": "OCC_LEAVE",
+          "label": "Afastamentos/absenteísmo/CAT",
+          "job_count": 2,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 2,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12722248",
+            "12759587"
+          ]
+        },
+        {
+          "skill": "DIGITAL",
+          "label": "Sistemas e prontuário eletrônico",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12759587"
+          ]
+        },
+        {
+          "skill": "DOC",
+          "label": "Registros e continuidade",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12657028"
+          ]
+        },
+        {
+          "skill": "KPI",
+          "label": "Indicadores e gestão de qualidade",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12722248"
+          ]
+        },
+        {
+          "skill": "LID",
+          "label": "Liderança e supervisão",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12722248"
+          ]
+        },
+        {
+          "skill": "OCC_PGR",
+          "label": "PGR/LTCAT",
+          "job_count": 1,
+          "required": 1,
+          "preferred": 0,
+          "responsibilities": 0,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12657028"
+          ]
+        },
+        {
+          "skill": "URG_EMERG",
+          "label": "Urgências e emergências",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12722248"
+          ]
+        }
+      ],
+      "gap_interpretation": "NO_BROAD_TITLE_MATCH_IN_174_METADATA_ROWS_NOT_PROOF_OF_CURRICULAR_ABSENCE",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-39",
+      "cofen_area": "I",
+      "cofen_edition": 39,
+      "official_annex_title": "Enfermagem em Saúde Indígena",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-40",
+      "cofen_area": "I",
+      "cofen_edition": 40,
+      "official_annex_title": "Enfermagem em Saúde Mental",
+      "n_sample_ads": 2,
+      "sampled_role_families": [
+        "SAUDE_MENTAL"
+      ],
+      "job_ids": [
+        "12571435",
+        "12758988"
+      ],
+      "course_id_candidates": [
+        "PG-EIN-MENTAL-APS",
+        "PG-HCPA-MENTAL",
+        "PG-HCPA-REHAB-PSY",
+        "PG-IPQ-PSYCH"
+      ],
+      "broad_curricular_title_matches": [
+        {
+          "id": "W7-054-COFEN-PRIO-USP-EE-BACH-2027-035",
+          "kind": "BROADER_TITLE_THEMATIC_CANDIDATE_NOT_SKILL_SPECIFIC",
+          "institution": "USP-EE",
+          "title": "Enfermagem em Saúde Mental e Psiquiátrica",
+          "url": "https://uspdigital.usp.br/jupiterweb/listarGradeCurricular?codcg=7&codcur=7012&codhab=0&tipo=N"
+        },
+        {
+          "id": "W7-054-COFEN-PRIO-SIRIO-BACH-2027-098",
+          "kind": "BROADER_TITLE_THEMATIC_CANDIDATE_NOT_SKILL_SPECIFIC",
+          "institution": "SIRIO",
+          "title": "Enfermagem na Saúde Mental",
+          "url": "https://www.faculdadesiriolibanes.org.br/fsl/enfermagem"
+        },
+        {
+          "id": "UFCSPA-2023-T5-02",
+          "kind": "BROADER_TITLE_THEMATIC_CANDIDATE_NOT_SKILL_SPECIFIC",
+          "institution": "UFCSPA",
+          "title": "Enfermagem em Saúde Mental I",
+          "url": "https://ufcspa.edu.br/vida-academica/graduacao/cursos/enfermagem/matriz-curricular"
+        },
+        {
+          "id": "UFCSPA-2023-T6-02",
+          "kind": "BROADER_TITLE_THEMATIC_CANDIDATE_NOT_SKILL_SPECIFIC",
+          "institution": "UFCSPA",
+          "title": "Enfermagem em Saúde Mental II",
+          "url": "https://ufcspa.edu.br/vida-academica/graduacao/cursos/enfermagem/matriz-curricular"
+        }
+      ],
+      "skills_in_ads": [
+        {
+          "skill": "MENTAL_CARE",
+          "label": "Atenção psicossocial",
+          "job_count": 2,
+          "required": 1,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12571435",
+            "12758988"
+          ]
+        },
+        {
+          "skill": "COMM",
+          "label": "Comunicação e equipe multiprofissional",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12571435"
+          ]
+        },
+        {
+          "skill": "DOC",
+          "label": "Registros e continuidade",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12758988"
+          ]
+        },
+        {
+          "skill": "MENTAL_PTS",
+          "label": "Projeto terapêutico singular",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12571435"
+          ]
+        },
+        {
+          "skill": "MENTAL_RAPS",
+          "label": "RAPS/matriciamento",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12571435"
+          ]
+        },
+        {
+          "skill": "PE",
+          "label": "Processo de Enfermagem/SAE",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12571435"
+          ]
+        }
+      ],
+      "gap_interpretation": "TITLE_ONLY_CURRICULAR_MATCH_CANNOT_CONFIRM_SPECIFIC_COMPETENCIES",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-41",
+      "cofen_area": "I",
+      "cofen_edition": 41,
+      "official_annex_title": "Enfermagem em Sexologia Humana",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-42",
+      "cofen_area": "I",
+      "cofen_edition": 42,
+      "official_annex_title": "Enfermagem em Sistematização da Assistência da Enfermagem-SAE",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-43",
+      "cofen_area": "I",
+      "cofen_edition": 43,
+      "official_annex_title": "Enfermagem em Terapia Intensiva",
+      "n_sample_ads": 4,
+      "sampled_role_families": [
+        "UTI_ADULTO",
+        "UTI_NEONATAL_PEDIATRICA"
+      ],
+      "job_ids": [
+        "12608550",
+        "12757258",
+        "12163636",
+        "12525553"
+      ],
+      "course_id_candidates": [
+        "PG-EIN-ICU-SP",
+        "PG-EIN-ICU-EAD",
+        "PG-EIN-PEDNEO-ICU",
+        "PG-SIRIO-CRITICAL",
+        "PG-SANTA-ICU",
+        "PG-PUCPR-ICU",
+        "PG-PUCPR-PEDNEO",
+        "PG-PUCMG-ICU-UE",
+        "PG-PUCMG-ICU-UE-HYBRID",
+        "PG-PUCMG-NEOPED",
+        "PG-MOINHOS-ICU-UE",
+        "PG-HAOC-ICU",
+        "PG-IDOR-ICU",
+        "PG-HCPA-ADULT-CRIT"
+      ],
+      "broad_curricular_title_matches": [
+        {
+          "id": "W7-054-COFEN-PRIO-USP-EE-BACH-2027-032",
+          "kind": "BROADER_TITLE_THEMATIC_CANDIDATE_NOT_SKILL_SPECIFIC",
+          "institution": "USP-EE",
+          "title": "Enfermagem na Saúde do Adulto e do Idoso em Cuidados Críticos",
+          "url": "https://uspdigital.usp.br/jupiterweb/listarGradeCurricular?codcg=7&codcur=7012&codhab=0&tipo=N"
+        },
+        {
+          "id": "W7-054-COFEN-PRIO-USP-EE-BACH-2027-036",
+          "kind": "BROADER_TITLE_THEMATIC_CANDIDATE_NOT_SKILL_SPECIFIC",
+          "institution": "USP-EE",
+          "title": "Enfermagem na Saúde da Mulher, na Saúde Materna e Neonatal",
+          "url": "https://uspdigital.usp.br/jupiterweb/listarGradeCurricular?codcg=7&codcur=7012&codhab=0&tipo=N"
+        },
+        {
+          "id": "W7-054-COFEN-PRIO-SIRIO-BACH-2027-090",
+          "kind": "BROADER_TITLE_THEMATIC_CANDIDATE_NOT_SKILL_SPECIFIC",
+          "institution": "SIRIO",
+          "title": "Enfermagem na Saúde do Neonato",
+          "url": "https://www.faculdadesiriolibanes.org.br/fsl/enfermagem"
+        }
+      ],
+      "skills_in_ads": [
+        {
+          "skill": "DOC",
+          "label": "Registros e continuidade",
+          "job_count": 4,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 4,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12608550",
+            "12757258",
+            "12163636",
+            "12525553"
+          ]
+        },
+        {
+          "skill": "LID",
+          "label": "Liderança e supervisão",
+          "job_count": 4,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 4,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12608550",
+            "12757258",
+            "12163636",
+            "12525553"
+          ]
+        },
+        {
+          "skill": "NEO_CARE",
+          "label": "Cuidados intensivos neonatais",
+          "job_count": 3,
+          "required": 3,
+          "preferred": 0,
+          "responsibilities": 0,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12757258",
+            "12163636",
+            "12525553"
+          ]
+        },
+        {
+          "skill": "NEO_PICC",
+          "label": "PICC",
+          "job_count": 3,
+          "required": 3,
+          "preferred": 0,
+          "responsibilities": 0,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12757258",
+            "12163636",
+            "12525553"
+          ]
+        },
+        {
+          "skill": "PE",
+          "label": "Processo de Enfermagem/SAE",
+          "job_count": 3,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 3,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12608550",
+            "12757258",
+            "12163636"
+          ]
+        },
+        {
+          "skill": "UTI_VENT",
+          "label": "Ventilação mecânica e monitorização",
+          "job_count": 2,
+          "required": 1,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12608550",
+            "12757258"
+          ]
+        },
+        {
+          "skill": "NEO_RESUS",
+          "label": "Reanimação neonatal/PALS",
+          "job_count": 1,
+          "required": 1,
+          "preferred": 0,
+          "responsibilities": 0,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12757258"
+          ]
+        },
+        {
+          "skill": "UTI_COMPLEX",
+          "label": "Cuidados críticos/ECMO/hemodiálise",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12608550"
+          ]
+        },
+        {
+          "skill": "UTI_DET",
+          "label": "Deterioração clínica",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12608550"
+          ]
+        }
+      ],
+      "gap_interpretation": "TITLE_ONLY_CURRICULAR_MATCH_CANNOT_CONFIRM_SPECIFIC_COMPETENCIES",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-44",
+      "cofen_area": "I",
+      "cofen_edition": 44,
+      "official_annex_title": "Enfermagem em Terapia Nutricional e Nutrição Clínica",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-45",
+      "cofen_area": "I",
+      "cofen_edition": 45,
+      "official_annex_title": "Enfermagem em Traumato-ortopedia",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-46",
+      "cofen_area": "I",
+      "cofen_edition": 46,
+      "official_annex_title": "Enfermagem em Urgência e Emergência",
+      "n_sample_ads": 3,
+      "sampled_role_families": [
+        "URGENCIA_EMERGENCIA"
+      ],
+      "job_ids": [
+        "12795618",
+        "12836873",
+        "12858567"
+      ],
+      "course_id_candidates": [
+        "PG-EIN-UE-SP",
+        "PG-EIN-UE-EAD",
+        "PG-SIRIO-UE",
+        "PG-SANTA-UE",
+        "PG-PUCMG-ICU-UE",
+        "PG-PUCMG-ICU-UE-HYBRID",
+        "PG-PUCMG-NEOPED",
+        "PG-MOINHOS-ICU-UE",
+        "PG-HAOC-UE",
+        "PG-HCPA-ADULT-CRIT"
+      ],
+      "broad_curricular_title_matches": [
+        {
+          "id": "W7-054-COFEN-PRIO-SIRIO-BACH-2027-097",
+          "kind": "BROADER_TITLE_THEMATIC_CANDIDATE_NOT_SKILL_SPECIFIC",
+          "institution": "SIRIO",
+          "title": "Enfermagem em Urgências e Emergências",
+          "url": "https://www.faculdadesiriolibanes.org.br/fsl/enfermagem"
+        }
+      ],
+      "skills_in_ads": [
+        {
+          "skill": "PE",
+          "label": "Processo de Enfermagem/SAE",
+          "job_count": 3,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 3,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12795618",
+            "12836873",
+            "12858567"
+          ]
+        },
+        {
+          "skill": "DOC",
+          "label": "Registros e continuidade",
+          "job_count": 2,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 2,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12836873",
+            "12858567"
+          ]
+        },
+        {
+          "skill": "LID",
+          "label": "Liderança e supervisão",
+          "job_count": 2,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 2,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12836873",
+            "12858567"
+          ]
+        },
+        {
+          "skill": "SAFE",
+          "label": "Protocolos e segurança",
+          "job_count": 2,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 2,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12836873",
+            "12858567"
+          ]
+        },
+        {
+          "skill": "URG_EMERG",
+          "label": "Urgências e emergências",
+          "job_count": 2,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 2,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12795618",
+            "12836873"
+          ]
+        },
+        {
+          "skill": "URG_HANDOFF",
+          "label": "Passagem de plantão",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12836873"
+          ]
+        },
+        {
+          "skill": "URG_TRIAGE",
+          "label": "Classificação de risco/Manchester",
+          "job_count": 1,
+          "required": 1,
+          "preferred": 0,
+          "responsibilities": 0,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12795618"
+          ]
+        }
+      ],
+      "gap_interpretation": "TITLE_ONLY_CURRICULAR_MATCH_CANNOT_CONFIRM_SPECIFIC_COMPETENCIES",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-47",
+      "cofen_area": "I",
+      "cofen_edition": 47,
+      "official_annex_title": "Enfermagem em Urologia",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [
+        "PG-EIN-NEFRO"
+      ],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-48",
+      "cofen_area": "I",
+      "cofen_edition": 48,
+      "official_annex_title": "Enfermagem em Vigilância",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [
+        "PG-FIOBSB-VIG"
+      ],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-49",
+      "cofen_area": "I",
+      "cofen_edition": 49,
+      "official_annex_title": "Enfermagem Nuclear (Incluída pela Decisão Cofen nº 65/2021)",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-50",
+      "cofen_area": "I",
+      "cofen_edition": 50,
+      "official_annex_title": "Podiatria Clínica (Incluída pela Decisão Cofen nº 263/2023)",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-I-51",
+      "cofen_area": "I",
+      "cofen_edition": 51,
+      "official_annex_title": "Especialização em Reabilitação (Incluída pela Decisão Cofen nº 264/2023).",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-II-01",
+      "cofen_area": "II",
+      "cofen_edition": 1,
+      "official_annex_title": "Direito Sanitário",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-II-02",
+      "cofen_area": "II",
+      "cofen_edition": 2,
+      "official_annex_title": "Economia da Saúde",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-II-03",
+      "cofen_area": "II",
+      "cofen_edition": 3,
+      "official_annex_title": "Enfermagem em Auditoria",
+      "n_sample_ads": 3,
+      "sampled_role_families": [
+        "AUDITORIA_ENFERMAGEM"
+      ],
+      "job_ids": [
+        "12688162",
+        "12690261",
+        "11678425"
+      ],
+      "course_id_candidates": [
+        "PG-EIN-AUDIT"
+      ],
+      "broad_curricular_title_matches": [
+        {
+          "id": "W7-054-COFEN-PRIO-USP-EE-GER-SAUDE-2027-057",
+          "kind": "BROADER_TITLE_THEMATIC_CANDIDATE_NOT_SKILL_SPECIFIC",
+          "institution": "USP-EE",
+          "title": "Gerenciamento de custos, recursos e sustentabilidade em saúde e enfermagem",
+          "url": "https://www.ee.usp.br/especializacao-gerencia-saude/"
+        }
+      ],
+      "skills_in_ads": [
+        {
+          "skill": "AUD_BILL",
+          "label": "Glosas/contas e auditoria",
+          "job_count": 3,
+          "required": 1,
+          "preferred": 0,
+          "responsibilities": 2,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12688162",
+            "12690261",
+            "11678425"
+          ]
+        },
+        {
+          "skill": "AUD_OPME",
+          "label": "OPME",
+          "job_count": 3,
+          "required": 2,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12688162",
+            "12690261",
+            "11678425"
+          ]
+        },
+        {
+          "skill": "COMM",
+          "label": "Comunicação e equipe multiprofissional",
+          "job_count": 3,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 3,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12688162",
+            "12690261",
+            "11678425"
+          ]
+        },
+        {
+          "skill": "DOC",
+          "label": "Registros e continuidade",
+          "job_count": 3,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 3,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12688162",
+            "12690261",
+            "11678425"
+          ]
+        },
+        {
+          "skill": "KPI",
+          "label": "Indicadores e gestão de qualidade",
+          "job_count": 2,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 2,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12688162",
+            "12690261"
+          ]
+        },
+        {
+          "skill": "AUD_RULES",
+          "label": "ANS/conformidade regulatória",
+          "job_count": 1,
+          "required": 1,
+          "preferred": 0,
+          "responsibilities": 0,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12688162"
+          ]
+        },
+        {
+          "skill": "AUD_TUSS",
+          "label": "TUSS/CBHPM",
+          "job_count": 1,
+          "required": 1,
+          "preferred": 0,
+          "responsibilities": 0,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12690261"
+          ]
+        },
+        {
+          "skill": "CC_CHECK",
+          "label": "Checklist cirurgia segura",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "11678425"
+          ]
+        },
+        {
+          "skill": "CME_TRACE",
+          "label": "Rastreabilidade",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "11678425"
+          ]
+        }
+      ],
+      "gap_interpretation": "TITLE_ONLY_CURRICULAR_MATCH_CANNOT_CONFIRM_SPECIFIC_COMPETENCIES",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-II-04",
+      "cofen_area": "II",
+      "cofen_edition": 4,
+      "official_annex_title": "Enfermagem em Gerenciamento 1 Gestão",
+      "n_sample_ads": 1,
+      "sampled_role_families": [
+        "SEGURANCA_QUALIDADE_MULTIPROFISSIONAL"
+      ],
+      "job_ids": [
+        "12842743"
+      ],
+      "course_id_candidates": [
+        "PG-EIN-GESTAO",
+        "PG-SIRIO-MGMT",
+        "PG-SIRIO-WORKER",
+        "PG-SANTA-MGMT",
+        "PG-PUCPR-MGMT",
+        "PG-PUCPR-QUALITY",
+        "PG-HAOC-LEAD",
+        "PG-ACC-COMPLEX-MGMT",
+        "PG-PUCPR-GESTAO-PERIOP-CME"
+      ],
+      "broad_curricular_title_matches": [
+        {
+          "id": "W7-054-COFEN-PRIO-USP-EE-BACH-2027-019",
+          "kind": "BROADER_TITLE_THEMATIC_CANDIDATE_NOT_SKILL_SPECIFIC",
+          "institution": "USP-EE",
+          "title": "Enfermagem e Biossegurança",
+          "url": "https://uspdigital.usp.br/jupiterweb/listarGradeCurricular?codcg=7&codcur=7012&codhab=0&tipo=N"
+        },
+        {
+          "id": "W7-054-COFEN-PRIO-USP-EE-GER-SAUDE-2027-056",
+          "kind": "BROADER_TITLE_THEMATIC_CANDIDATE_NOT_SKILL_SPECIFIC",
+          "institution": "USP-EE",
+          "title": "Gestão da qualidade e segurança do paciente",
+          "url": "https://www.ee.usp.br/especializacao-gerencia-saude/"
+        },
+        {
+          "id": "W7-054-COFEN-PRIO-SIRIO-BACH-2027-087",
+          "kind": "BROADER_TITLE_THEMATIC_CANDIDATE_NOT_SKILL_SPECIFIC",
+          "institution": "SIRIO",
+          "title": "Qualidade do Cuidado em Saúde",
+          "url": "https://www.faculdadesiriolibanes.org.br/fsl/enfermagem"
+        },
+        {
+          "id": "W7-054-COFEN-PRIO-SIRIO-ONCO-DIGITAL-116",
+          "kind": "BROADER_TITLE_THEMATIC_CANDIDATE_NOT_SKILL_SPECIFIC",
+          "institution": "SIRIO",
+          "title": "Segurança do paciente",
+          "url": "https://digital.faculdadesiriolibanes.org.br/curso/profissionais/enfermagem-em-oncologia"
+        },
+        {
+          "id": "W7-054-COFEN-PRIO-SIRIO-ONCO-DIGITAL-119",
+          "kind": "BROADER_TITLE_THEMATIC_CANDIDATE_NOT_SKILL_SPECIFIC",
+          "institution": "SIRIO",
+          "title": "Gestão da qualidade em saúde",
+          "url": "https://digital.faculdadesiriolibanes.org.br/curso/profissionais/enfermagem-em-oncologia"
+        }
+      ],
+      "skills_in_ads": [
+        {
+          "skill": "COMM",
+          "label": "Comunicação e equipe multiprofissional",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 0,
+          "behavioral_explicit": 1,
+          "job_ids": [
+            "12842743"
+          ]
+        },
+        {
+          "skill": "EDU",
+          "label": "Educação e treinamentos",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12842743"
+          ]
+        },
+        {
+          "skill": "KPI",
+          "label": "Indicadores e gestão de qualidade",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12842743"
+          ]
+        },
+        {
+          "skill": "QUAL_INC",
+          "label": "Eventos adversos e investigação",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12842743"
+          ]
+        },
+        {
+          "skill": "QUAL_RISK",
+          "label": "Qualidade e risco assistencial",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12842743"
+          ]
+        },
+        {
+          "skill": "RISK",
+          "label": "Gestão de riscos",
+          "job_count": 1,
+          "required": 0,
+          "preferred": 0,
+          "responsibilities": 1,
+          "behavioral_explicit": 0,
+          "job_ids": [
+            "12842743"
+          ]
+        }
+      ],
+      "gap_interpretation": "TITLE_ONLY_CURRICULAR_MATCH_CANNOT_CONFIRM_SPECIFIC_COMPETENCIES",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-II-05",
+      "cofen_area": "II",
+      "cofen_edition": 5,
+      "official_annex_title": "Enfermagem em Informática em Saúde",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-II-06",
+      "cofen_area": "II",
+      "cofen_edition": 6,
+      "official_annex_title": "Políticas Públicas",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-III-01",
+      "cofen_area": "III",
+      "cofen_edition": 1,
+      "official_annex_title": "Bioética",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-III-02",
+      "cofen_area": "III",
+      "cofen_edition": 2,
+      "official_annex_title": "Educação em Enfermagem",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [
+        "PG-SANTA-TEACH",
+        "PG-HAOC-TEACH"
+      ],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-III-03",
+      "cofen_area": "III",
+      "cofen_edition": 3,
+      "official_annex_title": "Educação Permanente e Continuada em Saúde",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-III-04",
+      "cofen_area": "III",
+      "cofen_edition": 4,
+      "official_annex_title": "Enfermagem",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-III-05",
+      "cofen_area": "III",
+      "cofen_edition": 5,
+      "official_annex_title": "Enfermagem em Pesquisa Clínica",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [
+        "PG-IDOR-RESEARCH"
+      ],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-III-06",
+      "cofen_area": "III",
+      "cofen_edition": 6,
+      "official_annex_title": "Ética",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-III-07",
+      "cofen_area": "III",
+      "cofen_edition": 7,
+      "official_annex_title": "Bases Epistemológicas e Filosóficas da Enfermagem (Incluída pela Decisão Cofen nº 120/2021)",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    },
+    {
+      "cofen_specialty_id": "COFEN-581-III-08",
+      "cofen_area": "III",
+      "cofen_edition": 8,
+      "official_annex_title": "A História da Enfermagem (Incluída pela Decisão Cofen nº 21/2024).",
+      "n_sample_ads": 0,
+      "sampled_role_families": [],
+      "job_ids": [],
+      "course_id_candidates": [],
+      "broad_curricular_title_matches": [],
+      "skills_in_ads": [],
+      "gap_interpretation": "NO_JOB_AD_IN_SAMPLE_NOT_PROOF_OF_NO_DEMAND",
+      "licensed_syllabus_reproduction": false,
+      "clinical_skill_authorization": false,
+      "semantic_curriculum_match_approved": false
+    }
+  ],
+  "license_status": "JOB_POSTINGS_SUMMARIZED_BY_INDEPENDENT_SKILL_LABELS_ONLY",
+  "source_links": "JOB_DESCRIPTIONS_34_v0.5.7.jsonl",
+  "clinical_guidelines_needed_to_teach_procedures": true,
+  "cofen_professional_scope_supersedes_job_text": true,
+  "publication_allowed": false,
+  "qa": {
+    "passed": 15,
+    "failed": 0,
+    "checks": {
+      "cofen65": true,
+      "sample34": true,
+      "roles15": true,
+      "cofen_surveyed_14": true,
+      "remaining51": true,
+      "title_inputs174": true,
+      "programs114": true,
+      "no_auto_curriculum_mapping": true,
+      "no_claim_no_demand": true,
+      "all_skills_traceable": true,
+      "total_sample_roles34": true,
+      "specialty_split_icu": true,
+      "small_samples_flagged": true,
+      "crosswalk_not_clinical_guideline": true,
+      "no_ad_text_copied": true
+    }
+  }
+}

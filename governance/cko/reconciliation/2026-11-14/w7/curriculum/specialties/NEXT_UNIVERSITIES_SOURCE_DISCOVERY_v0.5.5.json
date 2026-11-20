@@ -1,0 +1,217 @@
+{
+  "release": "COFEN_W7_NEXT_UNIVERSITIES_v0.5.5",
+  "date": "2026-11-15",
+  "branch": "review/cko-w7-public-evidence-20261114",
+  "verified_sources_evidence": "PUBLIC_INSTITUTIONAL_PRIMARY_WEB_PAGES_AND_SEARCH_INDEX",
+  "records": [
+    {
+      "id": "COFEN-UNI-UNIFESP-MATRIX-ACTIVE-2026",
+      "institution": "Universidade Federal de São Paulo",
+      "abbr": "UNIFESP",
+      "campus": "Escola Paulista de Enfermagem, São Paulo",
+      "course": "Bacharelado em Enfermagem",
+      "type": "UNDERGRADUATE",
+      "url": "https://cursos.siiu.unifesp.br/graduacao/curso/matriz-curricular/eyJjdXJzb19pZF9jdXJzbyI6IjUiLCJjb2QiOiIzIn0%3D/detalhes",
+      "edition": "MATRIZ_000003_ATIVA_EM_2026",
+      "source_status": "OFFICIAL_INDEX_FULL_MATRIX_WITH_TERM_TABLES_DIRECT_WEB_FETCH_403",
+      "level": "DISCIPLINE_CODE_HOURS_TERM_TABLE_IN_SEARCH_INDEX",
+      "facts": [
+        "Curso EPE matrícula nº 5, matriz 000003 sinalizada como ativa",
+        "1º termo com códigos e cargas horárias de disciplinas; restante exige leitura direta/captura autenticada"
+      ],
+      "exact_course_link": true,
+      "contents_verified": false,
+      "cofen_specialty_match": "NOT_SPECIALIZATION_UNDERGRADUATE",
+      "licensing": "UNVERIFIED_FULL_TEXT_RIGHTS"
+    },
+    {
+      "id": "COFEN-UNI-UNIFESP-PPC-2023",
+      "institution": "Universidade Federal de São Paulo",
+      "abbr": "UNIFESP",
+      "campus": "Escola Paulista de Enfermagem, São Paulo",
+      "course": "PPC e matriz curricular 2023 do Bacharelado",
+      "type": "UNDERGRADUATE_SOURCE_COMPANION",
+      "url": "https://graduacao-epe.unifesp.br/sobre/ppc-e-matriz-curricular",
+      "edition": "PPC_AND_MATRIX_2023_LISTED_AS_CURRENT_IN_OFFICIAL_PAGE",
+      "source_status": "OFFICIAL_PAGE_OPENED_LINKS_PRIMARY_GOOGLE_DRIVE_DOCUMENTS",
+      "level": "PRIMARY_DOCUMENT_LINKS_NOT_YET_RETRIEVED_FULL",
+      "facts": [
+        "PPC em vigência desde 2023 segundo página da EPE",
+        "Matriz curricular 2023 vinculada na mesma página"
+      ],
+      "exact_course_link": true,
+      "contents_verified": false,
+      "cofen_specialty_match": "NOT_SPECIALIZATION_UNDERGRADUATE",
+      "licensing": "UNVERIFIED_FULL_TEXT_RIGHTS"
+    },
+    {
+      "id": "COFEN-UNI-UNICAMP-FENF-2026",
+      "institution": "Universidade Estadual de Campinas",
+      "abbr": "UNICAMP",
+      "campus": "Faculdade de Enfermagem, Campinas",
+      "course": "Catálogo de graduação Enfermagem 2026",
+      "type": "UNDERGRADUATE",
+      "url": "https://www.fenf.unicamp.br/graduacao/vida-academica/disciplinas/",
+      "edition": "CATALOGO_2026_LINKED",
+      "source_status": "OFFICIAL_PAGE_OPENED_CATALOG_2026_LINK",
+      "level": "CATALOG_REDIRECT_MUST_RESOLVE_CURRICULO_PLENO_BY_COHORT",
+      "facts": [
+        "A FEnf publica ligação para catálogo Unicamp de 2026",
+        "Currículo pleno da Unicamp depende da turma/ano de ingresso"
+      ],
+      "exact_course_link": false,
+      "contents_verified": false,
+      "cofen_specialty_match": "NOT_SPECIALIZATION_UNDERGRADUATE",
+      "licensing": "UNVERIFIED_FULL_TEXT_RIGHTS"
+    },
+    {
+      "id": "COFEN-UNI-UNICAMP-FENF-TERM-2026",
+      "institution": "Universidade Estadual de Campinas",
+      "abbr": "UNICAMP",
+      "campus": "Faculdade de Enfermagem, Campinas",
+      "course": "Caderno de horários de Enfermagem 2026/1 e 2026/2",
+      "type": "UNDERGRADUATE_TIMETABLE_NOT_FULL_MATRIX",
+      "url": "https://www.dac.unicamp.br/portal/caderno-de-horarios/2026/1/S/G/FENF",
+      "secondary_url": "https://www.dac.unicamp.br/portal/caderno-de-horarios/2026/2/S/G/FENF",
+      "edition": "2026_1_AND_2026_2",
+      "source_status": "OFFICIAL_PAGE_OPENED_TWO_SCHEDULES",
+      "level": "LISTED_CODE_AND_DISCIPLINE_PER_SEMESTER",
+      "facts": [
+        "Ofertas 2026/1 incluem EN470 Processo de Enfermagem, EN590 Administração em Enfermagem",
+        "Ofertas 2026/2 incluem EN214 Epidemiologia e Saúde, EN919 Toxicologia Clínica",
+        "Horários ofertados não substituem o currículo pleno da turma"
+      ],
+      "exact_course_link": true,
+      "contents_verified": true,
+      "cofen_specialty_match": "NOT_SPECIALIZATION_UNDERGRADUATE",
+      "licensing": "UNVERIFIED_FULL_TEXT_RIGHTS"
+    },
+    {
+      "id": "COFEN-UNI-UFMG-BACHELOR",
+      "institution": "Universidade Federal de Minas Gerais",
+      "abbr": "UFMG",
+      "campus": "Escola de Enfermagem, Belo Horizonte",
+      "course": "Bacharelado em Enfermagem — estrutura e percursos",
+      "type": "UNDERGRADUATE",
+      "url": "https://www.enf.ufmg.br/?page_id=8239",
+      "edition": "ACTIVE_COHORT_VERSION_NOT_IDENTIFIED",
+      "source_status": "OFFICIAL_COURSE_PAGE_OPENED",
+      "level": "COURSE_SCOPE_HOURS_PROGRESS_AND_PREREQUISITE_CONTEXT",
+      "facts": [
+        "Curso com 10 semestres padrão e 4.005h apresentados no portal da Escola",
+        "Estágios obrigatórios nos dois últimos períodos conforme apresentação institucional"
+      ],
+      "exact_course_link": true,
+      "contents_verified": true,
+      "cofen_specialty_match": "NOT_SPECIALIZATION_UNDERGRADUATE",
+      "licensing": "UNVERIFIED_FULL_TEXT_RIGHTS"
+    },
+    {
+      "id": "COFEN-UNI-UFMG-TEACHING-PLANS",
+      "institution": "Universidade Federal de Minas Gerais",
+      "abbr": "UFMG",
+      "campus": "Escola de Enfermagem, Belo Horizonte",
+      "course": "Versões curriculares e planos de ensino",
+      "type": "UNDERGRADUATE_SOURCE_COMPANION",
+      "url": "https://www.enf.ufmg.br/?page_id=2379",
+      "edition": "VERSIONS_BY_INSTITUTIONAL_CURRICULUM_UNCONFIRMED",
+      "source_status": "OFFICIAL_PAGE_OPENED_GUIDES_TO_VERSIONED_TEACHING_PLANS",
+      "level": "PLAN_BY_CURRICULAR_VERSION_LINKED_DOWNLOAD_PENDING",
+      "facts": [
+        "Planos de ensino organizados por versão curricular",
+        "Há instrução institucional para obter assinatura digital de planos de ensino"
+      ],
+      "exact_course_link": true,
+      "contents_verified": false,
+      "cofen_specialty_match": "NOT_SPECIALIZATION_UNDERGRADUATE",
+      "licensing": "UNVERIFIED_FULL_TEXT_RIGHTS"
+    },
+    {
+      "id": "COFEN-UNI-UFCSPA-MATRIX-2023",
+      "institution": "Universidade Federal de Ciências da Saúde de Porto Alegre",
+      "abbr": "UFCSPA",
+      "campus": "Porto Alegre",
+      "course": "Bacharelado em Enfermagem — matriz a partir de 2023",
+      "type": "UNDERGRADUATE",
+      "url": "https://ufcspa.edu.br/vida-academica/graduacao/cursos/enfermagem/matriz-curricular",
+      "edition": "MATRIX_FROM_2023_PAGE_UPDATED_2025-10-29",
+      "source_status": "OFFICIAL_PAGE_OPENED_FULL_TABLE",
+      "level": "FULL_10_SEMESTER_GRADE_WITH_CODES_CLOCK_HOURS_AND_TUTORIAL_FLAGS",
+      "facts": [
+        "Matriz a partir de 2023 apresenta dez semestres e 4597 horas totais",
+        "Tabela diferencia 920h de estágios e tutoria de horas não somadas ao total",
+        "Código ENF04004 aparece com rótulos distintos em semestres diferentes; requer reconciliação sem normalizar silenciosamente"
+      ],
+      "exact_course_link": true,
+      "contents_verified": true,
+      "cofen_specialty_match": "NOT_SPECIALIZATION_UNDERGRADUATE",
+      "licensing": "UNVERIFIED_FULL_TEXT_RIGHTS"
+    },
+    {
+      "id": "COFEN-UNI-UFRJ-EEAN-HIST",
+      "institution": "Universidade Federal do Rio de Janeiro",
+      "abbr": "UFRJ",
+      "campus": "Escola de Enfermagem Anna Nery, Rio de Janeiro",
+      "course": "Estrutura Curricular — texto legado",
+      "type": "HISTORICAL_UNDERGRADUATE_PROGRAM",
+      "url": "https://www.eean.ufrj.br/index.php/grupos-de-pesquisa/17-graduacao/87-estrutura-curricular",
+      "edition": "HISTORIC_1994_REFERENCES_NOT_PROVEN_CURRENT_2026",
+      "source_status": "OFFICIAL_PAGE_OPENED_HISTORICAL_PROGRAM_NARRATIVE",
+      "level": "HISTORIC_CYCLES_AND_CREDIT_HOURS_NOT_CURRENT_MATRIX",
+      "facts": [
+        "Página menciona currículo de 4.390 horas e referência à Portaria/Parecer 314/94",
+        "Esse texto não comprova grade vigente do curso em 2026"
+      ],
+      "exact_course_link": true,
+      "contents_verified": true,
+      "cofen_specialty_match": "NOT_SPECIALIZATION_UNDERGRADUATE",
+      "licensing": "UNVERIFIED_FULL_TEXT_RIGHTS"
+    },
+    {
+      "id": "COFEN-UNI-UFRGS-ENFERMAGEM-HOLD",
+      "institution": "Universidade Federal do Rio Grande do Sul",
+      "abbr": "UFRGS",
+      "campus": "Escola de Enfermagem, Porto Alegre",
+      "course": "Bacharelado Enfermagem — matriz a recuperar",
+      "type": "INSTITUTION_DISCOVERY_TARGET_ONLY",
+      "url": "https://www.ufrgs.br/eenf",
+      "edition": "UNKNOWN",
+      "source_status": "PRIMARY_CURRICULUM_NOT_RETRIEVED_DIRECT_SITE_OPEN_TIMED_OUT",
+      "level": "NO_COURSE_GRADE_VERIFIED",
+      "facts": [
+        "Instituição identificada como alvo prioritário",
+        "Não houve acesso confiável à grade primária em 2026 nesta rodada"
+      ],
+      "exact_course_link": false,
+      "contents_verified": false,
+      "cofen_specialty_match": "NOT_SPECIALIZATION_UNDERGRADUATE",
+      "licensing": "UNVERIFIED_FULL_TEXT_RIGHTS"
+    }
+  ],
+  "source_count": 9,
+  "institutions": 6,
+  "confirmed_curricular_sources": 8,
+  "pending_primary_grade_targets": 1,
+  "quality_checks": {
+    "checks": {
+      "nine_source_records": true,
+      "six_universities": true,
+      "eight_documented_records": true,
+      "one_hold": true,
+      "right_unverified": true,
+      "no_course_approval": true,
+      "none_as_specialization": true,
+      "historical_separated": true,
+      "unicamp_timetable_labeled": true,
+      "ufcspa_full_one": true,
+      "unifesp_active_index_not_claimed_downloaded": true,
+      "scope_across_four_corpus_different": true
+    },
+    "passed": 12,
+    "failed": 0
+  },
+  "reuse_rights": "NO_FULL_TEXT_REPUBLICATION_LICENSE_ESTABLISHED",
+  "course_specialty_admission": 0,
+  "source_pdf_bytes_sha256_verified": 0,
+  "publication_allowed": false
+}

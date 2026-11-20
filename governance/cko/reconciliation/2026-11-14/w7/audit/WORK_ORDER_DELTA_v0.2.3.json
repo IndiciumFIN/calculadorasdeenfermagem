@@ -1,0 +1,22 @@
+[
+  {
+    "work_order_id": "WO-CKO-W7-003",
+    "state": "PARTIAL_SOURCE_LOCATORS_VERIFIED",
+    "source_records": 14,
+    "source_binary_hashes_confirmed": 0,
+    "remaining_gate": "HOLD_PRIMARY_FRAGMENTS"
+  },
+  {
+    "work_order_id": "WO-CKO-W7-011",
+    "state": "RIGHTS_CONSTRAINT_DISCOVERED",
+    "anvisa_repository_license": "CC BY-NC-ND 4.0",
+    "remaining_gate": "HOLD_HUMAN_RIGHTS"
+  },
+  {
+    "work_order_id": "WO-CKO-W7-014",
+    "state": "NEW_FOLLOWUP",
+    "action": "Acquire immutable source bytes and current legal status; reproduce source/fragment hashes; rights review",
+    "owner_role": "NormativeAndRightsReviewer",
+    "publication_allowed": false
+  }
+]

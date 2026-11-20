@@ -1,0 +1,701 @@
+{
+  "release": "CKO-W7-v0.2.7",
+  "date": "2026-11-14",
+  "method": "Live GitHub branch metadata; selected main comparisons, selective code reading. Not full audit of all trees.",
+  "public_repo_inventories": [
+    {
+      "repo": "IndiciumFIN/calculadorasdeenfermagem",
+      "visibility": "public",
+      "count": 70,
+      "unique_head_shas": 69,
+      "duplicate_head_groups": [
+        [
+          "main",
+          "staging/cko-migracao-2026-10-23"
+        ]
+      ],
+      "branches": [
+        {
+          "name": "IndiciumFIN-patch-1",
+          "sha": "ccb21b7814211b80071dc0fd5f866aea7f285238",
+          "protected": false
+        },
+        {
+          "name": "audit/ce04-reconciliation-tasks-20261017",
+          "sha": "2a1250d2d5c8c159be2ede462306822c0cb70943",
+          "protected": false
+        },
+        {
+          "name": "audit/cko-crossnorms-branches-20261114",
+          "sha": "c98db053a273d5ee68d052b7f974c68a47ed8547",
+          "protected": false
+        },
+        {
+          "name": "audit/cko-g6-github-review-verification-20261114",
+          "sha": "cc9bbb493b11e413a50a25264a2230ba5b035c2e",
+          "protected": false
+        },
+        {
+          "name": "audit/p0-intake-dedup-gates-20261114",
+          "sha": "23ed1aa288f16e70694b51f36dc2df9993603b2e",
+          "protected": false
+        },
+        {
+          "name": "cursor/arquivos-drive-kernel-bd1a",
+          "sha": "d173b6dea0b48091b83f82655a4edf63776262ad",
+          "protected": false
+        },
+        {
+          "name": "cursor/arquivos-kernel-pol-ticas-4c40",
+          "sha": "ad69ee7b5ea266b56546c68e2f4a951f13133f4e",
+          "protected": false
+        },
+        {
+          "name": "cursor/arquivos-kernel-pol-ticas-5d44",
+          "sha": "33c267dbf0d14e6413c9cecd0dc454eac85f50fc",
+          "protected": false
+        },
+        {
+          "name": "cursor/arquivos-kernel-pol-ticas-6bf4",
+          "sha": "e6ad352c883209d42f7df34f672ad65b9d4e9009",
+          "protected": false
+        },
+        {
+          "name": "cursor/arquivos-kernel-pol-ticas-6e94",
+          "sha": "9b432f86dd5ba14556301503e9531c25668c327b",
+          "protected": false
+        },
+        {
+          "name": "cursor/arquivos-kernel-pol-ticas-6eb4",
+          "sha": "b94d7f4338f00a60a2a5a9995f2a7287b30c1382",
+          "protected": false
+        },
+        {
+          "name": "cursor/arquivos-kernel-pol-ticas-6ebf",
+          "sha": "4612a81473c3766f89219021f603ff26bafa9e56",
+          "protected": false
+        },
+        {
+          "name": "cursor/arquivos-kernel-pol-ticas-7f24",
+          "sha": "ecd84bf36eaca278cfe83de4fd2f6035f0d1f7f0",
+          "protected": false
+        },
+        {
+          "name": "cursor/arquivos-kernel-pol-ticas-9b80",
+          "sha": "c6ac2f97003ce14592d7354e03ed86b233938d42",
+          "protected": false
+        },
+        {
+          "name": "cursor/arquivos-kernel-pol-ticas-047a",
+          "sha": "33e1d0c87198a2b600b805860331f176b087c461",
+          "protected": false
+        },
+        {
+          "name": "cursor/arquivos-kernel-pol-ticas-510d",
+          "sha": "77821f1e2a2097a352047dcd6e647e80c408120e",
+          "protected": false
+        },
+        {
+          "name": "cursor/arquivos-kernel-pol-ticas-935e",
+          "sha": "864e45b6f803fa5af8f90b3518703f18f569597f",
+          "protected": false
+        },
+        {
+          "name": "cursor/arquivos-kernel-pol-ticas-2277",
+          "sha": "b8ad73613d6d3cd9162606e08edd6450b9df749e",
+          "protected": false
+        },
+        {
+          "name": "cursor/arquivos-kernel-pol-ticas-6190",
+          "sha": "30f22ec3cf6a2065391aba4bed679f5b4ae5cffb",
+          "protected": false
+        },
+        {
+          "name": "cursor/arquivos-kernel-pol-ticas-7314",
+          "sha": "494a1fc54659ad2fb400b7994603aa44f2e63758",
+          "protected": false
+        },
+        {
+          "name": "cursor/arquivos-kernel-pol-ticas-8061",
+          "sha": "ce23049f8c0d40a8dc0a1489a31ca3ffd3ec3b2e",
+          "protected": false
+        },
+        {
+          "name": "cursor/arquivos-kernel-pol-ticas-8968",
+          "sha": "065188b5f0efcb8a57d6fcb0d9831e9176894e05",
+          "protected": false
+        },
+        {
+          "name": "cursor/arquivos-kernel-pol-ticas-a8a8",
+          "sha": "e0d874f211be68cca1383872866cb848342df7b6",
+          "protected": false
+        },
+        {
+          "name": "cursor/arquivos-kernel-pol-ticas-a8c5",
+          "sha": "b06ce58dda387aaa6bfe59e0dec6c4f405b20878",
+          "protected": false
+        },
+        {
+          "name": "cursor/arquivos-kernel-pol-ticas-a061",
+          "sha": "a06cff3198188f18f5afe6b50b2a749cd2896a82",
+          "protected": false
+        },
+        {
+          "name": "cursor/arquivos-kernel-pol-ticas-aad4",
+          "sha": "add5c88cd3a73b6d2b78bad8a23a8ca0e6c087a7",
+          "protected": false
+        },
+        {
+          "name": "cursor/arquivos-kernel-pol-ticas-b772",
+          "sha": "cf458370c1503e91a0c3607c4b6441aa9f161757",
+          "protected": false
+        },
+        {
+          "name": "cursor/arquivos-kernel-pol-ticas-c8d7",
+          "sha": "d4a7a3c8fde5b2fb97bbd97a2c35dcb445f83674",
+          "protected": false
+        },
+        {
+          "name": "cursor/arquivos-kernel-pol-ticas-c8ed",
+          "sha": "7f4e0c34c0230f14e5cbee375c639439ce041cfd",
+          "protected": false
+        },
+        {
+          "name": "cursor/arquivos-kernel-pol-ticas-d5b0",
+          "sha": "53c9fc7b189a5851f289efb8e472bdb74310a8da",
+          "protected": false
+        },
+        {
+          "name": "cursor/arquivos-kernel-pol-ticas-d7f8",
+          "sha": "164c7174a0a2f8cdb17da2be5db861702023e6bc",
+          "protected": false
+        },
+        {
+          "name": "cursor/arquivos-kernel-pol-ticas-e3fe",
+          "sha": "2a3a13402e1659287ec8dd44746cdb2a1c34b582",
+          "protected": false
+        },
+        {
+          "name": "cursor/arquivos-kernel-pol-ticas-f5e4",
+          "sha": "fa6e5441da8bf242d520d5c413b4a26c0e7d5f08",
+          "protected": false
+        },
+        {
+          "name": "cursor/arquivos-pol-ticas-kernel-735c",
+          "sha": "53826bfee5550e415e7b170c106810fafef2edba",
+          "protected": false
+        },
+        {
+          "name": "cursor/atomiza-o-arquivos-drive-eca9",
+          "sha": "b2b0748799c8ad350028154fa34368cb965d01fa",
+          "protected": false
+        },
+        {
+          "name": "cursor/atomiza-o-arquivos-kernel-ebc1",
+          "sha": "f98902cb564ffb0c33ab75ab8eea30433a93f617",
+          "protected": false
+        },
+        {
+          "name": "cursor/bc-9d850a48-4546-4657-aa8a-75d3095ffdd8-91a5",
+          "sha": "93a7131a8a0ffdc9aaadc7be4b2ad4a75a0ee130",
+          "protected": false
+        },
+        {
+          "name": "cursor/drive-sa-key-refactor",
+          "sha": "750d094568b5ff7226c1dce57878aab3ad99a5d5",
+          "protected": false
+        },
+        {
+          "name": "cursor/fix-governance-gaps-ec54",
+          "sha": "b6d3b48f34c131c9f935084eae09dad953bd64e9",
+          "protected": false
+        },
+        {
+          "name": "cursor/wf-gdrive-sakey",
+          "sha": "4e3d4979e3da82c9fc7ff71beaf87fba73aa8702",
+          "protected": false
+        },
+        {
+          "name": "cursor/wf-v3",
+          "sha": "8056d08a35cfb7932933fa330d8c902e5a465710",
+          "protected": false
+        },
+        {
+          "name": "feat/ce-local-agent-assurance-20261019",
+          "sha": "ee4556b131c45a6898d00fb3a570914d8a83064d",
+          "protected": false
+        },
+        {
+          "name": "feat/cko-catalog-metamodel-automated-20261114",
+          "sha": "d0197788d2453066d738c48441a2ad7a0ad32f73",
+          "protected": false
+        },
+        {
+          "name": "feat/cko-m08-m09-corpus-atomic-20261114",
+          "sha": "d395f6e69e935570d5355ba930745bf8cd91f537",
+          "protected": false
+        },
+        {
+          "name": "feat/cko-parser-fhir-vitals-r4-20261114",
+          "sha": "2e732cfb10585fabf7928c7ac1f453feb32d8d3f",
+          "protected": false
+        },
+        {
+          "name": "feat/cko-parser-medlineplus-xml-20261114",
+          "sha": "ef8b6edafc8ab0ffaa650932919143035ead6e52",
+          "protected": false
+        },
+        {
+          "name": "feat/cko-parser-mesh-xml-20261114",
+          "sha": "cc3c307771522b070636bd6e702f6a0861774987",
+          "protected": false
+        },
+        {
+          "name": "fix/canonical-structural-cli-registry-20261114",
+          "sha": "14fdc8a30369001bf0e0a0d37c80ab7e43b6eb2e",
+          "protected": false
+        },
+        {
+          "name": "fix/ce05-kernel-ci-security-20261017",
+          "sha": "e1c9ace498b66ac831849ad1df51ee14e11e3efc",
+          "protected": false
+        },
+        {
+          "name": "fix/cko-ci-no-masked-checks-20261114",
+          "sha": "12d41a620eb5a62fed3d97f2edd3ced213986a7b",
+          "protected": false
+        },
+        {
+          "name": "fix/cko-wo-g6-preflight-20261114",
+          "sha": "c8760221930023faae2a4f0e730b208dcd9a5f0e",
+          "protected": false
+        },
+        {
+          "name": "fix/p0-cko-cofen-cor-safe-intake-20261114",
+          "sha": "f636ca88cd2f587866b4b350111b02ea6c374d78",
+          "protected": false
+        },
+        {
+          "name": "integrate/p0-cko-existing-source-parsers-20261114",
+          "sha": "a2b57abf244aeac42139c5f94d8cddff1575b8a6",
+          "protected": false
+        },
+        {
+          "name": "integration/canonical-main-20261017",
+          "sha": "c704c3cf9241cde7697acb860e598bd01bd58cf5",
+          "protected": false
+        },
+        {
+          "name": "integration/cko-p0-ci-g6-20261114",
+          "sha": "5589d7cf7dbdef8ea988d4acef44bd8c8fe0a1bf",
+          "protected": false
+        },
+        {
+          "name": "integration/cko-parsers-catalog-20261114",
+          "sha": "04b7cd9ef82cab32f2107a1b3ce762420fd50842",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "e0f62491b104f4a97c6025a6393cabc2e7ada30e",
+          "protected": true
+        },
+        {
+          "name": "migration/candidate-f08-20261017",
+          "sha": "be69c19fce79e4c30b42b12369935e4ca6a4584e",
+          "protected": false
+        },
+        {
+          "name": "migration/ce01-historical-evidence-b01-20261017",
+          "sha": "4206865dc5f07f3ef4b36f04c2572b7224f713c1",
+          "protected": false
+        },
+        {
+          "name": "migration/full-directory-20261017",
+          "sha": "1b1a268595c85fecd2dc02a7cc6b5f078b027b7b",
+          "protected": false
+        },
+        {
+          "name": "migration/pilot-policies-20261017",
+          "sha": "2fc555f854c64b9d44f778805fbfca7675bd3cce",
+          "protected": false
+        },
+        {
+          "name": "pmo/recovery-controlled-20261019",
+          "sha": "cbae3fead8bddaace32207a50949bcce4d88ecc0",
+          "protected": false
+        },
+        {
+          "name": "review/cko-w1-w2-editorial-20261114",
+          "sha": "cf0865add19879d1194c7f37e50cf411af82a035",
+          "protected": false
+        },
+        {
+          "name": "review/cko-w3-pe736-20261114",
+          "sha": "d18a3acb53e90fc460a8fa5ed173390f8d65612b",
+          "protected": false
+        },
+        {
+          "name": "review/cko-w4-reuso-especialidades-20261114",
+          "sha": "4378a7cdf78ccbc2493f7e229745518ca4ff1d92",
+          "protected": false
+        },
+        {
+          "name": "review/cko-w5-cme-independente-20261114",
+          "sha": "bb882bc69a9e62d58b2ee2ced8d5838ad4c45f83",
+          "protected": false
+        },
+        {
+          "name": "review/cko-w6-centro-cirurgico-srpa-20261114",
+          "sha": "a3b0a2aee7e9b4fbadb82968cf4b7402cf714ee7",
+          "protected": false
+        },
+        {
+          "name": "review/cko-w7-public-evidence-20261114",
+          "sha": "977e27269179f6ce2067501cd2ec70629036bd65",
+          "protected": false
+        },
+        {
+          "name": "staging/cko-migracao-2026-10-23",
+          "sha": "e0f62491b104f4a97c6025a6393cabc2e7ada30e",
+          "protected": false
+        },
+        {
+          "name": "staging/wo-kernel-normativos-cli-20261016",
+          "sha": "c54d416b7f4c8a465798ccbebad9973799dd07ab",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "repo": "IndiciumFIN/dev-chatgpt-workspace",
+      "visibility": "public",
+      "count": 57,
+      "unique_head_shas": 56,
+      "duplicate_head_groups": [
+        [
+          "archivamento",
+          "planning"
+        ]
+      ],
+      "branches": [
+        {
+          "name": "archivamento",
+          "sha": "87c537fea1825766b58d3a31d0328a69cbc77007",
+          "protected": false
+        },
+        {
+          "name": "audit/ce-wave1-evidence-20261101",
+          "sha": "e6fc8f0178e617845fb55384557cd0dcb1becbf0",
+          "protected": false
+        },
+        {
+          "name": "audit/cko-atomic-intake-schema-20261114",
+          "sha": "ee2c2cb5c66f6d7af143f22669aa38b8b17159f2",
+          "protected": false
+        },
+        {
+          "name": "audit-hardening-2026-10-24",
+          "sha": "9c9ca4640dedf705fe1c3cccca474af4f8d1a422",
+          "protected": false
+        },
+        {
+          "name": "backup/research-hub-complete-20261026",
+          "sha": "86ebd5a2d8791ea7c750994a7e833686829dc45c",
+          "protected": false
+        },
+        {
+          "name": "canonical/foundation-20261101",
+          "sha": "65486491dece96e107a1f3f5172a473d7421f14d",
+          "protected": false
+        },
+        {
+          "name": "canonical/local-20261101",
+          "sha": "8c0c4b6f9c049bb5bf13de260074b5020b08a07d",
+          "protected": false
+        },
+        {
+          "name": "canonical/supabase-skeleton-20261101",
+          "sha": "48188f56ca54795a22994cdbf3eda7b5e7453791",
+          "protected": false
+        },
+        {
+          "name": "cko/cardiologia-corpus-editorial-20261114",
+          "sha": "4d44d4a5f5bfe2f316089537174f13412141c241",
+          "protected": false
+        },
+        {
+          "name": "cko/evidence-index-rights-20261114",
+          "sha": "25c7675b2605d14f656a03a6b54f4f8849d1cc01",
+          "protected": false
+        },
+        {
+          "name": "cko/pmo-corpus-canonical-20261114",
+          "sha": "2452a4c1bea48990e538e975973fe7dcd1653c6b",
+          "protected": false
+        },
+        {
+          "name": "feat/career-youth-db-first-20261026",
+          "sha": "ad4c683890779eda3a096743b70cf6be2bfc4605",
+          "protected": false
+        },
+        {
+          "name": "feat/curiosidades-mem-87-20261026",
+          "sha": "4131831be71246d3c6e6ac61498310a9adb575a0",
+          "protected": false
+        },
+        {
+          "name": "feat/projection-unica-f0-suite-real",
+          "sha": "6d712dd47029286869f909a2014f42083f5db2a9",
+          "protected": false
+        },
+        {
+          "name": "feat/research-all-tools-candidate-20261101",
+          "sha": "3b813449ea26d018755310686c900b9a6257c312",
+          "protected": false
+        },
+        {
+          "name": "feat/research-hub-governed-20261026",
+          "sha": "01574c5bfbe366a6ede9c0aee6bf2e3a907d92a1",
+          "protected": false
+        },
+        {
+          "name": "feat/research-participation-layer-20261026",
+          "sha": "53f896fd6afcce66fc6d059b377024971e7a2c3f",
+          "protected": false
+        },
+        {
+          "name": "feat/research-supabase-bridge-20261101",
+          "sha": "9c37e6fb35faabd3f79b3587d5da6a90cdb847f5",
+          "protected": false
+        },
+        {
+          "name": "fix/ce-admin-e2e-hierarchy-20261101",
+          "sha": "4bc814577a21fd88eb33774e5bbfcf42fceea2e9",
+          "protected": false
+        },
+        {
+          "name": "fix/governed-activities-cli-20261026",
+          "sha": "95a416c1e4ac422e435baf7e95f6ce5c09989c99",
+          "protected": false
+        },
+        {
+          "name": "fix/ncos-generated-contract-sync-20261113",
+          "sha": "ace85778be5bdee038a896308b1785267b27179e",
+          "protected": false
+        },
+        {
+          "name": "fix/pendencias-camadas-20261101",
+          "sha": "949423ef555f40d5e6538b3d7bf2fa4b0c9051e3",
+          "protected": false
+        },
+        {
+          "name": "fix/shell-consolidation",
+          "sha": "c68e3009556f140ece43ac23cb1ea0ed49395560",
+          "protected": false
+        },
+        {
+          "name": "governance/normative-crossdomain-evaluation-20261108",
+          "sha": "de620c1ebed047af6ac5ad52325542f0a45a57ca",
+          "protected": false
+        },
+        {
+          "name": "grook_10_26",
+          "sha": "2eacacafd95c106e58a33372ee96bc6a6442439f",
+          "protected": false
+        },
+        {
+          "name": "idioma/consolidado-19",
+          "sha": "3dc979a795634eda9b097f2e69660f87ddd779e3",
+          "protected": false
+        },
+        {
+          "name": "idioma/de-v1",
+          "sha": "9a12fad8d32fc17f424d4425c0acfb11af3ef1d6",
+          "protected": false
+        },
+        {
+          "name": "idioma/pt-PT-v1",
+          "sha": "314199bc72f7be9928f120c85e14c2f644a28e9e",
+          "protected": false
+        },
+        {
+          "name": "implementation-governed-ecosystem",
+          "sha": "e16f0fb682dbf70adbca9987f2d0ac2adfd71149",
+          "protected": false
+        },
+        {
+          "name": "import/drive-cko-nurseos-20261026",
+          "sha": "cd851c4c0efeb8adf298af96851ad45e7685b3e1",
+          "protected": false
+        },
+        {
+          "name": "integration/structural-overlay-20261101",
+          "sha": "621f73b5abde2dbb65818645c00d4821cbd3d061",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "dacfaa6bc29fd213ffc4d63998b4dd669d10854b",
+          "protected": false
+        },
+        {
+          "name": "plan/ce-best-excellence-supabase-readonly-20261101",
+          "sha": "74b4a741b0075279c94d4fa96d9e9d682cbf5dcd",
+          "protected": false
+        },
+        {
+          "name": "plan/ce-reconciliacao-v6-20261101",
+          "sha": "70bc1181e7c9a572302d57b48384a26261248921",
+          "protected": false
+        },
+        {
+          "name": "plan/pmokernel-finalization-20261031",
+          "sha": "57242ec5e813f6e4d88ab803e6e5f2d29893ec3d",
+          "protected": false
+        },
+        {
+          "name": "planning",
+          "sha": "87c537fea1825766b58d3a31d0328a69cbc77007",
+          "protected": false
+        },
+        {
+          "name": "preview/central-comando-20261026",
+          "sha": "3f004049945ebaa50e4efee313092974b83a5bf2",
+          "protected": false
+        },
+        {
+          "name": "revert-26-plan/pmokernel-finalization-20261031",
+          "sha": "bfcb0333a6b15a9afb0e224bdd156b0c04523f2c",
+          "protected": false
+        },
+        {
+          "name": "review/grook-na-main",
+          "sha": "c4a6ee1f6f85d4c4f1b5438c906c2a627d744a8f",
+          "protected": false
+        },
+        {
+          "name": "simulados-enfermagem-db-canonico",
+          "sha": "415a02a854a871fb5e9f72dcc8c4646b2708f1eb",
+          "protected": false
+        },
+        {
+          "name": "staging/bibliotecas-corpus-20261026",
+          "sha": "d81736c77852d8953672d334afc32de279c96878",
+          "protected": false
+        },
+        {
+          "name": "viladocuidado",
+          "sha": "2a199f3943efa3e0def4dcd94a286076c16d33ba",
+          "protected": false
+        },
+        {
+          "name": "work/editorial-canonical-learning-20261026",
+          "sha": "38a33fcec02e5bc996a1f84164bf13799b2f81c7",
+          "protected": false
+        },
+        {
+          "name": "wutrib/audit-integral-20261108",
+          "sha": "cec464e5727d0df41f280bfe5c398a2ee0f51a7e",
+          "protected": false
+        },
+        {
+          "name": "wutrib/demo-persistence-v04-20261108",
+          "sha": "b7dfb188492c3158fe3f7197c982f95b1ddf2384",
+          "protected": false
+        },
+        {
+          "name": "wutrib/docs-governance-20261108",
+          "sha": "b8e711a0d90b906f821236ea971e45a2a54aaf31",
+          "protected": false
+        },
+        {
+          "name": "wutrib/expansion-analytics-plan-20261108",
+          "sha": "b2f953aa92cf068a39286271da93e2ff060cb0bd",
+          "protected": false
+        },
+        {
+          "name": "wutrib/expansion-spec-v02-20261108",
+          "sha": "7c8c3d17c490ceb257f382182f477fd07597f4e8",
+          "protected": false
+        },
+        {
+          "name": "wutrib/normative-universe-v11-supabase-first-20261108",
+          "sha": "59a525cb8628f52aaf8ee15b56471cbe5aa00423",
+          "protected": false
+        },
+        {
+          "name": "wutrib/pmo-v1-controller-20261108",
+          "sha": "5ce90d8bd3257971f89c42f03b3b6fa679b7bd84",
+          "protected": false
+        },
+        {
+          "name": "wutrib/v1-nfe-xml-ingestion-20261108",
+          "sha": "107cc73ca6e78e4d7ced00fdefbfdd598b0be7ef",
+          "protected": false
+        },
+        {
+          "name": "wutrib/v1-normative-benchmark-assurance-20261108",
+          "sha": "e14a2a0c59397cc0cf6205ef03753991218ba16b",
+          "protected": false
+        },
+        {
+          "name": "wutrib/v1-scope-freeze-candidate-20261108",
+          "sha": "056e2309242ae424cea11f91ac7785b34b2ed395",
+          "protected": false
+        },
+        {
+          "name": "wutrib/v1-vertical-slice-dev-20261108",
+          "sha": "adca7e7cf59ce2423d801c1da0f8f991a07338a0",
+          "protected": false
+        },
+        {
+          "name": "wutrib/validators-plan-20261108",
+          "sha": "25ff879ffd6c99ad516f859165ff21a5eb9b6c87",
+          "protected": false
+        },
+        {
+          "name": "wutrib/validators-strategy-v03-20261108",
+          "sha": "a9fadd1ef58db45f705039c3ae3505120918831a",
+          "protected": false
+        },
+        {
+          "name": "wutrib/web-pilot-20261108",
+          "sha": "86a34e7e5b491b283d89161206debc88103248d8",
+          "protected": false
+        }
+      ]
+    }
+  ],
+  "private_repo_summary": {
+    "branches": 1,
+    "repository_name_redacted": true,
+    "sha_redacted": true
+  },
+  "totals": {
+    "public": 127,
+    "private": 1,
+    "all": 128
+  },
+  "same_sha_reuse": [
+    {
+      "repo": "IndiciumFIN/calculadorasdeenfermagem",
+      "groups": [
+        [
+          "main",
+          "staging/cko-migracao-2026-10-23"
+        ]
+      ]
+    },
+    {
+      "repo": "IndiciumFIN/dev-chatgpt-workspace",
+      "groups": [
+        [
+          "archivamento",
+          "planning"
+        ]
+      ]
+    }
+  ],
+  "no_merge": true
+}

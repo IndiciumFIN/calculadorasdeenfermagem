@@ -1,0 +1,78 @@
+{
+  "release": "CKO_W7_CURRICULUM_ATOMS_v0.2.8",
+  "scope": "CURRICULUM_ONLY_NOT_CLAIMS",
+  "pass": 17,
+  "fail": 0,
+  "checks": [
+    {
+      "name": "count_items",
+      "pass": true
+    },
+    {
+      "name": "count_mappings",
+      "pass": true
+    },
+    {
+      "name": "count_programs",
+      "pass": true
+    },
+    {
+      "name": "count_topics",
+      "pass": true
+    },
+    {
+      "name": "source_program_fk",
+      "pass": true
+    },
+    {
+      "name": "source_topic_fk",
+      "pass": true
+    },
+    {
+      "name": "no_same_program_title_dup",
+      "pass": true
+    },
+    {
+      "name": "all_titles_from_source",
+      "pass": true
+    },
+    {
+      "name": "w7_162_exact",
+      "pass": true
+    },
+    {
+      "name": "curriculum_without_mapping_is_6",
+      "pass": true
+    },
+    {
+      "name": "canonical_claims_not_inferred",
+      "pass": true
+    },
+    {
+      "name": "links_are_not_approved",
+      "pass": true
+    },
+    {
+      "name": "none_publication",
+      "pass": true
+    },
+    {
+      "name": "hist_66",
+      "pass": true
+    },
+    {
+      "name": "paraphrased_191",
+      "pass": true
+    },
+    {
+      "name": "no_syllabus_description",
+      "pass": true
+    },
+    {
+      "name": "no_premature_course_load",
+      "pass": true
+    }
+  ],
+  "clinical_approved": false,
+  "publication_allowed": false
+}

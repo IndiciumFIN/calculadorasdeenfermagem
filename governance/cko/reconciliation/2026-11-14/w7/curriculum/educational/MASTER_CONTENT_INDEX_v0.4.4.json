@@ -1,0 +1,128 @@
+{
+  "release": "W7-v0.4.4",
+  "created_on": "2026-11-15",
+  "repo": "IndiciumFIN/calculadorasdeenfermagem",
+  "branch": "review/cko-w7-public-evidence-20261114",
+  "head_before": "51808afbe587b4e4f0f061330de844f8aca5f230",
+  "provenance": "Library microtopic_registry.csv and cited primary public institutional sources",
+  "new_batch": {
+    "units": 11,
+    "articles": 2,
+    "flashcards": 11,
+    "quiz_from_units": 11,
+    "quiz_from_cases": 9,
+    "fictional_cases": 3,
+    "educational_checklists": 3,
+    "new_source_linked_claim_entries": 22
+  },
+  "cumulative": {
+    "micro_lessons": 38,
+    "articles": 7,
+    "flashcards": 38,
+    "structured_quiz_items": 59,
+    "fictional_cases": 10,
+    "educational_checklists": 8,
+    "evidence_entries": 79,
+    "prior_claim_entries_audited": 33,
+    "new_claim_entries_not_independently_clinically_approved": 46
+  },
+  "prior_index_blob_sha": "514f2335a928804550dc616da92026cff09866d8",
+  "new_artifact_blobs": [
+    {
+      "path": "governance/cko/reconciliation/2026-11-14/w7/curriculum/educational/CANDIDATE_MICROLESSONS_UE_11_v0.4.3.jsonl",
+      "git_blob_sha": "3665fc6069a8f62efd5ea11235253db9689c22a2",
+      "characters": 34316
+    },
+    {
+      "path": "governance/cko/reconciliation/2026-11-14/w7/curriculum/audit/QA_URGENCIA_MICROLESSONS_v0.4.3.json",
+      "git_blob_sha": "d6c82af2d7c04452016ad1835e62029c3ffd081b",
+      "characters": 5510
+    },
+    {
+      "path": "governance/cko/reconciliation/2026-11-14/w7/curriculum/educational/REUSE_UE_CASES_CHECKLISTS_QUIZ_v0.4.4.json",
+      "git_blob_sha": "2e5e1dd067881a50e3a7203c4fb262d18280897a",
+      "characters": 17857
+    },
+    {
+      "path": "governance/cko/reconciliation/2026-11-14/w7/curriculum/educational/articles/ARTIGO_REDE_FLUXOS_CONTINGENCIA_URGENCIA_v0.4.4.md",
+      "git_blob_sha": "0168c610f842aa97e37037ea8edae1e3d72c34fb",
+      "characters": 10207
+    },
+    {
+      "path": "governance/cko/reconciliation/2026-11-14/w7/curriculum/educational/articles/ARTIGO_SEGURANCA_INCIDENTES_NOTIVISA_URGENCIA_v0.4.4.md",
+      "git_blob_sha": "087f347b5c8d2ffbcf720d95d1d212009f00a5f8",
+      "characters": 12289
+    }
+  ],
+  "new_microtopic_ids": [
+    "MICRO-UE-1-1",
+    "MICRO-UE-1-5",
+    "MICRO-UE-1-6",
+    "MICRO-UE-1-15",
+    "MICRO-UE-1-16",
+    "MICRO-UE-1-17",
+    "MICRO-UE-1-19",
+    "MICRO-UE-1-20",
+    "MICRO-UE-1-21",
+    "MICRO-UE-1-22",
+    "MICRO-UE-1-23"
+  ],
+  "all_source_ids": [
+    "MS_RUE",
+    "MS_URGENCIA",
+    "AHRQ_IPASS",
+    "AHRQ_CHECK",
+    "ANVISA_RDC36",
+    "AHRQ_LEAD",
+    "AHRQ_DEBRIEF",
+    "MS_PNSP",
+    "ANVISA_NSP",
+    "ANVISA_NOTIF"
+  ],
+  "clinical_approval_count": 0,
+  "editorial_signoff_count": 0,
+  "permissions_to_republish_originals_count": 0,
+  "verified_original_primary_bytes_sha256_count": 0,
+  "qa": {
+    "scope": "REPO_FETCH_VERIFIED_FILES + LOCAL_STRUCTURAL_ASSERTIONS, NOT CI, NOT CLINICAL REVIEW",
+    "pass": 20,
+    "fail": 0,
+    "checks": {
+      "no_overlap": true,
+      "new_11_real_id": true,
+      "source_rights_mixed_preserved": true,
+      "new_22_evidence_links": true,
+      "all_evidence_sources_known": true,
+      "two_full_articles": true,
+      "all_no_go": true,
+      "synthetic_cases": true,
+      "three_checklists": true,
+      "nine_new_quiz": true,
+      "combined_units": true,
+      "combined_articles": true,
+      "combined_flashcards": true,
+      "combined_quizzes": true,
+      "combined_cases": true,
+      "combined_checklists": true,
+      "claims_not_all_audited": true,
+      "no_main_merge": true,
+      "no_supabase_write": true,
+      "no_clinical_protocol_created": true
+    }
+  },
+  "gates": {
+    "curricular_part_of": false,
+    "clinical_publication": false,
+    "independent_clinical_review": false,
+    "rights_external_republication": false,
+    "main_merge": false,
+    "site_deploy": false,
+    "supabase_write": false
+  },
+  "next_content_wave_candidates": [
+    "CME e centro cirúrgico: fontes oficiais e revisão de direitos antes de atomização",
+    "Urgência: acolhimento e classificação de risco; separar teoria de protocolo clínico",
+    "Segurança: produzir versões em casos OSCE e simulados com questões revisadas"
+  ],
+  "status": "AUTHORIAL_EDUCATIONAL_CONTENT_CANDIDATE / NO_GO_PUBLICATION"
+}

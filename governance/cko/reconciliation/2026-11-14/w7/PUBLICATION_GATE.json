@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "release_type": "PUBLIC_REVIEW_METADATA_ONLY",
+  "requested_by_repo_owner": true,
+  "public_git_review_metadata_allowed": true,
+  "clinical_publication_allowed": false,
+  "site_deploy_allowed": false,
+  "main_merge_allowed": false,
+  "rights_clearance_complete": false,
+  "normative_currency_approved": false,
+  "curriculum_approved": false,
+  "human_clinical_signoff": false,
+  "no_originals_included": true,
+  "source_zip_sha256": "456f05b7a7bdd034b58bf7ab1cab16c59a2460ee44f9cd759d17e46aabab14fd",
+  "source_zip_git_blob_sha": "e5645b32882bddfc73f6e7544c8a5838bfdf0489",
+  "blocker": {
+    "type": "GITHUB_RULESET_ACTIVE",
+    "id": 25580067,
+    "name": "Somente leitura - branches desativadas (Leivis 21/10)",
+    "rules": [
+      "creation",
+      "update",
+      "deletion",
+      "non_fast_forward"
+    ],
+    "scope": "~ALL",
+    "branch_creation_attempt": "GitHub 422 Reference update failed"
+  }
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "work_order_id": "WO-CKO-W7-001",
+    "previous": "HOLD_SOURCE_RECONCILIATION",
+    "state": "PARTIAL_DONE_METADATA_JOIN",
+    "items_triaged": 118,
+    "items_identity_admitted": 0,
+    "gate": "HOLD_SOURCE_VERSION_RIGHTS_AND_IDENTITY",
+    "notes": "Completed exact ID and normalized URI check; full semantic/source/rights reconciliation pending"
+  },
+  {
+    "work_order_id": "WO-CKO-W7-010",
+    "previous": "HOLD_GITHUB_RULESET",
+    "state": "BRANCH_CREATED_AND_COMMITTED",
+    "branch": "review/cko-w7-public-evidence-20261114",
+    "verified_commit": "7680ed090fe68c9e58c40d20f45655ef15f11c7d",
+    "gate": "NOT_A_CLINICAL_GATE",
+    "notes": "Global ruleset currently disabled; restoration/least-privilege exception requires maintainer"
+  },
+  {
+    "work_order_id": "WO-CKO-W7-013",
+    "state": "NEW_GOVERNANCE_TASK",
+    "priority": "P1",
+    "owner_role": "RepositoryMaintainer",
+    "gate": "HOLD_RULESET_REINSTATEMENT",
+    "action": "Restore write protection for unrelated branches and preserve main, while retaining W7 versioning path if authorized",
+    "promotion_allowed": false
+  }
+]

@@ -1,0 +1,76 @@
+{
+  "id": "CKO-W7-SOURCE-RECONCILIATION-20261114-v0.2.1",
+  "version": "0.2.1",
+  "date": "2026-11-14",
+  "source_kind": "LIVE_READONLY_SNAPSHOT",
+  "drive_original": {
+    "file_id": "1C7T4ZDhFLHdTifp-3XqHLSwfvAwBWh2S",
+    "name": "sources.jsonl",
+    "source_file_sha256": "39352bc418844e563f85908cdac03f1cf1e12d01eac2ce513b9e97744187649e",
+    "records": 118
+  },
+  "supabase_original": {
+    "project": "pgsybzggewhinaniybiy",
+    "relation": "cko_evidence.sources",
+    "records": 157,
+    "query_scope": "SELECT source_id, official_uri, title, authority_level, accreditation_status",
+    "read_only": true
+  },
+  "counts": {
+    "ID_URI_EXACT": 0,
+    "ID_MATCH_URI_MISMATCH": 0,
+    "URI_ONLY_ALIAS_CANDIDATE": 3,
+    "AMBIGUOUS_URI_ALIAS": 1,
+    "NO_MATCH": 114
+  },
+  "total_checked": 118,
+  "all_candidate_url_matches": [
+    {
+      "drive_id": "SRC-ANVISA-RDC36-2013",
+      "source_url": "https://bvsms.saude.gov.br/bvs/saudelegis/anvisa/2013/rdc0036_25_07_2013.html",
+      "kind": "URI_ONLY_ALIAS_CANDIDATE",
+      "supabase_ids": [
+        "SRC-ANVISA-RDC-36-2013"
+      ]
+    },
+    {
+      "drive_id": "SRC-BR-EXERCICIO-ENF",
+      "source_url": "https://www.planalto.gov.br/ccivil_03/leis/l7498.htm",
+      "kind": "AMBIGUOUS_URI_ALIAS",
+      "supabase_ids": [
+        "SRC-BR-LEI-7498-1986",
+        "SRC-BR-PLANALTO-LEI-7498-1986"
+      ]
+    },
+    {
+      "drive_id": "SRC-COFEN-736-2024",
+      "source_url": "https://www.cofen.gov.br/resolucao-cofen-no-736-de-17-de-janeiro-de-2024/",
+      "kind": "URI_ONLY_ALIAS_CANDIDATE",
+      "supabase_ids": [
+        "SRC-COFEN-RES-736-2024"
+      ]
+    },
+    {
+      "drive_id": "SRC-MS-PNSP-529-2013",
+      "source_url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2013/prt0529_01_04_2013.html",
+      "kind": "URI_ONLY_ALIAS_CANDIDATE",
+      "supabase_ids": [
+        "SRC-MS-PORTARIA-529-2013"
+      ]
+    }
+  ],
+  "supabase_shared_url_groups": 5,
+  "interpretation": "Catalogues represent different scopes. 114 NO_MATCH means not found by exact ID or normalized URI in current Supabase catalogue, not absent from Drive or clinically invalid.",
+  "admission": {
+    "semantic_approval": 0,
+    "rights_approval": 0,
+    "clinical_approval": 0,
+    "publication_allowed": false
+  },
+  "conditions": [
+    "Rights restrictions remain attached to original Drive sources",
+    "Normalized URI alone is not identity authority",
+    "Do not create missing Supabase sources automatically",
+    "No updates or migrations were made to Supabase"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "release": "CKO-W7-v0.2.2",
+  "checks": [
+    {
+      "assertion": "17 distinct artifacts",
+      "pass": true
+    },
+    {
+      "assertion": "17 valid SHA256 values",
+      "pass": true
+    },
+    {
+      "assertion": "no storage identifiers exposed",
+      "pass": true
+    },
+    {
+      "assertion": "sum literal = 25508",
+      "pass": true
+    },
+    {
+      "assertion": "sum visual = 887",
+      "pass": true
+    },
+    {
+      "assertion": "zero recovered false positives",
+      "pass": true
+    },
+    {
+      "assertion": "fail closed",
+      "pass": true
+    }
+  ],
+  "publication_allowed": false
+}

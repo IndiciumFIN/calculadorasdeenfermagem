@@ -1,0 +1,159 @@
+{
+  "version": "0.1.0",
+  "observed_on": "2026-11-17",
+  "status": "EMPLOYER_SOURCE_OBSERVED_CO_FEN_MAPPING_CANDIDATE",
+  "sources": "Employer-controlled Gupy job pages verified via indexed page content on 2026-11-17",
+  "baseline": {
+    "ads": 34,
+    "distinct_specialties": 14,
+    "denominator": 65
+  },
+  "prior_delta": {
+    "ads": 2,
+    "distinct_new_specialties": 2,
+    "commit": "60057ab92e22fac998c908f637a20d5e118929f9"
+  },
+  "new_ads": [
+    {
+      "job_id": "12628161",
+      "employer": "FP Serviços / Saúde Unimed",
+      "role": "Enfermeiro de Atenção Domiciliar SR",
+      "source_url": "https://fp.gupy.io/jobs/12628161",
+      "published_on": "2026-09-29",
+      "applications_until": "2026-11-28",
+      "listing_type": "POSTING",
+      "cofen_specialty_id_candidate": "COFEN-581-I-05",
+      "skills": {
+        "required": [
+          "NURSING_DEGREE",
+          "COREN_ACTIVE",
+          "HOME_CARE_OR_CASE_MANAGEMENT_EXPERIENCE"
+        ],
+        "preferred": [
+          "VALUE_BASED_CARE"
+        ],
+        "responsibilities": [
+          "HOME_CARE_PLAN",
+          "CASE_COMPLEXITY_ASSESSMENT",
+          "MULTIDISCIPLINARY_COORDINATION",
+          "PATIENT_SAFETY"
+        ]
+      },
+      "source_kind": "EMPLOYER_POSTING",
+      "status_observed": "PAGE_ACCESSIBLE_APPLICATION_STATUS_NOT_RECHECKED",
+      "mapping_status": "CANDIDATE_REQUIRES_INDEPENDENT_REVIEW",
+      "clinical_authorization_inferred": false,
+      "rights": "LINK_AND_INDEPENDENT_SKILL_CODES_ONLY"
+    },
+    {
+      "job_id": "12836199",
+      "employer": "Rast Saúde / URSI",
+      "role": "Enfermeiro URSI",
+      "source_url": "https://rastsvmvg.gupy.io/job/eyJqb2JJZCI6MTI4MzYxOTksInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0%3D",
+      "listing_type": "POSTING",
+      "cofen_specialty_id_candidate": "COFEN-581-I-37",
+      "skills": {
+        "required": [
+          "NURSING_DEGREE",
+          "COREN_ACTIVE"
+        ],
+        "preferred": [
+          "GERONTOLOGY_GERIATRICS_OR_PUBLIC_HEALTH_SPECIALIZATION"
+        ],
+        "responsibilities": [
+          "OLDER_ADULT_CARE",
+          "NURSING_CONSULTATION",
+          "CARE_COORDINATION",
+          "TEAM_SUPERVISION"
+        ]
+      },
+      "source_kind": "EMPLOYER_POSTING",
+      "status_observed": "PAGE_ACCESSIBLE_APPLICATION_STATUS_NOT_RECHECKED",
+      "mapping_status": "CANDIDATE_REQUIRES_INDEPENDENT_REVIEW",
+      "clinical_authorization_inferred": false,
+      "rights": "LINK_AND_INDEPENDENT_SKILL_CODES_ONLY"
+    },
+    {
+      "job_id": "12824715",
+      "employer": "Instituto Mais Saúde / HRAS",
+      "role": "Enfermeiro(a) NEP",
+      "source_url": "https://institutomaissaude.gupy.io/jobs/12824715",
+      "listing_type": "POSTING",
+      "cofen_specialty_id_candidate": "COFEN-581-III-03",
+      "skills": {
+        "required": [],
+        "preferred": [],
+        "responsibilities": [
+          "TRAINING_NEEDS_ASSESSMENT",
+          "CONTINUING_EDUCATION_PROGRAM",
+          "STAFF_TRAINING",
+          "TRAINING_EVALUATION"
+        ]
+      },
+      "mapping_note": "Núcleo de Educação Permanente; não equiparar automaticamente à especialização em Educação em Enfermagem (III-02)",
+      "source_kind": "EMPLOYER_POSTING",
+      "status_observed": "PAGE_ACCESSIBLE_APPLICATION_STATUS_NOT_RECHECKED",
+      "mapping_status": "CANDIDATE_REQUIRES_INDEPENDENT_REVIEW",
+      "clinical_authorization_inferred": false,
+      "rights": "LINK_AND_INDEPENDENT_SKILL_CODES_ONLY"
+    },
+    {
+      "job_id": "12747760",
+      "employer": "SPDM / Região Butantã",
+      "role": "Enfermeiro Atenção Primária à Saúde / ESF",
+      "source_url": "https://rastsbutanta.gupy.io/job/eyJqb2JJZCI6MTI3NDc3NjAsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0%3D",
+      "listing_type": "POSTING",
+      "cofen_specialty_id_candidate": "COFEN-581-I-33",
+      "skills": {
+        "required": [
+          "NURSING_DEGREE",
+          "COREN_ACTIVE"
+        ],
+        "preferred": [
+          "FAMILY_HEALTH_PUBLIC_HEALTH_OR_COLLECTIVE_HEALTH_SPECIALIZATION"
+        ],
+        "responsibilities": [
+          "FAMILY_COMMUNITY_CARE",
+          "PREVENTION_PROMOTION",
+          "NURSING_PROCESS",
+          "HEALTH_SURVEILLANCE"
+        ]
+      },
+      "mapping_note": "Saúde Coletiva candidata pelo escopo ESF e pós-graduação desejável; não inferir especialidade exclusiva",
+      "source_kind": "EMPLOYER_POSTING",
+      "status_observed": "PAGE_ACCESSIBLE_APPLICATION_STATUS_NOT_RECHECKED",
+      "mapping_status": "CANDIDATE_REQUIRES_INDEPENDENT_REVIEW",
+      "clinical_authorization_inferred": false,
+      "rights": "LINK_AND_INDEPENDENT_SKILL_CODES_ONLY"
+    }
+  ],
+  "candidate_totals": {
+    "ads": 40,
+    "distinct_specialties": 20,
+    "coverage_percent": 30.7692
+  },
+  "validation": {
+    "checks": {
+      "baseline_34": true,
+      "prior_2": true,
+      "unique_job_ids": true,
+      "all_specialties_valid": true,
+      "all_specialties_new": true,
+      "new_distinct_four": true,
+      "coverage_20": true,
+      "all_sources_present": true,
+      "no_clinical_approval": true
+    },
+    "method": "Connector-read baseline and COFEN IDs; deterministic in-memory JS assertions; not GitHub Actions",
+    "executed_checks": 9,
+    "passed_checks": 9
+  },
+  "limitations": [
+    "Nonprobability sample, not national labor market",
+    "Employer source page indexed; live vacancy open status not guaranteed",
+    "COFEN mapping candidate, not professional credential or clinical approval",
+    "Job 12824715 III-03 mapping requires special scrutiny; no duplicate III-02 claim",
+    "No full copyrighted vacancy text copied",
+    "Existing baseline remains immutable; no merge or Supabase changes"
+  ]
+}

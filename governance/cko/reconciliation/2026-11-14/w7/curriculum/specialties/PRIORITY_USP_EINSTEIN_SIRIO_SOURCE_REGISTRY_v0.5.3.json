@@ -1,0 +1,263 @@
+{
+  "release": "COFEN_W7_PRIORITIZED_INSTITUTIONS_v0.5.3",
+  "date": "2026-11-15",
+  "source_priority": [
+    "USP",
+    "EINSTEIN",
+    "SIRIO"
+  ],
+  "scope": "OFFICIAL_INSTITUTIONAL_SOURCES_ENRICH_EXISTING_114_PROGRAM_INVENTORY",
+  "source_registry": [
+    {
+      "id": "COFEN-PRIO-USP-EE-BACH-2027",
+      "institution": "Universidade de São Paulo - Escola de Enfermagem (São Paulo)",
+      "institution_key": "USP-EE",
+      "program": "Bacharelado em Enfermagem - currículo reformulado",
+      "program_type": "GRADUACAO",
+      "source_url": "https://uspdigital.usp.br/jupiterweb/listarGradeCurricular?codcg=7&codcur=7012&codhab=0&tipo=N",
+      "offering_edition": "CURRICULUM_STARTS_2027-01-01_FUTURE",
+      "hours": 4110,
+      "semesters": 8,
+      "content_evidence": "OFFICIAL_JUPITER_DISCIPLINE_GRADE_WITH_CODES_PREREQUISITES_AND_HOURS",
+      "announced_required_disciplines": 42,
+      "cofen_specialty_candidates": [],
+      "prior_program_ids": [],
+      "rights": "NO_LICENSE_FOR_REPUBLICATION_ESTABLISHED",
+      "course_offer_status": "CURRICULUM_ON_OFFICIAL_ACADEMIC_SYSTEM_NOT_2026_ENTRY_COHORT",
+      "source_notes": "O Júpiter lista a grade reformulada com início em janeiro de 2027; não confundir com grade anterior da mesma escola"
+    },
+    {
+      "id": "COFEN-PRIO-USP-EERP-BACH-2027",
+      "institution": "Universidade de São Paulo - Escola de Enfermagem de Ribeirão Preto",
+      "institution_key": "USP-EERP",
+      "program": "Bacharelado em Enfermagem (hab. 104)",
+      "program_type": "GRADUACAO",
+      "source_url": "https://uspdigital.usp.br/jupiterweb/listarGradeCurricular?codcg=22&codcur=22101&codhab=104&tipo=N",
+      "offering_edition": "CURRICULUM_STARTS_2027-01-01_FUTURE",
+      "hours": 3542,
+      "semesters": 10,
+      "content_evidence": "OFFICIAL_JUPITER_DISCIPLINE_GRADE_WITH_CODES_PREREQUISITES_AND_HOURS",
+      "announced_required_disciplines": null,
+      "cofen_specialty_candidates": [],
+      "prior_program_ids": [],
+      "rights": "NO_LICENSE_FOR_REPUBLICATION_ESTABLISHED",
+      "course_offer_status": "CURRICULUM_ON_OFFICIAL_ACADEMIC_SYSTEM_NOT_2026_ENTRY_COHORT",
+      "source_notes": "Campus e habilitação distintos da EEUSP São Paulo; não mesclar grades"
+    },
+    {
+      "id": "COFEN-PRIO-USP-EE-GER-SAUDE-2027",
+      "institution": "Universidade de São Paulo - Escola de Enfermagem (São Paulo)",
+      "institution_key": "USP-EE",
+      "program": "Especialização em Gerenciamento de Serviços de Saúde - terceira edição",
+      "program_type": "LATO_SENSU_MULTIPROFESSIONAL",
+      "source_url": "https://www.ee.usp.br/especializacao-gerencia-saude/",
+      "offering_edition": "2027-02-16_TO_2028-03-16_FUTURE",
+      "hours": 460,
+      "semesters": null,
+      "content_evidence": "OFFICIAL_EEUSP_PAGE_EIGHT_PROGRAM_MODULES_AND_HOURS",
+      "announced_required_disciplines": 8,
+      "cofen_specialty_candidates": [
+        "COFEN-581-II-04"
+      ],
+      "prior_program_ids": [],
+      "rights": "NO_LICENSE_FOR_REPUBLICATION_ESTABLISHED",
+      "course_offer_status": "FUTURE_SCHEDULE_LISTED_ON_INSTITUTIONAL_PAGE",
+      "source_notes": "Público-alvo profissionais da saúde; não equivale a título restrito a Enfermagem nem comprova registro profissional"
+    },
+    {
+      "id": "COFEN-PRIO-USP-APOLO-NEPE-CC-CME",
+      "institution": "Universidade de São Paulo - Apolo HRAC",
+      "institution_key": "USP-APOLO",
+      "program": "NEPE - Atuação da Enfermagem em centro cirúrgico e central de material e esterilização",
+      "program_type": "MANDATORY_ACTIVITY_NOT_STANDALONE_SPECIALIZATION",
+      "source_url": "https://uspdigital.usp.br/apolo/apoObterAtividade?cod_oferecimentoatv=133376",
+      "offering_edition": "2025-03-06_TO_2027-02-28",
+      "hours": 960,
+      "semesters": null,
+      "content_evidence": "OFFICIAL_APOLO_ACTIVITY_SYLLABUS_OBJECTIVES_METHODOLOGY_AND_BIBLIOGRAPHY",
+      "announced_required_disciplines": null,
+      "cofen_specialty_candidates": [
+        "COFEN-581-I-08",
+        "COFEN-581-I-09"
+      ],
+      "prior_program_ids": [],
+      "rights": "NO_LICENSE_FOR_REPUBLICATION_ESTABLISHED",
+      "course_offer_status": "CONFIRMED_ACTIVITY_NOT_A_SEPARATE_SPECIALIZATION",
+      "source_notes": "Contexto específico de atendimento a fissuras orofaciais; não generalizar o estágio para toda grade de Centro Cirúrgico/CME"
+    },
+    {
+      "id": "COFEN-PRIO-EINSTEIN-ROBOTICA",
+      "institution": "Ensino Einstein",
+      "institution_key": "EINSTEIN",
+      "program": "Enfermagem em Cirurgia Robótica",
+      "program_type": "LATO_SENSU_SPECIALIZATION_LISTED",
+      "source_url": "https://ensino.einstein.br/pos_enfermagem_cirurgia_robotica_p1104/p",
+      "offering_edition": "UNSPECIFIED_AS_OF_2026-11-15",
+      "hours": null,
+      "semesters": null,
+      "content_evidence": "OFFICIAL_COURSE_PAGE_PRESENT_BUT_DETAILED_GRADE_NOT_RELIABLY_RENDERED",
+      "announced_required_disciplines": null,
+      "cofen_specialty_candidates": [
+        "COFEN-581-I-09"
+      ],
+      "prior_program_ids": [
+        "PG-EIN-ROBOT"
+      ],
+      "rights": "NO_LICENSE_FOR_REPUBLICATION_ESTABLISHED",
+      "course_offer_status": "COURSE_LISTED_MODALITY_SEMIPRESENCIAL",
+      "source_notes": "Enriquecer programa existente; não criar novo curso nem copiar blocos genéricos do template"
+    },
+    {
+      "id": "COFEN-PRIO-EINSTEIN-PEDNEO",
+      "institution": "Ensino Einstein",
+      "institution_key": "EINSTEIN",
+      "program": "Enfermagem em Terapia Intensiva Pediátrica e Neonatal",
+      "program_type": "LATO_SENSU_SPECIALIZATION_LISTED",
+      "source_url": "https://ensino.einstein.br/pos_ead_enfermagem_terapia_intensiva_pediat_p1335/p",
+      "offering_edition": "UNSPECIFIED_AS_OF_2026-11-15",
+      "hours": null,
+      "semesters": null,
+      "content_evidence": "OFFICIAL_COURSE_PAGE_PRESENT_BUT_DETAILED_GRADE_NOT_RELIABLY_RENDERED",
+      "announced_required_disciplines": null,
+      "cofen_specialty_candidates": [
+        "COFEN-581-I-43"
+      ],
+      "prior_program_ids": [
+        "PG-EIN-PEDNEO-ICU"
+      ],
+      "rights": "NO_LICENSE_FOR_REPUBLICATION_ESTABLISHED",
+      "course_offer_status": "LISTED_EAD_WITH_IN_PERSON_PRACTICE",
+      "source_notes": "Especialidade assistencial; programa já no inventário, matriz de disciplinas não verificada nesta página"
+    },
+    {
+      "id": "COFEN-PRIO-EINSTEIN-AUDIT",
+      "institution": "Ensino Einstein",
+      "institution_key": "EINSTEIN",
+      "program": "Auditoria em Serviços de Saúde",
+      "program_type": "LATO_SENSU_SPECIALIZATION_MULTIPROFESSIONAL",
+      "source_url": "https://ensino.einstein.br/pos_gt_auditoria_servicos_saude_p0027/p",
+      "offering_edition": "UNSPECIFIED_AS_OF_2026-11-15",
+      "hours": null,
+      "semesters": null,
+      "content_evidence": "OFFICIAL_COURSE_PAGE_PRESENT_BUT_DETAILED_GRADE_NOT_RELIABLY_RENDERED",
+      "announced_required_disciplines": null,
+      "cofen_specialty_candidates": [
+        "COFEN-581-II-03"
+      ],
+      "prior_program_ids": [
+        "PG-EIN-AUDIT"
+      ],
+      "rights": "NO_LICENSE_FOR_REPUBLICATION_ESTABLISHED",
+      "course_offer_status": "LISTED_SPECIALIZATION_SEMIPRESENCIAL",
+      "source_notes": "Formação multiprofissional não equivale automaticamente a qualificação específica de auditoria de Enfermagem"
+    },
+    {
+      "id": "COFEN-PRIO-EINSTEIN-UE",
+      "institution": "Ensino Einstein",
+      "institution_key": "EINSTEIN",
+      "program": "Enfermagem em Emergência e Urgência",
+      "program_type": "LATO_SENSU_SPECIALIZATION_LISTED",
+      "source_url": "https://ensino.einstein.br/pos-graduacao/enfermagem",
+      "offering_edition": "UNSPECIFIED_AS_OF_2026-11-15",
+      "hours": null,
+      "semesters": null,
+      "content_evidence": "OFFICIAL_COURSE_CATALOG_LISTING_ONLY_NOT_FULL_GRADE",
+      "announced_required_disciplines": null,
+      "cofen_specialty_candidates": [
+        "COFEN-581-I-46"
+      ],
+      "prior_program_ids": [
+        "PG-EIN-UE-SP"
+      ],
+      "rights": "NO_LICENSE_FOR_REPUBLICATION_ESTABLISHED",
+      "course_offer_status": "LISTED_SPECIALIZATION_SEMIPRESENCIAL",
+      "source_notes": "URL do catálogo para confirmar a oferta, sem presumir ementa/grade completa"
+    },
+    {
+      "id": "COFEN-PRIO-SIRIO-BACH-2027",
+      "institution": "Faculdade Sírio-Libanês",
+      "institution_key": "SIRIO",
+      "program": "Graduação em Enfermagem",
+      "program_type": "GRADUACAO",
+      "source_url": "https://www.faculdadesiriolibanes.org.br/fsl/enfermagem",
+      "offering_edition": "ENTRY_SCHEDULE_2027-02_FUTURE",
+      "hours": 4540,
+      "semesters": 9,
+      "content_evidence": "OFFICIAL_INSTITUTIONAL_PAGE_NINE_SEMESTERS_CURRICULAR_UNITS",
+      "announced_required_disciplines": null,
+      "cofen_specialty_candidates": [],
+      "prior_program_ids": [],
+      "rights": "NO_LICENSE_FOR_REPUBLICATION_ESTABLISHED",
+      "course_offer_status": "FUTURE_ENTRY_LISTED_NOT_STARTED",
+      "source_notes": "4440 horas de unidades listadas e 100 horas complementares na matriz pública; não equiparar à pós-graduação"
+    },
+    {
+      "id": "COFEN-PRIO-SIRIO-ONCO-DIGITAL",
+      "institution": "Faculdade Sírio-Libanês Digital",
+      "institution_key": "SIRIO",
+      "program": "Enfermagem em Oncologia",
+      "program_type": "LATO_SENSU_SPECIALIZATION_LISTED",
+      "source_url": "https://digital.faculdadesiriolibanes.org.br/curso/profissionais/enfermagem-em-oncologia",
+      "offering_edition": "UNSPECIFIED_AS_OF_2026-11-15",
+      "hours": 360,
+      "semesters": null,
+      "content_evidence": "OFFICIAL_INSTITUTIONAL_PAGE_18_CURRICULAR_UNITS_WITH_PUBLIC_DESCRIPTIONS",
+      "announced_required_disciplines": 18,
+      "cofen_specialty_candidates": [
+        "COFEN-581-I-28"
+      ],
+      "prior_program_ids": [
+        "PG-SIRIO-ONCO"
+      ],
+      "rights": "NO_LICENSE_FOR_REPUBLICATION_ESTABLISHED",
+      "course_offer_status": "COURSE_PAGE_ACTIVE_COHORT_UNIDENTIFIED",
+      "source_notes": "Correspondência temática com PG-SIRIO-ONCO, não provar identidade da oferta nem importar avaliações, ebooks e casos reais protegidos"
+    }
+  ],
+  "source_count": 10,
+  "source_pages_by_institution": {
+    "USP": 4,
+    "EINSTEIN": 4,
+    "SIRIO": 2
+  },
+  "existing_programs_referenced_unique": [
+    "PG-EIN-ROBOT",
+    "PG-EIN-PEDNEO-ICU",
+    "PG-EIN-AUDIT",
+    "PG-EIN-UE-SP",
+    "PG-SIRIO-ONCO"
+  ],
+  "old_programs": 114,
+  "new_programs_admitted": 0,
+  "curriculum_rights_to_republish_full_text": false,
+  "curriculum_part_of_approved": 0,
+  "learning_levels_approved": 0,
+  "QA": {
+    "scope": "GITHUB_READBACK_PRIOR_INVENTORY_PLUS_OFFICIAL_SITE_FACT_CHECKS",
+    "passed": 15,
+    "failed": 0,
+    "checks": {
+      "exact_ten": true,
+      "three_priority_institutions": true,
+      "unique_sources": true,
+      "all_provider_urls": true,
+      "existing_ids_real": true,
+      "programs_114_unchanged": true,
+      "four_einstein_are_enrichment": true,
+      "sirio_onco_not_auto_merged": true,
+      "two_usp_bachelors_not_merged": true,
+      "three_2027_bachelors": true,
+      "explicit_future_dates": true,
+      "rights_not_assumed": true,
+      "einstein_detail_not_fabricated": true,
+      "no_new_canonical_program_ids": true,
+      "source_metadata_not_clinical_claims": true
+    }
+  },
+  "limits": [
+    "Course registration / e-MEC not independently checked",
+    "Some official commercial pages lack accessible course-by-course syllabi",
+    "Institutional program titles and schedules are not clinical evidence",
+    "Grade metadata does not confer permission to reproduce original modules or materials"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "version": "CKO-W7-v0.2.4",
+  "findings": [
+    {
+      "finding_id": "W7-004",
+      "state": "ROOT_CAUSE_QUANTIFIED_STILL_OPEN",
+      "priority": "P0",
+      "evidence": "UC08 30 declared hours, 0 modules, 0 topics, same title as UC09",
+      "required_gate": "HOLD_CURRICULUM_CONFLICT"
+    },
+    {
+      "finding_id": "W4-01",
+      "state": "HISTORICAL_OVERLAP_CORROBORATED_BY_COLLISION_LEDGER",
+      "priority": "P0",
+      "evidence": "Historical W4 8/8 axes overlap with UC07, not new primary text verification",
+      "required_gate": "HOLD_CURRICULUM_CONFLICT"
+    }
+  ],
+  "work_orders": [
+    {
+      "work_order_id": "WO-CKO-W7-004",
+      "state": "MISMATCH_MEASURED_HUMAN_SYLLABUS_PENDING",
+      "owner_role": "CurriculumReviewer",
+      "declared_hours": 300,
+      "allocated_module_hours": 270,
+      "unallocated_hours": 30,
+      "remaining_gate": "HOLD_INSTITUTIONAL_CURRICULUM_APPROVAL"
+    }
+  ],
+  "no_source_mutation": true,
+  "no_auto_promotion": true
+}

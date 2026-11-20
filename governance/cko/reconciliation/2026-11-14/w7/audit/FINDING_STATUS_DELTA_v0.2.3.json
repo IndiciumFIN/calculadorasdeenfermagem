@@ -1,0 +1,62 @@
+{
+  "version": "0.2.3",
+  "sources": [
+    "GitHub W5 and W6 authoritative branch files",
+    "Anvisa/MOH legal PDF and html references",
+    "COFEN 581/736/754 official pages",
+    "WHO item page",
+    "Supabase cko_evidence.sources read-only"
+  ],
+  "findings": [
+    {
+      "finding_id": "W7-008",
+      "state": "LOCATORS_REVIEWED_SOURCE_HASH_STILL_MISSING",
+      "w5_locator_present": 7,
+      "landing_inadequate": 1,
+      "remaining_gate": "HOLD_PRIMARY_BYTES_AND_CURRENT_LEGAL_STATUS"
+    },
+    {
+      "finding_id": "W6-FIND-09",
+      "state": "OFFICIAL_LANDING_LOCATED_FRAGMENT_HASH_STILL_MISSING",
+      "sources_reviewed": 6,
+      "hashes_recovered": 0,
+      "remaining_gate": "HOLD_SOURCE"
+    },
+    {
+      "finding_id": "W7-013",
+      "state": "SOURCE_REUSE_LICENSE_CONSTRAINT_IDENTIFIED",
+      "source": "MS/ANVISA 2013 cirurgia segura repository item",
+      "license_noted": "CC BY-NC-ND 4.0",
+      "remaining_gate": "HOLD_RIGHTS"
+    },
+    {
+      "finding_id": "W7-014",
+      "state": "PUBLISHER_DATE_ROUTE_DISCREPANCY_TO_REVIEW",
+      "source_id": "SRC-W5-ANVISA-REPROC-2016",
+      "evidence": "2016 URL segment, Anvisa page shows published 2022-07-04",
+      "remaining_gate": "HOLD_SOURCE_IDENTITY"
+    }
+  ],
+  "work_orders": [
+    {
+      "work_order_id": "WO-CKO-W7-003",
+      "state": "PARTIAL_SOURCE_LOCATORS_VERIFIED",
+      "source_records": 14,
+      "source_binary_hashes_confirmed": 0,
+      "remaining_gate": "HOLD_PRIMARY_FRAGMENTS"
+    },
+    {
+      "work_order_id": "WO-CKO-W7-011",
+      "state": "RIGHTS_CONSTRAINT_DISCOVERED",
+      "anvisa_repository_license": "CC BY-NC-ND 4.0",
+      "remaining_gate": "HOLD_HUMAN_RIGHTS"
+    },
+    {
+      "work_order_id": "WO-CKO-W7-014",
+      "state": "NEW_FOLLOWUP",
+      "action": "Acquire immutable source bytes and current legal status; reproduce source/fragment hashes; rights review",
+      "owner_role": "NormativeAndRightsReviewer",
+      "publication_allowed": false
+    }
+  ]
+}

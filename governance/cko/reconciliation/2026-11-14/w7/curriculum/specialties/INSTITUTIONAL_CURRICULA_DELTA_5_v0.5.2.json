@@ -1,0 +1,189 @@
+{
+  "release": "COFEN-581-W7-v0.5.2",
+  "date": "2026-11-15",
+  "base_pilot": "specialties/INSTITUTIONAL_CURRICULA_DISCOVERY_6_v0.5.1.json",
+  "new_institutional_courses": [
+    {
+      "id": "CURCOFEN-COURSE-UFRB-OBST-RESID-2026",
+      "institution": "Universidade Federal do Recôncavo da Bahia (UFRB)",
+      "name": "Residência em Enfermagem Obstétrica",
+      "url": "https://www.ufrb.edu.br/ccs/noticiasccs/2370-grade-curricular-residencia-em-enfermagem-obstetrica",
+      "kind": "NURSING_RESIDENCY_NOT_GENERIC_EAD_SPECIALIZATION",
+      "related_specialties": [
+        "COFEN-581-I-34"
+      ],
+      "related_subareas": [
+        "COFEN-581-I-34-02"
+      ],
+      "edition": "2026-07-10_PAGE_PUBLICATION",
+      "semester_or_cohort": "NO_EXPRESS_COHORT_IDENTIFIER_SEEN",
+      "hours": 5760,
+      "curriculum_depth": "DETAILED_27_THEORY_11_CLINICAL_PLACEMENTS",
+      "topics_paraphrased": [
+        "atenção à saúde da mulher",
+        "fundamentos obstétricos",
+        "gravidez parto e puerpério",
+        "urgências obstétricas",
+        "saúde mental perinatal",
+        "estágios em serviços de saúde"
+      ],
+      "verification": "OFFICIAL_INSTITUTION_PAGE_PUBLISHED_2026",
+      "rights": "NOT_VERIFIED_REUSE_METADATA_ONLY",
+      "recognition": "TITLE_SCOPE_CANDIDATE_NO_CURRICULAR_EQUIVALENCE_APPROVED"
+    },
+    {
+      "id": "CURCOFEN-COURSE-FCM-ESTOM-2026",
+      "institution": "Faculdade Ciências Médicas de Minas Gerais (FCM-MG)",
+      "name": "Pós-graduação em Enfermagem em Estomaterapia",
+      "url": "https://pos.cmmg.edu.br/curso/enfermagem-em-estomaterapia/",
+      "kind": "NURSING_SPECIALIZATION_INSTITUTIONAL",
+      "related_specialties": [
+        "COFEN-581-I-16"
+      ],
+      "edition": "TURMA_2026_FIRST_SEMESTER_LISTED",
+      "semester_or_cohort": "2026.1",
+      "hours": null,
+      "curriculum_depth": "EXPLICIT_2026_MATRIX_AVAILABLE_ON_PAGE",
+      "topics_paraphrased": [
+        "assistência em estomaterapia",
+        "matriz curricular identificada para turma 2026"
+      ],
+      "verification": "OFFICIAL_INSTITUTION_PAGE_WITH_COHORT_REFERENCE",
+      "rights": "NOT_VERIFIED_REUSE_METADATA_ONLY",
+      "recognition": "NOT_VALIDATED_AT_COURSE_LEVEL"
+    },
+    {
+      "id": "CURCOFEN-COURSE-UNISULMA-ESTOM",
+      "institution": "Unidade de Ensino Superior do Sul do Maranhão (Unisulma)",
+      "name": "Pós-graduação em Enfermagem em Estomaterapia",
+      "url": "https://unisulma.edu.br/pos-graduacao/pos-graduacao-em-enfermagem-em-estomaterapia/",
+      "kind": "NURSING_SPECIALIZATION_INSTITUTIONAL",
+      "related_specialties": [
+        "COFEN-581-I-16"
+      ],
+      "edition": "UNSPECIFIED",
+      "semester_or_cohort": "NOT_VERIFIED",
+      "hours": 360,
+      "curriculum_depth": "DETAILED_MATRIX_DISCIPLINE_TITLES_AND_HOURS",
+      "topics_paraphrased": [
+        "fundamentos e anatomia da pele",
+        "feridas e lesões",
+        "estomias e incontinências",
+        "gestão e biossegurança",
+        "práticas e estágio"
+      ],
+      "verification": "OFFICIAL_INSTITUTION_PAGE_INDEXED",
+      "rights": "NOT_VERIFIED_REUSE_METADATA_ONLY",
+      "recognition": "NOT_VALIDATED_AT_COURSE_LEVEL"
+    },
+    {
+      "id": "CURCOFEN-COURSE-UNIRN-MENTAL-2026",
+      "institution": "Centro Universitário do Rio Grande do Norte (UNI-RN)",
+      "name": "Especialização em Enfermagem em Saúde Mental",
+      "url": "https://unirn.edu.br/pos-graduacao/enfermagem-em-saude-mental/",
+      "kind": "NURSING_SPECIALIZATION_INSTITUTIONAL",
+      "related_specialties": [
+        "COFEN-581-I-40"
+      ],
+      "edition": "PROSPECTIVE_START_2026-11-14",
+      "semester_or_cohort": "START_DATE_FORECAST_NOT_OPENING_CONFIRMED",
+      "hours": 360,
+      "curriculum_depth": "MATRIX_LISTED_IN_OFFICIAL_PAGE",
+      "topics_paraphrased": [
+        "modalidades de tratamento em saúde mental",
+        "cuidados ao adulto e contexto da saúde mental"
+      ],
+      "verification": "OFFICIAL_INSTITUTION_PAGE_OBSERVED",
+      "rights": "NOT_VERIFIED_REUSE_METADATA_ONLY",
+      "recognition": "NOT_VALIDATED_AT_COURSE_LEVEL"
+    },
+    {
+      "id": "CURCOFEN-COURSE-UNIRP-AUDIT",
+      "institution": "Centro Universitário de Rio Preto (UNIRP)",
+      "name": "Gerência e Auditoria em Enfermagem",
+      "url": "https://www.unirp.edu.br/Curso/Pos/75/342",
+      "kind": "NURSING_SPECIALIZATION_INSTITUTIONAL",
+      "related_specialties": [
+        "COFEN-581-II-03",
+        "COFEN-581-II-04"
+      ],
+      "edition": "UNSPECIFIED",
+      "semester_or_cohort": "NOT_VERIFIED",
+      "hours": null,
+      "curriculum_depth": "COURSE_PAGE_WITH_MATRIX_HEADING_BUT_NO_STRUCTURED_DISCIPLINES_VALIDATED",
+      "topics_paraphrased": [
+        "gerência em enfermagem",
+        "auditoria em serviços de enfermagem"
+      ],
+      "verification": "OFFICIAL_INSTITUTION_PAGE_OBSERVED",
+      "rights": "NOT_VERIFIED_REUSE_METADATA_ONLY",
+      "recognition": "NOT_VALIDATED_AT_COURSE_LEVEL"
+    }
+  ],
+  "non_specialty_curricular_contexts": [
+    {
+      "id": "CURCOFEN-CONTEXT-UFFS-EDUCATION",
+      "institution": "Universidade Federal da Fronteira Sul (UFFS)",
+      "url": "https://boletim.uffs.edu.br/atos-normativos/resolucao/consunicppgec/2023-0062",
+      "type": "POSTGRAD_STRICTO_SENSU_REGULATORY_PROGRAM_DOCUMENT",
+      "specialty_contexts": [
+        "COFEN-581-III-02",
+        "COFEN-581-III-05"
+      ],
+      "edition": "2023",
+      "topics": [
+        "docência universitária em enfermagem",
+        "educação permanente",
+        "pesquisa qualitativa e quantitativa"
+      ],
+      "disclaimer": "NAO_E_UMA_POS_LATO_SENSU_NEM_PROVA_AUTOMATICA_DA_ESPECIALIDADE_CO_FEN"
+    },
+    {
+      "id": "CURCOFEN-CONTEXT-UFCSPA-GRAD",
+      "institution": "Universidade Federal de Ciências da Saúde de Porto Alegre (UFCSPA)",
+      "url": "https://ufcspa.edu.br/estude-na-ufcspa/especializacao/67-vida-academica/graduacao/cursos/enfermagem",
+      "type": "UNDERGRADUATE_NURSING_CORE_CURRICULUM",
+      "specialty_contexts": [],
+      "edition": "PAGE_CURRENT_UNKNOWN_COHORT",
+      "topics": [
+        "fundamentos biológicos",
+        "enfermagem clínica",
+        "saúde coletiva",
+        "gestão e bioestatística"
+      ],
+      "disclaimer": "REFERENCIA_PARA_APRENDIZAGEM_BASICA_NAO_CONTA_COMO_CURSO_DE_ESPECIALIDADE"
+    }
+  ],
+  "accumulated_direct_course_or_residency_sample_count": 11,
+  "official_main_annex_specialty_entries": 65,
+  "new_cofen_main_specialty_ids_reached": [
+    "COFEN-581-I-34",
+    "COFEN-581-I-16",
+    "COFEN-581-I-40",
+    "COFEN-581-II-03",
+    "COFEN-581-II-04"
+  ],
+  "coverage_not_proven_65": true,
+  "assertions": {
+    "five_new_offers": true,
+    "two_educational_contexts": true,
+    "unique_sources": true,
+    "source_urls_valid": true,
+    "no_silent_cohort": true,
+    "dated_ufrb_2026": true,
+    "fcm_2026_explicit": true,
+    "mental_course_not_assumed_open": true,
+    "mestrado_not_counted_as_lato": true,
+    "undergrad_not_counted_as_specialty": true,
+    "rights_not_assumed": true,
+    "no_auto_admission": true
+  },
+  "qa": {
+    "passed": 12,
+    "failed": 0,
+    "mode": "SOURCE_DISCOVERY_METADATA_AND_CONSERVATIVE_INSTITUTIONAL_PAGE_REVIEW"
+  },
+  "all_titles_and_classification": "CANDIDATE_NOT_CURRICULAR_ADMISSION",
+  "licensing_of_full_text": "UNKNOWN_OR_HOLD",
+  "source_snapshots_sha256": "NOT_VERIFIED"
+}

@@ -1,0 +1,51 @@
+{
+  "release": "CKO_W7_CURRICULUM_ATOMS_v0.2.8",
+  "scope": "CURRICULUM_CONTENT_ONLY",
+  "source_curriculum_items": 985,
+  "derived_curriculum_source_item_atoms": 985,
+  "programs": 114,
+  "programs_with_item_atoms": 83,
+  "programs_without_item_atoms": 31,
+  "topic_concepts": 182,
+  "item_topic_candidate_links": 1514,
+  "current_source_items": 919,
+  "historical_source_items": 66,
+  "source_objectives_paraphrased": 191,
+  "source_items_unmapped_to_topics": 6,
+  "cross_program_repeated_title_groups": 52,
+  "extra_repeated_normalized_titles": 104,
+  "selected_W7_162_exact_reconciled": 162,
+  "clinical_claims_created": 0,
+  "semantic_relations_approved": 0,
+  "publication_allowed": false,
+  "source_files": {
+    "programs": {
+      "file_id": "1Y5VyCCaGB-HCF8ZhzZbCi41ZgiOhAhZW",
+      "bytes": 64105,
+      "sha256_local_verified": "897ff6165a47cc575f9c23a2c9b52a2f1ff5258df3ffac59dbebf04165bf50ba"
+    },
+    "items": {
+      "file_id": "18GQF7c-OcCZDBc-nNQDG4lAe_mafgt_j",
+      "bytes": 474792,
+      "sha256_local_verified": "e2bee97a9f8cc028a87e6aeb70297d45cd47f73680ff7d334a24218066866ec6"
+    },
+    "topics": {
+      "file_id": "1nhaTIVai-X4jUqBtR7wGSJVA6tCnjkQf",
+      "bytes": 109103,
+      "sha256_local_verified": "6400e46376249e0596c3c4ed792ff7280a2144ef0b2c14d4557d5cd81816894b"
+    },
+    "mappings": {
+      "file_id": "1Q9BeuBSCBFE4-AXf-w8yG7Shf2isMy8D",
+      "bytes": 268646,
+      "sha256_local_verified": "c6e84e4174ddbe597f26b6b4822157720e7842acc86364a43ab2d0f28936e172"
+    }
+  },
+  "source_url": "https://drive.google.com/drive/folders/1xR1Cy2s70TMiZhb84G4xMOmGrFGnq2lo",
+  "limitations": [
+    "The source item is a curricular data atom, not a validated indivisible clinical claim.",
+    "Source descriptions are empty in all 985 rows, so no new syllabus details are inferred.",
+    "Normalized topic links retain candidate status and do not establish clinical knowledge.",
+    "Historical and paraphrased items are preserved separately.",
+    "Evidence-topic links from another corpus use a different topic ID namespace and are not bridged."
+  ]
+}

@@ -1,0 +1,635 @@
+{
+  "release": "W7-v0.4.2",
+  "updated": "2026-11-15",
+  "type": "ORIGINAL_EDUCATIONAL_REUSABLE_OBJECTS",
+  "sources": {
+    "MS_PNSTT": "https://www.gov.br/saude/pt-br/composicao/svsa/saude-do-trabalhador/pnstt",
+    "MS_RENASTT": "https://www.gov.br/saude/pt-br/composicao/svsa/saude-do-trabalhador/renast/renast",
+    "MS_CEREST": "https://www.gov.br/saude/pt-br/composicao/svsa/saude-do-trabalhador/renast/cerest",
+    "MS_P4922": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2024/prt4922_26_07_2024.html",
+    "MS_VISAT": "https://www.gov.br/saude/pt-br/composicao/svsa/saude-do-trabalhador/vigilancia-em-saude-do-trabalhador-vigisat",
+    "MS_NOTIF": "https://www.gov.br/saude/pt-br/composicao/svsa/notificacao-compulsoria",
+    "MS_P11211": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html",
+    "MTE_NR17": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/norma-regulamentadora-no-17-nr-17",
+    "MTE_NR1": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/nr-1"
+  },
+  "cases": [
+    {
+      "id": "W7-CASE-042-SUS",
+      "title": "Trabalhadora autônoma e articulação no SUS",
+      "topics": [
+        "MICRO-WORK-00015",
+        "MICRO-WORK-00018",
+        "MICRO-WORK-00020"
+      ],
+      "sources": [
+        "MS_PNSTT",
+        "MS_RENASTT",
+        "MS_CEREST"
+      ],
+      "category": "PUBLIC_HEALTH_EDUCATION",
+      "fictional": true,
+      "scene": "Em um município fictício, uma pessoa autônoma relata dificuldades de saúde que associa a tarefas repetitivas. Outros trabalhadores do território descrevem atividades semelhantes. O serviço de atenção primária discute assistência individual e eventual articulação com vigilância. Nenhum diagnóstico é fornecido neste cenário.",
+      "questions": [
+        {
+          "stem": "A pessoa sem carteira assinada pode integrar as ações de saúde do trabalhador no SUS?",
+          "options": [
+            "Não, a política limita-se a empregados celetistas",
+            "Sim, a atenção contempla diferentes vínculos de trabalho",
+            "Somente quando existe CAT emitida"
+          ],
+          "correct_index": 1,
+          "rationale": "O campo de saúde do trabalhador no SUS considera diferentes vínculos e modos de trabalho.",
+          "sources": [
+            "MS_PNSTT"
+          ]
+        },
+        {
+          "stem": "Qual é o papel do Cerest no cenário?",
+          "options": [
+            "Substituir toda a rede assistencial",
+            "Oferecer referência especializada e articulação de vigilância conforme o território",
+            "Realizar exclusivamente exames admissionais"
+          ],
+          "correct_index": 1,
+          "rationale": "Cerest é referência especializada da Renastt, com limites assistenciais próprios.",
+          "sources": [
+            "MS_CEREST",
+            "MS_RENASTT"
+          ]
+        },
+        {
+          "stem": "Relatos semelhantes comprovam causalidade individual?",
+          "options": [
+            "Sim, automaticamente",
+            "Não, constituem pistas para avaliação apropriada",
+            "Sim, dispensam qualquer investigação"
+          ],
+          "correct_index": 1,
+          "rationale": "Sinal coletivo de vigilância não equivale a diagnóstico e nexo individual.",
+          "sources": [
+            "MS_PNSTT"
+          ]
+        }
+      ],
+      "reflection": [
+        "Qual a diferença entre uma necessidade de cuidado individual e hipótese de risco coletivo?",
+        "Que informações sobre o trabalho real precisam ser obtidas antes de atribuir causalidade?"
+      ],
+      "expected_learning": "Distinguir atenção integral, rede especializada e produção de evidências de vigilância sem excluir trabalho autônomo."
+    },
+    {
+      "id": "W7-CASE-042-NOTIF",
+      "title": "Eventos ocupacionais com periodicidades distintas",
+      "topics": [
+        "MICRO-WORK-00407",
+        "MICRO-WORK-00408"
+      ],
+      "sources": [
+        "MS_P11211",
+        "MS_NOTIF"
+      ],
+      "category": "EPIDEMIOLOGY_EDUCATION",
+      "fictional": true,
+      "scene": "Um banco sintético registra um acidente de trabalho e, separadamente, um acidente de trabalho com exposição a material biológico. A equipe de treinamento consulta o Anexo I da Portaria GM/MS 11.211/2026 e não deve inferir que os dois eventos são idênticos para fins de periodicidade.",
+      "questions": [
+        {
+          "stem": "Qual periodicidade o anexo consultado indica para acidente de trabalho?",
+          "options": [
+            "Imediata até 24 horas à Secretaria Municipal de Saúde",
+            "Semanal em todas as situações",
+            "Somente quando houver sentença judicial"
+          ],
+          "correct_index": 0,
+          "rationale": "O Anexo I registra notificação imediata à SMS para acidente de trabalho.",
+          "sources": [
+            "MS_P11211"
+          ]
+        },
+        {
+          "stem": "Como aparece a exposição ocupacional a material biológico no mesmo anexo?",
+          "options": [
+            "Sem notificação",
+            "Notificação semanal",
+            "Exclusivamente notificação anual"
+          ],
+          "correct_index": 1,
+          "rationale": "O acidente de trabalho com exposição a material biológico possui marcação semanal no anexo.",
+          "sources": [
+            "MS_P11211"
+          ]
+        },
+        {
+          "stem": "A ficha de notificação é um laudo clínico individual completo?",
+          "options": [
+            "Sim",
+            "Não, notificação e investigação têm finalidades próprias",
+            "Sim, sempre dispensa avaliação"
+          ],
+          "correct_index": 1,
+          "rationale": "A finalidade de vigilância não deve ser confundida com diagnóstico individual.",
+          "sources": [
+            "MS_NOTIF"
+          ]
+        }
+      ],
+      "reflection": [
+        "Por que é incorreto consultar apenas a lista de janeiro de 2026?",
+        "Quais diferenças entre os eventos precisam ser verificadas antes de orientar fluxos locais?"
+      ],
+      "expected_learning": "Usar edição normativa identificada e diferenciar periodicidade, comunicação e investigação sem extrapolar para atendimento clínico."
+    },
+    {
+      "id": "W7-CASE-042-ERG",
+      "title": "Avaliação ergonômica após mudanças no trabalho",
+      "topics": [
+        "MICRO-WORK-00315",
+        "MICRO-WORK-00351"
+      ],
+      "sources": [
+        "MTE_NR17",
+        "MTE_NR1"
+      ],
+      "category": "OCCUPATIONAL_PREVENTION_EDUCATION",
+      "fictional": true,
+      "scene": "Um serviço fictício alterou seus processos e passou a exigir várias tarefas simultâneas, sob maior pressão temporal. Os trabalhadores descrevem dificuldades. Uma equipe técnica pretende avaliar a situação sem transformar o levantamento em triagem psiquiátrica individual.",
+      "questions": [
+        {
+          "stem": "Qual é o papel da AEP nesse contexto?",
+          "options": [
+            "Diagnosticar depressão em todos os empregados",
+            "Examinar inicialmente as condições de trabalho e subsidiar prevenção",
+            "Eliminar necessidade de qualquer registro"
+          ],
+          "correct_index": 1,
+          "rationale": "AEP é avaliação inicial de situações de trabalho prevista na NR-17.",
+          "sources": [
+            "MTE_NR17"
+          ]
+        },
+        {
+          "stem": "Quando a AET pode ser necessária?",
+          "options": [
+            "Em situações de aprofundamento previstas na NR-17",
+            "Obrigatoriamente para qualquer pequena atividade, sem critérios",
+            "Nunca, após AEP"
+          ],
+          "correct_index": 0,
+          "rationale": "O item 17.3.2 prevê condições específicas para AET.",
+          "sources": [
+            "MTE_NR17"
+          ]
+        },
+        {
+          "stem": "Um fator psicossocial do trabalho equivale a diagnóstico psiquiátrico?",
+          "options": [
+            "Sim, automaticamente",
+            "Não, são objetos de avaliação diferentes",
+            "Apenas quando há uma meta de produção"
+          ],
+          "correct_index": 1,
+          "rationale": "A NR-1 trata de fatores relacionados às condições e organização de trabalho.",
+          "sources": [
+            "MTE_NR1"
+          ]
+        }
+      ],
+      "reflection": [
+        "Como documentar evidências do trabalho real sem expor dados sensíveis de trabalhadores?",
+        "Que medida candidata precisaria de acompanhamento para demonstrar efetividade?"
+      ],
+      "expected_learning": "Separar avaliação ergonômica, fatores psicossociais de trabalho e cuidado clínico individual."
+    },
+    {
+      "id": "W7-CASE-042-DADOS",
+      "title": "Completude e duplicações no Sinan",
+      "topics": [
+        "MICRO-WORK-00408",
+        "MICRO-WORK-00409",
+        "MICRO-WORK-00396"
+      ],
+      "sources": [
+        "MS_NOTIF",
+        "MS_VISAT"
+      ],
+      "category": "DATA_QUALITY_EDUCATION",
+      "fictional": true,
+      "scene": "Em uma planilha inteiramente fictícia, dois registros têm o mesmo código de pessoa e datas diferentes; outro registro não contém informação de ocupação. Um grupo propõe eliminar automaticamente um dos registros e considerar a ocupação vazia como ausência de vínculo com o trabalho.",
+      "questions": [
+        {
+          "stem": "O campo ocupação vazio comprova que a pessoa não trabalhava?",
+          "options": [
+            "Sim",
+            "Não, representa dado não informado",
+            "Sim, pois a ficha é sempre completa"
+          ],
+          "correct_index": 1,
+          "rationale": "Informação ausente não é resposta negativa.",
+          "sources": [
+            "MS_NOTIF"
+          ]
+        },
+        {
+          "stem": "Dois registros de uma mesma pessoa devem ser apagados sem análise?",
+          "options": [
+            "Sim, automaticamente",
+            "Não, podem representar eventos distintos ou duplicação",
+            "Sim, se o nome coincidir"
+          ],
+          "correct_index": 1,
+          "rationale": "A deduplicação requer critério e preservação de rastreabilidade.",
+          "sources": [
+            "MS_NOTIF"
+          ]
+        },
+        {
+          "stem": "Por que o Sinan interessa à vigilância?",
+          "options": [
+            "Para subsidiar análise epidemiológica e planejamento",
+            "Para substituir todos os exames e investigações",
+            "Para publicar dados pessoais em materiais didáticos"
+          ],
+          "correct_index": 0,
+          "rationale": "Dados de vigilância apoiam entendimento de eventos e prioridades sanitárias.",
+          "sources": [
+            "MS_NOTIF",
+            "MS_VISAT"
+          ]
+        }
+      ],
+      "reflection": [
+        "Como registrar que uma hipótese de duplicação ainda não foi confirmada?",
+        "Quais campos de qualidade deveriam ser examinados antes de gerar indicadores?"
+      ],
+      "expected_learning": "Tratar registros de vigilância com método, proteção de dados e distinção entre ausência e negativo."
+    }
+  ],
+  "checklists": [
+    {
+      "id": "W7-CHECK-042-SUS",
+      "title": "Análise educacional de integralidade e rede",
+      "topics": [
+        "MICRO-WORK-00015",
+        "MICRO-WORK-00016",
+        "MICRO-WORK-00017",
+        "MICRO-WORK-00018",
+        "MICRO-WORK-00020"
+      ],
+      "sources": [
+        "MS_PNSTT",
+        "MS_RENASTT",
+        "MS_P4922",
+        "MS_CEREST"
+      ],
+      "items": [
+        "Foi considerada a situação de trabalho, mesmo sem vínculo formal?",
+        "A diferença entre cuidado individual e vigilância coletiva está clara?",
+        "A denominação Renastt foi usada com marco da Portaria 4.922/2024?",
+        "O papel especializado do Cerest foi descrito sem atribuir função de pronto atendimento?",
+        "Interpretações e exemplos estão separados de obrigações normativas?"
+      ],
+      "scope": "EDUCATIONAL_CHECKLIST_NOT_CERTIFICATION"
+    },
+    {
+      "id": "W7-CHECK-042-VISAT",
+      "title": "Qualidade de conteúdo de notificação 2026",
+      "topics": [
+        "MICRO-WORK-00396",
+        "MICRO-WORK-00397",
+        "MICRO-WORK-00407",
+        "MICRO-WORK-00408",
+        "MICRO-WORK-00409"
+      ],
+      "sources": [
+        "MS_VISAT",
+        "MS_NOTIF",
+        "MS_P11211"
+      ],
+      "items": [
+        "A referência da lista nacional identifica a edição de maio de 2026?",
+        "Acidente de trabalho e acidente com exposição biológica foram distinguidos?",
+        "Suspeita, confirmação, notificação e investigação não foram confundidas?",
+        "Campos sem informação não foram tratados como resultado negativo?",
+        "Informações pessoais ou identificáveis foram excluídas dos exemplos?",
+        "Foram indicados limites do uso de normas federais para fluxos locais?"
+      ],
+      "scope": "EDUCATIONAL_CHECKLIST_NOT_OPERATIONAL_NOTIFIER"
+    },
+    {
+      "id": "W7-CHECK-042-ERG",
+      "title": "Diferenças entre AEP, AET e riscos psicossociais",
+      "topics": [
+        "MICRO-WORK-00315",
+        "MICRO-WORK-00351"
+      ],
+      "sources": [
+        "MTE_NR17",
+        "MTE_NR1"
+      ],
+      "items": [
+        "As condições e a organização do trabalho foram consideradas?",
+        "AEP foi apresentada como avaliação preliminar e AET como aprofundamento?",
+        "Os gatilhos da AET foram contextualizados segundo a NR-17?",
+        "A versão vigente da NR-1 de maio de 2026 foi identificada?",
+        "Fatores psicossociais não foram apresentados como diagnóstico de empregados?",
+        "Medidas preventivas foram vinculadas à avaliação e ao acompanhamento?"
+      ],
+      "scope": "EDUCATIONAL_CHECKLIST_NOT_CLINICAL_SCREENING"
+    }
+  ],
+  "standalone_questions": [
+    {
+      "id": "W7-CASE-042-SUS-Q1",
+      "case_id": "W7-CASE-042-SUS",
+      "topics": [
+        "MICRO-WORK-00015",
+        "MICRO-WORK-00018",
+        "MICRO-WORK-00020"
+      ],
+      "kind": "MCQ",
+      "stem": "A pessoa sem carteira assinada pode integrar as ações de saúde do trabalhador no SUS?",
+      "options": [
+        "Não, a política limita-se a empregados celetistas",
+        "Sim, a atenção contempla diferentes vínculos de trabalho",
+        "Somente quando existe CAT emitida"
+      ],
+      "correct_index": 1,
+      "rationale": "O campo de saúde do trabalhador no SUS considera diferentes vínculos e modos de trabalho.",
+      "sources": [
+        "MS_PNSTT"
+      ],
+      "publication_allowed": false,
+      "rights": "AUTHORIAL"
+    },
+    {
+      "id": "W7-CASE-042-SUS-Q2",
+      "case_id": "W7-CASE-042-SUS",
+      "topics": [
+        "MICRO-WORK-00015",
+        "MICRO-WORK-00018",
+        "MICRO-WORK-00020"
+      ],
+      "kind": "MCQ",
+      "stem": "Qual é o papel do Cerest no cenário?",
+      "options": [
+        "Substituir toda a rede assistencial",
+        "Oferecer referência especializada e articulação de vigilância conforme o território",
+        "Realizar exclusivamente exames admissionais"
+      ],
+      "correct_index": 1,
+      "rationale": "Cerest é referência especializada da Renastt, com limites assistenciais próprios.",
+      "sources": [
+        "MS_CEREST",
+        "MS_RENASTT"
+      ],
+      "publication_allowed": false,
+      "rights": "AUTHORIAL"
+    },
+    {
+      "id": "W7-CASE-042-SUS-Q3",
+      "case_id": "W7-CASE-042-SUS",
+      "topics": [
+        "MICRO-WORK-00015",
+        "MICRO-WORK-00018",
+        "MICRO-WORK-00020"
+      ],
+      "kind": "MCQ",
+      "stem": "Relatos semelhantes comprovam causalidade individual?",
+      "options": [
+        "Sim, automaticamente",
+        "Não, constituem pistas para avaliação apropriada",
+        "Sim, dispensam qualquer investigação"
+      ],
+      "correct_index": 1,
+      "rationale": "Sinal coletivo de vigilância não equivale a diagnóstico e nexo individual.",
+      "sources": [
+        "MS_PNSTT"
+      ],
+      "publication_allowed": false,
+      "rights": "AUTHORIAL"
+    },
+    {
+      "id": "W7-CASE-042-NOTIF-Q1",
+      "case_id": "W7-CASE-042-NOTIF",
+      "topics": [
+        "MICRO-WORK-00407",
+        "MICRO-WORK-00408"
+      ],
+      "kind": "MCQ",
+      "stem": "Qual periodicidade o anexo consultado indica para acidente de trabalho?",
+      "options": [
+        "Imediata até 24 horas à Secretaria Municipal de Saúde",
+        "Semanal em todas as situações",
+        "Somente quando houver sentença judicial"
+      ],
+      "correct_index": 0,
+      "rationale": "O Anexo I registra notificação imediata à SMS para acidente de trabalho.",
+      "sources": [
+        "MS_P11211"
+      ],
+      "publication_allowed": false,
+      "rights": "AUTHORIAL"
+    },
+    {
+      "id": "W7-CASE-042-NOTIF-Q2",
+      "case_id": "W7-CASE-042-NOTIF",
+      "topics": [
+        "MICRO-WORK-00407",
+        "MICRO-WORK-00408"
+      ],
+      "kind": "MCQ",
+      "stem": "Como aparece a exposição ocupacional a material biológico no mesmo anexo?",
+      "options": [
+        "Sem notificação",
+        "Notificação semanal",
+        "Exclusivamente notificação anual"
+      ],
+      "correct_index": 1,
+      "rationale": "O acidente de trabalho com exposição a material biológico possui marcação semanal no anexo.",
+      "sources": [
+        "MS_P11211"
+      ],
+      "publication_allowed": false,
+      "rights": "AUTHORIAL"
+    },
+    {
+      "id": "W7-CASE-042-NOTIF-Q3",
+      "case_id": "W7-CASE-042-NOTIF",
+      "topics": [
+        "MICRO-WORK-00407",
+        "MICRO-WORK-00408"
+      ],
+      "kind": "MCQ",
+      "stem": "A ficha de notificação é um laudo clínico individual completo?",
+      "options": [
+        "Sim",
+        "Não, notificação e investigação têm finalidades próprias",
+        "Sim, sempre dispensa avaliação"
+      ],
+      "correct_index": 1,
+      "rationale": "A finalidade de vigilância não deve ser confundida com diagnóstico individual.",
+      "sources": [
+        "MS_NOTIF"
+      ],
+      "publication_allowed": false,
+      "rights": "AUTHORIAL"
+    },
+    {
+      "id": "W7-CASE-042-ERG-Q1",
+      "case_id": "W7-CASE-042-ERG",
+      "topics": [
+        "MICRO-WORK-00315",
+        "MICRO-WORK-00351"
+      ],
+      "kind": "MCQ",
+      "stem": "Qual é o papel da AEP nesse contexto?",
+      "options": [
+        "Diagnosticar depressão em todos os empregados",
+        "Examinar inicialmente as condições de trabalho e subsidiar prevenção",
+        "Eliminar necessidade de qualquer registro"
+      ],
+      "correct_index": 1,
+      "rationale": "AEP é avaliação inicial de situações de trabalho prevista na NR-17.",
+      "sources": [
+        "MTE_NR17"
+      ],
+      "publication_allowed": false,
+      "rights": "AUTHORIAL"
+    },
+    {
+      "id": "W7-CASE-042-ERG-Q2",
+      "case_id": "W7-CASE-042-ERG",
+      "topics": [
+        "MICRO-WORK-00315",
+        "MICRO-WORK-00351"
+      ],
+      "kind": "MCQ",
+      "stem": "Quando a AET pode ser necessária?",
+      "options": [
+        "Em situações de aprofundamento previstas na NR-17",
+        "Obrigatoriamente para qualquer pequena atividade, sem critérios",
+        "Nunca, após AEP"
+      ],
+      "correct_index": 0,
+      "rationale": "O item 17.3.2 prevê condições específicas para AET.",
+      "sources": [
+        "MTE_NR17"
+      ],
+      "publication_allowed": false,
+      "rights": "AUTHORIAL"
+    },
+    {
+      "id": "W7-CASE-042-ERG-Q3",
+      "case_id": "W7-CASE-042-ERG",
+      "topics": [
+        "MICRO-WORK-00315",
+        "MICRO-WORK-00351"
+      ],
+      "kind": "MCQ",
+      "stem": "Um fator psicossocial do trabalho equivale a diagnóstico psiquiátrico?",
+      "options": [
+        "Sim, automaticamente",
+        "Não, são objetos de avaliação diferentes",
+        "Apenas quando há uma meta de produção"
+      ],
+      "correct_index": 1,
+      "rationale": "A NR-1 trata de fatores relacionados às condições e organização de trabalho.",
+      "sources": [
+        "MTE_NR1"
+      ],
+      "publication_allowed": false,
+      "rights": "AUTHORIAL"
+    },
+    {
+      "id": "W7-CASE-042-DADOS-Q1",
+      "case_id": "W7-CASE-042-DADOS",
+      "topics": [
+        "MICRO-WORK-00408",
+        "MICRO-WORK-00409",
+        "MICRO-WORK-00396"
+      ],
+      "kind": "MCQ",
+      "stem": "O campo ocupação vazio comprova que a pessoa não trabalhava?",
+      "options": [
+        "Sim",
+        "Não, representa dado não informado",
+        "Sim, pois a ficha é sempre completa"
+      ],
+      "correct_index": 1,
+      "rationale": "Informação ausente não é resposta negativa.",
+      "sources": [
+        "MS_NOTIF"
+      ],
+      "publication_allowed": false,
+      "rights": "AUTHORIAL"
+    },
+    {
+      "id": "W7-CASE-042-DADOS-Q2",
+      "case_id": "W7-CASE-042-DADOS",
+      "topics": [
+        "MICRO-WORK-00408",
+        "MICRO-WORK-00409",
+        "MICRO-WORK-00396"
+      ],
+      "kind": "MCQ",
+      "stem": "Dois registros de uma mesma pessoa devem ser apagados sem análise?",
+      "options": [
+        "Sim, automaticamente",
+        "Não, podem representar eventos distintos ou duplicação",
+        "Sim, se o nome coincidir"
+      ],
+      "correct_index": 1,
+      "rationale": "A deduplicação requer critério e preservação de rastreabilidade.",
+      "sources": [
+        "MS_NOTIF"
+      ],
+      "publication_allowed": false,
+      "rights": "AUTHORIAL"
+    },
+    {
+      "id": "W7-CASE-042-DADOS-Q3",
+      "case_id": "W7-CASE-042-DADOS",
+      "topics": [
+        "MICRO-WORK-00408",
+        "MICRO-WORK-00409",
+        "MICRO-WORK-00396"
+      ],
+      "kind": "MCQ",
+      "stem": "Por que o Sinan interessa à vigilância?",
+      "options": [
+        "Para subsidiar análise epidemiológica e planejamento",
+        "Para substituir todos os exames e investigações",
+        "Para publicar dados pessoais em materiais didáticos"
+      ],
+      "correct_index": 0,
+      "rationale": "Dados de vigilância apoiam entendimento de eventos e prioridades sanitárias.",
+      "sources": [
+        "MS_NOTIF",
+        "MS_VISAT"
+      ],
+      "publication_allowed": false,
+      "rights": "AUTHORIAL"
+    }
+  ],
+  "qa": {
+    "mode": "LOCAL_STRUCTURAL_ASSERTIONS_ONLY",
+    "passed": 11,
+    "failed": 0,
+    "assertions": {
+      "four_cases": true,
+      "three_checklists": true,
+      "twelve_questions": true,
+      "unique_qids": true,
+      "valid_answers": true,
+      "all_sources_exist": true,
+      "all_questions_grounded": true,
+      "all_fictional": true,
+      "no_publication": true,
+      "all_topics_w7": true,
+      "separate_cases_and_checklists": true
+    }
+  },
+  "curricular_relations_approved": false,
+  "clinical_reviewed": false,
+  "publication_allowed": false
+}

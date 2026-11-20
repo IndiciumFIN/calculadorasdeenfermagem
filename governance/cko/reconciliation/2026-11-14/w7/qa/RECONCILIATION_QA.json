@@ -1,0 +1,40 @@
+{
+  "audit_date": "2026-11-14",
+  "cautions": [
+    "M08/M09 exact integrity means identity and content hash consistency, NOT legal, clinical or temporal approval.",
+    "The corpus has two non-equivalent atomization pipelines: 28,001 Drive atoms vs 17 PDF records in Supabase marked LOCAL_ARTIFACT_NOT_DURABLE.",
+    "W5 eight NormAtom candidates lack primary fragment hashes; W6 six sources lack fragment hashes.",
+    "Curriculum identifiers are exact joins, but institution program != endorsed curriculum for platform.",
+    "UC08 Cardiologia remains conflict HOLD with UC07 and UC09.",
+    "No authorial source text or restricted PDF embedded in deliverable."
+  ],
+  "checks": {
+    "M08_M09_claim_links_checked": 46,
+    "M08_M09_claim_links_exact_source_document_atom_locator_and_two_hashes": 46,
+    "M08_M09_human_approved": 0,
+    "W5_normatoms_missing_fragment_hashes": 8,
+    "W5_source_registry_size": 7,
+    "W6_primary_source_fragment_hashes_missing": 6,
+    "W6_primary_source_ledger_size": 6,
+    "all_9102_topic_evidence_links_noncanonical": true,
+    "no_publication_allowed": true,
+    "program_context_links": 30,
+    "target_curriculum_topic_mappings": 274,
+    "target_programs": 17,
+    "target_unique_curriculum_items": 162
+  },
+  "datasets_source": "Drive CORPUS_CANONICO_INDIVIDUAL, local raw JSONL verified this turn",
+  "main_update_allowed": false,
+  "release_allowed": false,
+  "source_counts": {
+    "curriculum_items": 985,
+    "curriculum_mappings": 1514,
+    "curriculum_topics": 182,
+    "documents": 124,
+    "evidence_atoms": 28001,
+    "programs": 114,
+    "sources": 118,
+    "topic_evidence_candidates": 9102
+  },
+  "status": "PASS_PROVENANCE_HOLD_SEMANTICS"
+}

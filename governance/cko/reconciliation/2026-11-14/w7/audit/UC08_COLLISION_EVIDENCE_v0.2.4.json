@@ -1,0 +1,99 @@
+{
+  "finding_id": "W7-004",
+  "additional_related_finding": "W4-01",
+  "source_branch": "cko/cardiologia-corpus-editorial-20261114",
+  "source_csv_files": [
+    "01_unidades_curriculares.csv",
+    "02_modulos.csv",
+    "03_topicos.csv"
+  ],
+  "source_blob_sha": {
+    "01_unidades_curriculares.csv": "0be8471944f61e8133a9fb8a46f4fa7135f31bec",
+    "02_modulos.csv": "1bb0d65c9f99cd8b7e5263a9a668a940c353eddb",
+    "03_topicos.csv": "3598fe166b59dd367d059c58357c3d60db1ad802"
+  },
+  "normalization_rule": "NFD remove diacritics, lowercase, collapse spaces; never rewrite original titles",
+  "units_07_08_09": [
+    {
+      "unit_id": "CARDIOLOGIA-UC-07",
+      "source_id": "CKO-SRC-ED6E4476BEC40EFB",
+      "title": "Cirurgia Cardíaca e Cuidados no Pós-Operatório",
+      "declared_hours": 30,
+      "unit_status": "EMENTA_RECEBIDA",
+      "module_count": 8,
+      "topic_count": 42,
+      "module_hours_total": 30,
+      "module_hours_discrepancy": 0,
+      "module_title_examples": [
+        "Fundamentos da cirurgia cardíaca",
+        "Tipos de cirurgias cardíacas",
+        "Período perioperatório"
+      ],
+      "curriculum_approved": false
+    },
+    {
+      "unit_id": "CARDIOLOGIA-UC-08",
+      "source_id": "CKO-SRC-CB74549CFD62B7CB",
+      "title": "Suporte Circulatório Mecânico e transplante cardíaco",
+      "declared_hours": 30,
+      "unit_status": "EMENTA_RECEBIDA_NAO_CONCILIADA",
+      "module_count": 0,
+      "topic_count": 0,
+      "module_hours_total": 0,
+      "module_hours_discrepancy": 30,
+      "module_title_examples": [],
+      "curriculum_approved": false
+    },
+    {
+      "unit_id": "CARDIOLOGIA-UC-09",
+      "source_id": "CKO-SRC-ED6E4476BEC40EFB",
+      "title": "Suporte Circulatório Mecânico e Transplante Cardíaco",
+      "declared_hours": 30,
+      "unit_status": "EMENTA_RECEBIDA",
+      "module_count": 3,
+      "topic_count": 25,
+      "module_hours_total": 30,
+      "module_hours_discrepancy": 0,
+      "module_title_examples": [
+        "Fundamentos do suporte circulatório mecânico",
+        "Cuidados de enfermagem em suporte circulatório mecânico",
+        "Transplante cardíaco"
+      ],
+      "curriculum_approved": false
+    }
+  ],
+  "observed": {
+    "number_of_units": 10,
+    "number_of_modules": 51,
+    "number_of_topics": 295,
+    "declared_hours": 300,
+    "allocated_module_hours": 270,
+    "unallocated_hours": 30,
+    "uc08_has_zero_modules": true,
+    "uc08_has_zero_topics": true,
+    "duplicate_title_pairs": [
+      {
+        "normalized_title": "suporte circulatorio mecanico e transplante cardiaco",
+        "unit_ids": [
+          "CARDIOLOGIA-UC-08",
+          "CARDIOLOGIA-UC-09"
+        ]
+      }
+    ],
+    "orphan_module_ids": [],
+    "orphan_topic_ids": [],
+    "w4_previous_evidence": "CKO_W4_REUSO_INTERESPECIALIDADES_20261114.zip::dados/curriculum_collision_ledger.jsonl",
+    "w4_prior_axial_overlap": "8 of 8 UC08 axes overlap UC07; historical W4 finding, not newly reverified from institutional original"
+  },
+  "decision": "HOLD_CURRICULUM_CONFLICT",
+  "semantic_status": "ALTERNATIVE_SOURCE_CANDIDATE_NOT_CANONICAL",
+  "actions": [
+    "Request original institution-certified UC08 syllabus and definitive unit number/title",
+    "Keep UC07 and UC09 as separate existing records; do not auto-deduplicate",
+    "Never transfer UC07 module hours to UC08 or invent module/tops",
+    "If institution confirms substitution, create explicit human-approved supersession mapping and versioned provenance",
+    "Until resolution, 30 UC08 hours should not be called module-supported"
+  ],
+  "human_approval": false,
+  "publication_allowed": false
+}

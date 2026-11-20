@@ -1,0 +1,32 @@
+{
+  "release": "CKO_W7_CURRICULUM_CANDIDATE_CONTEXT_TRIAGE_v0.3.3",
+  "as_of": "2026-11-14",
+  "scope": "CURRICULUM_ATOMIZED_METADATA_REVIEW_ONLY",
+  "prior_GitHub_ledger_blob_sha": "a5bed1d6fae5ebc1d123638a90b633179410e0f9",
+  "prior_candidates_retained": 27,
+  "microtopics_represented": 18,
+  "source_microtopics_total": 1055,
+  "source_microtopics_without_lexical_suggestion": 1037,
+  "classifications": {
+    "SHARED_THEME_CONTEXT_DIVERGES": 11,
+    "POSSIBLE_SUBTOPIC_OR_PART_OF_NEEDS_SOURCE": 12,
+    "NO_DIRECT_EQUIVALENCE_SUPPORTED_BY_CONTEXT": 3,
+    "EXACT_LABEL_ONLY_NOT_SEMANTIC_EQUIVALENCE": 1
+  },
+  "original_cur_item_atoms_preserved": 985,
+  "original_cur_topic_links_preserved": 1514,
+  "historic_42_curriculum_title_candidates_preserved": true,
+  "original_primary_source_fragments_rechecked": false,
+  "human_semantic_approvals": 0,
+  "automatic_semantic_links_added": 0,
+  "rights_clearances": 0,
+  "technical_review_qa_local": {
+    "passed": 19,
+    "failed": 0
+  },
+  "technical_review_local_package_sha256": "f2a5a5201426305f5980ccbd0a1fb802211d19fb2d074f27a4ef0863e8bdc911",
+  "technical_review_source_queue_sha256": "0821fe9ce465a31846e78b799842e17f780818c503bc201a27846f1333bc612e",
+  "classification_rationale": "Labels and original module/discipline contexts were compared locally; public GitHub ledger includes IDs and recommendations, not source titles.",
+  "limit": "Technical pre-triage by source metadata only; neither human semantic approval nor license to reproduce underlying protected curricular text.",
+  "release_allowed": false
+}
